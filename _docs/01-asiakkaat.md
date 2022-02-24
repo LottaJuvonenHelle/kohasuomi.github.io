@@ -22,7 +22,7 @@ tyypin.
 ### Henkilötunnus ja sotu-siilo
 
 Kohaan on tehty Suomessa uusi ominaisuus, sotu-siilo, jonne tallennetaan
-tietoturvallisesti asiakkaiden henkilötunnukset.
+tietoturvallisesti asiakkaiden henkilötunnukset. Sotu-siilo on yhteinen kaikille kimpoille.
 
 Oheisissa ruutukaappauksissa käytetty sotu on tehty
 henkilötunnusgeneraattorin avulla, se ei ole kenenkään henkilön oikea
@@ -61,7 +61,7 @@ Ilmoitus sotun olemassa olosta voi tulla myös, jos olet epähuomiossa
 tuplaklikannut _Lisää sotu!_ –painiketta. Tuplaklikkaus aiheuttaa sen,
 että asiakkaan henkilötunnus oli tallentunut jo ensimmäisellä
 klikkauksella sotusiiloon ja toisella klikkauksella Koha antaa yllä
-olevan ilmoituksen.
+olevan ilmoituksen. 
 
 #### Sotu-siilon käyttöliittymä
 
