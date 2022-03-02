@@ -10,7 +10,7 @@ toc: true
 
 Koha-Suomi tukee Firefox ESR-versiota.
 
-## 9.1. Firefoxin versiossa 78+
+## 9.1 Firefoxin versiossa 78+
 
 Avaa selaimen valikko oikeasta yläkulmasta, valitse sieltä Tulosta.
 
