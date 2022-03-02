@@ -125,9 +125,8 @@ Klikkaa tämän jälkeen "Enemmän asetuksia".
 - Koko: valitse "Sovita sivun leveyteen"
 - Sivuja per arkki: 1
 - Reunukset: valitse "Ei reunuksia"
-- Ota valinnat pois l"Tulosta ylä- ja alatunnisteet" sekä Tulosta taustat".
+- Ota valinnat pois "Tulosta ylä- ja alatunnisteet" sekä "Tulosta taustat".
 
 Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus. 
 Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta. 
 Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.3 mukaisesti.
-- 
