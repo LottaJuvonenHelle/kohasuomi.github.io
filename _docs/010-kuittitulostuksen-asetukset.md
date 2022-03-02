@@ -10,7 +10,7 @@ toc: true
 
 Koha-Suomi tukee Firefox ESR-versiota.
 
-## 9.1. Firefoxissa
+## 9.1. Firefoxin versiossa 78+
 
 Avaa selaimen valikko oikeasta yläkulmasta, valitse sieltä Tulosta.
 
@@ -106,3 +106,7 @@ sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
 kimppasi/kirjastosi Koha-sivustolle.  
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.png)  
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot.png)
+
+## 9.5 Firefoxin versiossa 90+
+
+Valitse Valikko-menusta "Tulosta..." ja avautuvalta sivulta käyttämäsi kuittitulostin.
