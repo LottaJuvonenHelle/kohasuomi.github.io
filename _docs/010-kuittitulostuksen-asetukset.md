@@ -110,3 +110,7 @@ kimppasi/kirjastosi Koha-sivustolle.
 ## 9.5 Firefoxin versiossa 90+
 
 Valitse Valikko-menusta "Tulosta..." ja avautuvalta sivulta käyttämäsi kuittitulostin.
+
+![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostusasetukset2.png)
+
+
