@@ -109,8 +109,25 @@ kimppasi/kirjastosi Koha-sivustolle.
 
 ## 9.5 Firefoxin versiossa 90+
 
-Avaa selaimen Valikko-menu ja valitse "Tulosta...". Avautuvalta sivulta avaa käyttämäsi kuittitulostin.
+Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostusasetukset2.png)
 
+Avautuvan sivun asetukset:
+- Kohde: valitse alaspudotusvalikosta käyttämäsi kuittitulostin.
+- Kopioita: 1
+- Suunta: Pysty
+- Sivut: Kaikki
+- Väritila: Mustavalkoinen
 
+Klikkaa tämän jälkeen "Enemmän asetuksia".
+- Paperin koko: valitse sopiva vaihtoehto. Yleisin koko on 80x297 mm.
+- Koko: valitse "Sovita sivun leveyteen"
+- Sivuja per arkki: 1
+- Reunukset: valitse "Ei reunuksia"
+- Ota valinnat pois l"Tulosta ylä- ja alatunnisteet" sekä Tulosta taustat".
+
+Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus. 
+Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta. 
+Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.3 mukaisesti.
+- 
