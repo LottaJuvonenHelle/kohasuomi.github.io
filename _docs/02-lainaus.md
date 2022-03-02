@@ -9,12 +9,12 @@ toc: true
 # 2. Lainaus
 
 Käytä lainaustoiminnoissa Firefox-selainta, jolla voit tulostaa
-automaattisesti asiakaskuitit (ohje kohdassa 10. Kuittitulostuksen
-asetukset).
+automaattisesti asiakaskuitit (ohje kohdassa 9. Kuittitulostuksen
+asetukset). Koha-Suomi tukee Firefox ESR-versiota.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
 etusivulla on pikakuvakkeita, joista pääset ohjelman eri toimintoihin,
-mm. lainaus- ja palautustoimintoihin. Kaikista lainaustenvalvonnan
+mm. lainaus- ja palautustoimintoihin. Kaikista lainauksenvalvonnan
 toiminnoista on listaus **Lainaus ja palautus** -sivulla, jonne pääset
 jokaisen sivun vasemmasta yläreunasta olevasta linkistä.
 
