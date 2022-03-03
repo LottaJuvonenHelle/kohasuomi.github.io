@@ -77,10 +77,11 @@ Lainassa-välilehdellä näytetään.
 
 ## Varaukset
 
-**Varaukset**-välilehdellä näkyvät asiakkaan varaukset. Välilehdellä
+**Varaukset**-välilehdellä näkyvät asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
 voit poistaa varauksia, keskeyttää ja jatkaa varausten voimassaoloaikaa
-käyttämällä listauksen alapuolella olevia toimintapainikkeita, mikäli se
-on sallittu järjestelmäasetuksissa.  
+käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli ne
+ovat sallittu järjestelmäasetuksissa. 
+
 ![](/assets/files/docs/Lainaus/varaukset.png)
 
 ## Huomautukset
@@ -101,7 +102,7 @@ määritelty), näyttöön tulee ilmoitus:
 
 Tarkista asiakkaan yhteystiedot (osoite, puhelin numero,
 sähköpostiosoite, viestiasetukset). Jos tiedot ovat ajantasalla, klikkaa
-**Uusinta**. Jos tiedot täytyy päivittää, muokkaa asiakkaan tietoja.
+**Uusinta**. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä **Muokkaa tietoja**.
 
 Käyttöoikeuden voi jatkaa myös valikosta **Muita toimintoja**,
 valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
@@ -113,11 +114,11 @@ valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
 Kun olet lainannut kaikki asiakkaan lainat, voit tulostaa lainauskuitin
 eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 
-- voit tulostaa kuitin painamalla näppäimistöltä **Enter**. (Huom.
+- Voit tulostaa kuitin painamalla näppäimistöltä **Enter**. (Huom.
   järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
   asiakastiedot).
-- voit tulostaa kuitin painamalla pikanäppäimiä **Alt+P**.
-- voit myös klikata asiakastietojen yläpuolelta auki
+- Voit tulostaa kuitin painamalla pikanäppäimiä **Alt+P**.
+- Voit myös klikata asiakastietojen yläpuolelta auki
   **Tulosta**-valikon ja valita **Tänään lainatut**.
 
 ![](/assets/files/docs/Lainaus/tulostakuitti.png)
@@ -133,7 +134,7 @@ eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 - **Maksut:** tulostaa asiakkaan maksujen tilitiedot kuitille.
 - **Tulosta erääntyneet:** tulostaa myöhässä olevat lainat kuitille.
 
-Kimpan pääkäyttäjät voivat muokata kuiteille tulostettavia tietoja.
+Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
 ## 2.1.2 Asiakastietojen tyhjennys näytöltä
 
@@ -191,7 +192,7 @@ lainaus estyy.
 Lainaustilanteessa tulee huomautus:  
 ![](/assets/files/docs/Lainaus/tarkistaosoite.png)
 
-Huomautuksen voi poistaa, kun osoitetiedot on korjattu ja vaihtaa täpän
+Huomautuksen voi poistaa, kun osoitetiedot on korjattu ja vaihtaa asiakkaan muokkausnäytöllä täpän
 **Käyttäjätilin huomautukset** -kohdassa **Tarkista osoite** -kohtaan
 “Ei”.
 
