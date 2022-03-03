@@ -8,8 +8,8 @@ toc: true
 
 # 2. Lainaus
 
-Käytä lainaustoiminnoissa Firefox-selainta, jolla voit tulostaa
-automaattisesti asiakaskuitit (ohje kohdassa 9. Kuittitulostuksen
+Käytä lainaustoiminnoissa Firefox-selainta, jolla voit määrittää asiakaskuitit 
+tulostumaan automaattisesti (ohje kohdassa 9. Kuittitulostuksen
 asetukset). Koha-Suomi tukee Firefox ESR-versiota.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
@@ -51,15 +51,15 @@ Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
 
 **Lainausasetukset**
 
-- asetuksissa on mahdollista määritellä lainattavalle aineistolle muu
+- Asetuksissa on mahdollista määritellä lainattavalle aineistolle muu
   eräpäivä kuin oletuseräpäivä. Tämä vaihtoehto tulee näkyviin vain,
   jos järjestelmäasetuksissa on määritelty, että virkailijalla on
   oikeus muuttaa eräpäivää lainatessa.
-- jos kimpalla käytössä **automaattinen uusinta**, ohjelma uusii
-  lainatut teokset automaattisesti lainasääntöjen mukaisesti
-- toiminnolla **Älä lyhennä laina-aikaa varausten määrän pohjalta**
+- Jos kimpalla käytössä **automaattinen uusinta**, ohjelma uusii
+  lainatut teokset automaattisesti lainasääntöjen mukaisesti.
+- Toiminnolla **Älä lyhennä laina-aikaa varausten määrän pohjalta**
   voi ohittaa järjestelmäasetuksen, jolla lyhennetään laina-aikaa, jos
-  teoksen varausmäärä menee asetuksissa määritellyn rajan yli.
+  teoksen varausmäärä menee asetuksissa määritellyn rajan yli. Valinta tulee näkyviin vain kimpoissa, jossa tämä järjestelmäasetus on päällä.
 
 ## **Lainat**
 
