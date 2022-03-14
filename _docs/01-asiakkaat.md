@@ -121,10 +121,14 @@ alasvetovalikoista sopivat vaihtoehdot.
 ![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
 Saat listan hakuun sopivista asiakkaista. Valitse oikealta “Valitse”
-oikean henkilön kohdalla.
+oikean henkilön kohdalla. 
 
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
-![](/assets/files/docs/Asiakkaat/takaaja.PNG)
+
+Tallennuksen jälkeen huoltajan tiedoista näkyy vain kirjastokortin numero. Voit hakea ja 
+tallentaa lapsiasiakkaalle enemmän kuin yhden huoltajan tiedot.
+
+![](/assets/files/docs/Asiakkaat/Toinentakaaja.png)
 
 Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
