@@ -134,6 +134,8 @@ Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
 tietoihin toisella välilehdelle ja tee takaajahaku uudelleen.
 
+![](/assets/files/docs/Asiakkaat/Eiasiakastakaaja.png)
+
 ### Kirjastotiedot
 
 _Kirjastonhallinta-osio_ sisältää kirjastonkäyttöön liittyviä tietoja.
