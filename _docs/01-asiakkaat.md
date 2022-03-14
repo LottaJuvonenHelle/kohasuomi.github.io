@@ -399,9 +399,9 @@ ne kokonaan huomioimatta.
 Asiakkaan tiedot -linkistä pääset asiakkaan tietoihin katsomaan mm. onko asiakkaalla
 rajoitteita, jotka päivityksen yhteydessä on syytä ottaa pois.
 
-Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy sekä lainaus- että tiedotsivulla.
+Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy sekä lainaus- että tiedot-sivulla.
 
-
+![](/assets/files/docs/Asiakkaat/Odottavatmuutokset.png)
 
 ## 1.6 Asiakkaan tiedot
 
