@@ -6,39 +6,39 @@ redirect_from:
 toc: true
 ---
 
-# 3. Luettelointi
+# 3. Kuvailu
 
-Luettelointiin meno: Muita toimintoja -&gt; Luettelointi. Jos linkkiä ei
-näy, käyttäjätunnuksellasi ei ole luettelointioikeuksia.
+Kuvailuun meno: Muita toimintoja -&gt; Kuvailu. Jos linkkiä ei
+näy, käyttäjätunnuksellasi ei ole kuvailuoikeuksia.
 
-![](/assets/files/docs/Luettelointi/luettelointi.png)
+![](/assets/files/docs/Luettelointi/luettelointi.png) korjaa kuva
 
 ## 3.1. Bibliografiset tietueet
 
-Kohassa bibliografinen tietue (nimeketietue) sisältää luettelointitiedot
+Kohassa bibliografinen tietue (nimeketietue) sisältää kuvailutiedot
 aineistosta. Näitä tietoja ovat mm. nimeke, tekijä, ISBN ym. Tieto on
-tallennettu MARC 21 formaatin mukaisesti. Kun nimeketiedot on
+tallennettu MARC 21 -formaatin mukaisesti. Kun nimeketiedot on
 tallennettu, voidaan tietueelle lisätä niteitä.
 
 ### 3.1.1. Tietueen lisääminen
 
 #### Tyhjästä tietueesta
 
-Tietue voidaan lisätä luetteloimalla tai kopioimalla. Uusi nimeke
-voidaan luetteloida tyhjälle pohjalle.
+Tietue voidaan lisätä kuvailemalla tai kopioimalla. Uusi nimeke
+voidaan kuvailla tyhjälle pohjalle.
 
-Klikkaa _Uusi tietue_ ja valitse sopiva luettelointipohja valikosta.
+Klikkaa _Uusi tietue_ ja valitse sopiva kuvailupohja valikosta.
 
-![](/assets/files/docs/Luettelointi/kohakuvat19350.png)
+![](/assets/files/docs/Luettelointi/kohakuvat19350.png) vaihda kuva
 
 #### Z39.50/SRU-haulla
 
-Jos haluat tuoda valmiin luettelointitietueen toisesta
+Jos haluat tuoda valmiin kuvailutietueen toisesta
 kirjastosta/tietokannasta
 
 Klikkaa _Uusi Z39.50/SRU-haku_ ja tee haku
 
-![](/assets/files/docs/Luettelointi/kohakuvat19351.png)
+![](/assets/files/docs/Luettelointi/kohakuvat19351.png) vaihda kuva
 
 **Vinkki** Jos hakutuloksia ei löydy, kokeile hakua vähemmillä
 hakusanoilla, sillä kaikki Z39.50/SRU -kohteet eivät löydä tietoja
@@ -47,8 +47,8 @@ kaikista kentistä. Sanahakua kannattaa myös kokeilla.
 Hakutuloksia voit tarkastella MARC-muodossa tai korttimuodossa tai tuoda
 tietueen Kohaan
 
-![](/assets/files/docs/Luettelointi/luettelointi4.png)  
-![](/assets/files/docs/Luettelointi/luettelointi5.png)
+![](/assets/files/docs/Luettelointi/luettelointi4.png) vaihda kuva  
+![](/assets/files/docs/Luettelointi/luettelointi5.png) vaihda kuva
 
 Tuontiin ja näyttöihin pääsee myös suoraan nimeketietueen päällä
 klikkaamalla.
@@ -63,8 +63,8 @@ Yhdistelysäännön nimi riippuu kirjastosi tekemistä yhdistelysäännöistä.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat19352.png)
 
-Kun olet avannut tyhjän luettelointipohjan tai tuonut nimeketietueen
-Z39.50/SRU -haun kautta, pääset jatkamaan luettelointia.
+Kun olet avannut tyhjän kuvailupohjan tai tuonut nimeketietueen
+Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 
 ![](/assets/files/docs/Luettelointi/luettelointi7.png)
 
@@ -76,11 +76,11 @@ Valitse nimeketiedoissa _Uusi -&gt; Uusi osakohde_.
 ![](/assets/files/docs/Luettelointi/luettelointi8.png)
 
 Musiikin osakohteille on tehty oma tallennuspohja. Valitse se valikosta,
-mikäli luetteloit musiikkiaineistoa.
+mikäli kuvailet musiikkiaineistoa.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat19353.png)
 
-Luetteloi osakohde. Pakollisia kenttiä ovat 245a (päänimeke), 300a
+Kuvaile osakohde. Pakollisia kenttiä ovat 245a (päänimeke), 300a
 (laajuus tai kesto), 942c (aineistolaji, valitaan valikosta) sekä
 tallennuksen jälkeen muodostuva 008-kenttä (jos ei halua tarkemmin
 määritellä osakohteiden ominaisuuksia, riittää kun tallennat toiseen
@@ -95,7 +95,7 @@ teoksen tietoihin.
 
 ### 3.1.3. Tietueiden muokkaaminen peruseditorissa
 
-Muokataksesi nimeketietuetta ollessasi Luettelointi-osiossa klikkaa
+Muokataksesi nimeketietuetta ollessasi Kuvailu-osiossa klikkaa
 _Muokkaa tietuetta_ hakutulosnäytöllä
 
 ![](/assets/files/docs/Luettelointi/luettelointi11.png)
@@ -147,10 +147,10 @@ _Tallenna_-painikkeesta, jossa on kolme eri vaihtoehtoa.
 
 ![](/assets/files/docs/Luettelointi/luettelointi006.png)
 
-#### Luettelointitietueen korvaaminen uudella Z39.50/SRU-haun kautta
+#### Kuvailutietueen korvaaminen uudella Z39.50/SRU-haun kautta
 
-Vaihtoehtoisesti voit etsiä Z39.50/SRU -haun kautta täydellisemmän
-luettelointitietueen toisesta kirjastosta, jolla korvaat nykyisen
+Vaihtoehtoisesti voit etsiä Z39.50/SRU -haun kautta toisesta kirjastosta
+täydellisemmän kuvailutietueen, jolla korvaat nykyisen
 tietueen.
 
 ![](/assets/files/docs/Luettelointi/luettelointi14.png)
@@ -239,11 +239,11 @@ tallennat tietueen etkä saa kysymystä kopiosta:
 ### 3.1.6. Tietueiden yhdistäminen
 
 Useita tietueita (tuplia) voidaan yhdistää yhdeksi tietueeksi
-Luetteloinnin tai tiedonhaun kautta.
+Kuvailun tai tiedonhaun kautta.
 
-#### 3.1.6.1 Tietueiden yhdistäminen luetteloinnin kautta
+#### 3.1.6.1 Tietueiden yhdistäminen kuvailun kautta
 
-Hae yhdistettävät tietueet luettelointihaun kautta, valitse niistä
+Hae yhdistettävät tietueet kuvailuhaun kautta, valitse niistä
 haluamasi tietueet ja käytä _Yhdistä valitut_ -toimintoa.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat19355.png)
@@ -257,10 +257,10 @@ jäljelle jäävään nimeketietueeseen.
 ![](/assets/files/docs/Luettelointi/kohakuvat19354.png)
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
-tietueet yhdistetään) ja voit valita myös luettelointipohjan.  
+tietueet yhdistetään) ja voit valita myös kuvailupohjan.  
 Vertaile tietueiden tietoja ja tarvittaessa siirrä muista tietueista
 tarvittavia kenttiä kohdetietueeseen. Jos kentän toistaminen on estetty
-luettelointiformaatissa, kentän toistaminen antaa virheilmoituksen.
+kuvailuformaatissa, kentän toistaminen antaa virheilmoituksen.
 
 ![](/assets/files/docs/Luettelointi/luettelointi011.png)
 
@@ -286,7 +286,7 @@ Avaa lista, valitse kaikki ja sen jälkeen “Yhdistä valitut”
 
 <img src="/assets/files/docs/Luettelointi/tietueenyhdistaminen3.png" alt="" style="width:50.0%" />
 
-Tämän jälkeen prosessi jatkuu kuten [luetteloinnin kautta
+Tämän jälkeen prosessi jatkuu kuten [kuvailun kautta
 aloitettaessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/3_Luettelointi#3161-Tietueiden-yhdist%C3%A4minen-luetteloinnin-kautta),
 kuvasta “Yhdistetään tietueita”.
 
@@ -340,7 +340,7 @@ tiedot olisi hyvä täyttää, jotta niteitä voisi lainata:
 - y - Kohan aineistolaji
 
 _Huom! Näkyvissä olevat kentät voivat vaihdella kirjastokimpan ja
-käytetyn luettelointipohjan mukaan._
+käytetyn kuvailupohjan mukaan._
 
 Jos kentän lopussa näkyy kolme pistettä, sitä klikkaamalla saa kyseisen
 kentän päivitettyä (esimerkissä signumin muodostaminen ja viivakoodin
@@ -567,7 +567,7 @@ klikkaamalla näkyy tämän niteen lainaushistoria.
 
 ohje tehdään myöhemmin
 
-## 3.4. Luettelointiohjeet
+## 3.4. Kuvailuohjeet
 
 https://koha-community.org/manual/17.11/en/html/06\_cataloging.html\#cataloging-guides
 
