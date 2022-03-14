@@ -125,8 +125,8 @@ oikean henkilön kohdalla.
 
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
 
-Tallennuksen jälkeen huoltajan tiedoista näkyy vain kirjastokortin numero. Voit hakea ja 
-tallentaa lapsiasiakkaalle enemmän kuin yhden huoltajan tiedot.
+Tallennuksen jälkeen huoltajan tiedoista näkyy vain kirjastokortin numero. Voit 
+tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot.
 
 ![](/assets/files/docs/Asiakkaat/Toinentakaaja.png)
 
