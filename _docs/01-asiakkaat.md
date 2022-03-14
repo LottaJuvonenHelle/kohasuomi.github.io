@@ -93,7 +93,7 @@ muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikos
 Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero lankapuhelinkenttään ja matkapuhelin matkapuhelinkenttään) ja sähköpostiosoite.
 Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. Asiakas voi valita ensisijaisen yhteydenottotavan. 
 Huom! Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
-asiakas haluaa varausten noutoilmoitukset tekstiviestinä.
+asiakas haluaa varausilmoitukset tekstiviestinä.
 
 ![](/assets/files/docs/Asiakkaat/Yhteystiedot.png)
 
