@@ -388,7 +388,7 @@ kautta ennen niiden voimaantuloa. Jos järjestelmässä on hyväksymistä
 odottavia muutoksia, niistä näkyy linkki "Tietojensa muokkaamista haluavat asiakkaat"
 Kohan etusivulla. Kun klikkaat linkkiä, saat listan asiakkaiden tekemistä muutospyynnöistä.
 
-![](/assets/files/docs/Asiakkaat/odottavatieto.png)
+![](/assets/files/docs/Asiakkaat/etusivun%linkki.png)
 
  
 
