@@ -78,28 +78,26 @@ että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaantiedot.png)
 
-\- Asiakaslajeihin on määritetty ikärajoituksia. Ohjelma tarkistaa
-syntymäajan mukaan, voiko asiakas kuulua siihen asiakaslajiin, johon
+Asiakaslajeihin on määritetty ikärajoituksia. Ohjelma tarkistaa
+syntymäajan mukaan, voiko asiakas kuulua asiakaslajiin, johon
 häntä ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:  
 ![](/assets/files/docs/Asiakkaat/ikaraja.png)
 
 Osoite-osiossa “Kunta” tarkoittaa käytännössä postitoimipaikkaa, ei
 pelkästään kotikuntaa. Englanninkielistä sanaa City ei voi kääntää
 postitoimipaikaksi tässä kohti, koska sama sana on kunta-merkityksessä
-muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan myös
-Kunta-kentän viereistä alasvetovalikosta.
+muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikosta tai kirjoittaa ne itse.
 
 ![](/assets/files/docs/Asiakkaat/Osoite.png)
 
-Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero ja sähköpostiosoite.
-Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. Huom!
-Puhelinnumero pitää lisätä myös Asiakkaan viestiasetukset-osiossa, jos
-asiakas haluaa varausten noutoilmoitukset tekstiviestinä. Kuvan
-teksteistä poiketen tiedot eivät näy kuljetuskuitissa.
+Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero lankapuhelinkenttään ja matkapuhelin matkapuhelinkenttään) ja sähköpostiosoite.
+Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. Asiakas voi valita ensisijaisen yhteydenottotavan. 
+Huom! Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
+asiakas haluaa varausten noutoilmoitukset tekstiviestinä.
 
 ![](/assets/files/docs/Asiakkaat/Yhteystiedot.png)
 
-\- Huom! Puhelinnumero-kenttään ei saa kirjoittaa muuta kuin
+Huom! Puhelinnumero-kenttiin ei saa kirjoittaa muuta kuin
 puhelinnumeron. Ei esim. perään äiti, isä yms. eikä väliviivaa.
 Kansainvälisen suunnan (esim. +358) numeron yhteyteen voi lisätä.
 
