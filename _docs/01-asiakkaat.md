@@ -109,11 +109,11 @@ kimppakohtaisia eroja.
 ### Takaaja
 
 Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa
-“Hae takaaja” -nappia, niin pääset hakemaan rekisteristä lapselle
+“Lisää takaaja” -nappia, niin pääset hakemaan rekisteristä lapselle
 takaajan. Huom! takaajakenttiin kirjoitetut tiedot eivät tallennu.
-Takaaja haetaan aina Hae takaaja -toiminnolla.
+Takaaja haetaan aina Lisää takaaja -toiminnolla.
 
-![](/assets/files/docs/Asiakkaat/Takaajantiedot.PNG)
+![](/assets/files/docs/Asiakkaat/Asiakastakaaja.PNG)
 
 Takaajaa voi hakea joko nimellä tai kirjastokortin numerolla. Valitse
 alasvetovalikoista sopivat vaihtoehdot.
