@@ -118,12 +118,12 @@ Takaaja haetaan aina Lisää takaaja -toiminnolla.
 Takaajaa voi hakea joko nimellä tai kirjastokortin numerolla. Valitse
 alasvetovalikoista sopivat vaihtoehdot.
 
-![](/assets/files/docs/Asiakkaat/valitsetakaaja.png)
+![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
 Saat listan hakuun sopivista asiakkaista. Valitse oikealta “Valitse”
 oikean henkilön kohdalla.
 
-![](/assets/files/docs/Asiakkaat/asiakastakaaja.png)
+![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
 ![](/assets/files/docs/Asiakkaat/takaaja.PNG)
 
 Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
