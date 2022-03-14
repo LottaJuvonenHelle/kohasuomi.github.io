@@ -10,9 +10,9 @@ toc: true
 
 Koha-Suomi tukee Firefox ESR-versiota.
 
-## 9.1 Firefoxin versiossa 78+
+## 9.1 Firefoxin versio 78+
 
-Avaa selaimen valikko oikeasta yläkulmasta, valitse sieltä Tulosta.
+Avaa selaimen valikko oikeasta yläkulmasta ja valitse sieltä Tulosta.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer1.png)
 
@@ -22,7 +22,7 @@ Muoto ja valinnat -välilehdeltä valitse “Sovita sivun leveyteen”.
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostin2.png)
 
 Marginaalit ja ylä-/alatunnisteet-välilehdellä muuta kaikki marginaalit
-0:ksi ja kaikkiin ylä- ja alatunnisteisiin valitaan —tyhjä—. Tämä
+0:ksi ja kaikkiin ylä- ja alatunnisteisiin valitse --tyhjä--. Tämä asetus
 käyttää kaiken tilan kuitin tulostukseen.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostin3.png)
@@ -33,8 +33,8 @@ Klikkaa lopuksi _OK_.
 
 ## 9.2 Oletustulostin Firefoxiin
 
-Aseta oletustulostin Firefoxiin, niin et joudu joka kerta valitsemaan
-Tulosta-valikosta tulostinta.
+Aseta oletustulostin Firefoxiin, niin et joudu joka kerta erikseen valitsemaan
+tulostinta Tulosta-valikosta.
 
 Mene vasemmasta yläkulmasta Tulosta-valikkoon.
 
@@ -107,7 +107,7 @@ kimppasi/kirjastosi Koha-sivustolle.
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.png)  
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot.png)
 
-## 9.5 Firefoxin versiossa 90+
+## 9.5 Firefoxin versio 90+
 
 Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 
