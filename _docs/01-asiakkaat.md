@@ -113,7 +113,7 @@ Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa
 takaajan. Huom! takaajakenttiin kirjoitetut tiedot eivät tallennu.
 Takaaja haetaan aina Lisää takaaja -toiminnolla.
 
-![](/assets/files/docs/Asiakkaat/Lisaatakaaja.PNG)
+![](/assets/files/docs/Asiakkaat/Lisaatakaaja.png)
 
 Takaajaa voi hakea joko nimellä tai kirjastokortin numerolla. Valitse
 alasvetovalikoista sopivat vaihtoehdot.
