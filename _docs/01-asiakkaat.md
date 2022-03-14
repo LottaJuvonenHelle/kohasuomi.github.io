@@ -268,7 +268,7 @@ Asiakkaan tietoja voidaan muokata eri painikkeiden kautta.
 Koko asiakastietueen muokkaukseen pääset yksinkertaisesti klikkaamalla
 Muokkaa-painiketta asiakastietojen yläreunassa.
 
-![](/assets/files/docs/Asiakkaat/muokkaanappi.png)!
+![](/assets/files/docs/Asiakkaat/muokkaanappi.png)
 
 ### Salasanan vaihtaminen
 
@@ -386,15 +386,17 @@ Jos järjestelmäasetuksissa annetaan asiakkaille oikeus muuttaa tietojaan
 verkkokirjaston kautta, täytyy muutokset hyväksyä virkailijaliittymän
 kautta ennen niiden voimaantuloa. Jos järjestelmässä on hyväksymistä
 odottavia muutoksia, niistä näkyy linkki "Tietojensa muokkaamista haluavat asiakkaat"
-Kohan etusivulla. Kun klikkaat linkkiä, saat listan asiakkaiden tekemistä muutospyynnöistä.
+Kohan etusivulla. 
 
-![](/assets/files/docs/Asiakkaat/Etusivun%linkki.png)
+![](/assets/files/docs/Asiakkaat/Etusivunlinkki.png)
 
- 
+Kun klikkaat linkkiä, saat listan kaikista odottavista muutospyynnöistä ja klikkaamalla asiakkaan
+nimen kohdalta saat hänen tekemät muutokset näkyviin. Voit hyväksyä muutokset, kieltää ne tai jättää
+ne kokonaan huomioimatta.
 
 ![](/assets/files/docs/Asiakkaat/tietojenmuutos.png)
 
-Linkistä pääset katsomaan asiakkaan tiedoista mm. onko asiakkaalla
+Asiakkaan tiedot -linkistä pääset asiakkaan tietoihin katsomaan mm. onko asiakkaalla
 rajoitteita, jotka päivityksen yhteydessä on syytä ottaa pois.
 
 ## 1.6 Asiakkaan tiedot
