@@ -88,7 +88,7 @@ pelkästään kotikuntaa. Englanninkielistä sanaa City ei voi kääntää
 postitoimipaikaksi tässä kohti, koska sama sana on kunta-merkityksessä
 muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikosta tai kirjoittaa ne itse.
 
-![](/assets/files/docs/Asiakkaat/Osoite.png)
+![](/assets/files/docs/Asiakkaat/osoitetiedot.png)
 
 Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero lankapuhelinkenttään ja matkapuhelin matkapuhelinkenttään) ja sähköpostiosoite.
 Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. Asiakas voi valita ensisijaisen yhteydenottotavan. 
