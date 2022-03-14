@@ -399,6 +399,10 @@ ne kokonaan huomioimatta.
 Asiakkaan tiedot -linkistä pääset asiakkaan tietoihin katsomaan mm. onko asiakkaalla
 rajoitteita, jotka päivityksen yhteydessä on syytä ottaa pois.
 
+Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy sekä lainaus- että tiedotsivulla.
+
+
+
 ## 1.6 Asiakkaan tiedot
 
 Kun katsot asiakkaan tietuetta, on vasemmassa reunassa valittavissa
