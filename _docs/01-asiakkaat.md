@@ -385,13 +385,12 @@ aikuiseksi”.
 Jos järjestelmäasetuksissa annetaan asiakkaille oikeus muuttaa tietojaan
 verkkokirjaston kautta, täytyy muutokset hyväksyä virkailijaliittymän
 kautta ennen niiden voimaantuloa. Jos järjestelmässä on hyväksymistä
-odottavia muutoksia, niistä näkyy ilmoitus Kohan etusivulla valikoiden
-alla (muutaman muun toimenpidettä odottavan toiminnon kanssa).
+odottavia muutoksia, niistä näkyy linkki "Tietojensa muokkaamista haluavat asiakkaat"
+Kohan etusivulla. Kun klikkaat linkkiä, saat listan asiakkaiden tekemistä muutospyynnöistä.
 
 ![](/assets/files/docs/Asiakkaat/odottavatieto.png)
 
-Kun klikkaat Tietojensa muokkaamista haluavat asiakkaat -linkkiä, saat
-listan asiakkaan tekemistä muutoksista.
+ 
 
 ![](/assets/files/docs/Asiakkaat/tietojenmuutos.png)
 
