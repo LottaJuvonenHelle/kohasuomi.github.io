@@ -43,7 +43,7 @@ Klikkaa _Uusi budjetti_.
 
 **Tallenna** muutokset.
 
-### 5.1.1 Budjetin sulkeminen
+### 5.1.1 Budjetin sulkeminen (eli tilausten siirto)
 
 Kun budjettia ei enää tarvita, voi sen sulkea. HUOMIO! **Älä poista
 budjettia tai tilejä**, koska se vaikuttaa tilastoihin. Jos budjetti tai
@@ -71,7 +71,11 @@ Jos siirto onnistuu, saat raportin siirretyistä tilauksista.
 
 ![](/assets/files/docs/Hankinta/budjetinsulku4.png)
 
-Voit tämän jälkeen halutessasi epäaktivoida budjetin.
+Mikäli valitussa budjetissa ei ole samalla tilikoodilla olevia tilejä, siirto ei onnistu ja saat raportiksi _Tätä tilikoodia ei ole kohdebudjetissa_.
+
+![](/assets/files/docs/Hankinta/budjetinsulku3.png)
+
+Voit budjetin sulun eli tilausten siirron jälkeen halutessasi epäaktivoida budjetin, jotta siihen liittyvät tilit katoaa esim. tilausten vastaanotossa tilivalikosta.
 
 ### 5.1.2 Budjetin epäaktivoiminen
 
