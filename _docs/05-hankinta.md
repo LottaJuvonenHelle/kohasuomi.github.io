@@ -49,7 +49,7 @@ Kun budjettia ei enää tarvita, voi sen sulkea. HUOMIO! **Älä poista
 budjettia tai tilejä**, koska se vaikuttaa tilastoihin. Jos budjetti tai
 tilit poistetaan, ei saada enää siltä vuodelta hankintatilastoja.
 
-Budjetin sulkemisella voidaan siirtää vastaanottamattomat tilaukset ja käyttämättömät varat seuraavan vuoden budjettiin. Uudessa budjetissa pitää kuitenkin olla tismalleen saman nimiset tilit (tilikoodi pitää olla sama) kuin vanhassa, jotta siirto onnistuu. 
+Budjetin sulkemisella voidaan **siirtää vastaanottamattomat tilaukset ja käyttämättömät varat seuraavan vuoden budjettiin**. Uudessa budjetissa pitää kuitenkin olla tismalleen saman nimiset tilit (tilikoodi pitää olla sama) kuin vanhassa, jotta siirto onnistuu. 
 
 Valitse vasemmasta reunasta _Budjetit_ ja etsi suljettava budjetti.
 
@@ -73,7 +73,7 @@ Jos siirto onnistuu, saat raportin siirretyistä tilauksista.
 
 Voit tämän jälkeen halutessasi epäaktivoida budjetin.
 
-## 5.1.2 Budjetin epäaktivoiminen
+### 5.1.2 Budjetin epäaktivoiminen
 
 Jos haluaa piilottaa budjetin aktiivisista, voi sen tehdä seuraavasti.
 
