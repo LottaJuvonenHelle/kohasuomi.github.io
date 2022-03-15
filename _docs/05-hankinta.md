@@ -49,7 +49,7 @@ Kun budjettia ei enää tarvita, voi sen sulkea. HUOMIO! **Älä poista
 budjettia tai tilejä**, koska se vaikuttaa tilastoihin. Jos budjetti tai
 tilit poistetaan, ei saada enää siltä vuodelta hankintatilastoja.
 
-Budjetin sulkemisella voidaan **siirtää vastaanottamattomat tilaukset ja käyttämättömät varat seuraavan vuoden budjettiin**. Uudessa budjetissa pitää kuitenkin olla tismalleen saman nimiset tilit (tilikoodi pitää olla sama) kuin vanhassa, jotta siirto onnistuu. 
+Budjetin sulkemisella voidaan **siirtää vastaanottamattomat tilaukset ja käyttämättömät varat seuraavan vuoden budjettiin**. Uudessa budjetissa pitää kuitenkin olla tismalleen saman nimiset tilit (tilikoodi pitää olla sama) kuin vanhassa, jotta siirto onnistuu. Käytännössä eri vuosille pitää kuitenkin olla eri nimisillä tilikoodeilla olevat tilit, jotta EDItX-hankinta toimii. Katso kohta 5.2 Tilin lisääminen.
 
 Valitse vasemmasta reunasta _Budjetit_ ja etsi suljettava budjetti.
 
