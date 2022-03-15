@@ -49,6 +49,8 @@ Kun budjettia ei enää tarvita, voi sen sulkea. HUOMIO! **Älä poista
 budjettia tai tilejä**, koska se vaikuttaa tilastoihin. Jos budjetti tai
 tilit poistetaan, ei saada enää siltä vuodelta hankintatilastoja.
 
+Budjetin sulkemisella voidaan siirtää vastaanottamattomat tilaukset ja käyttämättömät varat seuraavan vuoden budjettiin. Uudessa budjetissa pitää kuitenkin olla tismalleen saman nimiset tilit (tilikoodi pitää olla sama) kuin vanhassa, jotta siirto onnistuu. 
+
 Valitse vasemmasta reunasta _Budjetit_ ja etsi suljettava budjetti.
 
 ![](/assets/files/docs/Hankinta/hankinta301.png)
@@ -56,6 +58,32 @@ Valitse vasemmasta reunasta _Budjetit_ ja etsi suljettava budjetti.
 Valitse oikealta _Toiminnot_-napista _Sulje_
 
 ![](/assets/files/docs/Hankinta/hankinta302.png)
+
+Saat listan budjettiin liittyvistä tileistä ja kuinka monta vastaanottamatonta tilausta kukin tili sisältää. Valitse budjetti, johon tilaukset siirretään sekä haluatko siirtää jäljellä olevat käyttämättömät varat. Valitse _Siirrä vastaanottamattomat tilaukset_.
+
+![](/assets/files/docs/Hankinta/budjetinsulku.png)
+
+Ohjelma vahvistaa, haluatko varmasti siirtää vastaanottamattomat tilaukset tililtä X tilille Y.
+
+![](/assets/files/docs/Hankinta/budjetinsulku2.png)
+
+Jos siirto onnistuu, saat raportin siirretyistä tilauksista.
+
+![](/assets/files/docs/Hankinta/budjetinsulku4.png)
+
+Voit tämän jälkeen halutessasi epäaktivoida budjetin.
+
+## 5.1.2 Budjetin epäaktivoiminen
+
+Jos haluaa piilottaa budjetin aktiivisista, voi sen tehdä seuraavasti.
+
+Valitse budjetin kohdalla _Toiminnot_ ja sieltä _Muokkaa_.
+
+![](/assets/files/docs/Hankinta/budjetinepaaktivointi.png)
+
+Ota **pois** rasti kohdasta _Aktivoi budjetti_ ja sen jälkeen _Tallenna_.
+
+![](/assets/files/docs/Hankinta/budjetinepaaktivointi2.png)
 
 ## 5.2 Tilin lisääminen
 
