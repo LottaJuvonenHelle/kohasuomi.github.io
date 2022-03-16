@@ -114,6 +114,7 @@ Esimmerkissä OUTI-kimpan poikkeus:
 
 Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 
+![](/assets/files/docs/Kuittitulostuksen_asetukset/valikko.PNG)
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostusasetukset2.png)
 
 Avautuvan sivun asetukset:
