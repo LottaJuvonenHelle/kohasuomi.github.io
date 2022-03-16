@@ -113,62 +113,6 @@ ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.
 
 ![](/assets/files/docs/Lainaus/huomsisallosta.png)
 
-
-
-
-
-## **Lainat**
-
-**Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
-![](/assets/files/docs/Lainaus/lainassa.png)
-
-Ensimmäisenä näkyvät tänään lainatut lainat.
-
-![](/assets/files/docs/Lainaus/lainat_naytto.png)
-
-**Sarakkeen näkyvyys** -valikosta voit valita, mitä sarakkeita
-Lainassa-välilehdellä näytetään.
-
-![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.png)
-
-## Varaukset
-
-**Varaukset**-välilehdellä näkyvät asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
-voit poistaa varauksia, keskeyttää ja jatkaa varausten voimassaoloaikaa
-käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli ne
-ovat sallittu järjestelmäasetuksissa. 
-
-![](/assets/files/docs/Lainaus/varaukset.png)
-
-## Huomautukset
-
-Jos asiakkaalle on tehty huomautuksia, ne näkyvät oikeassa reunassa
-lainausosion vieressä punaisella.  
-Huomautuksissa näkyvät myös maksut mikäli niitä on ja asiakkaan noutoa
-odottavat varaukset.
-
-![](/assets/files/docs/Lainaus/huomautukset.png)
-
-## Vanhentunut asiakastieto
-
-Jos asiakastiedot vaativat määräaikaistarkistuksen (parametreissä
-määritelty), näyttöön tulee ilmoitus:
-
-![](/assets/files/docs/Lainaus/vanhentunut.png)
-
-Tarkista asiakkaan yhteystiedot (osoite, puhelin numero,
-sähköpostiosoite, viestiasetukset). Jos tiedot ovat ajantasalla, klikkaa
-**Uusinta**. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä **Muokkaa tietoja**.
-
-Käyttöoikeuden voi jatkaa myös valikosta **Muita toimintoja**,
-valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
-
-![](/assets/files/docs/Lainaus/vanhentunut2.png)
-
-
-
-
-
 ## Lainaamisen estot
 
 Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos
@@ -293,6 +237,64 @@ lainaamisen jatkamista.
 ![](/assets/files/docs/Lainaus/lainhuom10.png)
 
 - Huom! Asetus ei välttämättä ole päällä kimppasi Kohassa.
+
+
+
+
+## **Lainat**
+
+**Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
+![](/assets/files/docs/Lainaus/lainassa.png)
+
+Ensimmäisenä näkyvät tänään lainatut lainat.
+
+![](/assets/files/docs/Lainaus/lainat_naytto.png)
+
+**Sarakkeen näkyvyys** -valikosta voit valita, mitä sarakkeita
+Lainassa-välilehdellä näytetään.
+
+![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.png)
+
+## Varaukset
+
+**Varaukset**-välilehdellä näkyvät asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
+voit poistaa varauksia, keskeyttää ja jatkaa varausten voimassaoloaikaa
+käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli ne
+ovat sallittu järjestelmäasetuksissa. 
+
+![](/assets/files/docs/Lainaus/varaukset.png)
+
+## Huomautukset
+
+Jos asiakkaalle on tehty huomautuksia, ne näkyvät oikeassa reunassa
+lainausosion vieressä punaisella.  
+Huomautuksissa näkyvät myös maksut mikäli niitä on ja asiakkaan noutoa
+odottavat varaukset.
+
+![](/assets/files/docs/Lainaus/huomautukset.png)
+
+## Vanhentunut asiakastieto
+
+Jos asiakastiedot vaativat määräaikaistarkistuksen (parametreissä
+määritelty), näyttöön tulee ilmoitus:
+
+![](/assets/files/docs/Lainaus/vanhentunut.png)
+
+Tarkista asiakkaan yhteystiedot (osoite, puhelin numero,
+sähköpostiosoite, viestiasetukset). Jos tiedot ovat ajantasalla, klikkaa
+**Uusinta**. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä **Muokkaa tietoja**.
+
+Käyttöoikeuden voi jatkaa myös valikosta **Muita toimintoja**,
+valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
+
+![](/assets/files/docs/Lainaus/vanhentunut2.png)
+
+
+
+
+
+
+
 
 ---
 
