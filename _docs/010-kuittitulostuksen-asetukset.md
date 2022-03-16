@@ -127,10 +127,12 @@ Avautuvan sivun asetukset:
 
 Klikkaa tämän jälkeen "Enemmän asetuksia".
 - Paperin koko: valitse sopiva vaihtoehto. Yleisin koko on 80x297 mm.
-- Koko: valitse "Sovita sivun leveyteen"
+- Koko: Sovita sivun leveyteen
 - Sivuja per arkki: 1
-- Reunukset: valitse "Ei reunuksia"
-- Ota valinnat pois "Tulosta ylä- ja alatunnisteet" sekä "Tulosta taustat".
+- Reunukset: Ei reunuksia
+- Ota pois valinnat: Tulosta ylä- ja alatunnisteet ja "Tulosta taustat.
+
+![](/assets/files/docs/Kuittitulostuksen_asetukset/Tulosta_asetukset2.PNG)
 
 Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus. 
 Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta. 
