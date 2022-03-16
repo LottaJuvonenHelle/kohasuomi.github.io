@@ -105,6 +105,7 @@ sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
 -asetuksissa kohtaan “Estä ponnahdusikkunat” poikkeus
 kimppasi/kirjastosi Koha-sivustolle.  
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.png)
+
 Esim.:
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot2.PNG)
 
