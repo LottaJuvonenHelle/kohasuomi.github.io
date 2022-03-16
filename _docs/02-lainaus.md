@@ -61,6 +61,62 @@ Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
   voi ohittaa järjestelmäasetuksen, jolla lyhennetään laina-aikaa, jos
   teoksen varausmäärä menee asetuksissa määritellyn rajan yli. Valinta tulee näkyviin vain kimpoissa, jossa tämä järjestelmäasetus on päällä.
 
+## 2.1.1 Kuittien tulostaminen
+
+Kun olet lainannut kaikki asiakkaan lainat, voit tulostaa lainauskuitin
+eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
+
+- Voit tulostaa kuitin lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta.
+- Voit tulostaa kuitin painamalla näppäimistöltä **Enter**. (Huom.
+  järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
+  asiakastiedot).
+- Voit tulostaa kuitin painamalla pikanäppäimiä **Alt+P**.
+- Voit myös klikata asiakastietojen yläpuolelta auki
+  **Tulosta**-valikon ja valita **Tänään lainatut**.
+
+![](/assets/files/docs/Lainaus/tulostakuitti.png)
+
+Tulosta -valikosta voit tulostaa myös:
+
+- **Asiakastietojen yhteenveto:** A4-tuloste asiakastiedoista,
+  lainoista, varauksista ja maksujen tilitystiedoista. Tätä ei
+  suositella tulostettavan.
+- **Tulosta kuitti:** tulostaa kaikki asiakkaan lainat kuitille.
+  Tulosteessa erotellaan myöhässä olevat lainat oman otsikon alle.
+- **Tänään lainatut:** tulostaa tänään lainattujen ja uusittujen
+  lainojen tiedot kuitille.
+- **Tulosta tänään palautetut:** antaa asiakkaan palautuksista kuitin.
+- **Maksut:** tulostaa asiakkaan maksujen tilitiedot kuitille.
+
+Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
+
+## 2.1.2 Asiakastietojen tyhjennys näytöltä
+
+Kun lopetat lainaamisen, näytöltä pitää tyhjeentää asiakkaan tiedot.
+Näytön voit tyhjentää kahdella tavalla:
+
+- painamalla **Enter**. (Huom! asetuksista riippuen, Enter voi myös
+  tulostaa asiakkaan lainakuitin).
+- klikkaamalla **X** lainauskentän oikeasta yläkulmasta.
+
+![](/assets/files/docs/Lainaus/tyhjennys.png)
+
+---
+
+## 2.2 Lainausviestit
+
+### Huomautus liitteistä
+
+Jos lainaat niteen, joka sisältää useita osia ja tieto osista on
+tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
+ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.
+
+![](/assets/files/docs/Lainaus/huomsisallosta.png)
+
+
+
+
+
 ## **Lainat**
 
 **Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
@@ -109,55 +165,9 @@ valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
 
 ![](/assets/files/docs/Lainaus/vanhentunut2.png)
 
-## 2.1.1 Kuittien tulostaminen
 
-Kun olet lainannut kaikki asiakkaan lainat, voit tulostaa lainauskuitin
-eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 
-- Voit tulostaa kuitin painamalla näppäimistöltä **Enter**. (Huom.
-  järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
-  asiakastiedot).
-- Voit tulostaa kuitin painamalla pikanäppäimiä **Alt+P**.
-- Voit myös klikata asiakastietojen yläpuolelta auki
-  **Tulosta**-valikon ja valita **Tänään lainatut**.
 
-![](/assets/files/docs/Lainaus/tulostakuitti.png)
-
-- **Asiakastietojen yhteenveto:** A4-tuloste asiakastiedoista,
-  lainoista, varauksista ja maksujen tilitystiedoista. Tätä ei
-  suositella tulostettavan.
-- **Tulosta kuitti:** tulostaa kaikki asiakkaan lainat kuitille.
-  Tulosteessa erotellaan myöhässä olevat lainat oman otsikon alle.
-- **Tänään lainatut:** tulostaa tänään lainattujen ja uusittujen
-  lainojen tiedot kuitille.
-- **Tulosta tänään palautetut:** antaa asiakkaan palautuksista kuitin.
-- **Maksut:** tulostaa asiakkaan maksujen tilitiedot kuitille.
-- **Tulosta erääntyneet:** tulostaa myöhässä olevat lainat kuitille.
-
-Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
-
-## 2.1.2 Asiakastietojen tyhjennys näytöltä
-
-Kun lopetat lainaamisen, näytöltä pitää tyhjeentää asiakkaan tiedot.
-Näytön voit tyhjentää kahdella tavalla:
-
-- painamalla **Enter**. (Huom! asetuksista riippuen, Enter voi myös
-  tulostaa asiakkaan lainakuitin).
-- klikkaamalla **X** lainauskentän oikeasta ylänurkasta.
-
-![](/assets/files/docs/Lainaus/tyhjennys.png)
-
----
-
-## 2.2 Lainausviestit
-
-### Huomautus liitteistä
-
-Jos lainaat niteen, joka sisältää useita osia ja tieto osista on
-tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
-ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.
-
-![](/assets/files/docs/Lainaus/huomsisallosta.png)
 
 ## Lainaamisen estot
 
