@@ -11,7 +11,7 @@ toc: true
 Kuvailuun meno: Muita toimintoja -&gt; Kuvailu. Jos linkkiä ei
 näy, käyttäjätunnuksellasi ei ole kuvailuoikeuksia.
 
-![](/assets/files/docs/Luettelointi/luettelointi.png) korjaa kuva
+![](/assets/files/docs/Luettelointi/kohaversio2111.png)
 
 ## 3.1. Bibliografiset tietueet
 
