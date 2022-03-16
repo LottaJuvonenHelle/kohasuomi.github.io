@@ -29,7 +29,7 @@ voidaan kuvailla tyhjälle pohjalle.
 
 Klikkaa _Uusi tietue_ ja valitse sopiva kuvailupohja valikosta.
 
-![](/assets/files/docs/Luettelointi/kohaversio2111.png)
+![](/assets/files/docs/Luettelointi/kohaversio2111k2.png)
 
 #### Z39.50/SRU-haulla
 
