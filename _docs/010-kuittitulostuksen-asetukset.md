@@ -104,7 +104,8 @@ Jos kuitin tulostusvaiheessa tulee ilmoitus, ettei ponnahdusikkunat ole
 sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
 -asetuksissa kohtaan “Estä ponnahdusikkunat” poikkeus
 kimppasi/kirjastosi Koha-sivustolle.  
-![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.png)  
+![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.png)
+Esim.:
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot2.PNG)
 
 ## 9.5 Firefoxin versio 90+
