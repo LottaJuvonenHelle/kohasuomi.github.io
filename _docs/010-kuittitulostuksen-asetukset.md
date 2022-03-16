@@ -38,7 +38,7 @@ tulostinta Tulosta-valikosta.
 
 Mene vasemmasta yläkulmasta Tulosta-valikkoon.
 
-Valitse käytössä oleva kuittitulostimesi valikosta ja klikkaa
+Valitse valikosta käytössä oleva kuittitulostimesi ja klikkaa
 _Ominaisuudet_ tai _Määritykset_ -painiketta, riippuen tulostusikkunan
 ulkonäöstä.
 
@@ -72,7 +72,7 @@ Vaihda tila.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer6.png)
 
-Jos tätä ominaisuutta ei löydy (useimmissa selaimissa sitä ei ole
+Jos _print.always_print_silent_ -ominaisuutta ei löydy (useimmissa selaimissa sitä ei ole
 valmiina), lisää tämä ominaisuus:
 
 - klikkaa hiiren oikeaa painiketta ominaisuusalueella ja valitse Uusi
@@ -88,7 +88,7 @@ valmiina), lisää tämä ominaisuus:
 VAROITUS  
 Näin määritetty print.always_print_silent -asetus estää tulostimen
 vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja,
-käytä tulostamiseen toista selainta.
+käytä tulostamiseen toista selaiohjelmaa.
 
 ### 9.3.1 Selaimen päivittyessä
 
@@ -105,7 +105,7 @@ sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
 -asetuksissa kohtaan “Estä ponnahdusikkunat” poikkeus
 kimppasi/kirjastosi Koha-sivustolle.  
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.png)  
-![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot.png)
+![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot2.PNG)
 
 ## 9.5 Firefoxin versio 90+
 
