@@ -112,7 +112,7 @@ Esimmerkissä OUTI-kimpan poikkeus:
 
 ## 9.1.2 Firefoxin versio 90+
 
-Firefoxin 90+ -versioissa kuittitulostukset eivät välttämättä toimi tai ne toimivat vain sen istunnon ajan, kun tulostusasetukset ovat määritelty. Jos Kohaa käytetään Firefoxin uusimilla selainversioilla, alla esimerkki asetukset, joilla tulostus voidaan saada toimimaan ainakin osittain.
+Firefoxin 90+ -versioissa kuittitulostukset eivät välttämättä toimi tai ne toimivat vain sen istunnon ajan, kun tulostusasetukset ovat määritelty. Jos Kohaa käytetään Firefoxin uusimilla selainversioilla, alla esimerkkiasetukset, joilla tulostus voidaan saada toimimaan ainakin osittain.
 
 Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 
