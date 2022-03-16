@@ -106,7 +106,8 @@ sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
 kimppasi/kirjastosi Koha-sivustolle.  
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.png)
 
-Esim.:
+Esimmerkissä OUTI-kimpan poikkeus:
+
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot2.PNG)
 
 ## 9.5 Firefoxin versio 90+
