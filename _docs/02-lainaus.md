@@ -105,7 +105,7 @@ Näytön voit tyhjentää kahdella tavalla:
 
 ## 2.2 Lainausviestit
 
-### Huomautus liitteistä
+### 2.2.1 Huomautus liitteistä
 
 Jos lainaat niteen, joka sisältää useita osia ja tieto osista on
 tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
@@ -113,19 +113,19 @@ ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.
 
 ![](/assets/files/docs/Lainaus/huomsisallosta.png)
 
-## Lainaamisen estot
+## 2.3 Lainaamisen estot
 
 Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos
 järjestelmäasetuksissa estot ovat laitettu päälle. Näissä tilanteissa
 näytölle tulee huomautus lainaamisen eston syystä.
 
-**Asiakkaalla on liikaa maksuja**
+**2.3.1 Asiakkaalla on liikaa maksuja**
 
 ![](/assets/files/docs/Lainaus/liikaamaksuja.png)  
 Hox! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
 
-**Asiakkaalla on rajoite** (lainauskielto)
+**2.3.2 Asiakkaalla on rajoite** (lainauskielto)
 
 - Asiakas voidaan asettaa lainauskieltoon, kun palautuskehotus tai
   lasku on lähetetty.
@@ -137,7 +137,7 @@ raja on ylittynyt.
   vanhenemispäivämäärä. Tallenna.  
   ![](/assets/files/docs/Lainaus/rajoite1.png)
 
-**Asiakkaan osoitetiedot ovat väärät**
+**2.3.3 Asiakkaan osoitetiedot ovat väärät**
 
 Jos asiakkan tiedoissa on päällä asetus, että osoite on tarkistettava,
 lainaus estyy.  
@@ -150,7 +150,7 @@ Huomautuksen voi poistaa, kun osoitetiedot on korjattu ja vaihtaa asiakkaan muok
 **Käyttäjätilin huomautukset** -kohdassa **Tarkista osoite** -kohtaan
 “Ei”.
 
-**Asiakas on kadottanut kirjastokorttinsa**
+**2.3.4 Asiakas on kadottanut kirjastokorttinsa**
 
 Asiakasrekisteriin on merkitty huomautus kadonneesta kirjastokortista.  
 ![](/assets/files/docs/Lainaus/kadonnutkortti.png)
@@ -164,7 +164,7 @@ Huomautuksen voi poistaa asiakkaan tiedoissa vaihtamalla täppä
 **Käyttäjätilin huomautukset** -kohdassa **Kortti kadonnut** -kohtaan
 “Ei”.
 
-**Asiakkaalle on laitettu rajoite** (lainauskielto)
+**2.3.5 Asiakkaalle on laitettu rajoite** (lainauskielto)
 
 Asiakkaille voit laittaa rajoitteita, jotka aiheuttavat lainaukiellon.
 Rajoitteet voivat olla voimassa toistaiseksi tai määräajan. Rajoitteen
@@ -181,7 +181,7 @@ Määräajan voimassa oleva rajoite:
 
 ![](/assets/files/docs/Lainaus/rajoite2.png)
 
-## 2.3 Lainaushuomautukset
+## 2.4 Lainaushuomautukset
 
 Joskus lainaustilanteessa näytölle voi tulla keltaisessa laatikossa
 oleva huomautus. Nämä huomautukset on käsiteltävä/huomioitava ennen
