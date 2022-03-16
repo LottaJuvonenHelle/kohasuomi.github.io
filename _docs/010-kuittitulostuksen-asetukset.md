@@ -10,7 +10,7 @@ toc: true
 
 Koha-Suomi tukee Firefox ESR-versiota.
 
-## 9.1 Firefoxin versio 78+
+## 9.1. Firefoxin versio 78+
 
 Avaa selaimen valikko oikeasta yläkulmasta ja valitse sieltä Tulosta.
 
@@ -110,7 +110,9 @@ Esimmerkissä OUTI-kimpan poikkeus:
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot2.PNG)
 
-## 9.5 Firefoxin versio 90+
+## 9.1.2 Firefoxin versio 90+
+
+Firefoxin 90+ -versioissa kuittitulostukset eivät välttämättä toimi tai ne toimivat vain sen istunnon ajan, kun tulostusasetukset ovat määritelty. Jos Kohaa käytetään Firefoxin uusimilla selainversioilla, alla esimerkki asetukset, joilla tulostus voidaan saada toimimaan ainakin osittain.
 
 Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 
