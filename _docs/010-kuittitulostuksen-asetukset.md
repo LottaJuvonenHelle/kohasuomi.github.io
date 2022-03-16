@@ -115,7 +115,6 @@ Esimmerkissä OUTI-kimpan poikkeus:
 Avaa selaimen Valikko-menu ja valitse "Tulosta...".
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/valikko.PNG)
-![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostusasetukset2.png)
 
 Avautuvan sivun asetukset:
 - Kohde: valitse alaspudotusvalikosta käyttämäsi kuittitulostin.
@@ -123,6 +122,8 @@ Avautuvan sivun asetukset:
 - Suunta: Pysty
 - Sivut: Kaikki
 - Väritila: Mustavalkoinen
+
+![](/assets/files/docs/Kuittitulostuksen_asetukset/Tulosta_asetukset1.PNG)
 
 Klikkaa tämän jälkeen "Enemmän asetuksia".
 - Paperin koko: valitse sopiva vaihtoehto. Yleisin koko on 80x297 mm.
