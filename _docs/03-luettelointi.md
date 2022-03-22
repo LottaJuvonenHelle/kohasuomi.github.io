@@ -38,7 +38,7 @@ kirjastosta/tietokannasta
 
 Klikkaa _Uusi Z39.50/SRU-haku_ ja tee haku
 
-![](/assets/files/docs/Luettelointi/kohakuvat19351.png) vaihda kuva
+![](/assets/files/docs/Luettelointi/kohaversio2111k3.png) vaihda kuva
 
 **Vinkki** Jos hakutuloksia ei löydy, kokeile hakua vähemmillä
 hakusanoilla, sillä kaikki Z39.50/SRU -kohteet eivät löydä tietoja
@@ -47,8 +47,7 @@ kaikista kentistä. Sanahakua kannattaa myös kokeilla.
 Hakutuloksia voit tarkastella MARC-muodossa tai korttimuodossa tai tuoda
 tietueen Kohaan
 
-![](/assets/files/docs/Luettelointi/luettelointi4.png) vaihda kuva  
-![](/assets/files/docs/Luettelointi/luettelointi5.png) vaihda kuva
+![](/assets/files/docs/Luettelointi/kohaversio2111k5.png) vaihda kuva
 
 Tuontiin ja näyttöihin pääsee myös suoraan nimeketietueen päällä
 klikkaamalla.
@@ -66,7 +65,7 @@ Yhdistelysäännön nimi riippuu kirjastosi tekemistä yhdistelysäännöistä.
 Kun olet avannut tyhjän kuvailupohjan tai tuonut nimeketietueen
 Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 
-![](/assets/files/docs/Luettelointi/luettelointi7.png)
+![](/assets/files/docs/Luettelointi/kohaversio2111k4.png)
 
 ### 3.1.2. Osakohteiden lisääminen
 
