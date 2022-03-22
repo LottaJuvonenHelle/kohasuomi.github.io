@@ -38,7 +38,7 @@ kirjastosta/tietokannasta
 
 Klikkaa _Uusi Z39.50/SRU-haku_ ja tee haku
 
-![](/assets/files/docs/Luettelointi/kohaversio2111k3.png) vaihda kuva
+![](/assets/files/docs/Luettelointi/kohaversio2111k3.png)
 
 **Vinkki** Jos hakutuloksia ei löydy, kokeile hakua vähemmillä
 hakusanoilla, sillä kaikki Z39.50/SRU -kohteet eivät löydä tietoja
@@ -47,12 +47,8 @@ kaikista kentistä. Sanahakua kannattaa myös kokeilla.
 Hakutuloksia voit tarkastella MARC-muodossa tai korttimuodossa tai tuoda
 tietueen Kohaan
 
-![](/assets/files/docs/Luettelointi/kohaversio2111k5.png) vaihda kuva
-
-Tuontiin ja näyttöihin pääsee myös suoraan nimeketietueen päällä
-klikkaamalla.
-
-![](/assets/files/docs/Luettelointi/luettelointi6.png)
+![](/assets/files/docs/Luettelointi/kohaversio2111k5.png)
+![](/assets/files/docs/Luettelointi/kohaversio2111k6.png)
 
 \*Jos et löydä hakemaasi, klikkaa _Uusi haku_ näytön vasemmassa
 alareunassa.
