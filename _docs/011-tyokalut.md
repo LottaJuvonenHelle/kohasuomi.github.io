@@ -633,8 +633,7 @@ päivämäärävälin ensimmäinen päivä.
 Kun klikkaat aloituspäivämäärää, avautuu valikko, josta voi valita
 päivämäärävälin. Nimeke-kenttään voi kirjoittaa haluamansa nimen
 kiinniolopäivälle/aikavälille, esim. Suljettu tai Pääsiäinen.
-Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten voi valita
-koskeeko valinta
+Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoehdoista
 
 - Kiinni vain tänä päivänä
   - yksittäinen kiinniolopäivä
