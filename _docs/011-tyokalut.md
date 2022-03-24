@@ -621,18 +621,16 @@ jokaiselle kirjastolle.
 Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston
 kalenteri. Oikealla on vinkkejä ja listoja määritetyistä
 kiinniolopäivistä.  
-<img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri heinäkuulta 2020. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri heinäkuulta 2020. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:80.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:80.0%" />
 
 ### 10.14.1 Kiinniolon lisääminen
 
-Kiinniolo lisätään valitsemalla kalenterista haluttu päivämäärä tai
-päivämäärävälin ensimmäinen päivä.
+Lisää kiinniolo-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
+päivämäärävälin ensimmäistä päivää. 
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri2.png" title="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" alt="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" style="width:50.0%" />
 
-Kun klikkaat aloituspäivämäärää, avautuu valikko, josta voi valita
-päivämäärävälin. Punaisesta ruksista Päivään -kentän saa tyhjennettyä. Nimeke-kenttään voi kirjoittaa haluamansa nimen
-kiinniolopäivälle/aikavälille, esim. Suljettu tai Pääsiäinen.
+Päivään -kenttään voi lisätä kiinnioloajan päättymmispäivän. Punaisesta ruksista Päivään -kentän saa tyhjäksi. Nimeke-kenttään voi kirjoittaa haluamansa nimen kiinniolopäivälle/aikavälille, esim. Suljettu tai Pääsiäinen.
 Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoehdoista.
 
 - Kiinni vain tänä päivänä
