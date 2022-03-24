@@ -625,7 +625,7 @@ kiinniolopäivistä.
 
 ### 10.14.1 Kiinniolon lisääminen
 
-Lisää kiinniolo-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
+Lisää kiinniolopäivä-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
 päivämäärävälin ensimmäistä päivää. 
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri2.png" title="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" alt="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" style="width:50.0%" />
