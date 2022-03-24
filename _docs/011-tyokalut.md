@@ -659,11 +659,11 @@ vaihtoehdosta.
 
 Kopioi kiinniolopäivät kirjastolle -alasvetovalikosta voit valita kirjaston, jonka kalenteriin haluat ylityksen kopioituvan.
 
-/assets/files/docs/Tyokalut/Kalenteri3.png
+<img src="/assets/files/docs/Tyokalut/Kalenteri3.png" title="Kuvakaappaus Kopioi kiinniolopäivät kirjastolle -valikosta" alt="Kuvakaappaus Kopioi kiinniolopäivät kirjastolle -valikosta" style="width:40.0%" />
 
 Kalenterin alalaidassa olevista linkeistä pääset takaisin kuluvan kuukauden kohdalle, jos teet määrityksiä jonkin muun kuukauden kohdalla.
 
-/assets/files/docs/Tyokalut/Kalenteri4.png
+<img src="/assets/files/docs/Tyokalut/Kalenteri4.png" title="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" alt="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" style="width:40.0%" />
 
 ### 10.14.2 Sulkupäivien värikoodit
 
