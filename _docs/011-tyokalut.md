@@ -621,19 +621,19 @@ jokaiselle kirjastolle.
 Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston
 kalenteri. Oikealla on vinkkejä ja listoja määritetyistä
 kiinniolopäivistä.  
-<img src="/assets/files/docs/Tyokalut/kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri heinäkuulta 2020. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri heinäkuulta 2020. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:80.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri heinäkuulta 2020. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri heinäkuulta 2020. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:80.0%" />
 
 ### 10.14.1 Kiinniolon lisääminen
 
 Kiinniolo lisätään valitsemalla kalenterista haluttu päivämäärä tai
 päivämäärävälin ensimmäinen päivä.
 
-<img src="/assets/files/docs/Tyokalut/kalenteri2.png" title="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" alt="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri2.png" title="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" alt="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" style="width:50.0%" />
 
 Kun klikkaat aloituspäivämäärää, avautuu valikko, josta voi valita
-päivämäärävälin. Nimeke-kenttään voi kirjoittaa haluamansa nimen
+päivämäärävälin. Punaisesta ruksista Päivään -kentän saa tyhjennettyä. Nimeke-kenttään voi kirjoittaa haluamansa nimen
 kiinniolopäivälle/aikavälille, esim. Suljettu tai Pääsiäinen.
-Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoehdoista
+Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoehdoista.
 
 - Kiinni vain tänä päivänä
   - yksittäinen kiinniolopäivä
@@ -647,7 +647,7 @@ Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoeh
   - tämä pitää valita, jotta Päivästä-päivään valinta ylempänä
     toimii
 - Kiinni aikavälillä joka vuosi
-  - toimii kuten kiinni joka vuosi samana päivänä, mutta
+  - toimii kuten Kiinni joka vuosi samana päivänä -vaihtoehto, mutta
     määritetäänkin aikaväli, esim. joulunpyhät
 - Kopioi kaikkiin kirjastoihin
   - jos tähän laittaa rastin, kopioidaan määritys kaikkiin
@@ -659,27 +659,38 @@ Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoeh
 Kysymysmerkistä vaihtoehdon perässä saat tarkemman kuvauksen
 vaihtoehdosta.
 
+Kopioi kiinniolopäivät kirjastolle -alasvetovalikosta voit valita kirjaston, jonka kalenteriin haluat ylityksen kopioituvan.
+
+/assets/files/docs/Tyokalut/Kalenteri3.png
+
+Kalenterin alalaidassa olevista linkeistä pääset takaisin kuluvan kuukauden kohdalle, jos teet määrityksiä jonkin muun kuukauden kohdalla.
+
+/assets/files/docs/Tyokalut/Kalenteri4.png
+
 ### 10.14.2 Sulkupäivien värikoodit
 
 Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 
-<img src="/assets/files/docs/Tyokalut/kalenteri4.png" title="Kuvakaappaus kalenterissa käytettyjen värien selitteestä" alt="Kuvakaappaus kalenterissa käytettyjen värien selitteestä" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri5.png" title="Kuvakaappaus kalenterissa käytettyjen värien selitteestä" alt="Kuvakaappaus kalenterissa käytettyjen värien selitteestä" style="width:40.0%" />
 
-- harmaa on työpäivä eli päivälle voi tulla erä- ja noutopäiviä.
+- valkoinen on työpäivä eli päivälle voi tulla erä- ja noutopäiviä.
 - punainen on yksittäinen, ei toistuva kiinniolopäivä. Myös
   aikavälillä suljetuksi merkityt päivät merkitään punaisella.
-- keltainen on viikottain toistuva kiinniolopäivä.
-- oranssi on vuosittain toistuva kiinniolopäivä.
+- keltainen on viikottain toistuva kiinniolopäivä. Myös
+  aikavälillä suljetuksi merkityt päivät merkitään keltaisella.
+- oranssi on vuosittain toistuva kiinniolopäivä.Myös
+  aikavälillä suljetuksi merkityt päivät merkitään oranssilla.
 - sininen on poikkeus määritettyyn kiinnioloon eli käytännössä päivä
   on avoin ja sille voi tulla erä- ja noutopäiviä.
 
 Alla kuvakaappaus, miltä ne näyttävät kalenterissa.  
-<img src="/assets/files/docs/Tyokalut/kalenteri3.png" title="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" alt="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri6.png" title="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" alt="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" style="width:30.0%" />
 
-Myös kuluva päivä on merkitty kalenteriin kellertävällä värillä, jos
-kyseinen päivä on avoinna oleva päivä. Jos päivä on merkitty suljetuksi,
-näkyy siinä sulkupäivän tyypin mukainen väri.  
-<img src="/assets/files/docs/Tyokalut/kalenteri5.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:30.0%" />
+Kalenterissa klikattu päivä näkyy vihreänä. 
+
+Kuluva päivä on näkyy tummanvihreällä kehystettynä, jos kyseinen päivä on avoinna oleva päivä. Jos päivä on merkitty suljetuksi,
+näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.  
+<img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:30.0%" />
 
 ### 10.14.3 Sulkutiedon poistaminen
 
@@ -687,18 +698,17 @@ Sulkupäiviä voi myös poistaa, jos ne ovat virheellisiä tai tarpeettomia.
 
 Valitse päivä tai aikavälin ensimmäinen päivä.
 
-<img src="/assets/files/docs/Tyokalut/kalenteri6.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri8.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" style="width:50.0%" />
 
 Määritä tarvittaessa aikavälin loppupäivä. Valitse haluamasi
-poisto-vaihtoehto ja klikkaa Tallenna.
+poisto -vaihtoehto ja klikkaa Tallenna.
 
 ### 10.14.4. Sulkutiedon muokkaaminen
 
-Sulkupäiviä voi muokata valitsemalla halutun päivän tai aikavälin
-ensimmäisen päivän. Voit muuttaa esim. Nimekettä ja Kuvausta. Valitse
-sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia.
+Sulkupäivän voi muokata valitsemalla muutettavan päivän. Voit muokata Nimekettä ja Kuvausta. Valitse
+sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokkauksen voi tehdä yksi päivä kerrallaan.
 
-<img src="/assets/files/docs/Tyokalut/kalenteri7.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:50.0%" />
 
 ---
 
