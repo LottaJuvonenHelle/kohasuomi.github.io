@@ -681,7 +681,7 @@ Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 - sininen on poikkeus määritettyyn kiinnioloon eli käytännössä päivä
   on avoin ja sille voi tulla erä- ja noutopäiviä.
 
-Alla kuvakaappaus, miltä ne näyttävät kalenterissa.  
+Alla kuvakaappaus, miltä värikoodit näyttävät kalenterissa.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri6.png" title="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" alt="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" style="width:30.0%" />
 
 Kalenterissa klikattu päivä näkyy vihreänä. 
@@ -703,7 +703,7 @@ poisto -vaihtoehto ja klikkaa Tallenna.
 
 ### 10.14.4. Sulkutiedon muokkaaminen
 
-Sulkupäivän voi muokata valitsemalla muutettavan päivän. Voit muokata Nimekettä ja Kuvausta. Valitse
+Sulkupäivän voi muokata valitsemalla muutettava päivä. Voit muokata valitun päivän Nimekettä ja Kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokkauksen voi tehdä yksi päivä kerrallaan.
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:50.0%" />
