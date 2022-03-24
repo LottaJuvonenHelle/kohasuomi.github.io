@@ -657,7 +657,7 @@ Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoeh
 Kysymysmerkistä vaihtoehdon perässä saat tarkemman kuvauksen
 vaihtoehdosta.
 
-Kopioi kiinniolopäivät kirjastolle -alasvetovalikosta voit valita kirjaston, jonka kalenteriin haluat ylityksen kopioituvan.
+Kopioi kiinniolopäivät kirjastolle -alasvetovalikosta voit valita kirjaston, jonka kalenteriin haluat kiinniolon kopioituvan.
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri3.png" title="Kuvakaappaus Kopioi kiinniolopäivät kirjastolle -valikosta" alt="Kuvakaappaus Kopioi kiinniolopäivät kirjastolle -valikosta" style="width:40.0%" />
 
