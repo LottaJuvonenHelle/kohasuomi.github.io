@@ -630,7 +630,7 @@ päivämäärävälin ensimmäistä päivää.
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri2.png" title="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" alt="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" style="width:50.0%" />
 
-Päivään -kenttään voi lisätä kiinnioloajan päättymmispäivän. Punaisesta ruksista Päivään -kentän saa tyhjäksi. Nimeke-kenttään voi kirjoittaa haluamansa nimen kiinniolopäivälle/aikavälille, esim. Suljettu tai Pääsiäinen.
+Päivään -kenttään voi lisätä kiinnioloajan päättymispäivän. Punaisesta ruksista Päivään -kentän saa tyhjäksi. Nimeke-kenttään voi kirjoittaa haluamansa nimen kiinniolopäivälle/aikavälille, esim. Suljettu tai Pääsiäinen.
 Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoehdoista.
 
 - Kiinni vain tänä päivänä
