@@ -103,29 +103,19 @@ Näytön voit tyhjentää kahdella tavalla:
 
 ---
 
-## 2.2 Lainausviestit
-
-### 2.2.1 Huomautus liitteistä
-
-Jos lainaat niteen, joka sisältää useita osia ja tieto osista on
-tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
-ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.
-
-![](/assets/files/docs/Lainaus/huomsisallosta.png)
-
-## 2.3 Lainaamisen estot
+## 2.2 Lainaamisen estot
 
 Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos
 järjestelmäasetuksissa estot ovat laitettu päälle. Näissä tilanteissa
 näytölle tulee huomautus lainaamisen eston syystä.
 
-### 2.3.1 Asiakkaalla on liikaa maksuja
+### 2.2.1 Asiakkaalla on liikaa maksuja
 
 ![](/assets/files/docs/Lainaus/liikaamaksuja.png)  
 Hox! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
 
-### 2.3.2 Asiakkaalla on rajoite (lainauskielto)
+### 2.2.2 Asiakkaalla on rajoite (lainauskielto)
 
 - Asiakas voidaan asettaa lainauskieltoon, kun palautuskehotus tai
   lasku on lähetetty.
@@ -137,7 +127,7 @@ raja on ylittynyt.
   vanhenemispäivämäärä. Tallenna.  
   ![](/assets/files/docs/Lainaus/rajoite1.png)
 
-### 2.3.3 Asiakkaan osoitetiedot ovat väärät
+### 2.2.3 Asiakkaan osoitetiedot ovat väärät
 
 Jos asiakkan tiedoissa on päällä asetus, että osoite on tarkistettava,
 lainaus estyy.  
@@ -150,7 +140,7 @@ Huomautuksen voi poistaa, kun osoitetiedot on korjattu ja vaihtaa asiakkaan muok
 **Käyttäjätilin huomautukset** -kohdassa **Tarkista osoite** -kohtaan
 “Ei”.
 
-### 2.3.4 Asiakas on kadottanut kirjastokorttinsa
+### 2.2.4 Asiakas on kadottanut kirjastokorttinsa
 
 Asiakasrekisteriin on merkitty huomautus kadonneesta kirjastokortista.  
 ![](/assets/files/docs/Lainaus/kadonnutkortti.png)
@@ -164,7 +154,7 @@ Huomautuksen voi poistaa asiakkaan tiedoissa vaihtamalla täppä
 **Käyttäjätilin huomautukset** -kohdassa **Kortti kadonnut** -kohtaan
 “Ei”.
 
-### 2.3.5 Asiakkaalle on laitettu rajoite (lainauskielto)
+### 2.2.5 Asiakkaalle on laitettu rajoite (lainauskielto)
 
 Asiakkaille voit laittaa rajoitteita, jotka aiheuttavat lainaukiellon.
 Rajoitteet voivat olla voimassa toistaiseksi tai määräajan. Rajoitteen
@@ -181,17 +171,25 @@ Määräajan voimassa oleva rajoite:
 
 ![](/assets/files/docs/Lainaus/rajoite2.png)
 
-## 2.4 Lainaushuomautukset
+## 2.3 Lainauksen viestit ja huomautukset
+
+### 2.3.1 Huomautus liitteistä
+
+Jos lainaat niteen, joka sisältää useita osia ja tieto osista on
+tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
+ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.
+
+![](/assets/files/docs/Lainaus/huomsisallosta.png)
 
 Joskus lainaustilanteessa näytölle voi tulla keltaisessa laatikossa
 oleva huomautus. Nämä huomautukset on käsiteltävä/huomioitava ennen
 lainaamisen jatkamista.
 
-### Aineisto on varattu jollekin toiselle asiakkaalle. Varausta ei ole vielä otettu kiinni.
+### 2.3.2 Aineisto on varattu jollekin toiselle asiakkaalle. Varausta ei ole vielä otettu kiinni.
 
 <img src="/assets/files/docs/Lainaus/lainhuom1.png" alt="" style="width:70.0%" />
 
-### Nide on varaushyllyssä varattuna toiselle asiakkaalle.
+### 2.3.3 Nide on varaushyllyssä varattuna toiselle asiakkaalle.
 
 ![](/assets/files/docs/Lainaus/lainhuom2.png)
 
@@ -199,49 +197,48 @@ lainaamisen jatkamista.
   aineiston, valitse **Poista varaus** ja klikkaa **Kyllä, lainaa
   (Y).** Varaus poistuu alkuperäiseltä varaajalta.
 
-### Nide on jo lainassa tällä asiakkaalla.
+### 2.3.4 Nide on jo lainassa tällä asiakkaalla.
 
 ![](/assets/files/docs/Lainaus/lainhuom3.png)
 
-### Aineisto on lainassa toisella asiakkaalla.
+### 2.3.5 Aineisto on lainassa toisella asiakkaalla.
 
 ![](/assets/files/docs/Lainaus/lainhuom4.png)
 
-### Aineistoa ei lainata (niteen tila on “Ei lainattavissa”).
+### 2.3.6 Aineistoa ei lainata (niteen tila on “Ei lainattavissa”).
 
 ![](/assets/files/docs/Lainaus/lainhuom5.png)
 
-### Asiakkaalla on liian monta lainaa.
+### 2.3.7 Asiakkaalla on liian monta lainaa.
 
 ![](/assets/files/docs/Lainaus/lainhuom6.png)
 
-### Viivakoodia ei löytynyt.
+### 2.3.8 Viivakoodia ei löytynyt.
 
 ![](/assets/files/docs/Lainaus/lainhuom7.png)
 
 - Kohassa on mahdollista käyttää pikaluettelointia, jos se on sallittu
   järjestelmäasetuksissa.
 
-### Lainattava nide on merkitty kadonneeksi.
+### 2.3.9 Lainattava nide on merkitty kadonneeksi.
 
 ![](/assets/files/docs/Lainaus/lainhuom8.png)
 
 - Lainausasetusten määrittelystä riippuu, tuleeko huomautusta.
 
-### Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
+### 2.3.10 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
 
 ![](/assets/files/docs/Lainaus/lainhuom9.png)
 
-### Lainattavalla niteellä on paljon varauksia, jonka takia lyhennetään laina-aikaa.
+### 2.3.11 Lainattavalla niteellä on paljon varauksia, jonka takia lyhennetään laina-aikaa.
 
 ![](/assets/files/docs/Lainaus/lainhuom10.png)
 
 - Huom! Asetus ei välttämättä ole päällä kimppasi Kohassa.
 
+---
 
-
-
-## **Lainat**
+## 2.4 Lainat
 
 **Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
 ![](/assets/files/docs/Lainaus/lainassa.png)
@@ -288,13 +285,6 @@ Käyttöoikeuden voi jatkaa myös valikosta **Muita toimintoja**,
 valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
 
 ![](/assets/files/docs/Lainaus/vanhentunut2.png)
-
-
-
-
-
-
-
 
 ---
 
