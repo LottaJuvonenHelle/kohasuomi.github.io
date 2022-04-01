@@ -90,7 +90,7 @@ Tulosta -valikosta voit tulostaa myös:
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
-## 2.1.2 Asiakastietojen tyhjennys näytöltä
+### 2.1.2 Asiakastietojen tyhjennys näytöltä
 
 Kun lopetat lainaamisen, näytöltä pitää tyhjeentää asiakkaan tiedot.
 Näytön voit tyhjentää kahdella tavalla:
@@ -366,10 +366,6 @@ kursiivilla näkyvät viestit sekä asiakkaalle että virkailijoille.
 
 ![](/assets/files/docs/Lainaus/lainausviesti4.png)
 
-Viestin näkyminen Kohan asiakasliittymässä:
-
-![](/assets/files/docs/Lainaus/lainausviesti5.png)
-
 ### 2.6.3 Vanhentunut asiakastieto
 
 Jos asiakastiedot vaativat määräaikaistarkistuksen (parametreissä
@@ -405,9 +401,9 @@ Palautetun niteen tiedot tulevat näytölle.
 
 ![](/assets/files/docs/Lainaus/palautus1.png)
 
-### 2.7.1 Palautuksen viestit
+### 2.7.2 Palautuksen viestit
 
-### 2.7.1.1 Toisen kirjaston aineiston palautus
+### 2.7.2.1 Toisen kirjaston aineiston palautus
 
 Jos olet palauttamassa jonkun muun kirjaston aineistoa, saat viestin,
 jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
@@ -422,14 +418,14 @@ jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
 - Nide pitää palauttaa kotikirjastossaan, jotta sen tilaksi muuttuu
   Saatavana.
 
-### 2.7.1.2 Useita osia sisältävän niteen palautus
+### 2.7.2.2 Useita osia sisältävän niteen palautus
 
 Jos palautat niteen, joka sisältää useita osia ja tieto osista on
 tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
 ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.  
 ![](/assets/files/docs/Lainaus/huomsisallosta.png)
 
-### 2.7.1.3 Varatun niteen palautus
+### 2.7.2.3 Varatun niteen palautus
 
 Jos palautat niteen, josta on varaus, saat siitä ilmoituksen.  
 ![](/assets/files/docs/Lainaus/palautusviesti3.png)
@@ -443,7 +439,7 @@ Jos palautat niteen, josta on varaus, saat siitä ilmoituksen.
 
 ![](/assets/files/docs/Lainaus/palautusviesti4.png)
 
-### 2.7.1.4 Varaus toisessa kirjastossa
+### 2.7.4.4 Varaus toisessa kirjastossa
 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
@@ -461,13 +457,13 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
 ![](/assets/files/docs/Lainaus/palautusviesti6.png)
 
-### 2.7.1.5 Asiakkaan maksut palautusnäytöllä
+### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
 
 Jos järjestelmä on asetettu näyttämään maksut palautuksen yhteydessä,
 saat keltapohjaisen viestin asiakkaan maksuista.  
 ![](/assets/files/docs/Lainaus/palautusviesti7.png)
 
-### 2.7.1.6 Kadonneeksi merkityn niteen palauttaminen
+### 2.7.2.6 Kadonneeksi merkityn niteen palauttaminen
 
 Jos palautat kadonneeksi merkityn niteen, saat seuraavan ilmoituksen:  
 ![](/assets/files/docs/Lainaus/palautusviesti8.png)
