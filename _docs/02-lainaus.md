@@ -171,6 +171,8 @@ Määräajan voimassa oleva rajoite:
 
 ![](/assets/files/docs/Lainaus/rajoite2.png)
 
+---
+
 ## 2.3 Lainauksen viestit ja huomautukset
 
 ### 2.3.1 Huomautus liitteistä
@@ -238,7 +240,7 @@ lainaamisen jatkamista.
 
 ---
 
-## 2.4 Lainat
+## 2.4 Asiakkaan lainat
 
 **Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
 ![](/assets/files/docs/Lainaus/lainassa.png)
@@ -252,43 +254,7 @@ Lainassa-välilehdellä näytetään.
 
 ![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.png)
 
-## Varaukset
-
-**Varaukset**-välilehdellä näkyvät asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
-voit poistaa varauksia, keskeyttää ja jatkaa varausten voimassaoloaikaa
-käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli ne
-ovat sallittu järjestelmäasetuksissa. 
-
-![](/assets/files/docs/Lainaus/varaukset.png)
-
-## Huomautukset
-
-Jos asiakkaalle on tehty huomautuksia, ne näkyvät oikeassa reunassa
-lainausosion vieressä punaisella.  
-Huomautuksissa näkyvät myös maksut mikäli niitä on ja asiakkaan noutoa
-odottavat varaukset.
-
-![](/assets/files/docs/Lainaus/huomautukset.png)
-
-## Vanhentunut asiakastieto
-
-Jos asiakastiedot vaativat määräaikaistarkistuksen (parametreissä
-määritelty), näyttöön tulee ilmoitus:
-
-![](/assets/files/docs/Lainaus/vanhentunut.png)
-
-Tarkista asiakkaan yhteystiedot (osoite, puhelin numero,
-sähköpostiosoite, viestiasetukset). Jos tiedot ovat ajantasalla, klikkaa
-**Uusinta**. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä **Muokkaa tietoja**.
-
-Käyttöoikeuden voi jatkaa myös valikosta **Muita toimintoja**,
-valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
-
-![](/assets/files/docs/Lainaus/vanhentunut2.png)
-
----
-
-## 2.4 Uusinta
+## 2.4.1 Lainojen uusinta
 
 Lainassa olevien niteiden laina-ajan voi uusia sen mukaan, mitä
 ylläpidon Laina- ja käyttömaksusäännöissä on määritelty.
@@ -347,7 +313,82 @@ Jos viivakoodia ei löydy, saat ilmoituksen.
 
 ---
 
-## 2.5 Palauttaminen
+## 2.5 Asiakkaan varaukset
+
+**Varaukset**-välilehdellä näkyvät asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
+voit poistaa varauksia, keskeyttää ja jatkaa varausten voimassaoloaikaa
+käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli ne
+ovat sallittu järjestelmäasetuksissa. 
+
+![](/assets/files/docs/Lainaus/varaukset.png)
+
+---
+
+## 2.6 Asiakkaan huomautukset ja viestit
+
+Jos asiakkaalle on lisätty huomautus, se näkyy oikeassa reunassa
+lainausosion vieressä punaisella.  
+
+Asiakkaan huomautuksissa näkyvät myös maksut mikäli niitä on ja asiakkaan noutoa
+odottavat varaukset.
+
+![](/assets/files/docs/Lainaus/huomautukset.png)
+
+Lainausnäytölle voi tallentaa lyhyitä viestejä, jotka näkyvät lainatessa
+asiakkaalle.
+
+### 2.6.1 Viestien lisääminen asiakkaalle
+
+Lainauskentän oikealla puolella on huomautuksia, joista alimmaisena on
+**Viestit**. Valitsemalla **Lisää uusi viesti**, voit lisätä asiakkaalle
+uuden viestin.
+
+![](/assets/files/docs/Lainaus/lainausviesti1.png)
+
+Kun valitset **Lisää uusi viesti**, pääset valitsemaan, näytetäänkö
+viesti vain virkailijoille vai myös asiakkaalle asiakasliittymässä
+(valikossa asiakkaan nimi).
+
+![](/assets/files/docs/Lainaus/lainausviesti2.png)
+
+Voit valita viestin esimääritellyistä viesteistä tai kirjoittaa oman
+viestin. Kimpan pääkäyttäjät voivat lisätä esimääriteltyjä viestejä.
+
+![](/assets/files/docs/Lainaus/lainausviesti3.png)
+
+- HUOMIO! Viesti asiakkaalle näkyy myös virkailijoille.
+
+### 2.6.2 Viestin näkyminen
+
+Viesti näkyy asiakkaalle ja/tai virkailijalle lainausnäytön oikeassa
+reunassa. Lihavoidut, punaiset viestit näkyvät vain virkailijoille,
+kursiivilla näkyvät viestit sekä asiakkaalle että virkailijoille.
+
+![](/assets/files/docs/Lainaus/lainausviesti4.png)
+
+Viestin näkyminen Kohan asiakasliittymässä:
+
+![](/assets/files/docs/Lainaus/lainausviesti5.png)
+
+### 2.6.3 Vanhentunut asiakastieto
+
+Jos asiakastiedot vaativat määräaikaistarkistuksen (parametreissä
+määritelty), näyttöön tulee ilmoitus:
+
+![](/assets/files/docs/Lainaus/vanhentunut.png)
+
+Tarkista asiakkaan yhteystiedot (osoite, puhelin numero,
+sähköpostiosoite, viestiasetukset). Jos tiedot ovat ajantasalla, klikkaa
+**Uusinta**. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä **Muokkaa tietoja**.
+
+Käyttöoikeuden voi jatkaa myös valikosta **Muita toimintoja**,
+valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
+
+![](/assets/files/docs/Lainaus/vanhentunut2.png)
+
+---
+
+## 2.7 Palauttaminen
 
 Aineiston palauttamiseen pääset eri näyttöjen kautta.
 
@@ -357,18 +398,16 @@ Kaikista lainaustenvalvonnan toiminnoista on listaus **Lainaus ja
 palautus** -sivulla, jonne pääset jokaisen sivun vasemmasta yläreunasta
 olevasta linkistä.
 
-### Aineiston palauttaminen
+### 2.7.1 Aineiston palauttaminen
 
 Kun palautat aineistoa, lue niteen viivakoodi palautuskenttään.
 Palautetun niteen tiedot tulevat näytölle.
 
 ![](/assets/files/docs/Lainaus/palautus1.png)
 
----
+### 2.7.1 Palautuksen viestit
 
-## 2.5.1 Palautuksen viestit
-
-### Toisen kirjaston aineisto
+### 2.7.1.1 Toisen kirjaston aineiston palautus
 
 Jos olet palauttamassa jonkun muun kirjaston aineistoa, saat viestin,
 jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
@@ -383,14 +422,14 @@ jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
 - Nide pitää palauttaa kotikirjastossaan, jotta sen tilaksi muuttuu
   Saatavana.
 
-### Useita osia sisältävä nide
+### 2.7.1.2 Useita osia sisältävän niteen palautus
 
 Jos palautat niteen, joka sisältää useita osia ja tieto osista on
 tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
 ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.  
 ![](/assets/files/docs/Lainaus/huomsisallosta.png)
 
-### Varatun niteen palautus
+### 2.7.1.3 Varatun niteen palautus
 
 Jos palautat niteen, josta on varaus, saat siitä ilmoituksen.  
 ![](/assets/files/docs/Lainaus/palautusviesti3.png)
@@ -404,7 +443,7 @@ Jos palautat niteen, josta on varaus, saat siitä ilmoituksen.
 
 ![](/assets/files/docs/Lainaus/palautusviesti4.png)
 
-### Varaus toisessa kirjastossa
+### 2.7.1.4 Varaus toisessa kirjastossa
 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
@@ -422,56 +461,16 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
 ![](/assets/files/docs/Lainaus/palautusviesti6.png)
 
-### Asiakkaan maksut
+### 2.7.1.5 Asiakkaan maksut palautusnäytöllä
 
 Jos järjestelmä on asetettu näyttämään maksut palautuksen yhteydessä,
 saat keltapohjaisen viestin asiakkaan maksuista.  
 ![](/assets/files/docs/Lainaus/palautusviesti7.png)
 
-### Kadonneeksi merkityt niteet
+### 2.7.1.6 Kadonneeksi merkityn niteen palauttaminen
 
 Jos palautat kadonneeksi merkityn niteen, saat seuraavan ilmoituksen:  
 ![](/assets/files/docs/Lainaus/palautusviesti8.png)
-
----
-
-## 2.6 Lainausnäytön huomautukset
-
-Lainausnäytölle voi tallentaa lyhyitä viestejä, jotka näkyvät lainatessa
-asiakkaalle.
-
-### Viestien lisääminen asiakkaalle
-
-Lainauskentän oikealla puolella on huomautuksia, joista alimmaisena on
-**Viestit**. Valitsemalla **Lisää uusi viesti**, voit lisätä asiakkaalle
-uuden viestin.
-
-![](/assets/files/docs/Lainaus/lainausviesti1.png)
-
-Kun valitset **Lisää uusi viest**, pääset valitsemaan, näytetäänkö
-viesti vain virkailijoille vai myös asiakkaalle asiakasliittymässä
-(valikossa asiakkaan nimi).
-
-![](/assets/files/docs/Lainaus/lainausviesti2.png)
-
-Voit valita viestin esimääritellyistä viesteistä tai kirjoittaa oman
-viestin. Kimpan pääkäyttäjät voivat lisätä esimääriteltyjä viestejä.
-
-![](/assets/files/docs/Lainaus/lainausviesti3.png)
-
-- HUOMIO! Viesti asiakkaalle näkyy myös virkailijoille.
-
-### Viestin näkyminen
-
-Viesti näkyy asiakkaalle ja/tai virkailijalle lainausnäytön oikeassa
-reunassa. Lihavoidut, punaiset viestit näkyvät vain virkailijoille,
-kursiivilla näkyvät viestit sekä asiakkaalle että virkailijoille.
-
-![](/assets/files/docs/Lainaus/lainausviesti4.png)
-
-Viestin näkyminen Kohan asiakasliittymässä:
-
-![](/assets/files/docs/Lainaus/lainausviesti5.png)
 
 ---
 
