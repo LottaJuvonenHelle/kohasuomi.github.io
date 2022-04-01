@@ -61,7 +61,7 @@ Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
   voi ohittaa järjestelmäasetuksen, jolla lyhennetään laina-aikaa, jos
   teoksen varausmäärä menee asetuksissa määritellyn rajan yli. Valinta tulee näkyviin vain kimpoissa, jossa tämä järjestelmäasetus on päällä.
 
-## 2.1.1 Kuittien tulostaminen
+### 2.1.1 Kuittien tulostaminen
 
 Kun olet lainannut kaikki asiakkaan lainat, voit tulostaa lainauskuitin
 eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
@@ -254,7 +254,7 @@ Lainassa-välilehdellä näytetään.
 
 ![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.png)
 
-## 2.4.1 Lainojen uusinta
+### 2.4.1 Lainojen uusinta
 
 Lainassa olevien niteiden laina-ajan voi uusia sen mukaan, mitä
 ylläpidon Laina- ja käyttömaksusäännöissä on määritelty.
