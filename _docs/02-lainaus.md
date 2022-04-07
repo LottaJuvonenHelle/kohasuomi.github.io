@@ -76,6 +76,8 @@ eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 
 **Tulosta** -valikosta voit tulostaa myös:
 
+![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
+
 - **Asiakastietojen yhteenveto:** A4-tuloste asiakastiedoista,
   lainoista, varauksista ja maksujen tilitystiedoista. Tätä ei
   suositella tulostettavan.
@@ -84,8 +86,6 @@ eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 - **Tänään lainatut:** tulostaa tänään lainattujen ja uusittujen
   lainojen tiedot kuitille.
 - **Tulosta tänään palautetut:** antaa asiakkaan palautuksista kuitin.
-
-![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
@@ -105,7 +105,7 @@ Näytön voit tyhjentää kahdella tavalla:
 ## 2.2 Lainaamisen estot
 
 Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos
-järjestelmäasetuksissa estot ovat laitettu päälle. Näissä tilanteissa
+estot ovat laitettu päälle järjestelmäasetuksissa. Näissä tilanteissa
 näytölle tulee huomautus lainaamisen eston syystä.
 
 ### 2.2.1 Asiakkaalla on liikaa maksuja
