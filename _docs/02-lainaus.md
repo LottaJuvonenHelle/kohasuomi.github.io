@@ -139,7 +139,7 @@ lainaus estyy.
 ![](/assets/files/docs/Lainaus/vaaraosoite1.png)
 
 Lainaustilanteessa tulee huomautus:  
-![](/assets/files/docs/Lainaus/tarkistaosoite.png)
+![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
 
 Huomautuksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Vaihda asiakastietojen muokkausnäytöllä täppä 
 **Käyttäjätilin huomautukset** -osiossa  **Tarkista osoite** -kohtaan
