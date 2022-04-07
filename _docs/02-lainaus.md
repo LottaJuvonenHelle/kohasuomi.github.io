@@ -151,7 +151,7 @@ Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna **Kortti kadonnut** 
 ![](/assets/files/docs/Lainaus/korttikadonnut1.PNG)
 
 Lainaustilanteessa tulee huomautus:  
-![](/assets/files/docs/Lainaus/korttikadonnut.png)
+![](/assets/files/docs/Lainaus/korttikadonnut.PNG)
 
 Kun asiakkaan kirjastokortti on kadonnut, toimi kimpassa sovittujen
 käytäntöjen mukaan.  
