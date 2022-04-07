@@ -37,7 +37,7 @@ Toimi kirjastosi käytäntöjen mukaan.
 
 Lue lainattavan niteen viivakoodi nidekenttään.
 
-![](/assets/files/docs/Lainaus/lainaaminen.png)
+![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
 Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
 
