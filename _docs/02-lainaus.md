@@ -98,7 +98,7 @@ Näytön voit tyhjentää kahdella tavalla:
   tulostaa asiakkaan lainakuitin).
 - klikkaamalla **X** lainauskentän oikeasta yläkulmasta.
 
-![](/assets/files/docs/Lainaus/tyhjennys.png)
+![](/assets/files/docs/Lainaus/tyhjennys.PNG)
 
 ---
 
