@@ -140,13 +140,13 @@ lainaus estyy.
 Lainaustilanteessa tulee huomautus:  
 ![](/assets/files/docs/Lainaus/tarkistaosoite.png)
 
-Huomautuksen voit poistaa, kun olet korjannut osoitetiedot ja vaihdat asiakastietojen muokkausnäytöllä täpän
-**Käyttäjätilin huomautukset** -kohdassa **Tarkista osoite** -kohtaan
-“Ei” ja tallennat asiakastietojen muokkausnäytön.
+Huomautuksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Vaihda asiakastietojen muokkausnäytöllä täppä 
+**Käyttäjätilin huomautukset** osiossa  **Tarkista osoite** -kohtaan
+“Ei” ja tallenna asiakastietojen muokkausnäyttö.
 
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
 
-Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna **Kortti kadonnut** -tieto asiakastietojen muokkausnäytöllä kohtaan **Käyttäjätilin huomautukset**.
+Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna **Kortti kadonnut** -tieto asiakastietojen muokkausnäytöllä osiossa **Käyttäjätilin huomautukset**.
 
 ![](/assets/files/docs/Lainaus/korttikadonnut1.PNG)
 
@@ -155,8 +155,8 @@ Lainaustilanteessa tulee huomautus:
 
 Kun asiakkaan kirjastokortti on kadonnut, toimi kimpassa sovittujen
 käytäntöjen mukaan.  
-Huomautuksen voi poistaa asiakkaan tiedoissa vaihtamalla täppä
-**Käyttäjätilin huomautukset** -kohdassa **Kortti kadonnut** -kohtaan
+Huomautuksen voit poistaa asiakastietojen muokkausnäytöllä vaihtamalla täppä
+**Käyttäjätilin huomautukset** -osiossa **Kortti kadonnut** -kohtaan
 “Ei”.
 
 ### 2.2.5 Asiakkaalle on laitettu rajoite (lainauskielto)
