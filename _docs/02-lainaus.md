@@ -124,8 +124,10 @@ raja on ylittynyt.
   
   ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG)
   
-  **Selitys**-kenttään laita tieto rajoituksen syystä ja mahdollinen
+  **Selitys**-kenttään laita rajoituksen syy ja mahdollinen
   vanhenemispäivämäärä. Tallenna rajoitus lopuksi **Lisää rajoitus** -painikkeesta.  
+  
+  Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
   ![](/assets/files/docs/Lainaus/rajoite1.PNG)
 
