@@ -147,9 +147,8 @@ Huomautuksen voit poistaa, kun olet korjannut osoitetiedot ja vaihdat asiakastie
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
 
 Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna **Kortti kadonnut** -tieto asiakastietojen muokkausnäytöllä kohtaan **Käyttäjätilin huomautukset**.
-Asiakasrekisteriin on merkitty huomautus kadonneesta kirjastokortista.  
 
-![](/assets/files/docs/Lainaus/kadonnutkortti1.PNG)
+![](/assets/files/docs/Lainaus/korttikadonnut1.PNG)
 
 Lainaustilanteessa tulee huomautus:  
 ![](/assets/files/docs/Lainaus/korttikadonnut.png)
