@@ -120,7 +120,7 @@ raja on ylittynyt.
   lasku on lähetetty.
 - Jos lähetetään lasku esim. turmeltuneesta aineistosta, pitää
   manuaalisesti lisätä asiakkaan tietoihin rajoitus. Rajoituksen voit
-  lisätä joko asiakastietojen muokkauksessa tai välilehdellä Rajoitukset. 
+  lisätä joko asiakastietojen muokkausnäytöllä tai Rajoitukset-välilehdellä. 
   
   ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG)
   
