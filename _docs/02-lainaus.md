@@ -74,7 +74,7 @@ eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 - Voit myös klikata asiakastietojen yläpuolelta auki
   **Tulosta**-valikon ja valita **Tänään lainatut**.
 
-Tulosta -valikosta voit tulostaa myös:
+**Tulosta** -valikosta voit tulostaa myös:
 
 - **Asiakastietojen yhteenveto:** A4-tuloste asiakastiedoista,
   lainoista, varauksista ja maksujen tilitystiedoista. Tätä ei
