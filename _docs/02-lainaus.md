@@ -120,14 +120,13 @@ Asiakkaille voidaan tallentaa rajoitus, joka aiheuttaa lainaukiellon, esim. kun 
 Rajoitus voi olla voimassa toistaiseksi tai määräajan. 
 
 Rajoituksen voit tallentaa asiakastietojen muokkausnäytöllä kohdassa **Asiakkaan
-rajoitukset** tai välilehdellä **Rajoitukset**. Jos rajoitus halutaan
+rajoitukset** tai välilehdellä **Rajoitukset**. Laita **Selitys**-kenttään rajoituksen syy ja jos rajoitus halutaan
 olemaan voimassa vain tietyn ajan, laita **Vanhenee**-kohtaan viimeinen
 voimassaolopäivä.
 
   ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG)
   
-  **Selitys**-kenttään laita rajoituksen syy ja mahdollinen
-  vanhenemispäivämäärä. Tallenna rajoitus lopuksi **Lisää rajoitus** -painikkeesta.  
+  Tallenna rajoitus lopuksi **Lisää rajoitus** -painikkeesta.  
   
   Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
