@@ -74,7 +74,7 @@ eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 - Voit myös klikata asiakastietojen yläpuolelta auki
   **Tulosta**-valikon ja valita **Tänään lainatut**.
 
-![](/assets/files/docs/Lainaus/tulostakuitti.png)
+![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
 
 Tulosta -valikosta voit tulostaa myös:
 
