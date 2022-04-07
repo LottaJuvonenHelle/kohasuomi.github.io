@@ -114,16 +114,18 @@ näytölle tulee huomautus lainaamisen eston syystä.
 Hox! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
 
-### 2.2.2 Asiakkaalla on rajoite (lainauskielto)
+### 2.2.2 Asiakkaalla on rajotus (lainauskielto)
 
-- Asiakas voidaan asettaa lainauskieltoon, kun palautuskehotus tai
+- Asiakas voidaan asettaa lainauskieltoon, esim. kun palautuskehotus tai
   lasku on lähetetty.
 - Jos lähetetään lasku esim. turmeltuneesta aineistosta, pitää
-  manuaalisesti lisätä asiakkaan tietoihin rajoite. Rajoitteen voi
-  lisätä asiakastietojen muokkauksessa tai välilehdellä
-  **Rajoitukset** -&gt; **Lisää rajoitus**. Lisää
-  **Kommentti**-kenttään tieto rajoitteen syystä ja mahdollinen
-  vanhenemispäivämäärä. Tallenna.  
+  manuaalisesti lisätä asiakkaan tietoihin rajoitus. Rajoituksen voit
+  lisätä joko asiakastietojen muokkauksessa tai välilehdellä Rajoitukset. 
+  
+  ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG)
+  
+  **Selitys**-kenttään laita tieto rajoituksen syystä ja mahdollinen
+  vanhenemispäivämäärä. Tallenna rajoitus lopuksi **Lisää rajoitus** -painikkeesta.  
   ![](/assets/files/docs/Lainaus/rajoite1.png)
 
 ### 2.2.3 Asiakkaan osoitetiedot ovat väärät
