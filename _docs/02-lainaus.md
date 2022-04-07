@@ -170,7 +170,7 @@ Jos lainaat niteen, joka sisältää useita osia ja tieto osista on
 tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
 ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.
 
-![](/assets/files/docs/Lainaus/huomsisallosta.png)
+![](/assets/files/docs/Lainaus/huomsisallosta.PNG)
 
 Joskus lainaustilanteessa näytölle voi tulla keltaisessa laatikossa
 oleva huomautus. Nämä huomautukset on käsiteltävä/huomioitava ennen
