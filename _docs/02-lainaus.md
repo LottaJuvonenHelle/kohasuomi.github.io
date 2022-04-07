@@ -116,12 +116,14 @@ raja on ylittynyt.
 
 ### 2.2.2 Asiakkaalla on rajoitus (lainauskielto)
 
-- Asiakas voidaan asettaa lainauskieltoon, esim. kun palautuskehotus tai
-  lasku on lähetetty.
-- Jos lähetetään lasku esim. turmeltuneesta aineistosta, pitää
-  manuaalisesti lisätä asiakkaan tietoihin rajoitus. Rajoituksen voit
-  lisätä joko asiakastietojen muokkausnäytöllä tai Rajoitukset-välilehdellä. 
-  
+Asiakkaille voidaan tallentaa rajoitus, joka aiheuttaa lainaukiellon, esim. kun lasku on lähetetty.
+Rajoitus voi olla voimassa toistaiseksi tai määräajan. 
+
+Rajoituksen voit tallentaa asiakastietojen muokkausnäytöllä kohdassa **Asiakkaan
+rajoitukset** tai välilehdellä **Rajoitukset**. Jos rajoitus halutaan
+olemaan voimassa vain tietyn ajan, laita **Vanhenee**-kohtaan viimeinen
+voimassaolopäivä.
+
   ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG)
   
   **Selitys**-kenttään laita rajoituksen syy ja mahdollinen
@@ -141,7 +143,7 @@ Lainaustilanteessa tulee huomautus:
 ![](/assets/files/docs/Lainaus/tarkistaosoite.png)
 
 Huomautuksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Vaihda asiakastietojen muokkausnäytöllä täppä 
-**Käyttäjätilin huomautukset** osiossa  **Tarkista osoite** -kohtaan
+**Käyttäjätilin huomautukset** -osiossa  **Tarkista osoite** -kohtaan
 “Ei” ja tallenna asiakastietojen muokkausnäyttö.
 
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
@@ -158,23 +160,6 @@ käytäntöjen mukaan.
 Huomautuksen voit poistaa asiakastietojen muokkausnäytöllä vaihtamalla täppä
 **Käyttäjätilin huomautukset** -osiossa **Kortti kadonnut** -kohtaan
 “Ei”.
-
-### 2.2.5 Asiakkaalle on laitettu rajoite (lainauskielto)
-
-Asiakkaille voit laittaa rajoitteita, jotka aiheuttavat lainaukiellon.
-Rajoitteet voivat olla voimassa toistaiseksi tai määräajan. Rajoitteen
-voit lisätä muokkaamalla asiakastiedoissa kohtaa **Asiakkaan
-rajoitukset** tai välilehdellä **Rajoitukset**. Jos rajoite halutaan
-olemaan voimassa vain tietyn ajan, laita **Vanhenee**-kohtaan viimeinen
-voimassaolopäivä.
-
-Toistaiseksi voimassa oleva rajoite:
-
-![](/assets/files/docs/Lainaus/rajoite1.png)
-
-Määräajan voimassa oleva rajoite:
-
-![](/assets/files/docs/Lainaus/rajoite2.png)
 
 ---
 
