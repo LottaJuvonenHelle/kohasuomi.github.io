@@ -74,8 +74,6 @@ eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 - Voit myös klikata asiakastietojen yläpuolelta auki
   **Tulosta**-valikon ja valita **Tänään lainatut**.
 
-![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
-
 Tulosta -valikosta voit tulostaa myös:
 
 - **Asiakastietojen yhteenveto:** A4-tuloste asiakastiedoista,
@@ -86,7 +84,8 @@ Tulosta -valikosta voit tulostaa myös:
 - **Tänään lainatut:** tulostaa tänään lainattujen ja uusittujen
   lainojen tiedot kuitille.
 - **Tulosta tänään palautetut:** antaa asiakkaan palautuksista kuitin.
-- **Maksut:** tulostaa asiakkaan maksujen tilitiedot kuitille.
+
+![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
