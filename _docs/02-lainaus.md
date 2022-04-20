@@ -178,11 +178,11 @@ lainaamisen jatkamista.
 
 ### 2.3.2 Aineisto on varattu jollekin toiselle asiakkaalle. Varausta ei ole vielä otettu kiinni.
 
-<img src="/assets/files/docs/Lainaus/lainhuom1.png" alt="" style="width:70.0%" />
+![](/assets/files/docs/Lainaus/lainhuom1.PNG)
 
 ### 2.3.3 Nide on varaushyllyssä varattuna toiselle asiakkaalle.
 
-![](/assets/files/docs/Lainaus/lainhuom2.png)
+![](/assets/files/docs/Lainaus/lainhuom2.PNG)
 
 - Jos esimerkiksi toinen perheenjäsen haluaa lainata varatun
   aineiston, valitse **Poista varaus** ja klikkaa **Kyllä, lainaa
