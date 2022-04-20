@@ -188,19 +188,21 @@ lainaamisen jatkamista.
   aineiston, valitse **Poista varaus** ja klikkaa **Kyllä, lainaa
   (Y)**. Varaus poistuu alkuperäiseltä varaajalta.
 - Jos valitset vaihtoehdon **Peruuta odottava-tila** ja klikkaat **Kyllä, lainaa
-  (Y)**, asiakkaan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi. 
+  (Y)**, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi. 
 
 ### 2.3.4 Nide on jo lainassa tällä asiakkaalla.
 
-![](/assets/files/docs/Lainaus/lainhuom3.png)
+![](/assets/files/docs/Lainaus/lainhuom3.PNG)
 
 ### 2.3.5 Aineisto on lainassa toisella asiakkaalla.
 
-![](/assets/files/docs/Lainaus/lainhuom4.png)
+![](/assets/files/docs/Lainaus/lainhuom4.PNG)
 
 ### 2.3.6 Aineistoa ei lainata (niteen tila on “Ei lainattavissa”).
 
-![](/assets/files/docs/Lainaus/lainhuom5.png)
+![](/assets/files/docs/Lainaus/lainhuom5.PNG)
+
+- Lainauseston ohitus määritellään järjestelmäasetuksissa.
 
 ### 2.3.7 Asiakkaalla on liian monta lainaa.
 
