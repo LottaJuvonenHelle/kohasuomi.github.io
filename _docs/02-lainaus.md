@@ -186,7 +186,9 @@ lainaamisen jatkamista.
 
 - Jos esimerkiksi toinen perheenjäsen haluaa lainata varatun
   aineiston, valitse **Poista varaus** ja klikkaa **Kyllä, lainaa
-  (Y).** Varaus poistuu alkuperäiseltä varaajalta.
+  (Y)**. Varaus poistuu alkuperäiseltä varaajalta.
+- Jos valitset vaihtoehdon **Peruuta odottava-tila** ja klikkaat **Kyllä, lainaa
+  (Y)**, asiakkaan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi. 
 
 ### 2.3.4 Nide on jo lainassa tällä asiakkaalla.
 
