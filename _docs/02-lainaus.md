@@ -66,13 +66,14 @@ Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
 Kun olet lainannut kaikki asiakkaan lainat, voit tulostaa lainauskuitin
 eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 
-- Voit tulostaa kuitin lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta.
-- Voit tulostaa kuitin painamalla näppäimistöltä **Enter**. (Huom.
+Kuitin voit tulostaa:
+- painamalla näppäimistöltä **Enter**. (Huom.
   järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
-  asiakastiedot).
-- Voit tulostaa kuitin painamalla pikanäppäimiä **Alt+P**.
-- Voit myös klikata asiakastietojen yläpuolelta auki
-  **Tulosta**-valikon ja valita **Tänään lainatut**.
+  asiakastiedot)
+- painamalla pikanäppäimiä **Alt+P**
+- asiakastietojen yläpuolelta olevasta **Tulosta**-valikosta valitsemalla **Tänään lainatut**
+  
+**Huom!** Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta tulostuvat kaikki asiakkaan lainat kuitille.
 
 **Tulosta** -valikosta voit tulostaa myös:
 
@@ -202,24 +203,26 @@ lainaamisen jatkamista.
 
 ![](/assets/files/docs/Lainaus/lainhuom5.PNG)
 
-- Lainauseston ohitus määritellään järjestelmäasetuksissa.
+- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa.
 
 ### 2.3.7 Asiakkaalla on liian monta lainaa.
 
 ![](/assets/files/docs/Lainaus/lainhuom6.png)
 
+- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa.
+
 ### 2.3.8 Viivakoodia ei löytynyt.
 
 ![](/assets/files/docs/Lainaus/lainhuom7.png)
 
-- Kohassa on mahdollista käyttää pikaluettelointia, jos se on sallittu
+- Pikaluettelointi on mahdollista, jos se on sallittu
   järjestelmäasetuksissa.
 
 ### 2.3.9 Lainattava nide on merkitty kadonneeksi.
 
 ![](/assets/files/docs/Lainaus/lainhuom8.png)
 
-- Lainausasetusten määrittelystä riippuu, tuleeko huomautusta.
+- Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautusta.
 
 ### 2.3.10 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
 
