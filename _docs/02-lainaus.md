@@ -57,7 +57,7 @@ Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
   eräpäivä kuin oletuseräpäivä. Tämä vaihtoehto tulee näkyviin vain,
   jos järjestelmäasetuksissa on määritelty, että virkailijalla on
   oikeus muuttaa eräpäivää lainatessa.
-- Jos kimpalla käytössä **automaattinen uusinta**, ohjelma uusii
+- Jos kimpalla on käytössä **automaattinen uusinta**, ohjelma uusii
   lainatut teokset automaattisesti lainasääntöjen mukaisesti.
 - Toiminnolla **Älä lyhennä laina-aikaa varausten määrän pohjalta**
   voi ohittaa järjestelmäasetuksen, jolla lyhennetään laina-aikaa, jos
