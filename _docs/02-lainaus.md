@@ -39,7 +39,8 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 
 ![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
-Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
+- Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
+- Jos täppä on päällä kohdassa **Näytä aina lainat reaaliaikaisesti**, lainaustilanteessa näytetään kaikki lainat näytöllä reaaliaikaisesti.
 
 **Tärkeää:**
 
@@ -245,14 +246,22 @@ lainaamisen jatkamista.
 **Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
 ![](/assets/files/docs/Lainaus/lainassa.PNG)
 
-Ensimmäisenä näkyvät tänään lainatut lainat.
-
-![](/assets/files/docs/Lainaus/lainat_naytto.png)
-
 **Sarakkeen näkyvyys** -valikosta voit valita, mitä sarakkeita
 Lainassa-välilehdellä näytetään.
 
-![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.png)
+![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.PNG)
+
+**Vie**-valikosta voit tulostaa, kopioida tai viedä asiakkaan lainat Excel- tai CSV -tiedostoiksi.
+
+![](/assets/files/docs/Lainaus/vie.PNG)
+
+Valikosta **Lainojen määrä nidetyypeittäin** näkyvät asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
+
+Ensimmäisenä näkyvät tänään lainatut lainat.
+
+![](/assets/files/docs/Lainaus/lainat_naytto.PNG)
+
+
 
 ### 2.4.1 Lainojen uusinta
 
