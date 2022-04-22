@@ -51,6 +51,8 @@ Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
 
 **Lainausasetukset**
 
+![](/assets/files/docs/Lainaus/lainausasetukset.PNG)
+
 - Asetuksissa on mahdollista määritellä lainattavalle aineistolle muu
   eräpäivä kuin oletuseräpäivä. Tämä vaihtoehto tulee näkyviin vain,
   jos järjestelmäasetuksissa on määritelty, että virkailijalla on
@@ -226,20 +228,22 @@ lainaamisen jatkamista.
 
 ### 2.3.10 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
 
-![](/assets/files/docs/Lainaus/lainhuom9.png)
+![](/assets/files/docs/Lainaus/lainhuom9.PNG)
+
+- Ikärajoituksen ohituksen salliminen määritellään järjestelmäasetuksissa.
 
 ### 2.3.11 Lainattavalla niteellä on paljon varauksia, jonka takia lyhennetään laina-aikaa.
 
-![](/assets/files/docs/Lainaus/lainhuom10.png)
+![](/assets/files/docs/Lainaus/lainhuom10.PNG)
 
-- Huom! Asetus ei välttämättä ole päällä kimppasi Kohassa.
+- Laina-ajan lyhennys määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ---
 
 ## 2.4 Asiakkaan lainat
 
 **Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
-![](/assets/files/docs/Lainaus/lainassa.png)
+![](/assets/files/docs/Lainaus/lainassa.PNG)
 
 Ensimmäisenä näkyvät tänään lainatut lainat.
 
