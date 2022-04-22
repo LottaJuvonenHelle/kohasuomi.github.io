@@ -258,6 +258,7 @@ Lainassa-välilehdellä näytetään.
 Valikosta **Lainojen määrä nidetyypeittäin** näkyvät asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
 
 Ensimmäisenä näkyvät tänään lainatut lainat.
+Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 
 ![](/assets/files/docs/Lainaus/lainat_naytto.PNG)
 
