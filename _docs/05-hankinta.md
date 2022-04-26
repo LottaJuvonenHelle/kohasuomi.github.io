@@ -20,6 +20,23 @@ jotta tilauksia voi tehdä.
 
 ![](/assets/files/docs/Hankinta/hankinta1.png)
 
+Hankinnan etusivulla näkyy kaikki tilit.  
+![](/assets/files/docs/Hankinta/hankinta7.png)
+
+Voit piilottaa näkyviltä käytöstä poistetut budjetit klikkaamalla
+_Piilota käytöstä poistetut budjetit_. Takaisin näkyviin ne saa
+klikkaamalla _Näytä käytöstä poistetut budjetit_.
+
+Voit suodattaa näkymää alasvetovalikosta _Kirjaston mukaan_. Voit suodattaa näkymää myös kirjoittamalla sopivan hakutermin _Hae_-kohtaan.
+
+Jos haluat nähdä, mitä teoksia on tilattu tiettyä tiliä käyttäen,
+klikkaa tilin kohdalla Tilattu-sarakkeessa linkkinä olevaa summaa.  
+![](/assets/files/docs/Hankinta/hankinta8.png)
+
+Lue lisää budjetin/tilin käytöstä luvussa _5.9. Budjetointi ja tilien
+seuranta._
+
+
 ## 5.1 Budjetin lisääminen
 
 Budjetin voi lisätä joko _Hankinnan_ kautta tai ylläpidosta _Hankinnan
@@ -99,14 +116,14 @@ vaatimukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wi
 
 Tilin voi lisätä kahdella tavalla
 
-- Valitse juuri lisäämäsi budjetti klikkaamalla budjetin nimeä,
+1. Valitse juuri lisäämäsi budjetti klikkaamalla budjetin nimeä,
   jolloin avautuu uusi sivu. Valitse siellä _Uusi_ ja avautuvasta
   valikosta _Uusi tili kohteelle xxx_  
   ![](/assets/files/docs/Hankinta/hankinta4.png)
 
 <!-- -->
 
-- Valitse budjetin nimen kohdalla oikeanpuolimmaisesta sarakkeesta
+2. Valitse budjetin nimen kohdalla oikeanpuolimmaisesta sarakkeesta
   _Toiminnot_ ja sieltä _Lisää tili_  
   ![](/assets/files/docs/Hankinta/hankinta04.png)
 
@@ -120,24 +137,25 @@ Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
   vaatimukset.
 - _Tilin nimi_ kannattaa olla selkeä ja helposti ymmärrettävä.
   Kimpoissa kannattaa käyttää kirjaston nimeä ensimmäisenä sanana
-  budjetin nimessä.
+  tilin nimessä.
 - _Summassa_ voi olla vain numeroita ja desimaalierotin, ei muita
   merkkejä. Summa ei voi ylittää budjetille määritettyä
   kokonaissummaa.
-- _Varoituskohta_ (%) tai (summa) voidaan merkitä halutessa, näin Koha
-  varoittaa ennen kuin ylität tietyn määrän käytetyistä määrärahoista.
+- _Varoituskohta_ (%) tai (summa) voidaan merkitä halutessa, jolloin Koha
+  varoittaa, kun ylität tietyn määrän käytetyistä määrärahoista.
 - _Omistaja_ on se henkilö, joka voi tehdä muutoksia tiliin.
   Käyttäjäksi voi lisätä käyttäjätunnuksia, joilla on hankinnan
   oikeudet (toiminnossa virhe: pääkäyttäjiä ei voi ohjeista huolimatta
   lisätä käyttäjiksi). Hae käyttäjätunnuksella tai nimellä ja klikkaa
-  _Lisää_. Saat ilmoituksen “Asiakas ‘xxx’ lisätty.”, jonka jälkeen
-  klikkaa _Sulje_.  
+  _Lisää_. Ikkuna sulkeutuu automaattisesti.  
   ![](/assets/files/docs/Hankinta/hankinta05.png)
 - _Käyttäjä_ voi omistajan lisäksi käyttää tiliä, mutta ei voi tehdä
-  muutoksia sen tietoihin. Lisääminen samalla tavalla kuin
-  Omistaja-kohdassa, myös sama virhe esiintyy tässä.
+  muutoksia sen tietoihin. Käyttäjäksi voi lisätä käyttäjätunnuksia, joilla on hankinnan
+  oikeudet. Hae käyttäjätunnuksella tai nimellä ja klikkaa
+  _Lisää_, jolloin saat ilmoituksen "Asiakas xxx lisätty". Lisää tarvittava määrä käyttäjiä ja sulje sen jälkeen ikkuna joko _Sulje_-napista tai ikkunan rastista.
+  Käyttäjien lisäämisessä on sama virhe kuin Omistaja-kohdassa, eli pääkäyttäjäoikeuksilla olevaa tunnusta ei voi lisätä käyttäjäksi.
 - _Kirjasto_, jonka tilistä on kysymys, valitaan alasvetovalikosta.
-- _Rajoita käyttö:_ valitse valikosta, ketkä saavat käyttää tiliä.
+- _Rajoita käyttö:_ valitse valikosta, ketkä saavat käyttää tiliä. Käytön voi rajoittaa Omistajalle, Omistajalle ja käyttäjille tai Omistajalla, käyttäjille ja kirjastolle. **Huom!** Rajoitus ei toimi, jos tilille ei ole määritetty omistajaa.
   Kimpoissa kannattaa rajauksia tehdä, jotta kaikille ei näy kaikkien
   kirjastojen tilit (nopeuttaa manuaalisten tilausten tekemistä).  
   ![](/assets/files/docs/Hankinta/hankinta6.png)
@@ -147,20 +165,6 @@ Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
   valita auktorisoidun arvon. Ei suositeltavaa.
 
 Tallenna lopuksi _OK_-painikkeesta.
-
-Hankinnan etusivulla näkyy kaikki tilit.  
-![](/assets/files/docs/Hankinta/hankinta7.png)
-
-Voit piilottaa näkyviltä käytöstä poistetut budjetit klikkaamalla
-_Piilota käytöstä poistetut budjetit_. Takaisin näkyviin ne saa
-klikkaamalla _Näytä käytöstä poistetut budjetit_.
-
-Jos haluat nähdä, mitä teoksia on tilattu tiettyä tiliä käyttäen,
-klikkaa tilin kohdalla Tilattu-sarakkeessa linkkinä olevaa summaa.  
-![](/assets/files/docs/Hankinta/hankinta8.png)
-
-Lue lisää budjetin/tilin käytöstä luvussa _5.9. Budjetointi ja tilien
-seuranta._
 
 ## 5.2 Toimittaja
 
