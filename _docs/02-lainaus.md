@@ -89,6 +89,7 @@ Kuitin voit tulostaa:
   Tulosteessa erotellaan myöhässä olevat lainat oman otsikon alle.
 - **Tänään lainatut:** tulostaa tänään lainattujen ja uusittujen
   lainojen tiedot kuitille.
+- **Tulosta erääntyneet**: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
 - **Tulosta tänään palautetut:** antaa asiakkaan palautuksista kuitin.
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
