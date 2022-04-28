@@ -263,8 +263,6 @@ Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 
 ![](/assets/files/docs/Lainaus/lainat_naytto.PNG)
 
-
-
 ### 2.4.1 Lainojen uusinta
 
 Lainassa olevien niteiden laina-ajan voi uusia sen mukaan, mitä
