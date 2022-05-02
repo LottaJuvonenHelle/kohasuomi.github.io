@@ -101,7 +101,7 @@ tai klikkaa Tiedonhaun puolella _Muokkaa_-valikosta _Muokkaa tietuetta_.
 
 Tietue avautuu MARC-muokkaukseen.
 
-![](/assets/files/docs/Luettelointi/luettelointi13.png)
+![](/assets/files/docs/Luettelointi/kuvailu13.png)
 
 Kun muokkaat tietuetta, kentän nimen perässä on kuvakkeet, joista
 vasemmalla oleva kopioi kentän ja oikealla puolella oleva tyhjentää
