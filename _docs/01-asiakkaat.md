@@ -14,7 +14,7 @@ Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas1.png)
 
-Sivulla on alasvetovalikkovaihtoehdot: +Uusi asiakas ja +Asiakkaan pikalisäys. Huom. Kaikissa kimpoissa ei Asiakkaan pikalisäys-vaihtoehtoa käytetä, joten valitse kimppasi ohjeistama asiakkaan lisäystapa. 
+Sivulla on alasvetovalikkovaihtoehdot: +Uusi asiakas ja +Asiakkaan pikalisäys. Huom. Kaikissa kimpoissa ei ole Asiakkaan pikalisäys-vaihtoehtoa käytössä, joten valitse kimppasi ohjeistama asiakkaan lisäystapa.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas2.png)
 
