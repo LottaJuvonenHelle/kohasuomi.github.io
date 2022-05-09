@@ -13,6 +13,7 @@ toc: true
 Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas1.png)
+
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas2.png)
 
 Klikkaa Uusi asiakas, saat alasvetovalikon, josta valitset asiakkaan
