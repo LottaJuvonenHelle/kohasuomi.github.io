@@ -13,11 +13,12 @@ toc: true
 Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas1.png)
+![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas2.png)
 
 Klikkaa Uusi asiakas, saat alasvetovalikon, josta valitset asiakkaan
 tyypin.
 
-![](/assets/files/docs/Asiakkaat/Asiakkaatlista.png)
+![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas3.png)
 
 ### 1.1.1. Henkilötunnus ja sotu-siilo
 
