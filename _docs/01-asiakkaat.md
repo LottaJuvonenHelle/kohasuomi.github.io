@@ -14,6 +14,8 @@ Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas1.png)
 
+Sivulla on alasvetovalikkovaihtoehdot: +Uusi asiakas ja +Asiakkaan pikalisäys. Huom. Kaikissa kimpoissa ei Asiakkaan pikalisäys-vaihtoehtoa käytetä, joten valitse kimppasi ohjeistama asiakkaan lisäystapa. 
+
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas2.png)
 
 Klikkaa Uusi asiakas, saat alasvetovalikon, josta valitset asiakkaan
@@ -23,7 +25,7 @@ tyypin.
 
 ### 1.1.1. Henkilötunnus ja sotu-siilo
 
-Kohaan on tehty Suomessa uusi ominaisuus, sotu-siilo, jonne tallennetaan
+Kohaan on tehty Suomessa ominaisuus, sotu-siilo, jonne tallennetaan
 tietoturvallisesti asiakkaiden henkilötunnukset. Sotu-siilo on yhteinen kaikille kimpoille.
 
 Oheisissa ruutukaappauksissa käytetty sotu on tehty
@@ -32,7 +34,7 @@ tunnus, mutta täyttää tunnuksen ominaisuudet tarkistusmerkkiä myöten.
 Sotuavaimella muodossa “sotuxxxx” voi hakea asiakkaan tiedot esille,
 mutta henkilötunnus ei näy.
 
-Syötä Tarkista sotun olemassaolo -osioon asiakkaan henkilötunnus.
+Syötä Lisää hetu-kohtaan asiakkaan henkilötunnus.
 
 ![](/assets/files/docs/Asiakkaat/sotusiilo.png)
 
