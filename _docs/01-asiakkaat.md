@@ -36,7 +36,7 @@ mutta henkilötunnus ei näy.
 
 Syötä Lisää hetu-kohtaan asiakkaan henkilötunnus.
 
-![](/assets/files/docs/Asiakkaat/sotusiilo.png)
+![](/assets/files/docs/Asiakkaat/Lisaahetu.png)
 
 Jos henkilötunnusta ei ole ennestään sotu-siilossa, siitä tulee ilmoitus
 vihreällä taustalla “Sotu lisätty. Avain sotu322453 löytyi”.
