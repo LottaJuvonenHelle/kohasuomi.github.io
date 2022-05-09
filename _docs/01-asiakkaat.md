@@ -429,7 +429,7 @@ Lapsiasiakkaalla näkyy Takaajan nimi linkkinä
 Takaajan tietueessa näkyy kaikkien huollettavien tiedot  
 ![](/assets/files/docs/Asiakkaat/huollettavat.png)
 
-### 1.6.3. Maksut
+### 1.6.2. Maksut
 
 Asiakkaan maksuhistoria näkyy maksuissa Tili-välilehdellä. Siellä näkyy
 myöhästymismaksujen lisäksi myös muut kirjatut maksut, esim.
@@ -453,7 +453,7 @@ niteen eräpäivä sekä linkki nidetietoon
 
 - _Maksettavaa:_ vielä maksamatta oleva määrä
 
-#### 1.6.3.1. Maksujen maksaminen/poistaminen rivi kerrallaan
+#### 1.6.2.1. Maksujen maksaminen/poistaminen rivi kerrallaan
 
 Jokaisen rivin maksu voidaan maksaa tai poistaa erikseen klikkaamalla
 rivillä joko Maksa tai Poista. Maksu voidaan maksaa kokonaan tai
@@ -495,7 +495,7 @@ Maksu siirtyy Maksa maksuja-välilehdeltä Tili-välilehdelle.
 
 ![](/assets/files/docs/Asiakkaat/poistettu2.png)
 
-#### 1.6.3.2. Maksa kaikki tai jokin tietty summa maksuista
+#### 1.6.2.2. Maksa kaikki tai jokin tietty summa maksuista
 
 Maksa kaikki
 
@@ -518,7 +518,7 @@ Maksa tietty summa maksuista
 
 \- Maksu päivittyy kuittaamaan vanhimmat maksut ensin.
 
-#### 1.6.3.3. Maksa valitut maksut
+#### 1.6.2.3. Maksa valitut maksut
 
 \- Laita valintamerkki niiden maksujen kohdalle, jotka maksetaan,
 klikkaa Maksa valitut.
@@ -533,7 +533,7 @@ Valittujen maksujen summa näkyy Peri asiakkaalta -laatikossa.
 
 - Maksu päivittyy kuittaamaan valitun maksun.
 
-#### 1.6.3.4. Poista kaikki maksut
+#### 1.6.2.4. Poista kaikki maksut
 
 Klikkaa Poista kaikki maksut -nappia listauksen alapuolella
 
@@ -541,7 +541,7 @@ Klikkaa Poista kaikki maksut -nappia listauksen alapuolella
 
 \- Kaikki maksut poistuvat saatavista ja näkyvät poistettuina maksuina
 
-#### 1.6.3.5. Maksun peruminen
+#### 1.6.2.5. Maksun peruminen
 
 Jos vahingossa merkitset niteen maksun maksetuksi, voit kumota maksun
 klikkaamalla Toiminnot-sarakkeessa Peruuta.
@@ -558,7 +558,7 @@ HOX HOX!!Jos kirjastossa on käytössä kassajärjestelmä, joka on
 yhteydessä kirjastojärjestelmään, ohje löytyy kohdasta 4.8.3.6. KORJAA
 TÄMÄ
 
-#### 1.6.3.6. Maksun luominen
+#### 1.6.2.6. Maksun luominen
 
 Sellaisia maksuja, joita järjestelmä ei tee automaattisesti, voi
 virkailija tallentaa Lisää maksu -välilehdellä.
@@ -579,7 +579,7 @@ desimaaleja). Tallennuksen jälkeen maksu näkyy yhteenvedossa.
 
 ![](/assets/files/docs/Asiakkaat/maksunsumma.png)
 
-#### 1.6.3.7. Hyvitysten luominen
+#### 1.6.2.7. Hyvitysten luominen
 
 Tämä toiminto luo asiakkaalle saldoon “plussasaldoa”. Hyvitystä voidaan
 käyttää maksujen maksamiseen tai maksun anteeksiantoon. HUOM! Tarkista
@@ -598,7 +598,7 @@ Viivakoodi-kenttään
 - Anna Summa-kenttään vain numeroita ja desimaaleja, ei
   valuuttamerkkejä.
 
-#### 1.6.3.8. Maksujen tulostaminen
+#### 1.6.2.8. Maksujen tulostaminen
 
 Jokaisen maksurivin lopussa on Tulosta-linkki. Klikkaamalla tästä
 linkistä saat tulostettua niteen nimeke- ja maksutiedot sekä tilin
@@ -608,7 +608,7 @@ kokonaissaldon.
 
 #### Maksujen maksaminen Ceepos-kassaliittymän kautta
 
-##### Valmistelut ennen maksujen vastaanottoa
+##### 1.6.2.9. Valmistelut ennen maksujen vastaanottoa
 
 Avaa Kohassa asiakkaan Maksa maksuja-välilehti. Valitse sieltä ne
 maksut, jotka asiakas maksaa ja klikkaa joko Maksa kaikki tai Maksa
@@ -633,7 +633,7 @@ pitää toimipiste lisätä uudelleen.
 
 ![](/assets/files/docs/Asiakkaat/lisäätoimipiste4.png)
 
-##### Maksun lähettäminen kassaohjelmaan
+##### 1.6.2.10. Maksun lähettäminen kassaohjelmaan
 
 Kun klikkaat toimipisteen numeroa, se muuttuu vihreäksi ja tieto siirtyy
 kassaan.
@@ -646,7 +646,7 @@ veloittaa asiakkaalta maksun. Toimi kirjaston Ceepos-ohjeiden mukaisesti
 ja palaa sitten takaisin Kohaan, jossa asiakkaan maksut ovat
 automaattisesti merkitty suoritetuiksi.
 
-##### Näkymä Kohan Maksut-osiossa
+##### 1.6.2.11. Näkymä Kohan Maksut-osiossa
 
 Kohassa asiakkaan Tili-välilehdellä näkyy maksutapahtuman numero. Muista
 aina varmistaa, että maksusta on ilmestynyt yksi uusi maksurivi maksun
@@ -662,7 +662,7 @@ liittyvät rivit.
 Ongelmatilanteissa ota yhteyttä joko oman kirjaston/kimpan Koha-tukeen
 tai kirjastosi Ceepos-ohjelman pääkäyttäjään.
 
-### 1.6.3 Kiertolistat
+### 1.6.3. Kiertolistat
 
 Kiertolistat tarkoittaa lehtikiertolistaa eli jos kirjaston työntekijä
 on jonkun lehden sisäisellä kiertolistalla.
@@ -670,7 +670,7 @@ on jonkun lehden sisäisellä kiertolistalla.
 ![](/assets/files/docs/Asiakkaat/lehtikierto1.png)  
 ![](/assets/files/docs/Asiakkaat/lehtikierto2.png)
 
-### 1.6.4 Muutosloki
+### 1.6.4. Muutosloki
 
 Muutoslokille kertyy tietoa, kun asiakkaan tietoja on katsottu tai
 muokattu ja jos asiakastieto on tullut asiakashaussa hakutuloslistalle.
@@ -703,7 +703,7 @@ nide on lainattu tai asiakkaan kirjautuminen automaatille
   tulee silloin, kun asiakkaan tietoihin on otettu yhteyttä restin kautta
   esim. Ceepos ja Ellibs.
 
-### 1.6.5 Ilmoitukset
+### 1.6.5. Ilmoitukset
 
 Tällä näytöllä näkyy asiakkaalle lähteneet tai lähtemässä olevat
 ilmoitukset. Ilmoittamistapa valitaan asiakastiedoissa asiakkaan
@@ -773,7 +773,7 @@ lomakkeen alareunasta “Lähetä ehdotuksesi”.
 
 ![](/assets/files/docs/Asiakkaat/teeuusihankintaehdotus2.png)
 
-### 1.6.2. Lainat
+### 1.6.8. Lainat
 
 Asiakkaan tietojen alapuolella on taulukkonäkymässä asiakkaan lainat,
 maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
@@ -786,8 +786,6 @@ Tällä näytöllä näkyy myös asiakkaan huollettavien lainat Perheen lainat
 lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
-
-
 
 ## 1.7. Asiakkaan hakeminen
 
