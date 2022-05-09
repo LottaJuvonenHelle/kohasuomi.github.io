@@ -429,20 +429,6 @@ Lapsiasiakkaalla näkyy Takaajan nimi linkkinä
 Takaajan tietueessa näkyy kaikkien huollettavien tiedot  
 ![](/assets/files/docs/Asiakkaat/huollettavat.png)
 
-### 1.6.2. Lainat
-
-Asiakkaan tietojen alapuolella on taulukkonäkymässä asiakkaan lainat,
-maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
-“Lainassa”-painiketta.
-
-![](/assets/files/docs/Asiakkaat/lainat.png)
-
-Tällä näytöllä näkyy myös asiakkaan huollettavien lainat Perheen lainat
--välilehdellä. Näkymässä näkyy myös huollettavalla perheen sisarusten
-lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
-
-![](/assets/files/docs/Asiakkaat/perheenlainat.png)
-
 ### 1.6.3. Maksut
 
 Asiakkaan maksuhistoria näkyy maksuissa Tili-välilehdellä. Siellä näkyy
@@ -786,6 +772,22 @@ lomakkeen alareunasta “Lähetä ehdotuksesi”.
 ![](/assets/files/docs/Asiakkaat/teeuusihankintaehdotus.png)
 
 ![](/assets/files/docs/Asiakkaat/teeuusihankintaehdotus2.png)
+
+### 1.6.2. Lainat
+
+Asiakkaan tietojen alapuolella on taulukkonäkymässä asiakkaan lainat,
+maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
+“Lainassa”-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksuja.
+
+![](/assets/files/docs/Asiakkaat/lainat.png)
+
+Tällä näytöllä näkyy myös asiakkaan huollettavien lainat Perheen lainat
+-välilehdellä. Huollettavalla näkyy myös perheen sisarusten
+lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
+
+![](/assets/files/docs/Asiakkaat/perheenlainat.png)
+
+
 
 ## 1.7. Asiakkaan hakeminen
 
