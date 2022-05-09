@@ -19,7 +19,7 @@ tyypin.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaatlista.png)
 
-### Henkilötunnus ja sotu-siilo
+### 1.1.1. Henkilötunnus ja sotu-siilo
 
 Kohaan on tehty Suomessa uusi ominaisuus, sotu-siilo, jonne tallennetaan
 tietoturvallisesti asiakkaiden henkilötunnukset. Sotu-siilo on yhteinen kaikille kimpoille.
@@ -48,7 +48,7 @@ tunnukset -kohtaan kenttään Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain
 Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Sotu on
 virheellinen”.
 
-#### Sotu on jo olemassa
+#### 1.1.1.1. Sotu on jo olemassa
 
 Jos syötetty henkilötunnus on jo sotu-siilossa, tulee ilmoitus “Sotu on
 jo olemassa. Avain sotu322453 löytyi”. Tarkista esimerkiksi toisella
@@ -63,7 +63,7 @@ että asiakkaan henkilötunnus oli tallentunut jo ensimmäisellä
 klikkauksella sotusiiloon ja toisella klikkauksella Koha antaa yllä
 olevan ilmoituksen. 
 
-#### Sotu-siilon käyttöliittymä
+#### 1.1.1.2. Sotu-siilon käyttöliittymä
 
 Sotu-siiloon on olemassa myös toinen käyttöliittymä, jonka kautta
 esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
@@ -71,7 +71,7 @@ sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 
 ---
 
-### Nimi ja yhteystiedot
+### 1.1.2. Nimi ja yhteystiedot
 
 Syötä asiakkaan koko nimi, syntymäaika ja varaustunniste. Huomaathan,
 että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät.
@@ -106,7 +106,7 @@ kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/koha682.png)
 
-### Takaaja
+### 1.1.3. Takaaja
 
 Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa
 “Lisää takaaja” -nappia, niin pääset hakemaan rekisteristä lapselle
@@ -134,11 +134,11 @@ Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
 tietoihin toisella välilehdelle ja tee takaajahaku uudelleen.
 
-Ei-asiakas takaaja tiedon lisääminen. Kimppakohtainen.
+### 1.1.3.1. Ei-asiakas takaaja tiedon lisääminen. Kimppakohtainen.
 
 ![](/assets/files/docs/Asiakkaat/Eiasiakastakaaja.png)
 
-### Kirjastotiedot
+### 1.1.4. Kirjastotiedot
 
 _Kirjastonhallinta-osio_ sisältää kirjastonkäyttöön liittyviä tietoja.
 
@@ -192,7 +192,7 @@ olla käytössä.
 
 ![](/assets/files/docs/Asiakkaat/koha680.png)
 
-### Asiakkaan viestiasetukset
+### 1.1.5. Asiakkaan viestiasetukset
 
 Lopuksi vielä tallennetaan asiakkaan viestiasetukset. Käytettävissä
 olevat viestivaihtoehdot vaihtelevat kimpoittain.
@@ -240,7 +240,7 @@ kopio. Tallenna uutena tietueena”.
 
 ---
 
-## 1.2 Ei-tilastoitavat-lainat
+## 1.2. Ei-tilastoitavat-lainat
 
 Tämä asiakastyyppi on luotu sellaisille lainoille, joita henkilökunta
 tekee työtarkoitusta varten. Huom! Voi olla kimppakohtaisia eroja
@@ -249,7 +249,7 @@ oteta mukaan tilastoihin.
 
 ![](/assets/files/docs/Asiakkaat/eitilastoituvat.png)
 
-## 1.3 Asiakkaan tietojen kopioiminen
+## 1.3. Asiakkaan tietojen kopioiminen
 
 Joissakin tilanteissa on tarpeen käyttää asiakastietojen kopioimista,
 esim. saman perheen jäsenille tehdään useita kortteja. Kohassa on
@@ -267,7 +267,7 @@ kopioituvat lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
 
 Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
 
-## 1.4 Asiakkaan tietojen muokkaaminen
+## 1.4. Asiakkaan tietojen muokkaaminen
 
 Asiakkaan tietoja voidaan muokata eri painikkeiden kautta.
 
@@ -276,7 +276,7 @@ Muokkaa-painiketta asiakastietojen yläreunassa.
 
 ![](/assets/files/docs/Asiakkaat/muokkaanappi.png)
 
-### Salasanan vaihtaminen
+### 1.4.1. Salasanan vaihtaminen
 
 Asiakkaan salasanaa ei voi nähdä. Asiakastiedoissa salasanan korvaavat
 tähdet ovat aina näkyvissä, vaikka salasanaa ei olisikaan tallennettu.
@@ -299,7 +299,7 @@ Kirjastotiedot) klikkaa sen osion alla olevaa Muokkaa-linkkiä.
 
 ![](/assets/files/docs/Asiakkaat/muokkaanappi2.png)
 
-### Lapsiasiakkaan takaajan vaihtaminen
+### 1.4.2. Lapsiasiakkaan takaajan vaihtaminen
 
 Mene muokkaamaan lapsen tietoja. Kohdassa Takaajan tiedot klikkaa
 “Muuta”.
@@ -320,7 +320,7 @@ lapsen tiedot!
 
 ![](/assets/files/docs/Asiakkaat/muuttunuttakaaja.png)
 
-### Asiakkaan kuva
+### 1.4.3. Asiakkaan kuva
 
 Asiakkaan kuva voidaan lisätä valitsemalla kuva koneeltasi Lataa
 asiakaskuva -osiossa.
@@ -333,7 +333,7 @@ kuvien tallentaminen
 \- Työkaluissa olevalla toiminnolla Asiakaskuvien lataus voi tuoda
 palvelimelle eräajona kuvia
 
-### Rajoitukset
+### 1.4.4. Rajoitukset
 
 Asiakkaiden käyttöoikeuksia voidaan rajoittaa eri syistä johtuen.
 
@@ -377,7 +377,7 @@ käyttöoikeuden jatkaminen”.
 
 ![](/assets/files/docs/Asiakkaat/tilinvanh.png)
 
-### Lapsiasiakas aikuisasiakkaaksi
+### 1.4.5. Lapsiasiakas aikuisasiakkaaksi
 
 Lapsiasiakkaasta ei tule automaattisesti aikuista ellei Kohassa ole
 siihen liittyvä ajo käynnissä. Lapsen voi muuttaa aikuiseksi Asiakkaan
@@ -386,7 +386,7 @@ aikuiseksi”.
 
 ![](/assets/files/docs/Asiakkaat/lapsiaikuiseksi.png)
 
-## 1.5 Asiakkaiden kommenttien ja muutospyyntöjen käsittely
+## 1.5. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
 Jos järjestelmäasetuksissa annetaan asiakkaille oikeus muuttaa tietojaan
 verkkokirjaston kautta, täytyy muutokset hyväksyä virkailijaliittymän
@@ -416,7 +416,7 @@ useita eri välilehtiä, joilla on erilaisia tietoja.
 
 ![](/assets/files/docs/Asiakkaat/vasen.png)
 
-### Tiedot
+### 1.6.1. Tiedot
 
 Kaikki asiakkaan (henkilö)tiedot näkyvät Tiedot-välilehdellä. Täällä on
 yhteystiedot, huomautukset, asiakkaan viestiasetukset ym.
@@ -429,7 +429,7 @@ Lapsiasiakkaalla näkyy Takaajan nimi linkkinä
 Takaajan tietueessa näkyy kaikkien huollettavien tiedot  
 ![](/assets/files/docs/Asiakkaat/huollettavat.png)
 
-### 1.6.1 Lainat
+### 1.6.2. Lainat
 
 Asiakkaan tietojen alapuolella on taulukkonäkymässä asiakkaan lainat,
 maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
@@ -443,7 +443,7 @@ lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
-### 1.6.2 Maksut
+### 1.6.3. Maksut
 
 Asiakkaan maksuhistoria näkyy maksuissa Tili-välilehdellä. Siellä näkyy
 myöhästymismaksujen lisäksi myös muut kirjatut maksut, esim.
@@ -467,7 +467,7 @@ niteen eräpäivä sekä linkki nidetietoon
 
 - _Maksettavaa:_ vielä maksamatta oleva määrä
 
-#### Maksujen maksaminen/poistaminen rivi kerrallaan
+#### 1.6.3.1. Maksujen maksaminen/poistaminen rivi kerrallaan
 
 Jokaisen rivin maksu voidaan maksaa tai poistaa erikseen klikkaamalla
 rivillä joko Maksa tai Poista. Maksu voidaan maksaa kokonaan tai
@@ -509,7 +509,7 @@ Maksu siirtyy Maksa maksuja-välilehdeltä Tili-välilehdelle.
 
 ![](/assets/files/docs/Asiakkaat/poistettu2.png)
 
-#### Maksa kaikki tai jokin tietty summa maksuista
+#### 1.6.3.2. Maksa kaikki tai jokin tietty summa maksuista
 
 Maksa kaikki
 
@@ -532,7 +532,7 @@ Maksa tietty summa maksuista
 
 \- Maksu päivittyy kuittaamaan vanhimmat maksut ensin.
 
-#### Maksa valitut maksut
+#### 1.6.3.3. Maksa valitut maksut
 
 \- Laita valintamerkki niiden maksujen kohdalle, jotka maksetaan,
 klikkaa Maksa valitut.
@@ -547,7 +547,7 @@ Valittujen maksujen summa näkyy Peri asiakkaalta -laatikossa.
 
 - Maksu päivittyy kuittaamaan valitun maksun.
 
-#### Poista kaikki maksut
+#### 1.6.3.4. Poista kaikki maksut
 
 Klikkaa Poista kaikki maksut -nappia listauksen alapuolella
 
@@ -555,7 +555,7 @@ Klikkaa Poista kaikki maksut -nappia listauksen alapuolella
 
 \- Kaikki maksut poistuvat saatavista ja näkyvät poistettuina maksuina
 
-#### Maksun peruminen
+#### 1.6.3.5. Maksun peruminen
 
 Jos vahingossa merkitset niteen maksun maksetuksi, voit kumota maksun
 klikkaamalla Toiminnot-sarakkeessa Peruuta.
@@ -572,7 +572,7 @@ HOX HOX!!Jos kirjastossa on käytössä kassajärjestelmä, joka on
 yhteydessä kirjastojärjestelmään, ohje löytyy kohdasta 4.8.3.6. KORJAA
 TÄMÄ
 
-#### Maksun luominen
+#### 1.6.3.6. Maksun luominen
 
 Sellaisia maksuja, joita järjestelmä ei tee automaattisesti, voi
 virkailija tallentaa Lisää maksu -välilehdellä.
@@ -593,7 +593,7 @@ desimaaleja). Tallennuksen jälkeen maksu näkyy yhteenvedossa.
 
 ![](/assets/files/docs/Asiakkaat/maksunsumma.png)
 
-#### Hyvitysten luominen
+#### 1.6.3.7. Hyvitysten luominen
 
 Tämä toiminto luo asiakkaalle saldoon “plussasaldoa”. Hyvitystä voidaan
 käyttää maksujen maksamiseen tai maksun anteeksiantoon. HUOM! Tarkista
@@ -612,7 +612,7 @@ Viivakoodi-kenttään
 - Anna Summa-kenttään vain numeroita ja desimaaleja, ei
   valuuttamerkkejä.
 
-#### Maksujen tulostaminen
+#### 1.6.3.8. Maksujen tulostaminen
 
 Jokaisen maksurivin lopussa on Tulosta-linkki. Klikkaamalla tästä
 linkistä saat tulostettua niteen nimeke- ja maksutiedot sekä tilin
