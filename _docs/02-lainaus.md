@@ -256,7 +256,7 @@ Lainassa-välilehdellä näytetään.
 
 ![](/assets/files/docs/Lainaus/vie.PNG)
 
-Valikosta **Lainojen määrä nidetyypeittäin** näkyvät asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
+Valikosta **Lainojen määrä nidetyypeittäin** näet asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
 
 Ensimmäisenä näkyvät tänään lainatut lainat.
 Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
@@ -265,7 +265,7 @@ Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 
 ### 2.4.1 Lainojen uusinta
 
-Lainassa olevien niteiden laina-ajan voi uusia sen mukaan, mitä
+Lainassa olevien niteiden laina-ajan voit uusia sen mukaan, mitä järjestelmän
 ylläpidon Laina- ja käyttömaksusäännöissä on määritelty.
 
 Asiakkaat voivat uusia lainojaan verkkokirjastossa, mutta uusinnan voi
@@ -276,9 +276,8 @@ kahdella eri tavalla.
 
 ![](/assets/files/docs/Lainaus/uusinta.png)
 
-- Uusinta-sarakkeessa näet, kuinka monta kertaa kukin nide on uusittu
-  ja uusinnan valintaruudun kunkin niteen kohdalla. Valitse uusittavat
-  niteet ja klikkaa näytön alareunasta painiketta **Uusi tai palauta
+- Uusinta-sarakkeesta näet, kuinka monta kertaa kukin nide on uusittu. 
+  Valitse uusittavat niteet ruksaamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta **Uusi tai palauta
   valitut niteet** tai jos uusit kaikki lainat, klikkaa **Uusi
   kaikki** -painiketta.
 - Uusinta-sarakkeen yläreunassa olevalla toiminnolla “valitse kaikki”
@@ -288,6 +287,7 @@ kahdella eri tavalla.
   aktiiviseksi, voit palauttaa lainat valitsemalla palautettavat
   niteet **Palautus**-sarakkeesta ja klikkaamalla näytön alareunasta
   painiketta **Uusi tai palauta valitut niteet**.
+- Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta.       Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle laitetaan merkintä   **Ilmoitettu palautetuksi**.   
 - Jos kimpassa on käytössä asetus, joka estää uusimisen samana päivänä
   uudestaan, tulee huomautus “Ei uusintaa ennen…”. Lainan voi uusia
   uudelleen kyseisen päivämäärän ja kellonajan jälkeen. Huomautus
