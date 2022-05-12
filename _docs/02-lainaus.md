@@ -40,7 +40,7 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 ![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
 - Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
-- Jos täppä on päällä kohdassa **Näytä aina lainat reaaliaikaisesti**, lainaustilanteessa näytetään kaikki lainat näytöllä reaaliaikaisesti.
+- Jos klikkaat täpän kohtaan **Näytä aina lainat reaaliaikaisesti**, lainaustilanteessa kaikki asiakkaan lainat näkyvät näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
 
 **Tärkeää:**
 
