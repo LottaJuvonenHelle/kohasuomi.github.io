@@ -39,33 +39,38 @@ Syötä Lisää hetu-kohtaan asiakkaan henkilötunnus.
 ![](/assets/files/docs/Asiakkaat/Lisaahetu.png)
 
 Jos henkilötunnusta ei ole ennestään sotu-siilossa, siitä tulee ilmoitus
-vihreällä taustalla “Sotu lisätty. Avain sotu322453 löytyi”.
+"Hetu tallennettu!".
 
-![](/assets/files/docs/Asiakkaat/sotusiilo2.png)
+![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
 
 Sotu-avain siirtyy automaattisesti asiakastietoihin Muut määritteet ja
 tunnukset -kohtaan kenttään Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain
 (kentän nimi voi vaihdella kimpan mukaan).
 
-![](/assets/files/docs/Asiakkaat/sotusiilo3.png)
+![](/assets/files/docs/Asiakkaat/sotuavain.png)
 
-Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Sotu on
-virheellinen”.
+Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
+
+![](/assets/files/docs/Asiakkaat/Tarkistahetu.png)
 
 #### 1.1.1.1. Sotu on jo olemassa
 
-Jos syötetty henkilötunnus on jo sotu-siilossa, tulee ilmoitus “Sotu on
-jo olemassa. Avain sotu322453 löytyi”. Tarkista esimerkiksi toisella
-välilehdellä asiakas-haussa sotu-avaimella, löytyykö Kohan tietokannasta
-asiakastietoja. Jos löytyy, muokkaa löytyneitä asiakastietoja. Jos ei
-löydy, niin tee uudet asiakastiedot käyttäen Muut määritteet ja
-tunnukset -kentässä sotu-siilon antamaa sotu-avainta.
+
+![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
+
+Jos syötetty henkilötunnus on jo sotu-siilossa, tulee ilmoitus “Hetu asetettu!". 
+Tarkista esimerkiksi toisella välilehdellä asiakashaussa sotu-avaimella, löytyykö 
+Kohan tietokannasta asiakastietoja. Jos löytyy, muokkaa löytyneitä asiakastietoja. 
+Jos ei löydy, niin tee uudet asiakastiedot käyttäen Muut määritteet ja tunnukset -kentässä
+sotu-siilon antamaa sotu-avainta.
 
 Ilmoitus sotun olemassa olosta voi tulla myös, jos olet epähuomiossa
-tuplaklikannut _Lisää sotu!_ –painiketta. Tuplaklikkaus aiheuttaa sen,
-että asiakkaan henkilötunnus oli tallentunut jo ensimmäisellä
+tuplaklikannut Tallenna –painiketta. Tuplaklikkaus aiheuttaa sen,
+että asiakkaan henkilötunnus tallentuu ensimmäisellä
 klikkauksella sotusiiloon ja toisella klikkauksella Koha antaa yllä
-olevan ilmoituksen. 
+olevan ilmoituksen.
+
+
 
 #### 1.1.1.2. Sotu-siilon käyttöliittymä
 
