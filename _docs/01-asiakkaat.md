@@ -47,7 +47,7 @@ Sotu-avain siirtyy automaattisesti asiakastietoihin Muut määritteet ja
 tunnukset -kohtaan kenttään Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain
 (kentän nimi voi vaihdella kimpan mukaan).
 
-![](/assets/files/docs/Asiakkaat/sotuavain.png)
+![](/assets/files/docs/Asiakkaat/Sotuavain.png)
 
 Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
 
@@ -55,10 +55,10 @@ Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
 
 #### 1.1.1.1. Sotu on jo olemassa
 
+Jos syötetty henkilötunnus on jo sotu-siilossa, tulee ilmoitus “Hetu asetettu!".
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
-Jos syötetty henkilötunnus on jo sotu-siilossa, tulee ilmoitus “Hetu asetettu!". 
 Tarkista esimerkiksi toisella välilehdellä asiakashaussa sotu-avaimella, löytyykö 
 Kohan tietokannasta asiakastietoja. Jos löytyy, muokkaa löytyneitä asiakastietoja. 
 Jos ei löydy, niin tee uudet asiakastiedot käyttäen Muut määritteet ja tunnukset -kentässä
@@ -69,8 +69,6 @@ tuplaklikannut Tallenna –painiketta. Tuplaklikkaus aiheuttaa sen,
 että asiakkaan henkilötunnus tallentuu ensimmäisellä
 klikkauksella sotusiiloon ja toisella klikkauksella Koha antaa yllä
 olevan ilmoituksen.
-
-
 
 #### 1.1.1.2. Sotu-siilon käyttöliittymä
 
