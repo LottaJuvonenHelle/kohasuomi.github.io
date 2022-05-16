@@ -257,10 +257,6 @@ haluamasi tietueet ja käytä _Yhdistä valitut_ -toimintoa.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat550.png)
 
-Voit tehdä valita yhdistettävät tietueet myös suoraan tiedohaun tuloksesta.
-
-![](/assets/files/docs/Luettelointi/kohakuvat551.png)
-
 Voit tehdä yhdistelyn myös Listat-työkalulla. Valitse yhdistettävät
 tietueet tiedonhaun kautta ja lisää ne jollekin listallesi, josta voit
 ottaa nimekkeet yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki
@@ -298,6 +294,10 @@ Hae tiedonhaussa teokset ja vie ne haluamaasi listaan.
 Avaa lista, valitse kaikki ja sen jälkeen “Yhdistä valitut”
 
 <img src="/assets/files/docs/Luettelointi/tietueenyhdistaminen3.png" alt="" style="width:50.0%" />
+
+Voit valita yhdistettävät tietueet myös suoraan tiedohaun tuloksesta.
+
+![](/assets/files/docs/Luettelointi/kohakuvat551.png)
 
 Tämän jälkeen prosessi jatkuu kuten [kuvailun kautta
 aloitettaessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/3_Luettelointi#3161-Tietueiden-yhdist%C3%A4minen-luetteloinnin-kautta),
