@@ -73,7 +73,7 @@ Valitse nimeketiedoissa _Uusi -&gt; Uusi osakohde_.
 Musiikin osakohteille on tehty oma tallennuspohja. Valitse se valikosta,
 mikäli kuvailet musiikkiaineistoa.
 
-![](/assets/files/docs/Luettelointi/kohakuvat19353.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi540.jpg)
 
 Kuvaile osakohde. Pakollisia kenttiä ovat 245a (päänimeke), 300a
 (laajuus tai kesto), 942c (aineistolaji, valitaan valikosta) sekä
@@ -82,7 +82,7 @@ määritellä osakohteiden ominaisuuksia, riittää kun tallennat toiseen
 kertaan tietueen). Automaattisesti täyttyy linkkikenttä 773
 tarvittavilla emon tiedoilla, kuten kuvassa alla:
 
-![](/assets/files/docs/Luettelointi/luettelointi10.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi541.png)
 
 Osakohteella ei ole niteitä, joten niteidentallennusnäytölle ei tarvitse
 tallentaa mitään, vaan voit palata vasemmalta Perustiedot-painikkeesta
