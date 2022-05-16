@@ -235,7 +235,7 @@ tapauksissa voit tehdä kopion samantyyppisestä tietueesta ja muokata
 kopiota vastaamaan luetteloitavaa nimekettä. Tehdäksesi kopion klikkaa
 _Muokkaa uutena kopiona_.
 
-![](/assets/files/docs/Luettelointi/luettelointi18.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi547.png)
 
 Tämä avaa uuden MARC-tietueen, jossa kentät on täytetty kopioidun
 tietueen tiedoilla ja voit muokata tietoja haluamiksesi.  
@@ -243,7 +243,7 @@ Muista tyhjentää kentän 001 sisältö, kun aloitat tietueen muokkauksen.
 Näin tietueelle tulee uusi tietueen kontrollinumero tähän kenttään, kun
 tallennat tietueen etkä saa kysymystä kopiosta:
 
-![](/assets/files/docs/Luettelointi/luettelointi19.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi548.png)
 
 ### 3.1.6. Tietueiden yhdistäminen
 
