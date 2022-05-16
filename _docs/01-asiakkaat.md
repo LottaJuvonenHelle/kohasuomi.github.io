@@ -80,10 +80,10 @@ sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 
 ### 1.1.2. Nimi ja yhteystiedot
 
-Syötä asiakkaan koko nimi, syntymäaika ja varaustunniste. Huomaathan,
+Syötä asiakkaan koko nimi ja syntymäaika. Varaustunniste täyttyy automaattisesti. Huomaathan,
 että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät.
 
-![](/assets/files/docs/Asiakkaat/Asiakkaantiedot.png)
+![](/assets/files/docs/Asiakkaat/Nimi.png)
 
 Asiakaslajeihin on määritetty ikärajoituksia. Ohjelma tarkistaa
 syntymäajan mukaan, voiko asiakas kuulua asiakaslajiin, johon
