@@ -392,12 +392,12 @@ Niteitä voi muokata monella tavalla.
 
 #### Klikkaamalla _Muokkaa -&gt; Muokkaa niteitä_ nimeketietonäytöltä
 
-![](/assets/files/docs/Luettelointi/luettelointi29.png)
+![](/assets/files/docs/Luettelointi/kohakuvat556.png)
 
 Tämä avaa listauksen, missä voit klikata _Toiminnot_-linkkiä sen niteen
 rivin alussa, mitä nidettä haluat muokata.
 
-![](/assets/files/docs/Luettelointi/luettelointi30.png)
+![](/assets/files/docs/Luettelointi/kohakuvat557.png)
 
 #### Klikkaamalla _Muokkaa_ Niteet-välilehdellä halutun niteen kohdalla
 
