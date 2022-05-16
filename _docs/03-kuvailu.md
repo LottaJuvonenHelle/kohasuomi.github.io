@@ -224,7 +224,7 @@ tarvittavat toiminnot. Voit lisätä useita toimintoja samaan makroon. Makro tal
 
 Valmiita makroja löydät yhteisön wikistä https://wiki.koha-community.org/wiki/Advanced_editor_macros (englanniksi)
 
-Ongelma on myös tietueen tallentamisessa, sillä uusi editori tuo
+HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo
 tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
 olemassa olevat tietueet ovat ilman viivoja ISBN:ssa.
 
