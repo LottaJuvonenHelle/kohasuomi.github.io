@@ -212,7 +212,17 @@ _Näppäimistöasettelu_ pääset valitsemaan, millä kielellä haluat virtuaali
 
 #### 3.1.4.3. Makrot uudessa editorissa
 
+Makro on kätevä tapa lisätä kenttiä tietueeseen uudessa editorissa. Makro otetaan käyttöön
+valikkorivin _Makrot_-painikkeesta. Anna ensin uudelle makrolle kuvaava nimi ja sen jälkeen lisää
+tarvittavat toiminnot. Voit lisätä useita toimintoja samaan makroon. Makro tallentuu automaattisesti.
 
+![](/assets/files/docs/Luettelointi/kohakuvaedi2.png)
+
+![](/assets/files/docs/Luettelointi/kohakuvaedi1.png)
+
+![](/assets/files/docs/Luettelointi/kohakuvaedi3.png)
+
+Valmiita makroja löydät yhteisön wikistä https://wiki.koha-community.org/wiki/Advanced_editor_macros (englanniksi)
 
 Ongelma on myös tietueen tallentamisessa, sillä uusi editori tuo
 tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
