@@ -218,9 +218,9 @@ tarvittavat toiminnot. Voit lisätä useita toimintoja samaan makroon. Makro tal
 
 ![](/assets/files/docs/Luettelointi/kohakuvaedi2.png)
 
-![](/assets/files/docs/Luettelointi/kohakuvaedi1.png)
-
 ![](/assets/files/docs/Luettelointi/kohakuvaedi3.png)
+
+![](/assets/files/docs/Luettelointi/kohakuvaedi1.png)
 
 Valmiita makroja löydät yhteisön wikistä https://wiki.koha-community.org/wiki/Advanced_editor_macros (englanniksi)
 
