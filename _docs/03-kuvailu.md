@@ -1,6 +1,6 @@
 ---
 title: 'Kohan ohje suomeksi'
-permalink: /dokumentaatio/luettelointi/
+permalink: /dokumentaatio/kuvailu/
 redirect_from:
   - /theme-setup/
 toc: true
