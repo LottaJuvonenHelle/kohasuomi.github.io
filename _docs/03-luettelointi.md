@@ -85,7 +85,7 @@ tarvittavilla emon tiedoilla, kuten kuvassa alla:
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi541.png)
 
 Osakohteella ei ole niteitä, joten niteidentallennusnäytölle ei tarvitse
-tallentaa mitään, vaan voit palata vasemmalta Perustiedot-painikkeesta
+tallentaa mitään, vaan voit palata vasemmalta _Perustiedot_-painikkeesta
 teoksen tietoihin.
 
 ### 3.1.3. Tietueiden muokkaaminen peruseditorissa
