@@ -177,12 +177,12 @@ Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon
 asetuksessa EnableAdvancedCatalogingEditor. Editori ei ole vielä täysin
 luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
 
-![](/assets/files/docs/Luettelointi/luettelointi101.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi542.png)
 
 Voit avata uuden, tyhjän tietueen tai tuoda toisesta järjestelmästä
 haluamasi tietueen haun kautta.
 
-![](/assets/files/docs/Luettelointi/luettelointi102.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi543.png)
 
 Z39.50/SRU-haun kautta voit tuoda haluamasi tietueen omaan
 kirjastojärjestelmään.
