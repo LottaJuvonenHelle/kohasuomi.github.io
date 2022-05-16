@@ -317,8 +317,8 @@ _Poista tietue_ -teksti näkyy harmaana.
 ## 3.2. Nidetietueet
 
 Kohassa jokaisella nimeketietueella (bibliografinen tietue) voi olla
-yksi tai useampi nide. Jokaisella nitellä on kotikirjasto ja Nykyinen
-paikka sekä Hyllypaikka.
+yksi tai useampi nide. Jokaisella nitellä on omistajakirjasto ja sijaintikirjasto
+sekä hyllypaikka.
 
 ### 3.2.1. Niteiden lisääminen
 
