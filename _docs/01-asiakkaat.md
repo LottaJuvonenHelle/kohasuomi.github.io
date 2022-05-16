@@ -78,7 +78,7 @@ sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 
 ---
 
-### 1.1.2. Nimi ja yhteystiedot
+### 1.1.2. Nimi, syntymäaika ja varaustunnus
 
 Syötä asiakkaan koko nimi ja syntymäaika. Varaustunniste täyttyy automaattisesti. Huomaathan,
 että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät.
@@ -89,29 +89,6 @@ Asiakaslajeihin on määritetty ikärajoituksia. Ohjelma tarkistaa
 syntymäajan mukaan, voiko asiakas kuulua asiakaslajiin, johon
 häntä ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:  
 ![](/assets/files/docs/Asiakkaat/ikaraja.png)
-
-Osoite-osiossa “Kunta” tarkoittaa käytännössä postitoimipaikkaa, ei
-pelkästään kotikuntaa. Englanninkielistä sanaa City ei voi kääntää
-postitoimipaikaksi tässä kohti, koska sama sana on kunta-merkityksessä
-muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikosta tai kirjoittaa ne itse.
-
-![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
-
-Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero lankapuhelinkenttään ja matkapuhelin matkapuhelinkenttään) ja sähköpostiosoite.
-Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa ei välttämättä ole otettu käyttöön.
-Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
-asiakas haluaa varausilmoitukset tekstiviestinä.
-
-![](/assets/files/docs/Asiakkaat/Yhteystiedot.png)
-
-Huom! Puhelinnumero-kenttiin ei saa kirjoittaa muuta kuin
-puhelinnumeron. Ei esim. perään äiti, isä yms. eikä väliviivaa.
-Kansainvälisen suunnan (esim. +358) numeron yhteyteen voi lisätä.
-
-Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite. Huom! Tässä on
-kimppakohtaisia eroja.
-
-![](/assets/files/docs/Asiakkaat/koha682.png)
 
 ### 1.1.3. Takaaja
 
@@ -144,6 +121,33 @@ tietoihin toisella välilehdelle ja tee takaajahaku uudelleen.
 ### 1.1.3.1. Ei-asiakas takaaja tiedon lisääminen. Kimppakohtainen.
 
 ![](/assets/files/docs/Asiakkaat/Eiasiakastakaaja.png)
+
+### 1.1.4. Yhteystiedot
+
+Osoite-osiossa “Kunta” tarkoittaa käytännössä postitoimipaikkaa, ei
+pelkästään kotikuntaa. Englanninkielistä sanaa City ei voi kääntää
+postitoimipaikaksi tässä kohti, koska sama sana on kunta-merkityksessä
+muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikosta tai kirjoittaa ne itse.
+
+![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
+
+Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero lankapuhelinkenttään ja matkapuhelin matkapuhelinkenttään) ja sähköpostiosoite.
+Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa ei välttämättä ole otettu käyttöön.
+Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
+asiakas haluaa varausilmoitukset tekstiviestinä.
+
+![](/assets/files/docs/Asiakkaat/Yhteystiedot.png)
+
+Huom! Puhelinnumero-kenttiin ei saa kirjoittaa muuta kuin
+puhelinnumeron. Ei esim. perään äiti, isä yms. eikä väliviivaa.
+Kansainvälisen suunnan (esim. +358) numeron yhteyteen voi lisätä.
+
+Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite. Huom! Tässä on
+kimppakohtaisia eroja.
+
+![](/assets/files/docs/Asiakkaat/koha682.png)
+
+
 
 ### 1.1.4. Kirjastotiedot
 
