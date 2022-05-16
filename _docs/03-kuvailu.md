@@ -201,14 +201,18 @@ sisällön.
 #### 3.1.4.1. Pikanäppäimet uudessa editorissa
 
 Pikanäppäimet-valikon alta löytyy tarvittavat pikanäppäimet:  
-![](/assets/files/docs/Luettelointi/luettelointi105.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi545.png)
 
-#### 3.1.4.2. Makrot uudessa editorissa - ei toimi
+### 3.1.4.2. Virtuaalinäppäimistö 
 
-Päivin huomautus: En saa makroa toimimaan kuten englanninkielisessä
-ohjeessa mainitaan
-https://koha-community.org/manual/17.11/en/html/06\_cataloging.html\#advanced-editor-cataloging,
-joten se jää tästä puuttumaan.
+Näppäinyhdistelmällä Shift-Ctrl-K saat esiin virtuaalinäppäimistön ja valikkorivillä olevasta painikkeesta
+_Näppäimistöasettelu_ pääset valitsemaan, millä kielellä haluat virtuaalinäppäimistön näkyville.
+
+![](/assets/files/docs/Luettelointi/kohakuvatkausi546.png)
+
+#### 3.1.4.3. Makrot uudessa editorissa
+
+
 
 Ongelma on myös tietueen tallentamisessa, sillä uusi editori tuo
 tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
