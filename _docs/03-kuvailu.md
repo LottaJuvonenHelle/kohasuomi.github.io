@@ -255,7 +255,11 @@ Kuvailun tai tiedonhaun kautta.
 Hae yhdistettävät tietueet kuvailuhaun kautta, valitse niistä
 haluamasi tietueet ja käytä _Yhdistä valitut_ -toimintoa.
 
-![](/assets/files/docs/Luettelointi/kohakuvat19355.png)
+![](/assets/files/docs/Luettelointi/kohakuvat550.png)
+
+Voit tehdä valita yhdistettävät tietueet myös suoraan tiedohaun tuloksesta.
+
+![](/assets/files/docs/Luettelointi/kohakuvat551.png)
 
 Voit tehdä yhdistelyn myös Listat-työkalulla. Valitse yhdistettävät
 tietueet tiedonhaun kautta ja lisää ne jollekin listallesi, josta voit
@@ -263,7 +267,7 @@ ottaa nimekkeet yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki
 niteet ja nimekkeeseen liittyvät varaukset oikeassa järjestyksessä
 jäljelle jäävään nimeketietueeseen.
 
-![](/assets/files/docs/Luettelointi/kohakuvat19354.png)
+![](/assets/files/docs/Luettelointi/kohakuvat552.png)
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
 tietueet yhdistetään) ja voit valita myös kuvailupohjan.  
@@ -271,7 +275,7 @@ Vertaile tietueiden tietoja ja tarvittaessa siirrä muista tietueista
 tarvittavia kenttiä kohdetietueeseen. Jos kentän toistaminen on estetty
 kuvailuformaatissa, kentän toistaminen antaa virheilmoituksen.
 
-![](/assets/files/docs/Luettelointi/luettelointi011.png)
+![](/assets/files/docs/Luettelointi/luettelointi553.png)
 
 ![](/assets/files/docs/Luettelointi/luettelointi014.png)
 
