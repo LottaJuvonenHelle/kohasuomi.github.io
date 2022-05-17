@@ -48,6 +48,7 @@ Hakutuloksia voit tarkastella MARC-muodossa tai korttimuodossa tai tuoda
 tietueen Kohaan
 
 ![](/assets/files/docs/Luettelointi/kohaversio2111k5.png)
+
 ![](/assets/files/docs/Luettelointi/kohaversio2111k6.png)
 
 \*Jos et löydä hakemaasi, klikkaa _Uusi haku_ näytön vasemmassa
@@ -121,7 +122,10 @@ Kentän 008 editorissa pystyy valitsemaan maa- ja kielikoodin valikosta.
 Kentät alkavat ehdottamaan koodeja, kun niihin kirjoitetaan joko koodin
 tai sen kuvauksen alkua. Esim. _fi_ tai _suo_. Sen jälkeen voi joko
 valita koodin listalta tai kirjoittaa jotain muuta.  
-![](/assets/files/docs/Luettelointi/luettelointi0041.png) ![](/assets/files/docs/Luettelointi/luettelointi0042.png)
+
+![](/assets/files/docs/Luettelointi/luettelointi0041.png) 
+
+![](/assets/files/docs/Luettelointi/luettelointi0042.png)
 
 Huomaa! Joidenkin kiinteämittaisten kenttien arvo muuttuu sen
 perusteella, minkä tyyppistä aineistoa olet kuvailemassa ja mikä
@@ -200,7 +204,8 @@ sisällön.
 
 #### 3.1.4.1. Pikanäppäimet uudessa editorissa
 
-Pikanäppäimet-valikon alta löytyy tarvittavat pikanäppäimet:  
+_Pikanäppäimet_-valikon alta löytyy tarvittavat pikanäppäimet: 
+
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi545.png)
 
 ### 3.1.4.2. Virtuaalinäppäimistö 
@@ -224,8 +229,7 @@ tarvittavat toiminnot. Voit lisätä useita toimintoja samaan makroon. Makro tal
 
 Valmiita makroja löydät yhteisön wikistä https://wiki.koha-community.org/wiki/Advanced_editor_macros (englanniksi)
 
-HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo
-tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
+HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
 olemassa olevat tietueet ovat ilman viivoja ISBN:ssa.
 
 ### 3.1.5. Tietueen kopioiminen
@@ -257,7 +261,7 @@ haluamasi tietueet ja käytä _Yhdistä valitut_ -toimintoa.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat550.png)
 
-Voit tehdä yhdistelyn myös Listat-työkalulla. Valitse yhdistettävät
+Voit tehdä yhdistelyn myös _Listat_-työkalulla. Valitse yhdistettävät
 tietueet tiedonhaun kautta ja lisää ne jollekin listallesi, josta voit
 ottaa nimekkeet yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki
 niteet ja nimekkeeseen liittyvät varaukset oikeassa järjestyksessä
@@ -291,7 +295,7 @@ Hae tiedonhaussa teokset ja vie ne haluamaasi listaan.
 
 <img src="/assets/files/docs/Luettelointi/tietueenyhdistaminen2.png" alt="" style="width:50.0%" />
 
-Avaa lista, valitse kaikki ja sen jälkeen “Yhdistä valitut”
+Avaa lista, valitse kaikki ja sen jälkeen _“Yhdistä valitut”_
 
 <img src="/assets/files/docs/Luettelointi/tietueenyhdistaminen3.png" alt="" style="width:50.0%" />
 
@@ -336,7 +340,8 @@ klikkaamalla _Uusi_ ja valitsemalla _Uusi nide_.
 
 ![](/assets/files/docs/Luettelointi/luettelointi23.png)
 
-Nimekkeen tallennusnäyttö näyttää tältä:  
+Nimekkeen tallennusnäyttö näyttää tältä:
+
 ![](/assets/files/docs/Luettelointi/luettelointi24.png)
 
 Pakolliset kentät on merkitty punaisella, mutta vähintään seuraavat
@@ -405,6 +410,7 @@ rivin alussa, mitä nidettä haluat muokata.
 
 Tämä avaa listauksen, kuten edellä (valitsemasi nide näkyy korostetulla
 pohjalla valmiiksi)  
+
 ![](/assets/files/docs/Luettelointi/luettelointi32.png)
 
 #### Klikkaamalla _Muokkaa -&gt; Muokkaa niteitä eräajossa_
