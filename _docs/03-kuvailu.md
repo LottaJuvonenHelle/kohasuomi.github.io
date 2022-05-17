@@ -175,11 +175,13 @@ _Tallenna_ -painiketta.
 
 ![](/assets/files/docs/Luettelointi/luettelointi17.png)
 
-### 3.1.4. Tietueiden muokkaaminen uudessa editorissa (Rancor)
+### 3.1.4. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
 
-Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon
-asetuksessa EnableAdvancedCatalogingEditor. Editori ei ole vielä täysin
+Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon asetuksessa EnableAdvancedCatalogingEditor. Editori ei ole vielä täysin
 luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
+
+HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
+olemassa olevat tietueet ovat ilman ISBN:ssa olevia viivoja.
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi542.png)
 
@@ -228,9 +230,6 @@ tarvittavat toiminnot. Voit lisätä useita toimintoja samaan makroon. Makro tal
 ![](/assets/files/docs/Luettelointi/kohakuvaedi1.png)
 
 Valmiita makroja löydät yhteisön wikistä https://wiki.koha-community.org/wiki/Advanced_editor_macros (englanniksi)
-
-HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
-olemassa olevat tietueet ovat ilman viivoja ISBN:ssa.
 
 ### 3.1.5. Tietueen kopioiminen
 
