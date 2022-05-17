@@ -133,7 +133,7 @@ tallennuspohja on valittuna.
 
 ![](/assets/files/docs/Luettelointi/luettelointi005.png)
 
-#### Finto-liitännäiset
+#### [Finto-liitannaiset](#Finto-liitännäiset)
 
 Täti-tietokannassa on käytössä Finto-liitännäiset (pluginit), joilla
 pystyy hakemaan termejä Fintosta. Toiminnon kuvaus löytyy Teknisestä
