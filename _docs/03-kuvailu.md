@@ -133,10 +133,9 @@ tallennuspohja on valittuna.
 
 ![](/assets/files/docs/Luettelointi/luettelointi005.png)
 
-#### [Finto-liitannaiset](#Finto-liitännäiset)
+#### Finto-liitännäiset
 
-Täti-tietokannassa on käytössä Finto-liitännäiset (pluginit), joilla
-pystyy hakemaan termejä Fintosta. Toiminnon kuvaus löytyy Teknisestä
+Täti-tietokannassa on käytössä Finto-liitännäiset (pluginit), joilla pystyy hakemaan termejä Fintosta. Toiminnon kuvaus löytyy Teknisestä
 dokumentaatiosta [Finto-plugin](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Finto)-sivulta.
 
 #### Tietueen tallentaminen
