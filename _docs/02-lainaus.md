@@ -479,13 +479,13 @@ Jos palautat kadonneeksi merkityn niteen, saat seuraavan ilmoituksen:
 
 ---
 
-## 2.7 Varaukset
+## 2.8 Varaukset
 
 Asiakas voi varata aineistoa Kohassa. Lainaus- ja käyttömaksusäännöissä
 ja asiakastyyppien ylläpidossa on määritelty säännöt, minkä mukaan
 varauksia voi tehdä.
 
-### Varauksen teko tiedonhaun kautta
+### 2.8.1 Varauksen teko tiedonhaun kautta
 
 Varauksen voi tehdä usealla tavalla. Yksinkertaisin tapa on tehdä varaus
 nimeketietojen näytön yläreunasta _Varaa_-napista.
