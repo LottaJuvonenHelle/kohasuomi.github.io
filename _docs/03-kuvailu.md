@@ -133,7 +133,7 @@ tallennuspohja on valittuna.
 
 Täti-tietokannassa on käytössä Finto-liitännäiset (pluginit), joilla
 pystyy hakemaan termejä Fintosta. Toiminnon kuvaus löytyy Teknisestä
-dokumentaatiosta \[\[/Finto\#Finto-plugin\|Finto-plugin\]\]-sivulta.
+dokumentaatiosta [Finto-plugin](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Finto)-sivulta.
 
 #### Tietueen tallentaminen
 
