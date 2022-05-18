@@ -48,6 +48,7 @@ Hakutuloksia voit tarkastella MARC-muodossa tai korttimuodossa tai tuoda
 tietueen Kohaan
 
 ![](/assets/files/docs/Luettelointi/kohaversio2111k5.png)
+
 ![](/assets/files/docs/Luettelointi/kohaversio2111k6.png)
 
 \*Jos et löydä hakemaasi, klikkaa _Uusi haku_ näytön vasemmassa
@@ -97,7 +98,7 @@ _Muokkaa tietuetta_ hakutulosnäytöllä
 
 tai klikkaa Tiedonhaun puolella _Muokkaa_-valikosta _Muokkaa tietuetta_.
 
-![](/assets/files/docs/Luettelointi/luettelointi12.png)
+![](/assets/files/docs/Luettelointi/kohakuvat580.png)
 
 Tietue avautuu MARC-muokkaukseen.
 
@@ -121,7 +122,10 @@ Kentän 008 editorissa pystyy valitsemaan maa- ja kielikoodin valikosta.
 Kentät alkavat ehdottamaan koodeja, kun niihin kirjoitetaan joko koodin
 tai sen kuvauksen alkua. Esim. _fi_ tai _suo_. Sen jälkeen voi joko
 valita koodin listalta tai kirjoittaa jotain muuta.  
-![](/assets/files/docs/Luettelointi/luettelointi0041.png) ![](/assets/files/docs/Luettelointi/luettelointi0042.png)
+
+![](/assets/files/docs/Luettelointi/luettelointi0041.png) 
+
+![](/assets/files/docs/Luettelointi/luettelointi0042.png)
 
 Huomaa! Joidenkin kiinteämittaisten kenttien arvo muuttuu sen
 perusteella, minkä tyyppistä aineistoa olet kuvailemassa ja mikä
@@ -131,9 +135,8 @@ tallennuspohja on valittuna.
 
 #### Finto-liitännäiset
 
-Täti-tietokannassa on käytössä Finto-liitännäiset (pluginit), joilla
-pystyy hakemaan termejä Fintosta. Toiminnon kuvaus löytyy Teknisestä
-dokumentaatiosta \[\[/Finto\#Finto-plugin\|Finto-plugin\]\]-sivulta.
+Täti-tietokannassa on käytössä Finto-liitännäiset (pluginit), joilla pystyy hakemaan termejä Fintosta. Toiminnon kuvaus löytyy Teknisestä
+dokumentaatiosta [Finto-plugin](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Finto)-sivulta.
 
 #### Tietueen tallentaminen
 
@@ -171,18 +174,20 @@ _Tallenna_ -painiketta.
 
 ![](/assets/files/docs/Luettelointi/luettelointi17.png)
 
-### 3.1.4. Tietueiden muokkaaminen uudessa editorissa (Rancor)
+### 3.1.4. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
 
-Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon
-asetuksessa EnableAdvancedCatalogingEditor. Editori ei ole vielä täysin
+Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon asetuksessa EnableAdvancedCatalogingEditor. Editori ei ole vielä täysin
 luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
 
-![](/assets/files/docs/Luettelointi/luettelointi101.png)
+HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
+olemassa olevat tietueet ovat ilman ISBN:ssa olevia viivoja.
+
+![](/assets/files/docs/Luettelointi/kohakuvatkausi542.png)
 
 Voit avata uuden, tyhjän tietueen tai tuoda toisesta järjestelmästä
 haluamasi tietueen haun kautta.
 
-![](/assets/files/docs/Luettelointi/luettelointi102.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi543.png)
 
 Z39.50/SRU-haun kautta voit tuoda haluamasi tietueen omaan
 kirjastojärjestelmään.
@@ -200,19 +205,30 @@ sisällön.
 
 #### 3.1.4.1. Pikanäppäimet uudessa editorissa
 
-Pikanäppäimet-valikon alta löytyy tarvittavat pikanäppäimet:  
-![](/assets/files/docs/Luettelointi/luettelointi105.png)
+_Pikanäppäimet_-valikon alta löytyy tarvittavat pikanäppäimet: 
 
-#### 3.1.4.2. Makrot uudessa editorissa - ei toimi
+![](/assets/files/docs/Luettelointi/kohakuvatkausi545.png)
 
-Päivin huomautus: En saa makroa toimimaan kuten englanninkielisessä
-ohjeessa mainitaan
-https://koha-community.org/manual/17.11/en/html/06\_cataloging.html\#advanced-editor-cataloging,
-joten se jää tästä puuttumaan.
+### 3.1.4.2. Virtuaalinäppäimistö 
 
-Ongelma on myös tietueen tallentamisessa, sillä uusi editori tuo
-tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
-olemassa olevat tietueet ovat ilman viivoja ISBN:ssa.
+Näppäinyhdistelmällä Shift-Ctrl-K saat esiin virtuaalinäppäimistön ja valikkorivillä olevasta painikkeesta
+_Näppäimistöasettelu_ pääset valitsemaan, millä kielellä haluat virtuaalinäppäimistön näkyville.
+
+![](/assets/files/docs/Luettelointi/kohakuvatkausi546.png)
+
+#### 3.1.4.3. Makrot uudessa editorissa
+
+Makro on kätevä tapa lisätä kenttiä tietueeseen uudessa editorissa. Makro otetaan käyttöön
+valikkorivin _Makrot_-painikkeesta. Anna ensin uudelle makrolle kuvaava nimi ja sen jälkeen lisää
+tarvittavat toiminnot. Voit lisätä useita toimintoja samaan makroon. Makro tallentuu automaattisesti.
+
+![](/assets/files/docs/Luettelointi/kohakuvaedi2.png)
+
+![](/assets/files/docs/Luettelointi/kohakuvaedi3.png)
+
+![](/assets/files/docs/Luettelointi/kohakuvaedi1.png)
+
+Valmiita makroja löydät yhteisön wikistä https://wiki.koha-community.org/wiki/Advanced_editor_macros (englanniksi)
 
 ### 3.1.5. Tietueen kopioiminen
 
@@ -221,7 +237,7 @@ tapauksissa voit tehdä kopion samantyyppisestä tietueesta ja muokata
 kopiota vastaamaan luetteloitavaa nimekettä. Tehdäksesi kopion klikkaa
 _Muokkaa uutena kopiona_.
 
-![](/assets/files/docs/Luettelointi/luettelointi18.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi547.png)
 
 Tämä avaa uuden MARC-tietueen, jossa kentät on täytetty kopioidun
 tietueen tiedoilla ja voit muokata tietoja haluamiksesi.  
@@ -229,7 +245,7 @@ Muista tyhjentää kentän 001 sisältö, kun aloitat tietueen muokkauksen.
 Näin tietueelle tulee uusi tietueen kontrollinumero tähän kenttään, kun
 tallennat tietueen etkä saa kysymystä kopiosta:
 
-![](/assets/files/docs/Luettelointi/luettelointi19.png)
+![](/assets/files/docs/Luettelointi/kohakuvatkausi548.png)
 
 ### 3.1.6. Tietueiden yhdistäminen
 
@@ -241,15 +257,15 @@ Kuvailun tai tiedonhaun kautta.
 Hae yhdistettävät tietueet kuvailuhaun kautta, valitse niistä
 haluamasi tietueet ja käytä _Yhdistä valitut_ -toimintoa.
 
-![](/assets/files/docs/Luettelointi/kohakuvat19355.png)
+![](/assets/files/docs/Luettelointi/kohakuvat550.png)
 
-Voit tehdä yhdistelyn myös Listat-työkalulla. Valitse yhdistettävät
+Voit tehdä yhdistelyn myös _Listat_-työkalulla. Valitse yhdistettävät
 tietueet tiedonhaun kautta ja lisää ne jollekin listallesi, josta voit
 ottaa nimekkeet yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki
 niteet ja nimekkeeseen liittyvät varaukset oikeassa järjestyksessä
 jäljelle jäävään nimeketietueeseen.
 
-![](/assets/files/docs/Luettelointi/kohakuvat19354.png)
+![](/assets/files/docs/Luettelointi/kohakuvat552.png)
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
 tietueet yhdistetään) ja voit valita myös kuvailupohjan.  
@@ -257,7 +273,7 @@ Vertaile tietueiden tietoja ja tarvittaessa siirrä muista tietueista
 tarvittavia kenttiä kohdetietueeseen. Jos kentän toistaminen on estetty
 kuvailuformaatissa, kentän toistaminen antaa virheilmoituksen.
 
-![](/assets/files/docs/Luettelointi/luettelointi011.png)
+![](/assets/files/docs/Luettelointi/luettelointi553.png)
 
 ![](/assets/files/docs/Luettelointi/luettelointi014.png)
 
@@ -277,9 +293,13 @@ Hae tiedonhaussa teokset ja vie ne haluamaasi listaan.
 
 <img src="/assets/files/docs/Luettelointi/tietueenyhdistaminen2.png" alt="" style="width:50.0%" />
 
-Avaa lista, valitse kaikki ja sen jälkeen “Yhdistä valitut”
+Avaa lista, valitse kaikki ja sen jälkeen _“Yhdistä valitut”_
 
 <img src="/assets/files/docs/Luettelointi/tietueenyhdistaminen3.png" alt="" style="width:50.0%" />
+
+Voit valita yhdistettävät tietueet myös suoraan tiedohaun tuloksesta.
+
+![](/assets/files/docs/Luettelointi/kohakuvat551.png)
 
 Tämän jälkeen prosessi jatkuu kuten [kuvailun kautta
 aloitettaessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/3_Luettelointi#3161-Tietueiden-yhdist%C3%A4minen-luetteloinnin-kautta),
@@ -289,18 +309,18 @@ kuvasta “Yhdistetään tietueita”.
 
 Tietue voidaan poistaa valitsemalla _Muokkaa_-valikosta _Poista tietue_.
 
-![](/assets/files/docs/Luettelointi/luettelointi20.png)
+![](/assets/files/docs/Luettelointi/kohakuvat581.png)
 
 Tietuetta ei voi poistaa, mikäli tietueeseen liittyy niteitä. Tällöin
 _Poista tietue_ -teksti näkyy harmaana.
 
-![](/assets/files/docs/Luettelointi/luettelointi21.png)
+![](/assets/files/docs/Luettelointi/kohakuvat582.png)
 
 ## 3.2. Nidetietueet
 
 Kohassa jokaisella nimeketietueella (bibliografinen tietue) voi olla
-yksi tai useampi nide. Jokaisella nitellä on kotikirjasto ja Nykyinen
-paikka sekä Hyllypaikka.
+yksi tai useampi nide. Jokaisella nitellä on omistajakirjasto ja sijaintikirjasto
+sekä hyllypaikka.
 
 ### 3.2.1. Niteiden lisääminen
 
@@ -318,7 +338,8 @@ klikkaamalla _Uusi_ ja valitsemalla _Uusi nide_.
 
 ![](/assets/files/docs/Luettelointi/luettelointi23.png)
 
-Nimekkeen tallennusnäyttö näyttää tältä:  
+Nimekkeen tallennusnäyttö näyttää tältä:
+
 ![](/assets/files/docs/Luettelointi/luettelointi24.png)
 
 Pakolliset kentät on merkitty punaisella, mutta vähintään seuraavat
@@ -361,9 +382,9 @@ Lisäämäsi tietue tulee taulukkoon.
 ![](/assets/files/docs/Luettelointi/luettelointi26.png)
 
 Voit suodattaa kokoelmatietoja, kun klikkaat _Suodata_.  
-![](/assets/files/docs/Luettelointi/luettelointi27.png)
+![](/assets/files/docs/Luettelointi/kohakuvat570.png)
 
-![](/assets/files/docs/Luettelointi/luettelointi28.png)
+![](/assets/files/docs/Luettelointi/kohakuvat571.png)
 
 Riittää, kun aloitat kirjoittamaan suodatinta, kaikki siihen sopivat
 tulokset listataan.
@@ -374,12 +395,12 @@ Niteitä voi muokata monella tavalla.
 
 #### Klikkaamalla _Muokkaa -&gt; Muokkaa niteitä_ nimeketietonäytöltä
 
-![](/assets/files/docs/Luettelointi/luettelointi29.png)
+![](/assets/files/docs/Luettelointi/kohakuvat556.png)
 
 Tämä avaa listauksen, missä voit klikata _Toiminnot_-linkkiä sen niteen
 rivin alussa, mitä nidettä haluat muokata.
 
-![](/assets/files/docs/Luettelointi/luettelointi30.png)
+![](/assets/files/docs/Luettelointi/kohakuvat557.png)
 
 #### Klikkaamalla _Muokkaa_ Niteet-välilehdellä halutun niteen kohdalla
 
@@ -387,11 +408,12 @@ rivin alussa, mitä nidettä haluat muokata.
 
 Tämä avaa listauksen, kuten edellä (valitsemasi nide näkyy korostetulla
 pohjalla valmiiksi)  
+
 ![](/assets/files/docs/Luettelointi/luettelointi32.png)
 
 #### Klikkaamalla _Muokkaa -&gt; Muokkaa niteitä eräajossa_
 
-![](/assets/files/docs/Luettelointi/luettelointi33.png)
+![](/assets/files/docs/Luettelointi/kohakuvat560.png)
 
 Tämä avaa erämuokkaustyökalun, jossa voit muokata useiden niteiden
 tietoja yhtä aikaa.
@@ -401,7 +423,7 @@ mahdollista, voit klikata nidetietojen näytöllä kunkin niteen vasemmalla
 puolella valintalaatikosta ne niteet, joita haluat käsitellä. Voit
 poistaa niteitä tai muokata niitä.
 
-![](/assets/files/docs/Luettelointi/luettelointi34.png)
+![](/assets/files/docs/Luettelointi/kohakuvat564.png)
 
 Voit käyttää myös erämuokkaustyökalua muokkaukseen.
 
@@ -413,7 +435,7 @@ viivakoodia lainausnäytöllä tai lainahistoriassa ja päästä niteen
 yhteenvetoon. Siellä pääsee merkitsemään niteen kadonneeksi tai
 vaurioituneeksi.
 
-![](/assets/files/docs/Luettelointi/luettelointi35.png)
+![](/assets/files/docs/Luettelointi/kohakuvat563.png)
 
 Täällä voit alasvetovalikosta valita tilan, joka merkitsee niteen
 _kadonneeksi_ tai _ilmoittaa palauttaneensa_ -tilaan. Huom! Noudata
@@ -421,21 +443,21 @@ kadonnut-tilaa käytettäessä kimpassasi sovittuja käytänteitä.
 Kadonnut-tila voi lisätä kimpan asetuksista riippuen niteen
 korvaushinnan asiakkaan velkasaldoon.
 
-![](/assets/files/docs/Luettelointi/luettelointi36.png)
+![](/assets/files/docs/Luettelointi/kohakuvat562.png)
 
 Jos valitset _Ilmoittaa palauttaneensa_ ja klikkaat _Aseta tila_
 -nappia, nide poistuu asiakkaan lainoista ja näkyviin tulee päivämäärä,
 milloin tila on merkitty.
 
-![](/assets/files/docs/Luettelointi/luettelointi37.png)
+![](/assets/files/docs/Luettelointi/kohakuvat572.png)
 
 Viimeisin lainaaja jää näkyviin _Historia_-tietoihin.
 
-![](/assets/files/docs/Luettelointi/luettelointi38.png)
+![](/assets/files/docs/Luettelointi/kohakuvat573.png)
 
 Voit merkitä niteen myös vahingoittuneeksi.
 
-![](/assets/files/docs/Luettelointi/luettelointi39.png)
+![](/assets/files/docs/Luettelointi/kohakuvat561.png)
 
 ### 3.2.2.2. Niteiden erämuokkaus
 
@@ -445,7 +467,7 @@ Jos haluat muokata jonkun nimekkeen useamman niteen tietoja kerralla,
 sen pääsee tekemään valitsemalla nimeketietonäytöllä _Muokkaa -&gt;
 Muokkaa niteitä eräajossa_.
 
-![](/assets/files/docs/Luettelointi/luettelointi45.png)
+![](/assets/files/docs/Luettelointi/kohakuvat560.png)
 
 Siellä voit valita joko kaikki niteet tai valitsemalla vasemmalla
 olevasta sarakkeesta vain ne niteet, joihin muutokset kohdistuvat.
@@ -495,7 +517,7 @@ pääsee niteen hankintatietoihin.
 Nide voidaan siirtää nimeketietueelta toiselle käyttämällä _Liitä nide_
 -toimintoa.
 
-![](/assets/files/docs/Luettelointi/luettelointi51.png)
+![](/assets/files/docs/Luettelointi/kohakuvat574.png)
 
 Liittämiseen tarvitaan siirrettävän niteen viivakoodi, joka luetaan sen
 nimekkeen tietoihin, mihin nide halutaan siirtää.
@@ -564,7 +586,7 @@ ohje tehdään myöhemmin
 
 ## 3.4. Kuvailuohjeet
 
-https://koha-community.org/manual/17.11/en/html/06\_cataloging.html\#cataloging-guides
+https://koha-community.org/manual/21.11/en/html/cataloging.html
 
 ### 3.4.1. Niteiden tarrat ja niiden tulostaminen
 
