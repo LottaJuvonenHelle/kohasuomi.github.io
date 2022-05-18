@@ -98,7 +98,7 @@ _Muokkaa tietuetta_ hakutulosnäytöllä
 
 tai klikkaa Tiedonhaun puolella _Muokkaa_-valikosta _Muokkaa tietuetta_.
 
-![](/assets/files/docs/Luettelointi/luettelointi12.png)
+![](/assets/files/docs/Luettelointi/kohakuvat580.png)
 
 Tietue avautuu MARC-muokkaukseen.
 
@@ -309,12 +309,12 @@ kuvasta “Yhdistetään tietueita”.
 
 Tietue voidaan poistaa valitsemalla _Muokkaa_-valikosta _Poista tietue_.
 
-![](/assets/files/docs/Luettelointi/luettelointi20.png)
+![](/assets/files/docs/Luettelointi/kohakuvat581.png)
 
 Tietuetta ei voi poistaa, mikäli tietueeseen liittyy niteitä. Tällöin
 _Poista tietue_ -teksti näkyy harmaana.
 
-![](/assets/files/docs/Luettelointi/luettelointi21.png)
+![](/assets/files/docs/Luettelointi/kohakuvat582.png)
 
 ## 3.2. Nidetietueet
 
@@ -586,7 +586,7 @@ ohje tehdään myöhemmin
 
 ## 3.4. Kuvailuohjeet
 
-https://koha-community.org/manual/17.11/en/html/06\_cataloging.html\#cataloging-guides
+https://koha-community.org/manual/21.11/en/html/cataloging.html
 
 ### 3.4.1. Niteiden tarrat ja niiden tulostaminen
 
