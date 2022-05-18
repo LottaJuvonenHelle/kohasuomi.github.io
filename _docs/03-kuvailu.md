@@ -382,9 +382,9 @@ Lisäämäsi tietue tulee taulukkoon.
 ![](/assets/files/docs/Luettelointi/luettelointi26.png)
 
 Voit suodattaa kokoelmatietoja, kun klikkaat _Suodata_.  
-![](/assets/files/docs/Luettelointi/luettelointi27.png)
+![](/assets/files/docs/Luettelointi/kohakuvat570.png)
 
-![](/assets/files/docs/Luettelointi/luettelointi28.png)
+![](/assets/files/docs/Luettelointi/kohakuvat571.png)
 
 Riittää, kun aloitat kirjoittamaan suodatinta, kaikki siihen sopivat
 tulokset listataan.
@@ -413,7 +413,7 @@ pohjalla valmiiksi)
 
 #### Klikkaamalla _Muokkaa -&gt; Muokkaa niteitä eräajossa_
 
-![](/assets/files/docs/Luettelointi/luettelointi33.png)
+![](/assets/files/docs/Luettelointi/kohakuvat560.png)
 
 Tämä avaa erämuokkaustyökalun, jossa voit muokata useiden niteiden
 tietoja yhtä aikaa.
@@ -423,7 +423,7 @@ mahdollista, voit klikata nidetietojen näytöllä kunkin niteen vasemmalla
 puolella valintalaatikosta ne niteet, joita haluat käsitellä. Voit
 poistaa niteitä tai muokata niitä.
 
-![](/assets/files/docs/Luettelointi/luettelointi34.png)
+![](/assets/files/docs/Luettelointi/kohakuvat564.png)
 
 Voit käyttää myös erämuokkaustyökalua muokkaukseen.
 
@@ -435,7 +435,7 @@ viivakoodia lainausnäytöllä tai lainahistoriassa ja päästä niteen
 yhteenvetoon. Siellä pääsee merkitsemään niteen kadonneeksi tai
 vaurioituneeksi.
 
-![](/assets/files/docs/Luettelointi/luettelointi35.png)
+![](/assets/files/docs/Luettelointi/kohakuvat563.png)
 
 Täällä voit alasvetovalikosta valita tilan, joka merkitsee niteen
 _kadonneeksi_ tai _ilmoittaa palauttaneensa_ -tilaan. Huom! Noudata
@@ -443,7 +443,7 @@ kadonnut-tilaa käytettäessä kimpassasi sovittuja käytänteitä.
 Kadonnut-tila voi lisätä kimpan asetuksista riippuen niteen
 korvaushinnan asiakkaan velkasaldoon.
 
-![](/assets/files/docs/Luettelointi/luettelointi36.png)
+![](/assets/files/docs/Luettelointi/kohakuvat562.png)
 
 Jos valitset _Ilmoittaa palauttaneensa_ ja klikkaat _Aseta tila_
 -nappia, nide poistuu asiakkaan lainoista ja näkyviin tulee päivämäärä,
@@ -457,7 +457,7 @@ Viimeisin lainaaja jää näkyviin _Historia_-tietoihin.
 
 Voit merkitä niteen myös vahingoittuneeksi.
 
-![](/assets/files/docs/Luettelointi/luettelointi39.png)
+![](/assets/files/docs/Luettelointi/kohakuvat561.png)
 
 ### 3.2.2.2. Niteiden erämuokkaus
 
