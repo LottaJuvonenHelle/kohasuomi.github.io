@@ -449,11 +449,11 @@ Jos valitset _Ilmoittaa palauttaneensa_ ja klikkaat _Aseta tila_
 -nappia, nide poistuu asiakkaan lainoista ja näkyviin tulee päivämäärä,
 milloin tila on merkitty.
 
-![](/assets/files/docs/Luettelointi/luettelointi37.png)
+![](/assets/files/docs/Luettelointi/kohakuvat572.png)
 
 Viimeisin lainaaja jää näkyviin _Historia_-tietoihin.
 
-![](/assets/files/docs/Luettelointi/luettelointi38.png)
+![](/assets/files/docs/Luettelointi/kohakuvat573.png)
 
 Voit merkitä niteen myös vahingoittuneeksi.
 
@@ -467,7 +467,7 @@ Jos haluat muokata jonkun nimekkeen useamman niteen tietoja kerralla,
 sen pääsee tekemään valitsemalla nimeketietonäytöllä _Muokkaa -&gt;
 Muokkaa niteitä eräajossa_.
 
-![](/assets/files/docs/Luettelointi/luettelointi45.png)
+![](/assets/files/docs/Luettelointi/kohakuvat560.png)
 
 Siellä voit valita joko kaikki niteet tai valitsemalla vasemmalla
 olevasta sarakkeesta vain ne niteet, joihin muutokset kohdistuvat.
@@ -517,7 +517,7 @@ pääsee niteen hankintatietoihin.
 Nide voidaan siirtää nimeketietueelta toiselle käyttämällä _Liitä nide_
 -toimintoa.
 
-![](/assets/files/docs/Luettelointi/luettelointi51.png)
+![](/assets/files/docs/Luettelointi/kohakuvat574.png)
 
 Liittämiseen tarvitaan siirrettävän niteen viivakoodi, joka luetaan sen
 nimekkeen tietoihin, mihin nide halutaan siirtää.
