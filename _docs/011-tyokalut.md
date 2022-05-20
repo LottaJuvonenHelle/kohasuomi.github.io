@@ -724,7 +724,7 @@ Työkalun käyttö vaatii harjoittelua, jotta osaa tulkita tuloksia. Eri
 osioissa ja toiminnoissa kirjataan asiaoita eri tavalla, joten mitään
 kaikenkattavaa ohjetta ei pysty tekemään.
 
-<img src="/assets/files/docs/Tyokalut/lokit.png" title="Kuvakaappaus Lokien katselu -sivulta. Ylhäältä alas: Virkailija, osiot, toiminnot, ID-tunnus, tiedot, käyttöliittymä, alkupvm, loppupvm, selaimen näytölle, tiedostoon, nimi" alt="Kuvakaappaus Lokien katselu -sivulta. Ylhäältä alas: Virkailija, osiot, toiminnot, ID-tunnus, tiedot, käyttöliittymä, alkupvm, loppupvm, selaimen näytölle, tiedostoon, nimi" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/selaa_lokeja.png" title="Kuvakaappaus Lokien katselu -sivulta. Ylhäältä alas: Virkailija, osiot, toiminnot, ID-tunnus, tiedot, käyttöliittymä, alkupvm, loppupvm, selaimen näytölle, tiedostoon, nimi" alt="Kuvakaappaus Lokien katselu -sivulta. Ylhäältä alas: Virkailija, osiot, toiminnot, ID-tunnus, tiedot, käyttöliittymä, alkupvm, loppupvm, selaimen näytölle, tiedostoon, nimi" style="width:45.0%" />
 
 Vaihtoehtojen kuvaukset ja sulkeissa valintaa vastaava taulun sarake
 action_logs-taulussa:
@@ -733,13 +733,8 @@ action_logs-taulussa:
   käyttäjätunnuksen tekemiä muutoksia haetaan. Kenttään laitetaan
   käyttäjän borrowernumber.
 - **Osiot** (module): määrittele, minkä Kohan osion tietoja haluat
-  hakea: kaikki, luettelo (luettelointitiedot), auktoriteetit,
-  asiakkaat, hankinta, kausijulkaisut, varaukset, lainaus ja palautus,
-  kirje, maksut, järjestelmäasetukset, cron jobit, raportit
-- **Toiminnot** (action): valitse minkälaisia toimintoja haluat hakea:
-  kaikki, lisää (lisäys), poista, muokkaa, lainaus, palautus, uusi,
-  luo, poista, keskeytä, jatka, lisää viesti, poista viesti, vaihda
-  salasanaa, aja
+  hakea. Huutomerkkikolmio kuvake kertoo, että kyseisen osion lokitus ei ole päällä. Silloin siihen ei tietenkään voi myöskään kohdistaa hakua
+- **Toiminnot** (action): valitse minkälaisia toimintoja haluat hakea.
 - **ID-tunnus** (object): tähän määritellään tutkittavan tiedon
   tunniste, mikä riippuu siitä, mitä ollaan tutkimassa: asiakkaan
   borrowernumber, tietueen biblionumber, niteen itemnumber, varauksen
@@ -749,10 +744,7 @@ action_logs-taulussa:
   toiminnoissa. Hakuehtona voi käyttää esim. biblionumberia,
   borrowernumberia tai itemnumberia. Kenttää voi kirjoittaa myös ihan
   sanoja, joita arvelee kirjatun muutoksiin, kuten phone.
-- **Käyttöliittymä** (interface): mitä kautta muutos on tehty: kaikki,
-  virkailijaliittymä, verkkokirjasto, SIP (automaatit), komentorivi.
-  Näiden lisäksi tuloksissa voi olla myös vaihtoehtoa REST, joka
-  tarkoittaa REST-rajapintaa.
+- **Käyttöliittymä** (interface): mitä kautta muutos on tehty.
 - **Alkupvm ja Loppupvm** (timestamp): tähän voi ja kannattaa
   määrittää aikavälin, miltä tietoja hakee. Lokitietoja on paljon,
   joten aikaväli kannattaa määrittää mahdollisimman tarkasti. Lisäksi
@@ -768,7 +760,7 @@ Tulostus-otsikon alla
 Esimerkki, jossa haettu asiakkaan muutoslokilta kaikki tiedot tietyllä
 välillä:
 
-<img src="/assets/files/docs/Tyokalut/lokit2.png" title="Kuvakaappaus lokin hakutuloksista. Taulukko, jossa sarakkeet pvm, virkailija, osio, toiminto, ID-tunnus, tiedot ja käyttöliittymä" alt="Kuvakaappaus lokin hakutuloksista. Taulukko, jossa sarakkeet pvm, virkailija, osio, toiminto, ID-tunnus, tiedot ja käyttöliittymä" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/lokit3.png" title="Kuvakaappaus lokin hakutuloksista. Taulukko, jossa sarakkeet pvm, virkailija, osio, toiminto, ID-tunnus, tiedot ja käyttöliittymä" alt="Kuvakaappaus lokin hakutuloksista. Taulukko, jossa sarakkeet pvm, virkailija, osio, toiminto, ID-tunnus, tiedot ja käyttöliittymä" style="width:90.0%" />
 
 - Virkailija nro 0 tarkoittaa, että muutoksen on tehnyt jokin
   järjestelmän oma toiminto, ei virkailija.
