@@ -800,7 +800,7 @@ Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
 
 Valitse sivun yläreunasta _Luo uusi_.
 
-<img src="/assets/files/docs/Tyokalut/lisaa_uutinen.png" title="Kuvakaappaus uuden uutisen lisäyssivusta" alt="Kuvakaappaus uuden uutisen lisäyssivusta" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/lisaa_uutinen.png" title="Kuvakaappaus uuden uutisen lisäyssivusta" alt="Kuvakaappaus uuden uutisen lisäyssivusta" style="width:90.0%" />
 
 Valitse ja täytä tarvittavat tiedot:
 
