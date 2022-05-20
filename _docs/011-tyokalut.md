@@ -773,12 +773,14 @@ Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita
 virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi
 kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
 
+Linkistä _HTML muokkaukset_ voi tehdämuokkauksia Kohan verkkokirjastoon (ei käytössä Koha-Suomen kirjastoissa).
+
 <img src="/assets/files/docs/Tyokalut/uutiset.png" title="Kuvakaappaus Uutiset-työkalun aloitusnäkymästä, jossa on useampi uutinen näkyvissä" alt="Kuvakaappaus Uutiset-työkalun aloitusnäkymästä, jossa on useampi uutinen näkyvissä" style="width:95.0%" />
 
 - **Paikka**: missä uutinen näytetään
 - **Kirjasto**: mille kirjastoille (perustuu kirjautumiskirjastoon)
   uutinen näytetään
-- **Numero**: monentena näytetään, jos oon useampi uutinen
+- **Numero**: monentena näytetään, jos on useampi uutinen
 - **Julkaisuvuosi**: julkaisupäivä
 - **Vanhentumispvm**: Vanhentumispäivä, jos sellainen on määritetty
 - **Nimeke**: Uutisen otsikko
@@ -786,7 +788,7 @@ kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
   kirjautunut käyttäjä. _NewsAuthorDisplay_ -järjestelmäasetuksella
   voi määrittää, piilotetaanko tai näytetäänkö uutisen kirjoittajan
   nimi.
-- **Uutiset**: Uutisten sisältö
+- **Uutiset**: Uutisten esikatselu
 - **Toiminnot**: Muokkaa-napista voi muokata uutista ja Poista-napista
   voi poistaa uutisen
 
@@ -798,16 +800,14 @@ Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
 
 Valitse sivun yläreunasta _Luo uusi_.
 
-<img src="/assets/files/docs/Tyokalut/uutiset2.png" title="Kuvakaappaus uuden uutisen lisäyssivusta" alt="Kuvakaappaus uuden uutisen lisäyssivusta" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/lisaa_uutinen.png" title="Kuvakaappaus uuden uutisen lisäyssivusta" alt="Kuvakaappaus uuden uutisen lisäyssivusta" style="width:70.0%" />
 
 Valitse ja täytä tarvittavat tiedot:
 
 - **Näyttöpaikka**: näytetäänkö uutinen kaikkialla,
-  virkailijatyökalussa, kuiteissa vai verkkokirjastossa (voit valita
-  erikseen kieliversiot)
+  virkailijatyökalussa, kuiteissa vai verkkokirjastossa
 - **Kirjasto**: näytetäänkö uutinen kaikille kirjastoille vai vain
   tietylle kirjastolle
-- **Nimeke**: Uutisen nimi tai otsikko. Pakollinen tieto.
 - **Julkaisupvm**: voi joko jättää tyhjäksi, jolloin uutinen
   julkaistaan heti tai valita tietty julkaisupäivä.
 - **Vanhentumispvm**: voi joko jättää tyhjäksi, jolloin uutinen ei
@@ -815,20 +815,22 @@ Valitse ja täytä tarvittavat tiedot:
   piilotetaan käyttäjiltä valittuna päivänä.
 - **Näyttöjärjestys**: jos uutisia on useampi, tällä voi määrittää
   niiden keskinäinen järjestys
-- **Uutiset**: Tähän kirjoitetaan varsinainen uutinen. Käytettävissä
+- **Kielivälilehdet**: Eri kieliset uutiset eri kielivälilehdille.
+- **Nimeke**: Uutisen nimi tai otsikko.
+- **Sisältö**: Tähän kirjoitetaan varsinainen uutinen. Käytettävissä
   on WYSIWYG-muotoilut (what you see is what you get).
 
-Tallenna valitsemalla OK tai peruuta valitsemalla Peruuta.
+Tallenna valitsemalla Tallenna tai peruuta valitsemalla Peruuta.
 
 ### 10.16.2 Uutisen poistaminen
 
-Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla Poista-nappia.
+Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla Poista-nappia. Useamman uutiset voi poistaa valitsemalla uutinen vasemmalta ruksilla ja painamalla Poista valitut.
 
-<img src="/assets/files/docs/Tyokalut/uutiset3.png" title="Uutiset-sivulta kuvakaappaus, jossa on ympyröitynä punaisella laatikolla Poista-nappula" alt="Uutiset-sivulta kuvakaappaus, jossa on ympyröitynä punaisella laatikolla Poista-nappula" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/uutisen_poisto.png" title="Uutiset-sivulta kuvakaappaus, jossa on ympyröitynä punaisella laatikolla Poista-nappula" alt="Uutiset-sivulta kuvakaappaus, jossa on ympyröitynä punaisella laatikolla Poista-nappula" style="width:90.0%" />
 
 **Huom!** Vanhentuneet uutiset poistuvat käyttäjien näkyviltä
 vanhentumispäivänä, mutta eivät poistu automaattisesti uutislistasta. Ne
-pitää halutessaan poistaa manuaalisesti Poista-napilla.
+pitää halutessaan poistaa manuaalisesti.
 {: .notice--warning}
 
 ---
