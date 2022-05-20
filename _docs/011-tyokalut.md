@@ -792,7 +792,7 @@ kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
 
 Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
 
-<img src="/assets/files/docs/Tyokalut/uutiset4.png" title="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" alt="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/uutiset4.png" title="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" alt="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" style="width:90.0%" />
 
 ### 10.16.1 Uuden uutisen luominen
 
