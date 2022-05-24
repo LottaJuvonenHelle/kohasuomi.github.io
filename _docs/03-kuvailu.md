@@ -730,12 +730,6 @@ Negatiiviset arvot sallivat varaamisen.</td>
 <td>Esim. 2016 : 3</td>
 <td>Täytetään automaattisesti kausijulkaisuissa, jos niteet on merkitty saapuneeksi saapumisvalvonnan kautta</td>
 </tr>
-<tr class="odd">
-<td>952$i</td>
-<td>Inventaarionumero</td>
-<td></td>
-<td>Ei meillä käytössä</td>
-</tr>
 <tr class="even">
 <td>952$o</td>
 <td>Kohan koko signum</td>
