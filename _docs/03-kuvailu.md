@@ -590,53 +590,7 @@ https://koha-community.org/manual/21.11/en/html/cataloging.html
 
 ### 3.4.1. Niteiden tarrat ja niiden tulostaminen
 
-Tarroitettavat niteet voi lisätä tarratulostuslistalle, kun muokkaa
-nidettä.  
-Kun käsittelet nidetunnuksia, joille haluat tulostaa infotarran ja
-selkätarran, tee näin:  
-avaa toiselle välilehdelle tarratulostus yläreunan Muita toimintoja
--&gt; Työkalut kautta (klikkaa hiiren kakkospainikkeella
-Työkalut-kohdassa ja valitse Avaa uuteen välilehteen)
-
-![](/assets/files/docs/Luettelointi/luettelointi61.png)
-
-Siellä on tällainen näyttö, johon voit lukea (tai liittää tai
-kirjoittaa) viivakoodeja
-
-![](/assets/files/docs/Luettelointi/luettelointi62.png)
-
-Voit lukea tähän tulostettavien niteiden viivakoodit.
-
-Käytämme edelleen Pallaksesta tuttuja tarra-arkkeja, joten niteitä
-mahtuu arkille 12. Käytännössä on parasta tulostaa arkillinen kerrallaan
-ja tyhjentää sitten näyttö ja lukea uusia niteitä sen jälkeen. Myös
-puoliksi käytettyjä arkkeja voi käyttää lisäämällä tyhjiä rivejä alkuun
-jo käytettyjen tarrojen paikalle.  
-Tarrat tulostetaan klikkaamalla _Tulosta!_-painiketta.
-
-![](/assets/files/docs/Luettelointi/luettelointi63.png)
-
-Valitse _Avaa ohjelmalla Adobe Reader_ (oletus) ja klikkaa _OK_.
-
-![](/assets/files/docs/Luettelointi/luettelointi64.png)
-
-Näet tarra-arkin tulostuksen esikatselussa, jolloin voit vielä palata
-takaisin ja muokata niteen tietoja, jos huomaat siellä virheellisyyksiä.
-
-![](/assets/files/docs/Luettelointi/luettelointi65.png)
-
-Jos arkki näyttää olevan ok, voit tulostaa sen normaaliin tapaan
-_Tiedosto -&gt; Tulosta_ tai kirjoittimen kuvakkeesta yläreunassa.
-Valitse oikea kirjoitin valikosta.
-
-Voit tehdä myös näin:  
-Kun olet tallentamassa niteitä (tai haluat tulostaa uuden infotarran
-entiselle niteelle), valitse nidetunnus (maalaa tunnus ja ctrl+c ottaa
-sen leikepöydälle).
-
-![](/assets/files/docs/Luettelointi/luettelointi66.png)
-
-Liitä (ctrl+v) tunnus _Tulosta tarroja_ -näytölle.
+Tallennusohje löytyy täältä https://tiketti.koha-suomi.fi/attachments/5489/Tarratulostus%2021.11%20versio.docx
 
 ### 3.4.2. Niteiden tallennusohjeet
 
