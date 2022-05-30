@@ -112,7 +112,7 @@ tietoja valmiiksi.
 
 <!-- -->
 
-- _Julkinen viesti_ näkyy asiakkaille verkkokirjastossa
+- _Julkinen viesti_ näkyy asiakkaille Kohan verkkokirjastossa
 
 <!-- -->
 
@@ -315,19 +315,7 @@ yhteenvetonäytölle virkailijatyökalussa.
 Jos käytät _Hankintamoduulia_ tilausten seurantaan, näet ne tiedot ennen
 tilauksen tietoja.
 
-## 4.7. Lehtitilaukset verkkokirjastossa
-
-Kuten virkailijatyökalussakin, verkkokirjastossa löydät lehden
-tilaustiedot nimekehaun kautta nimeketietueen näytöllä.
-
-![](/assets/files/docs/Kausijulkaisut/kausijul33.png)
-
-_Tilaukset_-välilehdellä näkyy lehden tilaustiedot. Sivun alareunassa on
-linkki _Tarkat tiedot_, josta näkee tilauksen tietoja enemmän.
-
-![](/assets/files/docs/Kausijulkaisut/kausijul34.png)
-
-## 4.8. Lehtien reklamointi
+## 4.7. Lehtien reklamointi
 
 Koha voi lähettää sähköpostin kausijulkaisujesi toimittajalle, jos
 tilatut numerot ovat myöhässä tai puuttuvat. Vasemmalla valikossa on
@@ -335,7 +323,7 @@ _Reklamaatiot_-linkki tätä varten.
 ![](/assets/files/docs/Kausijulkaisut/kausijul35.png)  
 ![](/assets/files/docs/Kausijulkaisut/kausijul36.png)
 
-## 4.9. Lehtitilauksen päättymisajan tarkistaminen
+## 4.8. Lehtitilauksen päättymisajan tarkistaminen
 
 Kun tallennetaan lehtitilausta, annetaan sille päättymisaika.
 Tarkistustyökalulla voit tarkistaa, milloin tilaus päättyy.
@@ -350,7 +338,7 @@ jotka päättyvät ennen annettua päivämäärää.
 Listauksen oikeanpuolimmaisessa sarakkeessa on _Uusinta-linkki_, josta
 pääsee uusimaan tilauksen.
 
-## 4.10. Tilausten uusiminen
+## 4.9. Tilausten uusiminen
 
 Jos lehtitilauksesi on loppunut, et voi vastaanottaa lehtinumeroita.
 Tilauksen voi uusia klikkaamalla _Uusinta_.
@@ -366,7 +354,7 @@ Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle .
   numeroita, viikkoa tai kuukautta ja anna tilauksen pituuden määrä.
 - Loppuun voit tallentaa uusintaa koskevan huomautuksen.
 
-## 4.11. Lehtitilausten hakeminen
+## 4.10. Lehtitilausten hakeminen
 
 _Kausijulkaisut_-moduulissa on lehtitilausten haku, jossa tilausta voit
 hakea ISSN:lla tai lehden nimellä.
@@ -385,7 +373,7 @@ suodattamamiseen. Sen hakee kaikista sarakkeista kerralla.
 
 <img src="/assets/files/docs/Kausijulkaisut/kausijul43.png" title="Kausijulkaisuhaun tulosten suodattaminen" alt="Kausijulkaisuhaun tulosten suodattaminen" style="width:70.0%" />
 
-## 4.12 Lehtitilauksen poistaminen
+## 4.11. Lehtitilauksen poistaminen
 
 Lehtitilauksen voi poistaa. Hae haulla esille poistettava tilaus ja
 klikkaa Nimeke-sarakkeesta lehden nimeä, jolloin avautuu tilauksen
