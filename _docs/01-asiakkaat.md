@@ -93,8 +93,7 @@ häntä ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:
 
 Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa
 “Lisää takaaja” -nappia, niin pääset hakemaan rekisteristä lapselle
-takaajan. Huom! takaajakenttiin kirjoitetut tiedot eivät tallennu.
-Takaaja haetaan aina Lisää takaaja -toiminnolla.
+takaajan. Huom. Kaikissa kimpoissa ei ole Näytä takaajille lainat -vaihtoehtoa käytössä.
 
 ![](/assets/files/docs/Asiakkaat/Lisaatakaaja.png)
 
@@ -103,12 +102,14 @@ alasvetovalikoista sopivat vaihtoehdot.
 
 ![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
-Saat listan hakuun sopivista asiakkaista. Valitse oikealta “Valitse”
+Saat listan hakuun sopivista asiakkaista. Klikkaa oikealta “Valitse”-painiketta
 oikean henkilön kohdalla. 
+
+Valitse alasvetovalikosta takaajan suhde asiakkaaseen Huom. alasvetovalikon vaihtoehdot voivat vaihdella kimpoissa.
 
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
 
-Tallennuksen jälkeen huoltajan tiedoista näkyy vain kirjastokortin numero. Voit 
+Tallennuksen jälkeen huoltajan tiedoista näkyy nimi sekä kirjastokortin numero. Voit 
 tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot.
 
 ![](/assets/files/docs/Asiakkaat/Toinentakaaja.png)
