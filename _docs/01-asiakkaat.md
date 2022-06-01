@@ -112,7 +112,7 @@ Valitse alasvetovalikosta takaajan suhde asiakkaaseen Huom. alasvetovalikon vaih
 Tallennuksen jälkeen huoltajan tiedoista näkyy nimi, varaustunniste sekä kirjastokortin numero. Voit 
 tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot.
 
-![](/assets/files/docs/Asiakkaat/Toinentakaaja.png)
+![](/assets/files/docs/Asiakkaat/Takaajat.png)
 
 Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
