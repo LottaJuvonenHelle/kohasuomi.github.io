@@ -131,9 +131,10 @@ muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikos
 
 ![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
 
-Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero lankapuhelinkenttään ja matkapuhelin matkapuhelinkenttään) ja sähköpostiosoite.
-Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa ei välttämättä ole otettu käyttöön.
-Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
+Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero Ensisijainen puhelin/lankapuhelinkenttään ja matkapuhelin
+Muu puhelin/matkapuhelinkenttään) ja sähköpostiosoite. Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. 
+Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa 
+ei välttämättä ole otettu käyttöön. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
 asiakas haluaa varausilmoitukset tekstiviestinä.
 
 ![](/assets/files/docs/Asiakkaat/Yhteystiedot.png)
@@ -146,7 +147,6 @@ Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite. Huom! Tässä on
 kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/koha682.png)
-
 
 
 ### 1.1.4. Kirjastotiedot
