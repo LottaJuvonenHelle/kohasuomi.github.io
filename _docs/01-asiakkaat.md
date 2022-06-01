@@ -55,20 +55,19 @@ Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
 
 #### 1.1.1.1. Sotu on jo olemassa
 
-Jos syötetty henkilötunnus on jo sotu-siilossa, tulee ilmoitus “Hetu asetettu!".
+Jos syötetty henkilötunnus on jo sotu-siilossa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
+henkilötunnuksen sotuavaimella asiakastietoja. 
+
+Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
+tallentamista käyttäen sotu-siilon antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
-Tarkista esimerkiksi toisella välilehdellä asiakashaussa sotu-avaimella, löytyykö 
-Kohan tietokannasta asiakastietoja. Jos löytyy, muokkaa löytyneitä asiakastietoja. 
-Jos ei löydy, niin tee uudet asiakastiedot käyttäen Muut määritteet ja tunnukset -kentässä
-sotu-siilon antamaa sotu-avainta.
+Jos asiakastiedot löytyvät, niin käyttäjälle tulee ilmoitus "Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin." 
+Klikkaamalla OK käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita tarvittaessa muokataan.
 
-Ilmoitus sotun olemassa olosta voi tulla myös, jos olet epähuomiossa
-tuplaklikannut Tallenna –painiketta. Tuplaklikkaus aiheuttaa sen,
-että asiakkaan henkilötunnus tallentuu ensimmäisellä
-klikkauksella sotusiiloon ja toisella klikkauksella Koha antaa yllä
-olevan ilmoituksen.
+![](/assets/files/docs/Asiakkaat/Sotu3.png)
+
 
 #### 1.1.1.2. Sotu-siilon käyttöliittymä
 
