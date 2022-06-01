@@ -93,7 +93,7 @@ häntä ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:
 
 Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa
 “Lisää takaaja” -nappia, niin pääset hakemaan rekisteristä lapselle
-takaajan. Huom. Kaikissa kimpoissa ei ole Näytä takaajille lainat -vaihtoehtoa käytössä.
+takaajan.
 
 ![](/assets/files/docs/Asiakkaat/Lisaatakaaja.png)
 
