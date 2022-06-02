@@ -185,8 +185,6 @@ näkyy OPACissa, mutta ei Finnassa.
 \- Huomautus (näkyy virkailijatyökalussa) -laatikossa oleva huomautus
 näkyy Kohassa virkailijoille tiedot- ja lainausnäytöllä.
 
-![](/assets/files/docs/Asiakkaat/huomautus.png)
-
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko.png)
 
 _Kirjautumistunnus -osioon_ voi lukea esim. kirjastokortin numeron tai
