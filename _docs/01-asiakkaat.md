@@ -183,9 +183,11 @@ huomautuksen, jonka asiakas näkee verkkokirjastosta. Huom! Huomautus
 näkyy OPACissa, mutta ei Finnassa.
 
 \- Huomautus (näkyy virkailijatyökalussa) -laatikossa oleva huomautus
-näkyy vain virkailijoille lainauksessa.
+näkyy Kohassa virkailijoille tiedot- ja lainausnäytöllä.
 
 ![](/assets/files/docs/Asiakkaat/huomautus.png)
+
+![](/assets/files/docs/Asiakkaat/huomautuslaatikko.png)
 
 _Kirjautumistunnus -osioon_ voi lukea esim. kirjastokortin numeron tai
 erillisen käyttäjätunnuksen, jolla asiakas voi kirjautua
