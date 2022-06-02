@@ -302,6 +302,8 @@ asiakkaan Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
 
+Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttaneensa" -lainan jälkeen ohjelma huomauttaa siitä virkailijalle.
+
 2. Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
 
 - Huomio kirjastosi käyttösäännöt. Joissain kirjastoissa uusittaessa
