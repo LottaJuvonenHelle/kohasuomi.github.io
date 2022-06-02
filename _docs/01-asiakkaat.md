@@ -204,7 +204,7 @@ olla käytössä.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset2.png)
 
-![](/assets/files/docs/Asiakkaat/koha680.png)
+![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset.png)
 
 ### 1.1.5. Asiakkaan viestiasetukset
 
