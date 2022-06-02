@@ -271,9 +271,9 @@ ylläpidon Laina- ja käyttömaksusäännöissä on määritelty.
 
 Asiakkaat voivat uusia lainojaan verkkokirjastossa, mutta uusinnan voi
 tehdä myös Kohan virkailijaliittymällä kirjastossa. Tämän voi tehdä
-kahdella eri tavalla.
+asiakkaan Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
 
-1. Asiakkaan tiedoissa olevalla Lainassa-välilehdellä.
+1. Lainojen uusinta asiakkaan tiedoissa olevalla Lainassa-välilehdellä.
 
 ![](/assets/files/docs/Lainaus/uusinta.png)
 
@@ -281,20 +281,26 @@ kahdella eri tavalla.
   Valitse uusittavat niteet ruksaamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta **Uusi tai palauta
   valitut niteet** tai jos uusit kaikki lainat, klikkaa **Uusi
   kaikki** -painiketta.
+  
 - Uusinta-sarakkeen yläreunassa olevalla toiminnolla “valitse kaikki”
   voit valita uusittavaksi kaikki lainat, jotka on mahdollista uusia.
   Toiminto “ei valintaa” poistaa valinnat.
-- Jos Sarakkeen näkyvyys -valikosta on valittu Palautus-toiminto
-  aktiiviseksi, voit palauttaa lainat valitsemalla palautettavat
-  niteet **Palautus**-sarakkeesta ja klikkaamalla näytön alareunasta
-  painiketta **Uusi tai palauta valitut niteet**.
-- Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta.       Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle laitetaan merkintä   **Ilmoitettu palautetuksi**.   
+  
 - Jos kimpassa on käytössä asetus, joka estää uusimisen samana päivänä
   uudestaan, tulee huomautus “Ei uusintaa ennen…”. Lainan voi uusia
   uudelleen kyseisen päivämäärän ja kellonajan jälkeen. Huomautus
   tulee, kun päivittää Lainassa-välilehden tai käy välillä toisella
   sivulla.  
   ![](/assets/files/docs/Lainaus/uusinta6.png)
+  
+  - Jos kimpassa on sallittu lainojen palauttaminen lainatnäytöllä ja Sarakkeen näkyvyys -valikosta on valittu Palautus-toiminto
+  aktiiviseksi, voit palauttaa lainat valitsemalla palautettavat
+  niteet **Palautus**-sarakkeesta ja klikkaamalla näytön alareunasta
+  painiketta **Uusi tai palauta valitut niteet**.
+  
+- Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta.       Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle tallentuu      merkintä, että asiakas on palauttanut lainan. Tieto lainasta menee myös Palautusilmoitukset-välilehdelle.  
+
+![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
 
 2. Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
 
