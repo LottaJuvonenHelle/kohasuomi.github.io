@@ -202,6 +202,8 @@ olla käytössä.
 ![](/assets/files/docs/Asiakkaat/muutmaareetjatunnukset1.png)
 ![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
 
+![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset2.png)
+
 ![](/assets/files/docs/Asiakkaat/koha680.png)
 
 ### 1.1.5. Asiakkaan viestiasetukset
