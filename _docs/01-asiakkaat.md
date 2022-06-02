@@ -187,7 +187,7 @@ näkyy Kohassa virkailijoille tiedot- ja lainausnäytöllä.
 
 ![](/assets/files/docs/Asiakkaat/huomautus.png)
 
-![](/assets/files/docs/Asiakkaat/huomautuslaatikko.png)
+![](/assets/files/docs/Asiakkaat/Huomautuslaatikko.png)
 
 _Kirjautumistunnus -osioon_ voi lukea esim. kirjastokortin numeron tai
 erillisen käyttäjätunnuksen, jolla asiakas voi kirjautua
@@ -201,7 +201,8 @@ Tähän tulee mm. sotu-avain ja OUTI-kimpalla tässä asetetaan
 omatoimikirjaston käyttöesto. Myös muita kimppakohtaisia määritteitä voi
 olla käytössä.
 
-![](/assets/files/docs/Asiakkaat/muutmaareetjatunnukset.PNG) ![](/assets/files/docs/Asiakkaat/Omatoimiesto.PNG)
+![](/assets/files/docs/Asiakkaat/muutmaareetjatunnukset1.png)
+![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
 
 ![](/assets/files/docs/Asiakkaat/koha680.png)
 
