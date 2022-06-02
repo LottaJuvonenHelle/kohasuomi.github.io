@@ -77,6 +77,7 @@ Kuitin voit tulostaa:
 - asiakastietojen yläpuolelta olevasta **Tulosta**-valikosta valitsemalla **Tänään lainatut**
   
 **Huom!** Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta tulostuvat kaikki asiakkaan lainat kuitille.
+![](/assets/files/docs/Lainaus/tulostin.PNG)
 
 **Tulosta** -valikosta voit tulostaa myös:
 
