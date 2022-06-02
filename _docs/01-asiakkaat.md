@@ -224,7 +224,7 @@ varauksesta.
 
 \- Palautus: Lista asiakkaan juuri palauttamasta aineistosta.
 
-- Lainaus: Lista asiakkaan juuri lainaamista niteistä. Tämä on
+\- Lainaus: Lista asiakkaan juuri lainaamista niteistä. Tämä on
   sähköinen versio lainauskuitista.
 
 \- Lisää puhelinnumero “Tekstiviesti numeroon” -kenttään, jotta
