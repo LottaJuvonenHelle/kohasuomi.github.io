@@ -213,7 +213,7 @@ olevat viestivaihtoehdot vaihtelevat kimpoittain.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaanviestirajoitukset1.png)
 
-\- Eräpäiväilmoitus: Ilmoitus lainojen erääntymisestä eräpäivänä.
+\- Ilmoitus eräpäivänä: Ilmoitus lainojen erääntymisestä eräpäivänä.
 
 \- Ennakkoilmoitus: Etukäteisilmoitus lähestyvästä eräpäivästä (Asiakas
 voi valita, montako päivää etukäteen ilmoitus tulee). HUOM! Jos tähän
@@ -222,14 +222,16 @@ valitsee 0, ei viestiä lähetetä, vaikka rasti olisi paikallaan.
 \- Saapumisilmoitus: Ilmoitus asiakkaalle noudettavissa olevasta
 varauksesta.
 
-\- Palautuskuitti: Lista asiakkaan juuri palauttamasta aineistosta.
+\- Palautus: Lista asiakkaan juuri palauttamasta aineistosta.
 
-- Lainauskuitti: Lista asiakkaan juuri lainaamista niteistä. Tämä on
+- Lainaus: Lista asiakkaan juuri lainaamista niteistä. Tämä on
   sähköinen versio lainauskuitista.
 
 \- Lisää puhelinnumero “Tekstiviesti numeroon” -kenttään, jotta
-tekstiviestit lähetetään. Testiviesti-vaihtoehtoon ei voi laittaa
-rastia, jos tässä kentässä ei ole puhelinnumeroa.
+tekstiviestit lähetetään. Huom. Matkapuhelin-kenttään lisätty numero 
+kopioituu automaattisesti asiakkaan viestiasetuksiin, jos asiakas 
+haluaa varausilmoitukset tekstiviestinä. Testiviesti-vaihtoehtoon ei 
+voi laittaa rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
 - SMS-palveluntuottaja-kohtaan ei tarvitse valita mitään. Ominaisuus ei
   ole käytössä.
