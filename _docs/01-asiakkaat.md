@@ -211,7 +211,7 @@ olla käytössä.
 Lopuksi vielä tallennetaan asiakkaan viestiasetukset. Käytettävissä
 olevat viestivaihtoehdot vaihtelevat kimpoittain.
 
-![](/assets/files/docs/Asiakkaat/viestiasetukset.png)
+![](/assets/files/docs/Asiakkaat/Asiakkaanviestirajoitukset1.png)
 
 \- Eräpäiväilmoitus: Ilmoitus lainojen erääntymisestä eräpäivänä.
 
