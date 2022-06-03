@@ -271,7 +271,7 @@ ylläpidon laina- ja käyttömaksusäännöissä on määritelty.
 
 Lainat voi uusia asiakkaan tiedoissa Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
 
-#### 1. Lainojen uusinta asiakkaan tiedoissa olevalla Lainassa-välilehdellä.
+#### 2.4.1.1 Lainojen uusinta asiakkaan tiedoissa olevalla Lainassa-välilehdellä.
 
 ![](/assets/files/docs/Lainaus/uusinta.png)
 
@@ -302,18 +302,18 @@ Lainat voi uusia asiakkaan tiedoissa Lainassa-välilehdellä tai Lainaus ja pala
 
 Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttaneensa" -lainan jälkeen ohjelma huomauttaa määrästä virkailijalle.
 
-2. Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
+#### 2.4.1.2 Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
 
 - Huomio kirjastosi käyttösäännöt. Joissain kirjastoissa uusittaessa
   pitää olla kirjastokortti mukana eli tätä toimintoa ei saa silloin
   käyttää, mikäli käyttösäännöt edellyttävät kirjastokorttia
   uusintatilanteessa.
 
-![](/assets/files/docs/Lainaus/uusinta1.png)
+![](/assets/files/docs/Lainaus/uusinta1.PNG)
 
 Uusi lainat lukemalla niteen viivakoodi uusintakentään.
 
-![](/assets/files/docs/Lainaus/uusinta2.png)
+![](/assets/files/docs/Lainaus/uusinta2.PNG)
 
 Jos niteen uusiminen onnistuu, saat ilmoituksen.
 
