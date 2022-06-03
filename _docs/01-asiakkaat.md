@@ -149,7 +149,7 @@ kimppakohtaisia eroja.
 ![](/assets/files/docs/Asiakkaat/koha682.png)
 
 
-### 1.1.4. Kirjastotiedot
+### 1.1.5. Kirjastotiedot
 
 _Kirjastonhallinta-osio_ sisältää kirjastonkäyttöön liittyviä tietoja.
 
@@ -206,7 +206,7 @@ olla käytössä.
 
 ![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset1.png)
 
-### 1.1.5. Asiakkaan viestiasetukset
+### 1.1.6. Asiakkaan viestiasetukset
 
 Lopuksi vielä tallennetaan asiakkaan viestiasetukset. Käytettävissä
 olevat viestivaihtoehdot vaihtelevat kimpoittain.
