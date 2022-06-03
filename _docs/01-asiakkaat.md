@@ -118,7 +118,7 @@ Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
 tietoihin toisella välilehdelle ja tee takaajahaku uudelleen.
 
-### 1.1.3.1. Ei-asiakas takaaja tiedon lisääminen. Kimppakohtainen.
+#### 1.1.3.1. Ei-asiakas takaaja tiedon lisääminen. Kimppakohtainen.
 
 ![](/assets/files/docs/Asiakkaat/Eiasiakastakaaja.png)
 
@@ -151,7 +151,8 @@ kimppakohtaisia eroja.
 
 ### 1.1.5. Kirjastotiedot
 
-_Kirjastonhallinta-osio_ sisältää kirjastonkäyttöön liittyviä tietoja.
+#### 1.1.5.1. Kirjastonhallinta-osio
+kirjastonhallinta-osio sisältää kirjastonkäyttöön liittyviä tietoja.
 
 ![](/assets/files/docs/Asiakkaat/kirjastohallinta.png)
 
@@ -168,8 +169,7 @@ jos valitsit alussa väärän asiakastyypin.
 
 \- Valitse asiakasviestien kieli kohdassa “Ilmoitusten kieli”.
 
-_Kirjaston asetukset -osio_
-
+#### 1.1.5.2 Kirjaston asetukset-osio
 ![](/assets/files/docs/Asiakkaat/kirjastonasetukset.png)
 
 \- Tullut asiakkaaksi -päivämäärä tulee automaattisesti kuluvan päivän
@@ -187,14 +187,14 @@ näkyy Kohassa virkailijoille tiedot- ja lainausnäytöllä.
 
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko.png)
 
-_Kirjautumistunnus -osioon_ voi lukea esim. kirjastokortin numeron tai
+#### 1.1.5.3. Kirjautumistunnus-osio
+Kirjautusmistunnus-osioon voi lukea esim. kirjastokortin numeron tai
 erillisen käyttäjätunnuksen, jolla asiakas voi kirjautua
 verkkokirjastoon. Huom! Kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/kirjautumistunnus.png)
 
-_Muut määritteet ja tunnukset_
-
+#### 1.1.5.4. Muut määritteet ja tunnukset
 Tähän tulee mm. sotu-avain ja OUTI-kimpalla tässä asetetaan
 omatoimikirjaston käyttöesto. Myös muita kimppakohtaisia määritteitä voi
 olla käytössä.
@@ -622,9 +622,9 @@ kokonaissaldon.
 
 ![](/assets/files/docs/Asiakkaat/maksujentulostus.png)
 
-#### Maksujen maksaminen Ceepos-kassaliittymän kautta
+#### 1.6.2.9. Maksujen maksaminen Ceepos-kassaliittymän kautta
 
-##### 1.6.2.9. Valmistelut ennen maksujen vastaanottoa
+##### 1.6.2.9.1. Valmistelut ennen maksujen vastaanottoa
 
 Avaa Kohassa asiakkaan Maksa maksuja-välilehti. Valitse sieltä ne
 maksut, jotka asiakas maksaa ja klikkaa joko Maksa kaikki tai Maksa
@@ -649,7 +649,7 @@ pitää toimipiste lisätä uudelleen.
 
 ![](/assets/files/docs/Asiakkaat/lisäätoimipiste4.png)
 
-##### 1.6.2.10. Maksun lähettäminen kassaohjelmaan
+##### 1.6.2.9.2. Maksun lähettäminen kassaohjelmaan
 
 Kun klikkaat toimipisteen numeroa, se muuttuu vihreäksi ja tieto siirtyy
 kassaan.
@@ -662,7 +662,7 @@ veloittaa asiakkaalta maksun. Toimi kirjaston Ceepos-ohjeiden mukaisesti
 ja palaa sitten takaisin Kohaan, jossa asiakkaan maksut ovat
 automaattisesti merkitty suoritetuiksi.
 
-##### 1.6.2.11. Näkymä Kohan Maksut-osiossa
+##### 1.6.2.9.3. Näkymä Kohan Maksut-osiossa
 
 Kohassa asiakkaan Tili-välilehdellä näkyy maksutapahtuman numero. Muista
 aina varmistaa, että maksusta on ilmestynyt yksi uusi maksurivi maksun
