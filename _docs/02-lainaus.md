@@ -267,13 +267,11 @@ Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 ### 2.4.1 Lainojen uusinta
 
 Lainassa olevien niteiden laina-ajan voit uusia sen mukaan, mitä järjestelmän
-ylläpidon Laina- ja käyttömaksusäännöissä on määritelty.
+ylläpidon laina- ja käyttömaksusäännöissä on määritelty.
 
-Asiakkaat voivat uusia lainojaan verkkokirjastossa, mutta uusinnan voi
-tehdä myös Kohan virkailijaliittymällä kirjastossa. Tämän voi tehdä
-asiakkaan Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
+Lainat voi uusia asiakkaan tiedoissa Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
 
-1. Lainojen uusinta asiakkaan tiedoissa olevalla Lainassa-välilehdellä.
+#### 1. Lainojen uusinta asiakkaan tiedoissa olevalla Lainassa-välilehdellä.
 
 ![](/assets/files/docs/Lainaus/uusinta.png)
 
@@ -302,7 +300,7 @@ asiakkaan Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
 
-Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttaneensa" -lainan jälkeen ohjelma huomauttaa siitä virkailijalle.
+Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttaneensa" -lainan jälkeen ohjelma huomauttaa määrästä virkailijalle.
 
 2. Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
 
