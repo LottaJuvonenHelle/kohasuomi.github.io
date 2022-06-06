@@ -586,11 +586,11 @@ ohje tehdään myöhemmin
 
 ## 3.4. Kuvailuohjeet
 
-https://koha-community.org/manual/21.11/en/html/cataloging.html
+[Yhteisön kuvailuohjeet](https://koha-community.org/manual/21.11/en/html/cataloging.html)
 
 ### 3.4.1. Niteiden tarrat ja niiden tulostaminen
 
-Tallennusohje löytyy täältä https://tiketti.koha-suomi.fi/attachments/5489/Tarratulostus%2021.11%20versio.docx
+Tallennusohje löytyy täältä [tarratulostus](https://tiketti.koha-suomi.fi/attachments/5489/Tarratulostus%2021.11%20versio.docx)
 
 ### 3.4.2. Niteiden tallennusohjeet
 
