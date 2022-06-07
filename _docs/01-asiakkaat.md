@@ -265,35 +265,22 @@ oteta mukaan tilastoihin.
 
 ![](/assets/files/docs/Asiakkaat/eitilastoituvat.png)
 
-## 1.3. Asiakkaan tietojen kopioiminen
-
-Joissakin tilanteissa on tarpeen käyttää asiakastietojen kopioimista,
-esim. saman perheen jäsenille tehdään useita kortteja. Kohassa on
-toiminto, jolla voidaan kopioida henkilötiedot, jotka toistuvat eri
-tietueissa.
-
-Avaa sen asiakkaan tiedot, jonka haluat kopioida ja klikkaa
-Kopioi-nappia tietueen yläreunassa.
-
-![](/assets/files/docs/Asiakkaat/kopioiasiakastiedot.png)
-
-Sukunimi, osoite, sähköpostiosoite, kirjasto, asiakastyyppi sekä
-sotuavain (avain päivittyy, kun hakee tallennettavan asiakkaan sotun)
-kopioituvat lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
-
-Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
-
 ## 1.4. Asiakkaan tietojen muokkaaminen
 
-Asiakkaan tietoja voidaan muokata eri painikkeiden kautta.
+Asiakkaan tietoja voidaan muokata eri painikkeiden kautta. Huom. Tässä voi olla kimppakohtaisia eroja.
 
-Koko asiakastietueen muokkaukseen pääset yksinkertaisesti klikkaamalla
-Muokkaa-painiketta asiakastietojen yläreunassa.
+Muokataksesi jotain tiettyä osiota asiakastiedoissa (esim.
+Kirjastotiedot) klikkaa sen osion alla olevaa Muokkaa-linkkiä.
+
+![](/assets/files/docs/Asiakkaat/muokkaanappi2.png)
+
+Asiakastietojen yläreunassa olevilla painikkeilla pääset vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamiea kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, tekemään asiakkaalle näppärästi varauksen, lisäämään viestin sekä Muita toimintoja -napilla uusimaan tilin, poistamaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. Koko asiakastietueen muokkaukseen pääset Muokkaa-painiketta klikkaamalla.
 
 ![](/assets/files/docs/Asiakkaat/muokkaanappi.png)
 
 ### 1.4.1. Salasanan vaihtaminen
 
+Asiakkaan salasanan pääsee muokkaamaan 
 Asiakkaan salasanaa ei voi nähdä. Asiakastiedoissa salasanan korvaavat
 tähdet ovat aina näkyvissä, vaikka salasanaa ei olisikaan tallennettu.
 Jos asiakas unohtaa salasanansa, hänelle pitää tallentaa uusi salasana.
@@ -310,10 +297,22 @@ tekstinä.
 
 - Muista tallentaa.
 
-Muokataksesi jotain tiettyä osiota asiakastiedoissa (esim.
-Kirjastotiedot) klikkaa sen osion alla olevaa Muokkaa-linkkiä.
+### 1.4.2. Asiakkaan tietojen kopioiminen
 
-![](/assets/files/docs/Asiakkaat/muokkaanappi2.png)
+Joissakin tilanteissa on tarpeen käyttää asiakastietojen kopioimista,
+esim. saman perheen jäsenille tehdään useita kortteja. Kohassa on
+toiminto, jolla voidaan kopioida henkilötiedot, jotka toistuvat eri
+tietueissa.
+
+Avaa sen asiakkaan tiedot, jonka haluat kopioida ja klikkaa
+Kopioi-nappia tietueen yläreunassa.
+
+![](/assets/files/docs/Asiakkaat/kopioiasiakastiedot.png)
+
+Sukunimi, lapsiasiakkaalla takaajatiedot, osoite, sähköpostiosoite, kirjasto sekä asiakastyyppi 
+kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
+
+Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
 
 ### 1.4.2. Lapsiasiakkaan takaajan vaihtaminen
 
