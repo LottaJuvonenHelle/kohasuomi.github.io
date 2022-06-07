@@ -139,7 +139,7 @@ tietoja valmiiksi.
 
 Kun nämä tiedot on tallennettu, klikkaa _Seuraava_ taulukon
 alapuolella.  
-![](/assets/files/docs/Kausijulkaisut/lisää_uusi_lehtitilaus_sivu2.PNG)
+![](/assets/files/docs/Kausijulkaisut/lisaa_uusi_lehtitilaus_sivu2.PNG)
 
 - Ensimmäisen numeron julkaisupäivä annetaan kalenteritoimintoa
   hyväksikäyttämällä. Tästä päivämäärästä alkaa numeroiden ennakointi.
