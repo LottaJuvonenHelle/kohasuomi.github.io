@@ -315,26 +315,21 @@ Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
 
 ### 1.4.3. Lapsiasiakkaan takaajan vaihtaminen
 
-Mene muokkaamaan lapsen tietoja. Kohdassa Takaajan tiedot klikkaa
-“Muuta”.
+Takaajatiedot pääsee muokkaamaan Muokkaa -painikkeen takaa. Kohdassa "Asiakastakaaja" voit sekä poistaa että lisätä takaajan. 
 
-![](/assets/files/docs/Asiakkaat/muutatakaaja.png)
+Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa "Tallenna". 
 
-Hae uuden huoltajan tiedot avautuvassa ikkunassa.
+![](/assets/files/docs/Asiakkaat/Poistatakaaja.png)
+
+Lisääminen tapahtuu Lisää takaaja-painikkeella. Hae uuden huoltajan tiedot avautuvassa ikkunassa.
 
 ![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
 Valitse hakutuloksesta huoltaja ja klikkaa Valitse.
 
-![](/assets/files/docs/Asiakkaat/takaaja.PNG)
+Valitse takaajan suhde ja tallenna.
 
-Lapsen tietoihin on nyt vaihtunut huoltaja. Muuta huoltajan suhde,
-mikäli tarpeellista (Huom! Kimppakohtaisia eroja). Muista tallentaa
-lapsen tiedot!
-
-![](/assets/files/docs/Asiakkaat/muuttunuttakaaja.png)
-
-### 1.4.3. Asiakkaan kuva
+### 1.4.4. Asiakkaan kuva
 
 Asiakkaan kuva voidaan lisätä valitsemalla kuva koneeltasi Lataa
 asiakaskuva -osiossa.
