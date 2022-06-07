@@ -397,11 +397,10 @@ Kun teet tilauksen, aloita hakemalla toimittajan tiedot.
 
 ### 5.4.1 Tilauksen luominen
 
-Hae ensin toimittajan tiedot.
+Klikkaa _Uusi tilauskori_ -nappia toimittajan nimen oikealla puolella.
 
 ![](/assets/files/docs/Hankinta/hankinta40.png)
 
-Klikkaa _Uusi tilauskori_ -nappia toimittajan nimen oikealla puolella.
 
 **Vinkki:** Voit lisätä nimekkeitä myös olemassa olevaan tilaukseen
 klikkaamalla _Lisää tilauskoriin_ kunkin tilauksen rivin oikeassa
@@ -420,9 +419,14 @@ Uutta tilauskoria varten täytyy täyttää muutamia tietoja:
   vaihtaa sen alasvetovalikosta
 - Huomautuskentät ovat valinnaisia ja niihin voi lisätä mitä tahansa
   tietoa.
-
-Jos toimittajallesi on tallennettu sopimuksia, voit valita sopimuksen
+- Jos toimittajallesi on tallennettu _sopimuksia_, voit valita sopimuksen
 alasvetovalikosta.
+- _Voimassa olevia tilauksia_ -kohta liittyy kestotilauksiin, eikä sitä tarvitse monestikaan valita.
+- _Luo niteet kun_ -kohdasta voi valita, milloin tietueille luodaan niteet. Vaihtoehtoja ovat_
+  - käytä oletusta (sulkeissa järjestelmäasetuksissa oletukseksi valittu vaihtoehto)
+  - tilauksen tekeminen
+  - tilauksen vastaanotto
+  - nimeketietueen kuvailu
 
 Klikkaa lopuksi _Tallenna_.
 
@@ -440,15 +444,15 @@ ja tilitystietojen lisääminen.
 
 #### 5.4.1.1. Olemassa olevasta tietueesta
 
-- Jos tilaat lisäkappaleita olemassa olevaan nimekkeeseen, voit
-  yksinkertaisesti hakea kyseisen tietueen haulla.  
-  ![](/assets/files/docs/Hankinta/hankinta43.png)
+Jos tilaat lisäkappaleita olemassa olevaan nimekkeeseen, voit yksinkertaisesti hakea kyseisen tietueen haulla. Kirjoita teoksen nimi (huom. voit käyttää indeksien tunnuksia haussa halutessasi, esim. ti:väylä) ja klikkaa _OK_, jolloin sinut ohjataan tiedonhaun tuloksiin. Valitse oikea tietue klikkaamalla _Lisää tilaus_ sen kohdalla.
 
-Hakutuloksessa klikkaa _Tilaus_-linkkiä.  
+![](/assets/files/docs/Hankinta/hankinta43.png)
+
+
+Tilauksessa tarvittavat luettelointitiedot näkyvät tilaustiedoissa _Luettelon tiedot_ -kohdassa.
+ 
 ![](/assets/files/docs/Hankinta/hankinta44.png)
 
-\* Kaikki tilauksessa tarvittavat luettelointitiedot on jo
-tilaustiedoissa mukana.
 
 #### 5.4.1.2. Hankintaehdotuksesta
 
