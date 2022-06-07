@@ -52,7 +52,7 @@ Lista voidaan luoda myös nimekehaun tuloksessa
 <!-- -->
 
 - Valitse _\[Uusi lista\]_ alasvetovalikosta  
-  ![](/assets/files/docs/Listat_ja_Kori/uusi_lista.png)
+  ![](/assets/files/docs/Listat_ja_Kori/uusi_lista1.png)
 
 Nimeä lista ja valitse listan tyyppi
 
