@@ -139,7 +139,7 @@ tietoja valmiiksi.
 
 Kun nämä tiedot on tallennettu, klikkaa _Seuraava_ taulukon
 alapuolella.  
-![](/assets/files/docs/Kausijulkaisut/Lisää_uusi_lehtitilaus_sivu_2.png)
+![](/assets/files/docs/Kausijulkaisut/lisää_uusi_lehtitilaus_sivu2.PNG)
 
 - Ensimmäisen numeron julkaisupäivä annetaan kalenteritoimintoa
   hyväksikäyttämällä. Tästä päivämäärästä alkaa numeroiden ennakointi.
@@ -179,7 +179,7 @@ alapuolella.
 
 - Kun _Ilmestysmiskaava_ on täytetty, numerointikaavaa pääsee
   muokkaamaan  
-  ![](/assets/files/docs/Kausijulkaisut/Numeroinnin ennustuskaava.png)
+  ![](/assets/files/docs/Kausijulkaisut/numeroinnin_ennustuskaava.PNG)
   - _Alkaa merkeillä_ -kenttään annetaan ensimmäisen numeron tiedot
     (x-kenttään vuosiluku, y-kenttään numero)
   - _Sisempi laskuri_ tarvitaan yleensä vain jälkimmäiseen
@@ -189,7 +189,7 @@ alapuolella.
     ennustuskaavaa_, jolloin näet, onko järjestelmään syötetyt
     tiedot oikein. Voit poistaa listasta numerot, jotka eivät
     ilmesty.  
-    ![](/assets/files/docs/Kausijulkaisut/Ilmestymisen ennustamiskaava.png)
+    ![](/assets/files/docs/Kausijulkaisut/ilmestymisen_ennustamiskaava.PNG)
 
 Klikkaa _Tallenna tilaus_, kun tiedot ovat oikein.
 
