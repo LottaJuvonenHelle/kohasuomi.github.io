@@ -173,7 +173,7 @@ toimittaja tallennettuna.
 
 ### 5.2.1 Lisää toimittaja
 
-Lisätäksesi toimittajan klikkaa _Uusi toimittaja_ -nappia
+Lisätäksesi toimittajan klikkaa hankintaosion etusivulla _Uusi toimittaja_ -nappia
 _Hankinnat_-sivulla.  
 ![](/assets/files/docs/Hankinta/hankinta9.png)
 
@@ -200,7 +200,7 @@ Toimittajan lisäyslomake koostuu kolmesta osasta.
     tallennetaan järjestelmäasetuksissa
   - _Veronumero_ (ei tietoa onko Suomessa käytössä)
   - Valitse, ovatko _lista- ja laskuhinnat verollisia vai
-    verottomia_.
+    verottomia_. Jos EDItX-hankinta on käytössä, valitse tähän _veroton_.
   - Tallenna veroprosentti, jos kirjastolta veloitetaan verot
     tilauksesta
   - Jos toimittaja antaa yleisen alennuksen aineistosta, laita
@@ -250,7 +250,7 @@ Saat lomakkeen, johon pitää tallentaa perustiedot sopimuksesta.
 **Tärkeää:** Et voi tallentaa sopimusta jälkikäteen. Loppupäivämäärä ei
 saa olla ennen kuluvaa päivää.
 
-Kun sopimus on tallennettu, se näkyy toimittajan tiedoissa alhaalla.
+Kun sopimus on tallennettu, se näkyy toimittajan tiedoissa alhaalla. Sopimuksen voi _poistaa_ tai sitä voi _muokata_ Toiminnot-sarakkeen painikkeilla.
 
 ![](/assets/files/docs/Hankinta/hankinta19.png)
 
@@ -275,21 +275,19 @@ _Hankintaehdotukset_-linkkiä _Hankinnat_-sivun vasemmassa reunassa.
 
 ![](/assets/files/docs/Hankinta/hankinta23.png)
 
-### Hankintaehdotuksen tekeminen
+### 5.3.1 Hankintaehdotuksen tekeminen
 
 Hankintaehdotuksia voi tehdä virkailijatyökalussa kirjaston puolesta tai
 asiakkaan puolesta. Asiakkaat voivat tehdä hankintaehdotuksia Kohan
 verkkokirjastossa (ei Finnassa tällä hetkellä).
 
-#### Kirjaston puolesta
+Jos et halua liittää hankintaehdotukseen asiakastietoa, lähde liikkeelle klikkaamalla Hankintaehdotusten hallinnassa _Uusi hankintaehdotus_ -nappulaa.
 
-Hankintaehdotusten hallinnassa on nappula _Uusi hankintaehdotus_
+Voit kuitenkin lisätä asiakkaan tiedon myöhemmin, vaikka lähdet liikenteeseen tätä kautta. Asiakastieto lisätään Luoja-kohtaan, kuten alempana kuvassa esitetään.
 
 ![](/assets/files/docs/Hankinta/hankinta233.png)
 
-#### Asiakkaan puolesta
-
-Hae asiakkaan tiedot esille ja mene Hankintaehdotukset välilehdelle  
+Jos taas haluat liittää mukaan asiakastiedon, hae asiakkaan tiedot esille ja mene Hankintaehdotukset välilehdelle  
 ![](/assets/files/docs/Hankinta/hankinta231.png)
 
 Täällä näkyvät asiakkaan tekemät hankintaehdotukset sekä nappula _Uusi
@@ -303,19 +301,25 @@ Täytä vähintään pakolliseksi merkityt tiedot (punaisella).
 
 - _Ehdotuksen syy_ -valikosta voi valita valmiista vaihtoehdoista.
 
-Lomakkeen alemmissa osioissa on ehdotuksen hallintaan ja ja
-hankintatietoihin liittyviä tietoja:
+Lomakkeen alemmissa osioissa on ehdotuksen hallintaan ja hankintatietoihin liittyviä tietoja:
 
 ![](/assets/files/docs/Hankinta/hankinta235.png)
 
-- _Ehdotus luotu_ -kenttään tulee luontipäivä ja tekijän nimi. Jos
-  ehdotus tehdään asiakkaan puolesta, tulee siihen asiakkaan nimi. Jos
-  taas kirjaston puolesta, tulee siihen ehdotuksen tehneen virkailijan
-  nimi.
-- Jos ehdotuksen haluaa kohdistaa tiettyyn kirjastoon, voi sen valita
-  Hankintatiedot-osiosta Kirjasto-kohdasta
+- _Luoja_-kenttään tulee luontipäivä ja tekijän nimi. Jos ehdotus tehdään asiakkaan puolesta, tulee siihen asiakkaan nimi. Jos
+  taas kirjaston puolesta, tulee siihen ehdotuksen tehneen virkailijan nimi. Tässä kohtaa voit lisätä ehdotukseen asiakastiedon klikkaamalla _Aseta asiakas_ ja hakemalla asiakas esim. kirjastokortin numerolla.
+- _Hyväksytty_-kenttään tulee ehdotuksen hyväksymispäivä.
+- _Viimeksi muokattu_-kentässä näkyy viimeisimmän muokkauksen ajankohta.
+- _Käsitelty_-kenttään valitaan hankintaehdotuksen käsittelypäivä.
+- _Käsittelijä_-kohtaan tulee automaattisesti käsittelijä, mutta siihen voi lisätä toisen käsittelijän valitsemalla _Valitse käsittelijä_.
+- _Ilmoita käsittelijälle_ -kohtaan voi laittaa ruksin, jos haluaa käsittelystä lähtevän tiedon käsittelijälle. Itselle ei voi lähettää tietoa, eli toiminto toimii vain, jos vaihdat käsittelijäksi jonkun muun kuin itsesi.
+- Jos ehdotuksen haluaa kohdistaa tiettyyn kirjastoon, voi sen valita Hankintatiedot-osiosta _Kirjasto_-kohdasta.
+- _Tili_-kohtaan voi valita käytettävän tilin.
+- _Kpl_-kohtaan laitetaan tilattavien niteiden määrä.
+- _Rahayksikkö_-kohdassa on oletuksen EUR, mutta sen voi vaihtaa valikosta myös muuksi.
+- _Hinta_-kenttään laitetaan hankinnan hinta.
+- _Yhteensä_-tieto lasketaan automaattisesti kappalemäärän ja hinnan perusteella.
 
-### Hankintaehdotusten ylläpitäminen
+### 5.3.2 Hankintaehdotusten ylläpitäminen
 
 ![](/assets/files/docs/Hankinta/hankinta24.png)  
 Hankintaehdotukset lajitellaan eri välilehtiin niiden tilan mukaan:
