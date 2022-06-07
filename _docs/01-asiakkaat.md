@@ -376,12 +376,12 @@ palvelimelle eräajona kuvia
 ![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset.png)
 
 Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
-kadonneeksi klikkaamalla "Kyllä" Kortti kadonnut -kohdassa.
+kadonneeksi klikkaamalla "Kyllä" Kortti kadonnut -kohdassa. Lainausnäytöllä tulee ilmoitus Kadonnut: Asiakkaan kortti on kadonnut.
 
 ![](/assets/files/docs/Asiakkaat/kadonnutkortti.png)
 
 Jos haluat lainauksen virkailijan tarkistavan asiakkaan osoitteen ennen
-lainaamista, laita valinta “Kyllä” päälle Tarkista osoite -kohdassa.
+lainaamista, laita valinta “Kyllä” päälle Tarkista osoite -kohdassa. Lainausnäytöllä tulee ilmoitus Osoite: Tarkista osoite.
 
 ![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
 
@@ -391,34 +391,28 @@ Molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta k
 
 Asiakkaalle lisätään vapaamuotoinen rajoite joko lainausnäytöllä välilehdellä "Rajoitukset" tai asiakkaan tiedot-näytöllä välilhedellä "Rajoitukset" tai "Muokkaa"-painikkeen takaa.
 
-![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
-
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus3.png)
 
+![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
+
 Klikkaa kohdasta "Lisää rajoitus", kirjoita selityskenttään rajoituksen syy. Tallenna "Lisää rajoitus"-painikkeella. 
-Muokkaa painikkeen kautta lisätty rajoite tallennetaan "Tallenna" -painikkeella. 
+
+![](/assets/files/docs/Asiakkaat/Lisaarajoitus4.png)
+
+Muokkaa-painikkeen kautta lisätty rajoite tallennetaan "Tallenna" -painikkeella. 
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset2.png)
 
-Rajoitteelle voi tarvittaessa määrittää päättymisajan.
-Jos et määritä päättymisaikaa, on rajoite voimassa toistaiseksi. Päivämäärä ei näy lainausnäytöllä, kun rajoitteita on enemmän kuin yksi.
+Rajoitteelle voi tarvittaessa määrittää automaattisen päättymisajan Vanhenee -kenttään. Vain myöhäisin päättymispäivämäärä näkyy 
+lainausnäytöllä, kun rajoitteita on enemmän kuin yksi ja niille on asetettu päättymispäivämäärä. Jos et määritä päättymisaikaa, on rajoite voimassa toistaiseksi. 
 
-![](/assets/files/docs/Asiakkaat/rajoitteet.PNG)
+![](/assets/files/docs/Asiakkaat/Rajoitettu.png)
 
-![](/assets/files/docs/Asiakkaat/liikaavelkaa.png)
+Rajoitteet voi ohittaa klikkaamalla “Ohita rajoitus tilapäisesti”. Tässä toimitaan kirjaston/kimpan ohjeiden mukaan.
 
-Rajoitteet voi ohittaa klikkaamalla “Ohita rajoitus tilapäisesti”.
-Toimitaan kirjaston/kimpan ohjeiden mukaan.
+![](/assets/files/docs/Asiakkaat/Rajoitukset6.png)
 
-Rajoitukselle voi laittaa myös automaattisen päättymisajan. 
-
-![](/assets/files/docs/Asiakkaat/rajoitteenvoimassaoloaika.png)
-
-Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä “Muut määreet
-ja tunnukset”-kohdassa.
-
-![](/assets/files/docs/Asiakkaat/omatoimirajoite.png)
-
+Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä “Muut määreet ja tunnukset”-kohdassa.
 
 ## 1.5. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
