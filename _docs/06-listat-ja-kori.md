@@ -78,17 +78,17 @@ Nimeke voidaan lisätä listalle myös valitsemalla nimeke
 hakutulosnäytöltä ja valitsemalla Lisää tähän-valikosta olemassa olevan
 listan nimen.
 
-![](/assets/files/docs/Listat_ja_Kori/lista6.png)
+![](/assets/files/docs/Listat_ja_Kori/Lisaa_listalle_3.png)
 
 ### 6.1.3. Listojen katsominen
 
 Nähdäksesi jonkun listan sisällön, mene Listat-sivulle
 virkailijatyökalussa.  
-![](/assets/files/docs/Listat_ja_Kori/lista4.png)
+![](/assets/files/docs/Listat_ja_Kori/katso_lista.png)
 
 Klikkaamalla listan nimeä (linkki) pääset näkemään listan sisällön.
 
-![](/assets/files/docs/Listat_ja_Kori/lista7.png)
+![](/assets/files/docs/Listat_ja_Kori/listan_sisalto_1.png)
 
 ### 6.1.4. Nimeketietueiden yhdistäminen Listojen kautta
 
