@@ -34,7 +34,7 @@ Voit myös luoda uusia ilmestymistiheyksiä.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul4.png)
 
-## 4.2. Määrittele numerointitietoja
+## 4.2. Määrittele numerointikaavoja
 
 Aina kun luot uuden numerointijakson, voit tallentaa sen myöhempää
 käyttöä varten. Nämä numerointitiedot löytyvät Muokkaa numerointitietoja
