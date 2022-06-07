@@ -199,28 +199,23 @@ Lehtien numeroita voidaan vastaanottaa eri paikoissa. Tilauksen tiedot
 löydät hakemalla _Kausijulkaisut_-sivun hakulaatikon avulla lehden
 tiedot:
 
-![](/assets/files/docs/Kausijulkaisut/kausijul16.png)  
-![](/assets/files/docs/Kausijulkaisut/kausijul17.png)
+![](/assets/files/docs/Kausijulkaisut/lehtitilauksen_haku.PNG)
 
 Hakutuloksesta voit klikata _Kausijulkaisun vastaanotto_ -linkkiä
 (viimeinen sarake oikealla) ja pääset vastaanottamaan lehtiä. Varmista,
 että menet vastaanottamaan oman kirjastosi lehtiä.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul18.png)
-
 Vaihtoehtoisesti voit klikata lehden nimeä (linkki), jolloin pääset
 tilauksen tietoihin ja sieltä voit klikata _Vastaanota_-nappia.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul19.png)
+![](/assets/files/docs/Kausijulkaisut/lehtitilauksen_tiedot_vastaanota.PNG)
 
-Kolmas tapa päästä vastaanottamaan lehtiä on klikata
+Kolmas tapa päästä vastaanottamaan lehtiä on klikata vasemman laidan valikosta
 _Kausijulkaisukokoelma_, josta pääsee tilausnäytölle.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul20.png)
+Klikattuasi _Vastaanota_, pääset saapumisvalvontanäytölle.
 
-Molemmilla tavoilla pääset saapumisvalvontanäytölle.
-
-![](/assets/files/docs/Kausijulkaisut/kausijul21.png)
+![](/assets/files/docs/Kausijulkaisut/lehden_saapumisvalvonta.png)
 
 - Valitse _Saapunut_ alasvetovalikosta, kun lehden numero on saapunut
   kirjastoon.
@@ -231,7 +226,7 @@ Molemmilla tavoilla pääset saapumisvalvontanäytölle.
   vastaanotettaessa, saat niteen lisäysnäytön. Valitse _Saapunut_,
   niin lehtinumeron voi varata, mutta se ei ole vielä lainattavissa.
   (Huom! Saapunut-tilan nimi voi vaihdella kimpan mukaan)  
-  ![](/assets/files/docs/Kausijulkaisut/kausijul22.png)
+  ![](/assets/files/docs/Kausijulkaisut/saapumisvalvonta_nidetiedot.PNG)
 
 <!-- -->
 
