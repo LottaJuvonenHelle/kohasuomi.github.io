@@ -269,7 +269,7 @@ oteta mukaan tilastoihin.
 
 ![](/assets/files/docs/Asiakkaat/eitilastoituvat.png)
 
-## 1.4. Asiakkaan tietojen muokkaaminen
+## 1.3. Asiakkaan tietojen muokkaaminen
 
 Asiakkaan tietoja voidaan muokata eri painikkeiden kautta. Huom. Tässä voi olla kimppakohtaisia eroja.
 
@@ -278,7 +278,9 @@ Kirjastotiedot) klikkaa sen osion alla olevaa sinistä Muokkaa-linkkiä.
 
 ![](/assets/files/docs/Asiakkaat/muokkaanappi2.png)
 
-Asiakastietojen yläreunassa olevilla painikkeilla pääset vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamiea kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, tekemään asiakkaalle näppärästi varauksen, lisäämään viestin sekä Muita toimintoja -napilla uusimaan tilin, poistamaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. Koko asiakastietueen muokkaukseen pääset Muokkaa-painiketta klikkaamalla.
+Asiakastietojen yläreunassa olevilla painikkeilla pääset vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa, lisäämään asiakastietoihin viestin sekä Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, poistamaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. 
+
+Koko asiakastietueen muokkaukseen pääset Muokkaa-painiketta klikkaamalla.
 
 ![](/assets/files/docs/Asiakkaat/muokkaanappi.png)
 
@@ -286,8 +288,7 @@ Asiakastietojen yläreunassa olevilla painikkeilla pääset vaihtamaan salasanan
 
 Asiakkaan salasanan pääsee muokkaamaan Vaihda salasana-painikkeen kautta. 
 
-Asiakkaan salasanaa ei voi nähdä. Asiakastiedoissa salasanan korvaavat tähdet ovat aina näkyvissä, vaikka salasanaa ei olisikaan tallennettu.
-Jos asiakas unohtaa salasanansa, hänelle pitää tallentaa uusi salasana.
+Asiakkaan salasanaa ei voi nähdä. Jos asiakas unohtaa salasanansa, hänelle pitää tallentaa uusi salasana.
 
 ![](/assets/files/docs/Asiakkaat/salasana.png)
 
@@ -302,7 +303,7 @@ tekstinä.
 
 ### 1.4.2. Asiakkaan tietojen kopioiminen
 
-Joissakin tilanteissa on tarpeen käyttää asiakastietojen kopioimista,
+Joissakin tilanteissa on tarpeen käyttää asiakastietojen kopioimista, jos
 esim. saman perheen jäsenille tehdään useita kortteja. Kohassa on
 toiminto, jolla voidaan kopioida henkilötiedot, jotka toistuvat eri
 tietueissa.
@@ -310,12 +311,34 @@ tietueissa.
 Avaa sen asiakkaan tiedot, jonka haluat kopioida ja klikkaa
 Kopioi-nappia tietueen yläreunassa.
 
-![](/assets/files/docs/Asiakkaat/kopioiasiakastiedot.png)
-
 Sukunimi, lapsiasiakkaalla takaajatiedot, osoite, sähköpostiosoite, kirjasto sekä asiakastyyppi 
 kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
 
 Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
+
+### 1.4.2. Muita toimintoja -alasvetovalikko
+
+#### 1.4.2.1. Asiakaan käyttöoikeuden jatkaminen
+
+Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tili uusitaan lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä
+“Uusinta”, asiakkaan tiedot sivulla Kirjastotiedot kohdasta tai Muita toimintoja- alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”. 
+
+![](/assets/files/docs/Asiakkaat/tilinvanh.png)
+
+![](/assets/files/docs/Asiakkaat/Uusitili.png)
+
+![](/assets/files/docs/Asiakkaat/Uusitili2.png)
+
+Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määritellyn voimassaoloajan mukaan.
+
+### 1.4.2.2. Päivitä lapsi aikuiseksi
+
+Lapsiasiakkaasta ei tule automaattisesti aikuista ellei Kohassa ole
+siihen liittyvä ajo käynnissä. Lapsen voi muuttaa aikuiseksi Asiakkaan
+tiedot -näytöllä valitsemalla Muita toimintoja -valikosta “Päivitä lapsi
+aikuiseksi”.
+
+![](/assets/files/docs/Asiakkaat/lapsiaikuiseksi.png)
 
 ### 1.4.3. Lapsiasiakkaan takaajan vaihtaminen
 
@@ -325,15 +348,13 @@ Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa "Ta
 
 ![](/assets/files/docs/Asiakkaat/Poistatakaaja.png)
 
-Lisääminen tapahtuu Lisää takaaja-painikkeella. Hae uuden huoltajan tiedot avautuvassa ikkunassa.
+Lisääminen tapahtuu Lisää takaaja-painikkeella. Hae lisättävän huoltajan tiedot avautuvassa ikkunassa.
 
 ![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
 Valitse hakutuloksesta huoltaja ja klikkaa Valitse.
 
 Valitse takaajan suhde ja tallenna.
-
-
 
 ### 1.4.4. Asiakkaan kuva
 
@@ -349,48 +370,47 @@ kuvien tallentaminen
 palvelimelle eräajona kuvia
 
 ### 1.4.4. Rajoitukset
-#### 1.1.5.4. Käyttäjätilin huomautukset
 
-Käyttäjätilin huomautukset eivät näy kortinteko vaiheessa vaan vasta tallennuksen jälkeen.
-Käyttäjätilin huomautukset-laatikko löytyy Muokkaa-painikkeen takaa Asiakastiedot-sivulta.
+#### 1.1.5.4. Käyttäjätilin huomautukset
 
 ![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset.png)
 
-Molemmat vaihtoehdot estävät asiakasta lainaamasta.
-
-#### 1.1.5.5. Asiakkaan rajoitukset
-Asiakkaan rajoitukset eivät näyt kortinteko vaiheessa vaan vasta tallennuksen jälkeen. Rajoitukset-laatikko löytyy Muokkaa-painikkeen takaa Asiakastiedot-sivulta.
-
-![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
-
-![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset2.png)
-
-Asiakkaiden käyttöoikeuksia voidaan rajoittaa eri syistä johtuen.
-
-![](/assets/files/docs/Asiakkaat/rajoitteet.PNG)
-
-Jos haluat lainauksen virkailijan tarkistavan asiakkaan osoitteen ennen
-lainaamista, laita valinta “Kyllä” päälle Tarkista osoite -kohdassa
-Käyttäjätilin huomautuksissa.
-
-![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
-
 Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
-kadonneksi, niin kukaan ei voi väärinkäyttää korttia.
+kadonneeksi klikkaamalla "Kyllä" Kortti kadonnut -kohdassa.
 
 ![](/assets/files/docs/Asiakkaat/kadonnutkortti.png)
 
-Asiakkaalle voi antaa myös vapaamuotoisen rajoitteen. Klikkaa “Lisää
-rajoite” ja kirjoita syy.
+Jos haluat lainauksen virkailijan tarkistavan asiakkaan osoitteen ennen
+lainaamista, laita valinta “Kyllä” päälle Tarkista osoite -kohdassa.
+
+![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
+
+Molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta käyttämästä asiakastunnustaan.
+
+#### 1.1.5.5. Asiakkaan rajoitukset
+
+Asiakkaalle lisätään vapaamuotoinen rajoite joko lainausnäytöllä välilehdellä "Rajoitukset" tai asiakkaan tiedot-näytöllä välilhedellä "Rajoitukset" tai "Muokkaa"-painikkeen takaa.
+
+![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
+
+![](/assets/files/docs/Asiakkaat/Lisaarajoitus3.png)
+
+Klikkaa kohdasta "Lisää rajoitus", kirjoita selityskenttään rajoituksen syy. Tallenna "Lisää rajoitus"-painikkeella. 
+Muokkaa painikkeen kautta lisätty rajoite tallennetaan "Tallenna" -painikkeella. 
+
+![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset2.png)
+
+Rajoitteelle voi tarvittaessa määrittää päättymisajan.
+Jos et määritä päättymisaikaa, on rajoite voimassa toistaiseksi. Päivämäärä ei näy lainausnäytöllä, kun rajoitteita on enemmän kuin yksi.
+
+![](/assets/files/docs/Asiakkaat/rajoitteet.PNG)
 
 ![](/assets/files/docs/Asiakkaat/liikaavelkaa.png)
 
 Rajoitteet voi ohittaa klikkaamalla “Ohita rajoitus tilapäisesti”.
 Toimitaan kirjaston/kimpan ohjeiden mukaan.
 
-Rajoitukselle voi laittaa myös automaattisen päättymisajan. Jos et
-määritä päättymisaikaa, on rajoite voimassa toistaiseksi.  
-Päivämäärä ei näy lainausnäytöllä, kun rajoitteita on enemmän kuin yksi.
+Rajoitukselle voi laittaa myös automaattisen päättymisajan. 
 
 ![](/assets/files/docs/Asiakkaat/rajoitteenvoimassaoloaika.png)
 
@@ -399,22 +419,6 @@ ja tunnukset”-kohdassa.
 
 ![](/assets/files/docs/Asiakkaat/omatoimirajoite.png)
 
-Asiakastilin vanheneminen on myös eräänlainen rajoite. Huom!
-Kimppakohtaisia eroja.  
-Rajoite poistuu, kun tili uusitaan lainausnäytöllä olevasta linkistä
-“Uusinta” tai Muita toimintoja- alasvetovalikosta “Asiakkaan
-käyttöoikeuden jatkaminen”.
-
-![](/assets/files/docs/Asiakkaat/tilinvanh.png)
-
-### 1.4.5. Lapsiasiakas aikuisasiakkaaksi
-
-Lapsiasiakkaasta ei tule automaattisesti aikuista ellei Kohassa ole
-siihen liittyvä ajo käynnissä. Lapsen voi muuttaa aikuiseksi Asiakkaan
-tiedot -näytöllä valitsemalla Muita toimintoja -valikosta “Päivitä lapsi
-aikuiseksi”.
-
-![](/assets/files/docs/Asiakkaat/lapsiaikuiseksi.png)
 
 ## 1.5. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
