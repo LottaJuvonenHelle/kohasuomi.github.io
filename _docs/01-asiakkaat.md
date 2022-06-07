@@ -444,18 +444,19 @@ useita eri välilehtiä, joilla on erilaisia tietoja.
 
 ![](/assets/files/docs/Asiakkaat/vasen.png)
 
-### 1.6.1. Tiedot
+### 1.6.1. Lainaus
+Lainaus-välilehden toiminnot on kuvattu tarkemmin Koha Ohje suomeksi -ohjeen kohdassa 2. Lainaaminen
+
+### 1.6.2. Tiedot
 
 Kaikki asiakkaan (henkilö)tiedot näkyvät Tiedot-välilehdellä. Täällä on
 yhteystiedot, huomautukset, asiakkaan viestiasetukset ym.
 
-Jos asiakas on lapsi, hänen takaajansa nimi on linkkinä tietueessa.
+Jos asiakas on lapsi, hänen takaajansa nimet ovat linkkinä kohdassa Takaajat.
+![](/assets/files/docs/Asiakkaat/Huoltajat.png)
 
-Lapsiasiakkaalla näkyy Takaajan nimi linkkinä  
-![](/assets/files/docs/Asiakkaat/takaajatie.png)
-
-Takaajan tietueessa näkyy kaikkien huollettavien tiedot  
-![](/assets/files/docs/Asiakkaat/huollettavat.png)
+Takaajan tietueessa näkyy kaikkien huollettavien tiedot kohdassa Taattavat.
+![](/assets/files/docs/Asiakkaat/Taattavat.png)
 
 ### 1.6.2. Maksut
 
