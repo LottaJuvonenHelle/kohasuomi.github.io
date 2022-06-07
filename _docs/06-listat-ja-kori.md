@@ -12,14 +12,14 @@ toc: true
 
 ### 6.1.1 Listan luominen
 
-Listoja pääsee käsittelemään menemällä Muita toimintoja-valikko -> Listat. 
+Listoja pääsee käsittelemään menemällä _Muita toimintoja-valikko -> Listat_. 
 Lista voidaan luoda Listat-sivulla klikkaamalla Uusi lista.
 
 ![](/assets/files/docs/Listat_ja_Kori/lista.png)
 
 Uudelle listalle on annettava muutama määritys:
 
-![](/assets/files/docs/Listat_ja_Kori/Lista1.png)
+![](/assets/files/docs/Listat_ja_Kori/luo_lista.png)
 
 - Anna listalle nimi _Nimi_ -kenttään.
 
@@ -44,7 +44,7 @@ Uudelle listalle on annettava muutama määritys:
 
 Lista voidaan luoda myös nimekehaun tuloksessa
 
-![](/assets/files/docs/Listat_ja_Kori/lista2.png)
+![](/assets/files/docs/Listat_ja_Kori/listan_luominen_2.png)
 
 - Valitse nimekkeen vasemmalla puolella oleviin valintaruutuihin ne
   nimekkeet, jotka haluat lisätä listalle.
@@ -52,7 +52,7 @@ Lista voidaan luoda myös nimekehaun tuloksessa
 <!-- -->
 
 - Valitse _\[Uusi lista\]_ alasvetovalikosta  
-  ![](/assets/files/docs/Listat_ja_Kori/lista3.png)
+  ![](/assets/files/docs/Listat_ja_Kori/uusi_lista.png)
 
 Nimeä lista ja valitse listan tyyppi
 
@@ -68,12 +68,11 @@ Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää tähän_
 Lisätäksesi nimekkeitä olemassa olevalle listalle klikkaa listan nimeä
 (linkki) listat-sivulla.
 
-![](/assets/files/docs/Listat_ja_Kori/lista4.png)
+![](/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png)
 
-Listat-sivulla voit lisätä listalle uusia nimekkeitä lukemalla niteen
-viivakoodi sivun vasemmassa laidassa olevaan laatikkoon.
+Listat-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää niteitä_ ja lukemalla sen jälkeen niteen viivakoodin aukeavaan valikkoon.
 
-![](/assets/files/docs/Listat_ja_Kori/lista5.png)
+![](/assets/files/docs/Listat_ja_Kori/lisaa_niteita.png)
 
 Nimeke voidaan lisätä listalle myös valitsemalla nimeke
 hakutulosnäytöltä ja valitsemalla Lisää tähän-valikosta olemassa olevan
