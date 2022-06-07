@@ -24,8 +24,7 @@ saapuneita lehtiä.
 Kohassa voi määritellä ilmestymistiheyden lehdelle Ilmestymistiheys
 -taulukkoon.
 
-- Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Muokkaa
-  ilmestymistiheyksiä (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
+- Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Ilmestymistiheys (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
 
 Täällä näkyvät kaikki järjestelmässäsi olemassaolevat ilmestymistiheydet
 
@@ -41,8 +40,7 @@ Aina kun luot uuden numerointijakson, voit tallentaa sen myöhempää
 käyttöä varten. Nämä numerointitiedot löytyvät Muokkaa numerointitietoja
 -sivulta.
 
-- Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Hallinnoi
-  numerointitietoja (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
+- Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Numerointikaavat (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
 
 Tällä sivulla on listattuna tallentamasi numerointitiedot sekä muutamia
 oletusnumerointeja.  
