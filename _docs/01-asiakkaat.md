@@ -460,27 +460,65 @@ Takaajan tietueessa näkyy kaikkien huollettavien tiedot kohdassa Taattavat.
 
 ### 1.6.2. Maksut
 
-Asiakkaan maksuhistoria näkyy maksuissa Tili-välilehdellä. Siellä näkyy
-myöhästymismaksujen lisäksi myös muut kirjatut maksut, esim.
-kirjastokortin uusiminen, noutamattoman varauksen maksut jne.
+Asiakkaan maksuhistoria näkyy maksuissa Tapahtumat-välilehdellä. Siellä näkyy
+myöhästymismaksujen lisäksi kaikki Kohan kautta käsitellyt maksut, esim.
+uusi kortti, noutamaton varaus, palautuskehotus..
 
-![](/assets/files/docs/Asiakkaat/tili.png)
+![](/assets/files/docs/Asiakkaat/Tapahtumat8.png)
 
 Tällä näytöllä on seuraavat sarakkeet:
 
-\- _Pvm:_ päiväys, jolloin maksu luotiin
+\- _Luotu:_ päiväys, jolloin maksu luotiin
 
-\- _Maksutapahtuman numero_ kertoo millä numerolla tapahtuma löytyy
-kassaohjelmasta.
+\- _Päivitetty:_ päiväys, jolloin maksuriviä on päivitetty
 
-\- _Maksun kuvaus:_ tieto mistä niteestä maksu muodostuu ja myöhästyneen
+\- _Tilin tyyppi:_ tapahtuman selite
+
+\- _Maksujen kuvaus:_ tieto mistä niteestä maksu muodostuu ja myöhästyneen
 niteen eräpäivä sekä linkki nidetietoon
 
-\- _Huomautus:_ tähän tulee maksuun liittyvä huomautus
+\- _Viivakoodi:_ Niteen viivakoodi -linkki
+
+\- _Eräpäivä:_ Lainan eräpäivä
+
+\- _Palautuspvm:_ Lainan palautuspäivä
+
+\- _Lainauspvm:_ Niteen lainauspäivä
+
+\- _Lainauspiste:_ Kirjasto, josta nide on lainattu
+
+\- _Kotikirjasto:_ Niteen kotikirjasto
+
+\- _Huomautus:_ tähän tulee maksuun liittyvä huomautus esim. Online transaction-koodi, manuaalisesti lisätty tieto 
 
 \- _Summa:_ maksettavien maksujen kokonaissumma
 
 - _Maksettavaa:_ vielä maksamatta oleva määrä
+
+\- _Toiminnot:_ Kimppakohtaisia eroja tämän sarakkeen painikkeissa.
+![](/assets/files/docs/Asiakkaat/Toiminnot3.png)
+
+Tulostus vie ko. maksun tiedot tulostusnäkymään
+
+Tiedot vie ko. maksun veloitustietoihin
+![](/assets/files/docs/Asiakkaat/Veloitustiedot.png)
+
+Maksa vie Maksa maksuja -välilehdelle maksamaan ko. yksittäisen maksun.
+![](/assets/files/docs/Asiakkaat/Toiminnotmaksa.png)
+
+Peruuta veloitus -painiketta painamalla ko. maksu peruuntuu.
+![](/assets/files/docs/Asiakkaat/Peruutaveloitus.png)
+
+Luo hyvitys
+![](/assets/files/docs/Asiakkaat/Luohyvitys2.png)
+
+Mitätöi maksutapahtuma
+![](/assets/files/docs/Asiakkaat/Mitatoimaksutapahtuma.png)
+Mitätöinnin jälkeen maksu näkyy uudella rivillä seuraavasti:
+![](/assets/files/docs/Asiakkaat/Mitatoimaksutapahtuma2.png)
+
+Käytä alennusta
+![](/assets/files/docs/Asiakkaat/Kaytaalennusta.png)
 
 #### 1.6.2.1. Maksujen maksaminen/poistaminen rivi kerrallaan
 
