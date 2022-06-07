@@ -133,17 +133,17 @@ itsellesi.
 Koritoiminto virkailijatyökalussa voidaan ottaa käyttöön tai pois
 käytöstä intranetbookbag-asetuksella järjestelmäasetuksissa. Lisätäksesi
 nimekkeitä koriin tee haku ja valitse nimekkeit, joita haluat lisätä
-koriin. Klikkaa Lisää tähän -alasvetovalikkoon Kori.
+koriin. Klikkaa Lisää koriin -alasvetovalikkoa.
 
-![](/assets/files/docs/Listat_ja_Kori/lista8.png)
+![](/assets/files/docs/Listat_ja_Kori/lisaa_koriin.PNG)
 
 Saat ruudun yläreunassa vahvistuksen onnistuneesta lisäyksestä.
 
-![](/assets/files/docs/Listat_ja_Kori/lista9.png)
+![](/assets/files/docs/Listat_ja_Kori/lisatty_koriin.PNG)
 
 Klikkaamalla Kori-kuvaketta pääset näkemään Korin sisällön.
 
-![](/assets/files/docs/Listat_ja_Kori/lista10.png)
+![](/assets/files/docs/Listat_ja_Kori/korisi.PNG)
 
 Täällä pystyt tekemään erilaisia toimintoja
 
@@ -163,4 +163,4 @@ Korin sisällöstä voi myös valita niteitä ja niille toimenpiteitä
 - Erämuokkaus
 - Eräpoisto
 
-![](/assets/files/docs/Listat_ja_Kori/lista11.png)
+![](/assets/files/docs/Listat_ja_Kori/kori_toimenpiteet.PNG)
