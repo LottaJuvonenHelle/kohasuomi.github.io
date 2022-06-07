@@ -82,7 +82,7 @@ sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 Syötä asiakkaan koko nimi ja syntymäaika. Varaustunniste täyttyy automaattisesti. Huomaathan,
 että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät.
 
-![](/assets/files/docs/Asiakkaat/Varaustunnus.png)
+![](/assets/files/docs/Asiakkaat/Varaustunnus1.png)
 
 Asiakaslajeihin on määritetty ikärajoituksia. Ohjelma tarkistaa
 syntymäajan mukaan, voiko asiakas kuulua asiakaslajiin, johon
@@ -118,8 +118,9 @@ Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
 tietoihin toisella välilehdelle ja tee takaajahaku uudelleen.
 
-#### 1.1.3.1. Ei-asiakas takaaja tiedon lisääminen. Kimppakohtainen.
+#### 1.1.3.1. Ei-asiakas takaaja-tiedon lisääminen
 
+Kimppakohtainen.
 ![](/assets/files/docs/Asiakkaat/Eiasiakastakaaja.png)
 
 ### 1.1.4. Yhteystiedot
@@ -132,12 +133,12 @@ muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikos
 ![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
 
 Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero Ensisijainen puhelin/lankapuhelinkenttään ja matkapuhelin
-Muu puhelin/matkapuhelinkenttään) ja sähköpostiosoite. Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät. 
-Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa 
-ei välttämättä ole otettu käyttöön. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
-asiakas haluaa varausilmoitukset tekstiviestinä.
+Muu puhelin/matkapuhelinkenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
+asiakas haluaa varausilmoitukset tekstiviestinä. Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät.
 
-![](/assets/files/docs/Asiakkaat/Yhteystiedot.png)
+Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa 
+ei välttämättä ole otettu käyttöön. 
+![](/assets/files/docs/Asiakkaat/Yhteystiedot1.png)
 
 Huom! Puhelinnumero-kenttiin ei saa kirjoittaa muuta kuin
 puhelinnumeron. Ei esim. perään äiti, isä yms. eikä väliviivaa.
@@ -146,8 +147,7 @@ Kansainvälisen suunnan (esim. +358) numeron yhteyteen voi lisätä.
 Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite. Huom! Tässä on
 kimppakohtaisia eroja.
 
-![](/assets/files/docs/Asiakkaat/koha682.png)
-
+![](/assets/files/docs/Asiakkaat/Vaihtoehtoinenosoite.png)
 
 ### 1.1.5. Kirjastotiedot
 
