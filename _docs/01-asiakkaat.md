@@ -138,6 +138,7 @@ asiakas haluaa varausilmoitukset tekstiviestinä. Sähköpostiosoite on se osoit
 
 Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa 
 ei välttämättä ole otettu käyttöön. 
+
 ![](/assets/files/docs/Asiakkaat/Yhteystiedot1.png)
 
 Huom! Puhelinnumero-kenttiin ei saa kirjoittaa muuta kuin
@@ -152,7 +153,8 @@ kimppakohtaisia eroja.
 ### 1.1.5. Kirjastotiedot
 
 #### 1.1.5.1. Kirjastonhallinta-osio
-kirjastonhallinta-osio sisältää kirjastonkäyttöön liittyviä tietoja.
+
+Kirjastonhallinta-osio sisältää kirjaston käyttöön liittyviä tietoja.
 
 ![](/assets/files/docs/Asiakkaat/kirjastohallinta.png)
 
@@ -170,7 +172,7 @@ jos valitsit alussa väärän asiakastyypin.
 \- Valitse asiakasviestien kieli kohdassa “Ilmoitusten kieli”.
 
 #### 1.1.5.2 Kirjaston asetukset-osio
-![](/assets/files/docs/Asiakkaat/kirjastonasetukset.png)
+![](/assets/files/docs/Asiakkaat/Huomautuslaatikko1.png)
 
 \- Tullut asiakkaaksi -päivämäärä tulee automaattisesti kuluvan päivän
 mukaiseksi.
@@ -179,8 +181,8 @@ mukaiseksi.
 automaattisesti asiakaslajille tehtyjen määritysten mukaan.
 
 \- Huomautus (näkyy verkkokirjastossa) -kohtaan voi merkitä
-huomautuksen, jonka asiakas näkee verkkokirjastosta. Huom! Huomautus
-näkyy OPACissa, mutta ei Finnassa.
+huomautuksen, jonka asiakas näkee verkkokirjastosta. Huomautus
+näkyy OPACissa ja Finnassa.
 
 \- Huomautus (näkyy virkailijatyökalussa) -laatikossa oleva huomautus
 näkyy Kohassa virkailijoille tiedot- ja lainausnäytöllä.
