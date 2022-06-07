@@ -139,7 +139,7 @@ tietoja valmiiksi.
 
 Kun nämä tiedot on tallennettu, klikkaa _Seuraava_ taulukon
 alapuolella.  
-![](/assets/files/docs/Kausijulkaisut/kausijul11.png)
+![](/assets/files/docs/Kausijulkaisut/Lisää uusi lehtitilaus sivu 2.png)
 
 - Ensimmäisen numeron julkaisupäivä annetaan kalenteritoimintoa
   hyväksikäyttämällä. Tästä päivämäärästä alkaa numeroiden ennakointi.
@@ -169,12 +169,10 @@ alapuolella.
 - _Numerointikaavan_ avulla määritellään, miten numerot näkyvät
   tietokannassa. Kaavoja voi muokata jälkikäteen _4.2. Määrittele
   numerointitietoja_ -ohjeen mukaan.
-  - Anna ensimmäisen numeron mukaiset tiedot taulukkoon  
-    ![](/assets/files/docs/Kausijulkaisut/kausijul13.png)
 
 <!-- -->
 
-- _Lokaali_ voidaan vaihtaa lehden kielen mukaan, esim.
+- _Kieli_ voidaan vaihtaa lehden kielen mukaan, esim.
   englanninkieliseen lehteen numerointitiedot englanniksi (mikäli
   käytetään muuta kuin pelkkää numerointia)
 
@@ -182,7 +180,7 @@ alapuolella.
 
 - Kun _Ilmestysmiskaava_ on täytetty, numerointikaavaa pääsee
   muokkaamaan  
-  ![](/assets/files/docs/Kausijulkaisut/kausijul14.png)
+  ![](/assets/files/docs/Kausijulkaisut/Numeroinnin ennustuskaava.png)
   - _Alkaa merkeillä_ -kenttään annetaan ensimmäisen numeron tiedot
     (x-kenttään vuosiluku, y-kenttään numero)
   - _Sisempi laskuri_ tarvitaan yleensä vain jälkimmäiseen
@@ -192,7 +190,7 @@ alapuolella.
     ennustuskaavaa_, jolloin näet, onko järjestelmään syötetyt
     tiedot oikein. Voit poistaa listasta numerot, jotka eivät
     ilmesty.  
-    ![](/assets/files/docs/Kausijulkaisut/kausijul15.png)
+    ![](/assets/files/docs/Kausijulkaisut/Ilmestymisen ennustamiskaava.png)
 
 Klikkaa _Tallenna tilaus_, kun tiedot ovat oikein.
 
