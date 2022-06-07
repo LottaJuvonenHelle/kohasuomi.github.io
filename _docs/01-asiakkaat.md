@@ -82,7 +82,7 @@ sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 Syötä asiakkaan koko nimi ja syntymäaika. Varaustunniste täyttyy automaattisesti. Huomaathan,
 että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät.
 
-![](/assets/files/docs/Asiakkaat/Nimi.png)
+![](/assets/files/docs/Asiakkaat/Varaustunnus.png)
 
 Asiakaslajeihin on määritetty ikärajoituksia. Ohjelma tarkistaa
 syntymäajan mukaan, voiko asiakas kuulua asiakaslajiin, johon
