@@ -499,7 +499,7 @@ niteen eräpäivä sekä linkki nidetietoon
 
 ![](/assets/files/docs/Asiakkaat/Toiminnot3.png)
 
--"Tulosta" vie ko. maksun tiedot tulostusnäkymään
+- _"Tulosta" vie ko. maksun tiedot tulostusnäkymään
 
 -"Tiedot" vie ko. maksun veloitustietoihin
 
