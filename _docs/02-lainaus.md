@@ -497,7 +497,7 @@ varauksia voi tehdä.
 Varauksen voi tehdä usealla tavalla. Yksinkertaisin tapa on tehdä varaus
 nimeketietojen näytön yläreunasta _Varaa_-napista.
 
-![](/assets/files/docs/Lainaus/Varaus_1.png)
+![](/assets/files/docs/Lainaus/Varaus_1.PNG)
 
 Varauksen voi tehdä myös hakutuloslistauksessa:
 
@@ -505,24 +505,24 @@ Varauksen voi tehdä myös hakutuloslistauksessa:
   varattavat nimekkeet
 - nimeketietojen jäljessä olevasta _Varauksia_-linkistä.
 
-![](/assets/files/docs/Lainaus/Varaus_2.png)
+![](/assets/files/docs/Lainaus/Varaus_2.PNG)
 
 Kun teet varauksen, täytyy asiakkaan tiedot hakea näytölle joko kortin
 viivakoodilla tai asiakkaan nimellä hakemalla. Huom! Noudata kirjastosi
 sovittuja käytäntöjä.
 
-![](/assets/files/docs/Lainaus/varaus3.png)
+![](/assets/files/docs/Lainaus/varaus3.PNG)
 
 ### 2.8.2 Varauksen teko asiakastietojen kautta
 
 Voit tehdä varauksen myös asiakastiedoista päin. Klikkaa _Hae ja varaa_
 -nappia…
 
-![](/assets/files/docs/Lainaus/Varaus_4_asiakastiedoista.png)
+![](/assets/files/docs/Lainaus/Varaus_4_asiakastiedoista.PNG)
 
 …hae tarvittava nimeke ja tee varaus.
 
-![](/assets/files/docs/Lainaus/Varaus_5_Varaa_asiakkaalle.png)
+![](/assets/files/docs/Lainaus/Varaus_5_Varaa_asiakkaalle.PNG)
 
 Kun olet valinnut asiakkaan, jolle varaus tehdään, voi varauksen tietoja
 tarkentaa:
@@ -540,7 +540,7 @@ tarkentaa:
 - Varausten määrän voit valita _Tee varauksia (määrä)_ -sarakkeesta.
 - _Kiireetön varaus_ antaa asiakkaan uusia varatun teoksen, Tätä valintaa voi käyttää jos teos tarvitsee esimerkiksi uuden tarran
 
-![](/assets/files/docs/Lainaus/Varaus_6_Varaajan_tiedot.png)
+![](/assets/files/docs/Lainaus/Varaus_6_Varaajan_tiedot.PNG)
 
 ### 2.8.3 Useampi varaus kerralla
 
