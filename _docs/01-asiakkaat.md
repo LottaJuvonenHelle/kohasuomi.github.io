@@ -169,6 +169,8 @@ vaihtaa asiakastyypin, muutos ei tuo esille mm. takaajatieto-kenttää tai
 poista sitä näkyvistä. Tätä ei kannata muuttaa. Aloita mielummin alusta,
 jos valitsit alussa väärän asiakastyypin.
 
+![](/assets/files/docs/Asiakkaat/Lapsellapitaaollatakaaja.png)
+
 \- Valitse asiakasviestien kieli kohdassa “Ilmoitusten kieli”.
 
 #### 1.1.5.2 Kirjaston asetukset-osio
@@ -184,6 +186,10 @@ automaattisesti asiakaslajille tehtyjen määritysten mukaan.
 huomautuksen, jonka asiakas näkee verkkokirjastosta. Huomautus
 näkyy OPACissa ja Finnassa.
 
+Finnassa se näkyy Omat tiedot-välilehdellä "Kirjastokortin asetukset"-laatikossa.
+
+![](/assets/files/docs/Asiakkaat/Huomautuslaatikko2.png)
+
 \- Huomautus (näkyy virkailijatyökalussa) -laatikossa oleva huomautus
 näkyy Kohassa virkailijoille tiedot- ja lainausnäytöllä.
 
@@ -197,16 +203,12 @@ verkkokirjastoon. Huom! Kimppakohtaisia eroja.
 ![](/assets/files/docs/Asiakkaat/kirjautumistunnus.png)
 
 #### 1.1.5.4. Muut määritteet ja tunnukset
+
 Tähän tulee mm. sotu-avain ja OUTI-kimpalla tässä asetetaan
 omatoimikirjaston käyttöesto. Myös muita kimppakohtaisia määritteitä voi
 olla käytössä.
 
 ![](/assets/files/docs/Asiakkaat/muutmaareetjatunnukset1.png)
-![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
-
-![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset2.png)
-
-![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset1.png)
 
 ### 1.1.6. Asiakkaan viestiasetukset
 
@@ -254,7 +256,7 @@ Jos järjestelmä epäilee, että olet tekemässä tupla-asiakkaan, saat siitä
 huomautuksen. Jos olet varma, että kyseessä ei ole kopio, valitse “Ei
 kopio. Tallenna uutena tietueena”.
 
-![](/assets/files/docs/Asiakkaat/kopio.png)
+![](/assets/files/docs/Asiakkaat/Kopioiasiakastiedot1.png)
 
 ---
 
@@ -331,6 +333,8 @@ Valitse hakutuloksesta huoltaja ja klikkaa Valitse.
 
 Valitse takaajan suhde ja tallenna.
 
+
+
 ### 1.4.4. Asiakkaan kuva
 
 Asiakkaan kuva voidaan lisätä valitsemalla kuva koneeltasi Lataa
@@ -345,6 +349,21 @@ kuvien tallentaminen
 palvelimelle eräajona kuvia
 
 ### 1.4.4. Rajoitukset
+#### 1.1.5.4. Käyttäjätilin huomautukset
+
+Käyttäjätilin huomautukset eivät näy kortinteko vaiheessa vaan vasta tallennuksen jälkeen.
+Käyttäjätilin huomautukset-laatikko löytyy Muokkaa-painikkeen takaa Asiakastiedot-sivulta.
+
+![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset.png)
+
+Molemmat vaihtoehdot estävät asiakasta lainaamasta.
+
+#### 1.1.5.5. Asiakkaan rajoitukset
+Asiakkaan rajoitukset eivät näyt kortinteko vaiheessa vaan vasta tallennuksen jälkeen. Rajoitukset-laatikko löytyy Muokkaa-painikkeen takaa Asiakastiedot-sivulta.
+
+![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
+
+![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset2.png)
 
 Asiakkaiden käyttöoikeuksia voidaan rajoittaa eri syistä johtuen.
 
