@@ -270,7 +270,7 @@ oteta mukaan tilastoihin.
 Asiakkaan tietoja voidaan muokata eri painikkeiden kautta. Huom. Tässä voi olla kimppakohtaisia eroja.
 
 Muokataksesi jotain tiettyä osiota asiakastiedoissa (esim.
-Kirjastotiedot) klikkaa sen osion alla olevaa Muokkaa-linkkiä.
+Kirjastotiedot) klikkaa sen osion alla olevaa sinistä Muokkaa-linkkiä.
 
 ![](/assets/files/docs/Asiakkaat/muokkaanappi2.png)
 
@@ -313,7 +313,7 @@ kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
 
 Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
 
-### 1.4.2. Lapsiasiakkaan takaajan vaihtaminen
+### 1.4.3. Lapsiasiakkaan takaajan vaihtaminen
 
 Mene muokkaamaan lapsen tietoja. Kohdassa Takaajan tiedot klikkaa
 “Muuta”.
@@ -322,7 +322,7 @@ Mene muokkaamaan lapsen tietoja. Kohdassa Takaajan tiedot klikkaa
 
 Hae uuden huoltajan tiedot avautuvassa ikkunassa.
 
-![](/assets/files/docs/Asiakkaat/haetakaaja.png)
+![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
 Valitse hakutuloksesta huoltaja ja klikkaa Valitse.
 
