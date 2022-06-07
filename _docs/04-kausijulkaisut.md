@@ -37,12 +37,12 @@ Voit myös luoda uusia ilmestymistiheyksiä.
 ## 4.2. Määrittele numerointikaavoja
 
 Aina kun luot uuden numerointijakson, voit tallentaa sen myöhempää
-käyttöä varten. Nämä numerointitiedot löytyvät Muokkaa numerointitietoja
+käyttöä varten. Nämä numerointitiedot löytyvät Muokkaa numerointikaavoja
 -sivulta.
 
 - Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Numerointikaavat (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
 
-Tällä sivulla on listattuna tallentamasi numerointitiedot sekä muutamia
+Tällä sivulla on listattuna tallennetut numerointitiedot sekä muutamia
 oletusnumerointeja.  
 ![](/assets/files/docs/Kausijulkaisut/kausijul5.png)
 
