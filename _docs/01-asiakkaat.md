@@ -280,11 +280,10 @@ Asiakastietojen yläreunassa olevilla painikkeilla pääset vaihtamaan salasanan
 
 ### 1.4.1. Salasanan vaihtaminen
 
-Asiakkaan salasanan pääsee muokkaamaan 
-Asiakkaan salasanaa ei voi nähdä. Asiakastiedoissa salasanan korvaavat
-tähdet ovat aina näkyvissä, vaikka salasanaa ei olisikaan tallennettu.
+Asiakkaan salasanan pääsee muokkaamaan Vaihda salasana-painikkeen kautta. 
+
+Asiakkaan salasanaa ei voi nähdä. Asiakastiedoissa salasanan korvaavat tähdet ovat aina näkyvissä, vaikka salasanaa ei olisikaan tallennettu.
 Jos asiakas unohtaa salasanansa, hänelle pitää tallentaa uusi salasana.
-Salasanan voi uusia Vaihda salasana-napista. Ks. kuva yllä.
 
 ![](/assets/files/docs/Asiakkaat/salasana.png)
 
