@@ -25,7 +25,7 @@ Kohassa voi määritellä ilmestymistiheyden lehdelle Ilmestymistiheys
 -taulukkoon.
 
 - Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Muokkaa
-  ilmestymistiheyksiä
+  ilmestymistiheyksiä (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
 
 Täällä näkyvät kaikki järjestelmässäsi olemassaolevat ilmestymistiheydet
 
@@ -42,7 +42,7 @@ käyttöä varten. Nämä numerointitiedot löytyvät Muokkaa numerointitietoja
 -sivulta.
 
 - Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Hallinnoi
-  numerointitietoja
+  numerointitietoja (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
 
 Tällä sivulla on listattuna tallentamasi numerointitiedot sekä muutamia
 oletusnumerointeja.  
