@@ -208,7 +208,7 @@ Tähän tulee mm. sotu-avain ja OUTI-kimpalla tässä asetetaan
 omatoimikirjaston käyttöesto. Myös muita kimppakohtaisia määritteitä voi
 olla käytössä.
 
-![](/assets/files/docs/Asiakkaat/muutmaareetjatunnukset1.png)
+![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset1.png)
 
 ### 1.1.6. Asiakkaan viestiasetukset
 
