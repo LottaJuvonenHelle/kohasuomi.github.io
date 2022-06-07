@@ -499,25 +499,25 @@ niteen eräpäivä sekä linkki nidetietoon
 
 ![](/assets/files/docs/Asiakkaat/Toiminnot3.png)
 
-- _"Tulosta" vie ko. maksun tiedot tulostusnäkymään
+- "Tulosta" vie ko. maksun tiedot tulostusnäkymään
 
--"Tiedot" vie ko. maksun veloitustietoihin
+- "Tiedot" vie ko. maksun veloitustietoihin
 
 ![](/assets/files/docs/Asiakkaat/Veloitustiedot.png)
 
--"Maksa" vie Maksa maksuja -välilehdelle maksamaan ko. yksittäisen maksun.
+- "Maksa" vie Maksa maksuja -välilehdelle maksamaan ko. yksittäisen maksun.
 
 ![](/assets/files/docs/Asiakkaat/Toiminnotmaksa.png)
 
--"Peruuta veloitus" -painiketta painamalla ko. maksu peruuntuu.
+- "Peruuta veloitus" -painiketta painamalla ko. maksu peruuntuu.
 
 ![](/assets/files/docs/Asiakkaat/Peruutaveloitus.png)
 
--"Luo hyvitys"
+- "Luo hyvitys"
 
 ![](/assets/files/docs/Asiakkaat/Luohyvitys2.png)
 
--"Mitätöi maksutapahtuma"
+- "Mitätöi maksutapahtuma"
 
 ![](/assets/files/docs/Asiakkaat/Mitatoimaksutapahtuma.png)
 
@@ -525,7 +525,7 @@ Mitätöinnin jälkeen maksu näkyy uudella rivillä seuraavasti:
 
 ![](/assets/files/docs/Asiakkaat/Mitatoimaksutapahtuma2.png)
 
--"Käytä alennusta"
+- "Käytä alennusta"
 
 ![](/assets/files/docs/Asiakkaat/Kaytaalennusta.png)
 
