@@ -139,15 +139,14 @@ tietoja valmiiksi.
 
 Kun nämä tiedot on tallennettu, klikkaa _Seuraava_ taulukon
 alapuolella.  
-![](/assets/files/docs/Kausijulkaisut/Lisää uusi lehtitilaus sivu 2.png)
+![](/assets/files/docs/Kausijulkaisut/Lisää_uusi_lehtitilaus_sivu_2.png)
 
 - Ensimmäisen numeron julkaisupäivä annetaan kalenteritoimintoa
   hyväksikäyttämällä. Tästä päivämäärästä alkaa numeroiden ennakointi.
 
 <!-- -->
 
-- Ilmestymistiheyteen on useita ennakolta määriteltyjä aikamääriä.  
-  ![](/assets/files/docs/Kausijulkaisut/kausijul12.png)
+- Ilmestymistiheyteen on useita ennakolta määriteltyjä aikamääriä.
 
 <!-- -->
 
