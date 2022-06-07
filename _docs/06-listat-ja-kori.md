@@ -88,7 +88,7 @@ virkailijatyökalussa.
 
 Klikkaamalla listan nimeä (linkki) pääset näkemään listan sisällön.
 
-![](/assets/files/docs/Listat_ja_Kori/listan_sisalto_1.PNG)
+![](/assets/files/docs/Listat_ja_Kori/listan_sisalto.png)
 
 ### 6.1.4. Nimeketietueiden yhdistäminen Listojen kautta
 
