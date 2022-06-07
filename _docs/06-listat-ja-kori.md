@@ -84,11 +84,11 @@ listan nimen.
 
 Nähdäksesi jonkun listan sisällön, mene Listat-sivulle
 virkailijatyökalussa.  
-![](/assets/files/docs/Listat_ja_Kori/katso_lista.png)
+![](/assets/files/docs/Listat_ja_Kori/katso_lista.PNG)
 
 Klikkaamalla listan nimeä (linkki) pääset näkemään listan sisällön.
 
-![](/assets/files/docs/Listat_ja_Kori/listan_sisalto_1.png)
+![](/assets/files/docs/Listat_ja_Kori/listan_sisalto_1.PNG)
 
 ### 6.1.4. Nimeketietueiden yhdistäminen Listojen kautta
 
