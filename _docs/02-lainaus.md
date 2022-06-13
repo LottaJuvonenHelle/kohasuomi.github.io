@@ -692,10 +692,9 @@ Asiakkaan tiedoissa näkyy _Varaukset_-välilehdellä, minne varattu nide
 on palautettu ja milloin.
 
 **Virkailijaliittymässä palautettu varaus:**  
-![](/assets/files/docs/Lainaus/viivastys3.png)
+![](/assets/files/docs/Lainaus/Varaus_22_varausnäkymä_asiakkaalla.PNG)
 
-1.  Kuljetettavana noutokirjastoon
-2.  Odottaa noutopisteessä
+Ensimmäinen nide odottaa noutopisteessä ja toinen on kuljetettavana noutokirjastoon
 
 **Automaattiin palautettu:**
 
@@ -729,7 +728,7 @@ tilassa:
 
 ---
 
-## Varauksen noutaa muu kuin varaaja itse
+## 2.9.5 Varauksen noutaa muu kuin varaaja itse
 
 Jos varauksen noutaa joku muu kuin varaaja itse (perheenjäsen tai muu
 valtuutettu), saat huomautuksen, josta pitää ensin valita Peruuta varaus
