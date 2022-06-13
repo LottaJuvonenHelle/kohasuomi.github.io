@@ -639,11 +639,11 @@ Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä
 valitsemalla Poista?-sarakkeeseen “Kyllä” ja klikkaamalla _Peruuta
 valitut varaukset_ -nappia.
 
-![](/assets/files/docs/Lainaus/Varaus _17a_peru_asiakastiedoista_monta.PNG)
+![](/assets/files/docs/Lainaus/Varaus_17a_peru_asiakastiedoista_monta.PNG)
 
 ### 2.8.4.6 Peruuta odottava-tila ja kuljetustila
 
-
+Kun varaus on jäänyt kiinni tai odottaa noutamista, voi varauksen tilan muuttaa takaisin aktiiviseksi varaukseksi Peruuta odottava-tila tai Peruuta kuljetustila -napeista. Teos palautuu varausjonoon. Käy samalla muuttamassa varauksen voimassaoloaika, muuten voimassaoloajaksi jää alkuperäinen kiinni jääneen teoksen aika. Tätä toimintoa tarvitaan esimerkiksi rikkinäisen teoksen kohdalla.
 
 ![](/assets/files/docs/Lainaus/Varaus_18_peruuta_odottava_ja_kuljetustila.PNG)
 
