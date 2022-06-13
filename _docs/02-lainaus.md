@@ -639,7 +639,13 @@ Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä
 valitsemalla Poista?-sarakkeeseen “Kyllä” ja klikkaamalla _Peruuta
 valitut varaukset_ -nappia.
 
-![](/assets/files/docs/Lainaus/varauksenpoistoA.png)
+![](/assets/files/docs/Lainaus/Varaus _17a_peru_asiakastiedoista_monta.PNG)
+
+### 2.8.4.6 Peruuta odottava-tila ja kuljetustila
+
+
+
+![](/assets/files/docs/Lainaus/Varaus_18_peruuta_odottava_ja_kuljetustila.PNG)
 
 ---
 
