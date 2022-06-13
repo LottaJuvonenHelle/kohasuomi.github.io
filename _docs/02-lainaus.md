@@ -624,22 +624,22 @@ klikkaamalla _Jatka kaikkia keskeytettyjä varauksia_ -nappia.
 
 ### 2.8.4.5 Varauksen poistaminen
 
-Varauksen poistaminen onnistuu yksitellen klikkaamalla varauksen
+Niteen tiedoissa varauksen poistaminen onnistuu yksitellen klikkaamalla varauksen
 kohdalla Poista-nappia.
 
 ![](/assets/files/docs/Lainaus/Varaus_17_peruuta.PNG)
+
+Useita varauksia kerralla voit poistaa merkitsemällä kunkin varauksen
+alasvetovalikosta poistettavaksi ja klikkaamalla lopuksi _Päivitä
+varaukset_.
+
+![](/assets/files/docs/Lainaus/Varaus_19_peru_monta_varausta.PNG)
 
 Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä
 valitsemalla Poista?-sarakkeeseen “Kyllä” ja klikkaamalla _Peruuta
 valitut varaukset_ -nappia.
 
 ![](/assets/files/docs/Lainaus/varauksenpoistoA.png)
-
-Useita varauksia kerralla voit poistaa merkitsemällä kunkin varauksen
-alasvetovalikosta poistettavaksi ja klikkaamalla lopuksi _Päivitä
-varaukset_.
-
-![](/assets/files/docs/Lainaus/varauksenpoisto.png)
 
 ---
 
