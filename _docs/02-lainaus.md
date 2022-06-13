@@ -659,13 +659,13 @@ palautusautomaatilla palautettaessa.
 Kun palautetaan varattuja niteitä, tulee varauksesta ilmoitus.
 
 Kun varauksen noutokirjasto on **sama** kuin mihin nide on palautettu:  
-![](/assets/files/docs/Lainaus/varauksenkiinitys1.png)  
+![](/assets/files/docs/Lainaus/Varaus_20_varauskuitti.PNG)  
 Kun varaus hyväksytään, asiakkaalle **lähtee noutoilmoitus**.
 
 Kun varauksen noutokirjasto on **eri** kuin mihin nide on palautettu:  
-![](/assets/files/docs/Lainaus/varauksenkiinitys2.png)  
+![](/assets/files/docs/Lainaus/Varaus_21_kuljetuskuitti.PNG)  
 Tässä tapauksessa nide menee kuljetustilaan, eikä asiakkaalle lähde
-vielä noutoilmoitusta. Ilmoitus lähtee vasta, kun nide palautetaan
+vielä noutoilmoitusta. Kuljetuskuitti tulostuu seuraavaksi. Asiakkaalle ilmoitus lähtee vasta, kun nide palautetaan
 noutokirjastossa.
 
 **Huomaa:** Molemmissa tapauksissa varaus vahvistetaan tai tulostetaan
