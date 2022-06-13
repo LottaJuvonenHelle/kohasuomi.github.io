@@ -542,48 +542,48 @@ tarkentaa:
 
 ![](/assets/files/docs/Lainaus/Varaus_6_Varaajan_tiedot.PNG)
 
-### 2.8.3 Useampi varaus kerralla
+### 2.8.3 Monta varausta kerralla
 
 Jos haluat tehdä varauksen useammasta nimekkeestä kerralla, valitse
 nimekkeiden vasemmalta puolelta valintaruudusta halutut nimekkeet ja
 klikkaa _Varaa_-nappia.
 
-![](/assets/files/docs/Lainaus/varaus7.png)
+![](/assets/files/docs/Lainaus/Varaus_7_useampi_kerralla.PNG)
 
 Varaussivulle listautuu valitut teokset. Valitse noutopaikka ja klikkaa
 _Varaa_.
 
-![](/assets/files/docs/Lainaus/varaus8.png)
+![](/assets/files/docs/Lainaus/Varaus_8_Tee_varauksia.PNG)
 
 ---
 
-## 2.8 Varausten käsittely
+## 2.8.4 Varausten käsittely
 
 Varauksia voi muuttaa ja peruuttaa _Varaukset_-välilehdellä, jonne
 pääsee nimeketietueen vasemmalla olevasta valikosta. Myös asiakkaan
 varauksista käsin pääsee varauksiin klikkaamalla
 _Varaukset_-välilehdellä teoksen nimeä.
 
-![](/assets/files/docs/Lainaus/varaus13.png) tai ![](/assets/files/docs/Lainaus/varaus22.png)
+![](/assets/files/docs/Lainaus/Varaus_9_varausten_käsittely.PNG)
 
 Varauslistalla voit muuttaa varausten järjestystä, noutopaikkaa tai
 keskeyttää tai peruuttaa varauksen.
 
-![](/assets/files/docs/Lainaus/teevaraus.png)
+![](/assets/files/docs/Lainaus/Varaus_10_varauslista.PNG)
 
-### Varausten järjestyksen muuttaminen
+### 2.8.4.1 Varausten järjestyksen muuttaminen
 
 Jos jostain syystä täytyy varausjonon järjestystä muuttaa (ei saa tehdä
 ilman erityistä syytä), se tapahtuu muuttamalla Järjestys jonossa
 -sarakkeessa olevia numeroarvoja. Tai klikkailemalla vihreitä nuolia.
 Huom! Tätä oikeutta ei välttämäti ole kaikilla työntekijöillä.
 
-![](/assets/files/docs/Lainaus/varaus15.png)
+![](/assets/files/docs/Lainaus/Varaus_11_järjestys.PNG)
 
 - Jos muutat järjestystä jonossa tai poistat varauksen, muista klikata
   _Päivitä varaukset_ -nappia tallentaaksesi toiminnot.
 
-### Varauksen kiinnittäminen viimeiseksi jonossa
+### 2.8.4.2 Varauksen kiinnittäminen viimeiseksi jonossa
 
 Jos klikkaat varauksen oikealla puolella olevaa vihreää nuolta, varaus
 menee viimeiseksi listalle ja pysyy viimeisenä, vaikka uusia varauksia
@@ -591,43 +591,43 @@ tulisi sen jälkeen. Tämä toiminto voi olla tarpeellinen esim.
 kotipalveluasiakkaiden kohdalla, joilla niteiden laina-aika voi venyä
 pidemmäksi kuin muilla asiakkailla.
 
-![](/assets/files/docs/Lainaus/varausalas.png)
+![](/assets/files/docs/Lainaus/Varaus_12_kiinnitys_viimeiseksi.PNG)
 
 Kun varauksen kohdalla näkyy vihreä nuoli, jonka alla on viiva, se
 tarkoittaa, että varaus pysyy alimmaisena jonossa.
 
-![](/assets/files/docs/Lainaus/varaus17.png)
+![](/assets/files/docs/Lainaus/Varaus_13_kiinnitys_viimeiseksi.PNG)
 
-### Yksittäisen varauksen keskeyttäminen
+### 2.8.4.3 Yksittäisen varauksen keskeyttäminen
 
 Jos asiakas haluaa keskeyttää yksittäisen varauksensa tietyksi ajaksi,
 sen voi tehdä valitsemalla kalenterikuvakkeesta päivämäärän, mihin asti
 varaus on keskeytettynä ja klikkaamalla Keskeytä-nappia.
 
-![](/assets/files/docs/Lainaus/varauksenkes.png)
+![](/assets/files/docs/Lainaus/Varaus_14_keskeytä.PNG)
 
 Kun varaus on keskeytetty, varauksen kohdalle tulee _Jatka_-nappi ja
 näkyy päivämäärä, mihin saakka keskeytys on voimassa. Voit palauttaa
 varauksen voimaan myös (tyhjentämällä päivämäärän ja) klikkaamalla
 Jatka.
 
-![](/assets/files/docs/Lainaus/keskeytyksenjatk.png)
+![](/assets/files/docs/Lainaus/Varaus_15_keskeytetty_varaus.PNG)
 
-### Asiakkaan kaikkien varauksien keskeyttäminen
+### 2.8.4.4 Asiakkaan kaikkien varauksien keskeyttäminen
 
 Jos asiakas haluaa keskeyttää kaikki varauksensa, voi sen tehdä
 asiakkaan tiedoissa _Varaukset_-välilehdellä klikkaamalla _Keskeytä
 kaikki varaukset_ -nappia. Vastaavasti varaukset saa taas voimaan
 klikkaamalla _Jatka kaikkia keskeytettyjä varauksia_ -nappia.
 
-![](/assets/files/docs/Lainaus/varaus23.png)
+![](/assets/files/docs/Lainaus/Varaus_16_keskeytä_monta.PNG)
 
-### Varauksen poistaminen
+### 2.8.4.5 Varauksen poistaminen
 
 Varauksen poistaminen onnistuu yksitellen klikkaamalla varauksen
-kohdalla punaista ruksia.
+kohdalla Poista-nappia.
 
-![](/assets/files/docs/Lainaus/varauksenpoisto1.png)
+![](/assets/files/docs/Lainaus/Varaus_17_peruuta.PNG)
 
 Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä
 valitsemalla Poista?-sarakkeeseen “Kyllä” ja klikkaamalla _Peruuta
