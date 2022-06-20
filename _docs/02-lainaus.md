@@ -716,8 +716,8 @@ Automaatilla palautettu, noutoilmoitusta ei vielä lähetetty. Varaus näkyy nid
 
 ![](/assets/files/docs/Lainaus/Varaus_25_kokoelmat_varattu_ja_kuljetuksessa.PNG)
 
-    1.  Noudettavissa oleva, noutoilmoitus lähetetty
-    2.  Teos on kuljetettavana
+1. Noudettavissa oleva, noutoilmoitus lähetetty
+2. Teos on kuljetettavana
 
 **Varausjono**-sivulla kiinni jäänyt varaus voi olla kolmessa eri
 tilassa:
