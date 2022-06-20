@@ -703,29 +703,36 @@ käytössä, näkyy varaus samalla tavalla kuin yllä olevassa tapauksessa.
 
 Jos käytössä on noutoilmoitusten viivästäminen, näkyy varaus näin:
 
-![](/assets/files/docs/Lainaus/viivastys.png)
+![](/assets/files/docs/Lainaus/Varaus_23_Automaattiin_palautus.PNG)
 
 ### 2.9.4 Kiinni jääneiden varausten näkyminen kokoelmatiedoissa ja varausjonossa
 
 **Kokoelmat**-välilehdellä nidetiedoissa näkyy varatun ja kuljetuksessa
 olevan niteen tilanne.  
-![](/assets/files/docs/Lainaus/viivastys5.png)
 
-1.  Automaatilla palautettu, noutoilmoitusta ei vielä lähetetty. Varaus
+    Automaatilla palautettu, noutoilmoitusta ei vielä lähetetty. Varaus
     näkyy nidevarauksena.
-2.  Noudettavissa oleva, noutoilmoitus lähetetty
+    ![](/assets/files/docs/Lainaus/Varaus_24_palautettu_automaatilla.PNG)
+
+    ![](/assets/files/docs/Lainaus/Varaus_25_kokoelmat_varattu_ja_kuljetuksessa.PNG)
+    1.  Noudettavissa oleva, noutoilmoitus lähetetty
+    2.  Teos on kuljetettavana
 
 **Varausjono**-sivulla kiinni jäänyt varaus voi olla kolmessa eri
 tilassa:  
-![](/assets/files/docs/Lainaus/viivastys4.png)
 
-1.  _Ylimmäisenä:_ automaatilla palautettu, kiinni jäänyt varaus,
+1.  Automaatilla palautettu, kiinni jäänyt varaus,
     noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on
     In transit/Kuljetettavana-tilassa.
-2.  _Keskimmäisenä:_ noudettavissa oleva, noutoilmoitus lähetetty.
+    ![](/assets/files/docs/Lainaus/Varausjono_1_InProcessing.png)
+    
+2.  Noudettavissa oleva, noutoilmoitus lähetetty.
     Priority-sarakkeessa tietona Waiting/Odottaa
-3.  _Alimmaisen:_ Kuljetettavana oleva varaus.
-
+    ![](/assets/files/docs/Lainaus/Varausjono_2_Waiting.png)
+    
+3.  Kuljetettavana oleva varaus.
+    ![](/assets/files/docs/Lainaus/Varausjono_3_InTransit.png)
+    
 ---
 
 ## 2.9.5 Varauksen noutaa muu kuin varaaja itse
@@ -734,7 +741,7 @@ Jos varauksen noutaa joku muu kuin varaaja itse (perheenjäsen tai muu
 valtuutettu), saat huomautuksen, josta pitää ensin valita Peruuta varaus
 (poistaa varauksen varaajan tiedoista) ja sitten Kyllä, lainaa (Y).
 
-![](/assets/files/docs/Lainaus/varaus28.jpg)
+![](/assets/files/docs/Lainaus/Varaus_27_VarauksenNoutoToinen.PNG)
 
 ---
 
