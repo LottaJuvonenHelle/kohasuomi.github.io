@@ -721,17 +721,14 @@ olevan niteen tilanne.
 **Varausjono**-sivulla kiinni jäänyt varaus voi olla kolmessa eri
 tilassa:  
 
-1.  Automaatilla palautettu, kiinni jäänyt varaus,
-    noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on
-    In transit/Kuljetettavana-tilassa.
-    ![](/assets/files/docs/Lainaus/Varausjono_1_InProcessing.png)
-    
-2.  Noudettavissa oleva, noutoilmoitus lähetetty.
-    Priority-sarakkeessa tietona Waiting/Odottaa
-    ![](/assets/files/docs/Lainaus/Varausjono_2_Waiting.png)
-    
-3.  Kuljetettavana oleva varaus.
-    ![](/assets/files/docs/Lainaus/Varausjono_3_InTransit.png)
+Automaatilla palautettu, kiinni jäänyt varaus, noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on In transit/Kuljetettavana-tilassa.
+![](/assets/files/docs/Lainaus/Varausjono_1_InProcessing.png)
+
+Noudettavissa oleva, noutoilmoitus lähetetty. Priority-sarakkeessa tietona Waiting/Odottaa 
+![](/assets/files/docs/Lainaus/Varausjono_2_Waiting.png)
+
+Kuljetettavana oleva varaus.
+![](/assets/files/docs/Lainaus/Varausjono_3_InTransit.png)
     
 ---
 
