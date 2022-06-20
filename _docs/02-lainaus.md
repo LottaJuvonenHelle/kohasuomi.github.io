@@ -719,7 +719,7 @@ olevan niteen tilanne.
     2.  Teos on kuljetettavana
 
 **Varausjono**-sivulla kiinni jäänyt varaus voi olla kolmessa eri
-tilassa:  
+tilassa:
 
 Automaatilla palautettu, kiinni jäänyt varaus, noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on In transit/Kuljetettavana-tilassa.
 ![](/assets/files/docs/Lainaus/Varausjono_1_InProcessing.png)
@@ -729,7 +729,7 @@ Noudettavissa oleva, noutoilmoitus lähetetty. Priority-sarakkeessa tietona Wait
 
 Kuljetettavana oleva varaus.
 ![](/assets/files/docs/Lainaus/Varausjono_3_InTransit.png)
-    
+
 ---
 
 ## 2.9.5 Varauksen noutaa muu kuin varaaja itse
@@ -738,7 +738,7 @@ Jos varauksen noutaa joku muu kuin varaaja itse (perheenjäsen tai muu
 valtuutettu), saat huomautuksen, josta pitää ensin valita Peruuta varaus
 (poistaa varauksen varaajan tiedoista) ja sitten Kyllä, lainaa (Y).
 
-![](/assets/files/docs/Lainaus/Varaus_27_VarauksenNoutoToinen.PNG)
+![](/assets/files/docs/Lainaus/Varaus_27_VarauksenNoutoToinen_2.PNG)
 
 ---
 
