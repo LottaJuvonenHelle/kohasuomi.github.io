@@ -708,13 +708,14 @@ Jos käytössä on noutoilmoitusten viivästäminen, näkyy varaus näin:
 ### 2.9.4 Kiinni jääneiden varausten näkyminen kokoelmatiedoissa ja varausjonossa
 
 **Kokoelmat**-välilehdellä nidetiedoissa näkyy varatun ja kuljetuksessa
-olevan niteen tilanne.  
+olevan niteen tilanne.
 
-    Automaatilla palautettu, noutoilmoitusta ei vielä lähetetty. Varaus
-    näkyy nidevarauksena.
-    ![](/assets/files/docs/Lainaus/Varaus_24_palautettu_automaatilla.PNG)
+Automaatilla palautettu, noutoilmoitusta ei vielä lähetetty. Varaus näkyy nidevarauksena.
 
-    ![](/assets/files/docs/Lainaus/Varaus_25_kokoelmat_varattu_ja_kuljetuksessa.PNG)
+![](/assets/files/docs/Lainaus/Varaus_24_palautettu_automaatilla.PNG)
+
+![](/assets/files/docs/Lainaus/Varaus_25_kokoelmat_varattu_ja_kuljetuksessa.PNG)
+
     1.  Noudettavissa oleva, noutoilmoitus lähetetty
     2.  Teos on kuljetettavana
 
@@ -722,15 +723,15 @@ olevan niteen tilanne.
 tilassa:
 Automaatilla palautettu, kiinni jäänyt varaus, noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on In transit/Kuljetettavana-tilassa.
 
-![](/assets/files/docs/Lainaus/Varausjono_1_InProcessing.png)
+![](/assets/files/docs/Lainaus/Varausjono_1_InProcessing.PNG)
 
 Noudettavissa oleva, noutoilmoitus lähetetty. Priority-sarakkeessa tietona Waiting/Odottaa 
 
-![](/assets/files/docs/Lainaus/Varausjono_2_Waiting.png)
+![](/assets/files/docs/Lainaus/Varausjono_2_Waiting.PNG)
 
 Kuljetettavana oleva varaus.
 
-![](/assets/files/docs/Lainaus/Varausjono_3_InTransit.png)
+![](/assets/files/docs/Lainaus/Varausjono_3_InTransit.PNG)
 
 ---
 
