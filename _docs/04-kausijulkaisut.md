@@ -48,7 +48,7 @@ oletusnumerointeja.
 
 Voit myös luoda uusia numerointitietoja. Uuden numerointitiedon voit
 tallentaa _Luo uusi_ -linkistä.  
-![](/assets/files/docs/Kausijulkaisut/kausijul6.png)
+![](/assets/files/docs/Kausijulkaisut/uusi_numerointikaava.PNG)
 
 ## 4.3. Lisää tilaus
 
