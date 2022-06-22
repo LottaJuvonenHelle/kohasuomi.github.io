@@ -258,9 +258,9 @@ laatikkoa voit kerralla merkitä näille numeroille oikean tilan.
 
 Lehtikiertolista on lista henkilöistä, joiden luettavaksi lehti menee
 ennen kuin se viedään hyllyyn. Lehtitilausta tehtäessä on valittava
-_Viesti asiakkaalle_ -valikosta _Lehtikiertolista_.
+_Ilmoitus asiakkaalle_ -valikosta _Lehtikiertolista_.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul25.png)
+![](/assets/files/docs/Kausijulkaisut/ilmoitus_asiakkaalle_lehtikiertolista.PNG)
 
 Tilausnäytöllä on vasemmassa reunassa valikossa joko _Luo kiertolista_
 tai _Muokkaa kiertolistaa_ riippuen siitä, onko lehdelle tallennettu
@@ -272,17 +272,16 @@ Klikkaamalla tätä linkkiä pääset muokkaamaan kiertolistaa.
 ![](/assets/files/docs/Kausijulkaisut/kausijul27.png)
 
 Täällä voit _lisätä vastaanottajia_ eli lisätä henkilöitä
-kiertolistalle. Henkilöitä voi suodattaa nimen, kirjaston tai
+kiertolistalle. Henkilöitä voi hakea nimen, kirjaston tai
 asiakaslajin mukaan.  
-![](/assets/files/docs/Kausijulkaisut/kausijul28.png)  
+![](/assets/files/docs/Kausijulkaisut/lehtikiertolista_hae_asiakkaita.PNG)  
 Klikkaamalla nimen jälkeen _Lisää_ voit lisätä henkilön kiertolistalle.
 Kun olet valinnut kaikki listalle tulevat henkilöt, klikkaa _Sulje_ ja
 pääset kiertolistanäytölle.  
 ![](/assets/files/docs/Kausijulkaisut/kausijul29.png)
 
 Jos lista näyttää oikealta, klikkaa _Tallenna_. Seuraavaksi näet
-esikatselun kiertolistasta. Tulostettavan version saat klikkaamalla
-_Tallenna ja esikatsele_ -painiketta.
+esikatselun kiertolistasta. Tulostettavan version saat klikkaamalla _Tallenna ja esikatsele_ -painiketta.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul30.png)  
 Järjestelmäsetuksissa voidaan määritellä, että kiertolistalla oleva
@@ -293,14 +292,16 @@ asiakastiedoista _Kiertolistat_-välilehti.
 
 ## 4.6. Tilaukset virkailijatyökalussa
 
-Tilausten tiedot näkyvät _Tilaukset_-välilehdellä.
+Tilausten tiedot näkyvät _Tilaukset_ ja _Lehtitilaukset_ -välilehdillä.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul31.png)
+![](/assets/files/docs/Kausijulkaisut/tilaukset_valilehti.PNG)
 
-Klikkaamalla linkkiä _Tilauksen tiedot_ pääset tilauksen
+Klikkaamalla Tilaukset-välilehdellä linkkiä _Tilauksen tiedot_ pääset tilauksen
 yhteenvetonäytölle virkailijatyökalussa.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul32.png)
+
+Lehtitilaukset-välilehdeltä pääset suoraan esimerkiksi vastaanottamaan lehtinumeron.
 
 Jos käytät _Hankintamoduulia_ tilausten seurantaan, näet ne tiedot ennen
 tilauksen tietoja.
@@ -311,19 +312,19 @@ Koha voi lähettää sähköpostin kausijulkaisujesi toimittajalle, jos
 tilatut numerot ovat myöhässä tai puuttuvat. Vasemmalla valikossa on
 _Reklamaatiot_-linkki tätä varten.  
 ![](/assets/files/docs/Kausijulkaisut/kausijul35.png)  
-![](/assets/files/docs/Kausijulkaisut/kausijul36.png)
+![](/assets/files/docs/Kausijulkaisut/reklamaatiot.PNG)
 
 ## 4.8. Lehtitilauksen päättymisajan tarkistaminen
 
 Kun tallennetaan lehtitilausta, annetaan sille päättymisaika.
 Tarkistustyökalulla voit tarkistaa, milloin tilaus päättyy.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul37.png)
+![](/assets/files/docs/Kausijulkaisut/tarkista_lehtitilauksen_paattyminen.PNG)
 
-Anna rajaukseen ainakin päivämäärä. Tuloksessa näkyy kaikki tilaukset,
+Anna rajaukseen ainakin päivämäärä. Rastittamalla kohdan _Sisällytä ennen tätä päivää vanhenevat tilaukset_ saat tulokseen kaikki tilaukset,
 jotka päättyvät ennen annettua päivämäärää.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul38.png)
+![](/assets/files/docs/Kausijulkaisut/vanhenevat_lehtitilaukset.PNG)
 
 Listauksen oikeanpuolimmaisessa sarakkeessa on _Uusinta-linkki_, josta
 pääsee uusimaan tilauksen.
