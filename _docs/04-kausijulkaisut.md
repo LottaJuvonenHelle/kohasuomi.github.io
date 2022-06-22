@@ -338,7 +338,7 @@ Tilauksen voi uusia klikkaamalla _Uusinta_.
 
 Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle .
 
-![](/assets/files/docs/Kausijulkaisut/kausijul40.png)
+![](/assets/files/docs/Kausijulkaisut/tilauksen_uusinta.PNG)
 
 - _Alkupvm_ on tilauksen alkamispäivämäärä.
 - _Tilauksen pituudeksi_ valitse yksi kolmesta vaihtoehdosta:
@@ -362,7 +362,7 @@ hakulaatikosta ja määrittää hakutulosten määrän taulukon yläreunassa
 olevissa laatikoissa. Haku-kenttää voi myös käyttää tietojen
 suodattamamiseen. Sen hakee kaikista sarakkeista kerralla.
 
-<img src="/assets/files/docs/Kausijulkaisut/kausijul43.png" title="Kausijulkaisuhaun tulosten suodattaminen" alt="Kausijulkaisuhaun tulosten suodattaminen" style="width:70.0%" />
+![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilaukset_hakutulos.PNG)
 
 ## 4.11. Lehtitilauksen poistaminen
 
