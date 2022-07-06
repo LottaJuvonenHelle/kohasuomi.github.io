@@ -60,7 +60,7 @@ Nimeä lista ja valitse listan tyyppi
 
 \* Julkinen lista näkyy kaikille, mutta vain sinä voit muokata sitä
 
-Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää tähän_
+Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää listalle_
 -valikosta hakutulosten yläpuolella.
 
 ### 6.1.2. Lisää listalle
