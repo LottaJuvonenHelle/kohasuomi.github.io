@@ -132,7 +132,7 @@ itsellesi.
 
 Koritoiminto virkailijatyökalussa voidaan ottaa käyttöön tai pois
 käytöstä intranetbookbag-asetuksella järjestelmäasetuksissa. Lisätäksesi
-nimekkeitä koriin tee haku ja valitse nimekkeit, joita haluat lisätä
+nimekkeitä koriin tee haku ja valitse nimekkeet, joita haluat lisätä
 koriin. Klikkaa Lisää koriin -alasvetovalikkoa.
 
 ![](/assets/files/docs/Listat_ja_Kori/lisaa_koriin.PNG)
