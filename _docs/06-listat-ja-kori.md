@@ -75,7 +75,7 @@ Listat-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää ni
 ![](/assets/files/docs/Listat_ja_Kori/lisaa_niteita.png)
 
 Nimeke voidaan lisätä listalle myös valitsemalla nimeke
-hakutulosnäytöltä ja valitsemalla Lisää tähän-valikosta olemassa olevan
+hakutulosnäytöltä ja valitsemalla Lisää listalle-valikosta olemassa olevan
 listan nimen.
 
 ![](/assets/files/docs/Listat_ja_Kori/Lisaa_listalle_3.png)
