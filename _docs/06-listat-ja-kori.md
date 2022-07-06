@@ -86,7 +86,7 @@ Nähdäksesi jonkun listan sisällön, mene Listat-sivulle
 virkailijatyökalussa.  
 ![](/assets/files/docs/Listat_ja_Kori/katso_lista.PNG)
 
-Klikkaamalla listan nimeä (linkki) pääset näkemään listan sisällön.
+Klikkaamalla listan nimeä (linkki) pääset näkemään listan sisällön. Voit varata tietueita tai poistaa tai yhdistellä valittuja tietueita listalta valintapainikkeilla. 
 
 ![](/assets/files/docs/Listat_ja_Kori/listan_sisalto.png)
 
