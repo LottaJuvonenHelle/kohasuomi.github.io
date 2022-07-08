@@ -8,15 +8,14 @@ toc: true
 
 # 10. Työkalut
 
-Kohan Työkalut-osiossa on monenlaisia toimintoja, joilla voi mm. muokata
-ja poistaa niteitä tai tietueita, tulostaa tarroja, tuoda
-luettelointitietoja Tätistä, lähettää laskuja, käyttää siirtokokoelmia
-jne. Käyttäjän oikeuksista riippuu, mitä työkaluja hänelle on näkyvissä.
+Kohan Työkalut-osiossa on monenlaisia toimintoja, joilla voi mm. määritellä ilmoitusten ja kuittien tekstejä, muokata
+ja poistaa niteitä tai tietueita, käyttää siirtokokoelmia, määritellä kirjaston kiinniolopäivät jne.
+Käyttäjän oikeuksista riippuu, mitä työkaluja hänelle on näkyvissä.
 Osa työkaluista ei ole käyttökelpoisia tai tarpeellisia Suomen
 toimintaympäristössä.
 
 Koha-Suomen omiin tarpeisiin kehitetyt työkalut (ilmoitusten tulostus, sotuteekki, tarratulostus)
-löytyvät _Työkaluliitännäiset_-osiosta.
+löytyvät Työkaluliitännäiset-osiosta.
 
 <img src="/assets/files/docs/Tyokalut/tyokalut.png" title="Kuvakaappaus Työkalut-osion aloitusivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" alt="Kuvakaappaus Työkalut-osion aloitusivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" />
 
