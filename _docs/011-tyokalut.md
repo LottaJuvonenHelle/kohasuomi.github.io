@@ -15,6 +15,9 @@ jne. Käyttäjän oikeuksista riippuu, mitä työkaluja hänelle on näkyvissä.
 Osa työkaluista ei ole käyttökelpoisia tai tarpeellisia Suomen
 toimintaympäristössä.
 
+Koha-Suomen omiin tarpeisiin kehitetyt työkalut (ilmoitusten tulostus, sotuteekki, tarratulostus)
+löytyvät _Työkaluliitännäiset_-osiosta.
+
 <img src="/assets/files/docs/Tyokalut/tyokalut.png" title="Kuvakaappaus Työkalut-osion aloitusivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" alt="Kuvakaappaus Työkalut-osion aloitusivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" />
 
 - Punaisella pallolla merkityt eivät ole käyttökelpoisia tai
