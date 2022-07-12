@@ -167,7 +167,7 @@ Ohjeet
 
 Asiakkaita ja lainatietoja voi poistaa eräajona seuraavien ehtojen
 mukaisesti:  
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1V2022.png" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1V2022.PNG" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:70.0%" />
 
 - ylimmäisenä, otsikon yläpuolella, on Valitse kirjasto -vaihtoehto,
   eli voit määrittää koskeeko ajo kaikkia kirjastoja vai vain tiettyä
