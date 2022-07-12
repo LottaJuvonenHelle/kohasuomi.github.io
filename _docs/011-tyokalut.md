@@ -302,7 +302,7 @@ erämuokkaus\]\]-osiossa.
 
 Työkaluista käsin liikkeelle lähdettäessä valitaan ensin, mitä niteitä
 muokataan.  
-<img src="/assets/files/docs/Tyokalut/eramuokkaus1.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:35.0%" />  
+<img src="/assets/files/docs/Tyokalut/eramuokkaus1.png" title="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" alt="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" style="width:35.0%" />  
 Niteet voi tuoda
 
 - Viivakooditiedostosta, joka on tehty esim. keräämällä viivakoodeja
@@ -319,14 +319,14 @@ oletusluettelointipohjaan ei ole määritetty oletusarvoja 952-kenttään.
 Valitse _Jatka_ muokataksesi niteitä.
 
 Erämuokkauksessa voit  
-<img src="/assets/files/docs/Tyokalut/eramuokkaus2.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenmuokkaus2V2022.PNG" title="Kuvakaappaus niteiden valinnasta muokkaukseen erajona -näkymästä" alt="Kuvakaappaus niteiden valinnasta muokkaukseen erajona -näkymästä" style="width:70.0%" />
 
 - valita, mitä niteitä muokataan
 - poistaa niteiltä lainassa-tilan (käytä harkiten)
 - säätää, mitä tietoja niteistä näytetään muokkauksessa
 
 Niteiden muokkaus  
-<img src="/assets/files/docs/Tyokalut/eramuokkaus3.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:60.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenmuokkaus3V2022.PNG" title="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" alt="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" style="width:60.0%" />
 
 - Pakolliseksi merkittyjä tietoja ei pysty poistamaan niteiltä, mutta
   ne voi vaihtaa toiseksi tiedoksi.
