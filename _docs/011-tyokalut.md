@@ -167,7 +167,7 @@ Ohjeet
 
 Asiakkaita ja lainatietoja voi poistaa eräajona seuraavien ehtojen
 mukaisesti:  
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto.png" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaiden_poisto_eräajona.png" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:70.0%" />
 
 - ylimmäisenä, otsikon yläpuolella, on Valitse kirjasto -vaihtoehto,
   eli voit määrittää koskeeko ajo kaikkia kirjastoja vai vain tiettyä
@@ -189,7 +189,7 @@ Vahvista-ruutuun. Klikkaa sitten Seuraava-nappulaa.
 
 Seuraavaksi kerrotaan, kuinka monta asiakasta ollaan poistamassa ja mitä
 niille halutaan tehdä.  
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaiden_poisto_eräajona_vahvistus.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" style="width:45.0%" />
 
 - Poistetaanko näiden asiakkaiden tiedot pysyvästi
   - **Huom!** Tämä vaihtoehto poistaa asiakastiedot täysin
@@ -222,11 +222,11 @@ anonymisointi kaikkia kirjastoja vai vain tiettyä kirjastoa.
 
 Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto4.png" title="Kuvakaappaus, jossa varoitetaan, että 454 asiakkaan lainahistoria anonymisoidaan" alt="Kuvakaappaus, jossa varoitetaan, että 454 asiakkaan lainahistoria anonymisoidaan" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Asiakkaiden_anonymisointi_eräajona.png" title="Kuvakaappaus, jossa varoitetaan, että 454 asiakkaan lainahistoria anonymisoidaan" alt="Kuvakaappaus, jossa varoitetaan, että 454 asiakkaan lainahistoria anonymisoidaan" style="width:30.0%" />
 
 - Valitse _Valmis_
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto5.png" title="Kuvakaappaus, jossa kerrotaan, että on anonymisoitu 5493 lainaa, jotka ovat vanhempia kuin 31.12.2015" alt="Kuvakaappaus, jossa kerrotaan, että on anonymisoitu 5493 lainaa, jotka ovat vanhempia kuin 31.12.2015" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/Asiakkaiden_anonymisointi_eräajona_vahvistus.png" title="Kuvakaappaus, jossa kerrotaan, että on anonymisoitu 5493 lainaa, jotka ovat vanhempia kuin 31.12.2015" alt="Kuvakaappaus, jossa kerrotaan, että on anonymisoitu 5493 lainaa, jotka ovat vanhempia kuin 31.12.2015" style="width:40.0%" />
 
 ---
 
@@ -235,7 +235,7 @@ Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle
 joukolle kerralla.
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus.png" alt="" style="width:35.0%" />  
+<img src="/assets/files/docs/Tyokalut/Asiakkaiden_muokkaus_eräajona.png" alt="" style="width:35.0%" />  
 Muokattavat asiakkaat voi valita kolmella tavalla
 
 - tiedostosta
@@ -248,7 +248,7 @@ Sen jälkeen valitaan _Seuraava_
 <img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus1.png" alt="" style="width:45.0%" />
 
 Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu
-laittamalla rasti kentän viereen. Lopuksi valitaan _Tallenna_.
+laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille eräajossa muutettavaksi valitsemillesi asiakkaille. Lopuksi valitaan _Tallenna_.
 
 ---
 
