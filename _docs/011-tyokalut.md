@@ -269,7 +269,7 @@ Valitse ensin poistettavat niteet.
 Valitse sitten _Jatka_.
 
 Poistettavat niteet listautuvat avautuvalle sivulle.  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto2V2022.PNG" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenpoisto2V2022.PNG" title="Kuvakaappaus valinnoista niteiden poisto -näkymästä" alt="Kuvakaappaus valinnoista niteiden poisto -näkymästä" style="width:70.0%" />
 
 - Voit valita, mitä sarakkeita niteistä näytetään.
 - Voit vielä tässä vaiheessa ottaa pois rastin sellaisen niteen
@@ -282,7 +282,7 @@ Valitse lopuksi _Poista valitut_ -painike.
 
 Saat yhteenvedon poistetuista niteistä ja tietueista:
 
-<img src="/assets/files/docs/Tyokalut/erapoisto2.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/erapoisto2.png" title="Kuvakaappaus niteiden poiston tuloksista" alt="Kuvakaappaus niteiden poiston tuloksista" style="width:45.0%" />
 
 Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_
 -napista tai linkistä.
@@ -290,7 +290,7 @@ Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_
 Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset
 tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta
 _Poista valitut_  
-<img src="/assets/files/docs/Tyokalut/erapoisto3.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenpoisto4V2022.PNG" title="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" alt="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" style="width:45.0%" />
 
 ---
 
