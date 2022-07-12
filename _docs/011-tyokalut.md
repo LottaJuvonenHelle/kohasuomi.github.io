@@ -205,7 +205,7 @@ Valitse haluamasi vaihtoehto ja klikkaa Valmis-nappulaa.
 
 Tämän jälkeen järjestelmä kertoo, kuinka monta asiakasta poistettiin tai
 siirrettiin roskakoriin (deletedborrowers-tauluun).  
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan että 2 asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan että 2 asiakasta on siirretty roskakoriin" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:40.0%" />
 
 ### 10.5.2 Lainahistorian anonymisointi
 
@@ -222,11 +222,11 @@ anonymisointi kaikkia kirjastoja vai vain tiettyä kirjastoa.
 
 Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi1V2022.PNG" title="Kuvakaappaus, jossa varoitetaan, että 454 asiakkaan lainahistoria anonymisoidaan" alt="Kuvakaappaus, jossa varoitetaan, että 454 asiakkaan lainahistoria anonymisoidaan" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi1V2022.PNG" title="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" alt="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" style="width:30.0%" />
 
 - Valitse _Valmis_
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi2V2022.PNG" title="Kuvakaappaus, jossa kerrotaan, että on anonymisoitu 5493 lainaa, jotka ovat vanhempia kuin 31.12.2015" alt="Kuvakaappaus, jossa kerrotaan, että on anonymisoitu 5493 lainaa, jotka ovat vanhempia kuin 31.12.2015" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi2V2022.PNG" title="Kuvakaappaus, jossa kerrotaan, kuinka monta lainaa on anonymisoitu, jotka ovat valittua päivämäärää vanhempia" alt="Kuvakaappaus, jossa kerrotaan, kuinka monta lainaa on anonymisoitu, jotka ovat valittua päivämäärää vanhempia" style="width:40.0%" />
 
 ---
 
@@ -235,7 +235,7 @@ Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle
 joukolle kerralla.
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus1V2022.PNG" alt="" style="width:35.0%" />  
+<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus1V2022.PNG" title="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" alt="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" style="width:35.0%" />  
 Muokattavat asiakkaat voi valita kolmella tavalla
 
 - tiedostosta
@@ -245,7 +245,7 @@ Muokattavat asiakkaat voi valita kolmella tavalla
 
 Sen jälkeen valitaan _Seuraava_
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.PNG" alt="" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.PNG" title="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" alt="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" style="width:45.0%" />
 
 Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu
 laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille eräajossa muutettavaksi valitsemillesi asiakkaille. Lopuksi valitaan _Tallenna_.
@@ -258,7 +258,7 @@ Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä
 kerralla.
 
 Valitse ensin poistettavat niteet.  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto1V2022.PNG" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenpoisto1V2022.PNG"  title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä"  style="width:30.0%" />
 
 - Voit tuoda niteet tiedostosta, joka sisältää joko viivakoodeja tai
   nidenumeroita (itemnumber).
@@ -269,7 +269,7 @@ Valitse ensin poistettavat niteet.
 Valitse sitten _Jatka_.
 
 Poistettavat niteet listautuvat avautuvalle sivulle.  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto2V2022.PNG" alt="" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenpoisto2V2022.PNG" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:70.0%" />
 
 - Voit valita, mitä sarakkeita niteistä näytetään.
 - Voit vielä tässä vaiheessa ottaa pois rastin sellaisen niteen
@@ -282,7 +282,7 @@ Valitse lopuksi _Poista valitut_ -painike.
 
 Saat yhteenvedon poistetuista niteistä ja tietueista:
 
-<img src="/assets/files/docs/Tyokalut/erapoisto2.png" alt="" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/erapoisto2.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:45.0%" />
 
 Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_
 -napista tai linkistä.
@@ -290,7 +290,7 @@ Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_
 Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset
 tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta
 _Poista valitut_  
-<img src="/assets/files/docs/Tyokalut/erapoisto3.png" alt="" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/erapoisto3.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:45.0%" />
 
 ---
 
@@ -302,7 +302,7 @@ erämuokkaus\]\]-osiossa.
 
 Työkaluista käsin liikkeelle lähdettäessä valitaan ensin, mitä niteitä
 muokataan.  
-<img src="/assets/files/docs/Tyokalut/eramuokkaus1.png" alt="" style="width:35.0%" />  
+<img src="/assets/files/docs/Tyokalut/eramuokkaus1.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:35.0%" />  
 Niteet voi tuoda
 
 - Viivakooditiedostosta, joka on tehty esim. keräämällä viivakoodeja
@@ -319,14 +319,14 @@ oletusluettelointipohjaan ei ole määritetty oletusarvoja 952-kenttään.
 Valitse _Jatka_ muokataksesi niteitä.
 
 Erämuokkauksessa voit  
-<img src="/assets/files/docs/Tyokalut/eramuokkaus2.png" alt="" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/eramuokkaus2.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:70.0%" />
 
 - valita, mitä niteitä muokataan
 - poistaa niteiltä lainassa-tilan (käytä harkiten)
 - säätää, mitä tietoja niteistä näytetään muokkauksessa
 
 Niteiden muokkaus  
-<img src="/assets/files/docs/Tyokalut/eramuokkaus3.png" alt="" style="width:60.0%" />
+<img src="/assets/files/docs/Tyokalut/eramuokkaus3.png" title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä" style="width:60.0%" />
 
 - Pakolliseksi merkittyjä tietoja ei pysty poistamaan niteiltä, mutta
   ne voi vaihtaa toiseksi tiedoksi.
