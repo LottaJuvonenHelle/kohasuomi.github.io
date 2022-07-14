@@ -116,7 +116,7 @@ lähettää kolme, mutta kaikkia tai mitään ei tarvitse lähettää.
 kirjastolle pysty tekemään sääntöä, että ilmoituksia ei lähetetä
 ollenkaan.
 
-<img src="/assets/files/docs/Tyokalut/myohastymisilmoitukset.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/myohastymisilmoitukset.png" alt="Kuvakaappaus taulukosta, jossa määritellään lähetettävät myöhästymisilmoitukset" style="width:90.0%" />
 
 - Taulukossa listataan ne asiakastyypit, joille on määritetty
   asiakastyyppien ylläpidossa, että myöhästymisilmoituksia lähetetään.
