@@ -17,7 +17,7 @@ toimintaympäristössä.
 Koha-Suomen omiin tarpeisiin kehitetyt työkalut (varausten noutoilmoitusten ja myöhästymisilmoitusten tulostus, sotuteekki, tarratulostus)
 löytyvät Työkaluliitännäiset-osiosta.
 
-<img src="/assets/files/docs/Tyokalut/tyokalut.png" title="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" alt="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" />
+<img src="/assets/files/docs/Tyokalut/tyokalut.png" title="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" alt="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" style="width:90.0%" />
 
 - Punaisella pallolla merkityt eivät ole käyttökelpoisia tai
   tarpeellisia.
@@ -114,10 +114,9 @@ lähettää kolme, mutta kaikkia tai mitään ei tarvitse lähettää.
 
 **Huomioi**, että jos oletussääntö on määritetty, ei yksittäiselle
 kirjastolle pysty tekemään sääntöä, että ilmoituksia ei lähetetä
-ollenkaan.  
-{: .notice--warning}
+ollenkaan.
 
-<img src="/assets/files/docs/Tyokalut/myohastymis.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/myohastymisilmoitukset.png" alt="Kuvakaappaus taulukosta, jossa määritellään lähetettävät myöhästymisilmoitukset" style="width:90.0%" />
 
 - Taulukossa listataan ne asiakastyypit, joille on määritetty
   asiakastyyppien ylläpidossa, että myöhästymisilmoituksia lähetetään.
@@ -127,7 +126,7 @@ ollenkaan.
   lähetettäessä. Ks. Ilmoituksen ja kuitit -kohta.
 - _Rajoita_-kohtaan laitetaan rasti, jos halutaan asiakkaan menevän
   lainakieltoon viestin lähdettyä.
-- _Maksu_-kohtaan määritetään ilmoituksesta perittävän maksun määrä.
+- _Maksu_-kohtaan määritetään ilmoituksesta perittävän maksun määrä. Maksuttoman ilmoituksen sarake jätetään tyhjäksi.
 - _Sähköposti, Puhelin, Tuloste ja Tekstiviesti_ -kohdista valitaan
   halutut vaihtoehdot.
 - Määrittelyt tallennetaan _Tallenna muutokset_ -nappulalla.
