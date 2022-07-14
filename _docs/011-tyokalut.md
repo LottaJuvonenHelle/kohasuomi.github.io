@@ -121,14 +121,15 @@ ollenkaan.
 - Taulukossa listataan ne asiakastyypit, joille on määritetty
   asiakastyyppien ylläpidossa, että myöhästymisilmoituksia lähetetään.
 - _Viive_-kenttään määritetään, montako päivää eräpäivän jälkeen
-  myöhästyisilmoitus lähetetään.
+  myöhästyisilmoitus lähetetään. Jos kimpassa käytetään Laskutustyökalu-liitännäistä,
+  kolmas 
 - _Kirje_-sarakkeessa valitaan, mitä ilmoituspohjaa käytetään viestiä
-  lähetettäessä. Ks. Ilmoituksen ja kuitit -kohta.
+  lähetettäessä. Ks. 10.2 Ilmoitukset ja kuitit -kohta.
 - _Rajoita_-kohtaan laitetaan rasti, jos halutaan asiakkaan menevän
   lainakieltoon viestin lähdettyä.
 - _Maksu_-kohtaan määritetään ilmoituksesta perittävän maksun määrä. Maksuttoman ilmoituksen sarake jätetään tyhjäksi.
-- _Sähköposti, Puhelin, Tuloste ja Tekstiviesti_ -kohdista valitaan
-  halutut vaihtoehdot.
+- _Sähköposti_, _Tuloste_, _Tekstiviesti_ jne -kohdista valitaan
+  halutut vaihtoehdot kimpan viestien lähetystapojen mukaan.
 - Määrittelyt tallennetaan _Tallenna muutokset_ -nappulalla.
 
 ---
