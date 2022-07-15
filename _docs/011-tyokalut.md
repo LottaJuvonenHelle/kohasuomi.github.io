@@ -65,25 +65,27 @@ ensin halutut asiakkaat ja valitsemalla sitten _Lisää asiakaslistaan_
 
 ## 10.2 Ilmoitukset ja kuitit
 
-Ilmoituksia ja kuitteja ylläpitää pääsääntöisesti kimppojen
+Ilmoituksia ja kuitteja ylläpitävät pääsääntöisesti kimppojen
 pääkäyttäjät, mutta tässä voi olla kimppakohtaisia eroja.
 
 Ilmoitukset ja kuitit -työkalun etusivulla on lista olemassa olevista
 pohjista. Ilmoitukset voivat olla joko kaikkia kirjastoja koskevia tai
-kirjastokohtaisia. Kirjastokohtaiset pohjat ovat listan lopussa.
+kirjastokohtaisia. Kirjastokohtaiset pohjat ovat listan lopussa. 
+Kaikki ilmoitukset ja pohjat eivät välttämättä ole käytössä omassa kimpassasi.
 
-<img src="/assets/files/docs/Tyokalut/ilmoitukset.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/ilmoitukset00.png" alt="Kuvakaappaus Ilmoitukset ja kuitit -osion etusivusta, jossa listataan käytössä olevat ilmoitus- ja kuittipohjat" style="width:90.0%" />
 
 - Uusi pohjia voi tehdä _Uusi ilmoitus_ -napilla
 - Pohjan voi kopioida toiselle kirjastolle _Kopioi_-napilla
 - Pohjaa voi muokata _Muokkaa_-napilla
-- Pohjan voi poistaa _Poista_-napilla
+- Pohjan voi poistaa _Poista_-napilla. Kaikissa pohjissa poistomahdollisuutta ei ole,
+koska pohjat voivat olla järjestelmän sisäisessä käytössä.
 
-### Ilmoituksen muokkaaminen
+### 10.2.1 Ilmoituksen muokkaaminen
 
 Ilmoituksen/kuitin voi tehdä samoille kielille kuin mitä Kohaan on
 asennettu käyttökieliksi. Lisäksi on olemassa Oletus-pohja, jota
-käytetään silloin, kun asiakkaalle ei ole valittuna asiointikieltä.
+käytetään silloin, kun asiakkaalle ei ole asiakastiedoissa valittuna asiointikieltä. Jos kielivalinta on käytössä, kaikissa 
 Ilmoituksen voi määrittää eri viestityypeille: sähköposti, puhelin
 (vaatii TalkingTechItivaPhone-tuen), tuloste ja tekstiviesti. Muutokset
 tallennetaan _OK_-napista.
@@ -98,7 +100,7 @@ tietokanta-tägejä. Jos viesti on html-muotoinen, laitetaan rasti kohtaan
 _HTML-viesti_, jolloin viesti osataan käsitellä oikein.  
 <img src="/assets/files/docs/Tyokalut/ilmoitukset2.png" alt="" style="width:60.0%" />
 
-### Eräpäivä kuitille ilman kellonaikaa
+### 10.2.2 Eräpäivä kuitille ilman kellonaikaa
 
 Eräpäivän saa tulostumaan kuitille ilman kellonaikaa dateonly-määreellä
 näin:
