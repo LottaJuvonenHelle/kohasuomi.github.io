@@ -91,18 +91,19 @@ muuten viestit eivät lähde asiakkaille.
 
 Ilmoituksen voi määrittää eri viestityypeille: sähköposti, tuloste, tekstiviesti jne. 
 Osa kuiteista vaatii toimiakseen tekstin myös sähköpostikenttään, vaikka vain tuloste olisi käytössä. 
-Muutokset tallennetaan _OK_-napista. 
+Muutokset tallennetaan _Tallenna_-napista. 
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset01.png" alt="Kuvakaappaus ilmoitusten ja kuittien muokkauksen pääsivusta, jossa näkyvät käytössä olevat kielet ja viestityypit" style="width:50.0%" />
 
-Ilmoitukseen/kuittiin voi lisätä tekstiä sekä tägejä, joilla viestiin
-lisätään tietokannasta tietoja. Tägejä voi lisätä vasemman reunan
-valikosta tai kirjoittaa sen itse. _Viestin aihe_ -kenttään kirjoitetaan
-sähköpostiviestin aihe. Myös viestin aiheessa voi käyttää
-tietokanta-tägejä. Jos viesti on html-muotoinen, laitetaan rasti kohtaan
+Ilmoitukseen tai kuittiin voi lisätä tekstiä sekä tägejä, joilla viestiin
+lisätään tietokannasta tietoja esim. asiakkaasta, lainoista ja eräpäivistä. 
+Tägejä voi lisätä vasemman reunan valikosta tai kirjoittaa ne itse.
+
+_Viestin aihe_ -kenttään kirjoitetaan sähköpostiviestin aihe, joka näkyy myös asiakkaalle. 
+Myös viestin aiheessa voi käyttää tietokanta-tägejä. Jos viesti on html-muotoinen, laitetaan rasti kohtaan
 _HTML-viesti_, jolloin viesti osataan käsitellä oikein. 
 
-<img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="" style="width:60.0%" />
+<img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="Kuvakaappaus, jossa esimerkkinä sähköposti-ilmoituksesta on eräpäivämuistutus" style="width:60.0%" />
 
 ### 10.2.2 Eräpäivä kuitille ilman kellonaikaa
 
