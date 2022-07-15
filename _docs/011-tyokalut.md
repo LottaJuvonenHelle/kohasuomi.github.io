@@ -83,22 +83,26 @@ koska pohjat voivat olla järjestelmän sisäisessä käytössä.
 
 ### 10.2.1 Ilmoituksen muokkaaminen
 
-Ilmoituksen/kuitin voi tehdä samoille kielille kuin mitä Kohaan on
-asennettu käyttökieliksi. Lisäksi on olemassa Oletus-pohja, jota
-käytetään silloin, kun asiakkaalle ei ole asiakastiedoissa valittuna asiointikieltä. Jos kielivalinta on käytössä, kaikissa 
-Ilmoituksen voi määrittää eri viestityypeille: sähköposti, puhelin
-(vaatii TalkingTechItivaPhone-tuen), tuloste ja tekstiviesti. Muutokset
-tallennetaan _OK_-napista.
+Ilmoituksen tai kuitin voi tehdä samoille kielille kuin mitä Kohaan on
+asennettu käyttökieliksi (suomi, englanti, ruotsi). Lisäksi on olemassa Oletus-pohja, jota
+käytetään silloin, kun asiakkaalle ei ole asiakastiedoissa valittuna asiointikieltä. 
+Jos kielivalinta on kimpassa käytössä, kaikille kielille täytyy olla viestipohjissa ainakin jotain tekstiä, 
+muuten viestit eivät lähde asiakkaille.
 
-<img src="/assets/files/docs/Tyokalut/ilmoitukset1.png" alt="" style="width:50.0%" />
+Ilmoituksen voi määrittää eri viestityypeille: sähköposti, tuloste, tekstiviesti jne. 
+Osa kuiteista vaatii toimiakseen tekstin myös sähköpostikenttään, vaikka vain tuloste olisi käytössä. 
+Muutokset tallennetaan _OK_-napista. 
+
+<img src="/assets/files/docs/Tyokalut/ilmoitukset01.png" alt="Kuvakaappaus ilmoitusten ja kuittien muokkauksen pääsivusta, jossa näkyvät käytössä olevat kielet ja viestityypit" style="width:50.0%" />
 
 Ilmoitukseen/kuittiin voi lisätä tekstiä sekä tägejä, joilla viestiin
 lisätään tietokannasta tietoja. Tägejä voi lisätä vasemman reunan
 valikosta tai kirjoittaa sen itse. _Viestin aihe_ -kenttään kirjoitetaan
 sähköpostiviestin aihe. Myös viestin aiheessa voi käyttää
 tietokanta-tägejä. Jos viesti on html-muotoinen, laitetaan rasti kohtaan
-_HTML-viesti_, jolloin viesti osataan käsitellä oikein.  
-<img src="/assets/files/docs/Tyokalut/ilmoitukset2.png" alt="" style="width:60.0%" />
+_HTML-viesti_, jolloin viesti osataan käsitellä oikein. 
+
+<img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="" style="width:60.0%" />
 
 ### 10.2.2 Eräpäivä kuitille ilman kellonaikaa
 
