@@ -10,7 +10,7 @@ toc: true
 
 Käytä lainaustoiminnoissa Firefox-selainta, jolla voit määrittää asiakaskuitit 
 tulostumaan automaattisesti (ohje kohdassa 9. Kuittitulostuksen
-asetukset). Koha-Suomi tukee Firefox ESR-versiota.
+asetukset). Koha-Suomi tukee Firefox ESR-version käyttöä.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
 etusivulla on pikakuvakkeita, joista pääset ohjelman eri toimintoihin,
@@ -253,7 +253,7 @@ Lainassa-välilehdellä näytetään.
 
 ![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.PNG)
 
-**Vie**-valikosta voit tulostaa, kopioida tai viedä asiakkaan lainat Excel- tai CSV -tiedostoiksi.
+**Vie**-valikosta voit tulostaa, kopioida tai viedä asiakkaan lainat Excel- tai CSV-tiedostoiksi.
 
 ![](/assets/files/docs/Lainaus/vie.PNG)
 
