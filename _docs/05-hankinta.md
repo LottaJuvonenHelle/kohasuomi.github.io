@@ -470,9 +470,9 @@ Kohaan tulevia hankintaehdotuksia.
 
 ![](/assets/files/docs/Hankinta/hankinta46.png)
 
-\* Voit tehdä muutoksia tietoihin tarvittaessa.
+- Voit tehdä muutoksia tietoihin tarvittaessa.
 
-\* Tilaukorissa näkyy nimekkeen kohdalla linkki hankintaehdotukseen ja
+- Tilauskorissa näkyy nimekkeen kohdalla linkki hankintaehdotukseen ja
 ehdotuksen tekijän nimi.  
 ![](/assets/files/docs/Hankinta/hankinta47.png)
 
@@ -490,14 +490,35 @@ hankintaan valitsemalla _Lehtitilauksesta_.
   ![](/assets/files/docs/Hankinta/hankinta48.png)
 
 Hakemasi lehden tilaustiedot tulevat näytölle ja oikeassa reunassa
-olevassa sarakkeessa on _Tilaus_-linkki.  
+olevassa sarakkeessa on _Tilaus_-nappula. Jos tilaus on jo kiinni toisessa toimittajassa, on rivin kohdalla "Ei voi tilata".  
 ![](/assets/files/docs/Hankinta/hankinta49.png)
 
-Klikkaamalla Tilaus saat lehtitilauksen tiedot tilauslomakkeelle ilman
+Klikkaamalla Tilaus-nappia saat lehtitilauksen tiedot tilauslomakkeelle ilman
 Lisää nide -osiota, koska lehtitilauksessa sitä ei tarvita.  
 ![](/assets/files/docs/Hankinta/hankinta50.png)
+![](/assets/files/docs/Hankinta/hankinta501.png)
 
-#### 5.4.1.4. Uudesta (tyhjästä) tietueesta
+
+#### 5.4.1.4 Olemassa olevista tilauksista (kopio)
+
+Tilauksen voi tehdä jo olemassa olevan tilauksen pohjata kopioimalla sen. Kun valitset _Olemassa olevista tilauksista (kopio)_, niin saat ensin tilausten hakusivun. Hae haluamillasi hakuehdoilla.
+
+![](/assets/files/docs/Hankinta/hankinta502.png)
+
+Valitse hakutuloksista sopiva tilausrivi ja klikkaa sitten _Seuraava_-nappia.
+
+![](/assets/files/docs/Hankinta/hankinta503.png)
+
+Valitse tai lisää haluamasi tilitystiedot tai kopioi alkuperäiset arvot laittamalla rasti rivin edessä olevaan laatikkoon.
+
+![](/assets/files/docs/Hankinta/hankinta504.png)
+
+Tilaukset luodaan ja saat yhteenvedon kopioiduista tilauksista. Palaa takaisin tilauskoriin valitsemalla _Palaa tilauskoriin_.
+
+![](/assets/files/docs/Hankinta/hankinta505.png)
+
+
+#### 5.4.1.5. Uudesta (tyhjästä) tietueesta
 
 Jos tilaat sellaisen teoksen, jonka tietoja ei löydy valmiina mistään,
 valitse _Uudesta (tyhjästä) tietueesta_.  
@@ -515,7 +536,7 @@ valitse _Uudesta (tyhjästä) tietueesta_.
     korjaamassa.
   - Välilehdellä 9 pitää käydä valitsemassa lisäksi aineistolaji.
 
-#### 5.4.1.5. Ulkoisesta lähteestä (toinen tietokanta)
+#### 5.4.1.6. Ulkoisesta lähteestä (toinen tietokanta)
 
 Jos haluat tehdä tilauksen toisen kirjaston luetteloimien tietojen
 perusteella, voit valita _Ulkoisesta lähteestä_. Kyseessä on
@@ -543,7 +564,7 @@ Tähän tilauslomakkeeseen ei voi muuttaa luettelointitietoja. Jos haluat
 tässä vaiheessa muokata tietueen tietoja, valitse _Muokkaa tietuetta_.  
 ![](/assets/files/docs/Hankinta/hankinta54.png)
 
-#### 5.4.1.6. Tilaus väliaikaistiedostosta
+#### 5.4.1.7. Tilaus väliaikaistiedostosta
 
 Tilauksen voi tehdä myös aineistontoimittajan lähettämän tiedoston
 kautta.
@@ -583,7 +604,7 @@ Siellä valitaan alasvetovalikosta oikea tili tilaukselle.
 
 Klikkaa _Tallenna_, kun tilauksesi sisältää kaikki haluamasi nimekkeet.
 
-#### 5.4.1.7. Varatuimpien nimekkeiden listalta
+#### 5.4.1.8. Varatuimpien nimekkeiden listalta
 
 Listalle tulee teokset, joilla on eniten varauksia per nide.
 
@@ -595,7 +616,7 @@ Listalle tulee teokset, joilla on eniten varauksia per nide.
 - Oikeasta reunasta Tarvitaan lisäniteitä -sarakkeesta klikkaamalla
   pääsee lisäämään teoksen tilauskoriin
 
-#### 5.4.1.8. Tilattavien niteiden tiedot
+#### 5.4.1.9. Tilattavien niteiden tiedot
 
 Kun olet tuonut nimeketiedot tavalla tai toisella, täytyy täyttää
 tilattavien niteiden tiedot (vähintään 1 nide). Pakolliset tiedot on
