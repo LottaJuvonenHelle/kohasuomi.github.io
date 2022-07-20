@@ -486,8 +486,9 @@ Kun käytät _Kausijulkaisut_-osiota, voit linkittää lehtitilauksen tiedot
 hankintaan valitsemalla _Lehtitilauksesta_.
 
 - Klikkaamalla tilauslinkkiä pääset hakusivulle, josta voit hakea
-  lehtitilauksen tiedot.  
-  ![](/assets/files/docs/Hankinta/hankinta48.png)
+  lehtitilauksen tiedot.
+  
+![](/assets/files/docs/Hankinta/hankinta48.png)
 
 Hakemasi lehden tilaustiedot tulevat näytölle ja oikeassa reunassa
 olevassa sarakkeessa on _Tilaus_-nappula. Jos tilaus on jo kiinni toisessa toimittajassa, on rivin kohdalla "Ei voi tilata".  
