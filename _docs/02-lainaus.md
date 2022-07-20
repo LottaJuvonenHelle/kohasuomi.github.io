@@ -10,7 +10,7 @@ toc: true
 
 Käytä lainaustoiminnoissa Firefox-selainta, jolla voit määrittää asiakaskuitit 
 tulostumaan automaattisesti (ohje kohdassa 9. Kuittitulostuksen
-asetukset). Koha-Suomi tukee Firefox ESR-version käyttöä.
+asetukset). Koha-Suomi suosittelee Firefox ESR-version käyttöä.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
 etusivulla on pikakuvakkeita, joista pääset ohjelman eri toimintoihin,
@@ -271,6 +271,8 @@ ylläpidon laina- ja käyttömaksusäännöissä on määritelty.
 
 Lainat voi uusia asiakkaan tiedoissa Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
 
+Huom! Jos asiakkaan sallittujen maksujen raja on ylittynyt, ohjelma ei huomauta siitä uusintatilanteessa.
+
 #### 2.4.1.1 Lainojen uusinta asiakkaan tiedoissa olevalla Lainassa-välilehdellä.
 
 ![](/assets/files/docs/Lainaus/uusinta.png)
@@ -296,7 +298,7 @@ Lainat voi uusia asiakkaan tiedoissa Lainassa-välilehdellä tai Lainaus ja pala
   niteet **Palautus**-sarakkeesta ja klikkaamalla näytön alareunasta
   painiketta **Uusi tai palauta valitut niteet**.
   
-- Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta.       Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle tallentuu      merkintä, että asiakas on palauttanut lainan. Tieto lainasta menee myös Palautusilmoitukset-välilehdelle.  
+- Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta.       Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle tallentuu      merkintä, että asiakas on palauttanut lainan. Tieto lainasta tallentuu myös Palautusilmoitukset-välilehdelle.  
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
 
@@ -304,14 +306,14 @@ Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttan
 
 #### 2.4.1.2 Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
 
-- Huomio kirjastosi käyttösäännöt. Joissain kirjastoissa uusittaessa
-  pitää olla kirjastokortti mukana eli tätä toimintoa ei saa silloin
-  käyttää, mikäli käyttösäännöt edellyttävät kirjastokorttia
-  uusintatilanteessa.
+- Huomio kirjastosi käyttösäännöt. Joissain kirjastoissa käyttösäännöt edellyttävät kirjastokorttia
+  uusintatilanteessa eli tätä toimintoa ei saa silloin
+  käyttää.
 
 ![](/assets/files/docs/Lainaus/uusinta1.PNG)
 
 Uusi lainat lukemalla niteen viivakoodi uusintakentään.
+Voit antaa uusittaville lainoille halutessasi eri eräpäivän, kuin nidetyypin oletuslaina-aika on.
 
 ![](/assets/files/docs/Lainaus/uusinta2.PNG)
 
@@ -321,22 +323,22 @@ Jos niteen uusiminen onnistuu, saat ilmoituksen.
 
 Jos nide ei ole lainassa, saat ilmoituksen.
 
-![](/assets/files/docs/Lainaus/uusinta5.png)
+![](/assets/files/docs/Lainaus/uusinta5.PNG)
 
 Jos viivakoodia ei löydy, saat ilmoituksen.
 
-![](/assets/files/docs/Lainaus/uusinta4.png)
+![](/assets/files/docs/Lainaus/uusinta4.PNG)
 
 ---
 
 ## 2.5 Asiakkaan varaukset
 
 **Varaukset**-välilehdellä näkyvät asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
-voit poistaa varauksia, keskeyttää ja jatkaa varausten voimassaoloaikaa
-käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli ne
+voit vaihtaa varauksen noutopaikan, poistaa varauksen, keskeyttää varauksen ja jatkaa keskeytetyn varauksen
+käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli toiminnnot
 ovat sallittu järjestelmäasetuksissa. 
 
-![](/assets/files/docs/Lainaus/varaukset.png)
+![](/assets/files/docs/Lainaus/varaukset.PNG)
 
 ---
 
