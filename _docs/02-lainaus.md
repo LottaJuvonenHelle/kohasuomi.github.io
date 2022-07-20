@@ -333,7 +333,7 @@ Jos viivakoodia ei löydy, saat ilmoituksen.
 
 ## 2.5 Asiakkaan varaukset
 
-**Varaukset**-välilehdellä näkyvät asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
+**Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
 voit vaihtaa varauksen noutopaikan, poistaa varauksen, keskeyttää varauksen ja jatkaa keskeytetyn varauksen
 käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli toiminnnot
 ovat sallittu järjestelmäasetuksissa. 
@@ -342,7 +342,26 @@ ovat sallittu järjestelmäasetuksissa.
 
 ---
 
-## 2.6 Asiakkaan huomautukset ja viestit
+## 2.6 Asiakkaan rajoitukset, huomautukset ja viestit
+
+### 2.6.1 Rajoitukset
+
+Voit asettaa asiakkaalle rajoituksen, joka estää lainaamisen ja uusimisen. 
+
+Rajoituksen voit lisätä asiakastietojen muokkausnäytöllä:
+
+![](/assets/files/docs/Lainaus/rajoitus1.PNG)
+
+tai Rajoitukset-välilehdellä:
+
+![](/assets/files/docs/Lainaus/rajoitus2.PNG)
+
+Rajoitus näkyy asiakkaan lainaus- ja tiedotnäytöillä sekä Rajoitukset-välilehdellä.
+Rajoituksen voi ohittaa tilapäisesti, jos käyttäjän oikeudet sen sallivat.
+
+![](/assets/files/docs/Lainaus/rajoitus3.PNG)
+
+
 
 Jos asiakkaalle on lisätty huomautus, se näkyy oikeassa reunassa
 lainausosion vieressä punaisella.  
