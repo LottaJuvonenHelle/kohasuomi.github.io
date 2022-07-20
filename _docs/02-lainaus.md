@@ -344,7 +344,7 @@ ovat sallittu järjestelmäasetuksissa.
 
 ## 2.6 Asiakkaan rajoitukset, huomautukset ja viestit
 
-### 2.6.1 Rajoitukset
+### 2.6.1 Asiakkaan rajoitukset
 
 Voit asettaa asiakkaalle rajoituksen, joka estää lainaamisen ja uusimisen. 
 
@@ -356,31 +356,23 @@ tai Rajoitukset-välilehdellä:
 
 ![](/assets/files/docs/Lainaus/rajoitus2.PNG)
 
-Rajoitus näkyy asiakkaan lainaus- ja tiedotnäytöillä sekä Rajoitukset-välilehdellä.
+Rajoitus näkyy asiakkaan Lainaus- ja Tiedot-näytöillä sekä Rajoitukset-välilehdellä.
 Rajoituksen voi ohittaa tilapäisesti, jos käyttäjän oikeudet sen sallivat.
 
 ![](/assets/files/docs/Lainaus/rajoitus3.PNG)
 
+### 2.6.2 Huomautukset asiakastiedoissa
+
+Voit tallentaa asiakastietojen muokkausnäytöllä asiakkaalle huomautuksia, jotka näkyvät asiakkaan Lainaus- ja Tiedot-näytöillä. 
+
+### 2.6.3 Viestit asiakastiedoissa
+
+Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus- ja Tiedot-näytöillä.
+Viestin voit lisätä joko toimintapainikkeesta **Lisää viesti** tai linkistä **+Lisää uusi viesti**.
+
+![](/assets/files/docs/Lainaus/viesti1.PNG)
 
 
-Jos asiakkaalle on lisätty huomautus, se näkyy oikeassa reunassa
-lainausosion vieressä punaisella.  
-
-Asiakkaan huomautuksissa näkyvät myös maksut mikäli niitä on ja asiakkaan noutoa
-odottavat varaukset.
-
-![](/assets/files/docs/Lainaus/huomautukset.png)
-
-Lainausnäytölle voi tallentaa lyhyitä viestejä, jotka näkyvät lainatessa
-asiakkaalle.
-
-### 2.6.1 Viestien lisääminen asiakkaalle
-
-Lainauskentän oikealla puolella on huomautuksia, joista alimmaisena on
-**Viestit**. Valitsemalla **Lisää uusi viesti**, voit lisätä asiakkaalle
-uuden viestin.
-
-![](/assets/files/docs/Lainaus/lainausviesti1.png)
 
 Kun valitset **Lisää uusi viesti**, pääset valitsemaan, näytetäänkö
 viesti vain virkailijoille vai myös asiakkaalle asiakasliittymässä
@@ -402,6 +394,9 @@ reunassa. Lihavoidut, punaiset viestit näkyvät vain virkailijoille,
 kursiivilla näkyvät viestit sekä asiakkaalle että virkailijoille.
 
 ![](/assets/files/docs/Lainaus/lainausviesti4.png)
+
+Asiakkaan huomautuksissa näkyvät myös maksut mikäli niitä on ja asiakkaan noutoa
+odottavat varaukset.
 
 ### 2.6.3 Vanhentunut asiakastieto
 
