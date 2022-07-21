@@ -557,7 +557,7 @@ poistaa niteitä tai muokata niitä.
 
 ![](/assets/files/docs/Luettelointi/luettelointi57.png)
 
-Voit käyttää myös Muokkaa -&gt; Poista niteitä eräajossa, jos poistat
+Voit käyttää myös _Muokkaa -&gt; Poista niteitä eräajossa_, jos poistat
 enemmän niteitä kerralla.
 
 ![](/assets/files/docs/Luettelointi/luettelointi58.png)
