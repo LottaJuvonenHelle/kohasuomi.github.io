@@ -365,6 +365,8 @@ Rajoituksen voi ohittaa tilapäisesti, jos käyttäjän oikeudet sen sallivat.
 
 Voit tallentaa asiakastietojen muokkausnäytöllä asiakkaalle huomautuksia, jotka näkyvät asiakkaan Lainaus- ja Tiedot-näytöillä. 
 
+![](/assets/files/docs/Lainaus/huomautukset1.PNG)
+
 ### 2.6.3 Viestit asiakastiedoissa
 
 Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus- ja Tiedot-näytöillä.
