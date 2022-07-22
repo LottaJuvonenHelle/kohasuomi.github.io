@@ -372,20 +372,18 @@ Voit tallentaa asiakastietojen muokkausnäytöllä asiakkaalle huomautuksia, jot
 Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus- ja Tiedot-näytöillä.
 Viestin voit lisätä joko toimintapainikkeesta **Lisää viesti** tai linkistä **+Lisää uusi viesti**.
 
-![](/assets/files/docs/Lainaus/viesti1.PNG)
-
-
+[![](/assets/files/docs/Lainaus/viesti1.PNG)
 
 Kun valitset **Lisää uusi viesti**, pääset valitsemaan, näytetäänkö
-viesti vain virkailijoille vai myös asiakkaalle asiakasliittymässä
+viesti vain virkailijoille vai myös asiakkaalle verkkokirjastossa
 (valikossa asiakkaan nimi).
 
-![](/assets/files/docs/Lainaus/lainausviesti2.png)
+[![](/assets/files/docs/Lainaus/lainausviesti2.PNG)
 
 Voit valita viestin esimääritellyistä viesteistä tai kirjoittaa oman
-viestin. Kimpan pääkäyttäjät voivat lisätä esimääriteltyjä viestejä.
+viestin tyhjään kenttään. Kimpan pääkäyttäjät voivat lisätä esimääriteltyjä viestejä.
 
-![](/assets/files/docs/Lainaus/lainausviesti3.png)
+![](/assets/files/docs/Lainaus/lainausviesti3.PNG)
 
 - HUOMIO! Viesti asiakkaalle näkyy myös virkailijoille.
 
