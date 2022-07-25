@@ -471,7 +471,7 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 
 - Poistetusta varauksesta ei tallennu asiakkaalle noutamattoman varauksen maksua, kun poisto tehdään samalla palautusnäytöllä, kuin alkuperäinen palautus on tehty. Varausviestin taakse jää ilmoitus **"Maksuja ei peritä käsin peruutetuista varauksista"**.
 
-***Varauksen infokuitin tulostuminen automaattisesti***
+**Varauksen infokuitin tulostuminen automaattisesti**
 
 - Kun palautat niteen, josta on varaus, saat siitä ilmoituksen:
 
@@ -485,7 +485,7 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
-***Varauksen kuljetuskuitin tulostaminen manuaalisesti***
+**Varauksen kuljetuskuitin tulostaminen manuaalisesti**
 
 ![](/assets/files/docs/Lainaus/palautusviesti5.PNG)
 
@@ -493,7 +493,11 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 - Toiminnolla **Tulosta kuitti, kuljeta ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
 - Toiminnolla **Älä huomioi**, nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
 
-![](/assets/files/docs/Lainaus/palautusviesti6.PNG)
+**Varauksen kuljetuskuitin tulostuminen automaattisesti**
+
+![](/assets/files/docs/Lainaus/palautusviesti13.PNG)
+
+- Koska järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen kuljetuskuitti heti, kun olet palauttanut varatun niteen. 
 
 ### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
 
