@@ -425,7 +425,7 @@ Palautetun niteen tiedot tulevat näytölle.
 
 **Sarakkeet**-valikosta voit valita, mitä tietoja Palautus-näytöllä näytetään. 
 
-**Vie**-valikosta voit tulostaa, kopioida tai viedä asiakkaan lainat Excel- tai CSV-tiedostoiksi.
+**Vie**-valikosta voit tulostaa, kopioida tai viedä palautetut niteet Excel- tai CSV-tiedostoiksi.
 
 Jos teoksesta on varaus ja saat näytölle ilmoituksen: **Maksuja ei peritä käsin peruutetuista varauksista**, voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
 
@@ -469,7 +469,7 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 
 ![](/assets/files/docs/Lainaus/palautusviesti11.PNG)
 
-- Poistetusta varauksesta ei tallennu asiakkaalle noutamattoman varauksen maksua, kun poisto tehdään samalla palautusnäytöllä, kun alkuperäinen palautus on tehty. Varausviestin taakse jää ilmoitus **Maksuja ei peritä käsin peruutetuista varauksista**.
+- Poistetusta varauksesta ei tallennu asiakkaalle noutamattoman varauksen maksua, kun poisto tehdään samalla palautusnäytöllä, kuin alkuperäinen palautus on tehty. Varausviestin taakse jää ilmoitus **"Maksuja ei peritä käsin peruutetuista varauksista"**.
 
 ***Varauksen infokuitin tulostuminen automaattisesti***
 
@@ -485,7 +485,7 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
-***Varauksen infokuitin tulostaminen manuaalisesti***
+***Varauksen kuljetuskuitin tulostaminen manuaalisesti***
 
 ![](/assets/files/docs/Lainaus/palautusviesti5.PNG)
 
