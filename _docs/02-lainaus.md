@@ -471,39 +471,29 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 
 - Poistetusta varauksesta ei tallennu asiakkaalle noutamattoman varauksen maksua, kun poisto tehdään samalla palautusnäytöllä, kun alkuperäinen palautus on tehty. Varausviestin taakse jää ilmoitus **Maksuja ei peritä käsin peruutetuista varauksista**.
 
- 
-
-**Varauksen infokuitin tulostaminen automaattisesti**
+***Varauksen infokuitin tulostuminen automaattisesti***
 
 - Kun palautat niteen, josta on varaus, saat siitä ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/palautusviesti3.PNG)
 
-- Kun järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen infokuitti heti varatun niteen palauttamisen jälkeen automaattisesti.
-
+- Koska järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen infokuitti heti, kun olet palauttanut varatun niteen. 
+- Jos palautat niteen toisen kerran, ohjelma vaatii manuaalisen varausilmoituksen kuittauksen.
 
 ### 2.7.4.4 Varaus toisessa kirjastossa
 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
-![](/assets/files/docs/Lainaus/palautusviesti5.png)
+***Varauksen infokuitin tulostaminen manuaalisesti***
 
-- Valitsemalla **Vahvista varaus**, vahvistat niteen kuljetettavaksi kirjastoon, missä on varauksen noutopaikka.
-- Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
-- Toiminnolla **Älä huomioi** nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
+![](/assets/files/docs/Lainaus/palautusviesti5.PNG)
 
+- Valitsemalla **Vahvista varaus ja kuljetus**, vahvistat niteen kuljetettavaksi kirjastoon, missä on varauksen noutopaikka.
+- Toiminnolla **Tulosta kuitti, kuljeta ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
+- Toiminnolla **Älä huomioi**, nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
 
-- Valitsemalla **Vahvista varaus ja kuljetus**, merkitset niteen
-  kuljetettavaksi siihen kirjastoon, missä on varatun aineiston
-  noutopaikka.
-- Toiminnolla **Tulosta kuitti, kuljeta ja vahvista**, tulostaa
-  ohjelma varauksen kuljetuskuitin ja merkitsee niteen kuljetettavaksi
-  siihen kirjastoon, missä on varatun aineiston noutopaikka.
-- Toiminnolla **Älä huomioi**, niteen tilaksi jää saatavana ja varaus
-  säilyy asiakkaalla voimassa olevana.
-
-![](/assets/files/docs/Lainaus/palautusviesti6.png)
+![](/assets/files/docs/Lainaus/palautusviesti6.PNG)
 
 ### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
 
@@ -514,7 +504,16 @@ saat keltapohjaisen viestin asiakkaan maksuista.
 ### 2.7.2.6 Kadonneeksi merkityn niteen palauttaminen
 
 Jos palautat kadonneeksi merkityn niteen, saat seuraavan ilmoituksen:  
-![](/assets/files/docs/Lainaus/palautusviesti8.png)
+![](/assets/files/docs/Lainaus/palautusviesti8.PNG)
+- Kadonnut-tila poistuu niteeltä automaattisesti, jos järjestelmäasetuksiin on näin määritelty. 
+
+### 2.7.2.7 Laskutetun niteen palauttaminen
+
+Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
+![](/assets/files/docs/Lainaus/palautusviesti12.PNG)
+
+- Niteen laskutettutila ei poistu automaattisesti, jos järjestelmäasetuksissa on näin määritelty.
+
 
 ---
 
