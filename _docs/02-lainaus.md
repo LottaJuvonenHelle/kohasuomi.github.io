@@ -441,8 +441,6 @@ jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
 - Palautuksen jälkeen niteen tilaksi muuttuu _Kuljetettavana_.  
   ![](/assets/files/docs/Lainaus/palautusviesti2.PNG)
 
-<!-- -->
-
 - Nide pitää palauttaa kotikirjastossaan, jotta sen tilaksi muuttuu
   Saatavana-tila.
 
@@ -462,11 +460,12 @@ Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja
 - Kun palautat niteen, josta on varaus, saat siitä ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/palautusviesti10.PNG)
+
 - Valitsemalla toiminnon **Vahvista varaus**, nide menee Odottaa-tilaan.
 - Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa varauksen infokuitin ja muuttaa niteen Odottaa-tilaan. 
 - Toiminnolla **Älä huomioi**, nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
 
-- Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, jossa on mahdollista poistaa varaus toiminnolla **Poista varaus**. 
+Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, jossa on mahdollista poistaa varaus toiminnolla **Poista varaus**. 
 
 ![](/assets/files/docs/Lainaus/palautusviesti11.PNG)
 
