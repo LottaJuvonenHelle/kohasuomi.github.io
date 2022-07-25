@@ -248,7 +248,7 @@ lainaamisen jatkamista.
 **Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
 ![](/assets/files/docs/Lainaus/lainassa.PNG)
 
-**Sarakkeen näkyvyys** -valikosta voit valita, mitä sarakkeita
+**Sarakkeet** -valikosta voit valita, mitä sarakkeita
 Lainassa-välilehdellä näytetään.
 
 ![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.PNG)
@@ -387,16 +387,6 @@ viestin tyhjään kenttään. Kimpan pääkäyttäjät voivat lisätä esimäär
 
 - HUOMIO! Viesti asiakkaalle näkyy myös virkailijoille.
 
-### 2.6.2 Viestin näkyminen
-
-Viesti näkyy asiakkaalle ja/tai virkailijalle lainausnäytön oikeassa
-reunassa. Lihavoidut, punaiset viestit näkyvät vain virkailijoille,
-kursiivilla näkyvät viestit sekä asiakkaalle että virkailijoille.
-
-![](/assets/files/docs/Lainaus/lainausviesti4.png)
-
-Asiakkaan huomautuksissa näkyvät myös maksut mikäli niitä on ja asiakkaan noutoa
-odottavat varaukset.
 
 ### 2.6.3 Vanhentunut asiakastieto
 
@@ -405,7 +395,7 @@ määritelty), näyttöön tulee ilmoitus:
 
 ![](/assets/files/docs/Lainaus/vanhentunut.png)
 
-Tarkista asiakkaan yhteystiedot (osoite, puhelin numero,
+Tarkista asiakkaan yhteystiedot (osoite, puhelinnumero,
 sähköpostiosoite, viestiasetukset). Jos tiedot ovat ajantasalla, klikkaa
 **Uusinta**. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä **Muokkaa tietoja**.
 
@@ -420,7 +410,7 @@ valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
 
 Aineiston palauttamiseen pääset eri näyttöjen kautta.
 
-![](/assets/files/docs/Lainaus/palautus.png)
+![](/assets/files/docs/Lainaus/palautus.PNG)
 
 Kaikista lainaustenvalvonnan toiminnoista on listaus **Lainaus ja
 palautus** -sivulla, jonne pääset jokaisen sivun vasemmasta yläreunasta
@@ -431,7 +421,13 @@ olevasta linkistä.
 Kun palautat aineistoa, lue niteen viivakoodi palautuskenttään.
 Palautetun niteen tiedot tulevat näytölle.
 
-![](/assets/files/docs/Lainaus/palautus1.png)
+![](/assets/files/docs/Lainaus/palautus1.PNG)
+
+**Sarakkeet**-valikosta voit valita, mitä tietoja Palautus-näytöllä näytetään. 
+
+**Vie**-valikosta voit tulostaa, kopioida tai viedä asiakkaan lainat Excel- tai CSV-tiedostoiksi.
+
+Jos teoksesta on varaus ja saat näytölle ilmoituksen: **Maksuja ei peritä käsin peruutetuista varauksista**, voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
 
 ### 2.7.2 Palautuksen viestit
 
@@ -440,36 +436,40 @@ Palautetun niteen tiedot tulevat näytölle.
 Jos olet palauttamassa jonkun muun kirjaston aineistoa, saat viestin,
 jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
 
-![](/assets/files/docs/Lainaus/palautusviesti1.png)
+![](/assets/files/docs/Lainaus/palautusviesti1.PNG)
 
-- Tämän jälkeen niteen tilaksi muuttuu _Kuljetettavana_.  
-  ![](/assets/files/docs/Lainaus/palautusviesti2.png)
+- Palautuksen jälkeen niteen tilaksi muuttuu _Kuljetettavana_.  
+  ![](/assets/files/docs/Lainaus/palautusviesti2.PNG)
 
 <!-- -->
 
 - Nide pitää palauttaa kotikirjastossaan, jotta sen tilaksi muuttuu
-  Saatavana.
+  Saatavana-tila.
 
 ### 2.7.2.2 Useita osia sisältävän niteen palautus
 
 Jos palautat niteen, joka sisältää useita osia ja tieto osista on
 tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
-ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.  
-![](/assets/files/docs/Lainaus/huomsisallosta.png)
+ilmoituksen, jossa kerrotaan montako osaa nide sisältää.  
+![](/assets/files/docs/Lainaus/palautusviesti9.PNG)
 
 ### 2.7.2.3 Varatun niteen palautus
 
-Jos palautat niteen, josta on varaus, saat siitä ilmoituksen.  
-![](/assets/files/docs/Lainaus/palautusviesti3.png)
+Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja kuljetuskuitti automaattisesti vai pitääkö virkailijan vahvistaa kuitin tulostaminen. 
 
-- Valitsemalla toiminnon **Vahvista varaus**, nide menee
-  Odottaa-tilaan.
-- Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa
-  varauksen Infokuitin ja muuttaa niteen Odottaa-tilaan.
-- Toiminnolla **Älä huomioi**, niteen tilaksi jää saatavana ja varaus
-  säilyy asiakkaalla voimassa olevana.
+**Varauksen infokuitin tulostaminen manuaalisesti**
+Kun palautat niteen, josta on varaus, saat siitä ilmoituksen.
 
-![](/assets/files/docs/Lainaus/palautusviesti4.png)
+![](/assets/files/docs/Lainaus/palautusviesti10.PNG)
+
+- Valitsemalla **Vahvista varaus**, vahvistat niteen kuljetettavaksi kirjastoon, missä on varauksen noutopaikka.
+- Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
+- Toiminnolla **Älä huomioi** nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
+
+![](/assets/files/docs/Lainaus/palautusviesti3.PNG)
+
+- 
+
 
 ### 2.7.4.4 Varaus toisessa kirjastossa
 
