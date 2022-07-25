@@ -455,7 +455,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja kuljetuskuitti automaattisesti vai pitääkö virkailijan vahvistaa kuitin tulostaminen. 
 
-**Varauksen infokuitin tulostaminen manuaalisesti**
+***Varauksen infokuitin tulostaminen manuaalisesti***
 
 - Kun palautat niteen, josta on varaus, saat siitä ilmoituksen:
 
