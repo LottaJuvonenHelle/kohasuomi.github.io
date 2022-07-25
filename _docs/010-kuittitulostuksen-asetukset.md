@@ -17,11 +17,11 @@ Avaa selaimen valikko oikeasta yläkulmasta ja valitse sieltä Tulosta.
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer1.png)
 
 Mene sivun asetuksiin.  
-Muoto ja valinnat -välilehdeltä valitse “Sovita sivun leveyteen”.
+**Muoto ja valinnat** -välilehdeltä valitse **“Sovita sivun leveyteen”**.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/tulostin2.png)
 
-Marginaalit ja ylä-/alatunnisteet-välilehdellä muuta kaikki marginaalit
+**Marginaalit ja ylä-/alatunnisteet** -välilehdellä muuta kaikki marginaalit
 0:ksi ja kaikkiin ylä- ja alatunnisteisiin valitse --tyhjä--. Tämä asetus
 käyttää kaiken tilan kuitin tulostukseen.
 
@@ -31,12 +31,12 @@ Klikkaa lopuksi _OK_.
 
 ---
 
-## 9.2 Oletustulostin Firefoxiin
+### 9.1.2 Oletustulostin Firefoxiin
 
 Aseta oletustulostin Firefoxiin, niin et joudu joka kerta erikseen valitsemaan
 tulostinta Tulosta-valikosta.
 
-Mene vasemmasta yläkulmasta Tulosta-valikkoon.
+Mene vasemmasta yläkulmasta **Tulosta**-valikkoon.
 
 Valitse valikosta käytössä oleva kuittitulostimesi ja klikkaa
 _Ominaisuudet_ tai _Määritykset_ -painiketta, riippuen tulostusikkunan
@@ -44,7 +44,7 @@ ulkonäöstä.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer3.png)
 
-Käy tarkistamassa Asettelu-välilehdeltä, että Paperikoko ja
+Käy tarkistamassa **Asettelu**-välilehdeltä, että Paperikoko- ja
 Tulostuspaperi -asetukset ovat oikein. Toiminnot riippuvat
 kuittitulostimen valinnoista.
 
@@ -58,7 +58,7 @@ Tulosta lopuksi ensimmäinen sivu valitulle tulostimelle painamalla _OK_.
 
 ---
 
-## 9.3 Selaimen määrittely tulostamaan automaattisesti
+### 9.1.3 Selaimen määrittely tulostamaan automaattisesti
 
 Mene Firefoxiin. Kirjoita Firefoxin osoiteriville _about:config_. Saat
 varoituksen vaarallisesta sivusta, klikkaa _“Otan riskin!”_.
@@ -88,9 +88,9 @@ valmiina), lisää tämä ominaisuus:
 VAROITUS  
 Näin määritetty print.always_print_silent -asetus estää tulostimen
 vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja,
-käytä tulostamiseen toista selaiohjelmaa.
+käytä tulostamiseen toista selainohjelmaa.
 
-### 9.3.1 Selaimen päivittyessä
+### 9.1.4 Selaimen päivittyessä
 
 Jos Firefox-selain päivittyy, eikä kuittitulostus toimi oikein, tarkista
 kuittitulostuksen asetukset. Joskus joutuu myös poistamaan yllä kuvatun
@@ -98,7 +98,7 @@ _print.always_print_silent_-määrityksen ja tekemään sen uudelleen.
 
 ---
 
-## 9.4 Ponnahdusikkunat
+### 9.1.5 Ponnahdusikkunat
 
 Jos kuitin tulostusvaiheessa tulee ilmoitus, ettei ponnahdusikkunat ole
 sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
@@ -110,7 +110,7 @@ Esimmerkissä OUTI-kimpan poikkeus:
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/sallitut_sivustot2.PNG)
 
-## 9.1.2 Firefoxin versio 90+
+## 9.2 Firefoxin versio 90+
 
 Firefoxin 90+ -versioissa kuittitulostukset eivät välttämättä toimi tai ne toimivat vain sen istunnon ajan, kun tulostusasetukset ovat määritelty. Jos Kohaa käytetään Firefoxin uusimilla selainversioilla, alla esimerkkiasetukset, joilla tulostus voidaan saada toimimaan ainakin osittain.
 
@@ -132,10 +132,10 @@ Klikkaa tämän jälkeen "Enemmän asetuksia".
 - Koko: Sovita sivun leveyteen
 - Sivuja per arkki: 1
 - Reunukset: Ei reunuksia
-- Ota pois valinnat: Tulosta ylä- ja alatunnisteet ja "Tulosta taustat.
+- Ota pois valinnat: "Tulosta ylä- ja alatunnisteet" ja "Tulosta taustat".
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/Tulosta_asetukset2.PNG)
 
 Kun asetukset ovat kunnossa, tulosta kuittitulostimella yksi testitulostus. 
 Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta. 
-Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.3 mukaisesti.
+Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.1.3 mukaisesti.
