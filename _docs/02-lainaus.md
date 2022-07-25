@@ -418,7 +418,7 @@ olevasta linkistä.
 
 ### 2.7.1 Aineiston palauttaminen
 
-Kun palautat aineistoa, lue niteen viivakoodi palautuskenttään.
+Kun palautat aineistoa, lue niteen viivakoodi Palautus-kenttään.
 Palautetun niteen tiedot tulevat näytölle.
 
 ![](/assets/files/docs/Lainaus/palautus1.PNG)
