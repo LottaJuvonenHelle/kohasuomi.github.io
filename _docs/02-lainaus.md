@@ -466,6 +466,10 @@ Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja
 - Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
 - Toiminnolla **Älä huomioi** nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
 
+**Varauksen infokuitin tulostaminen automaattisesti**
+
+Jos järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen infokuitti heti varatun niteen palautuksen jälkeen automaattisesti.
+
 ![](/assets/files/docs/Lainaus/palautusviesti3.PNG)
 
 - 
