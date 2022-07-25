@@ -429,6 +429,7 @@ Palautetun niteen tiedot tulevat näytölle.
 
 Jos teoksesta on varaus ja saat näytölle ilmoituksen: **Maksuja ei peritä käsin peruutetuista varauksista**, voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
 
+
 ### 2.7.2 Palautuksen viestit
 
 ### 2.7.2.1 Toisen kirjaston aineiston palautus
@@ -444,12 +445,14 @@ jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
 - Nide pitää palauttaa kotikirjastossaan, jotta sen tilaksi muuttuu
   Saatavana-tila.
 
+
 ### 2.7.2.2 Useita osia sisältävän niteen palautus
 
 Jos palautat niteen, joka sisältää useita osia ja tieto osista on
 tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
 ilmoituksen, jossa kerrotaan montako osaa nide sisältää.  
 ![](/assets/files/docs/Lainaus/palautusviesti9.PNG)
+
 
 ### 2.7.2.3 Varatun niteen palautus
 
@@ -480,6 +483,7 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 - Koska järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen infokuitti heti, kun olet palauttanut varatun niteen. 
 - Jos palautat niteen toisen kerran, ohjelma vaatii manuaalisen varausilmoituksen kuittauksen.
 
+
 ### 2.7.4.4 Varaus toisessa kirjastossa
 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
@@ -499,17 +503,20 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
 - Koska järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen kuljetuskuitti heti, kun olet palauttanut varatun niteen. 
 
+
 ### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
 
 Jos järjestelmä on asetettu näyttämään maksut palautuksen yhteydessä,
 saat keltapohjaisen viestin asiakkaan maksuista.  
 ![](/assets/files/docs/Lainaus/palautusviesti7.png)
 
+
 ### 2.7.2.6 Kadonneeksi merkityn niteen palauttaminen
 
 Jos palautat kadonneeksi merkityn niteen, saat seuraavan ilmoituksen:  
 ![](/assets/files/docs/Lainaus/palautusviesti8.PNG)
 - Kadonnut-tila poistuu niteeltä automaattisesti, jos järjestelmäasetuksiin on näin määritelty. 
+
 
 ### 2.7.2.7 Laskutetun niteen palauttaminen
 
