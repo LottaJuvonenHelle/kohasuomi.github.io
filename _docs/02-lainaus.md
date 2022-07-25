@@ -458,21 +458,21 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja kuljetuskuitti automaattisesti vai pitääkö virkailijan vahvistaa kuitin tulostaminen. 
 
 **Varauksen infokuitin tulostaminen manuaalisesti**
-- Kun palautat niteen, josta on varaus, saat siitä ilmoituksen.
+
+- Kun palautat niteen, josta on varaus, saat siitä ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/palautusviesti10.PNG)
-
-- Valitsemalla **Vahvista varaus**, vahvistat niteen kuljetettavaksi kirjastoon, missä on varauksen noutopaikka.
-- Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
+- Valitsemalla toiminnon **Vahvista varaus**, nide menee Odottaa-tilaan.
+- Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa varauksen infokuitin ja muuttaa niteen Odottaa-tilaan. 
 - Toiminnolla **Älä huomioi** nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
 
 **Varauksen infokuitin tulostaminen automaattisesti**
 
-Jos järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen infokuitti heti varatun niteen palautuksen jälkeen automaattisesti.
+- Kun palautat niteen, josta on varaus, saat siitä ilmoituksen.
 
 ![](/assets/files/docs/Lainaus/palautusviesti3.PNG)
 
-- 
+- Kun järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen infokuitti heti varatun niteen palauttamisen jälkeen automaattisesti.
 
 
 ### 2.7.4.4 Varaus toisessa kirjastossa
@@ -481,6 +481,11 @@ Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
 ![](/assets/files/docs/Lainaus/palautusviesti5.png)
+
+- Valitsemalla **Vahvista varaus**, vahvistat niteen kuljetettavaksi kirjastoon, missä on varauksen noutopaikka.
+- Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
+- Toiminnolla **Älä huomioi** nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
+
 
 - Valitsemalla **Vahvista varaus ja kuljetus**, merkitset niteen
   kuljetettavaksi siihen kirjastoon, missä on varatun aineiston
