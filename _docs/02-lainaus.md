@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-# 2. Lainaus
+# 2. Lainaus ja palautus
 
 Käytä lainaustoiminnoissa Firefox-selainta, jolla voit määrittää asiakaskuitit 
 tulostumaan automaattisesti (ohje kohdassa 9. Kuittitulostuksen
