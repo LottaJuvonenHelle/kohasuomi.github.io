@@ -100,9 +100,9 @@ Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 Kun lopetat lainaamisen, näytöltä pitää tyhjeentää asiakkaan tiedot.
 Näytön voit tyhjentää kahdella tavalla:
 
-- painamalla **Enter**. (Huom! asetuksista riippuen, Enter voi myös
+- Painamalla **Enter**. (Huom! asetuksista riippuen, Enter voi myös
   tulostaa asiakkaan lainakuitin).
-- klikkaamalla **X** lainauskentän oikeasta yläkulmasta.
+- Klikkaamalla **X** lainauskentän oikeasta yläkulmasta.
 
 ![](/assets/files/docs/Lainaus/tyhjennys.PNG)
 
@@ -458,7 +458,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja kuljetuskuitti automaattisesti vai pitääkö virkailijan vahvistaa kuitin tulostaminen. 
 
-***Varauksen infokuitin tulostaminen manuaalisesti***
+***Varauksen infokuitin tulostaminen manuaalisesti***:
 
 - Kun palautat niteen, josta on varaus, saat siitä ilmoituksen:
 
@@ -474,7 +474,7 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 
 - Poistetusta varauksesta ei tallennu asiakkaalle noutamattoman varauksen maksua, kun poisto tehdään samalla palautusnäytöllä, kuin alkuperäinen palautus on tehty. Varausviestin taakse jää ilmoitus **"Maksuja ei peritä käsin peruutetuista varauksista"**.
 
-***Varauksen infokuitin tulostuminen automaattisesti***
+***Varauksen infokuitin tulostuminen automaattisesti***:
 
 - Kun palautat niteen, josta on varaus, saat siitä ilmoituksen:
 
@@ -489,7 +489,7 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
-***Varauksen kuljetuskuitin tulostaminen manuaalisesti***
+***Varauksen kuljetuskuitin tulostaminen manuaalisesti***:
 
 ![](/assets/files/docs/Lainaus/palautusviesti5.PNG)
 
@@ -497,7 +497,7 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 - Toiminnolla **Tulosta kuitti, kuljeta ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
 - Toiminnolla **Älä huomioi**, nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
 
-***Varauksen kuljetuskuitin tulostuminen automaattisesti***
+***Varauksen kuljetuskuitin tulostuminen automaattisesti***:
 
 ![](/assets/files/docs/Lainaus/palautusviesti13.PNG)
 
