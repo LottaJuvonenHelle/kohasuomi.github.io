@@ -70,16 +70,16 @@ Kun olet lainannut kaikki asiakkaan lainat, voit tulostaa lainauskuitin
 eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 
 Kuitin voit tulostaa:
-- painamalla näppäimistöltä **Enter**. (Huom.
+- Painamalla näppäimistöltä **Enter**. (Huom.
   järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
-  asiakastiedot)
-- painamalla pikanäppäimiä **Alt+P**
-- asiakastietojen yläpuolelta olevasta **Tulosta**-valikosta valitsemalla **Tänään lainatut**
+  asiakastiedot).
+- Painamalla pikanäppäimiä **Alt+P**.
+- Asiakastietojen yläpuolelta olevasta **Tulosta**-valikosta valitsemalla **Tänään lainatut**.
   
 **Huom!** Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta tulostuvat kaikki asiakkaan lainat kuitille.
 ![](/assets/files/docs/Lainaus/tulostin.PNG)
 
-**Tulosta** -valikosta voit tulostaa myös:
+**Tulosta** -valikosta voit tulostaa myös kuitin:
 
 ![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
 
