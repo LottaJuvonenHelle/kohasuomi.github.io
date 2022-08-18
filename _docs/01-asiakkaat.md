@@ -338,9 +338,11 @@ Tästä alasvetovalikosta voit valita ja tulostaa asiakkaan haluaman kuitin. Huo
 
 ### 1.4.3. Hae ja varaa
 
-Hae ja varaa-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun. Pääset tekemään varauksen asiakkaalle suoraan hakutuloslistalla tai tietueen tiedoissa. Hakutuloslistalla voit tarvittaessa myös poistaa toiminnon muistista asiakkaan tiedot. Tietuetiedoissa sitä toimintoa ei ole.
+Hae ja varaa-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun. Pääset tekemään varauksen asiakkaalle suoraan hakutuloslistalla tai tietueen tiedoissa. Hakutuloslistalla voit tarvittaessa myös poistaa toiminnon muistista asiakkaan tiedot. 
 
 ![](/assets/files/docs/Asiakkaat/Haejavaraa1.png)
+
+Tietuetiedoissa sitä toimintoa ei ole.
 
 ![](/assets/files/docs/Asiakkaat/Haejavaraa2.png)
 
