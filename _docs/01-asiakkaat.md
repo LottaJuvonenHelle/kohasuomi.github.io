@@ -348,7 +348,24 @@ Tietuetiedoissa sitä toimintoa ei ole.
 
 ### 1.4.4. Lisää viesti
 
+![](/assets/files/docs/Asiakkaat/Jataviesti1.png)
+
+Tällä toiminnolla lisätään asiakastietoihin viestejä. Voi lisätä ns. Sisäisen viestin tai Asiakasliittymäviestin. 
+Sisäinen viesti näkyy vain virkailijaliittymässä, asiakasliittymäviesti näkyy asiakkaalle verkkokirjastossa.
+
+Voit valita esimääritellyistä viesteistä tarvitsemasi pohjan ja muokata sitä tarvittaessa tai kirjoittaa tyhjään kenttään tarvittavan tekstin.
+
+![](/assets/files/docs/Asiakkaat/Jataviesti2.png)
+
+Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainaus- ja Tiedot-sivuilla. Ne voi poistaa klikkaamalla roskakorikuvaketta.
+
+![](/assets/files/docs/Asiakkaat/Jataviesti3.png)
+
+\- Viestiin tallentuu automaattisesti päivämäärä, kirjasto sekä viestin tallentaja, joten niitä ei tarvitse manuaalisesti lisätä viestiin.
+
 ### 1.4.5. Muita toimintoja -alasvetovalikko
+
+![](/assets/files/docs/Asiakkaat/Muitatoimintoja1.png)
 
 #### 1.4.5.1. Asiakaan käyttöoikeuden jatkaminen
 
