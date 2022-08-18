@@ -285,11 +285,14 @@ Kirjastotiedot) klikkaa sen osion alla olevaa sinistä Muokkaa-linkkiä.
 
 ![](/assets/files/docs/Asiakkaat/muokkaanappi2.png)
 
-Asiakastietojen yläreunassa olevilla painikkeilla pääset vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa, lisäämään asiakastietoihin viestin sekä Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, poistamaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. 
+Asiakastietojen yläreunassa olevilla painikkeilla pääset lisäämään asiakkaalle huollettavan, vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa, lisäämään asiakastietoihin viestin sekä Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, poistamaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. 
 
 Koko asiakastietueen muokkaukseen pääset Muokkaa-painiketta klikkaamalla.
 
 ![](/assets/files/docs/Asiakkaat/Muokkaanappi1.png)
+### 1.4.1. Lisää huollettava
+
+Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. Lisää huollettava-nappi avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla huoltaja. Valittuasi asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy automaattisesti.
 
 ### 1.4.1. Salasanan vaihtaminen
 
@@ -299,7 +302,7 @@ Asiakkaan salasanaa ei voi nähdä. Jos asiakas unohtaa salasanansa, hänelle pi
 
 ![](/assets/files/docs/Asiakkaat/salasana.png)
 
-\- Koha ei voi näyttää entistä salasanaa. Jätä salasanakenttä tyhjäksi,
+\- Koha ei voi näyttää entistä salasanaa. Jätä salasanakenttä tyhjäksi tai valitse "Peruuta",
 jos et halua vaihtaa salasanaa.
 
 \- Jos haluat automaattisesti luodun salasanan, klikkaa “Valitse tästä
@@ -318,8 +321,11 @@ tietueissa.
 Avaa sen asiakkaan tiedot, jonka haluat kopioida ja klikkaa
 Kopioi-nappia tietueen yläreunassa.
 
-Sukunimi, lapsiasiakkaalla takaajatiedot, osoite, sähköpostiosoite, kirjasto sekä asiakastyyppi 
+Sukunimi, osoite, matkapuhelinnumero, sähköpostiosoite, kirjasto, asiakastyyppi ja ilmoitusten kieli 
 kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
+
+\- Lapsiasiakkaalta kopioituu myös hänen takaajatietonsa.
+\- Matkapuhelinkentän puhelinnumero kopioituu myös asiakkaan viestiasetuksiin.
 
 Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
 
