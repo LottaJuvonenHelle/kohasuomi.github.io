@@ -371,14 +371,15 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 
 Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tilin uusimiselle on useita linkkejä ja paikkoja. 
 - Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä “Uusinta" tai Muita toimintoja-alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”.
+
+![](/assets/files/docs/Asiakkaat/Tilinuusiminen1.png)
+
 - Asiakkaan tiedot sivulla tili uusitaan ruudun keskellä sijaitsevan Huomio-kohdan Uusinta-linkin kautta, Kirjastotiedot kohdasta tai 
 Muita toimintoja- alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”. 
 
-![](/assets/files/docs/Asiakkaat/tilinvanh.png)
+![](/assets/files/docs/Asiakkaat/Tilinuusiminen2.png)
 
-![](/assets/files/docs/Asiakkaat/Uusitili.png)
-
-![](/assets/files/docs/Asiakkaat/Uusitili2.png)
+![](/assets/files/docs/Asiakkaat/Tilinuusiminen3.png)
 
 Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määritellyn voimassaoloajan mukaan.
 
