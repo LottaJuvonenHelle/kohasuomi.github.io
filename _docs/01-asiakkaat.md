@@ -402,12 +402,16 @@ Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä.
 
 ### 1.4.5.3. Päivitä lapsi aikuiseksi
 
-Lapsiasiakkaasta ei tule automaattisesti aikuista ellei Kohassa ole
-siihen liittyvä ajo käynnissä. Lapsen voi muuttaa aikuiseksi Asiakkaan
-tiedot -näytöllä valitsemalla Muita toimintoja -valikosta “Päivitä lapsi
-aikuiseksi”.
+Lapsiasiakkaasta ei tule automaattisesti henkilöasiakasta ellei Kohassa ole
+siihen liittyvä ajo käynnissä. Lapsen voi muuttaa henkilöasiakkaaksi valitsemalla Muita toimintoja -valikosta “Päivitä lapsi
+aikuiseksi”. Koha antaa asiakastyyppivaihtoehdot, joista valitaan haluttua asiakastyyppi. 
+Huom. päivitysnappi on aktiivinen kaikilla alaikäisillä asiakkailla ja sillä voi muuttaa tätä kautta lapsiasiakkaan myös esi. kotipalveluasiakkaaksi.
 
-![](/assets/files/docs/Asiakkaat/lapsiaikuiseksi.png)
+![](/assets/files/docs/Asiakkaat/Lapsiaikuiseksi1.png)
+
+Jos asiakas on edelleen alaikäinen, niin päivitys henkilöasiakkaaksi ei ole mahdollinen.
+
+![](/assets/files/docs/Asiakkaat/Lapsiaikuiseksi2.png)
 
 ### 1.4.3. Lapsiasiakkaan takaajan vaihtaminen
 
