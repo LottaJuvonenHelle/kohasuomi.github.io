@@ -171,8 +171,6 @@ vaihtaa asiakastyypin, muutos ei tuo esille mm. takaajatieto-kenttää tai
 poista sitä näkyvistä. Tätä ei kannata muuttaa. Aloita mielummin alusta,
 jos valitsit alussa väärän asiakastyypin.
 
-![](/assets/files/docs/Asiakkaat/Lapsellapitaaollatakaaja.png)
-
 \- Valitse asiakasviestien kieli kohdassa “Ilmoitusten kieli”.
 
 #### 1.1.5.2 Kirjaston asetukset-osio
