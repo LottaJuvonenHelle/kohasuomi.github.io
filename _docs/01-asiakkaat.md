@@ -370,11 +370,12 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 #### 1.4.5.1. Asiakaan käyttöoikeuden jatkaminen
 
 Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tilin uusimiselle on useita linkkejä ja paikkoja. 
-- Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä “Uusinta" tai Muita toimintoja-alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”.
+
+Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä “Uusinta" tai Muita toimintoja-alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”.
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen1.png)
 
-- Asiakkaan tiedot sivulla tili uusitaan ruudun keskellä sijaitsevan Huomio-kohdan Uusinta-linkin kautta, Kirjastotiedot kohdasta tai 
+Asiakkaan tiedot sivulla tili uusitaan ruudun keskellä sijaitsevan Huomio-kohdan Uusinta-linkin kautta, Kirjastotiedot kohdasta tai 
 Muita toimintoja- alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”. 
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen2.png)
@@ -383,7 +384,23 @@ Muita toimintoja- alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”.
 
 Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määritellyn voimassaoloajan mukaan.
 
-### 1.4.5.2. Päivitä lapsi aikuiseksi
+### 1.4.5.2. Poista
+
+Tällä toiminnolla poistetaan asiakas rekisteristä.
+
+Koha varmistaa, että haluatko varmasti poistaa asiakkaan. Kun klikkaat "Kyllä, poista", niin asiakastili lähtee heti pois asiakasrekisteristä. Ei, älä poista -napin klikkaus peruu toimenpiteen.
+
+![](/assets/files/docs/Asiakkaat/Poista1.png)
+
+Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä.
+
+![](/assets/files/docs/Asiakkaat/Poista2.png)
+
+![](/assets/files/docs/Asiakkaat/Poista3.png)
+
+![](/assets/files/docs/Asiakkaat/Poista4.png)
+
+### 1.4.5.3. Päivitä lapsi aikuiseksi
 
 Lapsiasiakkaasta ei tule automaattisesti aikuista ellei Kohassa ole
 siihen liittyvä ajo käynnissä. Lapsen voi muuttaa aikuiseksi Asiakkaan
