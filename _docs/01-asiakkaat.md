@@ -325,13 +325,20 @@ Sukunimi, osoite, matkapuhelinnumero, sähköpostiosoite, kirjasto, asiakastyypp
 kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
 
 \- Lapsiasiakkaalta kopioituu myös hänen takaajatietonsa.
+
 \- Matkapuhelinkentän puhelinnumero kopioituu myös asiakkaan viestiasetuksiin.
 
-Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
+- Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
 
-### 1.4.2. Muita toimintoja -alasvetovalikko
+### 1.4.2. Tulosta
 
-#### 1.4.2.1. Asiakaan käyttöoikeuden jatkaminen
+### 1.4.3. Hae ja varaa
+
+### 1.4.4. Lisää viesti
+
+### 1.4.5. Muita toimintoja -alasvetovalikko
+
+#### 1.4.5.1. Asiakaan käyttöoikeuden jatkaminen
 
 Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tili uusitaan lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä
 “Uusinta”, asiakkaan tiedot sivulla Kirjastotiedot kohdasta tai Muita toimintoja- alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”. 
@@ -344,7 +351,7 @@ Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tili uusi
 
 Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määritellyn voimassaoloajan mukaan.
 
-### 1.4.2.2. Päivitä lapsi aikuiseksi
+### 1.4.5.2. Päivitä lapsi aikuiseksi
 
 Lapsiasiakkaasta ei tule automaattisesti aikuista ellei Kohassa ole
 siihen liittyvä ajo käynnissä. Lapsen voi muuttaa aikuiseksi Asiakkaan
