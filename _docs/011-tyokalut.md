@@ -852,10 +852,19 @@ pitää halutessaan poistaa manuaalisesti.
 
 ## 10.17 Työkaluliitännäiset
 
-Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
+Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
 <img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:100.0%" />
 
+## 10.17.1 Laskutustyökalu
+
+## 10.17.2 Tulosta ilmoituksia
+
+## 10.17.3 Sotuteekki
+
+## 10.17.4 Tarratulostustyökalu
+
+---
 Koha-Suomella on käytössä yksi raporttiliitännäinen, jonka saa esille
 klikkaamalla _Katso liitännäisiä luokan mukaan_ -nappia tai menemällä
 Raportit-osioon.
