@@ -244,7 +244,7 @@ voi laittaa rastia, jos tässä kentässä ei ole puhelinnumeroa.
 - SMS-palveluntuottaja-kohtaan ei tarvitse valita mitään. Ominaisuus ei
   ole käytössä.
 
-Tärkeää
+**Tärkeää**
 
 \- Nämä asetukset kumoavat asiakaslajeihin tehdyt oletusvalinnat.
 
