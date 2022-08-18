@@ -80,7 +80,7 @@ sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 ### 1.1.2. Nimi, syntymäaika ja varaustunnus
 
 Syötä asiakkaan koko nimi ja syntymäaika. Varaustunniste täyttyy automaattisesti. Huomaathan,
-että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät.
+että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät tai vaihtoehdot.
 
 ![](/assets/files/docs/Asiakkaat/Varaustunnus1.png)
 
