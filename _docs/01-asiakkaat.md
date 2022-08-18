@@ -289,7 +289,7 @@ Asiakastietojen yläreunassa olevilla painikkeilla pääset vaihtamaan salasanan
 
 Koko asiakastietueen muokkaukseen pääset Muokkaa-painiketta klikkaamalla.
 
-![](/assets/files/docs/Asiakkaat/muokkaanappi.png)
+![](/assets/files/docs/Asiakkaat/Muokkaanappi1.png)
 
 ### 1.4.1. Salasanan vaihtaminen
 
