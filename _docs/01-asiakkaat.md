@@ -118,6 +118,9 @@ Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
 tietoihin toisella välilehdelle ja tee takaajahaku uudelleen.
 
+Roskakorin kuvaketta klikkaamalla saat huoltajatiedon poistettua. Huom. alaikäisellä asiakkaalla tulee aina olla vähintään
+yksi takaaja, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
+
 #### 1.1.3.1. Ei-asiakas takaaja-tiedon lisääminen
 
 Kimppakohtainen.
