@@ -124,6 +124,7 @@ yksi takaaja, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä 
 #### 1.1.3.1. Ei-asiakas takaaja-tiedon lisääminen
 
 Kimppakohtainen.
+
 ![](/assets/files/docs/Asiakkaat/Eiasiakastakaaja.png)
 
 ### 1.1.4. Yhteystiedot
