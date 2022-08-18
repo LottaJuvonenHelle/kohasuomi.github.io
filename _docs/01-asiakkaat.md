@@ -332,7 +332,17 @@ kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
 
 ### 1.4.2. Tulosta
 
+Tästä alasvetovalikosta voit valita ja tulostaa asiakkaan haluaman kuitin. Huom. kuiteissa voi olla kimppakohtaisia eroja.
+
+![](/assets/files/docs/Asiakkaat/Tulosta.png)
+
 ### 1.4.3. Hae ja varaa
+
+Hae ja varaa-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun. Pääset tekemään varauksen asiakkaalle suoraan hakutuloslistalla tai tietueen tiedoissa. Hakutuloslistalla voit tarvittaessa myös poistaa toiminnon muistista asiakkaan tiedot. Tietuetiedoissa sitä toimintoa ei ole.
+
+![](/assets/files/docs/Asiakkaat/Haejavaraa1.png)
+
+![](/assets/files/docs/Asiakkaat/Haejavaraa2.png)
 
 ### 1.4.4. Lisää viesti
 
