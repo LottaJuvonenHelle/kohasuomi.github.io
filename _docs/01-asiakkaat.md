@@ -220,7 +220,7 @@ olla käytössä.
 Lopuksi vielä tallennetaan asiakkaan viestiasetukset. Käytettävissä
 olevat viestivaihtoehdot vaihtelevat kimpoittain.
 
-![](/assets/files/docs/Asiakkaat/Asiakkaanviestirajoitukset1.png)
+![](/assets/files/docs/Asiakkaat/Asiakkaanviestiasetukset.png)
 
 \- Ilmoitus eräpäivänä: Ilmoitus lainojen erääntymisestä eräpäivänä.
 
@@ -231,14 +231,13 @@ valitsee 0, ei viestiä lähetetä, vaikka rasti olisi paikallaan.
 \- Saapumisilmoitus: Ilmoitus asiakkaalle noudettavissa olevasta
 varauksesta.
 
-\- Palautus: Lista asiakkaan juuri palauttamasta aineistosta.
+\- Palautuskuitti: Lista asiakkaan juuri palauttamasta aineistosta.
 
-\- Lainaus: Lista asiakkaan juuri lainaamista niteistä. Tämä on
+\- Lainauskuitti: Lista asiakkaan juuri lainaamista niteistä. Tämä on
   sähköinen versio lainauskuitista.
 
-\- Lisää puhelinnumero “Tekstiviesti numeroon” -kenttään, jotta
-tekstiviestit lähetetään. Huom. Matkapuhelin-kenttään lisätty numero 
-kopioituu automaattisesti asiakkaan viestiasetuksiin, jos asiakas 
+\- Lisää “Tekstiviesti numeroon” -kenttään asiakkaan puhelinnumero, johon hän haluaa viestien saapuvan.
+Huom. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos asiakas 
 haluaa varausilmoitukset tekstiviestinä. Testiviesti-vaihtoehtoon ei 
 voi laittaa rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
@@ -253,7 +252,8 @@ Tärkeää
 
 - Valitse koosteilmoitus ennakkoilmoitukseen ja eräpäiväilmoitukseen,
   niin asiakas saa yhdessä viestissä kaikkien erääntyvien niteiden tiedot
-  eikä jokaisesta lainasta erillistä viestiä!
+  eikä jokaisesta lainasta erillistä viestiä! Huom. Joissain kimpoissa tämän sarakkeen 
+  ruksit on valittu oletuksena ja valinnat lukittu.
 
 Lopuksi tallenna tiedot.
 
