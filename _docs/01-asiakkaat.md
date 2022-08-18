@@ -369,8 +369,10 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 
 #### 1.4.5.1. Asiakaan käyttöoikeuden jatkaminen
 
-Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tili uusitaan lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä
-“Uusinta”, asiakkaan tiedot sivulla Kirjastotiedot kohdasta tai Muita toimintoja- alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”. 
+Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tilin uusimiselle on useita linkkejä ja paikkoja. 
+- Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä “Uusinta" tai Muita toimintoja-alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”.
+- Asiakkaan tiedot sivulla tili uusitaan ruudun keskellä sijaitsevan Huomio-kohdan Uusinta-linkin kautta, Kirjastotiedot kohdasta tai 
+Muita toimintoja- alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”. 
 
 ![](/assets/files/docs/Asiakkaat/tilinvanh.png)
 
