@@ -206,8 +206,8 @@ Tässä tallennettu käyttäjätunnus näkyy asiakkaan Tiedot-välilehdellä.
 
 #### 1.1.5.4. Muut määritteet ja tunnukset
 
-Tähän tulee mm. sotu-avain ja OUTI-kimpalla tässä asetetaan
-omatoimikirjaston käyttöesto. Myös muita kimppakohtaisia määritteitä voi
+Tähän tulee mm. Järjestelmäavain asiakastietojen lähetykseen ja 
+Sotu-avain. Myös muita kimppakohtaisia määritteitä voi
 olla käytössä.
 
 ![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset1.png)
