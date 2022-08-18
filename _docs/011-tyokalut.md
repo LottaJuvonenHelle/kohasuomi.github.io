@@ -852,9 +852,9 @@ pitää halutessaan poistaa manuaalisesti.
 
 ## 10.17 Työkaluliitännäiset
 
-Koha-Suomella ei ole tällä hetkellä työkalu-liitännäisiä.
+Koha-Suomella tällä hetkellä neljä työkalu-liitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu..
 
-<img src="/assets/files/docs/Tyokalut/liitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa kerrotaan &quot;Ei työkaluiksi luettavia asennettuja liitännäisiä" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa kerrotaan &quot;Ei työkaluiksi luettavia asennettuja liitännäisiä" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:70.0%" />
 
 Koha-Suomella on käytössä yksi raporttiliitännäinen, jonka saa esille
 klikkaamalla _Katso liitännäisiä luokan mukaan_ -nappia tai menemällä
