@@ -202,6 +202,8 @@ verkkokirjastoon. Huom! Kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/kirjautumistunnus.png)
 
+Tässä tallennettu käyttäjätunnus näkyy asiakkaan Tiedot-välilehdellä.
+
 #### 1.1.5.4. Muut määritteet ja tunnukset
 
 Tähän tulee mm. sotu-avain ja OUTI-kimpalla tässä asetetaan
