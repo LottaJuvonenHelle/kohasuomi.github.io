@@ -53,8 +53,6 @@ Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
 
 ![](/assets/files/docs/Asiakkaat/Tarkistahetu.png)
 
-#### 1.1.1.1. Sotu on jo olemassa
-
 Jos syötetty henkilötunnus on jo sotu-siilossa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
 henkilötunnuksen sotuavaimella asiakastietoja. 
 
@@ -69,7 +67,7 @@ Klikkaamalla OK käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita t
 ![](/assets/files/docs/Asiakkaat/Sotu3.png)
 
 
-#### 1.1.1.2. Sotu-siilon käyttöliittymä
+#### 1.1.1.1. Sotu-siilon käyttöliittymä
 
 Sotu-siiloon on olemassa myös toinen käyttöliittymä, jonka kautta
 esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
@@ -136,8 +134,8 @@ muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikos
 
 ![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
 
-Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero Ensisijainen puhelin/lankapuhelinkenttään ja matkapuhelin
-Muu puhelin/matkapuhelinkenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
+Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero Lankapuhelin-kenttään ja matkapuhelinnumero
+Matkapuhelin-kenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
 asiakas haluaa varausilmoitukset tekstiviestinä. Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät.
 
 Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa 
@@ -147,7 +145,7 @@ ei välttämättä ole otettu käyttöön.
 
 Huom! Puhelinnumero-kenttiin ei saa kirjoittaa muuta kuin
 puhelinnumeron. Ei esim. perään äiti, isä yms. eikä väliviivaa.
-Kansainvälisen suunnan (esim. +358) numeron yhteyteen voi lisätä.
+Kansainvälisen suunnan (esim. +358) puhelinnumeron yhteyteen voi lisätä.
 
 Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite. Huom! Tässä on
 kimppakohtaisia eroja.
