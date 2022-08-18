@@ -255,6 +255,8 @@ Tärkeää
   eikä jokaisesta lainasta erillistä viestiä! Huom. Joissain kimpoissa tämän sarakkeen 
   ruksit on valittu oletuksena ja valinnat lukittu.
 
+## 1.1. Tallennus
+
 Lopuksi tallenna tiedot.
 
 Jos järjestelmä epäilee, että olet tekemässä tupla-asiakkaan, saat siitä
