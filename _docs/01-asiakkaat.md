@@ -250,7 +250,7 @@ Tärkeää
 
 \- Asiakas voi itse muuttaa näitä asetuksia verkkokirjastossa.
 
-- Valitse koosteilmoitus ennakkoilmoitukseen ja eräpäiväilmoitukseen,
+\- Valitse koosteilmoitus ennakkoilmoitukseen ja eräpäiväilmoitukseen,
   niin asiakas saa yhdessä viestissä kaikkien erääntyvien niteiden tiedot
   eikä jokaisesta lainasta erillistä viestiä! Huom. Joissain kimpoissa tämän sarakkeen 
   ruksit on valittu oletuksena ja valinnat lukittu.
