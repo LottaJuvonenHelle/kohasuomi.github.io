@@ -862,6 +862,11 @@ Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha
 
 ### 10.17.3 Sotuteekki
 
+Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
+Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
+
+<img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät käyttäjätunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät käyttäjätunnus, salasana ja sotu-avain" style="width:50.0%" />
+
 ### 10.17.4 Tarratulostustyökalu
 
 ---
