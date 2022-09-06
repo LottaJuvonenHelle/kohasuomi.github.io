@@ -1,19 +1,15 @@
 main:
   - title: 'Etusivu'
     url: /
-  - title: 'Koha'
-    url: /koha
-  - title: 'Yhtiökokous'
-    url: /yhtiokokous
-    children:
-      - title: '2021'
-        url: /yhtiokokous/2021
   - title: 'Yhteystiedot'
     url: /yhteystiedot
-  - title: 'Dokumentaatio'
-    url: /dokumentaatio/asiakkaat/
+  - title: 'Muistiot'
+    url: /muistiot
+  - title: 'Ohjeet'
+    url: /dokumentaatio/ohjeet/
 
 # documentation links
+# Lisää oma osio Koha suomeksi ohjeelle, tekniselle dokumentaatiolle ja ohjevideoille. Laita tiedostot _docs-hakemistoon, numeroi ne oikeaan järjestykseen.
 docs:
   - title: Kohan ohje suomeksi
     children:
@@ -37,3 +33,11 @@ docs:
         url: /dokumentaatio/kuittitulostuksen-asetukset/
       - title: 'Työkalut'
         url: /dokumentaatio/tyokalut/
+#  - title: Ohjevideot
+#    children:
+#      - title: 'Video 1'
+#        url: /dokumentaatio/video1/
+#  - title: Tekninen dokumentaatio
+#    children:
+#      - title: 'Ceepos-kassa'
+#        url: /dokumentaatio/ceepos/
