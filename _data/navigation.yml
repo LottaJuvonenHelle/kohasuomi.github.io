@@ -33,10 +33,10 @@ docs:
         url: /dokumentaatio/kuittitulostuksen-asetukset/
       - title: 'Työkalut'
         url: /dokumentaatio/tyokalut/
-#  - title: Ohjevideot
-#    children:
-#      - title: 'Video 1'
-#        url: /dokumentaatio/video1/
+  - title: Koulutukset
+    children:
+      - title: 'Koulutukset'
+        url: /dokumentaatio/koulutukset/
 #  - title: Tekninen dokumentaatio
 #    children:
 #      - title: 'Ceepos-kassa'
