@@ -4,7 +4,6 @@ permalink: /dokumentaatio/koulutukset/
 redirect_from:
   - /theme-setup/
 toc: true
-classes: wide
 ---
 
 Tälle sivulle kerätään linkkejä Koha-Suomen järjestämiin koulutusten tallenteisiin ja niihin liittyviin materiaaleihin.
@@ -47,8 +46,11 @@ Koha-johtajien 12.2.2021 webinaarin aineisto:
 
 Esitysten diat:
 [Aineistolajimuutos](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Aineistolajit.pdf) / Anneli Österman ja Kodo Korkalo
+
 [Koha-Suomen yhteinen konesali](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/koha-suomikonesali.pdf) / Kodo Korkalo
+
 [Versionvaihto](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Versionvaihto.pdf) / Anneli Österman
+
 [Melinda-Koha](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/MelindaKoha.pdf) / Antti Heikkinen ja Johanna Räisä
 
 #### Koha-klinikka 14.10.2021
