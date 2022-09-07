@@ -70,8 +70,6 @@ Alla on neljä linkkiä Kohan järjestelmäasetuskoulutuksiin, jotka pidettiin t
 
 ### Tietokanta
 
-h2. Tietokanta
-
 3.4.2020 pidetty koulutus, jossa käydään läpi Kohan skeema eli tietokantarakenne. HUOM 7.9.2022! Kohan tietokantarakenne on muuttunut jonkin verran siirryttäessä versioon 21.11. 
 
 [Tutkimusmatka Kohan tietokantaan -koulutus](https://youtu.be/lH7Z8OetO3c) (Ei tekstitystä)
