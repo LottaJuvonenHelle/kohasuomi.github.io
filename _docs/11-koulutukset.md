@@ -1,3 +1,11 @@
+---
+title: 'Koulutukset'
+permalink: /dokumentaatio/koulutukset/
+redirect_from:
+  - /theme-setup/
+toc: true
+---
+
 # Koulutukset
 
 ## Elasticsearch-koulutus
