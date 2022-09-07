@@ -29,9 +29,12 @@ Elasticsearch-koulutus 10.11.2021
 
 Koha-johtajien 12.2.2021 webinaarin aineisto:
 
-[Tietojohtamisen hanke](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Tietojohtamisenhanke.pptx) / Kaisa Hypén
+[Tietojohtamisen hanke](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Tietojohtamisenhanke.pdf) / Kaisa Hypén
+
 [Koha-Suomi rautalanka](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Koha-Suomirautalanka.pptx) / Ari Mäkiranta
+
 [Versionvaihto](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Versionvaihto.pptx) / Anneli Österman
+
 [Yhteenveto pienryhmätyöskentelystä](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Koha-webinaarinyhteenveto.docx) 
 
 ### Koha-klinikat
