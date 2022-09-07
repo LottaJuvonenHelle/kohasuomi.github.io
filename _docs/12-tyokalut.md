@@ -875,15 +875,17 @@ Aloita tarratulostus valitsemalla tarrapohja.
 
 Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai syöttämällä viivakoodit oikealle *Lue viivakoodit* -laatikkoon.
 
-<img src="/assets/files/docs/Tyokalut/tulostus1.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostus.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:100.0%" />
 
 *Valitse lista* -valikon *Oma tulostusjono* -valinnalla saa listan kaikista niteistä, jotka käyttäjä on vienyt nidenäytöllä tulostusjonoon. Ks. ohje alla.
 *Tänään vastaanotetut* -valinta tuo listan kaikista kyseisenä päivänä kirjautusmiskirjastossa vastaanotetuista niteistä.
 *Itse tulostetut* -valinta tuo listan kirjautuneen käyttäjän aiemmin tulostetuista niteistä.
 
+<img src="/assets/files/docs/Tyokalut/valistelista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:100.0%" />
+
 Nämä valikosta tulevat viivakoodit pitää siirtää mustasta nuolesta oikealle tulostettavaksi. *Lisää kaikki* -napilla saa siirrettyä kaikki kerralla. Punainen ruksi poistaa viivakoodit pysyvästi listoilta. *Oma tulostusjono* ja *Tänään vastaanotetut* -listat tyhjenevät pysyvästi, kun niillä olevat viivakoodit tulostaa.
 
-<img src="/assets/files/docs/Tyokalut/valistelista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostus1.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:100.0%" />
 
 Kun halutut niteet ovat oikealla, paina *Tulosta*, jolloin aukeaa esikatselu. Siinä voi vielä säätää ylä- ja vasenta marginaalia. Oikeat arvot selviävät kokeilemalla. Arvot pysyvät selaimen muistissa, kunnes selaimen välimuistin tyhjentää.
 
