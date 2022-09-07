@@ -45,6 +45,7 @@ Koha-johtajien 12.2.2021 webinaarin aineisto:
 [Koha-klinikka 16.2.2021 -tallenne](https://youtu.be/CQbXJDzSFNE) (Ei tekstitystä)
 
 Esitysten diat:
+
 [Aineistolajimuutos](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Aineistolajit.pdf) / Anneli Österman ja Kodo Korkalo
 
 [Koha-Suomen yhteinen konesali](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/koha-suomikonesali.pdf) / Kodo Korkalo
