@@ -17,6 +17,10 @@ docs:
         url: /dokumentaatio/asiakkaat/
       - title: 'Lainaus'
         url: /dokumentaatio/lainaus/
+      - title: 'Maksut'
+        url: /dokumentaatio/maksut/
+      - title: 'Varaukset'
+        url: /dokumentaatio/varaukset/
       - title: 'Kuvailu'
         url: /dokumentaatio/kuvailu/
       - title: 'Kausijulkaisut'
