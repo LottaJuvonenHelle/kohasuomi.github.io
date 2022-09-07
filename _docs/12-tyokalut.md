@@ -871,23 +871,23 @@ Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskutta
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
-<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:20.0%" />
 
 Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai syöttämällä viivakoodit oikealle *Lue viivakoodit* -laatikkoon.
 
-<img src="/assets/files/docs/Tyokalut/tulostus1.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostus1.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:90.0%" />
 
 *Valitse lista* -valikon *Oma tulostusjono* -valinnalla saa listan kaikista niteistä, jotka käyttäjä on vienyt nidenäytöllä tulostusjonoon. Ks. ohje alla.
-*Tänään vastaanotetut* -valinta tuo listan kaikista kyseisenä päivänä kirjautuneen käyttäjän vastaanotetuista niteistä.
+*Tänään vastaanotetut* -valinta tuo listan kaikista kyseisenä päivänä kirjautusmiskirjastossa vastaanotetuista niteistä.
 *Itse tulostetut* -valinta tuo listan kirjautuneen käyttäjän aiemmin tulostetuista niteistä.
 
 Nämä valikosta tulevat viivakoodit pitää siirtää mustasta nuolesta oikealle tulostettavaksi. *Lisää kaikki* -napilla saa siirrettyä kaikki kerralla. Punainen ruksi poistaa viivakoodit pysyvästi listoilta. *Oma tulostusjono* ja *Tänään vastaanotetut* -listat tyhjenevät pysyvästi, kun niillä olevat viivakoodit tulostaa.
 
-<img src="/assets/files/docs/Tyokalut/valitselista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/valitselista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:90.0%" />
 
 Kun halutut niteet ovat oikealla, paina *Tulosta*, jolloin aukeaa esikatselu. Siinä voi vielä säätää ylä- ja vasenta marginaalia. Oikeat arvot selviävät kokeilemalla. Arvot pysyvät selaimen muistissa, kunnes selaimen välimuistin tyhjentää.
 
-<img src="/assets/files/docs/Tyokalut/tulostus2.png" title="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" alt="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostus2.png" title="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" alt="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" style="width:90.0%" />
 
 Painamalla *Tulosta* muodostuu tulostettava PDF-tiedostot. *Takaisin*-napista pääsee takaisin edelliselle näytölle ja tulostettavat niteet pysyvät vielä tallessa.
 
