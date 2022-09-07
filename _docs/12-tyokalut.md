@@ -875,7 +875,7 @@ Aloita tarratulostus valitsemalla tarrapohja.
 
 Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai syöttämällä viivakoodit oikealle *Lue viivakoodit* -laatikkoon.
 
-<img src="/assets/files/docs/Tyokalut/tulostus1.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostus1.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:100.0%" />
 
 *Valitse lista* -valikon *Oma tulostusjono* -valinnalla saa listan kaikista niteistä, jotka käyttäjä on vienyt nidenäytöllä tulostusjonoon. Ks. ohje alla.
 *Tänään vastaanotetut* -valinta tuo listan kaikista kyseisenä päivänä kirjautusmiskirjastossa vastaanotetuista niteistä.
@@ -883,11 +883,11 @@ Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai s
 
 Nämä valikosta tulevat viivakoodit pitää siirtää mustasta nuolesta oikealle tulostettavaksi. *Lisää kaikki* -napilla saa siirrettyä kaikki kerralla. Punainen ruksi poistaa viivakoodit pysyvästi listoilta. *Oma tulostusjono* ja *Tänään vastaanotetut* -listat tyhjenevät pysyvästi, kun niillä olevat viivakoodit tulostaa.
 
-<img src="/assets/files/docs/Tyokalut/valitselista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/valitselista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:100.0%" />
 
 Kun halutut niteet ovat oikealla, paina *Tulosta*, jolloin aukeaa esikatselu. Siinä voi vielä säätää ylä- ja vasenta marginaalia. Oikeat arvot selviävät kokeilemalla. Arvot pysyvät selaimen muistissa, kunnes selaimen välimuistin tyhjentää.
 
-<img src="/assets/files/docs/Tyokalut/tulostus2.png" title="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" alt="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostus2.png" title="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" alt="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" style="width:100.0%" />
 
 Painamalla *Tulosta* muodostuu tulostettava PDF-tiedostot. *Takaisin*-napista pääsee takaisin edelliselle näytölle ja tulostettavat niteet pysyvät vielä tallessa.
 
@@ -895,7 +895,7 @@ Painamalla *Tulosta* muodostuu tulostettava PDF-tiedostot. *Takaisin*-napista p�
 
 Niteiden muokkaustilassa niteen voi listätä tulostusjonoon joko *Tulostusjonoon*-napista tai *Toiminnot*-valikon *Tulostusjonoon*-kohdasta.
 
-<img src="/assets/files/docs/Tyokalut/tulostusjonoon.png" title="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" alt="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostusjonoon.png" title="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" alt="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" style="width:100.0%" />
 
 ---
 Koha-Suomella on käytössä yksi raporttiliitännäinen, jonka saa esille
