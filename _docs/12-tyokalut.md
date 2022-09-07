@@ -725,7 +725,7 @@ sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokk
 
 ---
 
-## 10.15 Lokien katselu
+## 12.15 Lokien katselu
 
 Lokien katselu -työkalulla pystyy hakemaan mm. asiakkaisiin, lainoihin,
 maksuihin, varauksiin ja luettelointitietueisiin liittyviä muutoksia.
@@ -782,7 +782,7 @@ välillä:
 
 ---
 
-## 10.16 Uutiset
+## 12.16 Uutiset
 
 Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita
 virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi
@@ -811,7 +811,7 @@ Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
 
 <img src="/assets/files/docs/Tyokalut/uutiset4.png" title="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" alt="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" style="width:90.0%" />
 
-### 10.16.1 Uuden uutisen luominen
+### 12.16.1 Uuden uutisen luominen
 
 Valitse sivun yläreunasta _Luo uusi_.
 
@@ -837,7 +837,7 @@ Valitse ja täytä tarvittavat tiedot:
 
 Tallenna valitsemalla Tallenna tai peruuta valitsemalla Peruuta.
 
-### 10.16.2 Uutisen poistaminen
+### 12.16.2 Uutisen poistaminen
 
 Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla Poista-nappia. Useamman uutiset voi poistaa valitsemalla uutinen vasemmalta ruksilla ja painamalla Poista valitut.
 
@@ -850,24 +850,52 @@ pitää halutessaan poistaa manuaalisesti.
 
 ---
 
-## 10.17 Työkaluliitännäiset
+## 12.17 Työkaluliitännäiset
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
 <img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:50.0%" />
 
-### 10.17.1 Laskutustyökalu
+### 12.17.1 Laskutustyökalu
 
-### 10.17.2 Tulosta ilmoituksia
+### 12.17.2 Tulosta ilmoituksia
 
-### 10.17.3 Sotuteekki
+### 12.17.3 Sotuteekki
 
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
 Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
 
 <img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" style="width:40.0%" />
 
-### 10.17.4 Tarratulostustyökalu
+### 12.17.4 Tarratulostustyökalu
+
+Aloita tarratulostus valitsemalla tarrapohja.
+
+<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:40.0%" />
+
+Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai syöttämällä viivakoodit oikealle *Lue viivakoodit* -laatikkoon.
+
+<img src="/assets/files/docs/Tyokalut/tulostus1.png" title="Näkymä tarratulostussivulta" alt="Näkymä tarratulostussivulta" style="width:40.0%" />
+
+*Valitse lista* -valikon *Oma tulostusjono* -valinnalla saa listan kaikista niteistä, jotka käyttäjä on vienyt nidenäytöllä tulostusjonoon. Ks. ohje alla.
+*Tänään vastaanotetut* -valinta tuo listan kaikista kyseisenä päivänä kirjautuneen käyttäjän vastaanotetuista niteistä.
+*Itse tulostetut* -valinta tuo listan kirjautuneen käyttäjän aiemmin tulostetuista niteistä.
+
+Nämä valikosta tulevat viivakoodit pitää siirtää mustasta nuolesta oikealle tulostettavaksi. *Lisää kaikki* -napilla saa siirrettyä kaikki kerralla. Punainen ruksi poistaa viivakoodit pysyvästi listoilta. *Oma tulostusjono* ja *Tänään vastaanotetut* -listat tyhjenevät pysyvästi, kun niillä olevat viivakoodit tulostaa.
+
+<img src="/assets/files/docs/Tyokalut/valitselista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:40.0%" />
+
+Kun halutut niteet ovat oikealla, paina *Tulosta*, jolloin aukeaa esikatselu. Siinä voi vielä säätää ylä- ja vasenta marginaalia. Oikeat arvot selviävät kokeilemalla. Arvot pysyvät selaimen muistissa, kunnes selaimen välimuistin tyhjentää.
+
+<img src="/assets/files/docs/Tyokalut/tulostus2.png" title="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" alt="Näkymä tarrojen esikatselusta, jossa voi määrittää ylä- ja vasemman marginaalin" style="width:40.0%" />
+
+Painamalla *Tulosta* muodostuu tulostettava PDF-tiedostot. *Takaisin*-napista pääsee takaisin edelliselle näytölle ja tulostettavat niteet pysyvät vielä tallessa.
+
+**Niteiden lisääminen omaan tulostusjonoon**
+
+Niteiden muokkaustilassa niteen voi listätä tulostusjonoon joko *Tulostusjonoon*-napista tai *Toiminnot*-valikon *Tulostusjonoon*-kohdasta.
+
+<img src="/assets/files/docs/Tyokalut/tulostusjonoon.png" title="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" alt="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" style="width:40.0%" />
 
 ---
 Koha-Suomella on käytössä yksi raporttiliitännäinen, jonka saa esille
