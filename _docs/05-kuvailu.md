@@ -6,21 +6,21 @@ redirect_from:
 toc: true
 ---
 
-# 3. Kuvailu
+# 5. Kuvailu
 
 Kuvailuun meno: Muita toimintoja -&gt; Kuvailu. Jos linkkiä ei
 näy, käyttäjätunnuksellasi ei ole kuvailuoikeuksia.
 
 ![](/assets/files/docs/Luettelointi/kohaversio2111.png)
 
-## 3.1. Bibliografiset tietueet
+## 5.1. Bibliografiset tietueet
 
 Kohassa bibliografinen tietue (nimeketietue) sisältää kuvailutiedot
 aineistosta. Näitä tietoja ovat mm. nimeke, tekijä, ISBN ym. Tieto on
 tallennettu MARC 21 -formaatin mukaisesti. Kun nimeketiedot on
 tallennettu, voidaan tietueelle lisätä niteitä.
 
-### 3.1.1. Tietueen lisääminen
+### 5.1.1. Tietueen lisääminen
 
 #### Tyhjästä tietueesta
 
@@ -64,7 +64,7 @@ Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 
 ![](/assets/files/docs/Luettelointi/kohaversio2111k4.png)
 
-### 3.1.2. Osakohteiden lisääminen
+### 5.1.2. Osakohteiden lisääminen
 
 Nimekkelle voi lisätä osakohteita eli sisältöä haettavassa muodossa.
 Valitse nimeketiedoissa _Uusi -&gt; Uusi osakohde_.
@@ -89,7 +89,7 @@ Osakohteella ei ole niteitä, joten niteidentallennusnäytölle ei tarvitse
 tallentaa mitään, vaan voit palata vasemmalta _Perustiedot_-painikkeesta
 teoksen tietoihin.
 
-### 3.1.3. Tietueiden muokkaaminen peruseditorissa
+### 5.1.3. Tietueiden muokkaaminen peruseditorissa
 
 Muokataksesi nimeketietuetta ollessasi Kuvailu-osiossa klikkaa
 _Muokkaa tietuetta_ hakutulosnäytöllä
@@ -174,7 +174,7 @@ _Tallenna_ -painiketta.
 
 ![](/assets/files/docs/Luettelointi/luettelointi17.png)
 
-### 3.1.4. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
+### 5.1.4. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
 
 Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon asetuksessa EnableAdvancedCatalogingEditor. Editori ei ole vielä täysin
 luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
@@ -203,20 +203,20 @@ sisällön.
 
 ![](/assets/files/docs/Luettelointi/luettelointi104.png)
 
-#### 3.1.4.1. Pikanäppäimet uudessa editorissa
+#### 5.1.4.1. Pikanäppäimet uudessa editorissa
 
 _Pikanäppäimet_-valikon alta löytyy tarvittavat pikanäppäimet: 
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi545.png)
 
-### 3.1.4.2. Virtuaalinäppäimistö 
+### 5.1.4.2. Virtuaalinäppäimistö 
 
 Näppäinyhdistelmällä Shift-Ctrl-K saat esiin virtuaalinäppäimistön ja valikkorivillä olevasta painikkeesta
 _Näppäimistöasettelu_ pääset valitsemaan, millä kielellä haluat virtuaalinäppäimistön näkyville.
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi546.png)
 
-#### 3.1.4.3. Makrot uudessa editorissa
+#### 5.1.4.3. Makrot uudessa editorissa
 
 Makro on kätevä tapa lisätä kenttiä tietueeseen uudessa editorissa. Makro otetaan käyttöön
 valikkorivin _Makrot_-painikkeesta. Anna ensin uudelle makrolle kuvaava nimi ja sen jälkeen lisää
@@ -230,7 +230,7 @@ tarvittavat toiminnot. Voit lisätä useita toimintoja samaan makroon. Makro tal
 
 Valmiita makroja löydät yhteisön wikistä https://wiki.koha-community.org/wiki/Advanced_editor_macros (englanniksi)
 
-### 3.1.5. Tietueen kopioiminen
+### 5.1.5. Tietueen kopioiminen
 
 Aina et löydä haluamaasi tietuetta Z39.50/SRU -haun kautta. Näissä
 tapauksissa voit tehdä kopion samantyyppisestä tietueesta ja muokata
@@ -247,12 +247,12 @@ tallennat tietueen etkä saa kysymystä kopiosta:
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi548.png)
 
-### 3.1.6. Tietueiden yhdistäminen
+### 5.1.6. Tietueiden yhdistäminen
 
 Useita tietueita (tuplia) voidaan yhdistää yhdeksi tietueeksi
 Kuvailun tai tiedonhaun kautta.
 
-#### 3.1.6.1 Tietueiden yhdistäminen kuvailun kautta
+#### 5.1.6.1 Tietueiden yhdistäminen kuvailun kautta
 
 Hae yhdistettävät tietueet kuvailuhaun kautta, valitse niistä
 haluamasi tietueet ja käytä _Yhdistä valitut_ -toimintoa.
@@ -287,7 +287,7 @@ Yhdistämisraportti näyttää tältä edellä mainittujen asetusten mukaan:
 
 ![](/assets/files/docs/Luettelointi/luettelointi013.png)
 
-#### 3.1.6.2 Tietueiden yhdistäminen tiedonhaun kautta
+#### 5.1.6.2 Tietueiden yhdistäminen tiedonhaun kautta
 
 Hae tiedonhaussa teokset ja vie ne haluamaasi listaan.
 
@@ -305,7 +305,7 @@ Tämän jälkeen prosessi jatkuu kuten [kuvailun kautta
 aloitettaessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/3_Luettelointi#3161-Tietueiden-yhdist%C3%A4minen-luetteloinnin-kautta),
 kuvasta “Yhdistetään tietueita”.
 
-### 3.1.7. Tietueiden poistaminen
+### 5.1.7. Tietueiden poistaminen
 
 Tietue voidaan poistaa valitsemalla _Muokkaa_-valikosta _Poista tietue_.
 
@@ -316,13 +316,13 @@ _Poista tietue_ -teksti näkyy harmaana.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat582.png)
 
-## 3.2. Nidetietueet
+## 5.2. Nidetietueet
 
 Kohassa jokaisella nimeketietueella (bibliografinen tietue) voi olla
 yksi tai useampi nide. Jokaisella nitellä on omistajakirjasto ja sijaintikirjasto
 sekä hyllypaikka.
 
-### 3.2.1. Niteiden lisääminen
+### 5.2.1. Niteiden lisääminen
 
 Uuden nimeketietueen lisäämisen jälkeen pääset suoraan tyhjään
 nidetietueeseen, johon voit liittää niteen tai useampia niteitä. Niteitä
@@ -389,7 +389,7 @@ Voit suodattaa kokoelmatietoja, kun klikkaat _Suodata_.
 Riittää, kun aloitat kirjoittamaan suodatinta, kaikki siihen sopivat
 tulokset listataan.
 
-### 3.2.2. Niteiden muokkaaminen
+### 5.2.2. Niteiden muokkaaminen
 
 Niteitä voi muokata monella tavalla.
 
@@ -427,7 +427,7 @@ poistaa niteitä tai muokata niitä.
 
 Voit käyttää myös erämuokkaustyökalua muokkaukseen.
 
-### 3.2.2.1. Niteen tilatietojen pikamuokkaus
+### 5.2.2.1. Niteen tilatietojen pikamuokkaus
 
 Toisinaan pitää vaihtaa kadonneiden tai vaurioituneiden niteiden tila.
 Tällöin ei tarvitse muokata koko nidetietuetta, vaan voi klikata niteen
@@ -459,7 +459,7 @@ Voit merkitä niteen myös vahingoittuneeksi.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat561.png)
 
-### 3.2.2.2. Niteiden erämuokkaus
+### 5.2.2.2. Niteiden erämuokkaus
 
 #### Tiedon lisääminen
 
@@ -501,7 +501,7 @@ Kokoelmakoodi-kentän valintaruutuun tehdään valinta (laitetaan täppä) ja
 tallennetaan, niin _Lyhytlaina_-kokoelmakoodi poistuu valituilta
 niteiltä.
 
-### 3.2.3. Nidetiedot
+### 5.2.3. Nidetiedot
 
 Jokaisen nimeketietueen vasemmalla puolella on valikko, josta pääset
 tarkastelemaan niteitä.
@@ -512,7 +512,7 @@ Jos nide on hankittu Kohan hankintamoduulin kautta, näkyy _Historiassa_
 myös hankintatiedot. Jos tilaus- tai saapumispäivä näkyy linkkinä, siitä
 pääsee niteen hankintatietoihin.
 
-### 3.2.4. Niteen siirtäminen
+### 5.2.4. Niteen siirtäminen
 
 Nide voidaan siirtää nimeketietueelta toiselle käyttämällä _Liitä nide_
 -toimintoa.
@@ -529,7 +529,7 @@ Yksinkertaisesti lisäät siirrettävän niteen viivakoodin ja klikkaat OK.
 Jos haluat siirtää useita niteitä yhteen tietueeseen, voit käyttää
 _yhdistä tietueet_ -toimintoa.
 
-### 3.2.5. Niteiden poisto
+### 5.2.5. Niteiden poisto
 
 Niteiden poisto voidaan tehdä eri tavoilla. Jos haluat poistaa vain
 yhden niteen, on yksinkertaisinta avata nimeketietueen tarkat tiedot ja
@@ -566,7 +566,7 @@ Täällä voit valita niteet, jotka poistetaan.
 
 ![](/assets/files/docs/Luettelointi/luettelointi59.png)
 
-### 3.2.6. Niteen lainahistoria
+### 5.2.6. Niteen lainahistoria
 
 Jokaisella nimekkeellä säilytetään lainahistoria (asiakastietojen kanssa
 tai ilman niitä, riippuu järjestelmän asetuksista), mutta jokaisella
@@ -580,19 +580,19 @@ klikkaamalla näkyy tämän niteen lainaushistoria.
 
 ![](/assets/files/docs/Luettelointi/luettelointi016.png)
 
-## 3.3. Auktoriteetit
+## 5.3. Auktoriteetit
 
 ohje tehdään myöhemmin
 
-## 3.4. Kuvailuohjeet
+## 5.4. Kuvailuohjeet
 
 [Yhteisön kuvailuohjeet](https://koha-community.org/manual/21.11/en/html/cataloging.html)
 
-### 3.4.1. Niteiden tarrat ja niiden tulostaminen
+### 5.4.1. Niteiden tarrat ja niiden tulostaminen
 
 Tallennusohje löytyy täältä [tarratulostus](https://tiketti.koha-suomi.fi/attachments/5489/Tarratulostus%2021.11%20versio.docx)
 
-### 3.4.2. Niteiden tallennusohjeet
+### 5.4.2. Niteiden tallennusohjeet
 
 <table>
 <thead>
