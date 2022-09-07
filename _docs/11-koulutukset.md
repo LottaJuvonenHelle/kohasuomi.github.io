@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-# Koulutukset
+Tälle sivulle kerätään linkkejä Koha-Suomen järjestämiin koulutusten tallenteisiin ja niihin liittyviin materiaaleihin.
 
 ## Elasticsearch-koulutus
 
