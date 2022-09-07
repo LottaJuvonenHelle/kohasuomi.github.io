@@ -883,7 +883,7 @@ Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai s
 
 Nämä valikosta tulevat viivakoodit pitää siirtää mustasta nuolesta oikealle tulostettavaksi. *Lisää kaikki* -napilla saa siirrettyä kaikki kerralla. Punainen ruksi poistaa viivakoodit pysyvästi listoilta. *Oma tulostusjono* ja *Tänään vastaanotetut* -listat tyhjenevät pysyvästi, kun niillä olevat viivakoodit tulostaa.
 
-<img src="/assets/files/docs/Tyokalut/valitselista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/valistelista.png" title="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" alt="Valitse lista -valikko, vaihtoehdot: oma tulostusjono, tänään vastaanotetut ja itse tulostetut" style="width:100.0%" />
 
 Kun halutut niteet ovat oikealla, paina *Tulosta*, jolloin aukeaa esikatselu. Siinä voi vielä säätää ylä- ja vasenta marginaalia. Oikeat arvot selviävät kokeilemalla. Arvot pysyvät selaimen muistissa, kunnes selaimen välimuistin tyhjentää.
 
