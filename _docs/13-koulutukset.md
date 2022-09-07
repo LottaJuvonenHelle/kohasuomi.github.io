@@ -31,11 +31,11 @@ Koha-johtajien 12.2.2021 webinaarin aineisto:
 
 [Tietojohtamisen hanke](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Tietojohtamisenhanke.pdf) / Kaisa Hypén
 
-[Koha-Suomi rautalanka](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Koha-Suomirautalanka.pptx) / Ari Mäkiranta
+[Koha-Suomi rautalanka](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Koha-Suomirautalanka.pdf) / Ari Mäkiranta
 
-[Versionvaihto](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Versionvaihto.pptx) / Anneli Österman
+[Versionvaihto](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Versionvaihto.pdf) / Anneli Österman
 
-[Yhteenveto pienryhmätyöskentelystä](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Koha-webinaarinyhteenveto.docx) 
+[Yhteenveto pienryhmätyöskentelystä](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Koha-webinaarinyhteenveto.pdf) 
 
 ### Koha-klinikat
 
@@ -45,16 +45,16 @@ Koha-johtajien 12.2.2021 webinaarin aineisto:
 [Koha-klinikka 16.2.2021 -tallenne](https://youtu.be/CQbXJDzSFNE) (Ei tekstitystä)
 
 Esitysten diat:
-[Aineistolajimuutos](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Aineistolajit.pptx) / Anneli Österman ja Kodo Korkalo
-[Koha-Suomen yhteinen konesali](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/koha-suomikonesali.odp) / Kodo Korkalo
-[Versionvaihto](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Versionvaihto.pptx) / Anneli Österman
-[Melinda-Koha](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/MelindaKoha.pptx) / Antti Heikkinen ja Johanna Räisä
+[Aineistolajimuutos](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Aineistolajit.pdf) / Anneli Österman ja Kodo Korkalo
+[Koha-Suomen yhteinen konesali](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/koha-suomikonesali.pdf) / Kodo Korkalo
+[Versionvaihto](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Versionvaihto.pdf) / Anneli Österman
+[Melinda-Koha](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/MelindaKoha.pdf) / Antti Heikkinen ja Johanna Räisä
 
 #### Koha-klinikka 14.10.2021
 
 [Koha-klinikka 14.10.2021 -tallenne](https://youtu.be/3b_4IIH5uiw) (Ei tekstitystä)
 
-[Hitauskyselyn diat](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Kohan-hitaus-klinikassa.pptx)
+[Hitauskyselyn diat](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Kohan-hitaus-klinikassa.pdf)
 
 
 ## Pääkäyttäjille kohdistetut koulutukset
