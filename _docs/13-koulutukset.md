@@ -4,6 +4,7 @@ permalink: /dokumentaatio/koulutukset/
 redirect_from:
   - /theme-setup/
 toc: true
+classes: wide
 ---
 
 Tälle sivulle kerätään linkkejä Koha-Suomen järjestämiin koulutusten tallenteisiin ja niihin liittyviin materiaaleihin.
