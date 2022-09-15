@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-# 10. Työkalut
+# 12. Työkalut
 
 Kohan Työkalut-osiossa on monenlaisia toimintoja, joilla voi mm. määritellä ilmoitusten ja kuittien tekstejä, muokata
 ja poistaa niteitä tai tietueita, käyttää siirtokokoelmia, määritellä kirjaston kiinniolopäivät jne.
@@ -26,7 +26,7 @@ löytyvät Työkaluliitännäiset-osiosta.
   
 ---
 
-## 10.1 Asiakaslistat
+## 12.1 Asiakaslistat
 
 Asiakaslistat-työkalulla voi luoda asiakkaista listoja, joita voi sitten
 hyödyntää mm. asiakastietojen erämuokkauksessa.
@@ -67,7 +67,7 @@ asiakashaun kautta" style="width:40.0%" />
 
 ---
 
-## 10.2 Ilmoitukset ja kuitit
+## 12.2 Ilmoitukset ja kuitit
 
 Ilmoituksia ja kuitteja ylläpitävät pääsääntöisesti kimppojen
 pääkäyttäjät, mutta tässä voi olla kimppakohtaisia eroja.
@@ -85,7 +85,7 @@ Kaikki ilmoitukset ja pohjat eivät välttämättä ole käytössä omassa kimpa
 - Pohjan voi poistaa _Poista_-napilla. Kaikissa pohjissa poistomahdollisuutta ei ole,
 koska pohjat voivat olla järjestelmän sisäisessä käytössä.
 
-### 10.2.1 Ilmoituksen muokkaaminen
+### 12.2.1 Ilmoituksen muokkaaminen
 
 Ilmoituksen tai kuitin voi tehdä samoille kielille kuin mitä Kohaan on
 asennettu käyttökieliksi (suomi, englanti, ruotsi). Lisäksi on olemassa Oletus-pohja, jota
@@ -109,7 +109,7 @@ _HTML-viesti_, jolloin viesti osataan käsitellä oikein.
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="Kuvakaappaus, jossa esimerkkinä sähköposti-ilmoituksesta on eräpäivämuistutus" style="width:60.0%" />
 
-### 10.2.2 Eräpäivä kuitille ilman kellonaikaa
+### 12.2.2 Eräpäivä kuitille ilman kellonaikaa
 
 Eräpäivän saa tulostumaan kuitille ilman kellonaikaa dateonly-määreellä
 näin:
@@ -118,7 +118,7 @@ Eräpäivä: &lt;&lt;issues.date_due \| dateonly &gt;&gt;
 
 ---
 
-## 10.3 Myöhästymisilmoitusten määrittely
+## 12.3 Myöhästymisilmoitusten määrittely
 
 Myöhästymisilmoitusten eli palautuskehotusten aikataulu määritetään
 Myöhästymisilmoitusten määrittely -työkalulla. Määrittelyt voivat olla
