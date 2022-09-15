@@ -137,7 +137,7 @@ ollenkaan.
   myöhästyisilmoitus lähetetään. Jos kimpassa käytetään Laskutustyökalu-liitännäistä,
   esim. kolmas ilmoitus saattaa viitata laskuun.
 - _Kirje_-sarakkeessa valitaan, mitä ilmoituspohjaa käytetään viestiä
-  lähetettäessä. Ks. kohta 10.2 Ilmoitukset ja kuitit.
+  lähetettäessä. Ks. kohta 12.2 Ilmoitukset ja kuitit.
 - _Rajoita_-kohtaan laitetaan rasti, jos halutaan asiakkaan menevän
   lainakieltoon viestin lähdettyä.
 - _Maksu_-kohtaan määritetään ilmoituksesta perittävän maksun määrä. Maksuttoman ilmoituksen sarake jätetään tyhjäksi.
