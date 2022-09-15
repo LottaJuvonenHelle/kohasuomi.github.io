@@ -518,8 +518,17 @@ Tilaukset luodaan ja saat yhteenvedon kopioiduista tilauksista. Palaa takaisin t
 
 ![](/assets/files/docs/Hankinta/hankinta505.png)
 
+#### 5.4.1.5 Ulkoisesta lähteestä
 
-#### 5.4.1.5. Uudesta (tyhjästä) tietueesta
+Tilattavan teoksen kuvailutiedot voi noutaa myös ulkoisesta lähteestä, jolloin avautuu Z39.50-haku.
+
+![](/assets/files/docs/Hankinta/hankinta506.png)
+
+Valitse oikealta hakukohteista, mistä tietokannoista haluat teosta etsiä ja kirjoita vasemmalle hakukenttiin sopiva hakutermi. Klikkaa sitten Hae, jolloin saat hakutuloslistauksen. Toiminnot-sarakkeen nappia painamalla saa valittua "Tilaus"-vaihtoehdon. MARC- ja Kortti-vaihtoehdoilla näkee teoksen luettelointitiedot.
+
+![](/assets/files/docs/Hankinta/hankinta507.png)
+
+#### 5.4.1.6. Uudesta (tyhjästä) tietueesta
 
 Jos tilaat sellaisen teoksen, jonka tietoja ei löydy valmiina mistään,
 valitse _Uudesta (tyhjästä) tietueesta_.  
