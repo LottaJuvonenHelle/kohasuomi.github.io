@@ -881,7 +881,7 @@ PDF-laskun luomisen jälkeen siirrytään esikatselu-näkymään, jossa näkee s
 
 Lasku luodaan asiakkaan ilmoituksiin, jolloin siitä jää jälki järjestelmään. Finvoice-sanomat lähetetään eteenpäin ajastetusti, joten korjauksia voidaan tehdä ennen lähetystä.
 
-Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite. Jos osaa laskutetuista niteistä ei palauteta, jää rajoite paikalleen. Niteille jää laskutettu-tila ja asiakkaan tietoihin tieto (viesti), että hänelle on lähettetty lasku. Nämä tiedot pitää poistaa manuaalisesti.
+Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite. Huom. Rajoite ei poistu automaattisesti takaajalta vain taattavasta. Jos osaa laskutetuista niteistä ei palauteta, jää rajoite paikalleen. Niteille jää laskutettu-tila ja asiakkaan tietoihin tieto (viesti), että hänelle on lähettetty lasku. Nämä tiedot pitää poistaa manuaalisesti.
 
 Laskutuksen asetusten ohje on [Redminessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Laskutusty%C3%B6kalu-liit%C3%A4nn%C3%A4inen).
 
