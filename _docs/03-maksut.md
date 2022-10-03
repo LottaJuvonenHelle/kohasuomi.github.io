@@ -10,6 +10,9 @@ toc: true
 Asiakkaan maksuihin pääsee asiakkaan tiedoissa vasemassa reunassa olevasta palkista "Maksut" tai Huomio-kentässä
 olevalla "Maksa"-näppäimellä.
 
+Huom! Jos kirjastossa on käytössä kassajärjestelmä, joka on
+yhteydessä kirjastojärjestelmään, ohje löytyy kohdasta 3.5.
+
 ## 3.1. Tapahtumat -välilehti
 
 Asiakkaan maksuhistoria näkyy maksuissa Tapahtumat-välilehdellä. Siellä näkyy
@@ -181,10 +184,6 @@ klikkaamalla Toiminnot-sarakkeessa Peruuta.
 ![](/assets/files/docs/Asiakkaat/maksa7.png)
 
 Peruutuksen voi vielä perua klikkaamalla uudelleen “Peruuta”.
-
-HOX HOX!!Jos kirjastossa on käytössä kassajärjestelmä, joka on
-yhteydessä kirjastojärjestelmään, ohje löytyy kohdasta 4.8.3.6. KORJAA
-TÄMÄ
 
 ## 3.3. Lisää maksu -välilehti
 
