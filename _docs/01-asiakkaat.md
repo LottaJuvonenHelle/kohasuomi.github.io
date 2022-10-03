@@ -8,6 +8,68 @@ toc: true
 
 # 1. Asiakkaat
 
+## 1.7. Asiakkaan hakeminen
+
+Klikkaamalla linkkiä Asiakkaat saat hakulaatikon, jossa voit selata tai
+hakea asiakkaiden tietoja. Haku toimii millä tahansa nimen osalla tai
+kortin numerolla.
+
+![](/assets/files/docs/Asiakkaat/haeasiakkaita.png)
+
+Klikkaamalla pientä plus-merkkiä \[+\] hakulaatikon oikealla puolella
+saat lisää hakuominaisuuksia käyttöösi. Täällä voit mm. rajata hakusi
+kirjastoittain tai asiakaslajeittain.
+
+![](/assets/files/docs/Asiakkaat/plushaku.png)
+
+Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri
+tavoin.
+
+![](/assets/files/docs/Asiakkaat/hakukentät.png)
+
+\- Perushaku:  
+Anna asiakkaan nimi tai nimen osa, käyttäjätunnus tai kirjastokortin
+viivakoodi.
+
+\- Sukunimi:  
+Anna asiakkaan sukunimi tai sukunimen osa.
+
+\- Sähköposti:  
+Anna mikä tahansa osa sähköpostiosoitteesta ja valitse hakutyypiksi
+_sisältää_ (ei alkaa)
+
+\- Asiakkaan ID:  
+Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
+
+\- Käyttäjätunnus:  
+Anna asiakkaan kirjastokortin numero tai osa siitä.
+
+\- Puhelinnumero:  
+Anna puhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
+tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. Haettaessa
+numeroa (013) 267 6200 voit kirjoittaa sen juuri samalla tavalla tai
+muodossa 013 267 6200.
+
+\- Katuosoite:  
+Anna mikä tahansa asiakkaan osoitteen osa (kaikki osoitekentät
+huomioiden) ja valitse hakutyypiksi _sisältää_.
+
+\- Syntymäaika:  
+Ohjeteksti ilmestyy kertomaan missä muodossa syntymäaika pitää antaa.
+Muoto PP.KK.VVV tarkoittaa, että päivät, kuukausi ja vuosi erotetaan
+toisistaan pisteellä.
+
+Voit myös valita jokaisessa haussa hakutyypin alkaa tai sisältää.
+Valinta sisältää toimii vapaasanahaun kaltaisesti eli haettu merkkijono
+voi olla missä tahansa kohdassa hakukentässä.
+
+![](/assets/files/docs/Asiakkaat/syntymäpäivä.png)
+
+Voit myös selata asiakkaita sukunimen ensimmäisen kirjaimen mukaan
+linkkinä olevien kirjainten mukaan.
+
+![](/assets/files/docs/Asiakkaat/aastaoohon.png)
+
 ## 1.1. Lisää uusi asiakas
 
 Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
@@ -664,65 +726,3 @@ lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
 Lainoista on tarkemmin Koha-ohje suomeksi kohdassa 2.4. Asiakkaan lainat
-
-## 1.7. Asiakkaan hakeminen
-
-Klikkaamalla linkkiä Asiakkaat saat hakulaatikon, jossa voit selata tai
-hakea asiakkaiden tietoja. Haku toimii millä tahansa nimen osalla tai
-kortin numerolla.
-
-![](/assets/files/docs/Asiakkaat/haeasiakkaita.png)
-
-Klikkaamalla pientä plus-merkkiä \[+\] hakulaatikon oikealla puolella
-saat lisää hakuominaisuuksia käyttöösi. Täällä voit mm. rajata hakusi
-kirjastoittain tai asiakaslajeittain.
-
-![](/assets/files/docs/Asiakkaat/plushaku.png)
-
-Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri
-tavoin.
-
-![](/assets/files/docs/Asiakkaat/hakukentät.png)
-
-\- Perushaku:  
-Anna asiakkaan nimi tai nimen osa, käyttäjätunnus tai kirjastokortin
-viivakoodi.
-
-\- Sukunimi:  
-Anna asiakkaan sukunimi tai sukunimen osa.
-
-\- Sähköposti:  
-Anna mikä tahansa osa sähköpostiosoitteesta ja valitse hakutyypiksi
-_sisältää_ (ei alkaa)
-
-\- Asiakkaan ID:  
-Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
-
-\- Käyttäjätunnus:  
-Anna asiakkaan kirjastokortin numero tai osa siitä.
-
-\- Puhelinnumero:  
-Anna puhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
-tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. Haettaessa
-numeroa (013) 267 6200 voit kirjoittaa sen juuri samalla tavalla tai
-muodossa 013 267 6200.
-
-\- Katuosoite:  
-Anna mikä tahansa asiakkaan osoitteen osa (kaikki osoitekentät
-huomioiden) ja valitse hakutyypiksi _sisältää_.
-
-\- Syntymäaika:  
-Ohjeteksti ilmestyy kertomaan missä muodossa syntymäaika pitää antaa.
-Muoto PP.KK.VVV tarkoittaa, että päivät, kuukausi ja vuosi erotetaan
-toisistaan pisteellä.
-
-Voit myös valita jokaisessa haussa hakutyypin alkaa tai sisältää.
-Valinta sisältää toimii vapaasanahaun kaltaisesti eli haettu merkkijono
-voi olla missä tahansa kohdassa hakukentässä.
-
-![](/assets/files/docs/Asiakkaat/syntymäpäivä.png)
-
-Voit myös selata asiakkaita sukunimen ensimmäisen kirjaimen mukaan
-linkkinä olevien kirjainten mukaan.
-
-![](/assets/files/docs/Asiakkaat/aastaoohon.png)
