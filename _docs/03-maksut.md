@@ -5,7 +5,7 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
-### 3. Maksut
+# 3. Maksut
 
 Asiakkaan maksuihin pääsee asiakkaan tiedoissa vasemassa reunassa olevasta palkista "Maksut" tai Huomio-kentässä
 olevalla "Maksa"-näppäimellä.
