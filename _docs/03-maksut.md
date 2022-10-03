@@ -5,7 +5,12 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
-### 1.6.2. Maksut
+### 3. Maksut
+
+Asiakkaan maksuihin pääsee asiakkaan tiedoissa vasemassa reunassa olevasta palkista "Maksut" tai Huomio-kentässä
+olevalla "Maksa"-näppäimellä.
+
+## 3.1. Tapahtumat -välilehti
 
 Asiakkaan maksuhistoria näkyy maksuissa Tapahtumat-välilehdellä. Siellä näkyy
 myöhästymismaksujen lisäksi kaikki Kohan kautta käsitellyt maksut, esim.
@@ -76,7 +81,9 @@ Mitätöinnin jälkeen maksu näkyy uudella rivillä seuraavasti:
 
 ![](/assets/files/docs/Asiakkaat/Kaytaalennusta.png)
 
-#### 1.6.2.1. Maksujen maksaminen/poistaminen rivi kerrallaan
+## 3.2. Maksa maksuja -välilehti
+
+### 3.2.1 Maksujen maksaminen rivi kerrallaan
 
 Jokaisen rivin maksu voidaan maksaa tai poistaa erikseen klikkaamalla
 rivillä joko Maksa tai Poista. Maksu voidaan maksaa kokonaan tai
@@ -107,7 +114,7 @@ Maksun maksaminen riviltä osittain
 \- Loput maksusta jää Maksettava- sarakkeeseen Maksa
 maksuja-välilehdelle.
 
-Maksun poistaminen riviltä
+### 3.2.2 Maksujen poistaminen rivi kerrallaan
 
 \- Klikkaa Poista sen maksun kohdalta, joka poistetaan. Jatka
 valitsemalla Poista tämä maksu.
@@ -118,9 +125,7 @@ Maksu siirtyy Maksa maksuja-välilehdeltä Tili-välilehdelle.
 
 ![](/assets/files/docs/Asiakkaat/poistettu2.png)
 
-#### 1.6.2.2. Maksa kaikki tai jokin tietty summa maksuista
-
-Maksa kaikki
+### 3.2.3. Maksa kaikki maksut
 
 \- Klikkaa Maksa kaikki -nappia.
 
@@ -128,7 +133,7 @@ Maksa kaikki
 
 \- Klikkaa Hyväksy
 
-Maksa tietty summa maksuista
+### 3.2.4. Maksa jokin tietty summa maksuista
 
 \- Klikkaa Maksa kaikki -nappia.
 
@@ -141,7 +146,7 @@ Maksa tietty summa maksuista
 
 \- Maksu päivittyy kuittaamaan vanhimmat maksut ensin.
 
-#### 1.6.2.3. Maksa valitut maksut
+### 3.2.5. Maksa valitut maksut
 
 \- Laita valintamerkki niiden maksujen kohdalle, jotka maksetaan,
 klikkaa Maksa valitut.
@@ -156,7 +161,7 @@ Valittujen maksujen summa näkyy Peri asiakkaalta -laatikossa.
 
 - Maksu päivittyy kuittaamaan valitun maksun.
 
-#### 1.6.2.4. Poista kaikki maksut
+### 3.2.6. Poista kaikki maksut
 
 Klikkaa Poista kaikki maksut -nappia listauksen alapuolella
 
@@ -164,7 +169,7 @@ Klikkaa Poista kaikki maksut -nappia listauksen alapuolella
 
 \- Kaikki maksut poistuvat saatavista ja näkyvät poistettuina maksuina
 
-#### 1.6.2.5. Maksun peruminen
+### 3.2.7. Maksun peruminen
 
 Jos vahingossa merkitset niteen maksun maksetuksi, voit kumota maksun
 klikkaamalla Toiminnot-sarakkeessa Peruuta.
@@ -181,7 +186,7 @@ HOX HOX!!Jos kirjastossa on käytössä kassajärjestelmä, joka on
 yhteydessä kirjastojärjestelmään, ohje löytyy kohdasta 4.8.3.6. KORJAA
 TÄMÄ
 
-#### 1.6.2.6. Maksun luominen
+## 3.3. Lisää maksu -välilehti
 
 Sellaisia maksuja, joita järjestelmä ei tee automaattisesti, voi
 virkailija tallentaa Lisää maksu -välilehdellä.
@@ -202,7 +207,7 @@ desimaaleja). Tallennuksen jälkeen maksu näkyy yhteenvedossa.
 
 ![](/assets/files/docs/Asiakkaat/maksunsumma.png)
 
-#### 1.6.2.7. Hyvitysten luominen
+## 3.4. Luo hyvitys -välilehti
 
 Tämä toiminto luo asiakkaalle saldoon “plussasaldoa”. Hyvitystä voidaan
 käyttää maksujen maksamiseen tai maksun anteeksiantoon. HUOM! Tarkista
@@ -221,17 +226,9 @@ Viivakoodi-kenttään
 - Anna Summa-kenttään vain numeroita ja desimaaleja, ei
   valuuttamerkkejä.
 
-#### 1.6.2.8. Maksujen tulostaminen
+## 3.5. Maksujen maksaminen Ceepos-kassaliittymän kautta
 
-Jokaisen maksurivin lopussa on Tulosta-linkki. Klikkaamalla tästä
-linkistä saat tulostettua niteen nimeke- ja maksutiedot sekä tilin
-kokonaissaldon.
-
-![](/assets/files/docs/Asiakkaat/maksujentulostus.png)
-
-#### 1.6.2.9. Maksujen maksaminen Ceepos-kassaliittymän kautta
-
-##### 1.6.2.9.1. Valmistelut ennen maksujen vastaanottoa
+### 3.5.1. Valmistelut ennen maksujen vastaanottoa
 
 Avaa Kohassa asiakkaan Maksa maksuja-välilehti. Valitse sieltä ne
 maksut, jotka asiakas maksaa ja klikkaa joko Maksa kaikki tai Maksa
@@ -256,7 +253,7 @@ pitää toimipiste lisätä uudelleen.
 
 ![](/assets/files/docs/Asiakkaat/lisäätoimipiste4.png)
 
-##### 1.6.2.9.2. Maksun lähettäminen kassaohjelmaan
+### 3.5.2. Maksun lähettäminen kassaohjelmaan
 
 Kun klikkaat toimipisteen numeroa, se muuttuu vihreäksi ja tieto siirtyy
 kassaan.
@@ -269,7 +266,7 @@ veloittaa asiakkaalta maksun. Toimi kirjaston Ceepos-ohjeiden mukaisesti
 ja palaa sitten takaisin Kohaan, jossa asiakkaan maksut ovat
 automaattisesti merkitty suoritetuiksi.
 
-##### 1.6.2.9.3. Näkymä Kohan Maksut-osiossa
+### 3.5.3. Näkymä Kohan Maksut-osiossa
 
 Kohassa asiakkaan Tili-välilehdellä näkyy maksutapahtuman numero. Muista
 aina varmistaa, että maksusta on ilmestynyt yksi uusi maksurivi maksun
@@ -284,4 +281,3 @@ liittyvät rivit.
 
 Ongelmatilanteissa ota yhteyttä joko oman kirjaston/kimpan Koha-tukeen
 tai kirjastosi Ceepos-ohjelman pääkäyttäjään.
-
