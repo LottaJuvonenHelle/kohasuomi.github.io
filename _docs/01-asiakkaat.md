@@ -8,7 +8,10 @@ toc: true
 
 # 1. Asiakkaat
 
-## 1.7. Asiakkaan hakeminen
+Aina ennen asiakastiedon lisäämistä on hyvä tarkistaa löytyykö asiakkaan tiedot jo Kohasta. Voit 
+hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla.
+
+## 1.1. Asiakkaan hakeminen
 
 Klikkaamalla linkkiä Asiakkaat saat hakulaatikon, jossa voit selata tai
 hakea asiakkaiden tietoja. Haku toimii millä tahansa nimen osalla tai
@@ -34,6 +37,9 @@ viivakoodi.
 \- Sukunimi:  
 Anna asiakkaan sukunimi tai sukunimen osa.
 
+\- Kortin numero:
+Anna asiakkaan kortin numero
+
 \- Sähköposti:  
 Anna mikä tahansa osa sähköpostiosoitteesta ja valitse hakutyypiksi
 _sisältää_ (ei alkaa)
@@ -44,13 +50,13 @@ Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
 \- Käyttäjätunnus:  
 Anna asiakkaan kirjastokortin numero tai osa siitä.
 
-\- Puhelinnumero:  
-Anna puhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
+\- Lankapuhelin:  
+Anna lankapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
 tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. Haettaessa
 numeroa (013) 267 6200 voit kirjoittaa sen juuri samalla tavalla tai
 muodossa 013 267 6200.
 
-\- Katuosoite:  
+\- Osoite:  
 Anna mikä tahansa asiakkaan osoitteen osa (kaikki osoitekentät
 huomioiden) ja valitse hakutyypiksi _sisältää_.
 
@@ -59,11 +65,23 @@ Ohjeteksti ilmestyy kertomaan missä muodossa syntymäaika pitää antaa.
 Muoto PP.KK.VVV tarkoittaa, että päivät, kuukausi ja vuosi erotetaan
 toisistaan pisteellä.
 
+\- Etunimi:
+Tee asiakashaku etunimellä tai kaikilla etunimillä.
+
+\- Varaustunnus:
+Anna asiakkaan varaustunniste.
+
+\- Matkapuhelin:
+Anna matkapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
+tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. Haettaessa
+numeroa 0442676200 voit kirjoittaa sen juuri samalla tavalla tai
+muodossa 044 267 6200.
+
 Voit myös valita jokaisessa haussa hakutyypin alkaa tai sisältää.
 Valinta sisältää toimii vapaasanahaun kaltaisesti eli haettu merkkijono
 voi olla missä tahansa kohdassa hakukentässä.
 
-![](/assets/files/docs/Asiakkaat/syntymäpäivä.png)
+Saat tarkennettua hakua myös valitsemalla asiakkaan kirjaston ja/tai rajaamalla hakua asiakastyypin mukaan.
 
 Voit myös selata asiakkaita sukunimen ensimmäisen kirjaimen mukaan
 linkkinä olevien kirjainten mukaan.
@@ -134,6 +152,7 @@ Klikkaamalla OK käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita t
 Sotu-siiloon on olemassa myös toinen käyttöliittymä, jonka kautta
 esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
 sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
+Sotuteekistä tarkemmin Koha ohje suomeksi kohdassa 12.17.3 Sotuteekki
 
 ---
 
