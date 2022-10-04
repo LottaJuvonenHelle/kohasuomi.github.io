@@ -795,18 +795,18 @@ Kirjastokimpassa voit siirtää niteitä toiseen kirjastoon käyttämällä
 
 - Valitse: Lainaus ja palautus -&gt; **Siirto**
 
-![](/assets/files/docs/Lainaus/siirto1.png)  
+![](/assets/files/docs/Lainaus/Siirto.png)  
 Valitse alasvetovalikosta kirjasto, johon olet siirtämässä aineistoa ja
 lue siirrettävän niteen viivakoodi _Syötä viivakoodi_ -kohtaan. Paina
 lopuksi **OK**.
 
-![](/assets/files/docs/Lainaus/siirto2.png)  
+![](/assets/files/docs/Lainaus/Siirto1_2.png)  
 Nyt niteeseen tulee palautuksessa tieto määränpäästä..
 
-![](/assets/files/docs/Lainaus/siirto3.png)  
+![](/assets/files/docs/Lainaus/Siirto1_3.png)  
 ja niteen tilaksi kuljetuksessa.
 
-![](/assets/files/docs/Lainaus/siirto4.png)
+![](/assets/files/docs/Lainaus/Siirto1_4.png)
 
 Kun nide saapuu kohteeseen, se on siellä palautettava, jotta nide ei ole
 enää kuljetuksessa.
@@ -814,7 +814,7 @@ enää kuljetuksessa.
 Nidettä ei ole pysyvästi siirretty kohdekirjastoon. Niteen kotikirjasto
 ei muutu, mutta nykyinen paikka on toinen kirjasto.
 
-![](/assets/files/docs/Lainaus/siirto5.png)
+![](/assets/files/docs/Lainaus/Siirto1_5.png)
 
 ---
 
