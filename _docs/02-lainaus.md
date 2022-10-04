@@ -825,35 +825,30 @@ Kirjaston nimi näkyy virkailijatyökaluikkunan oikeassa yläreunassa.
 **Tärkeää:** Lainat ja palautukset rekisteröityvät tunnukselle valitun
 kirjaston mukaan.
 
-![](/assets/files/docs/Lainaus/valinta1.png)
+![](/assets/files/docs/Lainaus/kirjastovalinta.png)
 
 Jos työskentelet useammassa kirjastossa, pääset valitsemaan kirjaston
 _Aseta kirjasto_ -napista. Valitse kirjasto alasvetovalikosta ja klikkaa
 OK.
 
-![](/assets/files/docs/Lainaus/valinta3.png)  
+![](/assets/files/docs/Lainaus/kirjastovalinta2.png)  
 Valitsemasi kirjasto tulee näkyviin oikeaan yläkulmaan ja toiminnot
 tapahtuvat valitsemassasi kirjastossa (lainat, palautukset jne.)
 
-## 2.12 Pikaluettelointi (ei käytössä)
+## 2.12 Pikakuvailu
 
-[Koha Manual - Fast Add
-Cataloging](http://manual.koha-community.org/3.16/en/fastaddcat.html)
+Kuvailusääntöjen mukaisesti.
 
 ---
 
-## 2.13 Lainauksen raportit
+## 2.13 Lainauksen valmiit raportit
 
 Useimmat raportit saadaan Raportit-moduulin kautta, mutta joitakin
 raportteja löytyy myös Lainauksen toiminnoista.
 
-Mene: _Lainaus ja palautus_ -&gt; _Lainausraportit_.
-
-![](/assets/files/docs/Lainaus/raportti1.png)
-
 ### Varausjono
 
-Tämä raportti näyttää kaikki varaukset kirjastossasi.
+Tämä raportti näyttää kaikki varaukset mitkä kohdistuvat kirjastosi aineistoon. 
 
 ![](/assets/files/docs/Lainaus/raportti2.png)
 
@@ -863,36 +858,28 @@ Tämä raportti näyttää kaikki varaukset kirjastossasi.
 on kuvattu [wikin
 Raportit-osiossa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/7_Raportit#722-Hyllyvaraukset)
 
-Tämä listaus näyttää kaikki nimekkeet, joista on varauksia ja joilla on
+Koha-Suomi suosittelee käyttämän tätä raporttia hyllyvarausten haussa. Listaus näyttää kaikki nimekkeet, joista on varauksia ja joilla on
 niteitä saatavana. Ensin kannattaa tarkistaa ne varaukset, joissa
 noutokirjastona on oma kirjasto/oman kunnan toinen kirjasto.
-Noutokirjaston näkee viimeisestä sarakkeesta “Varauspvm ja noutopaikka”.
+Noutokirjaston kuudennesta sarakkeesta "Varaus". 
 
-![](/assets/files/docs/Lainaus/raportti4.png)
+![](/assets/files/docs/Lainaus/hyllyvaraus1.png)
 
-Voit rajata hakua _Tarkenna tuloksia_ -valikosta vasemmalla.
-Oletusarvona alkupäivämääränä on 365 vrk ennen kuluvaa päivää, mutta
-päivämäärän voi muuttaa ennen hakua.
-
-![](/assets/files/docs/Lainaus/raportti5.png)
-
-Voit suodattaa hakutuloksesta _Kirjastot_-sarakkeen alla olevasta
+Voit suodattaa hakutuloksesta "On shelf" -sarakkeen alla olevasta
 valikosta oman kirjastosi aineistot esille. Jos valintaa ei ole tehty,
 näkyvillä on _Ei mitään_.
 
-![](/assets/files/docs/Lainaus/raportti6.png)
+![](/assets/files/docs/Lainaus/hyllyvaraus2.png)
 
 Näytön alareunassa näkyy, minkä verran aineistoa on suodatettu.
 
 ![](/assets/files/docs/Lainaus/lainrap6.png)
 
-Voit muokata sarakkeiden näkyvyyttä..
+Voit halutessasi säätää näkyviä sarakkeita ”Sarakkeet”-kohdasta ylävalikosta.
 
-![](/assets/files/docs/Lainaus/raportti7.png)
+![](/assets/files/docs/Lainaus/hyllyvaraus4.png)
 
 ..ja lajitella hakutuloksia nuolimerkinnöistä.
-
-![](/assets/files/docs/Lainaus/raportti8.png)
 
 Hyllyvarauslistan voi tulostaa **ctrl+p** -näppäinyhdistelmällä.
 
@@ -900,10 +887,21 @@ Hyllyvarauslistan voi tulostaa **ctrl+p** -näppäinyhdistelmällä.
 
 Tämä raportti näyttää kaikki kirjastossasi noutoa odottavat niteet.
 
-![](/assets/files/docs/Lainaus/nouto1.png)
+![](/assets/files/docs/Lainaus/kaikkinoudettavat.png)
 
-Niteet, joiden noutoaika on mennyt umpeen, näkyvät _Vanhentuneet
-varaukset_ -välilehdellä.
+HUOM! Vanhentuneet varaukset eivät enää näy oikein tämän näytön välilehdellä. Käytä vanhentuneiden varausten etsimiseksi 
+sql-raporttia :
+select othernames as 'Varaustunnus', b.title as 'Teos', i.barcode as 'Viivakoodi', bi.itemtype as 'Aineistotyyppi'
+from old_reserves o
+JOIN biblio b using (biblionumber)
+JOIN biblioitems bi using (biblionumber)
+JOIN borrowers using (borrowernumber)
+JOIN items i using (itemnumber)
+where o.branchcode=<<Valitse kirjasto|branches>>
+and o.cancellationdate between <<Vanhentumispäivä alkaen|date>> AND <<Päättyen|date>>
+and o.found='W'
+AND o.expirationdate = (o.cancellationdate - INTERVAL 1 DAY)
+order by 1,2
 
 ### Varauksia per nide
 
@@ -931,13 +929,8 @@ ennen raportin ajamista.
 
 ---
 
-## 2.14 Kirjaston sisäisen käytön seuranta
 
-Ei vielä sisältöä.
-
----
-
-## 2.15 Offline eli yhteydettömän tilan lainaus
+## 2.14 Offline eli yhteydettömän tilan lainaus
 
 Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 
