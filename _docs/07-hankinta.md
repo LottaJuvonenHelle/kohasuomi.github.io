@@ -579,12 +579,21 @@ Valitse sopivat asetukset tuonnille. Voit käyttää myös MARC-muokkauksen pohj
 
 Valitse sitten _Vie väliaikaiseen tuontisäiliöön_.
 
-Jos vienti onnistuu, pääset tekemään tilauksen
+Jos vienti onnistuu, pääset tekemään tilauksen _Lisää välivarastoituja tiedostoja tilauskoriin_.
 
 ![](/assets/files/docs/Hankinta/hankinta511.png)
 
-Tämän jälkeen tilaus eteenee kuin seuraavassa kohdassa _Tilaus väliaikaistiedostosta_.
+Tämän jälkeen tilaus etenee laittamalla tilattavan teoksen kohdalle rastin, jolloin avautuu lisätietoja.
+
 ![](/assets/files/docs/Hankinta/hankinta512.png)
+
+Täydennä tarvittavat tiedot välilehdille ja valitse sitten _Tallenna_
+
+![](/assets/files/docs/Hankinta/hankinta513.png)
+
+![](/assets/files/docs/Hankinta/hankinta514.png)
+
+![](/assets/files/docs/Hankinta/hankinta515.png)
 
 #### 5.4.1.7. Tilaus väliaikaistiedostosta
 
@@ -603,6 +612,7 @@ nimeke löytyy jo Kohasta, mutta numero 0 tarkoittaa, että käsittelijän
 kirjastossa nimekettä ei vielä ole, mutta muissa kirjastoissa on
 yhteensä 2. Kun kursorin vie numeron päälle, näkyy niiden kirjastojen
 nidemäärät ko. nimekkeessä.  
+
 ![](/assets/files/docs/Hankinta/hankinta56.png)
 
 Pitkässä listassa voit käyttää hakutoimintoa _Ctrl+f_, niin saat ruudun
