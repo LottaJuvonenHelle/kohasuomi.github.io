@@ -499,6 +499,25 @@ Lisää nide -osiota, koska lehtitilauksessa sitä ei tarvita.
 ![](/assets/files/docs/Hankinta/hankinta50.png)
 ![](/assets/files/docs/Hankinta/hankinta501.png)
 
+#### 5.4.1.6. Uudesta (tyhjästä) tietueesta
+
+Jos tilaat sellaisen teoksen, jonka tietoja ei löydy valmiina mistään,
+valitse _Uudesta (tyhjästä) tietueesta_.  
+![](/assets/files/docs/Hankinta/hankinta51.png)
+
+- Anna tyhjään lomakkeeseen kaikki tarvittavat tiedot tilauksesta.
+  
+Huom! Näin tehdyn tietueen tietoja pitää käydä jälkikäteen täydentämässä, jotta teos löytyy tiedonhaun kautta:
+  - kenttä 000, ja siinä heti ensimmäinen rivi kenttä nro 00. Rivin
+    päässä on nk. tag –merkki, klikkaa se auki, jolloin saat auki
+    nk. Nimiövalikon, ja sieltä kohdan 7 = Tietueen bibliografinen
+    taso. Itse tehdyssä tietueessa se tarjoaa “Osakohde
+    monografiassa”, joka pitää muuttaa “Monografiaksi” eli M:ksi.
+    Teetpä tilauksen mistä tahansa aineistosta tuo pitää käydä
+    korjaamassa.
+  - Välilehdellä 9 pitää käydä valitsemassa lisäksi aineistotyyppi 942c-kenttään.
+  - Tekijätieto menee kolmeen kohtaan 100a/110a/111a -> poista ylimääräiset.
+  - Toimittajatieto menee 028a-kenttään -> siirrä oikeaan
 
 #### 5.4.1.4 Olemassa olevista tilauksista (kopio)
 
@@ -528,37 +547,6 @@ Valitse oikealta hakukohteista, mistä tietokannoista haluat teosta etsiä ja ki
 
 ![](/assets/files/docs/Hankinta/hankinta507.png)
 
-#### 5.4.1.6. Uudesta (tyhjästä) tietueesta
-
-Jos tilaat sellaisen teoksen, jonka tietoja ei löydy valmiina mistään,
-valitse _Uudesta (tyhjästä) tietueesta_.  
-![](/assets/files/docs/Hankinta/hankinta51.png)
-
-- Anna tyhjään lomakkeeseen kaikki tarvittavat tiedot tilauksesta.
-  Huom! Näin tehdyn tietueen tietoja pitää käydä jälkikäteen
-  täydentämässä, jotta teos löytyy tiedonhaun kautta:
-  - kenttä 000, ja siinä heti ensimmäinen rivi kenttä nro 00. Rivin
-    päässä on nk. tag –merkki, klikkaa se auki, jolloin saat auki
-    nk. Nimiövalikon, ja sieltä kohdan 7 = Tietueen bibliografinen
-    taso. Itse tehdyssä tietueessa se tarjoaa “Osakohde
-    monografiassa”, joka pitää muuttaa “Monografiaksi” eli M:ksi.
-    Teetpä tilauksen mistä tahansa aineistosta tuo pitää käydä
-    korjaamassa.
-  - Välilehdellä 9 pitää käydä valitsemassa lisäksi aineistolaji.
-
-#### 5.4.1.6. Ulkoisesta lähteestä (toinen tietokanta)
-
-Jos haluat tehdä tilauksen toisen kirjaston luetteloimien tietojen
-perusteella, voit valita _Ulkoisesta lähteestä_. Kyseessä on
-Z39.50-haku. Voit myös valita _Valitse MARC-luettelointipohja_
--kohdasta, mitä luettelointipohjaa käytetään tietueen tuomiseen.
-
-![](/assets/files/docs/Hankinta/hankinta52.png)
-
-Hakutuloksesta pääset valitsemaan oikealla olevasta linkistä _Tilaus_
-sen nimekkeen, minkä haluat tilata.  
-![](/assets/files/docs/Hankinta/hankinta53.png)
-
 Jos tilaamasi nimeke näyttää olevan Kohan mielestä tuplatietue, saat
 varoituksen ja valintavaihtoehtoja, mistä valitset sopivan toiminnon.
 Voit tarkistaa linkistä, mikä tietokannan tietue Kohan mielestä on
@@ -566,13 +554,37 @@ sama.
 ![](/assets/files/docs/Hankinta/hankinta531.png)
 
 - Jos tietue on sama, valitse _Käytä olemassa olevaa tietuetta_
-- Jos tietue ei ole sama, valitse _Luo uusi tietue_
-- Jos haluat peruuttaa luettelointiedon tuonnin, valitse _Peruuta ja
+- Jos haluat peruuttaa kuvailutiedon tuonnin, valitse _Peruuta ja
   palaa tilaukseen_
+- Jos tietue ei ole sama, valitse _Luo uusi tietue_
 
-Tähän tilauslomakkeeseen ei voi muuttaa luettelointitietoja. Jos haluat
+Tilauslomakkeella ei voi muuttaa kuvailutietoja. Jos haluat
 tässä vaiheessa muokata tietueen tietoja, valitse _Muokkaa tietuetta_.  
 ![](/assets/files/docs/Hankinta/hankinta54.png)
+
+#### Uudesta tiedostosta
+
+Tilauksen voi tehdä tuomalla välivarastoon MARC-tietueita tiedostosta.
+
+Valitse välivarastoitava MARC-tietue klikkaamalla Selaa.
+
+![](/assets/files/docs/Hankinta/hankinta508.png)
+
+Valitse sopivat asetukset tuonnille. Voit käyttää myös MARC-muokkauksen pohjia tuonnissa.
+
+![](/assets/files/docs/Hankinta/hankinta509.png)
+
+
+![](/assets/files/docs/Hankinta/hankinta510.png)
+
+Valitse sitten _Vie väliaikaiseen tuontisäiliöön_.
+
+Jos vienti onnistuu, pääset tekemään tilauksen
+
+![](/assets/files/docs/Hankinta/hankinta511.png)
+
+Tämän jälkeen tilaus eteenee kuin seuraavassa kohdassa _Tilaus väliaikaistiedostosta_.
+![](/assets/files/docs/Hankinta/hankinta512.png)
 
 #### 5.4.1.7. Tilaus väliaikaistiedostosta
 
