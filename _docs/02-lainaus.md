@@ -957,6 +957,7 @@ http://manual.koha-community.org/3.16/en/offlinecirc.html
 englanninkielinen lisäosa, jota ei ole käännetty suomeksi.
 
 Ohje asennukseen ja käyttöön: 
+[Ohje asennukseen ja käyttöön](/assets/files/Koha Offline Circulation Tool (KOCT).pdf)
 
 (/assets/files/Koha Offline Circulation Tool (KOCT).pdf)
 
