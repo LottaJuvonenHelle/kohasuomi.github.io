@@ -948,7 +948,7 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 
 
 Ohjelman asennus- ja käyttöohje PDF-muodossa:
-![](/assets/files/KohaOfflineCirculation-ohje.pdf)
+![](/assets/files/docs/Lainaus/KohaOfflineCirculation-ohje.pdf)
 
 
 ### 2.15.2 Koha Offline Circulation Tool (KOCT)
