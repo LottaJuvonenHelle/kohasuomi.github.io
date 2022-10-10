@@ -947,10 +947,7 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 ### 2.15.1. Offline lainausohjelma Windowsille (KOC)
 
 
-Ohjelman asennus- ja käyttöohje PDF-muodossa:
-![](/assets/files/docs/Lainaus/KohaOfflineCirculation-ohje.pdf)
-(/assets/files/KohaOfflineCirculation-ohje.pdf)
-https://github.com/KohaSuomi/kohasuomi.github.io/blob/8b5a19ba3ab67748beb2da63e68fd8d8da71ca19/assets/files/docs/Lainaus/KohaOfflineCirculation-ohje.pdf
+[Ohjelman asennus- ja käyttöohje PDF-muodossa:](https://github.com/KohaSuomi/kohasuomi.github.io/blob/8b5a19ba3ab67748beb2da63e68fd8d8da71ca19/assets/files/docs/Lainaus/KohaOfflineCirculation-ohje.pdf)
 
 ### 2.15.2 Koha Offline Circulation Tool (KOCT)
 
@@ -959,12 +956,12 @@ englanninkielinen lisäosa, jota ei ole käännetty suomeksi.
 
 Ohje asennukseen ja käyttöön: 
 
-(/assets/files/Koha Offline Circulation Tool (KOCT).pdf)
+[Ohje pdf-muodossa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/d1dc796fbb0a91ac574f2e5e628df28ecd894eb5/assets/files/Koha%20Offline%20Circulation%20Tool%20(KOCT).pdf)
 
 
 ### 2.15.3 Yhteydettömän tilan lainaus
 
 **Tämä ei ole suositeltava tapa**
 
-[(/assets/files/Yhteydetonlainaus.pdf)](https://github.com/KohaSuomi/kohasuomi.github.io/blob/8b5a19ba3ab67748beb2da63e68fd8d8da71ca19/assets/files/Yhteydetonlainaus.pdf)
+[Yhteydettömän lainauksen ohje pdf-muodossa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/8b5a19ba3ab67748beb2da63e68fd8d8da71ca19/assets/files/Yhteydetonlainaus.pdf)
 ---
