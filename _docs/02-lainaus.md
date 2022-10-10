@@ -949,19 +949,17 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 
 Ohjelman asennus- ja käyttöohje PDF-muodossa:
 ![](/assets/files/docs/Lainaus/KohaOfflineCirculation-ohje.pdf)
-
+(/assets/files/KohaOfflineCirculation-ohje.pdf)
 
 ### 2.15.2 Koha Offline Circulation Tool (KOCT)
 
 http://manual.koha-community.org/3.16/en/offlinecirc.html  
 englanninkielinen lisäosa, jota ei ole käännetty suomeksi.
 
-Ohje asennukseen ja käyttöön:
+Ohje asennukseen ja käyttöön: 
 
-attachment:KOCTOffline-asennusjakäyttö.pdf
+(/assets/files/Koha Offline Circulation Tool (KOCT).pdf)
 
-Lainausnäkymä:  
-![](/assets/files/docs/Lainaus/KOCTLainausnäkymä.png)
 
 ### 2.15.3 Yhteydettömän tilan lainaus
 
