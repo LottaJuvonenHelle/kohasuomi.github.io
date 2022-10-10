@@ -90,7 +90,7 @@ Mitätöinnin jälkeen maksu näkyy uudella rivillä seuraavasti:
 
 Jokaisen rivin maksu voidaan maksaa tai poistaa erikseen klikkaamalla
 rivillä joko Maksa tai Poista. Maksu voidaan maksaa kokonaan tai
-osittain.
+osittain. Maksukäytännöissä voi olla kirjastokohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/maksurivi.png)
 
