@@ -950,6 +950,7 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 Ohjelman asennus- ja käyttöohje PDF-muodossa:
 ![](/assets/files/docs/Lainaus/KohaOfflineCirculation-ohje.pdf)
 (/assets/files/KohaOfflineCirculation-ohje.pdf)
+https://github.com/KohaSuomi/kohasuomi.github.io/blob/8b5a19ba3ab67748beb2da63e68fd8d8da71ca19/assets/files/docs/Lainaus/KohaOfflineCirculation-ohje.pdf
 
 ### 2.15.2 Koha Offline Circulation Tool (KOCT)
 
@@ -957,7 +958,6 @@ http://manual.koha-community.org/3.16/en/offlinecirc.html
 englanninkielinen lisäosa, jota ei ole käännetty suomeksi.
 
 Ohje asennukseen ja käyttöön: 
-[Ohje asennukseen ja käyttöön](/assets/files/Koha Offline Circulation Tool (KOCT).pdf)
 
 (/assets/files/Koha Offline Circulation Tool (KOCT).pdf)
 
@@ -966,5 +966,5 @@ Ohje asennukseen ja käyttöön:
 
 **Tämä ei ole suositeltava tapa**
 
-(/assets/files/Yhteydetonlainaus.pdf)
+[(/assets/files/Yhteydetonlainaus.pdf)](https://github.com/KohaSuomi/kohasuomi.github.io/blob/8b5a19ba3ab67748beb2da63e68fd8d8da71ca19/assets/files/Yhteydetonlainaus.pdf)
 ---
