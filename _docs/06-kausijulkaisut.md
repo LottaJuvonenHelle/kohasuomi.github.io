@@ -334,11 +334,11 @@ Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle:
 
 - _Alkupvm_ on tilauksen alkamispäivämäärä.
 - _Tilauksen pituudeksi_ valitse yksi kolmesta vaihtoehdosta:
-  numeroita, viikkoa tai kuukautta ja anna tilauksen pituuden määrä. Huomaa, että tilauksen pituus vaikuttaa ainoastaan uusitulle lehtitilaukselle muodostuvaan tilauksen päättymispäivään. Jos lehtitilauksen ilmestymistiheyteen tai numerointikaavaan tulee muutoksia, on ne tehtävä lehtitilauksen muokkauksen kautta.
+  numeroita, viikkoa tai kuukautta ja anna tilauksen pituuden määrä. **Huomaa, että tilauksen pituus vaikuttaa ainoastaan uusitulle lehtitilaukselle muodostuvaan tilauksen päättymispäivään. Jos lehtitilauksen ilmestymistiheyteen tai numerointikaavaan tulee muutoksia, on ne tehtävä lehtitilauksen muokkauksen kautta.**
 
 Lehtitilauksia voi uusia myös massana lehtitilauksen päättymisajan tarkistamisen kautta (ks. luku 4.8).
 
-Huomaa, että riippuen kimppasi asetuksista (järjestelmäasetus RenewSerialAddsSuggestion) lehtitilauksen uusiminen voi myös muodostaa automaattisesti hankintaehdotuksen.
+Riippuen kimppasi asetuksista (järjestelmäasetus RenewSerialAddsSuggestion) lehtitilauksen uusiminen voi myös muodostaa automaattisesti hankintaehdotuksen.
 
 ## 4.10. Lehtitilausten hakeminen
 
