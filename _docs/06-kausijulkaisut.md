@@ -327,7 +327,7 @@ jotka päättyvät ennen annettua päivämäärää.
 ![](/assets/files/docs/Kausijulkaisut/vanhenevat_lehtitilaukset.PNG)
 
 Listauksen oikeanpuolimmaisessa sarakkeessa on _Uusinta-linkki_, josta
-pääsee uusimaan tilauksen.
+pääsee uusimaan tilauksen. Voit myös valita useamman tilauksen ja uusia ne kerralla. Useampaa tilausta uusittaessa uusinta käyttää tilauksen pituutena automaattisesti sitä pituutta, mikä lehtitilauksen tietoihin on tallennettu.
 
 ## 4.9. Tilausten uusiminen
 
@@ -336,14 +336,17 @@ Tilauksen voi uusia klikkaamalla _Uusinta_.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul39.png)
 
-Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle .
+Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle:
 
 ![](/assets/files/docs/Kausijulkaisut/tilauksen_uusinta.PNG)
 
 - _Alkupvm_ on tilauksen alkamispäivämäärä.
 - _Tilauksen pituudeksi_ valitse yksi kolmesta vaihtoehdosta:
   numeroita, viikkoa tai kuukautta ja anna tilauksen pituuden määrä.
-- Loppuun voit tallentaa uusintaa koskevan huomautuksen.
+
+Lehtitilauksia voi uusia myös massana lehtitilauksen päättymisajan tarkistamisen kautta (ks. luku 4.8).
+
+Huomaa, että riippuen kimppasi asetuksista (järjestelmäasetus RenewSerialAddsSuggestion) lehtitilauksen uusiminen voi myös muodostaa automaattisesti hankintaehdotuksen.
 
 ## 4.10. Lehtitilausten hakeminen
 
