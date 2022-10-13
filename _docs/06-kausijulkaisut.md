@@ -21,12 +21,9 @@ saapuneita lehtiä.
 
 ## 4.1. Määrittele ilmestymistiheyksiä
 
-Kohassa voi määritellä ilmestymistiheyden lehdelle Ilmestymistiheys
--taulukkoon.
+Kohassa voi määritellä erilaisia valmiita ilmestymistiheyksiä lehdille. Toiminto on pääkäyttäjäoikeuksien takana.
 
-- Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Ilmestymistiheys (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
-
-Täällä näkyvät kaikki järjestelmässäsi olemassaolevat ilmestymistiheydet
+Ilmestymistiheydet löytyvät Ilmestymistiheys-sivulta:
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul3.png)
 
@@ -36,14 +33,9 @@ Voit myös luoda uusia ilmestymistiheyksiä.
 
 ## 4.2. Määrittele numerointikaavoja
 
-Aina kun luot uuden numerointijakson, voit tallentaa sen myöhempää
-käyttöä varten. Nämä numerointitiedot löytyvät Muokkaa numerointikaavoja
--sivulta.
+Kohassa voi määritellä erilaisia valmiita numerointikaavoja lehdille. Toiminto on pääkäyttäjäoikeuksien takana.
 
-- Mene: Muita toimintoja -&gt; Kausijulkaisut -&gt; Numerointikaavat (jos sivulle ei pääse, sinulta puuttuu oikeudet käsitellä tietoja - ota yhteys esimieheesi)
-
-Tällä sivulla on listattuna tallennetut numerointitiedot sekä muutamia
-oletusnumerointeja.  
+Numeroinnit löytyvät Numerointikaavat-sivulta:
 ![](/assets/files/docs/Kausijulkaisut/kausijul5.png)
 
 Voit myös luoda uusia numerointitietoja. Uuden numerointitiedon voit
@@ -342,7 +334,7 @@ Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle:
 
 - _Alkupvm_ on tilauksen alkamispäivämäärä.
 - _Tilauksen pituudeksi_ valitse yksi kolmesta vaihtoehdosta:
-  numeroita, viikkoa tai kuukautta ja anna tilauksen pituuden määrä.
+  numeroita, viikkoa tai kuukautta ja anna tilauksen pituuden määrä. Huomaa, että tilauksen pituus vaikuttaa ainoastaan uusitulle lehtitilaukselle muodostuvaan tilauksen päättymispäivään. Jos lehtitilauksen ilmestymistiheyteen tai numerointikaavaan tulee muutoksia, on ne tehtävä lehtitilauksen muokkauksen kautta.
 
 Lehtitilauksia voi uusia myös massana lehtitilauksen päättymisajan tarkistamisen kautta (ks. luku 4.8).
 
