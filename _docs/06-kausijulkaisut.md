@@ -338,7 +338,7 @@ Tilauksen voi uusia klikkaamalla _Uusinta_.
 
 Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle:
 
-![](/assets/files/docs/Kausijulkaisut/tilauksen_uusinta.PNG)
+![](/assets/files/docs/Kausijulkaisut/tilauksen_uusiminen.PNG)
 
 - _Alkupvm_ on tilauksen alkamispäivämäärä.
 - _Tilauksen pituudeksi_ valitse yksi kolmesta vaihtoehdosta:
