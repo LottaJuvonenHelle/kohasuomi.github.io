@@ -384,6 +384,7 @@ Mene työkaluihin ja valitse _Tietueiden poisto eräajona_
     (biblionumber). Tällaisen listan voi luoda esimerkiksi
     sql-kyselyllä Raportointi-osiossa tai keräämällä tietuenumeroita
     Muistioon.
+  - valitsemalla valmiin listan Kohasta, tätä varten tee lista poistettavista tietueista. 
   - lisäämällä tietuenumerot tekstikenttään yksi per rivi.
 
 Valitse sitten _Jatka_.
@@ -406,8 +407,10 @@ Tietueiden poistossa listataan poistoon valitut tietueet.
 Valitse lopuksi _Poista valitut tietueet_. Jos et haluakaan poistaa,
 valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin poistoa ei tehdä.
 
-Poiston jälkeen saat kuittauksen poistetuista tietueista  
+Poiston jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa poiston tilanteen painamalla ”Tarkastele jonossa olevan työn tietoja”.  
 <img src="/assets/files/docs/Tyokalut/tietueidenpoisto4.png" alt="" style="width:30.0%" />
+
+Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään onko tietueet jo poistettu.
 
 ---
 
