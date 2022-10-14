@@ -441,7 +441,10 @@ Tietueiden erämuokkaukseen pääse kahta kautta.
   valitse sitten _Erämuokkaus_.
 
 **Työkaluista**  
-<img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus.png" alt="" style="width:30.0%" />
+
+Mene työkaluihin ja valitse _Tietueiden muokkaus eräajona_
+
+<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona1.png" alt="" style="width:30.0%" />
 
 - Valitse ensin, muokataanko bibliografisia tietueita (nimekkeitä) vai
   auktoriteettitietueita (esim. kirjailija, asiasana).
@@ -449,6 +452,7 @@ Tietueiden erämuokkaukseen pääse kahta kautta.
   - tuomalla ne tiedostosta, jossa on lista tietuenumeroista
     (biblionumber). Tällaisen voi luoda esim. sql-kyselyllä
     Raportointi-osiossa tai keräämällä tietuenumeroita Muistioon.
+  - valitsemalla valmiin listan Kohasta, tätä varten tee lista poistettavista tietueista.
   - listaamalla tietuenumerot tekstikenttään yksi per rivi
 - Viimeiseksi valitaan, mitä muokkauspohjaa käytetään eli mitä
   muutoksia tietueille tehdään.
@@ -459,7 +463,7 @@ Valitse sitten _Jatka_.
 
 - Voit vielä vaihtaa muokkauspohjan tai tullessasi korista käsin,
   valitse se nyt.
-- Voit tarkistaa muokkausen tuloksen valitsemalla _Näytä MARC_,
+- Voit tarkistaa muokkauksen tuloksen valitsemalla _Näytä MARC_,
   jolloin avautuu MARC-tietueen esikatselu ja mukana on myös haluttu
   muutos:
 
@@ -467,9 +471,13 @@ Valitse sitten _Jatka_.
 
 Kun kaikki on kuten pitääkin, valitse _Muokkaa valittuja tietueita_.
 
-Saat kuittauksen, onnistuiko muokkaus:
+Muokkauksen jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa poiston tilanteen painamalla ”Tarkastele jonossa olevan työn tietoja”.
 
-<img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus4.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona2.png" alt="" style="width:30.0%" />
+
+Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään, onko tietueet jo muokattu. Voit halutessasi lisätä muokatut tietueet valitsemaasi listaan.
+
+<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona3.png" alt="" style="width:30.0%" />
 
 ---
 
