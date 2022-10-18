@@ -180,7 +180,7 @@ Ohjeet
 
 Asiakkaita ja lainatietoja voi poistaa eräajona seuraavien ehtojen
 mukaisesti:  
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1V2022.PNG" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1V2022.PNG" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:90.0%" />
 
 - ylimmäisenä, otsikon yläpuolella, on Valitse kirjasto -vaihtoehto,
   eli voit määrittää koskeeko ajo kaikkia kirjastoja vai vain tiettyä
@@ -202,7 +202,7 @@ Vahvista-ruutuun. Klikkaa sitten Seuraava-nappulaa.
 
 Seuraavaksi kerrotaan, kuinka monta asiakasta ollaan poistamassa ja mitä
 niille halutaan tehdä.  
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2V2022.PNG" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2V2022.PNG" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" style="width:90.0%" />
 
 - Poistetaanko näiden asiakkaiden tiedot pysyvästi
   - **Huom!** Tämä vaihtoehto poistaa asiakastiedot täysin
@@ -218,7 +218,7 @@ Valitse haluamasi vaihtoehto ja klikkaa Valmis-nappulaa.
 
 Tämän jälkeen järjestelmä kertoo, kuinka monta asiakasta poistettiin tai
 siirrettiin roskakoriin (deletedborrowers-tauluun).  
-<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:90.0%" />
 
 ### 10.5.2 Lainahistorian anonymisointi
 
@@ -235,11 +235,11 @@ anonymisointi kaikkia kirjastoja vai vain tiettyä kirjastoa.
 
 Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi1V2022.PNG" title="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" alt="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi1V2022.PNG" title="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" alt="Kuvakaappaus, jossa varoitetaan, kuinka monen asiakkaan lainahistoria anonymisoidaan" style="width:90.0%" />
 
 - Valitse _Valmis_
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi2V2022.PNG" title="Kuvakaappaus, jossa kerrotaan, kuinka monta lainaa on anonymisoitu, jotka ovat valittua päivämäärää vanhempia" alt="Kuvakaappaus, jossa kerrotaan, kuinka monta lainaa on anonymisoitu, jotka ovat valittua päivämäärää vanhempia" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenanonymisointi2V2022.PNG" title="Kuvakaappaus, jossa kerrotaan, kuinka monta lainaa on anonymisoitu, jotka ovat valittua päivämäärää vanhempia" alt="Kuvakaappaus, jossa kerrotaan, kuinka monta lainaa on anonymisoitu, jotka ovat valittua päivämäärää vanhempia" style="width:90.0%" />
 
 ---
 
@@ -248,7 +248,7 @@ Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle
 joukolle kerralla.
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus1V2022.PNG" title="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" alt="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" style="width:35.0%" />  
+<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus1V2022.PNG" title="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" alt="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" style="width:90.0%" />  
 Muokattavat asiakkaat voi valita kolmella tavalla
 
 - tiedostosta
@@ -258,7 +258,7 @@ Muokattavat asiakkaat voi valita kolmella tavalla
 
 Sen jälkeen valitaan _Seuraava_
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.PNG" title="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" alt="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.PNG" title="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" alt="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" style="width:90.0%" />
 
 Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu
 laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille eräajossa muutettavaksi valitsemillesi asiakkaille. Lopuksi valitaan _Tallenna_.
@@ -271,7 +271,7 @@ Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä
 kerralla.
 
 Valitse ensin poistettavat niteet.  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto1V2022.PNG"  title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä"  style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenpoisto1V2022.PNG"  title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä"  style="width:90.0%" />
 
 - Voit tuoda niteet tiedostosta, joka sisältää joko viivakoodeja tai
   nidenumeroita (itemnumber).
@@ -282,7 +282,7 @@ Valitse ensin poistettavat niteet.
 Valitse sitten _Jatka_.
 
 Poistettavat niteet listautuvat avautuvalle sivulle.  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto2V2022.PNG" title="Kuvakaappaus valinnoista niteiden poisto -näkymästä" alt="Kuvakaappaus valinnoista niteiden poisto -näkymästä" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenpoisto2V2022.PNG" title="Kuvakaappaus valinnoista niteiden poisto -näkymästä" alt="Kuvakaappaus valinnoista niteiden poisto -näkymästä" style="width:90.0%" />
 
 - Voit valita, mitä sarakkeita niteistä näytetään.
 - Voit vielä tässä vaiheessa ottaa pois rastin sellaisen niteen
@@ -295,7 +295,7 @@ Valitse lopuksi _Poista valitut_ -painike.
 
 Saat yhteenvedon poistetuista niteistä ja tietueista:
 
-<img src="/assets/files/docs/Tyokalut/erapoisto2.png" title="Kuvakaappaus niteiden poiston tuloksista" alt="Kuvakaappaus niteiden poiston tuloksista" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/erapoisto2.png" title="Kuvakaappaus niteiden poiston tuloksista" alt="Kuvakaappaus niteiden poiston tuloksista" style="width:90.0%" />
 
 Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_
 -napista tai linkistä.
@@ -303,7 +303,7 @@ Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_
 Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset
 tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta
 _Poista valitut_  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto4V2022.PNG" title="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" alt="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenpoisto4V2022.PNG" title="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" alt="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" style="width:90.0%" />
 
 ---
 
@@ -315,7 +315,7 @@ erämuokkaus\]\]-osiossa.
 
 Työkaluista käsin liikkeelle lähdettäessä valitaan ensin, mitä niteitä
 muokataan.  
-<img src="/assets/files/docs/Tyokalut/eramuokkaus1.png" title="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" alt="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" style="width:35.0%" />  
+<img src="/assets/files/docs/Tyokalut/eramuokkaus1.png" title="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" alt="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" style="width:90.0%" />  
 Niteet voi tuoda
 
 - Viivakooditiedostosta, joka on tehty esim. keräämällä viivakoodeja
@@ -332,14 +332,14 @@ oletusluettelointipohjaan ei ole määritetty oletusarvoja 952-kenttään.
 Valitse _Jatka_ muokataksesi niteitä.
 
 Erämuokkauksessa voit  
-<img src="/assets/files/docs/Tyokalut/niteidenmuokkaus2V2022.PNG" title="Kuvakaappaus niteiden valinnasta muokkaukseen erajona -näkymästä" alt="Kuvakaappaus niteiden valinnasta muokkaukseen erajona -näkymästä" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenmuokkaus2V2022.PNG" title="Kuvakaappaus niteiden valinnasta muokkaukseen erajona -näkymästä" alt="Kuvakaappaus niteiden valinnasta muokkaukseen erajona -näkymästä" style="width:90.0%" />
 
 - valita, mitä niteitä muokataan
 - poistaa niteiltä lainassa-tilan (käytä harkiten)
 - säätää, mitä tietoja niteistä näytetään muokkauksessa
 
 Niteiden muokkaus  
-<img src="/assets/files/docs/Tyokalut/niteidenmuokkaus3V2022.PNG" title="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" alt="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" style="width:60.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenmuokkaus3V2022.PNG" title="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" alt="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" style="width:90.0%" />
 
 - Pakolliseksi merkittyjä tietoja ei pysty poistamaan niteiltä, mutta
   ne voi vaihtaa toiseksi tiedoksi.
@@ -489,14 +489,14 @@ varsinaisesti sitten tekee sääntöjen mukaiset muutokset.
 
 Olemassa olevat säännöt näkyvät työkalun etusivulla. Sitä muokkaamaan ja
 uusia sääntöjä luomaan pääsee valitsemalla _Muokkaa sääntöjä_  
-<img src="/assets/files/docs/Tyokalut/ianmukaan.png" alt="" style="width:30.0%" />  
+<img src="/assets/files/docs/Tyokalut/ianmukaan.png" alt="" style="width:90.0%" />  
 Voit nyt joko muokata olemassa olevaa tai tehdä uuden säännön
 valitsemalla _Lisää sääntö_  
-<img src="/assets/files/docs/Tyokalut/ianmukaan2.png" alt="" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/ianmukaan2.png" alt="" style="width:90.0%" />
 
 Uudelle säännölle määritetään seuraavat:
 
-<img src="/assets/files/docs/Tyokalut/ianmukaan3.png" alt="" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/ianmukaan3.png" alt="" style="width:90.0%" />
 
 - **Ikä päivinä**. Ikä lasketaan niteen hankintapäivä-kentän mukaan.
 - **Ehdot**, jotka pitää täyttyä ennen kuin nidettä muokataan. Voit
@@ -532,7 +532,7 @@ skaalausta, se muuttaa tarrojen asemointia myös suhteessa toisiinsa,
 jolloin ne eivät enää osu oikeaan kohtaan arkkia (esim. liian lähelle
 tai kauas ylempänä olevasta tarrasta).
 
-<img src="/assets/files/docs/Tyokalut/tarratulostin.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/tarratulostin.png" alt="" style="width:90.0%" />
 
 #### Niteiden lisääminen tulostettavaksi
 
@@ -542,21 +542,21 @@ niteen muokkauksen kautta tarratulostulistalle.
 
 Laita niteen muokkauksessa rasti kohtaan _Lisää tulostuslistalle_ ja
 valitse sitten yläpuolelta _Tallenna_  
-<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:25.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:90.0%" />  
 Nide siirtyy _labels printing_ -nimiselle Kohan listalle. Jos listaa ei
 ollut ennestään olemassa, luodaan sellainen.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin6.png" alt="" style="width:40.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin6.png" alt="" style="width:90.0%" />  
 Listalla olevat niteet näkyvät nyt tarratulostimen tekstikentässä.
 Listan voi tyhjentää valitsemalla _Tyhjennä lista_. Huomioi, että nappi
 ei tyhjennä tekstikentästä niitä viivakoodeja, jotka siihen on lisätty
 itse manuaalisesti.
 
-<img src="/assets/files/docs/Tyokalut/tarratulostin7.png" alt="" style="width:30.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin7.png" alt="" style="width:90.0%" />  
 Tyhjennyksestä tulee popup-kuittaus:
 
 ![](/assets/files/docs/Tyokalut/tarratulostin8.png)  
 Ja Kohan labels printing -lista on sen jälkeen tyhjä:  
-<img src="/assets/files/docs/Tyokalut/tarratulostin9.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/tarratulostin9.png" alt="" style="width:90.0%" />
 
 #### Tulostaminen
 
@@ -564,17 +564,17 @@ Säädä tarvittaessa marginaaleja ja valitse sitten _Tulosta_. Voit
 ohittaa tarroja arkilta laittamalla tekstikenttään tyhjän rivin.
 Esimerkiksi kaksi tyhjää riviä ohittaa kaksi ensimmäistä tarraa ja
 aloittaa tulostamisen vasta kolmannesta.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin1.png" alt="" style="width:30.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin1.png" alt="" style="width:90.0%" />  
 Valitse _Tulosta_, jonka jälkeen tulee popup, joka kysyy mitä
 tiedostolle tehdään. Avataanko tiedosto pdf-ohjelmalla vai
 tallennetaanko se. Tiedosto kannattaa avata.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin2.png" alt="" style="width:30.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin2.png" alt="" style="width:90.0%" />  
 Tiedosto avataan tietokoneellesi asennetulla pdf-tiedostojen
 oletusohjelmalla, josta voit sen sitten tulostaa ohjelman
 tulostustoimintoja käyttäen. Tarra-arkki näytetään sellaisena kuin se
 tulostuu. Alla pari erilaista esimerkkiä asetteluista.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin3.png" alt="" style="width:50.0%" />  
-<img src="/assets/files/docs/Tyokalut/tarratulostin4.png" alt="" style="width:45.0%" />
+<img src="/assets/files/docs/Tyokalut/tarratulostin3.png" alt="" style="width:90.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin4.png" alt="" style="width:90.0%" />
 
 ---
 
@@ -591,49 +591,49 @@ Kohassa pystyy muokkaamaan tietueita eräajona ja sitä varten tarvitaan
 säännöt, minkä pohjalta muokkausta tehdään. MARC-muokkauksen pohjat ovat
 tätä varten.
 
-<img src="/assets/files/docs/Tyokalut/marcpohja.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja.png" alt="" style="width:90.0%" />
 
 ### Uuden muokkauspohjan tekeminen
 
 Uuden pohjan voi tehdä valitsemalla _Uusi pohja_  
-<img src="/assets/files/docs/Tyokalut/marcpohja1.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja1.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" style="width:90.0%" />
 
 Anna pohjalle kuvaava nimi. Voit myös kopioida malliksi jonkin jo
 olemassa olevan pohjan.  
-<img src="/assets/files/docs/Tyokalut/marcpohja2.png" title="Kuvakaappaus uuden pohjan luonnista. Kuvassa on tekstikenttä Nimi ja alasvetovalikko, josta voi valita kopioitavan mallin. Nimi-kenttä on pakollinen." alt="Kuvakaappaus uuden pohjan luonnista. Kuvassa on tekstikenttä Nimi ja alasvetovalikko, josta voi valita kopioitavan mallin. Nimi-kenttä on pakollinen." style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja2.png" title="Kuvakaappaus uuden pohjan luonnista. Kuvassa on tekstikenttä Nimi ja alasvetovalikko, josta voi valita kopioitavan mallin. Nimi-kenttä on pakollinen." alt="Kuvakaappaus uuden pohjan luonnista. Kuvassa on tekstikenttä Nimi ja alasvetovalikko, josta voi valita kopioitavan mallin. Nimi-kenttä on pakollinen." style="width:90.0%" />
 
 Sen jälkeen pohjalle pitää lisätä toiminnot eli mitä muokkauksia
 tietueille halutaan tehdä. Valitse _Uusi toiminto_  
-<img src="/assets/files/docs/Tyokalut/marcpohja3.png" title="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." alt="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." style="width:25.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja3.png" title="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." alt="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." style="width:90.0%" />
 
 Valitse ensimmäisestä valikosta, haluatko poistaa, lisätä/päivittää,
 siirtää, kopioida vai kopioida ja korvata.  
-<img src="/assets/files/docs/Tyokalut/marcpohja4.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja4.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" style="width:90.0%" />
 
 Sitten valitaan, koskeeko toiminto kaikkia määritettyjä kenttiä vai 1.
 vastaan tulevaa kenttää, joka täyttää kenttä-määrityksen.  
-<img src="/assets/files/docs/Tyokalut/marcpohja5.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1." alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1." style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja5.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1." alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1." style="width:90.0%" />
 
 Seuraavaksi kirjoitetaan, mitä MARC-osakenttää halutaan muokata.  
-<img src="/assets/files/docs/Tyokalut/marcpohja6.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla kaksi kirjoituskenttää. Toisessa on marc-kentän numero 500 ja toisessa marc-osakentän kirjain a" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla kaksi kirjoituskenttää. Toisessa on marc-kentän numero 500 ja toisessa marc-osakentän kirjain a" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja6.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla kaksi kirjoituskenttää. Toisessa on marc-kentän numero 500 ja toisessa marc-osakentän kirjain a" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla kaksi kirjoituskenttää. Toisessa on marc-kentän numero 500 ja toisessa marc-osakentän kirjain a" style="width:90.0%" />
 
 Voit määrittää myös, pitääkö täyttyä jokin ehto ennen kuin muutos
 tehdään. Valittavissa on jos/paitsi-vaihtoehdot. Tämä ei ole
 pakollinen.  
-<img src="/assets/files/docs/Tyokalut/marcpohja61.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" style="width:20.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja61.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" style="width:90.0%" />
 
 Määrittele ehdon vaatima kenttä sekä missä tapauksessa se otetaan
 huomioon.  
-<img src="/assets/files/docs/Tyokalut/marcpohja7.png" title="Kuvakaappauksessa on kaksi kirjoituskenttää sek avattu alasvetovalikko. Kentiin on kirjoitettu 100 ja a. Alasvetovalikossa on vaihtoehdot &quot;on jo olemassa&quot;, &quot;ei ole olemassa&quot;, osumat ja &quot;ei osumaa&quot;" alt="Kuvakaappauksessa on kaksi kirjoituskenttää sek avattu alasvetovalikko. Kentiin on kirjoitettu 100 ja a. Alasvetovalikossa on vaihtoehdot &quot;on jo olemassa&quot;, &quot;ei ole olemassa&quot;, osumat ja &quot;ei osumaa&quot;" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja7.png" title="Kuvakaappauksessa on kaksi kirjoituskenttää sek avattu alasvetovalikko. Kentiin on kirjoitettu 100 ja a. Alasvetovalikossa on vaihtoehdot &quot;on jo olemassa&quot;, &quot;ei ole olemassa&quot;, osumat ja &quot;ei osumaa&quot;" alt="Kuvakaappauksessa on kaksi kirjoituskenttää sek avattu alasvetovalikko. Kentiin on kirjoitettu 100 ja a. Alasvetovalikossa on vaihtoehdot &quot;on jo olemassa&quot;, &quot;ei ole olemassa&quot;, osumat ja &quot;ei osumaa&quot;" style="width:90.0%" />
 
 Voit myös käyttää ehdossa RegEx-sääntöä halutessasi. Kuvaus-kenttään
 voit kuvailla, mitä toiminto tekee. Toiminto tallennetaan valitsemalla
 _Lisää toiminto_.  
-<img src="/assets/files/docs/Tyokalut/marcpohja8.png" title="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." alt="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja8.png" title="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." alt="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." style="width:90.0%" />
 
 Toimintoja voi lisätä useamman samaan pohjaan ja niiden
 suoritusjärjestystä voi muuttaa ensimmäisen sarakkeen nuolilla.  
-<img src="/assets/files/docs/Tyokalut/marcpohja9.png" title="Kuvakaappaus, jossa näkyy valmiina juuri tehty sääntö taulukkona. Ensimmäissä sarakkeessa lukee Muuta järjestystä, toisessa sarakkeessa lukee tilaus, kolmannessa sarakkeessa lukee Toiminto, neljännessä sarakkeessa lukee Kuvaus, viidennessä sarakkeessa on muokkaa-nappula, kuudennessa sarakkeessa on poista-nappula." alt="Kuvakaappaus, jossa näkyy valmiina juuri tehty sääntö taulukkona. Ensimmäissä sarakkeessa lukee Muuta järjestystä, toisessa sarakkeessa lukee tilaus, kolmannessa sarakkeessa lukee Toiminto, neljännessä sarakkeessa lukee Kuvaus, viidennessä sarakkeessa on muokkaa-nappula, kuudennessa sarakkeessa on poista-nappula." style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja9.png" title="Kuvakaappaus, jossa näkyy valmiina juuri tehty sääntö taulukkona. Ensimmäissä sarakkeessa lukee Muuta järjestystä, toisessa sarakkeessa lukee tilaus, kolmannessa sarakkeessa lukee Toiminto, neljännessä sarakkeessa lukee Kuvaus, viidennessä sarakkeessa on muokkaa-nappula, kuudennessa sarakkeessa on poista-nappula." alt="Kuvakaappaus, jossa näkyy valmiina juuri tehty sääntö taulukkona. Ensimmäissä sarakkeessa lukee Muuta järjestystä, toisessa sarakkeessa lukee tilaus, kolmannessa sarakkeessa lukee Toiminto, neljännessä sarakkeessa lukee Kuvaus, viidennessä sarakkeessa on muokkaa-nappula, kuudennessa sarakkeessa on poista-nappula." style="width:90.0%" />
 
 ---
 
@@ -647,14 +647,14 @@ jokaiselle kirjastolle.
 Kun sivulle menee, avautuu näkyville käyttäjän kirjautumiskirjaston
 kalenteri. Oikealla on vinkkejä ja listoja määritetyistä
 kiinniolopäivistä.  
-<img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:80.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:90.0%" />
 
 ### 10.14.1 Kiinniolon lisääminen
 
 Lisää kiinniolopäivä-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
 päivämäärävälin ensimmäistä päivää. 
 
-<img src="/assets/files/docs/Tyokalut/Kalenteri2.png" title="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" alt="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri2.png" title="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" alt="Kuvakaappaus, jossa näkyy valittavissa olevat vaihtoehdot. Tarkempi kuvaus varsinaisessa tekstissä" style="width:90.0%" />
 
 Päivään -kenttään voi lisätä kiinnioloajan päättymispäivän. Punaisesta ruksista Päivään -kentän saa tyhjäksi. Nimeke-kenttään voi kirjoittaa haluamansa nimen kiinniolopäivälle/aikavälille, esim. Suljettu tai Pääsiäinen.
 Kuvaus-kenttään voi kuvata tarkemmin sulkutietoa. Sitten valitse yksi vaihtoehdoista.
@@ -685,17 +685,17 @@ vaihtoehdosta.
 
 Kopioi kiinniolopäivät kirjastolle -alasvetovalikosta voit valita kirjaston, jonka kalenteriin haluat kiinniolon kopioituvan.
 
-<img src="/assets/files/docs/Tyokalut/Kalenteri3.png" title="Kuvakaappaus Kopioi kiinniolopäivät kirjastolle -valikosta" alt="Kuvakaappaus Kopioi kiinniolopäivät kirjastolle -valikosta" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri3.png" title="Kuvakaappaus Kopioi kiinniolopäivät kirjastolle -valikosta" alt="Kuvakaappaus Kopioi kiinniolopäivät kirjastolle -valikosta" style="width:90.0%" />
 
 Kalenterin alalaidassa olevista linkeistä pääset takaisin kuluvan kuukauden kohdalle, jos teet määrityksiä jonkin muun kuukauden kohdalla.
 
-<img src="/assets/files/docs/Tyokalut/Kalenteri4.png" title="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" alt="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri4.png" title="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" alt="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" style="width:90.0%" />
 
 ### 10.14.2 Sulkupäivien värikoodit
 
 Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 
-<img src="/assets/files/docs/Tyokalut/Kalenteri5.png" title="Kuvakaappaus kalenterissa käytettyjen värien selitteestä" alt="Kuvakaappaus kalenterissa käytettyjen värien selitteestä" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri5.png" title="Kuvakaappaus kalenterissa käytettyjen värien selitteestä" alt="Kuvakaappaus kalenterissa käytettyjen värien selitteestä" style="width:90.0%" />
 
 - valkoinen on työpäivä eli päivälle voi tulla erä- ja noutopäiviä.
 - punainen on yksittäinen, ei toistuva kiinniolopäivä. Myös
@@ -708,13 +708,13 @@ Eri tyyppiset sulkupäivät on merkitty eri väreillä.
   on avoin ja sille voi tulla erä- ja noutopäiviä.
 
 Alla kuvakaappaus, miltä värikoodit näyttävät kalenterissa.  
-<img src="/assets/files/docs/Tyokalut/Kalenteri6.png" title="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" alt="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri6.png" title="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" alt="Kuvakaappaus kalenterista, jossa on punaisia, sininen, keltaisia ja oranssi merkintä" style="width:90.0%" />
 
 Kalenterissa klikattu päivä näkyy vihreänä. 
 
 Kuluva päivä on näkyy tummanvihreällä kehystettynä, jos kyseinen päivä on avoinna oleva päivä. Jos päivä on merkitty suljetuksi,
 näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.  
-<img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:90.0%" />
 
 ### 10.14.3 Sulkutiedon poistaminen
 
@@ -722,7 +722,7 @@ Sulkupäiviä voi myös poistaa, jos ne ovat virheellisiä tai tarpeettomia.
 
 Valitse päivä tai aikavälin ensimmäinen päivä.
 
-<img src="/assets/files/docs/Tyokalut/Kalenteri8.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri8.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla poisto-vaihtoehdot: poista tämä päivä, poista yksittäiset kiinniolot aikavälillä, poista toistuvat kiinniolot aikavälillä, poista poikkeukset aikaväliltä" style="width:90.0%" />
 
 Määritä tarvittaessa aikavälin loppupäivä. Valitse haluamasi
 poisto -vaihtoehto ja klikkaa Tallenna.
@@ -732,7 +732,7 @@ poisto -vaihtoehto ja klikkaa Tallenna.
 Sulkupäivän voi muokata valitsemalla muutettava päivä. Voit muokata valitun päivän Nimekettä ja Kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokkauksen voi tehdä yksi päivä kerrallaan.
 
-<img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/Kalenteri9.png" title="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" alt="Kuvakaappaus, jossa näkyy muokkaustila ja on ympyröitynä punaisella laatikolla kohdat Nimeke, Kuvaus ja Muokkaa kiinniolopäivää" style="width:90.0%" />
 
 ---
 
@@ -865,7 +865,7 @@ pitää halutessaan poistaa manuaalisesti.
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
-<img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:90.0%" />
 
 ### 12.17.1 Laskutustyökalu
 
@@ -908,13 +908,13 @@ Laskutuksen asetusten ohje on [Redminessa](https://tiketti.koha-suomi.fi/project
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
 Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
 
-<img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" style="width:90.0%" />
 
 ### 12.17.4 Tarratulostustyökalu
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
-<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:20.0%" />
+<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:90.0%" />
 
 Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai syöttämällä viivakoodit oikealle *Lue viivakoodit* -laatikkoon.
 
@@ -945,7 +945,7 @@ Koha-Suomella on käytössä yksi raporttiliitännäinen, jonka saa esille
 klikkaamalla _Katso liitännäisiä luokan mukaan_ -nappia tai menemällä
 Raportit-osioon.
 
-<img src="/assets/files/docs/Tyokalut/liitannaiset2.png" title="Kuvakaappaus, jossa näkyy raporttiliitännäisen tiedot" alt="Kuvakaappaus, jossa näkyy raporttiliitännäisen tiedot" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/liitannaiset2.png" title="Kuvakaappaus, jossa näkyy raporttiliitännäisen tiedot" alt="Kuvakaappaus, jossa näkyy raporttiliitännäisen tiedot" style="width:90.0%" />
 
 ---
 
