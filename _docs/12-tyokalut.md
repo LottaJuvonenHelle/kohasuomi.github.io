@@ -33,37 +33,37 @@ hyödyntää mm. asiakastietojen erämuokkauksessa.
 
 Etusivulla listataan olemassa olevat asiakaslistat. Uuden asiakaslistan
 voi tehdä _Uusi asiakaslista_ -nappia painamalla.  
-<img src="/assets/files/docs/Tyokalut/asiakaslistat00.png" alt="Kuvakaappaus uuden asiakaslistan luomisesta" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakaslistat00.png" alt="Kuvakaappaus uuden asiakaslistan luomisesta" style="width:90.0%" />
 
 Anna listalle nimi ja tallenna se. Jos lista merkitään jaetuksi, sen näkevät kimpassa kaikki, joilla on oikeus muokata asiakaslistoja.
 <img src="/assets/files/docs/Tyokalut/asiakaslistat01.png" alt="Kuvakaappaus uuden asiakaslistan nimeämisestä ja jaetuksi merkitsemisestä" 
-style="width:25.0%" />
+style="width:90.0%" />
 
 Tämän jälkeen listalle voi lisätä asiakkaita klikkaamalla
 _Toiminnot_-nappia ja valitsemalla _Lisää asiakkaita_.  
-<img src="/assets/files/docs/Tyokalut/asiakaslistat02.png" alt="Kuvakaappaus asiakkaiden lisäämisestä uuteen asiakaslistaan" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakaslistat02.png" alt="Kuvakaappaus asiakkaiden lisäämisestä uuteen asiakaslistaan" style="width:90.0%" />
 
 Siitä aukeaa sivu, jolla pystyt hakemaan asiakkaita esim. nimellä.
 Valitse hiirellä tarjottu asiakastieto, jolloin se listautuu hakukentän
 alapuolelle. Voit hakea useamman asiakkaan tiedot ennen kuin lisäät
 heidät listalle.  
 <img src="/assets/files/docs/Tyokalut/asiakaslistat03.png" alt="Kuvakaappaus asiakkaiden hakemisesta tietokannasta asiakaslistaan lisäämistä varten" 
-style="width:40.0%" />
+style="width:90.0%" />
 
 <img src="/assets/files/docs/Tyokalut/asiakaslistat04.png" alt="Kuvakaappaus useammasta haetusta asiakkaasta valmiina lisättäväksi asiakaslistaan" 
-style="width:25.0%" />
+style="width:90.0%" />
 
 Nyt pääset tarkastelemaan listalla olevia asiakkaita. Voit myös poistaa
 heitä listalta valitsemalla heidän tiedot ja klikkaamalla _Poista
 valitut asiakkaat_. Ohjelma kysyy varmistuksen “Haluatko varmasti poistaa valitut asiakkaat?”.
 Huom! Asiakastietoja ei poisteta rekisteristä, vain asiakaslistalta.  
-<img src="/assets/files/docs/Tyokalut/asiakaslistat05.png" alt="Kuvakaappaus esimerkkiasiakaslistaan kuuluvista asiakkaista" style="width:60.0%" />
+<img src="/assets/files/docs/Tyokalut/asiakaslistat05.png" alt="Kuvakaappaus esimerkkiasiakaslistaan kuuluvista asiakkaista" style="width:90.0%" />
 
 Asiakkaita voi lisätä listalle myös normaalin asiakashaun kautta valitsemalla
 ensin halutut asiakkaat ja valitsemalla sitten _Lisää asiakaslistaan_
 -valikosta haluamasi lista.  
 <img src="/assets/files/docs/Tyokalut/asiakaslistat06.png" alt="Kuvakaappaus asiakkaiden lisäämisestä asiakaslistaan vaihtoehtoisella tavalla, normaalin 
-asiakashaun kautta" style="width:40.0%" />
+asiakashaun kautta" style="width:90.0%" />
 
 ---
 
@@ -97,7 +97,7 @@ Ilmoituksen voi määrittää eri viestityypeille: sähköposti, tuloste, teksti
 Osa kuiteista vaatii toimiakseen tekstin myös sähköpostikenttään, vaikka vain tuloste olisi käytössä. 
 Muutokset tallennetaan _Tallenna_-napista. 
 
-<img src="/assets/files/docs/Tyokalut/ilmoitukset01.png" alt="Kuvakaappaus ilmoitusten ja kuittien muokkauksen pääsivusta, jossa näkyvät käytössä olevat kielet ja viestityypit" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/ilmoitukset01.png" alt="Kuvakaappaus ilmoitusten ja kuittien muokkauksen pääsivusta, jossa näkyvät käytössä olevat kielet ja viestityypit" style="width:90.0%" />
 
 Ilmoitukseen tai kuittiin voi lisätä tekstiä sekä tägejä, joilla viestiin
 lisätään tietokannasta tietoja esim. asiakkaasta, lainoista ja eräpäivistä. 
@@ -107,7 +107,7 @@ _Viestin aihe_ -kenttään kirjoitetaan sähköpostiviestin aihe, joka näkyy my
 Myös viestin aiheessa voi käyttää tietokanta-tägejä. Jos viesti on html-muotoinen, laitetaan rasti kohtaan
 _HTML-viesti_, jolloin viesti osataan käsitellä oikein. 
 
-<img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="Kuvakaappaus, jossa esimerkkinä sähköposti-ilmoituksesta on eräpäivämuistutus" style="width:60.0%" />
+<img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="Kuvakaappaus, jossa esimerkkinä sähköposti-ilmoituksesta on eräpäivämuistutus" style="width:90.0%" />
 
 ### 12.2.2 Eräpäivä kuitille ilman kellonaikaa
 
@@ -367,7 +367,7 @@ kautta.
 
 Vie haluamasi tietueet koriin ja avaa se.
 
-<img src="/assets/files/docs/Tyokalut/tietueidenpoisto2.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tietueidenpoisto2.png" />
 
 - Valitse poistettavat tietueet ja klikkaa sitten _Eräpoisto_
 
@@ -375,7 +375,7 @@ Vie haluamasi tietueet koriin ja avaa se.
 
 Mene työkaluihin ja valitse _Tietueiden poisto eräajona_
 
-<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona1.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona1.png" />
 
 - Valitse ensin, poistatko bibliografisia tietueita (nimekkeitä) vai
   auktoritettitietueita (esim. kirjailijoita, asiasanoja).
@@ -391,7 +391,7 @@ Valitse sitten _Jatka_.
 
 Tietueiden poistossa listataan poistoon valitut tietueet.
 
-<img src="/assets/files/docs/Tyokalut/tietueidenpoisto3.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tietueidenpoisto3.png" />
 
 - jos tietueeseen liittyy lainassa olevia niteitä, ei sitä pysty
   poistamaan.
@@ -407,11 +407,11 @@ Valitse lopuksi _Poista valitut tietueet_. Jos et haluakaan poistaa,
 valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin poistoa ei tehdä.
 
 Poiston jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa poiston tilanteen painamalla ”Tarkastele jonossa olevan työn tietoja”.  
-<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona2.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona2.png" />
 
 Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään onko tietueet jo poistettu.
 
-<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona3.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona3.png" />
 
 ---
 
