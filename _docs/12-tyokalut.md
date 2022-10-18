@@ -398,8 +398,7 @@ Tietueiden poistossa listataan poistoon valitut tietueet.
 - voit vielä tässä vaiheessa ottaa rastin pois niiltä tietueilta,
   joita et halua poistaa.
 - **Huomioi**: tietueiden eräpoisto poistaa myös tietueeseen liittyvät
-  lehtitilaukset, niteet ja varaukset **<span
-  class="lehtitilauksia Kohassa tarkoittaa oikeasti se kun "tilaukset", virheellisesti käännetty on subscriptions käännösvirhe, on Kuvassa"></span>**
+  lehtitilaukset, niteet ja varaukset (Kuvassa on käännösvirhe, subscriptions on käännetty virheellisesti "tilaukset", kun se oikeasti tarkoittaa Kohassa lehtitilauksia)
   - tämä voi olla kätevää esim. kun teos ei ilmesty ja siihen on
     paljon varauksia, jolloin sitä ei pysty poistamaan tietueesta
     käsin poistamatta ensin varauksia.
@@ -429,8 +428,7 @@ Erämuokkauksessa on rajoituksia
 - kiinteämittaisia kenttiä ei pysty muokkaamaan/poistamaan
 
 Ennen kuin tietueita voi muokata, pitää määrittää käytettävä
-\[\[11_Työkalut\#1113-MARC-muokkauksen-pohjat\|MARC-muokkauksen
-pohja\]\].
+[MARC-muokkauksen pohja](https://koha-suomi.fi/dokumentaatio/tyokalut/#1013-marc-muokkauksen-pohjat).
 
 Tietueiden erämuokkaukseen pääse kahta kautta.
 
