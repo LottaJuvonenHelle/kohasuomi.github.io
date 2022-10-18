@@ -367,15 +367,15 @@ kautta.
 
 Vie haluamasi tietueet koriin ja avaa se.
 
-<img src="/assets/files/docs/Tyokalut/tietueidenpoisto2.png" alt="" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/tietueidenpoisto2.png" alt="" style="width:90.0%" />
 
 - Valitse poistettavat tietueet ja klikkaa sitten _Eräpoisto_
 
-### Tietueen poisto työkaluista käsin
+### 10.9.2 Tietueen poisto työkaluista käsin
 
 Mene työkaluihin ja valitse _Tietueiden poisto eräajona_
 
-<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona1.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona1.png" alt="" style="width:90.0%" />
 
 - Valitse ensin, poistatko bibliografisia tietueita (nimekkeitä) vai
   auktoritettitietueita (esim. kirjailijoita, asiasanoja).
@@ -391,7 +391,7 @@ Valitse sitten _Jatka_.
 
 Tietueiden poistossa listataan poistoon valitut tietueet.
 
-<img src="/assets/files/docs/Tyokalut/tietueidenpoisto3.png" alt="" style="width:50.0%" />
+<img src="/assets/files/docs/Tyokalut/tietueidenpoisto3.png" alt="" style="width:90.0%" />
 
 - jos tietueeseen liittyy lainassa olevia niteitä, ei sitä pysty
   poistamaan.
@@ -407,11 +407,11 @@ Valitse lopuksi _Poista valitut tietueet_. Jos et haluakaan poistaa,
 valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin poistoa ei tehdä.
 
 Poiston jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa poiston tilanteen painamalla ”Tarkastele jonossa olevan työn tietoja”.  
-<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona2.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona2.png" alt="" style="width:90.0%" />
 
 Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään onko tietueet jo poistettu.
 
-<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona3.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona3.png" alt="" style="width:90.0%" />
 
 ---
 
