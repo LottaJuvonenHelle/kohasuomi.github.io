@@ -324,7 +324,7 @@ pääsee uusimaan tilauksen. Voit myös valita useamman tilauksen ja uusia ne ke
 ## 4.9. Tilausten uusiminen
 
 Jos lehtitilauksesi on loppunut, et voi vastaanottaa lehtinumeroita.
-Tilauksen voi uusia klikkaamalla _Uusinta_.
+Tilauksen voi uusia klikkaamalla _Uusinta_. (Huom! Osassa kimpoista voi olla tapana tehdä lehdille vuosikohtaisia nimeketietueita (esim. Anna 2022, Anna 2023 jne). Tällaisessa tapauksessa tilausta ei voi uusia vaan seuraavan vuoden lehtinimekkeelle on tehtävä kokonaan uusi lehtitilaus.)
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul39.png)
 
