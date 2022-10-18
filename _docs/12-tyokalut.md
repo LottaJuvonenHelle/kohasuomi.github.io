@@ -433,7 +433,7 @@ Ennen kuin tietueita voi muokata, pitää määrittää käytettävä
 Tietueiden erämuokkaukseen pääse kahta kautta.
 
 **Korista**  
-<img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus1.png" alt="" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus1.png" />
 
 - Vie muokattavat tietueet koriin ja valitse kaikki (tai halutut) ja
   valitse sitten _Erämuokkaus_.
@@ -442,7 +442,7 @@ Tietueiden erämuokkaukseen pääse kahta kautta.
 
 Mene työkaluihin ja valitse _Tietueiden muokkaus eräajona_
 
-<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona1.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona1.png" />
 
 - Valitse ensin, muokataanko bibliografisia tietueita (nimekkeitä) vai
   auktoriteettitietueita (esim. kirjailija, asiasana).
@@ -457,7 +457,7 @@ Mene työkaluihin ja valitse _Tietueiden muokkaus eräajona_
 
 Valitse sitten _Jatka_.
 
-<img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus2.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus2.png" />
 
 - Voit vielä vaihtaa muokkauspohjan tai tullessasi korista käsin,
   valitse se nyt.
@@ -465,17 +465,17 @@ Valitse sitten _Jatka_.
   jolloin avautuu MARC-tietueen esikatselu ja mukana on myös haluttu
   muutos:
 
-<img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus3.png" alt="" style="width:60.0%" />
+<img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus3.png" />
 
 Kun kaikki on kuten pitääkin, valitse _Muokkaa valittuja tietueita_.
 
 Muokkauksen jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa poiston tilanteen painamalla ”Tarkastele jonossa olevan työn tietoja”.
 
-<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona2.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona2.png" />
 
 Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään, onko tietueet jo muokattu. Voit halutessasi lisätä muokatut tietueet valitsemaasi listaan.
 
-<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona3.png" alt="" style="width:30.0%" />
+<img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona3.png" />
 
 ---
 
