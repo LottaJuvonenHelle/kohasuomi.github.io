@@ -271,7 +271,7 @@ Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä
 kerralla.
 
 Valitse ensin poistettavat niteet.  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto1V2022.PNG"  title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä"  style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/niteidenpoisto1V2022.PNG"  title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä"  style="width:70.0%" />
 
 - Voit tuoda niteet tiedostosta, joka sisältää joko viivakoodeja tai
   nidenumeroita (itemnumber).
@@ -542,7 +542,7 @@ niteen muokkauksen kautta tarratulostulistalle.
 
 Laita niteen muokkauksessa rasti kohtaan _Lisää tulostuslistalle_ ja
 valitse sitten yläpuolelta _Tallenna_  
-<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:90.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:70.0%" />  
 Nide siirtyy _labels printing_ -nimiselle Kohan listalle. Jos listaa ei
 ollut ennestään olemassa, luodaan sellainen.  
 <img src="/assets/files/docs/Tyokalut/tarratulostin6.png" alt="" style="width:90.0%" />  
@@ -551,12 +551,12 @@ Listan voi tyhjentää valitsemalla _Tyhjennä lista_. Huomioi, että nappi
 ei tyhjennä tekstikentästä niitä viivakoodeja, jotka siihen on lisätty
 itse manuaalisesti.
 
-<img src="/assets/files/docs/Tyokalut/tarratulostin7.png" alt="" style="width:90.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin7.png" alt="" style="width:70.0%" />  
 Tyhjennyksestä tulee popup-kuittaus:
 
 ![](/assets/files/docs/Tyokalut/tarratulostin8.png)  
 Ja Kohan labels printing -lista on sen jälkeen tyhjä:  
-<img src="/assets/files/docs/Tyokalut/tarratulostin9.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tarratulostin9.png" alt="" style="width:80.0%" />
 
 #### Tulostaminen
 
@@ -604,7 +604,7 @@ olemassa olevan pohjan.
 
 Sen jälkeen pohjalle pitää lisätä toiminnot eli mitä muokkauksia
 tietueille halutaan tehdä. Valitse _Uusi toiminto_  
-<img src="/assets/files/docs/Tyokalut/marcpohja3.png" title="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." alt="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja3.png" title="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." alt="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." style="width:70.0%" />
 
 Valitse ensimmäisestä valikosta, haluatko poistaa, lisätä/päivittää,
 siirtää, kopioida vai kopioida ja korvata.  
@@ -620,7 +620,7 @@ Seuraavaksi kirjoitetaan, mitä MARC-osakenttää halutaan muokata.
 Voit määrittää myös, pitääkö täyttyä jokin ehto ennen kuin muutos
 tehdään. Valittavissa on jos/paitsi-vaihtoehdot. Tämä ei ole
 pakollinen.  
-<img src="/assets/files/docs/Tyokalut/marcpohja61.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja61.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" style="width:70.0%" />
 
 Määrittele ehdon vaatima kenttä sekä missä tapauksessa se otetaan
 huomioon.  
@@ -865,7 +865,7 @@ pitää halutessaan poistaa manuaalisesti.
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
-<img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:80.0%" />
 
 ### 12.17.1 Laskutustyökalu
 
@@ -914,7 +914,7 @@ Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskutta
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
-<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:70.0%" />
 
 Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai syöttämällä viivakoodit oikealle *Lue viivakoodit* -laatikkoon.
 
