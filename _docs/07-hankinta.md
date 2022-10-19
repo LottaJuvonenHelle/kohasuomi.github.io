@@ -645,14 +645,18 @@ Listalle tulee teokset, joilla on eniten varauksia per nide.
 - Varauksia per nide -suhdetta voi säätää vasemmasta reunasta
 - Jos haluat, että tilattu-tilaiset niteet otetaan mukaan, laita rasti
   kohtaan _Sisällytä tilatut_ (tämä kannattaa laittaa)
+- Jos haluat, että keskeytety varaukset otetaan mukaan, laita rasti kohtaan _Sisällytä keskeytetyt_ (suositeltavaa).
 - Oikeasta reunasta Tarvitaan lisäniteitä -sarakkeesta klikkaamalla
-  pääsee lisäämään teoksen tilauskoriin
+  pääsee lisäämään teoksen tilauskoriin. Raportti ehdottaa tilattavaa nidemäärää.
 
 #### 5.4.1.9. Tilattavien niteiden tiedot
 
 Kun olet tuonut nimeketiedot tavalla tai toisella, täytyy täyttää
 tilattavien niteiden tiedot (vähintään 1 nide). Pakolliset tiedot on
-merkitty punaisella.  
+merkitty punaisella. 
+
+**Huomioithan**, että tilastoinnin kannalta on erityisen tärkeää, että hankintapvm on määritetty. Ilman sitä nide ei tule mukaan hankintatilastoihin.
+
 ![](/assets/files/docs/Hankinta/hankinta62.png)
 
 - Jos luot vain yhden niteen, klikkaa _Lisää nide_
@@ -664,39 +668,31 @@ Niteet listautuu Nide-osion yläpuolelle.
 ![](/assets/files/docs/Hankinta/hankinta621.png)
 
 Kun olet lisännyt tarvittavan määrän niteitä, täytä tilitystiedot.  
-Huom. Desimaalierotin vaihtelee. Tilausta tehdessä numeroiden
-desimaalierottimena tulee käyttää pistettä (tilanne 15.8.2019)
+Huom. Tilausta tehdessä numeroiden
+desimaalierottimena tulee käyttää pistettä (tilanne 19.10.2022).
 
 ![](/assets/files/docs/Hankinta/hankinta63.png)
 
 - **Määrä**-kohtaan tulee tilaamiesi niteiden määrä yllä olevasta
-  taulukosta.
+  taulukosta. 
   - **Tärkeää**: Et voi lisätä käsin määrää, vaan se täytyy tehdä
     edellisen kohdan Lisää nide -toiminnon kautta.
 
-<!-- -->
-
 - **Tili**-valikosta valitaan käytettävä tili
-
-<!-- -->
 
 - **Rahayksikkö**-valikosta valitaan rahayksikkö
 
-<!-- -->
-
 - **Toimittajan hinta** annetaan ilman alennuksia.
-
-<!-- -->
 
 - Jos hinta on **vahvistamaton**, laita valinta ruutuun.
   - HUOM! Jos tilauksessa on yksikin vahvistamaton hinta, tilausta
     ei voi sulkea.
 
-<!-- -->
-
-- Anna **veroprosentti** aineiston mukaan (kuvassa väärä prosentti).
+- Laita **veroprosentiksi** 0 %, koska budjetit ovat alvittomia.
   - Kun olet antanut alennusprosentin, klikkaa tab-näppäintä, niin
     Koha täyttää loput hintatiedot.
+ 
+ - **Korvausmaksu** on alennettu veroton hinta.
 
 Kun olet täyttänyt kaikki tarvittavat kentät, klikkaa _Tallenna_
 lisätäksesi niteet tilaukseen. Jos hinta menee yli budjetin, saat siitä
@@ -706,18 +702,11 @@ Kun tilaus on tallennettu, saat yhteenvedon tilauksesta.
 
 ![](/assets/files/docs/Hankinta/hankinta641.png)
 
-Jos haluat nähdä kaikki tiedot, laita valintamerkki ruutuun _Näytä
-kaikki_.
-
-![](/assets/files/docs/Hankinta/hankinta65.png)
-
-Ennen tilauksen sulkemista voit vielä muokata tilauskoria ja siitä
-tilauksia.
+Ennen tilauksen sulkemista voit vielä muokata tilauskoria ja sen sisältämiä
+tilauksia. Hae-kentällä voi suodattaa taulukossa näkyviä tietoja.
 
 - Klikkaamalla _Peruuta teoksen tilaus_ poistat tilausrivin ja siihen
   liittyvät **kaikki** niteet, mutta tietue jää tietokantaan.
-
-<!-- -->
 
 - Klikkaamalla _Peruuta tilaus ja poista nimeketietue_ poistat sekä
   tilausrivin, niteet että nimeketietueen tietokannasta.
@@ -728,11 +717,11 @@ tilauksia.
 
 - Voit muokata tilauskorin nimeä ja muita tietoja klikkaamalla
   _Muokkaa tilauskoria_ -painiketta.
-- Tilauskorin voi poistaa kokonaan _Poista tämä tilauskori_
+- Tilauskorin voi poistaa kokonaan _Poista tilauskori_
   -painikkeesta.
-- _Vie tämä tilaus CSV-muodossa_ -painikkeen kautta voit viedä
+- _Vie tämä CSV-muodossa_ -painikkeen kautta voit viedä
   tilauskorin tiedot CSV-muotoiseksi tiedostoksi.
-- Sähköpostitilaus?
+- Sähköpostitilaus-nappulasta korin sisällön voi lähettää toimittajan sähköpostiosoitteeseen, mikäli sellainen on määritetty toimittajan tietoihin.
 
 ### 5.4.2. Tilauksen sulkeminen
 
