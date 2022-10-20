@@ -748,10 +748,14 @@ et.
 ![](/assets/files/docs/Hankinta/hankinta67.png)
 
 Uuden tilausryhmän luominen vie tilausryhmien sivulle, jossa voit
-tulostaa tilauksen tai ladata sen CSV-muodossa tai EDIFACT-tilauksena.
-Tilauskorin sulun yhteydessä tehdyt tilausryhmät menevät
-“Suljettu”-välilehdelle.  
+sulkea ja viedä tilauksen PDF:ksi. Jos EDIFACT-määritykset on tehty, voi tilauksen viedä myös EDIFACT-muotoon.
+
 ![](/assets/files/docs/Hankinta/hankinta68.png)
+
+Tilauskorin sulun yhteydessä tehdyt tilausryhmät menevät
+“Suljettu”-välilehdelle. Sieltä tilausryhmän tietoja voi katsoa, avata uudelleen, viedä PDF:ksi tai CSV-muotoon. Jos EDIFACT-määritykset on tehty, voi tilauksen viedä myös EDIFACT-muotoon.
+
+![](/assets/files/docs/Hankinta/hankinta682.png)
 
 Tilausryhmiin pääsee myös kun hakee Hankinnan etusivulla ensin
 toimittajan nimellä, ja valitsee sitten vasemmasta reunausta
