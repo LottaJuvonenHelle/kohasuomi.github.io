@@ -106,7 +106,7 @@ Ota **pois** rasti kohdasta _Aktivoi budjetti_ ja sen jälkeen _Tallenna_.
 
 ![](/assets/files/docs/Hankinta/budjetinepaaktivointi2.png)
 
-## 7.2 Tilin lisääminen
+### 7.1.3 Tilin lisääminen
 
 Budjettiin pitää lisätä _tilejä_, jotta sitä voi käyttää. Voit jakaa
 määrärahoja esim. kirjastoittain, aineistoittain tai miten on tarve.
