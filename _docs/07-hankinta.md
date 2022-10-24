@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-# 5. Hankinta
+# 7. Hankinta
 
 **Huomioitavaa:** Hankinnan tilejä ei saa poistaa, jotta tilastointi
 toimisi oikein. Tilit voi sulkea halutessaan, eikä se vaikuta
@@ -37,7 +37,7 @@ Lue lisää budjetin/tilin käytöstä luvussa _5.9. Budjetointi ja tilien
 seuranta._
 
 
-## 5.1 Budjetin lisääminen
+## 7.1 Budjetin lisääminen
 
 Budjetin voi lisätä joko _Hankinnan_ kautta tai ylläpidosta _Hankinnan
 asetusten_ kautta.
@@ -60,7 +60,7 @@ Klikkaa _Uusi budjetti_.
 
 **Tallenna** muutokset.
 
-### 5.1.1 Budjetin sulkeminen (eli tilausten siirto)
+### 7.1.1 Budjetin sulkeminen (eli tilausten siirto)
 
 Kun budjettia ei enää tarvita, voi sen sulkea. HUOMIO! **Älä poista
 budjettia tai tilejä**, koska se vaikuttaa tilastoihin. Jos budjetti tai
@@ -94,7 +94,7 @@ Mikäli valitussa budjetissa ei ole samalla tilikoodilla olevia tilejä, siirto 
 
 Voit budjetin sulun eli tilausten siirron jälkeen halutessasi epäaktivoida budjetin, jotta siihen liittyvät tilit katoaa esim. tilausten vastaanotossa tilivalikosta.
 
-### 5.1.2 Budjetin epäaktivoiminen
+### 7.1.2 Budjetin epäaktivoiminen
 
 Jos haluaa piilottaa budjetin aktiivisista, voi sen tehdä seuraavasti.
 
@@ -106,7 +106,7 @@ Ota **pois** rasti kohdasta _Aktivoi budjetti_ ja sen jälkeen _Tallenna_.
 
 ![](/assets/files/docs/Hankinta/budjetinepaaktivointi2.png)
 
-## 5.2 Tilin lisääminen
+## 7.2 Tilin lisääminen
 
 Budjettiin pitää lisätä _tilejä_, jotta sitä voi käyttää. Voit jakaa
 määrärahoja esim. kirjastoittain, aineistoittain tai miten on tarve.
@@ -166,12 +166,12 @@ Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
 
 Tallenna lopuksi _OK_-painikkeesta.
 
-## 5.2 Toimittaja
+## 7.2 Toimittaja
 
 Ennen ensimmäisen tilauksen tekemistä pitää olla vähintään yksi
 toimittaja tallennettuna.
 
-### 5.2.1 Lisää toimittaja
+### 7.2.1 Lisää toimittaja
 
 Lisätäksesi toimittajan klikkaa hankintaosion etusivulla _Uusi toimittaja_ -nappia
 _Hankinnat_-sivulla.  
@@ -212,7 +212,7 @@ Toimittajan lisäyslomake koostuu kolmesta osasta.
     tilaus joutuu myöhässä olevien tilausten raporttiin.
   - _Muuta_-kenttä on sisäiseen käyttöön tuleva huomautus.
 
-### 5.2.2. Näytä/muokkaa toimittajaa
+### 7.2.2. Näytä/muokkaa toimittajaa
 
 Nähdäksesi toimittajan tiedot, tulee ensin tehdä haku
 _Hankinnat_-etusivulla. Voit hakea myös toimittajan nimen osalla.
@@ -231,13 +231,13 @@ _Vastaanota tilauksia_ -nappi.
 
 ![](/assets/files/docs/Hankinta/hankinta16.png)
 
-### 5.2.3 Toimittajan sopimukset
+### 7.2.3 Toimittajan sopimukset
 
 Voit määritellä sopimuksia (joilla alku- ja loppupäivämäärä) ja liittää
 ne toimittajaan. Sopimusten avulla voit vuoden lopussa nähdä kuinka
 paljon kullekin toimittajalle on maksettu.
 
-#### 5.2.3.1 Lisää sopimus
+#### 7.2.3.1 Lisää sopimus
 
 Toimittajan tietojen sivun yläreunassa on _Uusi -&gt; Sopimus_.
 
@@ -257,7 +257,7 @@ Kun sopimus on tallennettu, se näkyy toimittajan tiedoissa alhaalla. Sopimuksen
 Sopimuksen voi valita alasvetovalikosta, kun luot tilauskoria.  
 ![](/assets/files/docs/Hankinta/hankinta20.png)
 
-## 5.3 Hankintaehdotukset
+## 7.3 Hankintaehdotukset
 
 Kohassa on toiminto, jolla pystyy tekemään ja käsittelemään
 hankintaehdotuksia. Tehdyt hankintaehdotukset näkyvät
@@ -275,7 +275,7 @@ _Hankintaehdotukset_-linkkiä _Hankinnat_-sivun vasemmassa reunassa.
 
 ![](/assets/files/docs/Hankinta/hankinta23.png)
 
-### 5.3.1 Hankintaehdotuksen tekeminen
+### 7.3.1 Hankintaehdotuksen tekeminen
 
 Hankintaehdotuksia voi tehdä virkailijatyökalussa kirjaston puolesta tai
 asiakkaan puolesta. Asiakkaat voivat tehdä hankintaehdotuksia Kohan
@@ -319,7 +319,7 @@ Lomakkeen alemmissa osioissa on ehdotuksen hallintaan ja hankintatietoihin liitt
 - _Hinta_-kenttään laitetaan hankinnan hinta.
 - _Yhteensä_-tieto lasketaan automaattisesti kappalemäärän ja hinnan perusteella.
 
-### 5.3.2 Hankintaehdotusten ylläpitäminen
+### 7.3.2 Hankintaehdotusten ylläpitäminen
 
 ![](/assets/files/docs/Hankinta/hankinta24.png)  
 Hankintaehdotukset lajitellaan eri välilehtiin niiden tilan mukaan:
@@ -390,12 +390,12 @@ sähköpostiviesti ehdotuksen hyväksymisestä/hylkäämisestä.
 
 ![](/assets/files/docs/Hankinta/hankinta32.png)
 
-## 5.4 Tilausten teko
+## 7.4 Tilausten teko
 
 Kun teet tilauksen, aloita hakemalla toimittajan tiedot.  
 ![](/assets/files/docs/Hankinta/hankinta33.png)
 
-### 5.4.1 Tilauksen luominen
+### 7.4.1 Tilauksen luominen
 
 Klikkaa _Uusi tilauskori_ -nappia toimittajan nimen oikealla puolella.
 
@@ -442,7 +442,7 @@ Valitse sitten, miten haluat lisätä nimekkeen:
 Ensin esitellään kaikki eri tavat lisätä tilaus, lopussa kerrotaan Nide-
 ja tilitystietojen lisääminen.
 
-#### 5.4.1.1. Olemassa olevasta tietueesta
+#### 7.4.1.1. Olemassa olevasta tietueesta
 
 Jos tilaat lisäkappaleita olemassa olevaan nimekkeeseen, voit yksinkertaisesti hakea kyseisen tietueen haulla. Kirjoita teoksen nimi (huom. voit käyttää indeksien tunnuksia haussa halutessasi, esim. ti:väylä) ja klikkaa _OK_, jolloin sinut ohjataan tiedonhaun tuloksiin. Valitse oikea tietue klikkaamalla _Lisää tilaus_ sen kohdalla.
 
@@ -454,7 +454,7 @@ Tilauksessa tarvittavat luettelointitiedot näkyvät tilaustiedoissa _Luettelon 
 ![](/assets/files/docs/Hankinta/hankinta44.png)
 
 
-#### 5.4.1.2. Hankintaehdotuksesta
+#### 7.4.1.2. Hankintaehdotuksesta
 
 **Huomioi:** Jos kimpalla/kirjastolla on Finna käytössä
 verkkokirjastona, ei asiakkaat pysty tällä hetkellä tekemään suoraan
@@ -480,7 +480,7 @@ Hankintaehdotusten perusteella tehdyistä tilauksista lähtee asiakkaalle
 sähköpostiviesti, jossa kerrotaan tehdystä tilauksesta. Myös
 verkkokirjastossa asiakas näkee hankintaehdotuksensa tilan.
 
-#### 5.4.1.3. Lehtitilauksesta
+#### 7.4.1.3. Lehtitilauksesta
 
 Kun käytät _Kausijulkaisut_-osiota, voit linkittää lehtitilauksen tiedot
 hankintaan valitsemalla _Lehtitilauksesta_.
@@ -499,7 +499,7 @@ Lisää nide -osiota, koska lehtitilauksessa sitä ei tarvita.
 ![](/assets/files/docs/Hankinta/hankinta50.png)
 ![](/assets/files/docs/Hankinta/hankinta501.png)
 
-#### 5.4.1.6. Uudesta (tyhjästä) tietueesta
+#### 7.4.1.6. Uudesta (tyhjästä) tietueesta
 
 Jos tilaat sellaisen teoksen, jonka tietoja ei löydy valmiina mistään,
 valitse _Uudesta (tyhjästä) tietueesta_.  
@@ -519,7 +519,7 @@ Huom! Näin tehdyn tietueen tietoja pitää käydä jälkikäteen täydentämäs
   - Tekijätieto menee kolmeen kohtaan 100a/110a/111a -> poista ylimääräiset.
   - Toimittajatieto menee 028a-kenttään -> siirrä oikeaan
 
-#### 5.4.1.4 Olemassa olevista tilauksista (kopio)
+#### 7.4.1.4 Olemassa olevista tilauksista (kopio)
 
 Tilauksen voi tehdä jo olemassa olevan tilauksen pohjata kopioimalla sen. Kun valitset _Olemassa olevista tilauksista (kopio)_, niin saat ensin tilausten hakusivun. Hae haluamillasi hakuehdoilla.
 
@@ -537,7 +537,7 @@ Tilaukset luodaan ja saat yhteenvedon kopioiduista tilauksista. Palaa takaisin t
 
 ![](/assets/files/docs/Hankinta/hankinta505.png)
 
-#### 5.4.1.5 Ulkoisesta lähteestä
+#### 7.4.1.5 Ulkoisesta lähteestä
 
 Tilattavan teoksen kuvailutiedot voi noutaa myös ulkoisesta lähteestä, jolloin avautuu Z39.50-haku.
 
@@ -562,7 +562,7 @@ Tilauslomakkeella ei voi muuttaa kuvailutietoja. Jos haluat
 tässä vaiheessa muokata tietueen tietoja, valitse _Muokkaa tietuetta_.  
 ![](/assets/files/docs/Hankinta/hankinta54.png)
 
-#### Uudesta tiedostosta
+#### 7.4.1.6 Uudesta tiedostosta
 
 Tilauksen voi tehdä tuomalla välivarastoon MARC-tietueita tiedostosta.
 
@@ -595,7 +595,7 @@ Täydennä tarvittavat tiedot välilehdille ja valitse sitten _Tallenna_
 
 ![](/assets/files/docs/Hankinta/hankinta515.png)
 
-#### 5.4.1.7. Tilaus väliaikaistiedostosta
+#### 7.4.1.7. Tilaus väliaikaistiedostosta
 
 Tilauksen voi tehdä myös aineistontoimittajan lähettämän tiedoston
 kautta.
@@ -636,7 +636,7 @@ Siellä valitaan alasvetovalikosta oikea tili tilaukselle.
 
 Klikkaa _Tallenna_, kun tilauksesi sisältää kaikki haluamasi nimekkeet.
 
-#### 5.4.1.8. Varatuimpien nimekkeiden listalta
+#### 7.4.1.8. Varatuimpien nimekkeiden listalta
 
 Listalle tulee teokset, joilla on eniten varauksia per nide.
 
@@ -649,7 +649,7 @@ Listalle tulee teokset, joilla on eniten varauksia per nide.
 - Oikeasta reunasta Tarvitaan lisäniteitä -sarakkeesta klikkaamalla
   pääsee lisäämään teoksen tilauskoriin. Raportti ehdottaa tilattavaa nidemäärää.
 
-#### 5.4.1.9. Tilattavien niteiden tiedot
+#### 7.4.1.9. Tilattavien niteiden tiedot
 
 Kun olet tuonut nimeketiedot tavalla tai toisella, täytyy täyttää
 tilattavien niteiden tiedot (vähintään 1 nide). Pakolliset tiedot on
@@ -723,7 +723,7 @@ tilauksia. Hae-kentällä voi suodattaa taulukossa näkyviä tietoja.
   tilauskorin tiedot CSV-muotoiseksi tiedostoksi.
 - Sähköpostitilaus-nappulasta korin sisällön voi lähettää toimittajan sähköpostiosoitteeseen, mikäli sellainen on määritetty toimittajan tietoihin.
 
-### 5.4.2. Tilauksen sulkeminen
+### 7.4.2. Tilauksen sulkeminen
 
 Tilauskori pitää sulkea, jotta tilaukset voidaan vastaanottaa.
 Sulkemisen yhteydessä tilauskorin voi halutessaan lisätä samannimiseen
@@ -735,7 +735,7 @@ samannimiseen tilausryhmään”.
 - **Huom!** Jos yhdenkään tilauksen hinta on vahvistamaton, tilausta
   ei voi sulkea.
 
-### 5.4.3. Tilausryhmän tekeminen
+### 7.4.3. Tilausryhmän tekeminen
 
 Tilausryhmä on yksinkertaisesti ryhmä tilauksia. Joissakin kirjastoissa
 eri henkilöt voivat luoda tilauksia, jotka sitten kootaan tietyn ajan
@@ -763,7 +763,7 @@ _Tilausryhmät_.
 
 ![](/assets/files/docs/Hankinta/hankinta69.png)
 
-### 5.4.4 EDItX-tilaaminen
+### 7.4.4 EDItX-tilaaminen
 
 Koha-Suomessa on käytössä EDItX-tilaussanomia käsittelevä rajapinta,
 jolla toimittajan verkkokaupassa tehdyt tilaukset saadaan vietyä Kohan
@@ -779,10 +779,8 @@ Verkkokauppatilauksista syntyy Kohaan tilauskorit
 Tilaukset otetaan vastaan Kohan normaalin tilauksen vastaanoton
 prosessin mukaan.
 
-[Powerpoint](https://tiketti.koha-suomi.fi:83/documents/10)
-EDItX-toiminnallisuuden käyttöönotosta
 
-## 5.5. Tilausten vastaanottaminen
+## 7.5. Tilausten vastaanottaminen
 
 Tilauksia lähdetään vastaanottamaan toimittajan kautta. Hae ensin
 toimittajan tiedot.
@@ -803,19 +801,12 @@ samaa, hidastuu vastaanotto.
   muuttaa tarvittaessa.
 - Postituskulut-kenttään voi halutessaan lisätä postikulut.
 - Postikulut voi myös halutessaan ohjata tietylle tilille
-  Postikulut:-valikosta. Huom! Älä valitse tähän mitään, jos et lisää
+  Postikulut:-valikosta. **Huom!** Älä valitse tähän mitään, jos et lisää
   postikuluja.
 
-Huom. Desimaalierotin vaihtelee. Tilausta vastaanotettaessa numeroiden
-desimaalierottimena tulee käyttää pilkkua (tilanne 15.8.2019)
-
-Kun klikkaat _Seuraava_, saat sivun, josta ensisilmäyksellä saa kuvan,
-ettei vastaanotettavia ole. Näin ei kuitenkaan ole. Voit nyt etsiä
-vastaanotettavan teoksen kirjoittamalla/syöttämällä vasemman reunan
-Suodata-laatikkoon esim. teoksen nimen alun, ISBN-numeron tai tekijän
-nimestä alun. Valitse sitten “Suodata”
-
-![](/assets/files/docs/Hankinta/hankinta96.png)
+Kun klikkaat _Seuraava_, saat sivun, jossa listataan kaikki valitun toimittajan tilaukset. Voit nyt etsiä
+vastaanotettavan teoksen kirjoittamalla/syöttämällä taulukon yläpuolella olevaan Hae-laatikkoon esim. teoksen nimen alun, ISBN-numeron tai tekijän
+nimestä alun. Voit myös käyttää taulukon omia suodatusrivejä kirjoittaa/lukea Yhteenveto-sarakkeen hakukenttään hakemasi tiedon.
 
 Klikkaa vastaanotettavan teoksen rivin oikeassa reunassa olevaa
 _Vastaanota_-linkkiä.
@@ -836,10 +827,10 @@ niteistä, mikäli on saapunut osatoimitus.
 
 Valitse lopuksi vasemmalta alhaalta _Tallenna_.
 
-Tietueen tallennuksen jälkeen palaat takaisin tilauskoriin. Huomaa, että
-jos käytit hakua, niin taulukko on edelleen rajattu näyttämään
-hakuehtoa. Voit peruuttaa vastaanoton, mikäli valitsit vahingossa väärän
-tietueen, klikkaamalla _Peruuta kuitti_, jolloin teos siirtyy takaisin
+Vastaanoton tallennuksen jälkeen palaat takaisin tilauskoriin. Vastaanotetut näkyvät vastaanotettavien alapuolella omana taulukkonaan.
+
+Voit peruuttaa vastaanoton, mikäli valitsit vahingossa väärän
+tietueen, klikkaamalla _Peruuta vastaanotto_, jolloin teos siirtyy takaisin
 vastaanotettaviin.
 
 ![](/assets/files/docs/Hankinta/hankinta77.png)
@@ -854,7 +845,7 @@ vastaanotto_, jolloin ohjaudut kuittisivulle.
 
 Pääset pois sivulta valitsemalla vasemmalta valikosta esim. Hankinnat.
 
-## 5.6. Tilauksen peruminen
+## 7.6. Tilauksen peruminen
 
 **Huom!** Tilausrivin poistaminen poistaa kaikki siihen liittyvät niteet
 
@@ -893,7 +884,7 @@ Jos taas et poista nimekettä, sekin kerrotaan varmistusviestissä
 
 - Voit valita halutessasi valikosta myös syyn peruutukselle.
 
-## 5.7. Myöhässä olevien tilausten reklamointi
+## 7.7. Myöhässä olevien tilausten reklamointi
 
 Jos olet tallentanut toimittajan sähköpostiosoitteen
 toimittajatietoihin, voit lähettää reklamoinnin tilauksesta, jonka
@@ -926,7 +917,7 @@ Kun sähköpostin lähetys onnistuu, tulee seuraava ilmoitus:
 HUOM! Arvioitu saapumispäivä perustuu toimittajan tiedoissa
 tallennettuun _Toimitusaika_-arvoon.
 
-## 5.8 Laskut
+## 7.8 Laskut
 
 Laskuja pääsee hallinnoimaan hankinnnan etusivulta _Laskut_-linkistä.
 
@@ -952,12 +943,12 @@ _Toiminnot_-napin alta löytyy lisää vaihtoehtoja
 - Voit avata laskun uudelleen, jos se on suljettu
 - Voit poistaa laskun
 
-## 5.9. Hankinnan hakutoiminnot
+## 7.9. Hankinnan hakutoiminnot
 
 Jokaisen hankintaosion sivun yläreunassa on pikahakulaatikko toimittajan
 tai tilauksen hakua varten.
 
-### Toimittajahaku
+### 7.9.1 Toimittajahaku
 
 ![](/assets/files/docs/Hankinta/hankinta86.png)
 
@@ -971,7 +962,7 @@ Toimittajahaussa voit hakea millä tahansa sanan osalla.
 
 ![](/assets/files/docs/Hankinta/hankinta88.png)
 
-### Hankintahaku
+### 7.9.2 Hankintahaku
 
 Hankintahaussa voit hakea tilaamiasi nimekkeitä joko toimittajatietojen
 kanssa tai ilman toimittajan nimeä. Nimekkeestä riittää myös osa, ei
@@ -994,7 +985,7 @@ _Tarkka haku_ -linkkiä.
 Tarkassa haussa pystyt hakemaan mm. ISBN-numerolla  
 ![](/assets/files/docs/Hankinta/hankinta921.png)
 
-## 5.9. Budjetointi ja tilien seuranta
+## 7.10 Budjetointi ja tilien seuranta
 
 Hankinnan etusivulla on näkyvillä kaikki aktiiviset tilit.
 
