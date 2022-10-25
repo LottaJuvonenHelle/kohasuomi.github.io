@@ -608,7 +608,7 @@ tietueille halutaan tehdä. Valitse _Uusi toiminto_
 
 Valitse ensimmäisestä valikosta, haluatko poistaa, lisätä/päivittää,
 siirtää, kopioida vai kopioida ja korvata.  
-<img src="/assets/files/docs/Tyokalut/marcpohja4_1.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/marcpohja4_1.PNG" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" style="width:90.0%" />
 
 Sitten valitaan, koskeeko toiminto kaikkia määritettyjä kenttiä vai 1.
 vastaan tulevaa kenttää, joka täyttää kenttä-määrityksen.  
