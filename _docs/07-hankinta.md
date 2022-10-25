@@ -426,7 +426,7 @@ alasvetovalikosta.
   - käytä oletusta (sulkeissa järjestelmäasetuksissa oletukseksi valittu vaihtoehto)
   - tilauksen tekeminen
   - tilauksen vastaanotto
-  - nimeketietueen kuvailu
+  - nimeketietueen kuvailu (Huom! Jos valitset tämän, niteitä ei synny tilauksen teon tai vastaanoton yhteydessä)
 
 Klikkaa lopuksi _Tallenna_.
 
