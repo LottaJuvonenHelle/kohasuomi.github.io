@@ -149,30 +149,7 @@ ollenkaan.
 
 ## 10.4 Lähetä laskuja
 
-Koha-Suomessa kehitetty versio laskutuksesta.
-
-Ohjeet
-
-- Valitse kirjasto, taulukko näyttää nykyisen kirjaston niteet. Jos
-  haluat käsitellä useamman kuin yhden kirjaston niteitä, lisää
-  asetusryhmä, jonka nimessä on “LASKU” ja valitse se haluamillesi
-  kirjastoille.
-- Kirjastolle pitää valita laskutusryhmä kirjastojen asetuksissa. Nyt
-  valittavana on kaksi vaihtoehtoa: SAPERP ja PDFBILL. SAPERP lähettää
-  laskut KuntaErpiin ja PDFBILL luo tulostettavia PDF-tiedostoja
-- Niteet voidaan valita tai poistaa valinta klikkaamalla ‘Valitse
-  kaikki’, tai valitsemalla niteet yksitellen. Niteen korvaushintaa
-  voi muokata ja kaikki esimääritetyt lisämaksut lisätään
-  automaattisesti. Valitse laskutettavat niteet alapuoliselta listalta
-  ja klikkaa ‘Luo laskut’ -nappia.
-- Korvaushintaan tehdyt muutokset nollataan laskun luomisen jälkeen,
-  mutta hinta näkyy oikein laskulla.  
-  Kun laskut luodaan onnistuneesti, tallennetaan tietokantaan kyseisen
-  päivän aikaleima ja se näytetään taulun “last bill
-  created”-sarakkeessa.
-- Jos asiakas on lapsi, näytetään huoltaja ja lasku luodaan hänelle.
-- Järjestelmäasetuksissa voi määritellä, mitkä maksut poistuvat
-  asiakkaan tiedoista palautuksen yhteydessä: RemoveFinesOnReturn
+Laskutus tapahtuu laskutustyökalun avulla, katso [12.17.1 laskutustyökalun ohje](https://koha-suomi.fi/dokumentaatio/tyokalut/#12171-laskutusty%C3%B6kalu)
 
 ---
 
