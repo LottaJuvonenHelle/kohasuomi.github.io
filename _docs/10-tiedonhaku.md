@@ -104,7 +104,7 @@ Nidehaulla voit esimerkiksi:
 - Tarkastaa, onko lehtien vanhoja numeroita jäänyt roikkumaan tietokantaan.
 
 Nidehaku on _Haku_-valikossa.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_1_tarkka_haku.png)
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_1_nidehaku.png)
 
 Nidehaku palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun muotoilu vastaa pääosin tarkkaa hakua.
 
