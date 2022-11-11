@@ -7,48 +7,29 @@ toc: true
 ---
 
 # 8. Tiedonhaku
-
 ## 8.1. Perushaku
 
-Perushakuun siirrytään klikkaamalla _Hae tietokannasta_-painiketta. Haku
-suoritetaan kirjoittamalla hakusanat hakukenttään ja painamalla
-OK-painiketta.  
+Voit hakea napauttamalla _Hae tietokannasta_-painiketta, kirjoittamalla hakusanat ja valitsemalla OK. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku1_haun_suorittaminen.png)
 
-Hakutulos näyttää tältä:  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku2_hakutulos.png)
+Haku yhdistää oletuksena hakusanat AND-operaattorilla, eli palauttaa tietueet, joiden tiedoissa esiintyvät kaikki annetut hakusanat. AND-operaattorin lisäksi haussa voi käyttää myös OR- ja NOT-operaattoreita. 
 
-Haku yhdistää oletuksena hakusanat AND-operaattorilla, eli palauttaa
-tietueet, joiden tiedoissa esiintyvät kaikki annetut hakusanat.
-AND-operaattorin lisäksi haussa voi käyttää myös OR- ja
-NOT-operaattoreita. Hakusanat katkaistaan automaattisesti, eli haku
-_seitse_ kohdistuu kaikkiin merkkijonon _seitse_ sisältäviin sanoihin,
-kuten _seitsemän_, _seitsemäs_ tai _kuusikymmentäseitsemän_.
+Hakusanat katkaistaan automaattisesti, eli haku _seitse_ kohdistuu kaikkiin merkkijonon _seitse_ sisältäviin sanoihin, kuten _seitsemän_, _seitsemäs_ tai _kuusikymmentäseitsemän_.
 
-Sanojen järjestys ei vaikuta hakutulokseen. Haku _tiedonhaku kirjastot_
-antaa saman tuloksen kuin _kirjastot tiedonhaku_.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku3_kaanteinen_hakutulos.png)
+Sanojen järjestys ei vaikuta hakutulokseen. Haku _tiedonhaku kirjastot_ antaa saman tuloksen kuin _kirjastot tiedonhaku_.  
 
 ## 8.2. Tarkka haku
 
-Tarkalla haulla voi määrittää haun perushakua täsmällisemmin. Tarkka
-haku löytyy Haku-valikon alta.  
+Tarkassaa haussaa voit määrittää haun perushakua täsmällisemmin. 
+
+Tarkka haku avataan Haku-valikosta.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku4_tarkka_haku.png)
 
-Tarkassa haussa voit rajata hakutuloksia esimerkiksi aineistolajilla,
-julkaisuvuodella, kielellä ja saatavuudella. Hakusanojen yhdistelyssä
-voit käyttää Boolen operaattoreita _JA, TAI ja EI_.
-
-Haku suoritetaan kirjoittamalla hakusanat hakukenttiin ja valitsemalla
-alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen
-rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai,
-ei_. Hakuehtoja lisätään \[+\]-painikkeella.  
+Hakeaksesi kirjoita hakusanat hakukenttiin ja valitse alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Hakuehtoja lisätään \[+\]-painikkeella.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku5_tarkan_haun_hakulauseet.png)
 
 Luokkarajaus löytyy Standardinumero-kohdan alta:  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku7_luokkarajaus.png)
-
-Hakukenttien alapuolella on lisää valmiita rajausvaihtoehtoja.
 
 Hakutulosten järjestys valitaan _Järjestys_-kohdasta. Oletuksena
 tulokset järjestetään uusimmasta vanhimpaan julkaisuvuoden perusteella.
@@ -85,177 +66,94 @@ Hakutulosta voi rajata liittämällä hakusanoihin etuliitteitä:
 
 <!-- -->
 
-- su-geo: maantieteellisen asiasana  
-  esim. su-geo: pohjois-karjala
-
-<!-- -->
-
-- bc: viivakoodi  
-  esim. 167N02205854
-
-<!-- -->
-
 - ln: kieli  
   esim. ln:est
 
 <!-- -->
 
 - ccode: kokoelmakoodi  
-  esim. ccode:lyla (haetaan lyhytlainat)
+  esim. ccode:lyla
 
-Lista kaikista etuliitteistä ja tarkemmat ohjeet etuliitteiden
-käyttämisestä löytyvät englanninkielisestä manuaalista:
-http://manual.koha-community.org/3.16/en/searchguide.html
+[Lista kaikista etuliitteistä ja tarkemmat ohjeet etuliitteiden
+käyttämiseen](https://koha-community.org/manual/21.11/en/html/searching.html#indexes) (englanniksi). 
 
-## 8.4. Uutuuksien ja tilattujen nimekkeiden hakeminen
+## 8.4. Hakutuloksen rajaaminen faseteilla
 
-Jos haluat hakea uutuuksia, valitse haluamasi aineistolaji,
-vastaanottovuodeksi kuluva vuosi, _Hakupaikka ja saatavuus_-otsikon alta
-_Ei tilaa_ ja järjestykseksi _Vastaanottopäivä: uusimmasta
-vanhimpaan_.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku8_uutuudet_osa1.png)  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku9_uutuudet_osa2.png)  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku10_uutuudet_osa3.png)  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku11_uutuudet_osa4.png)
-
-Jos haluat etsiä tilatut nimekkeet, valitse saatavuudeksi _Tilattu_ ja
-järjestykseksi _Hankintapäivä: uusimmasta vanhimpaan_.
-
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku12_tilatus_osa2.png)  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku13_tilatut_osa2.png)
-
-## 8.5. Hakutuloksen rajaaminen faseteilla
-
-Hakutulosta voi rajata hakutuloslistan vasemman reunan faseteilla.
-Fasettien sisältö riippuu hakutuloksesta.
+Hakutulosta voi rajata hakutuloslistan vasemman reunan faseteilla. Fasettien sisältö riippuu hakutuloksesta.
 
 Jos olet hakenut hakusanalla _valokuvaus_,  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku14_fasetit_lahtotilanne.png)
 
-voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin
-valitsemalla _Asiasanat_-fasetista termin _luonnonvalokuvaus_.  
+voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla _Asiasanat_-fasetista termin _luonnonvalokuvaus_.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku15_fasetit_rajaus.png)
 
-Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät
-teokset.  
+Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne.png)
 
-Rajauksia voi valita useita kerralla ja poistaa klikkaamalla ruksia
-rajauksen perässä.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku17_rajauksen_poistaminen.png)
+## 8.5. Hakuhistoria
 
-## 8.6. Hakuhistoria
-
-Tehtyjä hakuja voi tarkastella ja suorittaa uudelleen
-hakuhistoria-toiminnolla. Hakuhistoria löytyy oikean yläkulman
-alasvetovalikosta.  
+Tehtyjä hakuja voi tarkastella ja suorittaa uudelleen hakuhistoria-toiminnolla. Hakuhistoria löytyy oikean yläkulman alasvetovalikosta.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_hakuhistoria_valikko.png)
 
-Hakuhistoriassa haut on jaettu kahteen ryhmään: kuluvan istunnon aikana
-tehtyihin hakuihin ja aiemmin suoritettuihin hakuihin.  
+Hakuhistoriassa haut on jaettu kahteen ryhmään: kuluvan istunnon aikana tehtyihin hakuihin ja aiemmin suoritettuihin hakuihin.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku19_hakuhistorianakyma.png)
 
-Historian voi poistaa valitsemalla poistettavat haut ja klikkaamalla
-_Poista_.
+Historian voi poistaa valitsemalla poistettavat haut ja klikkaamalla _Poista_.
 
-## 8.7. Nidehaku
+## 8.6. Nidehaku
 
 Nidehaulla voit esimerkiksi:
 
-- Tutkia luokan niteiden määrää karsintaa varten. Huomaa kuitenkin,
-  että haku palauttaa myös lainassa olevat niteet.
+- Tutkia luokan niteiden määrää karsintaa varten. Huomaa kuitenkin, että haku palauttaa myös lainassa olevat niteet.
 - Hakea nollalainoja.
 - Hakea joukon niteitä ja muokata niiden tietoja eräajona.
-- Tarkastaa, ovatko kaikki oman kirjaston lehtiniteet siirretty pois
-  lehtiemon alta.
-- Tarkastaa, onko lehtien vanhoja numeroita jäänyt roikkumaan
-  tietokantaan.
+- Tarkastaa, ovatko kaikki oman kirjaston lehtiniteet siirretty pois lehtiemon alta.
+- Tarkastaa, onko lehtien vanhoja numeroita jäänyt roikkumaan tietokantaan.
 
 Nidehaku löytyy _Haku_-valikon alta.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku4_tarkka_haku.png)
 
-Nidehaku palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun
-muotoilu vastaa pitkälti tarkkaa hakua.
+Nidehaku palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun muotoilu vastaa pitkälti tarkkaa hakua.
 
-Hakusanat voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin,
-nimekkeisiin ja tekijöihin. Käytä hauissa aina valintalistan alaosasta
-löytyviä räätälöityjä hakukenttiä  
+Hakusanat voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Käytä hauissa aina valintalistan alaosan räätälöityjä hakukenttiä  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku19_1_hakukentat.png)
 
 Muista kentistä ainoastaan ISBN ja ISSN toimivat luotettavasti.
 
-Hakusanoja voi yhdistää operaattoreilla JA ja TAI. _Uusi kenttä_ lisää
-uuden hakukentän. Alla olevassa esimerkissä on lisätty uusi hakukenttä,
-asetettu molemmat hakusanat vaadituiksi JA-operaattorilla ja kohdistettu
-hakusanat _Nimeke_- ja _Henkilötekijä_-kenttiin. Lisäksi hakusanat on
-katkaistu %-merkeillä.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku20_nidehaun_tekstihaku.png)
+Hakusanoja voi yhdistää operaattoreilla JA ja TAI. _Uusi kenttä_ lisää uuden hakukentän. 
 
-Nidehaussa hakusanat kannattaa katkaista, koska hakusanoja ei katkaista
-automaattisesti. Esimerkiksi tekijä-haku _jansson, tove_ ei tuota yhtään
-osumaa, koska MARC-kentästä haettu tekijätieto päättyy pisteeseen tai
-pilkkuun. Haku \_%jansson, tove\_ toimii oikein. Katkaisun lisäksi
-hakusanat on kirjoitettava aina tarkasti oikein. Esimerkiksi haku*tove
-jansson*% ei palauta mitään, koska tekijätieto on muodossa _Jansson,
-Tove_. Yksittäisen merkin voi korvata merkillä \_ (alaviiva).
+Alla esimerkissä on lisätty uusi hakukenttä, asetettu molemmat hakusanat vaadituiksi JA-operaattorilla ja kohdistettu hakusanat _Nimeke_- ja _Henkilötekijä_-kenttiin. Lisäksi hakusanat on katkaistu %-merkeillä. ![](/assets/files/docs/Tiedonhaku/Tiedonhaku20_nidehaun_tekstihaku.png)
 
-Hakua voi rajata myös sivun yläosan valintalistoilta. Valintalistoilla
-voi valita useita arvoja tekemällä valinnat CTRL-näppäin pohjassa.
-Ylimmän tyhjän arvon valinta ohittaa ehdon. Jos haluat rajata
-hakutuloksesta pois ehtoja, valitse valintalistalta _ei ole_, joka
-vastaa NOT-operaattoria.
+Nidehaussa hakusanoja ei katkaista automaattisesti, joten ne kannattaa aina katkaista %-merkeillä. Esimerkiksi tekijä-haku _jansson, tove_ ei palauta  osumia, koska MARC-kentästä haettu tekijätieto päättyy pisteeseen tai pilkkuun. Haku \_%jansson, tove\_ toimii oikein. Katkaisun lisäksi hakusanat on kirjoitettava aina tarkasti oikein. Esimerkiksi haku *tove jansson*% ei palauta mitään, koska tekijätieto on muodossa _Jansson, Tove_. Yksittäisen merkin voi korvata merkillä \_ (alaviiva).
 
-Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston
-kirjat.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku21_nidehaun_rajaukset.png)
+Hakua voi rajata myös sivun yläosan valintalistoilta. Valintalistoilla voi valita useita arvoja tekemällä valinnat CTRL-näppäin pohjassa. Ylimmän tyhjän arvon valinta ohittaa ehdon. Jos haluat rajata hakutuloksesta pois ehtoja, valitse valintalistalta _ei ole_, joka vastaa NOT-operaattoria.
 
-Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja
-lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku
-palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi
-haku  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku22_nidehaku_luokkahaku.png)  
-palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92
-palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla
-rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka
-(084$a)”.
+Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston niteet. ![](/assets/files/docs/Tiedonhaku/Tiedonhaku21_nidehaun_rajaukset.png)
 
-_Lainauksien määrä_ –valinnalla voit hakea niteitä lainamäärän
-perusteella. Lainauspäivämäärästä voit rajata tuloksia niteen lainojen
-ajankohdan perusteella. Alla on haettu kaikki alle 10 kertaa lainatut
-niteet, jotka on lainattu 29.10.2018  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku27_nidehaun_lainarajat.png)
+Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku
+palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi haku ![](/assets/files/docs/Tiedonhaku/Tiedonhaku22_nidehaku_luokkahaku.png) palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka (084$a)”.
 
-Kun kaikki ehdot on valittu, haku suoritetaan klikkaamalla
-_Haku_-painiketta.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku26_nidehaku_hakupainike.png)
+_Lainauksien määrä_ –valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä voit rajata tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki alle 10 kertaa lainatut niteet, jotka on lainattu 15.10.2022 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku27_nidehaun_lainarajat.png)
 
-Esimerkeissä valituilla ehdoilla hakutuloslista näyttää tältä.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku23_nidehaku_tulokset.png)
+Kun olet valinnut ehdot, voit hakea napauttamalla _Haku_-painiketta. ![](/assets/files/docs/Tiedonhaku/Tiedonhaku26_nidehaku_hakupainike.png)
 
-Niteiden tietoja pääsee muokkaamaan hakutuloslistan oikean reunan
-_Muokkaa_-painikkeilla.
+Esimerkeissä valituilla ehdoilla hakutuloslista näyttää tältä. ![](/assets/files/docs/Tiedonhaku/Tiedonhaku23_nidehaku_tulokset.png)
 
-Hakua voi rajata lisää sarakkeiden ylälaidassa olevilla
-rajauskentillä:  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku24_nidehaku_tulosten_lisafiltterit.png)
+Pääset muokkaamaan niteiden tietoja napauttamalla _Muokkaa_-painiketta niteen kohdalla.
+
+Voit tarkentaa hakua lisää sarakkeiden ylälaidassa olevilla rajauskentillä: ![](/assets/files/docs/Tiedonhaku/Tiedonhaku24_nidehaku_tulosten_lisafiltterit.png)
 
 ### Tulosten vienti CSV- tai -viivakooditiedostoksi
 
-Tulokset voi halutessaan viedä ohjelmasta CSV- tai -viivakooditiedostona
-jatkokäyttöä varten ylälaidan painikkeilla.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku25_nidehaku_tulosten_painikkeet.png)
+Tulokset voi halutessaan viedä ohjelmasta CSV- tai -viivakooditiedostona jatkokäyttöä varten ylälaidan painikkeilla. ![](/assets/files/docs/Tiedonhaku/Tiedonhaku25_nidehaku_tulosten_painikkeet.png)
 
 Hakua pääsee muokkaamaan painamalla _Muokkaa hakua_-painiketta.
 
-## 8.8 Teostiedot
+## 8.7 Teostiedot
 
-Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi
-asiakkaan lainojen kautta tai tiedonhaun tuloksista. Teoksen
-Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot
-tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
+Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
 
-Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän
-oikeuksista riippuen seuraavat välilehdet
+Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeuksista riippuen seuraavat välilehdet
 
 - Perustiedot
 - MARC
