@@ -8,9 +8,6 @@ toc: true
 
 # 8. Tiedonhaku
 
-Kannattaa tutustua myös document\#34 -diaesitykseen, joka on tehty
-tiedonhakukoulutuksen materiaaliksi.
-
 ## 8.1. Perushaku
 
 Perushakuun siirrytään klikkaamalla _Hae tietokannasta_-painiketta. Haku
