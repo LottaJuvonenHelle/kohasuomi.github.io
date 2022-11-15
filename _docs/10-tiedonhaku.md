@@ -22,7 +22,8 @@ Sanojen järjestys ei vaikuta hakutulokseen. Haku _tiedonhaku kirjastot_ antaa s
 
 Tarkassa haussa voit määrittää haun perushakua täsmällisemmin. 
 
-Tarkka haku aukeaa napauttamalla Haku-painiketta ylälaidan valikossa.Tiedonhaku4_tarkka_haku.png
+Tarkka haku aukeaa napauttamalla Haku-painiketta ylälaidan valikossa. 
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku4_tarkka_haku.png)
 
 Voit hakea kirjoittamalla hakusanat hakukenttiin ja valitsemalla alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Lisää hakuehtoja voit lisätä \[+\]-painikkeella.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku5_tarkan_haun_hakulauseet.png)
@@ -31,6 +32,7 @@ Luokkarajaus on valikossa Standardinumero-kohdan alla:
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku7_luokkarajaus.png)
 
 Voit valita hakutulosten järjestyksen _Järjestä_-valikosta. Oletuksena tulokset järjestetään julkaisuvuoden perusteella uusimmasta vanhimpaan. Muita vaihtoehtoja ovat esimerkiksi tekijä, nimeke ja suosio (lainamäärä).
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
 ## 8.3. Hakusanojen etuliitteet
@@ -70,7 +72,7 @@ Voit rajata hakutulosta kirjoittamalla hakusanojen eteen etuliitteitä:
 - ccode: kokoelmakoodi  
   esim. ccode:lyla
 
-[Lista kaikista etuliitteistä ja tarkemmat ohjeet etuliitteiden
+[Lista etuliitteistä ja tarkemmat ohjeet etuliitteiden
 käyttämiseen](https://koha-community.org/manual/21.11/en/html/searching.html#indexes) (englanniksi). 
 
 ## 8.4. Hakutuloksen rajaaminen faseteilla
@@ -103,15 +105,16 @@ Nidehaulla voit esimerkiksi:
 - Tutkia luokan niteiden määrää karsintaa varten. Huomaa kuitenkin, että haku palauttaa myös lainassa olevat niteet.
 - Hakea nollalainoja.
 - Hakea joukon niteitä ja muokata niiden tietoja eräajona.
-- Tarkastaa, ovatko kaikki oman kirjaston lehtiniteet siirretty pois lehtiemon alta.
-- Tarkastaa, onko lehtien vanhoja numeroita jäänyt roikkumaan tietokantaan.
+- Tarkastaa, ovatko kaikki lehtiniteet siirretty pois lehtiemon alta.
+- Tarkastaa, onko lehtien vanhoja numeroita jäänyt tietokantaan.
 
 Nidehaku on _Haku_-valikossa.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_1_nidehaku.png)
 
 Nidehaku palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun muotoilu vastaa pääosin tarkkaa hakua.
 
-Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Käytä hauissa aina valintalistan alaosan räätälöityjä hakukenttiä 
+Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Käytä hauissa aina valintalistan alaosan räätälöityjä hakukenttiä
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku19_1_hakukentat.png)
 
 Muista kentistä ainoastaan ISBN ja ISSN toimivat luotettavasti.
@@ -125,12 +128,14 @@ Nidehaussa hakusanoja ei katkaista automaattisesti, joten ne kannattaa aina katk
 
 Hakua voi rajata myös sivun yläosan valintalistoilta. Valintalistoilla voi valita useita arvoja tekemällä valinnat CTRL-näppäin pohjassa. Ylimmän tyhjän arvon valinta ohittaa ehdon. Jos haluat rajata hakutuloksesta pois ehtoja, valitse valintalistalta _ei ole_, joka vastaa NOT-operaattoria.
 
-Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston niteet. 
+Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston niteet.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku21_nidehaun_rajaukset.png)
 
 Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi haku ![](/assets/files/docs/Tiedonhaku/Tiedonhaku22_nidehaku_luokkahaku.png) palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka (084$a)”.
 
-_Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki alle 10 kertaa lainatut niteet, jotka on lainattu 15.10.2022 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku27_nidehaun_lainarajat.png)
+_Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki alle 10 kertaa lainatut niteet, jotka on lainattu 15.10.2022. 
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku27_nidehaun_lainarajat.png)
 
 Kun olet valinnut ehdot, voit hakea napauttamalla _Haku_-painiketta. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku26_nidehaku_hakupainike.png)
