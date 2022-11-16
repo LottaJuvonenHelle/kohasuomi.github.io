@@ -880,6 +880,21 @@ Laskutuksen asetusten ohje on [Redminessa](https://tiketti.koha-suomi.fi/project
 
 ### 12.17.2 Tulosta ilmoituksia
 
+Tulosta ilmoituksia -toimintoa käytetään, kun käytössä ei ole e-kirjepalvelua. Sillä tulostetaan pdf-muotoisia varausten saapumisilmoituksia sekä muistutus- (palautuskehotus) -kirjeitä. Tulosta ilmoituksia -toiminto ei ole käytössä kaikissa kirjastokimpoissa.
+
+<img src="/assets/files/docs/Tyokalut/tulostailmoituksia.png" title="Näkymä tulosta ilmoituksia -työkalusta: yksi tulostettava noutoilmoitus IIT_PK-kirjastoon" alt="Näkymä tulosta ilmoituksia -työkalusta: yksi tulostettava noutoilmoitus IIT_PK-kirjastoon" style="width:100.0%" />
+
+Noutoilmoitukset-näkymässä on listattu lähettämistä odottavat varausten saapumisilmoitukset. *Tulosta*-napista siirrytään esikatseluun ja *Peruuta*-napista viesti poistuu näkymästä ja asiakastietojen Ilmoitukset-näkymässä ilmoituksen tilaksi tulee epäonnistunut.
+
+<img src="/assets/files/docs/Tyokalut/tulostailmoituksia_esikatselu.png" title="Näkymä noutoilmoituksen esikatselusta: Iitin kirjastoon on menossa kirja SQL-ohjelmointi asiakkaalle Esko Esimerkki. Ylhäällä Takaisin- ja Tulosta-painikkeet" alt="Näkymä noutoilmoituksen esikatselusta: Iitin kirjastoon on menossa kirja SQL-ohjelmointi asiakkaalle Esko Esimerkki. Ylhäällä Takaisin- ja Tulosta-painikkeet" style="width:60.0%" />
+
+Esikatselun *Takaisin*-napilla siirrytään takaisin ilmoituslistaan. *Tulosta*-napista ohjelma luo pdf-tiedoston, jonka voi sitten tulostaa. Tällöin asiakkaan ilmoitukset-näkymässä tilaksi tulee *lähetetty*. HUOM. pdf-näkymässä ei kannata painaa *Peruuta*, koska tällöin ilmoitus häviää *Tulosta ilmoituksia* -toiminnosta ja asiakkaan tiedoissa tilana näkyy silti lähetetty. Asian voi korjata menemässä asiakkaan tietoihin ja painamalla *Lähetä uudelleen*, jolloin viesti ilmestyy uudelleen Tulosta ilmoituksia -työkaluun. Tosin ongelmana voi olla ettei tiedä kenelle asiakkaalle viesti oli lähdössä.
+
+Muistutusten kanssa toimitaan aivan samoin kuin noutoilmoitusten kanssa.
+
+<img src="/assets/files/docs/Tyokalut/tulostailmoituksia_tulostus.png" title="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoitus-kirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" alt="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoitus-kirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" style="width:100.0%" />
+
+
 ### 12.17.3 Sotuteekki
 
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
