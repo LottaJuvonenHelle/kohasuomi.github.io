@@ -927,19 +927,20 @@ teoksen nimen mukaan.
 ![](/assets/files/docs/Hankinta/hankinta852.png)
 
 Saat listan hakuehtoja vastaavista laskuista. Tässä on haettu laskuja
-toimittajan mukaan:  
+toimittajan mukaan. Laskut jaotellaan kahteen välilehteen sen mukaan, onko ne avonaisia vai suljettuja.  
 ![](/assets/files/docs/Hankinta/hankinta853.png)
 
-- Voit yhdistää laskuja valitsemalla ne ja painamalla _Yhdistä
-  valitut_ -nappia.
+- Voit **yhdistää** laskuja valitsemalla ne ja painamalla _Yhdistä valitut_ -nappia.
+- Voit **sulkea** laskuja valitsemalla ne ja painamalla _Sulje valitut laskut_ -nappia.
 
 _Toiminnot_-napin alta löytyy lisää vaihtoehtoja
 
 ![](/assets/files/docs/Hankinta/hankinta854.png)
+![](/assets/files/docs/Hankinta/hankinta855.png)
 
-- Voit avata laskun tiedot tarkemaan katseluun
+- Tiedot-kohdasta voit avata laskun tiedot tarkemaan katseluun
 - Voit avata laskun uudelleen, jos se on suljettu
-- Voit poistaa laskun
+- Voit sulkea laskun, jos se on avoinna
 
 ## 7.9. Hankinnan hakutoiminnot
 
