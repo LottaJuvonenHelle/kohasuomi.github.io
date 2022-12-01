@@ -971,6 +971,9 @@ tarvitse olla kokonaan.
 
 ![](/assets/files/docs/Hankinta/hankinta90.png)
 
+- Voit säätää _Sarakkeet_ -napista, mitä sarakkeita taulukossa on näkyvillä.
+- _Vie_ -napista voit viedä tulokset Excel- tai CSV-muotoon, kopioida tiedot tai tulostaa ne.
+
 Klikkaamalla plus-merkkiä hankintahaun oikealla puolella voit laajentaa
 hakuehtoja.
 
