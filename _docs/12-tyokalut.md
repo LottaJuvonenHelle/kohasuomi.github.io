@@ -954,7 +954,7 @@ Luo uusi siirtokokoelma painamalla *Uusi kokoelma* -painiketta siirtokokoelmien 
 
 <img src="/assets/files/docs/Tyokalut/siirtokokoelma1.png" title="Lisää uusi kokoelma -näkymä, jossa kysytään nimekettä ja kuvausta" alt="Lisää uusi kokoelma -näkymä, jossa kysytään nimekettä ja kuvausta" style="width:50.0%" />
 
-Sen jälkeen lisää niteitä kokoelmaan syöttämällä niteiden viivakoodi kenttään ja paina *ok*.
+Sen jälkeen lisää niteitä kokoelmaan syöttämällä niteen viivakoodi kenttään ja paina *ok*.
 
 <img src="/assets/files/docs/Tyokalut/siirtokokoelma2.png" title="Lisää tai poista niteitä -näkymä, jossa kysytään niteen viivakoodia" alt="Lisää tai poista niteitä -näkymä, jossa kysytään niteen viivakoodia" style="width:50.0%" />
 
@@ -962,7 +962,7 @@ Siirtokokoelmien pääsivulla lisää niteitä kokoelmaan painamalla halutun sii
 
 <img src="/assets/files/docs/Tyokalut/siirtokokoelma3.png" title="Toiminto-valikko siirtokokoelmien pääsivulla" alt="Toiminto-valikko siirtokokoelmien pääsivulla" style="width:80.0%" />
 
-Voit poistaa niteen kokoelmasta joko painamalla *Poista* niteen viivakoodin vierestä siirtokokoelman niteiden luettelossa tai valitsemalla *Poista kohde kokoelmasta* -valintaruudun viivakoodikentän vieressä.
+Voit poistaa niteen kokoelmasta joko painamalla *Poista* niteen viivakoodin vierestä siirtokokoelman niteiden luettelossa tai valitsemalla *Poista kohde kokoelmasta* -valintaruudun viivakoodikentän vieressä ja lukemalla kokoelmasta poistettavan niteen viivakoodin.
 
 **Kokoelman siirtäminen**
 
