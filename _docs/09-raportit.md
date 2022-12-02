@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-# 7. Raportit
+# 9. Raportit
 
 Raporteilla voi hakea tietokannasta mm. tilastotietoja ja erilaisia
 listoja asiakkaista, teoksista tai niteistä. Jos sinulla on oikeus
@@ -17,22 +17,20 @@ käyttää raportteja, pääset niihin joko etusivun kautta
 tai yläreunan _Muita toimintoja_ -valikosta  
 ![](/assets/files/docs/Raportit/raportit2.png)
 
-Raportit-osiossa on sekä Kohan omat raporttitoiminnot, että
-Koha-Suomessa kehitetty Raportointi-työkalu (Muu-osiossa
-_Raportointi_).  
+## 9.1 Kohan raportit
+
+Raportit-osiossa on erilaisia raporttitoimintoja:
+
 ![](/assets/files/docs/Raportit/raportit3.png)
 
-## 7.1 Kohan raportit
-
-Kohan raporteissa on kolme erilaista toimintoa
-
 1.  Ohjatut raportit -osiossa voi tehdä itse SQL-kyselyitä ohjatusti tai
-    käyttää tallennettuja raportteja.
+    käyttää tallennettuja raportteja. _Luo ohjattu raportti_ -toimintoa ei kannata käyttää, mikäli ei ole varma, mitä on tekemässä. Sillä saa helposti tehtyä todella raskaita raportteja, jotka voivat vaikuttaa Kohan suorituskykyyn hidastavasti.
 2.  Tilastovelholla voi hakea tilastoja eri aihealueista käyttäen
-    valmiita vaihtoehtoja
-3.  Oikeassa reunassa on valmiita raportteja
+    valmiita vaihtoehtoja. Velhossa rajausmahdollisuudet ovat rajatummat kuin jos itse tekee SQL-kyselyn.
+3. Raporttiliitännäiset-osiossa on raportit, jotka on toteutettu Kohaan liitännäisenä.
+4.  Oikeassa reunassa on valmiita raportteja
 
-### 7.1.1 Ohjatut raportit
+### 9.1.1 Ohjatut raportit
 
 Ohjatuissa raporteissa voi luoda ohjatusti uusia raportteja. Tätä
 käyttääksesi, sinulla pitää olla oikeus luoda raportteja. Vaikka
@@ -40,7 +38,7 @@ toiminto kuulostaa helpolta käyttää, ei se ikävä kyllä sitä ole.
 Valittavissa olevat vaihtoehdot ja niiden yhdistelyvaihtoehdot ovat
 rajalliset. Toiminnolla saa tehtyä helposti suhteettoman isoja hakuja.
 
-Valitse _Luo uusi_  
+Valitse raporttien etusivulla _Luo ohjattu raportti_  
 ![](/assets/files/docs/Raportit/raportit4.png)
 
 Valitse sitten, mihin Kohan osa-alueeseen kohdistuvan raportin haluat
