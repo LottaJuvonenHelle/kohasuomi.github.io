@@ -942,7 +942,7 @@ Raportit-osioon.
 
 ---
 
-## 10.18 Siirtokokoelmat
+## 12.18 Siirtokokoelmat
 
 Siirtokokoelmaan lisätyt niteet palautuvat aina siihen kirjastoon, johon ne on siirretty. Niteiden kotikirjasto ei muutu. Perustiedot-näkymässä ei näy, että nide kuuluu johonkin siirtokokoelmaan.
 
