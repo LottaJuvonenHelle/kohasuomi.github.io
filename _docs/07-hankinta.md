@@ -1000,7 +1000,5 @@ näkyviin siihen tiliin tehdyt tilaukset.
 
 ![](/assets/files/docs/Hankinta/hankinta94.png)
 
-![](/assets/files/docs/Hankinta/hankinta95.png)
-
 - Myös tällä sivulla toimii _Hae_-kenttä.
 - Voit myös järjestää tuloksia otsikkorivin nuolilla.
