@@ -944,4 +944,32 @@ Raportit-osioon.
 
 ## 10.18 Siirtokokoelmat
 
-Siirtokokoelmat
+Siirtokokoelmaan lisätyt niteet palautuvat aina siihen kirjastoon, johon ne on siirretty. Niteiden kotikirjasto ei muutu. Perustiedot-näkymässä ei näy, että nide kuuluu johonkin siirtokokoelmaan.
+
+Huom. Järjestelmäasetuksen *AutomaticItemReturn* arvon tulee olla *Älä kuljeta niteitä automaattisesti kotikirjastoon, kun ne palautetaan*, jotta siirtokokoelma toimii.
+
+**Siirtokokoelman luominen**
+
+Luo uusi siirtokokoelma painamalla *Uusi kokoelma* -painiketta siirtokokoelmien etusivulla, täytä nimeke ja kuvaus ja paina *Ok*.
+
+<img src="/assets/files/docs/Tyokalut/siirtokokoelma1.png" title="Lisää uusi kokoelma -näkymä, jossa kysytään nimekettä ja kuvausta" alt="Lisää uusi kokoelma -näkymä, jossa kysytään nimekettä ja kuvausta" style="width:50.0%" />
+
+Sen jälkeen lisää niteitä kokoelmaan syöttämällä niteiden viivakoodi kenttään ja paina *ok*.
+
+<img src="/assets/files/docs/Tyokalut/siirtokokoelma2.png" title="Lisää tai poista niteitä -näkymä, jossa kysytään niteen viivakoodia" alt="Lisää tai poista niteitä -näkymä, jossa kysytään niteen viivakoodia" style="width:50.0%" />
+
+Siirtokokoelmien pääsivulla lisää niteitä kokoelmaan painamalla halutun siirtokokoelman kohdalla *Toiminnot*-nappia ja valitsemalla *Lisää tai poista niteitä*. 
+
+<img src="/assets/files/docs/Tyokalut/siirtokokoelma3.png" title="Toiminto-valikko siirtokokoelmien pääsivulla" alt="Toiminto-valikko siirtokokoelmien pääsivulla" style="width:80.0%" />
+
+Voit poistaa niteen kokoelmasta joko painamalla *Poista* niteen viivakoodin vierestä siirtokokoelman niteiden luettelossa tai valitsemalla *Poista kohde kokoelmasta* -valintaruudun viivakoodikentän vieressä.
+
+**Kokoelman siirtäminen**
+
+Kokoelma siirretään haluttuun kirjastoon joko painamalla pääsivun *Toiminnot*-painikkeen takaa *Siirto* tai tietyn siirtokokoelman sivulla *Siirto*-nappia. Kummassakin tapauksessa valitaan seuraavaksi kirjasto, johon niteet ovat menossa.
+
+Vastaanottavan kirjaston tulee palauttaa kaikki siirtokokoelman niteet. 
+Jos siirtokokoelman nide palautetaan jossain toisessa kirjastossa, pyytää Koha palauttamaan niteen kirjastoon, johon siirtokokoelma on luotu ja kertoo että kyseessä on siirtokokoelmaan kuuluva nide.
+
+
+
