@@ -12,7 +12,7 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 # Koha-Suomen hallituksen tiedotteet
 
-Koha-Suomen hallituksen vuoden 2023 tiedotteet
+[Koha-Suomen hallituksen vuoden 2023 tiedotteet](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/_pages/hallituksentiedotteet2023.md)
 
 # Koha-Suomen asiantuntijaryhmä
 
