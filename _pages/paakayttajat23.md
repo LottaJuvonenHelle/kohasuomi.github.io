@@ -1,7 +1,6 @@
 ---
 layout: splash
 permalink: /paakayttajat23
-hidden: true
 header:
   overlay_color: '#5e616c'
   overlay_image: /assets/images/cropped-pexels-photo-113850.jpeg
