@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /muistiot
+permalink: /hallituksentiedotteet2023
 hidden: true
 header:
   overlay_color: '#5e616c'
