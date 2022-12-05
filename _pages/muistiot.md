@@ -16,8 +16,6 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 # Koha-Suomen asiantuntijaryhmä
 
-Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Katja Valjakka (Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot). Koha-Suomesta mukana on puheenjohtajana Ari Mäkiranta ja asiantuntijoina Anneli Österman ja Kodo Korkalo. Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
-
 [Asiantuntijaryhmän vuoden 2023 muistiot](/asiantuntijaryhma23)
 
 # Koha-Suomen viikkopalaverit
