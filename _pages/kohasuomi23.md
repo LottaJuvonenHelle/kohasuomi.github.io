@@ -13,6 +13,8 @@ toc: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 2 esityslista
+
 ## Viikko 1 esityslista
 
 Aika: 2.1.2023 klo 10
