@@ -6,6 +6,7 @@ header:
   overlay_color: '#5e616c'
   overlay_image: /assets/images/cropped-pexels-photo-113850.jpeg
 title: 'Koha-Suomen vuoden 2023 muistiot'
+toc: true
 ---
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
