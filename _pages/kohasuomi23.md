@@ -7,7 +7,7 @@ permalink: /kohasuomi23
 redirect_from:
   - /theme-setup/
 toc: true
-layout: post
+layout: single
 hidden: true
 ---
 
