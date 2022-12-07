@@ -1,10 +1,11 @@
 ---
-layout: splash
+layout: single
 permalink: /asiantuntijaryhma23
 hidden: true
 header:
   overlay_color: '#5e616c'
   overlay_image: /assets/images/cropped-pexels-photo-113850.jpeg
+toc: true
 title: 'Koha-Suomen asiantuntijaryhmä 2023'
 ---
 
