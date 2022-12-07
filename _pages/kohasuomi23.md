@@ -9,6 +9,8 @@ title: 'Koha-Suomen vuoden 2023 muistiot'
 toc: true
 ---
 
+# Muistiot
+
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
 ## Viikko 1 esityslista
