@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /paakayttajat23
 header:
   overlay_color: '#5e616c'
