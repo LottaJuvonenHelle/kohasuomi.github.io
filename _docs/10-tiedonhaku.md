@@ -6,8 +6,8 @@ redirect_from:
 toc: true
 ---
 
-# 8. Tiedonhaku
-## 8.1. Perushaku
+# 10. Tiedonhaku
+## 10.1. Perushaku
 
 Kun haluat hakea Kohasta, napauta _Hae tietokannasta_-painiketta, kirjoita hakusanat ja valitse OK.
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku1_haun_suorittaminen.png)
@@ -18,7 +18,7 @@ Hakusanat katkaistaan automaattisesti, eli haku _seitse_ kohdistuu kaikkiin merk
 
 Sanojen järjestys ei vaikuta hakutulokseen. Haku _tiedonhaku kirjastot_ antaa saman tuloksen kuin _kirjastot tiedonhaku_.  
 
-## 8.2. Tarkka haku
+## 10.2. Tarkka haku
 
 Tarkassa haussa voit määrittää haun perushakua täsmällisemmin. 
 
@@ -35,7 +35,7 @@ Voit valita hakutulosten järjestyksen _Järjestä_-valikosta. Oletuksena tuloks
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
-## 8.3. Hakusanojen etuliitteet
+## 10.3. Hakusanojen etuliitteet
 
 Voit rajata hakutulosta kirjoittamalla hakusanojen eteen etuliitteitä:
 
@@ -75,7 +75,7 @@ Voit rajata hakutulosta kirjoittamalla hakusanojen eteen etuliitteitä:
 [Lista etuliitteistä ja tarkemmat ohjeet etuliitteiden
 käyttämiseen](https://koha-community.org/manual/21.11/en/html/searching.html#indexes) (englanniksi). 
 
-## 8.4. Hakutuloksen rajaaminen faseteilla
+## 10.4. Hakutuloksen rajaaminen faseteilla
 
 Hakutulosta voi rajata hakutuloslistan vasemman reunan faseteilla. Fasettien sisältö riippuu hakutuloksesta.
 
@@ -88,7 +88,7 @@ voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla
 Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne.png)
 
-## 8.5. Hakuhistoria
+## 10.5. Hakuhistoria
 
 Tehtyjä hakuja voi tarkastella ja suorittaa uudelleen hakuhistoria-toiminnolla. Hakuhistoria on oikean yläkulman alasvetovalikossa. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_hakuhistoria_valikko.png)
@@ -98,7 +98,7 @@ Hakuhistoriassa haut on jaettu kuluvan istunnon aikana ja aiemmissa istunnoissa 
 
 Historian voi poistaa valitsemalla poistettavat haut ja klikkaamalla _Poista_.
 
-## 8.6. Nidehaku
+## 10.6. Nidehaku
 
 Nidehaulla voit esimerkiksi:
 
@@ -153,7 +153,7 @@ Tulokset voi halutessaan viedä ohjelmasta CSV- tai -viivakooditiedostona jatkok
 
 Hakua pääsee muokkaamaan painamalla _Muokkaa hakua_-painiketta.
 
-## 8.7 Teostiedot
+## 10.7 Teostiedot
 
 Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
 
