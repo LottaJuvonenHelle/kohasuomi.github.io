@@ -18,6 +18,6 @@ Läsnä
 
 ## Viikko 1 esityslista
 
-Aika: 3.1.2022 klo 9.15
+Aika: 3.1.2023 klo 9.15
 
 Läsnä:
