@@ -71,7 +71,7 @@ Voit nyt ajaa juuri tekemäsi raportin _Aja raportti_ -napista
 painamalla.  
 ![](/assets/files/docs/Raportit/raportit13.png)
 
-#### 7.1.2.1 Käytä tallennettua raporttia
+#### 9.1.2.1 Käytä tallennettua raporttia
 
 Tallennettuista raporteista löytyvät ohjatun raporttien luonnin kautta
 tehdyt ja SQL-kyselyillä tehdyt raportit.
@@ -79,10 +79,10 @@ tehdyt ja SQL-kyselyillä tehdyt raportit.
 ![](/assets/files/docs/Raportit/raportit14.png)
 
 - Kaikki-välilehdeltä löytyy kaikki tallennetut raportit
-- Muilta välilehdiltä löytyy niihin määritetyt raportit. Määritys
+- Muilta välilehdiltä löytyy niihin määritetyt raportit. Osion määritys
   tehdään raportin tallennuksen yhteydessä.
 - Haku-kentällä voi rajata taulukossa näkyviä raportteja. Jos tiedät
-  raportin nimen, voit hakea sen nimellä suoraan.
+  raportin nimen tai numeron, voit hakea sen niillä suoraan.
 
 Raportin voi ajaa valitsemalla rivin oikeasta reunasta _Käynnistä_  
 ![](/assets/files/docs/Raportit/raportit15.png)
