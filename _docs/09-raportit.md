@@ -91,11 +91,13 @@ Käynnistä-napissa on pieni nuoli, jonka alta löytyy muita vaihtoehtoja
 ![](/assets/files/docs/Raportit/raportit16.png)
 
 - _Näytä_-vaihtoehdolla näet raportin SQL-koodin
-- _Muokkaa_-vaihtoehdolla voi muokata raportin SQL-koodia
+- _Esikatsele SQL_ -vaihtoehdolla näet SQL-koodin erillisessä popupissa.
+- _Muokkaa_-vaihtoehdolla voi muokata raportin SQL-koodia (vaatii erillisen oikeuden)
 - _Kopioi_-vaihtoehdolla voi kopioida raportin SQL-koodin ja muokata
-  sitä uutena raporttina
+  sitä uutena raporttina (vaatii erillisen oikeuden)
 - _Ajastus_-vaihtoehdolla voi ajastaa raportin käynnistymään tiettynä
   ajankohtana. **HUOM!** Ajastus ei toimi.
+- _Poista_ -vaihtoehdolla voit poistaa kyselyn (vaatii erillisen oikeuden)
 
 Ajettavan raportin ominaisuuksista/määrityksistä riippuu, mitä
 käynnistyksen jälkeen tapahtuu. Osa raporteista voi pyytää käyttäjää
@@ -108,10 +110,31 @@ näkyviin.
 
 ![](/assets/files/docs/Raportit/raportit18.png) ![](/assets/files/docs/Raportit/raportit17.png)
 
-- Tulosten kokonaismäärä näkyy otsikon ja selitteen alapuolella
-- Riviä sivulla -valikosta voit määrittää, kuinka monta hakutulosta
+- Tulosten (rivien) kokonaismäärä näkyy otsikon ja selitteen alapuolella
+- Rivejä sivulla -valikosta voit määrittää, kuinka monta riviä
   näytetään per sivu. Joissain raporteissa on voitu määrittää
   valmiiksi, että näytetään tietty määrä rivejä.
+- Otsikon yläpuolella on työkalurivi, jossa pääsee tekemään samoja toimintoja kuin Käynnistä-napin valikosta.
+- Raportin tiedot voi ladata eri muodoissa
+  - Puolipisteellä eroteltua tekstiä (.csv)
+  - Tabulaattorein eroteltu teksti
+  - OpenDocument-taulukkolaskenta
+  - FinnaJSON (jotta tämä toimii, pitää tulosten ensimmäinen sarake sisältää tietueen biblionumberin)
+  - Kaavio (.svg), jos kaavion on ensin luonut.
+- Tuloksista voi luoda kaavioita, jos ne ovat numeerisia. Esimerkiksi nimekelistauksista ei voi tehdä järkeviä kaavioita.
+
+### 9.1.2.2 Erämuokkaustoiminnot raporttien kautta
+
+Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber tai tietueen biblionumber, voi tulokset viedä eräkäsittelyyn. Jos tuloksia on paljon, voit valita Rivejä sivulla -valikosta, kuinka monta riviä viedään eräajoon. Huomioi, että eräajossa voi käsitellä n. 1000 riviä kerralla.
+
+![](/assets/files/docs/Raportit/raportit181.png)
+- Tietueiden muokkaus eräajona
+- Tietueiden poisto eräajona
+- Lisää listaan
+
+![](/assets/files/docs/Raportit/raportit181.png)
+- Niteiden muokkaus eräajona
+- Niteiden poisto eräajona
 
 ### 7.1.2 Tilastovelho
 
