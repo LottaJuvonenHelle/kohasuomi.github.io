@@ -853,9 +853,11 @@ Tämä raportti näyttää kaikki varaukset mitkä kohdistuvat kirjastosi aineis
 **Huomaa:** Tämä ei ole Koha-Suomen suosittelema raportti hyllyvarausten
 käsittelyyn.
 
-![](/assets/files/docs/Lainaus/raportti2.png)
+![](/assets/files/docs/Raportit/raportit1001.png)
 
 - Voit rajata raportin ajovaiheessa nidetyypin, kokoelma ja hyllypaikan mukaan.
+
+![](/assets/files/docs/Lainaus/raportti2.png)
 
 Hakutuloksia voi suodattaa ja järjestellä yläreunan valikon avulla.
 Näkyvillä olevia sarakkeita voi säätää _Sarakkeet_
@@ -944,8 +946,6 @@ johtuu siitä, että tietoa ei haeta suoraan MARCista vaan tietokannan
 sarakkeista, jolloin a-kenttien tiedot päätyvät samaan sarakkeeseen ja
 ne myös näytetään raportilla sitten peräkkäin.
 
-![](/assets/files/docs/Raportit/raportit1003.png)
-
 Vinkkejä:
 
 - valitse kirjasto-sarakkeista oma kirjasto, jolloin pystyt helposti
@@ -989,7 +989,8 @@ Tämä raportti näyttää kaikki kirjastossasi noutoa odottavat niteet.
 
 HUOM! Vanhentuneet varaukset eivät enää näy oikein tämän näytön välilehdellä. Käytä vanhentuneiden varausten etsimiseksi 
 sql-raporttia :
-select othernames as 'Varaustunnus', b.title as 'Teos', i.barcode as 'Viivakoodi', bi.itemtype as 'Aineistotyyppi'
+
+> select othernames as 'Varaustunnus', b.title as 'Teos', i.barcode as 'Viivakoodi', bi.itemtype as 'Aineistotyyppi'
 from old_reserves o
 JOIN biblio b using (biblionumber)
 JOIN biblioitems bi using (biblionumber)
@@ -1000,6 +1001,7 @@ and o.cancellationdate between <<Vanhentumispäivä alkaen|date>> AND <<Päätty
 and o.found='W'
 AND o.expirationdate = (o.cancellationdate - INTERVAL 1 DAY)
 order by 1,2
+
 
 ### Varauksia per nide
 
@@ -1026,7 +1028,6 @@ ennen raportin ajamista.
 ![](/assets/files/docs/Lainaus/lainrap12.png)
 
 ---
-
 
 ## 2.14 Offline eli yhteydettömän tilan lainaus
 
