@@ -123,7 +123,7 @@ näkyviin.
   - Kaavio (.svg), jos kaavion on ensin luonut.
 - Tuloksista voi luoda kaavioita, jos ne ovat numeerisia. Esimerkiksi nimekelistauksista ei voi tehdä järkeviä kaavioita.
 
-### 9.1.2.2 Erämuokkaustoiminnot raporttien kautta
+#### 9.1.2.2 Erämuokkaustoiminnot raporttien kautta
 
 Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber tai tietueen biblionumber, voi tulokset viedä eräkäsittelyyn. Jos tuloksia on paljon, voit valita Rivejä sivulla -valikosta, kuinka monta riviä viedään eräajoon. Huomioi, että eräajossa voi käsitellä n. 1000 riviä kerralla.
 
