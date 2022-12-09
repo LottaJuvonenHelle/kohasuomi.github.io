@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-# 4. Kausijulkaisut
+# 6. Kausijulkaisut
 
 Kausijulkaisuja pääsee käsittelemään menemällä _Muita
 toimintoja-valikkoon -&gt; Kausijulkaisut_  
@@ -19,7 +19,7 @@ puuttuu oikeudet käsitellä näitä tietoja. Ota yhteys esimieheesi.
 Kausijulkaisujen avulla ylläpidetään lehtitilauksia ja vastaanotetaan
 saapuneita lehtiä.
 
-## 4.1. Määrittele ilmestymistiheyksiä
+## 6.1. Määrittele ilmestymistiheyksiä
 
 Kohassa voi määritellä erilaisia valmiita ilmestymistiheyksiä lehdille. Toiminto on pääkäyttäjäoikeuksien takana.
 
@@ -31,7 +31,7 @@ Voit myös luoda uusia ilmestymistiheyksiä.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul4.png)
 
-## 4.2. Määrittele numerointikaavoja
+## 6.2. Määrittele numerointikaavoja
 
 Kohassa voi määritellä erilaisia valmiita numerointikaavoja lehdille. Toiminto on pääkäyttäjäoikeuksien takana.
 
@@ -42,7 +42,7 @@ Voit myös luoda uusia numerointitietoja. Uuden numerointitiedon voit
 tallentaa _Luo uusi_ -linkistä.  
 ![](/assets/files/docs/Kausijulkaisut/uusi_numerointikaava.PNG)
 
-## 4.3. Lisää tilaus
+## 6.3. Lisää tilaus
 
 Tilaus voidaan lisätä klikkaamalla _Uusi_-nappia missä tahansa
 nimeketietueessa  
@@ -185,7 +185,7 @@ alapuolella.
 
 Klikkaa _Tallenna tilaus_, kun tiedot ovat oikein.
 
-## 4.4. Lehtinumeroiden vastaanottaminen
+## 6.4. Lehtinumeroiden vastaanottaminen
 
 Lehtien numeroita voidaan vastaanottaa eri paikoissa. Tilauksen tiedot
 löydät hakemalla _Kausijulkaisut_-sivun hakulaatikon avulla lehden
@@ -246,7 +246,7 @@ Luomalla seuraavan numeron merkitset automaattisesti edellisen numeron
 Myöhästynyt -tilaan. Klikkaamalla useamman numeron _Muokkaa_-sarakkeen
 laatikkoa voit kerralla merkitä näille numeroille oikean tilan.
 
-## 4.5. Lehtikiertolistan luominen
+## 6.5. Lehtikiertolistan luominen
 
 Lehtikiertolista on lista henkilöistä, joiden luettavaksi lehti menee
 ennen kuin se viedään hyllyyn. Lehtitilausta tehtäessä on valittava
@@ -282,7 +282,7 @@ henkilö lisätään automaattisesti lehden varausjonoon.
 Nähdäksesi asiakkaan kaikki kiertolistat, mihin asiakas kuuluu, katso
 asiakastiedoista _Kiertolistat_-välilehti.
 
-## 4.6. Tilaukset virkailijatyökalussa
+## 6.6. Tilaukset virkailijatyökalussa
 
 Tilausten tiedot näkyvät _Tilaukset_ ja _Lehtitilaukset_ -välilehdillä.
 
@@ -298,7 +298,7 @@ Lehtitilaukset-välilehdeltä pääset suoraan esimerkiksi vastaanottamaan lehti
 Jos käytät _Hankintamoduulia_ tilausten seurantaan, näet ne tiedot ennen
 tilauksen tietoja.
 
-## 4.7. Lehtien reklamointi
+## 6.7. Lehtien reklamointi
 
 Koha voi lähettää sähköpostin kausijulkaisujesi toimittajalle, jos
 tilatut numerot ovat myöhässä tai puuttuvat. Vasemmalla valikossa on
@@ -306,7 +306,7 @@ _Reklamaatiot_-linkki tätä varten.
 ![](/assets/files/docs/Kausijulkaisut/kausijul35.png)  
 ![](/assets/files/docs/Kausijulkaisut/reklamaatiot.PNG)
 
-## 4.8. Lehtitilauksen päättymisajan tarkistaminen
+## 6.8. Lehtitilauksen päättymisajan tarkistaminen
 
 Kun tallennetaan lehtitilausta, annetaan sille päättymisaika.
 Tarkistustyökalulla voit tarkistaa, milloin tilaus päättyy.
@@ -321,7 +321,7 @@ jotka päättyvät ennen annettua päivämäärää.
 Listauksen oikeanpuolimmaisessa sarakkeessa on _Uusinta-linkki_, josta
 pääsee uusimaan tilauksen. Voit myös valita useamman tilauksen ja uusia ne kerralla. Useampaa tilausta uusittaessa uusinta käyttää tilauksen pituutena automaattisesti sitä pituutta, mikä lehtitilauksen tietoihin on tallennettu.
 
-## 4.9. Tilausten uusiminen
+## 6.9. Tilausten uusiminen
 
 Jos lehtitilauksesi on loppunut, et voi vastaanottaa lehtinumeroita.
 Tilauksen voi uusia klikkaamalla _Uusinta_. (Huom! Osassa kimpoista voi olla tapana tehdä lehdille vuosikohtaisia nimeketietueita (esim. Anna 2022, Anna 2023 jne). Tällaisessa tapauksessa tilausta ei voi uusia vaan seuraavan vuoden lehtinimekkeelle on tehtävä kokonaan uusi lehtitilaus.)
@@ -340,7 +340,7 @@ Lehtitilauksia voi uusia myös massana lehtitilauksen päättymisajan tarkistami
 
 Riippuen kimppasi asetuksista (järjestelmäasetus RenewSerialAddsSuggestion) lehtitilauksen uusiminen voi myös muodostaa automaattisesti hankintaehdotuksen.
 
-## 4.10. Lehtitilausten hakeminen
+## 6.10. Lehtitilausten hakeminen
 
 _Kausijulkaisut_-moduulissa on lehtitilausten haku, jossa tilausta voit
 hakea ISSN:lla tai lehden nimellä.
@@ -359,7 +359,7 @@ suodattamamiseen. Sen hakee kaikista sarakkeista kerralla.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilaukset_hakutulos.PNG)
 
-## 4.11. Lehtitilauksen poistaminen
+## 6.11. Lehtitilauksen poistaminen
 
 Lehtitilauksen voi poistaa. Hae haulla esille poistettava tilaus ja
 klikkaa Nimeke-sarakkeesta lehden nimeä, jolloin avautuu tilauksen
