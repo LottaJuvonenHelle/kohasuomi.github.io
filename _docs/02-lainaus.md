@@ -850,15 +850,114 @@ raportteja löytyy myös Lainauksen toiminnoista.
 
 Tämä raportti näyttää kaikki varaukset mitkä kohdistuvat kirjastosi aineistoon. 
 
+**Huomaa:** Tämä ei ole Koha-Suomen suosittelema raportti hyllyvarausten
+käsittelyyn.
+
 ![](/assets/files/docs/Lainaus/raportti2.png)
+
+- Voit rajata raportin ajovaiheessa nidetyypin, kokoelma ja hyllypaikan mukaan.
+
+Hakutuloksia voi suodattaa ja järjestellä yläreunan valikon avulla.
+Näkyvillä olevia sarakkeita voi säätää _Sarakkeet_
+-painikkeella ja tiedot voi viedä Excel- tai CSV-muotoon, kopioida ja tulostaa.
 
 ### Hyllyvaraukset
 
-**Huomioi:** Koha-Suomi on tehnyt oman versionsa hyllyvarauslistasta. Se
-on kuvattu [wikin
-Raportit-osiossa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/7_Raportit#722-Hyllyvaraukset)
+**Huomaa:** Koha-Suomi suosittelee käyttämään tätä raporttia, kun
+etsitään hyllyvarauksia.
 
-Koha-Suomi suosittelee käyttämän tätä raporttia hyllyvarausten haussa. Listaus näyttää kaikki nimekkeet, joista on varauksia ja joilla on
+**Huomaa myös:** Hyllyvarausraportti ei ole täysin reaaliaikainen,
+vaikka se avautuukin nykyään nopeammin kuin ennen. Hyllyvarausraportin
+tiedot haetaan tausta-ajolla, jonka kesto on varausten määrästä riippuen
+muutamasta sekunnista useampaan minuuttiin. Tänä aikana käsiteltävien
+niteiden ja varausten tiedot voivat muuttua ja listalle voi tulla
+tietoa, joka ei pidä enää katseluhetkellä paikkansa. Tästä voi myös
+johtua, että listalle voi päätyä tilanne, että toisesta kirjastosta
+omaan kirjastoon kuljetettavana oleva nide näyttäisi olevan listan
+mukaan hyllyssä omassa kirjastossa. Nide on palautettu kesken ajon ja
+mennyt kuljetustilaan. Kuljetettavan niteen sijaintikirjastona on
+tietokannassa kohdekirjasto. Tälle epäreaaliaikaisuudelle ei ikävä kyllä
+voi tehdä mitään, koska tausta-ajolla kuluu työhönsä oma aikansa ja
+tilanne taustalla muuttuu koko ajan, kun niteitä palautetaan lainasta
+tai joku muu ehtii palauttaa omassa hyllyssä paikalla olevan niteen.
+
+Hyllyvaraukset raportilla pystyy hakemaan näytölle kaikki voimassa
+olevat hyllyvaraukset. Raportin toimintaan on tehty Koha-Suomessa
+muutoksia käyttäjien toiveiden perusteella.
+
+Teknisiä muutoksia
+
+- raportin latautuminen on nopeampaa, 1800 hyllyvarauksen
+  latautumiseen menee hieman reilu 7  
+  sekuntia aiemman viiden minuutin asemesta
+- raportin päivitysväli on nyt minimissään minuutti ja maksimissaan
+  niin pitkä kuin raportin  
+  generointiin kuluva aika on. Käytännössä siis hyllyvarauslistan
+  pidentyessä päivitysväli harvenee.  
+  Raportin avautumisnopeuteen tällä ei ole vaikutusta.
+- koska raportti generoidaan nyt ennakkoon valmiiksi, ei rajaus ajan
+  perusteella ole enää käytössä.  
+  Raportti noudattaa järjestelmäasetuksia “HoldsToPullStartDate” ja
+  “ConfirmFutureHolds”.
+
+Nimeketietojen näkyvyys
+
+- painosmerkintä on lisätty nimeketietojen yhteyteen
+- osanumero näkyvissä
+
+Nidetietojen näkyvyys
+
+- kirjastot, hyllypaikat ja kokoelmat esiintyvät nyt raportissa
+  lyhenteinä. Tapa on selkeämpi ja  
+  helpommin filtteröitävissä, mutta sillä on myös jonkin verran
+  vaikutusta raportin latautumisnopeuteen.
+- varaajan tiedot pudotetaan oletuksena pois, mutta raportille on
+  mahdollista saada näkyville sarake, jossa näkyy varaustunniste. Tämä ei kuitenkaan ole  
+  suositeltavaa, koska silloin asiakastietoja käsitellään turhaan.
+- kirjasto, hyllypaikka, kokoelma ja muut sarakkeet on
+  aakkostettu.
+- luokkasarakkeessa ei näytetä samaa luokkatietoa moneen kertaan.
+- huomaathan, että luokka, hyllypaikka, kokoelma, nidehuomautukset,
+  hyllytarkenne ja genre eivät ole kohdakkain kirjastotiedon kanssa.
+
+Rivi- ja sarakemuutokset
+
+- lisätty kokoelma, genre ja sublocation eli hyllytarkenne -sarakkeet
+- noutokirjasto ja ensimmäisenä olevan varauksen tekoaika eriytetty
+  omiin sarakkeisiinsa
+- filtterit on siirretty raportin ylälaitaan
+- sarakkeiden järjestystä on muutettu. Järjestyksestä on varmastikin
+  olemassa paljon mielipiteitä, mutta  
+  ne on nyt yritetty järjestellä siten, että ne olisivat käytännön
+  työn kannalta toimivasti sijoiteltu ja  
+  niiden keskinäisessä sijainnissa olisi logiikka.
+- huomaathan, että sarakkeita pystyy myös itse piilottamaan ja
+  laittamaan näkyville yläreunan _Sarakkeet_ -napista.
+- pääkäyttäjät voivat säätää sarakkeiden oletusnäkyvyyttä Kohan
+  ylläpidosta kohdasta Muut parametrit  
+  _Sarakkeiden määrittely_. Siellä on Lainaus ja palautus –osiossa
+  kohta (id=holds-to-pull).
+
+**10.5.2019 Nimeke-kenttään lisätty sarja-tieto 490-kentästä**. Huomaa,
+että ensin tulee 490a-kentän toistumat, vasta sitten numerot. Tämä
+johtuu siitä, että tietoa ei haeta suoraan MARCista vaan tietokannan
+sarakkeista, jolloin a-kenttien tiedot päätyvät samaan sarakkeeseen ja
+ne myös näytetään raportilla sitten peräkkäin.
+
+![](/assets/files/docs/Raportit/raportit1003.png)
+
+Vinkkejä:
+
+- valitse kirjasto-sarakkeista oma kirjasto, jolloin pystyt helposti
+  tarkistamaan omassa kirjastossa paikalla olevat varaukset, joiden
+  noutopiste on myös oma kirjastosi.
+- rajaa lista esimerkiksi materiaalin mukaan pelkkiin DVD-levyihin
+  tai hyllypaikan mukaan aikuisten hyllypaikalle.
+- tarkista, ettei listalle ole jäänyt varauksia roikkumaan pitkäksi
+  aikaa järjestämällä Varauspvm-sarake nousevasti, jolloin
+  ylimmäiseksi tulee vanhimmat varaukset.
+
+Listaus näyttää kaikki nimekkeet, joista on varauksia ja joilla on
 niteitä saatavana. Ensin kannattaa tarkistaa ne varaukset, joissa
 noutokirjastona on oma kirjasto/oman kunnan toinen kirjasto.
 Noutokirjaston kuudennesta sarakkeesta "Varaus". 
@@ -879,9 +978,8 @@ Voit halutessasi säätää näkyviä sarakkeita ”Sarakkeet”-kohdasta yläva
 
 ![](/assets/files/docs/Lainaus/hyllyvaraus4.png)
 
-..ja lajitella hakutuloksia nuolimerkinnöistä.
-
-Hyllyvarauslistan voi tulostaa **ctrl+p** -näppäinyhdistelmällä.
+- Voit lajitella hakutuloksia otsikkorivin nuolimerkinnöistä.
+- Vie-napista hyllyvarauslistan voi viedä Excel- tai CSV-muotoon, kopioida tai tulostaa. Jos raportin haluaa välttämättä tulostaa, kannattaa se tehdä tämän nappulan kautta, koska tiedot asettuu paperille tällöin paremmin.
 
 ### Noudettavissa olevat varaukset
 
