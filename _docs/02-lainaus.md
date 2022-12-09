@@ -853,9 +853,9 @@ Tämä raportti näyttää kaikki varaukset mitkä kohdistuvat kirjastosi aineis
 **Huomaa:** Tämä ei ole Koha-Suomen suosittelema raportti hyllyvarausten
 käsittelyyn.
 
-![](/assets/files/docs/Raportit/raportit1001.png)
+![](/assets/files/docs/Lainaus/raportit1001.png)
 
-- Voit rajata raportin ajovaiheessa nidetyypin, kokoelma ja hyllypaikan mukaan.
+- Voit rajata raportin ajovaiheessa nidetyypin, kokoelman ja hyllypaikan mukaan.
 
 ![](/assets/files/docs/Lainaus/raportti2.png)
 
