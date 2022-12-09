@@ -136,7 +136,7 @@ Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber tai ti
 - Niteiden muokkaus eräajona
 - Niteiden poisto eräajona
 
-### 7.1.2 Tilastovelho
+### 9.1.2 Tilastovelho
 
 Tilastovelholla pystyy hakemaan tietoja tietokannasta seitsemästä eri
 aihealueesta.
@@ -241,7 +241,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 
 ![](/assets/files/docs/Raportit/raportit33.png)
 
-### 7.1.3 Eniten…
+### 9.1.3 Eniten…
 
 #### Asiakkaat, joilla on eniten lainoja
 
@@ -251,13 +251,10 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 - Valitse halutessasi kirjasto
 - Valitse halutessasi aineistolaji
 - Valitse halutessasi asiakastyyppi
-
-<!-- -->
-
 - Voit rajoittaa tulosten määrää kirjoittamalla _Rajoita:_-kenttään
   numeron
 - Alemmalla otsikottomalla (englanniksi By:) valikolla voit ryhmitellä
-  tietoja esim. aineistolajin mukaan
+  tietoja esim. nidetyypin mukaan
 - Valitse _Tulostus_ -kohdasta haluatko tulokset näytölle vai
   tiedostoon
 
@@ -303,7 +300,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 
 ![](/assets/files/docs/Raportit/raportit40.png)
 
-- Valitse kirjasto ja aineistolaji.
+- Valitse kirjasto ja nidetyyppi.
 - Voit rajoittaa tulosten määrää _Rajoitukset_-kohdassa. Alemmasta
   nimettömästä (englanniksi By:) valikosta voit valita, ryhmitelläänkö
   tulokset jonkin kriteerin mukaan.
@@ -313,18 +310,19 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 
 ![](/assets/files/docs/Raportit/raportit41.png)
 
-### 7.1.5 Muu
+### 9.1.5 Muu
 
 #### Kadonnut aineisto
 
 ![](/assets/files/docs/Raportit/raportit42.png)
 
-- Voit rajata raporttia viivakoodin, kirjaston, aineistolajin ja
-  kadonnut-tilan tyypin mukaan.
+- Voit rajata raporttia viivakoodin, kirjaston, nidetyypin, kadonnut-tilan ja Ei lainattavissa -tilan mukaan.
 
 Valinnoistasi riippuen tuloksista muodostuu taulukko
 
 ![](/assets/files/docs/Raportit/raportit43.png)
+
+- Voit säätää näkyvillä olevia sarakkeita ja viedä tiedot Excel- tai CSV-muodossa, kopioida tai tulostaa ne.
 
 #### Tilauksia tilin mukaan
 
@@ -337,7 +335,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 
 ![](/assets/files/docs/Raportit/raportit45.png)
 
-#### Luettelo aineistolajeittain
+#### Luettelo nidetyypeittäin
 
 Raportti laskee niteitä.
 
@@ -350,6 +348,8 @@ Valinnastasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit47.png)
 
+- Voit säätää näkyvillä olevia sarakkeita ja viedä tiedot Excel- tai CSV-muodossa, kopioida tai tulostaa ne.
+- 
 #### Keskimääräinen laina-aika
 
 ![](/assets/files/docs/Raportit/raportit48.png)
