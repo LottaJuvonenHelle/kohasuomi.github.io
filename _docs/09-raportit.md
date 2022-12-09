@@ -214,7 +214,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 
 ![](/assets/files/docs/Raportit/raportit29.png)
 
-#### Maksutilastot
+#### Maksutilastot eli Kassajärjestelmä
 
 ![](/assets/files/docs/Raportit/raportit30.png)
 
