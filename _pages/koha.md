@@ -15,7 +15,7 @@ Kirjastojärjestelmän pääasiallisena kehittäjänä toimii Koha-yhteisö, jos
 
 Koha-kirjastojärjestelmän avulla voidaan tuottaa kaikki tavanomaiset kirjastopalvelut: kokoelmanhallinta ja asiakaspalvelu (lainaus, palautus, luettelointi, hankinta, kausijulkaisuhallinta, varausten teko, asiakashallinta, asiakasviestintä, kirjastoautomaatio ja integraatiot esimerkiksi ulkoisiin e-aineistopalveluihin). Kohan käyttöjärjestelmäalustana on Linux, ja tietokantana MariaDB. Järjestelmää käytetään www-selaimella. Koha käyttää kansallisesti tuettua ja suositeltua MARC21 -standardia, mikä mahdollistaa koneluettavan luetteloinnin ja luettelointitietojen vaihdon. RDA-luettelointiin siirtymistä valmistellaan. Kohassa on standardeihin perustuvat rajapinnat.
 
-![Koha Suomessa](/assets/images/koha-kartta-2021.jpg)
+![Koha Suomessa](/assets/images/koha-kartta-2023.jpg)
 
 # Kansainvälinen Koha-yhteisö
 
