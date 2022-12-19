@@ -11,18 +11,18 @@ Tänne kerätään varauksiin liittyvät ohjeet.
 Asiakas voi varata aineistoa Kohassa. Lainaus- ja käyttömaksusäännöissä ja asiakastyyppien ylläpidossa on määritelty säännöt, minkä mukaan varauksia voi tehdä.
 ## 1. Varauksen teko tiedonhaun kautta
 
-Varauksen voi tehdä usealla tavalla. Yksinkertaisin tapa on tehdä varaus nimeketietojen näytön yläreunasta Varaa-napista.
+Varauksen voi tehdä usealla tavalla. Yksinkertaisin tapa on tehdä varaus nimeketietojen näytön yläreunasta _Varaa_-napista.
 ![](/assets/files/docs/Lainaus/Varaus_1.PNG)
 
 Varauksen voi tehdä myös hakutuloslistauksessa:
-  - näytön yläreunassa Varaa-napista, kun on valinnut näytöltä varattavat nimekkeet
-  - nimeketietojen jäljessä olevasta Varauksia-linkistä.
+  - näytön yläreunassa _Varaa_-napista, kun on valinnut näytöltä varattavat nimekkeet
+  - nimeketietojen jäljessä olevasta _Varauksia_-linkistä.
 
 Kun teet varauksen, täytyy asiakkaan tiedot hakea näytölle joko kortin viivakoodilla tai asiakkaan nimellä hakemalla. Huom! Noudata kirjastosi sovittuja käytäntöjä.
 
 ## 1.2 Varauksen teko asiakastietojen kautta
 
-Voit tehdä varauksen myös asiakastiedoista päin. Klikkaa Hae ja varaa -nappia…
+Voit tehdä varauksen myös asiakastiedoista päin. Klikkaa _Hae ja varaa_ -nappia…
 
 …hae tarvittava nimeke ja tee varaus.
 
