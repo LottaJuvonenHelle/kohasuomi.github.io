@@ -48,29 +48,29 @@ Varauksia voi muuttaa ja peruuttaa Varaukset-välilehdellä, jonne pääsee nime
 
 Varauslistalla voit muuttaa varausten järjestystä, noutopaikkaa tai keskeyttää tai peruuttaa varauksen.
 
-## 1.4.1 Varausten järjestyksen muuttaminen
+### 1.4.1 Varausten järjestyksen muuttaminen
 
 Jos jostain syystä täytyy varausjonon järjestystä muuttaa (ei saa tehdä ilman erityistä syytä), se tapahtuu muuttamalla Järjestys jonossa -sarakkeessa olevia numeroarvoja. Tai klikkailemalla vihreitä nuolia. Huom! Tätä oikeutta ei välttämäti ole kaikilla työntekijöillä.
 
     Jos muutat järjestystä jonossa tai poistat varauksen, muista klikata Päivitä varaukset -nappia tallentaaksesi toiminnot.
 
-## 1.4.2 Varauksen kiinnittäminen viimeiseksi jonossa
+### 1.4.2 Varauksen kiinnittäminen viimeiseksi jonossa
 
 Jos klikkaat varauksen oikealla puolella olevaa vihreää nuolta, varaus menee viimeiseksi listalle ja pysyy viimeisenä, vaikka uusia varauksia tulisi sen jälkeen. Tämä toiminto voi olla tarpeellinen esim. kotipalveluasiakkaiden kohdalla, joilla niteiden laina-aika voi venyä pidemmäksi kuin muilla asiakkailla.
 
 Kun varauksen kohdalla näkyy vihreä nuoli, jonka alla on viiva, se tarkoittaa, että varaus pysyy alimmaisena jonossa.
 
-## 1.4.3 Yksittäisen varauksen keskeyttäminen
+### 1.4.3 Yksittäisen varauksen keskeyttäminen
 
 Jos asiakas haluaa keskeyttää yksittäisen varauksensa tietyksi ajaksi, sen voi tehdä valitsemalla kalenterikuvakkeesta päivämäärän, mihin asti varaus on keskeytettynä ja klikkaamalla Keskeytä-nappia.
 
 Kun varaus on keskeytetty, varauksen kohdalle tulee Jatka-nappi ja näkyy päivämäärä, mihin saakka keskeytys on voimassa. Voit palauttaa varauksen voimaan myös (tyhjentämällä päivämäärän ja) klikkaamalla Jatka.
 
-## 1.4.4 Asiakkaan kaikkien varauksien keskeyttäminen
+### 1.4.4 Asiakkaan kaikkien varauksien keskeyttäminen
 
 Jos asiakas haluaa keskeyttää kaikki varauksensa, voi sen tehdä asiakkaan tiedoissa Varaukset-välilehdellä klikkaamalla Keskeytä kaikki varaukset -nappia. Vastaavasti varaukset saa taas voimaan klikkaamalla Jatka kaikkia keskeytettyjä varauksia -nappia.
 
-## 1.4.5 Varauksen poistaminen
+### 1.4.5 Varauksen poistaminen
 
 Niteen tiedoissa varauksen poistaminen onnistuu yksitellen klikkaamalla varauksen kohdalla Poista-nappia.
 
@@ -78,7 +78,7 @@ Useita varauksia kerralla voit poistaa merkitsemällä kunkin varauksen alasveto
 
 Varauksen voi myös poistaa asiakkaan tiedoissa Varaukset-välilehdellä valitsemalla Poista?-sarakkeeseen “Kyllä” ja klikkaamalla Peruuta valitut varaukset -nappia.
 
-## 4.6 Peruuta odottava-tila ja kuljetustila
+### 4.6 Peruuta odottava-tila ja kuljetustila
 
 Kun varaus on jäänyt kiinni tai odottaa noutamista, voi varauksen tilan muuttaa takaisin aktiiviseksi varaukseksi Peruuta odottava-tila tai Peruuta kuljetustila -napeista. Teos palautuu varausjonoon. Käy samalla muuttamassa varauksen voimassaoloaika, muuten voimassaoloajaksi jää alkuperäinen kiinni jääneen teoksen aika. Tätä toimintoa tarvitaan esimerkiksi rikkinäisen teoksen kohdalla.
 
