@@ -12,6 +12,7 @@ Asiakas voi varata aineistoa Kohassa. Lainaus- ja käyttömaksusäännöissä ja
 ## 1. Varauksen teko tiedonhaun kautta
 
 Varauksen voi tehdä usealla tavalla. Yksinkertaisin tapa on tehdä varaus nimeketietojen näytön yläreunasta Varaa-napista.
+![](/assets/files/docs/Lainaus/Varaus_1.PNG)
 
 Varauksen voi tehdä myös hakutuloslistauksessa:
 
