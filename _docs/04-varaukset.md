@@ -26,19 +26,23 @@ Kun teet varauksen, täytyy asiakkaan tiedot hakea näytölle joko kortin viivak
 
 Voit tehdä varauksen myös asiakastiedoista päin. Klikkaa _Hae ja varaa_ -nappia…
 
-![](/assets/files/docs/Lainaus/varaus3.PNG)
+![](/assets/files/docs/Lainaus/Varaus_4_asiakastiedoista.PNG)
 
 …hae tarvittava nimeke ja tee varaus.
 
+![](/assets/files/docs/Lainaus/Varaus_5_Varaa_asiakkaalle.PNG)
+
 Kun olet valinnut asiakkaan, jolle varaus tehdään, voi varauksen tietoja tarkentaa:
 
-    Muuta-laatikkkoon voit kirjoittaa varaukseen liittyviä lisätietoja tarvittaessa.
-    Valitse Noutopaikkaan kirjasto, mistä asiakas noutaa aineiston.
-    Jos varaus halutaan alkamaan tulevaisuudessa, anna Varauksen alkamispvm -laatikkoon aloituspäivämäärä. Muuten siihen tallentuu kuluva päivä.
-    Jos varaus halutaan olemaan voimassa vain tiettyyn päivämäärään saakka, merkitse päiväys Varaus vanhenee -laatikkoon.
-    Oletuksena on Varaa seuraava vapaa nide. Jos haluat tietyn niteen varaukseen, valitse nide listalta Varaus-sarakkeesta.
-    Varausten määrän voit valita Tee varauksia (määrä) -sarakkeesta.
-    Kiireetön varaus antaa asiakkaan uusia varatun teoksen, Tätä valintaa voi käyttää jos teos tarvitsee esimerkiksi uuden tarran
+   - _Muuta_-laatikkkoon voit kirjoittaa varaukseen liittyviä lisätietoja tarvittaessa.
+   - Valitse _Noutopaikkaan_ kirjasto, mistä asiakas noutaa aineiston.
+   - Jos varaus halutaan alkamaan tulevaisuudessa, anna _Varauksen alkamispvm_ -laatikkoon aloituspäivämäärä. Muuten siihen tallentuu kuluva päivä.
+   - Jos varaus halutaan olemaan voimassa vain tiettyyn päivämäärään saakka, merkitse päiväys _Varaus vanhenee_ -laatikkoon.
+   - Oletuksena on _Varaa seuraava vapaa nide_. Jos haluat tietyn niteen varaukseen, valitse nide listalta _Varaus_-sarakkeesta.
+   - Varausten määrän voit valita _Tee varauksia (määrä)_ -sarakkeesta.
+   - _Kiireetön varaus_ antaa asiakkaan uusia varatun teoksen, Tätä valintaa voi käyttää jos teos tarvitsee esimerkiksi uuden tarran
+
+![](/assets/files/docs/Lainaus/Varaus_6_Varaajan_tiedot.PNG)
 
 ## 1.3 Monta varausta kerralla
 
