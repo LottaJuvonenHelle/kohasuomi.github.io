@@ -46,15 +46,23 @@ Kun olet valinnut asiakkaan, jolle varaus tehdään, voi varauksen tietoja tarke
 
 ## 1.3 Monta varausta kerralla
 
-Jos haluat tehdä varauksen useammasta nimekkeestä kerralla, valitse nimekkeiden vasemmalta puolelta valintaruudusta halutut nimekkeet ja klikkaa Varaa-nappia.
+Jos haluat tehdä varauksen useammasta nimekkeestä kerralla, valitse nimekkeiden vasemmalta puolelta valintaruudusta halutut nimekkeet ja klikkaa _Varaa_-nappia.
 
-Varaussivulle listautuu valitut teokset. Valitse noutopaikka ja klikkaa Varaa.
+![](/assets/files/docs/Lainaus/Varaus_7_useampi_kerralla.PNG)
+
+Varaussivulle listautuu valitut teokset. Valitse noutopaikka ja klikkaa _Varaa_.
+
+![](/assets/files/docs/Lainaus/Varaus_8_Tee_varauksia.PNG)
 
 ## 1.4 Varausten käsittely
 
-Varauksia voi muuttaa ja peruuttaa Varaukset-välilehdellä, jonne pääsee nimeketietueen vasemmalla olevasta valikosta. Myös asiakkaan varauksista käsin pääsee varauksiin klikkaamalla Varaukset-välilehdellä teoksen nimeä.
+Varauksia voi muuttaa ja peruuttaa _Varaukset_-välilehdellä, jonne pääsee nimeketietueen vasemmalla olevasta valikosta. Myös asiakkaan varauksista käsin pääsee varauksiin klikkaamalla _Varaukset_-välilehdellä teoksen nimeä.
+
+![](/assets/files/docs/Lainaus/Varaus_9_varausten_käsittely.PNG)
 
 Varauslistalla voit muuttaa varausten järjestystä, noutopaikkaa tai keskeyttää tai peruuttaa varauksen.
+
+![](/assets/files/docs/Lainaus/Varaus_10_varauslista.PNG)
 
 ### 1.4.1 Varausten järjestyksen muuttaminen
 
