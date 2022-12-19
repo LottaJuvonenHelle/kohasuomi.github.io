@@ -15,9 +15,8 @@ Varauksen voi tehdä usealla tavalla. Yksinkertaisin tapa on tehdä varaus nimek
 ![](/assets/files/docs/Lainaus/Varaus_1.PNG)
 
 Varauksen voi tehdä myös hakutuloslistauksessa:
-
-    näytön yläreunassa Varaa-napista, kun on valinnut näytöltä varattavat nimekkeet
-    nimeketietojen jäljessä olevasta Varauksia-linkistä.
+  - näytön yläreunassa Varaa-napista, kun on valinnut näytöltä varattavat nimekkeet
+  - nimeketietojen jäljessä olevasta Varauksia-linkistä.
 
 Kun teet varauksen, täytyy asiakkaan tiedot hakea näytölle joko kortin viivakoodilla tai asiakkaan nimellä hakemalla. Huom! Noudata kirjastosi sovittuja käytäntöjä.
 
