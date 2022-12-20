@@ -92,6 +92,8 @@ Kun varaus on keskeytetty, varauksen kohdalle tulee _Jatka_-nappi ja näkyy päi
 
 ![](/assets/files/docs/Lainaus/Varaus_15_keskeytetty_varaus.PNG)
 
+---
+
 ### 1.4.4 Asiakkaan kaikkien varauksien keskeyttäminen
 
 Jos asiakas haluaa keskeyttää kaikki varauksensa, voi sen tehdä asiakkaan tiedoissa _Varaukset_-välilehdellä klikkaamalla _Keskeytä kaikki varaukset_ -nappia. Vastaavasti varaukset saa taas voimaan klikkaamalla _Jatka kaikkia keskeytettyjä varauksia_ -nappia.
@@ -117,6 +119,8 @@ Varauksen voi myös poistaa asiakkaan tiedoissa _Varaukset_-välilehdellä valit
 Kun varaus on jäänyt kiinni tai odottaa noutamista, voi varauksen tilan muuttaa takaisin aktiiviseksi varaukseksi _Peruuta odottava_-tila tai _Peruuta kuljetustila_ -napeista. Teos palautuu varausjonoon. Käy samalla muuttamassa varauksen voimassaoloaika, muuten voimassaoloajaksi jää alkuperäinen kiinni jääneen teoksen aika. Tätä toimintoa tarvitaan esimerkiksi rikkinäisen teoksen kohdalla.
 
 ![](/assets/files/docs/Lainaus/Varaus_18_peruuta_odottava_ja_kuljetustila.PNG)
+
+---
 
 ## 2 Varausten kiinnijääminen
 
@@ -171,8 +175,8 @@ Automaatilla palautettu, noutoilmoitusta ei vielä lähetetty. Varaus näkyy nid
 
 ![](/assets/files/docs/Lainaus/Varaus_24_palautettu_automaatilla.PNG)
 
-    -Noudettavissa oleva, noutoilmoitus lähetetty
-    -Teos on kuljetettavana
+    1. Noudettavissa oleva, noutoilmoitus lähetetty
+    2. Teos on kuljetettavana
     
 ![](/assets/files/docs/Lainaus/Varaus_25_kokoelmat_varattu_ja_kuljetuksessa.PNG)
 
@@ -193,3 +197,5 @@ Kuljetettavana oleva varaus.
 Jos varauksen noutaa joku muu kuin varaaja itse (perheenjäsen tai muu valtuutettu), saat huomautuksen, josta pitää ensin valita Peruuta varaus (poistaa varauksen varaajan tiedoista) ja sitten Kyllä, lainaa (Y).
 
 ![](/assets/files/docs/Lainaus/Varaus_27_VarauksenNoutoToinen_2.PNG)
+
+---
