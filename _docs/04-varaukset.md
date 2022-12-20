@@ -92,8 +92,6 @@ Kun varaus on keskeytetty, varauksen kohdalle tulee _Jatka_-nappi ja näkyy päi
 
 ![](/assets/files/docs/Lainaus/Varaus_15_keskeytetty_varaus.PNG)
 
----
-
 ### 1.4.4 Asiakkaan kaikkien varauksien keskeyttäminen
 
 Jos asiakas haluaa keskeyttää kaikki varauksensa, voi sen tehdä asiakkaan tiedoissa _Varaukset_-välilehdellä klikkaamalla _Keskeytä kaikki varaukset_ -nappia. Vastaavasti varaukset saa taas voimaan klikkaamalla _Jatka kaikkia keskeytettyjä varauksia_ -nappia.
