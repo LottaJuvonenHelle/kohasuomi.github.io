@@ -47,14 +47,14 @@ kaikista kentistä. Sanahakua kannattaa myös kokeilla.
 Hakutuloksia voit tarkastella MARC-muodossa tai korttimuodossa tai tuoda
 tietueen Kohaan
 
+![](/assets/files/docs/Luettelointi/kohakuvat722.png)
+
 ![](/assets/files/docs/Luettelointi/kohaversio2111k5.png)
 
 ![](/assets/files/docs/Luettelointi/kohaversio2111k6.png)
 
 \*Jos et löydä hakemaasi, klikkaa _Tee uusi haku_ näytön vasemmassa
 alareunassa.
-
-![](/assets/files/docs/Luettelointi/kohakuvat722.png)
 
 Kun olet avannut tyhjän kuvailupohjan tai tuonut nimeketietueen
 Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
