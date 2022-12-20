@@ -527,7 +527,7 @@ Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 
 ---
 
-## 2.10 Siirto-toiminto
+## 2.8 Siirto-toiminto
 
 Kirjastokimpassa voit siirtää niteitä toiseen kirjastoon käyttämällä
 **Siirto**-työkalua.
@@ -557,7 +557,7 @@ ei muutu, mutta nykyinen paikka on toinen kirjasto.
 
 ---
 
-## 2.11 Kirjaston valinta
+## 2.9 Kirjaston valinta
 
 Oletuksena on, että kirjaudut virkailijatyökaluun kotikirjastossasi.
 Kirjaston nimi näkyy virkailijatyökaluikkunan oikeassa yläreunassa.
@@ -574,13 +574,13 @@ OK.
 Valitsemasi kirjasto tulee näkyviin oikeaan yläkulmaan ja toiminnot
 tapahtuvat valitsemassasi kirjastossa (lainat, palautukset jne.)
 
-## 2.12 Pikakuvailu
+## 2.10 Pikakuvailu
 
 Kuvailusääntöjen mukaisesti.
 
 ---
 
-## 2.13 Lainauksen valmiit raportit
+## 2.11 Lainauksen valmiit raportit
 
 Useimmat raportit saadaan Raportit-moduulin kautta, mutta joitakin
 raportteja löytyy myös Lainauksen toiminnoista.
@@ -768,7 +768,7 @@ ennen raportin ajamista.
 
 ---
 
-## 2.14 Offline eli yhteydettömän tilan lainaus
+## 2.12 Offline eli yhteydettömän tilan lainaus
 
 Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 
@@ -782,11 +782,11 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
     ennakkoon, ettei yhteyttä ole. Esimerkiksi kirjastoautossa. **Ei
     suositella käytettäväksi**
 
-### 2.15.1. Offline lainausohjelma Windowsille (KOC)
+### 2.12.1. Offline lainausohjelma Windowsille (KOC)
 
 [Ohjelman asennus- ja käyttöohje PDF-muodossa:](https://github.com/KohaSuomi/kohasuomi.github.io/blob/8b5a19ba3ab67748beb2da63e68fd8d8da71ca19/assets/files/docs/Lainaus/KohaOfflineCirculation-ohje.pdf)
 
-### 2.15.2 Koha Offline Circulation Tool (KOCT)
+### 2.12.2 Koha Offline Circulation Tool (KOCT)
 
 http://manual.koha-community.org/3.16/en/offlinecirc.html  
 englanninkielinen lisäosa, jota ei ole käännetty suomeksi.
@@ -794,7 +794,7 @@ englanninkielinen lisäosa, jota ei ole käännetty suomeksi.
 [Ohje pdf-muodossa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/d1dc796fbb0a91ac574f2e5e628df28ecd894eb5/assets/files/Koha%20Offline%20Circulation%20Tool%20(KOCT).pdf)
 
 
-### 2.15.3 Yhteydettömän tilan lainaus
+### 2.12.3 Yhteydettömän tilan lainaus
 
 **Tämä ei ole suositeltava tapa**
 
