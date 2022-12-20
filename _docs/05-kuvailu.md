@@ -167,7 +167,7 @@ kohdalla Toiminnot-sarakkeesta _Tuo_.
 Teitpä muutokset tietueeseen kummalla tavalla tahansa, muista klikata
 _Tallenna_ -painiketta.
 
-![](/assets/files/docs/Luettelointi/luettelointi17.png)
+![](/assets/files/docs/Luettelointi/kohakuvat7224.png)
 
 ### 5.1.4. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
 
