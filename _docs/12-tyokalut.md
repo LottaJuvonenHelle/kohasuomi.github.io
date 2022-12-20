@@ -147,13 +147,13 @@ ollenkaan.
 
 ---
 
-## 10.4 Lähetä laskuja
+## 12.4 Lähetä laskuja
 
 Laskutus tapahtuu laskutustyökalun avulla, katso [12.17.1 laskutustyökalun ohje](https://koha-suomi.fi/dokumentaatio/tyokalut/#12171-laskutusty%C3%B6kalu)
 
 ---
 
-## 10.5 Asiakkaiden poisto/lainatietojen poisto eräajona
+## 12.5 Asiakkaiden poisto/lainatietojen poisto eräajona
 
 Asiakkaita ja lainatietoja voi poistaa eräajona seuraavien ehtojen
 mukaisesti:  
@@ -172,7 +172,7 @@ mukaisesti:
 Kaikkia vaihtoehtoja voi yhdistellä keskenään asiakastietoja
 poistettaessa.
 
-### 10.5.1 Asiakkaiden poisto
+### 12.5.1 Asiakkaiden poisto
 
 Valitse haluamasi vaihtoehto/vaihtoehdot ja laita rasti
 Vahvista-ruutuun. Klikkaa sitten Seuraava-nappulaa.
@@ -197,7 +197,7 @@ Tämän jälkeen järjestelmä kertoo, kuinka monta asiakasta poistettiin tai
 siirrettiin roskakoriin (deletedborrowers-tauluun).  
 <img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:90.0%" />
 
-### 10.5.2 Lainahistorian anonymisointi
+### 12.5.2 Lainahistorian anonymisointi
 
 Poista asiakkaita -toiminnon alapuolella on lainahistorian anonymisointi
 -toiminto. Ihan ylimmäisenä, ennen asiakkaiden poistoa ja otsikon
@@ -220,7 +220,7 @@ Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
 ---
 
-## 10.6 Asiakkaiden muokkaus eräajona
+## 12.6 Asiakkaiden muokkaus eräajona
 
 Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle
 joukolle kerralla.
@@ -242,7 +242,7 @@ laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille erä
 
 ---
 
-## 10.7 Niteiden poisto eräajona
+## 12.7 Niteiden poisto eräajona
 
 Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä
 kerralla.
@@ -284,7 +284,7 @@ _Poista valitut_
 
 ---
 
-## 10.8 Niteiden muokkaus eräajona
+## 12.8 Niteiden muokkaus eräajona
 
 Niteiden muokkaus eräajona tietueesta käsin on ohjeistettu
 \[\[/3_Luettelointi\#3222-Niteiden-erämuokkaus\|Niteiden
@@ -335,12 +335,12 @@ muutoksia ei tehdä.
 
 ---
 
-## 10.9 Tietueiden poisto eräajona
+## 12.9 Tietueiden poisto eräajona
 
 Tietueita pystyy poistamaan eräajona. Samaan näkymään voi päästä kahta
 kautta.
 
-### 10.9.1 Tietueen poisto korin kautta
+### 12.9.1 Tietueen poisto korin kautta
 
 Vie haluamasi tietueet koriin ja avaa se.
 
@@ -348,7 +348,7 @@ Vie haluamasi tietueet koriin ja avaa se.
 
 - Valitse poistettavat tietueet ja klikkaa sitten _Eräpoisto_
 
-### 10.9.2 Tietueen poisto työkaluista käsin
+### 12.9.2 Tietueen poisto työkaluista käsin
 
 Mene työkaluihin ja valitse _Tietueiden poisto eräajona_
 
@@ -392,7 +392,7 @@ Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään
 
 ---
 
-## 10.10 Tietueiden muokkaus eräajona
+## 12.10 Tietueiden muokkaus eräajona
 
 Tietueiden muokkauksessa eräajona voi lisätä/muokata tai poistaa
 MARC-kenttiä. Valituille tietueille voi esimerkiksi lisätä kielikoodin
@@ -456,7 +456,7 @@ Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään
 
 ---
 
-## 10.11 Automaattinen niteen muokkaus iän mukaan
+## 12.11 Automaattinen niteen muokkaus iän mukaan
 
 Niteitä voi muokata automaattisesti iän mukaan. Työkalulla luodaan
 säännöt, joiden mukaan niteitä käsitellään automaattisesti. Sääntöjen
@@ -489,7 +489,7 @@ Säännön voi poistaa valitsemalla _Poista tämä sääntö_.
 
 ---
 
-## 10.12 Tarratulostin
+## 12.12 Tarratulostin
 
 ### Ohje käyttäjälle
 
@@ -562,7 +562,7 @@ Ohje tarrapohjan muokkaajalle löytyy Teknisen dokumentaation puolelta:
 
 ---
 
-## 10.13 MARC-muokkauksen pohjat
+## 12.13 MARC-muokkauksen pohjat
 
 Kohassa pystyy muokkaamaan tietueita eräajona ja sitä varten tarvitaan
 säännöt, minkä pohjalta muokkausta tehdään. MARC-muokkauksen pohjat ovat
@@ -614,7 +614,7 @@ suoritusjärjestystä voi muuttaa ensimmäisen sarakkeen nuolilla.
 
 ---
 
-## 10.14 Kalenteri
+## 12.14 Kalenteri
 
 Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät.
 Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä
@@ -626,7 +626,7 @@ kalenteri. Oikealla on vinkkejä ja listoja määritetyistä
 kiinniolopäivistä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:90.0%" />
 
-### 10.14.1 Kiinniolon lisääminen
+### 12.14.1 Kiinniolon lisääminen
 
 Lisää kiinniolopäivä-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
 päivämäärävälin ensimmäistä päivää. 
@@ -668,7 +668,7 @@ Kalenterin alalaidassa olevista linkeistä pääset takaisin kuluvan kuukauden k
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri4.png" title="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" alt="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" style="width:90.0%" />
 
-### 10.14.2 Sulkupäivien värikoodit
+### 12.14.2 Sulkupäivien värikoodit
 
 Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 
@@ -693,7 +693,7 @@ Kuluva päivä on näkyy tummanvihreällä kehystettynä, jos kyseinen päivä o
 näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:90.0%" />
 
-### 10.14.3 Sulkutiedon poistaminen
+### 12.14.3 Sulkutiedon poistaminen
 
 Sulkupäiviä voi myös poistaa, jos ne ovat virheellisiä tai tarpeettomia.
 
@@ -704,7 +704,7 @@ Valitse päivä tai aikavälin ensimmäinen päivä.
 Määritä tarvittaessa aikavälin loppupäivä. Valitse haluamasi
 poisto -vaihtoehto ja klikkaa Tallenna.
 
-### 10.14.4. Sulkutiedon muokkaaminen
+### 12.14.4. Sulkutiedon muokkaaminen
 
 Sulkupäivän voi muokata valitsemalla muutettava päivä. Voit muokata valitun päivän Nimekettä ja Kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokkauksen voi tehdä yksi päivä kerrallaan.
