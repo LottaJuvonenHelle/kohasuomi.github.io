@@ -133,46 +133,63 @@ Kun varaus hyväksytään, asiakkaalle **lähtee noutoilmoitus**.
 
 Kun varauksen noutokirjasto on **eri** kuin mihin nide on palautettu:
 
-![](/assets/files/docs/Lainaus/Varaus_22_varausnäkymä_asiakkaalla.PNG)
+![](/assets/files/docs/Lainaus/Varaus_21_kuljetuskuitti.PNG)
 
 Tässä tapauksessa nide menee kuljetustilaan, eikä asiakkaalle lähde vielä noutoilmoitusta. Kuljetuskuitti tulostuu seuraavaksi. Asiakkaalle ilmoitus lähtee vasta, kun nide palautetaan noutokirjastossa.
 
-Huomaa: Molemmissa tapauksissa varaus vahvistetaan tai tulostetaan kuitti ja hyväksytään varauksen kiinnijääminen. Älä huomioi jättää varauksen voimaan asiakkaalle, mutta sallii lainaamisen toiselle asiakkaalle (ohjelma huomauttaa varauksesta).
+Huomaa: Molemmissa tapauksissa varaus vahvistetaan tai tulostetaan kuitti ja hyväksytään varauksen kiinnijääminen. _Älä huomioi_ jättää varauksen voimaan asiakkaalle, mutta sallii lainaamisen toiselle asiakkaalle (ohjelma huomauttaa varauksesta).
+
 ## 2.2 Varaus palautetaan automaattiin
 
 Jos kimpassa on käytössä varatun aineiston noutoilmoitusten viivästäminen automaattipalautuksille, menevät kaikki automaatilla palautetut varatut niteet kuljetustilaan. Myös noutopisteeseen palautuneet jäävät odottamaan “kuljetusta” uudelleenkäsittelyyn. Käytännössä kaikki automaattiin palautetut varaukset pitää siis palauttaa noutopisteessä uudelleen virkailijaliittymässä, vasta siinä vaiheessa noutoilmoitus lähtee asiakkaalle.
 
 Jos viivästys ei ole käytössä, lähtee noutoilmoitus asiakkaalle heti, kun aineisto palautetaan automaattiin.
+
 ## 2.3 Varausten näkyminen asiakkaan tiedoissa
 
-Asiakkaan tiedoissa näkyy Varaukset-välilehdellä, minne varattu nide on palautettu ja milloin.
+Asiakkaan tiedoissa näkyy _Varaukset_-välilehdellä, minne varattu nide on palautettu ja milloin.
 
-Virkailijaliittymässä palautettu varaus:
+**Virkailijaliittymässä palautettu varaus:**
+
+![](/assets/files/docs/Lainaus/Varaus_22_varausnäkymä_asiakkaalla.PNG)
 
 Ensimmäinen nide odottaa noutopisteessä ja toinen on kuljetettavana noutokirjastoon
 
-Automaattiin palautettu:
+**Automaattiin palautettu**:
 
 Jos noutoilmoitusten viivästäminen automaattipalautuksissa ei ole käytössä, näkyy varaus samalla tavalla kuin yllä olevassa tapauksessa.
 
 Jos käytössä on noutoilmoitusten viivästäminen, näkyy varaus näin:
 
+![](/assets/files/docs/Lainaus/Varaus_23_Automaattiin_palautus.PNG)
+
 ## 2.4 Kiinni jääneiden varausten näkyminen kokoelmatiedoissa ja varausjonossa
 
-Kokoelmat-välilehdellä nidetiedoissa näkyy varatun ja kuljetuksessa olevan niteen tilanne.
+**Kokoelmat**-välilehdellä nidetiedoissa näkyy varatun ja kuljetuksessa olevan niteen tilanne.
 
 Automaatilla palautettu, noutoilmoitusta ei vielä lähetetty. Varaus näkyy nidevarauksena.
 
-    Noudettavissa oleva, noutoilmoitus lähetetty
-    Teos on kuljetettavana
+![](/assets/files/docs/Lainaus/Varaus_24_palautettu_automaatilla.PNG)
 
-Varausjono-sivulla kiinni jäänyt varaus voi olla kolmessa eri tilassa: Automaatilla palautettu, kiinni jäänyt varaus, noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on In transit/Kuljetettavana-tilassa.
+    -Noudettavissa oleva, noutoilmoitus lähetetty
+    -Teos on kuljetettavana
+    
+![](/assets/files/docs/Lainaus/Varaus_25_kokoelmat_varattu_ja_kuljetuksessa.PNG)
 
-Noudettavissa oleva, noutoilmoitus lähetetty. Priority-sarakkeessa tietona Waiting/Odottaa
+**Varausjono**-sivulla kiinni jäänyt varaus voi olla kolmessa eri tilassa: Automaatilla palautettu, kiinni jäänyt varaus, noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on In transit/Kuljetettavana-tilassa.
+
+![](/assets/files/docs/Lainaus/Varausjono_1_InProcessing.PNG)
+
+Noudettavissa oleva, noutoilmoitus lähetetty. Priority-sarakkeessa tietona _Waiting/Odottaa_
+
+![](/assets/files/docs/Lainaus/Varausjono_2_Waiting.PNG)
 
 Kuljetettavana oleva varaus.
+
+![](/assets/files/docs/Lainaus/Varausjono_3_InTransit.PNG)
 
 ## 2.5 Varauksen noutaa muu kuin varaaja itse
 
 Jos varauksen noutaa joku muu kuin varaaja itse (perheenjäsen tai muu valtuutettu), saat huomautuksen, josta pitää ensin valita Peruuta varaus (poistaa varauksen varaajan tiedoista) ja sitten Kyllä, lainaa (Y).
 
+![](/assets/files/docs/Lainaus/Varaus_27_VarauksenNoutoToinen_2.PNG)
