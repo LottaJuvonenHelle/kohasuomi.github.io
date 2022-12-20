@@ -51,11 +51,10 @@ tietueen Kohaan
 
 ![](/assets/files/docs/Luettelointi/kohaversio2111k6.png)
 
-\*Jos et löydä hakemaasi, klikkaa _Uusi haku_ näytön vasemmassa
+\*Jos et löydä hakemaasi, klikkaa _Tee uusi haku_ näytön vasemmassa
 alareunassa.
 
-Jos löydät sopivan tietueen, klikkaa _Täsmäyttäjästä_ yhdistelysääntöä.
-Yhdistelysäännön nimi riippuu kirjastosi tekemistä yhdistelysäännöistä.
+
 
 ![](/assets/files/docs/Luettelointi/kohakuvat19352.png)
 
