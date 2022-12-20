@@ -148,23 +148,21 @@ Vaihtoehtoisesti voit etsiä Z39.50/SRU -haun kautta toisesta kirjastosta
 täydellisemmän kuvailutietueen, jolla korvaat nykyisen
 tietueen.
 
-![](/assets/files/docs/Luettelointi/luettelointi14.png)
+![](/assets/files/docs/Luettelointi/kohakuvat724.png)
 
 Jos käytät tätä korvaamista, pääset Z39.50/SRU -hakusivulle valitsemaan
 valikosta kirjaston, jonka tietueella nimeketietue korvataan.
 
-![](/assets/files/docs/Luettelointi/luettelointi15.png)
+![](/assets/files/docs/Luettelointi/kohakuvat7262.png)
 
-Oletusarvona on tässä haku TäTistä, Melindasta ja Helmetistä, mutta voit
+Oletusarvona on tässä haku TäTistä ja Melindasta, mutta voit
 valita mitä tahansa valikon kirjastoista hakukirjastoksesi.
 _Haku_-painike alareunassa aloittaa haun.
 
 Tässä hakutuloksena on kaksi tietuetta. Valitse haluamasi tietueen
-kohdalla Täsmäyttäjä-sarakkeesta _Yhdistelysääntö_, niin
-hankintavaiheessa tietueeseen tallennetut kansikuva ja kuvaus säilyvät
-tietueessa. Klikkaa sen jälkeen _Tuo_ -painiketta oikeassa reunassa.
+kohdalla Toiminnot-sarakkeesta _Tuo_.
 
-![](/assets/files/docs/Luettelointi/luettelointi16.png)
+![](/assets/files/docs/Luettelointi/kohakuvat722.png)
 
 Teitpä muutokset tietueeseen kummalla tavalla tahansa, muista klikata
 _Tallenna_ -painiketta.
