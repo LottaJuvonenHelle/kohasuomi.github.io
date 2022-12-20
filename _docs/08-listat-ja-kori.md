@@ -6,11 +6,11 @@ redirect_from:
 toc: true
 ---
 
-# 6. Listat ja Kori
+# 8. Listat ja Kori
 
-## 6.1. Listat
+## 8.1. Listat
 
-### 6.1.1 Listan luominen
+### 8.1.1 Listan luominen
 
 Listoja pääsee käsittelemään menemällä _Muita toimintoja-valikko -> Listat_. 
 Lista voidaan luoda Listat-sivulla klikkaamalla Uusi lista.
@@ -63,7 +63,7 @@ Nimeä lista ja valitse listan tyyppi
 Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää listalle_
 -valikosta hakutulosten yläpuolella.
 
-### 6.1.2. Lisää listalle
+### 8.1.2. Lisää listalle
 
 Lisätäksesi nimekkeitä olemassa olevalle listalle klikkaa listan nimeä
 (linkki) listat-sivulla.
@@ -80,7 +80,7 @@ listan nimen.
 
 ![](/assets/files/docs/Listat_ja_Kori/Lisaa_listalle_3.png)
 
-### 6.1.3. Listojen katsominen
+### 8.1.3. Listojen katsominen
 
 Nähdäksesi jonkun listan sisällön, mene Listat-sivulle
 virkailijatyökalussa.  
@@ -90,7 +90,7 @@ Klikkaamalla listan nimeä (linkki) pääset näkemään listan sisällön. Voit
 
 ![](/assets/files/docs/Listat_ja_Kori/listan_sisalto.png)
 
-### 6.1.4. Nimeketietueiden yhdistäminen Listojen kautta
+### 8.1.4. Nimeketietueiden yhdistäminen Listojen kautta
 
 Useita tietueita (tuplia) voidaan yhdistää yhdeksi tietueeksi
 _Listat_-työkalun kautta. Valitse yhdistettävät tietueet tiedonhaun
@@ -121,7 +121,7 @@ Yhdistämisraportti näyttää tältä edellä mainittujen asetusten mukaan:
 
 ![](/assets/files/docs/Listat_ja_Kori/luettelointi013.png)
 
-## 6.2. Kori
+## 8.2. Kori
 
 Kori on tilapäinen säilö nimekkeille virkailijatyökalussa ja
 nettikirjastossa. Kori tyhjenee, kun istunto on loppunut (joko
