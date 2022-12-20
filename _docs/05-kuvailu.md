@@ -54,9 +54,7 @@ tietueen Kohaan
 \*Jos et löydä hakemaasi, klikkaa _Tee uusi haku_ näytön vasemmassa
 alareunassa.
 
-
-
-![](/assets/files/docs/Luettelointi/kohakuvat19352.png)
+![](/assets/files/docs/Luettelointi/kohakuvat722.png)
 
 Kun olet avannut tyhjän kuvailupohjan tai tuonut nimeketietueen
 Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
