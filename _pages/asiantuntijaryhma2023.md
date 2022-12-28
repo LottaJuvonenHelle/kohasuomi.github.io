@@ -20,8 +20,11 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 16.1.2023 klo 9.00<br />
 Läsnä:
 
-### Arin ajankohtaiset
+### 1. Arin ajankohtaiset
 
-### Finna-kehitysehdotukset
+### 2. Finna-kehitysehdotukset
 
-Susanna.
+Olisiko olemassa parempaa tapaa hallinnoida Finnaan liittyviä kehitysehdotuksia kuin nykyiset listaukset? /Susanna.
+
+[Käsittelemättömät kehitysehdotukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/K%C3%A4sittelem%C3%A4tt%C3%B6m%C3%A4t_kehitysehdotukset)
+[Kansalliskirjastolle toimitetut kehitysehdotukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Kansalliskirjastolle_esitetyt_kehitysehdotukset)
