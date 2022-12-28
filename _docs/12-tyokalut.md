@@ -966,10 +966,17 @@ Voit poistaa niteen kokoelmasta joko painamalla *Poista* niteen viivakoodin vier
 
 **Kokoelman siirtäminen**
 
-Kokoelma siirretään haluttuun kirjastoon joko painamalla pääsivun *Toiminnot*-painikkeen takaa *Siirto* tai tietyn siirtokokoelman sivulla *Siirto*-nappia. Kummassakin tapauksessa valitaan seuraavaksi kirjasto, johon niteet ovat menossa.
+Kokoelma siirretään haluttuun kirjastoon joko painamalla pääsivun *Toiminnot*-painikkeen takaa *Siirto* tai tietyn siirtokokoelman sivulla *Siirto*-nappia. Kummassakin tapauksessa valitaan seuraavaksi kirjasto, johon niteet ovat menossa. Siirto vahvistetaan *Siirtokokoelma*-painikkeella. 
 
 Vastaanottavan kirjaston tulee palauttaa kaikki siirtokokoelman niteet. 
 Jos siirtokokoelman nide palautetaan jossain toisessa kirjastossa, pyytää Koha palauttamaan niteen kirjastoon, johon siirtokokoelma on luotu ja kertoo että kyseessä on siirtokokoelmaan kuuluva nide.
+
+**Kokoelman poistaminen**
+
+Kokoelmassa olevat niteet on poistettava ennen siirtokokoelman poistamista. Avaa siirtokokoelma painamalla halutun siirtokokoelman nimeä. 
+Poista niteet joko lukemalla siirtokokoelmasta poistettavan niteen viivakoodi ja ruksimalla *Poista nide kokoelmasta* tai painamalla kyseisen niteen kohdalla *Poista*. 
+
+Kun kaikki siirtokokoelman niteet on poistettu, voit poistaa Kokoelman  painamalla pääsivun Toiminnot-painikkeen takaa Poisto tai tietyn siirtokokoelman sivulla Poisto-nappia. 
 
 
 
