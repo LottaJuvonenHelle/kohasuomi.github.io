@@ -976,6 +976,8 @@ Jos siirtokokoelman nide palautetaan jossain toisessa kirjastossa, pyytää Koha
 Kokoelmassa olevat niteet on poistettava ennen siirtokokoelman poistamista. Avaa siirtokokoelma painamalla halutun siirtokokoelman nimeä. 
 Poista niteet joko lukemalla siirtokokoelmasta poistettavan niteen viivakoodi ja ruksimalla *Poista nide kokoelmasta* tai painamalla kyseisen niteen kohdalla *Poista*. 
 
+<img src="/assets/files/docs/Tyokalut/siirtokokoelma4.png" title="Toiminto-valikko siirtokokoelmien pääsivulla" alt="Toiminto-valikko siirtokokoelmien pääsivulla" style="width:80.0%" />
+
 Kun kaikki siirtokokoelman niteet on poistettu, voit poistaa Kokoelman  painamalla pääsivun Toiminnot-painikkeen takaa Poisto tai tietyn siirtokokoelman sivulla Poisto-nappia. 
 
 
