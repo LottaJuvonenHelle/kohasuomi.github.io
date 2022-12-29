@@ -97,12 +97,12 @@ Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
 ### 2.1.2 Asiakastietojen tyhjennys näytöltä
 
-Kun lopetat lainaamisen, näytöltä pitää tyhjeentää asiakkaan tiedot.
+Kun lopetat lainaamisen, näytöltä on hyvä tyhjeentää asiakkaan tiedot.
 Näytön voit tyhjentää kahdella tavalla:
 
-- Painamalla **Enter**. (Huom! asetuksista riippuen, Enter voi myös
-  tulostaa asiakkaan lainakuitin).
-- Klikkaamalla **X** lainauskentän oikeasta yläkulmasta.
+- Painamalla **Enter**. (Huom! asetuksista riippuen, Enter voi tulostaa myös
+  asiakkaan lainakuitin).
+- Klikkaamalla **X-merkkiä** lainauskentän oikeasta yläkulmasta.
 
 ![](/assets/files/docs/Lainaus/tyhjennys.PNG)
 
@@ -122,7 +122,7 @@ raja on ylittynyt.
 
 ### 2.2.2 Asiakkaalla on rajoitus (lainauskielto)
 
-Asiakkaille voidaan tallentaa rajoitus, joka aiheuttaa lainaukiellon, esim. kun lasku on lähetetty.
+Asiakkaille voidaan tallentaa rajoitus, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty.
 Rajoitus voi olla voimassa toistaiseksi tai määräajan. 
 
 Rajoituksen voit tallentaa asiakastietojen muokkausnäytöllä kohdassa **Asiakkaan
@@ -132,7 +132,7 @@ voimassaolopäivä.
 
   ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG)
   
-  Tallenna rajoitus lopuksi **Lisää rajoitus** -painikkeesta.  
+  Tallenna rajoitus **Lisää rajoitus** -painikkeesta.  
   
   Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
@@ -148,12 +148,12 @@ Lainaustilanteessa tulee huomautus:
 ![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
 
 Huomautuksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Vaihda asiakastietojen muokkausnäytöllä täppä 
-**Käyttäjätilin huomautukset** -osiossa  **Tarkista osoite** -kohtaan
+**Käyttäjätilin huomautukset** -osiossa **Tarkista osoite** -kohtaan
 “Ei” ja tallenna asiakastietojen muokkausnäyttö.
 
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
 
-Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna **Kortti kadonnut** -tieto asiakastietojen muokkausnäytöllä osiossa **Käyttäjätilin huomautukset**.
+Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen muokkausnäytöllä osioon **Käyttäjätilin huomautukset** kohtaan **Kortti kadonnut** "Kllä".
 
 ![](/assets/files/docs/Lainaus/korttikadonnut1.PNG)
 
