@@ -10,14 +10,13 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 2 esityslista
-
-Aika
-
-Läsnä
-
 ## Viikko 1 esityslista
 
-Aika: 3.1.2023 klo 9.15
-
+Aika: 3.1.2023 klo 9.15<br />
 Läsnä:
+
+**Yhteiset**
+* Tikettien label "enhancement" on jaettu "kahtia", jotta erottaa paremmin ne kehitysehdotukset, joiden kehitys on asiantuntijaryhmässä päätetty tehdä yhteisössä oman työn sijaan.
+  * local enhancement -> kehitys tehdään itse
+  * community enhancement -> kehitysehdotus viedään yhteisön bugzillaan.
+    *  työnjakoasia: voisiko alkuperäinen tiketin tekijä tehdä bugi-ilmoituksen myös bugzillaan?
