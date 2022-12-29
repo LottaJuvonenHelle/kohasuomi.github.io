@@ -267,7 +267,7 @@ Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 ### 2.4.1 Lainojen uusinta
 
 Lainassa olevien niteiden laina-ajan voit uusia sen mukaan, mitä järjestelmän
-ylläpidon laina- ja käyttömaksusäännöissä on määritelty.
+ylläpidon laina- ja maksusäännöissä on määritelty.
 
 Lainat voi uusia asiakkaan tiedoissa Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
 
@@ -293,12 +293,12 @@ Huom! Jos asiakkaan sallittujen maksujen raja on ylittynyt, ohjelma ei huomauta 
   sivulla.  
   ![](/assets/files/docs/Lainaus/uusinta6.png)
   
-  - Jos kimpassa on sallittu lainojen palauttaminen lainatnäytöllä ja Sarakkeen näkyvyys -valikosta on valittu Palautus-toiminto
+  - Jos kimpassa on sallittu lainojen palauttaminen Lainassa-välilehdellä ja Sarakkeen näkyvyys -valikosta on valittu Palautus-toiminto
   aktiiviseksi, voit palauttaa lainat valitsemalla palautettavat
   niteet **Palautus**-sarakkeesta ja klikkaamalla näytön alareunasta
   painiketta **Uusi tai palauta valitut niteet**.
   
-- Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta.       Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle tallentuu      merkintä, että asiakas on palauttanut lainan. Tieto lainasta tallentuu myös Palautusilmoitukset-välilehdelle.  
+- Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta.       Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle tallentuu      merkintä, että asiakas sanoo palauttaneensa lainan. Tieto lainasta tallentuu myös Palautusilmoitukset-välilehdelle.  
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
 
@@ -333,9 +333,7 @@ Jos viivakoodia ei löydy, saat ilmoituksen.
 
 ## 2.5 Asiakkaan varaukset
 
-**Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. Välilehdellä
-voit vaihtaa varauksen noutopaikan, poistaa varauksen, keskeyttää varauksen ja jatkaa keskeytetyn varauksen
-käyttämällä varausten alapuolella olevia toimintopainikkeita, mikäli toiminnnot
+**Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. Ennen kuin varaus on jäänyt kiinni, voit vaihtaa varauksen noutopaikan, poistaa varauksen, keskeyttää varauksen tai jatkaa keskeytetyn varauksen, mikäli toiminnnot
 ovat sallittu järjestelmäasetuksissa. 
 
 ![](/assets/files/docs/Lainaus/varaukset.PNG)
