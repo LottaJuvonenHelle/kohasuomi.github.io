@@ -76,7 +76,7 @@ Kuitin voit tulostaa:
 - Painamalla pikanäppäimiä **Alt+P**.
 - Asiakastietojen yläpuolelta olevasta **Tulosta**-valikosta valitsemalla **Tänään lainatut**.
   
-**Huom!** Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta tulostuvat kaikki asiakkaall lainassa olevat lainat kuitille.
+**Huom!** Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta tulostuvat kaikki asiakkaalla lainassa olevat lainat kuitille.
 ![](/assets/files/docs/Lainaus/tulostin.PNG)
 
 **Tulosta** -valikosta voit tulostaa myös kuitin:
