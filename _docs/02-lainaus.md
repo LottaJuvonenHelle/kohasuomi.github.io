@@ -62,7 +62,7 @@ Lue lainattavan niteen viivakoodi nidekenttään.
   lainatut teokset automaattisesti lainasääntöjen mukaisesti.
 - Toiminnolla **Älä lyhennä laina-aikaa varausten määrän pohjalta**
   voi ohittaa järjestelmäasetuksen, jolla lyhennetään laina-aikaa, jos
-  teoksen varausmäärä menee asetuksissa määritellyn rajan yli. Valinta tulee näkyviin vain kimpoissa, jossa tämä järjestelmäasetus on päällä.
+  teoksen varausmäärä menee asetuksissa määritellyn rajan yli. Valinta tulee näkyviin vain kimpoissa, jossa tämä järjestelmäasetus on käytössä.
 
 ### 2.1.1 Kuittien tulostaminen
 
