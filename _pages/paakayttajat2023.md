@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /paakayttajat23
+permalink: /paakayttajat2023
 header:
   overlay_color: '#5e616c'
   overlay_image: /assets/images/cropped-pexels-photo-113850.jpeg
