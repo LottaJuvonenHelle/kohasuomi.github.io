@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /asiantuntijaryhma23
+permalink: /asiantuntijaryhma2023
 hidden: true
 header:
   overlay_color: '#5e616c'
