@@ -541,7 +541,6 @@ Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 
 ---
 
-
 ## 2.8 Siirto-toiminto
 
 Kirjastokimpassa voit siirtää niteitä toiseen kirjastoon käyttämällä
