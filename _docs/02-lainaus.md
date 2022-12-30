@@ -538,7 +538,9 @@ Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 
 - Niteen laskutettutila ei poistu automaattisesti, jos järjestelmäasetuksissa on näin määritelty.
 
+
 ---
+
 
 ## 2.8 Siirto-toiminto
 
