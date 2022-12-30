@@ -336,7 +336,7 @@ Jos viivakoodia ei löydy, saat ilmoituksen.
 **Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. Ennen kuin varaus on jäänyt kiinni, voit vaihtaa varauksen noutopaikan, poistaa varauksen, keskeyttää varauksen tai jatkaa keskeytetyn varauksen, mikäli toiminnnot
 ovat sallittu järjestelmäasetuksissa. 
 
-![](/assets/files/docs/Lainaus/varaukset.PNG)
+![](/assets/files/docs/Lainaus/varaukset2.PNG)
 
 ---
 
