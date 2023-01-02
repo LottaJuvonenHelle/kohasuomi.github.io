@@ -25,6 +25,7 @@ Läsnä:
   * KohaSuomi/Koha #331 Suojatut kentät näkyvät tyhjinä z39.50-haulla tietueita korvattaessa
   * KohaSuomi/Koha #334
   * SQL-raportit hakemaan slave-kannasta masterin sijaan, jotta vältytään tietokannan taulujen lukkiutuminen raskaissa kyselyissä sekä master-kannan kuormaa saadaan kevennettyä.
+  * Koha #308?
 
 
 ### Torstain palaveri
