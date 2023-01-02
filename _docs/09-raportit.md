@@ -380,7 +380,7 @@ Liitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raport
 
 ![](/assets/files/docs/Raportit/raportit512.png)
 
-### 9.4.1 Järjestelmäasetuksen määritykset
+### 9.3.1 Järjestelmäasetuksen määritykset
 
 Raporttiliitännäisen ylläpidossa on asetus, johon tehdään tietyt
 määritykset. Loput määritykset tulee suoraan työkalun koodista ja niitä
@@ -519,16 +519,16 @@ Esimerkkikonfiguraatio:
       - VARLN
       - LUKIO
 
-### 9.4.2 Kovakoodatut määritykset
+### 9.3.2 Kovakoodatut määritykset
 
-#### 9.4.2.1 Kirjastot ja kirjastoryhmät
+#### 9.3.2.1 Kirjastot ja kirjastoryhmät
 
 OKM-tilastoryhmät määritetään ‘Kirjastot ja ryhmät’ -sivulla
 ylläpidossa. Tilastoihin otetaan mukaan ne ryhmät, joiden tunnus päättyy
 ‘\_OKM’. Esim. JOE_OKM, OU_OKM. Vain näihin ryhmiin kuuluvat kirjastot
 otetaan mukaan OKM-tilastoihin.
 
-#### 9.4.2.2 Jako kielen mukaan
+#### 9.3.2.2 Jako kielen mukaan
 
 Nide lasketaan suomenkieliseksi, jos tietueen ensimmäinen 084$a-kenttä
 on ‘fin’, tai kieltä ei ole määritetty.
@@ -539,20 +539,20 @@ on ‘swe’.
 Nide lasketaan muun kielisiin, jos tietueen ensimmäinen 084$a-kenttä ei
 ole ‘fin’ tai ‘swe’, mutta se on määritetty.
 
-#### 9.4.2.3 Jako lasten- ja aikuisten aineistoihin
+#### 9.3.2.3 Jako lasten- ja aikuisten aineistoihin
 
 Nide lasketaan lasten materiaaliksi ‘OKM’-järjestelmäasetuksessa
 tehtyjen hyllypaikkamääritysten mukaan.
 
-#### 9.4.2.4 Jako kauno- ja tietokirjoihin
+#### 9.3.2.4 Jako kauno- ja tietokirjoihin
 
 Nide on kaunokirja, jos sen YKL-luokka on 80-85. Muut ovat tietokirjoja.
 
-#### 9.4.2.5 Musiikkiäänitteet
+#### 9.3.2.5 Musiikkiäänitteet
 
 Nide lasketaan musiikkitallenteeksi, jos sen YKL-luokka on 78.
 
-#### 9.4.2.6 Hankinnat
+#### 9.3.2.6 Hankinnat
 
 Nide lasketaan mukaan hankintoihin, jos se on vastaanotettu määritetyllä
 aikavälillä. Jos Hankinnat-osiota ei käytetä, nide kuitenkin lasketetaan
@@ -561,7 +561,7 @@ ajanjaksona.
 
 Aikaväli tarkistetaan niteen dateaccessioned-tiedon mukaan.
 
-#### 9.4.2.7 Lainat
+#### 9.3.2.7 Lainat
 
 Lainat sisältävät ensilainat ja uusinnat.
 
@@ -574,12 +574,12 @@ kirjastoksi lasketaan niteen nykyinen sijainti uusintahetkellä.
 
 Poistettujen niteiden lainat lasketaan mukaan lainatilastoihin.
 
-#### 9.4.2.8 Kausijulkaisut
+#### 9.3.2.8 Kausijulkaisut
 
 Aikakauslehtiä ei lasketa mukaan kokoelmiin, poistoihin ja hankintoihin.
 Ne ovat mukana kokonaislainoissa.
 
-#### 9.4.2.9 Poistot
+#### 9.3.2.9 Poistot
 
 Kaikki määritetyllä aikavälillä poistetut niteet, pois lukien
 aikakauslehdet, lasketaan poistoiksi.
@@ -589,7 +589,7 @@ hankintoihin, koska hankintatietoja ei säilytetä.
 
 Poistettujen niteiden lainat lasketaan mukaan lainatilastoihin.
 
-### 9.4.3 Raportin käyttöohje
+### 9.3.3 Raportin käyttöohje
 
 OKM-tilastot -raporttiliitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raportointityökalu -> Toiminnot -> Aja raportti -> OKM
 
@@ -621,7 +621,8 @@ Klikkaa ensin Näytä/Piilota raporttilistaus -nappia ja valitse sieltä, minkä
 
 
 Kun raportin on avannut, pystyy sen myös sen jälkeen lataamaan XSL-tiedostoksi tai tiedot kopioimaan leikepöydälle ja liittämään haluamaansa ohjelmaan.
-<img src="/assets/files/docs/Raportit/okm2.png" title="Tilasto avattuna ja sen alapuolella tiedostomuodon valinta ja Lataa-nappula" alt="Tilasto avattuna ja sen alapuolella tiedostomuodon valinta ja Lataa-nappula" style="width:40.0%" />
+
+<img src="/assets/files/docs/Raportit/okm2.png" title="Tilasto avattuna" alt="Tilasto avattuna" style="width:40.0%" />
 
 - Rivejä voi suodattaa halutessaan. Tyhjennä suodatin -nappulalla saa tyhjennettyä Suodata-kentän.
 - Tilastoja voi järjestellä otsikkorivien mukaan valitsemalla nuolen ylös tai alas.
