@@ -370,22 +370,26 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 Lainaus ja palautus -osiossa on myös muutamia hyödyllisiä raportteja. Niiden kuvaukset löytyvät wikin [Lainaus-osiosta](https://koha-suomi.fi/dokumentaatio/lainaus/#213-lainauksen-valmiit-raportit)
 
 
-## 7.4 OKM-tilastot
+## 9.3 OKM-tilastot
 
-OKM-tilastot -raportilla otetaan OKM:n määrittämien ehtojen mukaiset
+Raportointiyökalu-liitännäisellä otetaan OKM:n määrittämien ehtojen mukaiset
 tilastot. Se ajetaan kahdella eri syklillä: kuukausittain
 kirjastoyksiköittäin ja vuosittain kunnittain.
 
-Raporttiin liittyy järjestelmäasetus nimeltään OKM, johon tehdään tietyt
+Liitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raportointityökalu -> Toiminnot -> Aja raportti -> OKM
+
+![](/assets/files/docs/Raportit/raportit512.png)
+
+### 9.4.1 Järjestelmäasetuksen määritykset
+
+Raporttiliitännäisen ylläpidossa on asetus, johon tehdään tietyt
 määritykset. Loput määritykset tulee suoraan työkalun koodista ja niitä
 määrityksiä on avattu alla.
-
-### 7.4.1 Järjestelmäasetuksen määritykset
 
 Asetuksessa määritetään, miten aineistotyypit, asiakaslajit ja
 hyllypaikat jaotellaan OKM-tilastoihin sekä, mitkä niteen tilat ei oteta
 mukaan tilastoihin.  
-<img src="/assets/files/docs/Raportit/raportit52.png" title="OKM-järjestelmäastus" alt="OKM-järjestelmäastus" style="width:80.0%" />
+<img src="/assets/files/docs/Raportit/raportit52.png" title="OKM-järjestelmäasetus" alt="OKM-järjestelmäasetus" style="width:80.0%" />
 
 - _itemTypeToStatisticalCategory_-otsikon alle, mitkä aineistotyypit
   ovat
@@ -515,16 +519,16 @@ Esimerkkikonfiguraatio:
       - VARLN
       - LUKIO
 
-### 7.4.2 Kovakoodatut määritykset
+### 9.4.2 Kovakoodatut määritykset
 
-#### 7.4.2.1 Kirjastot ja kirjastoryhmät
+#### 9.4.2.1 Kirjastot ja kirjastoryhmät
 
 OKM-tilastoryhmät määritetään ‘Kirjastot ja ryhmät’ -sivulla
 ylläpidossa. Tilastoihin otetaan mukaan ne ryhmät, joiden tunnus päättyy
 ‘\_OKM’. Esim. JOE_OKM, OU_OKM. Vain näihin ryhmiin kuuluvat kirjastot
 otetaan mukaan OKM-tilastoihin.
 
-#### 7.4.2.2 Jako kielen mukaan
+#### 9.4.2.2 Jako kielen mukaan
 
 Nide lasketaan suomenkieliseksi, jos tietueen ensimmäinen 084$a-kenttä
 on ‘fin’, tai kieltä ei ole määritetty.
@@ -535,30 +539,29 @@ on ‘swe’.
 Nide lasketaan muun kielisiin, jos tietueen ensimmäinen 084$a-kenttä ei
 ole ‘fin’ tai ‘swe’, mutta se on määritetty.
 
-#### 7.4.2.3 Jako lasten- ja aikuisten aineistoihin
+#### 9.4.2.3 Jako lasten- ja aikuisten aineistoihin
 
 Nide lasketaan lasten materiaaliksi ‘OKM’-järjestelmäasetuksessa
 tehtyjen hyllypaikkamääritysten mukaan.
 
-#### 7.4.2.4 Jako kauno- ja tietokirjoihin
+#### 9.4.2.4 Jako kauno- ja tietokirjoihin
 
 Nide on kaunokirja, jos sen YKL-luokka on 80-85. Muut ovat tietokirjoja.
 
-#### 7.4.2.5 Musiikkiäänitteet
+#### 9.4.2.5 Musiikkiäänitteet
 
 Nide lasketaan musiikkitallenteeksi, jos sen YKL-luokka on 78.
 
-#### 7.4.2.6 Hankinnat
+#### 9.4.2.6 Hankinnat
 
 Nide lasketaan mukaan hankintoihin, jos se on vastaanotettu määritetyllä
 aikavälillä. Jos Hankinnat-osiota ei käytetä, nide kuitenkin lasketetaan
 hankintoihin, jos se on lisätty kokoelmiin raportin ajossa määritettynä
 ajanjaksona.
 
-Ensin tarkistetaan tilauksen datereceived, sitten tilauksen ordernumber,
-sitten niteen dateaccessioned ja jos mikään noista ei mätsää palautetaan 0.
+Aikaväli tarkistetaan niteen dateaccessioned-tiedon mukaan.
 
-#### 7.4.2.7 Lainat
+#### 9.4.2.7 Lainat
 
 Lainat sisältävät ensilainat ja uusinnat.
 
@@ -571,12 +574,12 @@ kirjastoksi lasketaan niteen nykyinen sijainti uusintahetkellä.
 
 Poistettujen niteiden lainat lasketaan mukaan lainatilastoihin.
 
-#### 7.4.2.8 Kausijulkaisut
+#### 9.4.2.8 Kausijulkaisut
 
 Aikakauslehtiä ei lasketa mukaan kokoelmiin, poistoihin ja hankintoihin.
 Ne ovat mukana kokonaislainoissa.
 
-#### 7.4.2.9 Poistot
+#### 9.4.2.9 Poistot
 
 Kaikki määritetyllä aikavälillä poistetut niteet, pois lukien
 aikakauslehdet, lasketaan poistoiksi.
@@ -586,18 +589,20 @@ hankintoihin, koska hankintatietoja ei säilytetä.
 
 Poistettujen niteiden lainat lasketaan mukaan lainatilastoihin.
 
-### 7.4.3 Raportin käyttöohje
+### 9.4.3 Raportin käyttöohje
 
-OKM-tilastot -raportti löytyy Raportit-osiosta OKM-tilastot-linkin
-takaa.
+OKM-tilastot -raporttiliitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raportointityökalu -> Toiminnot -> Aja raportti -> OKM
 
 OKM-tilastoraportin tiedot jaotellaan OKM:n laatimien ehtojen
 mukaisesti. Sarakkeiden otsikoissa noudatetaan
 [tilastot.kirjastot.fi](https://tilastot.kirjastot.fi/) -sivun
 termistöä.
 
-Ensin pitää valita haluamansa tilasto alareunan taulukosta.  
+Klikkaa ensin Näytä/Piilota raporttilistaus -nappia ja valitse sieltä, minkä aikavälin tilastoja haluat tarkastella.
+
 <img src="/assets/files/docs/Raportit/okm.png" title="Lista tarjolla olevista raporteista" alt="Lista tarjolla olevista raporteista" style="width:40.0%" />
+
+- Voit myös käyttää Suodata-kenttää rajaamaan listalla näkyviä raportteja.
 
 - Mitä isompi **Raportin ID-tunnus** on, sitä tuoreempi se on
 - **Alkupvm ja Loppumispvm** -sarakkeista näkee, miltä aikaväliltä
@@ -612,11 +617,11 @@ Ensin pitää valita haluamansa tilasto alareunan taulukosta.
   - yhden kirjaston tilastot, jolloin otsikkona on kirjaston tunnus.
     Tätä vaihtoehtoa ei tyypillisesti ole ehdolla, mutta se on
     teknisesti mahdollista ajaa.
-- Tilasto avataan **Näytä**-linkistä
-- Tilaston voi poistaa **Poista**-linkistä. Älä kuitenkaan poista
-  tilastoja.
+- Tilasto avataan **klikkaamalla** haluttua riviä.
 
-Kun raportin on avannut Näytä-linkistä, pystyy sen myös sen jälkeen
-lataamaan tiedostoksi. Valitse muoto valikosta ja klikkaa sitten
-“Lataa”.  
+
+Kun raportin on avannut, pystyy sen myös sen jälkeen lataamaan XSL-tiedostoksi tai tiedot kopioimaan leikepöydälle ja liittämään haluamaansa ohjelmaan.
 <img src="/assets/files/docs/Raportit/okm2.png" title="Tilasto avattuna ja sen alapuolella tiedostomuodon valinta ja Lataa-nappula" alt="Tilasto avattuna ja sen alapuolella tiedostomuodon valinta ja Lataa-nappula" style="width:40.0%" />
+
+- Rivejä voi suodattaa halutessaan. Tyhjennä suodatin -nappulalla saa tyhjennettyä Suodata-kentän.
+- Tilastoja voi järjestellä otsikkorivien mukaan valitsemalla nuolen ylös tai alas.
