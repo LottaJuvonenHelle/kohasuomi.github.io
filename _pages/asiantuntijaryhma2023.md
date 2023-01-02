@@ -28,3 +28,8 @@ Olisiko olemassa parempaa tapaa hallinnoida Finnaan liittyviä kehitysehdotuksia
 
 [Käsittelemättömät kehitysehdotukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/K%C3%A4sittelem%C3%A4tt%C3%B6m%C3%A4t_kehitysehdotukset)<br />
 [Kansalliskirjastolle toimitetut kehitysehdotukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Kansalliskirjastolle_esitetyt_kehitysehdotukset)
+
+### 3. Infoboksin piilotuksen poisto
+
+Asiakas-sivulla on piilotettu vasemmasta reunasta ns. infoboksi, jossa on asiakkaan tiedot lyhyesti. Samassa boksissa näytetään, jos asiakkaan tili on lukittu liian monen epäonnistuneen kirjautumisen vuoksi. Pitäisikö piilotus poistaa, jotta lukitustieto saadaan näkyville? Jos piilotus poistetaan, kannattaa järjestelmäasetus HidePersonalPatronDetailOnCirculation olla "päällä". Asetuksella määritetään, näytetäänkö boksissa asiakkaan yhteystiedot vai ei. Jos yhteystiedot piilotetaan, on näkymä seuraavanlainen:
+![kuva](https://user-images.githubusercontent.com/33121325/210208396-da1003b8-f863-425a-a46e-8e2ac91e72d5.png)
