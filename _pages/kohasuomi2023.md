@@ -15,10 +15,16 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikko 1 esityslista
 
-Aika: 2.1.2023 klo 10
-
-Läsnä:
 
 ### Maanantain palaveri
+
+Aika: 2.1.2023 klo 10<br />
+Läsnä:
+
+* Viikon 1 päivitys
+  * KohaSuomi/Koha #331 Suojatut kentät näkyvät tyhjinä z39.50-haulla tietueita korvattaessa
+  * KohaSuomi/Koha #334
+  * SQL-raportit hakemaan slave-kannasta masterin sijaan, jotta vältytään tietokannan taulujen lukkiutuminen raskaissa kyselyissä sekä master-kannan kuormaa saadaan kevennettyä.
+
 
 ### Torstain palaveri
