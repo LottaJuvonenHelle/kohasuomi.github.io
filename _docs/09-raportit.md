@@ -600,7 +600,7 @@ termistöä.
 
 Klikkaa ensin Näytä/Piilota raporttilistaus -nappia ja valitse sieltä, minkä aikavälin tilastoja haluat tarkastella.
 
-<img src="/assets/files/docs/Raportit/okm.png" title="Lista tarjolla olevista raporteista" alt="Lista tarjolla olevista raporteista" style="width:40.0%" />
+<img src="/assets/files/docs/Raportit/okm.png" title="Lista tarjolla olevista raporteista" alt="Lista tarjolla olevista raporteista" style="width:90.0%" />
 
 - Voit myös käyttää Suodata-kenttää rajaamaan listalla näkyviä raportteja.
 
@@ -622,7 +622,7 @@ Klikkaa ensin Näytä/Piilota raporttilistaus -nappia ja valitse sieltä, minkä
 
 Kun raportin on avannut, pystyy sen myös sen jälkeen lataamaan XSL-tiedostoksi tai tiedot kopioimaan leikepöydälle ja liittämään haluamaansa ohjelmaan.
 
-<img src="/assets/files/docs/Raportit/okm2.png" title="Tilasto avattuna" alt="Tilasto avattuna" style="width:40.0%" />
+<img src="/assets/files/docs/Raportit/okm2.png" title="Tilasto avattuna" alt="Tilasto avattuna" style="width:90.0%" />
 
 - Rivejä voi suodattaa halutessaan. Tyhjennä suodatin -nappulalla saa tyhjennettyä Suodata-kentän.
 - Tilastoja voi järjestellä otsikkorivien mukaan valitsemalla nuolen ylös tai alas.
