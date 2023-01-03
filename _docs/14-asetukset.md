@@ -1,6 +1,6 @@
 ---
 title: 'Asetukset'
-permalink: /dokumentaatio/tekniset/
+permalink: /dokumentaatio/asetukset/
 redirect_from:
   - /theme-setup/
 toc: true
