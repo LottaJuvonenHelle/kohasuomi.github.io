@@ -489,19 +489,42 @@ Säännön voi poistaa valitsemalla _Poista tämä sääntö_.
 
 ---
 
-## 12.12 Tarratulostin
+## 12.12 Tarratulostustyökalu
 
 ### Ohje käyttäjälle
 
-Ennen tulostamista valitaan vasemmasta reunasta ensin, mitä tarrapohjaa
-käytetään, jos niitä on useampi. Koska tulostimia ja pdf-ohjelmia on
-erilaisia, saattaa tarrojen sijoittumista arkille joutua säätämään. Se
-onnistuu tekstilaatikon alapuolella olevilla marginaali-asetuksilla.
-Niissä voi käyttää sekä plus että miinusmerkkisiä arvoja sen mukaan,
-mihin suuntaan arkkia pitää asemoida. Käytännössä voi säätää vasemman ja
-ylämarginaalin alkukohtaa. Testit kannattaa tehdä normaalille
-kopiopaperille ja verrata asetteluja esim. valoa vasten varsinaiseen
-tarra-arkkiin, jolloin ei kulu turhaan varsinaisia tarra-arkkeja.
+Tarratulostustyökalu löytyy seuraavasti: Työkalut -> Työkaluliitännäiset -> Tarratulostustyökalu
+
+
+
+
+<img src="/assets/files/docs/Tyokalut/tarratulostin.png" alt="" style="width:90.0%" />
+
+#### Niteiden lisääminen tulostettavaksi
+
+Niteet voi lisätä usealla tavalla tulostettavaksi.
+
+* lisäämällä tulostettavien niteiden viivakoodit Tulostettavat niteet -tekstikenttään 
+* valitsemalla valikosta listan ja klikkaamalla Lisää kaikki -nappulaa. Listalta voi myös viedä yksittäisiä niteitä tulostettavaksi klikkaamalla sen kohdalla pientä nuolta.
+  * Oma tulostusjono
+    * Niteen saa lisättyä omaan tulostujonoon niteen muokkauksessa kahdella tavalla. Joko klikkaamalla Tulostusjonoon-nappia joko niteen tietojen alapuolelta tai Toiminnot-valikosta.
+<img src="/assets/files/docs/Tyokalut/tarratulostin1.png" alt="" style="width:100.0%" />  
+  * Tänään vastaanotettu (rajataan kirjautusmiskirjaston mukaan)
+  * Itse tulostetut (listalle tulee viimeaikaisia niteitä)
+
+Valitse sitten alasvetovalikosta käytettävä tarrapohja ja klikkaa Tulosta
+<img src="/assets/files/docs/Tyokalut/tarratulostin2.png" alt="" style="width:100.0%" />
+
+Seuraavaksi tulee esikatselu, jossa voi tarvittaessa säätää muodostuvan PDF-tiedoston ylämarginaalia ja vasenta marginaalia millimetreissä.
+<img src="/assets/files/docs/Tyokalut/tarratulostin3.png" alt="" style="width:100.0%" />
+
+Klikkaa sitten Tulosta nappia, jolloin muodostuu PDF-tiedosto, joka selaimesi ja tietokoneesi asetuksista riippuen joko avautuu selaimessa tai pyytää valitsemaan ohjelman, jolla tiedosto avataan. Pääsääntöisesti tiedosto kannattaa avata varsinaiseen PDF-ohjelmaan.
+
+Tarra-arkki näytetään sellaisena kuin se tulostuu. Alla pari erilaista esimerkkiä asetteluista.  
+<img src="/assets/files/docs/Tyokalut/tarratulostin4.png" alt="" style="width:90.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:90.0%" />
+
+Tulosta tarrat käyttäen PDF-ohjelman tulostustoimintoja.
 
 **Huomioi**, että pdf-ohjelman tulostusasetuksista kannattaa aina
 valita, ettei skaalata tai soviteta arkin kokoon. Jos käytetään
@@ -509,56 +532,12 @@ skaalausta, se muuttaa tarrojen asemointia myös suhteessa toisiinsa,
 jolloin ne eivät enää osu oikeaan kohtaan arkkia (esim. liian lähelle
 tai kauas ylempänä olevasta tarrasta).
 
-<img src="/assets/files/docs/Tyokalut/tarratulostin.png" alt="" style="width:90.0%" />
-
-#### Niteiden lisääminen tulostettavaksi
-
-Niteet voi lisätä kahdella tavalla tulostettavaksi. Joko lisäämällä
-tulostettavien niteiden viivakoodit tekstikenttään tai lisäämällä ne
-niteen muokkauksen kautta tarratulostulistalle.
-
-Laita niteen muokkauksessa rasti kohtaan _Lisää tulostuslistalle_ ja
-valitse sitten yläpuolelta _Tallenna_  
-<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:70.0%" />  
-Nide siirtyy _labels printing_ -nimiselle Kohan listalle. Jos listaa ei
-ollut ennestään olemassa, luodaan sellainen.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin6.png" alt="" style="width:90.0%" />  
-Listalla olevat niteet näkyvät nyt tarratulostimen tekstikentässä.
-Listan voi tyhjentää valitsemalla _Tyhjennä lista_. Huomioi, että nappi
-ei tyhjennä tekstikentästä niitä viivakoodeja, jotka siihen on lisätty
-itse manuaalisesti.
-
-<img src="/assets/files/docs/Tyokalut/tarratulostin7.png" alt="" style="width:70.0%" />  
-Tyhjennyksestä tulee popup-kuittaus:
-
-![](/assets/files/docs/Tyokalut/tarratulostin8.png)  
-Ja Kohan labels printing -lista on sen jälkeen tyhjä:  
-<img src="/assets/files/docs/Tyokalut/tarratulostin9.png" alt="" style="width:80.0%" />
-
-#### Tulostaminen
-
-Säädä tarvittaessa marginaaleja ja valitse sitten _Tulosta_. Voit
-ohittaa tarroja arkilta laittamalla tekstikenttään tyhjän rivin.
-Esimerkiksi kaksi tyhjää riviä ohittaa kaksi ensimmäistä tarraa ja
-aloittaa tulostamisen vasta kolmannesta.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin1.png" alt="" style="width:90.0%" />  
-Valitse _Tulosta_, jonka jälkeen tulee popup, joka kysyy mitä
-tiedostolle tehdään. Avataanko tiedosto pdf-ohjelmalla vai
-tallennetaanko se. Tiedosto kannattaa avata.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin2.png" alt="" style="width:90.0%" />  
-Tiedosto avataan tietokoneellesi asennetulla pdf-tiedostojen
-oletusohjelmalla, josta voit sen sitten tulostaa ohjelman
-tulostustoimintoja käyttäen. Tarra-arkki näytetään sellaisena kuin se
-tulostuu. Alla pari erilaista esimerkkiä asetteluista.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin3.png" alt="" style="width:90.0%" />  
-<img src="/assets/files/docs/Tyokalut/tarratulostin4.png" alt="" style="width:90.0%" />
-
 ---
 
 ### Ohje tarrapohjan muokkaajalle
 
-Ohje tarrapohjan muokkaajalle löytyy Teknisen dokumentaation puolelta:
-\[\[/Tarrapohjien_muokkaus\|Tarrapohjan muokkaaminen\]\]
+Ohje tarrapohjan muokkaajalle löytyy liitännäisen ohjesivulta:
+[Tarrapohjan muokkaaminen](https://github.com/KohaSuomi/koha-plugin-visual-label-tool#how-create-and-modify-labels)
 
 ---
 
