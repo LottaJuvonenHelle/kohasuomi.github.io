@@ -16,6 +16,6 @@ IntranetNav
 
 [IntranetUserCSS](/dokumentaatio/intranetusercss/)
 
-IntranetUserJS
+[IntranetUserJS](/dokumentaatio/intranetuserjs/)
 
 SCOUserCSS
