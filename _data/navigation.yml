@@ -41,7 +41,7 @@ docs:
     children:
       - title: 'Koulutukset'
         url: /dokumentaatio/koulutukset/
-#  - title: Tekninen dokumentaatio
+  - title: Tekninen dokumentaatio
 #    children:
-#      - title: 'Ceepos-kassa'
-#        url: /dokumentaatio/ceepos/
+#      - title: 'Tekniset ohjeet'
+#        url: /dokumentaatio/tekniset/
