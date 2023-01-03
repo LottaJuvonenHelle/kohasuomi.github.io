@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1 muistio
 
 Aika: 3.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Anni Rajala (Vaski)
 
 **Yhteiset**
 * Tikettien label "enhancement" on jaettu "kahtia", jotta erottaa paremmin ne kehitysehdotukset, joiden kehitys on asiantuntijaryhmässä päätetty tehdä yhteisössä oman työn sijaan.
@@ -41,3 +41,6 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakk
   * uusintojen määrä laskettu 10 -> 7
   * konsolipelien lainamäärä nostettu 2 -> 4 eli asiakas voi lainata nyt yhteensä 8 peliä, jos lainaa 4 lasten konsolipeliä ja 4 aikuisten. Aiheuttaa henkilökunnassa keskustelua.
 * Omatoimikirjastojen erä- ja noutopäivä ylityksiä vähennetty tälle vuodelle. Aiheuttaa henkilökunnassa keskustelua.
+
+**Vaski**
+* Ei erityisiä kuulumisia. Asiakaspalvelusta tiedusteltu, poistetaanko vanhentuneet maksamattomat automaattisesti. Siivousajoa ei vielä ole käytössä ja se edellyttää huolellista suunnittelua, Anneli vie asian eteenpäin kehittäjien viikkopalaveriin.
