@@ -495,9 +495,6 @@ Säännön voi poistaa valitsemalla _Poista tämä sääntö_.
 
 Tarratulostustyökalu löytyy seuraavasti: Työkalut -> Työkaluliitännäiset -> Tarratulostustyökalu
 
-
-
-
 <img src="/assets/files/docs/Tyokalut/tarratulostin.png" alt="" style="width:90.0%" />
 
 #### Niteiden lisääminen tulostettavaksi
@@ -509,7 +506,7 @@ Niteet voi lisätä usealla tavalla tulostettavaksi.
   * Oma tulostusjono
     * Niteen saa lisättyä omaan tulostujonoon niteen muokkauksessa kahdella tavalla. Joko klikkaamalla Tulostusjonoon-nappia joko niteen tietojen alapuolelta tai Toiminnot-valikosta.
 <img src="/assets/files/docs/Tyokalut/tarratulostin1.png" alt="" style="width:100.0%" />  
-  * Tänään vastaanotettu (rajataan kirjautusmiskirjaston mukaan)
+  * Tänään vastaanotettu (rajataan kirjautumiskirjaston mukaan)
   * Itse tulostetut (listalle tulee viimeaikaisia niteitä)
 
 Valitse sitten alasvetovalikosta käytettävä tarrapohja ja klikkaa Tulosta
@@ -521,8 +518,8 @@ Seuraavaksi tulee esikatselu, jossa voi tarvittaessa säätää muodostuvan PDF-
 Klikkaa sitten Tulosta nappia, jolloin muodostuu PDF-tiedosto, joka selaimesi ja tietokoneesi asetuksista riippuen joko avautuu selaimessa tai pyytää valitsemaan ohjelman, jolla tiedosto avataan. Pääsääntöisesti tiedosto kannattaa avata varsinaiseen PDF-ohjelmaan.
 
 Tarra-arkki näytetään sellaisena kuin se tulostuu. Alla pari erilaista esimerkkiä asetteluista.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin4.png" alt="" style="width:90.0%" />  
-<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tarratulostin4.png" alt="" style="width:100.0%" />  
+<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:100.0%" />
 
 Tulosta tarrat käyttäen PDF-ohjelman tulostustoimintoja.
 
