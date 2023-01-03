@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1 muistio
 
 Aika: 3.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Tikettien label "enhancement" on jaettu "kahtia", jotta erottaa paremmin ne kehitysehdotukset, joiden kehitys on asiantuntijaryhmässä päätetty tehdä yhteisössä oman työn sijaan.
@@ -32,5 +32,8 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakk
 * Kirjeitä jumittunut 20 lokakuulta asti, lähetetty 14.12. ja myöhemmin muodostuneet kirjeet.
 * Suomenniemen toveriin uudet aukiolot. Hypernovalta ei ole tullut blugaria Lari tekee Lumpeille oman.
 * Toenperän kirjastojen erottaminen toisistaan tehty Finnassa, kohassa vielä vähän vaiheessa. Kirjastoauto Jasso jatkaa entisten Toenperän kuntien palvelemista.
+
+**Siilinjärvi**
+* Tavoitteena tänä vuonna saada käyttöön verkkomaksaminen. Aloitettu vanhojen laskutus- ja perintämappien perkaaminen ja tietojen siivous Kohasta. Kaikenlaisia maksuja sitä löytyykin!
 
 
