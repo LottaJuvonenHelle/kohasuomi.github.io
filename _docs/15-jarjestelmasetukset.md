@@ -14,7 +14,7 @@ Lisäksi koodeissa ei kannata olla myöskään alaviivoja, koska ne voivat aiheu
 
 IntranetNav
 
-IntranetUserCSS
+[IntranetUserCSS](/dokumentaatio/intranetusercss/)
 
 IntranetUserJS
 
