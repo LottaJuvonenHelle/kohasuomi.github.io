@@ -45,3 +45,5 @@ docs:
     children:
       - title: 'Asetukset'
         url: /dokumentaatio/asetukset/
+      - title: 'Järjestelmäasetukset'
+        url: /dokumentaatio/jarjestelmaasetukset/
