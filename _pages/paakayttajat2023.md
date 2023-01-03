@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 1 muistio
 
 Aika: 3.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme)
 
 **Yhteiset**
 * Tikettien label "enhancement" on jaettu "kahtia", jotta erottaa paremmin ne kehitysehdotukset, joiden kehitys on asiantuntijaryhmässä päätetty tehdä yhteisössä oman työn sijaan.
