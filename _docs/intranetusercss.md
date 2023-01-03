@@ -139,7 +139,7 @@ Versio: 21.11
 #circ_circulation #issues-table label[for="exemptfine"] { display:none; }
 #circ_circulation #issues-table input#exemptfine { display:none; }
 
-/* Asiakkaan tiedot -sivulla lainat-taulu */
+> /* Asiakkaan tiedot -sivulla lainat-taulu */
 /* Piilota maksujen mitätöinti -täppä */
 #pat_moremember #issues-table label[for="exemptfine"] { display:none; }
 #pat_moremember #issues-table input#exemptfine { display:none; }
@@ -238,7 +238,6 @@ Säädön jälkeen:
 > /* Säädä Lisää viesti -popupissa valikon leveys kapeammaksi lainaus- ja tiedot-näytöillä */
 body#pat_moremember.pat.modal-open select#select_patron_messages { width: 556px;
 }
-
 body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556px;
 }
 
@@ -592,18 +591,18 @@ Versio: 21.11
     background-image:none;
 }
 
+---
 
-/* Niteiden muokkaus -taulukko */
-
+> /* Niteiden muokkaus -taulukko */
 /* Piilota pois kierrosta -tila */
 #cat_additem #itemst tr th:nth-child(2),
 #cat_additem #itemst tr td:nth-child(2) { display:none; }
 
 
-/* SQL-raporttien tekstikenttä */
+> /* SQL-raporttien tekstikenttä */
 #rep_guided_reports_start textarea#sql { font-family: monospace; }
 
-/* Hankintaehdotustaulut */
+> /* Hankintaehdotustaulut */
 table#ASKEDt,
 table#CHECKEDt,
 table#ORDEREDt,
