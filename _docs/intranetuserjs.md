@@ -7,14 +7,13 @@ toc: true
 ---
 
 
-Seuraavia koodinpätkiä voi laitella IntranetUserJS-järjestelmäasetukseen.
+Seuraavia koodinpätkiä voi laittaa IntranetUserJS-järjestelmäasetukseen.
 
 HUOM! Koha-Suomen kirjastojen pääkäyttäjät: Kohaan tehdyn tietoturva-auditoinnin perusteella IntranetUserJS-järjestelmäasetukseen on lisätty ominaisuus, että asetuksen sisällöstä lasketaan tarkistussumma, joka tallennetaan koha-confiin. Asetukseen tallennetut JavaScriptit ajetaan vain, jos tarkistussumma täsmää. Jos tarkistussumma ei täsmää, Kohan käyttöliittymän toiminta keskeytetään, jotta asetuksesta ei saa ajettua mahdollista haittakoodia. Jos asetukseen muuttaa yhdenkin merkin, tarkistussumma muuttuu. Jos teet muutoksia IntranetUserJS-järjestelmäasetukseen, huolehdi ennakkoon, että joku kehittäjistä on päivittämässä samaan aikaan tarkistussumman koha-confiin.
 
 Kun Kohan käyttöliittymän toiminta pysäytetään IntranetUserJS-järjestelmäasetuksen tarkistussumman vuoksi, tulee ilmoitus: KOHA IS STOPPED DUE TO CHECKSUM MISMATCH IN SYSTEM PREFERENCES. PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR.
 
-[Muutokseen liittyvä tiketti](https://tiketti.koha-suomi.fi/issues/4343)
-
+"Muutokseen liittyvä tiketti":https://tiketti.koha-suomi.fi/issues/4343
 
 ## Lainaus
 
@@ -148,7 +147,6 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-
 > $(document).ready(function() {
   $('body#pat_memberentrygen.pat input#firstname').blur(function() {
      var tmp = $(this).val();
@@ -217,14 +215,12 @@ $(document).ready(function(){
       var unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
       var epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
       $('input[id=othernames]').val(epochdashed);
-
       $("#othernames").focus(function() {
         unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
         epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
         $('input[id=othernames]').val(epochdashed);
       });
     }
-
       if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=modify")) {
       $("#othernames").focus(function() {
         unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
@@ -233,8 +229,6 @@ $(document).ready(function(){
       });
     }
 });
-
-
 
 
 ### Varaustunnuksen automaattinen täyttö nimen perusteella 
@@ -255,7 +249,6 @@ Versioon 20.05 ja uudempaan.
 //
 // You should have received a copy of the GNU General Public License
 // along with Koha; if not, see <http://www.gnu.org/licenses>.
-
 // Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master) 
 // Adapted from Koha-suomi patch for KD-205 (commit cd74805e73ead0569abfc158e8b7ac1fe2bedfbe from https://github.com/KohaSuomi/Koha/ branch master
 $(document).ready(function(){
@@ -298,16 +291,12 @@ $(document).ready(function(){
    }else {
      save_text = "Save";
    }
-
   $('#pat_memberentrygen #saverecord').replaceWith('<button class="btn btn-default" id="modified_saverecord"><i class="fa fa-save"></i> '+save_text+'</button>');
-
    var isvalid = 1;
-
    $('#phone').blur(function(){
       var error_mes = "";
       var phone = $('#phone').val();
       var phone_reg = /^[+]?([^-\s][0-9]+)+$/;
-
       if (phone && !phone_reg.test(phone)) {
         error_mes = error_mes + "\nPlease enter a valid phone number.\n";
         $('#phone').after('<label id="phone-error" class="error" for="phone">'+error_mes+'</label>');
@@ -316,12 +305,10 @@ $(document).ready(function(){
       	isvalid = 1;
       }
    });
-  
    $('#mobile').blur(function(){
       var error_mes = "";
       var mobile = $('#mobile').val();
       var mobile_reg = /^[+]?([^-\s][0-9]+)+$/;
-
       if (mobile && !mobile_reg.test(mobile)) {
         error_mes = error_mes + "\nPlease enter a valid mobile number.\n";
         $('#mobile').after('<label id="mobile-error" class="error" for="mobile">'+error_mes+'</label>');
@@ -330,12 +317,10 @@ $(document).ready(function(){
       	isvalid = 1;
       }
    });
-  
    $('#SMSnumber').blur(function(){
       var error_mes = "";
       var SMSnumber = $('#SMSnumber').val();
       var SMSnumber_reg = /^[+]?([^-\s][0-9]+)+$/;
-
       if (SMSnumber && !SMSnumber_reg.test(SMSnumber)) {
         error_mes = error_mes + "\nPlease enter a valid SMS number.\n";
         $('#SMSnumber').after('<label id="SMSnumber-error" class="error" for="SMSnumber">'+error_mes+'</label>');
@@ -344,7 +329,6 @@ $(document).ready(function(){
       	isvalid = 1;
       }
    });
-   
    $('#modified_saverecord').click(function(e){
       if(isvalid == 1){
         if( check_form_borrowers() ){
@@ -430,12 +414,10 @@ $(document).ready(function() {
 		link_elem.href = "https://kohatesti.finna-test.fi/kvkoha1/Record/kvkoha." + biblionumber;
                 link_elem.target = "_blank";
 		var link_text = document.createTextNode("Avaa Finnassa");
-
 		link_elem.appendChild(link_text);
 		span_elem.appendChild(link_elem);
 		details_elem.appendChild(span_elem);
 	}
-
 });
 
 
@@ -449,7 +431,6 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
         var link_elem = document.createElement("a");
         link_elem.href = "https://tritonia.finna.fi/Record/tria." + biblionumber;
         var link_text = document.createTextNode("Open in Finna");
-
         link_elem.appendChild(link_text);
         span_elem.appendChild(link_elem);
         details_elem.appendChild(span_elem);*/
