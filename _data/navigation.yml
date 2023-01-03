@@ -42,6 +42,6 @@ docs:
       - title: 'Koulutukset'
         url: /dokumentaatio/koulutukset/
   - title: Tekninen dokumentaatio
-#    children:
-#      - title: 'Tekniset ohjeet'
-#        url: /dokumentaatio/tekniset/
+    children:
+      - title: 'Tekniset ohjeet'
+        url: /dokumentaatio/tekniset/
