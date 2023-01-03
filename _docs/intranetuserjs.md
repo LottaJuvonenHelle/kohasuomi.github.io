@@ -22,7 +22,7 @@ Kun Kohan käyttöliittymän toiminta pysäytetään IntranetUserJS-järjestelm�
 Tämä ei tuntuisi toimivan.
 
 
-`
+``
 /* When returning books, if there is an input with onclick handler that starts with "Dopop",
    allow pressing alt+p to click on that input. That should be a "print a slip" -type thing. */
 $(document).ready(function () {
@@ -34,7 +34,7 @@ $(document).ready(function () {
      }
   });
 });
-`
+``
 
 ## Palautus
 
