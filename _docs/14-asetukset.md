@@ -6,11 +6,7 @@ redirect_from:
 toc: true
 ---
 
-## Kohan asetukset
-
-Jotta edellisen järjestelmän konveroitu data voidaan viedä Kohaan, pitää sitä ennen olla käytettävissä Koha-asennus, johon lisätty mm. kirjastot, hyllypaikat, kokoelmat yms. Alla ohjeistusta, miten ne luodaan. Lisäksi ohjeistusta asioista, joista on tehty Koha-Suomen kimppojen kanssa yhteinen päätös.
-
-### 1. Kirjastot
+## 1. Kirjastot
 
 Tietokantaan pitää luoda kirjastot. Se onnistuu Ylläpito -> Kirjastot -> Uusi kirjasto
 
@@ -102,7 +98,7 @@ Tällä asetuksella valitaan, onko kirjastoyksikkö varausten noutopaikka vai ei
 Liittyy Kohan omaan verkkokirjastoon, joka ei ole käytössä. Ei tarpeellinen.
 
 
-### Kirjastoryhmät
+## 2. Kirjastoryhmät
 
 Kirjastoryhmillä voi kirjastoja voi ryhmitellä eri tarpeiden mukaan esim. hakuryhmiin, kellutusryhmiin, yms. Kirjastoryhmät määritellään Ylläpito -> Kirjastoryhmät
 
@@ -128,7 +124,7 @@ Ryhmää voi kuvailla halutessaan, esim. mihin tarkoitukseen se on.
 - Paikallinen varausryhmä -> tätä toimintoa ei ole vielä testattu.
 - Paikallinen kellutusryhmä -> tällä voi määrittää ryhmään kuuluvien kirjastojen aineiston kellumaan ryhmään kuuluvissa kirjastoissa.
 
-### Nidetyypit
+## 3. Nidetyypit
 
 Jotta mitään voisi lainata, pitää määritellä nidetyypit, koska laina- ja maksusäännöt perustuvat niihin. Nidetypit kuvaavat teoksen laina-aikaa ja myöhästymismaksuja, jotka perustuvat kimpan/kirjaston käyttösääntöihin, joten jokaisella Koha-kimpalla on hieman erilaiset nidetyypit. Toki yhteneväisyyttäkin on. Yleisiä nidetyyppejä on mm. "28 vrk" tai "28 vrk lastenaineisto".
 
@@ -164,7 +160,7 @@ Ei lainata	: EILAINATA (Ei lainattavan materiaalin nidetyyppi, joille määritet
 
 Oppimateriaalipalvelut : OPPIMATER (Oulun koulukirjaston Oppimateriaalipalvelujen tarvitsema nidetyyppi. Muuten koulukirjaston niteet ovat lasten aineiston nidetyypeillä)
 
-### Auktorisoidut arvot
+## 4. Auktorisoidut arvot
 
 Auktorisoituja arvoja voi käyttää Kohan eri osioissa esim. alasvetovalikoissa. Ne ovat siis valmiita "listoja", joita halutaan käytettävän vapaan tekstin sijaan. Kaikki arvot ovat pääsääntöisesti kaikille kirjastoille/asiakastyypeille käytettävissä, mutta ne voidaan rajoittaa myös käytettäväksi tietyillä kirjastoilla tai asiakastyyypeillä. Alla listattuna tärkeimmät:
 
@@ -220,7 +216,7 @@ SUBLOC-luokka eli niteen hyllytarkenne. Tämä on Koha-Suomen oma lisäys. Hylly
 
 TOIMITTAJAT-luokka on aisapari AUTOMTYPE-luokalle eli tällä voi määrittää SIP2-tunnukseen, mikä toimittajan automaatista on kyse. Tämä arvo on rajoitettu vain asiakastyypille AUTOM/AUTOMAATTI.
 
-### Asiakastyypit
+## 5. Asiakastyypit
 
 Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 
@@ -238,7 +234,7 @@ Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 |API| Z API Z|Erilaisten rajapintoja käyttävien järjestelmien/toimintojen käyttäjätunnukset. Selitteessä on Z-kirjaimet, jotta se asettuu valikossa loppuun. Päätetty ottaa käyttöön "Koha-Suomen asiantuntijaryhmän kokouksessa 4/21":https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#Muistio-421.|
 |LAOMATOIMI|Lapsi, omatoimi sallittu|Tarvitaan lapsiasiakkaille, joilla on huoltajan antama lupa päästä omatoimeen. Lapsi-asiakkaiden pääsy estetään. Päätetty ottaa käyttöön "Koha-Suomen asiantuntijaryhmän kokouksessa 5/21":https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#5-Asiakastyyppi-omatoimiestoille|
 
-#### Asiakastyyppien määritykset
+### 5.1 Asiakastyyppien määritykset
 
 **Tyyppikoodi**
 
@@ -334,7 +330,7 @@ Asiakastyypille voi määritellä oletusasetukset viesteille. Nämä valinnat tu
 
 ***
 
-### Laina- ja maksusäännöt
+## 6. Laina- ja maksusäännöt
 
 Laina- ja maksusäännöissä määritetään mm. laina-aika, sallittujen lainojen määrä, uusintojen määrä, varausten määrä, myöhästymismaksujen suuruus ja katto. Sääntöjä voi tehdä kirjaston, asiakastyypin ja nidetyypin mukaan. 
 
@@ -577,7 +573,7 @@ Vaihtoehdot:
 
 Tallenna ja Pois päältä. Jälkimmäisellä voi tyhjentää asetetut asetukset.
 
-### Oletussääntö maksun hyvitykselle, kun palautetaan kadonnut nide
+### 6.1 Oletussääntö maksun hyvitykselle, kun palautetaan kadonnut nide
 
 ![](/assets/files/docs/Asetukset/lainasaannot6.png)
 
@@ -589,7 +585,7 @@ Vaihtoehdot:
 * Hyvitä kadonneen aineiston korvausmaksu ja palauta myöhästymismaksu
 * Jätä kadonneen aineiston korvausmaksu
 
-### Oletusvaraussääntö nidetyypeittäin
+### 6.2 Oletusvaraussääntö nidetyypeittäin
 
 ![](/assets/files/docs/Asetukset/lainasaannot7.png)
 
@@ -627,7 +623,7 @@ Vaihtoehdot:
 
 ***
 
-## Asiakasmääreet
+## 7. Asiakasmääreet
 
 Asiakasmääreet ovat itse määritettäviä lisäkenttiä, jotka voi liittää asiakkaisiin. Jotta asiakasmääreitä voi lisätä, pitää järjestelmäasetus ExtendedPatronAttributes olla päällä.
 
@@ -639,7 +635,7 @@ Asiakasmääreet näkyvät asiakastiedoissa **Muut määreet ja tunnukset** -koh
 
 ![](/assets/files/docs/Asetukset/asiakasmaare1.png)
 
-### Uuden asiakasmääreen tekeminen
+### 7.1 Uuden asiakasmääreen tekeminen
 
 Uuden asiakasmääreen voi lisätä Uusi asiakasmääre -napista.
 
@@ -677,7 +673,7 @@ Uuden asiakasmääreen voi lisätä Uusi asiakasmääre -napista.
 
 **Luokka** -kohtaan voi valita PA_CLASS-auktorisoidun arvon luokan, jos sellaisia on määritetty. Näillä määreitä voidaan ryhmittää otsikoiden alle.
 
-## Aineistokuljetusten rajoitukset
+## 8. Aineistokuljetusten rajoitukset
 
 Aineistokuljetusten rajoitukset -osiossa voi määrittää, kuinka niteitä voi kuljettaa perustuen lähettävään kirjastoon, vastaanottavaan kirjastoon ja kokoelmakoodiin/nidetyyppiin. Rajoitukset toimivat vain, jos UseBranchTransferLimits-järjestelmäasetus on päällä.  BranchTransferLimitsType-järjestelmäasetuksessa valitaan, perustuuko rajoitukset kokoelmakoodiin vai nidetyyppiin. 
 
@@ -689,7 +685,7 @@ Rajoituksia voi säätää myös **Kehittyneellä editorilla**, joka on matriisi
 
 ![](/assets/files/docs/Asetukset/kuljetus1.png)
 
-## Kuljetusten painomatriisi
+## 9. Kuljetusten painomatriisi
 
 Kuljetusten painomatriisilla voi määritellä aineistojen kuljetuksille "kustannuksen" eri kirjastopisteiden välillä. Painomatriisi vaikuttaa vain Varausjono-raportin luomiseen, ei normaaliin varausjonon purkautumiseen. Järjestelmäasetus UseTransportCostMatrix pitää olla määritetty käyttöön, jotta määritettyjä arvoja käytetään.
 
