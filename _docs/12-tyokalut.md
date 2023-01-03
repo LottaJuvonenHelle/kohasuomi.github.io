@@ -489,56 +489,7 @@ Säännön voi poistaa valitsemalla _Poista tämä sääntö_.
 
 ---
 
-## 12.12 Tarratulostustyökalu
-
-### Ohje käyttäjälle
-
-Tarratulostustyökalu löytyy seuraavasti: Työkalut -> Työkaluliitännäiset -> Tarratulostustyökalu
-
-<img src="/assets/files/docs/Tyokalut/tarratulostin.png" alt="" style="width:90.0%" />
-
-#### Niteiden lisääminen tulostettavaksi
-
-Niteet voi lisätä usealla tavalla tulostettavaksi.
-
-* lisäämällä tulostettavien niteiden viivakoodit Tulostettavat niteet -tekstikenttään 
-* valitsemalla valikosta listan ja klikkaamalla Lisää kaikki -nappulaa. Listalta voi myös viedä yksittäisiä niteitä tulostettavaksi klikkaamalla sen kohdalla pientä nuolta.
-  * Oma tulostusjono
-    * Niteen saa lisättyä omaan tulostujonoon niteen muokkauksessa kahdella tavalla. Joko klikkaamalla Tulostusjonoon-nappia joko niteen tietojen alapuolelta tai Toiminnot-valikosta.
-<img src="/assets/files/docs/Tyokalut/tarratulostin1.png" alt="" style="width:100.0%" />  
-  * Tänään vastaanotettu (rajataan kirjautumiskirjaston mukaan)
-  * Itse tulostetut (listalle tulee viimeaikaisia niteitä)
-
-Valitse sitten alasvetovalikosta käytettävä tarrapohja ja klikkaa Tulosta
-<img src="/assets/files/docs/Tyokalut/tarratulostin2.png" alt="" style="width:100.0%" />
-
-Seuraavaksi tulee esikatselu, jossa voi tarvittaessa säätää muodostuvan PDF-tiedoston ylämarginaalia ja vasenta marginaalia millimetreissä.
-<img src="/assets/files/docs/Tyokalut/tarratulostin3.png" alt="" style="width:100.0%" />
-
-Klikkaa sitten Tulosta nappia, jolloin muodostuu PDF-tiedosto, joka selaimesi ja tietokoneesi asetuksista riippuen joko avautuu selaimessa tai pyytää valitsemaan ohjelman, jolla tiedosto avataan. Pääsääntöisesti tiedosto kannattaa avata varsinaiseen PDF-ohjelmaan.
-
-Tarra-arkki näytetään sellaisena kuin se tulostuu. Alla pari erilaista esimerkkiä asetteluista.  
-<img src="/assets/files/docs/Tyokalut/tarratulostin4.png" alt="" style="width:100.0%" />  
-<img src="/assets/files/docs/Tyokalut/tarratulostin5.png" alt="" style="width:100.0%" />
-
-Tulosta tarrat käyttäen PDF-ohjelman tulostustoimintoja.
-
-**Huomioi**, että pdf-ohjelman tulostusasetuksista kannattaa aina
-valita, ettei skaalata tai soviteta arkin kokoon. Jos käytetään
-skaalausta, se muuttaa tarrojen asemointia myös suhteessa toisiinsa,
-jolloin ne eivät enää osu oikeaan kohtaan arkkia (esim. liian lähelle
-tai kauas ylempänä olevasta tarrasta).
-
----
-
-### Ohje tarrapohjan muokkaajalle
-
-Ohje tarrapohjan muokkaajalle löytyy liitännäisen ohjesivulta:
-[Tarrapohjan muokkaaminen](https://github.com/KohaSuomi/koha-plugin-visual-label-tool#how-create-and-modify-labels)
-
----
-
-## 12.13 MARC-muokkauksen pohjat
+## 12.12 MARC-muokkauksen pohjat
 
 Kohassa pystyy muokkaamaan tietueita eräajona ja sitä varten tarvitaan
 säännöt, minkä pohjalta muokkausta tehdään. MARC-muokkauksen pohjat ovat
@@ -590,7 +541,7 @@ suoritusjärjestystä voi muuttaa ensimmäisen sarakkeen nuolilla.
 
 ---
 
-## 12.14 Kalenteri
+## 12.13 Kalenteri
 
 Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät.
 Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä
@@ -602,7 +553,7 @@ kalenteri. Oikealla on vinkkejä ja listoja määritetyistä
 kiinniolopäivistä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:90.0%" />
 
-### 12.14.1 Kiinniolon lisääminen
+### 12.13.1 Kiinniolon lisääminen
 
 Lisää kiinniolopäivä-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
 päivämäärävälin ensimmäistä päivää. 
@@ -644,7 +595,7 @@ Kalenterin alalaidassa olevista linkeistä pääset takaisin kuluvan kuukauden k
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri4.png" title="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" alt="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" style="width:90.0%" />
 
-### 12.14.2 Sulkupäivien värikoodit
+### 12.13.2 Sulkupäivien värikoodit
 
 Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 
@@ -669,7 +620,7 @@ Kuluva päivä on näkyy tummanvihreällä kehystettynä, jos kyseinen päivä o
 näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:90.0%" />
 
-### 12.14.3 Sulkutiedon poistaminen
+### 12.13.3 Sulkutiedon poistaminen
 
 Sulkupäiviä voi myös poistaa, jos ne ovat virheellisiä tai tarpeettomia.
 
@@ -680,7 +631,7 @@ Valitse päivä tai aikavälin ensimmäinen päivä.
 Määritä tarvittaessa aikavälin loppupäivä. Valitse haluamasi
 poisto -vaihtoehto ja klikkaa Tallenna.
 
-### 12.14.4. Sulkutiedon muokkaaminen
+### 12.13.4. Sulkutiedon muokkaaminen
 
 Sulkupäivän voi muokata valitsemalla muutettava päivä. Voit muokata valitun päivän Nimekettä ja Kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokkauksen voi tehdä yksi päivä kerrallaan.
@@ -689,7 +640,7 @@ sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokk
 
 ---
 
-## 12.15 Lokien katselu
+## 12.14 Lokien katselu
 
 Lokien katselu -työkalulla pystyy hakemaan mm. asiakkaisiin, lainoihin,
 maksuihin, varauksiin ja luettelointitietueisiin liittyviä muutoksia.
@@ -746,7 +697,7 @@ välillä:
 
 ---
 
-## 12.16 Uutiset
+## 12.15 Uutiset
 
 Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita
 virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi
@@ -801,7 +752,7 @@ Valitse ja täytä tarvittavat tiedot:
 
 Tallenna valitsemalla Tallenna tai peruuta valitsemalla Peruuta.
 
-### 12.16.2 Uutisen poistaminen
+### 12.15.2 Uutisen poistaminen
 
 Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla Poista-nappia. Useamman uutiset voi poistaa valitsemalla uutinen vasemmalta ruksilla ja painamalla Poista valitut.
 
@@ -814,13 +765,13 @@ pitää halutessaan poistaa manuaalisesti.
 
 ---
 
-## 12.17 Työkaluliitännäiset
+## 12.16 Työkaluliitännäiset
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
 <img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:60.0%" />
 
-### 12.17.1 Laskutustyökalu
+### 12.16.1 Laskutustyökalu
 
 <img src="/assets/files/docs/Tyokalut/laskutus.png" title="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" alt="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" style="width:100.0%" />
 
@@ -854,7 +805,7 @@ Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite.
 Laskutuksen asetusten ohje on [Redminessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Laskutusty%C3%B6kalu-liit%C3%A4nn%C3%A4inen).
 
 
-### 12.17.2 Tulosta ilmoituksia
+### 12.16.2 Tulosta ilmoituksia
 
 Tulosta ilmoituksia -toimintoa käytetään, kun käytössä ei ole e-kirjepalvelua. Sillä tulostetaan pdf-muotoisia varausten saapumisilmoituksia sekä muistutuskirjeitä (palautuskehotuksia). Tulosta ilmoituksia -toiminto ei ole käytössä kaikissa kirjastokimpoissa.
 
@@ -872,14 +823,14 @@ Muistutusten kanssa toimitaan aivan samoin kuin noutoilmoitusten kanssa.
 <img src="/assets/files/docs/Tyokalut/tulostailmoituksia_tulostus.png" title="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" alt="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" style="width:100.0%" />
 
 
-### 12.17.3 Sotuteekki
+### 12.16.3 Sotuteekki
 
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
 Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
 
 <img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" style="width:70.0%" />
 
-### 12.17.4 Tarratulostustyökalu
+### 12.16.4 Tarratulostustyökalu
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
@@ -909,7 +860,21 @@ Niteiden muokkaustilassa niteen voi listätä tulostusjonoon joko *Tulostusjonoo
 
 <img src="/assets/files/docs/Tyokalut/tulostusjonoon.png" title="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" alt="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" style="width:100.0%" />
 
+**Huomioi**, että pdf-ohjelman tulostusasetuksista kannattaa aina
+valita, ettei skaalata tai soviteta arkin kokoon. Jos käytetään
+skaalausta, se muuttaa tarrojen asemointia myös suhteessa toisiinsa,
+jolloin ne eivät enää osu oikeaan kohtaan arkkia (esim. liian lähelle
+tai kauas ylempänä olevasta tarrasta).
+
 ---
+
+### Ohje tarrapohjan muokkaajalle
+
+Ohje tarrapohjan muokkaajalle löytyy liitännäisen ohjesivulta:
+[Tarrapohjan muokkaaminen](https://github.com/KohaSuomi/koha-plugin-visual-label-tool#how-create-and-modify-labels)
+
+---
+
 Koha-Suomella on käytössä yksi raporttiliitännäinen, jonka saa esille
 klikkaamalla _Katso liitännäisiä luokan mukaan_ -nappia tai menemällä
 Raportit-osioon.
@@ -918,7 +883,7 @@ Raportit-osioon.
 
 ---
 
-## 12.18 Siirtokokoelmat
+## 12.17 Siirtokokoelmat
 
 Siirtokokoelmaan lisätyt niteet palautuvat aina siihen kirjastoon, johon ne on siirretty. Niteiden kotikirjasto ei muutu. Perustiedot-näkymässä ei näy, että nide kuuluu johonkin siirtokokoelmaan.
 
