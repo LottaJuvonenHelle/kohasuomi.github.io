@@ -27,4 +27,4 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
 **Vaara**
 * Kysymys Finnassa tapahtuneista varauksista ja niiden poistumisesta muilta kimpoilta. Ainoastaan Lapissa oli vastaava tapaus viime viikolla. Tutkitaan vielä asiaa.
 * Ei muuta mainittavaa, vuoden viimeinen viikko oli rauhallinen.
-* 
+
