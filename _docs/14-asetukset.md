@@ -14,8 +14,8 @@ Jotta edellisen järjestelmän konveroitu data voidaan viedä Kohaan, pitää si
 
 Tietokantaan pitää luoda kirjastot. Se onnistuu Ylläpito -> Kirjastot -> Uusi kirjasto
 
-![](/files/kirjasto.png)
-![](/files/kirjasto2.png)
+![](/assets/files/docs/Asetukset/kirjasto.png)
+![](/assets/files/docs/Asetukset/kirjasto2.png)
 
 **Kirjaston tunnus**
 
@@ -110,7 +110,7 @@ OKM-tilastoja varten pitää perustaa ryhmä, jonka nimekkeessä mainitaan OKM. 
 
 Uusi ryhmä tehdään Lisää ryhmä -painikkeella. Kun ryhmä on luotu, voi siihen lisätä kirjastoja Lisää kirjasto -nappulalla. Toiminnot-nappulan takaa voi lisätä alaryhmän, muokata ryhmän tietoja tai poistaa ryhmän. Alaryhmän tarvetta kannattaa harkita tarkkaan.
 
-![](/files/ryhma.png)
+![](/assets/files/docs/Asetukset/ryhma.png)
 
 **Nimeke**
 
@@ -359,7 +359,7 @@ Kun nidetyypillä on emonidetyyppi, sääntö näytetään "Emo -> alatyyppi" ja
 
 Tarkentaaksesi sääntöä luo uusi sääntö, jolla on sama asiakastyyppi ja nidetyyppi.
 
-![](/files/lainasaannot.png)
+![](/assets/files/docs/Asetukset/lainasaannot.png)
 
 **Asiakastyyppi**
 
@@ -403,7 +403,7 @@ Kohassa on toiminnallisuus/järjestelmäasetus decreaseLoanHighHolds, jolla voi 
 
 Huomioitavaa: Tähän toiminnallisuuteen liittyy jonkin verran epäjohdonmukaisuuksia, joten kannattaa testata ennen käyttöönottoa huolella, että logiikka sopii omaan toimintaympäristöön.
 
-![](/files/lainasaannot2.png)
+![](/assets/files/docs/Asetukset/lainasaannot2.png)
 
 **Maksun määrä**
 
@@ -447,7 +447,7 @@ Tähän säädetään maksimimäärä päiviä, joita tilin/kirjastokortin jää
 
 Keskeytyksen veloitusväli toimii kuten Veloitusaikaväli, mutta maksujen sijasta annetaan jäädytyspäiviä.
 
-![](/files/lainasaannot3.png)
+![](/assets/files/docs/Asetukset/lainasaannot3.png)
 
 **Sallitut uusintakerrat**
 
@@ -491,7 +491,7 @@ Asetuksella määritetään, kuinka monta varausta asiakas voi tehdä tietuetta 
 
 Tämän käytössä on kimpoissa erilaisia käytäntöjä. Osa sallii tietueeseen saman verran varauksia kuin mitä on maksimimäärä, osa sallii vain yhden varauksen/tietue.
 
-![](/files/lainasaannot4.png)
+![](/assets/files/docs/Asetukset/lainasaannot4.png)
 
 **Hyllyvaraukset sallittu**
 
@@ -521,7 +521,7 @@ Sarakkeessa on Muokkaa- ja Poista-napit. Muokkaa-napista pääset muokkaamaan va
 
 ### Oletussäännöt lainauksille, varauksille ja palautuksille
 
-![](/files/lainasaannot5.png)
+![](/assets/files/docs/Asetukset/lainasaannot5.png)
 
 Voit asettaa lainojen sallitulle määrälle sekä varausten ja palautusten säännöille oletusarvot, joita käytetään, jos nidetyypille tai asiakastyypille ei ole määritelty tämän osion alla mitään arvoja. Näitä sääntöjä käytetään, jos mitään muuta sääntöä ei löydy.
 
@@ -579,7 +579,7 @@ Tallenna ja Pois päältä. Jälkimmäisellä voi tyhjentää asetetut asetukset
 
 ### Oletussääntö maksun hyvitykselle, kun palautetaan kadonnut nide
 
-![](/files/lainasaannot6.png)
+![](/assets/files/docs/Asetukset/lainasaannot6.png)
 
 Asetuksessa voi määrittää oletussäännön maksun hyvityksille, kun kadonnut nide palautetaan. 
 
@@ -591,7 +591,7 @@ Vaihtoehdot:
 
 ### Oletusvaraussääntö nidetyypeittäin
 
-![](/files/lainasaannot7.png)
+![](/assets/files/docs/Asetukset/lainasaannot7.png)
 
 Voit muokata tämän kirjaston sääntöjä nidetyypin mukaan, riippumatta asiakastyypistä. 
 
@@ -631,19 +631,19 @@ Vaihtoehdot:
 
 Asiakasmääreet ovat itse määritettäviä lisäkenttiä, jotka voi liittää asiakkaisiin. Jotta asiakasmääreitä voi lisätä, pitää järjestelmäasetus ExtendedPatronAttributes olla päällä.
 
-![](/files/asiakasmaare.png)
+![](/assets/files/docs/Asetukset/asiakasmaare.png)
 
 Koha-Suomen kimpoilla on kolme kaikille yhteistä asiakasmäärettä: Automaattityyppi (AUTOTYPE), Sotu-avain (SSN) ja Automaatin toimittaja (TOIMITTAJA). Lisäksi voi olla kimppakohtaisia asiakasmääreitä, esim. OUTI-kirjastoissa on käytössä Y-tunnus-määre yhteisöasiakkaille.
 
 Asiakasmääreet näkyvät asiakastiedoissa **Muut määreet ja tunnukset** -kohdassa.
 
-![](/files/asiakasmaare1.png)
+![](/assets/files/docs/Asetukset/asiakasmaare1.png)
 
 ### Uuden asiakasmääreen tekeminen
 
 Uuden asiakasmääreen voi lisätä Uusi asiakasmääre -napista.
 
-![](/files/asiakasmaare2.png)
+![](/assets/files/docs/Asetukset/asiakasmaare2.png)
 
 **Asiakasmääreen tunnus** -kohtaan kirjoitetaan sopiva tunnus. Se kannattaa olla vähintään kolmemerkkinen, eikä se kannata olla sama kuin jokin muu tunnus (hyllypaikka, asiakastyyppi, nidetyyppi jne). Tunnus voi olla korkeintaan kymmenenmerkkinen.
 
@@ -667,9 +667,9 @@ Uuden asiakasmääreen voi lisätä Uusi asiakasmääre -napista.
 
 **Auktorisoidun arvon luokka** - kohtaan voi määrittää auktorisoidun arvon, jonka arvoja ehdotetaan vaihtoehdoiksi teksikentän sijaan. Esim. Automaattityyppi-määreelle on tähän valittu AUTOMTYPE-auktorisoitu arvo, jolloin määreelle annetaan alasvetovalikkoon vaihtoehdoiksi auktorisoidun arvon tunnukset.
 
-![](/files/asiakasmaare3.png)
+![](/assets/files/docs/Asetukset/asiakasmaare3.png)
 
-![](/files/asiakasmaare4.png)
+![](/assets/assets/files/docs/Asetukset/docs/Asetukset/asiakasmaare4.png)
 
 **Kirjastorajoitus** - kohdassa asiakasmääreen voi rajoittaa koskevaksi vain tiettyä kirjastoa. Pääsääntöisesti määreet koskevat kaikkia kirjastoja.
 
@@ -683,11 +683,11 @@ Aineistokuljetusten rajoitukset -osiossa voi määrittää, kuinka niteitä voi 
 
 Rajoitukset tehdään kirjastokohtaisesti eli ensin valitaan haluttu kirjasto. Sen jälkeen valitaan nidetyyppi/kokoelmakoodi-kohtaisesti, mihin kirjastoihin kuljetus sallitaan. Laita rasti niiden kirjastojen kohdalle, joihin kuljetus sallitaan.
 
-![](/files/kuljetus.png)
+![](/assets/files/docs/Asetukset/kuljetus.png)
 
 Rajoituksia voi säätää myös **Kehittyneellä editorilla**, joka on matriisityyppinen taulukko. Siellä valitaan ensin nidetyyppi/kokoelmakoodi ja sen jälkeen pääsee säätämään koko kirjastoverkon rajoituksia kerralla. Isossa kimpassa tämä näkymä on hankala, mutta pienemmissä siedettävämpi.
 
-![](/files/kuljetus1.png)
+![](/assets/files/docs/Asetukset/kuljetus1.png)
 
 ## Kuljetusten painomatriisi
 
