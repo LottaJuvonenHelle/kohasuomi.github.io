@@ -19,5 +19,6 @@ Läsnä:
 * Tikettien label "enhancement" on jaettu "kahtia", jotta erottaa paremmin ne kehitysehdotukset, joiden kehitys on asiantuntijaryhmässä päätetty tehdä yhteisössä oman työn sijaan.
   * local enhancement -> kehitys tehdään itse
   * community enhancement -> kehitysehdotus viedään yhteisön bugzillaan.
-    *  työnjakoasia: voisiko alkuperäinen tiketin tekijä tehdä bugi-ilmoituksen myös bugzillaan?
+    *  työnjakoasia: voisiko alkuperäinen tiketin tekijä tehdä bugi-ilmoituksen myös bugzillaan? Päätös: alkuperäinen tiketin tekijä tekee, muut auttaa tarvittaessa.
 * [Varauksen tiedot lokilla](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Varauksen-tiedot-lokilla) -raportin kuvaus päivitetty vastaaman nykyversiota.
+* [Viikon 1 päivitys](https://github.com/KohaSuomi/Koha/discussions/347)
