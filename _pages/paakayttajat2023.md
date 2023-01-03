@@ -27,4 +27,9 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakk
 **Vaara**
 * Kysymys Finnassa tapahtuneista varauksista ja niiden poistumisesta muilta kimpoilta. Ainoastaan Lapissa oli vastaava tapaus viime viikolla. Tutkitaan vielä asiaa.
 * Ei muuta mainittavaa, vuoden viimeinen viikko oli rauhallinen.
+**Lumme**
+* Kirjeitä jumittunut 20 lokakuulta asti, lähetetty 14.12. ja myöhemmin muodostuneet kirjeet.
+* Suomenniemen toveriin uudet aukiolot. Hypernovalta ei ole tullut blugaria Lari tekee Lumpeille oman.
+* Toenperän kirjastojen erottaminen toisistaan tehty Finnassa, kohassa vielä vähän vaiheessa. Kirjastoauto Jasso jatkaa entisten Toenperän kuntien palvelemista.
+
 
