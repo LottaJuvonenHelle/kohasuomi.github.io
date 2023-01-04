@@ -695,7 +695,6 @@ $( '#main_intranet-main .biglinks-list li' ).each(function(){
 	$( '#main_intranet-main #new_icon_container' ).append( $( this ).html() );
 });
 $( '#main_intranet-main #new_icon_container' ).prepend( $( '#main_intranet-main #area-pending' ).parent( 'div' ).html() );
-
 });
 ``
 
