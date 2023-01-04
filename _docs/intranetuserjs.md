@@ -47,8 +47,6 @@ $(document).ready(function () {
 });
 ``
 
-!{width:50%}poistavaraustenmaksut.png(Kuvakaappaus palautus-sivusta, jossa näkyy palautus-kenttä sekä oikealla palautukseen liittyviä asetuksia. Alimmaisena asetuksena valittuna "Poista käsin poistettujen varausten maksut")!
-
 ### Palautusosion siivousta (Tritonia)
 
 ``
@@ -129,7 +127,8 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-
+``
+``
 /* poista asiakkaan muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#pat_memberentrygen.pat textarea').blur(function() {
@@ -140,7 +139,6 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-
 ``
 
 ### Poista sukunimestä ja etunimestä välilyönnit alusta ja lopusta 
@@ -224,8 +222,7 @@ $(document).ready(function() {
 
 Versioon 20.05 ja uudempaan.
 
-``<code class="javascript">
-
+``
 // Varaustunnuksen automaattinen generointi/anonymisointi - Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master) 
 $(document).ready(function(){
     if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=add&") || window.location.search.includes("?op=duplicate&")) {
@@ -248,15 +245,14 @@ $(document).ready(function(){
       });
     }
 });
-
-</code>``
+``
 
 
 ### Varaustunnuksen automaattinen täyttö nimen perusteella 
 
 Versioon 20.05 ja uudempaan.
 
-``<code class="javascript">
+``
 // This file is part of Koha.
 //
 // Koha is free software; you can redistribute it and/or modify it
@@ -283,17 +279,17 @@ $(document).ready(function(){
       });
     }
 });
-</code>``
+``
 
 ### Asiakasmääreen piilotus
 
 Asiakasmääreen saa piilotettua muokkausnäytöllä seuraavalla rimpsulla. "patron_attr_1"-kohtaan voi vaihtaa tarvittaessa toisen numeron ykkösen sijalle. Numero kertoo, monesko määre on listalla.
 
-``<code class="javascript">
+``
 $( document ).ready(function() {
   $( '#pat_memberentrygen #memberentry_patron_attributes #patron_attr_1' ).parents( 'li' ).remove();
 });
-</code>``
+``
 
 ### Puhelinnumeron validointi
 
@@ -301,7 +297,7 @@ Versioon 20.05 ja uudempaan. Tarkoitettu korvaamaan järjestelmäasetus Validate
 
 Uusi versio 19.5.2022
 
-``<code class="javascript">
+``
 /* Puhelinnumeron muodon tarkistus */
 // Add additional validation to member add/edit form
 $(document).ready(function(){    
@@ -371,14 +367,16 @@ $(document).ready(function(){
       }
    });
 });
-</code>``
+``
 
 ### Asiakkaan osoitteenmuutospyyntö- täppä oletuksena hyväksy
 
-``$(document).ready(function () {
+``
+$(document).ready(function () {
 if (window.location.pathname == '/cgi-bin/koha/members/members-update.pl') 
 $('input:radio[value="approve"]').attr('checked', true); 
-});``
+});
+``
 
 ---
 
@@ -426,7 +424,7 @@ $(document).ready(function() {
 
 Versioon 20.05 ja uudempaan.
 
-``<code class="javascript">
+``
 // This file is part of Koha.
 //
 // Koha is free software; you can redistribute it and/or modify it
@@ -459,7 +457,7 @@ $(document).ready(function() {
 	}
 
 });
-</code>``
+``
 
 ### Linkki Finna-näkymään (nappula) (Tritonia 2020)
 
@@ -525,7 +523,8 @@ $(document).ready(function() {
     }
 
     $("#searchterms select option[value='location']").val('loc'); /* Muuttaa location-arvon loc-arvoksi "Hakusanat"-valikossa */
-});``
+});
+``
 
 ---
 
