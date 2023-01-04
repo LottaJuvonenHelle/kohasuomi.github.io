@@ -156,7 +156,6 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-
 $(document).ready(function() {
   $('body#pat_memberentrygen.pat input#firstname').blur(function() {
      var tmp = $(this).val();
@@ -230,14 +229,12 @@ $(document).ready(function(){
       var unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
       var epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
       $('input[id=othernames]').val(epochdashed);
-
       $("#othernames").focus(function() {
         unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
         epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
         $('input[id=othernames]').val(epochdashed);
       });
     }
-
       if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=modify")) {
       $("#othernames").focus(function() {
         unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
@@ -253,7 +250,7 @@ $(document).ready(function(){
 
 Versioon 20.05 ja uudempaan.
 
-``
+
 // This file is part of Koha.
 //
 // Koha is free software; you can redistribute it and/or modify it
@@ -268,9 +265,10 @@ Versioon 20.05 ja uudempaan.
 //
 // You should have received a copy of the GNU General Public License
 // along with Koha; if not, see <http://www.gnu.org/licenses>.
-
 // Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master) 
 // Adapted from Koha-suomi patch for KD-205 (commit cd74805e73ead0569abfc158e8b7ac1fe2bedfbe from https://github.com/KohaSuomi/Koha/ branch master
+
+``
 $(document).ready(function(){
     if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=add&")) {
       var firstname = $("#entryform").find("#firstname");
@@ -313,16 +311,12 @@ $(document).ready(function(){
    }else {
      save_text = "Save";
    }
-
   $('#pat_memberentrygen #saverecord').replaceWith('<button class="btn btn-default" id="modified_saverecord"><i class="fa fa-save"></i> '+save_text+'</button>');
-
    var isvalid = 1;
-
    $('#phone').blur(function(){
       var error_mes = "";
       var phone = $('#phone').val();
       var phone_reg = /^[+]?([^-\s][0-9]+)+$/;
-
       if (phone && !phone_reg.test(phone)) {
         error_mes = error_mes + "\nPlease enter a valid phone number.\n";
         $('#phone').after('<label id="phone-error" class="error" for="phone">'+error_mes+'</label>');
@@ -331,12 +325,10 @@ $(document).ready(function(){
       	isvalid = 1;
       }
    });
-  
    $('#mobile').blur(function(){
       var error_mes = "";
       var mobile = $('#mobile').val();
       var mobile_reg = /^[+]?([^-\s][0-9]+)+$/;
-
       if (mobile && !mobile_reg.test(mobile)) {
         error_mes = error_mes + "\nPlease enter a valid mobile number.\n";
         $('#mobile').after('<label id="mobile-error" class="error" for="mobile">'+error_mes+'</label>');
@@ -345,12 +337,10 @@ $(document).ready(function(){
       	isvalid = 1;
       }
    });
-  
    $('#SMSnumber').blur(function(){
       var error_mes = "";
       var SMSnumber = $('#SMSnumber').val();
       var SMSnumber_reg = /^[+]?([^-\s][0-9]+)+$/;
-
       if (SMSnumber && !SMSnumber_reg.test(SMSnumber)) {
         error_mes = error_mes + "\nPlease enter a valid SMS number.\n";
         $('#SMSnumber').after('<label id="SMSnumber-error" class="error" for="SMSnumber">'+error_mes+'</label>');
@@ -359,7 +349,6 @@ $(document).ready(function(){
       	isvalid = 1;
       }
    });
-   
    $('#modified_saverecord').click(function(e){
       if(isvalid == 1){
         if( check_form_borrowers() ){
@@ -423,22 +412,24 @@ $(document).ready(function() {
 
 ### Linkki Finna-näkymään
 
-Versioon 20.05 ja uudempaan.
+  Versioon 20.05 ja uudempaan.
 
-/* This file is part of Koha.
-/*
-/* Koha is free software; you can redistribute it and/or modify it
-/* under the terms of the GNU General Public License as published by
-/* the Free Software Foundation; either version 3 of the License, or
-/* (at your option) any later version.
-/*
-/* Koha is distributed in the hope that it will be useful, but
-/* WITHOUT ANY WARRANTY; without even the implied warranty of
-/* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-/* GNU General Public License for more details.
-/*
-/* You should have received a copy of the GNU General Public License
-/* along with Koha; if not, see <http://www.gnu.org/licenses>.
+  /* This file is part of Koha.
+  /*
+  /* Koha is free software; you can redistribute it and/or modify it
+  /* under the terms of the GNU General Public License as published by
+  /* the Free Software Foundation; either version 3 of the License, or
+  /* (at your option) any later version.
+  /*
+  /* Koha is distributed in the hope that it will be useful, but
+  /* WITHOUT ANY WARRANTY; without even the implied warranty of
+  /* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  /* GNU General Public License for more details.
+  /*
+  /* You should have received a copy of the GNU General Public License
+  /* along with Koha; if not, see <http://www.gnu.org/licenses>.
+
+
 ``
 $(document).ready(function() {
 	if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
@@ -451,12 +442,10 @@ $(document).ready(function() {
 		link_elem.href = "https://kohatesti.finna-test.fi/kvkoha1/Record/kvkoha." + biblionumber;
                 link_elem.target = "_blank";
 		var link_text = document.createTextNode("Avaa Finnassa");
-
 		link_elem.appendChild(link_text);
 		span_elem.appendChild(link_elem);
 		details_elem.appendChild(span_elem);
 	}
-
 });
 ``
 
@@ -471,7 +460,6 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
         var link_elem = document.createElement("a");
         link_elem.href = "https://tritonia.finna.fi/Record/tria." + biblionumber;
         var link_text = document.createTextNode("Open in Finna");
-
         link_elem.appendChild(link_text);
         span_elem.appendChild(link_elem);
         details_elem.appendChild(span_elem);*/
@@ -494,7 +482,6 @@ Indeksointityöryhmä ideoi mukautuksia tiedonhakun hakusivulle. Alla siitä syn
 
 ``
 $(document).ready(function() {
-
     if ( $('html').attr('lang') == 'fi-FI') {
       $("#advsearch-tab-mtype a").text("Aineistotyyppi"); /* MTYPE auktorisoituarvo tarkassa haussa */
       $("#advsearch-tab-subloc a").text("Hyllytarkenne"); /* SUBLOC auktorisoituarvo tarkassa haussa */
@@ -522,7 +509,6 @@ $(document).ready(function() {
       $("#subtype select option[value='mus:i'").parent().append(new Option('Integrating resource', 'bib-level:i'));
       $("#subtype select option[value='mus:i'").parent().append(new Option('Serial', 'bib-level:s'));
     }
-
     $("#searchterms select option[value='location']").val('loc'); /* Muuttaa location-arvon loc-arvoksi "Hakusanat"-valikossa */
 });
 ``
