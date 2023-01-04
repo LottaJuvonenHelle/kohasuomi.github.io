@@ -43,6 +43,7 @@ Läsnä:
   * Päätös [Tietojen säilytysajat -wikissä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat)
 
 * Viikon 2 päivitys
+  * käännöksissä korjauksia 
 
 * Onko huoltokatkoa vkolla 2 keskiviikkona?
 
