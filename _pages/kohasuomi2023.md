@@ -32,7 +32,7 @@ Läsnä:
 2. Testit ja redmine pysäytetään. Kirkes-testi siirretään kakkosnodelle, koska samana päivänä yhdeksältä pitäisi olla Kirkes-järjestelmäasetusten läpikäynti.
 3. Lumme, siili, täti, lappi, vaski siirretään ykkös- ja nelosnodeilta (Meg ja Amy) kakkos ja kolmosnodelle (Jo ja Beth).
 4. Pfsense2 palomuuri alas, kampojen vaihto ja palvelin ylös, Pfsense1 jatkaa edelleen hommiaan. Pfsense2 alkaa käynnistyttyään neuvotella IPSec tunneleita uusiksi ja toivottavasti ehtii valmiiksi siihen mennessä kun Pfsense1 menee alas.
-5. DB1 (Nat) alas, kampojen vaihto ja palvelin ylös.
+5. DB1 (Nat) alas, kampojen vaihto ja palvelin ylös. Tietokantapalvelimen käyttäminen alhaalla aiheuttaa katkon kaikkiin kimppoihin. Katko päättyy kun palvelin saadaan takaisin käyntiin.
 6. Nelonen (Amy) alas, kampojen vaihto ja palvelin ylös.
 7. Jos tässä kohtaa ollaan vielä huoltokatkon paremmalla puolella, siirretään vaski ja lappi takaisin neloselle, jos ei niin saavat jatkaa sijaisnodella toistaiseksi. Mahdollisesti on tarpeen siinä tapauksessa muuttaa IP-osoite Turun pääkirjaston palautusautomaatilla, jolloin Vaski jäisi sitten pysyvästi kakkos- tai kolmosnodelle.
 8. Ykkönen (Meg) alas, kampojen vaihto ja palvelin ylös.
