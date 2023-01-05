@@ -29,7 +29,7 @@ Läsnä:
 #### Tammikuun huoltokatkon toimintasuunnitelma
 
 1. Asiakasviestintä keskeytetään katkon ajaksi.
-2. Testit ja redmine pysäytetään.
+2. Testit ja redmine pysäytetään. Kirkes-testi siirretään kakkosnodelle, koska samana päivän yhdeksältä pitäisi olla Kirkes-järjestelmäasetusten läpikäynti.
 3. Lumme, siili, täti, lappi, vaski siirretään ykkös- ja nelosnodeilta (Meg ja Amy) kakkos ja kolmosnodelle (Jo ja Beth).
 4. Pfsense2 palomuuri alas, kampojen vaihto ja palvelin ylös, Pfsense1 jatkaa edelleen hommiaan. Pfsense2 alkaa käynnistyttyään neuvotella IPSec tunneleita uusiksi ja toivottavasti ehtii valmiiksi siihen mennessä kun Pfsense1 menee alas.
 5. DB1 (Nat) alas, kampojen vaihto ja palvelin ylös.
