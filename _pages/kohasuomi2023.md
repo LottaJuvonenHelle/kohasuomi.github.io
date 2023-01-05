@@ -26,7 +26,7 @@ Läsnä:
 
 * Viikon 2 päivitys
 
-* Tammikuun huoltokatko
+* Tammikuun huoltokatkon toimintasuunnitelma
 
 ## Viikko 1 muistiot
 
