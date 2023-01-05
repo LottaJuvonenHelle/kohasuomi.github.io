@@ -13,8 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
-## Viikko 1 esityslista
+## Viikko 2 esityslista
 
+### Maanantain palaveri
+
+Aika: 9.1.2023 klo 10<br />
+Läsnä: 
+
+* Valutus- ja hankintaongelmat ja Elasticsearch
+  * "It turned out that queryParser is not thread-safe - inside it has states, access to which from several threads is not synchronized. Therefore, I came to use own queryParser for each request, and not use the previously created one." https://stackoverflow.com/questions/71547835/org-apache-lucene-queryparser-classic-parseexception-cannot-parse
+  * Vaatinee koodimuutoksia Kohaan, bugiraportti yhteisöön?
+
+## Viikko 1 muistiot
 
 ### Maanantain palaveri
 
@@ -32,7 +42,6 @@ Läsnä: Anneli, Lasse, Pasi, Ari, Lari, Kodo
 * Versionvaihto
   * viedään ensin Vaski, jotta nähdään, kuinka kauan maksimissaan menee.
   * kaikille läksyksi miettiä torstain palaveriin mennessä, miten saadaan vähennettyä testikantaan vietävän datan määrää, jotta testikantojen luonti ei vie niin kauan.
-
 
 ### Torstain palaveri
 
