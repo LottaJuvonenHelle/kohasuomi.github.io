@@ -37,14 +37,16 @@ Läsnä: Anneli, Lasse, Pasi, Ari, Lari, Kodo
 ### Torstain palaveri
 
 Aika: 5.1.2023 klo 10<br />
-Läsnä:
+Läsnä: Pasi, Lari, Kodo, Lasse
 
 * Vanhentuneiden maksujen poistoajo - Vaski kysyi pääkäyttäjäpalaverissa, että mikä sen tilanne on?
   * Päätös [Tietojen säilytysajat -wikissä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat)
 
 * Viikon 2 päivitys
   * käännöksissä korjauksia 
+  * Muutama XSLT-muutos, esim. hakutulosnäytön Sisältyy-linkki.
 
 * Onko huoltokatkoa vkolla 2 keskiviikkona?
+  * On, ja iso: Fujitsun muistikampojen vaihdot. Katko saattaa kestää enemmän kuin 2 tuntia, ja koskee kaikkia kimppoja.
 
 * Pääkäyttäjien kanssa sovittiin, että jokainen kimppa käy omat Redmine-tikettinsä Palaute-projektissa läpi ja sulkee valmiit ja sellaiset, jotka eivät ole enää ajankohtaisia. Loput käydään läpi ja päätetään, mitkä siirretään uusina tiketteinä GitHubiin.
