@@ -24,6 +24,10 @@ Läsnä:
   * "It turned out that queryParser is not thread-safe - inside it has states, access to which from several threads is not synchronized. Therefore, I came to use own queryParser for each request, and not use the previously created one." https://stackoverflow.com/questions/71547835/org-apache-lucene-queryparser-classic-parseexception-cannot-parse
   * Vaatinee koodimuutoksia Kohaan, bugiraportti yhteisöön?
 
+* Viikon 2 päivitys
+
+* Tammikuun huoltokatko
+
 ## Viikko 1 muistiot
 
 ### Maanantain palaveri
