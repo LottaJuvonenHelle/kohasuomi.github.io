@@ -729,7 +729,7 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 
 1.  **Offline lainausohjelma Windowsille** (KOC). Erillinen ohjelma
     yksittäisille lainauskoneille. Tätä voi käyttää, kun ei ole yhteyttä
-    internetiin. **Tämä on suositeltava vaihtoehto**
+    internetiin.
 2.  **Koha Offline Circulation Tool** (KOCT), joka on selaimen lisäosa.
     Tätä voi käyttää esimerksi yllättävien verkkoyhteyskatkoksien
     aikana.
