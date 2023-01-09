@@ -18,11 +18,14 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ### Maanantain palaveri
 
 Aika: 9.1.2023 klo 10<br />
-Läsnä: 
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lassi, Pasi
+
+__Aiheita__
 
 * Valutus- ja hankintaongelmat ja Elasticsearch
   * "It turned out that queryParser is not thread-safe - inside it has states, access to which from several threads is not synchronized. Therefore, I came to use own queryParser for each request, and not use the previously created one." https://stackoverflow.com/questions/71547835/org-apache-lucene-queryparser-classic-parseexception-cannot-parse
   * Vaatinee koodimuutoksia Kohaan, bugiraportti yhteisöön?
+  * Ollaan yhteydessä kansalliskirjastoon, jossa ElasticSearch:ia on Kohaan kehitetty
 
 * Viikon 2 päivitys
   * käännöksissä korjauksia 
@@ -51,6 +54,8 @@ Läsnä:
 Aika: 2.1.2023 klo 10<br />
 Läsnä: Anneli, Lasse, Pasi, Ari, Lari, Kodo
 
+__Aiheita__
+
 * Viikon 1 päivitys
   * [KohaSuomi/Koha #331](https://github.com/KohaSuomi/Koha/issues/331) Suojatut kentät näkyvät tyhjinä z39.50-haulla tietueita korvattaessa
   * [KohaSuomi/Koha #334](https://github.com/KohaSuomi/Koha/issues/334)
@@ -67,6 +72,8 @@ Läsnä: Anneli, Lasse, Pasi, Ari, Lari, Kodo
 
 Aika: 5.1.2023 klo 10<br />
 Läsnä: Pasi, Lari, Kodo, Lasse
+
+__Aiheita__
 
 * Vanhentuneiden maksujen poistoajo - Vaski kysyi pääkäyttäjäpalaverissa, että mikä sen tilanne on?
   * Päätös [Tietojen säilytysajat -wikissä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat)
