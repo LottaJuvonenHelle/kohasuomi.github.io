@@ -10,6 +10,17 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 2 esityslista
+
+Aika: 10.1.2023 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Vkon 2 päivitys
+* Keskiviikon huoltokatko / Kodo
+* Keskiviikon Kirkes-kimpan järjestelmäasetuskoulutus siirretty puoli tuntia myöhemmäksi ja Jitsiin. Uusi aika ja paikka päivitetty [koulutustiedotteeseen](https://github.com/KohaSuomi/Koha/discussions/320)
+* 
+
 ## Viikko 1 muistio
 
 Aika: 3.1.2023 klo 9.15<br />
