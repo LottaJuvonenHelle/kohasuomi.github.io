@@ -25,6 +25,8 @@ Läsnä:
   * Vaatinee koodimuutoksia Kohaan, bugiraportti yhteisöön?
 
 * Viikon 2 päivitys
+  * käännöksissä korjauksia 
+  * Muutama XSLT-muutos, esim. hakutulosnäytön Sisältyy-linkki.
 
 #### Tammikuun huoltokatkon toimintasuunnitelma
 
