@@ -4,11 +4,20 @@ permalink: /dokumentaatio/koulutukset/
 redirect_from:
   - /theme-setup/
 toc: true
+layout: single
 ---
 
 Tälle sivulle kerätään linkkejä Koha-Suomen järjestämiin koulutusten tallenteisiin ja niihin liittyviin materiaaleihin.
 
 ## Kaikille kohdistetut koulutukset
+
+### GitHubin esittely
+
+Ohessa on video, jossa esitellään, mistä Koha-Suomen tiketit, ohjeet, tiedotteet ja muistiot löytyvät nyt kun Redminestä on luovuttu aktiivikäytössä.
+
+[Koha-Suomen GitHubin esittely](https://youtu.be/cPVSi2xFBIQ)
+
+Lisätty: 10.1.2023
 
 ### Elasticsearch-koulutus
 
