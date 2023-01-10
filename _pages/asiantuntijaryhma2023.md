@@ -33,3 +33,15 @@ Olisiko olemassa parempaa tapaa hallinnoida Finnaan liittyviä kehitysehdotuksia
 
 Asiakas-sivulla on piilotettu vasemmasta reunasta ns. infoboksi, jossa on asiakkaan tiedot lyhyesti. Samassa boksissa näytetään, jos asiakkaan tili on lukittu liian monen epäonnistuneen kirjautumisen vuoksi. Pitäisikö piilotus poistaa, jotta lukitustieto saadaan näkyville? Jos piilotus poistetaan, kannattaa järjestelmäasetus HidePersonalPatronDetailOnCirculation olla "päällä". Asetuksella määritetään, näytetäänkö boksissa asiakkaan yhteystiedot vai ei. Jos yhteystiedot piilotetaan, on näkymä seuraavanlainen:
 ![kuva](https://user-images.githubusercontent.com/33121325/210208396-da1003b8-f863-425a-a46e-8e2ac91e72d5.png)
+
+### 4. Tiekartan päivitys
+
+Käydään läpi Koha-Suomen tiekartan tilanne ja päivitetään se ajantasalle.
+
+### 5. Kehitysehdotusten läpikäyntiä
+
+Käydään läpi alla mainitut kehitysehdotukset ja päätetään, toteutetaanko ne vai ei.
+
+### 6. Muut asiat
+
+### 7. Seuraava kokous
