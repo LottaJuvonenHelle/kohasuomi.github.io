@@ -33,7 +33,7 @@ Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen
 * Virkailijaoikeuksia tarkistettu, mutta ongelmana  raportit, jotka antavat liikaa tietoa
 
 **Lumme**
-* Lumme: vanhentuneet varaukset eivät poistu - satunnainen mutta toistuva ongelma#356. Tehty tiketti 9.1., Emmi hoitaa asiaa
+* vanhentuneet varaukset eivät poistu - satunnainen mutta toistuva ongelma#356. Tehty tiketti 9.1., Emmi hoitaa asiaa
 * Asiakkaalla näkyi Palautusilmoitukset välilehdellä palautusilmoituksia. Väittää palauttaneensa toiminto (https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Uusia_ominaisuuksia#Ilmoittaa-palauttaneensa-toiminto). Piilotus Intranetusercss  /*Piilotetaan asiakastietojen sivulla näkyvä 'Palautusilmoitukset' nappula (eng. 'Claims')*/ ul.nav.nav-tabs li a#return-claims-tab { display:none;}
 
 
