@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2 esityslista
 
 Aika: 10.1.2023 klo 9.15<br />
-Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen (Lumme)
 
 **Yhteiset**
 * Vkon 2 päivitys
@@ -31,6 +31,10 @@ Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi)
 * SMS-numeron siirto Finnasta Kohaan toimii, korjattu myös mobiilinumeron kopioituminen mobile-kentästä sms-kenttään
 * Kerätään kysymyksiä, ei toimivia ja toimivia juttuja Kohasta käyttäjiltä helmikuun lopun Kysy Kohasta-webinaariin
 * Virkailijaoikeuksia tarkistettu, mutta ongelmana  raportit, jotka antavat liikaa tietoa
+
+**Lumme**
+* Lumme: vanhentuneet varaukset eivät poistu - satunnainen mutta toistuva ongelma#356. Tehty tiketti 9.1., Emmi hoitaa asiaa
+* Asiakkaalla näkyi Palautusilmoitukset välilehdellä palautusilmoituksia. Väittää palauttaneensa toiminto (https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Uusia_ominaisuuksia#Ilmoittaa-palauttaneensa-toiminto). Piilotus Intranetusercss  /*Piilotetaan asiakastietojen sivulla näkyvä 'Palautusilmoitukset' nappula (eng. 'Claims')*/ ul.nav.nav-tabs li a#return-claims-tab { display:none;}
 
 
 ## Viikko 1 muistio
