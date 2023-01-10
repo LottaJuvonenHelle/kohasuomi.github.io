@@ -13,12 +13,13 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2 muistio
 
 Aika: 10.1.2023 klo 9.15<br />
-Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI), Tuomas Kunttu (Kyyti)
+Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI), Tuomas Kunttu (Kyyti), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Johanna Miettunen (3AMK)
 
 **Yhteiset**
-* Vkon 2 päivitys
+* [Vkon 2 päivitys](https://github.com/KohaSuomi/Koha/discussions/357)
 * Keskiviikon huoltokatko / Kodo
-* Keskiviikon Kirkes-kimpan järjestelmäasetuskoulutus siirretty puoli tuntia myöhemmäksi ja Jitsiin. Uusi aika ja paikka päivitetty [koulutustiedotteeseen](https://github.com/KohaSuomi/Koha/discussions/320)
+  * Huoltokatkon aikana vaihdetaan viallisia muistikampoja. [Toimintasuunnitelma](https://koha-suomi.fi/kohasuomi2023#tammikuun-huoltokatkon-toimintasuunnitelma) 
+* Keskiviikon Kirkes-kimpan järjestelmäasetuskoulutus siirretty puoli tuntia myöhemmäksi ja Jitsiin. Uusi aika ja paikka päivitetty [koulutustiedotteeseen](https://github.com/KohaSuomi/Koha/discussions/320).
 
 **Vaski**
 * Vaski-tasoinen kellutuskokeilu aloitettu eilen, kokeilussa kellutetaan vain musiikki cd:itä.
