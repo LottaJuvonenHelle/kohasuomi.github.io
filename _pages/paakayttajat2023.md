@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2 muistio
 
 Aika: 10.1.2023 klo 9.15<br />
-Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * Vkon 2 päivitys
@@ -47,6 +47,10 @@ Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen
 * OUTIssa myös tuplasti veloitettuja maksuja, asia selvityksessä.
 * Henkilökunnalta kyselyä liittyen ongelmiin kausijulkaisujen vastaanottamisessa tilauskauden päättymisen jälkeen. Ratkaisuna tilauskauden jatkaminen.
 * Muuten normaalia ylläpitoa.
+
+**Kyyti**
+* Keskusteltiin pitkään maksuista, jotka asiakkaat ovat maksaneet kahteen kertaan Finnassa. Toistaiseksi näitä lienee syytä seurata raporteilla.
+* CD-levyjen laina-aika muuttuu. Tehty tiketti #358 nidetyyppimuutokselle.
 
 ## Viikko 1 muistio
 
