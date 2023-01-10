@@ -13,13 +13,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2 esityslista
 
 Aika: 10.1.2023 klo 9.15<br />
-Läsnä:
+Läsnä: Anni Rajala (Vaski)
 
 **Yhteiset**
 * Vkon 2 päivitys
 * Keskiviikon huoltokatko / Kodo
 * Keskiviikon Kirkes-kimpan järjestelmäasetuskoulutus siirretty puoli tuntia myöhemmäksi ja Jitsiin. Uusi aika ja paikka päivitetty [koulutustiedotteeseen](https://github.com/KohaSuomi/Koha/discussions/320)
-* 
+
+**Vaski**
+* Vaski-tasoinen kellutuskokeilu aloitettu eilen, kokeilussa kellutetaan vain musiikki cd:itä.
+* Havaittu, että tilaussanoman käsittely epäonnistunuu välillä ensimmäisellä yrityksellä (https://github.com/KohaSuomi/Koha/issues/353). Tätä saatu jo selviteltyä ja liittyy ilmeisesti ElasticSearch-ongelmaan.
 
 ## Viikko 1 muistio
 
