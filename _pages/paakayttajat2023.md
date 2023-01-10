@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2 esityslista
 
 Aika: 10.1.2023 klo 9.15<br />
-Läsnä: Anni Rajala (Vaski)
+Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Vkon 2 päivitys
@@ -23,6 +23,15 @@ Läsnä: Anni Rajala (Vaski)
 **Vaski**
 * Vaski-tasoinen kellutuskokeilu aloitettu eilen, kokeilussa kellutetaan vain musiikki cd:itä.
 * Havaittu, että tilaussanoman käsittely epäonnistunuu välillä ensimmäisellä yrityksellä (https://github.com/KohaSuomi/Koha/issues/353). Tätä saatu jo selviteltyä ja liittyy ilmeisesti ElasticSearch-ongelmaan.
+
+
+**Lappi**
+* Ylimääräisiä tuplasti veloitettuja maksuja 37 kpl, muutama Finnasta ja enemmän Kemin Ceepokselta. Liittynee tikettiin #351
+* Muistutettu varalainausjärjestelmästä, suositeltu KOCT:ia. Yhdellä tunnuksella pääsy ei onnistu. 
+* SMS-numeron siirto Finnasta Kohaan toimii, korjattu myös mobiilinumeron kopioituminen mobile-kentästä sms-kenttään
+* Kerätään kysymyksiä, ei toimivia ja toimivia juttuja Kohasta käyttäjiltä helmikuun lopun Kysy Kohasta-webinaariin
+* Virkailijaoikeuksia tarkistettu, mutta ongelmana  raportit, jotka antavat liikaa tietoa
+
 
 ## Viikko 1 muistio
 
