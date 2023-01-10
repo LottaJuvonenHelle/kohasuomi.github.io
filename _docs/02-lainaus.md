@@ -743,8 +743,7 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 
 ### 2.12.2 Koha Offline Circulation Tool (KOCT)
 
-http://manual.koha-community.org/3.16/en/offlinecirc.html  
-englanninkielinen lisäosa, jota ei ole käännetty suomeksi.
+Englanninkielinen lisäosa.
 
 [Ohje pdf-muodossa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/d1dc796fbb0a91ac574f2e5e628df28ecd894eb5/assets/files/Koha%20Offline%20Circulation%20Tool%20(KOCT).pdf)
 
