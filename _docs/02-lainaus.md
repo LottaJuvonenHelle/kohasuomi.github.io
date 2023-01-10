@@ -742,6 +742,8 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 [Ohjelman asennus- ja käyttöohje PDF-muodossa]
 (https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Lainaus/Koha%20Offline%20Circulation.pdf)
 
+https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Lainaus/Koha%20Offline%20Circulation.pdf
+
 ### 2.12.2 Koha Offline Circulation Tool (KOCT)
 
 Englanninkielinen lisäosa.
