@@ -45,7 +45,8 @@ __Aiheita__
 10. DB2 (Dan) alas, kampojen vaihto ja palvelin ylös, varmistetaan että replikointi jatkuu oikein. Tässä vaiheessa raportit eivät toimi oikein ennenkuin DB2 saadaan takaisin linjoille.
 11. P1 palomuuri alas, P2:n pitäisi tässä kohtaa ottaa ohjat huomattuaan ykkösen menneen alas. Mahdollisesti tunneleiden siirtymiseen liittyvä viive voi tulla näkyväksi tässä kohtaa. Tätä on pyritty kompensoimaan antamalle P2:lle mahdollisimman paljon aikaa neuvotella tunnelit uudestaan.
 12. Vaihdetaan kammat P1:lle ja nostetaan se takaisin ylös, liikenne palautetaan illalla takaisin kulkemaan P1:n kautta.
-13. Nostellaan testikontit ja Redmine takaisin kunhan ehditään.
+13. Laitetaan asiakasviestintä takaisin käyttöön.
+14. Nostellaan testikontit ja Redmine takaisin kunhan ehditään.
 
 ## Viikko 1 muistiot
 
