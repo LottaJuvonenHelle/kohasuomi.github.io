@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 2 esityslista
+## Viikko 2 muistio
 
 Aika: 10.1.2023 klo 9.15<br />
-Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), 
+Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * Vkon 2 päivitys
@@ -38,6 +38,10 @@ Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen
 
 **Siilinjärvi**
 * ei mainittavaa
+
+**Vaara**
+* Myös Vaarassa tuplasti veloitettuja/kuitattuja maksuja eli asiakkailla plussaldoa.
+* Muuten normaalia ylläpitoa.
 
 
 ## Viikko 1 muistio
