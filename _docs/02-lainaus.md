@@ -740,7 +740,7 @@ Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
 ### 2.12.1. Offline lainausohjelma Windowsille (KOC)
 
 [Ohjelman asennus- ja käyttöohje PDF-muodossa]
-(https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/KohaOfflineCirculation-ohje.pdf)
+(https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Lainaus/Koha%20Offline%20Circulation.pdf)
 
 ### 2.12.2 Koha Offline Circulation Tool (KOCT)
 
