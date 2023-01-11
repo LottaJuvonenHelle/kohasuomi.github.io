@@ -68,7 +68,7 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakk
     *  työnjakoasia: voisiko alkuperäinen tiketin tekijä tehdä bugi-ilmoituksen myös bugzillaan? Päätös: alkuperäinen tiketin tekijä tekee, muut auttaa tarvittaessa.
 * [Varauksen tiedot lokilla](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Varauksen-tiedot-lokilla) -raportin kuvaus päivitetty vastaaman nykyversiota.
 * [Viikon 1 päivitys](https://github.com/KohaSuomi/Koha/discussions/347)
-* Kaikki kimpat käy läpi Redminessä Palaute-projektissa olevat tiketit ja sulkee valmiit ja sellaiset, jotka eivät ole enää ajankohtaisia. Lopuista katsotaan, mitkä kannattaa siirtää uusiksi tiketeiksi GitHubiin.
+* Kaikki kimpat käy läpi tammikuun loppuun mennessä Redminessä Palaute-projektissa olevat tiketit ja sulkee valmiit ja sellaiset, jotka eivät ole enää ajankohtaisia. Lopuista katsotaan, mitkä kannattaa siirtää uusiksi tiketeiksi GitHubiin.
 
 **Vaara**
 * Kysymys Finnassa tapahtuneista varauksista ja niiden poistumisesta muilta kimpoilta. Ainoastaan Lapissa oli vastaava tapaus viime viikolla. Tutkitaan vielä asiaa.
