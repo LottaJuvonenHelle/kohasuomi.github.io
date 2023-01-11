@@ -54,7 +54,7 @@ Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen
 * CD-levyjen laina-aika muuttuu. Tehty tiketti #358 nidetyyppimuutokselle.
 
 **Helle**
-* Koha-näytön yläreunaan lisätyt omat linkit eivät näy enää päällekkäin pienemmillä näytöillä, kun käyttöön on otettu alasvetovalikko osalle omista linkeistä. 
+* Koha-näytön yläreunaan lisätyt omat linkit eivät ole enää päällekkäin pienemmillä näytöillä, kun osa omista linkeistä niputettiin samaan alasvetovalikkoon. 
 
 ## Viikko 1 muistio
 
