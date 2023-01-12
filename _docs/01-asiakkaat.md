@@ -151,7 +151,7 @@ Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita
 Sotu-siiloon on olemassa myös toinen käyttöliittymä, jonka kautta
 esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
 sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
-Sotuteekistä tarkemmin Koha ohje suomeksi kohdassa 12.16.3 Sotuteekki(https://koha-suomi.fi/dokumentaatio/tyokalut/#12163-sotuteekki)
+Sotuteekistä tarkemmin Koha ohje suomeksi kohdassa [12.16.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12163-sotuteekki)
 
 ---
 
