@@ -673,11 +673,11 @@ nimeä pääset näkemään koko viestin.
 Koha-Suomessa käytössä: printti, sms, sposti, suomi.fi
 
 \- _Tila_-sarakkeesta näkee viestin lähetyksen tilan  
-lähetetty: viesti on lähetetty eteenpäin järjestelmästä varsinaiseen
+_lähetetty_: viesti on lähetetty eteenpäin järjestelmästä varsinaiseen
 lähettävään järjestelmään  
-odottaa: viestiä ei ole vielä lähetetty eteenpäin lähettävään
+_odottaa_: viestiä ei ole vielä lähetetty eteenpäin lähettävään
 järjestelmään  
-\\**\\** epäonnistunut: viestin lähetys on epäonnistunut. Osa
+_epäonnistunut_: viestin lähetys on epäonnistunut. Osa
 lähettävistä järjestelmistä (esim. tekstiviestioperaattorit) palauttaa
 Kohaan epäonnistumisen syyn, jolloin se näkyy
 Toimitushuomautus-sarakkeessa.
@@ -700,7 +700,7 @@ luontiajankohdasta.
   tekstiviestejä, tai operaattorin päässä on häiriö.  
   _Recipient is temporarily unreachable_ tarkoittaa, että vastaanottajaan
   ei ole saatu yhteyttä  
-  \\**\\** _ERROR 4 2 messages failed: Unallowed recipient phone number_
+  _Unallowed recipient phone number_
   tarkoittaa, että asiakkaan puhelinnumerossa on jotain vikaa tai se on
   väärässä muodossa (esim. lankapuhelin)
 
@@ -720,9 +720,9 @@ asiakkaan tiedoissa Hankintaehdotukset-osiossa.
 ![](/assets/files/docs/Asiakkaat/hankintaehdotukset.png)
 
 Samalla sivulla voi myös tehdä asiakkaan puolesta hankintaehdotuksen.
-Paina “Uusi hankintaehdotus” -nappia, jolloin avautuu lomake. Täytä
+Paina _Uusi hankintaehdotus_ -nappia, jolloin avautuu lomake. Täytä
 vähintään punaisella merkityt pakolliset tiedot ja paina sitten
-lomakkeen alareunasta “Lähetä ehdotuksesi”.
+lomakkeen alareunasta _Lähetä ehdotuksesi_.
 
 ![](/assets/files/docs/Asiakkaat/teeuusihankintaehdotus.png)
 
@@ -732,14 +732,14 @@ lomakkeen alareunasta “Lähetä ehdotuksesi”.
 
 Asiakkaan tietojen alapuolella on taulukkonäkymässä asiakkaan lainat,
 maksut, varaukset ja rajoitukset. Lainoihin pääsee klikkaamalla
-“Lainassa”-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksuja.
+_Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksuja.
 
 ![](/assets/files/docs/Asiakkaat/lainat.png)
 
-Tällä näytöllä näkyy myös asiakkaan huollettavien lainat Perheen lainat
+Tällä näytöllä näkyy myös asiakkaan huollettavien lainat _Perheen lainat_
 -välilehdellä. Huollettavalla näkyy myös perheen sisarusten
 lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
-Lainoista on tarkemmin Koha-ohje suomeksi kohdassa 2.4. Asiakkaan lainat
+Lainoista on tarkemmin Koha-ohje suomeksi kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
