@@ -214,7 +214,7 @@ muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikos
 
 ![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
 
-Syötä _Yhteystiedot_-osiossa asiakkaan puhelinnumero (lankapuhelinnumero _Lankapuhelin-kenttään_ ja matkapuhelinnumero
+Syötä _Yhteystiedot_-osiossa asiakkaan puhelinnumero (lankapuhelinnumero _Lankapuhelin_-kenttään ja matkapuhelinnumero
 _Matkapuhelin_-kenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
 asiakas haluaa varausilmoitukset tekstiviestinä. Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät.
 
