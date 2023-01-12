@@ -48,6 +48,15 @@ __Aiheita__
 13. Laitetaan asiakasviestintä takaisin käyttöön.
 14. Nostellaan testikontit ja Redmine takaisin kunhan ehditään.
 
+### Torstain palaveri
+
+Aika: 12.1.2023 klo 10<br />
+Läsnä:
+
+* Viikon 3 päivitys
+* Käännökset - messages.js.po-tiedoston kaikki käännökset eivät näy
+* 
+
 ## Viikko 1 muistiot
 
 ### Maanantain palaveri
