@@ -497,7 +497,7 @@ Jos asiakas on edelleen alaikäinen, niin päivitys henkilöasiakkaaksi ei ole m
 
 Takaajatiedot pääsee muokkaamaan _Muokkaa_-painikkeen takaa. Kohdassa _Asiakastakaaja_ voit sekä poistaa että lisätä takaajan. 
 
-Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa _Tallenna:. 
+Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa _Tallenna_. 
 
 ![](/assets/files/docs/Asiakkaat/Poistatakaaja.png)
 
@@ -528,12 +528,12 @@ palvelimelle eräajona kuvia
 ![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset.png)
 
 Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
-kadonneeksi klikkaamalla "Kyllä" Kortti kadonnut -kohdassa. Lainausnäytöllä tulee ilmoitus Kadonnut: Asiakkaan kortti on kadonnut.
+kadonneeksi klikkaamalla _Kyllä_ Kortti kadonnut -kohdassa. Lainausnäytöllä tulee ilmoitus _Kadonnut: Asiakkaan kortti on kadonnut_.
 
 ![](/assets/files/docs/Asiakkaat/kadonnutkortti.png)
 
 Jos haluat lainauksen virkailijan tarkistavan asiakkaan osoitteen ennen
-lainaamista, laita valinta “Kyllä” päälle Tarkista osoite -kohdassa. Lainausnäytöllä tulee ilmoitus Osoite: Tarkista osoite.
+lainaamista, laita valinta _Kyllä_ päälle Tarkista osoite -kohdassa. Lainausnäytöllä tulee ilmoitus _Osoite: Tarkista osoite_.
 
 ![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
 
@@ -541,37 +541,37 @@ Molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta k
 
 #### 1.5.10.2. Asiakkaan rajoitukset
 
-Asiakkaalle lisätään vapaamuotoinen rajoite joko lainausnäytöllä välilehdellä "Rajoitukset" tai asiakkaan tiedot-näytöllä välilhedellä "Rajoitukset" tai "Muokkaa"-painikkeen takaa.
+Asiakkaalle lisätään vapaamuotoinen rajoite joko lainausnäytöllä välilehdellä _Rajoitukset_ tai asiakkaan tiedot-näytöllä välilehdellä _Rajoitukset_ tai _Muokkaa_-painikkeen takaa.
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus3.png)
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset1.png)
 
-Klikkaa kohdasta "Lisää rajoitus", kirjoita selityskenttään rajoituksen syy. Tallenna "Lisää rajoitus"-painikkeella. 
+Klikkaa kohdasta _Lisää rajoitus_, kirjoita selityskenttään rajoituksen syy. Tallenna _Lisää rajoitus_-painikkeella. 
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus4.png)
 
-Muokkaa-painikkeen kautta lisätty rajoite tallennetaan "Tallenna" -painikkeella. 
+Muokkaa-painikkeen kautta lisätty rajoite tallennetaan _Tallenna_ -painikkeella. 
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaanrajoitukset2.png)
 
-Rajoitteelle voi tarvittaessa määrittää automaattisen päättymisajan Vanhenee -kenttään. Vain myöhäisin päättymispäivämäärä näkyy 
+Rajoitteelle voi tarvittaessa määrittää automaattisen päättymisajan Vanhenee-kenttään. Vain myöhäisin päättymispäivämäärä näkyy 
 lainausnäytöllä, kun rajoitteita on enemmän kuin yksi ja niille on asetettu päättymispäivämäärä. Jos et määritä päättymisaikaa, on rajoite voimassa toistaiseksi. 
 
 ![](/assets/files/docs/Asiakkaat/Rajoitettu.png)
 
-Rajoitteet voi ohittaa klikkaamalla “Ohita rajoitus tilapäisesti”. Tässä toimitaan kirjaston/kimpan ohjeiden mukaan.
+Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toimitaan kirjaston/kimpan ohjeiden mukaan.
 
 ![](/assets/files/docs/Asiakkaat/Rajoitukset6.png)
 
-Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä “Muut määreet ja tunnukset”-kohdassa.
+Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä _Muut määreet ja tunnukset_-kohdassa.
 
 ## 1.6. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
 Jos järjestelmäasetuksissa annetaan asiakkaille oikeus muuttaa tietojaan
 verkkokirjaston kautta, täytyy muutokset hyväksyä virkailijaliittymän
 kautta ennen niiden voimaantuloa. Jos järjestelmässä on hyväksymistä
-odottavia muutoksia, niistä näkyy linkki "Tietojensa muokkaamista haluavat asiakkaat"
+odottavia muutoksia, niistä näkyy linkki _Tietojensa muokkaamista haluavat asiakkaat_
 Kohan etusivulla. 
 
 ![](/assets/files/docs/Asiakkaat/Etusivunlinkki.png)
@@ -597,7 +597,7 @@ useita eri välilehtiä, joilla on erilaisia tietoja.
 ![](/assets/files/docs/Asiakkaat/vasen.png)
 
 ### 1.7.1. Lainaus
-Lainaus-välilehden toiminnot on kuvattu tarkemmin Koha Ohje suomeksi -ohjeen kohdassa 2. Lainaaminen
+Lainaus-välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen kohdassa 2. [Lainaaminen](https://koha-suomi.fi/dokumentaatio/lainaus/)
 
 ### 1.7.2. Tiedot
 
