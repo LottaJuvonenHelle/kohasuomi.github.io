@@ -612,7 +612,7 @@ Takaajan tietueessa näkyy kaikkien huollettavien tiedot kohdassa Taattavat.
 
 ### 1.7.3. Maksut
 
-Maksut -välilehden toiminnot on kuvattu tarkemmin Koha ohje suomeksi -ohjeen kohdassa 3. Maksut 
+Maksut -välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen kohdassa [3. Maksut](https://koha-suomi.fi/dokumentaatio/maksut/) 
 
 ### 1.7.4. Kiertolistat
 
@@ -655,8 +655,8 @@ nide on lainattu tai asiakkaan kirjautuminen automaatille
   tulee silloin, kun asiakkaan tietoihin on otettu yhteyttä restin kautta
   esim. Ceepos ja Ellibs.
   
-  Huom. Muutoslokiin pääsee myös Työkalujen kautta. Se on ohjeistettu Koha ohje suomeksi -ohjeen 
-  kohdassa 12.15 Lokien katselu
+  Huom. Muutoslokiin pääsee myös Työkalujen kautta. Se on ohjeistettu Kohan ohje suomeksi -ohjeen 
+  kohdassa [12.14 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#1214-lokien-katselu)
 
 ### 1.7.6. Ilmoitukset
 
