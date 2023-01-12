@@ -13,7 +13,7 @@ hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla.
 
 ## 1.1. Asiakkaan hakeminen
 
-Klikkaamalla linkkiä Asiakkaat saat hakulaatikon, jossa voit selata tai
+Klikkaamalla linkkiä _Asiakkaat_ saat hakulaatikon, jossa voit selata tai
 hakea asiakkaiden tietoja. Haku toimii millä tahansa nimen osalla tai
 kortin numerolla.
 
@@ -52,7 +52,7 @@ Anna asiakkaan kirjastokortin numero tai osa siitä.
 
 \- Lankapuhelin:  
 Anna lankapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
-tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. Haettaessa
+tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. haettaessa
 numeroa (013) 267 6200 voit kirjoittaa sen juuri samalla tavalla tai
 muodossa 013 267 6200.
 
@@ -62,7 +62,7 @@ huomioiden) ja valitse hakutyypiksi _sisältää_.
 
 \- Syntymäaika:  
 Ohjeteksti ilmestyy kertomaan missä muodossa syntymäaika pitää antaa.
-Muoto PP.KK.VVV tarkoittaa, että päivät, kuukausi ja vuosi erotetaan
+Muoto PP.KK.VVVV tarkoittaa, että päivät, kuukausi ja vuosi erotetaan
 toisistaan pisteellä.
 
 \- Etunimi:
@@ -73,7 +73,7 @@ Anna asiakkaan varaustunniste.
 
 \- Matkapuhelin:
 Anna matkapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
-tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. Haettaessa
+tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. haettaessa
 numeroa 0442676200 voit kirjoittaa sen juuri samalla tavalla tai
 muodossa 044 267 6200.
 
@@ -98,7 +98,7 @@ Sivulla on alasvetovalikkovaihtoehdot: +Uusi asiakas ja +Asiakkaan pikalisäys. 
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas2.png)
 
-Klikkaa Uusi asiakas, saat alasvetovalikon, josta valitset asiakkaan
+Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset asiakkaan
 tyypin.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas3.png)
@@ -114,7 +114,7 @@ tunnus, mutta täyttää tunnuksen ominaisuudet tarkistusmerkkiä myöten.
 Sotuavaimella muodossa “sotuxxxx” voi hakea asiakkaan tiedot esille,
 mutta henkilötunnus ei näy.
 
-Syötä Lisää hetu-kohtaan asiakkaan henkilötunnus.
+Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus.
 
 ![](/assets/files/docs/Asiakkaat/Lisaahetu.png)
 
@@ -123,8 +123,8 @@ Jos henkilötunnusta ei ole ennestään sotu-siilossa, siitä tulee ilmoitus
 
 ![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
 
-Sotu-avain siirtyy automaattisesti asiakastietoihin Muut määritteet ja
-tunnukset -kohtaan kenttään Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain
+Sotu-avain siirtyy automaattisesti asiakastietoihin _Muut määritteet ja
+tunnukset_ -kohtaan kenttään Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain
 (kentän nimi voi vaihdella kimpan mukaan).
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain.png)
@@ -137,12 +137,12 @@ Jos syötetty henkilötunnus on jo sotu-siilossa, järjestelmä tutkii automaatt
 henkilötunnuksen sotuavaimella asiakastietoja. 
 
 Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
-tallentamista käyttäen sotu-siilon antamaa sotu-avainta.
+tallentamista käyttäen sotu-siilon antamaa sotuavainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
 Jos asiakastiedot löytyvät, niin käyttäjälle tulee ilmoitus "Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin." 
-Klikkaamalla OK käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita tarvittaessa muokataan.
+Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita tarvittaessa muokataan.
 
 ![](/assets/files/docs/Asiakkaat/Sotu3.png)
 
@@ -151,7 +151,7 @@ Klikkaamalla OK käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita t
 
 Sotu-siiloon on olemassa myös toinen käyttöliittymä, jonka kautta
 esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
-sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
+sotuavaimella. Heillä on erilliset tunnukset tarkistusta varten.
 Sotuteekistä tarkemmin Koha ohje suomeksi kohdassa 12.17.3 Sotuteekki
 
 ---
@@ -171,7 +171,7 @@ häntä ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:
 ### 1.2.3. Takaaja
 
 Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa
-“Lisää takaaja” -nappia, niin pääset hakemaan rekisteristä lapselle
+_Lisää takaaja_ -nappia, niin pääset hakemaan rekisteristä lapselle
 takaajan.
 
 ![](/assets/files/docs/Asiakkaat/Lisaatakaaja.png)
@@ -181,7 +181,7 @@ alasvetovalikoista sopivat vaihtoehdot.
 
 ![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
-Saat listan hakuun sopivista asiakkaista. Klikkaa oikealta “Valitse”-painiketta
+Saat listan hakuun sopivista asiakkaista. Klikkaa oikealta _Valitse_-painiketta
 oikean henkilön kohdalla. 
 
 Valitse alasvetovalikosta takaajan suhde asiakkaaseen Huom. alasvetovalikon vaihtoehdot voivat vaihdella kimpoissa.
@@ -208,15 +208,15 @@ Kimppakohtainen.
 
 ### 1.2.4. Yhteystiedot
 
-Osoite-osiossa “Kunta” tarkoittaa käytännössä postitoimipaikkaa, ei
+Osoite-osiossa _Kunta_ tarkoittaa käytännössä postitoimipaikkaa, ei
 pelkästään kotikuntaa. Englanninkielistä sanaa City ei voi kääntää
 postitoimipaikaksi tässä kohti, koska sama sana on kunta-merkityksessä
 muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikosta tai kirjoittaa ne itse.
 
 ![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
 
-Syötä Yhteystiedot-osiossa asiakkaan puhelinnumero (lankapuhelinnumero Lankapuhelin-kenttään ja matkapuhelinnumero
-Matkapuhelin-kenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
+Syötä _Yhteystiedot_-osiossa asiakkaan puhelinnumero (lankapuhelinnumero _Lankapuhelin-kenttään_ ja matkapuhelinnumero
+_Matkapuhelin_-kenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
 asiakas haluaa varausilmoitukset tekstiviestinä. Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät.
 
 Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa 
@@ -242,57 +242,56 @@ Kirjastonhallinta-osio sisältää kirjaston käyttöön liittyviä tietoja.
 ![](/assets/files/docs/Asiakkaat/kirjastohallinta.png)
 
 \- Lue asiakkaan kirjastokortin numero ylimmäisenä olevaan
-“Kirjastokortin numero” -kenttään.
+_Kirjastokortin numero_ -kenttään.
 
-\- Kirjasto-kenttään valitaan asiakkaan kotikirjasto, jota järjestelmä
+\- _Kirjasto_-kenttään valitaan asiakkaan kotikirjasto, jota järjestelmä
 ehdottaa mm. varausta tehtäessä noutokirjastoksi.
 
-\- Tyyppi-kohdassa voi vaihtaa asiakastyypin. Huom! Jos tässä kohtaa
+\- _Tyyppi_-kohdassa voi vaihtaa asiakastyypin. Huom! Jos tässä kohtaa
 vaihtaa asiakastyypin, muutos ei tuo esille mm. takaajatieto-kenttää tai
 poista sitä näkyvistä. Tätä ei kannata muuttaa. Aloita mielummin alusta,
 jos valitsit alussa väärän asiakastyypin.
 
-\- Valitse asiakasviestien kieli kohdassa “Ilmoitusten kieli”.
+\- Valitse asiakasviestien kieli kohdassa _Ilmoitusten kieli_.
 
 #### 1.2.5.2 Kirjaston asetukset-osio
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko1.png)
 
-\- Tullut asiakkaaksi -päivämäärä tulee automaattisesti kuluvan päivän
+\- _Tullut asiakkaaksi_ -päivämäärä tulee automaattisesti kuluvan päivän
 mukaiseksi.
 
-\- Vanhentuu -kohtaan ei tarvitse merkitä mitään. Tieto tulee
+\- _Vanhentuu_ -kohtaan ei tarvitse merkitä mitään. Tieto tulee
 automaattisesti asiakaslajille tehtyjen määritysten mukaan.
 
-\- Huomautus (näkyy verkkokirjastossa) -kohtaan voi merkitä
+\- _Huomautus_ (näkyy verkkokirjastossa) -kohtaan voi merkitä
 huomautuksen, jonka asiakas näkee verkkokirjastosta. Huomautus
 näkyy OPACissa ja Finnassa.
 
-Finnassa se näkyy Omat tiedot-välilehdellä "Kirjastokortin asetukset"-laatikossa.
+Finnassa se näkyy Omat tiedot-välilehdellä _Kirjastokortin asetukset_-laatikossa.
 
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko2.png)
 
-\- Huomautus (näkyy virkailijatyökalussa) -laatikossa oleva huomautus
+\- _Huomautus (näkyy virkailijatyökalussa)_ -laatikossa oleva huomautus
 näkyy Kohassa virkailijoille tiedot- ja lainausnäytöllä.
 
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko.png)
 
 #### 1.2.5.3. Kirjautumistunnus-osio
-Kirjautusmistunnus-osioon voi lukea esim. kirjastokortin numeron tai
+_Kirjautumistunnus_-osioon voi lukea esim. kirjastokortin numeron tai
 erillisen käyttäjätunnuksen, jolla asiakas voi kirjautua
 verkkokirjastoon. Huom! Kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Asiakkaat/kirjautumistunnus.png)
 
-Tässä tallennettu käyttäjätunnus näkyy asiakkaan Tiedot-välilehdellä.
+Tässä tallennettu käyttäjätunnus näkyy asiakkaan _Tiedot_-välilehdellä.
 
 #### 1.2.5.4. Muut määritteet ja tunnukset
 
 Tähän täytetään mm. Järjestelmäavain asiakastietojen lähetykseen. 
 
-Henkilötunnuksen lisäyksen yhteydessä sotu-avain siirtyy automaattisesti tähän Sotu-avain-kenttään. 
+Henkilötunnuksen lisäyksen yhteydessä sotuavain siirtyy automaattisesti tähän Sotuavain-kenttään. 
 
-Myös muita kimppakohtaisia määritteitä voi
-olla käytössä.
+Myös muita kimppakohtaisia määritteitä voi olla käytössä.
 
 ![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset1.png)
 
