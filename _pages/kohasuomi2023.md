@@ -54,8 +54,18 @@ Aika: 12.1.2023 klo 10<br />
 Läsnä:
 
 * Viikon 3 päivitys
+  * 350 - osa, Pasi päivittää tikettiin, mitä tulee mukaan.
+  * 308
+  * https://tiketti.koha-suomi.fi/issues/5600
 * Käännökset - messages.js.po-tiedoston kaikki käännökset eivät näy
-* 
+* testien pienennys
+  * dumppi, josta jätetään isoja tauluja pois
+  * otetaan tyyliin 5000 viimeisintä (tai jokin muu setti) tietuetta ja niihin liittyvät niteet/lainat
+  * Emmi katsoo taulut ja Pasi katsoo datan poiminnan
+  * Kodo tekee Vaskin next-testin, koska sinne tulee kaikki mahdollinen mukaan
+* Kun kontteja siirtelee nodelta toiselle, voi lxc vetää maton alta kontilta ennen kuin indeksit ehditään saada kokonaan levylle. Kontissa, joka siirretään, pitää ajaa elastictmpfs synctodisk (esimerkiksi nodelta kogo [kontti] sudo elastictmpfs synctodisk). Kirjoitetaan tämä osaksi koctl:ää kun ehditään, mutta tässä vaiheessa siis pitää tehdä manuaalisesti.
+* principioon dokumentaatio, mitä tehdään huoltokatkon aikana
+* keskiviikkona ei saatu vaihdettua palomuurien muistikampoja, koska ne oli vielä Kuopiossa postin hallussa. Nämä vaihdetaan helmikuun käyttökatkossa. 
 
 ## Viikko 1 muistiot
 
