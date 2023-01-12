@@ -649,7 +649,7 @@ tapahtunut
 \- _Tiedot-sarake_ kertoo tarkemmin mitä tapahtuma koskee esim. mikä
 nide on lainattu tai asiakkaan kirjautuminen automaatille
 
-- _Käyttöliittymä-sarakkeesta_ näkee onko loki kertynyt
+\- _Käyttöliittymä-sarakkeesta_ näkee onko loki kertynyt
   virkailijaliittymästä (intranet), Kohan verkkokirjastosta tai Finnasta
   (opac) tai palautus-/lainausautomaatilta (sip, opac). Rest-merkintä
   tulee silloin, kun asiakkaan tietoihin on otettu yhteyttä restin kautta
@@ -686,7 +686,7 @@ Toimitushuomautus-sarakkeessa.
 kun viestiä yritetään lähettää uudelleen eli kyse ei ole viestin
 luontiajankohdasta.
 
-- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen
+\- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen
   epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä
   tekstiviestioperaattorit palauttavat virheen syyn.  
   _Message is duplicate_ tarkoittaa, että Koha on hylännyt viestin, koska
