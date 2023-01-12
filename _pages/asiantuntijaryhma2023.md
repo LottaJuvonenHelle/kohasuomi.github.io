@@ -38,27 +38,27 @@ Asiakas-sivulla on piilotettu vasemmasta reunasta ns. infoboksi, jossa on asiakk
 
 Käydään läpi Koha-Suomen tiekartan tilanne ja päivitetään se ajantasalle.
 
-[TiekarttaTammikuu2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/10400021/TiekarttaTammikuu2023.pdf)
-[Tiekartta2023tammikuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/10400023/Tiekartta2023tammikuu.xlsx)
+* [TiekarttaTammikuu2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/10400021/TiekarttaTammikuu2023.pdf)
+* [Tiekartta2023tammikuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/10400023/Tiekartta2023tammikuu.xlsx)
 
 ### 5. Kehitysehdotusten läpikäyntiä
 
 Käydään läpi alla mainitut kehitysehdotukset ja päätetään, toteutetaanko ne vai ei.
 
-https://github.com/KohaSuomi/Koha/issues/216
-https://github.com/KohaSuomi/Koha/issues/233
-https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/2
-https://tiketti.koha-suomi.fi/issues/5434
-https://tiketti.koha-suomi.fi/issues/5440
-https://tiketti.koha-suomi.fi/issues/5493
-https://tiketti.koha-suomi.fi/issues/5494
-https://tiketti.koha-suomi.fi/issues/5525
-https://tiketti.koha-suomi.fi/issues/5562
-https://tiketti.koha-suomi.fi/issues/5566
-https://tiketti.koha-suomi.fi/issues/5577
-https://tiketti.koha-suomi.fi/issues/5588
-https://tiketti.koha-suomi.fi/issues/5589
-https://tiketti.koha-suomi.fi/issues/5609
+* https://github.com/KohaSuomi/Koha/issues/216
+* https://github.com/KohaSuomi/Koha/issues/233
+* https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/2
+* https://tiketti.koha-suomi.fi/issues/5434
+* https://tiketti.koha-suomi.fi/issues/5440
+* https://tiketti.koha-suomi.fi/issues/5493
+* https://tiketti.koha-suomi.fi/issues/5494
+* https://tiketti.koha-suomi.fi/issues/5525
+* https://tiketti.koha-suomi.fi/issues/5562
+* https://tiketti.koha-suomi.fi/issues/5566
+* https://tiketti.koha-suomi.fi/issues/5577
+* https://tiketti.koha-suomi.fi/issues/5588
+* https://tiketti.koha-suomi.fi/issues/5589
+* https://tiketti.koha-suomi.fi/issues/5609
 
 
 ### 6. Työryhmien vuosisuunnitelmat
