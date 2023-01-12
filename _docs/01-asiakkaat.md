@@ -151,7 +151,7 @@ Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita
 Sotu-siiloon on olemassa myös toinen käyttöliittymä, jonka kautta
 esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
 sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
-Sotuteekistä tarkemmin Koha ohje suomeksi kohdassa [12.16.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12163-sotuteekki)
+Sotuteekistä tarkemmin Kohan ohje suomeksi kohdassa [12.16.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12163-sotuteekki)
 
 ---
 
@@ -288,7 +288,7 @@ Tässä tallennettu käyttäjätunnus näkyy asiakkaan _Tiedot_-välilehdellä.
 
 Tähän täytetään mm. Järjestelmäavain asiakastietojen lähetykseen. 
 
-Henkilötunnuksen lisäyksen yhteydessä sotuavain siirtyy automaattisesti tähän Sotuavain-kenttään. 
+Henkilötunnuksen lisäyksen yhteydessä sotu-avain siirtyy automaattisesti tähän Sotu-avain-kenttään. 
 
 Myös muita kimppakohtaisia määritteitä voi olla käytössä.
 
@@ -317,7 +317,7 @@ varauksesta.
 
 \- Lisää “Tekstiviesti numeroon” -kenttään asiakkaan puhelinnumero, johon hän haluaa viestien saapuvan.
 Huom. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos asiakas 
-haluaa varausilmoitukset tekstiviestinä. Testiviesti-vaihtoehtoon ei 
+haluaa varausilmoitukset tekstiviestinä. Tekstiviesti-vaihtoehtoon ei 
 voi laittaa rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
 - SMS-palveluntuottaja-kohtaan ei tarvitse valita mitään. Ominaisuus ei
@@ -339,8 +339,8 @@ voi laittaa rastia, jos tässä kentässä ei ole puhelinnumeroa.
 Lopuksi tallenna tiedot.
 
 Jos järjestelmä epäilee, että olet tekemässä tupla-asiakkaan, saat siitä
-huomautuksen. Jos olet varma, että kyseessä ei ole kopio, valitse “Ei
-kopio. Tallenna uutena tietueena”.
+huomautuksen. Jos olet varma, että kyseessä ei ole kopio, valitse _Ei
+kopio. Tallenna uutena tietueena_.
 
 ![](/assets/files/docs/Asiakkaat/Kopioiasiakastiedot1.png)
 
@@ -360,33 +360,33 @@ oteta mukaan tilastoihin.
 Asiakkaan tietoja voidaan muokata eri painikkeiden kautta. Huom. Tässä voi olla kimppakohtaisia eroja.
 
 Muokataksesi jotain tiettyä osiota asiakastiedoissa (esim.
-Kirjastotiedot) klikkaa sen osion alla olevaa sinistä Muokkaa-linkkiä.
+Kirjastotiedot) klikkaa sen osion alla olevaa sinistä _Muokkaa_-linkkiä.
 
 ![](/assets/files/docs/Asiakkaat/muokkaanappi2.png)
 
 Asiakastietojen yläreunassa olevilla painikkeilla pääset lisäämään asiakkaalle huollettavan, vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa, lisäämään asiakastietoihin viestin sekä Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, poistamaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. 
 
-Koko asiakastietueen muokkaukseen pääset Muokkaa-painiketta klikkaamalla.
+Koko asiakastietueen muokkaukseen pääset _Muokkaa_-painiketta klikkaamalla.
 
 ![](/assets/files/docs/Asiakkaat/Muokkaanappi1.png)
 
 ### 1.5.1. Lisää huollettava
 
-Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. Lisää huollettava-nappi avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla huoltaja. Valittuasi asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy automaattisesti.
+Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. _Lisää huollettava-nappi_ avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla huoltaja. Valittuasi asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy automaattisesti.
 
 ### 1.5.2. Salasanan vaihtaminen
 
-Asiakkaan salasanan pääsee muokkaamaan Vaihda salasana-painikkeen kautta. 
+Asiakkaan salasanan pääsee muokkaamaan _Vaihda salasana_-painikkeen kautta. 
 
 Asiakkaan salasanaa ei voi nähdä. Jos asiakas unohtaa salasanansa, hänelle pitää tallentaa uusi salasana.
 
 ![](/assets/files/docs/Asiakkaat/salasana.png)
 
-\- Koha ei voi näyttää entistä salasanaa. Jätä salasanakenttä tyhjäksi tai valitse "Peruuta",
+\- Koha ei voi näyttää entistä salasanaa. Jätä salasanakenttä tyhjäksi tai valitse _Peruuta_,
 jos et halua vaihtaa salasanaa.
 
-\- Jos haluat automaattisesti luodun salasanan, klikkaa “Valitse tästä
-luodaksesi satunnaisesti luodun salasanaehdotuksen”. Salasanat näytetään
+\- Jos haluat automaattisesti luodun salasanan, klikkaa _Valitse tästä
+luodaksesi satunnaisesti luodun salasanaehdotuksen_. Salasanat näytetään
 tekstinä.
 
 - Muista tallentaa.
@@ -399,10 +399,10 @@ toiminto, jolla voidaan kopioida henkilötiedot, jotka toistuvat eri
 tietueissa.
 
 Avaa sen asiakkaan tiedot, jonka haluat kopioida ja klikkaa
-Kopioi-nappia tietueen yläreunassa.
+_Kopioi_-nappia tietueen yläreunassa.
 
 Sukunimi, osoite, matkapuhelinnumero, sähköpostiosoite, kirjasto, asiakastyyppi ja ilmoitusten kieli 
-kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa Tallenna.
+kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa _Tallenna_.
 
 \- Lapsiasiakkaalta kopioituu myös hänen takaajatietonsa.
 
@@ -418,7 +418,7 @@ Tästä alasvetovalikosta voit valita ja tulostaa asiakkaan haluaman kuitin. Huo
 
 ### 1.5.5. Hae ja varaa
 
-Hae ja varaa-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun. Pääset tekemään varauksen asiakkaalle suoraan hakutuloslistalla tai tietueen tiedoissa. Hakutuloslistalla voit tarvittaessa myös poistaa toiminnon muistista asiakkaan tiedot. 
+_Hae ja varaa_-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun. Pääset tekemään varauksen asiakkaalle suoraan hakutuloslistalla tai tietueen tiedoissa. Hakutuloslistalla voit tarvittaessa myös poistaa toiminnon muistista asiakkaan tiedot. 
 
 ![](/assets/files/docs/Asiakkaat/Haejavaraa1.png)
 
@@ -451,12 +451,12 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 
 Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tilin uusimiselle on useita linkkejä ja paikkoja. 
 
-Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä “Uusinta" tai Muita toimintoja-alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”.
+Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä _Uusinta_ tai _Muita toimintoja_-alasvetovalikosta _Asiakkaan käyttöoikeuden jatkaminen_ voi jatkaa asiakkaan käyttöoikeutta.
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen1.png)
 
-Asiakkaan tiedot sivulla tili uusitaan ruudun keskellä sijaitsevan Huomio-kohdan Uusinta-linkin kautta, Kirjastotiedot kohdasta tai 
-Muita toimintoja- alasvetovalikosta “Asiakkaan käyttöoikeuden jatkaminen”. 
+Asiakkaan tiedot -sivulla tili uusitaan ruudun keskellä sijaitsevan Huomio-kohdan _Uusinta_-linkin kautta, Kirjastotiedot-kohdasta tai 
+Muita toimintoja -alasvetovalikosta _Asiakkaan käyttöoikeuden jatkaminen_. 
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen2.png)
 
@@ -468,7 +468,7 @@ Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määrite
 
 Tällä toiminnolla poistetaan asiakas rekisteristä.
 
-Koha varmistaa, että haluatko varmasti poistaa asiakkaan. Kun klikkaat "Kyllä, poista", niin asiakastili lähtee heti pois asiakasrekisteristä. Ei, älä poista -napin klikkaus peruu toimenpiteen.
+Koha varmistaa, että haluatko varmasti poistaa asiakkaan. Kun klikkaat _Kyllä, poista_, niin asiakastili lähtee heti pois asiakasrekisteristä. _Ei, älä poista_ -napin klikkaus peruu toimenpiteen.
 
 ![](/assets/files/docs/Asiakkaat/Poista1.png)
 
@@ -483,9 +483,9 @@ Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä.
 ### 1.5.7.3. Päivitä lapsi aikuiseksi
 
 Lapsiasiakkaasta ei tule automaattisesti henkilöasiakasta ellei Kohassa ole
-siihen liittyvä ajo käynnissä. Lapsen voi muuttaa henkilöasiakkaaksi valitsemalla Muita toimintoja -valikosta “Päivitä lapsi
-aikuiseksi”. Koha antaa asiakastyyppivaihtoehdot, joista valitaan haluttua asiakastyyppi. 
-Huom. päivitysnappi on aktiivinen kaikilla alaikäisillä asiakkailla ja sillä voi muuttaa tätä kautta lapsiasiakkaan myös esi. kotipalveluasiakkaaksi.
+siihen liittyvä ajo käynnissä. Lapsen voi muuttaa henkilöasiakkaaksi valitsemalla Muita toimintoja -valikosta _Päivitä lapsi
+aikuiseksi_. Koha antaa asiakastyyppivaihtoehdot, joista valitaan haluttua asiakastyyppi. 
+Huom. päivitysnappi on aktiivinen kaikilla alaikäisillä asiakkailla ja sillä voi muuttaa tätä kautta lapsiasiakkaan myös esim. kotipalveluasiakkaaksi.
 
 ![](/assets/files/docs/Asiakkaat/Lapsiaikuiseksi1.png)
 
@@ -495,31 +495,30 @@ Jos asiakas on edelleen alaikäinen, niin päivitys henkilöasiakkaaksi ei ole m
 
 ### 1.5.8. Lapsiasiakkaan takaajan vaihtaminen
 
-Takaajatiedot pääsee muokkaamaan Muokkaa -painikkeen takaa. Kohdassa "Asiakastakaaja" voit sekä poistaa että lisätä takaajan. 
+Takaajatiedot pääsee muokkaamaan _Muokkaa_-painikkeen takaa. Kohdassa _Asiakastakaaja_ voit sekä poistaa että lisätä takaajan. 
 
-Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa "Tallenna". 
+Poistaminen tapahtuu ruksaamalla poistettava takaaja ja sen jälkeen klikkaa _Tallenna:. 
 
 ![](/assets/files/docs/Asiakkaat/Poistatakaaja.png)
 
-Lisääminen tapahtuu Lisää takaaja-painikkeella. Hae lisättävän huoltajan tiedot avautuvassa ikkunassa.
+Lisääminen tapahtuu _Lisää takaaja_ -painikkeella. Hae lisättävän huoltajan tiedot avautuvassa ikkunassa.
 
 ![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
-Valitse hakutuloksesta huoltaja ja klikkaa Valitse.
+Valitse hakutuloksesta huoltaja ja klikkaa _Valitse_.
 
 Valitse takaajan suhde ja tallenna.
 
 ### 1.5.9. Asiakkaan kuva
 
-Asiakkaan kuva voidaan lisätä valitsemalla kuva koneeltasi Lataa
-asiakaskuva -osiossa.
+Asiakkaan kuva voidaan lisätä valitsemalla kuva koneeltasi _Lataa asiakaskuva_ -osiossa.
 
 ![](/assets/files/docs/Asiakkaat/asiakaskuva.png)
 
 \- Tämä osio ei ole näkyvissä, jos järjestelmäasetuksissa on estetty
 kuvien tallentaminen
 
-\- Työkaluissa olevalla toiminnolla Asiakaskuvien lataus voi tuoda
+\- Työkaluissa olevalla toiminnolla _Asiakaskuvien lataus_ voi tuoda
 palvelimelle eräajona kuvia
 
 ### 1.5.10. Rajoitukset
