@@ -742,4 +742,4 @@ lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
-Lainoista on tarkemmin Koha-ohje suomeksi kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
+Lainoista on tarkemmin Kohan ohje suomeksi kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
