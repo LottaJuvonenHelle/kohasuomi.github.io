@@ -98,8 +98,7 @@ Sivulla on alasvetovalikkovaihtoehdot: +Uusi asiakas ja +Asiakkaan pikalisäys. 
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas2.png)
 
-Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset asiakkaan
-tyypin.
+Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset asiakkaan tyypin.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas3.png)
 
@@ -111,7 +110,7 @@ tietoturvallisesti asiakkaiden henkilötunnukset. Sotu-siilo on yhteinen kaikill
 Oheisissa ruutukaappauksissa käytetty sotu on tehty
 henkilötunnusgeneraattorin avulla, se ei ole kenenkään henkilön oikea
 tunnus, mutta täyttää tunnuksen ominaisuudet tarkistusmerkkiä myöten.
-Sotuavaimella muodossa “sotuxxxx” voi hakea asiakkaan tiedot esille,
+Sotu-avaimella muodossa “sotuxxxx” voi hakea asiakkaan tiedot esille,
 mutta henkilötunnus ei näy.
 
 Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus.
@@ -134,10 +133,10 @@ Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
 ![](/assets/files/docs/Asiakkaat/Tarkistahetu.png)
 
 Jos syötetty henkilötunnus on jo sotu-siilossa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
-henkilötunnuksen sotuavaimella asiakastietoja. 
+henkilötunnuksen sotu-avaimella asiakastietoja. 
 
 Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
-tallentamista käyttäen sotu-siilon antamaa sotuavainta.
+tallentamista käyttäen sotu-siilon antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
@@ -151,7 +150,7 @@ Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita
 
 Sotu-siiloon on olemassa myös toinen käyttöliittymä, jonka kautta
 esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
-sotuavaimella. Heillä on erilliset tunnukset tarkistusta varten.
+sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 Sotuteekistä tarkemmin Koha ohje suomeksi kohdassa 12.17.3 Sotuteekki
 
 ---
