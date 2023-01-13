@@ -45,20 +45,20 @@ Käydään läpi Koha-Suomen tiekartan tilanne ja päivitetään se ajantasalle.
 
 Käydään läpi alla mainitut kehitysehdotukset ja päätetään, toteutetaanko ne vai ei.
 
-* https://github.com/KohaSuomi/Koha/issues/216
-* https://github.com/KohaSuomi/Koha/issues/233
-* https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/2
-* https://tiketti.koha-suomi.fi/issues/5434
-* https://tiketti.koha-suomi.fi/issues/5440
-* https://tiketti.koha-suomi.fi/issues/5493
-* https://tiketti.koha-suomi.fi/issues/5494
-* https://tiketti.koha-suomi.fi/issues/5525
-* https://tiketti.koha-suomi.fi/issues/5562
-* https://tiketti.koha-suomi.fi/issues/5566
-* https://tiketti.koha-suomi.fi/issues/5577
-* https://tiketti.koha-suomi.fi/issues/5588
-* https://tiketti.koha-suomi.fi/issues/5589
-* https://tiketti.koha-suomi.fi/issues/5609
+* [216](https://github.com/KohaSuomi/Koha/issues/216)
+* [233](https://github.com/KohaSuomi/Koha/issues/233)
+* [2](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/2)
+* [5434](https://tiketti.koha-suomi.fi/issues/5434)
+* [5440](https://tiketti.koha-suomi.fi/issues/5440)
+* [5440](https://tiketti.koha-suomi.fi/issues/5493)
+* [5494](https://tiketti.koha-suomi.fi/issues/5494)
+* [5525](https://tiketti.koha-suomi.fi/issues/5525)
+* [5562](https://tiketti.koha-suomi.fi/issues/5562)
+* [5566](https://tiketti.koha-suomi.fi/issues/5566)
+* [5577](https://tiketti.koha-suomi.fi/issues/5577)
+* [5588](https://tiketti.koha-suomi.fi/issues/5588)
+* [5589](https://tiketti.koha-suomi.fi/issues/5589)
+* [5609](https://tiketti.koha-suomi.fi/issues/5609)
 
 
 ### 6. Työryhmien vuosisuunnitelmat
