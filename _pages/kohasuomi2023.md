@@ -13,7 +13,19 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
-## Viikko 2 esityslista
+## Viikko 3 esityslista
+
+### Maanantain palaveri
+
+Aika: 16.1.2023 klo 12<br />
+Läsnä:
+
+* Metatietosanasto-plugari / Antti H.
+* Viikon 3 päivitys
+* indeksin mappingsin sijainti
+
+
+## Viikko 2 muistio
 
 ### Maanantain palaveri
 
