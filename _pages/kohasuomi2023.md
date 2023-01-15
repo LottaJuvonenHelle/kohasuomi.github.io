@@ -20,6 +20,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Aika: 16.1.2023 klo 12<br />
 Läsnä:
 
+* Vaski meni sunnuntaina jumiin liian pitkän kestäneen action_logsin siivousajon takia, jumittanut kyselyyn:
+INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >= DATE('2022-01-01'));
 * Metatietosanasto-plugari / Antti H.
 * Viikon 3 päivitys
 * indeksin mappingsin sijainti
