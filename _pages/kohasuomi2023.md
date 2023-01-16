@@ -18,14 +18,25 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ### Maanantain palaveri
 
 Aika: 16.1.2023 klo 12<br />
-Läsnä:
+Läsnä: Emmi, Pasi, Lari, Lasse, Anneli, Kodo
 
 * Vaski meni sunnuntaina jumiin liian pitkän kestäneen action_logsin siivousajon takia, jumittanut kyselyyn:
 INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >= DATE('2022-01-01'));
+  * action_logs-taulusta puuttuu Lapista, OUTIsta ja Vaskista kaikki su-aamua aikaisemmat tiedot. Ne ovat tallessa work_action_logs-taulussa.
+  * Lari ja Emmi tutkii, miten datan saisi vietyä tauluihin pienemmissä seteissä.
 * Metatietosanasto-plugari / Antti H.
+  * voi olla periaatteessa tehtävissä, tehdään kehitysehdotus
 * Viikon 3 päivitys
 * indeksin mappingsin sijainti
+  * ne ovat nyt etc:ssä, joka on kimppakohtainen.
+  * siirretään koha-repoon ja tehdään oma branch, nimetään mappings koha-suomi-mappings.yaml ja muutetaan koha-confissa hakemaan mappings sieltä
+  * hävitetään mappingsit etc:n alta
+  * koha-repon alta otetaan ylimääräiset mappings-tiedostot pois
+  * Lari tekee ( myös tiketti)
 * valvonnan muutokset
+  * lähtevät viestit tarkistetaan vasta 9.30 jälkeen. Jos tarkistuksen tekee ennen tuota, saa ilmoituksen, että viestejä ei ole vielä tarkistettu.
+  * konttiin kirjautuessa saa jatkossa huomautuksen yli tunnin käynnissä olleista kyselyistä.
+* Sanasto-raportin muutos toimimaan nykyisessä versiossa ei olekaan niin helppo kuin alunperin ajateltiin.
 
 
 ## Viikko 2 muistio
