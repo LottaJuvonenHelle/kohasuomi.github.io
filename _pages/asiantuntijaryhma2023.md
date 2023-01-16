@@ -48,7 +48,7 @@ Asiakas-sivulla on piilotettu vasemmasta reunasta ns. infoboksi, jossa on asiakk
 Käydään läpi Koha-Suomen tiekartan tilanne ja päivitetään se ajantasalle.
 
 * [TiekarttaTammikuu2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/10400021/TiekarttaTammikuu2023.pdf)
-* [Tiekartta2023tammikuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/10400023/Tiekartta2023tammikuu.xlsx)
+* [Tiekartta2023tammikuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/10424123/Tiekartta2023tammikuu.xlsx)
 
 Tiekartta päivitetty.
 
