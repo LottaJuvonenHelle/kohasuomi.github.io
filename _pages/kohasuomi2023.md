@@ -65,7 +65,7 @@ __Aiheita__
 ### Torstain palaveri
 
 Aika: 12.1.2023 klo 10<br />
-Läsnä:
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lassi, Pasi
 
 * Viikon 3 päivitys
   * 350 - osa, Pasi päivittää tikettiin, mitä tulee mukaan.
