@@ -25,6 +25,7 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
 * Metatietosanasto-plugari / Antti H.
 * Viikon 3 päivitys
 * indeksin mappingsin sijainti
+* valvonnan muutokset
 
 
 ## Viikko 2 muistio
