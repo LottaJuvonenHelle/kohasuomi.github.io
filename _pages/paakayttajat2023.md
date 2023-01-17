@@ -20,7 +20,7 @@ Läsnä:
 * Viikon 3 päivitys
 * Githubin esittely [kaikille](https://youtu.be/cPVSi2xFBIQ) - [pääkäyttäjille](https://youtu.be/J-lzJv7ginE)
 * [Kirkesin järjestelmäasetusten läpikäynti, osa 1](https://youtu.be/lyETIF-Xd2Y)
-* Tilastoinnissa virhe /Emmi
+* Tilastoinnissa virhe [KPOKM-5](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/5) /Emmi
 
 
 ## Viikko 2 muistio
