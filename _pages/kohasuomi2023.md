@@ -13,7 +13,7 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
-## Viikko 3 esityslista
+## Viikko 3 muistio
 
 ### Maanantain palaveri
 
@@ -38,6 +38,14 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
   * konttiin kirjautuessa saa jatkossa huomautuksen yli tunnin käynnissä olleista kyselyistä.
 * Sanasto-raportin muutos toimimaan nykyisessä versiossa ei olekaan niin helppo kuin alunperin ajateltiin.
 
+## Torstain palaveri (esityslista)
+
+Aika: 19.1.2023 klo 12<br />
+Läsnä: 
+
+* Häiriö- ja huoltotiedotteet vastaisuudessa GitHubin discussionsiin
+* Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno
+  * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
 
 ## Viikko 2 muistio
 
