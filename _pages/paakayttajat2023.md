@@ -43,6 +43,12 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 * CD-levyjen laina-aikaa pidennettiin 28 vuorokauteen viime viikolla.
 * Haminan kaupunki on toteuttanut mobiiliapplikaation, jossa on myös sähköinen kirjastokortti sekä tiedonhaku, varaus ja lainojen uusinta. Rajapinta Kohaan on tehty. Löytyy sovelluskaupoista Hamina-haulla.
 
+**OUTI**
+* Verkkokirjastossa oli viikonloppuna la-yönä ja su-aamupäivällä jumitilanne, joka aiheutti sen, etteivät asiakkaat saaneet palvelussa näkyville omia lainoja ja varauksia. Ongelman aiheutti arkistointiajon jumiutuminen. Sama ongelma oli myös Vaskissa ja Lapissa.
+* Tuplaverkkomaksujen (10 kpl) aiheuttajan selvittäminen vielä vaiheessa.
+* Raahen finvoice laskutuksen testaukset ehkä alkamassa lähiaikoina. Oulun laskutuspohjassa vielä vähän säätöä.
+* Oulun Byströmin nuorten palvelun kokoelma (alle 1000 nidettä) tulossa käyttöön koko OUTIlle.
+* Oulun omatoimikirjastojen laitteistoja vaihdetaan Mikro-Väylän laitteista Lyngsoin laitteisiin.
 
 ## Viikko 2 muistio
 
