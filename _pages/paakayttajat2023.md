@@ -34,6 +34,10 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 * Tuplaverkkomaksuja oli lopulta vain kourallinen, neljä oikeasti tuplasti maksettuja (suuruudeltaan 1,80-5,25 euroa). Toivotaan, että näitä ei tule enempää.
 * Joensuun kaupunki ilmoitti perjantaina iltapäivällä, että Ceepos-kassaan kirjautuminen muuttuu (kysyy käyttäjätunnusta). Tieto ei tietenkään kulkeutunut lauantaina työskenteleville, joten kassa pysyi kiinni. Täytyy antaa palautetta muutosten ajankohdan suunnittelusta.
 
+**Lumme**
+* Varkaudessa huomattiin OKM tilaston epäonnistuminen vuodelta 2022. Kehittäjät korjaavat tilastot maanantaihin 23.1. mennessä.
+* Normaalia ylläpitoa.
+
 
 
 
