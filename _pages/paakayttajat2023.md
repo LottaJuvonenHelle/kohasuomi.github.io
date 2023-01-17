@@ -23,7 +23,8 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 * Githubin esittelyvideot [kaikille](https://youtu.be/cPVSi2xFBIQ) - [pääkäyttäjille](https://youtu.be/J-lzJv7ginE)
 * [Kirkesin järjestelmäasetusten läpikäynti, osa 1](https://youtu.be/lyETIF-Xd2Y)
 * Tilastoinnissa virhe [KPOKM-5](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/5) /Emmi
-  * Emmi korjaa virheen ja tiedottaa, kun tilastot on luotu uudelleen. 
+  * Emmi korjaa virheen ja tiedottaa, kun tilastot on luotu uudelleen.
+  * Tätissä on [SQL-kysely](https://tati.koha-suomi.fi/cgi-bin/koha/reports/guided_reports.pl?phase=Run+this+report&reports=243&limit=200), jolla voi hakea tietueet, joissa luokka alkaa kirjaimella. 
 * Redmineen kirjautuminen otetaan pois päältä muilta kuin pääkäyttäjiltä.
 * [Asiantuntijaryhmän kokous](https://koha-suomi.fi/asiantuntijaryhma2023#asiantuntijaryhm%C3%A4n-muistio-123)
   * [Finna-kehitysehdotukset](https://koha-suomi.fi/asiantuntijaryhma2023#2-finna-kehitysehdotukset)
