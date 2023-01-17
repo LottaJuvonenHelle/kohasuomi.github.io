@@ -39,7 +39,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 * Varkaudessa huomattiin OKM tilaston epäonnistuminen vuodelta 2022. Kehittäjät korjaavat tilastot maanantaihin 23.1. mennessä.
 * Normaalia ylläpitoa.
 
-**Kyyti*
+**Kyyti**
 * CD-levyjen laina-aikaa pidennettiin 28 vuorokauteen viime viikolla.
 * Haminan kaupunki on toteuttanut mobiiliapplikaation, jossa on myös sähköinen kirjastokortti sekä tiedonhaku, varaus ja lainojen uusinta. Rajapinta Kohaan on tehty. Löytyy sovelluskaupoista Hamina-haulla.
 
