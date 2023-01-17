@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 3 esityslista
+## Viikko 3 muistio
 
 Aika: 17.1.2023 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * Kohan ohje suomeksi -muotoilujen yhtenäistäminen?
@@ -29,6 +29,12 @@ Läsnä:
   * [Finna-kehitysehdotukset](https://koha-suomi.fi/asiantuntijaryhma2023#2-finna-kehitysehdotukset)
   * [Infoboksin piilotuksen poisto](https://koha-suomi.fi/dokumentaatio/intranetusercss/#asiakkaan-tietoruudun-piilotus-asiakastiedoista-vasemmasta-reunasta)
     * Tarkista, että HidePersonalPatronDetailOnCirculation asetus on päällä
+
+**Vaara**
+* Tuplaverkkomaksuja oli lopulta vain kourallinen, neljä oikeasti tuplasti maksettuja (suuruudeltaan 1,80-5.25 euroa). Toivotaan, että näitä ei tule enempää.
+* Joensuun kaupunki ilmoitti perjantaina iltapäivällä, että Ceepos-kassaan kirjautuminen muuttuu (kysyy käyttäjätunnusta). Tieto ei tietenkään kulkeutunut lauantaina työskenteleville, joten kassa pysyi kiinni. Täytyy antaa palautetta muutosten ajankohdan suunnittelusta.
+
+
 
 
 ## Viikko 2 muistio
