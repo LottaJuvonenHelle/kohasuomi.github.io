@@ -46,6 +46,7 @@ Läsnä:
 * Häiriö- ja huoltotiedotteet vastaisuudessa GitHubin discussionsiin
 * Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
+* OKM-tilastojen korjaukset ja niiden aikataulu
 
 ## Viikko 2 muistio
 
