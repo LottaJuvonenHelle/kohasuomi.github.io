@@ -17,14 +17,18 @@ Läsnä:
 
 **Yhteiset**
 * Kohan ohje suomeksi -muotoilujen yhtenäistäminen?
+  * työryhmä miettiin yhtenäiset muotoiluohjeet: Päivi, Tuomas, Anneli
+  * jos joku vielä haluaa mukaan, ilmoita Annelille.
 * [Viikon 3 päivitys](https://github.com/KohaSuomi/Koha/discussions/369)
 * Githubin esittely [kaikille](https://youtu.be/cPVSi2xFBIQ) - [pääkäyttäjille](https://youtu.be/J-lzJv7ginE)
 * [Kirkesin järjestelmäasetusten läpikäynti, osa 1](https://youtu.be/lyETIF-Xd2Y)
 * Tilastoinnissa virhe [KPOKM-5](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/5) /Emmi
+  * Emmi korjaa virheen ja tiedottaa, kun tilastot on luotu uudelleen. 
 * Redmineen kirjautuminen pois päältä muilta kuin pääkäyttäjiltä?
 * [Asiantuntijaryhmän kokous](https://koha-suomi.fi/asiantuntijaryhma2023#asiantuntijaryhm%C3%A4n-muistio-123)
   * [Finna-kehitysehdotukset](https://koha-suomi.fi/asiantuntijaryhma2023#2-finna-kehitysehdotukset)
   * [Infoboksin piilotuksen poisto](https://koha-suomi.fi/dokumentaatio/intranetusercss/#asiakkaan-tietoruudun-piilotus-asiakastiedoista-vasemmasta-reunasta)
+    * Tarkista, että HidePersonalPatronDetailOnCirculation asetus on päällä
 
 
 ## Viikko 2 muistio
