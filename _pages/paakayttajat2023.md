@@ -20,6 +20,7 @@ Läsnä:
 * Viikon 3 päivitys
 * Githubin esittely [kaikille](https://youtu.be/cPVSi2xFBIQ) - [pääkäyttäjille](https://youtu.be/J-lzJv7ginE)
 * [Kirkesin järjestelmäasetusten läpikäynti, osa 1](https://youtu.be/lyETIF-Xd2Y)
+* Tilastoinnissa virhe /Emmi
 
 
 ## Viikko 2 muistio
