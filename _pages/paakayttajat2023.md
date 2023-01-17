@@ -31,7 +31,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
     * Tarkista, että HidePersonalPatronDetailOnCirculation asetus on päällä
 
 **Vaara**
-* Tuplaverkkomaksuja oli lopulta vain kourallinen, neljä oikeasti tuplasti maksettuja (suuruudeltaan 1,80-5.25 euroa). Toivotaan, että näitä ei tule enempää.
+* Tuplaverkkomaksuja oli lopulta vain kourallinen, neljä oikeasti tuplasti maksettuja (suuruudeltaan 1,80-5,25 euroa). Toivotaan, että näitä ei tule enempää.
 * Joensuun kaupunki ilmoitti perjantaina iltapäivällä, että Ceepos-kassaan kirjautuminen muuttuu (kysyy käyttäjätunnusta). Tieto ei tietenkään kulkeutunut lauantaina työskenteleville, joten kassa pysyi kiinni. Täytyy antaa palautetta muutosten ajankohdan suunnittelusta.
 
 
