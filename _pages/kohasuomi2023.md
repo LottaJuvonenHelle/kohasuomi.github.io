@@ -47,6 +47,9 @@ Läsnä:
 * Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
 * OKM-tilastojen korjaukset ja niiden aikataulu
+* Build-production-branch-skriptin muutokset
+  * muutetaan toiminnalisuutta niin, että uusia brancheja ei haeta automaattisesti 
+  * tehdäänkö nyt vai versionvaihtoon 
 
 ## Viikko 2 muistio
 
