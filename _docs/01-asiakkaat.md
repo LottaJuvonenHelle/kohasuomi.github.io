@@ -737,7 +737,7 @@ _Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksu
 ![](/assets/files/docs/Asiakkaat/lainat.png)
 
 Tällä näytöllä näkyy myös asiakkaan huollettavien lainat _Perheen lainat_
--välilehdellä. Huollettavalla näkyy myös perheen sisarusten
+-välilehdellä, jos tämän salliva asetus on päällä. Huollettavalla näkyy myös perheen sisarusten
 lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
