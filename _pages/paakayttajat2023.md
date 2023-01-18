@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3 muistio
 
 Aika: 17.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Pia Kusmin ja Leena Kinnunen (Lappi)
 
 **Yhteiset**
 * Kohan ohje suomeksi -muotoilujen yhtenäistäminen?
@@ -58,6 +58,10 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 * Ehdotettu, että OKM-tilastoinnin kauno/tieto-jaottelu perustuisi niteen luokkaan eikä tietueen luokkaan. Kokouksen jälkeen katsoin, mitä OKM-ohjeistus kertoo:  Kirjat jaetaan aikuisten sekä lasten ja nuorten kauno- ja tietokirjoihin kunkin kirjaston oman käytännön mukaan.
 Tieto mainitaan (ainakin) kohdassa 3 Aineistot ja kokoelmat, Kauno ja tietokirjat sekä kohdassa 4 Aineisto: lainaus
 https://www.kirjastot.fi/sites/default/files/content/Yleisten_kirjastojen_tilasto-ohjeet_2022_0.pdf
+
+**Lappi**
+* Ceepos-kassasta tulee ylimääräisiä maksujen poistoja. Onko vika kassassa vai käyttäjässä? Ongelma vielä selvityksessä. Todennäköisesti käyttäjässä, ohjeistetaan uudelleen.
+* Valmistelussa Kysy Kohasta -tilaisuus Lapin henkilökunnalle sekä Kohan käyttäjäryhmän kokous. 
 
 ## Viikko 2 muistio
 
