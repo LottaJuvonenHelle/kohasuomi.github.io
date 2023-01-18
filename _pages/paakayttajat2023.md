@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3 muistio
 
 Aika: 17.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Kohan ohje suomeksi -muotoilujen yhtenäistäminen?
@@ -49,6 +49,11 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 * Raahen finvoice laskutuksen testaukset ehkä alkamassa lähiaikoina. Oulun laskutuspohjassa vielä vähän säätöä.
 * Oulun Byströmin nuorten palvelun kokoelma (alle 1000 nidettä) tulossa käyttöön koko OUTIlle.
 * Oulun omatoimikirjastojen laitteistoja vaihdetaan Mikro-Väylän laitteista Lyngsoin laitteisiin.
+
+**Helle**
+* Finna-toimisto ilmoittanut yhdestä verkkomaksusta, joka ei ole poistunut Kohasta.
+* Niteet/Näytä niteen lainahistoria -tiedosssa ihmetyttänyt aika versionvaihtopäiväyksen ajalta: 7.6.2022 12:59. Tietueella on vain yksi nide. Sama aikatieto on sekä niteen sijaintikirjastolla että kotikirjastolla.
+* Onkohan Kohasta toimivaa rajapintaa Konica-Milton-tulostuspalvelulle? Palaverissa saatu tieto: Jos nykyiset Kohan rajapinnat eivät ole yhteensopivia, vaatii rajapinta Koha-kehitystä. Kouvolassa on käytössä Canon-tulostuspalvelu ja Kohan rajapinta toimii.
 
 ## Viikko 2 muistio
 
