@@ -55,6 +55,7 @@ Läsnä:
   * tehdäänkö nyt vai versionvaihtoon 
 * Kirkes parametrointikanta (tuleva tuotanto-Kirkes)
 * Kirkes asiakasvarmenteet
+* SmartBoxin palautustoiminnallisuuden ja varaustenkäsittelyn muutokset
 
 ## Viikko 2 muistio
 
