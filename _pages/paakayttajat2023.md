@@ -56,7 +56,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 * Onkohan Kohasta toimivaa rajapintaa Konica-Milton-tulostuspalvelulle? Palaverissa saatu tieto: Jos nykyiset Kohan rajapinnat eivät ole yhteensopivia, vaatii rajapinta Koha-kehitystä. Kouvolassa on käytössä Canon-tulostuspalvelu ja Kohan rajapinta toimii.
 * Mikä onkaan käytäntö muilla kimpoilla e-palveluihin kirjautumiseen silloin, kun kyseessä on esim. yhteisöasiakas (ei henkilöasiakas)?
 * Ehdotettu, että OKM-tilastoinnin kauno/tieto-jaottelu perustuisi niteen luokkaan eikä tietueen luokkaan. Kokouksen jälkeen katsoin, mitä OKM-ohjeistus kertoo:  Kirjat jaetaan aikuisten sekä lasten ja nuorten kauno- ja tietokirjoihin kunkin kirjaston oman käytännön mukaan.
-Tieto mainitaan (ainakin) kohdassa 3 Aineistot ja kokoelmat, Kauno ja tietokirjat. Vastaavasti kohdassa 4 Aineisto: lainaus
+Tieto mainitaan (ainakin) kohdassa 3 Aineistot ja kokoelmat, Kauno ja tietokirjat sekä kohdassa 4 Aineisto: lainaus
 https://www.kirjastot.fi/sites/default/files/content/Yleisten_kirjastojen_tilasto-ohjeet_2022_0.pdf
 
 ## Viikko 2 muistio
