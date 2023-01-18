@@ -52,7 +52,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 
 **Helle**
 * Finna-toimisto ilmoittanut yhdestä verkkomaksusta, joka ei ole poistunut Kohasta.
-* Niteet/Näytä niteen lainahistoria -tiedosssa ihmetyttänyt aika versionvaihtopäiväyksen ajalta: 7.6.2022 12:59. Tietueella on vain yksi nide. Sama aikatieto on sekä niteen sijaintikirjastolla että kotikirjastolla.
+* Niteet/Näytä niteen lainahistoria -tiedosssa ihmetyttänyt Viimeisin havainto -kentän aika, joka on versionvaihtopäiväyksen ajalta: 7.6.2022 12:59. Sama tieto on sekä niteen sijaintikirjastolla (Tesjoki) että kotikirjastolla (Loviisa). Esim. nide itemnumber=1418340, joka on ollut saatavilla versionvaihdon aikaan.
 * Onkohan Kohasta toimivaa rajapintaa Konica-Milton-tulostuspalvelulle? Palaverissa saatu tieto: Jos nykyiset Kohan rajapinnat eivät ole yhteensopivia, vaatii rajapinta Koha-kehitystä. Kouvolassa on käytössä Canon-tulostuspalvelu ja Kohan rajapinta toimii.
 * Mikä onkaan käytäntö muilla kimpoilla e-palveluihin kirjautumiseen silloin, kun kyseessä on esim. yhteisöasiakas (ei henkilöasiakas)?
 
