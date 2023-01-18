@@ -43,10 +43,12 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
 Aika: 19.1.2023 klo 12<br />
 Läsnä: 
 
+* OKM-tilastojen ongelmat Lumpeissa
+  * Lumpeen pääkäyttäjiä tulee mukaan
+  * ongelma johtuu siitä, että items.cn_sort-kentässä on kentän alussa kirjaimia
 * Häiriö- ja huoltotiedotteet vastaisuudessa GitHubin discussionsiin
 * Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
-* OKM-tilastojen korjaukset ja niiden aikataulu
 * Build-production-branch-skriptin muutokset
   * muutetaan toiminnalisuutta niin, että uusia brancheja ei haeta automaattisesti 
   * nimen muutos, koska tällä rakennetaan myös testit, ei pelkästään production
