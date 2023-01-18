@@ -13,7 +13,7 @@ Koha-Suomen yhtiökokous kokoontuu kerran vuodessa. Alla on vuosittain kokouksen
 
 ## Yhtiökokous 2022
 
-[Yhtiökokouksen pöytäkirja 2022](/assets/files/Yhtiökokouspöytäkirja2021.pdf)
+[Yhtiökokouksen pöytäkirja 2022](/assets/files/Yhtiökokouspöytäkirja2022.pdf)
 
 [Tilinpäätös 2021](/assets/files/Tilinp%C3%A4%C3%A4t%C3%B6s%2031.12.221.pdf)
 
