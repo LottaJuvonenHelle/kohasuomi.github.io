@@ -55,6 +55,9 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 * Niteet/Näytä niteen lainahistoria -tiedosssa ihmetyttänyt Viimeisin havainto -kentän aika, joka on versionvaihtopäiväyksen ajalta: 7.6.2022 12:59. Sama tieto on sekä niteen sijaintikirjastolla (Tesjoki) että kotikirjastolla (Loviisa). Esim. nide itemnumber=1418340, joka on ollut saatavilla versionvaihdon aikaan.
 * Onkohan Kohasta toimivaa rajapintaa Konica-Milton-tulostuspalvelulle? Palaverissa saatu tieto: Jos nykyiset Kohan rajapinnat eivät ole yhteensopivia, vaatii rajapinta Koha-kehitystä. Kouvolassa on käytössä Canon-tulostuspalvelu ja Kohan rajapinta toimii.
 * Mikä onkaan käytäntö muilla kimpoilla e-palveluihin kirjautumiseen silloin, kun kyseessä on esim. yhteisöasiakas (ei henkilöasiakas)?
+* Ehdotettu, että OKM-tilastoinnin kauno/tieto-jaottelu perustuisi niteen luokkaan eikä tietueen luokkaan. Kokouksen jälkeen katsoin, mitä OKM-ohjeistus kertoo:  Kirjat jaetaan aikuisten sekä lasten ja nuorten kauno- ja tietokirjoihin kunkin kirjaston oman käytännön mukaan.
+Tieto mainitaan (ainakin) kohdassa 3 Aineistot ja kokoelmat, Kauno ja tietokirjat
+https://www.kirjastot.fi/sites/default/files/content/Yleisten_kirjastojen_tilasto-ohjeet_2022_0.pdf
 
 ## Viikko 2 muistio
 
