@@ -51,7 +51,7 @@ Läsnä:
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
 * Build-production-branch-skriptin muutokset
   * muutetaan toiminnalisuutta niin, että uusia brancheja ei haeta automaattisesti 
-  * nimen muutos, koska tällä rakennetaan myös testit, ei pelkästään production
+  * nimen muutos, koska tällä rakennetaan myös testit, ei pelkästään production (build-(ks)-release?)
   * lisätäänkö skriptiin myös DBIx-skeemaluokkien rakennus ja käännösten asennus?
     * jos DBIx skeemaluokat tehdään uusiksi buildissa, niitä ei enää tarvita omassa erillisessä git-branchissaan, jolloin sitä branchia ei enää tarvitse ylläpitää (voidaan hävittää?)
   * tehdäänkö nyt vai versionvaihtoon 
