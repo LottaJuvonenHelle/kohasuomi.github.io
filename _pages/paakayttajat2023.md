@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 4 esityslista
+
+Aika: 24.1.2023 klo 9.15
+Läsnä:
+
+**Yhteiset**
+* Viikon 4 päivitys
+
 ## Viikko 3 muistio
 
 Aika: 17.1.2023 klo 9.15<br />
@@ -19,6 +27,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Öster
 * Kohan ohje suomeksi -muotoilujen yhtenäistäminen?
   * työryhmä miettii yhtenäiset muotoiluohjeet: Päivi, Tuomas, Anneli
   * jos joku vielä haluaa mukaan, ilmoita Annelille.
+    * Kinnusen Leena ilmoittautui jälkikäteen mukaan 
 * [Viikon 3 päivitys](https://github.com/KohaSuomi/Koha/discussions/369)
 * Githubin esittelyvideot [kaikille](https://youtu.be/cPVSi2xFBIQ) - [pääkäyttäjille](https://youtu.be/J-lzJv7ginE)
 * [Kirkesin järjestelmäasetusten läpikäynti, osa 1](https://youtu.be/lyETIF-Xd2Y)
