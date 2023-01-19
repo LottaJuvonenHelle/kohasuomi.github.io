@@ -546,7 +546,7 @@ tehtyjen hyllypaikkamääritysten mukaan.
 
 #### 9.3.2.4 Jako kauno- ja tietokirjoihin
 
-Nide on kaunokirja, jos sen YKL-luokka on 80-85. Muut ovat tietokirjoja.
+Nide on kaunokirja, jos sen YKL-luokka niteessä on 80-85. Muut ovat tietokirjoja. Tieto otetaan niteen cn_sort-kentästä, jossa se pitää olla kentän ensimmäisenä tietona. cn_sort-kentän tieto muodostetaan niteen signum-kentästä (itemcallnumber) ja sitä varten on kaksi eri liitännäistä riippuen siitä, onko signum-kentässä ensimmäisenä luokka-arvo vai jotain muuta.
 
 #### 9.3.2.5 Musiikkiäänitteet
 
