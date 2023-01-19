@@ -58,6 +58,7 @@ Läsnä:
 * Kirkes parametrointikanta (tuleva tuotanto-Kirkes)
 * Kirkes asiakasvarmenteet
 * SmartBoxin palautustoiminnallisuuden ja varaustenkäsittelyn muutokset
+* Finna ja versionvaihto - joko päätettiin, kuka on yhteydessä Finna-toimistoon?
 
 ## Viikko 2 muistio
 
