@@ -59,6 +59,7 @@ Läsnä:
 * Kirkes asiakasvarmenteet
 * SmartBoxin palautustoiminnallisuuden ja varaustenkäsittelyn muutokset
 * Finna ja versionvaihto - joko päätettiin, kuka on yhteydessä Finna-toimistoon?
+* Muovitustiedon lisääminen EDItX sanomiin
 
 ## Viikko 2 muistio
 
