@@ -60,6 +60,7 @@ Läsnä:
 * SmartBoxin palautustoiminnallisuuden ja varaustenkäsittelyn muutokset
 * Finna ja versionvaihto - joko päätettiin, kuka on yhteydessä Finna-toimistoon?
 * Muovitustiedon lisääminen EDItX sanomiin
+* Sanaston raporttien ajo to-iltana
 
 ## Viikko 2 muistio
 
