@@ -41,11 +41,14 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
 ## Torstain palaveri (esityslista)
 
 Aika: 19.1.2023 klo 12<br />
-Läsnä: 
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 * OKM-tilastojen ongelmat Lumpeissa
   * Lumpeen pääkäyttäjiä tulee mukaan
   * ongelma johtuu siitä, että items.cn_sort-kentässä on kentän alussa kirjaimia
+  * Varkaus siirtyy tekemään signumit samalla tavalla kuin muissa Lumpeiden kirjastoissa
+  * Koha-Suomi (Lasse) korjaa olemassa olevien niteiden cn_sort-kentät ja signum-kentät. Anneli tekee tiketin.
+  * tarkistetaan Hellessä Loviisan tilanne
 * Häiriö- ja huoltotiedotteet vastaisuudessa GitHubin discussionsiin
 * Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
@@ -54,12 +57,21 @@ Läsnä:
   * nimen muutos, koska tällä rakennetaan myös testit, ei pelkästään production (build-(ks)-release?)
   * lisätäänkö skriptiin myös DBIx-skeemaluokkien rakennus ja käännösten asennus?
     * jos DBIx skeemaluokat tehdään uusiksi buildissa, niitä ei enää tarvita omassa erillisessä git-branchissaan, jolloin sitä branchia ei enää tarvitse ylläpitää (voidaan hävittää?)
-  * tehdäänkö nyt vai versionvaihtoon 
+  * tehdäänkö nyt vai versionvaihtoon
+  * Pasi tekee. Ensin testille.
+* käännöstiedostot pois kaikkialta muualta paitsi translation-reposta. Lari tutkii, miten se onnistuu.
 * Kirkes parametrointikanta (tuleva tuotanto-Kirkes)
 * Kirkes asiakasvarmenteet
+  * Emmi tekee
+  * varmenteet voi olla voimassa korkeintaan 13 kk (TLS-protokollassa oleva rajoite + selaimet eivät hyväksy tuota pidempään voimassa olevia sertifikaatteja)
+  * tehdään "testi-sertifikaatti", joka voimassa vuoden loppuun ja toimitetaan elokuussa uusi "tuotanto-sertifikaatti", joka on voimassa samassa rytmissä kuin muiden kimppojen sertit.
 * SmartBoxin palautustoiminnallisuuden ja varaustenkäsittelyn muutokset
+  * palautuksille SIP-tuki, 09-viesti
+  * varausten käsittely: niteet palautetaan ensin Kohassa ja sitten piipataan vielä SmartBoxissa.
 * Finna ja versionvaihto - joko päätettiin, kuka on yhteydessä Finna-toimistoon?
+  * Anneli viestii Tolosen Erkille 
 * Muovitustiedon lisääminen EDItX sanomiin
+  * Anneli kyselee, mikä tässä on oikeasti tarve/tausta
 * Sanaston raporttien ajo to-iltana
 
 ## Viikko 2 muistio
@@ -67,7 +79,7 @@ Läsnä:
 ### Maanantain palaveri
 
 Aika: 9.1.2023 klo 10<br />
-Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lassi, Pasi
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
 
