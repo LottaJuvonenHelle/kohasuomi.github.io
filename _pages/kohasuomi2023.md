@@ -84,7 +84,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 __Aiheita__
 
 * Valutus- ja hankintaongelmat ja Elasticsearch
-  * "It turned out that queryParser is not thread-safe - inside it has states, access to which from several threads is not synchronized. Therefore, I came to use own queryParser for each request, and not use the previously created one." https://stackoverflow.com/questions/71547835/org-apache-lucene-queryparser-classic-parseexception-cannot-parse
+  * "It turned out that queryParser is not thread-safe - inside it has states, access to which from several threads is not synchronized. Therefore, I came to use own queryParser for each request, and not use the previously created one." [https://stackoverflow.com/questions/71547835/org-apache-lucene-queryparser-classic-parseexception-cannot-parse](https://stackoverflow.com/questions/71547835/org-apache-lucene-queryparser-classic-parseexception-cannot-parse)
   * Vaatinee koodimuutoksia Kohaan, bugiraportti yhteisöön?
   * Ollaan yhteydessä kansalliskirjastoon, jossa ElasticSearch:ia on Kohaan kehitetty
 
