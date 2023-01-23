@@ -13,6 +13,17 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 4 muistio
+
+## Maanantain palaveri
+
+Aika: 23.1.2023 klo 12<br />
+Läsnä:
+
+* Asintuntijaryhmässä esillä olleiden tikettien läpikäynti/vastuutus
+* Viikon 4 päivitys
+* action_logs-taulujen korjaus
+
 ## Viikko 3 muistio
 
 ### Maanantain palaveri
@@ -73,6 +84,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 * Muovitustiedon lisääminen EDItX sanomiin
   * Anneli kyselee, mikä tässä on oikeasti tarve/tausta
 * Sanaston raporttien ajo to-iltana
+* Viikon 4 päivitys
 
 ## Viikko 2 muistio
 
