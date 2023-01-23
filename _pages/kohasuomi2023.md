@@ -22,7 +22,12 @@ Läsnä:
 
 * Asiantuntijaryhmässä esillä olleiden tikettien läpikäynti/vastuutus
 * Viikon 4 päivitys
+  * https://github.com/KohaSuomi/Koha/issues/233 - korjattu versio
+  * Koha-translations #4 - vaatii vielä korefresh -r:n
 * action_logs-taulujen korjaus
+  * yritetään toteuttaa ilman käyttökatkoa
+  * jatketaan pohdintoja torstain palaverissa
+* Sanaston raporteissa meni 16 tuntia ajaessa
 
 ## Viikko 3 muistio
 
