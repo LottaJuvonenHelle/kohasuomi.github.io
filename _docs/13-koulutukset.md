@@ -9,6 +9,8 @@ layout: single
 
 Tälle sivulle kerätään linkkejä Koha-Suomen järjestämiin koulutusten tallenteisiin ja niihin liittyviin materiaaleihin.
 
+Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaSuomi/Koha/discussions/categories/koulutukset), kannattaa ottaa tiedotteet seurantaan.
+
 ## Kaikille kohdistetut koulutukset
 
 ### GitHubin esittely
