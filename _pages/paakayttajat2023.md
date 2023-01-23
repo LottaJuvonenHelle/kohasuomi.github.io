@@ -12,11 +12,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 4 esityslista
 
-Aika: 24.1.2023 klo 9.15
+Aika: 24.1.2023 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 4 päivitys
+* [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
+* OKM-tilastot
+* Häiriö- ja huoltotiedotteet vastaisuudessa GitHubin discussionsiin
+* Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno / Kodo
+  * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
+* Sanaston tilastoajot tehty ja toimitettu
+
 
 ## Viikko 3 muistio
 
