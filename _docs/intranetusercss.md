@@ -607,3 +607,48 @@ table#ASKEDt,
 table#CHECKEDt,
 table#ORDEREDt,
 table#REJECTEDt { width: 100%; }
+
+### Testiympäristön ulkoasun muutokset
+
+Versio: 21.11
+
+> .gradient {
+background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, rgb(255, 241, 186)), color-stop(0.99, rgb(255,255,255)) );
+}
+
+> #header.navbar-default {
+background: rgb(255, 241, 186);
+}
+
+> #breadcrumbs {
+background-color: #e3f2c8;
+}
+
+> #searchheader {
+background-color: #e3f2c8;
+}
+
+> .navbar .nav > li > a {
+color: #405b0e;
+}
+
+> #menu ul > li > a {
+background: linear-gradient(180deg,#e3f2c8 0,#e3f2c8 96%,#c1c1c1);
+}
+
+> .ui-tabs .ui-tabs-nav li {
+background: #e3f2c8 none;
+}
+
+> fieldset {
+  background-color: #fafde9;
+}
+
+> ul.biglinks-list li a.icon_general {
+border: solid 2px #b8ce97;
+background-color: #fafbf4;
+}
+
+> body {
+background-color: #fff2dd;
+}
