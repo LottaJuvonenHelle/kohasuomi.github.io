@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 4 muistio
+## Viikko 4 esityslista
 
 Aika: 24.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä:
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
@@ -23,11 +23,11 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
 * Sanaston tilastoajot tehty ja toimitettu
 
-**Vaara**
-* Helmikuun alusta tarkoitus ottaa käyttöön sähköposteihin lähettäjäksi noreply(at)koha-suomi.fi-osoite. Tiedotusta henkilökunnalle ja asiakkaille.
-* CPU-kassa ei keskustellut Kohan kanssa n. viikkoon. Tänä aamuna tuli tieto, että liitäntäosoite oli vaihdettu eikä tieto kulkenut kirjastossa tarvittaville henkilöille. Nyt siis kunnossa.
-* Selvitetään, josko lehtiniteille laitettaisiin luokkamerkintä, niin saataisiin signumit järkevään kuosiin.
-
+**OUTI**
+* Raahen ensimmäiset Finvoice-testilaskut lähetetty Kohasta Raahen Rondoon onnistuneesti.
+* Oulun aineistovalitsijat ovat pyytäneet, että saisiko hankintaportaalin sanomasta Kohaan tiedon, onko tilattu nide muovitettu vai muovittamaton. Woimalta ovat ilmoittaneet, että heidän puoleltaan tämä onnistuu. Kysytty valitsijoilta, mihin tieto halutaan näkyviin: hankinnan tilausrivin huomautuksiin vai pitäisikö olla nidekohtainen tieto? Jos nidekohtainen tieto, missä sen pitäisi Kohassa näkyä? Pitääkö tiedon olla jotenkin haettavissa? Asia vielä siis selvityksessä.
+* Lisätäänkö varausten oletusvoimassaoloaikaa vuosi lisää eli kahdesta vuodesta kolmeen vuoteen? Kukaan ei vastuanut ehdotusta. Pirkko-Liisa kysyy Finna-tuesta, onko lisäys mahdollista Finnassa ja viedään sittten päätettäväksi asiantuntijaryhmään.
+* Myös OUTIsta ollaan yhteydessä Finna-tukeen tuplaverkkomaksuongelmasta. Vaarasta Päivi on ollut jo yhteysessä ongelmasta, mutta saanut vähän ynseän vastauksen, että hieman hankala tutkia ja ottaa kantaa, mitä tuplamaksutilanteissa on tapahtunut. Jos Finnan verkkomaksu mahdollistaa maksutapahtuman aloittamisen kahteen kertaan, se pitäisi estää.
 
 ## Viikko 3 muistio
 
