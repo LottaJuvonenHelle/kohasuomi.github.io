@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4 esityslista
 
 Aika: 24.1.2023 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
@@ -22,6 +22,11 @@ Läsnä:
 * Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno / Kodo
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
 * Sanaston tilastoajot tehty ja toimitettu
+
+**Vaara**
+* Helmikuun alusta tarkoitus ottaa käyttöön sähköposteihin lähettäjäksi noreply(at)koha-suomi.fi-osoite. Tiedotusta henkilökunnalle ja asiakkaille.
+* CPU-kassa ei keskustellut Kohan kanssa n. viikkoon. Tänä aamuna tuli tieto, että liitäntäosoite oli vaihdettu eikä tieto kulkenut kirjastossa tarvittaville henkilöille. Nyt siis kunnossa.
+* Selvitetään, josko lehtiniteille laitettaisiin luokkamerkintä, niin saataisiin signumit järkevään kuosiin.
 
 
 ## Viikko 3 muistio
