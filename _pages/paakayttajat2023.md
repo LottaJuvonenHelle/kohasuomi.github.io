@@ -29,7 +29,7 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 * Sanaston tilastoajot tehty ja toimitettu
 
 **OUTI**
-* Raahen ensimmäiset Finvoice-testilaskut lähetetty Kohasta Raahen Rondoon onnistuneesti.
+* Raahen ensimmäiset Finvoice-testilaskut lähetetty Kohasta CGI:n edustapalvelimelle, josta laskujen pitäisi siirtyä Rondoon Siirinetin avulla.
 * Oulun aineistovalitsijat ovat pyytäneet, että saisiko hankintaportaalin sanomasta Kohaan tiedon, onko tilattu nide muovitettu vai muovittamaton. Woimalta ovat ilmoittaneet, että heidän puoleltaan tämä onnistuu. Kysytty valitsijoilta, mihin tieto halutaan näkyviin: hankinnan tilausrivin huomautuksiin vai pitäisikö olla nidekohtainen tieto? Jos nidekohtainen tieto, missä sen pitäisi Kohassa näkyä? Pitääkö tiedon olla jotenkin haettavissa? Asia vielä siis selvityksessä.
 * Lisätäänkö varausten oletusvoimassaoloaikaa vuosi lisää eli kahdesta vuodesta kolmeen vuoteen? Kukaan ei vastuanut ehdotusta. Pirkko-Liisa kysyy Finna-tuesta, onko lisäys mahdollista Finnassa ja viedään sittten päätettäväksi asiantuntijaryhmään.
 * Myös OUTIsta ollaan yhteydessä Finna-tukeen tuplaverkkomaksuongelmasta. Vaarasta Päivi on ollut jo yhteysessä ongelmasta, mutta saanut vähän ynseän vastauksen, että hieman hankala tutkia ja ottaa kantaa, mitä tuplamaksutilanteissa on tapahtunut. Jos Finnan verkkomaksu mahdollistaa maksutapahtuman aloittamisen kahteen kertaan, se pitäisi estää.
