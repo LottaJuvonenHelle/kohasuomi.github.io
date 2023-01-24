@@ -46,7 +46,7 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 ## Viikko 3 muistio
 
 Aika: 17.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Pia Kusmin ja Leena Kinnunen (Lappi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Pia Kusmin ja Leena Kinnunen (Lappi), Heli Auranen, Katja Valjakka (Lumme)
 
 **Yhteiset**
 * Kohan ohje suomeksi -muotoilujen yhtenäistäminen?
