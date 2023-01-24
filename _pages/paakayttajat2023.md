@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Heli Auranen, Katja Valjakka (Lumme)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
@@ -37,6 +37,10 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 **Siilinjärvi**
 * Otetaan siirtyminen noreply(at)koha-suomi.fi -viestiosoitteeseen työn alle. Tarkistettiin, että muutos tehdään kirjastoasetuksiin https://koha-suomi.fi/dokumentaatio/asetukset/#1-kirjastot
 * Edellisen viikon muistiosta bongattu Haminan kuntaäppi. Siilissä Geniemin kuntaäppi (kirjastokortti + "kevyt" verkkokirjasto) on ollut käytössä noin 3 kk, ja palaute asiakkailta on ollut myönteistä.
+
+**Lumme**
+* Okm tilastoraportti ei vielä kunnossa. Varkaudessa signumit väärässä järjestyksessä ja myös muissa kirjastoissa useita väärin tehtyjä signumeita. Kehittäjät yrittävät oikaista.
+* Vaihto Noreply-viestivastauksiin mennyt tähän asti hyvin. Kaksi kirjastoa vielä vaiheessa.
 
 
 ## Viikko 3 muistio
