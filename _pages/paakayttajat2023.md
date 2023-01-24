@@ -10,15 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 4 esityslista
+## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
-* OKM-tilastot
-* Häiriö- ja huoltotiedotteet vastaisuudessa GitHubin discussionsiin
+* OKM-tilastot suurimmalla osalla kunnossa. Osalla kimpoista/kirjastoista on vielä isoja määriä virheellisiä signumeita ja cn_sort-tietoja, jolloin kirjojen jako kauno/tieto-akselilla menee väärin.
+  * Näiden etsimiseen ei ole kunnollista raporttia, mutta raportilla [Niteet, joiden cn_sort-kenttä alkaa kirjaimella](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Niteet-joiden-cn_sort-kentt%C3%A4-alkaa-kirjaimella) voi selailla todennäköisesti virheellisiä.
+* [Häiriö- ja huoltotiedotteet](https://github.com/KohaSuomi/Koha/discussions/categories/huolto-ja-h%C3%A4iri%C3%B6tiedotteet) vastaisuudessa GitHubin discussionsiin omana "aihealueenaan".
 * Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno / Kodo
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
 * Sanaston tilastoajot tehty ja toimitettu
