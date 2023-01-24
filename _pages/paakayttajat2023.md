@@ -10,7 +10,7 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 4 esityslista
+## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
 Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
