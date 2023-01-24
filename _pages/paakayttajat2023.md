@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
@@ -33,6 +33,11 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 * Oulun aineistovalitsijat ovat pyytäneet, että saisiko hankintaportaalin sanomasta Kohaan tiedon, onko tilattu nide muovitettu vai muovittamaton. Woimalta ovat ilmoittaneet, että heidän puoleltaan tämä onnistuu. Kysytty valitsijoilta, mihin tieto halutaan näkyviin: hankinnan tilausrivin huomautuksiin vai pitäisikö olla nidekohtainen tieto? Jos nidekohtainen tieto, missä sen pitäisi Kohassa näkyä? Pitääkö tiedon olla jotenkin haettavissa? Asia vielä siis selvityksessä.
 * Lisätäänkö varausten oletusvoimassaoloaikaa vuosi lisää eli kahdesta vuodesta kolmeen vuoteen? Kukaan ei vastuanut ehdotusta. Pirkko-Liisa kysyy Finna-tuesta, onko lisäys mahdollista Finnassa ja viedään sittten päätettäväksi asiantuntijaryhmään.
 * Myös OUTIsta ollaan yhteydessä Finna-tukeen tuplaverkkomaksuongelmasta. Vaarasta Päivi on ollut jo yhteysessä ongelmasta, mutta saanut vähän ynseän vastauksen, että hieman hankala tutkia ja ottaa kantaa, mitä tuplamaksutilanteissa on tapahtunut. Jos Finnan verkkomaksu mahdollistaa maksutapahtuman aloittamisen kahteen kertaan, se pitäisi estää.
+
+**Siilinjärvi**
+* Otetaan siirtyminen noreply(at)koha-suomi.fi -viestiosoitteeseen työn alle. Tarkistettiin, että muutos tehdään kirjastoasetuksiin https://koha-suomi.fi/dokumentaatio/asetukset/#1-kirjastot
+* Edellisen viikon muistiosta bongattu Haminan kuntaäppi. Siilissä Geniemin kuntaäppi (kirjastokortti + "kevyt" verkkokirjasto) on ollut käytössä noin 3 kk, ja palaute asiakkailta on ollut myönteistä.
+
 
 ## Viikko 3 muistio
 
