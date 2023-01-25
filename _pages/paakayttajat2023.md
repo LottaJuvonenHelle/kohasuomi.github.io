@@ -10,6 +10,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 5 esityslista
+
+Aika: 31.1.2023 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Onko tiketti Koha #311 ok kaikilla?](https://github.com/KohaSuomi/Koha/issues/311)
+
+
 ## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
