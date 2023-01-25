@@ -18,7 +18,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ## Maanantain palaveri
 
 Aika: 23.1.2023 klo 12<br />
-Läsnä:
+Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lassi, Pasi
 
 * Asiantuntijaryhmässä esillä olleiden tikettien läpikäynti/vastuutus
 * Viikon 4 päivitys
@@ -28,6 +28,18 @@ Läsnä:
   * yritetään toteuttaa ilman käyttökatkoa
   * jatketaan pohdintoja torstain palaverissa
 * Sanaston raporteissa meni 16 tuntia ajaessa
+
+## Torstain palaveri
+
+Aika: 26.1.2023 klo 10<br />
+Läsnä:
+
+* [Koulutuksista "tilastosivu"](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/Koulutustilastot.md) utilityyn
+* action_logs-taulujen korjaus
+  * yritetään toteuttaa ilman käyttökatkoa
+  * jatketaan pohdintoja torstain palaverissa
+* Tikettien vastuutuksen jatko
+
 
 ## Viikko 3 muistio
 
