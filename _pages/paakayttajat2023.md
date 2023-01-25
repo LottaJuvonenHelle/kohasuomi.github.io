@@ -45,7 +45,7 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 **Helle**
 * Passiiviset Koha-käyttäjät kirjautuvat automaattisesti ulos aiempaa nopeammin, eli Kohan automaattista aikakatkaisuaikaa on lyhennetty.
 * Ei lainata -nidetilan popuptekstien suurennos on otettu käyttöön.
-* Hae tietokannasta -hakuun on otettu käyttöön hakukentät.
+* Hae tietokannasta -hakuun on otettu käyttöön valmiit valittavat hakukentät.
 * Hae asiakkaita -hakuehdoksi on lisätty Matkapuhelin. Lajittelu-hakuehdot on piilotettu käytöstä.
 * Asiakastiedon asiakkaan tietoruutu on laitettu näkyville (osoitetiedot eivät näy).
 * Asiakaspalvelussa on tullut vastaan asiakas, jolle ei ole muodostunut lainan 1. myöhästymisilmoitusta 12.10.2022. Kyseisen päivän aamuna on ollut Koha-palvelimien huoltokatko. 
