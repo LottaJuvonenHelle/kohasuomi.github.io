@@ -48,7 +48,8 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 * Hae tietokannasta -hakuun on otettu käyttöön valmiit valittavat hakukentät.
 * Hae asiakkaita -hakuehdoksi on lisätty Matkapuhelin. Lajittelu-hakuehdot on piilotettu käytöstä.
 * Asiakastiedon asiakkaan tietoruutu on laitettu näkyville (osoitetiedot eivät näy).
-* Asiakaspalvelussa on tullut vastaan asiakastieto, jolle on jäänyt muodostumatta lainan 1. myöhästymisilmoitus 12.10.2022. Kyseisen päivän aamuna on ollut Koha-palvelimien huoltokatko. 
+* Asiakaspalvelussa on tullut vastaan asiakastieto (ID 15510), jolle on jäänyt muodostumatta lainan (ep. 4.10.2022) 1. myöhästymisilmoitus 12.10.2022. Kyseisen päivän aamuna on ollut Koha-palvelimien huoltokatko. 
+
 
 ## Viikko 3 muistio
 
