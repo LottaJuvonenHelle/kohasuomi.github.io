@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Heli Auranen, Katja Valjakka (Lumme)
+Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Heli Auranen, Katja Valjakka (Lumme), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
@@ -42,6 +42,13 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 * Okm tilastoraportti ei vielä kunnossa. Varkaudessa signumit väärässä järjestyksessä ja myös muissa kirjastoissa useita väärin tehtyjä signumeita. Kehittäjät yrittävät oikaista.
 * Vaihto Noreply-viestivastauksiin mennyt tähän asti hyvin. Kaksi kirjastoa vielä vaiheessa.
 
+**Helle**
+* Passiiviset Koha-käyttäjät kirjautuvat automaattisesti ulos aiempaa nopeammin, eli Kohan automaattista aikakatkaisuaikaa on lyhennetty.
+* Ei lainata -nidetilan popuptekstien suurennos on otettu käyttöön.
+* Hae tietokannasta -hakuun on otettu käyttöön hakukentät.
+* Hae asiakkaita -hakuehdoksi on lisätty Matkapuhelin. Lajittelu-hakuehdot on piilotettu käytöstä.
+* Asiakastiedon asiakkaan tietoruutu on laitettu näkyville (osoitetiedot eivät näy).
+* Asiakaspalvelussa on tullut vastaan asiakas, jolle ei ole muodostunut lainan 1. myöhästymisilmoitusta 12.10.2022. Kyseisen päivän aamuna on ollut Koha-palvelimien huoltokatko. 
 
 ## Viikko 3 muistio
 
