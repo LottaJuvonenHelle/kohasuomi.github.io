@@ -13,6 +13,16 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 ## Kaikille kohdistetut koulutukset
 
+### PowerBI-tilastoesittely
+
+[PowerBI-tilastoesittely](https://www.youtube.com/watch?v=fQHNaQ7dCOA)
+
+Tuomas Kunttu esittelee Kouvolan kirjaston PowerBI-tilastoja ja kertoo miten ne on tehty. Tilaisuus on pidetty 25.1.2023.
+
+Tilastojen teossa käytettyjä Kohan [sql-raportteja sekä joitain hyödyllisiä DAX-lausekkeita on listattu Redminessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/PowerBI).
+
+Lisätty: 25.1.2023
+
 ### GitHubin esittely
 
 Ohessa on video, jossa esitellään, mistä Koha-Suomen tiketit, ohjeet, tiedotteet ja muistiot löytyvät nyt kun Redminestä on luovuttu aktiivikäytössä.
