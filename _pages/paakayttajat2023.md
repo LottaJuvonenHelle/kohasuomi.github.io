@@ -22,7 +22,7 @@ Läsnä:
 ## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Heli Auranen, Katja Valjakka (Lumme), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Heli Auranen, Katja Valjakka (Lumme), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
@@ -59,11 +59,14 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 * Asiakastiedon asiakkaan tietoruutu on laitettu näkyville (osoitetiedot eivät näy).
 * Asiakaspalvelussa on tullut vastaan asiakastieto (ID 15510), jolle on jäänyt muodostumatta lainan (ep. 4.10.2022) 1. myöhästymisilmoitus 12.10.2022. Kyseisen päivän aamuna on ollut Koha-palvelimien huoltokatko. 
 
+**Vaski**
+* Anni tarkistanut Mikroväylän automaattien maksujen erotinmerkin. SipFeesDecimalSeparator asetukseen tulee laittaa piste, jotta maksut tulostuvat kuitille oikein.
+* Asiakastietojen inforuutuun toivottaisiin tarkennusta "Tili on lukittu" tekstille. Tekstiin voisi laittaa tiedon liian monesta kirjautumisyrityksestä, mikäli tuota ei käytetä muuhun. Myös ohjeisiin selitys kirjautumisyritysten aiheuttamista lukituksista ja rajoituksista.
 
 ## Viikko 3 muistio
 
 Aika: 17.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Pia Kusmin ja Leena Kinnunen (Lappi), Heli Auranen, Katja Valjakka (Lumme)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Pia Kusmin ja Leena Kinnunen (Lappi), Heli Auranen, Katja Valjakka (Lumme), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Kohan ohje suomeksi -muotoilujen yhtenäistäminen?
@@ -113,6 +116,11 @@ https://www.kirjastot.fi/sites/default/files/content/Yleisten_kirjastojen_tilast
 **Lappi**
 * Ceepos-kassasta tulee ylimääräisiä maksujen poistoja. Onko vika kassassa vai käyttäjässä? Ongelma vielä selvityksessä. Todennäköisesti käyttäjässä, ohjeistetaan uudelleen.
 * Valmistelussa Kysy Kohasta -tilaisuus Lapin henkilökunnalle sekä Kohan käyttäjäryhmän kokous. 
+
+**Vaski**
+* Raportteja siivotessa ihmetelty Antin tekemiä raportteja ja mietitty onko ne tehty jostain yhteisestä tarpeesta.
+* Versiopäivityksen testikannasta kiinnostaa tuleeko data anonymisoituna.
+* Finnan maksuongelmat selvityksessä. Ilmeni, että ongelma johtui maksujen pyöristyksestä.
 
 ## Viikko 2 muistio
 
