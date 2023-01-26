@@ -39,6 +39,7 @@ Läsnä:
   * yritetään toteuttaa ilman käyttökatkoa
   * jatketaan pohdintoja torstain palaverissa
 * Tikettien vastuutuksen jatko
+  * Tehtävä-statuksella oleville vastuuhenkilö 
   * https://github.com/KohaSuomi/Koha/issues/212 - kelle?
   * https://github.com/KohaSuomi/Koha/issues/223 - Pitää selvitellä, saisiko sen taustatyö-ilmoituksen näkyville taas.
   * https://github.com/KohaSuomi/KohaSuomiServices/issues/3 - missä mennään?
@@ -46,7 +47,7 @@ Läsnä:
   * https://github.com/KohaSuomi/Koha/issues/252 - Voiko mitään?
   * https://github.com/KohaSuomi/Koha/issues/372 - kaikille testeille / Lasse
   * https://github.com/KohaSuomi/Koha/issues/349 - näitä on taas lisääntyvä määrä ainakin OUTIssa/Vaskissa
-
+Viikon 5 päivitys
 
 ## Viikko 3 muistio
 
