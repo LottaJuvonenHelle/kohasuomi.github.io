@@ -35,6 +35,7 @@ Aika: 26.1.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 * [Koulutuksista "tilastosivu"](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/Koulutustilastot.md) utilityyn
+  * Luotiin kokouksen aikana myös seurantasivu erilaisille [palvelumaksuun kuuluville töille](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/palvelut.md).
 * action_logs-taulujen korjaus
   * yritetään toteuttaa ilman käyttökatkoa
   * jatketaan pohdintoja torstain palaverissa
@@ -51,9 +52,10 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   * https://github.com/KohaSuomi/Koha/issues/372 - kaikille testeille / Lasse
   * https://github.com/KohaSuomi/Koha/issues/349 - näitä on taas lisääntyvä määrä ainakin OUTIssa/Vaskissa
 * Viikon 5 päivitys
+  * Käännösmuutoksia, joten käännökset ajettava
 * Vaski-nextin tilanne & muiden nextien
   * tiedonhaku ei vielä toimi vaski-nextillä
-  * datan redusointi
+  * datan redusointi muita kuin vaski-nextiä varten työn alla
 
 ## Viikko 3 muistio
 
