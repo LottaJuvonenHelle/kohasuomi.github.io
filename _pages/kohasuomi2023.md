@@ -47,7 +47,8 @@ Läsnä:
   * https://github.com/KohaSuomi/Koha/issues/252 - Voiko mitään?
   * https://github.com/KohaSuomi/Koha/issues/372 - kaikille testeille / Lasse
   * https://github.com/KohaSuomi/Koha/issues/349 - näitä on taas lisääntyvä määrä ainakin OUTIssa/Vaskissa
-Viikon 5 päivitys
+* Viikon 5 päivitys
+* Vaski-nextin tilanne
 
 ## Viikko 3 muistio
 
