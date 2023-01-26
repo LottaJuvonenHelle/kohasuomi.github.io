@@ -32,15 +32,18 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lassi, Pasi
 ## Torstain palaveri
 
 Aika: 26.1.2023 klo 10<br />
-Läsnä:
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 * [Koulutuksista "tilastosivu"](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/Koulutustilastot.md) utilityyn
 * action_logs-taulujen korjaus
   * yritetään toteuttaa ilman käyttökatkoa
   * jatketaan pohdintoja torstain palaverissa
+  * Siivotaan ensin 2021:t vuositauluun work_action_logseista -> Siirretään action_logs-taulusta rivit work_action_logs-tauluun loppuun ja tuhotaan nykyinen action_logs-taulu -> nimetään uudelleen work_action_logs-taulu action_logs-tauluksi. Huolehditaan, että autoincrement-arvo on tarpeeksi suuri.
+    * Tiedotettava Lapin, OUTIn ja Vaskin pääkäyttäjiä katkosta. 
+    * Lari tekee tiketin ja on vastuuhenkilö
 * Tikettien vastuutuksen jatko
   * Tehtävä-statuksella oleville vastuuhenkilö 
-  * https://github.com/KohaSuomi/Koha/issues/212 - kelle?
+  * https://github.com/KohaSuomi/Koha/issues/212 - kelle? Lasse
   * https://github.com/KohaSuomi/Koha/issues/223 - Pitää selvitellä, saisiko sen taustatyö-ilmoituksen näkyville taas.
   * https://github.com/KohaSuomi/KohaSuomiServices/issues/3 - missä mennään?
   * https://github.com/KohaSuomi/Koha/issues/240 - mitä tehdään? Tiketti yhteisöön?
@@ -48,7 +51,9 @@ Läsnä:
   * https://github.com/KohaSuomi/Koha/issues/372 - kaikille testeille / Lasse
   * https://github.com/KohaSuomi/Koha/issues/349 - näitä on taas lisääntyvä määrä ainakin OUTIssa/Vaskissa
 * Viikon 5 päivitys
-* Vaski-nextin tilanne
+* Vaski-nextin tilanne & muiden nextien
+  * tiedonhaku ei vielä toimi vaski-nextillä
+  * datan redusointi
 
 ## Viikko 3 muistio
 
