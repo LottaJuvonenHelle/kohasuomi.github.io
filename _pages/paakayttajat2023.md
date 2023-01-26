@@ -19,6 +19,7 @@ Läsnä:
 * [Onko tiketti Koha #311 ok kaikilla?](https://github.com/KohaSuomi/Koha/issues/311)
 * Onko kaikki tarkistanut indeksin toimivuuden [tiketin 213](https://github.com/KohaSuomi/Koha/issues/213) muutoksen jälkeen?
 * Miten olisi helpointa seurata työn valmiusastetta silloin, kun sama työ tehdään kaikille kimpoille? [Yksi ehdotus](https://github.com/KohaSuomi/Koha/issues/213#issuecomment-1405045158).
+* Kun versionvaihdon next-kannat saadaan käyttöön, mitä kantaa Anneli saa käyttää esim. IntranetUserCSS:ien ja IntranetUserJS:ien testaamiseen?
 
 
 ## Viikko 4 muistio
