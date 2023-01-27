@@ -20,6 +20,11 @@ Läsnä:
 * Onko kaikki tarkistanut indeksin toimivuuden [tiketin 213](https://github.com/KohaSuomi/Koha/issues/213) muutoksen jälkeen?
 * Miten olisi helpointa seurata työn valmiusastetta silloin, kun sama työ tehdään kaikille kimpoille? [Yksi ehdotus](https://github.com/KohaSuomi/Koha/issues/213#issuecomment-1405045158).
 * Kun versionvaihdon next-kannat saadaan käyttöön, mitä kantaa Anneli saa käyttää esim. IntranetUserCSS:ien ja IntranetUserJS:ien testaamiseen?
+* Bugin tekeminen yhteisön [Bugzillaan](https://bugs.koha-community.org/bugzilla3/).
+  * Rekisteröidy
+  * [Yhteisön raportointiohjeistus](https://wiki.koha-community.org/wiki/Bug_Reporting_Guidelines)
+  * [Bugzillan ohje tiketin tekemiseen](https://bugzilla.readthedocs.io/en/5.2/using/filing.html#reporting-a-new-bug)
+  * [Koha-yhteisön sandboxit](https://wiki.koha-community.org/wiki/Sandboxes)
 
 
 ## Viikko 4 muistio
