@@ -31,7 +31,9 @@ Sihteeriksi valittiin Pasi Hynninen.
 Tähän asti tietueet on huomattaessa korjattu TäTissä ja lähetetty Melindan kautta paikalliskantoihin. Aiheesta käydyssä vilkkaassa keskustelussa eniten kannatusta sai ehdotus poistaa Kirjastopalvelun viittä vuotta vanhemmat tietueet. Asia jätettiin pöydälle seuraavaan kokoukseen, jotta jokainen kimppa voisi arvioida poiston vaikutuksia omaan työskentelyynsä sekä onko viiden vuoden raja hyväksyttävissä. Toistaiseksi korjataan vain ne RDA-muotoiset tietueet, joita Kirjastopalvelu ei korjaa.
 
 #### 3.	TäTin vanhat ja virheelliset Kirjastopalvelun tietueet ####
-<ul>Anneli on alkanut poistamaan tietueita, joissa 008/6-merkkipaikalla on virheellinen arvo. Jonkin verran jää tietueita jäljelle käsin korjattavaksi.</ul>
+<ul>
+  <li>Anneli on alkanut poistamaan tietueita, joissa 008/6-merkkipaikalla on virheellinen arvo. Jonkin verran jää tietueita jäljelle käsin korjattavaksi.</li>
+</ul>
 
 Anneli on poistanut jo yli 40 tuhatta tietuetta.
 
@@ -72,7 +74,7 @@ Helmetin erätuonneissa oli tiistaina 10.1.2023 häiriöitä, joiden myötä oli
 #### 9.	Muita asioita ####
 Vaara kyseli ovatko osakohteet valuneet oikein. Muut kimpat totesivat että, jos osakohdevalutus toimii jollakin, on se suoranainen ihme. Vie/tuo-nappi todettiin parhaimmaksi vaihtoehdoksi tuoda osakohteet paikalliskantaan. Tämän lisäksi keskusteltiin Kirjastopalvelun tietueiden viipyilystä. Todettiin että jos tietue viipyy useamman kuukauden, asiaa kannattaa tiedustella heiltä suoraan.
 
-#### 10.	Ehdotuksia kevään kokousajoiksi: ####
+#### 10.	Ehdotuksia kevään kokousajoiksi ####
 <ul>
 <li>15.2.</li>
 <li>22.3.</li>
