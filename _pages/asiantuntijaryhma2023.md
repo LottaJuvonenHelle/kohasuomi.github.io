@@ -15,6 +15,17 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 2/23
+
+Aika: 20.2.2023 klo 9.00<br />
+Läsnä:
+
+### 1. Arin ajankohtaiset
+
+### 2. Varausten oletusvoimassaoloaika
+
+Teokset tilataan nykyään paljon ennen kuin ne ilmestyvät ja jos ilmestyminen viivästyy voi käydä niin, että asiakkaiden varaukset ehtivät kahdessa vuodessa vanhentua ja poistua ennen kuin saavat varaamansa teoksen. Ongelmaa helpottaisi vähän oletusvoimassaoloajan muuttaminen kolmeksi vuodeksi. Muutos pitäisi tehdä sekä Kohan asetuksiin että Finnaan.
+
 ## Asiantuntijaryhmän muistio 1/23
 
 Aika: 16.1.2023 klo 9.00<br />
