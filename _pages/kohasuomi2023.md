@@ -27,6 +27,8 @@ Läsnä:
   * Mitä näille voisi tehdä? Muuttaa ajolla orderstatus vastaanotetuksi?
 * Viikon 5 päivitys
   * Käännösmuutoksia, joten käännökset ajettava
+  * [Kooste-viesti-triggeri tuotantoon](https://tiketti.koha-suomi.fi/issues/5269)?
+    * Tähän liittyy myös tiketti [KohaSuomi/Koha #389](https://github.com/KohaSuomi/Koha/issues/389) 
 
 ## Viikko 4 muistio
 
