@@ -62,13 +62,13 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
     * Lari tekee tiketin ja on vastuuhenkilö
 * Tikettien vastuutuksen jatko
   * Tehtävä-statuksella oleville vastuuhenkilö 
-  * https://github.com/KohaSuomi/Koha/issues/212 - kelle? Lasse
-  * https://github.com/KohaSuomi/Koha/issues/223 - Pitää selvitellä, saisiko sen taustatyö-ilmoituksen näkyville taas.
-  * https://github.com/KohaSuomi/KohaSuomiServices/issues/3 - missä mennään?
-  * https://github.com/KohaSuomi/Koha/issues/240 - mitä tehdään? Tiketti yhteisöön?
-  * https://github.com/KohaSuomi/Koha/issues/252 - Voiko mitään?
-  * https://github.com/KohaSuomi/Koha/issues/372 - kaikille testeille / Lasse
-  * https://github.com/KohaSuomi/Koha/issues/349 - näitä on taas lisääntyvä määrä ainakin OUTIssa/Vaskissa
+  * [Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - kelle? Lasse
+  * [Koha #223](https://github.com/KohaSuomi/Koha/issues/223) - Pitää selvitellä, saisiko sen taustatyö-ilmoituksen näkyville taas.
+  * [KohaSuomiServices #3](https://github.com/KohaSuomi/KohaSuomiServices/issues/3) - missä mennään?
+  * [Koha #240](https://github.com/KohaSuomi/Koha/issues/240) - mitä tehdään? Tiketti yhteisöön?
+  * [Koha #252](https://github.com/KohaSuomi/Koha/issues/252) - Voiko mitään?
+  * [Koha #372](https://github.com/KohaSuomi/Koha/issues/372) - kaikille testeille / Lasse
+  * [Koha #349](https://github.com/KohaSuomi/Koha/issues/349) - näitä on taas lisääntyvä määrä ainakin OUTIssa/Vaskissa
 * Viikon 5 päivitys
   * Käännösmuutoksia, joten käännökset ajettava
 * Vaski-nextin tilanne & muiden nextien
