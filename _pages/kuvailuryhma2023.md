@@ -19,7 +19,7 @@ Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikk
 
 #### 1.	Kokouksen avaus ja sihteerin valinta ####
 
-<p>Sihteeriksi valittiin Pasi Hynninen.<p>
+Sihteeriksi valittiin Pasi Hynninen.
 
 #### 2.	Melindan toimijanimimuutosten korjaukset ####
 
