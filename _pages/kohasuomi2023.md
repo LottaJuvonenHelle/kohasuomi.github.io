@@ -13,9 +13,24 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 5 muistiot
+
+### Maanantain palaveri
+
+Aika:
+Läsnä:
+
+* Kimpoissa on tilauksia, jotka ovat yhtä aikaa vastaanotettu ja tilattu. Niissä on vastaanottopäivä aqorders-taulussa, mutta orderstatus on 'ordered'. Tämä aiheuttaa ongelmia vastaanotossa. Näkyville tulee tilauksia, jotka on jo vastaanotettu ja niitä ei saa vastaanotettua uudelleen.
+  * select * from aqorders where datereceived is not null and orderstatus='ordered'
+  * [Liittyy tiketti #300](https://github.com/KohaSuomi/Koha/issues/300) ja Pääkäyttäjien matrixissa käyty keskustelu ["Vaivaako muitakin kimppoja päivityksen jälkeen ilmestyneet vanhat jo vastaanotetut tilaukset?"](https://matrix.to/#/!XuuUEkGSyGepDvGgvN:matrix.org/$14Q-Lkxhbz80FPXzTj08OUyPqyzNCynMau-kXl1ZbtM?via=matrix.org) (linkki matrixiin, avautuu vain jäsenille)
+  * Laskin, kuinka paljon on tilausrivejä, joissa on datereceivedissä päivämäärä ja orderstatus 'ordered': Lumme: 7646, Outi: 9282, Lappi: 782, Vaara: 849, Vaski 2, Kyyti: 7255, Helle: 6, Siili: 2279
+  * Mitä näille voisi tehdä? Muuttaa ajolla orderstatus vastaanotetuksi?
+* Viikon 5 päivitys
+  * Käännösmuutoksia, joten käännökset ajettava
+
 ## Viikko 4 muistio
 
-## Maanantain palaveri
+### Maanantain palaveri
 
 Aika: 23.1.2023 klo 12<br />
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lassi, Pasi
@@ -29,7 +44,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lassi, Pasi
   * jatketaan pohdintoja torstain palaverissa
 * Sanaston raporteissa meni 16 tuntia ajaessa
 
-## Torstain palaveri
+### Torstain palaveri
 
 Aika: 26.1.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
@@ -82,7 +97,7 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
   * konttiin kirjautuessa saa jatkossa huomautuksen yli tunnin käynnissä olleista kyselyistä.
 * Sanasto-raportin muutos toimimaan nykyisessä versiossa ei olekaan niin helppo kuin alunperin ajateltiin.
 
-## Torstain palaveri (esityslista)
+### Torstain palaveri (esityslista)
 
 Aika: 19.1.2023 klo 12<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
