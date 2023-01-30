@@ -527,17 +527,35 @@ palvelimelle eräajona kuvia
 
 ![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset.png)
 
+Molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta käyttämästä asiakastunnustaan.
+
+##### 1.5.10.1.1 Kortti kadonnut
+
 Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
 kadonneeksi klikkaamalla _Kyllä_ Kortti kadonnut -kohdassa. Lainausnäytöllä tulee ilmoitus _Kadonnut: Asiakkaan kortti on kadonnut_.
 
 ![](/assets/files/docs/Asiakkaat/kadonnutkortti.png)
+
+##### 1.5.10.1.2 Väärä osoite
 
 Jos haluat lainauksen virkailijan tarkistavan asiakkaan osoitteen ennen
 lainaamista, laita valinta _Kyllä_ päälle Tarkista osoite -kohdassa. Lainausnäytöllä tulee ilmoitus _Osoite: Tarkista osoite_.
 
 ![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
 
-Molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta käyttämästä asiakastunnustaan.
+##### 1.5.10.1.3 Tili lukittu
+
+Asiakkaan tili lukitaan, jos hän yrittää kirjautua liian monta kertaa väärällä pin-koodilla. Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" ilmoitus _Tili on lukittu_.
+
+![](/assets/files/docs/Asiakkaat/tililukittu.png)
+
+##### 1.5.10.1.4 Rajoite liiallisista kirjautumisyrityksistä
+
+Koha-Suomessa tehtiin toiminto, jossa asiakkaalle lisätään automaattisesti rajoite, jos hänen tilillään on yli 50 epäonnistunutta kirjautumisyritystä. Tässä tilanteessa oletettavaa on, että asiakkaan kortti on tai korttinumero on mahdollisesti väärissä käsissä ja asiakkaan henkilöllisyys kannattaa tarkistaa sekä vaihtaa kirjastokortin numeron.
+
+Rajoite poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Sen saa nollattua vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkkokirjastossa salasanan palautustoimintoa. Rajoitteen voi poistaa myös manuaalisesti kortinvaihtotilanteessa.
+
+![](/assets/files/docs/Asiakkaat/liikaayrityksia.png)
 
 #### 1.5.10.2. Asiakkaan rajoitukset
 
