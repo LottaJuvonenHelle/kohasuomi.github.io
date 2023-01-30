@@ -28,13 +28,18 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   * Päätös: Emmi muuttaa kaikkien niiden rivien, joissa on datereceived-arvo ja orderstatus='ordered' -> orderstatus='complete' ja seurataan, tuleeko uusia.
 * Viikon 5 päivitys
   * Käännösmuutoksia, joten käännökset ajettava
-  * [Kooste-viesti-triggeri tuotantoon](https://tiketti.koha-suomi.fi/issues/5269)?
-    * Tähän liittyy myös tiketti [KohaSuomi/Koha #389](https://github.com/KohaSuomi/Koha/issues/389) 
 * Päivystysvuorot viikosta 6 alkaen
   * Vko 6 Pasi ja Kodo
   * Vko 7 Lari ja Anneli
   * Vko 8 Lasse ja Emmi
   * Vko 9 Pasi ja Kodo
+
+### Torstain palaveri
+
+* ODUECLAIM-viestien säilytysaika
+* [Kooste-viesti-triggeri tuotantoon](https://tiketti.koha-suomi.fi/issues/5269)?
+  * Tähän liittyy myös tiketti [KohaSuomi/Koha #389](https://github.com/KohaSuomi/Koha/issues/389)
+  * mitä muuta?
 
 ## Viikko 4 muistio
 
