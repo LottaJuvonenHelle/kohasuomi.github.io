@@ -28,6 +28,7 @@ Läsnä:
   * [Bugzillan ohje tiketin tekemiseen](https://bugzilla.readthedocs.io/en/5.2/using/filing.html#reporting-a-new-bug)
   * [Koha-yhteisön sandboxit](https://wiki.koha-community.org/wiki/Sandboxes)
 * Kohan ohje suomeksi - Asiakkaat -> [Rajoitukset-osioon](https://koha-suomi.fi/dokumentaatio/asiakkaat/#1510-rajoitukset) lisätty Tili lukittu ja rajoite moninaisista epäonnistuneista kirjautumisyrityksistä
+* [Nideryhmät versiossa 22.11](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta#nideryhm%C3%A4t) - otetaanko käyttöön ja pyydetäänkö Finnaankin?
 
 ## Viikko 4 muistio
 
