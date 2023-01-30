@@ -17,19 +17,24 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantain palaveri
 
-Aika:
-Läsnä:
+Aika: 30.1.2023
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Kimpoissa on tilauksia, jotka ovat yhtä aikaa vastaanotettu ja tilattu. Niissä on vastaanottopäivä aqorders-taulussa, mutta orderstatus on 'ordered'. Tämä aiheuttaa ongelmia vastaanotossa. Näkyville tulee tilauksia, jotka on jo vastaanotettu ja niitä ei saa vastaanotettua uudelleen.
   * select * from aqorders where datereceived is not null and orderstatus='ordered'
   * [Liittyy tiketti #300](https://github.com/KohaSuomi/Koha/issues/300) ja Pääkäyttäjien matrixissa käyty keskustelu ["Vaivaako muitakin kimppoja päivityksen jälkeen ilmestyneet vanhat jo vastaanotetut tilaukset?"](https://matrix.to/#/!XuuUEkGSyGepDvGgvN:matrix.org/$14Q-Lkxhbz80FPXzTj08OUyPqyzNCynMau-kXl1ZbtM?via=matrix.org) (linkki matrixiin, avautuu vain jäsenille)
   * Laskin, kuinka paljon on tilausrivejä, joissa on datereceivedissä päivämäärä ja orderstatus 'ordered': Lumme: 7646, Outi: 9282, Lappi: 782, Vaara: 849, Vaski 2, Kyyti: 7255, Helle: 6, Siili: 2279
-  * Mitä näille voisi tehdä? Muuttaa ajolla orderstatus vastaanotetuksi?
+  * Mitä näille voisi tehdä? Muuttaa ajolla orderstatus vastaanotetuksi (complete)?
+  * Päätös: Emmi muuttaa kaikkien niiden rivien, joissa on datereceived-arvo ja orderstatus='ordered' -> orderstatus='complete' ja seurataan, tuleeko uusia.
 * Viikon 5 päivitys
   * Käännösmuutoksia, joten käännökset ajettava
   * [Kooste-viesti-triggeri tuotantoon](https://tiketti.koha-suomi.fi/issues/5269)?
     * Tähän liittyy myös tiketti [KohaSuomi/Koha #389](https://github.com/KohaSuomi/Koha/issues/389) 
 * Päivystysvuorot viikosta 6 alkaen
+  * Vko 6 Pasi ja Kodo
+  * Vko 7 Lari ja Anneli
+  * Vko 8 Lasse ja Emmi
+  * Vko 9 Pasi ja Kodo
 
 ## Viikko 4 muistio
 
