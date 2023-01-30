@@ -27,7 +27,7 @@ Läsnä:
   * [Yhteisön raportointiohjeistus](https://wiki.koha-community.org/wiki/Bug_Reporting_Guidelines)
   * [Bugzillan ohje tiketin tekemiseen](https://bugzilla.readthedocs.io/en/5.2/using/filing.html#reporting-a-new-bug)
   * [Koha-yhteisön sandboxit](https://wiki.koha-community.org/wiki/Sandboxes)
-
+* Kohan ohje suomeksi - Asiakkaat -> [Rajoitukset-osioon](https://koha-suomi.fi/dokumentaatio/asiakkaat/#1510-rajoitukset) lisätty Tili lukittu ja rajoite moninaisista epäonnistuneista kirjautumisyrityksistä
 
 ## Viikko 4 muistio
 
