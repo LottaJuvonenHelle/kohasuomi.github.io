@@ -16,6 +16,8 @@ Aika: 31.1.2023 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* [Vkon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/396)
+* [Versionvaihtoon keskittyminen](https://github.com/KohaSuomi/Koha/discussions/395)
 * [Onko tiketti Koha #311 ok kaikilla?](https://github.com/KohaSuomi/Koha/issues/311)
 * Onko kaikki tarkistanut indeksin toimivuuden [tiketin 213](https://github.com/KohaSuomi/Koha/issues/213) muutoksen jälkeen?
 * Miten olisi helpointa seurata työn valmiusastetta silloin, kun sama työ tehdään kaikille kimpoille? [Yksi ehdotus](https://github.com/KohaSuomi/Koha/issues/213#issuecomment-1405045158).
