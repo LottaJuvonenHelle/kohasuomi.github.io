@@ -856,7 +856,16 @@ Painamalla *Tulosta* muodostuu tulostettava PDF-tiedosto. *Takaisin*-napista pä
 
 **Niteiden lisääminen omaan tulostusjonoon**
 
-Niteiden muokkaustilassa niteen voi listätä tulostusjonoon joko *Tulostusjonoon*-napista tai *Toiminnot*-valikon *Tulostusjonoon*-kohdasta.
+Lisää halutut niteet *Perustiedot*-näytöltä tarratulostusjonoon. Laita rasti haluamiesi niteiden kohdalle, jolloin näkyville tulee nidetaulukon yläpuolelle linkki *Lisää valitut niteet tulostusjonoon*, jota klikkaamalla niteet saa vietyä omaan tulostusjonoon Tarratulostustyökalussa.
+
+<img src="/assets/files/docs/Tyokalut/tulostusjonoon_uusi.png" title="Näkymä perustiedot-sivulta, jossa määritetään nide tulostusjonoon Lisää valitut niteet tulostusjonoon -linkillä" alt="Näkymä perustiedot-sivulta, jossa määritetään nide tulostusjonoon Lisää valitut niteet tulostusjonoon -linkillä" style="width:100.0%" />
+
+Jos tulostettavia niteitä on kahdella eri välilehdellä (oman kirjaston kokoelmat ja muut kokoelmat), pitää kummallakin välilehdellä tehdä valinta ja vienti erikseen.
+
+Kannattaa hyödyntää Kokoelmat-taulukon suodatus-toimintoa ja suodattaa näkyville vain halutut niteet ja sen jälkeen *Valitse kaikki*, jolloin näkyvillä olevat niteet tulevat valituksi ja ne saa vietyä kerralla tulostusjonoon.
+
+
+Myös niteiden muokkaustilassa niteen voi listätä tulostusjonoon joko *Tulostusjonoon*-napista tai *Toiminnot*-valikon *Tulostusjonoon*-kohdasta.
 
 <img src="/assets/files/docs/Tyokalut/tulostusjonoon.png" title="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" alt="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" style="width:100.0%" />
 
