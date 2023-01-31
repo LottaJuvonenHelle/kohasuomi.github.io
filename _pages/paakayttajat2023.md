@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5 muistio
 
 Aika: 31.1.2023 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
 
 
 **Yhteiset**
@@ -43,6 +43,11 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo P
 **Vaara**
 * Kehuja viime viikon päivityksestä eli hyllyvarauslistan sijaintikirjaston korostuksesta. Kuulemma paras muutos aikoihin :)
 * ei mitään muuta erityistä mainittavaa
+
+**OUTI**
+* Finna-tuesta on tullut vastaus, että varauksen oletusvoimassaoloaika voidaan muuttaa Koha-ajurin asetuksissa. Asiasta lisää asiakaswikissä: https://www.kiwi.fi/display/Finna/Koha-ajurin+asetukset#Kohaajurinasetukset-Varaukset. Oletusvoimassaoloajan muuttaminen kolmeen vuoteen käsitellään seuraavassa asiantuntijatyöryhmän kokouksessa.
+* Oulun Finvoice laskutuksessa vielä ongelmana, että niteen viivakoodi ja nidetyyppi saataisiin näkyviin laskulle. Aluksi tiedot olivat ArticleName-tägissä, mutta tägin merkkimäärä ei saa ylittää 100 merkkiä ja jossain tapauksissa näin käy. ArticleDescription-kenttä ei välity laskulle. Nyt Monetralta ovat ehdottaneet, että tiedot laitettaisiin RowFreeText-elementtiin. Testaukset jatkuvat.
+* Varauksen tekosivulle lisätty ohjeteksti, kun tehdään nidevaraus: "Valitse noutokirjasto niteen kohdalta, jos teet nidevaruksen". Tekstin voi lisätä CSS:llä. Ohje Redminen tiketissä #5475.
 
 
 ## Viikko 4 muistio
