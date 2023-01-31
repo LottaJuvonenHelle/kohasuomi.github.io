@@ -13,7 +13,8 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5 esityslista
 
 Aika: 31.1.2023 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme)
+
 
 **Yhteiset**
 * [Vkon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/396)
@@ -35,6 +36,9 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 * Koha-käyttäjäryhmän kokous pitkästä aikaa. Päätettiin asetusten käyttöönotosta, osa jo ed. versiopäivityksessä tulleita ominaisuuksia, osa Kirkes-järjestelmäasetusten läpikäynnissä esille tulleita asioita. 
 * Tornion kirjasto suljetaan jo ensi viikolla. Muut kirjaston sulkutoimet saatu tehtyä, mutta ongelmana varausten keskeyttäminen ja noutopaikan estäminen, koska ei ole toista toimipistettä, joka voitaisiin Finnassa osoittaa noutopisteeksi. 
 
+**Lumme**
+* Uudet OKM tilastot ajettu 30.1.2023
+* Lumpeilla jäänyt viestiasetusten defaultteihin sähköposti, jolloin sähköpostikohtiin on tullut täpät myös niille asiakkaille, joilla asiakastiedoissa ei ole sähköpostia. Tästä johtuen on tullut paljon epäonnistuneita viestejä. Tehtäneen massa-ajo, jolla saadaan asiakkaiden asetukset kohdalleen.
 
 ## Viikko 4 muistio
 
