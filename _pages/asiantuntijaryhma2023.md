@@ -26,6 +26,10 @@ Läsnä:
 
 Teokset tilataan nykyään paljon ennen kuin ne ilmestyvät ja jos ilmestyminen viivästyy voi käydä niin, että asiakkaiden varaukset ehtivät kahdessa vuodessa vanhentua ja poistua ennen kuin saavat varaamansa teoksen. Ongelmaa helpottaisi vähän oletusvoimassaoloajan muuttaminen kolmeksi vuodeksi. Muutos pitäisi tehdä sekä Kohan asetuksiin että Finnaan.
 
+### 3. Kehitysehdotus-tikettien työnkulku
+
+Kehitysehdotus-tikettien työkulku on kuvattu sanallisesti ja vuokaaviona (pdf) [Tikettien työnkulku -wikissä](https://github.com/KohaSuomi/Koha/wiki/Tikettien-ty%C3%B6nkulku#kehitysehdotukset). Käydään läpi.
+
 ## Asiantuntijaryhmän muistio 1/23
 
 Aika: 16.1.2023 klo 9.00<br />
