@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 5 esityslista
+## Viikko 5 muistio
 
 Aika: 31.1.2023 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 
 **Yhteiset**
@@ -39,6 +39,11 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo P
 **Lumme**
 * Uudet OKM tilastot ajettu 30.1.2023
 * Lumpeilla jäänyt viestiasetusten defaultteihin sähköposti, jolloin sähköpostikohtiin on tullut täpät myös niille asiakkaille, joilla asiakastiedoissa ei ole sähköpostia. Tästä johtuen on tullut paljon epäonnistuneita viestejä. Tehtäneen massa-ajo, jolla saadaan asiakkaiden asetukset kohdalleen.
+
+**Vaara**
+* Kehuja viime viikon päivityksestä eli hyllyvarauslistan sijaintikirjaston korostuksesta. Kuulemma paras muutos aikoihin :)
+* ei mitään muuta erityistä mainittavaa
+
 
 ## Viikko 4 muistio
 
