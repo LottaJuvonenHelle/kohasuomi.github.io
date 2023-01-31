@@ -64,7 +64,7 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo P
 * Siirtoraportissa oli jotain häikkää, mutta se oikeni päivän kuluessa.
 
 **Helle**
-* Porvoon Kerkkoon kirjaston lainoille on tullut lainojen eräpäiviksi kirjaston kalenteriin tallennettuja kiinniolopäiviä. Tämä johtui siitä, että kirjastosta on lainattu niteitä, joiden sijainkirjasto ei ole ollut Kerkkoon kirjasto. Tiketti https://github.com/KohaSuomi/Koha/issues/273 (Tiketissä https://tiketti.koha-suomi.fi/issues/5452 tarkemmin asetusten circcontrol JA homeorholdingbranch arvoihin liittyen.)
+* Porvoon Kerkkoon kirjaston lainoille on tullut lainojen eräpäiviksi kirjaston kalenteriin tallennettuja kiinniolopäiviä. Tämä johtui siitä, että Kerkkoon kirjastosta on lainattu niteitä, joiden sijainkirjasto ei ole ollut Kerkkoon kirjasto. Tiketti https://github.com/KohaSuomi/Koha/issues/273 (Tiketissä https://tiketti.koha-suomi.fi/issues/5452 tarkemmin asetusten circcontrol JA homeorholdingbranch arvoihin liittyen.)
 
 
 ## Viikko 4 muistio
