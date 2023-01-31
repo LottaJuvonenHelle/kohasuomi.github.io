@@ -59,6 +59,10 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo P
 * Oulun Finvoice laskutuksessa vielä ongelmana, että niteen viivakoodi ja nidetyyppi saataisiin näkyviin laskulle. Aluksi tiedot olivat ArticleName-tägissä, mutta tägin merkkimäärä ei saa ylittää 100 merkkiä ja jossain tapauksissa näin käy. ArticleDescription-kenttä ei välity laskulle. Nyt Monetralta ovat ehdottaneet, että tiedot laitettaisiin RowFreeText-elementtiin. Testaukset jatkuvat.
 * Varauksen tekosivulle lisätty ohjeteksti, kun tehdään nidevaraus: "Valitse noutokirjasto niteen kohdalta, jos teet nidevaruksen". Tekstin voi lisätä CSS:llä. Ohje Redminen tiketissä #5475.
 
+**Kyyti**
+* Päivitin uuden tarratulostustiedon Koha-Suomen käyttöohjeisiin https://koha-suomi.fi/dokumentaatio/tyokalut/#12164-tarratulostusty%C3%B6kalu
+* Siirtoraportissa oli jotain häikkää, mutta se oikeni päivän kuluessa.
+
 
 ## Viikko 4 muistio
 
