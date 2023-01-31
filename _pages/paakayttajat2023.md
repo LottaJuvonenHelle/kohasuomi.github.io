@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5 esityslista
 
 Aika: 31.1.2023 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Vkon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/396)
@@ -30,10 +30,16 @@ Läsnä:
 * Kohan ohje suomeksi - Asiakkaat -> [Rajoitukset-osioon](https://koha-suomi.fi/dokumentaatio/asiakkaat/#1510-rajoitukset) lisätty Tili lukittu ja rajoite moninaisista epäonnistuneista kirjautumisyrityksistä
 * [Nideryhmät versiossa 22.11](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta#nideryhm%C3%A4t) - otetaanko käyttöön ja pyydetäänkö Finnaankin?
 
+**Lappi**
+* Tukipostissa rauhallista
+* Koha-käyttäjäryhmän kokous pitkästä aikaa. Päätettiin asetusten käyttöönotosta, osa jo ed. versiopäivityksessä tulleita ominaisuuksia, osa Kirkes-järjestelmäasetusten läpikäynnissä esille tulleita asioita. 
+* Tornion kirjasto suljetaan jo ensi viikolla. Muut kirjaston sulkutoimet saatu tehtyä, mutta ongelmana varausten keskeyttäminen ja noutopaikan estäminen, koska ei ole toista toimipistettä, joka voitaisiin Finnassa osoittaa noutopisteeksi. 
+
+
 ## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Heli Auranen, Katja Valjakka (Lumme), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
+Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Heli Auranen, Katja Valjakka (Lumme), Kati Sillgren (Helle), Mikko Liimatainen (Vaski), Leena Kinnunen, Pia Kusmin (Lappi) 
 
 **Yhteiset**
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/381)
@@ -73,6 +79,10 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 **Vaski**
 * Anni tarkistanut Mikroväylän automaattien maksujen erotinmerkin. SipFeesDecimalSeparator asetukseen tulee laittaa piste, jotta maksut tulostuvat kuitille oikein.
 * Asiakastietojen inforuutuun toivottaisiin tarkennusta "Tili on lukittu" tekstille. Tekstiin voisi laittaa tiedon liian monesta kirjautumisyrityksestä, mikäli tuota ei käytetä muuhun. Myös ohjeisiin selitys kirjautumisyritysten aiheuttamista lukituksista ja rajoituksista.
+
+**Lappi**
+* Rauhallista, ei kummempaa
+
 
 ## Viikko 3 muistio
 
