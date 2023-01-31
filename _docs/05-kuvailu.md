@@ -587,6 +587,8 @@ ohje tehdään myöhemmin
 
 Tallennusohje löytyy täältä [tarratulostus](https://tiketti.koha-suomi.fi/attachments/5489/Tarratulostus%2021.11%20versio.docx)
 
+Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalut/#12164-tarratulostusty%C3%B6kalu)
+
 ### 5.4.2. Niteiden tallennusohjeet
 
 <table>
