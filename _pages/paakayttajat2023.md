@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5 muistio
 
 Aika: 31.1.2023 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 
 **Yhteiset**
@@ -22,15 +22,25 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo P
 * [Onko tiketti Koha #311 ok kaikilla?](https://github.com/KohaSuomi/Koha/issues/311)
 * Onko kaikki tarkistanut indeksin toimivuuden [tiketin 213](https://github.com/KohaSuomi/Koha/issues/213) muutoksen jälkeen?
 * Miten olisi helpointa seurata työn valmiusastetta silloin, kun sama työ tehdään kaikille kimpoille? [Yksi ehdotus](https://github.com/KohaSuomi/Koha/issues/213#issuecomment-1405045158).
+  * Ehdotus ei toiminut, koska pääkäyttäjien write-oikeuksilla ei pysty muokkaamaan toisten kommentteja.
+  * Emmi löysi ohjeen [GitHubin Task-toimintoon](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)
+  * Sovittiin, että tehdään seuranta niin, että Anneli/joku muu lisää yhden kommentin, jossa tehdään seuranta. Kun asia on omassa kimpassa ok, yksi kimpan pääkäyttäjistä käy peukuttamassa kommenttia, jolloin peukkujen määrästä voi päätellä, onko kaikki tehty.
+  * Anneli testaili vielä kokouksen jälkeen ja yhdisti peukutuksen Task-toimintoon näin: ![kuva](https://user-images.githubusercontent.com/33121325/215745423-71572ea9-a647-411e-89d1-659e821de834.png)
+  * Anneli tai joku muu admin käy lisäämässä raksit peukkujen perusteella kommenttiin.
 * Kun versionvaihdon next-kannat saadaan käyttöön, mitä kantaa Anneli saa käyttää esim. IntranetUserCSS:ien ja IntranetUserJS:ien testaamiseen?
+  * Vaara ilmoittautui vapaaehtoiseksi
+  * Anneli päivittää [Järjestelmäasetukset-sivulle](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/), mitkä rimpsut toimivat versiossa 22.11.
 * Bugin tekeminen yhteisön [Bugzillaan](https://bugs.koha-community.org/bugzilla3/).
   * Rekisteröidy
   * [Yhteisön raportointiohjeistus](https://wiki.koha-community.org/wiki/Bug_Reporting_Guidelines)
   * [Bugzillan ohje tiketin tekemiseen](https://bugzilla.readthedocs.io/en/5.2/using/filing.html#reporting-a-new-bug)
   * [Koha-yhteisön sandboxit](https://wiki.koha-community.org/wiki/Sandboxes)
 * Kohan ohje suomeksi - Asiakkaat -> [Rajoitukset-osioon](https://koha-suomi.fi/dokumentaatio/asiakkaat/#1510-rajoitukset) lisätty Tili lukittu ja rajoite moninaisista epäonnistuneista kirjautumisyrityksistä
+  * Pirkko-Liisa lisää vielä linkin Lainaus-osiosta näihin ohjeisiin.
 * [Nideryhmät versiossa 22.11](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta#nideryhm%C3%A4t) - otetaanko käyttöön ja pyydetäänkö Finnaankin?
-
+  * Toimintoa pidettiin hyvänä, varsinkin jos siihen saadaan yhdistettyä Koha-Suomen tekemänä triggereitä ja ajoa, jotka luovat nideryhmät automaattisesti kausijulkaisutilausten perusteella ja vievät enumchronin perusteella niteet oikeaan nideryhmään.
+  * Kysytään Finna-toimistosta, saisiko Finnaankin tuen ainakin varausten tekemiseen. 
+  * 
 **Lappi**
 * Tukipostissa rauhallista
 * Koha-käyttäjäryhmän kokous pitkästä aikaa. Päätettiin asetusten käyttöönotosta, osa jo ed. versiopäivityksessä tulleita ominaisuuksia, osa Kirkes-järjestelmäasetusten läpikäynnissä esille tulleita asioita. 
