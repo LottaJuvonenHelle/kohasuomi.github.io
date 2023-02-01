@@ -40,6 +40,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 * [Kooste-viesti-triggeri tuotantoon](https://tiketti.koha-suomi.fi/issues/5269)?
   * Tähän liittyy myös tiketti [KohaSuomi/Koha #389](https://github.com/KohaSuomi/Koha/issues/389)
   * mitä muuta?
+* Lapin varausten keskeytykset [KohaSuomi/Koha #397](https://github.com/KohaSuomi/Koha/issues/397)
 
 ## Viikko 4 muistio
 
