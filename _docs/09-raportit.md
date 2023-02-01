@@ -546,7 +546,7 @@ tehtyjen hyllypaikkamääritysten mukaan.
 
 #### 9.3.2.4 Jako kauno- ja tietokirjoihin
 
-Nide on kaunokirja, jos sen YKL-luokka niteessä on 80-85. Muut ovat tietokirjoja. Tieto otetaan niteen cn_sort-kentästä, jossa se pitää olla kentän ensimmäisenä tietona. cn_sort-kentän tieto muodostetaan niteen signum-kentästä (itemcallnumber) ja sitä varten on kaksi eri liitännäistä riippuen siitä, onko signum-kentässä ensimmäisenä luokka-arvo vai jotain muuta.
+Nide on kaunokirja, jos sen YKL-luokka **niteessä** on 80-85. Muut ovat tietokirjoja. Tieto otetaan niteen cn_sort-kentästä, jossa se pitää olla kentän ensimmäisenä tietona. cn_sort-kentän tieto muodostetaan niteen signum-kentästä (itemcallnumber) ja sitä varten on kaksi eri liitännäistä riippuen siitä, onko signum-kentässä ensimmäisenä luokka-arvo vai jotain muuta.
 
 #### 9.3.2.5 Musiikkiäänitteet
 
@@ -588,6 +588,10 @@ Poistettuja niteitä ei lasketa määritetyn aikavälin kokoelmiin ja
 hankintoihin, koska hankintatietoja ei säilytetä.
 
 Poistettujen niteiden lainat lasketaan mukaan lainatilastoihin.
+
+#### 9.3.2.10 Lainanneet asiakkaat
+
+Lainaajat lasketaan aina uniikkeina arvoina. Tällöin, jos asiakas on lainannut vuoden aikana useammasta kirjastosta, tämä lasketaan näiden kirjastojen lainatilastoihin. Mutta koska OKM-tilastoissa kirjastot lasketaan ryhmittäin, lainaaja ei esiinny OKM-tilastoissa kuin kerran, jos kirjastot kuuluvat samaan OKM-ryhmään.
 
 ### 9.3.3 Raportin käyttöohje
 
