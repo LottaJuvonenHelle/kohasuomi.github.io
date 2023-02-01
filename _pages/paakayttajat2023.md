@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5 muistio
 
 Aika: 31.1.2023 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi, paikalla yhteisten asioiden ajan)
 
 
 **Yhteiset**
@@ -65,6 +65,9 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo P
 
 **Helle**
 * Porvoon Kerkkoon kirjaston lainoille on tullut lainojen eräpäiviksi kirjaston kalenteriin tallennettuja kiinniolopäiviä. Tämä johtui siitä, että Kerkkoon kirjastosta on lainattu niteitä, joiden sijainkirjasto ei ole ollut Kerkkoon kirjasto. Lainauksessa käytetään niteen sijaintikirjaston kalenteria. Tiketti https://github.com/KohaSuomi/Koha/issues/273 (Tiketissä https://tiketti.koha-suomi.fi/issues/5452 tarkemmin asetusten circcontrol JA homeorholdingbranch arvoihin liittyen.)
+
+**Siilinjärvi**
+* Ei mainittavaa.
 
 
 ## Viikko 4 muistio
