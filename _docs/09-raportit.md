@@ -528,6 +528,8 @@ ylläpidossa. Tilastoihin otetaan mukaan ne ryhmät, joiden tunnus päättyy
 ‘\_OKM’. Esim. JOE_OKM, OU_OKM. Vain näihin ryhmiin kuuluvat kirjastot
 otetaan mukaan OKM-tilastoihin.
 
+Tilastot ilmoitetaan OKM:lle kotikirjaston mukaan.
+
 #### 9.3.2.2 Jako kielen mukaan
 
 Nide lasketaan suomenkieliseksi, jos tietueen ensimmäinen 084$a-kenttä
