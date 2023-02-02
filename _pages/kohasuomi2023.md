@@ -42,6 +42,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   * mitä muuta?
 * Lapin varausten keskeytykset [K21-397](https://github.com/KohaSuomi/Koha/issues/397)
 * [Varaukset ei näy Finnassa KohaSuomi/Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - voisko johtua AllowRenewalIfOtherItemsAvailable-järjestelmäasetuksesta?
+* Versionvaihdossa branchien nimet pidetään samoina kuin aiemmin.
 
 ## Viikko 4 muistio
 
