@@ -41,6 +41,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   * Tähän liittyy myös tiketti [K21-389](https://github.com/KohaSuomi/Koha/issues/389)
   * mitä muuta?
 * Lapin varausten keskeytykset [K21-397](https://github.com/KohaSuomi/Koha/issues/397)
+* [Varaukset ei näy Finnassa KohaSuomi/Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - voisko johtua AllowRenewalIfOtherItemsAvailable-järjestelmäasetuksesta?
 
 ## Viikko 4 muistio
 
