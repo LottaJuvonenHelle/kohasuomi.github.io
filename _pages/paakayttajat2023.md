@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5 muistio
 
 Aika: 31.1.2023 klo 9.15<br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi, paikalla yhteisten asioiden ajan)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Päivi Knuutinen ja Auli Rantasalo (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi, paikalla yhteisten asioiden ajan), Mikko Liimatainen (Vaski)
 
 
 **Yhteiset**
@@ -69,6 +69,9 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo P
 **Siilinjärvi**
 * Ei mainittavaa.
 
+**Vaski**
+* Uuden version testausta aloitellaan
+* Tarve saada kuiteille takemmat nimeketiedot. Nämä löytyvätkin nykyään biblio subtitle, part_number ja part_name -kentistä.
 
 ## Viikko 4 muistio
 
