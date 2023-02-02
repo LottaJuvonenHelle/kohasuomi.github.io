@@ -37,9 +37,11 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 ### Torstain palaveri
 
 * ODUECLAIM-viestien säilytysaika
+  * Lari huolehtii ennen seuraavia puhdistusajoja, että ajot noudattaa [Tietojen säilysaikapäätöksiä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat).
+* lokitukseen muutos, että lokille tallennetaan vain muuttuneet arvot? Emmi tekee tiketin ja tutkitaan tarkemmin versionvaihdon jälkeen.
 * [Kooste-viesti-triggeri tuotantoon](https://tiketti.koha-suomi.fi/issues/5269)?
   * Tähän liittyy myös tiketti [K21-389](https://github.com/KohaSuomi/Koha/issues/389)
-  * mitä muuta?
+  * käyttöliittymästä täpät piiloon, transportit pois, täpät puuttuville.
 * Lapin varausten keskeytykset [K21-397](https://github.com/KohaSuomi/Koha/issues/397)
 * [Varaukset ei näy Finnassa KohaSuomi/Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - voisko johtua AllowRenewalIfOtherItemsAvailable-järjestelmäasetuksesta?
 * Versionvaihdossa branchien nimet pidetään samoina kuin aiemmin.
