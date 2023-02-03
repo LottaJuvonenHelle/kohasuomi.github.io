@@ -317,6 +317,7 @@ Nappi piilossa
 ### Piilota Automatic renewal / Automaattinen uusinta -checkbox
 
 Versio: 21.11
+Versio: 22.11 Ei tarpeellinen, koska  AllowSetAutomaticRenewal -järjestelmäasetuksella saa täpän piiloon.
 
 > /* Automatic renewal / Automaattinen uusinta -checkboxi piiloon */
 body#circ_circulation #set-automatic-renewal { display: none; }
