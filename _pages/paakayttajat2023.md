@@ -23,6 +23,7 @@ Läsnä:
   * [Tietojen säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/)
 * Ei viikkopäivitystä, koska ei ollut päivitettävää
 * Keskiviikkona säännöllinen huoltoikkuna, jolloin vaihdetaan palomuurin muistikampoja. Ei pitäisi aiheuttaa katkoksia.
+* [Finna-kehitysehdotusten](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues) läpikäynti /Susanna
 
 ## Viikko 5 muistio
 
