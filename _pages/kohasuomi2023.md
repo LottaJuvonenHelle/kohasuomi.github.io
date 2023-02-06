@@ -30,7 +30,7 @@ Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
     * Mahdollisimman valmiina omat ominaisuudet ennen kuin virkailijat testaa
     * pari viikkoa testiaikaa, jonka jälkeen vielä pari viikkoa aikaa korjauksille
   * redusointiskripti ehkä valmiiksi tällä viikolla
-  * Kodo lisää tähän kontainereista ja palomuurista
+  * Kontainerit luodaan viikolla 6 ja palomuureille ja DNS-palvelimille tehdään tarvittavat asetukset. Asetusten käyttöönotto palomuureilla keskiviikon 8.2. huoltokatkon yhteydessä.
 * mikä olisi hyvä paikka [tietoturvaohjeelle](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Koha-Suomen_tietoturvaohje)?
   * Kohan ohje suomeksi -otsikon alle viimeiseksi (jos ei löydy, niin siirretään sitten ekaksi)
 * TLS-salaus lähteviin posteihin?
