@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantain palaveri
 
-Aika:6.2.2023 klo 10<br />
+Aika: 6.2.2023 klo 10<br />
 Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Vkon 6 päivitys
@@ -42,6 +42,7 @@ Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
  * Lari kirjaa Tietojen säilytysajat -sivulle porrastusaikataulun
  * käytetään aikataulumuutos asiantuntijaryhmän seuraavassa kokouksessa 20.2.2023
  * käyttöönotto maaliskuussa
+* Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
 
 ## Viikko 5 muistiot
 
