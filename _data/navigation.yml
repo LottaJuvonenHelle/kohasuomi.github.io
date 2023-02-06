@@ -37,6 +37,8 @@ docs:
         url: /dokumentaatio/kuittitulostuksen-asetukset/
       - title: 'Työkalut'
         url: /dokumentaatio/tyokalut/
+      - title: 'Tietoturvaohje'
+        url: /dokumentaatio/tietoturvaohje/
   - title: Koulutukset
     children:
       - title: 'Koulutukset'
