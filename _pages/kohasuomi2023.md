@@ -13,11 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 6 muistiot
+
+### Maanantain palaveri
+
+Aika:<br />
+Läsnä
+
 ## Viikko 5 muistiot
 
 ### Maanantain palaveri
 
-Aika: 30.1.2023
+Aika: 30.1.2023<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Kimpoissa on tilauksia, jotka ovat yhtä aikaa vastaanotettu ja tilattu. Niissä on vastaanottopäivä aqorders-taulussa, mutta orderstatus on 'ordered'. Tämä aiheuttaa ongelmia vastaanotossa. Näkyville tulee tilauksia, jotka on jo vastaanotettu ja niitä ei saa vastaanotettua uudelleen.
@@ -35,6 +42,9 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   * Vko 9 Pasi ja Kodo
 
 ### Torstain palaveri
+
+Aika: 2.2.2023<br />
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 * ODUECLAIM-viestien säilytysaika
   * Lari huolehtii ennen seuraavia puhdistusajoja, että ajot noudattaa [Tietojen säilysaikapäätöksiä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat).
