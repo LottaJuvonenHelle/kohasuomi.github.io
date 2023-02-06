@@ -20,6 +20,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Aika:<br />
 Läsnä
 
+* Vkon 6 päivitys
+* next-kantojen tilanne
+  * "normitestaajat" testamaan viimeistään huhtikuun puolivälissä?
+* mikä olisi hyvä paikka [tietoturvaohjeelle](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Koha-Suomen_tietoturvaohje)?
+
+
 ## Viikko 5 muistiot
 
 ### Maanantain palaveri
