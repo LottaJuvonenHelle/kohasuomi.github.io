@@ -13,31 +13,31 @@ main:
 docs:
   - title: Kohan ohje suomeksi
     children:
-      - title: 'Asiakkaat'
+      - title: '1. Asiakkaat'
         url: /dokumentaatio/asiakkaat/
-      - title: 'Lainaus'
+      - title: '2. Lainaus'
         url: /dokumentaatio/lainaus/
-      - title: 'Maksut'
+      - title: '3. Maksut'
         url: /dokumentaatio/maksut/
-      - title: 'Varaukset'
+      - title: '4. Varaukset'
         url: /dokumentaatio/varaukset/
-      - title: 'Kuvailu'
+      - title: '5. Kuvailu'
         url: /dokumentaatio/kuvailu/
-      - title: 'Kausijulkaisut'
+      - title: '6. Kausijulkaisut'
         url: /dokumentaatio/kausijulkaisut/
-      - title: 'Hankinta'
+      - title: '7. Hankinta'
         url: /dokumentaatio/hankinta/
-      - title: 'Listat ja Kori'
+      - title: '8. Listat ja Kori'
         url: /dokumentaatio/listat-ja-kori/
-      - title: 'Raportit'
+      - title: '9. Raportit'
         url: /dokumentaatio/raportit/
-      - title: 'Tiedonhaku'
+      - title: '10. Tiedonhaku'
         url: /dokumentaatio/tiedonhaku/
-      - title: 'Kuittitulostuksen asetukset'
+      - title: '11. Kuittitulostuksen asetukset'
         url: /dokumentaatio/kuittitulostuksen-asetukset/
-      - title: 'Työkalut'
+      - title: '12. Työkalut'
         url: /dokumentaatio/tyokalut/
-      - title: 'Tietoturvaohje'
+      - title: '13. Tietoturvaohje'
         url: /dokumentaatio/tietoturvaohje/
   - title: Koulutukset
     children:
