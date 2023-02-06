@@ -17,14 +17,31 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantain palaveri
 
-Aika:<br />
-Läsnä
+Aika:6.2.2023 klo 10<br />
+Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Vkon 6 päivitys
+  * ei päivitettävää 
+* Huoltokatko ke 7-9
+  * vaihdetaan palomuurin muistikammat
+  * todennäköisesti ei katkoja tiedossa 
 * next-kantojen tilanne
   * "normitestaajat" testamaan viimeistään huhtikuun puolivälissä?
+    * Mahdollisimman valmiina omat ominaisuudet ennen kuin virkailijat testaa
+    * pari viikkoa testiaikaa, jonka jälkeen vielä pari viikkoa aikaa korjauksille
+  * redusointiskripti ehkä valmiiksi tällä viikolla
+  * Kodo lisää tähän kontainereista ja palomuurista
 * mikä olisi hyvä paikka [tietoturvaohjeelle](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Koha-Suomen_tietoturvaohje)?
-
+  * Kohan ohje suomeksi -otsikon alle viimeiseksi (jos ei löydy, niin siirretään sitten ekaksi)
+* TLS-salaus lähteviin posteihin?
+  * Kodo keskustellut sen käyttöönotosta BittiGurun kanssa ja se onnistuu.
+  * Otetaan käyttöön, kun operaattori ehtii. 
+* Anneli tieteellisten palaveri
+* Siivousajot
+ * action_logsin siivous kerran kuussa porrastaen kimpoittain eri päiville
+ * Lari kirjaa Tietojen säilytysajat -sivulle porrastusaikataulun
+ * käytetään aikataulumuutos asiantuntijaryhmän seuraavassa kokouksessa 20.2.2023
+ * käyttöönotto maaliskuussa
 
 ## Viikko 5 muistiot
 
