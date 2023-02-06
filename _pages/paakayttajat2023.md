@@ -18,6 +18,11 @@ Läsnä:
 **Yhteiset**
 
 * Vuosi vaihtunut, onko [Integraatiot-lista](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) ajan tasalla?
+* Koha-Suomen nettisivuille siirretty
+  * [Tietoturvaohje](https://koha-suomi.fi/dokumentaatio/tietoturvaohje/)
+  * [Tietojen säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/)
+* Ei viikkopäivitystä, koska ei ollut päivitettävää
+* Keskiviikkona säännöllinen huoltoikkuna, jolloin vaihdetaan palomuurin muistikampoja. Ei pitäisi aiheuttaa katkoksia.
 
 ## Viikko 5 muistio
 
