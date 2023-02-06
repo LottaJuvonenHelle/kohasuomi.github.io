@@ -1,12 +1,10 @@
 ---
-title: 'Kohan ohje suomeksi'
+title: 'Koha-Suomen tietoturvaohje'
 permalink: /dokumentaatio/tietoturvaohje/
 redirect_from:
   - /theme-setup/
 toc: true
 ---
-
-# Koha-Suomen tietoturvaohje
 
 Tällä sivulla on kirjastoille tarkoitettuja ohjeita ja hyviä käytäntöjä Koha-järjestelmän tietoturvasta ja turvallisuudesta huolehtimiseen.
 
