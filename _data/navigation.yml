@@ -49,3 +49,5 @@ docs:
         url: /dokumentaatio/asetukset/
       - title: 'Järjestelmäasetukset'
         url: /dokumentaatio/jarjestelmaasetukset/
+      - title: 'Tietojen säilytysajat'
+        url: /dokumentaatio/tietojensailytysajat/
