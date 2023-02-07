@@ -41,7 +41,7 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Ky
 * Tuplaverkkomaksuja tulee yhä. OUTIsta laitettu ongelmasta palautetta myös Finna-tukeen. Palautteeseen laitetiin pari esimerkkiä, joissa asiakkaan ja maksun tiedot, tuplamaksujen pvm ja kellonajat.
 
 **Helle**
-* Pornaisten tunneloitu automaatti poistettu käytöstä. Uusi käyttöön otettu automaatti toimii tietoturvallisesti ilman tunnelointia.
+* Pornaisten kirjaston tunneloitu automaatti poistettu käytöstä. Uusi käyttöön otettu automaatti toimii tietoturvallisesti ilman tunnelointia.
 
 ## Viikko 5 muistio
 
