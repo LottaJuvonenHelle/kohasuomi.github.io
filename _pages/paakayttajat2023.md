@@ -34,7 +34,7 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Ky
 
 **Kyyti**
 * On selvitelty ongelmaa, jossa asiakkaalla oli lainassa kirjoja, joita hän ei ollut lainannut. Selityksenä vaikuttaisi olevan, että hänen jälkeensä automaatille tulleen lainaukset ovat kirjautuneet hänen kirjastokortilleen.
-* Tehty tiketti #404 Noutamattoman varauksen määräytyminen nidetyypin mukaan
+* Tehty tiketti [#404 Noutamattoman varauksen määräytyminen nidetyypin mukaan](https://github.com/KohaSuomi/Koha/issues/404)
 
 ## Viikko 5 muistio
 
