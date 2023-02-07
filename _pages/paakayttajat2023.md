@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6 esityslista
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle)
 
 **Yhteiset**
 
@@ -39,6 +39,9 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Ky
 **OUTI**
 * Oulun Finvoice-laskutusprojekti saatu toivottavasti nyt valmiiksi.
 * Tuplaverkkomaksuja tulee yhä. OUTIsta laitettu ongelmasta palautetta myös Finna-tukeen. Palautteeseen laitetiin pari esimerkkiä, joissa asiakkaan ja maksun tiedot, tuplamaksujen pvm ja kellonajat.
+
+**Helle**
+* Pornaisten tunneloitu automaatti poistettu käytöstä. Uusi käyttöön otettu automaatti toimii tietoturvallisesti ilman tunnelointia.
 
 ## Viikko 5 muistio
 
