@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6 esityslista
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Reetta Pihlaja (Siilinjärvi), 
 
 **Yhteiset**
 
@@ -26,6 +26,11 @@ Läsnä:
   * Voi vaikuttaa tunneloituihin automaatteihin
 * [Finna-kehitysehdotusten](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues) läpikäynti /Susanna
 * [Lapin, OUTIn ja Vaskin action_logs-taulujen korjaukset](https://github.com/KohaSuomi/Koha/issues/403) aiheuttaa viivettä tietojen replikoinnissa masterilta slaveen.
+
+**Siilinjärvi**
+
+* Mikro-Väylä päivittänyt loputkin automaatit viikolla 4 ja lisännyt asetuksiin Sipinstitution id:t
+* Ei muuta
 
 ## Viikko 5 muistio
 
