@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6 esityslista
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), 
+Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti)
 
 **Yhteiset**
 
@@ -31,6 +31,10 @@ Läsnä: Reetta Pihlaja (Siilinjärvi),
 
 * Mikro-Väylä päivittänyt loputkin automaatit viikolla 4 ja lisännyt asetuksiin Sipinstitution id:t
 * Ei muuta
+
+**Kyyti**
+* On selvitelty ongelmaa, jossa asiakkaalla oli lainassa kirjoja, joita hän ei ollut lainannut. Selityksenä vaikuttaisi olevan, että hänen jälkeensä automaatille tulleen lainaukset ovat kirjautuneet hänen kirjastokortilleen.
+* Tehty tiketti #404 Noutamattoman varauksen määräytyminen nidetyypin mukaan
 
 ## Viikko 5 muistio
 
