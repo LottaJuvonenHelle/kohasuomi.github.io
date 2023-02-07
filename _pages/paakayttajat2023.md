@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 6 esityslista
 
-Aika:.2023 klo 9.15 <br />
+Aika: 7.2.2023 klo 9.15 <br />
 Läsnä:
 
 **Yhteiset**
@@ -23,7 +23,9 @@ Läsnä:
   * [Tietojen säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/)
 * Ei viikkopäivitystä, koska ei ollut päivitettävää
 * Keskiviikkona säännöllinen huoltoikkuna, jolloin vaihdetaan palomuurin muistikampoja. Ei pitäisi aiheuttaa katkoksia.
+  * Voi vaikuttaa tunneloituihin automaatteihin
 * [Finna-kehitysehdotusten](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues) läpikäynti /Susanna
+* [Lapin, OUTIn ja Vaskin action_logs-taulujen korjaukset](https://github.com/KohaSuomi/Koha/issues/403) aiheuttaa viivettä tietojen replikoinnissa masterilta slaveen.
 
 ## Viikko 5 muistio
 
