@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 6 esityslista
+## Viikko 6 muistio
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 
@@ -35,6 +35,12 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Ky
 **Kyyti**
 * On selvitelty ongelmaa, jossa asiakkaalla oli lainassa kirjoja, joita hän ei ollut lainannut. Selityksenä vaikuttaisi olevan, että hänen jälkeensä automaatille tulleen lainaukset ovat kirjautuneet hänen kirjastokortilleen.
 * Tehty tiketti [#404 Noutamattoman varauksen määräytyminen nidetyypin mukaan](https://github.com/KohaSuomi/Koha/issues/404)
+
+**Vaara**
+* Lehtitietueisiin ryhdytty lisäämään luokka, joten saadaan signumit oikeanlaiseen kuosiin jossain vaiheessa
+* Viime keskiviikon järkytys oli lukea tiketin 232 tieto, jossa omatoimikäytön estoblokit oli otettu pois päältä kaikista kimpoista. Pikainen tarkastus omista tiedoista osoitti, että Toveria varten omatoimikäyttöön tarvittava ruksi oli hävinnyt tiedoista. Onneksi hälytys Matrixissa auttoi ja poisto saatiin kumottua pikaisesti. Olisi ollut noloa, kun juuri samana päivänä aloitti uusi omatoimikirjasto (Kesälahti) ja heti olisi ollut sisäänpääsyongelma.
+* Kiihtelysvaaran itsepalvelulainauksen kirjautumisongelmaan on ehkä vihdoin saatu ratkaisu, testissä tällä hetkellä.
+
 
 ## Viikko 5 muistio
 
