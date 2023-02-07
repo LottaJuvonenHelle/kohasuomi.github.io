@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 6 muistio
+## Viikko 6 esityslista
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti)
 
 **Yhteiset**
 
@@ -36,11 +36,9 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Ky
 * On selvitelty ongelmaa, jossa asiakkaalla oli lainassa kirjoja, joita hän ei ollut lainannut. Selityksenä vaikuttaisi olevan, että hänen jälkeensä automaatille tulleen lainaukset ovat kirjautuneet hänen kirjastokortilleen.
 * Tehty tiketti [#404 Noutamattoman varauksen määräytyminen nidetyypin mukaan](https://github.com/KohaSuomi/Koha/issues/404)
 
-**Vaara**
-* Lehtitietueisiin ryhdytty lisäämään luokka, joten saadaan signumit oikeanlaiseen kuosiin jossain vaiheessa
-* Viime keskiviikon järkytys oli lukea tiketin 232 tieto, jossa omatoimikäytön estoblokit oli otettu pois päältä kaikista kimpoista. Pikainen tarkastus omista tiedoista osoitti, että Toveria varten omatoimikäyttöön tarvittava ruksi oli hävinnyt tiedoista. Onneksi hälytys Matrixissa auttoi ja poisto saatiin kumottua pikaisesti. Olisi ollut noloa, kun juuri samana päivänä aloitti uusi omatoimikirjasto (Kesälahti) ja heti olisi ollut sisäänpääsyongelma.
-* Kiihtelysvaaran itsepalvelulainauksen kirjautumisongelmaan on ehkä vihdoin saatu ratkaisu, testissä tällä hetkellä.
-
+**OUTI**
+* Oulun Finvoice-laskutusprojekti saatu toivottavasti nyt valmiiksi.
+* Tuplaverkkomaksuja tulee yhä. OUTIsta laitettu ongelmasta palautetta myös Finna-tukeen. Palautteeseen laitetiin pari esimerkkiä, joissa asiakkaan ja maksun tiedot, tuplamaksujen pvm ja kellonajat.
 
 ## Viikko 5 muistio
 
