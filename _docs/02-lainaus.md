@@ -166,6 +166,7 @@ Huomautuksen voit poistaa asiakastietojen muokkausnäytöllä vaihtamalla täpp�
 **Käyttäjätilin huomautukset** -osiossa **Kortti kadonnut** -kohtaan
 “Ei”.
 
+### 2.2.5 [Tili lukittu](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151013-tili-lukittu)
 ---
 
 ## 2.3 Lainauksen viestit ja huomautukset
