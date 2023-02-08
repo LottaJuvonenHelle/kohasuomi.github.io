@@ -44,6 +44,14 @@ Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
  * käyttöönotto maaliskuussa
 * Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
 
+### Torstain palaveri
+
+Aika: 9.2.2023 klo 10<br />
+Läsnä: 
+
+* [Palvelut](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/palvelut.md)-sivun päivitys
+* No status -tikettien läpikäynti
+
 ## Viikko 5 muistiot
 
 ### Maanantain palaveri
