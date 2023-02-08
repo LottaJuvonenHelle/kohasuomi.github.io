@@ -38,10 +38,10 @@ Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
   * Otetaan käyttöön, kun operaattori ehtii. 
 * Anneli kertoi tieteellisten pääkäyttjien palaverissa meidän aikeista muuttaa varaustunnus asiakasmääreeksi ja ottaa käyttöön nideryhmät. Tieteellisillä vielä käytössä othernames-kenttä varaustunnukselle. Nideryhmiä ei oltu tutkittu juurikaan, eikä niille keksitty heillä äkkiseltään käyttöä.
 * Siivousajot
- * action_logsin siivous kerran kuussa porrastaen kimpoittain eri päiville
- * Lari kirjaa Tietojen säilytysajat -sivulle porrastusaikataulun
- * käytetään aikataulumuutos asiantuntijaryhmän seuraavassa kokouksessa 20.2.2023
- * käyttöönotto maaliskuussa
+  * action_logsin siivous kerran kuussa porrastaen kimpoittain eri päiville
+  * Lari kirjaa Tietojen säilytysajat -sivulle porrastusaikataulun
+  * käytetään aikataulumuutos asiantuntijaryhmän seuraavassa kokouksessa 20.2.2023
+  * käyttöönotto maaliskuussa
 * Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
 
 ### Torstain palaveri
