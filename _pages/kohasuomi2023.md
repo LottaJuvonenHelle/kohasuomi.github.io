@@ -36,7 +36,7 @@ Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 * TLS-salaus lähteviin posteihin?
   * Kodo keskustellut sen käyttöönotosta BittiGurun kanssa ja se onnistuu.
   * Otetaan käyttöön, kun operaattori ehtii. 
-* Anneli tieteellisten palaveri
+* Anneli kertoi tieteellisten pääkäyttjien palaverissa meidän aikeista muuttaa varaustunnus asiakasmääreeksi ja ottaa käyttöön nideryhmät. Tieteellisillä vielä käytössä othernames-kenttä varaustunnukselle. Nideryhmiä ei oltu tutkittu juurikaan, eikä niille keksitty heillä äkkiseltään käyttöä.
 * Siivousajot
  * action_logsin siivous kerran kuussa porrastaen kimpoittain eri päiville
  * Lari kirjaa Tietojen säilytysajat -sivulle porrastusaikataulun
@@ -51,6 +51,7 @@ Läsnä:
 
 * [Palvelut](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/palvelut.md)-sivun päivitys
 * No status -tikettien läpikäynti
+* Ma-muistiosta: Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
 
 ## Viikko 5 muistiot
 
