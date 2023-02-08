@@ -10,10 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 6 esityslista
+## Viikko 7 esityslista
+
+Aika: 14.2.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+* Käydään läpi uuden version [uudet ominaisuudet](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta) -listaus. Tallennetaan tämä osio.
+
+
+## Viikko 6 muistio
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 
 **Yhteiset**
 
@@ -25,6 +34,7 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Ky
 * Keskiviikkona säännöllinen huoltoikkuna, jolloin vaihdetaan palomuurin muistikampoja. Ei pitäisi aiheuttaa katkoksia.
   * Voi vaikuttaa tunneloituihin automaatteihin
 * [Finna-kehitysehdotusten](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues) läpikäynti /Susanna
+  * Käytiin läpi kolme ehdotusta ja kirjattiin niihin päätökset.
 * [Lapin, OUTIn ja Vaskin action_logs-taulujen korjaukset](https://github.com/KohaSuomi/Koha/issues/403) aiheuttaa viivettä tietojen replikoinnissa masterilta slaveen.
 
 **Siilinjärvi**
