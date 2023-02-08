@@ -167,6 +167,7 @@ Huomautuksen voit poistaa asiakastietojen muokkausnäytöllä vaihtamalla täpp�
 “Ei”.
 
 ### 2.2.5 [Tili lukittu](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151013-tili-lukittu)
+### 2.2.6 [Rajoite liiallisista kirjautumisyrityksistä](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151014-rajoite-liiallisista-kirjautumisyrityksist%C3%A4)
 ---
 
 ## 2.3 Lainauksen viestit ja huomautukset
