@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6 esityslista
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 
