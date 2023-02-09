@@ -53,6 +53,7 @@ Läsnä:
 * No status -tikettien läpikäynti
 * Ma-muistiosta: Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
 * Idea: _Bugi-perjantai_ eli joka (tai joka toinen) pe klo 13-15 etsitään Bugzillasta meille tärkeitä sign offattavia tikettejä ja testataan niitä sandboxeissa tai jollain meidän testillä. Mukaan kehittäjä (tai useampi) ja pääkäyttäjiä. Aloitusaikataulu..? /Anneli
+* https://tiketti.koha-suomi.fi/issues/5303 - tiketti yhteisöön? Ongelma toistuu myös 22.11-versiossa.
 
 ## Viikko 5 muistiot
 
