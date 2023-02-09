@@ -47,13 +47,17 @@ Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 ### Torstain palaveri
 
 Aika: 9.2.2023 klo 10<br />
-Läsnä: 
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
+* Keskiviikon huoltokatkon kuulumiset / Kodo
 * [Palvelut](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/palvelut.md)-sivun päivitys
+  * Tilastoitavuus-tägi
 * No status -tikettien läpikäynti
 * Ma-muistiosta: Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
-* Idea: _Bugi-perjantai_ eli joka (tai joka toinen) pe klo 13-15 etsitään Bugzillasta meille tärkeitä sign offattavia tikettejä ja testataan niitä sandboxeissa tai jollain meidän testillä. Mukaan kehittäjä (tai useampi) ja pääkäyttäjiä. Aloitusaikataulu..? /Anneli
+* Idea: _Bugi-perjantai_ kerran kuussa pe klo 13-15 etsitään Bugzillasta meille tärkeitä sign offattavia tikettejä ja testataan niitä sandboxeissa tai jollain meidän testillä. Mukaan kehittäjä (tai useampi) ja pääkäyttäjiä. Aloitusaikataulu versionvaihdon jälkeen. Emmi mukana. /Anneli
 * https://tiketti.koha-suomi.fi/issues/5303 - tiketti yhteisöön? Ongelma toistuu myös 22.11-versiossa.
+* Lari: action_logsit korjattu, mutta ajo on skipannut virheen jälkeiset päivät, eikä ne tullut mukaan takaisin.
+  * Korjaus: viedään taulun loppuun, vaikka id:t menee sekaisin.
 
 ## Viikko 5 muistiot
 
