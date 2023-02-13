@@ -17,10 +17,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantain palaveri
 
-Aika:<br />
+Aika: 13.2.2023 klo 10<br />
 Läsnä:
 
 * Vkon 7 päivitys
+* next-kantojen tilanne
+* 
 
 ## Viikko 6 muistiot
 
