@@ -20,6 +20,8 @@ Läsnä:
 * Idea: kerran kuussa esim. klo 13-15 _Bugi-perjantai_, jossa testataan ja sign offataan meille tärkeitä ominaisuuksia/tikettejä. Aloitus versionvaihdon jälkeen. Emmi lupautunut kehittäjistä mukaan, testaajiksi pääkäyttäjiä.
 * Viikon 7 päivitys
 * next-kantojen tilanne
+* [Kohan ohje suomeksi -muotoiluohjeistukset](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus) tehty
+  * kommentteja?
 
 
 ## Viikko 6 muistio
