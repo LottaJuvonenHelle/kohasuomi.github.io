@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 7 muistiot
+
+### Maanantain palaveri
+
+Aika:<br />
+Läsnä:
+
+* Vkon 7 päivitys
+
 ## Viikko 6 muistiot
 
 ### Maanantain palaveri
