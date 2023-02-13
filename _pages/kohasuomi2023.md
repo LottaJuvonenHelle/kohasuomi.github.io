@@ -18,11 +18,21 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ### Maanantain palaveri
 
 Aika: 13.2.2023 klo 10<br />
-Läsnä:
+Läsnä: Anneli, Pasi, Lasse, Emmi, Lari, Kodo
 
 * Vkon 7 päivitys
+  * lokitusmuutokset -> 
+    * sipoverhttps-lokitusta vähennetty viime viikolla
+    * accesslokitusten lopetus
+  * kirkes-test asiakasvarmenteen taakse
 * next-kantojen tilanne
-* 
+  * Pasi alkaa testaamaan tietojen redusointia
+  * vaara-next ensin
+* skeeman rakentelu toimii
+
+Torstai
+
+* https://github.com/KohaSuomi/Koha/issues/409 ja https://github.com/KohaSuomi/Koha/issues/412
 
 ## Viikko 6 muistiot
 
