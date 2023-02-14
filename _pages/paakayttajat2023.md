@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7 esityslista
 
 Aika: 14.2.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski)
 
 **Yhteiset**
 * Käydään läpi uuden version [uudet ominaisuudet](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta) -listaus. Tallennetaan tämä osio.
