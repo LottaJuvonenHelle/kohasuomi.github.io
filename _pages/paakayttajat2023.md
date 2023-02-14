@@ -20,7 +20,9 @@ Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski)
 * Idea: kerran kuussa esim. klo 13-15 _Bugi-perjantai_, jossa testataan ja sign offataan meille tärkeitä ominaisuuksia/tikettejä. Aloitus versionvaihdon jälkeen. Emmi lupautunut kehittäjistä mukaan, testaajiksi pääkäyttäjiä.
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/432)
 * next-kantojen tilanne
-* [Kohan ohje suomeksi -muotoiluohjeistukset](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus) tehty
+  * datan redusointiskripti melkein valmis
+  * ensin tehdään Vaara Annelin pyynnöstä, sitten muut
+* [Kohan ohje suomeksi -muotoiluohjeistukset](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus) tehty. Ohjeita voi noudattaa jo nyt, mutta viimeistään silloin, kun päivitetään ohjeet uutta versiota vastaavaksi.
 
 
 
