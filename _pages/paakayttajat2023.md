@@ -10,18 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 7 esityslista
+## Viikko 7 muistio
 
 Aika: 14.2.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski)
+Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
-* Käydään läpi uuden version [uudet ominaisuudet](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta) -listaus. Tallennetaan tämä osio.
+* Käydään läpi uuden version [uudet ominaisuudet](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta) -listaus. Tallennetaan tämä osio. [Tallenne uusien esittelystä](https://www.youtube.com/watch?v=IUophuEubSM)
 * Idea: kerran kuussa esim. klo 13-15 _Bugi-perjantai_, jossa testataan ja sign offataan meille tärkeitä ominaisuuksia/tikettejä. Aloitus versionvaihdon jälkeen. Emmi lupautunut kehittäjistä mukaan, testaajiksi pääkäyttäjiä.
-* Viikon 7 päivitys
+* [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/432)
 * next-kantojen tilanne
 * [Kohan ohje suomeksi -muotoiluohjeistukset](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus) tehty
-  * kommentteja?
+
 
 
 ## Viikko 6 muistio
