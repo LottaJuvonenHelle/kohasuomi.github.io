@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7 muistio
 
 Aika: 14.2.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Heli Auranen, Timo Pesonen (Lumme)
+Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Käydään läpi uuden version [uudet ominaisuudet](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta) -listaus. Tallennetaan tämä osio. [Tallenne uusien esittelystä](https://www.youtube.com/watch?v=IUophuEubSM)
