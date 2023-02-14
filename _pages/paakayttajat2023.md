@@ -27,7 +27,7 @@ Läsnä:
 ## Viikko 6 muistio
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Kodo Korkalo (Koha-Suomi)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 
@@ -57,6 +57,11 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Ky
 
 **Helle**
 * Pornaisten kirjaston tunneloitu automaatti poistettu käytöstä. Uusi käyttöön otettu automaatti toimii tietoturvallisesti ilman tunnelointia.
+
+**Vaara**
+* Lehtitietueisiin ryhdytty lisäämään luokka, jotta saadaan signumit oikeanlaiseksi.
+* Viime viikon keskiviikkona iski hetkellinen paniikki, kun tiketin 232 (Vanhat omatoimikäytön estoblokit tulisi ajaa pois päältä) ajo oli tehty. Vaarassa se tarkoitti kaikkien omatoimikäytön estoa, koska Toveri käyttää tätä toimintoa sallimaan sisäänpääsyn. Onneksi tilanne saatiin nopeasti korjattua, kun huomasin asian.
+* Itsepalvelulainaukseen tehty muutos otettu testaukseen, toivottavasti kirjautuminen onnistuu sen myötä.
 
 ## Viikko 5 muistio
 
