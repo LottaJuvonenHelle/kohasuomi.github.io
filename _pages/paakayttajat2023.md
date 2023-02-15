@@ -29,7 +29,7 @@ Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski)
 ## Viikko 6 muistio
 
 Aika: 7.2.2023 klo 9.15 <br />
-Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Susanna Sandell (Vaski), Heli Auranen, Timo Pesonen (Lumme)
+Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Susanna Sandell (Vaski), Heli Auranen, Timo Pesonen (Lumme), Leena Kinnunen (Lappi)
 
 **Yhteiset**
 
@@ -67,6 +67,21 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Ky
 
 **Vaski**
 * Ei uutta
+
+**Lappi**
+* Tätistä valui Celia-tietue valui 6 väärän tietueen päälle, koska TäTin tietueella oli 020a-kentässä tallennettuna
+tyhjä välilyönti joka löytyi myös näistä tietueista.
+
+* Tornion asiakas on saanut Finnassa uusiessa lainalle eräpäivän Tornion kiinniolopäivälle.
+Remontin takia eräpäivät on muutettu, ja niihin on tulossa vielä uusi ajo.
+
+* OKM-tilasto ajetaan vielä uudelleen, koska Yhteispohjoismaisen auton osalta tarvitaan "autoittain" eriteltynä.
+Nyt koottu OKM-ryhmiksi, joista ei saa eri kuntien osalta tuloksia. Tehdään "auto"-kohtaiset ryhmät ja ajetaan OKM uudelleen.
+
+* Kysy Kohasta Lapille 28.2. : kerätty kysymyksiä ja kommentteja Padletilla henkilöstöltä.
+
+* Redminen omat tiketit osittain läpikäymättä, yritetään ennättää hoitaa kuntoon.
+
 
 ## Viikko 5 muistio
 
