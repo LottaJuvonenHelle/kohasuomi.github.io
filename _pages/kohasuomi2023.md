@@ -32,7 +32,11 @@ Läsnä: Anneli, Pasi, Lasse, Emmi, Lari, Kodo
 
 Torstai
 
+Aika: 16.2.2023 klo 10<br />
+Läsnä:
+
 * https://github.com/KohaSuomi/Koha/issues/409 ja https://github.com/KohaSuomi/Koha/issues/412
+* [Redminen tukipyynnöt](https://tiketti.koha-suomi.fi/projects/fbox/issues?utf8=%E2%9C%93&set_filter=1&sort=id%3Adesc&f%5B%5D=status_id&op%5Bstatus_id%5D=o&f%5B%5D=tracker_id&op%5Btracker_id%5D=%3D&v%5Btracker_id%5D%5B%5D=3&f%5B%5D=&c%5B%5D=due_date&c%5B%5D=tracker&c%5B%5D=status&c%5B%5D=priority&c%5B%5D=votes_total&c%5B%5D=subject&c%5B%5D=assigned_to&c%5B%5D=updated_on&c%5B%5D=author&c%5B%5D=category&c%5B%5D=cf_14&c%5B%5D=cf_15&group_by=&t%5B%5D=)
 
 ## Viikko 6 muistiot
 
