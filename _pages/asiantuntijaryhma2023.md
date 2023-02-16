@@ -33,7 +33,24 @@ Kehitysehdotus-tikettien työkulku on kuvattu sanallisesti ja vuokaaviona (pdf) 
 
 ### 4. Kehitysehdotusten läpikäyntiä
 
-[5620](https://tiketti.koha-suomi.fi/issues/5620)
+* [4162](https://tiketti.koha-suomi.fi/issues/4162)
+* [4174](https://tiketti.koha-suomi.fi/issues/4174)
+* [4185](https://tiketti.koha-suomi.fi/issues/4185)
+* [4209](https://tiketti.koha-suomi.fi/issues/4209)
+* [4212](https://tiketti.koha-suomi.fi/issues/4212)
+* [4223](https://tiketti.koha-suomi.fi/issues/4223)
+* [4226](https://tiketti.koha-suomi.fi/issues/4226)
+* [4242](https://tiketti.koha-suomi.fi/issues/4242)
+* [4245](https://tiketti.koha-suomi.fi/issues/4245)
+* [4257](https://tiketti.koha-suomi.fi/issues/4257)
+* [4366](https://tiketti.koha-suomi.fi/issues/4366) - onko vielä ajankohtainen?
+* [4461](https://tiketti.koha-suomi.fi/issues/4461)
+* [4467](https://tiketti.koha-suomi.fi/issues/4467)
+  * [Vaski-testi](https://vaski-test.koha-suomi.fi/)
+* [4569](https://tiketti.koha-suomi.fi/issues/4569)
+* [5620](https://tiketti.koha-suomi.fi/issues/5620)
+
+
 
 ### 5. Uuden version ominaisuudet
 
