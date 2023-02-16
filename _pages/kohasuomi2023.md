@@ -30,7 +30,7 @@ Läsnä: Anneli, Pasi, Lasse, Emmi, Lari, Kodo
   * vaara-next ensin
 * skeeman rakentelu toimii
 
-Torstai
+### Torstai
 
 Aika: 16.2.2023 klo 10<br />
 Läsnä:
