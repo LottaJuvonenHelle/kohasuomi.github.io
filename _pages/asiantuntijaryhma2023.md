@@ -33,6 +33,8 @@ Kehitysehdotus-tikettien työkulku on kuvattu sanallisesti ja vuokaaviona (pdf) 
 
 ### 4. Kehitysehdotusten läpikäyntiä
 
+[5620](https://tiketti.koha-suomi.fi/issues/5620)
+
 ### 5. Uuden version ominaisuudet
 
 Uudemmassa Koha-versiossa on muutamia ominaisuuksia, joiden käyttöönotosta olisi hyvä tehdä yhteinen päätös. Suurin osa uusista ominaisuuksista on kuvattu versionvaihdon repositorioon [Uutta-wikiin](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta).
@@ -41,7 +43,7 @@ Uudemmassa Koha-versiossa on muutamia ominaisuuksia, joiden käyttöönotosta ol
 
 Koha tukee jatkossa kaksivaiheista kirjautumista ja se olisi periaatteessa hyvä ottaa käyttöön ainakin superlibrarian-oikeuksilla olevilla tunnuksilla. Vaatii puhelimeen jonkin authenticator-sovelluksen. Ongelmana, että kaikilla pääkäyttäjillä ei ole henkilökohtaista älytyöpuhelinta.
 
-### Seuraava kokous
+### 6. Seuraava kokous
 
 ## Asiantuntijaryhmän muistio 1/23
 
