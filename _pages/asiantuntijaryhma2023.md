@@ -30,6 +30,19 @@ Teokset tilataan nykyään paljon ennen kuin ne ilmestyvät ja jos ilmestyminen 
 
 Kehitysehdotus-tikettien työkulku on kuvattu sanallisesti ja vuokaaviona (pdf) [Tikettien työnkulku -wikissä](https://github.com/KohaSuomi/Koha/wiki/Tikettien-ty%C3%B6nkulku#kehitysehdotukset). Käydään läpi.
 
+
+### 4. Kehitysehdotusten läpikäyntiä
+
+### 5. Uuden version ominaisuudet
+
+Uudemmassa Koha-versiossa on muutamia ominaisuuksia, joiden käyttöönotosta olisi hyvä tehdä yhteinen päätös. Suurin osa uusista ominaisuuksista on kuvattu versionvaihdon repositorioon [Uutta-wikiin](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta).
+
+#### 5.1 Kaksivaiheinen kirjautuminen superlibrarian-tunnuksille?
+
+Koha tukee jatkossa kaksivaiheista kirjautumista ja se olisi periaatteessa hyvä ottaa käyttöön ainakin superlibrarian-oikeuksilla olevilla tunnuksilla. Vaatii puhelimeen jonkin authenticator-sovelluksen. Ongelmana, että kaikilla pääkäyttäjillä ei ole henkilökohtaista älytyöpuhelinta.
+
+### Seuraava kokous
+
 ## Asiantuntijaryhmän muistio 1/23
 
 Aika: 16.1.2023 klo 9.00<br />
