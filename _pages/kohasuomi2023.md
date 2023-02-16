@@ -41,6 +41,9 @@ Läsnä:
 * nextien tilanne?
 * smartum?
 * No status -tiketit
+* Finna-toimistosta vastasivat
+  * tarvivat OAI-PMH-haravointiosoitteet alkuunsa ja myöhemmin myös REST-yhteystiedot testikantoja varten.
+  * varaustunnuksen vaihtamista asiakasmääreeksi ja nideryhmien käyttöönottoa eivät vielä kommentoineet
 
 ## Viikko 6 muistiot
 
