@@ -22,11 +22,10 @@ Kun Kohan käyttöliittymän toiminta pysäytetään IntranetUserJS-järjestelm�
 
 Tämä ei tuntuisi toimivan.
 
-``
+```
 /* When returning books, if there is an input with onclick handler that starts with "Dopop",
    allow pressing alt+p to click on that input. That should be a "print a slip" -type thing. */
-``
-``
+
 $(document).ready(function () {
   $(document).bind('keypress', function(e) {
      var code = e.keyCode || e.which;
@@ -36,21 +35,21 @@ $(document).ready(function () {
      }
   });
 });
-``
+```
 
 ## Palautus
 
 ### "Maksuja ei peritä käsin peruutetuista varauksista" -täppä päälle
 
-``
+```
 $(document).ready(function () {
   $("#forgivemanualholdsexpire").attr('checked', true);
 });
-``
+```
 
 ### Palautusosion siivousta (Tritonia)
 
-``
+```
 $( document ).ready(function() {
   $( '#circ_returns #return_date_override_fields' ).hide();
   $( '#circ_returns' ).on( 'click', '.show_circ_options_button', function(){
@@ -64,24 +63,24 @@ if( ( $( '#circ_returns #exemptcheck' ).prop("checked") == true ) || ( $( '#circ
   $( '#return_date_override_fields, .show_circ_options_button' ).toggle();
 }
 });
-``
+```
 
 ### Kursorin kohdistus oikeaan paikkaan palautussivuilla (Tritonia)
 
-``
+```
 $( document ).ready(function() {
   $( '#circ_returns #checkin-form #barcode' ).focus();
 });
-``
+```
 
 ---
 
 ## Piilota Perheen lainat -välilehti
 
-``
+```
 /* Piilota Perheen lainat -välilehti */
 $(document).ready(function() { $("#relatives-issues-tab").parent().hide(); });
-``
+```
 
 ---
 
@@ -91,7 +90,7 @@ $(document).ready(function() { $("#relatives-issues-tab").parent().hide(); });
 
 Asettaa automaattisesti syntymäajan kun sotu on laitettu, ja poistutaan sotu-kentästä. Tiketti #3796
 
-``
+```
 /* Generoi syntymäaika henkilötunnuksesta */
 $(document).ready(function() {
   $('body#pat_memberentrygen.pat input[name="ssn_ssn"]').blur(function() {
@@ -110,14 +109,14 @@ $(document).ready(function() {
      }
   });
 });
-``
+```
 
 
 ### Poista asiakkaan muokkausnäytöllä kentistä ylimääräiset välilyönnit
 
 Näillä kahdella JS:llä voi poistaa asiakkaan muokkausnäytöllä ylimääräiset välilyönnit kentistä. Näytöllä on kahta eriä kenttätyyppiä, minkä vuoksi JS:kin on kaksi. Funktiot poistaa kentistä välilyönnit alusta ja lopusta sekä useammat peräkkäiset välilyönnit välistä.
 
-``
+```
 /* poista asiakkaan muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#pat_memberentrygen.pat input').blur(function() {
@@ -128,8 +127,9 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-``
-``
+```
+
+```
 /* poista asiakkaan muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#pat_memberentrygen.pat textarea').blur(function() {
@@ -140,13 +140,13 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-``
+```
 
 ### Poista sukunimestä ja etunimestä välilyönnit alusta ja lopusta 
 
 Näiden asemesta on ehkä järkevämpää käyttää yläpuolella olevaa skriptiä.
 
-``
+```
 /* poista sukunimestä ja etunimestä välilyönnit alusta ja lopusta */
 $(document).ready(function() {
   $('body#pat_memberentrygen.pat input#surname').blur(function() {
@@ -164,22 +164,22 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-``
+```
 
 ### Aseta syntymäpäiväkalenterin alasvetovalikon vuodet
 
 Raja on 50 edellistä vuotta
 
-``
+```
 /* aseta syntymäpäivä-datepickerin dropdownin vuodet */
 $(document).ready(function() {
   $("body#pat_memberentrygen.pat #dateofbirth").datepicker({yearRange: "c-50:c+1"});
 });
-``
+```
 
 ### Kopioi matkapuhelinnumero SMS-tekstiviestinumerokenttään
 
-``
+```
 $(document).ready(function() {
   $("body#pat_memberentrygen.pat input#mobile").blur(function() {
     var v = $(this).val().trim();
@@ -190,23 +190,23 @@ $(document).ready(function() {
     }
   });
 });
-``
+```
 
 ### Siirretään Hetu ja tilastoryhmä toiseen paikkaan asiakkaan tietojen muokkaussivulla (Tritonia, päivitetty 2021 kv-Kohaa varten)
 
-``
+```
 $( document ).ready(function() {
   $( '#memberentry_identity #othernames' ).parents( 'ol' ).append( '<li>' + $( '#memberentry_patron_attributes #patron_attr_3' ).parents( 'li' ).html() + '</li>' );
   $( '#memberentry_identity #othernames' ).parents( 'ol' ).append( '<li>' + $( '#memberentry_patron_attributes #patron_attr_5' ).parents( 'li' ).html() + '</li>' );
   $( '#pat_memberentrygen #memberentry_patron_attributes #patron_attr_3, #pat_memberentrygen #memberentry_patron_attributes #patron_attr_5' ).parents( 'li' ).remove();
 });
-``
+```
 
 ### Kopioidaan kirjastokortin numero käyttäjätunnus-kenttään
 
 Vaatii, että käyttäjän pitää klikata kirjastokortti-kentän ulkopuolelle (esim. tallentaa tiedot), jotta tieto kopioituu.
 
-``
+```
 $(document).ready(function() {
   $("body#pat_memberentrygen.pat input#cardnumber").blur(function() {
     var v = $(this).val().trim();
@@ -216,13 +216,13 @@ $(document).ready(function() {
     }
   });
 });
-``
+```
 
 ### Varaustunnuksen anonymisointi (Other name -kenttään)
 
 Versioon 20.05 ja uudempaan.
 
-``
+```
 // Varaustunnuksen automaattinen generointi/anonymisointi - Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master) 
 $(document).ready(function(){
     if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=add&") || window.location.search.includes("?op=duplicate&")) {
@@ -243,14 +243,14 @@ $(document).ready(function(){
       });
     }
 });
-``
+```
 
 
 ### Varaustunnuksen automaattinen täyttö nimen perusteella 
 
 Versioon 20.05 ja uudempaan.
 
-
+```
 // This file is part of Koha.
 //
 // Koha is free software; you can redistribute it and/or modify it
@@ -268,7 +268,7 @@ Versioon 20.05 ja uudempaan.
 // Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master) 
 // Adapted from Koha-suomi patch for KD-205 (commit cd74805e73ead0569abfc158e8b7ac1fe2bedfbe from https://github.com/KohaSuomi/Koha/ branch master
 
-``
+
 $(document).ready(function(){
     if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=add&")) {
       var firstname = $("#entryform").find("#firstname");
@@ -278,17 +278,17 @@ $(document).ready(function(){
       });
     }
 });
-``
+```
 
 ### Asiakasmääreen piilotus
 
 Asiakasmääreen saa piilotettua muokkausnäytöllä seuraavalla rimpsulla. "patron_attr_1"-kohtaan voi vaihtaa tarvittaessa toisen numeron ykkösen sijalle. Numero kertoo, monesko määre on listalla.
 
-``
+```
 $( document ).ready(function() {
   $( '#pat_memberentrygen #memberentry_patron_attributes #patron_attr_1' ).parents( 'li' ).remove();
 });
-``
+```
 
 ### Puhelinnumeron validointi
 
@@ -296,7 +296,7 @@ Versioon 20.05 ja uudempaan. Tarkoitettu korvaamaan järjestelmäasetus Validate
 
 Uusi versio 19.5.2022
 
-``
+```
 /* Puhelinnumeron muodon tarkistus */
 // Add additional validation to member add/edit form
 $(document).ready(function(){    
@@ -357,16 +357,16 @@ $(document).ready(function(){
       }
    });
 });
-``
+```
 
 ### Asiakkaan osoitteenmuutospyyntö- täppä oletuksena hyväksy
 
-``
+```
 $(document).ready(function () {
 if (window.location.pathname == '/cgi-bin/koha/members/members-update.pl') 
 $('input:radio[value="approve"]').attr('checked', true); 
 });
-``
+```
 
 ---
 
@@ -374,13 +374,13 @@ $('input:radio[value="approve"]').attr('checked', true);
 
 ### Piilota viestin tekijän nimi
 
-``
+```
 $("#messages .circ-hlt a").remove();
 $("#messages .circ-hlt").each(function( index ){
   var str = $(this).text().replace("(  )", "");
   $(this).text(str);
 });
-``
+```
 
 ---
 
@@ -388,7 +388,7 @@ $("#messages .circ-hlt").each(function( index ){
 
 ### Aineistolajirajauksen tyhjennys
 
-``
+```
 /* Aineistolajirajauksen tyhjennys tarkassa haussa */
 function poista_itype_valinnat() {
  $('body#catalog_advsearch #advsearch-itemtypes input[id^="itypephr"]').each(function() { $(this).prop('checked', false)});
@@ -396,24 +396,24 @@ function poista_itype_valinnat() {
 $(document).ready(function() {
   $('<a onclick="poista_itype_valinnat(); return false;" href="#">Tyhjennä</a>').insertAfter('body#catalog_advsearch #advsearch-itemtypes h4:first-of-type');
 });
-``
+```
 
 ### Aseta hakukenttien oletukseksi nimeke, tekijä, ja sanahaku
 
 Tiketti #494. Valikkojen oletus on asiasana, joten kolmannen arvoa ei tarvitse erikseen asettaa.
 
-``
+```
 $(document).ready(function() {
   var elems = $("body#catalog_advsearch select[name='idx']");
   elems.eq(0).val('ti');
   elems.eq(1).val('au');
 });
-``
+```
 
 ### Linkki Finna-näkymään
 
   Versioon 20.05 ja uudempaan.
-
+```
   /* This file is part of Koha.
   /*
   /* Koha is free software; you can redistribute it and/or modify it
@@ -430,7 +430,7 @@ $(document).ready(function() {
   /* along with Koha; if not, see <http://www.gnu.org/licenses>.
 
 
-``
+
 $(document).ready(function() {
 	if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
 		var details_elem = document.getElementById("catalogue_detail_biblio");
@@ -447,11 +447,11 @@ $(document).ready(function() {
 		details_elem.appendChild(span_elem);
 	}
 });
-``
+```
 
 ### Linkki Finna-näkymään (nappula) (Tritonia 2020)
 
-``
+```
 $( document ).ready(function() {
 if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
         /*var details_elem = document.getElementById("catalogue_detail_biblio");
@@ -474,13 +474,13 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
   		$( '#catalog_detail #toolbar' ).prepend( '<a href="https://tritonia.finna.fi/Record/tria.' + biblionumber + '" class="btn" style="float: right;" target="_blank"><i class="fa fa-external-link"></i> ' + linktext + '</a>' );
 }
 });
-``
+```
 
 ### Indeksointityöryhmän tekemät tiedonhaun mukautukset
 
 Indeksointityöryhmä ideoi mukautuksia tiedonhakun hakusivulle. Alla siitä syntyneet muutokset.
 
-``
+```
 $(document).ready(function() {
     if ( $('html').attr('lang') == 'fi-FI') {
       $("#advsearch-tab-mtype a").text("Aineistotyyppi"); /* MTYPE auktorisoituarvo tarkassa haussa */
@@ -511,7 +511,7 @@ $(document).ready(function() {
     }
     $("#searchterms select option[value='location']").val('loc'); /* Muuttaa location-arvon loc-arvoksi "Hakusanat"-valikossa */
 });
-``
+```
 
 ---
 
@@ -520,7 +520,7 @@ $(document).ready(function() {
 
 ### Luettelointinäkymässä highlight työstettävälle tagille (ja pois kun klikkaa taustaa) (Tritonia)
 
-``
+```
 $( document ).ready(function() {
   $( '#cat_addholding .tag, #cat_addbiblio .tag' ).on( 'click', function( event ){
   $( '.tag' ).removeClass( 'new_active_tag' );
@@ -530,48 +530,48 @@ event.stopPropagation();
   $( '#cat_addholding #doc, #cat_addbiblio #doc' ).on( 'click', function(event){
   $( '.tag' ).removeClass( 'new_active_tag' );
 });
-``
+```
 
 ### Luettelointinäkymässä lisätään lukitulle tagi-inputille lukkoikoni (Tritonia)
 
-``
+```
 $( '#cat_addbiblio .tag .subfield_line .input_marceditor.readonly' ).after( '<i class="fa fa-lock"></i>' );
-``
+```
 
 ### Valitaan cataloging-etusivulla "search the catalog" -haku "cataloging search" -haun sijasta (joka piilotetaan) (Tritonia)
 
-``
+```
 $( document ).ready(function() {
 $( '#cat_addbooks #header_search li[aria-controls="addbooks_search"]' ).hide();
 $( '#cat_addbooks #header_search' ).tabs( { active: 4 } );
 $( '#cat_addbooks #header_search #catalog_search #cat-search-block #search-form' ).focus();
 });
-``
+```
 
 ### Lisätään holding id näkyville tietueen holdings-listaukseen (Tritonia)
 
-``
+```
 $( document ).ready(function() {
   $( '#catalog_detail .summaryholdings_table thead tr' ).append( '<th>Holding ID</th>' );
   $( '#catalog_detail .summaryholdings_table tbody tr' ).each(function(){
   $( this ).append( '<td>' + $( this ).children( '.actions' ).children( '.delete' ).attr( 'href' ).split("holding_id=").pop() + '</td>' );
 });
-``
+```
 
 
 ### Siirretään item-listaus sivun loppuun itemin muokkaussivulla (Tritonia, päivitetty 2020)
 
-``
+```
 $( document ).ready(function() {
     $( '#cat_additem #cataloguing_additem_itemlist' ).after( $( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parents( 'div' ).html() );
 	$( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parent( 'div' ).hide();*/
 	$( '#cat_additem #cataloguing_additem_itemlist' ).prepend( $( '#cat_additem #cataloguing_additem_itemlist>.row' ) );
 });
-``
+```
 
 ### Luettelointivalikon pysyminen sivun ylälaidassa MARC-näkymässä (Tritonia 2020)
 
-``
+```
 $( document ).ready(function() {
 $(window).bind('scroll', function () {
     if ($(window).scrollTop() > 150) {
@@ -580,30 +580,30 @@ $(window).bind('scroll', function () {
         $('#cat_addbiblio #toolbar').removeClass('fixed_cataloging_menu');
     }
 });
-``
+```
 
 ### Lisätään nidenäkymän tietojen otsikoihin rivivälejä (Tritonia 2020)
 
-``
+```
 $( document ).ready(function() {
 $( '#catalogue_detail_biblio .results_summary .label' ).before( '<div style="width: 100%; height: 1px;"></div>' );
 });
-``
+```
 
 ### Poistetaan turhat hakaset "Edit item" -napista (Tritonia)
 
-``
+```
 $( document ).ready(function() {
   $( '#catalog_moredetail #catalogue_detail_biblio .yui-g .listgroup h4 a' ).each( function() {
   $( this ).text( $( this ).text().replace('[', '') );
   $( this ).text( $( this ).text().replace(']', '') );
   });
 });
-``
+```
 
 ### Poistetaan ylimääräiset välilyönnit niteen muokkausnäytöllä
 
-``
+```
 /* poista niteen muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#cat_additem.cat input').blur(function() {
@@ -614,13 +614,13 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-``
+```
 
 ### Poistetaan ylimääräiset välilyönnit kausijulkaisujen vastaantotossa
 
 Skripti poistaa ylimääräiset välilyönnit sekä tarkistaa, että sarjanumero on muodossa "vuosi : numero". Jos vuoden jälkeen puuttuu välilyönti, käytännössä se lisätään sinne. Tarkistus tehdään kaikkiin nidekenttiin, mutta korjaus ei "tartu", jos kentän alussa ei ole vuosinumeroa.
 
-``
+```
 /* poista kausijulkaisun vastaanottonäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#ser_serials-edit.ser input').blur(function() {
@@ -632,7 +632,7 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
-``
+```
 
 ### Niteiden eräpoistossa täppä kohtaan "Poista tietueet.."
 
@@ -642,12 +642,12 @@ Versio: 21.11
 
 Tarpeellisuus: suositeltava
 
-``
+```
 /* Laita niteiden eräpoistossa täppä kohtaan "Poista tietueet, jos kaikki niteet poistettu" */
 $(document).ready(function () {
   $("#del_records").attr('checked', true);
 });
-``
+```
 
 ---
 
@@ -655,23 +655,23 @@ $(document).ready(function () {
 
 ### Piilota Uusinta-välilehti yläosan hakukentästä
 
-``
+```
 $(document).ready(function () {
   $( "li[aria-controls='renew_search']" ).hide();
 });
-``
+```
 
 ### Koha logo ylävalikkoon (Tritonia)
 
-``
+```
 $( document ).ready(function() {
   $( '#header #toplevelmenu' ).before( '<a href="/cgi-bin/koha/mainpage.pl" class="new_koha_toplogo" alt="Koha home"><img src="https://www.tritonia.fi/img/koha_logo_2019.png" alt="Koha home"></a>' );
 });
-``
+```
 
 ### Kielivalinta ylävalikkoon ja piilotetaan apusivulinkki (Tritonia, päivitetty 2020)
 
-``
+```
 $( document ).ready(function() {
 $( '#changelanguage' ).hide();
 var $langtext = 'Kieli';
@@ -683,11 +683,11 @@ $langtext = 'Språk';
 $( '#user-menu.nav.navbar-nav.navbar-right' ).append( '<li class="dropdown" id="new_lang_dropdown"><a href="#" id="drop99" role="button" class="dropdown-toggle" data-toggle="dropdown">' + $langtext + ' <b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledby="drop99">' + $( '#changelanguage ul.navbar-nav' ).html() + '</ul>' );
 $( '#user-menu .currentlanguage' ).append( ' <i class="fa fa-check"></i>' );  
 });
-``
+```
 
 ### Etusivun ikonien parempi asettelu (Tritonia, pävitetty 2020)
 
-``
+```
 $( document ).ready(function() {
 $( '#main_intranet-main #container-main' ).append( '<div id="new_icon_container"></div>' );
 $( '#main_intranet-main #container-main .row:first-child' ).hide();
@@ -696,12 +696,12 @@ $( '#main_intranet-main .biglinks-list li' ).each(function(){
 });
 $( '#main_intranet-main #new_icon_container' ).prepend( $( '#main_intranet-main #area-pending' ).parent( 'div' ).html() );
 });
-``
+```
 
 ### Tyhjennä Hae tietokannasta -hakukenttä
 
-``
+```
 $(document).ready(function() {
       localStorage.removeItem("searchbox_value");
 });
-``
+```
