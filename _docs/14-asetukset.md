@@ -355,6 +355,8 @@ Kun nidetyypillä on emonidetyyppi, sääntö näytetään "Emo -> alatyyppi" ja
 
 Tarkentaaksesi sääntöä luo uusi sääntö, jolla on sama asiakastyyppi ja nidetyyppi.
 
+### 6.1 Laina- ja maksusääntötaulukko
+
 <img src="/assets/files/docs/Asetukset/lainasaannot.png" title="Laina- ja maksusäännöt" alt="Kuvakaappaus laina- ja maksusäännöt -sivulta. Näkymässä neljä sääntöriviä, joita voi muokata Muokkaa-napilla" style="width=100.0%" />
 
 **Asiakastyyppi**
@@ -515,7 +517,7 @@ Asetuksellä määritetään lainausalennus prosentteina, mikäli käytössä on
 
 Sarakkeessa on Muokkaa- ja Poista-napit. Muokkaa-napista pääset muokkaamaan valitsemaasi riviä ja Poista-napilla rivin voi poistaa.
 
-### Oletussäännöt lainauksille, varauksille ja palautuksille
+### 6.2 Oletussäännöt lainauksille, varauksille ja palautuksille
 
 ![](/assets/files/docs/Asetukset/lainasaannot5.png)
 
@@ -573,7 +575,7 @@ Vaihtoehdot:
 
 Tallenna ja Pois päältä. Jälkimmäisellä voi tyhjentää asetetut asetukset.
 
-### 6.1 Oletussääntö maksun hyvitykselle, kun palautetaan kadonnut nide
+### 6.3 Oletussääntö maksun hyvitykselle, kun palautetaan kadonnut nide
 
 ![](/assets/files/docs/Asetukset/lainasaannot6.png)
 
@@ -585,7 +587,7 @@ Vaihtoehdot:
 * Hyvitä kadonneen aineiston korvausmaksu ja palauta myöhästymismaksu
 * Jätä kadonneen aineiston korvausmaksu
 
-### 6.2 Oletusvaraussääntö nidetyypeittäin
+### 6.4 Oletusvaraussääntö nidetyypeittäin
 
 ![](/assets/files/docs/Asetukset/lainasaannot7.png)
 
