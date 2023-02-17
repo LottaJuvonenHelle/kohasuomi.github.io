@@ -711,7 +711,17 @@ Kustannukset voi merkitä haluamillaan minimi- ja maksimiarvoilla, esim. 1-100. 
 
 ## 19. Kohan MARC-määritykset
 
-Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
+_Kohan MARC-määrityksissä_ määritetään, mitkä MARC-kentät yhdistetään Kohan tietokannan biblio, biblioitems ja items-taulujen sarakkeisiin. Kun kytkös on tehty, viedään MARC-kentän sisältö tietokannan tauluun, josta tiedon hakeminen on nopeampaa kuin marcxml:n sisältä.
+
+Jos mäppäyksiä muutetaan, pitää tehdä täydellinen uudelleenindeksointi, jotta muuttuneet tiedot päivittyvät tietueista tietokannan tauluun. Uusille ja muokatuille tietueille sovelletaan uusia sääntöjä samantien.
+
+Uusi määritys lisätään klikkaamalla halutun Koha-kentän kohdalla _Lisää_-nappia ja kirjoittamalla avautuvan popupiin lisättävän MARC-kentän numero ja osakenttä pilkulla erotettuna. Jos haluaa tehdä kytköksen kontrollikenttään, se lisätään kirjoittamalla '@'-merkki ja kontrollikentän numero.
+
+![](/assets/files/docs/Asetukset/koha2marc.png)
+
+Määrityksen voi poistaa klikkaamalla halutun Koha-kentän kohdalla _Poista_-nappia.
+
+### Koha-kirjastojen 29.3.2022 yhdessä sopimat Koha2MARC-mäppäykset
 
 | Sarake | MARC-kentät |
 | --- | --- |
@@ -810,3 +820,49 @@ Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
 | items.uri | 952 ‡u |
 | items.withdrawn | 952 ‡0 |
 | items.withdrawn_on | (automaattisesti) |
+
+## 20. MARC-kuvailupohjan testaus
+
+## 21. Auktoriteettityypit
+
+## 22. Luokitusjärjestelmät
+
+## 23. Tietueiden täsmäytyssäännöt
+
+## 24. Tietueiden yhdistämisssäännöt
+
+## 25. OAI-joukkojen asetukset
+
+## 26. Nidehakukentät
+
+## 27. Haun rajaukset
+
+## 28. Hakukoneen asetukset (Elasticsearch)
+
+## 29. Rahayksiköt ja vaihtokurssit
+
+## 30. Budjetit
+
+## 31. Tilit
+
+## 32. EDI-tilit
+
+## 33. Kirjasto-EANit
+
+## 34. Tunnistustietojen tarjoajat
+
+## 35. Z39.50/SRU-palvelimet
+
+## 36. SMTP-palvelimet
+
+## 37. Tarkoititko?
+
+## 38. Taulujen asetukset
+
+## 39. Äänihälytykset
+
+## 40. Jaa käyttötilastojasi
+
+## 41. Muut kentät
+
+## 42. Pikanäppäimet
