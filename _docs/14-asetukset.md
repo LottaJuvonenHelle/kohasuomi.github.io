@@ -728,12 +728,12 @@ Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
 | biblio.serial | 942 ‡s |
 | biblio.seriestitle | 830 ‡a 
 | biblio.subtititle | 245 ‡b |
-| biblio.timestamp | (tulee automaattisesti) |
+| biblio.timestamp | (automaattisesti) |
 | biblio.title | 245 ‡a |
 | biblio.unititle | 130 ‡a, 240 ‡a |
 | biblioitems.agerestriction | 049 ‡c |
 | biblioitems.biblioitemnumber | 999 ‡d |
-| biblioitems.biblionumber | (tulee automaattisesti) |
+| biblioitems.biblionumber | (automaattisesti) |
 | biblioitems.cn_class | 084 ‡a |
 | biblioitems.cn_item | 942 ‡i |
 | biblioitems.cn_sort | 942 ‡6 |
@@ -742,7 +742,6 @@ Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
 | biblioitems.collectionissn | 490 ‡x |
 | biblioitems.collectiontitle | 490 ‡a |
 | biblioitems.collectionvolume | 490 ‡v |
-| biblioitems.datereceived | 942 ‡1 |
 | biblioitems.ean | 024 ‡a |
 | biblioitems.editionresponsibility | 028 ‡b |
 | biblioitems.editionstatement | 250 ‡a |
@@ -778,6 +777,7 @@ Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
 | items.dateaccessioned | 952 ‡d |
 | items.datelastborrowed | 952 ‡s |
 | items.datelastseen | 952 ‡r |
+| items.deleted_on | (automaattisesti) |
 | items.enumchron | 952 ‡h |
 | items.exclude_from_local_holds_priority | (automaattisesti) |
 | items.holdingbranch | 952 ‡b |
@@ -785,7 +785,7 @@ Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
 | items.issues | 952 ‡l |
 | items.itemcallnumber | 952 ‡o |
 | items.itemlost | 952 ‡1 |
-| items.itemlost_on | (automaattinen) |
+| items.itemlost_on | (automaattisesti) |
 | items.itemnotes | 952 ‡z |
 | items.itemnotes_nonpublic | 952 ‡x |
 | items.itemnumber | 952 ‡9 |
@@ -796,7 +796,7 @@ Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
 | items.new_status | (automaattisesti) |
 | items.notforloan | 952 ‡7 |
 | items.onloan | 952 ‡q |
-| items.permanent_location | (automaattinen) |
+| items.permanent_location | (automaattisesti) |
 | items.price | 952 ‡g |
 | items.renewals | 952 ‡m |
 | items.replacementprice | 952 ‡v |
@@ -806,7 +806,7 @@ Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
 | items.stack | (automaattisesti) |
 | items.stocknumber | 952 ‡i |
 | items.sub_location | 952 ‡j |
-| items.timestamp | (automaattinen) |
+| items.timestamp | (automaattisesti) |
 | items.uri | 952 ‡u |
 | items.withdrawn | 952 ‡0 |
-| items.withdrawn_on | (automaattinen) |
+| items.withdrawn_on | (automaattisesti) |
