@@ -10,8 +10,8 @@ toc: true
 
 Tietokantaan pitää luoda kirjastot. Se onnistuu Ylläpito -> Kirjastot -> Uusi kirjasto
 
-![](/assets/files/docs/Asetukset/kirjasto.png)
-![](/assets/files/docs/Asetukset/kirjasto2.png)
+<img src="/assets/files/docs/Asetukset/kirjasto.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta" style="width:90.0%" />
+<img src="/assets/files/docs/Asetukset/kirjasto2.png" title="Kirjaston lisäyslomake" alt="Kuvakaappaus kirjaston lisäyslomakkeesta jatkuu" style="width:90.0%" />
 
 **Kirjaston tunnus**
 
@@ -31,7 +31,7 @@ Kirjaston lähiosoite.
 
 **Kunta**
 
-Tähän kirjataan postitoimipaikka. Englanniksi sana on City, jota käytetään muussakin yhteydessä kuntaan viittaavana, joten sanaa ei ole voitu suomentaan postitoimipaikaksi.
+Tähän kirjataan postitoimipaikka. Englanniksi sana on City, jota käytetään muussakin yhteydessä kuntaan viittaavana, joten sanaa ei ole voitu suomentamaan postitoimipaikaksi.
 
 **Osavaltio**
 
@@ -106,7 +106,7 @@ OKM-tilastoja varten pitää perustaa ryhmä, jonka nimekkeessä mainitaan OKM. 
 
 Uusi ryhmä tehdään Lisää ryhmä -painikkeella. Kun ryhmä on luotu, voi siihen lisätä kirjastoja Lisää kirjasto -nappulalla. Toiminnot-nappulan takaa voi lisätä alaryhmän, muokata ryhmän tietoja tai poistaa ryhmän. Alaryhmän tarvetta kannattaa harkita tarkkaan.
 
-![](/assets/files/docs/Asetukset/ryhma.png)
+<img src="/assets/files/docs/Asetukset/ryhma.png" title="Kirjastoryhmän lisäyslomake" alt="Pop-up-ikkuna, jossa voi lisätä kirjastoryhmän" style="width:60.0%" />
 
 **Nimeke**
 
@@ -231,8 +231,8 @@ Koha-asiantuntijaryhmä on päättänyt yhteiset asiakastyypit 27.3.2017.
 |EITILASTO|Ei tilastoitavat lainat|Käytetään ns. työlainojen ja -varausten tekemiseen.|
 |MUUHUOL|Huollettava, muu kuin lapsi|Aikuinen, jolle pitää merkitä huoltaja.|
 |AUTOM|Z Automaatti Z|SIP2-automaattien/ovikoneiden/laitteiden käyttäjätunnukset. Selitteessä on Z-kirjaimet, jotta se asettuu valikossa loppuun.|
-|API| Z API Z|Erilaisten rajapintoja käyttävien järjestelmien/toimintojen käyttäjätunnukset. Selitteessä on Z-kirjaimet, jotta se asettuu valikossa loppuun. Päätetty ottaa käyttöön "Koha-Suomen asiantuntijaryhmän kokouksessa 4/21":https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#Muistio-421.|
-|LAOMATOIMI|Lapsi, omatoimi sallittu|Tarvitaan lapsiasiakkaille, joilla on huoltajan antama lupa päästä omatoimeen. Lapsi-asiakkaiden pääsy estetään. Päätetty ottaa käyttöön "Koha-Suomen asiantuntijaryhmän kokouksessa 5/21":https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#5-Asiakastyyppi-omatoimiestoille|
+|API| Z API Z|Erilaisten rajapintoja käyttävien järjestelmien/toimintojen käyttäjätunnukset. Selitteessä on Z-kirjaimet, jotta se asettuu valikossa loppuun. Päätetty ottaa käyttöön [Koha-Suomen asiantuntijaryhmän kokouksessa 4/21](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#Muistio-421).|
+|LAOMATOIMI|Lapsi, omatoimi sallittu|Tarvitaan lapsiasiakkaille, joilla on huoltajan antama lupa päästä omatoimeen. Lapsi-asiakkaiden pääsy estetään. Päätetty ottaa käyttöön [Koha-Suomen asiantuntijaryhmän kokouksessa 5/21](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2021#5-Asiakastyyppi-omatoimiestoille) |
 
 ### 5.1 Asiakastyyppien määritykset
 
@@ -355,7 +355,7 @@ Kun nidetyypillä on emonidetyyppi, sääntö näytetään "Emo -> alatyyppi" ja
 
 Tarkentaaksesi sääntöä luo uusi sääntö, jolla on sama asiakastyyppi ja nidetyyppi.
 
-![](/assets/files/docs/Asetukset/lainasaannot.png)
+<img src="/assets/files/docs/Asetukset/lainasaannot.png" title="Laina- ja maksusäännöt" alt="Kuvakaappaus laina- ja maksusäännöt -sivulta. Näkymässä neljä sääntöriviä, joita voi muokata Muokkaa-napilla" style="width=100.0%" />
 
 **Asiakastyyppi**
 
@@ -399,7 +399,7 @@ Kohassa on toiminnallisuus/järjestelmäasetus decreaseLoanHighHolds, jolla voi 
 
 Huomioitavaa: Tähän toiminnallisuuteen liittyy jonkin verran epäjohdonmukaisuuksia, joten kannattaa testata ennen käyttöönottoa huolella, että logiikka sopii omaan toimintaympäristöön.
 
-![](/assets/files/docs/Asetukset/lainasaannot2.png)
+<img src="/assets/files/docs/Asetukset/lainasaannot2.png" title="Laina- ja maksusäännöt keskiosa" alt="Laina- ja maksusäännöistä keskiosa" style="width:100.0%" />
 
 **Maksun määrä**
 
@@ -443,7 +443,7 @@ Tähän säädetään maksimimäärä päiviä, joita tilin/kirjastokortin jää
 
 Keskeytyksen veloitusväli toimii kuten Veloitusaikaväli, mutta maksujen sijasta annetaan jäädytyspäiviä.
 
-![](/assets/files/docs/Asetukset/lainasaannot3.png)
+<img src="/assets/files/docs/Asetukset/lainasaannot3.png" title="Laina- ja maksusäännöt keskiosaa" alt="Laina- ja maksusääntöjen jatkoa" style="width:100.0%" />
 
 **Sallitut uusintakerrat**
 
@@ -487,7 +487,7 @@ Asetuksella määritetään, kuinka monta varausta asiakas voi tehdä tietuetta 
 
 Tämän käytössä on kimpoissa erilaisia käytäntöjä. Osa sallii tietueeseen saman verran varauksia kuin mitä on maksimimäärä, osa sallii vain yhden varauksen/tietue.
 
-![](/assets/files/docs/Asetukset/lainasaannot4.png)
+<img src="/assets/files/docs/Asetukset/lainasaannot4.png" title="Laina- ja maksusääntöjen loppuosa" alt="Laina- ja maksussääntöjen loppuosa" style="width:70.0%" />
 
 **Hyllyvaraukset sallittu**
 
