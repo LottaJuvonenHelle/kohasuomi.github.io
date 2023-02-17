@@ -13,7 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
-## Viikko 7 muistiot
+## Viikon 8 muistiot
+
+### Maanantain palaveri
+
+Aika: 20.2.2023 klo 12<br />
+Läsnä:
+
+* nextien tilanne
+* viikon 8 päivitys
+
+
+## Viikon 7 muistiot
 
 ### Maanantain palaveri
 
@@ -30,10 +41,10 @@ Läsnä: Anneli, Pasi, Lasse, Emmi, Lari, Kodo
   * vaara-next ensin
 * skeeman rakentelu toimii
 
-### Torstai
+### Torstain palaveri
 
 Aika: 16.2.2023 klo 10<br />
-Läsnä:
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 * https://github.com/KohaSuomi/Koha/issues/409 ja https://github.com/KohaSuomi/Koha/issues/412
   * vaatii käytännössä konversion, joka on suuritöinen
@@ -52,7 +63,7 @@ Läsnä:
 * plugarit
   * Lari tekee tiketit k22xx-repoon kaikista plugareista.
 
-## Viikko 6 muistiot
+## Viikon 6 muistiot
 
 ### Maanantain palaveri
 
@@ -98,7 +109,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 * Lari: action_logsit korjattu, mutta ajo on skipannut virheen jälkeiset päivät, eikä ne tullut mukaan takaisin.
   * Korjaus: viedään taulun loppuun, vaikka id:t menee sekaisin.
 
-## Viikko 5 muistiot
+## Viikon 5 muistiot
 
 ### Maanantain palaveri
 
@@ -134,7 +145,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 * [Varaukset ei näy Finnassa KohaSuomi/Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - voisko johtua AllowRenewalIfOtherItemsAvailable-järjestelmäasetuksesta?
 * Versionvaihdossa branchien nimet pidetään samoina kuin aiemmin.
 
-## Viikko 4 muistio
+## Viikon 4 muistio
 
 ### Maanantain palaveri
 
@@ -178,7 +189,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   * tiedonhaku ei vielä toimi vaski-nextillä
   * datan redusointi muita kuin vaski-nextiä varten työn alla
 
-## Viikko 3 muistio
+## Viikon 3 muistiot
 
 ### Maanantain palaveri
 
@@ -203,7 +214,7 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
   * konttiin kirjautuessa saa jatkossa huomautuksen yli tunnin käynnissä olleista kyselyistä.
 * Sanasto-raportin muutos toimimaan nykyisessä versiossa ei olekaan niin helppo kuin alunperin ajateltiin.
 
-### Torstain palaveri (esityslista)
+### Torstain palaveri
 
 Aika: 19.1.2023 klo 12<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
@@ -240,7 +251,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 * Sanaston raporttien ajo to-iltana
 * Viikon 4 päivitys
 
-## Viikko 2 muistio
+## Viikon 2 muistiot
 
 ### Maanantain palaveri
 
@@ -294,7 +305,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lassi, Pasi
 * principioon dokumentaatio, mitä tehdään huoltokatkon aikana
 * keskiviikkona ei saatu vaihdettua palomuurien muistikampoja, koska ne oli vielä Kuopiossa postin hallussa. Nämä vaihdetaan helmikuun käyttökatkossa. 
 
-## Viikko 1 muistiot
+## Viikon 1 muistiot
 
 ### Maanantain palaveri
 
