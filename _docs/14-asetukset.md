@@ -690,3 +690,123 @@ Rajoituksia voi säätää myös **Kehittyneellä editorilla**, joka on matriisi
 Kuljetusten painomatriisilla voi määritellä aineistojen kuljetuksille "kustannuksen" eri kirjastopisteiden välillä. Painomatriisi vaikuttaa vain Varausjono-raportin luomiseen, ei normaaliin varausjonon purkautumiseen. Järjestelmäasetus UseTransportCostMatrix pitää olla määritetty käyttöön, jotta määritettyjä arvoja käytetään.
 
 Kustannukset voi merkitä haluamillaan minimi- ja maksimiarvoilla, esim. 1-100. Arvoja muokataan klikkaamalla haluttua kenttää ja kirjoitetaan arvo kenttään.
+
+## 10. Nidekierron huomautukset
+
+## 11. Kaupungit ja kunnat
+
+## 12. Noutopalvelu
+
+## 13. Asiakkaan rajoitukset
+
+## 14. Maksutyypit
+
+## 15. Credit-tyypit
+
+## 16. Liitännäiset
+
+## 17. Hallinoi taustatöitä
+
+## 18. MARC-kuvailupohjat
+
+## 19. Kohan MARC-määritykset
+
+Koha-kirjastojen yhdessä sopimat Koha2MARC-mäppäykset 29.3.2022
+
+| Sarake | MARC-kentät |
+| --- | --- |
+| Biblio.abstrac | 520 ‡a |
+| Biblio.author | 100 ‡a, 110 ‡a, 111 ‡a |
+| biblio.biblionumber | 999 ‡c |
+| biblio.copyrightdate | (automaattisesti) |
+| Biblio.datecreated | (automaattisesti) |
+| Biblio.frameworkcode | 999 ‡b |
+| biblio.medium | 245 ‡h |
+| biblio.notes | 500 ‡a |
+| biblio.part_name | 245 ‡p |
+| biblio.part_number | 245 ‡n |
+| biblio.serial | 942 ‡s |
+| biblio.seriestitle | 830 ‡a 
+| biblio.subtititle | 245 ‡b |
+| biblio.timestamp | (tulee automaattisesti) |
+| biblio.title | 245 ‡a |
+| biblio.unititle | 130 ‡a, 240 ‡a |
+| biblioitems.agerestriction | 049 ‡c |
+| biblioitems.biblioitemnumber | 999 ‡d |
+| biblioitems.biblionumber | (tulee automaattisesti) |
+| biblioitems.cn_class | 084 ‡a |
+| biblioitems.cn_item | 942 ‡i |
+| biblioitems.cn_sort | 942 ‡6 |
+| biblioitems.cn_source | 942 ‡2 |
+| biblioitems.cn_suffix | 942 ‡m |
+| biblioitems.collectionissn | 490 ‡x |
+| biblioitems.collectiontitle | 490 ‡a |
+| biblioitems.collectionvolume | 490 ‡v |
+| biblioitems.datereceived | 942 ‡1 |
+| biblioitems.ean | 024 ‡a |
+| biblioitems.editionresponsibility | 028 ‡b |
+| biblioitems.editionstatement | 250 ‡a |
+| biblioitems.illus | 300 ‡b |
+| biblioitems.isbn | 020 ‡a |
+| biblioitems.issn | 022 ‡a |
+| biblioitems.itemtype | 942 ‡c |
+| biblioitems.lccn | (automaattisesti) |
+| biblioitems.notes | (automaattisesti) |
+| biblioitems.number | 830 ‡v |
+| biblioitems.pages | 300 ‡a |
+| biblioitems.place | 260 ‡a, 264 ‡a |
+| biblioitems.publicationyear | 260 ‡c, 264 ‡c |
+| biblioitems.publishercode | 028 ‡a |
+| biblioitems.size | 300 ‡c |
+| biblioitems.timestamp | (automaattisesti) |
+| biblioitems.totalissues | 942 ‡0 |
+| biblioitems.url | 856 ‡u |
+| biblioitems.volume | 362 ‡a |
+| biblioitems.volumedate | (automaattisesti) |
+| biblioitems.volumedesc | (automaattisesti) |
+| items.barcode | 952 ‡p |
+| items.biblioitemnumber | (automaattisesti) |
+| items.biblionumber | (automaattisesti) |
+| items.booksellerid | 952 ‡e |
+| items.ccode | 952 ‡8 |
+| items.cn_sort | 952 ‡6 |
+| items.cn_source | 952 ‡2 |
+| items.coded_location_qualifier | 952 ‡f |
+| items.copynumber | 952 ‡t |
+| items.damaged | 952 ‡4 |
+| items.damaged_on | (automaattisesti) |
+| items.dateaccessioned | 952 ‡d |
+| items.datelastborrowed | 952 ‡s |
+| items.datelastseen | 952 ‡r |
+| items.enumchron | 952 ‡h |
+| items.exclude_from_local_holds_priority | (automaattisesti) |
+| items.holdingbranch | 952 ‡b |
+| items.homebranch | 952 ‡a |
+| items.issues | 952 ‡l |
+| items.itemcallnumber | 952 ‡o |
+| items.itemlost | 952 ‡1 |
+| items.itemlost_on | (automaattinen) |
+| items.itemnotes | 952 ‡z |
+| items.itemnotes_nonpublic | 952 ‡x |
+| items.itemnumber | 952 ‡9 |
+| items.itype | 952 ‡y |
+| items.location | 952 ‡c |
+| items.materials | 952 ‡3 |
+| items.more_subfields_xml | (automaattisesti) |
+| items.new_status | (automaattisesti) |
+| items.notforloan | 952 ‡7 |
+| items.onloan | 952 ‡q |
+| items.permanent_location | (automaattinen) |
+| items.price | 952 ‡g |
+| items.renewals | 952 ‡m |
+| items.replacementprice | 952 ‡v |
+| items.replacementpricedate | 952 ‡w |
+| items.reserves | 952 ‡n |
+| items.restricted | 952 ‡5 |
+| items.stack | (automaattisesti) |
+| items.stocknumber | 952 ‡i |
+| items.sub_location | 952 ‡j |
+| items.timestamp | (automaattinen) |
+| items.uri | 952 ‡u |
+| items.withdrawn | 952 ‡0 |
+| items.withdrawn_on | (automaattinen) |
