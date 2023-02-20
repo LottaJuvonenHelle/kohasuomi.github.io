@@ -29,6 +29,8 @@ Läsnä:
   * Helle:
   * Vaski:
 * [Redmine-tiketti #4461](https://tiketti.koha-suomi.fi/issues/4461) - onko kommenteissa vielä jotain sellaisia toiveita, joita ei nykyään vielä ole? Jos on, teettekö niistä uudet tiketit tarvittaessa GitHubiin.
+* [Ratkaisu ehdotettu -tiketit](https://github.com/orgs/KohaSuomi/projects/4/views/15)
+  * 505 - Lapin testaus puuttuu vielä?
 
 ## Viikko 7 muistio
 
