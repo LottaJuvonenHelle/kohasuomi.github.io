@@ -22,7 +22,7 @@ Läsnä:
 
 * nextien tilanne
 * viikon 8 päivitys
-
+* versionvaihdon loppujen tikettien läpikäynti ja vastuutus
 
 ## Viikon 7 muistiot
 
