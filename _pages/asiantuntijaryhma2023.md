@@ -69,7 +69,7 @@ Koha tukee jatkossa kaksivaiheista kirjautumista ja se olisi periaatteessa hyvä
 
 ### 6. Seuraava kokous
 
-Ke 19.3.2023 klo 9.
+Ke 15.3.2023 klo 9.
 
 ## Asiantuntijaryhmän muistio 1/23
 
