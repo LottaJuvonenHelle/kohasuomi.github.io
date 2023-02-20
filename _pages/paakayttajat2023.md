@@ -17,8 +17,8 @@ Läsnä:
 
 **Yhteiset**
 * Asiantuntijatyöryhmän kokouksesta
-  * stafflogininstructions-järjestelmäasetukseen muistutus kirjaston valinnasta, jos työskentelee useammassa toimipisteessä. #4467
-  * Varausten oletusvoimassaoloaika kolmeen vuoteen.
+  * stafflogininstructions-järjestelmäasetukseen muistutus kirjaston valinnasta, jos työskentelee useammassa toimipisteessä. [Redmine-tiketti #4467](https://tiketti.koha-suomi.fi/issues/4467)
+  * [Varausten oletusvoimassaoloaika kolmeen vuoteen.](https://github.com/KohaSuomi/Koha/issues/451)
 * Mikä sms-operaattori käytössä?
   * Lappi:
   * OUTI:
@@ -28,7 +28,7 @@ Läsnä:
   * Kyyti:
   * Helle:
   * Vaski:
-* #4461
+* [Redmine-tiketti #4461](https://tiketti.koha-suomi.fi/issues/4461) - onko kommenteissa vielä jotain sellaisia toiveita, joita ei nykyään vielä ole? Jos on, teettekö niistä uudet tiketit tarvittaessa GitHubiin.
 
 ## Viikko 7 muistio
 
