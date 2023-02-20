@@ -18,11 +18,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ### Maanantain palaveri
 
 Aika: 20.2.2023 klo 12<br />
-Läsnä:
+Läsnä: Anneli, Lari, Lasse, Emmi, Pasi, Kodo
 
 * nextien tilanne
+  * redusointi ei onnistunut vielä perjantaina. Ma-iltana uusi yritys.
 * viikon 8 päivitys
+  * ei päivitettävää.
 * versionvaihdon loppujen tikettien läpikäynti ja vastuutus
+* translations
+  * repo kiinni, tiketit Kohan alle -> Anneli siirtää 
 
 ## Viikon 7 muistiot
 
