@@ -15,24 +15,31 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 2/23
+## Asiantuntijaryhmän muistio 2/23
 
 Aika: 20.2.2023 klo 9.00<br />
-Läsnä:
+Läsnä: Anneli Österman, Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (Vaara), Ari Mäkiranta, Piia Semenoff (OUTI), Kati Sillgren (Helle), Susanna Sandell (Vaski), Kodo Korkalo
 
 ### 1. Arin ajankohtaiset
+
+Versionvaihdon testipalvelimia valmistellaan. Raportointipalvelun kanssa on haasteita palvelimien kanssa. Ne on siirtymässä uudelle palvelimelle.
+Kirkes etenee hyvin, käyttöönotto sovittu syyskuulle 2023. Konversio 4.-11.2023.
 
 ### 2. Varausten oletusvoimassaoloaika
 
 Teokset tilataan nykyään paljon ennen kuin ne ilmestyvät ja jos ilmestyminen viivästyy voi käydä niin, että asiakkaiden varaukset ehtivät kahdessa vuodessa vanhentua ja poistua ennen kuin saavat varaamansa teoksen. Ongelmaa helpottaisi vähän oletusvoimassaoloajan muuttaminen kolmeksi vuodeksi. Muutos pitäisi tehdä sekä Kohan asetuksiin että Finnaan.
 
+**Päätös**: Muutetaan oletusvoimassaoloaika kolmeksi vuodeksi. Ajetaan olemassa oleville varauksille yksi vuosi lisää voimassaoloaikaa. Finnaan tehtävä muutos oletusvoimassaolokaikaan, OUTI hoitaa pyynnön kaikkien puolesta Finna-toimistoon.
+
 ### 3. Kehitysehdotus-tikettien työnkulku
 
 Kehitysehdotus-tikettien työkulku on kuvattu sanallisesti ja vuokaaviona (pdf) [Tikettien työnkulku -wikissä](https://github.com/KohaSuomi/Koha/wiki/Tikettien-ty%C3%B6nkulku#kehitysehdotukset). Käydään läpi.
 
+Pari pientä täsmennystä pyydetään vielä kaavioon Larilta. Päivitetään Tikettien työnkulku -sivulle uusi versio, kun se valmistuu.
 
 ### 4. Kehitysehdotusten läpikäyntiä
 
+Käytiin läpi alla listatut tiketit ja kirjattiin päätös jokaiseen tikettiin erikseen.
 * [4162](https://tiketti.koha-suomi.fi/issues/4162)
 * [4174](https://tiketti.koha-suomi.fi/issues/4174)
 * [4185](https://tiketti.koha-suomi.fi/issues/4185)
@@ -43,13 +50,11 @@ Kehitysehdotus-tikettien työkulku on kuvattu sanallisesti ja vuokaaviona (pdf) 
 * [4242](https://tiketti.koha-suomi.fi/issues/4242)
 * [4245](https://tiketti.koha-suomi.fi/issues/4245)
 * [4257](https://tiketti.koha-suomi.fi/issues/4257)
-* [4366](https://tiketti.koha-suomi.fi/issues/4366) - onko vielä ajankohtainen?
+* [4366](https://tiketti.koha-suomi.fi/issues/4366)
 * [4461](https://tiketti.koha-suomi.fi/issues/4461)
 * [4467](https://tiketti.koha-suomi.fi/issues/4467)
-  * [Vaski-testi](https://vaski-test.koha-suomi.fi/)
 * [4569](https://tiketti.koha-suomi.fi/issues/4569)
 * [5620](https://tiketti.koha-suomi.fi/issues/5620)
-
 
 
 ### 5. Uuden version ominaisuudet
@@ -60,7 +65,11 @@ Uudemmassa Koha-versiossa on muutamia ominaisuuksia, joiden käyttöönotosta ol
 
 Koha tukee jatkossa kaksivaiheista kirjautumista ja se olisi periaatteessa hyvä ottaa käyttöön ainakin superlibrarian-oikeuksilla olevilla tunnuksilla. Vaatii puhelimeen jonkin authenticator-sovelluksen. Ongelmana, että kaikilla pääkäyttäjillä ei ole henkilökohtaista älytyöpuhelinta.
 
+**Päätös**: testataan toimintoa vielä tarkemmin. Miten toimia esim., jos esim. puhelin jää kotiin. Kuinka monella pääkäyttäjällä on työälypuhelin? OUTIssa selvitellään, onnistuuko tokenin liittäminen Kohan kaksivaiheiseen tunnistautumiseen.
+
 ### 6. Seuraava kokous
+
+Ke 19.3.2023 klo 9.
 
 ## Asiantuntijaryhmän muistio 1/23
 
