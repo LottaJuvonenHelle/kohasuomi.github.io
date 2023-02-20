@@ -10,6 +10,26 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 8 esityslista
+
+Aika: 21.2.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+* Asiantuntijatyöryhmän kokouksesta
+  * stafflogininstructions-järjestelmäasetukseen muistutus kirjaston valinnasta, jos työskentelee useammassa toimipisteessä. #4467
+  * Varausten oletusvoimassaoloaika kolmeen vuoteen.
+* Mikä sms-operaattori käytössä?
+  * Lappi:
+  * OUTI:
+  * Siili:
+  * Vaara:
+  * Lumme:
+  * Kyyti:
+  * Helle:
+  * Vaski:
+* #4461
+
 ## Viikko 7 muistio
 
 Aika: 14.2.2023 klo 9.15 <br />
