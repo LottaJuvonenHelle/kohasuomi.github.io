@@ -22,7 +22,7 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo 
 * Mikä sms-operaattori käytössä?
   * Lappi: Link Mobility
   * OUTI: Link Mobility
-  * Siili:
+  * Siili: Link Mobility
   * Vaara: Link Mobility
   * Lumme: Link Mobility
   * Kyyti: Arena Interactive
