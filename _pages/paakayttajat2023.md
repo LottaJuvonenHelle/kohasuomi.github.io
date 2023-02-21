@@ -44,11 +44,15 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo 
 * Redminen tiketti [#1849](https://tiketti.koha-suomi.fi/issues/1849) vaatisi edelleen huomiota. Anneli ottaa asian esille.
 * Olen kirjoittanut tikettiä yhteisön Bugzillaan [#5303](https://tiketti.koha-suomi.fi/issues/5303) ja pyysin että joku kokeneempi katsoisi tekstin vielä läpi.
 
+**OUTI**
+* Rauhallista tukityötä.
+* Versionvaihdon testaustaulukon kaikki osa-alueet käyty alustavasti läpi.
+
 
 ## Viikko 7 muistio
 
 Aika: 14.2.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski), Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * Käydään läpi uuden version [uudet ominaisuudet](https://github.com/KohaSuomi/Koha-22x/wiki/Uutta) -listaus. Tallennetaan tämä osio. [Tallenne uusien esittelystä](https://www.youtube.com/watch?v=IUophuEubSM)
