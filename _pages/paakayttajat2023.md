@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 8 esityslista
+## Viikko 8 muistio
 
 Aika: 21.2.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * Asiantuntijatyöryhmän kokouksesta
@@ -35,6 +35,10 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 **Lappi**
 * Rauhallista, valmistaudutaan omaan Kysy Kohasta-webinaariin
 * Käyttäjäryhmä aktivoitu, saatu pari jäsentä lisää. 
+
+**Vaara**
+* ei mitään erityistä mainittavaa
+
 
 ## Viikko 7 muistio
 
