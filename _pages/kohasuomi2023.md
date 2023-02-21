@@ -28,6 +28,14 @@ Läsnä: Anneli, Lari, Lasse, Emmi, Pasi, Kodo
 * translations
   * repo kiinni, tiketit Kohan alle -> Anneli siirtää 
 
+### Torstain palaveri
+
+Aika: 23.2.2023 klo 10<br />
+Läsnä:
+
+* nextien tilanne
+* Finnaan tulee aineistotyyppi "Äänikirja" ja Daisy-äänikirjoille oma kuvake. [Viimeisin versiotiedote](https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/321). Pitäisikö lisätä jossain vaiheessa myös Kohaan aineistotyyppeihin?
+
 ## Viikon 7 muistiot
 
 ### Maanantain palaveri
