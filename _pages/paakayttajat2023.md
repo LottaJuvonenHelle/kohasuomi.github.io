@@ -42,7 +42,7 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo 
 **Kyyti**
 * Kysyin tekstiviestien tuplaviestien poistamisesta. Ominaisuus on siis Kohan yhteisökoodissa.
 * Redminen tiketti [#1849](https://tiketti.koha-suomi.fi/issues/1849) vaatisi edelleen huomiota. Anneli ottaa asian esille.
-* Olen kirjoittanut tikettiä yhteisön Bugzillaan [#5303](]https://tiketti.koha-suomi.fi/issues/5303) ja pyysin että joku kokeneempi katsoisi tekstin vielä läpi.
+* Olen kirjoittanut tikettiä yhteisön Bugzillaan [#5303](https://tiketti.koha-suomi.fi/issues/5303) ja pyysin että joku kokeneempi katsoisi tekstin vielä läpi.
 
 
 ## Viikko 7 muistio
