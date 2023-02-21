@@ -20,14 +20,14 @@ Läsnä:
   * stafflogininstructions-järjestelmäasetukseen muistutus kirjaston valinnasta, jos työskentelee useammassa toimipisteessä. [Redmine-tiketti #4467](https://tiketti.koha-suomi.fi/issues/4467)
   * [Varausten oletusvoimassaoloaika kolmeen vuoteen.](https://github.com/KohaSuomi/Koha/issues/451)
 * Mikä sms-operaattori käytössä?
-  * Lappi:
-  * OUTI:
+  * Lappi: Link Mobility
+  * OUTI: Link Mobility
   * Siili:
-  * Vaara:
-  * Lumme:
-  * Kyyti:
-  * Helle:
-  * Vaski:
+  * Vaara: Link Mobility
+  * Lumme: Link Mobility
+  * Kyyti: Arena Interactive
+  * Helle: Telia
+  * Vaski: DNA
 * [Redmine-tiketti #4461](https://tiketti.koha-suomi.fi/issues/4461) - onko kommenteissa vielä jotain sellaisia toiveita, joita ei nykyään vielä ole? Jos on, teettekö niistä uudet tiketit tarvittaessa GitHubiin.
 * [Ratkaisu ehdotettu -tiketit](https://github.com/orgs/KohaSuomi/projects/4/views/15)
   * 505 - Lapin testaus puuttuu vielä?
