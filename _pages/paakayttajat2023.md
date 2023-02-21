@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8 esityslista
 
 Aika: 21.2.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Asiantuntijatyöryhmän kokouksesta
@@ -31,6 +31,10 @@ Läsnä:
 * [Redmine-tiketti #4461](https://tiketti.koha-suomi.fi/issues/4461) - onko kommenteissa vielä jotain sellaisia toiveita, joita ei nykyään vielä ole? Jos on, teettekö niistä uudet tiketit tarvittaessa GitHubiin.
 * [Ratkaisu ehdotettu -tiketit](https://github.com/orgs/KohaSuomi/projects/4/views/15)
   * 505 - Lapin testaus puuttuu vielä?
+
+**Lappi**
+* Rauhallista, valmistaudutaan omaan Kysy Kohasta-webinaariin
+* Käyttäjäryhmä aktivoitu, saatu pari jäsentä lisää. 
 
 ## Viikko 7 muistio
 
