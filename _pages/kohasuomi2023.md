@@ -38,6 +38,8 @@ Läsnä:
   * [Github RecordManager-Finna](https://github.com/NatLibFi/RecordManager-Finna/commit/f6c3c1d5fc4c7a2e48ef02fdd9c8a4ff9720c5bc)
 * totalissues-arvot tiketit [KohaSuomi/Koha #196](https://github.com/KohaSuomi/Koha/issues/196) ja [Redmine #1849](https://tiketti.koha-suomi.fi/issues/1849)
   * [Vkolla 44/22 keskusteltu aiheesta näin](https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Torstain-palaveri-8): Ratkaisu: katkaistaan kuvailupohjien ja biblioitems.totalissues -linkki ja tehdään erillinen cron laskemaan lainamäärät suoraan biblioitems-tauluun
+* kaksivaiheinen kirjautuminen
+* päivystysnumeron käännöt 
 
 ## Viikon 7 muistiot
 
