@@ -141,7 +141,7 @@ Yllä olevat ajastukset ovat vakioita ja ne tapahtuvat kaikissa kimpoissa samaan
   05 02 * * *        $TRIGGER cleanup-scripts/cleanup_search_history.pl -v --days 30
   05 02 * * *        $TRIGGER cleanup-scripts/truncate_sessions.pl -v -t
   05 02 * * *        $TRIGGER cleanup-scripts/truncate_zebraqueue.pl -v -t
-  30 09 * * *        ko-ssh-hostkey-check --force | mail -E -r s-posti@osoite -s "WARNING! SSH connections on $(cat /etc/ks-lxc-role) fail!" notifications@koha-suomi.fi
+  30 09 * * *        ko-ssh-hostkey-check --force | mail -E -r s-posti@osoite -s "WARNING! SSH connections on $(cat /etc/ks-lxc-role) fail!" s-posti@osoite
 ```
 
 * cleanup_message_queue.pl - siivoaa viestijonon (asiakasviestit)
