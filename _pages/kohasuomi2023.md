@@ -15,9 +15,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 8 muistiot
 
-### Torstain palaveri
+### Torstain 23.2.2023 klo 10 palaveri
 
-Aika: 23.2.2023 klo 10<br />
 Läsnä:
 
 __Aiheita__
@@ -43,9 +42,8 @@ __Aiheita__
 
 * translations repoa ei sittenkään kiinni, vaan hoidetaan käännökset siellä, sen sijaan translations-branch hävitetään
 
-### Maanantain palaveri
+### Maanantain 20.2.2023 klo 12 palaveri
 
-Aika: 20.2.2023 klo 12<br />
 Läsnä: Anneli, Lari, Lasse, Emmi, Pasi, Kodo
 
 __Aiheita__
@@ -63,9 +61,8 @@ __Aiheita__
 
 ## Viikon 7 muistiot
 
-### Torstain palaveri
+### Torstain 16.2.2023 klo 10 palaveri
 
-Aika: 16.2.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
@@ -94,9 +91,8 @@ __Aiheita__
 * plugarit
   * Lari tekee tiketit k22xx-repoon kaikista plugareista.
 
-### Maanantain palaveri
+### Maanantain 13.2.2023 klo 10 palaveri
 
-Aika: 13.2.2023 klo 10<br />
 Läsnä: Anneli, Pasi, Lasse, Emmi, Lari, Kodo
 
 __Aiheita__
@@ -115,9 +111,8 @@ __Aiheita__
 
 ## Viikon 6 muistiot
 
-### Torstain palaveri
+### Torstain 9.2.2023 klo 10 palaveri
 
-Aika: 9.2.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
@@ -138,9 +133,8 @@ __Aiheita__
 * Lari: action_logsit korjattu, mutta ajo on skipannut virheen jälkeiset päivät, eikä ne tullut mukaan takaisin.
   * Korjaus: viedään taulun loppuun, vaikka id:t menee sekaisin.
 
-### Maanantain palaveri
+### Maanantain 6.2.2023 klo 10 palaveri
 
-Aika: 6.2.2023 klo 10<br />
 Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
@@ -178,9 +172,8 @@ __Aiheita__
 
 ## Viikon 5 muistiot
 
-### Torstain palaveri
+### Torstain 2.2.2023 palaveri
 
-Aika: 2.2.2023<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
@@ -200,9 +193,8 @@ __Aiheita__
 
 * Versionvaihdossa branchien nimet pidetään samoina kuin aiemmin.
 
-### Maanantain palaveri
+### Maanantain 30.1.2023 palaveri
 
-Aika: 30.1.2023<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
@@ -225,9 +217,8 @@ __Aiheita__
 
 ## Viikon 4 muistio
 
-### Torstain palaveri
+### Torstain 26.1.2023 klo 10 palaveri
 
-Aika: 26.1.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
@@ -259,9 +250,8 @@ __Aiheita__
   * tiedonhaku ei vielä toimi vaski-nextillä
   * datan redusointi muita kuin vaski-nextiä varten työn alla
 
-### Maanantain palaveri
+### Maanantain 23.1.2023 klo 12 palaveri
 
-Aika: 23.1.2023 klo 12<br />
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lassi, Pasi
 
 __Aiheita__
@@ -277,9 +267,8 @@ __Aiheita__
 
 ## Viikon 3 muistiot
 
-### Torstain palaveri
+### Torstain 19.1.2023 klo 12 palaveri
 
-Aika: 19.1.2023 klo 12<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
@@ -327,9 +316,8 @@ __Aiheita__
 
 * Viikon 4 päivitys
 
-### Maanantain palaveri
+### Maanantain 16.1.2023 klo 12 palaveri
 
-Aika: 16.1.2023 klo 12<br />
 Läsnä: Emmi, Pasi, Lari, Lasse, Anneli, Kodo
 
 __Aiheita__
@@ -359,9 +347,8 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
 
 ## Viikon 2 muistiot
 
-### Torstain palaveri
+### Torstain 12.1.2023 klo 10 palaveri
 
-Aika: 12.1.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lassi, Pasi
 
 __Aiheita__
@@ -385,9 +372,8 @@ __Aiheita__
 
 * keskiviikkona ei saatu vaihdettua palomuurien muistikampoja, koska ne oli vielä Kuopiossa postin hallussa. Nämä vaihdetaan helmikuun käyttökatkossa. 
 
-### Maanantain palaveri
+### Maanantain 9.1.2023 klo 10 palaveri
 
-Aika: 9.1.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 __Aiheita__
@@ -420,9 +406,8 @@ __Aiheita__
 
 ## Viikon 1 muistiot
 
-### Torstain palaveri
+### Torstain 5.1.2023 klo 10 palaveri
 
-Aika: 5.1.2023 klo 10<br />
 Läsnä: Pasi, Lari, Kodo, Lasse
 
 __Aiheita__
@@ -443,9 +428,8 @@ __Aiheita__
  
 * datereceived-kenttä löytyy muualtakin kuin vain aqorders-taulusta? Tämä on meidän oma muutos, ja on jäänyt roikkumaan; poistetaan.
 
-### Maanantain palaveri
+### Maanantain 2.1.2023 klo 10 palaveri
 
-Aika: 2.1.2023 klo 10<br />
 Läsnä: Anneli, Lasse, Pasi, Ari, Lari, Kodo
 
 __Aiheita__
