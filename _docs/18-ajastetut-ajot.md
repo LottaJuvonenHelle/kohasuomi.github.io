@@ -12,13 +12,13 @@ Määrittelyt aikaväleille ovat mahdollisia. Esimerkiksi jos tunti-merkintänä
 
 ## Uudelleenindeksointi
 
-Indeksointi voidaan määritellä tapahtuvaksi yöllä poistamalla kommenttimerkki seuraavan crontab-rivin edestä. Indeksien varmuuskopiointi täytyy poistaa käytöstä uudelleenindeksoinnin ajaksi, jotta indeksointi ei keskeydy varmistuksen vuoksi.
-
 ```
 # Uncomment rebuild_elastic_search.pl for complete ElacticSearch rebuild.
 # Comment ksbackup --indices below when running this!!
 # 46 23 * * *        $TRIGGER search_tools/rebuild_elasticsearch.pl -a -b -r -v -c 1000
 ```
+
+Indeksointi voidaan määritellä tapahtuvaksi yöllä poistamalla kommenttimerkki (#) ylläolevan crontab-rivin edestä. Indeksien varmuuskopiointi täytyy poistaa käytöstä uudelleenindeksoinnin ajaksi, jotta indeksointi ei keskeydy varmistuksen vuoksi.
 
 ## Lainaukseen ja varausten käsittelyyn liittyvät ajastetut tehtävät
 
@@ -141,7 +141,7 @@ Yllä olevat ajastukset ovat vakioita ja ne tapahtuvat kaikissa kimpoissa samaan
   05 02 * * *        $TRIGGER cleanup-scripts/cleanup_search_history.pl -v --days 30
   05 02 * * *        $TRIGGER cleanup-scripts/truncate_sessions.pl -v -t
   05 02 * * *        $TRIGGER cleanup-scripts/truncate_zebraqueue.pl -v -t
-  30 09 * * *        ko-ssh-hostkey-check --force | mail -E -r admin@koha-suomi.fi -s "WARNING! SSH connections on $(cat /etc/ks-lxc-role) fail!" notifications@koha-suomi.fi
+  30 09 * * *        ko-ssh-hostkey-check --force | mail -E -r s-posti@osoite -s "WARNING! SSH connections on $(cat /etc/ks-lxc-role) fail!" notifications@koha-suomi.fi
 ```
 
 * cleanup_message_queue.pl - siivoaa viestijonon (asiakasviestit)
@@ -149,7 +149,13 @@ Yllä olevat ajastukset ovat vakioita ja ne tapahtuvat kaikissa kimpoissa samaan
 * archive_statistics.pl - arkistoi vanhat statistics merkinnät vuositauluihin
 * cleanup_edifact_messages.pl - poistaa vanhat EDI-sanomat EDIFACT-sivulta (sanomat säilyvät silti palvelimella)
 * cleanup_background_jobs.pl - siivoaa taustatyölistalta onnistuneesti suoritetut taustatyöt (esimerkissä kuukautta vanhemmat merkinnät poistetaan)
-
+* cleanup_branchtransfers.pl - siivoaa kuljetustilataulusta pois määriteltyä vanhemmat täyttyneet kuljetukset
+* truncate_search_history.pl - tyhjentää hakuhistorian, tämä ei ole tällä hetkellä käytössä
+* cleanup_search_history.pl - siivoaa hakuhistoriasta pois määriteltyä vanhemmat haut
+* truncate_sessions.pl - siivoaa sessions-taulun (ja potkii ajohetkellä mahdollisesti järjestelmään kirjautuneet käyttäjät ulos)
+* truncate_zebraqueue.pl - siivoaa vanhan Zebra-hakukoneen jonotaulun, jonotaulu täyttyy tietueita muutettaessa, vaikka vanha hakukone ei olekkaan käytössä
+* ko-ssh-hostkey-check - takistaa järjestelmään tallennettujen ssh-avainten toiminnan ja raportoi kehittäjille jos jokin niistä ei ole kelvollinen
+ 
 ## Tilastot
 
 ```
