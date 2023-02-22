@@ -51,3 +51,5 @@ docs:
         url: /dokumentaatio/jarjestelmaasetukset/
       - title: 'Tietojen säilytysajat'
         url: /dokumentaatio/tietojensailytysajat/
+      - title: 'Ajastetut ajot'
+        url: /dokumentaatio/ajastetutajot/
