@@ -10,6 +10,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 9 esityslista
+
+Aika: 28.2.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+* [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin.
+
+
 ## Viikko 8 muistio
 
 Aika: 21.2.2023 klo 9.15 <br />
