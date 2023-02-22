@@ -27,6 +27,8 @@ __Aiheita__
 
 * nextien tilanne
 
+* action_logs kk-siivousajojen käyttöönotto
+
 * Finnaan tulee aineistotyyppi "Äänikirja" ja Daisy-äänikirjoille oma kuvake. [Viimeisin versiotiedote](https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/321). Pitäisikö lisätä jossain vaiheessa myös Kohaan aineistotyyppeihin?
   * [Github RecordManager-Finna](https://github.com/NatLibFi/RecordManager-Finna/commit/f6c3c1d5fc4c7a2e48ef02fdd9c8a4ff9720c5bc)
 
