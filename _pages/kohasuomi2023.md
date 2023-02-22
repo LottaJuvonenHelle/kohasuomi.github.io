@@ -46,6 +46,9 @@ __Aiheita__
 
 * translations repoa ei sittenkään kiinni, vaan hoidetaan käännökset siellä, sen sijaan translations-branch hävitetään
 
+* Versionvaihdon tikettien vastuutuksen jatkaminen
+  * kaikille sms-plugareille on käyttöä
+
 ### Maanantain 20.2.2023 klo 12 palaveri
 
 Läsnä: Anneli, Lari, Lasse, Emmi, Pasi, Kodo
