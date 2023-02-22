@@ -154,7 +154,7 @@ Yllä olevat ajastukset ovat vakioita ja ne tapahtuvat kaikissa kimpoissa samaan
 * cleanup_search_history.pl - siivoaa hakuhistoriasta pois määriteltyä vanhemmat haut
 * truncate_sessions.pl - siivoaa sessions-taulun (ja potkii ajohetkellä mahdollisesti järjestelmään kirjautuneet käyttäjät ulos)
 * truncate_zebraqueue.pl - siivoaa vanhan Zebra-hakukoneen jonotaulun, jonotaulu täyttyy tietueita muutettaessa, vaikka vanha hakukone ei olekkaan käytössä
-* ko-ssh-hostkey-check - takistaa järjestelmään tallennettujen ssh-avainten toiminnan ja raportoi kehittäjille jos jokin niistä ei ole kelvollinen
+* ko-ssh-hostkey-check - tarkistaa järjestelmään tallennettujen ssh-avainten toiminnan ja raportoi kehittäjille jos jokin niistä ei ole kelvollinen
  
 ## Tilastot
 
