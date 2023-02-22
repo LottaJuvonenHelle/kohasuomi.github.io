@@ -12,7 +12,7 @@ Määrittelyt aikaväleille ovat mahdollisia. Esimerkiksi jos tunti-merkintänä
 
 ## Uudelleenindeksointi
 
-Indeksointi voidaan määritellä tapahtuvaksi yöllä poistamalla kommenttimerkki seuraavan crontab-rivin edestä. Muista myös poista indeksien varmuuskopiointi käytöstä uudelleenindeksoinnin ajaksi, jotta indeksointi ei keskeydy varmistuksen vuoksi.
+Indeksointi voidaan määritellä tapahtuvaksi yöllä poistamalla kommenttimerkki seuraavan crontab-rivin edestä. Indeksien varmuuskopiointi täytyy poistaa käytöstä uudelleenindeksoinnin ajaksi, jotta indeksointi ei keskeydy varmistuksen vuoksi.
 
 ```
 # Uncomment rebuild_elastic_search.pl for complete ElacticSearch rebuild.
