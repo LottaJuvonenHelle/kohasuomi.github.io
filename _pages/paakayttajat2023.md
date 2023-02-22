@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin.
+* [Maksut sähköpostikuittiin](https://tiketti.koha-suomi.fi/issues/4245)
 
 
 ## Viikko 8 muistio
