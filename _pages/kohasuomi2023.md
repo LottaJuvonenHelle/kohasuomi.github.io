@@ -23,6 +23,8 @@ __Aiheita__
 
 * Torstain palaverimuistiot on nyt maanantaisten yläpuolella, jotta ovat kronologisessa järjestyksessä (uusin ylimmäisenä, niinkuin sivun alussa luvataan)
 
+* Rovaniemelle käyttöön Finvoice (viesti support-lootassa)
+
 * nextien tilanne
 
 * Finnaan tulee aineistotyyppi "Äänikirja" ja Daisy-äänikirjoille oma kuvake. [Viimeisin versiotiedote](https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/321). Pitäisikö lisätä jossain vaiheessa myös Kohaan aineistotyyppeihin?
