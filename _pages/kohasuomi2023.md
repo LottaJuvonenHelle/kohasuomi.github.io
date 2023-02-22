@@ -15,123 +15,197 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 8 muistiot
 
-### Maanantain palaveri
-
-Aika: 20.2.2023 klo 12<br />
-Läsnä: Anneli, Lari, Lasse, Emmi, Pasi, Kodo
-
-* nextien tilanne
-  * redusointi ei onnistunut vielä perjantaina. Ma-iltana uusi yritys.
-* viikon 8 päivitys
-  * ei päivitettävää.
-* versionvaihdon loppujen tikettien läpikäynti ja vastuutus
-* translations
-  * repo kiinni, tiketit Kohan alle -> Anneli siirtää 
-
 ### Torstain palaveri
 
 Aika: 23.2.2023 klo 10<br />
 Läsnä:
 
+__Aiheita__
+
+* Torstain palaverimuistiot on nyt maanantaisten yläpuolella, jotta ovat kronologisessa järjestyksessä (uusin ylimmäisenä, niinkuin sivun alussa luvataan)
+
 * nextien tilanne
+
 * Finnaan tulee aineistotyyppi "Äänikirja" ja Daisy-äänikirjoille oma kuvake. [Viimeisin versiotiedote](https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/321). Pitäisikö lisätä jossain vaiheessa myös Kohaan aineistotyyppeihin?
   * [Github RecordManager-Finna](https://github.com/NatLibFi/RecordManager-Finna/commit/f6c3c1d5fc4c7a2e48ef02fdd9c8a4ff9720c5bc)
+
 * totalissues-arvot tiketit [KohaSuomi/Koha #196](https://github.com/KohaSuomi/Koha/issues/196) ja [Redmine #1849](https://tiketti.koha-suomi.fi/issues/1849)
   * [Vkolla 44/22 keskusteltu aiheesta näin](https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Torstain-palaveri-8): Ratkaisu: katkaistaan kuvailupohjien ja biblioitems.totalissues -linkki ja tehdään erillinen cron laskemaan lainamäärät suoraan biblioitems-tauluun
-* kaksivaiheinen kirjautuminen
+
+* kaksivaiheinen tunnistautuminen
+  * toimii hienosti OTP:tä tukevilla mobiiliaplareilla (testattu LastPass authenticator ja FreeOTP)
+  * token-laitteita halpa hankkia, mutta hankala/kallis ylläpitää (ohjelmointisoftan käyttöoikeus maksaa noin tonnin, puhelimella ohjelmointi on mahdollista, mutta vaatii NFC:llä varustetun puhelimen ja siihen token-valmistajan sovelluksen)
+  * sähköpostin käyttö toisessa kirjautumisvaiheessa toimii "failsafena" jos esimerkiksi puhelin sattuu jäämään kotiin
+    * viesti menee Kohan viestijonoon, mutta lähtee heti eikä vasta Kohan muiden viestien lähetyksen yhteydessä, vähän turha siellä jonossa kyllä, ne voisi siivoilla pois
+    * ei voida käyttää yksinään, kaksivaiheisen tunnistautumisen käyttöönotto vaatii OTP-laitteen (puhelin tai token)
+ 
 * päivystysnumeron käännöt 
 
-## Viikon 7 muistiot
+* translations repoa ei sittenkään kiinni, vaan hoidetaan käännökset siellä, sen sijaan translations-branch hävitetään
 
 ### Maanantain palaveri
 
-Aika: 13.2.2023 klo 10<br />
-Läsnä: Anneli, Pasi, Lasse, Emmi, Lari, Kodo
+Aika: 20.2.2023 klo 12<br />
+Läsnä: Anneli, Lari, Lasse, Emmi, Pasi, Kodo
 
-* Vkon 7 päivitys
-  * lokitusmuutokset -> 
-    * sipoverhttps-lokitusta vähennetty viime viikolla
-    * accesslokitusten lopetus
-  * kirkes-test asiakasvarmenteen taakse
-* next-kantojen tilanne
-  * Pasi alkaa testaamaan tietojen redusointia
-  * vaara-next ensin
-* skeeman rakentelu toimii
+__Aiheita__
+
+* nextien tilanne
+  * redusointi ei onnistunut vielä perjantaina. Ma-iltana uusi yritys.
+
+* viikon 8 päivitys
+  * ei päivitettävää.
+
+* versionvaihdon loppujen tikettien läpikäynti ja vastuutus
+
+* translations
+  * repo kiinni, tiketit Kohan alle -> Anneli siirtää 
+
+## Viikon 7 muistiot
 
 ### Torstain palaveri
 
 Aika: 16.2.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
+__Aiheita__
+
 * https://github.com/KohaSuomi/Koha/issues/409 ja https://github.com/KohaSuomi/Koha/issues/412
   * vaatii käytännössä konversion, joka on suuritöinen
   * ehdotetaan uusien kirjastoyksiköiden perustamista ja aineistojen ja asiakkaiden siirtoa uudelle yksikölle.
   * kannattaa tehdä tilastojen kannalta vuodenvaihteessa. 
+
 * [Redminen tukipyynnöt](https://tiketti.koha-suomi.fi/projects/fbox/issues?utf8=%E2%9C%93&set_filter=1&sort=id%3Adesc&f%5B%5D=status_id&op%5Bstatus_id%5D=o&f%5B%5D=tracker_id&op%5Btracker_id%5D=%3D&v%5Btracker_id%5D%5B%5D=3&f%5B%5D=&c%5B%5D=due_date&c%5B%5D=tracker&c%5B%5D=status&c%5B%5D=priority&c%5B%5D=votes_total&c%5B%5D=subject&c%5B%5D=assigned_to&c%5B%5D=updated_on&c%5B%5D=author&c%5B%5D=category&c%5B%5D=cf_14&c%5B%5D=cf_15&group_by=&t%5B%5D=)
+
 * GuarantorHasToBePatron-asetus vs. css-rimpsu
   * luovutaan omasta asetuksesta ja käytetään css-rimpsu + piilotetaan kentät lisäksi BorrowerUnwantedFields -asetuksella
+
 * nextien tilanne
   * perjantaina eka yritys redusoida vaara
+
 * smartum?
+
 * No status -tiketit
+
 * Finna-toimistosta vastasivat
   * tarvivat OAI-PMH-haravointiosoitteet alkuunsa ja myöhemmin myös REST-yhteystiedot testikantoja varten.
   * varaustunnuksen vaihtamista asiakasmääreeksi ja nideryhmien käyttöönottoa eivät vielä kommentoineet
+
 * plugarit
   * Lari tekee tiketit k22xx-repoon kaikista plugareista.
 
-## Viikon 6 muistiot
-
 ### Maanantain palaveri
 
-Aika: 6.2.2023 klo 10<br />
-Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
+Aika: 13.2.2023 klo 10<br />
+Läsnä: Anneli, Pasi, Lasse, Emmi, Lari, Kodo
 
-* Vkon 6 päivitys
-  * ei päivitettävää 
-* Huoltokatko ke 7-9
-  * vaihdetaan palomuurin muistikammat
-  * todennäköisesti ei katkoja tiedossa 
+__Aiheita__
+
+* Vkon 7 päivitys
+  * lokitusmuutokset -> 
+    * sipoverhttps-lokitusta vähennetty viime viikolla
+    * accesslokitusten lopetus
+  * kirkes-test asiakasvarmenteen taakse
+
 * next-kantojen tilanne
-  * "normitestaajat" testamaan viimeistään huhtikuun puolivälissä?
-    * Mahdollisimman valmiina omat ominaisuudet ennen kuin virkailijat testaa
-    * pari viikkoa testiaikaa, jonka jälkeen vielä pari viikkoa aikaa korjauksille
-  * redusointiskripti ehkä valmiiksi tällä viikolla
-  * Kontainerit luodaan viikolla 6 ja palomuureille ja DNS-palvelimille tehdään tarvittavat asetukset. Asetusten käyttöönotto palomuureilla keskiviikon 8.2. huoltokatkon yhteydessä.
-* mikä olisi hyvä paikka [tietoturvaohjeelle](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Koha-Suomen_tietoturvaohje)?
-  * Kohan ohje suomeksi -otsikon alle viimeiseksi (jos ei löydy, niin siirretään sitten ekaksi)
-* TLS-salaus lähteviin posteihin?
-  * Kodo keskustellut sen käyttöönotosta BittiGurun kanssa ja se onnistuu.
-  * Otetaan käyttöön, kun operaattori ehtii. 
-* Anneli kertoi tieteellisten pääkäyttjien palaverissa meidän aikeista muuttaa varaustunnus asiakasmääreeksi ja ottaa käyttöön nideryhmät. Tieteellisillä vielä käytössä othernames-kenttä varaustunnukselle. Nideryhmiä ei oltu tutkittu juurikaan, eikä niille keksitty heillä äkkiseltään käyttöä.
-* Siivousajot
-  * action_logsin siivous kerran kuussa porrastaen kimpoittain eri päiville
-  * Lari kirjaa Tietojen säilytysajat -sivulle porrastusaikataulun
-  * käytetään aikataulumuutos asiantuntijaryhmän seuraavassa kokouksessa 20.2.2023
-  * käyttöönotto maaliskuussa
-* Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
+  * Pasi alkaa testaamaan tietojen redusointia
+  * vaara-next ensin
+
+* skeeman rakentelu toimii
+
+## Viikon 6 muistiot
 
 ### Torstain palaveri
 
 Aika: 9.2.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
+__Aiheita__
+
 * Keskiviikon huoltokatkon kuulumiset / Kodo
+
 * [Palvelut](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/palvelut.md)-sivun päivitys
   * Tilastoitavuus-tägi
+
 * No status -tikettien läpikäynti
+
 * Ma-muistiosta: Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
+
 * Idea: _Bugi-perjantai_ kerran kuussa pe klo 13-15 etsitään Bugzillasta meille tärkeitä sign offattavia tikettejä ja testataan niitä sandboxeissa tai jollain meidän testillä. Mukaan kehittäjä (tai useampi) ja pääkäyttäjiä. Aloitusaikataulu versionvaihdon jälkeen. Emmi mukana. /Anneli
+
 * https://tiketti.koha-suomi.fi/issues/5303 - tiketti yhteisöön? Ongelma toistuu myös 22.11-versiossa.
+
 * Lari: action_logsit korjattu, mutta ajo on skipannut virheen jälkeiset päivät, eikä ne tullut mukaan takaisin.
   * Korjaus: viedään taulun loppuun, vaikka id:t menee sekaisin.
 
+### Maanantain palaveri
+
+Aika: 6.2.2023 klo 10<br />
+Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
+
+__Aiheita__
+
+* Vkon 6 päivitys
+  * ei päivitettävää 
+
+* Huoltokatko ke 7-9
+  * vaihdetaan palomuurin muistikammat
+  * todennäköisesti ei katkoja tiedossa 
+
+* next-kantojen tilanne
+  * "normitestaajat" testamaan viimeistään huhtikuun puolivälissä?
+    * Mahdollisimman valmiina omat ominaisuudet ennen kuin virkailijat testaa
+    * pari viikkoa testiaikaa, jonka jälkeen vielä pari viikkoa aikaa korjauksille
+  * redusointiskripti ehkä valmiiksi tällä viikolla
+  * Kontainerit luodaan viikolla 6 ja palomuureille ja DNS-palvelimille tehdään tarvittavat asetukset. Asetusten käyttöönotto palomuureilla keskiviikon 8.2. huoltokatkon yhteydessä.
+
+* mikä olisi hyvä paikka [tietoturvaohjeelle](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Koha-Suomen_tietoturvaohje)?
+  * Kohan ohje suomeksi -otsikon alle viimeiseksi (jos ei löydy, niin siirretään sitten ekaksi)
+
+* TLS-salaus lähteviin posteihin?
+  * Kodo keskustellut sen käyttöönotosta BittiGurun kanssa ja se onnistuu.
+  * Otetaan käyttöön, kun operaattori ehtii. 
+
+* Anneli kertoi tieteellisten pääkäyttjien palaverissa meidän aikeista muuttaa varaustunnus asiakasmääreeksi ja ottaa käyttöön nideryhmät. Tieteellisillä vielä käytössä othernames-kenttä varaustunnukselle. Nideryhmiä ei oltu tutkittu juurikaan, eikä niille keksitty heillä äkkiseltään käyttöä.
+
+* Siivousajot
+  * action_logsin siivous kerran kuussa porrastaen kimpoittain eri päiville
+  * Lari kirjaa Tietojen säilytysajat -sivulle porrastusaikataulun
+  * käytetään aikataulumuutos asiantuntijaryhmän seuraavassa kokouksessa 20.2.2023
+  * käyttöönotto maaliskuussa
+
+* Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö. 
+
 ## Viikon 5 muistiot
+
+### Torstain palaveri
+
+Aika: 2.2.2023<br />
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
+
+__Aiheita__
+
+* ODUECLAIM-viestien säilytysaika
+  * Lari huolehtii ennen seuraavia puhdistusajoja, että ajot noudattaa [Tietojen säilysaikapäätöksiä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat).
+
+* lokitukseen muutos, että lokille tallennetaan vain muuttuneet arvot? Emmi tekee tiketin ja tutkitaan tarkemmin versionvaihdon jälkeen.
+
+* [Kooste-viesti-triggeri tuotantoon](https://tiketti.koha-suomi.fi/issues/5269)?
+  * Tähän liittyy myös tiketti [K21-389](https://github.com/KohaSuomi/Koha/issues/389)
+  * käyttöliittymästä täpät piiloon, transportit pois, täpät puuttuville.
+
+* Lapin varausten keskeytykset [K21-397](https://github.com/KohaSuomi/Koha/issues/397)
+
+* [Varaukset ei näy Finnassa KohaSuomi/Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - voisko johtua AllowRenewalIfOtherItemsAvailable-järjestelmäasetuksesta?
+
+* Versionvaihdossa branchien nimet pidetään samoina kuin aiemmin.
 
 ### Maanantain palaveri
 
 Aika: 30.1.2023<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
+
+__Aiheita__
 
 * Kimpoissa on tilauksia, jotka ovat yhtä aikaa vastaanotettu ja tilattu. Niissä on vastaanottopäivä aqorders-taulussa, mutta orderstatus on 'ordered'. Tämä aiheuttaa ongelmia vastaanotossa. Näkyville tulee tilauksia, jotka on jo vastaanotettu ja niitä ei saa vastaanotettua uudelleen.
   * select * from aqorders where datereceived is not null and orderstatus='ordered'
@@ -139,35 +213,58 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   * Laskin, kuinka paljon on tilausrivejä, joissa on datereceivedissä päivämäärä ja orderstatus 'ordered': Lumme: 7646, Outi: 9282, Lappi: 782, Vaara: 849, Vaski 2, Kyyti: 7255, Helle: 6, Siili: 2279
   * Mitä näille voisi tehdä? Muuttaa ajolla orderstatus vastaanotetuksi (complete)?
   * Päätös: Emmi muuttaa kaikkien niiden rivien, joissa on datereceived-arvo ja orderstatus='ordered' -> orderstatus='complete' ja seurataan, tuleeko uusia.
+
 * Viikon 5 päivitys
   * Käännösmuutoksia, joten käännökset ajettava
+
 * Päivystysvuorot viikosta 6 alkaen
   * Vko 6 Pasi ja Kodo
   * Vko 7 Lari ja Anneli
   * Vko 8 Lasse ja Emmi
   * Vko 9 Pasi ja Kodo
 
+## Viikon 4 muistio
+
 ### Torstain palaveri
 
-Aika: 2.2.2023<br />
+Aika: 26.1.2023 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
-* ODUECLAIM-viestien säilytysaika
-  * Lari huolehtii ennen seuraavia puhdistusajoja, että ajot noudattaa [Tietojen säilysaikapäätöksiä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat).
-* lokitukseen muutos, että lokille tallennetaan vain muuttuneet arvot? Emmi tekee tiketin ja tutkitaan tarkemmin versionvaihdon jälkeen.
-* [Kooste-viesti-triggeri tuotantoon](https://tiketti.koha-suomi.fi/issues/5269)?
-  * Tähän liittyy myös tiketti [K21-389](https://github.com/KohaSuomi/Koha/issues/389)
-  * käyttöliittymästä täpät piiloon, transportit pois, täpät puuttuville.
-* Lapin varausten keskeytykset [K21-397](https://github.com/KohaSuomi/Koha/issues/397)
-* [Varaukset ei näy Finnassa KohaSuomi/Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - voisko johtua AllowRenewalIfOtherItemsAvailable-järjestelmäasetuksesta?
-* Versionvaihdossa branchien nimet pidetään samoina kuin aiemmin.
+__Aiheita__
 
-## Viikon 4 muistio
+* [Koulutuksista "tilastosivu"](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/Koulutustilastot.md) utilityyn
+  * Luotiin kokouksen aikana myös seurantasivu erilaisille [palvelumaksuun kuuluville töille](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/palvelut.md).
+
+* action_logs-taulujen korjaus
+  * yritetään toteuttaa ilman käyttökatkoa
+  * jatketaan pohdintoja torstain palaverissa
+  * Siivotaan ensin 2021:t vuositauluun work_action_logseista -> Siirretään action_logs-taulusta rivit work_action_logs-tauluun loppuun ja tuhotaan nykyinen action_logs-taulu -> nimetään uudelleen work_action_logs-taulu action_logs-tauluksi. Huolehditaan, että autoincrement-arvo on tarpeeksi suuri.
+    * Tiedotettava Lapin, OUTIn ja Vaskin pääkäyttäjiä katkosta. 
+    * Lari tekee tiketin ja on vastuuhenkilö
+
+* Tikettien vastuutuksen jatko
+  * Tehtävä-statuksella oleville vastuuhenkilö 
+  * [Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - kelle? Lasse
+  * [Koha #223](https://github.com/KohaSuomi/Koha/issues/223) - Pitää selvitellä, saisiko sen taustatyö-ilmoituksen näkyville taas.
+  * [KohaSuomiServices #3](https://github.com/KohaSuomi/KohaSuomiServices/issues/3) - missä mennään?
+  * [Koha #240](https://github.com/KohaSuomi/Koha/issues/240) - mitä tehdään? Tiketti yhteisöön?
+  * [Koha #252](https://github.com/KohaSuomi/Koha/issues/252) - Voiko mitään?
+  * [Koha #372](https://github.com/KohaSuomi/Koha/issues/372) - kaikille testeille / Lasse
+  * [Koha #349](https://github.com/KohaSuomi/Koha/issues/349) - näitä on taas lisääntyvä määrä ainakin OUTIssa/Vaskissa
+
+* Viikon 5 päivitys
+  * Käännösmuutoksia, joten käännökset ajettava
+
+* Vaski-nextin tilanne & muiden nextien
+  * tiedonhaku ei vielä toimi vaski-nextillä
+  * datan redusointi muita kuin vaski-nextiä varten työn alla
 
 ### Maanantain palaveri
 
 Aika: 23.1.2023 klo 12<br />
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lassi, Pasi
+
+__Aiheita__
 
 * Asiantuntijaryhmässä esillä olleiden tikettien läpikäynti/vastuutus
 * Viikon 4 päivitys
@@ -178,63 +275,14 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lassi, Pasi
   * jatketaan pohdintoja torstain palaverissa
 * Sanaston raporteissa meni 16 tuntia ajaessa
 
-### Torstain palaveri
-
-Aika: 26.1.2023 klo 10<br />
-Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
-
-* [Koulutuksista "tilastosivu"](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/Koulutustilastot.md) utilityyn
-  * Luotiin kokouksen aikana myös seurantasivu erilaisille [palvelumaksuun kuuluville töille](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/palvelut.md).
-* action_logs-taulujen korjaus
-  * yritetään toteuttaa ilman käyttökatkoa
-  * jatketaan pohdintoja torstain palaverissa
-  * Siivotaan ensin 2021:t vuositauluun work_action_logseista -> Siirretään action_logs-taulusta rivit work_action_logs-tauluun loppuun ja tuhotaan nykyinen action_logs-taulu -> nimetään uudelleen work_action_logs-taulu action_logs-tauluksi. Huolehditaan, että autoincrement-arvo on tarpeeksi suuri.
-    * Tiedotettava Lapin, OUTIn ja Vaskin pääkäyttäjiä katkosta. 
-    * Lari tekee tiketin ja on vastuuhenkilö
-* Tikettien vastuutuksen jatko
-  * Tehtävä-statuksella oleville vastuuhenkilö 
-  * [Koha #212](https://github.com/KohaSuomi/Koha/issues/212) - kelle? Lasse
-  * [Koha #223](https://github.com/KohaSuomi/Koha/issues/223) - Pitää selvitellä, saisiko sen taustatyö-ilmoituksen näkyville taas.
-  * [KohaSuomiServices #3](https://github.com/KohaSuomi/KohaSuomiServices/issues/3) - missä mennään?
-  * [Koha #240](https://github.com/KohaSuomi/Koha/issues/240) - mitä tehdään? Tiketti yhteisöön?
-  * [Koha #252](https://github.com/KohaSuomi/Koha/issues/252) - Voiko mitään?
-  * [Koha #372](https://github.com/KohaSuomi/Koha/issues/372) - kaikille testeille / Lasse
-  * [Koha #349](https://github.com/KohaSuomi/Koha/issues/349) - näitä on taas lisääntyvä määrä ainakin OUTIssa/Vaskissa
-* Viikon 5 päivitys
-  * Käännösmuutoksia, joten käännökset ajettava
-* Vaski-nextin tilanne & muiden nextien
-  * tiedonhaku ei vielä toimi vaski-nextillä
-  * datan redusointi muita kuin vaski-nextiä varten työn alla
-
 ## Viikon 3 muistiot
-
-### Maanantain palaveri
-
-Aika: 16.1.2023 klo 12<br />
-Läsnä: Emmi, Pasi, Lari, Lasse, Anneli, Kodo
-
-* Vaski meni sunnuntaina jumiin liian pitkän kestäneen action_logsin siivousajon takia, jumittanut kyselyyn:
-INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >= DATE('2022-01-01'));
-  * action_logs-taulusta puuttuu Lapista, OUTIsta ja Vaskista kaikki su-aamua aikaisemmat tiedot. Ne ovat tallessa work_action_logs-taulussa.
-  * Lari ja Emmi tutkii, miten datan saisi vietyä tauluihin pienemmissä seteissä.
-* Metatietosanasto-plugari / Antti H.
-  * voi olla periaatteessa tehtävissä, tehdään kehitysehdotus
-* Viikon 3 päivitys
-* indeksin mappingsin sijainti
-  * ne ovat nyt etc:ssä, joka on kimppakohtainen.
-  * siirretään koha-repoon ja tehdään oma branch, nimetään mappings koha-suomi-mappings.yaml ja muutetaan koha-confissa hakemaan mappings sieltä
-  * hävitetään mappingsit etc:n alta
-  * koha-repon alta otetaan ylimääräiset mappings-tiedostot pois
-  * Lari tekee ( myös tiketti)
-* valvonnan muutokset
-  * lähtevät viestit tarkistetaan vasta 9.30 jälkeen. Jos tarkistuksen tekee ennen tuota, saa ilmoituksen, että viestejä ei ole vielä tarkistettu.
-  * konttiin kirjautuessa saa jatkossa huomautuksen yli tunnin käynnissä olleista kyselyistä.
-* Sanasto-raportin muutos toimimaan nykyisessä versiossa ei olekaan niin helppo kuin alunperin ajateltiin.
 
 ### Torstain palaveri
 
 Aika: 19.1.2023 klo 12<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
+
+__Aiheita__
 
 * OKM-tilastojen ongelmat Lumpeissa
   * Lumpeen pääkäyttäjiä tulee mukaan
@@ -242,9 +290,12 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   * Varkaus siirtyy tekemään signumit samalla tavalla kuin muissa Lumpeiden kirjastoissa
   * Koha-Suomi (Lasse) korjaa olemassa olevien niteiden cn_sort-kentät ja signum-kentät. Anneli tekee tiketin.
   * tarkistetaan Hellessä Loviisan tilanne
+
 * Häiriö- ja huoltotiedotteet vastaisuudessa GitHubin discussionsiin
+
 * Outlook/Hotmail,complainttaavat asiakkaat, lähtevän postin palvelimen "maine" ja viestien perillemeno
   * Bottivastaus, käsiteltävä pääkäyttäjäryhmässä tiistaina
+
 * Build-production-branch-skriptin muutokset
   * muutetaan toiminnalisuutta niin, että uusia brancheja ei haeta automaattisesti 
   * nimen muutos, koska tällä rakennetaan myös testit, ei pelkästään production (build-(ks)-release?)
@@ -252,23 +303,87 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
     * jos DBIx skeemaluokat tehdään uusiksi buildissa, niitä ei enää tarvita omassa erillisessä git-branchissaan, jolloin sitä branchia ei enää tarvitse ylläpitää (voidaan hävittää?)
   * tehdäänkö nyt vai versionvaihtoon
   * Pasi tekee. Ensin testille.
+
 * käännöstiedostot pois kaikkialta muualta paitsi translation-reposta. Lari tutkii, miten se onnistuu.
+
 * Kirkes parametrointikanta (tuleva tuotanto-Kirkes)
+
 * Kirkes asiakasvarmenteet
   * Emmi tekee
   * varmenteet voi olla voimassa korkeintaan 13 kk (TLS-protokollassa oleva rajoite + selaimet eivät hyväksy tuota pidempään voimassa olevia sertifikaatteja)
   * tehdään "testi-sertifikaatti", joka voimassa vuoden loppuun ja toimitetaan elokuussa uusi "tuotanto-sertifikaatti", joka on voimassa samassa rytmissä kuin muiden kimppojen sertit.
+
 * SmartBoxin palautustoiminnallisuuden ja varaustenkäsittelyn muutokset
   * palautuksille SIP-tuki, 09-viesti
   * varausten käsittely: niteet palautetaan ensin Kohassa ja sitten piipataan vielä SmartBoxissa.
+
 * Finna ja versionvaihto - joko päätettiin, kuka on yhteydessä Finna-toimistoon?
   * Anneli viestii Tolosen Erkille 
+
 * Muovitustiedon lisääminen EDItX sanomiin
   * Anneli kyselee, mikä tässä on oikeasti tarve/tausta
+
 * Sanaston raporttien ajo to-iltana
+
 * Viikon 4 päivitys
 
+### Maanantain palaveri
+
+Aika: 16.1.2023 klo 12<br />
+Läsnä: Emmi, Pasi, Lari, Lasse, Anneli, Kodo
+
+__Aiheita__
+
+* Vaski meni sunnuntaina jumiin liian pitkän kestäneen action_logsin siivousajon takia, jumittanut kyselyyn:
+INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >= DATE('2022-01-01'));
+  * action_logs-taulusta puuttuu Lapista, OUTIsta ja Vaskista kaikki su-aamua aikaisemmat tiedot. Ne ovat tallessa work_action_logs-taulussa.
+  * Lari ja Emmi tutkii, miten datan saisi vietyä tauluihin pienemmissä seteissä.
+
+* Metatietosanasto-plugari / Antti H.
+  * voi olla periaatteessa tehtävissä, tehdään kehitysehdotus
+
+* Viikon 3 päivitys
+
+* indeksin mappingsin sijainti
+  * ne ovat nyt etc:ssä, joka on kimppakohtainen.
+  * siirretään koha-repoon ja tehdään oma branch, nimetään mappings koha-suomi-mappings.yaml ja muutetaan koha-confissa hakemaan mappings sieltä
+  * hävitetään mappingsit etc:n alta
+  * koha-repon alta otetaan ylimääräiset mappings-tiedostot pois
+  * Lari tekee ( myös tiketti)
+
+* valvonnan muutokset
+  * lähtevät viestit tarkistetaan vasta 9.30 jälkeen. Jos tarkistuksen tekee ennen tuota, saa ilmoituksen, että viestejä ei ole vielä tarkistettu.
+  * konttiin kirjautuessa saa jatkossa huomautuksen yli tunnin käynnissä olleista kyselyistä.
+
+* Sanasto-raportin muutos toimimaan nykyisessä versiossa ei olekaan niin helppo kuin alunperin ajateltiin.
+
 ## Viikon 2 muistiot
+
+### Torstain palaveri
+
+Aika: 12.1.2023 klo 10<br />
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lassi, Pasi
+
+__Aiheita__
+
+* Viikon 3 päivitys
+  * 350 - osa, Pasi päivittää tikettiin, mitä tulee mukaan.
+  * 308
+  * https://tiketti.koha-suomi.fi/issues/5600
+  
+* Käännökset - messages.js.po-tiedoston kaikki käännökset eivät näy
+
+* testien pienennys
+  * dumppi, josta jätetään isoja tauluja pois
+  * otetaan tyyliin 5000 viimeisintä (tai jokin muu setti) tietuetta ja niihin liittyvät niteet/lainat
+  * Emmi katsoo taulut ja Pasi katsoo datan poiminnan
+  * Kodo tekee Vaskin next-testin, koska sinne tulee kaikki mahdollinen mukaan
+
+* Kun kontteja siirtelee nodelta toiselle, voi lxc vetää maton alta kontilta ennen kuin indeksit ehditään saada kokonaan levylle. Kontissa, joka siirretään, pitää ajaa elastictmpfs synctodisk (esimerkiksi nodelta kogo [kontti] sudo elastictmpfs synctodisk). Kirjoitetaan tämä osaksi koctl:ää kun ehditään, mutta tässä vaiheessa siis pitää tehdä manuaalisesti.
+
+* principioon dokumentaatio, mitä tehdään huoltokatkon aikana
+
+* keskiviikkona ei saatu vaihdettua palomuurien muistikampoja, koska ne oli vielä Kuopiossa postin hallussa. Nämä vaihdetaan helmikuun käyttökatkossa. 
 
 ### Maanantain palaveri
 
@@ -303,45 +418,7 @@ __Aiheita__
 13. Laitetaan asiakasviestintä takaisin käyttöön.
 14. Nostellaan testikontit ja Redmine takaisin kunhan ehditään.
 
-### Torstain palaveri
-
-Aika: 12.1.2023 klo 10<br />
-Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lassi, Pasi
-
-* Viikon 3 päivitys
-  * 350 - osa, Pasi päivittää tikettiin, mitä tulee mukaan.
-  * 308
-  * https://tiketti.koha-suomi.fi/issues/5600
-* Käännökset - messages.js.po-tiedoston kaikki käännökset eivät näy
-* testien pienennys
-  * dumppi, josta jätetään isoja tauluja pois
-  * otetaan tyyliin 5000 viimeisintä (tai jokin muu setti) tietuetta ja niihin liittyvät niteet/lainat
-  * Emmi katsoo taulut ja Pasi katsoo datan poiminnan
-  * Kodo tekee Vaskin next-testin, koska sinne tulee kaikki mahdollinen mukaan
-* Kun kontteja siirtelee nodelta toiselle, voi lxc vetää maton alta kontilta ennen kuin indeksit ehditään saada kokonaan levylle. Kontissa, joka siirretään, pitää ajaa elastictmpfs synctodisk (esimerkiksi nodelta kogo [kontti] sudo elastictmpfs synctodisk). Kirjoitetaan tämä osaksi koctl:ää kun ehditään, mutta tässä vaiheessa siis pitää tehdä manuaalisesti.
-* principioon dokumentaatio, mitä tehdään huoltokatkon aikana
-* keskiviikkona ei saatu vaihdettua palomuurien muistikampoja, koska ne oli vielä Kuopiossa postin hallussa. Nämä vaihdetaan helmikuun käyttökatkossa. 
-
 ## Viikon 1 muistiot
-
-### Maanantain palaveri
-
-Aika: 2.1.2023 klo 10<br />
-Läsnä: Anneli, Lasse, Pasi, Ari, Lari, Kodo
-
-__Aiheita__
-
-* Viikon 1 päivitys
-  * [KohaSuomi/Koha #331](https://github.com/KohaSuomi/Koha/issues/331) Suojatut kentät näkyvät tyhjinä z39.50-haulla tietueita korvattaessa
-  * [KohaSuomi/Koha #334](https://github.com/KohaSuomi/Koha/issues/334)
-  * SQL-raportit hakemaan slave-kannasta masterin sijaan, jotta vältytään tietokannan taulujen lukkiutuminen raskaissa kyselyissä sekä master-kannan kuormaa saadaan kevennettyä.
-  * [Koha #308](https://github.com/KohaSuomi/Koha/issues/308)
-
-* Kodo ehdottaa tämän viikon Kirkes-palaverin ajankohdaksi ke 4.1.2023
-
-* Versionvaihto
-  * viedään ensin Vaski, jotta nähdään, kuinka kauan maksimissaan menee.
-  * kaikille läksyksi miettiä torstain palaveriin mennessä, miten saadaan vähennettyä testikantaan vietävän datan määrää, jotta testikantojen luonti ei vie niin kauan.
 
 ### Torstain palaveri
 
@@ -365,3 +442,22 @@ __Aiheita__
 * Siirretään käännökset build-productionista omaan repoon, symlinkataan meidän omat po-tiedostot reposta Kohan ympäristöön.
  
 * datereceived-kenttä löytyy muualtakin kuin vain aqorders-taulusta? Tämä on meidän oma muutos, ja on jäänyt roikkumaan; poistetaan.
+
+### Maanantain palaveri
+
+Aika: 2.1.2023 klo 10<br />
+Läsnä: Anneli, Lasse, Pasi, Ari, Lari, Kodo
+
+__Aiheita__
+
+* Viikon 1 päivitys
+  * [KohaSuomi/Koha #331](https://github.com/KohaSuomi/Koha/issues/331) Suojatut kentät näkyvät tyhjinä z39.50-haulla tietueita korvattaessa
+  * [KohaSuomi/Koha #334](https://github.com/KohaSuomi/Koha/issues/334)
+  * SQL-raportit hakemaan slave-kannasta masterin sijaan, jotta vältytään tietokannan taulujen lukkiutuminen raskaissa kyselyissä sekä master-kannan kuormaa saadaan kevennettyä.
+  * [Koha #308](https://github.com/KohaSuomi/Koha/issues/308)
+
+* Kodo ehdottaa tämän viikon Kirkes-palaverin ajankohdaksi ke 4.1.2023
+
+* Versionvaihto
+  * viedään ensin Vaski, jotta nähdään, kuinka kauan maksimissaan menee.
+  * kaikille läksyksi miettiä torstain palaveriin mennessä, miten saadaan vähennettyä testikantaan vietävän datan määrää, jotta testikantojen luonti ei vie niin kauan.
