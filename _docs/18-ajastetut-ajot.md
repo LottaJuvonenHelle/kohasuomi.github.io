@@ -6,8 +6,6 @@ redirect_from:
 toc: true
 ---
 
-# Ajastettujen tehtävien kuvaukset
-
 UNIX-crontabien rivin formaatti on minuutti tunti päivä kuukausi viikonpäivä, huomaa että minuutti ja tunti ovat siis "nurinpäin", eli rivin ensimmäinen arvo ilmaisee minuutit ja toinen tunnit.
 
 Määrittelyt aikaväleille ovat mahdollisia. Esimerkiksi jos tunti-merkintänä on 7-22 ja minuuttimerkintänä */1 (yhden minuutin välein), ajetaan tehtävä klo 7.00-22.59.
