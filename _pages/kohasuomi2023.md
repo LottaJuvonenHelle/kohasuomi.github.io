@@ -17,23 +17,31 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstain 23.2.2023 klo 10 palaveri
 
-Läsnä:
+Läsnä: Pia Kusmin Finvoice-kohdassa, Anneli, Emmi, Pasi, Lasse, Lari, Kodo, Ari
 
 __Aiheita__
 
 * Torstain palaverimuistiot on nyt maanantaisten yläpuolella, jotta ovat kronologisessa järjestyksessä (uusin ylimmäisenä, niinkuin sivun alussa luvataan)
 
 * Rovaniemelle käyttöön Finvoice (viesti support-lootassa)
+  * Pia selvittelee, onko kyseessä perintä vai laskutus ja on sitten yhteydessä Emmiin.
+  * Emmi vastaa Sarastialle, että selvittelemme asiaa. 
 
 * nextien tilanne
+  * Vaaran redusointi tehty, pitää tarkistaa lopputulos, kunhan vaara-next saadaan palvelu päälle.
+  * Pasi tekee vielä kunnollisen skriptin, jonka jälkeen voidaan muita alkaa rakentamaan. To
 
 * action_logs kk-siivousajojen käyttöönotto
+  * keskustellaan vielä pääkäyttäjien kanssa aloitusajankohdasta
 
 * Finnaan tulee aineistotyyppi "Äänikirja" ja Daisy-äänikirjoille oma kuvake. [Viimeisin versiotiedote](https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/321). Pitäisikö lisätä jossain vaiheessa myös Kohaan aineistotyyppeihin?
   * [Github RecordManager-Finna](https://github.com/NatLibFi/RecordManager-Finna/commit/f6c3c1d5fc4c7a2e48ef02fdd9c8a4ff9720c5bc)
+  * Päätös: lisätään Äänikirja ja Daisy-äänikirja myös Kohaan.
+  * Tehdään tiketti ja toteutetaan versiopäivityksen jälkeen.
 
 * totalissues-arvot tiketit [KohaSuomi/Koha #196](https://github.com/KohaSuomi/Koha/issues/196) ja [Redmine #1849](https://tiketti.koha-suomi.fi/issues/1849)
   * [Vkolla 44/22 keskusteltu aiheesta näin](https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Torstain-palaveri-8): Ratkaisu: katkaistaan kuvailupohjien ja biblioitems.totalissues -linkki ja tehdään erillinen cron laskemaan lainamäärät suoraan biblioitems-tauluun
+  * Päätös: ohjeistetaan pääkäyttäjiä katkaisemaan jo nyt linkitys biblioitems-tauluun ja tehdään uusi tiketti cronista, joka toteutetaan versionpäivityksen jälkeen. Otetaan myös pois päältä update_totalissues-cron.
 
 * kaksivaiheinen tunnistautuminen
   * toimii hienosti OTP:tä tukevilla mobiiliaplareilla (testattu LastPass authenticator ja FreeOTP)
@@ -42,7 +50,8 @@ __Aiheita__
     * viesti menee Kohan viestijonoon, mutta lähtee heti eikä vasta Kohan muiden viestien lähetyksen yhteydessä, vähän turha siellä jonossa kyllä, ne voisi siivoilla pois
     * ei voida käyttää yksinään, kaksivaiheisen tunnistautumisen käyttöönotto vaatii OTP-laitteen (puhelin tai token)
  
-* päivystysnumeron käännöt 
+* päivystysnumeron käännöt
+  *  Ari ottaa perjantaisin käännöt pois ja laittaa seuraavalle päivystäjälle maanantai-aamuna
 
 * translations repoa ei sittenkään kiinni, vaan hoidetaan käännökset siellä, sen sijaan translations-branch hävitetään
 
