@@ -19,7 +19,7 @@ Toisena isompana kokonaisuutena oli viestintäasiat. Liitteenä on selvitys viim
 
 Tuttuun tapaan listalla olivat talouden seuranta ja toimitusjohtajan raportti. Kummankaan suhteen ei ole mitään erityistä sanottavaa. Johtajien varmasti kiinnostaa, että Ari kertoi kuntiin lähteneen loputkin palvelumaksulaskut.
 
-Muistattehan, että kaikki ryhmien muistiot löytyvät nettisivuiltamme: https://koha-suomi.fi/muistiot
+Muistattehan, että kaikki ryhmien muistiot löytyvät nettisivuiltamme: [https://koha-suomi.fi/muistiot](https://koha-suomi.fi/muistiot)
 
 Leppoisaa viikonloppua!
 
