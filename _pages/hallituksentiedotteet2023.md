@@ -11,6 +11,28 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 2/2023
+
+Kokouksessa käytiin läpi asiantuntijaryhmän tämän vuoden suunnitelma, liitteenä, siitä käytiin keskustelua ja kiiteltiin kovasti valmistelua ja suunnitelmia tälle vuodelle.
+
+Toisena isompana kokonaisuutena oli viestintäasiat. Liitteenä on selvitys viime vuoden viestinnän toteutumisesta ja tämän vuoden suunnitelma. Verkkosivujen uudistus on meneillään ja lisää yhtiön toiminnan avoimuutta sekä parantaa aineistojen löytymistä. Iso asia on myös ensi kesän KohaConin ohjelmasuunnitteluun osallistuminen. Lisäksi päätimme toteuttaa viestintäkyselyn syksyn alkuun, niin saadaan osviittaa, mihin suuntaan viestintää on hyvä viedä ja miltä tekeillä olevat muutokset vaikuttavat.
+
+Tuttuun tapaan listalla olivat talouden seuranta ja toimitusjohtajan raportti. Kummankaan suhteen ei ole mitään erityistä sanottavaa. Johtajien varmasti kiinnostaa, että Ari kertoi kuntiin lähteneen loputkin palvelumaksulaskut.
+
+Muistattehan, että kaikki ryhmien muistiot löytyvät nettisivuiltamme: https://koha-suomi.fi/muistiot
+
+Leppoisaa viikonloppua!
+
+t. Rebekka Pilppula, Koha-Suomen hallituksen pj.
+
+Liitteet: 
+
+[Asiantuntijaryhmän vuosisuunnitelma 2023](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Asiantuntijaryhman_vuosisuunnitelma2023.pdf)<br />
+[Toimitusjohtajan raportti 2/23](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Toimitusjohtajanraportti2_2023.pdf)<br />
+[Viestintäsuunnitelman 2022 toteuma](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Viestintasuunnitelman2022toteuma.pdf)<br />
+[Viestintäsuunnitelma 2023](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Viestintasuunnitelma2023.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 1/2023
 
 Hei kaikille!
