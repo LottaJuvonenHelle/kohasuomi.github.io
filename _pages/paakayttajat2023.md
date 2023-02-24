@@ -16,7 +16,7 @@ Aika: 28.2.2023 klo 9.15 <br />
 Läsnä:
 
 **Yhteiset**
-* [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin.
+* [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin ja esittelyvideo [Crontabista](https://www.youtube.com/watch?v=otIk2KIWPxM) Youtubessa.
 * [Maksut sähköpostikuittiin](https://tiketti.koha-suomi.fi/issues/4245)
 
 
