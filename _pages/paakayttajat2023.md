@@ -25,7 +25,7 @@ Läsnä:
 ## Viikko 8 muistio
 
 Aika: 21.2.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Susanna Sandell (Vaski)
 
 **Yhteiset**
 * Asiantuntijatyöryhmän kokouksesta
@@ -63,6 +63,9 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo 
 **Helle**
 * Porvoon tunneloidulla palautusautomaatilla oli pakollinen käyttökatko 8.-15.2.2023. Automaatti kuormitti palomuuria muodostamalla jatkuvasti uusia (satoja) yhteyksiä. Tunnelointi rakennettu uudestaan. Tähän osallistuivat: palvelinsalin operaattori, Porvoon IT, Telia.
 
+**Vaski*
+* Pohdittiin viestipohjien testausta next-ympäristössä. Testaus todettiin tarpeelliseksi.
+* Varausjono-raportin testaustuloksia kaivattiin.
 
 ## Viikko 7 muistio
 
