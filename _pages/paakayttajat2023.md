@@ -63,7 +63,7 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo 
 **Helle**
 * Porvoon tunneloidulla palautusautomaatilla oli pakollinen käyttökatko 8.-15.2.2023. Automaatti kuormitti palomuuria muodostamalla jatkuvasti uusia (satoja) yhteyksiä. Tunnelointi rakennettu uudestaan. Tähän osallistuivat: palvelinsalin operaattori, Porvoon IT, Telia.
 
-**Vaski*
+**Vaski**
 * Pohdittiin viestipohjien testausta next-ympäristössä. Testaus todettiin tarpeelliseksi.
 * Varausjono-raportin testaustuloksia kaivattiin.
 
