@@ -39,7 +39,7 @@ Lisäksi huomioitiin, että Kansalliskirjasto näyttäisi korjaavan vain kirja-a
 <ul>
   <li>Testi-TäTissä on ollut erilaisia valikkoja testattavana. Antti Heikkinen lähettää käyttöön otettavien valikkojen listauksen Päivi Knuutiselle TäTiin käyttöönotettavaksi.</li>
   <li>Joissakin valikoissa mukana vielä Metatietosanastosta otettuja ISBD-termejä. Kumean vuoden 2023 toimintasuunnitelmassa Metatietosanaston ISBD-termeistä:</li>
- <ul><li>i.	Metatietosanaston termien tarkastaminen: ISBD-termien poistaminen ja uuden RDA:n termien lisääminen <a href="https://www.kiwi.fi/display/kumea/Kumean+toimintakertomus+2022+ja+toimintasuunnitelma+2023">link</a> </li></ul>
+ <ul><li>i.	Metatietosanaston termien tarkastaminen: ISBD-termien poistaminen ja uuden RDA:n termien lisääminen <a href="https://www.kiwi.fi/display/kumea/Kumean+toimintakertomus+2022+ja+toimintasuunnitelma+2023" target="_blank"/a> </li></ul>
   
  Koska tämä on Kumeassa työn alla, jätetään odottamaan työn tulosta.</ul>
   
@@ -71,17 +71,17 @@ Keskusteltiin vertaistukiryhmän tarpeellisuudesta ja osa kimpoista ilmoitti, et
 #### 8.	Uusia ja Redminesta siirrettyjä tikettejä: ####
 
 <ul>
-  <li>Osakohteellisten tietueiden yhdistely ei poista osakohteita: https://github.com/KohaSuomi/Koha/issues/429 </li>
-  <li>Helle: listaus tietueiden toimimattomista 856u-kentän linkeistä: https://github.com/KohaSuomi/Koha/issues/417 </li>
-  <li>YSA-YSO-konversio kaikille kimpoille: https://github.com/KohaSuomi/Koha/issues/390 </li>
-  <li>Finto-liitännäinen Metatietosanastosta: https://github.com/KohaSuomi/Koha/issues/373 </li>
-  <li>TäTi: Z39.50-poiminta pudottaa 020-kentästä ISBN:n väliviivat: https://github.com/KohaSuomi/Koha/issues/352 </li>
-  <li>Perustiedot-näytön puutteet: https://github.com/KohaSuomi/Koha/issues/350 </li>
-  <li>Emottomien osakohteiden poisto ajona: https://github.com/KohaSuomi/Koha/issues/348 </li>
-  <li>Työkalut, MARC-muokkauksen pohjat: kentän indikaattorien käsittelymahdollisuus: https://github.com/KohaSuomi/Koha/issues/335 </li>
-  <li>Z39.50-tietueyhdistelyssä suojatut kentät eivät ole muokattavissa/poistettavissa. Lisäksi suojatun kentän muokkaus tallentuu uutena kenttätoistumana ja muokattu kenttä säilyy tietueella: https://github.com/KohaSuomi/Koha/issues/333 </li>
-  <li>Tietueelta putoaa 942c-kenttä z39.50-haulla tietueita yhdisteltäessä: https://github.com/KohaSuomi/Koha/issues/332 </li>
-  <li>Helle: tietueelle massamuokkauksessa lisätty uusi kenttä ei näy kaikilla Koha-näytöillä/toiminnoilla oikealla paikalla. Koskee sekä jo tietueella olemassa olevan kentän uuden kenttätoistuman lisäystä että tietueelle lisättyä täysin uutta kenttää. https://github.com/KohaSuomi/Koha/issues/312 </li>
+  <li>Osakohteellisten tietueiden yhdistely ei poista osakohteita: <a href="https://github.com/KohaSuomi/Koha/issues/429" target="_blank"/a> </li>
+  <li>Helle: listaus tietueiden toimimattomista 856u-kentän linkeistä: <a href="https://github.com/KohaSuomi/Koha/issues/417" target="_blank"/a> </li>
+  <li>YSA-YSO-konversio kaikille kimpoille: <a href="https://github.com/KohaSuomi/Koha/issues/390" target="_blank"/a> </li>
+  <li>Finto-liitännäinen Metatietosanastosta: <a href="https://github.com/KohaSuomi/Koha/issues/373" target="_blank"/a> </li>
+  <li>TäTi: Z39.50-poiminta pudottaa 020-kentästä ISBN:n väliviivat: <a href="https://github.com/KohaSuomi/Koha/issues/352" target="_blank"/a> </li>
+  <li>Perustiedot-näytön puutteet: <a href="https://github.com/KohaSuomi/Koha/issues/350" target="_blank"/a> </li>
+  <li>Emottomien osakohteiden poisto ajona: <a href="https://github.com/KohaSuomi/Koha/issues/348" target="_blank"/a> </li>
+  <li>Työkalut, MARC-muokkauksen pohjat: kentän indikaattorien käsittelymahdollisuus: <a href="https://github.com/KohaSuomi/Koha/issues/335" target="_blank"/a> </li>
+  <li>Z39.50-tietueyhdistelyssä suojatut kentät eivät ole muokattavissa/poistettavissa. Lisäksi suojatun kentän muokkaus tallentuu uutena kenttätoistumana ja muokattu kenttä säilyy tietueella: <a href="https://github.com/KohaSuomi/Koha/issues/333" target="_blank"/a> </li>
+  <li>Tietueelta putoaa 942c-kenttä z39.50-haulla tietueita yhdisteltäessä: <a href="https://github.com/KohaSuomi/Koha/issues/332" target="_blank"/a> </li>
+  <li>Helle: tietueelle massamuokkauksessa lisätty uusi kenttä ei näy kaikilla Koha-näytöillä/toiminnoilla oikealla paikalla. Koskee sekä jo tietueella olemassa olevan kentän uuden kenttätoistuman lisäystä että tietueelle lisättyä täysin uutta kenttää. <a href="https://github.com/KohaSuomi/Koha/issues/312" target="_blank"/a> </li>
   <li>Kannattaa ottaa omaan seurantaan kiinnostavat tiketit. </li>
   </ul>
 
