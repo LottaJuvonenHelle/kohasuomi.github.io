@@ -39,7 +39,7 @@ Lisäksi huomioitiin, että Kansalliskirjasto näyttäisi korjaavan vain kirja-a
 <ul>
   <li>Testi-TäTissä on ollut erilaisia valikkoja testattavana. Antti Heikkinen lähettää käyttöön otettavien valikkojen listauksen Päivi Knuutiselle TäTiin käyttöönotettavaksi.</li>
   <li>Joissakin valikoissa mukana vielä Metatietosanastosta otettuja ISBD-termejä. Kumean vuoden 2023 toimintasuunnitelmassa Metatietosanaston ISBD-termeistä:</li>
- <ul><li>i.	Metatietosanaston termien tarkastaminen: ISBD-termien poistaminen ja uuden RDA:n termien lisääminen https://www.kiwi.fi/display/kumea/Kumean+toimintakertomus+2022+ja+toimintasuunnitelma+2023 </li></ul>
+ <ul><li>i.	Metatietosanaston termien tarkastaminen: ISBD-termien poistaminen ja uuden RDA:n termien lisääminen <https://www.kiwi.fi/display/kumea/Kumean+toimintakertomus+2022+ja+toimintasuunnitelma+2023> </li></ul>
   
  Koska tämä on Kumeassa työn alla, jätetään odottamaan työn tulosta.</ul>
   
@@ -71,7 +71,7 @@ Keskusteltiin vertaistukiryhmän tarpeellisuudesta ja osa kimpoista ilmoitti, et
 #### 8.	Uusia ja Redminesta siirrettyjä tikettejä: ####
 
 <ul>
-  <li>Osakohteellisten tietueiden yhdistely ei poista osakohteita: https://github.com/KohaSuomi/Koha/issues/429 </li>
+  <li>Osakohteellisten tietueiden yhdistely ei poista osakohteita: <https://github.com/KohaSuomi/Koha/issues/429> </li>
   <li>Helle: listaus tietueiden toimimattomista 856u-kentän linkeistä: https://github.com/KohaSuomi/Koha/issues/417 </li>
   <li>YSA-YSO-konversio kaikille kimpoille: https://github.com/KohaSuomi/Koha/issues/390 </li>
   <li>Finto-liitännäinen Metatietosanastosta: https://github.com/KohaSuomi/Koha/issues/373 </li>
