@@ -25,7 +25,7 @@ Läsnä:
 ## Viikko 8 muistio
 
 Aika: 21.2.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Susanna Sandell (Vaski)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Susanna Sandell (Vaski)
 
 **Yhteiset**
 * Asiantuntijatyöryhmän kokouksesta
@@ -254,7 +254,7 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 ## Viikko 3 muistio
 
 Aika: 17.1.2023 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Pia Kusmin ja Leena Kinnunen (Lappi), Heli Auranen, Katja Valjakka (Lumme), Mikko Liimatainen (Vaski)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Emmi Takkinen, Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Pia Kusmin ja Leena Kinnunen (Lappi), Heli Auranen, Katja Valjakka (Lumme), Mikko Liimatainen (Vaski), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset**
 * Kohan ohje suomeksi -muotoilujen yhtenäistäminen?
