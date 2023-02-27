@@ -72,16 +72,16 @@ Keskusteltiin vertaistukiryhmän tarpeellisuudesta ja osa kimpoista ilmoitti, et
 
 <ul>
   <li>Osakohteellisten tietueiden yhdistely ei poista osakohteita: <https://github.com/KohaSuomi/Koha/issues/429> </li>
-  <li>Helle: listaus tietueiden toimimattomista 856u-kentän linkeistä: https://github.com/KohaSuomi/Koha/issues/417 </li>
-  <li>YSA-YSO-konversio kaikille kimpoille: https://github.com/KohaSuomi/Koha/issues/390 </li>
-  <li>Finto-liitännäinen Metatietosanastosta: https://github.com/KohaSuomi/Koha/issues/373 </li>
-  <li>TäTi: Z39.50-poiminta pudottaa 020-kentästä ISBN:n väliviivat: https://github.com/KohaSuomi/Koha/issues/352 </li>
-  <li>Perustiedot-näytön puutteet: https://github.com/KohaSuomi/Koha/issues/350 </li>
-  <li>Emottomien osakohteiden poisto ajona: https://github.com/KohaSuomi/Koha/issues/348 </li>
-  <li>Työkalut, MARC-muokkauksen pohjat: kentän indikaattorien käsittelymahdollisuus: https://github.com/KohaSuomi/Koha/issues/335 </li>
-  <li>Z39.50-tietueyhdistelyssä suojatut kentät eivät ole muokattavissa/poistettavissa. Lisäksi suojatun kentän muokkaus tallentuu uutena kenttätoistumana ja muokattu kenttä säilyy tietueella: https://github.com/KohaSuomi/Koha/issues/333 </li>
-  <li>Tietueelta putoaa 942c-kenttä z39.50-haulla tietueita yhdisteltäessä: https://github.com/KohaSuomi/Koha/issues/332 </li>
-  <li>Helle: tietueelle massamuokkauksessa lisätty uusi kenttä ei näy kaikilla Koha-näytöillä/toiminnoilla oikealla paikalla. Koskee sekä jo tietueella olemassa olevan kentän uuden kenttätoistuman lisäystä että tietueelle lisättyä täysin uutta kenttää. https://github.com/KohaSuomi/Koha/issues/312 </li>
+  <li>Helle: listaus tietueiden toimimattomista 856u-kentän linkeistä: <https://github.com/KohaSuomi/Koha/issues/417> </li>
+  <li>YSA-YSO-konversio kaikille kimpoille: <https://github.com/KohaSuomi/Koha/issues/390> </li>
+  <li>Finto-liitännäinen Metatietosanastosta: <https://github.com/KohaSuomi/Koha/issues/373> </li>
+  <li>TäTi: Z39.50-poiminta pudottaa 020-kentästä ISBN:n väliviivat: <https://github.com/KohaSuomi/Koha/issues/352> </li>
+  <li>Perustiedot-näytön puutteet: <https://github.com/KohaSuomi/Koha/issues/350> </li>
+  <li>Emottomien osakohteiden poisto ajona: <https://github.com/KohaSuomi/Koha/issues/348> </li>
+  <li>Työkalut, MARC-muokkauksen pohjat: kentän indikaattorien käsittelymahdollisuus: <https://github.com/KohaSuomi/Koha/issues/335> </li>
+  <li>Z39.50-tietueyhdistelyssä suojatut kentät eivät ole muokattavissa/poistettavissa. Lisäksi suojatun kentän muokkaus tallentuu uutena kenttätoistumana ja muokattu kenttä säilyy tietueella: <https://github.com/KohaSuomi/Koha/issues/333> </li>
+  <li>Tietueelta putoaa 942c-kenttä z39.50-haulla tietueita yhdisteltäessä: <https://github.com/KohaSuomi/Koha/issues/332>  </li>
+  <li>Helle: tietueelle massamuokkauksessa lisätty uusi kenttä ei näy kaikilla Koha-näytöillä/toiminnoilla oikealla paikalla. Koskee sekä jo tietueella olemassa olevan kentän uuden kenttätoistuman lisäystä että tietueelle lisättyä täysin uutta kenttää. <https://github.com/KohaSuomi/Koha/issues/312 </li>
   <li>Kannattaa ottaa omaan seurantaan kiinnostavat tiketit. </li>
   </ul>
 
