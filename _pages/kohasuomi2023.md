@@ -13,6 +13,22 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 9 muistiot
+
+### Maanantain 27.2.2023 klo 10 palaveri
+
+Läsnä:
+
+__Aiheita__
+
+* Kesälomat
+
+* Päivystykset viikosta 10 eteenpäin
+
+* Viikon 9 päivitys
+
+* Nextien tilanne
+
 ## Viikon 8 muistiot
 
 ### Torstain 23.2.2023 klo 10 palaveri
