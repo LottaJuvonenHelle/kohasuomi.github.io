@@ -17,17 +17,29 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantain 27.2.2023 klo 10 palaveri
 
-Läsnä:
+Läsnä: Anneli, Lasse, Pasi, Emmi, Lari, Ari, Kodo
 
 __Aiheita__
 
 * Kesälomat
+  * kalenteriin ehdotukset lomajaksoista
+  * Ari tarkistaa, kuinka paljon kullakin on lomapäiviä
 
 * Päivystykset viikosta 10 eteenpäin
+  * Lisätty kalenteriin
 
 * Viikon 9 päivitys
+  * ei päivitettävää
 
 * Nextien tilanne
+  * outin redusointi ma-iltana
+  * muut saattaa mennä yhdessä illassa
+
+* lokitus / Kodo & Lari
+
+* skeeman rakentelu / Emmi
+
+* Finna-rajapinta ja asiakasmääre
 
 ## Viikon 8 muistiot
 
