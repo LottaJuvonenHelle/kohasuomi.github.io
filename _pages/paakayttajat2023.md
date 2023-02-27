@@ -19,7 +19,7 @@ Läsnä:
 * [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin ja esittelyvideo [Crontabista](https://www.youtube.com/watch?v=otIk2KIWPxM) Youtubessa.
 * [Maksut sähköpostikuittiin](https://tiketti.koha-suomi.fi/issues/4245)
 * Tiketti [KohaSuomi/Koha #204](https://github.com/KohaSuomi/Koha/issues/204) - kaikilta pois oletusviestiasetukset?
-* Onhan kaikilla päällä pseudonymisointi? Sitä tarvitaan tilastointia varten. Järjestelmäasetus Pseudonymization.
+
 
 
 ## Viikko 8 muistio
