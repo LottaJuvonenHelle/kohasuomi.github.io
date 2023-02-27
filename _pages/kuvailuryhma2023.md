@@ -63,10 +63,10 @@ Keskusteltiin vertaistukiryhmän tarpeellisuudesta ja osa kimpoista ilmoitti, et
   <li>Kirjastopalvelun TäTi-tietueputki edistyy vähitellen, keväällä ehkä valmista </li>
   <li>Asterin uusi teos/ekspressiokanta (FIN13) -> ei saada ihan vielä käyttöön </li>
   <li>RDA- ja YSO-konversioita voisi alkaa työstämään versionvaihdon jälkeen </li>
-  <li>Kirkes-kirjastojen Melinda-koulutus? Aikaisintaan syksyllä, koulutusmateriaali päivitettävä.>li>
+  <li>Kirkes-kirjastojen Melinda-koulutus? Aikaisintaan syksyllä, koulutusmateriaali päivitettävä. </li>
   <li>Lisäksi työryhmän ulkopuolella on keskusteltu Melindan tämänhetkisestä tuplakontrollista, koska Celia-tietueet törmäävät taas useammin Melindassa oleviin e-äänikirjoihin. Rajapintapäivityksessä Melindan matcheri päivittyi ja muutos johtunee siitä. Tähän pyritään saamaan jonkinlaista parannusta Melindan päässä. </li>
   <li>Seuraava kokous 21.3.2023 </li>
-  </ul>
+</ul>
 
 #### 8.	Uusia ja Redminesta siirrettyjä tikettejä: ####
 
