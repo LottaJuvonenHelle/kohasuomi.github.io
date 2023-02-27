@@ -39,11 +39,11 @@ Lisäksi huomioitiin, että Kansalliskirjasto näyttäisi korjaavan vain kirja-a
 <ul>
   <li>Testi-TäTissä on ollut erilaisia valikkoja testattavana. Antti Heikkinen lähettää käyttöön otettavien valikkojen listauksen Päivi Knuutiselle TäTiin käyttöönotettavaksi.</li>
   <li>Joissakin valikoissa mukana vielä Metatietosanastosta otettuja ISBD-termejä. Kumean vuoden 2023 toimintasuunnitelmassa Metatietosanaston ISBD-termeistä:</li>
- <ul><li>i.	Metatietosanaston termien tarkastaminen: ISBD-termien poistaminen ja uuden RDA:n termien lisääminen https://www.kiwi.fi/display/kumea/Kumean+toimintakertomus+2022+ja+toimintasuunnitelma+2023</li></ul>
+ <ul><li>i.	Metatietosanaston termien tarkastaminen: ISBD-termien poistaminen ja uuden RDA:n termien lisääminen <https://www.kiwi.fi/display/kumea/Kumean+toimintakertomus+2022+ja+toimintasuunnitelma+2023> </li></ul>
   
  Koska tämä on Kumeassa työn alla, jätetään odottamaan työn tulosta.</ul>
   
-#### 4.	Uusi 020-kentän käytäntö: https://wiki.helsinki.fi/pages/viewpage.action?pageId=455738956 ####
+#### 4.	Uusi 020-kentän käytäntö: <https://wiki.helsinki.fi/pages/viewpage.action?pageId=455738956> ####
 <ul>
   <li>Eri kansityypit kotimaisessa ja ulkomaisessa aineistossa -> Aiheuttaako toimenpiteiden muutoksia TäTi/Melinda-kuvailussa?</li>
   
