@@ -97,7 +97,6 @@ Keskusteltiin vertaistukiryhmän tarpeellisuudesta ja osa kimpoista ilmoitti, et
 
 Puheenjohtaja päätti kokouksen klo 14.20.
 
-Muistion laati Päivi Knuutinen
 
 ---
 ## Kuvailuryhmän muistio 1/2023
