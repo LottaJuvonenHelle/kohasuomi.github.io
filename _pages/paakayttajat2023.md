@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9 muistio
 
 Aika: 28.2.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset**
 * [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin ja esittelyvideo [Crontabista](https://PPwww.youtube.com/watch?v=otIk2KIWPxM) Youtubessa.
@@ -27,6 +27,12 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli R
 * Pyydetty Finnatukea laittamaan päälle asetus, jonka mukaan asiakas voi peruuttaa kuljetettavana olevan varauksen Finnan kautta. Tiedotettu henkilökuntaa asiasta eikä ole tullut ihmettelyä.
 * Vaaran next-kannan testausta. Ulkoasu ei ole ihanteellinen huonoine kontrasteineen ja pienine fontteineen. Pitää testata zoomauksen kanssa, miten vaikuttaa näkymiin ja ryhtyä testaamaan myös tikettien mukaisia toimintoja.
 * Itsepalvelulainaus tarkoitus laittaa päälle huomenna Kiihtelysvaaran kirjastossa. Kirjautumisongelman syy on selvinnyt (siivousajo) ja se korjataan vasta versionvaihdon jälkeen, joten siihen saakka mennään nykyisellä "virityksellä".
+
+**OUTI*
+* Kuljetettavana olevan varauksen peruminen testi-Finnassa:
+  * Testeissä ei ongelmia.
+  * Kysytty muilta OUTI-kirjastoilta mielipidettä, ne ketkä ovat jo kommentoineet ovat todenneet hyväksi.
+* Muuten normaalia tukityötä.
 
 
 ## Viikko 8 muistio
