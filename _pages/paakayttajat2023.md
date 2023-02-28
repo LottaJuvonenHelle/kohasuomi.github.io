@@ -28,10 +28,10 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli R
 * Vaaran next-kannan testausta. Ulkoasu ei ole ihanteellinen huonoine kontrasteineen ja pienine fontteineen. Pitää testata zoomauksen kanssa, miten vaikuttaa näkymiin ja ryhtyä testaamaan myös tikettien mukaisia toimintoja.
 * Itsepalvelulainaus tarkoitus laittaa päälle huomenna Kiihtelysvaaran kirjastossa. Kirjautumisongelman syy on selvinnyt (siivousajo) ja se korjataan vasta versionvaihdon jälkeen, joten siihen saakka mennään nykyisellä "virityksellä".
 
-**OUTI*
+**OUTI**
 * Kuljetettavana olevan varauksen peruminen testi-Finnassa:
   * Testeissä ei ongelmia.
-  * Kysytty muilta OUTI-kirjastoilta mielipidettä, ne ketkä ovat jo kommentoineet ovat todenneet hyväksi.
+  * Kysytty muilta OUTI-kirjastoilta mielipidettä, ne ketkä ovat jo kommentoineet ovat todenneet hyväksi muutokseksi.
 * Muuten normaalia tukityötä.
 
 
