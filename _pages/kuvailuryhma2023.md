@@ -30,7 +30,7 @@ Puheenjohtaja Antti Heikkinen avasi kokouksen ja todettiin, että sihteerivuoros
 
 Päätettiin selvittää, mikä määrä on kirjatietueita, joissa 003-kentässä on FI-BTJ ja 040e-kentässä ei ole RDA-merkintää. Nämä voitaisiin poistaa TäTistä. Kun TäTiin korjataan toimijanimiä, ei riitä pelkästään 100a-kentän korjaaminen, vaan täytyy korjata myös 500a- ja 900a-kentät sekä muutkin mahdolliset tietueessa olevat virheet. 
 
-[Lisäys 23.2.]: Poistettavia tietueita (tekstiaineisto) on TäTissä 345 700 kpl.
+Lisäys 23.2.: Poistettavia tietueita (tekstiaineisto) on TäTissä 345 700 kpl.
 
 Lisäksi huomioitiin, että Kansalliskirjasto näyttäisi korjaavan vain kirja-aineiston toimijanimet eikä esim. nuottien. Marja kyselee tästä Kansalliskirjastosta.
   
