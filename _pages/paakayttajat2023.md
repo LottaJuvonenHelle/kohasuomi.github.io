@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9 muistio
 
 Aika: 28.2.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Anni Rajala (Vaski), Leena Kinnunen (Lappi)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin ja esittelyvideo [Crontabista](https://PPwww.youtube.com/watch?v=otIk2KIWPxM) Youtubessa.
@@ -45,7 +45,12 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli R
 
 **Lappi**
 * Rauhallista.
-* Tänään Kysy Kohasta -webinaari Lapille: ohjeita, vastauksia ongelmiin ja ärsyttäviin ominaisuuksiin, vinkkejä, teasereita. 
+* Tänään Kysy Kohasta -webinaari Lapille: ohjeita, vastauksia ongelmiin ja ärsyttäviin ominaisuuksiin, vinkkejä, teasereita.
+
+**Siilinjärvi**
+* Vaihdettu tänään sähköpostiviestien lähettäjäksi noreply@koha-suomi.fi
+* Oletusviestiasetusten poisto ei aiheuta meillä ongelmia, tekstiviestitäpät poistettu ja tiedotettu henkilökuntaa, sähköpostitäppiä ei ollutkaan.
+* Kuljetustilan poisto Finnassa kiinnostaa myös meitä, työn alle.
 
 
 ## Viikko 8 muistio
