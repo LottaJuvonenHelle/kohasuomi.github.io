@@ -47,6 +47,7 @@ log4perl.logger.z3950 = ERROR, Z3950
 facility local6-local7 varataan mahdollisesti cronjobien ym "kohan ulkopuolisten" juttujen lokitusta varten
 ```
 
+* Lokit olisivat siis api, ui, sip ja misc, sekä niiden -error vastineet, joihin lokitetaan virheet ja sitä korkeamman tason lokirivit (warn, error, critical ja fatal), sekä tarvittaessa debug-vastineet, joihin lokitetaan varoitukset ja debug-jutut.
 * Kohan crojobien lokitus voidaan joko pitää entisellään (skriptittäinen lokitus skriptin nimen mukaan /var/log/koha/cronjobs) tai muuttaa cronjob-triggeri käyttämään syslogin cron- tai local6 facilityä ja ohjata lokitus syslogin puolella oikeaan paikkaan.
 * Debug-lokit voisi ottaa käyttöön testiympäristöissä.
 
