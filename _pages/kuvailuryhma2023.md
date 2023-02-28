@@ -91,7 +91,7 @@ Keskusteltiin vertaistukiryhmän tarpeellisuudesta ja osa kimpoista ilmoitti, et
   <li>Valutuksesta: Jos siirtoraportin keskeytyneet-välilehdellä lukee tietueiden kohdalla ”Internal server error”, niin tämä saattaa usein viitata siihen, että tietokannassa on tuplatietue jostakin nimekkeestä, jolloin osakohteet ovat törmänneet toisiinsa. </li>
   <li>Finnaan on tullut uusi aineistotyyppi äänikirjoja varten, tuotantoon 3.3. alkaen. Myös Daisy-äänikirjoille on oma ikoninsa. Kohan kehittäjien asialistalla tarvittavia toimenpiteitä varten 23.2.2023. 
     
-[Lisäys 24.2.] Kehittäjien muistio 23.2.:  Toteutetaan Kohassa versiopäivityksen jälkeen.</li>
+[Lisäys 24.2.] <a href="https://koha-suomi.fi/kohasuomi2023#torstain-2322023-klo-10-palaveri" target="_blank">Kehittäjien muistio 23.2.</a>: Toteutetaan Kohassa versiopäivityksen jälkeen.</li>
  </ul>
   
 #### 10.	Seuraava kokous 22.3.2023 klo 13.15- #### 
