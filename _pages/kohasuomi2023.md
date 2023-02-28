@@ -38,6 +38,8 @@ __Aiheita__
 * lokitus / Kodo & Lari
 
 * skeeman rakentelu / Emmi
+  * testattu onnistuuko skeeman rakennus nopeammin, jos tiedostot kirjoitetaan ensin /dev/shm:n alle
+  * kirjoittaminen oli jopa hieman hitaampaa kuin suoraan Koha-hakemiston alle, joten tällä ratkaisulla ei valitettavasti pystytä nopeuttamaan skeeman rakennusta
 
 * Finna-rajapinta ja asiakasmääre
 
