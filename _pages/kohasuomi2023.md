@@ -15,7 +15,41 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 9 muistiot
 
-### Maanantain 27.2.2023 klo 10 palaveri
+### Torstai 2.3. klo 10
+
+Läsnä:
+
+__Aiheita__
+
+Lokituksen siirtäminen syslogille, facilityt:
+
+```
+facility local0 (API), =>error (api-error.log), info (api.log) ja jos tarvitaan warn+debug (api-debug.log)
+log4perl.logger.api = ERROR, API
+log4perl.logger.plack-api = ERROR, PLACKAPI
+
+facility local1 (UI), =>error (ui-error.log), info (ui.log) ja jos tarvitaan warn+debug (ui-debug.log)
+log4perl.logger.intranet = ERROR, INTRANET
+log4perl.logger.plack-intranet = ERROR, PLACKINTRANET
+log4perl.logger.plack-opac = ERROR, PLACKOPAC
+log4perl.logger.opac = ERROR, OPAC
+
+facility local2 (SIP), =>error (sip-error.log), info (sip.log) ja jos tarvitaan warn+debug (sip-debug.log)
+log4perl.logger.sip = WARN, SIP
+log4perl.logger.sipohttp = INFO, SIPoHTTP
+
+facility local3-local4 varataan tulevaisuuden käyttöä varten
+
+facility local5 (muut), =>error (misc-error.log), info (misc.log) ja jos tarvitaan warn+debug (misc-debug.log)
+log4perl.logger.ceepos = INFO, CEEPOS
+log4perl.logger.z3950 = ERROR, Z3950
+
+facility local6-local7 varataan mahdollisesti cronjobien ym "kohan ulkopuolisten" juttujen lokitusta varten
+```
+
+Kohan crojobien lokitus voidaan joko pitää entisellään (skriptittäinen lokitus skriptin nimen mukaan /var/log/koha/cronjobs) tai muuttaa cronjob-triggeri käyttämään syslogin cron- tai local6 facilityä ja ohjata lokitus syslogin puolella oikeaan paikkaan.
+
+### Maanantai 27.2.2023 klo 10
 
 Läsnä: Anneli, Lasse, Pasi, Emmi, Lari, Ari, Kodo
 
@@ -45,7 +79,7 @@ __Aiheita__
 
 ## Viikon 8 muistiot
 
-### Torstain 23.2.2023 klo 10 palaveri
+### Torstai 23.2.2023 klo 10
 
 Läsnä: Pia Kusmin Finvoice-kohdassa, Anneli, Emmi, Pasi, Lasse, Lari, Kodo, Ari
 
@@ -88,7 +122,7 @@ __Aiheita__
 * Versionvaihdon tikettien vastuutuksen jatkaminen
   * kaikille sms-plugareille on käyttöä
 
-### Maanantain 20.2.2023 klo 12 palaveri
+### Maanantai 20.2.2023 klo 12
 
 Läsnä: Anneli, Lari, Lasse, Emmi, Pasi, Kodo
 
@@ -107,7 +141,7 @@ __Aiheita__
 
 ## Viikon 7 muistiot
 
-### Torstain 16.2.2023 klo 10 palaveri
+### Torstai 16.2.2023 klo 10
 
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
@@ -137,7 +171,7 @@ __Aiheita__
 * plugarit
   * Lari tekee tiketit k22xx-repoon kaikista plugareista.
 
-### Maanantain 13.2.2023 klo 10 palaveri
+### Maanantai 13.2.2023 klo 10
 
 Läsnä: Anneli, Pasi, Lasse, Emmi, Lari, Kodo
 
@@ -157,7 +191,7 @@ __Aiheita__
 
 ## Viikon 6 muistiot
 
-### Torstain 9.2.2023 klo 10 palaveri
+### Torstai 9.2.2023 klo 10
 
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
@@ -179,7 +213,7 @@ __Aiheita__
 * Lari: action_logsit korjattu, mutta ajo on skipannut virheen jälkeiset päivät, eikä ne tullut mukaan takaisin.
   * Korjaus: viedään taulun loppuun, vaikka id:t menee sekaisin.
 
-### Maanantain 6.2.2023 klo 10 palaveri
+### Maanantai 6.2.2023 klo 10
 
 Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
@@ -218,7 +252,7 @@ __Aiheita__
 
 ## Viikon 5 muistiot
 
-### Torstain 2.2.2023 palaveri
+### Torstai 2.2.2023
 
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
@@ -239,7 +273,7 @@ __Aiheita__
 
 * Versionvaihdossa branchien nimet pidetään samoina kuin aiemmin.
 
-### Maanantain 30.1.2023 palaveri
+### Maanantai 30.1.2023
 
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
@@ -263,7 +297,7 @@ __Aiheita__
 
 ## Viikon 4 muistio
 
-### Torstain 26.1.2023 klo 10 palaveri
+### Torstai 26.1.2023 klo 10
 
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
@@ -296,7 +330,7 @@ __Aiheita__
   * tiedonhaku ei vielä toimi vaski-nextillä
   * datan redusointi muita kuin vaski-nextiä varten työn alla
 
-### Maanantain 23.1.2023 klo 12 palaveri
+### Maanantai 23.1.2023 klo 12
 
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lassi, Pasi
 
@@ -313,7 +347,7 @@ __Aiheita__
 
 ## Viikon 3 muistiot
 
-### Torstain 19.1.2023 klo 12 palaveri
+### Torstai 19.1.2023 klo 12
 
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
@@ -362,7 +396,7 @@ __Aiheita__
 
 * Viikon 4 päivitys
 
-### Maanantain 16.1.2023 klo 12 palaveri
+### Maanantai 16.1.2023 klo 12
 
 Läsnä: Emmi, Pasi, Lari, Lasse, Anneli, Kodo
 
@@ -393,7 +427,7 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
 
 ## Viikon 2 muistiot
 
-### Torstain 12.1.2023 klo 10 palaveri
+### Torstai 12.1.2023 klo 10
 
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lassi, Pasi
 
@@ -418,7 +452,7 @@ __Aiheita__
 
 * keskiviikkona ei saatu vaihdettua palomuurien muistikampoja, koska ne oli vielä Kuopiossa postin hallussa. Nämä vaihdetaan helmikuun käyttökatkossa. 
 
-### Maanantain 9.1.2023 klo 10 palaveri
+### Maanantai 9.1.2023 klo 10
 
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
@@ -452,7 +486,7 @@ __Aiheita__
 
 ## Viikon 1 muistiot
 
-### Torstain 5.1.2023 klo 10 palaveri
+### Torstai 5.1.2023 klo 10
 
 Läsnä: Pasi, Lari, Kodo, Lasse
 
@@ -474,7 +508,7 @@ __Aiheita__
  
 * datereceived-kenttä löytyy muualtakin kuin vain aqorders-taulusta? Tämä on meidän oma muutos, ja on jäänyt roikkumaan; poistetaan.
 
-### Maanantain 2.1.2023 klo 10 palaveri
+### Maanantai 2.1.2023 klo 10
 
 Läsnä: Anneli, Lasse, Pasi, Ari, Lari, Kodo
 
