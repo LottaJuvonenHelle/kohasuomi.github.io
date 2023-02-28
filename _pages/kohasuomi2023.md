@@ -51,6 +51,12 @@ facility local6-local7 varataan mahdollisesti cronjobien ym "kohan ulkopuolisten
 * Kohan crojobien lokitus voidaan joko pitää entisellään (skriptittäinen lokitus skriptin nimen mukaan /var/log/koha/cronjobs) tai muuttaa cronjob-triggeri käyttämään syslogin cron- tai local6 facilityä ja ohjata lokitus syslogin puolella oikeaan paikkaan.
 * Debug-lokit voisi ottaa käyttöön testiympäristöissä.
 
+* SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan. [Bywaterin esittelyvideo](https://bywatersolutions.com/education/monday-minutes-sharing-reports).
+  * Jaa sisältö Koha-yhteisölle Mana-tietämyskannan kautta
+  Mana-tietämyskanta on maailmanlaajuinen tietämyskanta kirjastokeskeiselle tiedolle. Se on suunniteltu alun perin Koha-järjestelmälle (the Open Source ILS), mutta sitä voidaan hyödyntää myös muissa järjestelmissä.
+  Mana keskittää tietoa Koha asennusten välillä ja helpottaa uusien kausijulkaisutilausten, toimittajien, raporttien jne. luontia. Voit etsiä, jakaa, tuoda ja kommentoida Manassa olevaa sisältöä. Mana-tietämyskannassa jaettu tieto on jaettu lisenssillä: CC-0 lisenssi.
+  Lue lisää Mana-tietämyskannasta virallinen [Mana-tietämyskannan dokumentaatio](https://wiki.koha-community.org/wiki/Mana_central_database).
+
 ### Maanantai 27.2.2023 klo 10
 
 Läsnä: Anneli, Lasse, Pasi, Emmi, Lari, Ari, Kodo
