@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9 muistio
 
 Aika: 28.2.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin ja esittelyvideo [Crontabista](https://PPwww.youtube.com/watch?v=otIk2KIWPxM) Youtubessa.
@@ -33,6 +33,12 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli R
   * Testeissä ei ongelmia.
   * Kysytty muilta OUTI-kirjastoilta mielipidettä, ne ketkä ovat jo kommentoineet ovat todenneet hyväksi muutokseksi.
 * Muuten normaalia tukityötä.
+
+**Helle**
+* Lasse lisännyt niteet Porvoon niteettömille artikkeli-tietueille https://github.com/KohaSuomi/Koha/issues/419
+* Emmi perunut tietueettomat tilaukset https://github.com/KohaSuomi/Koha/issues/452
+* Emmi poistanut vanhat, kevään 2022 epäonnistuneet EditX-sanomat https://github.com/KohaSuomi/Koha/issues/453
+* Lisätty maksut näkymään lainaus-sähköpostikuitille ja palautus-sähköpostikuitille Annelin ratkaisulla https://tiketti.koha-suomi.fi/issues/4245
 
 
 ## Viikko 8 muistio
