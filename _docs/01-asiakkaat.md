@@ -547,6 +547,8 @@ lainaamista, laita valinta _Kyllä_ päälle Tarkista osoite -kohdassa. Lainausn
 
 Asiakkaan tili lukitaan, jos hän yrittää kirjautua liian monta kertaa väärällä pin-koodilla. Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" ilmoitus _Tili on lukittu_.
 
+Lukitus poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Sen saa nollattua vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkkokirjastossa salasanan palautustoimintoa.
+
 ![](/assets/files/docs/Asiakkaat/tililukittu.png)
 
 ##### 1.5.10.1.4 Rajoite liiallisista kirjautumisyrityksistä
