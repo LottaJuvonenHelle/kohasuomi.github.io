@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 10 esityslista
+
+Aika: 7.3.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+* [Finna-liitännäisen Readme-osioon](https://github.com/KohaSuomi/koha-plugin-rest-di/blob/master/README.md#sysprefs) kerätty, mitä järjestelmäasetuksia Finna-liitännäinen hyödyntää.
+
 ## Viikko 9 muistio
 
 Aika: 28.2.2023 klo 9.15 <br />
@@ -19,6 +27,7 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli R
 * [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin ja esittelyvideo [Crontabista](https://PPwww.youtube.com/watch?v=otIk2KIWPxM) Youtubessa.
 * [Maksut sähköpostikuittiin](https://tiketti.koha-suomi.fi/issues/4245)
 * Tiketti [KohaSuomi/Koha #204](https://github.com/KohaSuomi/Koha/issues/204) - kaikilta pois oletusviestiasetukset?
+  * Sovittiin, että kaikki ottaa pois oletusviestiasetukset, koska jos käyttäjä unohtaa ottaa rastit pois, ei ne poistu tiketissä luodulla JS-rimpsulla ja tiketin alkuperäinen ongelma jatkuu.
 * Ei päivitettävää vkolla 9
 * Vkolla 10 säännöllinen huoltoikkuna
   * tulossa käyttöjärjestelmäpäivityksiä, mahdollisesti pieniä katkoja, jos palvelimet joudutaan käynnistämään uudelleen. 
