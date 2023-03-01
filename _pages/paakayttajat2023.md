@@ -21,7 +21,7 @@ Läsnä:
 ## Viikko 9 muistio
 
 Aika: 28.2.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi), Heli Auranen, Timo Pesonen (Lumme)
 
 **Yhteiset**
 * [Ajastetut ajot](https://koha-suomi.fi/dokumentaatio/ajastetutajot/) kuvattu ohjeisiin ja esittelyvideo [Crontabista](https://PPwww.youtube.com/watch?v=otIk2KIWPxM) Youtubessa.
@@ -61,11 +61,14 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli R
 * Oletusviestiasetusten poisto ei aiheuta meillä ongelmia, tekstiviestitäpät poistettu ja tiedotettu henkilökuntaa, sähköpostitäppiä ei ollutkaan.
 * Kuljetustilan poisto Finnassa kiinnostaa myös meitä, työn alle.
 
+**Lumme**
+* Oletusviestiasetuksista poistettu valmiit täpät
+
 
 ## Viikko 8 muistio
 
 Aika: 21.2.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Susanna Sandell (Vaski)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Susanna Sandell (Vaski), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme)
 
 **Yhteiset**
 * Asiantuntijatyöryhmän kokouksesta
