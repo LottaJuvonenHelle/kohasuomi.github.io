@@ -57,6 +57,9 @@ facility local6-local7 varataan mahdollisesti cronjobien ym "kohan ulkopuolisten
   Mana keskittää tietoa Koha asennusten välillä ja helpottaa uusien kausijulkaisutilausten, toimittajien, raporttien jne. luontia. Voit etsiä, jakaa, tuoda ja kommentoida Manassa olevaa sisältöä. Mana-tietämyskannassa jaettu tieto on jaettu lisenssillä: CC-0 lisenssi.
   Lue lisää Mana-tietämyskannasta virallinen [Mana-tietämyskannan dokumentaatio](https://wiki.koha-community.org/wiki/Mana_central_database).
 
+* nextien tilanne
+  * miten kirkes?
+ 
 ### Maanantai 27.2.2023 klo 10
 
 Läsnä: Anneli, Lasse, Pasi, Emmi, Lari, Ari, Kodo
