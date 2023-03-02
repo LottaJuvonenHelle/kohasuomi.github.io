@@ -17,12 +17,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 2.3. klo 10
 
-Läsnä:
+Läsnä: Ari, Anneli, Lasse, Pasi, Emmi, Lari, Kodo
 
 __Aiheita__
 
-Lokituksen siirtäminen syslogille, facilityt:
-
+* Lokituksen siirtäminen syslogille, facilityt:
 ```
 facility local0 (API), =>error (api-error.log), info (api.log) ja jos tarvitaan warn+debug (api-debug.log)
 log4perl.logger.api = ERROR, API
@@ -46,10 +45,9 @@ log4perl.logger.z3950 = ERROR, Z3950
 
 facility local6-local7 varataan mahdollisesti cronjobien ym "kohan ulkopuolisten" juttujen lokitusta varten
 ```
-
-* Lokit olisivat siis api, ui, sip ja misc, sekä niiden -error vastineet, joihin lokitetaan virheet ja sitä korkeamman tason lokirivit (warn, error, critical ja fatal), sekä tarvittaessa debug-vastineet, joihin lokitetaan varoitukset ja debug-jutut.
-* Kohan crojobien lokitus voidaan joko pitää entisellään (skriptittäinen lokitus skriptin nimen mukaan /var/log/koha/cronjobs) tai muuttaa cronjob-triggeri käyttämään syslogin cron- tai local6 facilityä ja ohjata lokitus syslogin puolella oikeaan paikkaan.
-* Debug-lokit voisi ottaa käyttöön testiympäristöissä.
+  * Lokit olisivat siis api, ui, sip ja misc, sekä niiden -error vastineet, joihin lokitetaan virheet ja sitä korkeamman tason lokirivit (warn, error, critical ja fatal), sekä tarvittaessa debug-vastineet, joihin lokitetaan varoitukset ja debug-jutut.
+  * Kohan crojobien lokitus voidaan joko pitää entisellään (skriptittäinen lokitus skriptin nimen mukaan /var/log/koha/cronjobs) tai muuttaa cronjob-triggeri käyttämään syslogin cron- tai local6 facilityä ja ohjata lokitus syslogin puolella oikeaan paikkaan.
+  * Debug-lokit voisi ottaa käyttöön testiympäristöissä.
 
 * SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan. [Bywaterin esittelyvideo](https://bywatersolutions.com/education/monday-minutes-sharing-reports).
   * Jaa sisältö Koha-yhteisölle Mana-tietämyskannan kautta
@@ -58,8 +56,13 @@ facility local6-local7 varataan mahdollisesti cronjobien ym "kohan ulkopuolisten
   Lue lisää Mana-tietämyskannasta virallinen [Mana-tietämyskannan dokumentaatio](https://wiki.koha-community.org/wiki/Mana_central_database).
 
 * nextien tilanne
-  * miten kirkes?
- 
+  * miten kirkes? Mahdollisimman aikaisessa vaiheessa. Toinen konversiokierros alkaa maaliskuun alussa. Siirtyminen nextiin sen jälkeen.
+  * Helle, Kyyti ja Lappi tehty. Kyytissä olemattomia brancheja, mikä aiheutti ongelmia. Lapissa itemseissa linkkejä olemattomiin biblioitemseihin.
+  * täti, siili ja lumme vielä
+
+* [#5508](https://tiketti.koha-suomi.fi/issues/5508) - yhteisön bugi ratkaistu
+
+
 ### Maanantai 27.2.2023 klo 10
 
 Läsnä: Anneli, Lasse, Pasi, Emmi, Lari, Ari, Kodo
