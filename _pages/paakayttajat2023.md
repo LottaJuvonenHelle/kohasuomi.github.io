@@ -20,6 +20,7 @@ Läsnä:
 * Kuvailupohjissa Hinta voimassa alkaen ja Hankintapvm ei-pakollisiksi.
   * Hinta voimassa alkaen (replacementpricedate) ei kannata olla pakollinen, koska silloin siihen on pakko kirjoittaa jotain ja siihen tulee myös arvoja 0000-00-00, joista [Finna ei tykkää](https://github.com/KohaSuomi/Koha/issues/280). Kenttä täyttyy automaattisesti tallennuspäivällä, kun kenttä ei ole pakollinen.
   * Hankintapvm (dateaccessioned) täyttyy myös automaattisesti, kun siihen on kuvailupohjassa liitetty dateaccessioned-pl-liitännäinen. Ei ole tarvettaa laittaa pakolliseksi kuten datereceived aikanaan.
+* Mitä tietoja tarvitsee siirtää nextiltä tuotantoon versonvaihdon aikaan. Edellisessä versionvaihdossa kerättiin [tällaista listaa](https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-21-muistio).
 
 ## Viikko 9 muistio
 
