@@ -17,6 +17,9 @@ Läsnä:
 
 **Yhteiset**
 * [Finna-liitännäisen Readme-osioon](https://github.com/KohaSuomi/koha-plugin-rest-di/blob/master/README.md#sysprefs) kerätty, mitä järjestelmäasetuksia Finna-liitännäinen hyödyntää.
+* Kuvailupohjissa Hinta voimassa alkaen ja Hankintapvm ei-pakollisiksi.
+  * Hinta voimassa alkaen (replacementpricedate) ei kannata olla pakollinen, koska silloin siihen on pakko kirjoittaa jotain ja siihen tulee myös arvoja 0000-00-00, joista [Finna ei tykkää](https://github.com/KohaSuomi/Koha/issues/280). Kenttä täyttyy automaattisesti tallennuspäivällä, kun kenttä ei ole pakollinen.
+  * Hankintapvm (dateaccessioned) täyttyy myös automaattisesti, kun siihen on kuvailupohjassa liitetty dateaccessioned-pl-liitännäinen. Ei ole tarvettaa laittaa pakolliseksi kuten datereceived aikanaan.
 
 ## Viikko 9 muistio
 
