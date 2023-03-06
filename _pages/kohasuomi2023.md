@@ -13,6 +13,25 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 10 muistiot
+
+### Maanantai 6.3. klo 10
+
+Läsnä: Emmi, Pasi, Lasse, Kodo, Lari, Anneli
+
+**Aiheita**
+
+* Vkon 10 päivitys
+  * käännöstiedostojen päivitys 
+* Huoltoikkuna
+  * käyttöjärjestelmäpäivityksiä tulossa
+  * Kodo tekee tiedotteen 
+* Kirkes-konversion 2. kierros alkaa ti 6.3.
+* nextien tilanne
+  * muut tehty paitsi täti ja kirkes
+  * pääkäyttäjät käyvät läpi, mitä tauluja pitäisi mahdollisesti kopioida versionpäivityksen aikaan
+* Versiopäivityksen ja Tikettien seurannan tikettien vastuutus. 
+
 ## Viikon 9 muistiot
 
 ### Torstai 2.3. klo 10
