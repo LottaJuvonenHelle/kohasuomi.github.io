@@ -22,6 +22,7 @@ Läsnä:
   * Hankintapvm (dateaccessioned) täyttyy myös automaattisesti, kun siihen on kuvailupohjassa liitetty dateaccessioned-pl-liitännäinen. Ei ole tarvettaa laittaa pakolliseksi kuten datereceived aikanaan.
 * Mitä tietoja tarvitsee siirtää nextiltä tuotantoon versonvaihdon aikaan. Edellisessä versionvaihdossa kerättiin [tällaista listaa](https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-21-muistio).
 * IntranetNav-järjestelmäasetuksessa olevat linkit ajantasalle. Jos linkkejä vielä Redmineen, päivitättehän ne ohjaamaan GitHubiin vastaaville sivuille.
+* Onko tarvetta omalle kanavalle versionvaihdolle Matrixiin?
 
 ## Viikko 9 muistio
 
