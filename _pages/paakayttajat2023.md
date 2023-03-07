@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10 esityslista
 
 Aika: 7.3.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), 
 
 **Yhteiset**
 * [Finna-liitännäisen Readme-osioon](https://github.com/KohaSuomi/koha-plugin-rest-di/blob/master/README.md#sysprefs) kerätty, mitä järjestelmäasetuksia Finna-liitännäinen hyödyntää.
@@ -39,6 +39,13 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 * Otettu käyttöön uusia asetuksia: Nidetunnus varauksen saapumisilmoitukseen, Tiettyjen teosten valinta tarkempaan tarkasteluun, 
 Epäonnistuneiden kirjautumisyritysten aktiivinen seuranta, Asiakaslajien viestiasetusten oletusruksit poistettu. 
 * Kysy Kohasta pidetty onnistuneesti, käsiteltiin mm. tiedonhakua ja käyttäjiltä Padletilla kerättyjä kommentteja ja ongelmia. Päätetty järjestää jatkossa kaksi kertaa vuodessa. 
+
+**OUTI**
+* Uuden version uudet järjestelmäasetukset, IntranetUserCSS:t ja JS:t käyty läpi Annelin suositusten mukaan. Testaajia pyydetty henkilökunnasta.
+* Otettu käyttöön Finnan ominaisuus, että asiakas voi perua itse kuljetettavana olevan varauksensa. 
+* Nyt Celiat näkyvät Kirja-aineistotyypin alatyypeissä Äänikirja, joka jää faseteissa isojen tulosten kohdalla näkymättömiin. Piia kysynyt Finna-tuesta, olisiko mahdollista, että Kirja-valikko aukeaisi siten, että Äänikirja-aineistotyyppi näkyisi aina heti asiakkaalle hakutulosten määrästä riippumatta. Finna-tuki vastasi, että ei onnistu.
+* Oulussa Puolivälinkankaan kirjasto menee remonttiin ja suljetaan 6.4.2023. Kirjaston kokoelma siirretään Koskelan kirjastoon, joka on ollut pitkään kiinni ja kirjastolle on nyt löytynyt väistötilat. Koskelan kirjasto avataan kesällä.
+
 
 ## Viikko 9 muistio
 
