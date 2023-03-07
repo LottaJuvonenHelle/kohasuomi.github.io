@@ -15,11 +15,19 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 10 muistiot
 
+### Torstai 9.3. klo 10
+
+Läsnä:
+
+__Aiheita__
+
+* Aputaulujen nimeämiskäytännöt ja aputauluaputaulu
+
 ### Maanantai 6.3. klo 10
 
 Läsnä: Emmi, Pasi, Lasse, Kodo, Lari, Anneli
 
-**Aiheita**
+__Aiheita__
 
 * Vkon 10 päivitys
   * käännöstiedostojen päivitys 
