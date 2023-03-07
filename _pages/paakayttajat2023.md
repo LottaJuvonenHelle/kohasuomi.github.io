@@ -65,8 +65,8 @@ Näin asetuksen kuuluukin olla, jotta croni toimii oikein.
 
 **Siilinjärvi**
 * Ei erityisempää, yritetään päästä kärryille nextin testaamisesta
-* Sähköpostit kulkevat hyvin uudella noreply-osoitteella. Paitsi kuittiteksteihin unohtui vaihtaa meidän oma vanha kirjasto@siilinjarvi.fi, nyt vaihdettu.
-* Kirjautumisyritys-asetukset pitisi nyt olla meilläkin kunnossa.
+* Sähköpostit kulkevat hyvin uudella noreply-osoitteella. Paitsi kuittiteksteihin unohtui vaihtaa meidän oma vanha kirjasto(at)siilinjarvi.fi, nyt vaihdettu.
+* Kirjautumisyritys-asetukset pitäisi nyt olla meilläkin kunnossa.
 
 
 ## Viikko 9 muistio
