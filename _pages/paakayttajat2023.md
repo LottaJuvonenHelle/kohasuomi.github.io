@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10 esityslista
 
 Aika: 7.3.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), 
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), 
 
 **Yhteiset**
 * [Finna-liitännäisen Readme-osioon](https://github.com/KohaSuomi/koha-plugin-rest-di/blob/master/README.md#sysprefs) kerätty, mitä järjestelmäasetuksia Finna-liitännäinen hyödyntää.
