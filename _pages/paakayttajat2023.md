@@ -22,11 +22,16 @@ Läsnä:
   * Hankintapvm (dateaccessioned) täyttyy myös automaattisesti, kun siihen on kuvailupohjassa liitetty dateaccessioned-pl-liitännäinen. Ei ole tarvettaa laittaa pakolliseksi kuten datereceived aikanaan.
   * Päätös: otetaan pois kenttien pakollisuus. Pääkäyttäjien tehtävä muutos manuaalisesti kuvailupohjiin tuotantoon ja nextiin.
 * Mitä tietoja tarvitsee siirtää nextiltä tuotantoon versonvaihdon aikaan. Edellisessä versionvaihdossa kerättiin [tällaista listaa](https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-21-muistio).
+  * järjestelmäasetukset
+  * kuittipohjat
+  * asiakasrajoitukset?
+  * asiakasmääreet?
 * IntranetNav-järjestelmäasetuksessa olevat linkit ajantasalle. Jos linkkejä vielä Redmineen, päivitättehän ne ohjaamaan GitHubiin vastaaville sivuille.
 * Onko tarvetta omalle kanavalle versionvaihdolle Matrixiin?
 * next-kannat
    * [mitä pitää muistaa tehdä next-kannassa](https://github.com/KohaSuomi/Koha-22x/wiki/Mit%C3%A4-pit%C3%A4%C3%A4-tehd%C3%A4-next-kannassa) 
-   * finnat
+   * finnat, Anneli pyytää kaikille, kunhan Kirkesin next olemassa
+   * kaikki muut paitsi kirkes olemassa
 
 ## Viikko 9 muistio
 
