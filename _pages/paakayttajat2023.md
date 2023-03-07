@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10 esityslista
 
 Aika: 7.3.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), 
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Heli Auranen, Katja Valjakka (Lumme)
 
 **Yhteiset**
 * [Finna-liitännäisen Readme-osioon](https://github.com/KohaSuomi/koha-plugin-rest-di/blob/master/README.md#sysprefs) kerätty, mitä järjestelmäasetuksia Finna-liitännäinen hyödyntää.
@@ -46,6 +46,8 @@ Epäonnistuneiden kirjautumisyritysten aktiivinen seuranta, Asiakaslajien viesti
 * Nyt Celiat näkyvät Kirja-aineistotyypin alatyypeissä Äänikirja, joka jää faseteissa isojen tulosten kohdalla näkymättömiin. Piia kysynyt Finna-tuesta, olisiko mahdollista, että Kirja-valikko aukeaisi siten, että Äänikirja-aineistotyyppi näkyisi aina heti asiakkaalle hakutulosten määrästä riippumatta. Finna-tuki vastasi, että ei onnistu.
 * Oulussa Puolivälinkankaan kirjasto menee remonttiin ja suljetaan 6.4.2023. Kirjaston kokoelma siirretään Koskelan kirjastoon, joka on ollut pitkään kiinni ja kirjastolle on nyt löytynyt väistötilat. Koskelan kirjasto avataan kesällä.
 
+**Lumme**
+* Automaateissa ongelmia. Palautusautomaatti ihan jumissa ja lainausautomaatit pätkivät. Sip palvelin käynnistetty uudelleen ja Lyngsoe käynnisti ohjelmat uudelleen. Lopulta lähti toimimaan.
 
 ## Viikko 9 muistio
 
