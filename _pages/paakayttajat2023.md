@@ -18,7 +18,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10 esityslista
 
 Aika: 7.3.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Heli Auranen, Katja Valjakka (Lumme), Päivi Knuutinen (Vaara), Tuomas Kunttu (Kyyti)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Heli Auranen, Katja Valjakka (Lumme), Päivi Knuutinen (Vaara), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Finna-liitännäisen Readme-osioon](https://github.com/KohaSuomi/koha-plugin-rest-di/blob/master/README.md#sysprefs) kerätty, mitä järjestelmäasetuksia Finna-liitännäinen hyödyntää.
@@ -62,6 +62,11 @@ Epäonnistuneiden kirjautumisyritysten aktiivinen seuranta, Asiakaslajien viesti
 * Kyytissä lapsiasiakkaan yläikäraja on ollut 15 vuotta. Ja henkilöasiakkaan alaikäraja niin ikään 15 vuotta. Tästä seuraa se, että 15-vuotiaan voi tallentaa sekä lapsi- että henkilöasiakkaana. Jos tallentaa lapsena, muuttaa croni kyllä seuraavana yönä henkilöasiakkaaksi.
 Näin asetuksen kuuluukin olla, jotta croni toimii oikein.
 * Mitä kuuluu tiketille [#204](https://github.com/KohaSuomi/Koha/issues/204)? - on edelleen työn alla, joten ei vielä kuulukaan tuotannossa toimia.
+
+**Siilinjärvi**
+* Ei erityisempää, yritetään päästä kärryille nextin testaamisesta
+* Sähköpostit kulkevat hyvin uudella noreply-osoitteella. Paitsi kuittiteksteihin unohtui vaihtaa meidän oma vanha kirjasto@siilinjarvi.fi, nyt vaihdettu.
+* Kirjautumisyritys-asetukset pitisi nyt olla meilläkin kunnossa.
 
 
 ## Viikko 9 muistio
