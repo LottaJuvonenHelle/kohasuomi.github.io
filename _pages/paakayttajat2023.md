@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10 esityslista
 
 Aika: 7.3.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Heli Auranen, Katja Valjakka (Lumme)
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Heli Auranen, Katja Valjakka (Lumme), Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 * [Finna-liitännäisen Readme-osioon](https://github.com/KohaSuomi/koha-plugin-rest-di/blob/master/README.md#sysprefs) kerätty, mitä järjestelmäasetuksia Finna-liitännäinen hyödyntää.
@@ -48,6 +48,12 @@ Epäonnistuneiden kirjautumisyritysten aktiivinen seuranta, Asiakaslajien viesti
 
 **Lumme**
 * Automaateissa ongelmia. Palautusautomaatti ihan jumissa ja lainausautomaatit pätkivät. Sip palvelin käynnistetty uudelleen ja Lyngsoe käynnisti ohjelmat uudelleen. Lopulta lähti toimimaan.
+
+**Vaara**
+* Ei erityisempää. Päivi testannut nextiä ja käynyt läpi järjestelmäasetukset Annelin listauksen mukaan. Muut pääkäyttäjät eivät ole ehtineet juurikaan testaamaan ja yhteinen palaveri järjestämättä.
+* Päivi testaillut PowerBIn raportteja ja toimintaa.
+
+
 
 ## Viikko 9 muistio
 
