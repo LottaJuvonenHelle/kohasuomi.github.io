@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10 esityslista
 
 Aika: 7.3.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Finna-liitännäisen Readme-osioon](https://github.com/KohaSuomi/koha-plugin-rest-di/blob/master/README.md#sysprefs) kerätty, mitä järjestelmäasetuksia Finna-liitännäinen hyödyntää.
@@ -32,6 +32,13 @@ Läsnä:
    * [mitä pitää muistaa tehdä next-kannassa](https://github.com/KohaSuomi/Koha-22x/wiki/Mit%C3%A4-pit%C3%A4%C3%A4-tehd%C3%A4-next-kannassa) 
    * finnat, Anneli pyytää kaikille, kunhan Kirkesin next olemassa
    * kaikki muut paitsi kirkes olemassa
+
+**Lappi**
+* Lapin pääkäyttäjät lomalla 10.3., ei päivystystä
+* Nextiin viety asetuksia. Jaettu Käyttäjäryhmälle ja pääkäyttäjille testivastuita. 
+* Otettu käyttöön uusia asetuksia: Nidetunnus varauksen saapumisilmoitukseen, Tiettyjen teosten valinta tarkempaan tarkasteluun, 
+Epäonnistuneiden kirjautumisyritysten aktiivinen seuranta, Asiakaslajien viestiasetusten oletusruksit poistettu. 
+* Kysy Kohasta pidetty onnistuneesti, käsiteltiin mm. tiedonhakua ja käyttäjiltä Padletilla kerättyjä kommentteja ja ongelmia. Päätetty järjestää jatkossa kaksi kertaa vuodessa. 
 
 ## Viikko 9 muistio
 
