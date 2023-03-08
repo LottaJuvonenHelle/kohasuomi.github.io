@@ -14,6 +14,9 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 **Yhteiset**
 * Tapahtumalokin (action_logs) aktiivisen taulun datan siivous arkistotauluun kuukausittain. Siivousajo vuositasolla liian raskas.
+* Viesti-cronien ajastukset säännöllisen huoltoikkunan aikavälin ulkopuolelle?
+  * Tällä hetkellä on osassa kimppoja ajastettu huoltoikkunan aikavälille (klo 7-9) mm. advance_notices, overdue_notices ja membership_expiry -cronit ja ne eivät tule ajetuksi automaattisesti. 
+  * Kaikki cronit on estetty huoltoikkunan ajaksi eli kuukauden toisena keskiviikkona klo 6.50 - 9.10 ei ajeta croneja.
 
 ## Viikko 10 muistio
 
