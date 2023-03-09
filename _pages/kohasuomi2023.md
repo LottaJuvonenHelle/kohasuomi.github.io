@@ -22,6 +22,8 @@ Läsnä:
 __Aiheita__
 
 * Aputaulujen nimeämiskäytännöt ja aputauluaputaulu
+* Finna-nextit ja OAI-PMH
+* no-status/no assignee -tiketit
 
 ### Maanantai 6.3. klo 10
 
