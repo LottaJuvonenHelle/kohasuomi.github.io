@@ -33,7 +33,9 @@ __Aiheita__
   * Lari kyselee apua Kansalliskirjastosta, jossa haravointi on saatu toimimaan.
 * no-status/no assignee -tiketit
 * Lapin Kohatuessa ei ole päivystystä perjantaina 10.3. pääkäyttäjien lomien vuoksi.
-* open files limit /Kodo
+* Nodeilla nyt käynnissä suuri määrä kontainereita, koska nexit otettu käyttöön. Tämä aiheuttaa ongelmia, koska palvelinten avointen tiedostojen määrän maksimi tulee vastaan.
+  * Tutkitaan saadaanko maksimia korotettua ilman nodejen uudelleenkäynnistyksiä, jos ei saada, niin korotetaan seuraavassa huoltokatkossa.
+  * Testejä voidaan mahdollisesti joutua pysäyttämään jos ongelma alkaa isossa mitassa vaivata.
 
 ### Maanantai 6.3. klo 10
 
