@@ -17,13 +17,23 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 9.3. klo 10
 
-Läsnä:
+Läsnä: Anneli, Lasse, Emmi, Pasi, Kodo, Lari
 
 __Aiheita__
 
 * Aputaulujen nimeämiskäytännöt ja aputauluaputaulu
+  * Käytetään muotoa: ks_vvkkpp_taulunnimi_tikettinro
+  * vanhat taulut nimetään uudelleen uuden käytännön mukaan.
+  * tehdään aputauluaputaulu, johon listaus aputauluista -> ks_baktables -> Kodo tekee
+    * aputaulun nimi
+    * selite, miksi olemassa
+    * vanhenemispäivä, jos tiedossa
+    * taulun tekijä
 * Finna-nextit ja OAI-PMH
+  * Lari kyselee apua Kansalliskirjastosta, jossa haravointi on saatu toimimaan.
 * no-status/no assignee -tiketit
+* Lapin Kohatuessa ei ole päivystystä perjantaina 10.3. pääkäyttäjien lomien vuoksi.
+* open files limit /Kodo
 
 ### Maanantai 6.3. klo 10
 
