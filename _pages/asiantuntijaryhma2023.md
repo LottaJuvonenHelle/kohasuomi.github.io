@@ -36,9 +36,13 @@ Läsnä:
 * [Tiketti 4089 - Niteen poisto poistaa lainan asiakkaan lainahistoriasta](https://tiketti.koha-suomi.fi/issues/4089)
 * [Tiketti 4133 - Kalenterin muokkaus: tietyn viikonpäivän kiinniolo tiettynä ajanjaksona -vaihtoehdon lisäys](https://tiketti.koha-suomi.fi/issues/4133)
 
-### 3. Muut asiat
+### 3. Versionvaihdon tilanne
 
-### 4. Seuraava kokous
+### 4. Muut asiat
+
+### 5. Seuraava kokous
+
+Ke 19.4.2023 klo 9.
 
 ## Asiantuntijaryhmän muistio 2/23
 
