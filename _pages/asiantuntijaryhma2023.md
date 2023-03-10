@@ -24,6 +24,16 @@ Läsnä:
 
 ### 2. Kehitysehdotusten läpikäyntiä
 
+* [Tiketti 3985 - Kausijulkaisun vastaanottoon Lisää tulostuslistaan -valintamahdollisuus](https://tiketti.koha-suomi.fi/issues/3985)
+* [Tiketti 3990 - Luettelointi ja 084a-kenttä ja YKL-luokkalistaus](https://tiketti.koha-suomi.fi/issues/3990)
+* [Tiketti 4005 - Tietokannan tietojen siivousautomatiikkaa](https://tiketti.koha-suomi.fi/issues/4005)
+* [Tiketti 4028 - Tarkka haku: YSOn termit Asiasana-haun avuksi, kun YSOn aika on](https://tiketti.koha-suomi.fi/issues/4028)
+* [Tiketti 4081 - Ei uusintaa, jos uusi eräpäivä on sama kuin vanha](https://tiketti.koha-suomi.fi/issues/4081)
+* [Tiketti 4084 - Työkalut/Asiakkaiden muokkaus eräajona -toimintoon lisää muokattavia kenttiä](https://tiketti.koha-suomi.fi/issues/4084)
+* [Tiketti 4089 - Niteen poisto poistaa lainan asiakkaan lainahistoriasta](https://tiketti.koha-suomi.fi/issues/4089)
+* [Tiketti 4133 - Kalenterin muokkaus: tietyn viikonpäivän kiinniolo tiettynä ajanjaksona -vaihtoehdon lisäys](https://tiketti.koha-suomi.fi/issues/4133)
+
+
 ### 3. Muut asiat
 
 ### 4. Seuraava kokous
