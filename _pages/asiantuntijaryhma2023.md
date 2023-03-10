@@ -24,7 +24,7 @@ Läsnä:
 
 ### 2. Kehitysehdotusten läpikäyntiä
 
-* [Tiketti 3927 - Uudesta tyhjästä tietueesta -toimintoon teoksen pääkieli](https://tiketti.koha-suomi.fi/issues/3924)
+* [Tiketti 3924 - Uudesta tyhjästä tietueesta -toimintoon teoksen pääkieli](https://tiketti.koha-suomi.fi/issues/3924)
 * [Tiketti 3927 - Huomautus (näkyy verkkokirjastossa) - näkyy huonosti henkilökunnalle](https://tiketti.koha-suomi.fi/issues/3927)
 * [Tiketti 3966 - Asiakastiedot/Perheen lainat -välilehdellä lainojen uusintamahdollisuus](https://tiketti.koha-suomi.fi/issues/3966)
 * [Tiketti 3985 - Kausijulkaisun vastaanottoon Lisää tulostuslistaan -valintamahdollisuus](https://tiketti.koha-suomi.fi/issues/3985)
