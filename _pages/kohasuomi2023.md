@@ -17,11 +17,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 13.3. klo 10
 
-Läsnä:
+Läsnä: Emmi, Ari, Pasi, Lasse, Kodo, Lari, Anneli
 
 * [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117#issuecomment-1463677625)
 * Finnat ja OAI-PMH
 * [Tiketti 33](https://github.com/KohaSuomi/Koha-22x/issues/33#issuecomment-1463717242)
+* daemon / Kodo
 
 ## Viikon 10 muistiot
 
