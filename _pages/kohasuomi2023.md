@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 11 muistiot
+
+### Maanantai 13.3. klo 10
+
+Läsnä:
+
+* [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117#issuecomment-1463677625)
+* Finnat ja OAI-PMH
+
 ## Viikon 10 muistiot
 
 ### Torstai 9.3. klo 10
