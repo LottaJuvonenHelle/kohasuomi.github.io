@@ -21,6 +21,7 @@ Läsnä:
 
 * [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117#issuecomment-1463677625)
 * Finnat ja OAI-PMH
+* [Tiketti 33](https://github.com/KohaSuomi/Koha-22x/issues/33#issuecomment-1463717242)
 
 ## Viikon 10 muistiot
 
