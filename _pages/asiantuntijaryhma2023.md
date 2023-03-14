@@ -24,7 +24,19 @@ Läsnä:
 
 ### 2. Kehitysehdotusten läpikäyntiä
 
-Keskustellaan myös kehitysehdotusten määrästä.
+Keskustellaan myös kehitysehdotusten määrästä ja kuinka paljon niiden käsittelyyn kuluu aikaa.
+
+Tekijä | Kehitysehdotusten määrä Githubissa
+--- | ---
+Helle | 24
+Koha-Suomi |	12
+Kuvailuryhmä | 4
+Kyyti | 3
+OUTI | 14
+Vaara | 6
+Vaski | 11
+Yhteensä | 74
+
 
 * [Tiketti 3924 - Uudesta tyhjästä tietueesta -toimintoon teoksen pääkieli](https://tiketti.koha-suomi.fi/issues/3924)
 * [Tiketti 3927 - Huomautus (näkyy verkkokirjastossa) - näkyy huonosti henkilökunnalle](https://tiketti.koha-suomi.fi/issues/3927)
