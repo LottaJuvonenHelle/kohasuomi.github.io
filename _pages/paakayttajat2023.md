@@ -48,6 +48,7 @@ Sen perusteella asia on liian vaihea korjattavaksi.
 
 **Lumme**
 * Nextin säätäminen aloitettu
+* Otetiin käyttöön yläpalkin Koha-asioiden alasvetovalikko heti viime viikon kokouksen jälkeen, kiitos vinkistä.
 
 ## Viikko 10 muistio
 
