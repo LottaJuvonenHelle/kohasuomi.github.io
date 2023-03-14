@@ -24,6 +24,8 @@ Läsnä:
 
 ### 2. Kehitysehdotusten läpikäyntiä
 
+Keskustellaan myös kehitysehdotusten määrästä.
+
 * [Tiketti 3924 - Uudesta tyhjästä tietueesta -toimintoon teoksen pääkieli](https://tiketti.koha-suomi.fi/issues/3924)
 * [Tiketti 3927 - Huomautus (näkyy verkkokirjastossa) - näkyy huonosti henkilökunnalle](https://tiketti.koha-suomi.fi/issues/3927)
 * [Tiketti 3966 - Asiakastiedot/Perheen lainat -välilehdellä lainojen uusintamahdollisuus](https://tiketti.koha-suomi.fi/issues/3966)
