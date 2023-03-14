@@ -56,9 +56,15 @@ Yhteensä | 74
 
 PIN-koodien pituus ei ole tietoturvan kannalta optimaalinen. Mitä voitaisiin tehdä, että sen saisi pidemmäksi? - Susanna/Vaski
 
-### 5. Muut asiat
+### 5. Action_logs-taulujen siivous kuukausittain
 
-### 6. Seuraava kokous
+Action_logs-taulut siivotaan tällä hetkellä kerran vuodessa ja tiedot siirretään aktiivisesta taulusta arkistotauluun. Taulu on kuitenkin kasvanut osassa kimpoista niin isoksi, että siivousajo kestää todella pitkään ja lokitaulu on sen aikaa pois käytöstä. Koha ei toimi tällöin, koska moni toiminto kuten varausten tekeminen tai lainojen uusiminen lokitetaan ja kirjauksia ei voi tehdä, kun tauluun ei pysty kirjoittamaan. 
+
+Koha-Suomi ehdottaa, että siivousajo tehtäisiin jatkossa kerran kuukaudessa ja arkistoon siirretään aina reilun vuoden takainen kuukausi, esim. maaliskuussa 2023 siirretään arkistoon helmikuu 2022. Ehdotuksesta keskusteltiin pääkäyttäjien viikon 11 palaverissa, eikä siellä huomattu ongelmia asian suhteen. Tiedot pystyy tarvittaessa hakemaan arkistotauluista SQL-kyselyillä.
+
+### 6. Muut asiat
+
+### 7. Seuraava kokous
 
 Ke 19.4.2023 klo 9.
 
