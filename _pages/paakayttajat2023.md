@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11 muistio
 
 Aika: 14.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * Tapahtumalokin (action_logs) aktiivisen taulun datan siivous arkistotauluun kuukausittain. Siivousajo vuositasolla liian raskas. /Lari
@@ -39,6 +39,12 @@ Kuulumiset etelästä pohjoiseen.
 * Kansikuvien näkymiseen liittyvään tekemääni [tikettiin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=33193) Bugzillassa on vastattu. 
 Sen perusteella asia on liian vaihea korjattavaksi.
 * Lähikirjastossa palautettu nide ei ole mennyt kuljetustilaan, vaikka palautettaessa siitä tulee ilmoitus ("Palauta tämä nide kirjastoon X"). Nide näkyy Lähetettävät kuljetuksen -raportilla, mutta ei vastaanottavan kirjaston Vastaanotettavat kuljetukset -raportilla. Silti nide on saatavana-tilassa. Mitään syytä asialle ei löytynyt. Tilanteen saa korjattua, kun ensin vaihtaa kirjautumiskirjaston vastaanottavaksi kirjastoksi ja palauttamalla niteen ja sitten vaihtaa kirjautumiskirjaston takaisin ja paluttaa niteen. Nyt kuljetustila menee päälle.
+
+**OUTI**
+* Asiakkaalta oli tullut palautetta, että kun hän kirjautuu mobiililaitteella verkkokirjastoon käyttäen Firefoxia ja hänellä on päällä automaattinen käyttäjätunnuksen ja salasanan täyttöä, PIN-koodi tulee selväkielisenä Kirjaudu sisään -painikkeeseen/painikkeen päälle. Chromella vastaavaa ongelmaa ei tullut. Asiakas oli asentanut Firefoxin uudelleenkin, mutta sekään ei ollut auttanut. Lopulta selvisi, että ongelma tuli asiakkaalla OnePlus Nord 2T 5G -puhelimella. Vika liittyy ilmeisesti valmistajan käyttöjärjestelmään ja selaimeen. Oulun it-tiimi testasi myös muiden valmistajien laitteilla, eikä ongelmaa saatu niissä toistettua.
+* Luetteloijilta tuli palautetta, että TäTin nalkutin herjaa 884 5 -kentästä: ”ei formaatissa”. Eli nalkutin tärppäsi kiinni kyseiseen kenttään, koska se ei oikeasti kuulu MARC21-formaattiin. Kentän 884 5-osakenttä on nyt lisätty TäTin nalkuttimeen, joten ei pitäisi herjata siitä enää. Heikkisen Antti on yhteydessä Melindaan 884 5-kentän käytöstä.
+*  Toinen Kirjastopalvelun tietuepaketeista, joka oli tullut 7.3., näytti, että se olisi tuotu, mutta tietueita ei löytynyt TäTistä. Anneli poisti paketin tuonnin ja toi sen uudestaan. Paketin sisältämät tietueet alkoivat löytyä saman tien TäTistä. Tietueet olivat tulleet tietokantaan jo ensimmäisen tuonnin yhteydessä, mutta Anneli arveli, että ne eivät olleet jostain syystä indeksoituneet.
+*  Nexstiä säädetty. Yhdessä katsottu, mitä otetaan käyttöön uusista ominaisuuksista, IntranetuserCSS:n ja -JS:n vapaaehtoisista määrityksistä.
 
 ## Viikko 10 muistio
 
