@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11 muistio
 
 Aika: 14.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * Tapahtumalokin (action_logs) aktiivisen taulun datan siivous arkistotauluun kuukausittain. Siivousajo vuositasolla liian raskas. /Lari
@@ -35,6 +35,10 @@ Kuulumiset etelästä pohjoiseen.
 * Lapissakin otetiin käyttöön yläpalkin Koha-asioiden alasvetovalikko. Kiitos Helle ja Kati vinkistä.
 * Versionvaihtoon liittyviä töitä, mm. asetusten määrittelyä Nextiin. Testaus pyritään alkamaan mahdollisiman pian.
 
+**Kyyti**
+* Kansikuvien näkymiseen liittyvään tekemääni [tikettiin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=33193) Bugzillassa on vastattu. 
+Sen perusteella asia on liian vaihea korjattavaksi.
+* Lähikirjastossa palautettu nide ei ole mennyt kuljetustilaan, vaikka palautettaessa siitä tulee ilmoitus ("Palauta tämä nide kirjastoon X"). Nide näkyy Lähetettävät kuljetuksen -raportilla, mutta ei vastaanottavan kirjaston Vastaanotettavat kuljetukset -raportilla. Silti nide on saatavana-tilassa. Mitään syytä asialle ei löytynyt. Tilanteen saa korjattua, kun ensin vaihtaa kirjautumiskirjaston vastaanottavaksi kirjastoksi ja palauttamalla niteen ja sitten vaihtaa kirjautumiskirjaston takaisin ja paluttaa niteen. Nyt kuljetustila menee päälle.
 
 ## Viikko 10 muistio
 
