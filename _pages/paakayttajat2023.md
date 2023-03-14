@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11 muistio
 
 Aika: 14.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Tapahtumalokin (action_logs) aktiivisen taulun datan siivous arkistotauluun kuukausittain. Siivousajo vuositasolla liian raskas. /Lari
@@ -30,6 +30,10 @@ Kuulumiset etelästä pohjoiseen.
 **Vaara**
 * Päivi testannut nextillä hieman, tallentanut asetuksia jne. Pääkäyttäjien yhteinen katselmus vielä tekemättä.
 * Testattavien tikettien tutkailu jäi lyhyeen, kun en osannut tarttua moneenkaan tikettiin ymmärryksen puutteen vuoksi.
+
+**Lappi**
+* Lapissakin otetiin käyttöön yläpalkin Koha-asioiden alasvetovalikko. Kiitos Helle ja Kati vinkistä.
+* Versionvaihtoon liittyviä töitä, mm. asetusten määrittelyä Nextiin. Testaus pyritään alkamaan mahdollisiman pian.
 
 
 ## Viikko 10 muistio
