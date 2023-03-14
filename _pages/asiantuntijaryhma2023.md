@@ -40,9 +40,13 @@ Keskustellaan myös kehitysehdotusten määrästä.
 
 ### 3. Versionvaihdon tilanne
 
-### 4. Muut asiat
+### 4. PIN-koodien pituus
 
-### 5. Seuraava kokous
+PIN-koodien pituus ei ole tietoturvan kannalta optimaalinen. Mitä voitaisiin tehdä, että sen saisi pidemmäksi? - Susanna/Vaski
+
+### 5. Muut asiat
+
+### 6. Seuraava kokous
 
 Ke 19.4.2023 klo 9.
 
