@@ -19,16 +19,26 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 Läsnä:
 
+__Aiheita__
+
 * [Tiketti KS21-468](https://github.com/KohaSuomi/Koha/issues/468)
+* Nextien cronit
+* Uusi build
+  * Autoreload?
 
 ### Maanantai 13.3. klo 10
 
 Läsnä: Emmi, Ari, Pasi, Lasse, Kodo, Lari, Anneli
 
+__Aiheita__
+
 * [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117#issuecomment-1463677625)
 * Finnat ja OAI-PMH
 * [Tiketti 33](https://github.com/KohaSuomi/Koha-22x/issues/33#issuecomment-1463717242)
-* daemon / Kodo
+* Yksi hallintaksripti kaikille Kohaan liittyville daemoneille on työn alla
+  * SIP, Plack, Memcached, Apache, Elastictmpfs
+  * Luovutaanko erillisistä initeistä/systemd-uniteista ja hoidetaan startit ja stopit vastaisuudessa tällä yhdellä hallintaskriptillä rc.localista?
+  * Tällä hetkellä mukana on myös service-checkin toiminnallisuus, mutta se tuntuu istuvan skriptiin vähän huonosti, joten riisuttanee pois.
 
 ## Viikon 10 muistiot
 
