@@ -15,6 +15,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 11 muistiot
 
+### Torstai 16.3. klo 10
+
+Läsnä:
+
+* [Tiketti KS21-468](https://github.com/KohaSuomi/Koha/issues/468)
+
 ### Maanantai 13.3. klo 10
 
 Läsnä: Emmi, Ari, Pasi, Lasse, Kodo, Lari, Anneli
