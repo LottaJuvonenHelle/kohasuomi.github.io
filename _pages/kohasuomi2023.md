@@ -21,7 +21,7 @@ Läsnä:
 
 __Aiheita__
 
-* [Tiketti KS21-468](https://github.com/KohaSuomi/Koha/issues/468)
+* [Tiketti KS21-468 - Auktorisoitujen arvojen kopiointi testi-Tätistä Tätiin](https://github.com/KohaSuomi/Koha/issues/468)
 * Nextien cronit
 * Uusi build
   * Autoreload?
@@ -32,9 +32,9 @@ Läsnä: Emmi, Ari, Pasi, Lasse, Kodo, Lari, Anneli
 
 __Aiheita__
 
-* [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117#issuecomment-1463677625)
+* [Tiketti 117 - Kaikkien asiakastietojen haun esto varauksenteossa](https://github.com/KohaSuomi/Koha-22x/issues/117#issuecomment-1463677625)
 * Finnat ja OAI-PMH
-* [Tiketti 33](https://github.com/KohaSuomi/Koha-22x/issues/33#issuecomment-1463717242)
+* [Tiketti 33 - Teosta ei saa haettua kaikilla hakutavoilla, kun teoksen nimessä merkki](https://github.com/KohaSuomi/Koha-22x/issues/33#issuecomment-1463717242)
 * Yksi hallintaksripti kaikille Kohaan liittyville daemoneille on työn alla
   * SIP, Plack, Memcached, Apache, Elastictmpfs
   * Luovutaanko erillisistä initeistä/systemd-uniteista ja hoidetaan startit ja stopit vastaisuudessa tällä yhdellä hallintaskriptillä rc.localista?
