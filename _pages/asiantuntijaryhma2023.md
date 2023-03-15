@@ -15,16 +15,47 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 3/23
+## Asiantuntijaryhmän esityslista 4/23
+
+Aika: 19.4.2023 klo 9<br />
+Läsnä:
+
+### 4. Kehitysehdotusten läpikäyntiä
+
+* [Tiketti 4084 - Työkalut/Asiakkaiden muokkaus eräajona -toimintoon lisää muokattavia kenttiä](https://tiketti.koha-suomi.fi/issues/4084)
+* [Tiketti 4089 - Niteen poisto poistaa lainan asiakkaan lainahistoriasta](https://tiketti.koha-suomi.fi/issues/4089)
+* [Tiketti 4133 - Kalenterin muokkaus: tietyn viikonpäivän kiinniolo tiettynä ajanjaksona -vaihtoehdon lisäys](https://tiketti.koha-suomi.fi/issues/4133)
+
+## Asiantuntijaryhmän muistio 3/23
 
 Aika: 15.3.2023 klo 9<br />
-Läsnä: 
+Läsnä: Ari Mäkiranta (Koha-Suomi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (Vaara), Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Pia Kusmin (Lappi), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi), Noora Valkonen (OUTI, liittyi mukaan kohdassa 5)
 
 ### 1. Arin ajankohtaiset
 
-### 2. Kehitysehdotusten läpikäyntiä
+Kirkeksessä alkoi tieturvan vaikutusten arviointi -prosessi ulkopuolisen firman tekemänä. Koha-Suomi mukana teknisenä tukena.
 
-Keskustellaan myös kehitysehdotusten määrästä ja kuinka paljon niiden käsittelyyn kuluu aikaa.
+### 2. Versionvaihdon tilanne
+
+Next-kannat ovat kaikilla kimpoilla pystyssä ja Finna-nextit haravoitumassa. Vaskilla on next-kannassa koko tietokannan sisältö, mutta muille kimpoille (ja Tätiin) tietoja on redusoitu vähemmäksi palvelimen tilakapasiteetin vuoksi. Pääkäyttäjät testaavat sekä yleisesti toimintoja että Koha-Suomen omia toimintoja sitä mukaa, kun niitä valmistuu. Tulossa tarkempaa tiedotusta versionvaihdosta Koha-Suomen puolelta.
+
+### 3. PIN-koodien pituus
+
+PIN-koodien pituus ei ole tietoturvan kannalta optimaalinen. Mitä voitaisiin tehdä, että sen saisi pidemmäksi? - Susanna/Vaski
+
+**Päätös:** Vaski kysyy Mikro-Väylältä ja Bibliothecalta ja OUTI Lyngsoelta tukeeko heidän laitteensa yli neljä merkkistä pin-koodia. Jos kaikki tukee, muutetaan Kohassa pin-koodin generointia (JS-rimpsu) tuottamaan pidempiä pinejä. Jos jossakin on muiden toimittajien automaatteja, olkaa yhteydessä niiden toimittajaan ja selvittäkää niiden tilanne.
+
+### 4. Action_logs-taulujen siivous kuukausittain
+
+Action_logs-taulut siivotaan tällä hetkellä kerran vuodessa ja tiedot siirretään aktiivisesta taulusta arkistotauluun. Taulu on kuitenkin kasvanut osassa kimpoista niin isoksi, että siivousajo kestää todella pitkään ja lokitaulu on sen aikaa pois käytöstä. Koha ei toimi tällöin, koska moni toiminto kuten varausten tekeminen tai lainojen uusiminen lokitetaan ja kirjauksia ei voi tehdä, kun tauluun ei pysty kirjoittamaan. 
+
+Koha-Suomi ehdottaa, että siivousajo tehtäisiin jatkossa kerran kuukaudessa ja arkistoon siirretään aina reilun vuoden takainen kuukausi, esim. maaliskuussa 2023 siirretään arkistoon helmikuu 2022. Ehdotuksesta keskusteltiin pääkäyttäjien viikon 11 palaverissa, eikä siellä huomattu ongelmia asian suhteen. Tiedot pystyy tarvittaessa hakemaan arkistotauluista SQL-kyselyillä.
+
+**Päätös:** Siivotaan jatkossa action_logs-taulu kerran kuussa ja siirretään arkistotauluun vuotta vanhemmat merkinnät. Säilytysaika jatkossa siis yksi vuosi aktiivisessa taulussa.
+
+### 5. Kehitysehdotusten läpikäyntiä
+
+Keskustellaan myös kehitysehdotusten määrästä ja kuinka paljon niiden käsittelyyn kuluu aikaa. Kehitysehdotuksia toivotaan edelleen tehtävän, mutta toiveena olisi, että niiden toteutuskelpoisuutta pohdittaisiin nykyistä tarkemmin jo ennen kehitysehdotuksen tekemistä. Ehdotusten läpikäyntiin kuluu tällä hetkellä paljon aikaa useilta henkilöiltä. Alla on taulukko GitHubissa olevien kehitysehdotusten määrästä. GitHub otettiin käyttöön lokakuussa 2022 ja mukana on muutamia Redminestä siirrettyjä ehdotuksia.
 
 Tekijä | Kehitysehdotusten määrä Githubissa
 --- | ---
@@ -37,6 +68,11 @@ Vaara | 6
 Vaski | 11
 Yhteensä | 74
 
+**Päätös**: Ehdotetaan seuraavaa toimintatapaa: Kun kimpan henkilökunnalta tulee kehitysehdotus, pohditaan ensin kimpan pääkäyttäjien (tai muun pienryhmän) kesken, onko ehdotus hyvä ja tarpeellinen toteuttaa. Jos on, kimpan pääkäyttäjä esittää sen pääkäyttäjien viikkopalaverissa. Jos ehdotus koetaan sielläkin hyväksi, tehdään ehdotus Githubiin.
+
+**Käsiteltävät ehdotukset**
+
+Päätökset kirjattiin jokaiseen tikettiin kommenttina.
 
 * [Tiketti 3924 - Uudesta tyhjästä tietueesta -toimintoon teoksen pääkieli](https://tiketti.koha-suomi.fi/issues/3924)
 * [Tiketti 3927 - Huomautus (näkyy verkkokirjastossa) - näkyy huonosti henkilökunnalle](https://tiketti.koha-suomi.fi/issues/3927)
@@ -46,23 +82,10 @@ Yhteensä | 74
 * [Tiketti 4005 - Tietokannan tietojen siivousautomatiikkaa](https://tiketti.koha-suomi.fi/issues/4005)
 * [Tiketti 4028 - Tarkka haku: YSOn termit Asiasana-haun avuksi, kun YSOn aika on](https://tiketti.koha-suomi.fi/issues/4028)
 * [Tiketti 4081 - Ei uusintaa, jos uusi eräpäivä on sama kuin vanha](https://tiketti.koha-suomi.fi/issues/4081)
-* [Tiketti 4084 - Työkalut/Asiakkaiden muokkaus eräajona -toimintoon lisää muokattavia kenttiä](https://tiketti.koha-suomi.fi/issues/4084)
-* [Tiketti 4089 - Niteen poisto poistaa lainan asiakkaan lainahistoriasta](https://tiketti.koha-suomi.fi/issues/4089)
-* [Tiketti 4133 - Kalenterin muokkaus: tietyn viikonpäivän kiinniolo tiettynä ajanjaksona -vaihtoehdon lisäys](https://tiketti.koha-suomi.fi/issues/4133)
-
-### 3. Versionvaihdon tilanne
-
-### 4. PIN-koodien pituus
-
-PIN-koodien pituus ei ole tietoturvan kannalta optimaalinen. Mitä voitaisiin tehdä, että sen saisi pidemmäksi? - Susanna/Vaski
-
-### 5. Action_logs-taulujen siivous kuukausittain
-
-Action_logs-taulut siivotaan tällä hetkellä kerran vuodessa ja tiedot siirretään aktiivisesta taulusta arkistotauluun. Taulu on kuitenkin kasvanut osassa kimpoista niin isoksi, että siivousajo kestää todella pitkään ja lokitaulu on sen aikaa pois käytöstä. Koha ei toimi tällöin, koska moni toiminto kuten varausten tekeminen tai lainojen uusiminen lokitetaan ja kirjauksia ei voi tehdä, kun tauluun ei pysty kirjoittamaan. 
-
-Koha-Suomi ehdottaa, että siivousajo tehtäisiin jatkossa kerran kuukaudessa ja arkistoon siirretään aina reilun vuoden takainen kuukausi, esim. maaliskuussa 2023 siirretään arkistoon helmikuu 2022. Ehdotuksesta keskusteltiin pääkäyttäjien viikon 11 palaverissa, eikä siellä huomattu ongelmia asian suhteen. Tiedot pystyy tarvittaessa hakemaan arkistotauluista SQL-kyselyillä.
 
 ### 6. Muut asiat
+
+Oppilaitosharjoittelija todennäköisesti tulossa Mikkeliin huhti-toukokuussa.
 
 ### 7. Seuraava kokous
 
