@@ -24,7 +24,9 @@ __Aiheita__
 * [Tiketti KS21-468 - Auktorisoitujen arvojen kopiointi testi-Tätistä Tätiin](https://github.com/KohaSuomi/Koha/issues/468)
 * Nextien cronit
 * Uusi build
-  * Autoreload?
+  * Buildit nopeampia ja käyttökatkot minimaalisen lyhyitä (muutamia sekunteja)
+  * Huomattavasti parantunut vikasietoisuus, esimerkiksi buildin epäonnistuminen ei aiheuta häiriöitä käytössä oleviin Koha-installaatioihin
+  * Autoreload takaisin käyttöön?
 
 ### Maanantai 13.3. klo 10
 
