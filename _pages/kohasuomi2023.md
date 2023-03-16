@@ -28,7 +28,7 @@ __Aiheita__
 * Uusi build
   * Buildit nopeampia ja käyttökatkot minimaalisen lyhyitä (muutamia sekunteja)
   * Huomattavasti parantunut vikasietoisuus, esimerkiksi buildin epäonnistuminen ei aiheuta häiriöitä käytössä oleviin Koha-installaatioihin
-  * Autoreload takaisin käyttöön?
+  * Autoreload otetaan takaisin käyttöön
 * Versionvaihdon tikettien vastuutusta
 * Finna-nexteillä ei toimi saatavuustietojen haku ja kirjautuminen. Virheilmoitukset Matrixissa.
 
