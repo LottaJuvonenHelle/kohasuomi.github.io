@@ -17,12 +17,14 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 16.3. klo 10
 
-Läsnä:
+Läsnä: Anneli, Emmi, Kodo, Pasi, Lasse, Lari, Ari
 
 __Aiheita__
 
 * [Tiketti KS21-468 - Auktorisoitujen arvojen kopiointi testi-Tätistä Tätiin](https://github.com/KohaSuomi/Koha/issues/468)
-* Nextien cronit
+* Nextien cronit päälle, 
+  * ei pate, process_messages ja varmuuskopiointiin liittyvät
+  * Lari tekee
 * Uusi build
   * Buildit nopeampia ja käyttökatkot minimaalisen lyhyitä (muutamia sekunteja)
   * Huomattavasti parantunut vikasietoisuus, esimerkiksi buildin epäonnistuminen ei aiheuta häiriöitä käytössä oleviin Koha-installaatioihin
