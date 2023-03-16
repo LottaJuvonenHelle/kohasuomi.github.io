@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11 muistio
 
 Aika: 14.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen (Lumme)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Tapahtumalokin (action_logs) aktiivisen taulun datan siivous arkistotauluun kuukausittain. Siivousajo vuositasolla liian raskas. /Lari
@@ -49,6 +49,11 @@ Sen perusteella asia on liian vaihea korjattavaksi.
 **Lumme**
 * Nextin säätäminen aloitettu
 * Otetiin käyttöön yläpalkin Koha-asioiden alasvetovalikko heti viime viikon kokouksen jälkeen, kiitos vinkistä.
+
+**Siilinjärvi**
+* Nextin tutkailu ja säätäminen aloitettu täälläkin.
+* Siilin muista poikkeavat croni-ajastukset voidaan yhtenäistää muiden kimppojen kanssa.
+* Muuten ei erikoista.
 
 ## Viikko 10 muistio
 
