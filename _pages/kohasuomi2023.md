@@ -27,6 +27,7 @@ __Aiheita__
   * Buildit nopeampia ja käyttökatkot minimaalisen lyhyitä (muutamia sekunteja)
   * Huomattavasti parantunut vikasietoisuus, esimerkiksi buildin epäonnistuminen ei aiheuta häiriöitä käytössä oleviin Koha-installaatioihin
   * Autoreload takaisin käyttöön?
+* Versionvaihdon tikettien vastuutusta
 
 ### Maanantai 13.3. klo 10
 
