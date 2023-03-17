@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 12 muistiot
+
+### Maanantai 20.3. klo 10
+
+Läsnä:
+
+__Aiheita__
+
+* Kimppojen tietokantojen rakenteen yhtenäistäminen
+
 ## Viikon 11 muistiot
 
 ### Torstai 16.3. klo 10
