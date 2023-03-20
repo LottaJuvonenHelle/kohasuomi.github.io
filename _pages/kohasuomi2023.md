@@ -22,6 +22,9 @@ Läsnä:
 __Aiheita__
 
 * Kimppojen tietokantojen rakenteen yhtenäistäminen
+* tikettien vastuutus
+* Smartum
+* [Versionvaihdon tiedote 2](https://github.com/KohaSuomi/Koha/discussions/471)
 
 ## Viikon 11 muistiot
 
