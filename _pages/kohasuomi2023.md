@@ -17,14 +17,17 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 20.3. klo 10
 
-Läsnä:
+Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
 
 __Aiheita__
 
 * Kimppojen tietokantojen rakenteen yhtenäistäminen
+  * Korjataan huhti-toukokuun huoltoikkunoiden yhteydessä.
 * tikettien vastuutus
 * Smartum
 * [Versionvaihdon tiedote 2](https://github.com/KohaSuomi/Koha/discussions/471)
+* Harjoittelija Mikkeliin 3.4.-31.5.2023
+* Käännökset - käsitellään erillisessä palaverissa.
 
 ## Viikon 11 muistiot
 
