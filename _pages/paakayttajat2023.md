@@ -19,6 +19,9 @@ Läsnä:
 * Pohdintaan: Meillä säilytetään kimpasta riippuen ei-aktiivisten asiakkaiden tiedot 5-6 vuotta, mutta tiedot poistetaan asiakkaan pyynnöstä jo sitä ennen. Laskut pitää säilyttää lain mukaan 10 vuotta lähdejärjestelmässä. Voiko asiakkaan poistaa, jos häneltä on laskutettu aineistoa alle 10 vuotta sitten poistopyynnön ajankohdasta?
 * [Koha-klinikka 29.3.2023 klo 9-11](https://github.com/KohaSuomi/Koha/discussions/469). Esitellään uutta versiota.
 * [Versionvaihdon tiedote 2](https://github.com/KohaSuomi/Koha/discussions/471)
+* [Finna-nextit](https://github.com/KohaSuomi/Koha-22x/wiki/Finna-nextit)
+* Maksut-osiossa Tapahtumat-välilehdellä nappien lisäpiilotuksia? Onko Tulosta ja Maksa turhia?<br />
+![kuva](https://user-images.githubusercontent.com/33121325/226279846-d976157d-2e54-42bc-9e74-1102cf3c6d5c.png)
 * Kohan ohje suomeksi päivitysvastuut, aiemmin näin:
   * Asiakkaat: Piia Semenoff
   * Lainaus: Pirkko Lauhikari alkuosa ja Lumpeet loppuosa 2.8 lähtien
