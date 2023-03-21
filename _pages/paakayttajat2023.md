@@ -52,6 +52,10 @@ Kuulumiset pohjoisesta etelään.
 * Verkkokirjaston Finna-tilin sähköpostikentässä olevaa s-postiosoitetta käytetään mm. verkkomaksujen maksukuittien lähettämiseen, mutta tähän s-postikenttään ei päivity tieto, jos asiakkaan sähköpostiosoite on muutettu Kohan asiakastietoihin tai Finnassa asiakkaan Omat tiedot -osion ”Kirjaston ylläpitämät henkilötiedot -osioon”. Aasiakkaan on itse päivitettävä muuttunut s-postiosoite Finna-tilin kenttään. 
 Finna-tuki on ottanut pohdittavakseen, mitä ongelmalle voitaisiin tehdä. Ehdotimme, että Finna-tilin sähköposti-kenttä pitäisi aina päivittyä, jos asiakaan osoite muutetaan Kohaan tai ”Kirjaston ylläpitämät henkilötiedot” -osioon. Toinen vaihtoehto voisi olla, että sähköpostit lähetetään aina siihen osoitteeseen, joka on ”Kirjaston ylläpitämät henkilötiedot” -osiossa. 
 
+**Siilinjärvi**
+* Tehty tiketti [#476](https://github.com/KohaSuomi/Koha/issues/476) painikkeiden lisäpiilotuksesta
+* Ei muuta erikoista
+
 
 ## Viikko 11 muistio
 
