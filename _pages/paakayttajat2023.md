@@ -10,7 +10,7 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 12 esityslista
+## Viikko 12 muistio
 
 Aika: 21.3.2023 klo 9.15 <br />
 Läsnä: Veli-Pekka Marjonimi ja Pirkko-Liisa Lauhikari (OUTI),
