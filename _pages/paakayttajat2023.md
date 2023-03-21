@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12 muistio
 
 Aika: 21.3.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjonimi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme)
+Läsnä: Veli-Pekka Marjonimi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Anni Rajala (Vaski)
 
 **Yhteiset**
 * Pohdintaan: Meillä säilytetään kimpasta riippuen ei-aktiivisten asiakkaiden tiedot 5-6 vuotta, mutta tiedot poistetaan asiakkaan pyynnöstä jo sitä ennen. Laskut pitää säilyttää lain mukaan 10 vuotta lähdejärjestelmässä. Voiko asiakkaan poistaa, jos häneltä on laskutettu aineistoa alle 10 vuotta sitten poistopyynnön ajankohdasta?
@@ -63,6 +63,8 @@ Finna-tuki on ottanut pohdittavakseen, mitä ongelmalle voitaisiin tehdä. Ehdot
 **Lumme**
 * Nextin säätöjä tehty, testailu käynnistetään laajemmin.
 
+**Vaski**
+* Perusylläpitoa ja Nextin testaamista.
 
 ## Viikko 11 muistio
 
