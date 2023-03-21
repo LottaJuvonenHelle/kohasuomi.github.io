@@ -22,6 +22,7 @@ Läsnä:
 * [Finna-nextit](https://github.com/KohaSuomi/Koha-22x/wiki/Finna-nextit)
 * Maksut-osiossa Tapahtumat-välilehdellä nappien lisäpiilotuksia? Onko Tulosta ja Maksa turhia?<br />
 ![kuva](https://user-images.githubusercontent.com/33121325/226279846-d976157d-2e54-42bc-9e74-1102cf3c6d5c.png)
+* [Varaustunnus asiakasmääreeksi](https://github.com/KohaSuomi/Koha-22x/wiki/Mit%C3%A4-pit%C3%A4%C3%A4-tehd%C3%A4-next-kannassa#varaustunnus-asiakasm%C3%A4%C3%A4reeksi)
 * Kohan ohje suomeksi päivitysvastuut, aiemmin näin:
   * Asiakkaat: Piia Semenoff
   * Lainaus: Pirkko Lauhikari alkuosa ja Lumpeet loppuosa 2.8 lähtien
