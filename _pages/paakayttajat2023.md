@@ -25,9 +25,9 @@ Läsnä:
 * [Varaustunnus asiakasmääreeksi](https://github.com/KohaSuomi/Koha-22x/wiki/Mit%C3%A4-pit%C3%A4%C3%A4-tehd%C3%A4-next-kannassa#varaustunnus-asiakasm%C3%A4%C3%A4reeksi)
 * Kohan ohje suomeksi päivitysvastuut, aiemmin näin:
   * Asiakkaat: Piia Semenoff
-  * Lainaus: Pirkko Lauhikari alkuosa ja Lumpeet loppuosa 2.8 lähtien
-  * Maksut:
-  * Varaukset:
+  * Lainaus: Pirkko Lauhikari
+  * Maksut: Lumpeet
+  * Varaukset: Lumpeet
   * Kuvailu: Päivi Knuutinen
   * Kausijulkaisut: Vaski
   * Hankinta: Anneli Österman
@@ -42,8 +42,11 @@ Läsnä:
     * 12.11 Automaattinen niteen muokkaus: Kati Sillgren
     * 12.12 MARC-muokkauksen pohjat: Anneli Österman
     * 12.13 Kalenteri: Kati Sillgren
-    * 12.14 Lokien katselu: Piia Semenoff
+    * 12.14 Lokien katselu: Tuomas Kunttu
     * 12.15-12.17 Uutiset-Siirtokokoelmat: Tuomas Kunttu
+  * [Kohan ohje suomeksi -muotoiluohjeet](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus)
+
+Kuulumiset pohjoisesta etelään.
 
 ## Viikko 11 muistio
 
