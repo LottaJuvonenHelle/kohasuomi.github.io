@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12 esityslista
 
 Aika: 21.3.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Veli-Pekka Marjonimi ja Pirkko-Liisa Lauhikari (OUTI),
 
 **Yhteiset**
 * Pohdintaan: Meillä säilytetään kimpasta riippuen ei-aktiivisten asiakkaiden tiedot 5-6 vuotta, mutta tiedot poistetaan asiakkaan pyynnöstä jo sitä ennen. Laskut pitää säilyttää lain mukaan 10 vuotta lähdejärjestelmässä. Voiko asiakkaan poistaa, jos häneltä on laskutettu aineistoa alle 10 vuotta sitten poistopyynnön ajankohdasta?
@@ -47,6 +47,11 @@ Läsnä:
   * [Kohan ohje suomeksi -muotoiluohjeet](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus)
 
 Kuulumiset pohjoisesta etelään.
+
+**OUTI**
+* Verkkokirjaston Finna-tilin sähköpostikentässä olevaa s-postiosoitetta käytetään mm. verkkomaksujen maksukuittien lähettämiseen, mutta tähän s-postikenttään ei päivity tieto, jos asiakkaan sähköpostiosoite on muutettu Kohan asiakastietoihin tai Finnassa asiakkaan Omat tiedot -osion ”Kirjaston ylläpitämät henkilötiedot -osioon”. Aasiakkaan on itse päivitettävä muuttunut s-postiosoite Finna-tilin kenttään. 
+Finna-tuki on ottanut pohdittavakseen, mitä ongelmalle voitaisiin tehdä. Ehdotimme, että Finna-tilin sähköposti-kenttä pitäisi aina päivittyä, jos asiakaan osoite muutetaan Kohaan tai ”Kirjaston ylläpitämät henkilötiedot” -osioon. Toinen vaihtoehto voisi olla, että sähköpostit lähetetään aina siihen osoitteeseen, joka on ”Kirjaston ylläpitämät henkilötiedot” -osiossa. 
+
 
 ## Viikko 11 muistio
 
