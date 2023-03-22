@@ -13,15 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12 muistio
 
 Aika: 21.3.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjonimi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Anni Rajala (Vaski)
+Läsnä: Veli-Pekka Marjonimi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Anni Rajala (Vaski), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * Pohdintaan: Meillä säilytetään kimpasta riippuen ei-aktiivisten asiakkaiden tiedot 5-6 vuotta, mutta tiedot poistetaan asiakkaan pyynnöstä jo sitä ennen. Laskut pitää säilyttää lain mukaan 10 vuotta lähdejärjestelmässä. Voiko asiakkaan poistaa, jos häneltä on laskutettu aineistoa alle 10 vuotta sitten poistopyynnön ajankohdasta?
+  * Pirkko-Liisa kyseleen Oulun arkistonhallintahenkilöltä tarkempia tietoja. Jatketaan sen jälkeen asian pohdintaa.
 * [Koha-klinikka 29.3.2023 klo 9-11](https://github.com/KohaSuomi/Koha/discussions/469). Esitellään uutta versiota.
 * [Versionvaihdon tiedote 2](https://github.com/KohaSuomi/Koha/discussions/471)
 * [Finna-nextit](https://github.com/KohaSuomi/Koha-22x/wiki/Finna-nextit)
 * Maksut-osiossa Tapahtumat-välilehdellä nappien lisäpiilotuksia? Onko Tulosta ja Maksa turhia?<br />
 ![kuva](https://user-images.githubusercontent.com/33121325/226279846-d976157d-2e54-42bc-9e74-1102cf3c6d5c.png)
+  * Reetta tekee tiketin piilotuksista Koha-repositorioon. Anneli tutkii sopivassa välissä, miten piilotukset onnistuu.
 * [Varaustunnus asiakasmääreeksi](https://github.com/KohaSuomi/Koha-22x/wiki/Mit%C3%A4-pit%C3%A4%C3%A4-tehd%C3%A4-next-kannassa#varaustunnus-asiakasm%C3%A4%C3%A4reeksi)
 * Kohan ohje suomeksi päivitysvastuut, aiemmin näin:
   * Asiakkaat: Piia Semenoff
