@@ -15,6 +15,16 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 12 muistiot
 
+### Torstai 23.3. klo 10
+
+Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
+
+* Testattaviin testaussuunnitelma + tikettien ajantasalla pito
+* Tikettien vastuutusta
+* Emmi tutkii valutuksen käyttöönottoa
+* Lari ajaa nexteille käännökset, kun saa skriptin kuosiin.
+
+
 ### Maanantai 20.3. klo 10
 
 Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
