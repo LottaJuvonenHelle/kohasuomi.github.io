@@ -13,6 +13,10 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 13 muistiot
+
+* Apache-konfiguraatiot (skel/setEnv:it mm. MEMCACHED NAMESPACE/lastu/MV/http redirect? https://linuxize.com/post/redirect-http-to-https-in-apache/)
+
 ## Viikon 12 muistiot
 
 ### Torstai 23.3. klo 10
