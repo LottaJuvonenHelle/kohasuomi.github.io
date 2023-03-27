@@ -10,7 +10,7 @@ Tällä sivulla on kirjastoille tarkoitettuja ohjeita ja hyviä käytäntöjä K
 
 ## Koha-Suomen tietosuoja- ja turvaperiaatteet
 
-[Koha-Suomen tietosuoja- ja turvaperiaatteet](/dokumentaatio/tietosuojaperiaatteet/)
+[Koha-Suomen tietosuoja- ja turvaperiaatteet](/dokumentaatio/tietosuojaperiaatteet/) omalla sivullaan.
 
 ## Yleistä
 
