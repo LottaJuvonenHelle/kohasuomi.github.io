@@ -11,6 +11,21 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 3/2023
+
+Maaliskuu on tilinpäätösaikaa ja tilinpäätös oli meilläkin käsittelyssä. Viime vuosi mentiin hieman tappiolle, mutta se oli tietoinen ja harkittu teko. Yhtiön talous on kokonaisuutenaan vakaa. Toinen iso asia oli tietoturva- ja tietosuojaperiaatteiden hyväksyminen. Periaatteet löytyvät Koha-Suomen sivuilta: https://koha-suomi.fi/dokumentaatio/tietosuojaperiaatteet/ . Periaatteet on kirjoitettu selkeästi, joten ne helppo jokaisen lukea. Kannattaa muistaa, että periaatteet ovat Koha-Suomi Oy:n ja niiden lisäksi jokaisen tulee olla perehtynyt oman kunnan tietosuojakäytäntöihin ja osallistua tarpeellisiin koulutuksiin. Jokainen meistä on tärkeä toimija tietosuojan suhteen.
+
+Toimitusjohtajan raportti liitteenä ja siinä tietysti tärkeänä kohtana toukokuun versiopäivityksen valmistelu. Samalla muistuttelen, että Koha-klinikkaan 29.3. klo 9-11 kannattaa osallistua tai katsoa tallenne.
+
+Hyvää uutta alkanutta viikkoa kaikille!
+
+T. Rebekka, hallituksen puheenjohtaja
+
+Liitteet:
+
+[Toimitusjohtajan raportti 3/23](https://github.com/KohaSuomi/kohasuomi.github.io/files/11077949/Toimitusjohtajanraportti3_2023.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 2/2023
 
 Kokouksessa käytiin läpi asiantuntijaryhmän tämän vuoden suunnitelma, liitteenä, siitä käytiin keskustelua ja kiiteltiin kovasti valmistelua ja suunnitelmia tälle vuodelle.
