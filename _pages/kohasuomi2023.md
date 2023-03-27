@@ -16,6 +16,9 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ## Viikon 13 muistiot
 
 * Apache-konfiguraatiot (skel/setEnv:it mm. MEMCACHED NAMESPACE/lastu/MV/OPAC-konffi/http redirect? https://linuxize.com/post/redirect-http-to-https-in-apache/)
+* Päivystysvuorot viikosta 14 eteenpäin
+* Lumpeesta ei ole lähtenyt printti viestejä 13.2. alkaen
+  * Sama ongelma kuin viime vuoden lopulla, yksi viallinen zip-tiedosto estää kaiken liikenteen 
 
 ## Viikon 12 muistiot
 
