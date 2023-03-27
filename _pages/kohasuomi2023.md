@@ -15,11 +15,19 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 13 muistiot
 
+### Maanantai 27.3.2023 klo 10
+
+Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
+
 * Apache-konfiguraatiot (skel/setEnv:it mm. MEMCACHED NAMESPACE/lastu/MV/OPAC-konffi/http redirect? https://linuxize.com/post/redirect-http-to-https-in-apache/)
+  * Keskustellaan torstain palsussa
 * Päivystysvuorot viikosta 14 eteenpäin
 * Lumpeesta ei ole lähtenyt printti viestejä 13.2. alkaen
   * Sama ongelma kuin viime vuoden lopulla, yksi viallinen zip-tiedosto estää kaiken liikenteen 
+  * Emmi poistaa viallisen zipin
+  * tsekit ei ole valittanut pending-tilaisista viesteistä jostain syystä
 * Ke klinikka, ketkä mukana?
+  * Ari, Anneli ja Lari
 
 ## Viikon 12 muistiot
 
