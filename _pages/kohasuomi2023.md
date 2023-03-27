@@ -19,6 +19,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 * Päivystysvuorot viikosta 14 eteenpäin
 * Lumpeesta ei ole lähtenyt printti viestejä 13.2. alkaen
   * Sama ongelma kuin viime vuoden lopulla, yksi viallinen zip-tiedosto estää kaiken liikenteen 
+* Ke klinikka, ketkä mukana?
 
 ## Viikon 12 muistiot
 
