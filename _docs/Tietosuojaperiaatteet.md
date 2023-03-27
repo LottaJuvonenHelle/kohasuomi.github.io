@@ -1,5 +1,5 @@
 ---
-title: 'Koha-Suomi Oy:n tietosuoja ja -turvaperiaatteet'
+title: 'Koha-Suomi Oy:n tietosuoja- ja turvaperiaatteet'
 permalink: /dokumentaatio/tietosuojaperiaatteet/
 redirect_from:
   - /theme-setup/
