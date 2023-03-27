@@ -8,6 +8,10 @@ toc: true
 
 Tällä sivulla on kirjastoille tarkoitettuja ohjeita ja hyviä käytäntöjä Koha-järjestelmän tietoturvasta ja turvallisuudesta huolehtimiseen.
 
+## Koha-Suomen tietosuoja- ja turvaperiaatteet
+
+[Koha-Suomen tietosuoja- ja turvaperiaatteet](/dokumentaatio/tietosuojaperiaatteet/)
+
 ## Yleistä
 
 Koha-käyttöön suositeltava selain on Firefox ESR (Extended Support Release). Selainta on Kohaa käytettäessä hyvä käyttää yksityisen selauksen tilassa (Private Browsing). Kuten normaalia, linkkien seuraamisessa tulee noudattaa varovaisuutta eikä "epämääräisiä" linkkejä tule koskaan avata.
