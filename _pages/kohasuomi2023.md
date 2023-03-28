@@ -15,6 +15,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 13 muistiot
 
+### Torstai 30.3.2023 klo 10
+
+Läsnä:
+
+* Versionvaihdon aloitusajankohta, eli kellonaika?
+
 ### Maanantai 27.3.2023 klo 10
 
 Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
