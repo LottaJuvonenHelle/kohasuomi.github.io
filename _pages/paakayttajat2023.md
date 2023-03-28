@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13 muistio
 
 Aika: 28.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI),
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme)
 
 **Yhteiset**
 * nideryhmien käyttöönottoaikataulu
@@ -32,6 +32,13 @@ Kuulumiset etelästä pohjoiseen.
 **OUTI**
 * Ei mitää erityistä. 
 * Yhdestä kirjastosta on tullut ihmettelyä, että yhdellä asiakkaalla mobiilikortin viivakoodi ei ollut näkynyt verkkokirjaston Kirjastokortit-sivulla, kun hänen maksuraja oli ylittynyt. Viivakoodin tilalla oli ollut  teksti "Asiakas lainauskiellossa" tjs. Kun maksut oli maksettu, mobiilikortti oli tullut näkyviin. Tuessa testattu, mutta vastaavaa ongelmaa ei ole saatu aikaan. Myös Finna-tilillä mobiilikortti näkyy, vaikka asiakkaan maksuraja on ylittynyt. Nyt jälkikäteen tuli mieleen, että olisikohan asiakas ja kirjaston työntekijät katsoneet ensin vahingossa mobiilikorttia asiakkaan tiedoissa väärältä sivulta esim. asiakkaan Omat-tiedot sivulta. Tiedä häntä, sillä kaikki on mahdollista. :D
+
+**Lumme**
+* Kirjeviestien lähettämisessä häiriötilanne 13.2. alkaen. Tilanne huomattu 24.3.
+* Tilejä lukkiutunut ja jäljet näyttävät johtavan Ellibsiin.
+* 100% pääkäyttäjä aloittaa viikolla 14, Hanna Ikonen.
+* Nextin testaus ja säätö jatkuu.
+
 
 ## Viikko 12 muistio
 
