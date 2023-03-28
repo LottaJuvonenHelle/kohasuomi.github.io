@@ -17,9 +17,11 @@ Läsnä:
 
 **Yhteiset**
 * nideryhmien käyttöönottoaikataulu
+  * Suurin osa pääkäyttäjistä oli sitä mieltä, että käyttöönotto vasta versionvaihdon jälkeen
 * cardnumber
 * [Uudet virkailijaoikeudet](https://github.com/KohaSuomi/Koha-22x/wiki/Uudet-virkailijaoikeudet)
 * SIP2-pyynnöt, teettehän myös tiketin, kun laitatte tunnuspyynnön sähköpostiin.
+* [Kimppojen logot voi laittaa tähän tikettiin talteen](https://github.com/KohaSuomi/Koha-22x/issues/18)
 
 
 ## Viikko 12 muistio
