@@ -26,6 +26,11 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Ma
 
 Kuulumiset etelästä pohjoiseen.
 
+**Vaski**
+* Koha-testaus työn alla, pyritään testaamaan tietyt seikat pääsiäiseen mennessä.
+* Pohdittiin, onko tarpeen vaihtaa Finnan oletusnäkymä versionvaihdon yhteydessä. Luultavasti ei, mutta testataan Omat tiedot -sivu ja varausten toiminta erityisen tarkasti. Testauksen perusteella päätetään, miten toimitaan. Vaihdossa toki täytyisi varmistaa tilastojen siirtyminen näkymästä toiseen, joten mieluummin pidettäisiin vanha oletusnäkymä.
+* Oltiin kiinnostuneita siitä, mihin kellonaikaan päivitys alkaa 16.5., jotta voidaan tiedottaa henkilökunnalle ja asiakkaille. Ei vielä tarkkaa tietoa, Anneli sanoi että selvittää tätä.
+
 **Vaara**
 * ei mitään erityistä, nextin testausta ja tuotantotietokannan siivousta vajavaisten aineistotietojen (aineistotyyppi epämääräinen yläkäsite) takia
 
