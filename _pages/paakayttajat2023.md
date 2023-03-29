@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13 muistio
 
 Aika: 28.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * nideryhmien käyttöönottoaikataulu
@@ -52,6 +52,9 @@ Kuulumiset etelästä pohjoiseen.
 **Helle**
 * Asiakkaalla on ollut yksi varaus niteettömään tietueeseen. Kohassa asiakkaan Varaukset-välilehdellä yksikään asiakkaan varauksista ei näkynyt.
 * Yksi Sotuteekin käyttäjistä ilmoittanut, että Sotuteekki heittää toiminnosta ulos pikaisesti. Useimmiten yhden haun jälkeen (muutaman minuutin jälkeen). Toisinaan Sotuteekki saattaa pysyä auki vähän kauemmin. 
+
+**Kyyti**
+* Haminasta on tiedusteltu tilastojen saamista ulkoiseen järjestelmään ns. johdon työpöydälle. Kohassa ei vielä sellaista ominaisuutta ole. Koha-Suomen strategiassa asia on mainittu. Anneli selvittää vielä, mikä ongelma oli raporttien JSONiin liittyen.
 
 ## Viikko 12 muistio
 
