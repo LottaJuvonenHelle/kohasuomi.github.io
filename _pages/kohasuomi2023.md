@@ -20,6 +20,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * Versionvaihdon aloitusajankohta, eli kellonaika?
+* tikettien vastuutus
 
 ### Maanantai 27.3.2023 klo 10
 
