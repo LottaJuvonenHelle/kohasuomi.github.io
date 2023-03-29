@@ -837,6 +837,8 @@ Tietueiden yhdistämissäännöillä määritetään, mitä tehdään kuvailutie
 
 ![](/assets/files/docs/Asetukset/yhdistamissaannot.png)
 
+### 24.1 Säännön lisääminen
+
 Kun lisää säännön, valitaan ensin _Osio_. Vaihtoehtoja ovat:
 
 * Lähde eli missä Kohan osiossa sääntö pätee. Esim. kuvailueditorissa.
@@ -864,6 +866,8 @@ _Kenttä_-sarakkeeseen kirjoitetaan, mitä MARC-kenttää sääntö koskee. Täs
 
 Tarkin sääntö toteutetaan ensin, jos sääntöjä on useampi.
 
+### 24.2 Valmiit säännöt
+
 _Asetettu_-sarakkeesta voi valita valmiin säännön, jolloin seuraaviin sarakkeisiin tulee valmiiksi sitä koskevat valinnat. Vaihtoehtoja ovat:
 * Mukauta, jolla voi tehdä oman säännön.
 * Suojaa, joka estää kaikki kentän ylikirjoitukset/korvaukset
@@ -871,6 +875,16 @@ _Asetettu_-sarakkeesta voi valita valmiin säännön, jolloin seuraaviin sarakke
 * Lisää uusi, joka sallii kentän lisäämisen, jos alkuperäisessä tietueessa ei ole kyseistä kenttää.
 * Lisää ja liitä, joka sallii kentän liittämisen, mutta ei poistamista tai korvaamista.
 * Suojaa poistamiselta, joka sallii kaikki päivitystoiminnot paitsi poiston
+
+### 24.3 Mukautetut säännöt
+
+_Lisätty_: Sääntö toteutetaan uusille tuotavan tietueen kentille, jos alkuperäisessä tietueessa ei ole kyseistä kenttää. Jos valittuna on _Lisää_, lisätään kenttä, jos _Ohita_, kentän sisältö heitetään menemään.
+
+_Liitetty_: Jos kummassakin tietueessa on sama kenttä samalla sisällöllä, Liitetty-sääntö toteutetaan tulevalle tietueelle, mutta ei alkuperäiselle. Jos valittuna on _Lisätty_, lisätään ne alkuperäiseen tietueeseen, jos _Ohita_, kentän sisältö heitetään menemään.
+
+_Poistettu_ (removed): Jos kummassakin tietueessa on sama kenttä, Poistettu (removed) -sääntö toteutetaan alkuperäiselle tietueelle. Jos valittuna on _Poistettu_, kentän sisältö poistetaan, jos _Ohita_, kentän sisältö pidetään.
+
+_Poistettu_ (deleted): Jos alkuperäisessä tietueessa on kenttiä, joita tulevassa ei ole, Poistettu (deleted) -sääntö toteutetaan tulevalle tietueelle. Jos valittuna on _Poistettu_, kenttä poistetaan alkuperäisestä tietueesta, jos _Ohita_, kentän sisältö säilytetään.
 
 
 ## 25. OAI-joukkojen asetukset
