@@ -833,6 +833,46 @@ Määrityksen voi poistaa klikkaamalla halutun Koha-kentän kohdalla _Poista_-na
 
 ## 24. Tietueiden yhdistämisssäännöt
 
+Tietueiden yhdistämissäännöillä määritetään, mitä tehdään kuvailutietueen kentille, kun tietueita muokataan tai korvataan ulkopuolisesta lähteestä. MARC-kentän voi esim. suojata poistamiselta tai suojata niin, että sen sisältöä ei voi muuttaa.
+
+![](/assets/files/docs/Asetukset/yhdistamissaannot.png)
+
+Kun lisää säännön, valitaan ensin _Osio_. Vaihtoehtoja ovat:
+
+* Lähde eli missä Kohan osiossa sääntö pätee. Esim. kuvailueditorissa.
+* Käyttäjäkategoria eli mitä asiakastyyppiä sääntö koskee.
+* Käyttäjätunnus eli mitä käyttäjiä sääntö koskee.
+
+_Suodata_-sarakkeen vaihtoehdot riippuvat siitä, mitä on valittu _Osiossa_.
+
+Kun on valittuna _Lähde_, on vaihtoehdot seuraavat:
+* \*-merkki eli sääntö koskee kaikkia paikkoja, joissa tietueita voidaan muokata
+* Tietueiden muokkaus eräajona
+* Virkailijatyökalun MARC-muokkaus - eli kuvailueditori
+* Välivarastoitujen MARC-tietueiden tuonti
+* Z39.50 - eli Z39.50/SRU-haku. Tämä koskee myös Koha-Suomen valutustoimintoa.
+* import_lexile.pl (ei tietoa, mikä tämä on)
+
+Kun valittuna on  _Käyttäjäkategoria_, tulevat vaihtoehdot Asiakastyyppeihin määritetyistä tyypeistä.
+
+Kun valittuna on _Käyttäjätunnus_, tulee esille kenttä, johon voi kirjoittaa käyttäjätunnuksen.
+
+_Kenttä_-sarakkeeseen kirjoitetaan, mitä MARC-kenttää sääntö koskee. Tässä ei voi olla osakenttiä. Mahdollisia tapoja on:
+* tarkka kenttä, esim. "650".
+* säännöllinen lauseke (regex), esim. "6..", jolloin kaikki 6xx-kentät täsmää sääntöön.
+* villikorttisääntö "\*", joka täsmää kaikkiin MARC-kenttiin.
+
+Tarkin sääntö toteutetaan ensin, jos sääntöjä on useampi.
+
+_Asetettu_-sarakkeesta voi valita valmiin säännön, jolloin seuraaviin sarakkeisiin tulee valmiiksi sitä koskevat valinnat. Vaihtoehtoja ovat:
+* Mukauta, jolla voi tehdä oman säännön.
+* Suojaa, joka estää kaikki kentän ylikirjoitukset/korvaukset
+* Korvaa, joka sallii kaikki päivitykset vastaaviin kenttiin.
+* Lisää uusi, joka sallii kentän lisäämisen, jos alkuperäisessä tietueessa ei ole kyseistä kenttää.
+* Lisää ja liitä, joka sallii kentän liittämisen, mutta ei poistamista tai korvaamista.
+* Suojaa poistamiselta, joka sallii kaikki päivitystoiminnot paitsi poiston
+
+
 ## 25. OAI-joukkojen asetukset
 
 ## 26. Nidehakukentät
