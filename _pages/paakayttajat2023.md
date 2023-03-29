@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13 muistio
 
 Aika: 28.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * nideryhmien käyttöönottoaikataulu
@@ -48,6 +48,10 @@ Kuulumiset etelästä pohjoiseen.
 * Kunnasta tullut ilmoitus, että verkkomaksaminen on nyt valmis käyttöönottoon. Siirretään sitä versionvaihdon yli, mikäli mahdollista.
 * Koska kuljetustilan peruminen Finnassa tuntuu toimivan ongelmitta muuaalla, otetaan se meilläkin nyt käyttöön.
 * Jos maa on asiakastiedoissa turhaa tietoa, piilotetaan se pois Kohasta ja Finnasta.
+
+**Helle**
+* Asiakkaalla on ollut yksi varaus niteettömään tietueeseen. Kohassa asiakkaan Varaukset-välilehdellä yksikään asiakkaan varauksista ei näkynyt.
+* Yksi Sotuteekin käyttäjistä ilmoittanut, että Sotuteekki heittää toiminnosta ulos pikaisesti. Useimmiten yhden haun jälkeen (muutaman minuutin jälkeen). Toisinaan Sotuteekki saattaa pysyä auki vähän kauemmin. 
 
 ## Viikko 12 muistio
 
