@@ -212,7 +212,7 @@ Käytiin läpi asiantuntijaryhmän vuosisuunnitelma.
 ### 7. Muut asiat
 
 **Webkake-sopimukset**
-* Webkake on käytössä Lappi, Vaara (Joensuu), OUTI (Oulu), Kyyti, Lumme (Mikkeli). 
+* Webkake on käytössä Lappi, Vaara (Joensuu), OUTI (Oulu), Kyyti, Lumme (Mikkeli), Helle. 
 * Hakosalon Jukalta tulossa sopimusluonnos, jota halukkaat voivat yhdessä käsitellä.
 
 ### 8. Seuraavat kokoukset
