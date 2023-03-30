@@ -24,6 +24,7 @@ Läsnä:
 * palvelimen kuorma
 * Apache-konfiguraatiot
 * Heikkisen Antti kyseli slackista erään tietuepaketin tilasta, onko kellään näistä havaintoa miten pitäisi päivittyä?
+* [Kirkekseen numerointikaavat ja ilmestymistiheydet](https://github.com/KohaSuomi/Kirkes/issues/9)
 
 ### Maanantai 27.3.2023 klo 10
 
