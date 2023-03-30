@@ -21,6 +21,9 @@ Läsnä:
 
 * Versionvaihdon aloitusajankohta, eli kellonaika?
 * tikettien vastuutus
+* palvelimen kuorma
+* Apache-konfiguraatiot
+* Heikkisen Antti kyseli slackista erään tietuepaketin tilasta, onko kellään näistä havaintoa miten pitäisi päivittyä?
 
 ### Maanantai 27.3.2023 klo 10
 
