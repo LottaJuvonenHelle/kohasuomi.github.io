@@ -20,6 +20,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * Versionvaihdon aloitusajankohta, eli kellonaika?
+  * ma 15.5.2023 klo 22
 * tikettien vastuutus
 * palvelimen kuorma
 * Apache-konfiguraatiot
