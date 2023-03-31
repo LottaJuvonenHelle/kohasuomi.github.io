@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13 muistio
 
 Aika: 28.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * nideryhmien käyttöönottoaikataulu
@@ -55,6 +55,9 @@ Kuulumiset etelästä pohjoiseen.
 
 **Kyyti**
 * Haminasta on tiedusteltu tilastojen saamista ulkoiseen järjestelmään ns. johdon työpöydälle. Kohassa ei vielä sellaista ominaisuutta ole. Koha-Suomen strategiassa asia on mainittu. Anneli selvittää vielä, mikä ongelma oli raporttien JSONiin liittyen.
+
+**Lappi**
+* Ei mitää erityistä. Versionvaihtoa ja normi ylläpitoa.
 
 ## Viikko 12 muistio
 
