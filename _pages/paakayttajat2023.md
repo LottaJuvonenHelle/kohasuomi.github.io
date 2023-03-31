@@ -13,12 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13 muistio
 
 Aika: 28.3.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Pia Kusmin (Lappi), Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * nideryhmien käyttöönottoaikataulu
   * Suurin osa pääkäyttäjistä oli sitä mieltä, että käyttöönotto vasta versionvaihdon jälkeen
-* cardnumber
+* cardnumber-kenttään käyttäjätunnus, jotta voidaan ottaa käyttää triggeri, joka pitää cardnumberin ja userid:n synkassa keskenään.
 * [Uudet virkailijaoikeudet](https://github.com/KohaSuomi/Koha-22x/wiki/Uudet-virkailijaoikeudet)
 * SIP2-pyynnöt, teettehän myös tiketin, kun laitatte tunnuspyynnön sähköpostiin.
 * [Kimppojen logot voi laittaa tähän tikettiin talteen](https://github.com/KohaSuomi/Koha-22x/issues/18)
@@ -91,8 +91,8 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
     * 12.4. Lähetä laskuja -> tämä pitäis saada pois numeroinnista
     * 12.5-12.10 Asiakkaiden poisto - Tietueiden muokkaus: Lappi (HUOM! osa siirtynyt Kuvailu-osioon)
     * 12.11 Automaattinen niteen muokkaus: Kati Sillgren
-    * 12.12 MARC-muokkauksen pohjat: Anneli Österman
-    * 12.13 Kalenteri: Kati Sillgren
+    * 12.12 MARC-muokkauksen pohjat: Kati Sillgren
+    * 12.13 Kalenteri: Anneli Österman
     * 12.14 Lokien katselu: Tuomas Kunttu
     * 12.15-12.17 Uutiset-Siirtokokoelmat: Tuomas Kunttu
   * [Kohan ohje suomeksi -muotoiluohjeet](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus)
