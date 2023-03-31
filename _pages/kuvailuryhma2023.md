@@ -8,6 +8,80 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2023'
 ---
 
+## Kuvailuryhmän muistio 3/2023
+
+Aika: 22.3.2023 klo 13.15-14:34
+
+Osallistujat: Helena Backman-Karvonen (Helle), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Päivi Knuutinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+Poissa: Mauri Aittaniemi (Lappi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Johanna Ranta.
+
+#### 2.	Asiantuntijaryhmästä kysymys ####
+
+Kehitysehdotus <https://tiketti.koha-suomi.fi/issues/4005> sisältää kuvailuryhmälle tehtävän: ”Kuvailutiedot - säännöllisesti toimiva automatiikka turhien niteettömien tietueiden ja emottomien osakohteiden poistoon halutuin säännöin (esim. rajataan toiminnosta pois tietyt aineistolajit). Turha niteetön tietue on hankala tunnistaa koneellisesti. Jos saadaan luotua hyvä säännöstö, niin sitten voidaan tehdä ajoja.” Pystytäänkö luomaan yhteinen sääntö, jonka mukaan turhat niteettömät tietueet voidaan siivota tietokannasta?
+
+<ul>
+  <li>OUTIssa säästettäviä niteettömiä nimekkeitä ainakin kausijulkaisuissa ja mikrofilmeissä,
+Vaarassa kausijulkaisujen emot ja jotain verkkoaineistoja, Kyytissä e-kirjat ja e-äänikirjat, Hellessä Viddla-elokuvat. Vaskissa kaikki tyhjät tietueet ovat turhia tietueita </li>
+  <li>Niteettömät tietueet voi poistaa ajolla, jos tietyt aineistolajit (verkkoaineistot, kausijulkaisut, mikrofilmit) rajataan sen ulkopuolelle </li>
+</ul>
+
+#### 3.	Ruotsinkielisen kaunokirjallisuuden asiasanojen järjestys ####
+
+Helle-kirjastoista on tullut toive, että ruotsinkieliset asiasanat näkyisivät ensimmäisinä Finnan tietuenäytöllä ja sitten vasta suomenkieliset. Joissakin tietueissa suomenkieliset ovat ensimmäisinä, esim. Ragnar Jónassonin teos Utlämnad.
+<ul>
+  <li>Finnasta on kysytty asiasanojen järjestyksestä. Vastaus: ”Asiasanojen järjestys hieman vaikea säätää asetusmuutoksella tai ei näytä löytyvän asetusta, jolla voisi säätää järjestystä. Tuo kehitysehdotus on edelleen listalla.” </li>
+  <li>Asiasanojen järjestykseen voi vaikuttaa lisäämällä suomenkieliset asiasanat vasta kaikkien ruotsinkielisten jälkeen, mutta tekevätkö kaikki Melinda-kirjastot niin. Osa kirjastoista ei lisää suomenkielisiä asiasanoja ruotsinkieliseen kaunokirjallisuuteen ollenkaan. </li>
+  <li>Kyytissä lisätty suomenkieliset Kaunon asiasanat ensin, koska Melindan automatiikka lisää suomenkieliset YSO-, YSO-paikat-, YSO-aika- ja SLM-termit ruotsinkielisten edelle </li>
+  <li>Helena kysyy Siskulta asiasanojen järjestyksestä </li>
+  <li>Lisäys 29.3.: Asiasanojen järjestelyautomatiikasta kysytty Melindasta 22.3.: Lähtökohtaisesti järjestyksen säilyttämisestä ei luvata mitään, koska sen säilyttäminen on vaikeaa/monimutkaista. Esim. tietueiden massakorjausohjelma voi muuttaa järjestyksiä. Asiasanojen järjestystä on ohjelmoitu kuitenkin näin: ”yso/fin tulee ensin (ja niissä Fenni-keepatut ensin), sitten yso/swe, sitten on jotain ind2-pohjaisia sorttauksia ja viimeiseksi tulevat asiasanat, joiden ind2=4.” 655-kentässä on sama logiikka slm-sanaston osalta. Tietueiden välillä on kuitenkin paljon eroja riippuen siitä, mistä ne ovat Melindaan tulleet ja onko niitä käsitelty massakorjaimilla. </li>
+</ul>
+
+#### 4.	Aloittelevan kuvailijan vertaistukiryhmä/kanava Koha Teamsiin, mikä nimeksi? ####
+
+Kanavan nimeksi tulee Kysy kuvailusta.
+
+#### 5.	Kuulumisia Koha-Suomi Melindaan -työryhmän kokouksesta 21.3.2023 ####
+
+<ul>
+  <li>TäTi-Melinda putki edelleen vaiheessa, tällä hetkellä odotetaan lisää tietueiden katselmoijia </li>
+  <li>Koha-Suomi tarkistaa, tarvitaanko Kirkes-kirjastoissa RDA-koulutusta. Pyydetään seuraavaan kuvailuryhmän kokoukseen edustaja myös Kirkes-kirjastoista </li>
+  <li>Helmet-Melinda-erätuontiputken käyttöönoton aiheuttamia tuplakenttiä tietueissa ei kannata toistaiseksi korjata itse, koska korjaamattomat tietueet saattavat tulla takaisin uuden päivityksen myötä </li>
+</ul>
+
+#### 6.	Uusia tikettejä ####
+ 
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/348" target="_blank">Emottomien osakohteiden poisto ajona</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/458" target="_blank">Tuplatietue TäTissä, kun yrittää muokata tietuetta</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/454" target="_blank">Tilaustietueet eivät yhdisty aina oikein, kun 024a-kentästä tarkistetaan vain ensimmäinen osakenttä</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/475" target="_blank">Osakohteiden näkyminen, jos niiden 245a-kentässä ei ole mitään</a> </li>
+</ul>
+
+#### 7.	<a href="https://github.com/KohaSuomi/Koha/issues/288" target="_blank">Tiketti 288: Signumbuilderista pois 130a-kenttä</a> ####
+
+Tämä korjaantuu seuraavassa versiossa. Muistakaa testata, kun testaatte uutta versiota
+
+#### 8.	Muita asioita ####
+
+<ul>
+  <li>Jos TäTissä tulee jotain ongelmia tietueiden viennissä tai tuonnissa Melindaan, jotka vaikuttavat valutuksen kautta paikalliskantoihin, niin olisi hyvä ilmoittaa Teamsissa, mitä on tapahtunut ja onko ongelma jo korjauksessa tai korjattu. Väärin valumiset näkyvät heti paikalliskantojen siirtoraportilla. Varsinkin osakohteellisten tietueiden kanssa on ylipäänsä oltava tarkkana.</li>
+  <li>Toivottiin ruotsinkielistä kuvailupohjaa kirjoille -> Tehdään TäTiin, nimeksi Kirja (Ruotsi) </li>
+  <li>Vuosisuunnitelma 2023: Käsitellään seuraavassa kokouksessa, Antti lähettää alustavan pohjan kommentoitavaksi sitä ennen. </li>
+  <li>Seuraavassa kokouksessa käsiteltävänä myös uuden version kuvailupohjiin liittyvä järjestelmäasetus: <a href="https://github.com/KohaSuomi/Koha-22x/wiki/Uutta#applyframeworkdefaults" target="_blank">ApplyFrameworkDefaults</a> </li>
+  <li>Koha-klinikka 29.3. </li>
+</ul>
+
+#### 9. Seuraava kokous keskiviikkona 19.4.2023 klo 13.15- ####
+
+
+---
 ## Kuvailuryhmän muistio 2/2023
 
 Aika: 22.2.2023 klo 13.15-14.20
