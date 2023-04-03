@@ -17,11 +17,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 3.4.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Lari, Emmi, Ville, Pasi, Lasse, Kodo
 
 * versionvaihdon tiketit
   * muista sulkea tiketti, kun piikissäsi oleva tiketti on saanut 2-3 hyväksyvää testausta.
-
+* kerrattiin parin viikon aikana tulleet ongelmat ja tapahtumat
 
 ## Viikon 13 muistiot
 
@@ -35,6 +35,7 @@ Läsnä:
 * palvelimen kuorma
 * Apache-konfiguraatiot
 * Heikkisen Antti kyseli slackista erään tietuepaketin tilasta, onko kellään näistä havaintoa miten pitäisi päivittyä?
+  * Kellään ei tietoa, mitä listan tietueet ovat. Odotetaan Johannan paluuta.
 * [Kirkekseen numerointikaavat ja ilmestymistiheydet](https://github.com/KohaSuomi/Kirkes/issues/9)
 * tieteellisten versionvaihto-ongelmat
 
