@@ -10,6 +10,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 14 esitylista
+
+Aika: 4.4.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+- Versionvaihdon työt aloitetaan ma 15.5.2023 klo 22 tietokanta-ajoilla. Eli palvelut on pois käytöstä tuosta lähtien.
+- Uusia pääkäyttäjiä: Lumme ja Kyyti
+
 ## Viikko 13 muistio
 
 Aika: 28.3.2023 klo 9.15 <br />
