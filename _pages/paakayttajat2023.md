@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14 esitylista
 
 Aika: 4.4.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), 
+Läsnä: Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 - Koha-Suomen harjoittelija
@@ -25,6 +25,10 @@ Pohjoisesta etelään.
 
 **OUTI**
 * Normaalia ylläpitoa ja nextin testausta.
+
+**Vaara**
+* Normaalia ylläpitoa ja nextin testausta.
+
 
 ## Viikko 13 muistio
 
