@@ -699,7 +699,7 @@ Nidekierron huomautuksilla voi säätää oletussäännöt kirjastoittain ja asi
 
 ![](/assets/files/docs/Asetukset/nidekierronhuomautukset.png)
 
-Asetusta muutetaan klikkaamalla hiirelle halutun asiakastyyppi/nidetyyppi-yhdistelmän kohdalla.
+Asetusta muutetaan klikkaamalla hiirellä halutun asiakastyyppi/nidetyyppi-yhdistelmän kohdalla.
 
 ## 11. Kaupungit ja kunnat
 
@@ -721,6 +721,26 @@ Uusi tieto lisätään valitsemalla _Uusi kaupunki_, jonka jälkeen täytetään
 Tallenna tiedot valitsemalla _OK_ ja peruuta tietojen tallennus valitsemalla _Peruuta_.
 
 ## 12. Noutopalvelu
+
+Noutopalvelu-toiminnolla voidaan hallinnoida asiakaskäyntejä esim. sellaisissa tilanteissa, että kirjasto on muuten kiinni, mutta asiakkaat voivat tulla tiettyyn aikaan hakemaan varauksensa/lainansa kirjastolta.
+
+Palvelun tiedot määritetään kirjastokohtaisesti ja vaatii, että järjestelmäasetus _CurbsidePickup_ on käytössä. Jotta asiakkaat voisivat itse varata noutoaikoja, pitäisi käytössä olla Kohan oma verkkokirjasto. Finna ei tue tätä toimintoa.
+
+![](/assets/files/docs/Asetukset/noutopalvelu.png)
+
+Mene halutun kirjaston välilehdelle.
+
+* _Ota käyttöön_: Laita rasti tähän, jotta noutopalvelu aktivoituu kyseiselle kirjastolle.
+* _Noutojen kesto_: Määrittele, kuinka monta minuuttia nouto kestää. Esim. 5 minuuttia.
+* _Maksimimäärä asiakkaita yhdelle jaksolle_: Maksimimäärä yhtäaikaisia noutoja yhdelle jaksolle.
+* _Asiakkaan ajastama nouto_: Sallii asiakkaiden ajastaa itse noutopalveluajan. Huom! Vaatii toimiakseen Kohan oman verkkokirjaston, jota meillä ei ole käytössä.
+* _Ota käyttöön vain odottaville varauksille_: Otetaan käyttöön vain, jos asiakkaalla on noudettavia varauksia.
+
+* _Noutopalvelun tunnit_: Merkitse viikonpäivät ja kellonajat, jolloin noutopalvelu on käytössä. Uuden jakson saa määritettyä _Lisää_-napilla.
+
+_Tallenna asetukset_ -napilla saat tallennettua tekemäsi määritykset.
+
+Noutopalvelu löytyy Kohan Lainaus ja palautus -osiosta.
 
 ## 13. Asiakkaan rajoitukset
 
