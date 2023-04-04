@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14 esitylista
 
 Aika: 4.4.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Veli-Pekka Marjoniemi (OUTI), 
 
 **Yhteiset**
 - Koha-Suomen harjoittelija
@@ -22,6 +22,9 @@ Läsnä:
 - huoltoikkuna tulossa 12.4.2023, tiedossa katkoja tietokanta-ajojen vuoksi.
 
 Pohjoisesta etelään.
+
+**OUTI**
+* Normaalia ylläpitoa ja nextin testausta.
 
 ## Viikko 13 muistio
 
