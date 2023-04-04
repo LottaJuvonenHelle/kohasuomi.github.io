@@ -16,8 +16,12 @@ Aika: 4.4.2023 klo 9.15 <br />
 Läsnä:
 
 **Yhteiset**
+- Koha-Suomen harjoittelija
 - Versionvaihdon työt aloitetaan ma 15.5.2023 klo 22 tietokanta-ajoilla. Eli palvelut on pois käytöstä tuosta lähtien.
 - Uusia pääkäyttäjiä: Lumme ja Kyyti
+- huoltoikkuna tulossa 12.4.2023, tiedossa katkoja tietokanta-ajojen vuoksi.
+
+Pohjoisesta etelään.
 
 ## Viikko 13 muistio
 
