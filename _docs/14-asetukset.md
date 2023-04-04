@@ -695,7 +695,30 @@ Kustannukset voi merkitä haluamillaan minimi- ja maksimiarvoilla, esim. 1-100. 
 
 ## 10. Nidekierron huomautukset
 
+Nidekierron huomautuksilla voi säätää oletussäännöt kirjastoittain ja asiakastyypeittään siitä, lähetetäänkö laina- ja palautuskuitit. Nämä säännöt ohitetaan asiakaskohtaisilla viestiasetuksilla. Oletuksena on, että viestit lähetetään.
+
+![](/assets/files/docs/Asetukset/nidekierronhuomautukset.png)
+
+Asetusta muutetaan klikkaamalla hiirelle halutun asiakastyyppi/nidetyyppi-yhdistelmän kohdalla.
+
 ## 11. Kaupungit ja kunnat
+
+Kaupungit ja kunnat -osiossa pystyy lisäämään postinumerot ja postitoimipaikat ikään kuin auktorisoiduiksi arvoiksi, jotka näkyvät asiakkaan lisäysnäytöllä alasvetovalikossa. Käytännössä tänne on laitettu kimpan alueen postinumerot, jotta alasvetovalikosta ei tule turhan pitkä. Postinumeroiden lisäys parantaa tietojen oikeellisuutta asiakastiedoissa, kun tiedot tulee valinnan jälkeen automaattisesti oikeassa muodossa ja oikeaan kenttään.
+
+![](/assets/files/docs/Asetukset/kaupungit.png)
+
+* _Toiminnot_-sarakkeesta voit joko muokata tai poistaa jo olemassa olevan postinumeron.
+
+Uusi tieto lisätään valitsemalla _Uusi kaupunki_, jonka jälkeen täytetään vähintäänkin pakolliset tiedot.
+
+![](/assets/files/docs/Asetukset/kaupungit1.png)
+
+* _Kunta_: Lisää tähän postitoimipaikka.
+* _Osavaltio_: Ei tarpeellinen Suomessa, jätä tyhjäksi.
+* _Postinumero_: Lisää tähän postinumero.
+* _Maa_: Ei tarpeellinen Suomessa, jätä tyhjäksi.
+
+Tallenna tiedot valitsemalla _OK_ ja peruuta tietojen tallennus valitsemalla _Peruuta_.
 
 ## 12. Noutopalvelu
 
