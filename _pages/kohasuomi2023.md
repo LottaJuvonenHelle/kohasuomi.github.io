@@ -15,6 +15,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 14 muistiot
 
+### Torstai 6.4.2023 klo 10
+
+* Suomi.fi paperipostitukseen liittyvä käyttökatko 15.4.2023 klo 10.00–18.00
+* Finnassa huolto tiistaina 11.4.2023 klo 13 - 15
+
 ### Maanantai 3.4.2023 klo 10
 
 Läsnä: Anneli, Lari, Emmi, Ville, Pasi, Lasse, Kodo
