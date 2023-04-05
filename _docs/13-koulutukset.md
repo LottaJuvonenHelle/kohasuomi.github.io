@@ -13,6 +13,16 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 ## Kaikille kohdistetut koulutukset
 
+### Koha-klinikka 29.3.2023
+
+Koha-klinikassa 29.3.2023 esiteltiin uuden 22.11 version uusia ominaisuuksia.
+[
+Koha-klinikan tallenne](https://youtu.be/o_Mp_3IQ4Rc)
+
+[Koha-klinikan diasarja](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Uutta.versiossa.22.11.pdf)
+
+Lisätty: 5.4.2023
+
 ### PowerBI-tilastoesittely
 
 [PowerBI-tilastoesittely](https://www.youtube.com/watch?v=fQHNaQ7dCOA)
