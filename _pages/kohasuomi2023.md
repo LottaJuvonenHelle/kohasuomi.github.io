@@ -17,13 +17,22 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 6.4.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi, Ville
 
 * Suomi.fi paperipostitukseen liittyvä käyttökatko 15.4.2023 klo 10.00–18.00
+  * Pasi laittaa cronin tauolle perjantaina ja ma-päivystäjä laittaa cronin taas päälle.
 * Finnassa huolto tiistaina 11.4.2023 klo 13 - 15
 * tikettien tilanne, versionvaihtoon reilu kuukausi
+  * käytiin läpi tilannetta.
 * KohaPerlCon, Call for papers
-* https://github.com/KohaSuomi/Koha-22x/issues/49
+  * laitetaan discussionsiin Kansalliskirjaston ilmoitus.
+* [Järjestelmäasetus: DebarmentsToLiftAfterPayment - ksdev/ks-0006-bug-16223](https://github.com/KohaSuomi/Koha-22x/issues/49)
+  * Anneli kyselee pääkäyttäjien viikkopalaverissa, käyttääkö tätä ominaisuutta joku kimppa.
+* Huhtikuun huoltokatko
+  * tehdään skeemamuutoksia, Emmi testaa testeillä kauan muutoksissa menee.
+  * skeemapäivitysten aikaan katkot ovat mahdollisia.
+  * ei muuta
+* Viikon 15 ma-palaveri siirretään pääsiäisen takia tiistaille klo 12.
 
 ### Maanantai 3.4.2023 klo 10
 
