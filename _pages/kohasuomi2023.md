@@ -23,7 +23,7 @@ Läsnä:
 * Finnassa huolto tiistaina 11.4.2023 klo 13 - 15
 * tikettien tilanne, versionvaihtoon reilu kuukausi
 * KohaPerlCon, Call for papers
-* 
+* https://github.com/KohaSuomi/Koha-22x/issues/49
 
 ### Maanantai 3.4.2023 klo 10
 
