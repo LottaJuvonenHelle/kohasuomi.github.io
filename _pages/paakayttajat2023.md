@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15 esityslista
 
 Aika: 11.4.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski)
+Läsnä: Anni Rajala (Vaski), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset**
 * Oletuskieli -> suomi, tehdään ajo kaikille asiakkaille, jotta ei tulostu sekakielisiä kuitteja. [Liittyy tikettiin Koha-22x/#151](https://github.com/KohaSuomi/Koha-22x/issues/151).
@@ -25,6 +25,9 @@ Läsnä: Anni Rajala (Vaski)
 * Finna-testaus nextiä vasten suurimmaksi osaksi tehty.
 * Verkkomaksamisen testaus? Sovittiin, että Vaski selvittää Finna-toimistolta josko olisi mahdollista järjestää testausmahdollisuus. Testata pitäisi kolmessa eri ympäristössä (Turun oma toteutus, Ceepos, suora Paytrail-yhteys), mutta palataan testaaviin kimppoihin seuraavassa pääkäyttäjäpalaverissa.
 * Testattu asetusta AllowRenewalIfOtherItemsAvailable nextillä (versiossa 22.x tullut muutoksia) ja testauksen perusteella tulkitsee nyt saatavilla oleviksi niteiksi ainoastaan hyllyssä olevat niteet (joilla ei ole erikoistilaa) sekä koti-/siirtoyksikköön kuljettavat niteet. Asetus voi mahdollisesti edelleen aiheuttaa suorituskykyongelmia, OUTIssa on taannoin jouduttu ottamaan asetus pois käytöstä koska asiakkaat eivät pääseet omiin tietoihinsa. Kyytissä asetus on nytkin käytössä. Vaski kokeilee mahdollisesti asetuksen käyttöönottoa heti versiopäivityksen jälkeen.
+
+**OUTI**
+* Ei mitään erikoista.
 
 ## Viikko 14 muistio
 
