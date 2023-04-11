@@ -10,16 +10,24 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 14 esitylista
+## Viikko 15 esityslista
 
-Aika: 4.4.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi)
+Aika: 11.4.2023 klo 9.15 <br />
+Läsnä:
 
 **Yhteiset**
-- Koha-Suomen harjoittelija
+* Oletuskieli -> suomi, tehdään ajo kaikille asiakkaille, jotta ei tulostu sekakielisiä kuitteja. [Liittyy tikettiin Koha-22x/#151](https://github.com/KohaSuomi/Koha-22x/issues/151).
+
+## Viikko 14 muistio
+
+Aika: 4.4.2023 klo 9.15 <br />
+Läsnä: Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Anneli Österman (Koha-Suomi)
+
+**Yhteiset**
+- Koha-Suomen harjoittelija Ville esittäytyi.
 - Versionvaihdon työt aloitetaan ma 15.5.2023 klo 22 tietokanta-ajoilla. Eli palvelut on pois käytöstä tuosta lähtien.
 - Uusia pääkäyttäjiä: Lumme ja Kyyti
-- huoltoikkuna tulossa 12.4.2023, tiedossa katkoja tietokanta-ajojen vuoksi.
+- huoltoikkuna tulossa 12.4.2023, tiedossa katkoja tietokanta-ajojen vuoksi. [Huoltotiedote](https://github.com/KohaSuomi/Koha/discussions/491)
 
 Pohjoisesta etelään.
 
