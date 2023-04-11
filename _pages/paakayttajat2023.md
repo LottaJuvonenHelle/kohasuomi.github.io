@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * Oletuskieli -> suomi, tehdään ajo kaikille asiakkaille, jotta ei tulostu sekakielisiä kuitteja. [Liittyy tikettiin Koha-22x/#151](https://github.com/KohaSuomi/Koha-22x/issues/151).
+* Muistattehan tehdä tiketit sip-tunnuspyynnöistä. Ei pelkkää sähköpostiviestiä, jotta muutoksista/pyynnöistä jää jälki tikettijärjestelmään ja ne saadaan tilastoitua.
 
 ## Viikko 14 muistio
 
