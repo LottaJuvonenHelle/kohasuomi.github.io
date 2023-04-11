@@ -13,6 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 15 muistiot
+
+### Tiistai 11.4.2023 klo 12
+
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi, Ville
+
+* [Ilmoitusten kieli -valinnaksi oletuksena Suomi](https://github.com/KohaSuomi/Koha-22x/issues/154)
+  * Pystyttäneen toteuttaa
+* Kontrollerin vaihto keskiviikkona vaikuttaa suunniteltuihin tietokanta-ajoihin.
+  * Emmi tekee old_issues-taulun ajon ti-ke yönä, koska niissä menee kauimmin aikaa, eikä ole varmuutta, että ne valmistuvat 8.30 mennessä, jolloin kontrollerin vaihto alkaa.
+
+
 ## Viikon 14 muistiot
 
 ### Torstai 6.4.2023 klo 10
