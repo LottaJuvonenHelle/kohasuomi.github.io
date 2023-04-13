@@ -17,9 +17,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 13.4.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi, Ville
 
 * ruotsinkieliset käännökset
+* tietokanta-ajot suurin osa tehty, outissa vielä muutama ajo tekemättä.
+* kontrollerin vaihto meni ok. Loppujen lopuksi sinne oli vaihdettu vain levy, joka oli mennyt rikki.
 
 
 ### Tiistai 11.4.2023 klo 12
