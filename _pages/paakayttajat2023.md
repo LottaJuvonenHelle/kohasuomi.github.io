@@ -10,10 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 15 esityslista
+## Viikko 16 esityslista
+
+Aika: 18.4.2023 klo 9.15 <br />
+Läsnä:
+
+
+**Yhteiset**
+* Tikettien tekeminen ja kommentointi -ohje siirretty Redminestä Githubiin [Koha-repositorion wikiin](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi).
+* Käännösmuutos varauksenteko-sivulle?
+  * Varauksenteko-sivulta on piilotettu asiakashaun hakutulostaulukko, mistä johtuen asiakkaan hakeminen onnistuu käytännössä vain kirjastokortilla tai koko nimellä niin, että tuloksena on yksi ainoa vastaus. Hakukentän yläpuolella on kuitenkin ohje "Syötä kirjastokortin numero tai osa nimestä:" eli englanniksi "Enter patron card number or partial name:". On ehdotettu, että käännöstä muutettaisiin.
+  * Jos muutos tehdään, on se sellainen, mikä pitää ylläpitää Koha-Suomessa jokaisessa versionvaihdossa. Muita vastaavia muutoksia on esim. phone-kentän nimeäminen Lankapuhelimeksi ja mobile-kentä Matkapuhelimeksi (yhteissö primary phoe ja other phone). Koska muutostarve johtuu meidän omasta piilotuksesta (pyritään vähentämään asiakastietojen katseluja), ei ole perusteltua muuttaa yhteisön käännöstiedostoihin käännöstä.
+
+## Viikko 15 muistio
 
 Aika: 11.4.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle)
+Läsnä: Anni Rajala (Vaski), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Kati Sillgren (Helle), Anneli Österman, Pasi Kallinen ja Kodo Korkalo (Koha-Suomi)
 
 **Yhteiset**
 * Oletuskieli -> suomi, tehdään ajo kaikille asiakkaille, jotta ei tulostu sekakielisiä kuitteja. [Liittyy tikettiin Koha-22x/#151](https://github.com/KohaSuomi/Koha-22x/issues/151).
