@@ -496,7 +496,6 @@ Esimerkkikonfiguraatio:
       PUHETAL: Recordings
     patronCategories:
       - HENKILO
-      - KAUKOLAINA
       - KOTIPALVEL
       - LAPSI
       - MUUHUOL
