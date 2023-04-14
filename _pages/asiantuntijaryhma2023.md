@@ -20,11 +20,33 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 19.4.2023 klo 9<br />
 Läsnä:
 
+### 1. Arin ajankohtaiset
+
+### 2. Versionvaihdon tilanne
+
+### 3. KohaPerlCon2023
+
+[Call for papers](https://github.com/KohaSuomi/Koha/discussions/492) - ehdota aihetta KohaConiin.
+
 ### 4. Kehitysehdotusten läpikäyntiä
 
+Käydään läpi vanhoja, käsittelemättömiä hankintaehdotuksia. Näiden jälkeen vanhoja käsiteltäviä kehitys ehdotuksia on vielä vajaa 50 kpl.
+
+* [Tiketti 3876 - Asiakastiedot: vanhentunut Sotu-termi vaihtoon](https://tiketti.koha-suomi.fi/issues/3876)
+* [Tiketti 3917 - Tilaustietuetta tehtäessä pitäisi kaikki tarvittavat MARC-kentät indikaattoreineen olla tehtävissä tilausten puolella](https://tiketti.koha-suomi.fi/issues/3917)
+* [Tiketti 3918 - Uudesta tyhjästä tietueesta -toimintoon ean-koodi ja tuotetunnus](https://tiketti.koha-suomi.fi/issues/3918)
+* [Tiketti 3919 - Hankintahinnan ja korvaushinnan pitäisi siirtyä tilitystiedoista niteen tietoihin](https://tiketti.koha-suomi.fi/issues/3919)
+* [Tiketti 3923 - Uudesta tyhjästä tietueesta -toimintoon ikärajoitetun aineiston ikäraja](https://tiketti.koha-suomi.fi/issues/3923)
 * [Tiketti 4084 - Työkalut/Asiakkaiden muokkaus eräajona -toimintoon lisää muokattavia kenttiä](https://tiketti.koha-suomi.fi/issues/4084)
 * [Tiketti 4089 - Niteen poisto poistaa lainan asiakkaan lainahistoriasta](https://tiketti.koha-suomi.fi/issues/4089)
 * [Tiketti 4133 - Kalenterin muokkaus: tietyn viikonpäivän kiinniolo tiettynä ajanjaksona -vaihtoehdon lisäys](https://tiketti.koha-suomi.fi/issues/4133)
+
+
+### 5. Muut asiat
+
+### 6. Seuraava kokous
+
+Seuraava kokous on ke 24.5.2023 klo 9.
 
 ## Asiantuntijaryhmän muistio 3/23
 
