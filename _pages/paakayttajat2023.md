@@ -21,6 +21,8 @@ Läsnä:
 * Käännösmuutos varauksenteko-sivulle?
   * Varauksenteko-sivulta on piilotettu asiakashaun hakutulostaulukko, mistä johtuen asiakkaan hakeminen onnistuu käytännössä vain kirjastokortilla tai koko nimellä niin, että tuloksena on yksi ainoa vastaus. Hakukentän yläpuolella on kuitenkin ohje "Syötä kirjastokortin numero tai osa nimestä:" eli englanniksi "Enter patron card number or partial name:". On ehdotettu, että käännöstä muutettaisiin.
   * Jos muutos tehdään, on se sellainen, mikä pitää ylläpitää Koha-Suomessa jokaisessa versionvaihdossa. Muita vastaavia muutoksia on esim. phone-kentän nimeäminen Lankapuhelimeksi ja mobile-kentä Matkapuhelimeksi (yhteissö primary phoe ja other phone). Koska muutostarve johtuu meidän omasta piilotuksesta (pyritään vähentämään asiakastietojen katseluja), ei ole perusteltua muuttaa yhteisön käännöstiedostoihin käännöstä.
+* [Damaged-tila yliajaa muut tilat Finnassa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2#issuecomment-1506892120)
+  * Susanna: Finnassa pystytään priorisoimaan tilat. Priorisointi on toteutettuna tällä hetkellä meidän testinäkymään vaski.finna-pre.fi, mutta sitä on ilman Kohaan pääsyä muiden hankala testata. Meidän testauksen perusteella kaikki näyttää menevän oikein. Miten edetään?
 
 ## Viikko 15 muistio
 
