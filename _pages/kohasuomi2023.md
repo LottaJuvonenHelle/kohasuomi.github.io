@@ -18,6 +18,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ### Maanantai 17.4.2023 klo 10
 
 * [Jos DefaultHoldExpirationdate on asetettu, varauksen aloituspäivä menee asetuksen mukaiseksi](https://github.com/KohaSuomi/Koha-22x/issues/42) - ei etene yhteisössä tarpeeksi nopeasti, mitä tehdään? Tiketti [Varauksen voimassaoloaika ei päivity](https://github.com/KohaSuomi/Koha-22x/issues/104) on myös riippuvainen tästä korjauksesta.
+  * viedään yhteisöön korjaus ja tuodaan korjauksineen meille 
+* Patet olleet pois päältä viikonlopun Suomi.fi-huoltokatkon vuoksi (sovittu viikon 14 palaverissa)
 
 
 ## Viikon 15 muistiot
