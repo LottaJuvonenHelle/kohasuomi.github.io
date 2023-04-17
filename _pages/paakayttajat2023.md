@@ -33,6 +33,8 @@ Läsnä:
    * Message queue has messages pending for 214 days (Helle)
    * Message queue has messages pending for 3 days (Lumme)
    * Voidaanko merkitä senteiksi tai failedeiksi esimerkiksi cronilla?
+
+* Käykää läpi kirjepohjat ja muistakaa, että kirjeviestirajapinta/suomi.fi _ei_ rivitä tekstejä automaattisesti. Jos tekstitrivit ovat liian pitkiä, niin rivit yksinkertaisesti katkeavat kirjeellä oikeasta laidasta. Ainakin Juvan kirjeissä näyttää olevan hyvin pitkiä rivejä. / Kodo
   
 * Tikettien tekeminen ja kommentointi -ohje siirretty Redminestä Githubiin [Koha-repositorion wikiin](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi).
 
