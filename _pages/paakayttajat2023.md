@@ -27,6 +27,10 @@ Läsnä:
   * Vaara 00.25 advance_notices.pl, 22.04 overdue_notices.pl, 22.00 membership_expiry.pl, kirjeet 13.30 ja 22.15
   * Vaski 9.00 overdue_notices.pl, 12.19 advance_notices.pl, 9.10 membership_expiry.pl, kirjeet 20.50
   * Osa ajastuksista vaikuttaa omituisilta, osa päällekkäin huoltojen kanssa, runsaasti kimppakohtaista varianssia, miksi näin ja löytyisikö yhteistä linjaa näihin?
+  * Hellen ja Kyytin jonossa roikkuvat 'pending' tilaiset aiheuttavat meille virheilmoituksia:
+    * Message queue has messages pending for 108 days (Kyyti)
+    * Message queue has messages pending for 214 days (Helle)
+    * Voidaanko merkitä senteiksi tai failedeiksi esimerkiksi cronilla?
   
 * Tikettien tekeminen ja kommentointi -ohje siirretty Redminestä Githubiin [Koha-repositorion wikiin](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi).
 
