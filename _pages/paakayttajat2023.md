@@ -34,7 +34,7 @@ Läsnä:
    * Message queue has messages pending for 3 days (Lumme)
    * Voidaanko merkitä senteiksi tai failedeiksi esimerkiksi cronilla?
 
-* Käykää läpi kirjepohjat ja muistakaa, että kirjeviestirajapinta/suomi.fi _ei_ rivitä tekstejä automaattisesti. Jos tekstirivit ovat liian pitkiä, niin rivit yksinkertaisesti katkeavat kirjeellä oikeasta laidasta. Ainakin Juvan kirjeissä näyttää olevan hyvin pitkiä rivejä. Muistakaa myös, että nimeke voi yksinäänkin olla jo satoja merkkejä pitkä. / Kodo
+* Käykää läpi kirjepohjat ja muistakaa, että kirjeviestirajapinta / suomi.fi / postitus- ja kuorituspalvelut _eivät_ rivitä tekstejä automaattisesti. Jos tekstirivit ovat liian pitkiä, niin rivit yksinkertaisesti katkeavat kirjeellä oikeasta laidasta. Ainakin Juvan kirjeissä näyttää olevan hyvin pitkiä rivejä. Muistakaa myös, että nimeke voi yksinäänkin olla jo satoja merkkejä pitkä. / Kodo
   
 * Tikettien tekeminen ja kommentointi -ohje siirretty Redminestä Githubiin [Koha-repositorion wikiin](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi).
 
