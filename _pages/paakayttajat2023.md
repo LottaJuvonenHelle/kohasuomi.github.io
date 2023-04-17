@@ -15,12 +15,25 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 Aika: 18.4.2023 klo 9.15 <br />
 Läsnä:
 
-
 **Yhteiset**
+
+* Asiakasviestien ajastukset tällä hetkellä / Kodo
+  * Helle 8.00 overdue_notices.pl, 8.40 advance_notices.pl, 9.10 membership_expiry, kirjeet ei lähde
+  * Kyyti 8.40 advance_notices.pl, 9.00 overdue_notices.pl, 9.10 membership_expiry.pl, kirjeet 14.30 ja 20.50
+  * Lappi 8.40 advance_notices.pl, 9.00 overdue_notices.pl, 9.10 membership_expiry.pl, kirjeet 20.50
+  * Lumme 6.00 holds_reminder.pl, 9.10 membership_expiry.pl, 12.25 advance_notices.pl, 12.29 overdue_notices.pl, kirjeet 20.50
+  * Outi 8.40 advance_notices.pl, 9.00 overdue_notices.pl, 9.10 membership_expiry.pl, kirjeet 20.50
+  * Siili 0.20 overdue_notices.pl, 0.25 advance_notices.pl, kirjeet ei lähde
+  * Vaara 00.25 advance_notices.pl, 22.04 overdue_notices.pl, 22.00 membership_expiry.pl, kirjeet 13.30 ja 22.15
+  * Vaski 9.00 overdue_notices.pl, 12.19 advance_notices.pl, 9.10 membership_expiry.pl, kirjeet 20.50
+  * Osa ajastuksista vaikuttaa omituisilta, osa päällekkäin huoltojen kanssa, runsaasti kimppakohtaista varianssia, miksi näin ja löytyisikö yhteistä linjaa näihin?
+  
 * Tikettien tekeminen ja kommentointi -ohje siirretty Redminestä Githubiin [Koha-repositorion wikiin](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi).
+
 * Käännösmuutos varauksenteko-sivulle?
   * Varauksenteko-sivulta on piilotettu asiakashaun hakutulostaulukko, mistä johtuen asiakkaan hakeminen onnistuu käytännössä vain kirjastokortilla tai koko nimellä niin, että tuloksena on yksi ainoa vastaus. Hakukentän yläpuolella on kuitenkin ohje "Syötä kirjastokortin numero tai osa nimestä:" eli englanniksi "Enter patron card number or partial name:". On ehdotettu, että käännöstä muutettaisiin.
   * Jos muutos tehdään, on se sellainen, mikä pitää ylläpitää Koha-Suomessa jokaisessa versionvaihdossa. Muita vastaavia muutoksia on esim. phone-kentän nimeäminen Lankapuhelimeksi ja mobile-kentä Matkapuhelimeksi (yhteissö primary phoe ja other phone). Koska muutostarve johtuu meidän omasta piilotuksesta (pyritään vähentämään asiakastietojen katseluja), ei ole perusteltua muuttaa yhteisön käännöstiedostoihin käännöstä.
+
 * [Damaged-tila yliajaa muut tilat Finnassa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2#issuecomment-1506892120)
   * Susanna: Finnassa pystytään priorisoimaan tilat. Priorisointi on toteutettuna tällä hetkellä meidän testinäkymään vaski.finna-pre.fi, mutta sitä on ilman Kohaan pääsyä muiden hankala testata. Meidän testauksen perusteella kaikki näyttää menevän oikein. Miten edetään?
 
