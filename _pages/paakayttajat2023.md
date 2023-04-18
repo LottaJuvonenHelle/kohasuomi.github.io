@@ -57,6 +57,10 @@ Näitä korvaavat uudet taulut ovat:
 koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements ja
 koha_plugin_fi_kohasuomi_okmstats_okm_statistics 
 
+**Lappi**
+* Finnassa uusittaessa asiakas saanut kirjastolta kalenterissa ylitetyn eräpäivän. Liittynee asetusten väärään komboon: OpacRenewalBranch, HomeOrHoldingBranch, CircControl, OverdueNoticeCalendar ja UseDaysMode.
+* Käyttäjäryhmä testannut nextiä. 
+
 ## Viikko 15 muistio
 
 Aika: 11.4.2023 klo 9.15 <br />
