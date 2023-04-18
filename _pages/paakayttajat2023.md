@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 16 esityslista
+## Viikko 16 muistio
 
 Aika: 18.4.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 
@@ -44,6 +44,12 @@ Läsnä:
 
 * [Damaged-tila yliajaa muut tilat Finnassa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2#issuecomment-1506892120)
   * Susanna: Finnassa pystytään priorisoimaan tilat. Priorisointi on toteutettuna tällä hetkellä meidän testinäkymään vaski.finna-pre.fi, mutta sitä on ilman Kohaan pääsyä muiden hankala testata. Meidän testauksen perusteella kaikki näyttää menevän oikein. Miten edetään?
+
+**Vaara**
+* Tiina Vauhkonen lopettanut Vaaran pääkäyttäjänä 
+* lomien jälkeen ei mitään mainittavaa, kun ei ole ehditty perehtyä tapahtuneisiin asioihin
+ 
+
 
 ## Viikko 15 muistio
 
