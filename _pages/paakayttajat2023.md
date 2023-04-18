@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 16 muistio
+## Viikko 16 esityslista
 
 Aika: 18.4.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Tuomas Kunttu (Kyyti), Leena Kinnunen (Lappi)
+Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI),
 
 **Yhteiset**
 
@@ -27,39 +27,33 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Tuomas Kunttu (Kyyti), Leen
   * Vaara 00.25 advance_notices.pl, 22.04 overdue_notices.pl, 22.00 membership_expiry.pl, kirjeet 13.30 ja 22.15
   * Vaski 9.00 overdue_notices.pl, 12.19 advance_notices.pl, 9.10 membership_expiry.pl, kirjeet 20.50
   * Osa ajastuksista vaikuttaa omituisilta, osa päällekkäin huoltojen kanssa, runsaasti kimppakohtaista varianssia, miksi näin ja löytyisikö yhteistä linjaa näihin?
+  **Päätös:** Ajastetaan viikkopalaverin 11 päätöksen mukaan: Kaikille kimpoille aina (ei vain huoltoikkunan aikaan) viestien generointi klo 9.11 ja viestien lähetys alkamaan klo 9.30. Uudet ajastukset unohtuivat tehdä 12.4., joten laitetaan päälle mahdollisimman pian eli jo tänään 18.4.2023. 
  
  * Hellen, Kyytin ja Lumpeen jonossa roikkuvat 'pending' tilaiset kirjeet aiheuttavat meille valvonnan virheilmoituksia / Kodo
    * Message queue has messages pending for 108 days (Kyyti)
    * Message queue has messages pending for 214 days (Helle)
    * Message queue has messages pending for 3 days (Lumme)
    * Voidaanko merkitä senteiksi tai failedeiksi esimerkiksi cronilla?
+   **Päästös:** Helle, Kyyti ja Lumme tarkistavat itse säännöllisesti (mielellään päivittäin) pendign-tilassa roikkuvat viestit ja hoitavat ne itse pois. Jos viestejä paljon, voi tarvittaessa tehdä tiketin, niin kehittäjät poistavat ne ajona.
 
 * Käykää läpi kirjepohjat ja muistakaa, että kirjeviestirajapinta / suomi.fi / postitus- ja kuorituspalvelut _eivät_ rivitä tekstejä automaattisesti. Jos tekstirivit ovat liian pitkiä, niin rivit yksinkertaisesti katkeavat kirjeellä oikeasta laidasta paperin reunan tullessa vastaan. Ainakin Juvan kirjeissä näyttää olevan hyvin pitkiä rivejä. Muistakaa myös, että nimeke voi yksinäänkin olla jo satoja merkkejä pitkä: "Sopimus Belgian kuningaskunnan, Tanskan kuningaskunnan, Saksan liittotasavallan, Helleenien tasavallan, Espanjan kuningaskunnan, Ranskan tasavallan, Irlannin, Italian tasavallan, Luxemburgin suurherttuakunnan, Alankomaiden kuningaskunnan, Portugalin tasavallan, Ison-Britannian ja Pohjois-Irlannin yhdistyneen kuningaskunnan (Euroopan unionin jäsenvaltiot) ja Norjan kuningaskunnan, Itävallan tasavallan, Suomen tasavallan ja Ruotsin kuningaskunnan välillä Norjan kuningaskunnan, Itävallan tasavallan, Suomen tasavallan ja Ruotsin kuningaskunnan liittymisestä Euroopan unioniin." / Kodo
+**Päätös:** Hyvä tarkistaa kaikilla kirjeviestipohjien rivitykset.
   
 * Tikettien tekeminen ja kommentointi -ohje siirretty Redminestä Githubiin [Koha-repositorion wikiin](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi).
 
 * Käännösmuutos varauksenteko-sivulle?
   * Varauksenteko-sivulta on piilotettu asiakashaun hakutulostaulukko, mistä johtuen asiakkaan hakeminen onnistuu käytännössä vain kirjastokortilla tai koko nimellä niin, että tuloksena on yksi ainoa vastaus. Hakukentän yläpuolella on kuitenkin ohje "Syötä kirjastokortin numero tai osa nimestä:" eli englanniksi "Enter patron card number or partial name:". On ehdotettu, että käännöstä muutettaisiin.
   * Jos muutos tehdään, on se sellainen, mikä pitää ylläpitää Koha-Suomessa jokaisessa versionvaihdossa. Muita vastaavia muutoksia on esim. phone-kentän nimeäminen Lankapuhelimeksi ja mobile-kentä Matkapuhelimeksi (yhteissö primary phoe ja other phone). Koska muutostarve johtuu meidän omasta piilotuksesta (pyritään vähentämään asiakastietojen katseluja), ei ole perusteltua muuttaa yhteisön käännöstiedostoihin käännöstä.
+  **Päätös:** Kannatettiin ajatusta, että ohjeteksti olisi sen mukainen, kuin haku tulee tehdä eli ohjeistetaan, että asiakashaku tulee tehdä kirjastokortilla tai asiakkaan koko niemllä. Kehittäjät ehdottivat, että käännöstiedostojen ajojen jälkeen ajettaisiin aina automaattisesti skripti, joka muuttaisi kaikki Koha-Suomen omat ylläpidettävät käännösmuutokset halutuiksi. Kysytään vielä Annelin mielipidettä. 
 
 * [Damaged-tila yliajaa muut tilat Finnassa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2#issuecomment-1506892120)
   * Susanna: Finnassa pystytään priorisoimaan tilat. Priorisointi on toteutettuna tällä hetkellä meidän testinäkymään vaski.finna-pre.fi, mutta sitä on ilman Kohaan pääsyä muiden hankala testata. Meidän testauksen perusteella kaikki näyttää menevän oikein. Miten edetään?
+  **Päätös:** Vaski testaa nextillä ja versionvaihdon jälkeen tuotannossa. Vaskin kokemusten perusteella katsotaan, tehdäänkö tilojen priorisointi muille kimpoille.
 
-**Vaara**
-* Tiina Vauhkonen lopettanut Vaaran pääkäyttäjänä 
-* lomien jälkeen ei mitään mainittavaa, kun ei ole ehditty perehtyä tapahtuneisiin asioihin
- 
-**Kyyti**
-* Nextillä ISSUESLIP-kuitissa oleva uusintakertojen määrä <<items.renewals>> ei enää toimi. Kokeilin vaihtaa siihen <<issues.renewals_count>> ja se ilmeisesti toimii. Kannattaa muidenkin testata.
-* Nextillä perustiedot-näytöltä puuttuu Vie/Tuo-painike. Teen siitä tiketin.
-* Sivulla https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot lukee, että tiputetaan seuraavat taulut: okm_statistics, okm_statistics_logs ja biblio_data_elements. Varmistin, että nämä siis todella poistuvat.
-Näitä korvaavat uudet taulut ovat:
-koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements ja
-koha_plugin_fi_kohasuomi_okmstats_okm_statistics 
+**OUTI**
+* OUTIn uuden version henkilökunnan testaukset alkoivat 17.4. Jokaista Kohan ja verkkokirjaston osa-aluetta testaa kaksi henkilöä ja kirjaavat testaushuomiot testaustaulukkoon. Isompia ongelmia ei ainakaan ensimmäisen päivän aikana tullut esille.
+* Kansalliskirjastosta oli tullut ilmoitus, että joissakin Melindan tietueissa on käytössä 852 5-osakenttä, joka ei oikeasti kuulu formaattiin, joten Heikkisen Antti pyysi, että säädetään TäTin Nalkuttimeen asetukseen, että myös tämä kenttä pääsee läpi.
 
-**Lappi**
-* Finnassa uusittaessa asiakas saanut kirjastolta kalenterissa ylitetyn eräpäivän. Liittynee asetusten väärään komboon: OpacRenewalBranch, HomeOrHoldingBranch, CircControl, OverdueNoticeCalendar ja UseDaysMode.
-* Käyttäjäryhmä testannut nextiä. 
 
 ## Viikko 15 muistio
 
