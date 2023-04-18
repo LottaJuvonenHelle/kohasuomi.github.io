@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16 muistio
 
 Aika: 18.4.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 
@@ -49,7 +49,13 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
 * Tiina Vauhkonen lopettanut Vaaran pääkäyttäjänä 
 * lomien jälkeen ei mitään mainittavaa, kun ei ole ehditty perehtyä tapahtuneisiin asioihin
  
-
+**Kyyti**
+* Nextillä ISSUESLIP-kuitissa oleva uusintakertojen määrä <<items.renewals>> ei enää toimi. Kokeilin vaihtaa siihen <<issues.renewals_count>> ja se ilmeisesti toimii. Kannattaa muidenkin testata.
+* Perustiedot-näytöltä puuttuu Vie/Tuo-painike. Teen siitä tiketin.
+* Sivulla https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot lukee, että tiputetaan seuraavat taulut: okm_statistics, okm_statistics_logs ja biblio_data_elements.
+Näitä korvaavat uudet taulut ovat:
+koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements ja
+koha_plugin_fi_kohasuomi_okmstats_okm_statistics 
 
 ## Viikko 15 muistio
 
