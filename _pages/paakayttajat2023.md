@@ -35,9 +35,11 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI),
    * Message queue has messages pending for 214 days (Helle)
    * Message queue has messages pending for 3 days (Lumme)
    * Voidaanko merkitä senteiksi tai failedeiksi esimerkiksi cronilla?
+   
    **Päästös:** Helle, Kyyti ja Lumme tarkistavat itse säännöllisesti (mielellään päivittäin) pendign-tilassa roikkuvat viestit ja hoitavat ne itse pois. Jos viestejä paljon, voi tarvittaessa tehdä tiketin, niin kehittäjät poistavat ne ajona.
 
 * Käykää läpi kirjepohjat ja muistakaa, että kirjeviestirajapinta / suomi.fi / postitus- ja kuorituspalvelut _eivät_ rivitä tekstejä automaattisesti. Jos tekstirivit ovat liian pitkiä, niin rivit yksinkertaisesti katkeavat kirjeellä oikeasta laidasta paperin reunan tullessa vastaan. Ainakin Juvan kirjeissä näyttää olevan hyvin pitkiä rivejä. Muistakaa myös, että nimeke voi yksinäänkin olla jo satoja merkkejä pitkä: "Sopimus Belgian kuningaskunnan, Tanskan kuningaskunnan, Saksan liittotasavallan, Helleenien tasavallan, Espanjan kuningaskunnan, Ranskan tasavallan, Irlannin, Italian tasavallan, Luxemburgin suurherttuakunnan, Alankomaiden kuningaskunnan, Portugalin tasavallan, Ison-Britannian ja Pohjois-Irlannin yhdistyneen kuningaskunnan (Euroopan unionin jäsenvaltiot) ja Norjan kuningaskunnan, Itävallan tasavallan, Suomen tasavallan ja Ruotsin kuningaskunnan välillä Norjan kuningaskunnan, Itävallan tasavallan, Suomen tasavallan ja Ruotsin kuningaskunnan liittymisestä Euroopan unioniin." / Kodo
+
 **Päätös:** Hyvä tarkistaa kaikilla kirjeviestipohjien rivitykset.
   
 * Tikettien tekeminen ja kommentointi -ohje siirretty Redminestä Githubiin [Koha-repositorion wikiin](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi).
@@ -45,10 +47,12 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI),
 * Käännösmuutos varauksenteko-sivulle?
   * Varauksenteko-sivulta on piilotettu asiakashaun hakutulostaulukko, mistä johtuen asiakkaan hakeminen onnistuu käytännössä vain kirjastokortilla tai koko nimellä niin, että tuloksena on yksi ainoa vastaus. Hakukentän yläpuolella on kuitenkin ohje "Syötä kirjastokortin numero tai osa nimestä:" eli englanniksi "Enter patron card number or partial name:". On ehdotettu, että käännöstä muutettaisiin.
   * Jos muutos tehdään, on se sellainen, mikä pitää ylläpitää Koha-Suomessa jokaisessa versionvaihdossa. Muita vastaavia muutoksia on esim. phone-kentän nimeäminen Lankapuhelimeksi ja mobile-kentä Matkapuhelimeksi (yhteissö primary phoe ja other phone). Koska muutostarve johtuu meidän omasta piilotuksesta (pyritään vähentämään asiakastietojen katseluja), ei ole perusteltua muuttaa yhteisön käännöstiedostoihin käännöstä.
+  
   **Päätös:** Kannatettiin ajatusta, että ohjeteksti olisi sen mukainen, kuin haku tulee tehdä eli ohjeistetaan, että asiakashaku tulee tehdä kirjastokortilla tai asiakkaan koko niemllä. Kehittäjät ehdottivat, että käännöstiedostojen ajojen jälkeen ajettaisiin aina automaattisesti skripti, joka muuttaisi kaikki Koha-Suomen omat ylläpidettävät käännösmuutokset halutuiksi. Kysytään vielä Annelin mielipidettä. 
 
 * [Damaged-tila yliajaa muut tilat Finnassa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2#issuecomment-1506892120)
   * Susanna: Finnassa pystytään priorisoimaan tilat. Priorisointi on toteutettuna tällä hetkellä meidän testinäkymään vaski.finna-pre.fi, mutta sitä on ilman Kohaan pääsyä muiden hankala testata. Meidän testauksen perusteella kaikki näyttää menevän oikein. Miten edetään?
+  
   **Päätös:** Vaski testaa nextillä ja versionvaihdon jälkeen tuotannossa. Vaskin kokemusten perusteella katsotaan, tehdäänkö tilojen priorisointi muille kimpoille.
 
 **OUTI**
