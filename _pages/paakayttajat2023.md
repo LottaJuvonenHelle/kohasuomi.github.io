@@ -27,6 +27,7 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI),
   * Vaara 00.25 advance_notices.pl, 22.04 overdue_notices.pl, 22.00 membership_expiry.pl, kirjeet 13.30 ja 22.15
   * Vaski 9.00 overdue_notices.pl, 12.19 advance_notices.pl, 9.10 membership_expiry.pl, kirjeet 20.50
   * Osa ajastuksista vaikuttaa omituisilta, osa päällekkäin huoltojen kanssa, runsaasti kimppakohtaista varianssia, miksi näin ja löytyisikö yhteistä linjaa näihin?
+  
   **Päätös:** Ajastetaan viikkopalaverin 11 päätöksen mukaan: Kaikille kimpoille aina (ei vain huoltoikkunan aikaan) viestien generointi klo 9.11 ja viestien lähetys alkamaan klo 9.30. Uudet ajastukset unohtuivat tehdä 12.4., joten laitetaan päälle mahdollisimman pian eli jo tänään 18.4.2023. 
  
  * Hellen, Kyytin ja Lumpeen jonossa roikkuvat 'pending' tilaiset kirjeet aiheuttavat meille valvonnan virheilmoituksia / Kodo
