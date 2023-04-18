@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16 esityslista
 
 Aika: 18.4.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), 
+Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), 
 
 **Yhteiset**
 
@@ -58,6 +58,9 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
 **OUTI**
 * OUTIn uuden version henkilökunnan testaukset alkoivat 17.4. Jokaista Kohan ja verkkokirjaston osa-aluetta testaa kaksi henkilöä ja kirjaavat testaushuomiot testaustaulukkoon. Isompia ongelmia ei ainakaan ensimmäisen päivän aikana tullut esille.
 * Kansalliskirjastosta oli tullut ilmoitus, että joissakin Melindan tietueissa on käytössä 852 5-osakenttä, joka ei oikeasti kuulu formaattiin, joten Heikkisen Antti pyysi, että säädetään TäTin Nalkuttimeen asetukseen, että myös tämä kenttä pääsee läpi.
+
+**Siilinjärvi**
+* Ei mainittavaa
 
 
 ## Viikko 15 muistio
