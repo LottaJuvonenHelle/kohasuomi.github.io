@@ -51,8 +51,8 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Tuomas Kunttu (Kyyti), Leen
  
 **Kyyti**
 * Nextillä ISSUESLIP-kuitissa oleva uusintakertojen määrä <<items.renewals>> ei enää toimi. Kokeilin vaihtaa siihen <<issues.renewals_count>> ja se ilmeisesti toimii. Kannattaa muidenkin testata.
-* Perustiedot-näytöltä puuttuu Vie/Tuo-painike. Teen siitä tiketin.
-* Sivulla https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot lukee, että tiputetaan seuraavat taulut: okm_statistics, okm_statistics_logs ja biblio_data_elements.
+* Nextillä perustiedot-näytöltä puuttuu Vie/Tuo-painike. Teen siitä tiketin.
+* Sivulla https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot lukee, että tiputetaan seuraavat taulut: okm_statistics, okm_statistics_logs ja biblio_data_elements. Varmistin, että nämä siis todella poistuvat.
 Näitä korvaavat uudet taulut ovat:
 koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements ja
 koha_plugin_fi_kohasuomi_okmstats_okm_statistics 
