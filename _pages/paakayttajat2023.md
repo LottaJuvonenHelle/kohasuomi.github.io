@@ -53,7 +53,7 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
 * [Damaged-tila yliajaa muut tilat Finnassa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2#issuecomment-1506892120)
   * Susanna: Finnassa pystytään priorisoimaan tilat. Priorisointi on toteutettuna tällä hetkellä meidän testinäkymään vaski.finna-pre.fi, mutta sitä on ilman Kohaan pääsyä muiden hankala testata. Meidän testauksen perusteella kaikki näyttää menevän oikein. Miten edetään?
   
-  **Päätös:** Vaski testaa nextillä ja versionvaihdon jälkeen tuotannossa. Vaskin kokemusten perusteella katsotaan, tehdäänkö tilojen priorisointi Finnassa muille kimpoille.
+  **Päätös:** Vaski testaa nextillä ja versionvaihdon jälkeen tuotannossa. Vaskin kokemusten perusteella katsotaan, tehdäänkö tilojen priorisointi Finnassa myös muille kimpoille.
 
 **OUTI**
 * OUTIn uuden version henkilökunnan testaukset alkoivat 17.4. Jokaista Kohan ja verkkokirjaston osa-aluetta testaa kaksi henkilöä ja kirjaavat testaushuomiot testaustaulukkoon. Isompia ongelmia ei ainakaan ensimmäisen päivän aikana tullut esille.
