@@ -36,7 +36,7 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI),
    * Message queue has messages pending for 3 days (Lumme)
    * Voidaanko merkitä senteiksi tai failedeiksi esimerkiksi cronilla?
    
-   **Päästös:** Helle, Kyyti ja Lumme tarkistavat itse säännöllisesti (mielellään päivittäin) pendign-tilassa roikkuvat viestit ja hoitavat ne itse pois. Jos viestejä paljon, voi tarvittaessa tehdä tiketin, niin kehittäjät poistavat ne ajona.
+   **Päätös:** Helle, Kyyti ja Lumme tarkistavat itse säännöllisesti (mielellään päivittäin) pendign-tilassa roikkuvat viestit ja hoitavat ne itse pois. Jos viestejä paljon, voi tarvittaessa tehdä tiketin, niin kehittäjät poistavat ne ajona.
 
 * Käykää läpi kirjepohjat ja muistakaa, että kirjeviestirajapinta / suomi.fi / postitus- ja kuorituspalvelut _eivät_ rivitä tekstejä automaattisesti. Jos tekstirivit ovat liian pitkiä, niin rivit yksinkertaisesti katkeavat kirjeellä oikeasta laidasta paperin reunan tullessa vastaan. Ainakin Juvan kirjeissä näyttää olevan hyvin pitkiä rivejä. Muistakaa myös, että nimeke voi yksinäänkin olla jo satoja merkkejä pitkä: "Sopimus Belgian kuningaskunnan, Tanskan kuningaskunnan, Saksan liittotasavallan, Helleenien tasavallan, Espanjan kuningaskunnan, Ranskan tasavallan, Irlannin, Italian tasavallan, Luxemburgin suurherttuakunnan, Alankomaiden kuningaskunnan, Portugalin tasavallan, Ison-Britannian ja Pohjois-Irlannin yhdistyneen kuningaskunnan (Euroopan unionin jäsenvaltiot) ja Norjan kuningaskunnan, Itävallan tasavallan, Suomen tasavallan ja Ruotsin kuningaskunnan välillä Norjan kuningaskunnan, Itävallan tasavallan, Suomen tasavallan ja Ruotsin kuningaskunnan liittymisestä Euroopan unioniin." / Kodo
 
