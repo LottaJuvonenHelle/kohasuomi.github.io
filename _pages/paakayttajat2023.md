@@ -28,7 +28,7 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
   * Vaski 9.00 overdue_notices.pl, 12.19 advance_notices.pl, 9.10 membership_expiry.pl, kirjeet 20.50
   * Osa ajastuksista vaikuttaa omituisilta, osa päällekkäin huoltojen kanssa, runsaasti kimppakohtaista varianssia, miksi näin ja löytyisikö yhteistä linjaa näihin?
   
-  **Päätös:** Ajastetaan viikkopalaverin 11 päätöksen mukaan: Kaikille kimpoille aina (ei vain huoltoikkunan aikaan) viestien generointi klo 9.11 ja viestien lähetys alkamaan klo 9.30. Uudet ajastukset unohtuivat tehdä 12.4., joten laitetaan päälle mahdollisimman pian eli jo tänään 18.4.2023. 
+  **Päätös:** Ajastetaan viikkopalaverin 11 päätöksen mukaisesti: Kaikille kimpoille aina (ei vain huoltoikkunan aikaan) viestien generointi klo 9.11 ja viestien lähetys alkamaan klo 9.30. Uudet ajastukset unohtuivat tehdä 12.4., joten laitetaan päälle mahdollisimman pian eli jo tänään 18.4.2023. 
  
  * Hellen, Kyytin ja Lumpeen jonossa roikkuvat 'pending' tilaiset kirjeet aiheuttavat meille valvonnan virheilmoituksia / Kodo
    * Message queue has messages pending for 108 days (Kyyti)
@@ -40,7 +40,7 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
 
 * Käykää läpi kirjepohjat ja muistakaa, että kirjeviestirajapinta / suomi.fi / postitus- ja kuorituspalvelut _eivät_ rivitä tekstejä automaattisesti. Jos tekstirivit ovat liian pitkiä, niin rivit yksinkertaisesti katkeavat kirjeellä oikeasta laidasta paperin reunan tullessa vastaan. Ainakin Juvan kirjeissä näyttää olevan hyvin pitkiä rivejä. Muistakaa myös, että nimeke voi yksinäänkin olla jo satoja merkkejä pitkä: "Sopimus Belgian kuningaskunnan, Tanskan kuningaskunnan, Saksan liittotasavallan, Helleenien tasavallan, Espanjan kuningaskunnan, Ranskan tasavallan, Irlannin, Italian tasavallan, Luxemburgin suurherttuakunnan, Alankomaiden kuningaskunnan, Portugalin tasavallan, Ison-Britannian ja Pohjois-Irlannin yhdistyneen kuningaskunnan (Euroopan unionin jäsenvaltiot) ja Norjan kuningaskunnan, Itävallan tasavallan, Suomen tasavallan ja Ruotsin kuningaskunnan välillä Norjan kuningaskunnan, Itävallan tasavallan, Suomen tasavallan ja Ruotsin kuningaskunnan liittymisestä Euroopan unioniin." / Kodo
 
-  **Päätös:** Hyvä tarkistaa kaikilla kirjeviestipohjien rivitykset.
+  **Päätös:** Hyvä tarkistaa kaikissa kimpoissa kirjeviestipohjien rivitykset.
   
 * Tikettien tekeminen ja kommentointi -ohje siirretty Redminestä Githubiin [Koha-repositorion wikiin](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi).
 
@@ -53,7 +53,7 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
 * [Damaged-tila yliajaa muut tilat Finnassa](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2#issuecomment-1506892120)
   * Susanna: Finnassa pystytään priorisoimaan tilat. Priorisointi on toteutettuna tällä hetkellä meidän testinäkymään vaski.finna-pre.fi, mutta sitä on ilman Kohaan pääsyä muiden hankala testata. Meidän testauksen perusteella kaikki näyttää menevän oikein. Miten edetään?
   
-  **Päätös:** Vaski testaa nextillä ja versionvaihdon jälkeen tuotannossa. Vaskin kokemusten perusteella katsotaan, tehdäänkö tilojen priorisointi muille kimpoille.
+  **Päätös:** Vaski testaa nextillä ja versionvaihdon jälkeen tuotannossa. Vaskin kokemusten perusteella katsotaan, tehdäänkö tilojen priorisointi Finnassa muille kimpoille.
 
 **OUTI**
 * OUTIn uuden version henkilökunnan testaukset alkoivat 17.4. Jokaista Kohan ja verkkokirjaston osa-aluetta testaa kaksi henkilöä ja kirjaavat testaushuomiot testaustaulukkoon. Isompia ongelmia ei ainakaan ensimmäisen päivän aikana tullut esille.
