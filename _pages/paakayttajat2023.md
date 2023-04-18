@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16 esityslista
 
 Aika: 18.4.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI),
+Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), 
 
 **Yhteiset**
 
