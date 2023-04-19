@@ -22,7 +22,7 @@ Läsnä: Ari Mäkiranta (Koha-Suomi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (V
 
 ### 1. Arin ajankohtaiset
 * Harjoittelija Mikkelissä 1.4-31.5.
-
+* Lastu-kirjastot halukkaita liittymään Koha-Suomeen.
 ### 2. Versionvaihdon tilanne
 
 ### 3. KohaPerlCon2023
