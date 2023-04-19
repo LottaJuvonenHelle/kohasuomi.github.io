@@ -24,7 +24,7 @@ Läsnä: Ari Mäkiranta (Koha-Suomi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (V
 * Harjoittelija Mikkelissä 1.4-31.5.
 * Lastu-kirjastot halukkaita liittymään Koha-Suomeen.
 ### 2. Versionvaihdon tilanne
-
+* Kehittäjillä on yhä työnalla Koha-Suomi spesifejä tikettejä. Valtaosa kesken olevista on plugineja, joten testaamiseen ei mene kauaa. Vaarassa koko henkilkunta pääsee jo testaamaan, muissa vielä testaaminen on rajoitettu vain osalle henkilöstöstä. Päätettiin, että jos jokin asia ei ehdi versionvaihtoon, siitä tiedotetaan heti. Tavoite on kuitenkin yhä, että kaikki saadaan valmiiksi.
 ### 3. KohaPerlCon2023
 
 [Call for papers](https://github.com/KohaSuomi/Koha/discussions/492) - ehdota aihetta KohaConiin.
