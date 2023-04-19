@@ -21,6 +21,7 @@ Aika: 19.4.2023 klo 9<br />
 Läsnä:
 
 ### 1. Arin ajankohtaiset
+* Harjoittelija Mikkelissä 1.4-31.5.
 
 ### 2. Versionvaihdon tilanne
 
