@@ -15,12 +15,21 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 16 muistiot
 
+### Torstai 20.4.2023 klo 10
+
+* Lokilevelit eri konteissa, ehdotus:
+  * tuotannot: error
+  * testit: warn
+  * nextit: warn
+  * kehitysympäristöt: debug/trace/info
+
 ### Maanantai 17.4.2023 klo 10
 
 Läsnä: Emmi, Kodo, Lari, Lasse, Pasi, Ville
 
 * [Jos DefaultHoldExpirationdate on asetettu, varauksen aloituspäivä menee asetuksen mukaiseksi](https://github.com/KohaSuomi/Koha-22x/issues/42) - ei etene yhteisössä tarpeeksi nopeasti, mitä tehdään? Tiketti [Varauksen voimassaoloaika ei päivity](https://github.com/KohaSuomi/Koha-22x/issues/104) on myös riippuvainen tästä korjauksesta.
   * viedään yhteisöön korjaus ja tuodaan korjauksineen meille 
+
 * Patet olleet pois päältä viikonlopun Suomi.fi-huoltokatkon vuoksi (sovittu viikon 14 palaverissa)
 
 
@@ -41,6 +50,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi, Ville
 
 * [Ilmoitusten kieli -valinnaksi oletuksena Suomi](https://github.com/KohaSuomi/Koha-22x/issues/154)
   * Pystyttäneen toteuttaa
+
 * Kontrollerin vaihto keskiviikkona vaikuttaa suunniteltuihin tietokanta-ajoihin.
   * Emmi tekee old_issues-taulun ajon ti-ke yönä, koska niissä menee kauimmin aikaa, eikä ole varmuutta, että ne valmistuvat 8.30 mennessä, jolloin kontrollerin vaihto alkaa.
 
@@ -53,17 +63,23 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi, Ville
 
 * Suomi.fi paperipostitukseen liittyvä käyttökatko 15.4.2023 klo 10.00–18.00
   * Pasi laittaa cronin tauolle perjantaina ja ma-päivystäjä laittaa cronin taas päälle.
+
 * Finnassa huolto tiistaina 11.4.2023 klo 13 - 15
+
 * tikettien tilanne, versionvaihtoon reilu kuukausi
   * käytiin läpi tilannetta.
+
 * KohaPerlCon, Call for papers
   * laitetaan discussionsiin Kansalliskirjaston ilmoitus.
+
 * [Järjestelmäasetus: DebarmentsToLiftAfterPayment - ksdev/ks-0006-bug-16223](https://github.com/KohaSuomi/Koha-22x/issues/49)
   * Anneli kyselee pääkäyttäjien viikkopalaverissa, käyttääkö tätä ominaisuutta joku kimppa.
+
 * Huhtikuun huoltokatko
   * tehdään skeemamuutoksia, Emmi testaa testeillä kauan muutoksissa menee.
   * skeemapäivitysten aikaan katkot ovat mahdollisia.
   * ei muuta
+
 * Viikon 15 ma-palaveri siirretään pääsiäisen takia tiistaille klo 12.
 
 ### Maanantai 3.4.2023 klo 10
@@ -72,6 +88,7 @@ Läsnä: Anneli, Lari, Emmi, Ville, Pasi, Lasse, Kodo
 
 * versionvaihdon tiketit
   * muista sulkea tiketti, kun piikissäsi oleva tiketti on saanut 2-3 hyväksyvää testausta.
+
 * kerrattiin parin viikon aikana tulleet ongelmat ja tapahtumat
 
 ## Viikon 13 muistiot
@@ -82,12 +99,18 @@ Läsnä:
 
 * Versionvaihdon aloitusajankohta, eli kellonaika?
   * ma 15.5.2023 klo 22
+
 * tikettien vastuutus
+
 * palvelimen kuorma
+
 * Apache-konfiguraatiot
+
 * Heikkisen Antti kyseli slackista erään tietuepaketin tilasta, onko kellään näistä havaintoa miten pitäisi päivittyä?
   * Kellään ei tietoa, mitä listan tietueet ovat. Odotetaan Johannan paluuta.
+
 * [Kirkekseen numerointikaavat ja ilmestymistiheydet](https://github.com/KohaSuomi/Kirkes/issues/9)
+
 * tieteellisten versionvaihto-ongelmat
 
 ### Maanantai 27.3.2023 klo 10
@@ -96,11 +119,14 @@ Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
 
 * Apache-konfiguraatiot (skel/setEnv:it mm. MEMCACHED NAMESPACE/lastu/MV/OPAC-konffi/http redirect? https://linuxize.com/post/redirect-http-to-https-in-apache/)
   * Keskustellaan torstain palsussa
+
 * Päivystysvuorot viikosta 14 eteenpäin
+
 * Lumpeesta ei ole lähtenyt printti viestejä 13.2. alkaen
   * Sama ongelma kuin viime vuoden lopulla, yksi viallinen zip-tiedosto estää kaiken liikenteen 
   * Emmi poistaa viallisen zipin
   * tsekit ei ole valittanut pending-tilaisista viesteistä jostain syystä
+
 * Ke klinikka, ketkä mukana?
   * Ari, Anneli ja Lari
 
@@ -111,8 +137,11 @@ Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
 Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
 
 * Testattaviin testaussuunnitelma + tikettien ajantasalla pito
+
 * Tikettien vastuutusta
+
 * Emmi tutkii valutuksen käyttöönottoa
+
 * Lari ajaa nexteille käännökset, kun saa skriptin kuosiin.
 
 
@@ -124,10 +153,15 @@ __Aiheita__
 
 * Kimppojen tietokantojen rakenteen yhtenäistäminen
   * Korjataan huhti-toukokuun huoltoikkunoiden yhteydessä.
+
 * tikettien vastuutus
+
 * Smartum
+
 * [Versionvaihdon tiedote 2](https://github.com/KohaSuomi/Koha/discussions/471)
+
 * Harjoittelija Mikkeliin 3.4.-31.5.2023
+
 * Käännökset - käsitellään erillisessä palaverissa.
 
 ## Viikon 11 muistiot
@@ -139,14 +173,18 @@ Läsnä: Anneli, Emmi, Kodo, Pasi, Lasse, Lari, Ari
 __Aiheita__
 
 * [Tiketti KS21-468 - Auktorisoitujen arvojen kopiointi testi-Tätistä Tätiin](https://github.com/KohaSuomi/Koha/issues/468)
+
 * Nextien cronit päälle, 
   * ei pate, process_messages ja varmuuskopiointiin liittyvät
   * Lari tekee
+
 * Uusi build
   * Buildit nopeampia ja käyttökatkot minimaalisen lyhyitä (muutamia sekunteja)
   * Huomattavasti parantunut vikasietoisuus, esimerkiksi buildin epäonnistuminen ei aiheuta häiriöitä käytössä oleviin Koha-installaatioihin
   * Autoreload otetaan takaisin käyttöön
+
 * Versionvaihdon tikettien vastuutusta
+
 * Finna-nexteillä ei toimi saatavuustietojen haku ja kirjautuminen. Virheilmoitukset Matrixissa.
 
 ### Maanantai 13.3. klo 10
@@ -156,8 +194,11 @@ Läsnä: Emmi, Ari, Pasi, Lasse, Kodo, Lari, Anneli
 __Aiheita__
 
 * [Tiketti 117 - Kaikkien asiakastietojen haun esto varauksenteossa](https://github.com/KohaSuomi/Koha-22x/issues/117#issuecomment-1463677625)
+
 * Finnat ja OAI-PMH
+
 * [Tiketti 33 - Teosta ei saa haettua kaikilla hakutavoilla, kun teoksen nimessä merkki](https://github.com/KohaSuomi/Koha-22x/issues/33#issuecomment-1463717242)
+
 * Yksi hallintaksripti kaikille Kohaan liittyville daemoneille on työn alla
   * SIP, Plack, Memcached, Apache, Elastictmpfs
   * Luovutaanko erillisistä initeistä/systemd-uniteista ja hoidetaan startit ja stopit vastaisuudessa tällä yhdellä hallintaskriptillä rc.localista?
@@ -179,10 +220,14 @@ __Aiheita__
     * selite, miksi olemassa
     * vanhenemispäivä, jos tiedossa
     * taulun tekijä
+
 * Finna-nextit ja OAI-PMH
   * Lari kyselee apua Kansalliskirjastosta, jossa haravointi on saatu toimimaan.
+
 * no-status/no assignee -tiketit
+
 * Lapin Kohatuessa ei ole päivystystä perjantaina 10.3. pääkäyttäjien lomien vuoksi.
+
 * Nodeilla nyt käynnissä suuri määrä kontainereita (30), koska nexit otettu käyttöön. Tämä aiheuttaa ongelmia, koska palvelinten avointen tiedostojen määrän maksimi tulee vastaan.
   * Tutkitaan saadaanko maksimia korotettua ilman nodejen uudelleenkäynnistyksiä, jos ei saada, niin korotetaan seuraavassa huoltokatkossa.
   * Testejä voidaan mahdollisesti joutua pysäyttämään jos ongelma alkaa isossa mitassa vaivata.
@@ -195,13 +240,17 @@ __Aiheita__
 
 * Vkon 10 päivitys
   * käännöstiedostojen päivitys 
+
 * Huoltoikkuna
   * käyttöjärjestelmäpäivityksiä tulossa
   * Kodo tekee tiedotteen 
+
 * Kirkes-konversion 2. kierros alkaa ti 6.3.
+
 * nextien tilanne
   * muut tehty paitsi täti ja kirkes
   * pääkäyttäjät käyvät läpi, mitä tauluja pitäisi mahdollisesti kopioida versionpäivityksen aikaan
+
 * Versiopäivityksen ja Tikettien seurannan tikettien vastuutus. 
 
 ## Viikon 9 muistiot
