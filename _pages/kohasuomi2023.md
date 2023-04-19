@@ -30,7 +30,8 @@ Läsnä: Emmi, Kodo, Lari, Lasse, Pasi, Ville
 * [Jos DefaultHoldExpirationdate on asetettu, varauksen aloituspäivä menee asetuksen mukaiseksi](https://github.com/KohaSuomi/Koha-22x/issues/42) - ei etene yhteisössä tarpeeksi nopeasti, mitä tehdään? Tiketti [Varauksen voimassaoloaika ei päivity](https://github.com/KohaSuomi/Koha-22x/issues/104) on myös riippuvainen tästä korjauksesta.
   * viedään yhteisöön korjaus ja tuodaan korjauksineen meille 
 
-* Patet olleet pois päältä viikonlopun Suomi.fi-huoltokatkon vuoksi (sovittu viikon 14 palaverissa)
+* Patet olleet pois päältä viikonlopun Suomi.fi-huoltokatkon vuoksi
+  * Sovittu viikon 14 palaverissa, mutta tarkoitus oli poistaa käytöstä ainoastaan suomi.fi -viestit, nyt pois päältä oli suomi.fi:n lisäksi myös kirjeviestintä. Ei kuitenkaan vahinkoa tapahtunut, koska kusti ei kuitenkaan polje viikonloppuna. Viikonloppuna muodostuneet kirjeet lähtevät maanantaina.
 
 
 ## Viikon 15 muistiot
