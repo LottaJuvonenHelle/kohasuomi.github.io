@@ -11,7 +11,7 @@ title: 'Koha-Suomen asiantuntijaryhmä 2023'
 
 Tältä sivulta löydät Koha-Suomen asiantuntijaryhmän vuoden 2023 muistiot. Uusin muistio on aina ylimmäisenä.
 
-Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Katja Valjakka (Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot). Koha-Suomesta mukana on puheenjohtajana Ari Mäkiranta ja asiantuntijoina Anneli Österman ja Kodo Korkalo.
+Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Piia Semenoff (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Katja Valjakka (Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot). Koha-Suomesta mukana on puheenjohtajana Ari Mäkiranta ja asiantuntijoina Anneli Österman ja Kodo Korkalo.
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
@@ -45,6 +45,7 @@ Käydään läpi vanhoja, käsittelemättömiä hankintaehdotuksia. Näiden jäl
 
 ### 5. Muut asiat
 
+*kimpoista tarvitaan esitykset asiantuntijaryhmän kokoonpanoksi.
 ### 6. Seuraava kokous
 
 Seuraava kokous on ke 24.5.2023 klo 9.
