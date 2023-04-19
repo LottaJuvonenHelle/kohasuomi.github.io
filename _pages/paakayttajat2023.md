@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 16 esityslista
+## Viikko 16 muistio
 
 Aika: 18.4.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), 
+Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 
@@ -62,6 +62,9 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
 **Siilinjärvi**
 * Ei mainittavaa
 
+**Vaara**
+* Tiina Vauhkonen lopettanut pääkäyttäjänä
+* Vaaran henkilökunnalle annettu oikeus koekäyttää nextiä. Vielä ei ole juurikaan tullut kommentointia.
 
 ## Viikko 15 muistio
 
