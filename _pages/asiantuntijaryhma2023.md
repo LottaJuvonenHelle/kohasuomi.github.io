@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 4/23
 
 Aika: 19.4.2023 klo 9<br />
-Läsnä: Ari Mäkiranta (Koha-Suomi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (Vaara), Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Leena Kinnunen (Lappi), Kati Sillgren (Helle), Noora Valkonen (OUTI) ja Hanna Ikonen (Lumme)
+Läsnä: Ari Mäkiranta (Koha-Suomi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (Vaara), Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Leena Kinnunen (Lappi), Kati Sillgren (Helle), Piia Semenoff (OUTI) ja Hanna Ikonen (Lumme)
 
 ### 1. Arin ajankohtaiset
 * Harjoittelija Mikkelissä 1.4-31.5.
