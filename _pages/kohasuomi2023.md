@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 20.4.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Pasi, Emmi, Ville, Lari, Lasse, Ari, Kodo
 
 * Käyttöhäiriö 19.4.
 * Lokilevelit eri konteissa, ehdotus:
@@ -30,7 +30,11 @@ Läsnä:
   * Kehitysehdotus, mutta voisiko tästä ottaa Villelle pienen projektin ilman että tarvii käyttää tätä asiantuntijaryhmän kautta?  
 * Kaukolainat Raportointi(OKM)-plugarissa
   * OKM- tilastoihin ei pitäisi laskea kaukolainoja (joillakin kimpoilla on laskettu), mutta esim. Vaara haluaa kaukolainat kuukausitilastoihin
-  * tällä hetkellä asetukset mahdollistavat vain joko-tai-tilanteen  
+  * tällä hetkellä asetukset mahdollistavat vain joko-tai-tilanteen
+  * [Valmiissa SQL-raporteissa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Kaukolainat) on kaukolainoihin liittyviä kyselyjä. Riittäisikö ne siihen saakka, kunnes raportointityökaluun saadaan kaukolaina-osio toimimaan?
+* Labyrintti sertifikaatti 25.4.2023
+* Elasticsearch-herjoja alkanut tulemaan taas EDItX-tilausten käsittelyssä.
+* Versionvaihdon tikettien vastuutus
 
 ### Maanantai 17.4.2023 klo 10
 
