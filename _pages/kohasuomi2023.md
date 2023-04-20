@@ -35,6 +35,7 @@ Läsnä: Anneli, Pasi, Emmi, Ville, Lari, Lasse, Ari, Kodo
 * Labyrintti sertifikaatti 25.4.2023
 * Elasticsearch-herjoja alkanut tulemaan taas EDItX-tilausten käsittelyssä.
 * Versionvaihdon tikettien vastuutus
+* Koha-Suomen po-tiedostot -> luodaan uudet kun perustiedot-näytön ja hakutulos-näytön muutokset tehty.
 
 ### Maanantai 17.4.2023 klo 10
 
