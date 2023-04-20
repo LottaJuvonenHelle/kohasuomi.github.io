@@ -28,6 +28,9 @@ Läsnä:
 * Tikettien [Raporttien kyselyiden siirtäminen tietokantaslavelle - ksdev/ks-0082-KD-5239-altdbh](https://github.com/KohaSuomi/Koha-22x/issues/163) ja [Raporttien kyselyiden siirtäminen tietokantaslavelle - ksdev/ks-0083-KD-5239-use-altdbh-for-reports](https://github.com/KohaSuomi/Koha-22x/issues/164) vastuutus
 * [Työkaluliitännäiset/Tulosta ilmoituksia - viestin poistomahdollisuus tulostussivulle](https://github.com/KohaSuomi/Koha/issues/505)
   * Kehitysehdotus, mutta voisiko tästä ottaa Villelle pienen projektin ilman että tarvii käyttää tätä asiantuntijaryhmän kautta?  
+* Kaukolainat Raportointi(OKM)-plugarissa
+  * OKM- tilastoihin ei pitäisi laskea kaukolainoja (joillakin kimpoilla on laskettu), mutta esim. Vaara haluaa kaukolainat kuukausitilastoihin
+  * tällä hetkellä asetukset mahdollistavat vain joko-tai-tilanteen  
 
 ### Maanantai 17.4.2023 klo 10
 
