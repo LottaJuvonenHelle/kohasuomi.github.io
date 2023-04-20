@@ -17,6 +17,9 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 20.4.2023 klo 10
 
+Läsnä:
+
+* Käyttöhäiriö 19.4.
 * Lokilevelit eri konteissa, ehdotus:
   * tuotannot: error
   * testit: warn
