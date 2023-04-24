@@ -11,7 +11,7 @@ toc: true
 Kuvailuun meno: Muita toimintoja -&gt; Kuvailu. Jos linkkiä ei
 näy, käyttäjätunnuksellasi ei ole kuvailuoikeuksia.
 
-![](/assets/files/docs/Luettelointi/kohaversio2111.png)
+![](/assets/files/docs/Luettelointi/kuvailu1.png)
 
 ## 5.1. Bibliografiset tietueet
 
@@ -29,7 +29,7 @@ voidaan kuvailla tyhjälle pohjalle.
 
 Klikkaa _Uusi tietue_ ja valitse sopiva kuvailupohja valikosta.
 
-![](/assets/files/docs/Luettelointi/kohaversio2111k2.png)
+![](/assets/files/docs/Luettelointi/kuvailu2.png)
 
 #### Z39.50/SRU-haulla
 
@@ -38,7 +38,7 @@ kirjastosta/tietokannasta
 
 Klikkaa _Uusi Z39.50/SRU-haku_ ja tee haku
 
-![](/assets/files/docs/Luettelointi/kohaversio2111k3.png)
+![](/assets/files/docs/Luettelointi/kuvailu3.png)
 
 **Vinkki** Jos hakutuloksia ei löydy, kokeile hakua vähemmillä
 hakusanoilla, sillä kaikki Z39.50/SRU -kohteet eivät löydä tietoja
@@ -47,7 +47,7 @@ kaikista kentistä. Sanahakua kannattaa myös kokeilla.
 Hakutuloksia voit tarkastella MARC-muodossa tai korttimuodossa tai tuoda
 tietueen Kohaan
 
-![](/assets/files/docs/Luettelointi/kohakuvat722.png)
+![](/assets/files/docs/Luettelointi/kuvailu4.png)
 
 ![](/assets/files/docs/Luettelointi/kohaversio2111k5.png)
 
@@ -59,14 +59,14 @@ alareunassa.
 Kun olet avannut tyhjän kuvailupohjan tai tuonut nimeketietueen
 Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 
-![](/assets/files/docs/Luettelointi/kohaversio2111k4.png)
+![](/assets/files/docs/Luettelointi/kuvailu5.png)
 
 ### 5.1.2. Osakohteiden lisääminen
 
 Nimekkelle voi lisätä osakohteita eli sisältöä haettavassa muodossa.
 Valitse nimeketiedoissa _Uusi -&gt; Uusi osakohde_.
 
-![](/assets/files/docs/Luettelointi/luettelointi8.png)
+![](/assets/files/docs/Luettelointi/kuvailu6.png)
 
 Musiikin osakohteille on tehty oma tallennuspohja. Valitse se valikosta,
 mikäli kuvailet musiikkiaineistoa.
@@ -80,7 +80,7 @@ määritellä osakohteiden ominaisuuksia, riittää kun tallennat toiseen
 kertaan tietueen). Automaattisesti täyttyy linkkikenttä 773
 tarvittavilla emon tiedoilla, kuten kuvassa alla:
 
-![](/assets/files/docs/Luettelointi/kohakuvatkausi541.png)
+![](/assets/files/docs/Luettelointi/kuvailu7.png)
 
 Osakohteella ei ole niteitä, joten niteidentallennusnäytölle ei tarvitse
 tallentaa mitään, vaan voit palata vasemmalta _Perustiedot_-painikkeesta
@@ -99,7 +99,7 @@ tai klikkaa Tiedonhaun puolella _Muokkaa_-valikosta _Muokkaa tietuetta_.
 
 Tietue avautuu MARC-muokkaukseen.
 
-![](/assets/files/docs/Luettelointi/kuvailu13.png)
+![](/assets/files/docs/Luettelointi/kuvailu8.png)
 
 Kun muokkaat tietuetta, kentän nimen perässä on kuvakkeet, joista
 vasemmalla oleva kopioi kentän ja oikealla puolella oleva tyhjentää
