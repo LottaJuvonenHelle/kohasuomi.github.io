@@ -8,7 +8,7 @@ toc: true
 
 # 5. Kuvailu
 
-Kuvailuun meno: Muita toimintoja -&gt; Kuvailu. Jos linkkiä ei
+Kuvailuun meno: _Muita toimintoja -&gt; Kuvailu_. Jos linkkiä ei
 näy, käyttäjätunnuksellasi ei ole kuvailuoikeuksia.
 
 ![](/assets/files/docs/Luettelointi/kuvailu1.png)
@@ -144,13 +144,13 @@ _Tallenna_-painikkeesta, jossa on kolme eri vaihtoehtoa.
 
 #### Kuvailutietueen korvaaminen uudella Z39.50/SRU-haun kautta
 
-Vaihtoehtoisesti voit etsiä Z39.50/SRU -haun kautta toisesta kirjastosta
+Vaihtoehtoisesti voit etsiä Z39.50/SRU-haun kautta toisesta kirjastosta
 täydellisemmän kuvailutietueen, jolla korvaat nykyisen
 tietueen.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat724.png)
 
-Jos käytät tätä korvaamista, pääset Z39.50/SRU -hakusivulle valitsemaan
+Jos käytät tätä korvaamista, pääset Z39.50/SRU-hakusivulle valitsemaan
 valikosta kirjaston, jonka tietueella nimeketietue korvataan.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat7262.png)
@@ -171,7 +171,7 @@ _Tallenna_ -painiketta.
 
 ### 5.1.4. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
 
-Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon asetuksessa EnableAdvancedCatalogingEditor. Editori ei ole vielä täysin
+Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon asetuksessa _EnableAdvancedCatalogingEditor_. Editori ei ole vielä täysin
 luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
 
 HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
