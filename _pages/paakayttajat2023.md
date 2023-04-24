@@ -217,7 +217,7 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
     * 12.5-12.10 Asiakkaiden poisto - Tietueiden muokkaus: Lappi (HUOM! osa siirtynyt Kuvailu-osioon)
     * 12.11 Automaattinen niteen muokkaus: Kati Sillgren
     * 12.12 MARC-muokkauksen pohjat: Kati Sillgren
-    * 12.13 Kalenteri: Anneli Österman
+    * 12.13 Kalenteri: Piia Semenoff
     * 12.14 Lokien katselu: Tuomas Kunttu
     * 12.15-12.17 Uutiset-Siirtokokoelmat: Tuomas Kunttu
   * [Kohan ohje suomeksi -muotoiluohjeet](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus)
