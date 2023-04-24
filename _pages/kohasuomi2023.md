@@ -20,6 +20,9 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä: Anneli, Emmi, Lasse, Pasi, Lari, Kodo, Ville
 
 * Versionvaihdon tikettien läpikäynti
+  * Tiketit käytiin läpi ja kirjoitettiin kommentit tiketteihin.
+  * Arvioitiin versionvaihdon aikataulua.
+* Käytiin suppeasti läpi Kirkes-kimpan tietoturvavaikutusten arviointiraportti. 
 
 ## Viikon 16 muistiot
 
