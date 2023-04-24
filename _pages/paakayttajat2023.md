@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16 muistio
 
 Aika: 18.4.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 
@@ -69,6 +69,10 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
 **Lumme**
 * Automaatit toimivat taas.
 * Nextin testaus laajenee Lumpeiden pääkäyttäjille.
+
+**Vaski**
+* Verkkomaksun testauksesta voi sopia Kansalliskirjaston kanssa, että Nexteille halutaan kiinni testausympäristö. Vaskissa oma toteutus testattavana.
+* Damaged-tilojen priorisointia verkkokirjastossa testattu. Kuljetus ohittaa damaged-tilat. Not-loan on väärässä kohtaa.
 
 
 ## Viikko 15 muistio
