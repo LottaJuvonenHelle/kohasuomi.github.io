@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17 muistio
 
 Aika: 25.4.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Nexteiltä siirrettävät](https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot#nextilt%C3%A4-tuotantoon), siirretäänkö asiakasrajoitukset ja asiakasmääreet?
@@ -22,6 +22,14 @@ Läsnä:
 * miten testailut menee?
 
 Etelästä pohjoiseen
+
+**Kyyti**
+* Mitä kaksivaiheinen tunnistautuminen vaatii puhelimeen?
+- TOTP:tä tukeva ohjelma, Kohan ohjeiden mukaan esim. Google Authenticator, andOTP, FreeOTP
+* Nextillä Kaikki lainat -kuitissa oleva uusintakertojen määrä <<items.renewals>> ei enää toimi, mutta <<issues.renewals_count>> vaikuttaisi toimivan.
+* Nextillä varausten järjestys ei toimi oikein, koska uusi varaus menee ensimmäiseksi jonossa. Liittyy kuulemma tietokantojen redusointiin, esim. Vaskissa toimii oikein.
+* Miten voisi saada esim. esineen varattavaksi siten, että sen voisi noutaa vain niteen sijaintikirjastosta (ettei lähde kuljetukseen)?
+- Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin -kohtaa. Varauksen noutokirjasto täsmää: niteen sijaintikirjasto.
 
 ## Viikko 16 muistio
 
