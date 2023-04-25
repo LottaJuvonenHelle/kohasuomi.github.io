@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17 muistio
 
 Aika: 25.4.2023 klo 9.15 <br />
-Läsnä: Tuomas Kunttu (Kyyti)
+Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI),
 
 **Yhteiset**
 * [Nexteiltä siirrettävät](https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot#nextilt%C3%A4-tuotantoon), siirretäänkö asiakasrajoitukset ja asiakasmääreet?
@@ -30,6 +30,12 @@ TOTP:tä tukeva ohjelma, Kohan ohjeiden mukaan esim. Google Authenticator, andOT
 * Nextillä varausten järjestys ei toimi oikein, koska uusi varaus menee ensimmäiseksi jonossa. Liittyy kuulemma tietokantojen redusointiin, esim. Vaskissa toimii oikein.
 * Miten voisi saada esim. esineen varattavaksi siten, että sen voisi noutaa vain niteen sijaintikirjastosta (ettei lähde kuljetukseen)?
 Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin -kohtaa. Varauksen noutokirjasto täsmää: niteen sijaintikirjasto.
+
+**OUTI**
+* Tuotanto-Finnassa asiakastietojen muutospyynnöt lakkasivat toimimasta ja asiakkaat saivat virheilmoituksen "Pyyntöä ei voitu käsitellä. Yritä uudestaan."  Ongelma oli myös Vaskissa. Ongelma johtui siitä, että Vaskissa ja OUTIssa oli ylikirjoitettu sivupohja myresearch/change-address-settings.phtml. Kun ylikirjoitus poistettiin, muutospyynnöt lähtivät taas toimimaan. Koska samaa ongelmaa on myös osalla next-Finnassa, niin kokeiltiin samaa korjausta myös siellä. Korjauksella saatiin varaustunnuksen muutospyyntö toimimaan, mutta osoitetietojen muutospyynnöt antavat edelleen next-Finnassa virheilmoituksen. 
+* Link Mobility (SMS-palvelu) ottaa uuden varmenteen käyttöön 25.4.2023 klo 15.00. OUTIssa ei aiheuta toimenpiteitä Kohan eikä Webkaken osalta. 
+* Oulussa on mennyt ja menee kirjastoja (Puolivälinkangas, Kaukovainio, Asema) kiinni remontin tai muun syyn vuoksi. Kiinnimenot ovat aiheuttaneet muutoksia Kohaan. 
+* OUTIssa testataan next-Finnassa verkkomaksuja Ceeposin verkkomaksuportaalin kanssa. 
 
 ## Viikko 16 muistio
 
