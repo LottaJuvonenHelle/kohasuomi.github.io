@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17 muistio
 
 Aika: 25.4.2023 klo 9.15 <br />
-Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara),
+Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Nexteiltä siirrettävät](https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot#nextilt%C3%A4-tuotantoon), siirretäänkö asiakasrajoitukset ja asiakasmääreet?
@@ -41,6 +41,10 @@ Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin
 * Viime viikolla otettiin käyttöön Finnaan muutos, jossa asiakas voi valita mitkä maksut maksaa eli ei ole pakko maksaa kaikkia maksuja kerralla.
 * Vaaran henkilökunta on testannut nextiä ja useampi on kommentoinut, että hakutulokseen pitäisi saada niteen luokkatieto näkyviin.
 * Testattu testattavia tikettejä ja muutakin mieleen juolahtavaa.
+
+**Lappi**
+* Muutamia EditX-virheitä tullut
+* Normiylläpitoa ja versionvaihtoon liittyviä töitä
 
 ## Viikko 16 muistio
 
