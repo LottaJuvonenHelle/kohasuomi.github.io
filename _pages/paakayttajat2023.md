@@ -49,7 +49,7 @@ Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin
 ## Viikko 16 muistio
 
 Aika: 18.4.2023 klo 9.15 <br />
-Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Mikko Liimatainen (Vaski)
+Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Mikko Liimatainen (Vaski), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 
@@ -110,6 +110,11 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
 * Verkkomaksun testauksesta voi sopia Kansalliskirjaston kanssa, että Nexteille halutaan kiinni testausympäristö. Vaskissa oma toteutus testattavana.
 * Damaged-tilojen priorisointia verkkokirjastossa testattu. Kuljetus ohittaa damaged-tilat. Not-loan on väärässä kohtaa.
 
+**Kyyti**
+
+* Nextillä ISSUESLIP-kuitissa oleva uusintakertojen määrä <<items.renewals>> ei enää toimi. Kokeilin vaihtaa siihen <<issues.renewals_count>> ja se ilmeisesti toimii. Kannattaa muidenkin testata.
+* Nextillä perustiedot-näytöltä puuttuu Vie/Tuo-painike. Teen siitä tiketin.
+* Sivulla https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot lukee, että tiputetaan seuraavat taulut: okm_statistics, okm_statistics_logs ja biblio_data_elements. Varmistin, että nämä siis todella poistuvat. Näitä korvaavat uudet taulut ovat: koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements ja koha_plugin_fi_kohasuomi_okmstats_okm_statistics
 
 ## Viikko 15 muistio
 
