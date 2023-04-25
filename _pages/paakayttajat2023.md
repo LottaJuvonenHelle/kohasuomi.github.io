@@ -25,11 +25,11 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Mitä kaksivaiheinen tunnistautuminen vaatii puhelimeen?
-- TOTP:tä tukeva ohjelma, Kohan ohjeiden mukaan esim. Google Authenticator, andOTP, FreeOTP
+TOTP:tä tukeva ohjelma, Kohan ohjeiden mukaan esim. Google Authenticator, andOTP, FreeOTP
 * Nextillä Kaikki lainat -kuitissa oleva uusintakertojen määrä <<items.renewals>> ei enää toimi, mutta <<issues.renewals_count>> vaikuttaisi toimivan.
 * Nextillä varausten järjestys ei toimi oikein, koska uusi varaus menee ensimmäiseksi jonossa. Liittyy kuulemma tietokantojen redusointiin, esim. Vaskissa toimii oikein.
 * Miten voisi saada esim. esineen varattavaksi siten, että sen voisi noutaa vain niteen sijaintikirjastosta (ettei lähde kuljetukseen)?
-- Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin -kohtaa. Varauksen noutokirjasto täsmää: niteen sijaintikirjasto.
+Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin -kohtaa. Varauksen noutokirjasto täsmää: niteen sijaintikirjasto.
 
 ## Viikko 16 muistio
 
