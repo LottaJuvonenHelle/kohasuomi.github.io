@@ -132,9 +132,19 @@ Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber tai ti
 - Tietueiden poisto eräajona
 - Lisää listaan
 
-![](/assets/files/docs/Raportit/raportit181.png)
+![](/assets/files/docs/Raportit/raportit182.png)
 - Niteiden muokkaus eräajona
 - Niteiden poisto eräajona
+
+#### 9.1.2.3 Linkit nide-, kuvailu- ja asiakastietueisiin
+
+Jos tallennetussa raportissa on sarake, jossa on nidetunnus (itemnumber), kuvailutietueen tunnus (biblionumber) tai asiakkaan id (borrowernumber), tulee tunnuksen kohdalle automaattisesti valikko, josta pääsee muokkaamaan tai katsomaan tietuetta. Jos kyseessä on asiakkaan id, pääsee myös suoraan lainaamaan asiakkaalle.
+
+Nidetietue
+![](/assets/files/docs/Raportit/raportit183.png)
+
+Asiakastietue
+![](/assets/files/docs/Raportit/raportit184.png)
 
 ### 9.1.2 Tilastovelho
 
