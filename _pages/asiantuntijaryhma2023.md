@@ -28,6 +28,8 @@ Läsnä:
 
 24.4.2023 pidetystä PowerBI-webinaarista on tullut toive PowerBI-vertaistukiryhmän perustamisesta. Jäsenet valitaan kirjaston ehdotusten perusteella.
 
+Ryhmän tehtävänä on selvittää PowerBI-raporttien jakamiseen liittyviä kysymyksiä sekä Kohan raporttien yhdenmukaistamista, jos se on tarpeen.
+
 ### 4. Asiantuntijaryhmän kokoonpano
 
 ### 5. Muut asiat
