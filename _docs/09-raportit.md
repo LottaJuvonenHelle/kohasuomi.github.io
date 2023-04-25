@@ -141,9 +141,11 @@ Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber tai ti
 Jos tallennetussa raportissa on sarake, jossa on nidetunnus (itemnumber), kuvailutietueen tunnus (biblionumber) tai asiakkaan id (borrowernumber), tulee tunnuksen kohdalle automaattisesti valikko, josta pääsee muokkaamaan tai katsomaan tietuetta. Jos kyseessä on asiakkaan id, pääsee myös suoraan lainaamaan asiakkaalle.
 
 Nidetietue
+
 ![](/assets/files/docs/Raportit/raportit183.png)
 
 Asiakastietue
+
 ![](/assets/files/docs/Raportit/raportit184.png)
 
 ### 9.1.2 Tilastovelho
@@ -345,7 +347,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 
 ![](/assets/files/docs/Raportit/raportit45.png)
 
-#### Luettelo nidetyypeittäin
+#### Luettelo aineistoittain
 
 Raportti laskee niteitä.
 
@@ -359,7 +361,7 @@ Valinnastasi riippuen tuloksista muodostuu taulukko.
 ![](/assets/files/docs/Raportit/raportit47.png)
 
 - Voit säätää näkyvillä olevia sarakkeita ja viedä tiedot Excel- tai CSV-muodossa, kopioida tai tulostaa ne.
-- 
+
 #### Keskimääräinen laina-aika
 
 ![](/assets/files/docs/Raportit/raportit48.png)
