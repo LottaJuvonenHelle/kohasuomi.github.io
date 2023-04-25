@@ -44,7 +44,7 @@ Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin
 
 **Lappi**
 * Muutamia EditX-virheitä tullut
-* Normiylläpitoa ja versionvaihtoon liittyviä töitä
+* Normaalia ylläpitoa ja versionvaihtoon liittyviä töitä
 
 ## Viikko 16 muistio
 
