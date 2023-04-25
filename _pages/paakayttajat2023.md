@@ -10,11 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 17 esityslista
+## Viikko 17 muistio
+
+Aika: 25.4.2023 klo 9.15 <br />
+Läsnä:
 
 **Yhteiset**
 * [Nexteiltä siirrettävät](https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot#nextilt%C3%A4-tuotantoon), siirretäänkö asiakasrajoitukset ja asiakasmääreet?
+  * Siirretään asiakasmääreet. Huolehdittava, että Nextillä on oikea määrä määreitä ennen versionvaihtoa.
+  * Ei siirretä asiakasrajoituksia. Mikään kimppa ei ole vielä ainakaan lisännyt sinne uusia rajotteita.
 * miten testailut menee?
+
+Etelästä pohjoiseen
 
 ## Viikko 16 muistio
 
