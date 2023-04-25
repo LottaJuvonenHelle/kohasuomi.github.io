@@ -15,7 +15,28 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 4/23
+## Asiantuntijaryhmän esityslista 5/23
+
+Aika: Ke 24.5.2023 klo 9<br />
+Läsnä:
+
+### 1. Arin ajankohtaiset
+
+### 2. Versionvaihdon kokemukset
+
+### 3. PowerBI-vertaistukiryhmän perustaminen
+
+24.4.2023 pidetystä PowerBI-webinaarista on tullut toive PowerBI-vertaistukiryhmän perustamisesta. Jäsenet valitaan kirjaston ehdotusten perusteella.
+
+### 4. Asiantuntijaryhmän kokoonpano
+
+### 5. Muut asiat
+
+### 6. Seuraava kokous
+
+
+
+## Asiantuntijaryhmän muistio 4/23
 
 Aika: 19.4.2023 klo 9<br />
 Läsnä: Ari Mäkiranta (Koha-Suomi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (Vaara), Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Leena Kinnunen (Lappi), Kati Sillgren (Helle), Piia Semenoff (OUTI) ja Hanna Ikonen (Lumme)
@@ -23,8 +44,10 @@ Läsnä: Ari Mäkiranta (Koha-Suomi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (V
 ### 1. Arin ajankohtaiset
 * Harjoittelija Mikkelissä 1.4-31.5.
 * Lastu-kirjastot halukkaita liittymään Koha-Suomeen.
+ 
 ### 2. Versionvaihdon tilanne
 * Kehittäjillä on yhä työnalla Koha-Suomi spesifejä tikettejä. Valtaosa kesken olevista on plugineja, joten testaamiseen ei mene kauaa. Vaarassa koko henkilkunta pääsee jo testaamaan, muissa vielä testaaminen on rajoitettu vain osalle henkilöstöstä. Päätettiin, että jos jokin asia ei ehdi versionvaihtoon, siitä tiedotetaan heti. Tavoite on kuitenkin yhä, että kaikki saadaan valmiiksi.
+
 ### 3. KohaPerlCon2023
 
 [Call for papers](https://github.com/KohaSuomi/Koha/discussions/492) - ehdota aihetta KohaConiin.
@@ -45,7 +68,8 @@ Käydään läpi vanhoja, käsittelemättömiä hankintaehdotuksia. Näiden jäl
 
 ### 5. Muut asiat
 
-*kimpoista tarvitaan esitykset asiantuntijaryhmän kokoonpanoksi.
+* kimpoista tarvitaan esitykset asiantuntijaryhmän kokoonpanoksi.
+
 ### 6. Seuraava kokous
 
 Seuraava kokous on ke 24.5.2023 klo 9.
