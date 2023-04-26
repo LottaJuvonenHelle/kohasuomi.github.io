@@ -631,7 +631,7 @@ Asiakasmääreet ovat itse määritettäviä lisäkenttiä, jotka voi liittää 
 
 ![](/assets/files/docs/Asetukset/asiakasmaare.png)
 
-Koha-Suomen kimpoilla on kolme kaikille yhteistä asiakasmäärettä: Automaattityyppi (AUTOTYPE), Sotu-avain (SSN) ja Automaatin toimittaja (TOIMITTAJA). Lisäksi voi olla kimppakohtaisia asiakasmääreitä, esim. OUTI-kirjastoissa on käytössä Y-tunnus-määre yhteisöasiakkaille.
+Koha-Suomen kimpoilla on neljä kaikille yhteistä asiakasmäärettä: Automaattityyppi (AUTOTYPE), Sotu-avain (SSN), Automaatin toimittaja (TOIMITTAJA) ja Varaustunnus (HOLDID). Lisäksi voi olla kimppakohtaisia asiakasmääreitä, esim. OUTI-kirjastoissa on käytössä Y-tunnus-määre yhteisöasiakkaille ja Vaarassa Toveri-omatoimikoneille omatoimipalvelujen käyttöehtojen hyväksymiseen määre.
 
 Asiakasmääreet näkyvät asiakastiedoissa **Muut määreet ja tunnukset** -kohdassa.
 
