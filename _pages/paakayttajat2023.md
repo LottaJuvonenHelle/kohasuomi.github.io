@@ -46,7 +46,7 @@ Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin
 * Muutamia EditX-virheitä tullut
 * Normaalia ylläpitoa ja versionvaihtoon liittyviä töitä
 
-**Siilinjrvi**
+**Siilinjärvi**
 * Kaksivaiheinen tunnistautuminen ei ehkä tule käyttöön ainakaan heti
 * Ei muuta mainittavaa
 
