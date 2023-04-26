@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17 muistio
 
 Aika: 25.4.2023 klo 9.15 <br />
-Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi)
+Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Nexteiltä siirrettävät](https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot#nextilt%C3%A4-tuotantoon), siirretäänkö asiakasrajoitukset ja asiakasmääreet?
@@ -45,6 +45,12 @@ Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin
 **Lappi**
 * Muutamia EditX-virheitä tullut
 * Normaalia ylläpitoa ja versionvaihtoon liittyviä töitä
+
+**Siilinjrvi**
+* Kaksivaiheinen tunnistautuminen ei ehkä tule käyttöön ainakaan heti
+* Ei muuta mainittavaa
+
+
 
 ## Viikko 16 muistio
 
