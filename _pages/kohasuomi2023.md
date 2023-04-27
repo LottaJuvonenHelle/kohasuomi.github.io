@@ -15,6 +15,14 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 17 muistiot
 
+### Torstai 27.4.2023 klo 10
+
+Läsnä:
+
+* [Keskiviikon käyttökatkos](https://github.com/KohaSuomi/Koha/discussions/520)
+* Versionvaihdon tilanne
+
+
 ### Maanantai 24.4.2023 klo 10
 
 Läsnä: Anneli, Emmi, Lasse, Pasi, Lari, Kodo, Ville
