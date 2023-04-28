@@ -10,6 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 18 esityslista
+
+Aika: 2.5.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+* [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
+  * Mitä tämän kanssa tehtäisiin?
+  * Yksi vaihtoehto voisi olla ottaa asetus pois päältä ja tuoda nykyversion 001-liitännäinen uuteenkin versioon.
+
 ## Viikko 17 muistio
 
 Aika: 25.4.2023 klo 9.15 <br />
