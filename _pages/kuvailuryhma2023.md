@@ -8,6 +8,59 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2023'
 ---
 
+## Kuvailuryhmän muistio 4/2023
+
+Aika: 19.4.2023 klo 13.15–14.45
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski)
+
+Poissa: Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Marja Soisalo.
+
+#### 2.	Kirkes-kirjastojen edustaja ryhmään ####
+
+Käytiin ryhmäläisten esittelykierros ja Suvi Kauranen (Järvenpään kaupunginkirjasto) kertoi Kirkes-kimpan kuvailuasioista. 
+
+#### 3.	Vuosisuunnitelma 2023 ####
+
+Käytiin läpi Antin tekemät muutokset ja lisäykset. Antti lähettää päivitetyn version suunnitelmasta kuvailuryhmäläisille kommentoitavaksi.
+
+#### 4.	Uuden TäTin asetukset ####
+
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha-22x/wiki/Uutta#applyframeworkdefaults" target="_blank">ApplyFrameworkDefaults</a> </li>
+  <li>Päätettiin valita luettelointipohjan oletusarvoista vaihtoehto ”uutta tietuetta kuvailtaessa” (when cataloguing new records).</li>
+</ul>
+
+#### 5.	Kuvailupohjien auktorisoitujen arvojen valikot ####
+
+<ul>
+  <li>Ongelmana se, että jos valikoissa ei ole kaikki arvot sekä ruotsiksi että suomeksi, niin ne kentät, joissa on termit molemmilla kielillä, saattavat tyhjentyä, kun tietueen muokkauksen yhteydessä vaihtaa oletuspohjasta johonkin toiseen pohjaan.</li>
+  <li>Päätettiin lisätä kirjapohjaan ruotsinkieliset termit auktorisoitujen arvojen valikkoihin.</li>
+  <li>Kirja (Ruotsi) -pohjalla kuvaillut tietueet siirretään kirjapohjalle jossain vaiheessa korjausajona.</li>
+  <li>Kuvailijoiden kannattaa tehdä ruotsinkielisen aineiston kuvailu kirjapohjalla.</li>
+</ul>
+
+#### 6.	Muita asioita ####
+
+<ul>
+  <li>Edellisestä kokouksesta 22.3.: Ruotsinkielisen kaunokirjallisuuden asiasanojen järjestys tietueessa -> Siskusta ja Melindasta ei ollut apua, joten ongelma jää Finnan ratkaistavaksi.</li>
+  <li>Fiktiivisen aineiston lisäluokan 084-kentässä ja kohdehenkilöiden tai -yhteisöjen nimet voi halutessaan suomentaa ruotsinkielisessä kaunossa.</li>
+  <li>Siilijärvelle on saatu uusi kuvailija, mutta liittynee ryhmään vasta syksyllä.</li>
+  <li>Löytyykö Koha-Suomen kirjastoista harvinaisempien vieraiden kielien osaajia kuvailijoiden avuksi (esim. japani, kiina, kreikka, arabia, turkki, ukraina, jne.)? Nimenomaan OUTIssa ja Vaskissa tarvetta harvinaisempien kielin osaamiselle.</li>
+  <li>Jos Melindasta poimitun tietueen tallentaminen TäTissä ei onnistu sen takia, että jonkin kentän 5-osakenttä ei kuulu Marc-formaattiin, kannattaa olla yhteydessä pääkäyttäjiin, jotka lisäävät kentän Nalkuttimen asetuksiin.</li>
+  <li>Seuraava Koha-Suomi Melindaan -työryhmän kokous 24.5.2023 Klo 14</li>
+</ul>
+
+#### 7.	Seuraava kokous keskiviikkona 24.5.2023 klo 13 ####
+
+
+---
 ## Kuvailuryhmän muistio 3/2023
 
 Aika: 22.3.2023 klo 13.15-14:34
