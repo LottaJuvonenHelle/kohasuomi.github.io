@@ -16,35 +16,46 @@ Kohan Hankinta mahdollistaa tilausten teon ja budjetin seuraamisen.
 Kirjastolle pitää olla määritettynä budjetti ja vähintään yksi tili,
 jotta tilauksia voi tehdä.
 
-- Mene: _Muita toimintoja -&gt; Hankinnat_
+Pääset hankintaa kahta kautta: 
+- _Muita toimintoja -&gt; Hankinnat_
+- Etusivulta _Hankinnat_
 
 ![](/assets/files/docs/Hankinta/hankinta1.png)
 
 Hankinnan etusivulla näkyy kaikki tilit.  
 ![](/assets/files/docs/Hankinta/hankinta7.png)
 
-Voit piilottaa näkyviltä käytöstä poistetut budjetit klikkaamalla
+- Voit piilottaa näkyviltä käytöstä poistetut budjetit klikkaamalla
 _Piilota käytöstä poistetut budjetit_. Takaisin näkyviin ne saa
 klikkaamalla _Näytä käytöstä poistetut budjetit_.
 
-Voit suodattaa näkymää alasvetovalikosta _Kirjaston mukaan_. Voit suodattaa näkymää myös kirjoittamalla sopivan hakutermin _Hae_-kohtaan.
+- Voit suodattaa näkymää alasvetovalikosta _Kirjaston mukaan_. 
+
+- Voit suodattaa näkymää myös kirjoittamalla sopivan hakutermin _Hae_-kohtaan. Haun saa poistettua klikkaamalla _Tyhjennä suodatin_.
 
 Jos haluat nähdä, mitä teoksia on tilattu tiettyä tiliä käyttäen,
-klikkaa tilin kohdalla Tilattu-sarakkeessa linkkinä olevaa summaa.  
+klikkaa tilin kohdalla _Tilattu_-sarakkeessa linkkinä olevaa summaa.  
 ![](/assets/files/docs/Hankinta/hankinta8.png)
 
-Lue lisää budjetin/tilin käytöstä luvussa _5.9. Budjetointi ja tilien
+Lue lisää budjetin/tilin käytöstä luvussa _7.10 Budjetointi ja tilien
 seuranta._
 
 
 ## 7.1 Budjetin lisääminen
 
-Budjetin voi lisätä joko _Hankinnan_ kautta tai ylläpidosta _Hankinnan
+Budjetin voi lisätä joko ylläpidosta _Hankinnan
 asetusten_ kautta.
 
-![](/assets/files/docs/Hankinta/hankinta02.png) tai ![](/assets/files/docs/Hankinta/hankinta2.png)
+![](/assets/files/docs/Hankinta/hankinta02.png) 
+
+tai _Hankinnan_ etusivun kautta vasemmasta reunasta
+
+![](/assets/files/docs/Hankinta/hankinta2.png)
 
 Klikkaa _Uusi budjetti_.
+
+
+![](/assets/files/docs/Hankinta/hankinta3.png)
 
 **Täytä seuraavat tiedot:**
 
@@ -56,17 +67,16 @@ Klikkaa _Uusi budjetti_.
   budjettia ei enää haluta käyttää, muokkaa sitä ja valitse _Lukitse
   budjetti_.
 
-![](/assets/files/docs/Hankinta/hankinta3.png)
-
 **Tallenna** muutokset.
 
 ### 7.1.1 Budjetin sulkeminen (eli tilausten siirto)
 
-Kun budjettia ei enää tarvita, voi sen sulkea. HUOMIO! **Älä poista
-budjettia tai tilejä**, koska se vaikuttaa tilastoihin. Jos budjetti tai
-tilit poistetaan, ei saada enää siltä vuodelta hankintatilastoja.
+Kun budjettia ei enää tarvita, voi sen sulkea. 
 
-Budjetin sulkemisella voidaan **siirtää vastaanottamattomat tilaukset ja käyttämättömät varat seuraavan vuoden budjettiin**. Uudessa budjetissa pitää kuitenkin olla tismalleen saman nimiset tilit (tilikoodi pitää olla sama) kuin vanhassa, jotta siirto onnistuu. Käytännössä eri vuosille pitää kuitenkin olla eri nimisillä tilikoodeilla olevat tilit, jotta EDItX-hankinta toimii. Katso kohta 5.2 Tilin lisääminen.
+HUOMIO! **Älä poista budjettia tai tilejä**, koska se vaikuttaa tilastoihin. Jos budjetti tai
+tilit poistetaan, ei saada enää siltä vuodelta hankintatilastoja. {: .notice--warning}
+
+Budjetin sulkemisella voidaan **siirtää vastaanottamattomat tilaukset ja käyttämättömät varat seuraavan vuoden budjettiin**. Uudessa budjetissa pitää kuitenkin olla täsmälleen saman nimiset tilit (tilikoodi pitää olla sama) kuin vanhassa, jotta siirto onnistuu. Käytännössä eri vuosille pitää kuitenkin olla eri nimisillä tilikoodeilla olevat tilit, jotta EDItX-hankinta toimii. Katso kohta 7.1.3 Tilin lisääminen.
 
 Valitse vasemmasta reunasta _Budjetit_ ja etsi suljettava budjetti.
 
