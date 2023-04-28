@@ -13,6 +13,12 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 18 esityslista
+
+* Mitä tehdään Koha-repositoriolle versiopäivityksessä. Koodikanta pitäisi saada päivitettyä siten että vanha koodi säilytetään myös "jossain", tai homma pitäisi saada hoidettua muuten elegantisti niin että tiketit, wikit ja diskussiot pysyvät matkassa.
+  * Luodaan uusi repo Koha-21x ja kloonaataan nykyinen Koha-repo siihen?
+  * Päivitetään Koha-repon sisältämä koodikanta Koha-22x version mukaiseksi? Miten?
+
 ## Viikon 17 muistiot
 
 ### Torstai 27.4.2023 klo 10
