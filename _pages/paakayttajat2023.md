@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17 muistio
 
 Aika: 25.4.2023 klo 9.15 <br />
-Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen, Katja Valjakka (Lumme)
 
 **Yhteiset**
 * [Nexteiltä siirrettävät](https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot#nextilt%C3%A4-tuotantoon), siirretäänkö asiakasrajoitukset ja asiakasmääreet?
@@ -50,6 +50,10 @@ Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin
 * Kaksivaiheinen tunnistautuminen ei ehkä tule käyttöön ainakaan heti
 * Ei muuta mainittavaa
 
+**Lumme**
+* Lumpeissa sama ongelma kuin Outissa next-Finnassa, mitä tulee asiakkaiden osoitteenmuutospyyntöihin.
+* Lumme-next Lumpeiden Koha-ryhmän kokeiltavaksi.
+* Kokeiltiin auktorisoitujen arvojen muutoksia, jotta Tilanahtaus-status saataisiin toimimaan järkevästi Kohassa ja Finnassa. Kokeilut tämän osalta jatkuvat. 
 
 
 ## Viikko 16 muistio
