@@ -22,12 +22,11 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski)
   * **Päätös**: Tuodaan vanha 001-liitännäinen, eikä käytetä autocontrolnumber-järjestelmäasetusta.
 * Jos teette tuotantoon viestipohjiin muutoksia, muistakaa tehdä ne myös nextille.
 
+Pohjoisesta etelään.
+
 **Vaski**
 * 19.4. Koha-katko pääsi Turun Sanomiin raflaavilla otsikoilla
 * Tätistä valunut virheellisesti tietoja muutaman osakohteen päälle. Syy toistaiseksi tuntematon. Vaski tekee tiketin.
-
-
-Pohjoisesta etelään.
 
 ## Viikko 17 muistio
 
