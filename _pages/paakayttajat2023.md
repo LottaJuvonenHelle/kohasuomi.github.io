@@ -25,6 +25,8 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski),
 Pohjoisesta etelään.
 
 **OUTI**
+* Raahen Finvoice-laskutus nytkähti taas eteenpäin (on ollut työn alla viime syksystä asti ja etenee hitaasti). Sovittu, että Raahe alkaa laskuttamaan tuotannossa vasta versionvaihdon jälkeen. Koetamme saada sen siiheksi osaltamme niin valmiiksi kuin mahdollista.
+* Normaalia ylläpitoa ja versionvaihtoon liittyviä töitä
 
 **Vaski**
 * 19.4. Koha-katko pääsi Turun Sanomiin raflaavilla otsikoilla
