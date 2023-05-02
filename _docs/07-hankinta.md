@@ -81,7 +81,7 @@ Budjetin sulkemisella voidaan **siirtää vastaanottamattomat tilaukset ja käyt
 
 Valitse vasemmasta reunasta _Budjetit_ ja etsi suljettava budjetti.
 
-![](/assets/files/docs/Hankinta/hankinta301.png)
+![](/assets/files/docs/Hankinta/hankinta2.png)
 
 Valitse oikealta _Toiminnot_-napista _Sulje_
 
@@ -103,7 +103,7 @@ Mikäli valitussa budjetissa ei ole samalla tilikoodilla olevia tilejä, siirto 
 
 ![](/assets/files/docs/Hankinta/budjetinsulku3.png)
 
-Voit budjetin sulun eli tilausten siirron jälkeen halutessasi epäaktivoida budjetin, jotta siihen liittyvät tilit katoaa esim. tilausten vastaanotossa tilivalikosta.
+Voit budjetin sulun eli tilausten siirron jälkeen halutessasi epäaktivoida budjetin, jotta siihen liittyvät tilit katoavat esim. tilausten vastaanotossa tilivalikosta.
 
 ### 7.1.2 Budjetin epäaktivoiminen
 
@@ -121,9 +121,10 @@ Ota **pois** rasti kohdasta _Aktivoi budjetti_ ja sen jälkeen _Tallenna_.
 
 Budjettiin pitää lisätä _tilejä_, jotta sitä voi käyttää. Voit jakaa
 määrärahoja esim. kirjastoittain, aineistoittain tai miten on tarve.
-[Huomioi EditX-hankinnan
-vaatimukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/EditX-hankinta).
+
+[Huomioi EditX-hankinnan vaatimukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/EditX-hankinta).
 **Tilien luonti EDItX-ohjeistuksen mukaan on kriittisen tärkeää.**
+{: .notice--warning}
 
 Tilin voi lisätä kahdella tavalla
 
@@ -132,7 +133,6 @@ Tilin voi lisätä kahdella tavalla
   valikosta _Uusi tili kohteelle xxx_  
   ![](/assets/files/docs/Hankinta/hankinta4.png)
 
-<!-- -->
 
 2. Valitse budjetin nimen kohdalla oikeanpuolimmaisesta sarakkeesta
   _Toiminnot_ ja sieltä _Lisää tili_  
@@ -149,23 +149,20 @@ Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
 - _Tilin nimi_ kannattaa olla selkeä ja helposti ymmärrettävä.
   Kimpoissa kannattaa käyttää kirjaston nimeä ensimmäisenä sanana
   tilin nimessä.
-- _Summassa_ voi olla vain numeroita ja desimaalierotin, ei muita
-  merkkejä. Summa ei voi ylittää budjetille määritettyä
-  kokonaissummaa.
+- _Summassa_ voi olla vain numeroita ja desimaalierotin (piste), ei muita
+  merkkejä. Summa ei voi ylittää budjetille määritettyä kokonaissummaa.
 - _Varoituskohta_ (%) tai (summa) voidaan merkitä halutessa, jolloin Koha
-  varoittaa, kun ylität tietyn määrän käytetyistä määrärahoista.
+  varoittaa, kun ylität tietyn määrän käytetyistä määrärahoista. Huom! Toimii vain, kun tilauksia lisätään manuaalisesti Kohan omilla toiminnoilla. Ei toimi EDItX-tilauksia Kohaan vietässä.
 - _Omistaja_ on se henkilö, joka voi tehdä muutoksia tiliin.
   Käyttäjäksi voi lisätä käyttäjätunnuksia, joilla on hankinnan
-  oikeudet (toiminnossa virhe: pääkäyttäjiä ei voi ohjeista huolimatta
-  lisätä käyttäjiksi). Hae käyttäjätunnuksella tai nimellä ja klikkaa
+  oikeudet. Hae käyttäjätunnuksella tai nimellä ja klikkaa
   _Lisää_. Ikkuna sulkeutuu automaattisesti.  
   ![](/assets/files/docs/Hankinta/hankinta05.png)
 - _Käyttäjä_ voi omistajan lisäksi käyttää tiliä, mutta ei voi tehdä
   muutoksia sen tietoihin. Käyttäjäksi voi lisätä käyttäjätunnuksia, joilla on hankinnan
   oikeudet. Hae käyttäjätunnuksella tai nimellä ja klikkaa
   _Lisää_, jolloin saat ilmoituksen "Asiakas xxx lisätty". Lisää tarvittava määrä käyttäjiä ja sulje sen jälkeen ikkuna joko _Sulje_-napista tai ikkunan rastista.
-  Käyttäjien lisäämisessä on sama virhe kuin Omistaja-kohdassa, eli pääkäyttäjäoikeuksilla olevaa tunnusta ei voi lisätä käyttäjäksi.
-- _Kirjasto_, jonka tilistä on kysymys, valitaan alasvetovalikosta.
+- _Kirjasto_, jonka tilistä on kyse, valitaan alasvetovalikosta.
 - _Rajoita käyttö:_ valitse valikosta, ketkä saavat käyttää tiliä. Käytön voi rajoittaa Omistajalle, Omistajalle ja käyttäjille tai Omistajalla, käyttäjille ja kirjastolle. **Huom!** Rajoitus ei toimi, jos tilille ei ole määritetty omistajaa.
   Kimpoissa kannattaa rajauksia tehdä, jotta kaikille ei näy kaikkien
   kirjastojen tilit (nopeuttaa manuaalisten tilausten tekemistä).  
