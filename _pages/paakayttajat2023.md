@@ -22,13 +22,17 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
   * **Päätös**: Tuodaan vanha 001-liitännäinen, eikä käytetä autocontrolnumber-järjestelmäasetusta.
 * Jos teette tuotantoon viestipohjiin muutoksia, muistakaa tehdä ne myös nextille.
 
+**Vaski**
+* 19.4. Koha-katko pääsi Turun Sanomiin raflaavilla otsikoilla
+* Tätistä valunut virheellisesti tietoja muutaman osakohteen päälle. Syy toistaiseksi tuntematon. Vaski tekee tiketin.
+
 
 Pohjoisesta etelään.
 
 ## Viikko 17 muistio
 
 Aika: 25.4.2023 klo 9.15 <br />
-Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen, Katja Valjakka (Lumme)
+Läsnä: Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen, Katja Valjakka (Lumme), Susanna Sandell (Vaski)
 
 **Yhteiset**
 * [Nexteiltä siirrettävät](https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot#nextilt%C3%A4-tuotantoon), siirretäänkö asiakasrajoitukset ja asiakasmääreet?
@@ -69,6 +73,10 @@ Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin
 * Lumpeissa sama ongelma kuin Outissa next-Finnassa, mitä tulee asiakkaiden osoitteenmuutospyyntöihin.
 * Lumme-next Lumpeiden Koha-ryhmän kokeiltavaksi.
 * Kokeiltiin auktorisoitujen arvojen muutoksia, jotta Tilanahtaus-status saataisiin toimimaan järkevästi Kohassa ja Finnassa. Kokeilut tämän osalta jatkuvat. 
+
+**Vaski**
+* Versiovaihdon asiakastiedotus alkamassa ja Nextin testaus laajennetaan koko henkilökunnalle
+* Oppimateriaalikeskuksen järjestelmän uusiminen suunnitteilla
 
 
 ## Viikko 16 muistio
