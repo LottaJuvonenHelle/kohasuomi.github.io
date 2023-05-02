@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18 muistio
 
 Aika: 2.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
@@ -27,6 +27,21 @@ Pohjoisesta etelään.
 **Vaski**
 * 19.4. Koha-katko pääsi Turun Sanomiin raflaavilla otsikoilla
 * Tätistä valunut virheellisesti tietoja muutaman osakohteen päälle. Syy toistaiseksi tuntematon. Vaski tekee tiketin.
+
+**Vaara**
+* ei mitään eristyistä, mutta mainitsen uuden nidetyypin testauksen tuloksia
+* Vaarassa tarvitaan uusi nidetyyppi, jonka laina-aika on 7 vrk, rajoitus 1, on varattavissa mutta ei uusittavissa, lyhyt noutoaika varauksella.
+Nide ei saa kellua eikä sitä kuljeteta, eli se on lainattava aina kotikirjastostaan.
+Testasin Vaaran tuotannossa lainaamista ja varaamista. Laina- ja maksusäännöissä nidetyypille laitoin varauksia sallituksi 1 kaikkiin kolmeen varausta koskevaan asetukseen, 
+hyllyvaraus sallittu "Jos yhtään ei ole saatavilla". Nidetyypeittäin oleviin varaussääntöihin laitoin varaussääntö-sarakkeeseen "Mistä tahansa kirjastosta" ja varauksen noutokirjasto täsmää "niteen kotikirjasto".
+
+Testaukseni mukaan varauksen rajoittaminen ei onnistu, vaikka säännössä määritellään vain yksi varaus sallituksi. Asiakas voi Finnan kautta
+varata useita saman nidetyypin nimekkeitä. Kuljetuksen estäminen sen sijaan onnistuu, eli niteen voi varata noudettavaksi vain niteen kotikirjastosta. Jos asiakkaan kotikirjasto on joku muu eikä vaihda noutopaikkaa, tulee virheilmoitus "The supplied pickup location is not valid" (en ole vielä keksinyt, miten tuon saa suomeksi, mutta eiköhän se jostain onnistu). Hyllyvaraus sen sijaan ei onnistu, varauspainike ei tule ollenkaan näkyviin Finnassa, jos nide on saatavana-tilassa.
+
+Nextillä uuden nidetyypin testaaminen ei oikein onnistunut, sillä varaaminen ei onnistu. Varausnapissa lukee Tarkista varaus. Kun siitä klikkaa, saa tekstin: "Kirjastojärjestelmään ei saatu yhteyttä. Tietoja, jotka liittyvät tiliisi kirjastossa, ei voida näyttää. Jos ongelma jatkuu, ota yhteyttä kirjastoon."
+
+
+ 
 
 ## Viikko 17 muistio
 
