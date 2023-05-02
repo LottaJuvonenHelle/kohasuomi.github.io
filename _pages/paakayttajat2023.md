@@ -24,6 +24,8 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski),
 
 Pohjoisesta etelään.
 
+**OUTI**
+
 **Vaski**
 * 19.4. Koha-katko pääsi Turun Sanomiin raflaavilla otsikoilla
 * Tätistä valunut virheellisesti tietoja muutaman osakohteen päälle. Syy toistaiseksi tuntematon. Vaski tekee tiketin.
