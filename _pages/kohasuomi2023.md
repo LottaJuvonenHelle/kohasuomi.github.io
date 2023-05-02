@@ -15,10 +15,16 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 18 esityslista
 
+### Tiistai 2.5.2023 klo 10
+
+Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo
+
 * Mitä tehdään Koha-repositoriolle versiopäivityksessä. Koodikanta pitäisi saada päivitettyä siten että vanha koodi säilytetään myös "jossain", tai homma pitäisi saada hoidettua muuten elegantisti niin että tiketit, wikit ja diskussiot pysyvät matkassa.
   * Luodaan uusi repo Koha-21x ja kloonaataan nykyinen Koha-repo siihen?
   * Päivitetään Koha-repon sisältämä koodikanta Koha-22x version mukaiseksi? Miten?
 * Ceepoksessa 503 virhe
+* [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
+  * Pääkäyttäjäpalsussa päätettiin, että otetaan käyttöön vanha 001-liitännäinen järjestelmäasetuksen tilalle.
 
 ## Viikon 17 muistiot
 
