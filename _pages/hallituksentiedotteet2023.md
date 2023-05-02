@@ -11,6 +11,20 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 4/2023
+
+Kokouksen isoin keskusteluaihe oli Lastu-kirjastojen tuleva liittyminen Koha-Suomeen. Alueen kunnissa on jo tehty ensimmäiset päätökset osakkeiden ostamisesta ja loppuja odotellaan. Toiveissa on, että toukokuun hallituksen kokouksessa voidaan hyväksyä uudet jäsenet. Käyttöönottoprojekti alkanee sitten hetimiten Kirkes-projektin päättyessä.
+
+Toimitusjohtajan raportti käytiin keskustellen läpi, liitteenä. Ari kertoi, että 19.4. käyttökatko johtui palvelimen ongelmista ja niiden selvittämistä Bittiguru jatkaa, joten asiaan palataan seuraavassa kokouksessa. Sen sijaan 26.4. olleen lyhyen käyttökatkon juurisyy jäänee selvittämättä. Katkot ovat erittäin ikäviä ja käytännössä sellaisia ei saisi sattua, mutta jos jokin osa hajoaa tai ohjelmassa on bugi, niin sille ei ennalta oikein voi mitään. Onneksi jälkimmäinen katkos jäi hyvin lyhyeksi.
+
+Versiopäivityksen valmistelu etenee aikataulussa ja siihenhän ei enää ole kovin montaa päivää.
+
+Iloista vappua!
+
+T. Rebekka, hallituksen pj.
+
+Liitteet: [Toimitusjohtajan raportti 4/2023](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Toimitusjohtajanraportti4_2023.pdf)
+
 ## Koha-Suomen hallituksen tiedote 3/2023
 
 Maaliskuu on tilinpäätösaikaa ja tilinpäätös oli meilläkin käsittelyssä. Viime vuosi mentiin hieman tappiolle, mutta se oli tietoinen ja harkittu teko. Yhtiön talous on kokonaisuutenaan vakaa. Toinen iso asia oli tietoturva- ja tietosuojaperiaatteiden hyväksyminen. Periaatteet löytyvät Koha-Suomen sivuilta: https://koha-suomi.fi/dokumentaatio/tietosuojaperiaatteet/ . Periaatteet on kirjoitettu selkeästi, joten ne helppo jokaisen lukea. Kannattaa muistaa, että periaatteet ovat Koha-Suomi Oy:n ja niiden lisäksi jokaisen tulee olla perehtynyt oman kunnan tietosuojakäytäntöihin ja osallistua tarpeellisiin koulutuksiin. Jokainen meistä on tärkeä toimija tietosuojan suhteen.
