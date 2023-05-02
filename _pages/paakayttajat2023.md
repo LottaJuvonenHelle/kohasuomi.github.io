@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 18 muistio
 
 Aika: 2.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katja Valjakka ja Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
@@ -37,7 +37,9 @@ Nide ei saa kellua eikä sitä kuljeteta, eli se on lainattava aina kotikirjasto
 varata useita saman nidetyypin nimekkeitä. Kuljetuksen estäminen sen sijaan onnistuu, eli niteen voi varata noudettavaksi vain niteen kotikirjastosta. Jos asiakkaan kotikirjasto on joku muu eikä vaihda noutopaikkaa, tulee virheilmoitus "The supplied pickup location is not valid" (en ole vielä keksinyt, miten tuon saa suomeksi, mutta eiköhän se jostain onnistu). Hyllyvaraus sen sijaan ei onnistu, varauspainike ei tule ollenkaan näkyviin Finnassa, jos nide on saatavana-tilassa.
  * Nextillä uuden nidetyypin testaaminen ei oikein onnistunut, sillä varaaminen ei onnistu. Varausnapissa lukee Tarkista varaus. Kun siitä klikkaa, saa tekstin: "Kirjastojärjestelmään ei saatu yhteyttä. Tietoja, jotka liittyvät tiliisi kirjastossa, ei voida näyttää. Jos ongelma jatkuu, ota yhteyttä kirjastoon."
 
-
+**Lumme**
+* Lumpeiden chat-palvelu loppui 2.5. vähäisen käytön takia.
+* Lumpeilla lisättiin myös maksujen osamaksumahdollisuus Finnaan.
  
 
 ## Viikko 17 muistio
