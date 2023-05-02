@@ -32,11 +32,10 @@ Pohjoisesta etelään.
 * ei mitään eristyistä, mutta mainitsen uuden nidetyypin testauksen tuloksia
 * Vaarassa tarvitaan uusi nidetyyppi, jonka laina-aika on 7 vrk, rajoitus 1, on varattavissa mutta ei uusittavissa, lyhyt noutoaika varauksella.
 Nide ei saa kellua eikä sitä kuljeteta, eli se on lainattava aina kotikirjastostaan.
-Testasin Vaaran tuotannossa lainaamista ja varaamista. Laina- ja maksusäännöissä nidetyypille laitoin varauksia sallituksi 1 kaikkiin kolmeen varausta koskevaan asetukseen, 
-hyllyvaraus sallittu "Jos yhtään ei ole saatavilla". Nidetyypeittäin oleviin varaussääntöihin laitoin varaussääntö-sarakkeeseen "Mistä tahansa kirjastosta" ja varauksen noutokirjasto täsmää "niteen kotikirjasto".
-Testaukseni mukaan varauksen rajoittaminen ei onnistu, vaikka säännössä määritellään vain yksi varaus sallituksi. Asiakas voi Finnan kautta
+ * Testasin Vaaran tuotannossa lainaamista ja varaamista. Laina- ja maksusäännöissä nidetyypille laitoin varauksia sallituksi 1 kaikkiin kolmeen varausta koskevaan asetukseen, hyllyvaraus sallittu "Jos yhtään ei ole saatavilla". Nidetyypeittäin oleviin varaussääntöihin laitoin varaussääntö-sarakkeeseen "Mistä tahansa kirjastosta" ja varauksen noutokirjasto täsmää "niteen kotikirjasto".
+ * Testaukseni mukaan varauksen rajoittaminen ei onnistu, vaikka säännössä määritellään vain yksi varaus sallituksi. Asiakas voi Finnan kautta
 varata useita saman nidetyypin nimekkeitä. Kuljetuksen estäminen sen sijaan onnistuu, eli niteen voi varata noudettavaksi vain niteen kotikirjastosta. Jos asiakkaan kotikirjasto on joku muu eikä vaihda noutopaikkaa, tulee virheilmoitus "The supplied pickup location is not valid" (en ole vielä keksinyt, miten tuon saa suomeksi, mutta eiköhän se jostain onnistu). Hyllyvaraus sen sijaan ei onnistu, varauspainike ei tule ollenkaan näkyviin Finnassa, jos nide on saatavana-tilassa.
-Nextillä uuden nidetyypin testaaminen ei oikein onnistunut, sillä varaaminen ei onnistu. Varausnapissa lukee Tarkista varaus. Kun siitä klikkaa, saa tekstin: "Kirjastojärjestelmään ei saatu yhteyttä. Tietoja, jotka liittyvät tiliisi kirjastossa, ei voida näyttää. Jos ongelma jatkuu, ota yhteyttä kirjastoon."
+ * Nextillä uuden nidetyypin testaaminen ei oikein onnistunut, sillä varaaminen ei onnistu. Varausnapissa lukee Tarkista varaus. Kun siitä klikkaa, saa tekstin: "Kirjastojärjestelmään ei saatu yhteyttä. Tietoja, jotka liittyvät tiliisi kirjastossa, ei voida näyttää. Jos ongelma jatkuu, ota yhteyttä kirjastoon."
 
 
  
