@@ -24,6 +24,7 @@ Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo
   * Päivitetään Koha-repon sisältämä koodikanta Koha-22x version mukaiseksi? Miten?
   * Päivitetään test-kannat uuteen versioon ke 10.5.2023
 * Ceepoksessa 503 virhe
+  * testataan tiistaina lisää
 * [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
   * Pääkäyttäjäpalsussa päätettiin, että otetaan käyttöön vanha 001-liitännäinen järjestelmäasetuksen tilalle.
 
