@@ -189,28 +189,24 @@ Toimittajan lisäyslomake koostuu kolmesta osasta.
 
 - Ensimmäinen osio sisältää toimittajan yhteystiedot.  
   ![](/assets/files/docs/Hankinta/hankinta10.png)
-  - Näistä kentistä vain _Nimi_-kenttä on pakollinen (punaisella,
-    \*), muu tieto helpottaa laskutuksen ja reklamoinnin
+  - Näistä kentistä vain _Nimi_-kenttä on pakollinen, muut tiedot helpottavat laskutuksen ja reklamoinnin
     tekemisessä.
 
-<!-- -->
-
-- Toinen osio koostuu yhteyshenkilön tiedoista.  
+- Toinen osio koostuu yhteyshenkilön/henkilöiden tiedoista.  
   ![](/assets/files/docs/Hankinta/hankinta11.png)
   - Mikään näistä tiedoista ei ole pakollinen.
 
-<!-- -->
 
 - Viimeinen osio sisältää aineiston hintoihin liittyviä tietoja.  
   ![](/assets/files/docs/Hankinta/hankinta12.png)
-  - Toimittajan tulee olla _Aktiivinen_, jotta tilauksen voi tehdä
+  - Toimittajan tulee olla _Aktiivinen_, jotta tilauksia voi tehdä
   - _Lista- ja laskuhinnat_ näkyvät tietyssä valuutassa, joka
     tallennetaan järjestelmäasetuksissa
   - _Veronumero_ (ei tietoa onko Suomessa käytössä)
   - Valitse, ovatko _lista- ja laskuhinnat verollisia vai
-    verottomia_. Jos EDItX-hankinta on käytössä, valitse tähän _veroton_.
+    verottomia_. **Jos EDItX-hankinta on käytössä, valitse tähän _veroton_.**
   - Tallenna veroprosentti, jos kirjastolta veloitetaan verot
-    tilauksesta
+    tilauksesta. **Jos EDItX-hankinta on käytössä, valitse tähän 0 %**
   - Jos toimittaja antaa yleisen alennuksen aineistosta, laita
     alennusprosentti _Alennus_-kenttään
     - Voit antaa niteeseen kohdistuvan oikean alennusprosentin
@@ -247,7 +243,7 @@ paljon kullekin toimittajalle on maksettu.
 
 #### 7.2.3.1 Lisää sopimus
 
-Toimittajan tietojen sivun yläreunassa on _Uusi -&gt; Sopimus_.
+Toimittajan tietojen sivun yläreunassa on _Uusi -&gt; Sopimus_. Tai vasemmasta reunasta _Sopimukset -> Uusi -> Sopimus_
 
 ![](/assets/files/docs/Hankinta/hankinta17.png)
 
