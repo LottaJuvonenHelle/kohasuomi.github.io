@@ -177,7 +177,7 @@ luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
 HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
 olemassa olevat tietueet ovat ilman ISBN:ssa olevia viivoja.
 
-![](/assets/files/docs/Luettelointi/kohakuvatkausi542.png)
+![](/assets/files/docs/Luettelointi/kuvailu15.png)
 
 Voit avata uuden, tyhjän tietueen tai tuoda toisesta järjestelmästä
 haluamasi tietueen haun kautta.
@@ -240,7 +240,7 @@ Muista tyhjentää kentän 001 sisältö, kun aloitat tietueen muokkauksen.
 Näin tietueelle tulee uusi tietueen kontrollinumero tähän kenttään, kun
 tallennat tietueen.
 
-![](/assets/files/docs/Luettelointi/kohakuvatkausi548.png)
+![](/assets/files/docs/Luettelointi/kuvailu16.png)
 
 ### 5.1.6. Tietueiden yhdistäminen
 
@@ -252,7 +252,7 @@ Kuvailun tai tiedonhaun kautta.
 Hae yhdistettävät tietueet kuvailuhaun kautta, valitse niistä
 haluamasi tietueet ja käytä _Yhdistä valitut_ -toimintoa.
 
-![](/assets/files/docs/Luettelointi/kohakuvat550.png)
+![](/assets/files/docs/Luettelointi/kuvailu17.png)
 
 Voit tehdä yhdistelyn myös _Listat_-työkalulla. Valitse yhdistettävät
 tietueet tiedonhaun kautta ja lisää ne jollekin listallesi, josta voit
@@ -260,7 +260,7 @@ ottaa nimekkeet yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki
 niteet ja nimekkeeseen liittyvät varaukset oikeassa järjestyksessä
 jäljelle jäävään nimeketietueeseen.
 
-![](/assets/files/docs/Luettelointi/kohakuvat552.png)
+![](/assets/files/docs/Luettelointi/kuvailu18.png)
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
 tietueet yhdistetään) ja voit valita myös kuvailupohjan.  
@@ -304,12 +304,12 @@ kuvasta “Yhdistetään tietueita”.
 
 Tietue voidaan poistaa valitsemalla _Muokkaa_-valikosta _Poista tietue_.
 
-![](/assets/files/docs/Luettelointi/kohakuvat581.png)
+![](/assets/files/docs/Luettelointi/kuvailu19.png)
 
 Tietuetta ei voi poistaa, mikäli tietueeseen liittyy niteitä. Tällöin
 _Poista tietue_ -teksti näkyy harmaana.
 
-![](/assets/files/docs/Luettelointi/kohakuvat582.png)
+![](/assets/files/docs/Luettelointi/kuvailu20.png)
 
 ## 5.2. Nidetietueet
 
@@ -323,7 +323,7 @@ Uuden nimeketietueen lisäämisen jälkeen pääset suoraan tyhjään
 nidetietueeseen, johon voit liittää niteen tai useampia niteitä. Niteitä
 pääset lisäämään myös klikkaamalla _Muokkaa niteitä_.
 
-![](/assets/files/docs/Luettelointi/luettelointi22.png)
+![](/assets/files/docs/Luettelointi/kuvailu21.png)
 
 Katso myös ohje “Vanhan niteen tallentaminen uutena niteenä”:
 https://tiketti.koha-suomi.fi/documents/46
@@ -331,11 +331,11 @@ https://tiketti.koha-suomi.fi/documents/46
 Tai voit lisätä uuden niteen milloin tahansa nimeketietuenäytöllä
 klikkaamalla _Uusi_ ja valitsemalla _Uusi nide_.
 
-![](/assets/files/docs/Luettelointi/luettelointi23.png)
+![](/assets/files/docs/Luettelointi/kuvailu22.png)
 
 Nimekkeen tallennusnäyttö näyttää tältä:
 
-![](/assets/files/docs/Luettelointi/luettelointi24.png)
+![](/assets/files/docs/Luettelointi/kuvailu23.png)
 
 Pakolliset kentät on merkitty punaisella, mutta vähintään seuraavat
 tiedot olisi hyvä täyttää, jotta niteitä voisi lainata:
@@ -361,7 +361,7 @@ muodostaminen).
 
 Nidetietojen alla on kolme nappia, joista valitset haluamasi toiminnon.
 
-![](/assets/files/docs/Luettelointi/luettelointi25.png)
+![](/assets/files/docs/Luettelointi/kuvailu24.png)
 
 - _Lisää nide_ lisää vain yhden niteen
 - _Lisää ja kopioi_ lisää niteen ja täyttää lomakkeen uudelleen
@@ -370,7 +370,7 @@ Nidetietojen alla on kolme nappia, joista valitset haluamasi toiminnon.
   lisätä ja lisää niin monta nidettä lisäten jokaiselle oman
   viivakoodin (lisäämällä +1 edelliseen)
 
-![](/assets/files/docs/Luettelointi/luettelointi25a.png)
+![](/assets/files/docs/Luettelointi/kuvailu25.png)
 
 Lisäämäsi tietue tulee taulukkoon.
 
