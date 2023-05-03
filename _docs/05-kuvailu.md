@@ -113,7 +113,7 @@ klikkaamalla avautuu valikko, jonka avulla kenttää muokataan.
 
 ![](/assets/files/docs/Luettelointi/luettelointi003.png)
 
-![](/assets/files/docs/Luettelointi/luettelointi004.png)
+![](/assets/files/docs/Luettelointi/kuvailu9.png)
 
 Kentän 008 editorissa pystyy valitsemaan maa- ja kielikoodin valikosta.
 Kentät alkavat ehdottamaan koodeja, kun niihin kirjoitetaan joko koodin
@@ -128,7 +128,7 @@ Huomaa! Joidenkin kiinteämittaisten kenttien arvo muuttuu sen
 perusteella, minkä tyyppistä aineistoa olet kuvailemassa ja mikä
 tallennuspohja on valittuna.
 
-![](/assets/files/docs/Luettelointi/luettelointi005.png)
+![](/assets/files/docs/Luettelointi/kuvailu10.png)
 
 #### Finto-liitännäiset
 
@@ -140,7 +140,7 @@ dokumentaatiosta [Finto-plugin](https://tiketti.koha-suomi.fi/projects/koha-suom
 Kun olet muokannut nimeketietueen, muista tallentaa se
 _Tallenna_-painikkeesta, jossa on kolme eri vaihtoehtoa.
 
-![](/assets/files/docs/Luettelointi/luettelointi006.png)
+![](/assets/files/docs/Luettelointi/kuvailu11.png)
 
 #### Kuvailutietueen korvaaminen uudella Z39.50/SRU-haun kautta
 
@@ -148,12 +148,12 @@ Vaihtoehtoisesti voit etsiä Z39.50/SRU-haun kautta toisesta kirjastosta
 täydellisemmän kuvailutietueen, jolla korvaat nykyisen
 tietueen.
 
-![](/assets/files/docs/Luettelointi/kohakuvat724.png)
+![](/assets/files/docs/Luettelointi/kuvailu12.png)
 
 Jos käytät tätä korvaamista, pääset Z39.50/SRU-hakusivulle valitsemaan
 valikosta kirjaston, jonka tietueella nimeketietue korvataan.
 
-![](/assets/files/docs/Luettelointi/kohakuvat7262.png)
+![](/assets/files/docs/Luettelointi/kuvailu14.png)
 
 Oletusarvona on tässä haku TäTistä ja Melindasta, mutta voit
 valita mitä tahansa valikon kirjastoista hakukirjastoksesi.
