@@ -359,7 +359,7 @@ muodostaminen).
 
 ![](/assets/files/docs/Luettelointi/luettelointi015.png)
 
-Nidetietojen alla on kolme nappia, joista valitset haluamasi toiminnon.
+Nidetietojen alla on neljä nappia, joista valitset haluamasi toiminnon.
 
 ![](/assets/files/docs/Luettelointi/kuvailu24.png)
 
@@ -369,8 +369,12 @@ Nidetietojen alla on kolme nappia, joista valitset haluamasi toiminnon.
 - _Lisää useita kopioita niteestä_ kysyy, montako nidettä haluat
   lisätä ja lisää niin monta nidettä lisäten jokaiselle oman
   viivakoodin (lisäämällä +1 edelliseen)
+- _Tallenna uutena pohjana_ voit tallentaa uuden nidetallennuspohjan
+  tai muokata jo olemassa olevaa tallennuspohjaa  
 
 ![](/assets/files/docs/Luettelointi/kuvailu25.png)
+
+![](/assets/files/docs/Luettelointi/kuvailu26.png)
 
 Lisäämäsi tietue tulee taulukkoon.
 
