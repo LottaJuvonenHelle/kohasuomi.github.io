@@ -18,6 +18,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ### Torstai 4.5.2023 klo 10
 
 * versionvaihdon tikettien tilanne
+* koha-suomi.fi-sertifikaatti vanhenee 20.5.2023
 
 ### Tiistai 2.5.2023 klo 10
 
