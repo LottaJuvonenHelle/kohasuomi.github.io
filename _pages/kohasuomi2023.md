@@ -13,7 +13,11 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
-## Viikon 18 esityslista
+## Viikon 18 muistiot
+
+### Torstai 4.5.2023 klo 10
+
+* versionvaihdon tikettien tilanne
 
 ### Tiistai 2.5.2023 klo 10
 
@@ -24,7 +28,7 @@ Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo
   * Päivitetään Koha-repon sisältämä koodikanta Koha-22x version mukaiseksi? Miten?
   * Päivitetään test-kannat uuteen versioon ke 10.5.2023
 * Ceepoksessa 503 virhe
-  * testataan tiistaina lisää
+  * testataan keskiviikkona lisää
 * [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
   * Pääkäyttäjäpalsussa päätettiin, että otetaan käyttöön vanha 001-liitännäinen järjestelmäasetuksen tilalle.
 
