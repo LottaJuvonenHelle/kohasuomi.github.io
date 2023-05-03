@@ -369,7 +369,7 @@ Nidetietojen alla on neljä nappia, joista valitset haluamasi toiminnon.
 - _Lisää useita kopioita niteestä_ kysyy, montako nidettä haluat
   lisätä ja lisää niin monta nidettä lisäten jokaiselle oman
   viivakoodin (lisäämällä +1 edelliseen)
-- _Tallenna uutena pohjana_ voit tallentaa uuden nidetallennuspohjan
+- _Tallenna pohjana_ voit tallentaa uuden nidetallennuspohjan
   tai muokata jo olemassa olevaa tallennuspohjaa  
 
 ![](/assets/files/docs/Luettelointi/kuvailu25.png)
