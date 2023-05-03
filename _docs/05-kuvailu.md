@@ -238,7 +238,7 @@ Tämä avaa uuden MARC-tietueen, jossa kentät on täytetty kopioidun
 tietueen tiedoilla ja voit muokata tietoja haluamiksesi.  
 Muista tyhjentää kentän 001 sisältö, kun aloitat tietueen muokkauksen.
 Näin tietueelle tulee uusi tietueen kontrollinumero tähän kenttään, kun
-tallennat tietueen etkä saa kysymystä kopiosta:
+tallennat tietueen.
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi548.png)
 
