@@ -272,7 +272,7 @@ Hankintaehdotus näkyy myös virkailijatyökalun etusivulla (niille, joilla
 on oikeus käsitellä ehdotuksia)  
 ![](/assets/files/docs/Hankinta/hankinta22.png)
 
-Klikkaamalla _Ehdotukset_ pääset näkemään ja muokkaamaan
+Klikkaamalla kirjaston nimeä pääset näkemään ja muokkaamaan
 hankintaehdotuksia. Jos odottavia ehdotuksia ei ole, pääset
 hankintaehdotusten muokkaukseen klikkaamalla
 _Hankintaehdotukset_-linkkiä _Hankinnat_-sivun vasemmassa reunassa.
@@ -287,11 +287,13 @@ verkkokirjastossa (ei Finnassa tällä hetkellä).
 
 Jos et halua liittää hankintaehdotukseen asiakastietoa, lähde liikkeelle klikkaamalla Hankintaehdotusten hallinnassa _Uusi hankintaehdotus_ -nappulaa.
 
-Voit kuitenkin lisätä asiakkaan tiedon myöhemmin, vaikka lähdet liikenteeseen tätä kautta. Asiakastieto lisätään Luoja-kohtaan, kuten alempana kuvassa esitetään.
+Voit kuitenkin lisätä asiakkaan tiedon myöhemmin, vaikka lähdet liikenteeseen tätä kautta. Asiakastieto lisätään _Valitse asiakas_-kohtaan, kuten alempana kuvassa esitetään.
 
 ![](/assets/files/docs/Hankinta/hankinta233.png)
 
-Jos taas haluat liittää mukaan asiakastiedon, hae asiakkaan tiedot esille ja mene Hankintaehdotukset välilehdelle  
+Hankintaehdotuksen voi tehdä myös asiakkaan tiedoista käsin. Hae asiakkaan tiedot esille ja mene Hankintaehdotukset välilehdelle  
+
+
 ![](/assets/files/docs/Hankinta/hankinta231.png)
 
 Täällä näkyvät asiakkaan tekemät hankintaehdotukset sekä nappula _Uusi
@@ -303,14 +305,12 @@ Täytä vähintään pakolliseksi merkityt tiedot (punaisella).
 
 ![](/assets/files/docs/Hankinta/hankinta234.png)
 
-- _Ehdotuksen syy_ -valikosta voi valita valmiista vaihtoehdoista.
-
 Lomakkeen alemmissa osioissa on ehdotuksen hallintaan ja hankintatietoihin liittyviä tietoja:
 
 ![](/assets/files/docs/Hankinta/hankinta235.png)
 
 - _Luoja_-kenttään tulee luontipäivä ja tekijän nimi. Jos ehdotus tehdään asiakkaan puolesta, tulee siihen asiakkaan nimi. Jos
-  taas kirjaston puolesta, tulee siihen ehdotuksen tehneen virkailijan nimi. Tässä kohtaa voit lisätä ehdotukseen asiakastiedon klikkaamalla _Aseta asiakas_ ja hakemalla asiakas esim. kirjastokortin numerolla.
+  taas kirjaston puolesta, tulee siihen ehdotuksen tehneen virkailijan nimi. Tässä kohtaa voit lisätä ehdotukseen asiakastiedon klikkaamalla _Valitse asiakas_ ja hakemalla asiakas esim. kirjastokortin numerolla.
 - _Hyväksytty_-kenttään tulee ehdotuksen hyväksymispäivä.
 - _Viimeksi muokattu_-kentässä näkyy viimeisimmän muokkauksen ajankohta.
 - _Käsitelty_-kenttään valitaan hankintaehdotuksen käsittelypäivä.
@@ -319,9 +319,11 @@ Lomakkeen alemmissa osioissa on ehdotuksen hallintaan ja hankintatietoihin liitt
 - Jos ehdotuksen haluaa kohdistaa tiettyyn kirjastoon, voi sen valita Hankintatiedot-osiosta _Kirjasto_-kohdasta.
 - _Tili_-kohtaan voi valita käytettävän tilin.
 - _Kpl_-kohtaan laitetaan tilattavien niteiden määrä.
-- _Rahayksikkö_-kohdassa on oletuksen EUR, mutta sen voi vaihtaa valikosta myös muuksi.
+- _Rahayksikkö_-kohdassa on oletuksena EUR, mutta sen voi vaihtaa valikosta myös muuksi.
 - _Hinta_-kenttään laitetaan hankinnan hinta.
 - _Yhteensä_-tieto lasketaan automaattisesti kappalemäärän ja hinnan perusteella.
+
+Tallenna hankintaehdotus _Lähetä ehdotuksesi_ -napista. Voit myös peruuttaa hankintaehdotuksen teon _Peruuta_-linkistä.
 
 ### 7.3.2 Hankintaehdotusten ylläpitäminen
 
