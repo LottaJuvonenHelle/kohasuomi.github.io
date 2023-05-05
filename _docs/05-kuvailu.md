@@ -325,9 +325,6 @@ pääset lisäämään myös klikkaamalla _Muokkaa niteitä_.
 
 ![](/assets/files/docs/Luettelointi/kuvailu21.png)
 
-Katso myös ohje “Vanhan niteen tallentaminen uutena niteenä”:
-https://tiketti.koha-suomi.fi/documents/46
-
 Tai voit lisätä uuden niteen milloin tahansa nimeketietuenäytöllä
 klikkaamalla _Uusi_ ja valitsemalla _Uusi nide_.
 
@@ -387,6 +384,17 @@ Voit suodattaa kokoelmatietoja, kun klikkaat _Suodata_.
 
 Riittää, kun aloitat kirjoittamaan suodatinta, kaikki siihen sopivat
 tulokset listataan.
+
+### 5.2.1.1. Vanhan niteen lisääminen
+
+Jos sinulla on tarve tallentaa vanha nide uutena Kohaan, on syytä vaihtaa
+niteen hankintapäivä. Hankinnat tilastoidaan aina hankintapäivän mukaan.
+Vanhoja niteitä ei haluta hankintatilastoon, joten vanhan niteen osakenttään 
+_d - Hankintapvv_ tulee merkitä joku vanha päiväys ennen Kohan käyttöönottoa.
+Päivämäärästä voi heti päätellä, että niteen saapumispäivä ei ole todellinen
+(esim. 24.12.2010).
+
+![](/assets/files/docs/Luettelointi/kuvailu27.png)
 
 ### 5.2.2. Niteiden muokkaaminen
 
