@@ -13,12 +13,25 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 19 muistiot
+
+### Maanantai 8.5.2023 klo 10
+
+Läsnä:
+
+* lomat kalenteriin
+* versionvaihdon tilanne
+
+
 ## Viikon 18 muistiot
 
 ### Torstai 4.5.2023 klo 10
 
+Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo
+
 * versionvaihdon tikettien tilanne
 * koha-suomi.fi-sertifikaatti vanhenee 20.5.2023
+  * Kodo muistuttaa Bittigurua hoitamaan sertifikaatin uusimisen.
 
 ### Tiistai 2.5.2023 klo 10
 
