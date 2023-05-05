@@ -390,7 +390,7 @@ tulokset listataan.
 Jos sinulla on tarve tallentaa vanha nide uutena Kohaan, on syytä vaihtaa
 niteen hankintapäivä. Hankinnat tilastoidaan aina hankintapäivän mukaan.
 Vanhoja niteitä ei haluta hankintatilastoon, joten vanhan niteen osakenttään 
-_d - Hankintapvv_ tulee merkitä joku vanha päiväys ennen Kohan käyttöönottoa.
+_d - Hankintapvm_ tulee merkitä joku vanha päiväys ennen Kohan käyttöönottoa.
 Päivämäärästä voi heti päätellä, että niteen saapumispäivä ei ole todellinen
 (esim. 24.12.2010).
 
