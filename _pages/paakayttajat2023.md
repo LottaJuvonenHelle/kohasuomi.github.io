@@ -27,7 +27,7 @@ Läsnä:
 ## Viikko 18 muistio
 
 Aika: 2.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katja Valjakka ja Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katja Valjakka ja Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
@@ -58,6 +58,10 @@ varata useita saman nidetyypin nimekkeitä. Kuljetuksen estäminen sen sijaan on
 **Lumme**
 * Lumpeiden chat-palvelu loppui 2.5. vähäisen käytön takia.
 * Lumpeilla lisättiin myös maksujen osamaksumahdollisuus Finnaan.
+
+**Siilinjärvi**
+* Keskusteltu Kodon kanssa asiakasrekisterin siivoamisesta.
+* Ei muuta mainittavaa.
  
 
 ## Viikko 17 muistio
