@@ -618,7 +618,8 @@ Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalu
 <td>Oletusarvot:<br />
 0 = (tyhjä)<br />
 1 = Pois kierrosta</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; WITHDRAWN</td>
+<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; WITHDRAWN. _Pois kierrosta_ -tilaista nidettä ei voi lainata, 
+  ellei BlockReturnOfWithdrawnItems -järjestelmäasetus salli sitä.</td>
 </tr>
 <tr class="even">
 <td>952$1</td>
@@ -630,7 +631,9 @@ Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalu
 3 = Kadonnut ja korvattu<br />
 4 = Puuttuu</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; LOST<br />
-Asetuksissa voi muokata hidelostitems-määrityksellä, näkyykö kadonnut aineisto verkkokirjastossa</td>
+Asetuksissa voi muokata hidelostitems-määrityksellä, näkyykö kadonnut aineisto verkkokirjastossa.
+Järjestelmäasetuksilla IssueLostItem (lainaus) ja BlockReturnOfLostItems (palautus) voidaan määritellä, 
+miten nide käyttäytyy lainauksessa/palautuksessa.</td>
 </tr>
 <tr class="odd">
 <td>952$2</td>
@@ -650,7 +653,8 @@ Asetuksissa voi muokata hidelostitems-määrityksellä, näkyykö kadonnut ainei
 <td>Oletusarvot:<br />
 0 = (tyhjä)<br />
 1 = Vaurioitunut</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; DAMAGED</td>
+<td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; DAMAGED. Järjestelmäasetuksella AllowHoldsOnDamagedItems määritetään,
+voiko Vaurioitunut-tilan nidettä varata.</td>
 </tr>
 <tr class="even">
 <td>952$5</td>
@@ -659,7 +663,7 @@ Asetuksissa voi muokata hidelostitems-määrityksellä, näkyykö kadonnut ainei
 0 = (tyhjä)<br />
 1 = Rajoitettu pääsy</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; RESTRICTED.<br />
-Tällä arvolla ei ole vaikutusta lainauksessa.</td>
+Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on _Saatavana (Rajoitettu pääsy)_ </td>
 </tr>
 <tr class="odd">
 <td>952$7</td>
@@ -670,7 +674,9 @@ Tällä arvolla ei ole vaikutusta lainauksessa.</td>
 1 = Ei lainata<br />
 2 = Henkilökunnan käsikirjasto</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; NOT_LOAN<br />
-Negatiiviset arvot sallivat varaamisen.</td>
+Negatiiviset arvot sallivat varaamisen. Niteiden varattavuuteen vaikuttaa
+usea järjestelmäasetus: TrapHoldsOnOrder, SkipHoldTrapOnNotForLoanValue, UpdateNotForLoanStatusOnCheckin.
+Lainattavuuteen vaikuttaa järjestelmäasetus AllowNotForLoanOverride. </td>
 </tr>
 <tr class="even">
 <td>952$8</td>
@@ -682,7 +688,7 @@ Negatiiviset arvot sallivat varaamisen.</td>
 <td>952$9</td>
 <td>Niteen numero</td>
 <td>Järjestelmän tuottama niteen numero</td>
-<td>Ei näy nidetietueessa</td>
+<td>Ei näy nidetietueessa.</td>
 </tr>
 <tr class="even">
 <td>952$a</td>
@@ -700,7 +706,9 @@ Negatiiviset arvot sallivat varaamisen.</td>
 <td>952$c</td>
 <td>Hyllypaikka</td>
 <td>Esim. Aikuiset, Lapset, Kotiseutukokoelma</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; LOC.</td>
+<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; LOC. Hyllypaikka voi muuttua niteen palautuksessa, jos
+järjestelmäasetuksessa UpdateItemLocationOnCheckin on määritykset sitä varten. Uudelle niteelle voidaan antaa oletusarvo
+NewItemsDefaultLocation -järjestelmäasetuksessa. </td>
 </tr>
 <tr class="odd">
 <td>952$d</td>
@@ -713,13 +721,13 @@ Negatiiviset arvot sallivat varaamisen.</td>
 <td>952$e</td>
 <td>Hankintapaikka</td>
 <td>Koodattu arvo tai toimittajan nimi</td>
-<td>Täytetään automaattisesti hankintamoduulissa Kohaan tallennetun toimittajan tunnuksella, kun nide on saapunut</td>
+<td>Täytetään automaattisesti hankintamoduulissa Kohaan tallennetun toimittajan tunnuksella, kun nide on saapunut.</td>
 </tr>
 <tr class="odd">
 <td>952$g</td>
 <td>Hankintahinta</td>
 <td>Desimaalinumero, ei valuuttamerkkejä (esim. 10.00)</td>
-<td>Täytetään automaattisesti hankinnan tiedoilla, kun nide on saapunut</td>
+<td>Täytetään automaattisesti hankinnan tiedoilla, kun nide on saapunut.</td>
 </tr>
 <tr class="even">
 <td>952$h</td>
