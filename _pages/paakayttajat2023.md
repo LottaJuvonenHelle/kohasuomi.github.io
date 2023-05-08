@@ -18,7 +18,11 @@ Läsnä:
 **Yhteiset**
 * Viikon 20 eli 16.5. eli versionvaihtopäivän pääkäyttäjäpalsu pidetään klo 10.15
   * tarkistetaan yhdessä, että tarpeelliset muutokset ja toimet on tehty tai tulee tehdyksi
-
+* Testejä tai testaustuloksia kaivataan vielä ainakin näihin:
+  * [SIP muutos - ksdev/ks-0043-KD-2608 #15](https://github.com/KohaSuomi/Koha-22x/issues/15)
+  * [koha-plugin-add-marc-field-001 (KPM001) #85](https://github.com/KohaSuomi/Koha-22x/issues/85)
+  * [koha-plugin-delete-biblio-components (KPDELC) #94](https://github.com/KohaSuomi/Koha-22x/issues/94)
+  * 
 
 ## Viikko 18 muistio
 
