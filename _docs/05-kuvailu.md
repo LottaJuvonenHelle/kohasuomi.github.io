@@ -402,25 +402,25 @@ Niteitä voi muokata monella tavalla.
 
 #### Klikkaamalla _Muokkaa -&gt; Muokkaa niteitä_ nimeketietonäytöltä
 
-![](/assets/files/docs/Luettelointi/kohakuvat556.png)
+![](/assets/files/docs/Luettelointi/kuvailu28.png)
 
 Tämä avaa listauksen, missä voit klikata _Toiminnot_-linkkiä sen niteen
 rivin alussa, mitä nidettä haluat muokata.
 
-![](/assets/files/docs/Luettelointi/kohakuvat557.png)
+![](/assets/files/docs/Luettelointi/kuvailu29.png)
 
 #### Klikkaamalla _Muokkaa_ Niteet-välilehdellä halutun niteen kohdalla
 
-![](/assets/files/docs/Luettelointi/luettelointi31.png)
+![](/assets/files/docs/Luettelointi/kuvailu30.png)
 
 Tämä avaa listauksen, kuten edellä (valitsemasi nide näkyy korostetulla
 pohjalla valmiiksi)  
 
-![](/assets/files/docs/Luettelointi/luettelointi32.png)
+![](/assets/files/docs/Luettelointi/kuvailu31.png)
 
 #### Klikkaamalla _Muokkaa -&gt; Muokkaa niteitä eräajossa_
 
-![](/assets/files/docs/Luettelointi/kohakuvat560.png)
+![](/assets/files/docs/Luettelointi/kuvailu32.png)
 
 Tämä avaa erämuokkaustyökalun, jossa voit muokata useiden niteiden
 tietoja yhtä aikaa.
@@ -430,7 +430,7 @@ mahdollista, voit klikata nidetietojen näytöllä kunkin niteen vasemmalla
 puolella valintalaatikosta ne niteet, joita haluat käsitellä. Voit
 poistaa niteitä tai muokata niitä.
 
-![](/assets/files/docs/Luettelointi/kohakuvat564.png)
+![](/assets/files/docs/Luettelointi/kuvailu33.png)
 
 Voit käyttää myös erämuokkaustyökalua muokkaukseen.
 
@@ -442,7 +442,7 @@ viivakoodia lainausnäytöllä tai lainahistoriassa ja päästä niteen
 yhteenvetoon. Siellä pääsee merkitsemään niteen kadonneeksi tai
 vaurioituneeksi.
 
-![](/assets/files/docs/Luettelointi/kohakuvat563.png)
+![](/assets/files/docs/Luettelointi/kuvailu34.png)
 
 Täällä voit alasvetovalikosta valita tilan, joka merkitsee niteen
 _kadonneeksi_ tai _ilmoittaa palauttaneensa_ -tilaan. Huom! Noudata
@@ -450,21 +450,21 @@ kadonnut-tilaa käytettäessä kimpassasi sovittuja käytänteitä.
 Kadonnut-tila voi lisätä kimpan asetuksista riippuen niteen
 korvaushinnan asiakkaan velkasaldoon.
 
-![](/assets/files/docs/Luettelointi/kohakuvat562.png)
+![](/assets/files/docs/Luettelointi/kuvailu35.png)
 
 Jos valitset _Ilmoittaa palauttaneensa_ ja klikkaat _Aseta tila_
 -nappia, nide poistuu asiakkaan lainoista ja näkyviin tulee päivämäärä,
 milloin tila on merkitty.
 
-![](/assets/files/docs/Luettelointi/kohakuvat572.png)
+![](/assets/files/docs/Luettelointi/kuvailu36.png)
 
 Viimeisin lainaaja jää näkyviin _Historia_-tietoihin.
 
-![](/assets/files/docs/Luettelointi/kohakuvat573.png)
+![](/assets/files/docs/Luettelointi/kuvailu37.png)
 
 Voit merkitä niteen myös vahingoittuneeksi.
 
-![](/assets/files/docs/Luettelointi/kohakuvat561.png)
+![](/assets/files/docs/Luettelointi/kuvailu38.png)
 
 ### 5.2.2.2. Niteiden erämuokkaus
 
@@ -474,7 +474,7 @@ Jos haluat muokata jonkun nimekkeen useamman niteen tietoja kerralla,
 sen pääsee tekemään valitsemalla nimeketietonäytöllä _Muokkaa -&gt;
 Muokkaa niteitä eräajossa_.
 
-![](/assets/files/docs/Luettelointi/kohakuvat560.png)
+![](/assets/files/docs/Luettelointi/kuvailu32.png)
 
 Siellä voit valita joko kaikki niteet tai valitsemalla vasemmalla
 olevasta sarakkeesta vain ne niteet, joihin muutokset kohdistuvat.
