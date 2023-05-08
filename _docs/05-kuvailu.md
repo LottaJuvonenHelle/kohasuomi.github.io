@@ -448,7 +448,7 @@ Täällä voit alasvetovalikosta valita tilan, joka merkitsee niteen
 _kadonneeksi_ tai _ilmoittaa palauttaneensa_ -tilaan. Huom! Noudata
 kadonnut-tilaa käytettäessä kimpassasi sovittuja käytänteitä.
 Kadonnut-tila voi lisätä kimpan asetuksista riippuen niteen
-korvaushinnan asiakkaan velkasaldoon.
+korvaushinnan asiakkaan velkasaldoon. Valikoiden sisältö voi vaihdella eri kimpoissa.
 
 ![](/assets/files/docs/Luettelointi/kuvailu35.png)
 
