@@ -707,7 +707,7 @@ Negatiiviset arvot sallivat varaamisen.</td>
 <td>Hankintapvm</td>
 <td>VVVV-KK-PP</td>
 <td>Päiväyksen tulee olla järjestelmän ymmärtämässä muodossa: VVVV-KK-PP. Päiväys täyttyy automaattisesti, 
-  jos kentässä on dateaccessioned-plugari käytössä. Tieto tarvitaan hankintatilastoa varten.</td>
+  jos kentässä on dateaccessioned-liitännäinen käytössä. Tieto tarvitaan hankintatilastoa varten.</td>
 </tr>
 <tr class="even">
 <td>952$e</td>
