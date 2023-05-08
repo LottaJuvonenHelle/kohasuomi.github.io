@@ -21,6 +21,7 @@ Läsnä:
 
 * lomat kalenteriin
 * versionvaihdon tilanne
+* käännökset?
 
 
 ## Viikon 18 muistiot
