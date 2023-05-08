@@ -679,18 +679,6 @@ Negatiiviset arvot sallivat varaamisen.</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; CCODE</td>
 </tr>
 <tr class="odd">
-<td>952$R</td>
-<td>Saapumispäivämäärä</td>
-<td>Niteen vastaanottopäivämäärä</td>
-<td>Pakollinen tieto, päivittyy automaattisesti hankinta-osiossa niteen vastaanotossa. Tähän tietoon perustuu raportointityökalun hankintavuosi-tieto.</td>
-</tr>
-<tr class="even">
-<td>952$S</td>
-<td>Hyllytarkenne</td>
-<td>Esim. koulukirjaston nimi, Isotekstiset. Täsmentää hyllypaikka-tietoa</td>
-<td>Koodattu arvo, Auktorisoidut arvot -&gt; SUBLOC</td>
-</tr>
-<tr class="odd">
 <td>952$9</td>
 <td>Niteen numero</td>
 <td>Järjestelmän tuottama niteen numero</td>
