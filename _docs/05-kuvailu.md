@@ -546,11 +546,11 @@ sieltä _Muokkaa -&gt; Muokkaa niteitä_.
 
 Jokaisen niteen vasemmalla puolella on _Poista_-linkki.
 
-![](/assets/files/docs/Luettelointi/luettelointi54.png)
+![](/assets/files/docs/Luettelointi/kuvailu39.png)
 
 Kun klikkaat _Poista_, saat vielä varmistuskysymyksen:
 
-![](/assets/files/docs/Luettelointi/luettelointi55.png)
+![](/assets/files/docs/Luettelointi/kuvailu40.png)
 
 Nidettä ei voi poistaa, jos se on lainassa. Jos haluat poistaa kaikki
 niteet nimekkeeltä, voit käyttää _Muokkaa -&gt; Poista kaikki niteet_.
@@ -562,7 +562,7 @@ valinta, voit klikata nidetietojen näytöllä kunkin niteen vasemmalla
 puolella valintalaatikosta ne niteet, joita haluat käsitellä. Voit
 poistaa niteitä tai muokata niitä.
 
-![](/assets/files/docs/Luettelointi/luettelointi57.png)
+![](/assets/files/docs/Luettelointi/kuvailu41.png)
 
 Voit käyttää myös _Muokkaa -&gt; Poista niteitä eräajossa_, jos poistat
 enemmän niteitä kerralla.
@@ -596,8 +596,6 @@ ohje tehdään myöhemmin
 [Yhteisön kuvailuohjeet](https://koha-community.org/manual/21.11/en/html/cataloging.html)
 
 ### 5.4.1. Niteiden tarrat ja niiden tulostaminen
-
-Tallennusohje löytyy täältä [tarratulostus](https://tiketti.koha-suomi.fi/attachments/5489/Tarratulostus%2021.11%20versio.docx)
 
 Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalut/#12164-tarratulostusty%C3%B6kalu)
 
