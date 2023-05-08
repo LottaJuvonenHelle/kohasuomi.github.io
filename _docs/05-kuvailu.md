@@ -544,7 +544,8 @@ sieltä _Muokkaa -&gt; Muokkaa niteitä_.
 
 ![](/assets/files/docs/Luettelointi/luettelointi53.png)
 
-Jokaisen niteen vasemmalla puolella on _Poista_-linkki.
+Jokaisen niteen vasemmalla puolella on _Toiminnot_-valikko, jossa on 
+yhtenä vaihtoehtona _Poista_.
 
 ![](/assets/files/docs/Luettelointi/kuvailu39.png)
 
