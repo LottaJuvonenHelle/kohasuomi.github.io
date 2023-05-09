@@ -612,16 +612,16 @@ Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalu
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>952$0</td>
 <td>Pois kierrosta -tila</td>
 <td>Oletusarvot:<br />
 0 = (tyhjä)<br />
 1 = Pois kierrosta</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; WITHDRAWN. <em>Pois kierrosta </em>-tilaista nidettä ei voi lainata, 
+<td>Koodattu arvo, taulukko <em>Auktorisoidut arvot -&gt; WITHDRAWN</em>.<br /> <em>Pois kierrosta </em>-tilaista nidettä ei voi lainata, 
   ellei <em>BlockReturnOfWithdrawnItems</em> -järjestelmäasetus salli sitä.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$1</td>
 <td>Kadonnut-tila</td>
 <td>Oletusarvot:<br />
@@ -630,7 +630,7 @@ Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalu
 2 = Myöhässä (kadonnut)<br />
 3 = Kadonnut ja korvattu<br />
 4 = Puuttuu</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; LOST<br />
+<td>Koodattu arvo, taulukko <em>Auktorisoidut arvot -&gt; LOST</em><br />
 Asetuksissa voi muokata <em>hidelostitems</em>-määrityksellä, näkyykö kadonnut aineisto verkkokirjastossa.
 Järjestelmäasetuksilla <em>IssueLostItem</em> (lainaus) ja <em>BlockReturnOfLostItems</em> (palautus) voidaan määritellä, 
 miten nide käyttäytyy lainauksessa/palautuksessa.</td>
@@ -653,7 +653,7 @@ miten nide käyttäytyy lainauksessa/palautuksessa.</td>
 <td>Oletusarvot:<br />
 0 = (tyhjä)<br />
 1 = Vaurioitunut</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; DAMAGED. Järjestelmäasetuksella <em>AllowHoldsOnDamagedItems</em> määritetään,
+<td>Koodattu arvo, taulukko <em>Auktorisoidut arvot - &gt; DAMAGED</em>.<br /> Järjestelmäasetuksella <em>AllowHoldsOnDamagedItems</em> määritetään,
 voiko <em>Vaurioitunut</em>-tilan nidettä varata.</td>
 </tr>
 <tr class="even">
@@ -662,7 +662,7 @@ voiko <em>Vaurioitunut</em>-tilan nidettä varata.</td>
 <td>Oletusarvot:<br />
 0 = (tyhjä)<br />
 1 = Rajoitettu pääsy</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; RESTRICTED.<br />
+<td>Koodattu arvo, taulukko <em>Auktorisoidut arvot - &gt; RESTRICTED.</em><br />
 Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on <em>Saatavana (Rajoitettu pääsy)</em> </td>
 </tr>
 <tr class="odd">
@@ -673,7 +673,7 @@ Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on <em>S
 –1 = Tilattu<br />
 1 = Ei lainata<br />
 2 = Henkilökunnan käsikirjasto</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; NOT_LOAN<br />
+<td>Koodattu arvo, taulukko <em>Auktorisoidut arvot -&gt; NOT_LOAN</em><br />
 Negatiiviset arvot sallivat varaamisen. Niteiden varattavuuteen vaikuttaa
 usea järjestelmäasetus: <em>TrapHoldsOnOrder</em>, <em>SkipHoldTrapOnNotForLoanValue</em>, <em>UpdateNotForLoanStatusOnCheckin</em>.
 Lainattavuuteen vaikuttaa järjestelmäasetus <em>AllowNotForLoanOverride</em>. </td>
@@ -682,7 +682,7 @@ Lainattavuuteen vaikuttaa järjestelmäasetus <em>AllowNotForLoanOverride</em>. 
 <td>952$8</td>
 <td>Kokoelmakoodi</td>
 <td>Esim. Pikalaina, Celia-kokoelma</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; CCODE</td>
+<td>Koodattu arvo, taulukko <em>Auktorisoidut arvot -&gt; CCODE</em></td>
 </tr>
 <tr class="odd">
 <td>952$9</td>
@@ -694,19 +694,19 @@ Lainattavuuteen vaikuttaa järjestelmäasetus <em>AllowNotForLoanOverride</em>. 
 <td>952$a</td>
 <td>Omistajakirjasto</td>
 <td>Kirjaston nimi</td>
-<td>Vaaditaan. Nimi on määriteltävä perusasetuksissa Kirjastot ja ryhmät.</td>
+<td>Vaaditaan. Nimi on määriteltävä perusasetuksissa <em>Kirjastot ja ryhmät</em>.</td>
 </tr>
 <tr class="odd">
 <td>952$b</td>
 <td>Sijaintikirjasto</td>
 <td>Kirjaston nimi</td>
-<td>Vaaditaan. Nimi on määriteltävä perusasetuksissa Kirjastot ja ryhmät.</td>
+<td>Vaaditaan. Nimi on määriteltävä perusasetuksissa <em>Kirjastot ja ryhmät</em>.</td>
 </tr>
 <tr class="even">
 <td>952$c</td>
 <td>Hyllypaikka</td>
 <td>Esim. Aikuiset, Lapset, Kotiseutukokoelma</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; LOC. Hyllypaikka voi muuttua niteen palautuksessa, jos
+<td>Koodattu arvo, taulukko <em>Auktorisoidut arvot -&gt; LOC</em>.<br /> Hyllypaikka voi muuttua niteen palautuksessa, jos
 järjestelmäasetuksessa <em>UpdateItemLocationOnCheckin</em> on määritykset sitä varten. Uudelle niteelle voidaan antaa oletusarvo
 <em>NewItemsDefaultLocation</em> -järjestelmäasetuksessa. </td>
 </tr>
