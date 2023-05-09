@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19 muistio
 
 Aika: 9.5.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * Viikon 20 eli 16.5. eli versionvaihtopäivän pääkäyttäjäpalsu pidetään klo 10.15.
@@ -37,6 +37,9 @@ Etelästä pohjoiseen.
 * Tullut jonkinverran EditX-virheitä: virheellinen sanoma tai puuttunut title. Korjattu/korjaantuneet. 
 * Nextiä testattu ja lisätty Githubin mukaan toimintoja ja säätöjä
 
+**Kyyti**
+* Virkailijoiden kirjastokorttinumero- ja käyttäjätunnuskenttiä on yhdenmukaistettu
+* Samalla perustettu uusia asiakastyyppi, johon menevät vinkkaus- ym. työkortit. Sen myötä laina- ja maksusääntöjä päivitetty.
 
 ## Viikko 18 muistio
 
