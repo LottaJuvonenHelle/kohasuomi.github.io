@@ -26,6 +26,8 @@ Läsnä:
   * harjoitellaan varsinaista ensi viikon päivitystä.
   * testi-kannat pois käytöstä päivityksen ajan.
 
+Etelästä pohjoiseen.
+
 ## Viikko 18 muistio
 
 Aika: 2.5.2023 klo 9.15 <br />
