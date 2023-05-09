@@ -639,7 +639,7 @@ miten nide käyttäytyy lainauksessa/palautuksessa.</td>
 <td>952$2</td>
 <td>Luokitus</td>
 <td>Luokitusjärjestelmä, jonka mukaan luokkanumerot järjestyvät</td>
-<td>Asetuksissa luokituslähteet, jonne on tallennettu <em>ykl = Yleisten kirjastojen luokitus</em> oletusarvoksi (Luokitus - &gt; DefaultClassificationSource)</td>
+<td>Asetuksissa luokituslähteet, jonne on tallennettu <em>ykl = Yleisten kirjastojen luokitus</em> oletusarvoksi <em>(Luokitus - &gt; DefaultClassificationSource)</em></td>
 </tr>
 <tr class="even">
 <td>952$3</td>
