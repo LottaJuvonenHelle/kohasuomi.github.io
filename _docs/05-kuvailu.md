@@ -618,8 +618,8 @@ Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalu
 <td>Oletusarvot:<br />
 0 = (tyhjä)<br />
 1 = Pois kierrosta</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; WITHDRAWN. _Pois kierrosta_ -tilaista nidettä ei voi lainata, 
-  ellei BlockReturnOfWithdrawnItems -järjestelmäasetus salli sitä.</td>
+<td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; WITHDRAWN. <em>Pois kierrosta </em>-tilaista nidettä ei voi lainata, 
+  ellei <em>BlockReturnOfWithdrawnItems</em> -järjestelmäasetus salli sitä.</td>
 </tr>
 <tr class="even">
 <td>952$1</td>
@@ -663,7 +663,7 @@ voiko Vaurioitunut-tilan nidettä varata.</td>
 0 = (tyhjä)<br />
 1 = Rajoitettu pääsy</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; RESTRICTED.<br />
-Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on _Saatavana (Rajoitettu pääsy)_ </td>
+Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on Saatavana (Rajoitettu pääsy) </td>
 </tr>
 <tr class="odd">
 <td>952$7</td>
@@ -757,19 +757,19 @@ NewItemsDefaultLocation -järjestelmäasetuksessa. </td>
 <td>952$u</td>
 <td>URI</td>
 <td>Niteen oma URL</td>
-<td>Koko URL, joka alkaa http: Täytetään vain, jos niteellä on oma URL, mutta ei ole tarpeellinen, jos nimekkeellä on 856$u-kenttään osoite tallennettuna</td>
+<td>Koko URL, joka alkaa http: Täytetään vain, jos niteellä on oma URL, mutta ei ole tarpeellinen, jos nimekkeellä on 856$u-kenttään osoite tallennettuna.</td>
 </tr>
 <tr class="even">
 <td>952$v</td>
 <td>Korvaushinta</td>
 <td>Desimaalinumero, ei valuuttamerkkejä (esim. 10.00)</td>
-<td>Täytetään automaattisesti hankintamoduulista, kun nide on saapunut</td>
+<td>Täytetään automaattisesti hankintamoduulista, kun nide on saapunut.</td>
 </tr>
 <tr class="odd">
 <td>952$w</td>
 <td>Hinta voimassa alkaen</td>
 <td>VVVV-KK-PP</td>
-<td>Päiväyksen tulee olla järjestelmän ymmärtämässä muodossa: VVVV-KK-PP. Täytetään automaattisesti hankintamoduulista, kun nide on saapunut</td>
+<td>Päiväyksen tulee olla järjestelmän ymmärtämässä muodossa: VVVV-KK-PP. Täytetään automaattisesti hankintamoduulista, kun nide on saapunut.</td>
 </tr>
 <tr class="even">
 <td>952$x</td>
