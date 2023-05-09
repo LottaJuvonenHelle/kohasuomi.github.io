@@ -17,6 +17,9 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 11.5.2023 klo 10
 
+* cronit, milloin laitetaan päälle versionvaihdon aikaan?
+
+
 ### Maanantai 8.5.2023 klo 10
 
 Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo, Pasi
