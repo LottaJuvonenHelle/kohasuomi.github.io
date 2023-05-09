@@ -31,7 +31,7 @@ Etelästä pohjoiseen.
 ## Viikko 18 muistio
 
 Aika: 2.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katja Valjakka ja Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Susanna Sandell (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katja Valjakka ja Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset**
 * [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
