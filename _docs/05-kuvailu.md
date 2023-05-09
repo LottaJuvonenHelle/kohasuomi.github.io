@@ -631,21 +631,21 @@ Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalu
 3 = Kadonnut ja korvattu<br />
 4 = Puuttuu</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; LOST<br />
-Asetuksissa voi muokata hidelostitems-määrityksellä, näkyykö kadonnut aineisto verkkokirjastossa.
-Järjestelmäasetuksilla IssueLostItem (lainaus) ja BlockReturnOfLostItems (palautus) voidaan määritellä, 
+Asetuksissa voi muokata <em>hidelostitems</em>-määrityksellä, näkyykö kadonnut aineisto verkkokirjastossa.
+Järjestelmäasetuksilla <em>IssueLostItem</em> (lainaus) ja <em>BlockReturnOfLostItems</em> (palautus) voidaan määritellä, 
 miten nide käyttäytyy lainauksessa/palautuksessa.</td>
 </tr>
 <tr class="odd">
 <td>952$2</td>
 <td>Luokitus</td>
 <td>Luokitusjärjestelmä, jonka mukaan luokkanumerot järjestyvät</td>
-<td>Asetuksissa luokituslähteet, jonne on tallennettu ykl = Yleisten kirjastojen luokitus oletusarvoksi (Luokitus - &gt; DefaultClassificationSource)</td>
+<td>Asetuksissa luokituslähteet, jonne on tallennettu <em>ykl = Yleisten kirjastojen luokitus</em> oletusarvoksi (Luokitus - &gt; DefaultClassificationSource)</td>
 </tr>
 <tr class="even">
 <td>952$3</td>
 <td>Liitteiden määrä</td>
 <td>Moniviestimien tms. osien määrä tai liitteiden määrä ja kuvaus</td>
-<td>Näkyy lainaus- ja palautusnäytöllä, ilmoittaa niteeseen kuuluvan aineiston määrän (esim. montako liitettä). Luettelointitieto kentässä 952$h ja $t näkyy normaalinäytössä.</td>
+<td>Näkyy lainaus- ja palautusnäytöllä, ilmoittaa niteeseen kuuluvan aineiston määrän (esim. montako liitettä). </td>
 </tr>
 <tr class="odd">
 <td>952$4</td>
@@ -653,8 +653,8 @@ miten nide käyttäytyy lainauksessa/palautuksessa.</td>
 <td>Oletusarvot:<br />
 0 = (tyhjä)<br />
 1 = Vaurioitunut</td>
-<td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; DAMAGED. Järjestelmäasetuksella AllowHoldsOnDamagedItems määritetään,
-voiko Vaurioitunut-tilan nidettä varata.</td>
+<td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; DAMAGED. Järjestelmäasetuksella <em>AllowHoldsOnDamagedItems</em> määritetään,
+voiko <em>Vaurioitunut</em>-tilan nidettä varata.</td>
 </tr>
 <tr class="even">
 <td>952$5</td>
@@ -663,7 +663,7 @@ voiko Vaurioitunut-tilan nidettä varata.</td>
 0 = (tyhjä)<br />
 1 = Rajoitettu pääsy</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot - &gt; RESTRICTED.<br />
-Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on Saatavana (Rajoitettu pääsy) </td>
+Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on <em>Saatavana (Rajoitettu pääsy)</em> </td>
 </tr>
 <tr class="odd">
 <td>952$7</td>
@@ -675,8 +675,8 @@ Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on Saata
 2 = Henkilökunnan käsikirjasto</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; NOT_LOAN<br />
 Negatiiviset arvot sallivat varaamisen. Niteiden varattavuuteen vaikuttaa
-usea järjestelmäasetus: TrapHoldsOnOrder, SkipHoldTrapOnNotForLoanValue, UpdateNotForLoanStatusOnCheckin.
-Lainattavuuteen vaikuttaa järjestelmäasetus AllowNotForLoanOverride. </td>
+usea järjestelmäasetus: <em>TrapHoldsOnOrder</em>, <em>SkipHoldTrapOnNotForLoanValue</em>, <em>UpdateNotForLoanStatusOnCheckin</em>.
+Lainattavuuteen vaikuttaa järjestelmäasetus <em>AllowNotForLoanOverride</em>. </td>
 </tr>
 <tr class="even">
 <td>952$8</td>
@@ -707,15 +707,15 @@ Lainattavuuteen vaikuttaa järjestelmäasetus AllowNotForLoanOverride. </td>
 <td>Hyllypaikka</td>
 <td>Esim. Aikuiset, Lapset, Kotiseutukokoelma</td>
 <td>Koodattu arvo, taulukko Auktorisoidut arvot -&gt; LOC. Hyllypaikka voi muuttua niteen palautuksessa, jos
-järjestelmäasetuksessa UpdateItemLocationOnCheckin on määritykset sitä varten. Uudelle niteelle voidaan antaa oletusarvo
-NewItemsDefaultLocation -järjestelmäasetuksessa. </td>
+järjestelmäasetuksessa <em>UpdateItemLocationOnCheckin</em> on määritykset sitä varten. Uudelle niteelle voidaan antaa oletusarvo
+<em>NewItemsDefaultLocation</em> -järjestelmäasetuksessa. </td>
 </tr>
 <tr class="odd">
 <td>952$d</td>
 <td>Hankintapvm</td>
 <td>VVVV-KK-PP</td>
 <td>Päiväyksen tulee olla järjestelmän ymmärtämässä muodossa: VVVV-KK-PP. Päiväys täyttyy automaattisesti, 
-  jos kentässä on dateaccessioned-liitännäinen käytössä. Tieto tarvitaan hankintatilastoa varten.</td>
+  jos kentässä on <em>dateaccessioned</em>-liitännäinen käytössä. Tieto tarvitaan hankintatilastoa varten.</td>
 </tr>
 <tr class="even">
 <td>952$e</td>
