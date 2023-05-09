@@ -19,7 +19,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 * cronit, milloin laitetaan päälle versionvaihdon aikaan?
   * onnistuuko ODUE-viestien lähetys jälkikäteen? (muistaakseni onnistuu /AÖ)
-
+* [Tietokantatriggerit päivityksen jälkeen heti käyttöön?](https://github.com/KohaSuomi/Koha-22x/issues/137) 
+  * varmistettava, että esim. kirjastokortin numero tulee kopioiduksi userid-kenttään joko triggerillä tai js-rimpsulla.
 
 ### Maanantai 8.5.2023 klo 10
 
