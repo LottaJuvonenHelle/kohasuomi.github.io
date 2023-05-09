@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 19 esityslista
+## Viikko 19 muistio
 
 Aika: 9.5.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * Viikon 20 eli 16.5. eli versionvaihtopäivän pääkäyttäjäpalsu pidetään klo 10.15.
@@ -27,6 +27,11 @@ Läsnä:
   * testi-kannat pois käytöstä päivityksen ajan.
 
 Etelästä pohjoiseen.
+
+**Vaara**
+* Kuvailun käyttöohjetta päivitetty uuteen versioon, vielä on osittain kesken. Viimeistely sitten versionvaihdon jälkeen.
+* Toveri-plugin toimii Hypernovan mukaan uudessa versiossa, toivottavasti myös käytännössä versionvaihdon jälkeen.
+* Virheilmoitus EDItX-tilaussanomissa, joka johtuu Elasticsearch-virheestä. Näiden käsittelyyn pitäisi saada parempi käytäntö, jottei jälkikäteen korjattavia tuplatilauksia syntyisi.
 
 ## Viikko 18 muistio
 
