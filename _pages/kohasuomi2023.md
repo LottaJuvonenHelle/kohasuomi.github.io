@@ -15,14 +15,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 19 muistiot
 
+### Torstai 11.5.2023 klo 10
+
 ### Maanantai 8.5.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo, Pasi
 
 * lomat kalenteriin
 * versionvaihdon tilanne
 * käännökset?
-
 
 ## Viikon 18 muistiot
 
