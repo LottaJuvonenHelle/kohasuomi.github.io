@@ -635,19 +635,19 @@ Asetuksissa voi muokata <em>hidelostitems</em>-määrityksellä, näkyykö kadon
 Järjestelmäasetuksilla <em>IssueLostItem</em> (lainaus) ja <em>BlockReturnOfLostItems</em> (palautus) voidaan määritellä, 
 miten nide käyttäytyy lainauksessa/palautuksessa.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$2</td>
 <td>Luokitus</td>
 <td>Luokitusjärjestelmä, jonka mukaan luokkanumerot järjestyvät</td>
 <td>Asetuksissa luokituslähteet, jonne on tallennettu <em>ykl = Yleisten kirjastojen luokitus</em> oletusarvoksi <em>(Luokitus - &gt; DefaultClassificationSource)</em></td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$3</td>
 <td>Liitteiden määrä</td>
 <td>Moniviestimien tms. osien määrä tai liitteiden määrä ja kuvaus</td>
 <td>Näkyy lainaus- ja palautusnäytöllä, ilmoittaa niteeseen kuuluvan aineiston määrän (esim. montako liitettä). </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$4</td>
 <td>Vaurioitunut-tila</td>
 <td>Oletusarvot:<br />
@@ -656,7 +656,7 @@ miten nide käyttäytyy lainauksessa/palautuksessa.</td>
 <td>Koodattu arvo, taulukko <em>Auktorisoidut arvot - &gt; DAMAGED</em>.<br /> Järjestelmäasetuksella <em>AllowHoldsOnDamagedItems</em> määritetään,
 voiko <em>Vaurioitunut</em>-tilan nidettä varata.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$5</td>
 <td>Käyttörajoitukset</td>
 <td>Oletusarvot:<br />
@@ -665,7 +665,7 @@ voiko <em>Vaurioitunut</em>-tilan nidettä varata.</td>
 <td>Koodattu arvo, taulukko <em>Auktorisoidut arvot - &gt; RESTRICTED.</em><br />
 Rajoitetun pääsyn nidettä ei voi lainata. Niteen tila hakutuloksessa on <em>Saatavana (Rajoitettu pääsy)</em> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$7</td>
 <td>Ei lainattavissa</td>
 <td>Oletusarvot:<br />
@@ -678,31 +678,25 @@ Negatiiviset arvot sallivat varaamisen. Niteiden varattavuuteen vaikuttaa
 usea järjestelmäasetus: <em>TrapHoldsOnOrder</em>, <em>SkipHoldTrapOnNotForLoanValue</em>, <em>UpdateNotForLoanStatusOnCheckin</em>.
 Lainattavuuteen vaikuttaa järjestelmäasetus <em>AllowNotForLoanOverride</em>. </td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$8</td>
 <td>Kokoelmakoodi</td>
 <td>Esim. Pikalaina, Celia-kokoelma</td>
 <td>Koodattu arvo, taulukko <em>Auktorisoidut arvot -&gt; CCODE</em></td>
 </tr>
-<tr class="odd">
-<td>952$9</td>
-<td>Niteen numero</td>
-<td>Järjestelmän tuottama niteen numero</td>
-<td>Ei näy nidetietueessa.</td>
-</tr>
-<tr class="even">
+<tr>
 <td>952$a</td>
 <td>Omistajakirjasto</td>
 <td>Kirjaston nimi</td>
 <td>Vaaditaan. Nimi on määriteltävä perusasetuksissa <em>Kirjastot ja ryhmät</em>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$b</td>
 <td>Sijaintikirjasto</td>
 <td>Kirjaston nimi</td>
 <td>Vaaditaan. Nimi on määriteltävä perusasetuksissa <em>Kirjastot ja ryhmät</em>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$c</td>
 <td>Hyllypaikka</td>
 <td>Esim. Aikuiset, Lapset, Kotiseutukokoelma</td>
@@ -710,80 +704,74 @@ Lainattavuuteen vaikuttaa järjestelmäasetus <em>AllowNotForLoanOverride</em>. 
 järjestelmäasetuksessa <em>UpdateItemLocationOnCheckin</em> on määritykset sitä varten. Uudelle niteelle voidaan antaa oletusarvo
 <em>NewItemsDefaultLocation</em> -järjestelmäasetuksessa. </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$d</td>
 <td>Hankintapvm</td>
 <td>VVVV-KK-PP</td>
 <td>Päiväyksen tulee olla järjestelmän ymmärtämässä muodossa: VVVV-KK-PP. Päiväys täyttyy automaattisesti, 
   jos kentässä on <em>dateaccessioned</em>-liitännäinen käytössä. Tieto tarvitaan hankintatilastoa varten.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$e</td>
 <td>Hankintapaikka</td>
 <td>Koodattu arvo tai toimittajan nimi</td>
 <td>Täytetään automaattisesti hankintamoduulissa Kohaan tallennetun toimittajan tunnuksella, kun nide on saapunut.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$g</td>
 <td>Hankintahinta</td>
 <td>Desimaalinumero, ei valuuttamerkkejä (esim. 10.00)</td>
 <td>Täytetään automaattisesti hankinnan tiedoilla, kun nide on saapunut.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$h</td>
 <td>Sarjanumero</td>
 <td>Esim. 2016 : 3</td>
 <td>Täytetään automaattisesti kausijulkaisuissa, jos niteet on merkitty saapuneeksi saapumisvalvonnan kautta</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$o</td>
 <td>Kohan koko signum</td>
 <td>Esim. AIK 84.2 JAA</td>
 <td>Voidaan täyttää automaattisesti, perustuu järjestelmäasetukseen <em>itemcallnumber</em></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$p</td>
 <td>Viivakoodi</td>
 <td>Max. 20 merkkiä</td>
 <td>Pakollinen tieto lainauksen kannalta, mutta ei muuten.</td>
 </tr>
-<tr class="even">
-<td>952$t</td>
-<td>Nidenumero</td>
-<td>Max. 32 merkkiä</td>
-<td>Ei käytössä</td>
-</tr>
-<tr class="odd">
+<tr>
 <td>952$u</td>
 <td>URI</td>
 <td>Niteen oma URL</td>
 <td>Koko URL, joka alkaa http: Täytetään vain, jos niteellä on oma URL, mutta ei ole tarpeellinen, jos nimekkeellä on 856$u-kenttään osoite tallennettuna.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$v</td>
 <td>Korvaushinta</td>
 <td>Desimaalinumero, ei valuuttamerkkejä (esim. 10.00)</td>
 <td>Täytetään automaattisesti hankintamoduulista, kun nide on saapunut.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$w</td>
 <td>Hinta voimassa alkaen</td>
 <td>VVVV-KK-PP</td>
 <td>Päiväyksen tulee olla järjestelmän ymmärtämässä muodossa: VVVV-KK-PP. Täytetään automaattisesti hankintamoduulista, kun nide on saapunut.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$x</td>
 <td>Huomautus virkailijoille</td>
 <td></td>
 <td>Tämä huomautus ei näy verkkokirjastossa. Tällä hetkellä tämä huomautus näkyy vain niteiden muokkausnäytöllä ja Niteet-välilehdellä virkailijatyökalussa.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>952$y</td>
 <td>Kohan aineistolaji</td>
 <td>Esim. Kirja, CD-levy</td>
 <td>Pakollinen tieto. Koodattu arvo, määritellään perusasetuksisssa <em>Aineistolajit</em>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>952$z</td>
 <td>Yleinen huomautus</td>
 <td>Esim. Liitteenä 3 CD-levyä</td>
