@@ -22,7 +22,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 * [Tietokantatriggerit päivityksen jälkeen heti käyttöön?](https://github.com/KohaSuomi/Koha-22x/issues/137) 
   * varmistettava, että esim. kirjastokortin numero tulee kopioiduksi userid-kenttään joko triggerillä tai js-rimpsulla.
 * Editx-virheviestin lähetysajankohta
-* KOHA_AUTO_FETCH buildissa
+* KOHA_AUTO_FETCH ympäristömuuttujan voi asettaa joko /etc/environmentissa tai komentorivillä export KOHA_AUTO_FETCH=1 ennen buildia.
+Se hakee/päivittää kaikki ksdev/* branchit. Ei voi käyttää tuotannossa.
 
 ### Maanantai 8.5.2023 klo 10
 
