@@ -18,10 +18,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 * cronit, milloin laitetaan päälle versionvaihdon aikaan?
   * onnistuuko ODUE-viestien lähetys jälkikäteen? (muistaakseni onnistuu /AÖ)
-  * saako duedst- ja preduedgs-viestit muodostettua tiistaina?
+  * saako duedst- ja preduedgs-viestit muodostettua tiistaina? (saanee /KK)
 * [Tietokantatriggerit päivityksen jälkeen heti käyttöön?](https://github.com/KohaSuomi/Koha-22x/issues/137) 
   * varmistettava, että esim. kirjastokortin numero tulee kopioiduksi userid-kenttään joko triggerillä tai js-rimpsulla.
-* Editx-virhevistin lähetysajankohta
+* Editx-virheviestin lähetysajankohta
+* KOHA_AUTO_FETCH buildissa
 
 ### Maanantai 8.5.2023 klo 10
 
