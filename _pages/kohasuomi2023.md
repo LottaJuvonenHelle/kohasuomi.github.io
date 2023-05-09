@@ -18,6 +18,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ### Torstai 11.5.2023 klo 10
 
 * cronit, milloin laitetaan päälle versionvaihdon aikaan?
+  * onnistuuko ODUE-viestien lähetys jälkikäteen? (muistaakseni onnistuu /AÖ)
 
 
 ### Maanantai 8.5.2023 klo 10
