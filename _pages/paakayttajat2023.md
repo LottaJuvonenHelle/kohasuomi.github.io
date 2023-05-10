@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 19 muistio
 
 Aika: 9.5.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (Outi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Viikon 20 eli 16.5. eli versionvaihtopäivän pääkäyttäjäpalsu pidetään klo 10.15.
@@ -45,6 +45,9 @@ Etelästä pohjoiseen.
 * OUTIssa testattu verkkomaksuja Finna-nextillä niin, että siellä oli tuotantopalvelimen asetukset. Maksuprosessissa ei ilmennyt ongelmia. 
 * Testattu Emmin kanssa Ceepos-maksuja nextin kanssa. Maksujen lähetys nextiltä Ceeposiin toimii, mutta maksetun maksun kuittaus takaisin Ceeposista Kohaan ei vielä toimi.
 * OUTIn verkkomaksupalvelu ei toiminut ma 8.5. n. klo 11-15. CPU oli päivittänyt Oulun kaupungin verkkomaksusivustolle uuden sertifikaatin, mutta sertifikaattiin liittyvä yksi tiedosto oli valittu väärin, joka aiheutti ongelman.
+
+**Siilinjärvi**
+* Meiltä oli jäänyt testaamatta meille tärkeä Tulosta ilmoituksia #93 eli testataan seuraavaksi vielä se.
 
 ## Viikko 18 muistio
 
