@@ -12,20 +12,28 @@ hidden: true
 ---
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
+
 ## Viikon 19 muistiot
 
 ### Torstai 11.5.2023 klo 10
 
+Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
+
 * cronit, milloin laitetaan päälle versionvaihdon aikaan?
   * onnistuuko ODUE-viestien lähetys jälkikäteen? (muistaakseni onnistuu /AÖ)
   * saako duedst- ja preduedgs-viestit muodostettua tiistaina? (saanee /KK)
+  * **Päätös:** Luodaan viestit jonoon ja lähetetään ne, kun viestiliikenne taas käynnistetään. Tieto lisätty versionvaihdon muistiinpanoihin.
 * Lumpeelta kysellään voiko stopata/stopataanko viestiliikenne sulun ajalta?
+  * **Päätös:** Sovitaan Lumpeiden kanssa, koska heidän viestiliikenne käynnistetään.
 * [Tietokantatriggerit päivityksen jälkeen heti käyttöön?](https://github.com/KohaSuomi/Koha-22x/issues/137) 
   * varmistettava, että esim. kirjastokortin numero tulee kopioiduksi userid-kenttään joko triggerillä tai js-rimpsulla.
+  * **Päätös:** Lisätty versionvaihdon muistiinpanoihin
 * Editx-virheviestin lähetysajankohta
+  * ongelmana elasticsearch-virheestä muodostuvat vialliset tilauskorit
+  * Ei onnistu helposti, tutkitaan elasticsearch-virheen syytä tarkemmin versionvaihdon jälkeen.
 * KOHA_AUTO_FETCH ympäristömuuttujan voi asettaa joko /etc/environmentissa tai komentorivillä export KOHA_AUTO_FETCH=1 ennen buildia.
 Se hakee/päivittää kaikki ksdev/* branchit. Ei voi käyttää tuotannossa.
-
+* Ceepos-
 ### Maanantai 8.5.2023 klo 10
 
 Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo, Pasi
