@@ -33,7 +33,9 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
   * Ei onnistu helposti, tutkitaan elasticsearch-virheen syytä tarkemmin versionvaihdon jälkeen.
 * KOHA_AUTO_FETCH ympäristömuuttujan voi asettaa joko /etc/environmentissa tai komentorivillä export KOHA_AUTO_FETCH=1 ennen buildia.
 Se hakee/päivittää kaikki ksdev/* branchit. Ei voi käyttää tuotannossa.
-* Ceepos-
+* Lari testaa Ceepos-maksuja emulaattorissa
+
+
 ### Maanantai 8.5.2023 klo 10
 
 Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo, Pasi
