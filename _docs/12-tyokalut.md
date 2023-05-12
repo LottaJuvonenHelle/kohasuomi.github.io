@@ -692,8 +692,10 @@ välillä:
 
 <img src="/assets/files/docs/Tyokalut/lokit3.png" title="Kuvakaappaus lokin hakutuloksista. Taulukko, jossa sarakkeet pvm, virkailija, osio, toiminto, ID-tunnus, tiedot ja käyttöliittymä" alt="Kuvakaappaus lokin hakutuloksista. Taulukko, jossa sarakkeet pvm, virkailija, osio, toiminto, ID-tunnus, tiedot ja käyttöliittymä" style="width:90.0%" />
 
-- Virkailija nro 0 tarkoittaa, että muutoksen on tehnyt jokin
-  järjestelmän oma toiminto, ei virkailija.
+- Virkailija nro 0 tarkoittaa, että muutoksen on tehnyt jokin järjestelmän oma toiminto, ei virkailija.
+
+**Huom.** Lokien katselun kautta löytyvät lokitiedot kuluvan vuoden + 1 edellisen vuoden ajalta. Vanhemmat lokitiedot tulee hakea erikseen raporteilla. Koha-Suomen [säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/#tapahtumalokit)
+{: .notice--warning}
 
 ---
 
