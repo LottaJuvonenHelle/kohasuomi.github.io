@@ -39,23 +39,23 @@ Numeroinnit löytyvät Numerointikaavat-sivulta:
 ![](/assets/files/docs/Kausijulkaisut/kausijul5.png)
 
 Voit myös luoda uusia numerointitietoja. Uuden numerointitiedon voit
-tallentaa _Luo uusi_ -linkistä.  
+tallentaa _Uusi numerointikaava_ -linkistä.  
 ![](/assets/files/docs/Kausijulkaisut/uusi_numerointikaava.PNG)
 
 ## 6.3. Lisää tilaus
 
 Tilaus voidaan lisätä klikkaamalla _Uusi_-nappia missä tahansa
 nimeketietueessa  
-![](/assets/files/docs/Kausijulkaisut/kausijul7.png)
+![](/assets/files/docs/Kausijulkaisut/uusi_kausijulkaisutilaus.png)
 
-tai menemällä Kausijulkaisut-osioon ja valita sieltä Uusi lehtitilaus.  
-![](/assets/files/docs/Kausijulkaisut/kausijul8.png)
+tai menemällä Kausijulkaisut-osioon ja valita sieltä _Uusi kausijulkaisutilaus_.  
+![](/assets/files/docs/Kausijulkaisut/uusi_kausijulkaisutilaus_2.PNG)
 
 Jos teet uuden tilauksen Kausijulkaisut-osiossa, saat tyhjän lomakkeen
 täytettäväksi. Jos menet nimeketietueesta, saat nimekkeen bibliografisia
 tietoja valmiiksi.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul9.png)
+![](/assets/files/docs/Kausijulkaisut/lisaa_uusi_kausijulkaisutilaus_1.PNG)
 
 - _Toimittaja_ löytyy joko klikkaamalla _Hae aineistotoimittaja_ tai
   antamalla toimittajan tunnus _Toimittaja_-kenttään.
@@ -110,12 +110,20 @@ tietoja valmiiksi.
 
 <!-- -->
 
-- _Viesti asiakkaalle_ -alasvetovalikosta voit valita
+- _Ilmoitus asiakkaalle_ -alasvetovalikosta voit valita
   lehtikiertolistan, jos se on tarpeen
 
 <!-- -->
 
 - _Sijainti_ kertoo hyllypaikan, joka valitaan alasvetovalikosta
+
+<!-- -->
+
+- _Kokoelmakoodin_ voi halutessaan lisätä alasvetovalikosta. Kokoelmakoodi on lisättävissä vain, jos ylempänä on valittu, että nide luodaan lehteä vastaanottaessa.
+
+<!-- -->
+
+- _Nidetyyppiin_ voi valmiiksi valita laina-aikatyypin, jota uusilla vastaanotetuilla numeroilla halutaan käyttää.
 
 <!-- -->
 
@@ -131,34 +139,34 @@ tietoja valmiiksi.
 
 Kun nämä tiedot on tallennettu, klikkaa _Seuraava_ taulukon
 alapuolella.  
-![](/assets/files/docs/Kausijulkaisut/lisaa_uusi_lehtitilaus_sivu2.PNG)
+![](/assets/files/docs/Kausijulkaisut/lisaa_uusi_kausijulkaisutilaus_2.PNG)
 
-- Ensimmäisen numeron julkaisupäivä annetaan kalenteritoimintoa
+- _Ensimmäisen numeron julkaisupäivä_ annetaan kalenteritoimintoa
   hyväksikäyttämällä. Tästä päivämäärästä alkaa numeroiden ennakointi.
 
 <!-- -->
 
-- Ilmestymistiheyteen on useita ennakolta määriteltyjä aikamääriä.
+- _Ilmestymistiheyteen_ on useita ennakolta määriteltyjä aikamääriä.
 
 <!-- -->
 
-- _Tilauksen pituus_ määritellään joko lehtien numeroina tai
+- _Kausijulkaisutilauksen pituus_ määritellään joko lehtien numeroina tai
   kuukausina. Täällä myös määritellään uusinnan hälytys.
 
 <!-- -->
 
-- _Tilauksen alkamispvm:_ valitaan kalenterikuvakkeesta tilauksen
+- _Kausijulkaisutilauksen alkamispvm:_ valitaan kalenterikuvakkeesta tilauksen
   alkamispäivä
 
 <!-- -->
 
-- _Tilauksen päättymispäivä:_ valitaan kalenterikuvakkeesta tilauksen
+- _Kausijulkaisutilauksen päättymispäivä:_ valitaan kalenterikuvakkeesta tilauksen
   päättymispäivä
 
 <!-- -->
 
 - _Numerointikaavan_ avulla määritellään, miten numerot näkyvät
-  tietokannassa. Kaavoja voi muokata jälkikäteen _4.2. Määrittele
+  tietokannassa. Kaavoja voi muokata jälkikäteen _6.2. Määrittele
   numerointitietoja_ -ohjeen mukaan.
 
 <!-- -->
@@ -183,7 +191,7 @@ alapuolella.
     ilmesty.  
     ![](/assets/files/docs/Kausijulkaisut/ilmestymisen_ennustamiskaava.PNG)
 
-Klikkaa _Tallenna tilaus_, kun tiedot ovat oikein.
+Klikkaa _Tallenna kausijulkaisutilaus_, kun tiedot ovat oikein.
 
 ## 6.4. Lehtinumeroiden vastaanottaminen
 
@@ -284,25 +292,22 @@ asiakastiedoista _Kiertolistat_-välilehti.
 
 ## 6.6. Tilaukset virkailijatyökalussa
 
-Tilausten tiedot näkyvät _Tilaukset_ ja _Lehtitilaukset_ -välilehdillä.
+Tilausten tiedot näkyvät _Kausijulkaisutilaukset_ -välilehdellä.
 
-![](/assets/files/docs/Kausijulkaisut/tilaukset_valilehti.PNG)
+![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilaukset_valilehti.PNG)
 
-Klikkaamalla Tilaukset-välilehdellä linkkiä _Tilauksen tiedot_ pääset tilauksen
+Vasemman valikon _Kausijulkaisutilauksen tiedot_ -painikkeesta pääset siirtymään suoraan lehden kaikkiin tilauksiin. Klikkaamalla Kausijulkaisutilaukset-välilehdeltä linkkiä _Kausijulkaisutilauksen tiedot_ pääset kyseisen tilauksen
 yhteenvetonäytölle virkailijatyökalussa.
 
-![](/assets/files/docs/Kausijulkaisut/kausijul32.png)
+![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilauksen_tiedot.PNG)
 
-Lehtitilaukset-välilehdeltä pääset suoraan esimerkiksi vastaanottamaan lehtinumeron.
-
-Jos käytät _Hankintamoduulia_ tilausten seurantaan, näet ne tiedot ennen
-tilauksen tietoja.
+Tilauksen tiedoista pääset suoraan esimerkiksi vastaanottamaan lehtinumeron.
 
 ## 6.7. Lehtien reklamointi
 
 Koha voi lähettää sähköpostin kausijulkaisujesi toimittajalle, jos
 tilatut numerot ovat myöhässä tai puuttuvat. Vasemmalla valikossa on
-_Reklamaatiot_-linkki tätä varten.  
+_Reklamaatiot_-linkki tätä varten. Varmista kimppasi pääkäyttäjältä, onko sähköposti-reklamaatioiden lähetys käytössä.
 ![](/assets/files/docs/Kausijulkaisut/kausijul35.png)  
 ![](/assets/files/docs/Kausijulkaisut/reklamaatiot.PNG)
 
@@ -355,7 +360,7 @@ tiedoilla tilausta.
 Hakutuloksen voit suodattaa jokaisen sarakkeen alla olevasta
 hakulaatikosta ja määrittää hakutulosten määrän taulukon yläreunassa
 olevissa laatikoissa. Haku-kenttää voi myös käyttää tietojen
-suodattamamiseen. Sen hakee kaikista sarakkeista kerralla.
+suodattamiseen. Sen hakee kaikista sarakkeista kerralla.
 
 ![](/assets/files/docs/Kausijulkaisut/kausijulkaisutilaukset_hakutulos.PNG)
 
@@ -367,6 +372,6 @@ muokkausnäyttö.
 
 <img src="/assets/files/docs/Kausijulkaisut/kausipois.png" title="Kausijulkaisuhaun tuloksena kaksi Kodinkuvalehti 2020 -tilausta" alt="Kausijulkaisuhaun tuloksena kaksi Kodinkuvalehti 2020 -tilausta" style="width:40.0%" />
 
-Avaa sitten Muokkaa-valikko ja valitse sieltä _Poista lehtitilaus_
+Avaa sitten Muokkaa-valikko ja valitse sieltä _Poista kausijulkaisutilaus_
 
-<img src="/assets/files/docs/Kausijulkaisut/kausipois1.png" title="Muokkaa-valikko avattuna, alimmaisena Poista lehtitilaus -vaihtoehto" alt="Muokkaa-valikko avattuna, alimmaisena Poista lehtitilaus -vaihtoehto" style="width:30.0%" />
+![](/assets/files/docs/Kausijulkaisut/poista_kausijulkaisutilaus.png)
