@@ -694,7 +694,7 @@ välillä:
 
 - Virkailija nro 0 tarkoittaa, että muutoksen on tehnyt jokin järjestelmän oma toiminto, ei virkailija.
 
-**Huom.** Lokien katselun kautta löytyvät lokitiedot kuluvan vuoden + 1 edellisen vuoden ajalta. Vanhemmat lokitiedot tulee hakea erikseen raporteilla. Koha-Suomen [säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/#tapahtumalokit)
+**Huom.** Lokien katselun kautta löytyvät lokitiedot kuluvan vuoden + 1 edellisen vuoden ajalta. Vanhemmat lokitiedot tulee hakea erikseen raporteilla. Koha-Suomen [säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/#tapahtumalokit).
 {: .notice--warning}
 
 ---
@@ -705,7 +705,7 @@ Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita
 virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi
 kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
 
-Linkistä _HTML muokkaukset_ voi tehdämuokkauksia Kohan verkkokirjastoon (ei käytössä Koha-Suomen kirjastoissa).
+Linkistä _HTML muokkaukset_ voi tehdä muokkauksia Kohan verkkokirjastoon (ei käytössä Koha-Suomen kirjastoissa).
 
 <img src="/assets/files/docs/Tyokalut/uutiset.png" title="Kuvakaappaus Uutiset-työkalun aloitusnäkymästä, jossa on useampi uutinen näkyvissä" alt="Kuvakaappaus Uutiset-työkalun aloitusnäkymästä, jossa on useampi uutinen näkyvissä" style="width:95.0%" />
 
@@ -726,7 +726,7 @@ Linkistä _HTML muokkaukset_ voi tehdämuokkauksia Kohan verkkokirjastoon (ei k�
 
 Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
 
-<img src="/assets/files/docs/Tyokalut/uutiset4.png" title="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" alt="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/uutiset5.png" title="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" alt="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" style="width:90.0%" />
 
 ### 12.15.1 Uuden uutisen luominen
 
