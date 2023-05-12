@@ -701,11 +701,9 @@ välillä:
 
 ## 12.15 Uutiset
 
-Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita
-virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi
-kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
+Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
 
-Linkistä _HTML muokkaukset_ voi tehdä muokkauksia Kohan verkkokirjastoon (ei käytössä Koha-Suomen kirjastoissa).
+Linkit _HTML muokkaukset_, *OPACUserJS* ja *OPACUserCSS* liittyvät Kohan omaan verkkokirjastoon, joka ei käytössä Koha-Suomen kirjastoissa.
 
 <img src="/assets/files/docs/Tyokalut/uutiset.png" title="Kuvakaappaus Uutiset-työkalun aloitusnäkymästä, jossa on useampi uutinen näkyvissä" alt="Kuvakaappaus Uutiset-työkalun aloitusnäkymästä, jossa on useampi uutinen näkyvissä" style="width:95.0%" />
 
@@ -740,7 +738,7 @@ Valitse ja täytä tarvittavat tiedot:
   virkailijatyökalussa, kuiteissa vai verkkokirjastossa
 - **Kirjasto**: näytetäänkö uutinen kaikille kirjastoille vai vain
   tietylle kirjastolle
-- **Julkaisupvm**: voi joko jättää tyhjäksi, jolloin uutinen
+- **Julkaisuaika**: voi joko jättää tyhjäksi, jolloin uutinen
   julkaistaan heti tai valita tietty julkaisupäivä.
 - **Vanhentumispvm**: voi joko jättää tyhjäksi, jolloin uutinen ei
   vanhene tai valita tietty vanhentumispäivä, jolloin uutinen
@@ -752,17 +750,15 @@ Valitse ja täytä tarvittavat tiedot:
 - **Sisältö**: Tähän kirjoitetaan varsinainen uutinen. Käytettävissä
   on WYSIWYG-muotoilut (what you see is what you get).
 
-Tallenna valitsemalla Tallenna tai peruuta valitsemalla Peruuta.
+Tallenna valitsemalla *Tallenna* tai peruuta valitsemalla *Peruuta*.
 
 ### 12.15.2 Uutisen poistaminen
 
-Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla Poista-nappia. Useamman uutiset voi poistaa valitsemalla uutinen vasemmalta ruksilla ja painamalla Poista valitut.
+Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useamman uutiset voi poistaa valitsemalla uutinen vasemmalta ruksilla ja painamalla *Poista valitut*.
 
 <img src="/assets/files/docs/Tyokalut/uutisen_poisto.png" title="Uutiset-sivulta kuvakaappaus, jossa on ympyröitynä punaisella laatikolla Poista-nappula" alt="Uutiset-sivulta kuvakaappaus, jossa on ympyröitynä punaisella laatikolla Poista-nappula" style="width:90.0%" />
 
-**Huom!** Vanhentuneet uutiset poistuvat käyttäjien näkyviltä
-vanhentumispäivänä, mutta eivät poistu automaattisesti uutislistasta. Ne
-pitää halutessaan poistaa manuaalisesti.
+**Huom!** Vanhentuneet uutiset poistuvat käyttäjien näkyviltä vanhentumispäivänä, mutta eivät poistu automaattisesti uutislistasta. Ne pitää halutessaan poistaa manuaalisesti.
 {: .notice--warning}
 
 ---
