@@ -17,9 +17,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 15.5.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 
 * Tuotannon kopiointi, nextiltä vai testiltä?
+  * koskee konttipohjia
+  * Päätös: next
+* Emmi ja Kodo aloittaa päivityksen ma-iltana klo 10.
 
 ## Viikon 19 muistiot
 
