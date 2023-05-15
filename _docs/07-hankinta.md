@@ -403,7 +403,7 @@ Kun teet tilauksen, aloita hakemalla toimittajan tiedot.
 
 ### 7.4.1 Tilauksen luominen
 
-Klikkaa _Uusi tilauskori_ -nappia toimittajan nimen oikealla puolella.
+Klikkaa ensin _Uusi_ ja avautuvasta valikosta _Tilauskori_ toimittajan nimen yläpuolella.
 
 ![](/assets/files/docs/Hankinta/hankinta40.png)
 
@@ -428,11 +428,11 @@ Uutta tilauskoria varten täytyy täyttää muutamia tietoja:
 - Jos toimittajallesi on tallennettu _sopimuksia_, voit valita sopimuksen
 alasvetovalikosta.
 - _Voimassa olevia tilauksia_ -kohta liittyy kestotilauksiin, eikä sitä tarvitse monestikaan valita.
-- _Luo niteet kun_ -kohdasta voi valita, milloin tietueille luodaan niteet. Vaihtoehtoja ovat_
+- _Luo niteet kun_ -kohdasta voi valita, milloin tietueille luodaan niteet. Vaihtoehtoja ovat:
   - käytä oletusta (sulkeissa järjestelmäasetuksissa oletukseksi valittu vaihtoehto)
   - tilauksen tekeminen
   - tilauksen vastaanotto
-  - nimeketietueen kuvailu (Huom! Jos valitset tämän, niteitä ei synny tilauksen teon tai vastaanoton yhteydessä)
+  - kuvailutietojen muokkaus (Huom! Jos valitset tämän, niteitä ei synny tilauksen teon tai vastaanoton yhteydessä)
 
 Klikkaa lopuksi _Tallenna_.
 
@@ -463,11 +463,11 @@ Tilauksessa tarvittavat luettelointitiedot näkyvät tilaustiedoissa _Luettelon 
 #### 7.4.1.2. Hankintaehdotuksesta
 
 **Huomioi:** Jos kimpalla/kirjastolla on Finna käytössä
-verkkokirjastona, ei asiakkaat pysty tällä hetkellä tekemään suoraan
+verkkokirjastona, eivät asiakkaat pysty tällä hetkellä tekemään suoraan
 Kohaan tulevia hankintaehdotuksia.
 
 - Asiakkaiden tekemistä hankintaehdotuksista voi tehdä tilauksen.
-  Jotta hankintaehdotukset ja tilaukset pysyisivät järjestyksessä,
+  Jotta hankintaehdotukset ja tilaukset pysyisivät kiinni toisissaan,
   kannattaa tilaus tehdä hankintaehdotuksen linkin kautta.  
   ![](/assets/files/docs/Hankinta/hankinta45.png)
   - Tuloksista klikkaa _Tilaus_-linkkiä sen nimekkeen kohdalla,
@@ -483,8 +483,7 @@ ehdotuksen tekijän nimi.
 ![](/assets/files/docs/Hankinta/hankinta47.png)
 
 Hankintaehdotusten perusteella tehdyistä tilauksista lähtee asiakkaalle
-sähköpostiviesti, jossa kerrotaan tehdystä tilauksesta. Myös
-verkkokirjastossa asiakas näkee hankintaehdotuksensa tilan.
+sähköpostiviesti, jossa kerrotaan tehdystä tilauksesta.
 
 #### 7.4.1.3. Lehtitilauksesta
 
