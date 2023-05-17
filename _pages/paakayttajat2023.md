@@ -10,6 +10,27 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 21 muistio
+
+Aika: 23.5.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+* Miten menee versionvaihdon jälkeen?
+  * Opittavaa versionvaihdon prosesseista yms?
+* Palataan takaisin normaaliin tikettien seurantaan ja päivitystahtiin.
+  * Uudet tiketit Koha-repositorioon.
+  * Päivitykset kerran viikossa tiistaisin.
+  * Muistakaa sulkea tekemänne tiketit, kun ne ovat valmiit/ratkaisu ehdotettu.
+
+## Viikko 20 muistio
+
+Aika: 16.5.2023 klo 9.15 <br />
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
+
+* Käytiin läpi, mitä pitää tehdä tuotannossa ennen kuin kirjastot voidaan avata sekä erilaisia versionvaihdon ongelmia.
+
+
 ## Viikko 19 muistio
 
 Aika: 9.5.2023 klo 9.15 <br />
