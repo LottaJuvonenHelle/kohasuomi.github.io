@@ -11,6 +11,25 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 5/2023
+
+Kokous oli nykyisen hallituksen viimeinen ja seuraavaksi odotamme yhtiökokousta ja uuden hallituksen nimittämistä. Pitää olla kerrassaan tyytyväinen ja iloinen nykyisen hallituksen aktiivisesta ja sitoutuneesta työstä yhtiön toiminnan kehittämiseksi. Kiitokset hallitukselle kuluneesta kaudesta!
+
+Kutsu yhtiökokoukseen lähtee ensi viikolla kuntien kirjaamoihin ja perinteiseen tapaan valtakirjoja voi osoittaa myös naapurikunnan tai muun sopivan tahon yhtiökokousedustajalle. 
+
+Kokouksessa kävimme keskustelua strategian päivittämisestä. Viime joulukuussa hallitus teki strategiaan pienen päivityksen ja selvästi on tarvetta tehdä uusi strategia lähivuosina ja sen valmistelu jätettiin uudelle hallitukselle.
+
+Toimitusjohtajan raportti käytiin keskustellen läpi, liitteenä. Versiopäivitys tuntuu menneen sujuvasti. KohaConin ohjelma ei ole vielä valmis, Ari tai minä tiedotamme sitten kun se valmistuu. Koha-seminaaria on alustavasti tuumailtu opetus- ja kulttuuriministeriön kirjastopäivien jälkeiseksi päiväksi eli 29.11 ja paikkana Helsinki. Varmistetaan tämä heti syksyn alussa.
+
+Leppoisaa helatorstaita!
+
+T. Rebekka, hallituksen pj.
+
+Liitteet:
+
+[Toimitusjohtajan raportti 5/2023](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Toimitusjohtajanraportti5_2023.pdf)<br />
+[Strategian päivitys 2022](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Koha-SuomiOystrategiapaivitys2022.pdf)
+
 ## Koha-Suomen hallituksen tiedote 4/2023
 
 Kokouksen isoin keskusteluaihe oli Lastu-kirjastojen tuleva liittyminen Koha-Suomeen. Alueen kunnissa on jo tehty ensimmäiset päätökset osakkeiden ostamisesta ja loppuja odotellaan. Toiveissa on, että toukokuun hallituksen kokouksessa voidaan hyväksyä uudet jäsenet. Käyttöönottoprojekti alkanee sitten hetimiten Kirkes-projektin päättyessä.
