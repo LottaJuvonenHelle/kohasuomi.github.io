@@ -27,8 +27,9 @@ T. Rebekka, hallituksen pj.
 
 Liitteet:
 
-[Toimitusjohtajan raportti 5/2023](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Toimitusjohtajanraportti5_2023.pdf)<br />
-[Strategian päivitys 2022](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/Koha-SuomiOystrategiapaivitys2022.pdf)
+[Toimitusjohtajanraportti 5_2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/11497924/Toimitusjohtajanraportti5_2023.pdf)<br />
+[Koha-Suomi Oy strategiapaivitys 2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/11497929/Koha-SuomiOystrategiapaivitys2022.pdf)
+
 
 ## Koha-Suomen hallituksen tiedote 4/2023
 
