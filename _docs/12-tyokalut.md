@@ -149,7 +149,7 @@ ollenkaan.
 
 ## 12.4 Lähetä laskuja
 
-Laskutus tapahtuu laskutustyökalun avulla, katso [12.17.1 laskutustyökalun ohje](https://koha-suomi.fi/dokumentaatio/tyokalut/#12171-laskutusty%C3%B6kalu)
+Laskutus tapahtuu laskutustyökalun avulla, katso [12.17.1 laskutustyökalun ohje](https://koha-suomi.fi/dokumentaatio/tyokalut/#12161-laskutusty%C3%B6kalu)
 
 ---
 
