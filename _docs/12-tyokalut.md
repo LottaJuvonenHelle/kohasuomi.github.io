@@ -862,10 +862,9 @@ Jos tulostettavia niteitä on kahdella eri välilehdellä (oman kirjaston kokoel
 
 Kannattaa hyödyntää Kokoelmat-taulukon suodatus-toimintoa ja suodattaa näkyville vain halutut niteet ja sen jälkeen *Valitse kaikki*, jolloin näkyvillä olevat niteet tulevat valituksi ja ne saa vietyä kerralla tulostusjonoon.
 
+Myös niteiden muokkaustilassa niteen voi listätä tulostusjonoon joko muokattavan niteen lomakkeen alta *Tulostusjonoon*-napista tai nidetaulukon *Toiminnot*-valikon *Tulostusjonoon*-kohdasta. Jokainen *Tulostusjonoon*-napin painallus vie viivakoodin tulostusjonoon. Saman niteen voi siis näin viedä useampaan kertaan, jos sellaiseen on tarvetta esim. av-aineiston osalta.
 
-Myös niteiden muokkaustilassa niteen voi listätä tulostusjonoon joko muokattavan niteen lomakkeen alta *Tulostusjonoon*-napista tai nidetaulukon *Toiminnot*-valikon *Tulostusjonoon*-kohdasta.
-
-<img src="/assets/files/docs/Tyokalut/tulostusjonoon1.png" title="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" alt="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostusjonoon1.png" title="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" alt="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" style="width:70.0%" />
 
 <img src="/assets/files/docs/Tyokalut/tulostusjonoon2.png" title="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" alt="Näkymä niteiden muokkauksesta, jossa määritetään nide tulostusjonoon" style="width:100.0%" />
 
