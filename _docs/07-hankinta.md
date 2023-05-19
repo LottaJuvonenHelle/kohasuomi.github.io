@@ -502,7 +502,6 @@ olevassa sarakkeessa on _Tilaus_-nappula. Jos tilaus on jo kiinni toisessa toimi
 Klikkaamalla Tilaus-nappia saat lehtitilauksen tiedot tilauslomakkeelle ilman
 Lisää nide -osiota, koska lehtitilauksessa sitä ei tarvita.  
 ![](/assets/files/docs/Hankinta/hankinta50.png)
-![](/assets/files/docs/Hankinta/hankinta501.png)
 
 #### 7.4.1.6. Uudesta (tyhjästä) tietueesta
 
@@ -512,21 +511,23 @@ valitse _Uudesta (tyhjästä) tietueesta_.
 
 - Anna tyhjään lomakkeeseen kaikki tarvittavat tiedot tilauksesta.
   
-Huom! Näin tehdyn tietueen tietoja pitää käydä jälkikäteen täydentämässä, jotta teos löytyy tiedonhaun kautta:
-  - kenttä 000, ja siinä heti ensimmäinen rivi kenttä nro 00. Rivin
+Huom! Tyhjästä tietueesta tehdyn tietueen tietoja pitää käydä jälkikäteen täydentämässä kuvailussa, jotta teos löytyy tiedonhaun kautta:
+  - 0-välilehdellä on ensimmäinen rivi kenttä nro 000 eli Nimiö. Rivin
     päässä on nk. tag –merkki, klikkaa se auki, jolloin saat auki
     nk. Nimiövalikon, ja sieltä kohdan 7 = Tietueen bibliografinen
     taso. Itse tehdyssä tietueessa se tarjoaa “Osakohde
-    monografiassa”, joka pitää muuttaa “Monografiaksi” eli M:ksi.
+    monografiassa”, joka pitää muuttaa “Monografiaksi” eli m:ksi.
     Teetpä tilauksen mistä tahansa aineistosta tuo pitää käydä
     korjaamassa.
+  - Klikkaa 005-kenttää, jotta saat siihen päivämäärleiman
+  - Muokkaa 008-kentän tiedot oikeaksi. 
   - Välilehdellä 9 pitää käydä valitsemassa lisäksi aineistotyyppi 942c-kenttään.
   - Tekijätieto menee kolmeen kohtaan 100a/110a/111a -> poista ylimääräiset.
   - Toimittajatieto menee 028a-kenttään -> siirrä oikeaan
 
 #### 7.4.1.4 Olemassa olevista tilauksista (kopio)
 
-Tilauksen voi tehdä jo olemassa olevan tilauksen pohjata kopioimalla sen. Kun valitset _Olemassa olevista tilauksista (kopio)_, niin saat ensin tilausten hakusivun. Hae haluamillasi hakuehdoilla.
+Tilauksen voi tehdä jo olemassa olevan tilauksen pohjata kopioimalla sen. Kun valitset _Olemassa olevista tilauksista (kopio)_, niin saat ensin tilausten hakusivun. Hae haluamillasi hakuehdoilla. HUOM! Tämä on hidas, jos tietokannassa on paljon tilauksia eli käytännössä kaikilla.
 
 ![](/assets/files/docs/Hankinta/hankinta502.png)
 
