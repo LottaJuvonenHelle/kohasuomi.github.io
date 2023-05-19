@@ -17,17 +17,19 @@ Jokaisen kohdalle on merkitty, missä Koha-versiossa se toimii.
 
 Versio: 17.05
 
-> option[value='address'] { display:none; }
-
+```
+option[value='address'] { display:none; }
+```
 
 ### Piilota asiakkaan kuva, jos asiakkaalla ei ole sellaista
 
 Versio: 17.05
 
-> /* Piilota asiakkaan kuva, jos asiakkaalla ei ole sellaista */
+```
+/* Piilota asiakkaan kuva, jos asiakkaalla ei ole sellaista */
 li#patronbasics img[src$="blank.png"] { display: none !important; }
 li.email { background: none !important; }
-
+```
 
 ### "Kirjoitussuojaa" sotu-avain-kenttä
 
@@ -36,10 +38,11 @@ Sotu-avain-kentän voi "kirjoitussuojata" niin, että siihen pystyy Lisää sotu
 Huomioi, että patron_attr_4-osiossa oleva numero riippuu siitä, kuinka monentena sotu-avain on näytöllä. Esim. OUTI-kirjastoissa numerona on 3 ja Hellessä 4. Voit tarkistaa numeron klikkaamalla asiakkaan muokkausnäytöllä hiiren oikealla sotu-avain-kenttää ja valitsemalla "Inspect Element (Q)" (toimii ainakin Firefoxilla).
 
 Tarpeellisuus: Suositeltava
-Versio: 21.11
+Versio: 22.11
 
-> body#pat_memberentrygen.pat textarea#patron_attr_4 { pointer-events: none; }
-
+```
+body#pat_memberentrygen.pat textarea#patron_attr_4 { pointer-events: none; }
+```
 
 ### Käyttäjätunnus-osion piilottaminen asiakkaan muokkausnäytöltä
 
@@ -47,53 +50,55 @@ Käyttäjätunnus-osion piilottaminen asiakkaan muokkausnäytöltä.
 
 Versio: 17.05
 
-> /* Piilota Käyttäjätunnus-osio asiakkaan muokkausnäytöltä */
+```
+/* Piilota Käyttäjätunnus-osio asiakkaan muokkausnäytöltä */
 #pat_memberentrygen.pat fieldset#memberentry_userid { display:none; }
-
+```
 
 ### Asiakasmääreen piilottaminen tiedot-näytöltä
 
 Versio: 17.05
 
-> /* Piilota asiakasmääre tiedot-näytöltä */
+```
+/* Piilota asiakasmääre tiedot-näytöltä */
 div#patron-extended-attributes ol li:nth-child(1) { display:none; }
-
+```
 
 ### Piilota Luo hyvitys -välilehden sisältö
 
-Versio: 21.11
+Tarpeellisuus: Suositeltava
+Versio: 22.11
 
-> /* Piilota Luo hyvitys -välilehden sisältö asiakkaan maksuista */
-form#mancredit { display: none; }
-
+```
+/* Piilota Luo hyvitys -välilehti asiakkaan maksuista */
+li.manualcredit { display: none; }
+body#pat_paycollect.pat a[href*="/cgi-bin/koha/members/mancredit.pl"] {
+  display: none;
+}
+```
 
 ### Piilota asiakkaan ikä Tiedot-välilehdellä
 
 Tarpeellisuus: Vapaaehtoinen
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota asiakkaan ikä tiedot-näytöllä */
+```
+/* Piilota asiakkaan ikä tiedot-näytöllä */
 body#pat_moremember.pat span.age_years { display: none; }
-
+```
 
 ### Piilota Näytä aina lainat reaaliaikaisesti -valinta
 
 Tarpeellisuus: Suositeltava, parantaa suorituskykyä.
-Versio 21.11
+Versio 22.11
 
-Lainausnäytöltä piilotus:
-
-> /* Piilota Näytä aina lainat reaaliaikaisesti / Always show checkouts immediately -täppä */
+```
+/* Piilota Näytä aina lainat reaaliaikaisesti / Always show checkouts immediately -täppä. Piilottaa sekä lainaus- että tiedot-näytöltä. */
 body#circ_circulation.circ input#issues-table-load-immediately { display: none; }
-body#circ_circulation.circ div#checkouts.ui-tabs-panel.ui-widget-content.ui-corner-bottom label[for="issues-table-load-immediately"] { display: none; }
-
-
-Tiedot-näytöltä piilotus:
-
-> /* Piilota Näytä aina lainat reaaliaikaisesti / Always show checkouts immediately -täppä Tiedot-sivulta */
+body#circ_circulation.circ label[for="issues-table-load-immediately"] { display: none; }
 body#pat_moremember.pat input#issues-table-load-immediately { display: none; }
-body#pat_moremember.pat div#checkouts.ui-tabs-panel.ui-widget-content.ui-corner-bottom label[for="issues-table-load-immediately"] { display: none; }
-
+body#pat_moremember.pat label[for="issues-table-load-immediately"] { display: none; }
+```
 
 ### Säädä Viesti asiakkaalle -viestin väriä
 
