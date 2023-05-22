@@ -19,7 +19,7 @@ Läsnä:
 * Miten menee versionvaihdon jälkeen?
   * Opittavaa versionvaihdon prosesseista yms?
 * Palataan takaisin normaaliin tikettien seurantaan ja päivitystahtiin.
-  * Uudet tiketit Koha-repositorioon.
+  * Uudet tiketit Koha-repositorioon. (Muistakaa tehdä tiketit, ei töitä sähköpostin tai Matrixin kautta, ohi tiketöinnin)
   * Päivitykset kerran viikossa tiistaisin.
   * Muistakaa sulkea tekemänne tiketit, kun ne ovat valmiit/ratkaisu ehdotettu.
 * [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117) - hakutuloslistan piilotus aiheuttanut palautetta. Haku toimii vain kirjastokortilla tai asiakkaan koko nimellä (kaikki etunimet ja sukunimi). Piilotus tehty, jotta ei voi hakea esille kaikkia tietokannan asiakastietoja ja vältetään turhia asiakastietojen katselua.
