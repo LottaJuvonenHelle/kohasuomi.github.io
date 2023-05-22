@@ -20,7 +20,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * tiistain päivityksen sisältö
-
+  * [KohaSuomi/Koha/Kausijulkaisujen vastaanotossa ei toimi viivakoodinmuodostus #539](https://github.com/KohaSuomi/Koha/issues/539) 
+  * [KohaSuomi/Koha/Realign-korjauksen ajo kimppoihin #548](https://github.com/KohaSuomi/Koha/issues/548) 
 
 ## Viikon 20 muistiot
 
