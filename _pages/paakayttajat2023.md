@@ -38,7 +38,7 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 ## Viikko 19 muistio
 
 Aika: 9.5.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (Outi), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (Outi), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Hanna Ikonen ja Katja Valjakka (Lumme)
 
 **Yhteiset**
 * Viikon 20 eli 16.5. eli versionvaihtopäivän pääkäyttäjäpalsu pidetään klo 10.15.
@@ -73,6 +73,10 @@ Etelästä pohjoiseen.
 
 **Siilinjärvi**
 * Meiltä oli jäänyt testaamatta meille tärkeä Tulosta ilmoituksia #93 eli testataan seuraavaksi vielä se.
+
+**Lumme**
+* Nextin testailua ja lisätty GitHubin mukaan toimintoja.
+
 
 ## Viikko 18 muistio
 
