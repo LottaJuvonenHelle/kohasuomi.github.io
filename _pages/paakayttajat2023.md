@@ -27,6 +27,7 @@ Läsnä:
 * kehitysehdotukset [#555](https://github.com/KohaSuomi/Koha/issues/555) ja [#556](https://github.com/KohaSuomi/Koha/issues/556)
 * [Vanhentuneet noutamattomat varaukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Vanhentuneet-noutamattomat-varaukset) -raportti päivitetty käyttämään HOLDID-asiakasmäärettä.
 * Laitetaanko total issues -cronit pois päältä? Aiheuttaa nyt [ylimääräisiä valutuksia](https://github.com/KohaSuomi/Koha-22x/issues/190). [Redmine tiketti 1849](https://tiketti.koha-suomi.fi/issues/1849) liittyy myös aiheeseen.
+* [Tiistain päivityksen tiedote](https://github.com/KohaSuomi/Koha/discussions/566)
 
 ## Viikko 20 muistio
 
