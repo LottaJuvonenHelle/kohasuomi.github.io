@@ -909,9 +909,7 @@ Sen jälkeen lisää niteitä kokoelmaan syöttämällä niteen viivakoodi kentt
 
 Siirtokokoelmien pääsivulla lisää niteitä kokoelmaan painamalla halutun siirtokokoelman kohdalla *Toiminnot*-nappia ja valitsemalla *Hallinnoi niteitä*. 
 
-<img src="/assets/files/docs/Tyokalut/siirtokokoelma3.png" title="Toiminto-valikko siirtokokoelmien pääsivulla" alt="Toiminto-valikko siirtokokoelmien pääsivulla" style="width:80.0%" />
-
-Voit poistaa niteen kokoelmasta joko painamalla *Poista* niteen viivakoodin vierestä siirtokokoelman niteiden luettelossa tai valitsemalla *Poista nide kokoelmasta* -valintaruudun viivakoodikentän vieressä ja lukemalla kokoelmasta poistettavan niteen viivakoodin.
+<img src="/assets/files/docs/Tyokalut/siirtokokoelma3.png" title="Toiminto-valikko siirtokokoelmien pääsivulla" alt="Toiminto-valikko siirtokokoelmien pääsivulla" style="width:100.0%" />
 
 **Kokoelman siirtäminen**
 
