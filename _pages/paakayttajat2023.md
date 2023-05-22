@@ -25,6 +25,7 @@ Läsnä:
 * [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117) - hakutuloslistan piilotus aiheuttanut palautetta. Haku toimii vain kirjastokortilla tai asiakkaan koko nimellä (kaikki etunimet ja sukunimi). Piilotus tehty, jotta ei voi hakea esille kaikkia tietokannan asiakastietoja ja vältetään turhia asiakastietojen katselua.
 * [Kohan ohje suomeksi -wikin päivityksen seurantatiketti](https://github.com/KohaSuomi/Koha/issues/549)
 * kehitysehdotukset [#555](https://github.com/KohaSuomi/Koha/issues/555) ja [#556](https://github.com/KohaSuomi/Koha/issues/556)
+* [Vanhentuneet noutamattomat varaukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Vanhentuneet-noutamattomat-varaukset) -raportti päivitetty käyttämään HOLDID-asiakasmäärettä.
 
 ## Viikko 20 muistio
 
