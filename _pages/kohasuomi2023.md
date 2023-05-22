@@ -17,11 +17,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 22.5.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Emmi, Ville, Pasi, Lasse, Lari, Kodo
 
 * tiistain päivityksen sisältö
   * [KohaSuomi/Koha/Kausijulkaisujen vastaanotossa ei toimi viivakoodinmuodostus #539](https://github.com/KohaSuomi/Koha/issues/539) 
   * [KohaSuomi/Koha/Realign-korjauksen ajo kimppoihin #548](https://github.com/KohaSuomi/Koha/issues/548) 
+* [tutkitaan, saako Print summary -tulosteen siirrettyä viestipohjiin.](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=11340)
 
 ## Viikon 20 muistiot
 
