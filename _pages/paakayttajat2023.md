@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21 muistio
 
 Aika: 23.5.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 
 **Yhteiset**
 * Miten menee versionvaihdon jälkeen?
@@ -23,13 +23,14 @@ Läsnä:
     * Finna kertoi vain, että "väärä käyttäjätunnus tai salasana", mikä oli hämmentänyt asiakkaita. Yleensä kertonut, että taustajärjestelmään ei saa yhteyttä.
     * tuotannossa tuli esille virheitä, joita ei ollut testeissä ilmaantunut tai huomattu -> kiinniolo jatkossa puoltoista päivää?
     * redusoituun kantaan isompi setti tietueita, asiakkaita, lehtitilauksia. Osakohteita enemmän. Enemmän erilaisissa nidetiloissa olevia niteitä. Asiakastiedot: asiakkailta puuttui huollettavia ja varauksia -> helpompi, jos asiakkaan kaikki huollettavat, varaukset ja lainat otettaisiin mukaan.
-* Kaksvaiheinen kirjautuminen
+* Kaksvaiheinen kirjautuminen käyttöön superlibrarian-tunnuksille, jos käytössä on työälyluuri.
 * Palataan takaisin normaaliin tikettien seurantaan ja päivitystahtiin.
   * Uudet tiketit Koha-repositorioon. (Muistakaa tehdä tiketit, ei töitä sähköpostin tai Matrixin kautta, ohi tiketöinnin)
   * Päivitykset kerran viikossa tiistaisin.
   * Muistakaa sulkea tekemänne tiketit, kun ne ovat valmiit/ratkaisu ehdotettu.
 * [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117) - hakutuloslistan piilotus aiheuttanut palautetta. Haku toimii vain kirjastokortilla tai asiakkaan koko nimellä (kaikki etunimet ja sukunimi). Piilotus tehty, jotta ei voi hakea esille kaikkia tietokannan asiakastietoja ja vältetään turhia asiakastietojen katselua.
   * Päätös: Viedään asia asiantuntijaryhmän päätettäväksi seuraavalla ehdotuksella: Poistetaan hakutulostaulukon piilotus ja piilotetaan taulukosta syntymäaika, osoite ja puhelinnumero -sarakkeet.
+  * Sarakeasetukset eivät toimi, [tiketti 571](https://github.com/KohaSuomi/Koha/issues/571) 
 * [Kohan ohje suomeksi -wikin päivityksen seurantatiketti](https://github.com/KohaSuomi/Koha/issues/549)
   * Sovittu, että kuvaa ei tarvitse vaihtaa, jos sisältää tiedot olennaisilta osin. Vaihdettava kuitenkin, jos kuva ei vastaa nykyistä ohjeistusta.
   * Jos kuvan vaihtaa, pääsee helpoimmalla, kun nimeää uuden kuvan samalla nimellä kuin entinen oli ja vie sen sitten githubiin. Vanha korvataan uudella.
