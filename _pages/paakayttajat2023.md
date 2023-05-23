@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21 muistio
 
 Aika: 23.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * Miten menee versionvaihdon jälkeen?
@@ -41,6 +41,9 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi)
 * [Tiistain päivityksen tiedote](https://github.com/KohaSuomi/Koha/discussions/566)
 * [Tiketti 560](https://github.com/KohaSuomi/Koha/issues/560) - MARC-virheraporttien linkit Raporttien etusivulle
 * Lomien päivitys [yhteystiedot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot)
+
+**Vaara**
+* Vaarassa kaivataan takaisin nappulaa kuljetuksen peruuttamiseen palautustilanteessa. Koitetaan säätää kohdilleen.
 
 ## Viikko 20 muistio
 
