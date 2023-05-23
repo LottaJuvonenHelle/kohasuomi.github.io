@@ -10,7 +10,7 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 21 esityslista
+## Viikko 21 muistio
 
 Aika: 23.5.2023 klo 9.15 <br />
 Läsnä:
@@ -29,6 +29,7 @@ Läsnä:
   * Päivitykset kerran viikossa tiistaisin.
   * Muistakaa sulkea tekemänne tiketit, kun ne ovat valmiit/ratkaisu ehdotettu.
 * [Tiketti 117](https://github.com/KohaSuomi/Koha-22x/issues/117) - hakutuloslistan piilotus aiheuttanut palautetta. Haku toimii vain kirjastokortilla tai asiakkaan koko nimellä (kaikki etunimet ja sukunimi). Piilotus tehty, jotta ei voi hakea esille kaikkia tietokannan asiakastietoja ja vältetään turhia asiakastietojen katselua.
+  * Päätös: Viedään asia asiantuntijaryhmän päätettäväksi seuraavalla ehdotuksella: Poistetaan hakutulostaulukon piilotus ja piilotetaan taulukosta syntymäaika, osoite ja puhelinnumero -sarakkeet.
 * [Kohan ohje suomeksi -wikin päivityksen seurantatiketti](https://github.com/KohaSuomi/Koha/issues/549)
   * Sovittu, että kuvaa ei tarvitse vaihtaa, jos sisältää tiedot olennaisilta osin. Vaihdettava kuitenkin, jos kuva ei vastaa nykyistä ohjeistusta.
   * Jos kuvan vaihtaa, pääsee helpoimmalla, kun nimeää uuden kuvan samalla nimellä kuin entinen oli ja vie sen sitten githubiin. Vanha korvataan uudella.
