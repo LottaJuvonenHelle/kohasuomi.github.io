@@ -18,6 +18,11 @@ Läsnä:
 **Yhteiset**
 * Miten menee versionvaihdon jälkeen?
   * Opittavaa versionvaihdon prosesseista yms?
+    * kalenteri suljetuksi jo ma, koska asiakkaat valittivat, että olisi ollut vielä pari tuntia aikaa uusia lainoja.
+    * omien toimintojen arviointi, onko kaikelle edelleen tarvetta?
+    * Finna kertoi vain, että "väärä käyttäjätunnus tai salasana", mikä oli hämmentänyt asiakkaita. Yleensä kertonut, että taustajärjestelmään ei saa yhteyttä.
+    * tuotannossa tuli esille virheitä, joita ei ollut testeissä ilmaantunut tai huomattu -> kiinniolo jatkossa puoltoista päivää?
+    * redusoituun kantaan isompi setti tietueita, asiakkaita, lehtitilauksia. Osakohteita enemmän. Enemmän erilaisissa nidetiloissa olevia niteitä. Asiakastiedot: asiakkailta puuttui huollettavia ja varauksia -> helpompi, jos asiakkaan kaikki huollettavat, varaukset ja lainat otettaisiin mukaan.
 * Kaksvaiheinen kirjautuminen
 * Palataan takaisin normaaliin tikettien seurantaan ja päivitystahtiin.
   * Uudet tiketit Koha-repositorioon. (Muistakaa tehdä tiketit, ei töitä sähköpostin tai Matrixin kautta, ohi tiketöinnin)
@@ -30,8 +35,10 @@ Läsnä:
 * kehitysehdotukset [#555](https://github.com/KohaSuomi/Koha/issues/555) ja [#556](https://github.com/KohaSuomi/Koha/issues/556)
 * [Vanhentuneet noutamattomat varaukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Vanhentuneet-noutamattomat-varaukset) -raportti päivitetty käyttämään HOLDID-asiakasmäärettä.
 * Laitetaanko total issues -cronit pois päältä? Aiheuttaa nyt [ylimääräisiä valutuksia](https://github.com/KohaSuomi/Koha-22x/issues/190). [Redmine tiketti 1849](https://tiketti.koha-suomi.fi/issues/1849) liittyy myös aiheeseen.
+  * kokeillaan outissa, auttaisiko toistaiseksi pelkkä 942$0-kentän kytkennän katkaiseminen biblioitems-tauluun?
 * [Tiistain päivityksen tiedote](https://github.com/KohaSuomi/Koha/discussions/566)
 * [Tiketti 560](https://github.com/KohaSuomi/Koha/issues/560) - MARC-virheraporttien linkit Raporttien etusivulle
+* Lomien päivitys [yhteystiedot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot)
 
 ## Viikko 20 muistio
 
