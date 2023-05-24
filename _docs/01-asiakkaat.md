@@ -13,11 +13,10 @@ hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla.
 
 ## 1.1. Asiakkaan hakeminen
 
-Klikkaamalla linkkiä _Asiakkaat_ saat hakulaatikon, jossa voit selata tai
-hakea asiakkaiden tietoja. Haku toimii millä tahansa nimen osalla tai
-kortin numerolla.
+Klikkaamalla linkkiä _Asiakkaat_ saat hakusivun, jossa voit selata tai
+hakea asiakkaiden tietoja.
 
-![](/assets/files/docs/Asiakkaat/haeasiakkaita.png)
+![](/assets/files/docs/Asiakkaat/Asiakkaat_hakusivu.png)
 
 Klikkaamalla pientä plus-merkkiä \[+\] hakulaatikon oikealla puolella
 saat lisää hakuominaisuuksia käyttöösi. Täällä voit mm. rajata hakusi
