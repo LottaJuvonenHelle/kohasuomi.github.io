@@ -832,7 +832,7 @@ Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskutta
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
-<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:40.0%" />
+<img src="/assets/files/docs/Tyokalut/valitsepohja.png" title="Valitse pohja -valikko" alt="Valitse pohja -valikko" style="width:20.0%" />
 
 Valitse tulostettavat tarrat vasemmalta *Valitse lista* -alasvetovalikosta tai syöttämällä viivakoodit oikealle *Lue viivakoodit* -laatikkoon.
 
@@ -880,14 +880,6 @@ tai kauas ylempänä olevasta tarrasta).
 
 Ohje tarrapohjan muokkaajalle löytyy liitännäisen ohjesivulta:
 [Tarrapohjan muokkaaminen](https://github.com/KohaSuomi/koha-plugin-visual-label-tool#how-create-and-modify-labels)
-
----
-
-Koha-Suomella on käytössä yksi raporttiliitännäinen, jonka saa esille
-klikkaamalla _Katso liitännäisiä luokan mukaan_ -nappia tai menemällä
-Raportit-osioon.
-
-<img src="/assets/files/docs/Tyokalut/liitannaiset2.png" title="Kuvakaappaus, jossa näkyy raporttiliitännäisen tiedot" alt="Kuvakaappaus, jossa näkyy raporttiliitännäisen tiedot" style="width:90.0%" />
 
 ---
 
