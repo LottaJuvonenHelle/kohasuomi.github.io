@@ -22,6 +22,8 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+LASTU-kirjastot hyväksyttiin mukaan Koha-Suomeen. Käyttöönottoprojekti alkaa KIRKES-kirjastojen siirryttyä tuotantoon.
+
 ### 2. Versionvaihdon kokemukset
 
 ### 3. PowerBI-vertaistukiryhmän perustaminen
