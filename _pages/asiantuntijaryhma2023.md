@@ -32,7 +32,7 @@ Aloitetaan versionvaihdon valmistelu lähes heti nyt entisen valmistuttua. Pohja
 
 Ajankohta ja katkon pituus: Toukokuun alku 2024 suurimman osan mielestä hyvä seuraavalle versionvaihdolle. Katkon pituus: päivitystyön tekijöiden ja testaajien kannalta puolentoista päivän katkos on parempi vaihtoehto, koska tuotannossa tulee aina esille ongelmia, joita ei ole ilmaantunut testeissä. Koha-Suomen hallituksen kokouksessa oli keskusteltu lyhyemmästä katkosta ja että se voisi sijoittua yöaikaan. Pohdittiin myös, että yksi mahdollisuus on, että päätetyssä kiinniolon määräajassa saatetaan käyttöön vain asiakaspalvelun kannalta keskeiset palvelut ja loput ajan kanssa (esim. viikon sisään).
 
-Päätös: Keskustellaan kimpoissa katkon pituudesta ja ajankohdasta (viikolla, viikonloppuna, yöllä, päivällä) kesän aikana ja päätetään asia syksyn kokouksessa.
+**Päätös:** Keskustellaan kimpoissa katkon pituudesta ja ajankohdasta (viikolla, viikonloppuna, yöllä, päivällä) kesän aikana ja päätetään asia syksyn kokouksessa.
 
 ### 3. PowerBI-vertaistukiryhmän perustaminen
 
@@ -40,12 +40,12 @@ Päätös: Keskustellaan kimpoissa katkon pituudesta ja ajankohdasta (viikolla, 
 
 Ryhmän tehtävänä on selvittää PowerBI-raporttien jakamiseen liittyviä kysymyksiä sekä Kohan raporttien yhdenmukaistamista, jos se on tarpeen.
 
-Vaara: Päivi Knuutinen, Ari Moilanen, Tanja Nyman (Joensuu)
-Lappi: Pasi Rantanen (Rovaniemi)
-OUTI: Anne Ollanketo (Oulu)
-Helle: Mikko Heliölä (Sipoo)
-Vaski: Aki Pyykkö, Erja Metsälä, Mikko Liimatainen (Turku)
-Kyyti: Tuomas Kunttu (Kouvola)
+Vaara: Päivi Knuutinen, Ari Moilanen, Tanja Nyman (Joensuu)<br />
+Lappi: Pasi Rantanen (Rovaniemi)<br />
+OUTI: Anne Ollanketo (Oulu)<br />
+Helle: Mikko Heliölä (Sipoo)<br />
+Vaski: Aki Pyykkö, Erja Metsälä, Mikko Liimatainen (Turku)<br />
+Kyyti: Tuomas Kunttu (Kouvola)<br />
 Lumme: ilmoittaa myöhemmin
 
 Kokoonkutsujaksi valittiin Pasi Rantanen. Ryhmä voi miettiä ensimmäisessä kokoontumisessa järjestäytymisen tarkemmin.
@@ -54,13 +54,13 @@ Kokoonkutsujaksi valittiin Pasi Rantanen. Ryhmä voi miettiä ensimmäisessä ko
 
 Koha-Suomen hallitus valitsee uuden asiantuntijaryhmän elokuussa. Kimppojen ehdotukset jäseniksi:
 
-Vaara: päätös jäsenistä kesäkuussa
-Vaski: Susanna Sandell, Asko Autio varalla
-Lappi: Leena Kinnunen, Pia Kusmin varalla
-OUTI: Noora Valkonen, Piia Semenoff varalla
-Lumme: Hanna Ikonen, vara varmistuu myöhemmin
-Kyyti: Tuomas Kunttu, Roosa Väisänen varalla
-Helle: Katri Sillgren, Calle Lindroos varalla
+Vaara: päätös jäsenistä kesäkuussa<br />
+Vaski: Susanna Sandell, Asko Autio varalla<br />
+Lappi: Leena Kinnunen, Pia Kusmin varalla<br />
+OUTI: Noora Valkonen, Piia Semenoff varalla<br />
+Lumme: Hanna Ikonen, vara varmistuu myöhemmin<br />
+Kyyti: Tuomas Kunttu, Roosa Väisänen varalla<br />
+Helle: Katri Sillgren, Calle Lindroos varalla<br />
 Kirkes: Ari selvittää
 
 ### 5. Muut asiat
@@ -69,11 +69,11 @@ Kirkes: Ari selvittää
 
 Pääkäyttäjäryhmä toi asiantuntijaryhmän päätettäväksi, miten toimitaan varauksenteko sivun asiakashaun tulostaulukon piilotuksen kanssa. Tällä hetkellä varauksenteko-sivulla on piilotettu asiakashaun tulostaulukko, jotta sivulla ei pysty hakemaan kaikkia asiakastietoja ja ettei tule turhia asiakastietojen katseluja, jos haetaan asiakasta esimerkiksi vain sukunimellä. Taulukon piilotus on hidastanut asiakkaan hakemista tietyissä tilanteissa ja pääkäyttäjäryhmä pyytää linjausta, miten painotetaan haun sujuvuutta suhteessa asiakastietojen katseluun.
 
-Päätös piilotuksista: Otetaan pois nykyinen hakutulostaulukon piilotus ja piilotetaan taulukosta syntymäaika, osoite ja puhelinnumero. Näin haku toimii käyttäjän kannalta selkeästi, eikä tule tunnetta, että mitään ei tapahdu. Tällä hetkellä useamman hakutuloksen tuottava haku näyttää siltä kuin haku ei toimisi ollenkaan. Sarakkeiden piilotus ei toimi tällä hetkellä, joten se pitää ensin korjata ennen piilotuksen poistoa.
+**Päätös piilotuksista:** Otetaan pois nykyinen hakutulostaulukon piilotus ja piilotetaan taulukosta syntymäaika, osoite ja puhelinnumero. Näin haku toimii käyttäjän kannalta selkeästi, eikä tule tunnetta, että mitään ei tapahdu. Tällä hetkellä useamman hakutuloksen tuottava haku näyttää siltä kuin haku ei toimisi ollenkaan. Sarakkeiden piilotus ei toimi tällä hetkellä, joten se pitää ensin korjata ennen piilotuksen poistoa.
 
-Päätös asiakastietojen katselun vähentämisestä: Kirjastokorttia käytetään aina **ensisijaisesti** asiakastiedon hakemiseen lainauksessa, asiakastietojen käsittelyssä ja varausten teossa. 
+**Päätös asiakastietojen katselun vähentämisestä:** Kirjastokorttia käytetään aina **ensisijaisesti** asiakastiedon hakemiseen lainauksessa, asiakastietojen käsittelyssä ja varausten teossa. 
 
-Perusteet: 
+**Perusteet: **
 * Kirjastokortti on uniikki ja tuottaa aina vain yhden hakutuloksen.
 * Nimi ei välttämättä ole uniikki ja nimi/täysnimikaimoja voi olla paljonkin. Väärän asiakastiedon valinta on tässä tilanteessa hyvin mahdollista ja lainat, varaukset tai muutokse asiakastietoihin saatetaan tehdä väärälle henkilölle.
 * Kun haussa tulee vain yksi tulos, vähenevät turhat asiakastietojen katselut ja virhevalintojen mahdollisuus pienenee.
