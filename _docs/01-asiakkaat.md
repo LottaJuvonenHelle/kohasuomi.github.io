@@ -18,20 +18,21 @@ hakea asiakkaiden tietoja.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaat_hakusivu.png)
 
-Klikkaamalla pientä plus-merkkiä \[+\] hakulaatikon oikealla puolella
-saat lisää hakuominaisuuksia käyttöösi. Täällä voit mm. rajata hakusi
-kirjastoittain tai asiakaslajeittain.
+Klikkaamalla pientä linkki-merkkiä hakulaatikon oikealla puolella
+saat lisää hakuominaisuuksia käyttöösi. Alasvetovalikoista saat lisää hakuehtoja.
+Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
+Samat hakuominaisuudet aukeavat suoraan Asiakkaat-sivun vasempaan laitaan. 
 
 ![](/assets/files/docs/Asiakkaat/hae_asiakasta1.png)
 
-Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri
-tavoin.
+Huom. Laajan asiakashaun voi tehdä myös ilman siirtymistä Asiakkaat-sivulle, kun klikkaa yläosan palkissa 
+kohtaa Hae asiakkaita ja avaa kuvakkeesta hakukentät esille.
 
 ![](/assets/files/docs/Asiakkaat/hakukentät.png)
 
 \- Perushaku:  
-Anna asiakkaan nimi tai nimen osa, käyttäjätunnus tai kirjastokortin
-viivakoodi.
+Anna asiakkaan nimi tai nimen osa, käyttäjätunnus, kirjastokortin
+viivakoodi tai varaustunniste.
 
 \- Sukunimi:  
 Anna asiakkaan sukunimi tai sukunimen osa.
@@ -67,16 +68,13 @@ toisistaan pisteellä.
 \- Etunimi:
 Tee asiakashaku etunimellä tai kaikilla etunimillä.
 
-\- Varaustunnus:
-Anna asiakkaan varaustunniste.
-
 \- Matkapuhelin:
 Anna matkapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
 tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. haettaessa
 numeroa 0442676200 voit kirjoittaa sen juuri samalla tavalla tai
 muodossa 044 267 6200.
 
-Voit myös valita jokaisessa haussa hakutyypin alkaa tai sisältää.
+Voit valita jokaisessa haussa hakutyypin alkaa tai sisältää.
 Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono
 voi olla missä tahansa kohdassa hakukentässä.
 
