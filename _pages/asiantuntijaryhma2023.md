@@ -15,10 +15,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 5/23
+## Asiantuntijaryhmän muistio 5/23
 
 Aika: Ke 24.5.2023 klo 9<br />
-Läsnä:
+Läsnä:  Hanna Ikonen (Lumme), Noora Valkonen (OUTI), Päivi Knuutinen (Vaara), Tuomas Kunttu (Kyyti), Leena Kinnunen (Lappi), Susanna Sandell (Vaski),  Kati Silllgren (Helle), Ari Mäkiranta, Kodo Korkalo ja Anneli Österman (Koha-Suomi)
 
 ### 1. Arin ajankohtaiset
 
@@ -26,21 +26,65 @@ LASTU-kirjastot hyväksyttiin mukaan Koha-Suomeen. Käyttöönottoprojekti alkaa
 
 ### 2. Versionvaihdon kokemukset
 
+Keskusteltiin, miten versionvaihto meni ja miten kannattaa jatkossa toimia. [Pääkäyttäjäkokouksessa 23.5.2023 tehdyt huomiot](https://koha-suomi.fi/paakayttajat2023#viikko-21-muistio).
+
+Aloitetaan versionvaihdon valmistelu lähes heti nyt entisen valmistuttua. Pohjaksi otetaan yhteisön versio 23.05 ja katsotaan loppuvuodesta, pystytäänkö helposti siirtymään versioon 23.11. Jos se ei onnistu (esim. liikaa isoja muutoksia), pohjalla pidetään 23.05. Käydään myös läpi omat ominaisuudet, ovatko ne kaikki edelleen tarpeellisia. Brancheja (käytännössä muutoksia yhteisön versioon) ja omia liitännäisiä on reilusti yli 100 tällä hetkellä ja olemme edelleen turhan kaukana yhteisöversiosta.
+
+Ajankohta ja katkon pituus: Toukokuun alku 2024 suurimman osan mielestä hyvä seuraavalle versionvaihdolle. Katkon pituus: päivitystyön tekijöiden ja testaajien kannalta puolentoista päivän katkos on parempi vaihtoehto, koska tuotannossa tulee aina esille ongelmia, joita ei ole ilmaantunut testeissä. Koha-Suomen hallituksen kokouksessa oli keskusteltu lyhyemmästä katkosta ja että se voisi sijoittua yöaikaan. Pohdittiin myös, että yksi mahdollisuus on, että päätetyssä kiinniolon määräajassa saatetaan käyttöön vain asiakaspalvelun kannalta keskeiset palvelut ja loput ajan kanssa (esim. viikon sisään).
+
+Päätös: Keskustellaan kimpoissa katkon pituudesta ja ajankohdasta (viikolla, viikonloppuna, yöllä, päivällä) kesän aikana ja päätetään asia syksyn kokouksessa.
+
 ### 3. PowerBI-vertaistukiryhmän perustaminen
 
 24.4.2023 pidetystä PowerBI-webinaarista on tullut toive PowerBI-vertaistukiryhmän perustamisesta. Jäsenet valitaan kirjaston ehdotusten perusteella.
 
 Ryhmän tehtävänä on selvittää PowerBI-raporttien jakamiseen liittyviä kysymyksiä sekä Kohan raporttien yhdenmukaistamista, jos se on tarpeen.
 
+Vaara: Päivi Knuutinen, Ari Moilanen, Tanja Nyman (Joensuu)
+Lappi: Pasi Rantanen (Rovaniemi)
+OUTI: Anne Ollanketo (Oulu)
+Helle: Mikko Heliölä (Sipoo)
+Vaski: Aki Pyykkö, Erja Metsälä, Mikko Liimatainen (Turku)
+Kyyti: Tuomas Kunttu (Kouvola)
+Lumme: ilmoittaa myöhemmin
+
+Kokoonkutsujaksi valittiin Pasi Rantanen. Ryhmä voi miettiä ensimmäisessä kokoontumisessa järjestäytymisen tarkemmin.
+
 ### 4. Asiantuntijaryhmän kokoonpano
+
+Koha-Suomen hallitus valitsee uuden asiantuntijaryhmän elokuussa. Kimppojen ehdotukset jäseniksi:
+
+Vaara: päätös jäsenistä kesäkuussa
+Vaski: Susanna Sandell, Asko Autio varalla
+Lappi: Leena Kinnunen, Pia Kusmin varalla
+OUTI: Noora Valkonen, Piia Semenoff varalla
+Lumme: Hanna Ikonen, vara varmistuu myöhemmin
+Kyyti: Tuomas Kunttu, Roosa Väisänen varalla
+Helle: Katri Sillgren, Calle Lindroos varalla
+Kirkes: Ari selvittää
 
 ### 5. Muut asiat
 
-Varauksenteko-sivun asiakashaun piilotukset.
+#### 5.1 Varauksenteko-sivun asiakashaun piilotukset
+
+Pääkäyttäjäryhmä toi asiantuntijaryhmän päätettäväksi, miten toimitaan varauksenteko sivun asiakashaun tulostaulukon piilotuksen kanssa. Tällä hetkellä varauksenteko-sivulla on piilotettu asiakashaun tulostaulukko, jotta sivulla ei pysty hakemaan kaikkia asiakastietoja ja ettei tule turhia asiakastietojen katseluja, jos haetaan asiakasta esimerkiksi vain sukunimellä. Taulukon piilotus on hidastanut asiakkaan hakemista tietyissä tilanteissa ja pääkäyttäjäryhmä pyytää linjausta, miten painotetaan haun sujuvuutta suhteessa asiakastietojen katseluun.
+
+Päätös piilotuksista: Otetaan pois nykyinen hakutulostaulukon piilotus ja piilotetaan taulukosta syntymäaika, osoite ja puhelinnumero. Näin haku toimii käyttäjän kannalta selkeästi, eikä tule tunnetta, että mitään ei tapahdu. Tällä hetkellä useamman hakutuloksen tuottava haku näyttää siltä kuin haku ei toimisi ollenkaan. Sarakkeiden piilotus ei toimi tällä hetkellä, joten se pitää ensin korjata ennen piilotuksen poistoa.
+
+Päätös asiakastietojen katselun vähentämisestä: Kirjastokorttia käytetään aina **ensisijaisesti** asiakastiedon hakemiseen lainauksessa, asiakastietojen käsittelyssä ja varausten teossa. 
+
+Perusteet: 
+* Kirjastokortti on uniikki ja tuottaa aina vain yhden hakutuloksen.
+* Nimi ei välttämättä ole uniikki ja nimi/täysnimikaimoja voi olla paljonkin. Väärän asiakastiedon valinta on tässä tilanteessa hyvin mahdollista ja lainat, varaukset tai muutokse asiakastietoihin saatetaan tehdä väärälle henkilölle.
+* Kun haussa tulee vain yksi tulos, vähenevät turhat asiakastietojen katselut ja virhevalintojen mahdollisuus pienenee.
+
+#### 5.2 KohaCon23
+
+KohaCon23-ohjelma ei vielä varmistunut. Arilla on palaveri Kansalliskirjaston kanssa torstaina 25.5.2023 ja hän tiedottaa asiasta sen jälkeen.
 
 ### 6. Seuraava kokous
 
-
+Seuraava kokous kutsutaan koolle, kun hallitus on vahvistanut ryhmän jäsenet.
 
 ## Asiantuntijaryhmän muistio 4/23
 
