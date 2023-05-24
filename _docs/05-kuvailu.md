@@ -343,7 +343,7 @@ tiedot olisi hyvä täyttää, jotta niteitä voisi lainata:
 - o - Kohan koko signum
 - p - Viivakoodi
 - v - Korvaushinta  
-  &gt;\*Tämä summa peritään asiakkaalta, kun nide merkitään
+  *Tämä summa peritään asiakkaalta, kun nide merkitään
   kadonneeksi asiakkaalta
 - y - Kohan aineistolaji
 
