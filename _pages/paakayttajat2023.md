@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21 muistio
 
 Aika: 23.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski), Hanna Ikonen ja Katja Valjakka (Lumme)
 
 **Yhteiset**
 * Miten menee versionvaihdon jälkeen?
