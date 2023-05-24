@@ -20,6 +20,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * Lapin realign /Emmi
+* Asiantuntijaryhmässä päätetty purkaa varauksenteko-sivun taulukon piilotus. Jotta se voidaan tehdä, mitää tiketin [Varauksenteko-sivulla ei toimi asiakastaulukon sarakkeiden piilotus](https://github.com/KohaSuomi/Koha/issues/571) ongelma ensin korjata. Vastuutus.
+* Päivystysvuorot viikosta 23 eteenpäin.
+* [Lomat githubin yhteystiedot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot)
+* Vkon 23 päivitys
+  * Käännöskorjauksia: [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
 
 ### Maanantai 22.5.2023 klo 10
 
