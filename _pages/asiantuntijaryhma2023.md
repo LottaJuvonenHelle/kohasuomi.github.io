@@ -73,7 +73,7 @@ Pääkäyttäjäryhmä toi asiantuntijaryhmän päätettäväksi, miten toimitaa
 
 **Päätös asiakastietojen katselun vähentämisestä:** Kirjastokorttia käytetään aina **ensisijaisesti** asiakastiedon hakemiseen lainauksessa, asiakastietojen käsittelyssä ja varausten teossa. 
 
-**Perusteet: **
+**Perusteet:**
 * Kirjastokortti on uniikki ja tuottaa aina vain yhden hakutuloksen.
 * Nimi ei välttämättä ole uniikki ja nimi/täysnimikaimoja voi olla paljonkin. Väärän asiakastiedon valinta on tässä tilanteessa hyvin mahdollista ja lainat, varaukset tai muutokse asiakastietoihin saatetaan tehdä väärälle henkilölle.
 * Kun haussa tulee vain yksi tulos, vähenevät turhat asiakastietojen katselut ja virhevalintojen mahdollisuus pienenee.
