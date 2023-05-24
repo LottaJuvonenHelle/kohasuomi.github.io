@@ -13,22 +13,21 @@ hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla.
 
 ## 1.1. Asiakkaan hakeminen
 
-Klikkaamalla Yläpalkin linkkiä _Asiakkaat_ saat hakusivun, jossa voit selata tai
+Klikkaamalla yläpalkin linkkiä _Asiakkaat_ saat hakusivun, jossa voit selata tai
 hakea asiakkaiden tietoja.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaat_hakusivu.png)
 
-Klikkaamalla pientä valikko-kuvaketta hakulaatikon oikealla puolella
-saat lisää hakuominaisuuksia käyttöösi. Alasvetovalikoista saat lisää hakuehtoja.
-Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
-Samat hakuominaisuudet aukeavat suoraan Asiakkaat-sivun vasempaan laitaan. 
+Huom. Laajan asiakashaun voit tehdä myös ilman siirtymistä Asiakkaat-sivulle, kun klikkaat yläosan palkissa 
+kohtaa Hae asiakkaita ja avaat valikko-kuvakkeesta hakukentät esille.
 
 ![](/assets/files/docs/Asiakkaat/hae_asiakasta1.png)
 
-Huom. Laajan asiakashaun voi tehdä myös ilman siirtymistä Asiakkaat-sivulle, kun klikkaa yläosan palkissa 
-kohtaa Hae asiakkaita ja avaa valikko-kuvakkeesta hakukentät esille.
+Klikkaamalla pientä valikko-kuvaketta hakulaatikon oikealla puolella
+saat lisää hakuominaisuuksia käyttöösi. Alasvetovalikoista saat lisää hakuehtoja.
+Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
 
-![](/assets/files/docs/Asiakkaat/hakukentät.png)
+Samat hakuominaisuudet aukeavat myös Asiakkaat-sivun vasempaan laitaan. 
 
 \- Perushaku:  
 Anna asiakkaan nimi tai nimen osa, käyttäjätunnus, kirjastokortin
