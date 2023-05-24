@@ -22,7 +22,7 @@ Klikkaamalla pientä plus-merkkiä \[+\] hakulaatikon oikealla puolella
 saat lisää hakuominaisuuksia käyttöösi. Täällä voit mm. rajata hakusi
 kirjastoittain tai asiakaslajeittain.
 
-![](/assets/files/docs/Asiakkaat/plushaku.png)
+![](/assets/files/docs/Asiakkaat/hae_asiakasta1.png)
 
 Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri
 tavoin.
