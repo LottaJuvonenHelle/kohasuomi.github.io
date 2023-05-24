@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 21 muistio
 
 Aika: 23.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * Miten menee versionvaihdon jälkeen?
@@ -44,6 +44,9 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi), Päi
 
 **Vaara**
 * Vaarassa kaivataan takaisin nappulaa kuljetuksen peruuttamiseen palautustilanteessa. Koitetaan säätää kohdilleen.
+
+**Kyyti**
+* Kotkassa ja Iitissä ollut ongelmia kellutuksessa: niteitä menee tarpeettomasti kuljetustilaan. Kotka selvittää asiaa.
 
 ## Viikko 20 muistio
 
