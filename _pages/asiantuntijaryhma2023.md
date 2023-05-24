@@ -36,6 +36,8 @@ Ryhmän tehtävänä on selvittää PowerBI-raporttien jakamiseen liittyviä kys
 
 ### 5. Muut asiat
 
+Varauksenteko-sivun asiakashaun piilotukset.
+
 ### 6. Seuraava kokous
 
 
