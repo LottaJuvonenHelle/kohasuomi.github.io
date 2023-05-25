@@ -217,17 +217,16 @@ Syötä _Yhteystiedot_-osiossa asiakkaan puhelinnumero (lankapuhelinnumero _Lank
 _Matkapuhelin_-kenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
 asiakas haluaa varausilmoitukset tekstiviestinä. Sähköpostiosoite on se osoite, johon asiakasviestit lähtevät.
 
-Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. Kaikissa kimpoissa tätä valintaa 
-ei välttämättä ole otettu käyttöön. 
-
-![](/assets/files/docs/Asiakkaat/Yhteystiedot1.png)
-
 Huom! Puhelinnumero-kenttiin ei saa kirjoittaa muuta kuin
 puhelinnumeron. Ei esim. perään äiti, isä yms. eikä väliviivaa.
 Kansainvälisen suunnan (esim. +358) puhelinnumeron yhteyteen voi lisätä.
 
-Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite. Huom! Tässä on
-kimppakohtaisia eroja.
+
+Asiakas voi halutessaan valita ensisijaisen yhteydenottotavan kirjaston henkilökunnan yhteydenottoja varten. 
+Asiakkaalle voidaan tallentaa myös vaihtoehtoinen osoite. Kaikissa kimpoissa näitä vaihtoehtoja ei 
+välttämättä ole otettu käyttöön.
+
+![](/assets/files/docs/Asiakkaat/Yhteystiedot1.png)
 
 ![](/assets/files/docs/Asiakkaat/Vaihtoehtoinenosoite.png)
 
