@@ -136,11 +136,9 @@ Nidehaku on _Haku_-valikossa.
 
 Nidehaku palauttaa tuloksena listan hakuehdot täyttävistä niteistä. Haun muotoilu vastaa pääosin tarkkaa hakua.
 
-Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Käytä hauissa aina valintalistan alaosan räätälöityjä hakukenttiä
+Haun voi kohdistaa esimerkiksi niteiden viivakoodeihin, luokkiin, nimekkeisiin ja tekijöihin. Käytä hauissa aina valintalistan alaosan räätälöityjä hakukenttiä. Muista kentistä ainoastaan ISBN ja ISSN toimivat luotettavasti.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku19_1_hakukentat.png)
-
-Muista kentistä ainoastaan ISBN ja ISSN toimivat luotettavasti.
 
 Hakusanoja voi yhdistää operaattoreilla JA ja TAI. _Uusi kenttä_ lisää uuden hakukentän. 
 
@@ -148,7 +146,7 @@ Alla esimerkissä on lisätty uusi hakukenttä, asetettu molemmat hakusanat vaad
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku20_nidehaun_tekstihaku.png)
 
-Nidehaussa hakusanoja ei katkaista automaattisesti, joten ne kannattaa aina katkaista %-merkeillä. Esimerkiksi tekijä-haku _jansson, tove_ ei palauta  osumia, koska MARC-kentästä haettu tekijätieto päättyy pisteeseen tai pilkkuun. Haku _%jansson, tove%_ toimii oikein. Katkaisun lisäksi hakusanat on kirjoitettava aina tarkasti oikein. Esimerkiksi haku *%tove jansson*% ei palauta mitään, koska tekijätieto on muodossa _Jansson, Tove_. Yksittäisen merkin voi korvata merkillä \_ (alaviiva).
+Nidehaussa hakusanoja ei katkaista automaattisesti, joten ne kannattaa aina katkaista %-merkeillä. Esimerkiksi tekijä-haku _jansson, tove_ ei palauta  osumia, koska MARC-kentästä haettu tekijätieto päättyy pisteeseen tai pilkkuun. Haku _jansson, tove%_ toimii oikein. Katkaisun lisäksi hakusanat on kirjoitettava aina tarkasti oikein. Esimerkiksi haku *%tove jansson*% ei palauta mitään, koska tekijätieto on muodossa _Jansson, Tove_. Yksittäisen merkin voi korvata merkillä \_ (alaviiva).
 
 Hakua voi rajata myös sivun yläosan valintalistoilta. Valintalistoilla voi valita useita arvoja tekemällä valinnat CTRL-näppäin pohjassa. Ylimmän tyhjän arvon valinta ohittaa ehdon. Jos haluat rajata hakutuloksesta pois ehtoja, valitse valintalistalta _ei ole_, joka vastaa NOT-operaattoria.
 
@@ -162,7 +160,7 @@ Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedo
 
 palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka (084$a)”.
 
-_Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki alle 10 kertaa lainatut niteet, jotka on lainattu 15.10.2022. 
+_Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki alle 10 kertaa lainatut niteet, jotka on lainattu 25.05.2023. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku27_nidehaun_lainarajat.png)
 
 Kun olet valinnut ehdot, voit hakea napauttamalla _Haku_-painiketta. 
@@ -176,7 +174,8 @@ Voit tarkentaa hakua sarakkeiden ylälaidassa olevilla rajauskentillä:
 
 ### Tulosten vienti CSV- tai -viivakooditiedostoksi
 
-Tulokset voi halutessaan viedä ohjelmasta CSV- tai -viivakooditiedostona jatkokäyttöä varten ylälaidan painikkeilla. 
+Tulokset voi halutessaan viedä ohjelmasta CSV- tai -viivakooditiedostona jatkokäyttöä varten ylälaidan painikkeilla.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku25_nidehaku_tulosten_painikkeet.png)
 
 Hakua pääsee muokkaamaan painamalla _Muokkaa hakua_-painiketta.
