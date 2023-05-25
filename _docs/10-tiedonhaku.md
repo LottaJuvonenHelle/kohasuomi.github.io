@@ -63,7 +63,7 @@ Voit kohdistaa haun tiettyihin kenttiin kirjoittamalla hakusanojen eteen etuliit
   esim. ccode:lyla
 
 [Lista etuliitteistä ja tarkemmat ohjeet etuliitteiden
-käyttämiseen](https://koha-community.org/manual/21.11/en/html/searching.html#indexes) (englanniksi). 
+käyttämiseen](https://koha-community.org/manual/22.11/en/html/searching.html#indexes) (englanniksi). 
 
 ## 10.3. Tarkka haku
 
@@ -75,10 +75,20 @@ Tarkka haku aukeaa napauttamalla Haku-painiketta ylälaidan valikossa.
 Voit hakea kirjoittamalla hakusanat hakukenttiin ja valitsemalla alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Lisää hakuehtoja voit lisätä \[+\]-painikkeella.  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku5_tarkan_haun_hakulauseet.png)
 
-Luokkarajaus on valikossa Standardinumero-kohdan alla:  
+Luokkarajaus on valikossa _Standardinumero_-kohdan alla:  
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku7_luokkarajaus.png)
 
-Voit valita hakutulosten järjestyksen _Järjestä_-valikosta. Oletuksena tulokset järjestetään julkaisuvuoden perusteella uusimmasta vanhimpaan. Muita vaihtoehtoja ovat esimerkiksi tekijä, nimeke ja suosio (lainamäärä).
+Rajoitukset-osiossa voi hakea julkaisuvuosien mukaan seuraavasti:
+* 2005		julkaisuvuosi on 2005
+* 2005-2010	julkaisuvuosi on välillä 2005-2010 (sisältäen 2005 ja 2010)
+* -2010		julkaisuvuosi on 2010 tai vanhempi
+* <2010 	julkaisuvuosi on pienempi kuin 2010
+* 2005- 	julkaisuvuosi on 2005 tai uudempi
+* >2005 	julkaisuvuosi on suurempi kuin 2005
+* 
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_vuosirajaus.png)
+
+Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Oletuksena tulokset järjestetään julkaisuvuoden perusteella uusimmasta vanhimpaan. Muita vaihtoehtoja ovat esimerkiksi tekijä, nimeke ja suosio (lainamäärä).
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
