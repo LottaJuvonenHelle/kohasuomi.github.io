@@ -9,7 +9,7 @@ toc: true
 # 10. Tiedonhaku
 ## 10.1. Perushaku
 
-Kun haluat hakea Kohasta, napauta _Hae tietokannasta-linkkiä_, kirjoita hakusanat ja paina Enter. Haun voi käynnistää myös valkeaa nuolta klikkaamalla.
+Kun haluat hakea Kohasta, napauta _Hae tietokannasta_-linkkiä, kirjoita hakusanat ja paina Enter. Haun voi käynnistää myös valkeaa nuolta klikkaamalla.
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku1_haun_suorittaminen.png)
 
@@ -25,27 +25,9 @@ Hakuindeksirajauksissa voi valita mihin kenttään haku kohdistuu. Kirjastorajau
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku1_haun_rajaus.png)
 
+## 10.2. Hakusanojen etuliitteet
 
-## 10.2. Tarkka haku
-
-Tarkassa haussa voit määrittää haun perushakua täsmällisemmin. 
-
-Tarkka haku aukeaa napauttamalla Haku-painiketta ylälaidan valikossa. 
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku4_tarkka_haku.png)
-
-Voit hakea kirjoittamalla hakusanat hakukenttiin ja valitsemalla alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Lisää hakuehtoja voit lisätä \[+\]-painikkeella.  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku5_tarkan_haun_hakulauseet.png)
-
-Luokkarajaus on valikossa Standardinumero-kohdan alla:  
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku7_luokkarajaus.png)
-
-Voit valita hakutulosten järjestyksen _Järjestä_-valikosta. Oletuksena tulokset järjestetään julkaisuvuoden perusteella uusimmasta vanhimpaan. Muita vaihtoehtoja ovat esimerkiksi tekijä, nimeke ja suosio (lainamäärä).
-
-![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
-
-## 10.3. Hakusanojen etuliitteet
-
-Voit rajata hakutulosta kirjoittamalla hakusanojen eteen etuliitteitä:
+Voit kohdistaa haun tiettyihin kenttiin kirjoittamalla hakusanojen eteen etuliitteitä:
 
 - ti: nimeke  
   esim. ti:kuparisydän
@@ -82,6 +64,23 @@ Voit rajata hakutulosta kirjoittamalla hakusanojen eteen etuliitteitä:
 
 [Lista etuliitteistä ja tarkemmat ohjeet etuliitteiden
 käyttämiseen](https://koha-community.org/manual/21.11/en/html/searching.html#indexes) (englanniksi). 
+
+## 10.3. Tarkka haku
+
+Tarkassa haussa voit määrittää haun perushakua täsmällisemmin. 
+
+Tarkka haku aukeaa napauttamalla Haku-painiketta ylälaidan valikossa. 
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku4_tarkka_haku.png)
+
+Voit hakea kirjoittamalla hakusanat hakukenttiin ja valitsemalla alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Lisää hakuehtoja voit lisätä \[+\]-painikkeella.  
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku5_tarkan_haun_hakulauseet.png)
+
+Luokkarajaus on valikossa Standardinumero-kohdan alla:  
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku7_luokkarajaus.png)
+
+Voit valita hakutulosten järjestyksen _Järjestä_-valikosta. Oletuksena tulokset järjestetään julkaisuvuoden perusteella uusimmasta vanhimpaan. Muita vaihtoehtoja ovat esimerkiksi tekijä, nimeke ja suosio (lainamäärä).
+
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
 ## 10.4. Hakutuloksen rajaaminen faseteilla
 
