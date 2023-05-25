@@ -65,7 +65,7 @@ Voit kohdistaa haun tiettyihin kenttiin kirjoittamalla hakusanojen eteen etuliit
 [Lista etuliitteistä ja tarkemmat ohjeet etuliitteiden
 käyttämiseen](https://koha-community.org/manual/22.11/en/html/searching.html#indexes) (englanniksi). 
 
-## 10.3. Tarkka haku
+## 10.2. Tarkka haku
 
 Tarkassa haussa voit määrittää haun perushakua täsmällisemmin. 
 
@@ -95,7 +95,7 @@ Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Oletuksena tuloks
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
-## 10.4. Hakutuloksen rajaaminen faseteilla
+## 10.3. Hakutuloksen rajaaminen faseteilla
 
 Hakutulosta voi rajata hakutuloslistan vasemman reunan faseteilla. Fasettien sisältö riippuu hakutuloksesta.
 
@@ -108,7 +108,7 @@ voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla
 Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne.png)
 
-## 10.5. Hakuhistoria
+## 10.4. Hakuhistoria
 
 Tehtyjä hakuja voi tarkastella ja suorittaa uudelleen hakuhistoria-toiminnolla. Hakuhistoria on oikean yläkulman alasvetovalikossa. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku18_hakuhistoria_valikko.png)
@@ -121,7 +121,7 @@ Historian voi poistaa valitsemalla poistettavat haut ja klikkaamalla _Poista_.
 **Huom.** Jos hakuhistoriaa ei itse poista, se säilyy Kohassa 1 kk ajan. Koha-Suomen [säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/#hakuhistoria).
 {: .notice--warning}
 
-## 10.6. Nidehaku
+## 10.5. Nidehaku
 
 Nidehaulla voit esimerkiksi:
 
@@ -180,7 +180,7 @@ Tulokset voi halutessaan viedä ohjelmasta CSV- tai -viivakooditiedostona jatkok
 
 Hakua pääsee muokkaamaan painamalla _Muokkaa hakua_-painiketta.
 
-## 10.7 Teostiedot
+## 10.6. Teostiedot
 
 Yksittäisen teoksen tietoihin pääsee monta reittiä, esimerkiksi asiakkaan lainojen kautta tai tiedonhaun tuloksista. Teoksen Perustiedot-näytöllä näkee yleisimmin tarvittavat tiedot. Eri otsikot tulevat näkyville vain, jos teokselle on tallennettu kyseinen tieto.
 
@@ -195,7 +195,7 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 - Lainahistoria
 - Muutosloki (vaatii erillisen käyttäjäoikeuden)
 
-### Kuvailutiedot
+### 10.6.1. Kuvailutiedot
 
 ![](/assets/files/docs/Tiedonhaku/tietue1.png)
 
@@ -219,7 +219,7 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 - musiikkiaineistolla ja erilaisilla artikkelikokoelmilla useimmiten
   linkit osakohteisiin ja tieto osakohteiden määrästä
 
-### MARC-, Otsikoitu MARC ja ISBD-välilehdet
+### 10.6.2. MARC-, Otsikoitu MARC ja ISBD-välilehdet
 
 MARC  
 ![](/assets/files/docs/Tiedonhaku/tietue5.png)  
@@ -228,7 +228,7 @@ Otsikoitu MARC
 ISBD  
 ![](/assets/files/docs/Tiedonhaku/tietue10.png)
 
-### Nidetiedot ja niiden suodattaminen
+## 10.7. Nidetiedot ja niiden suodattaminen
 
 Teoksen kuvailutietojen alla on tiedot siihen liittyvistä niteistä ja
 niiden saatavuudesta. Näkyvillä olevia niteitä voi myös suodattaa
@@ -272,7 +272,7 @@ Voit suodattaa näkyville esim.
     täsmää hakuun.
 - tietyllä huomautuksella olevan niteen
 
-### Niteet-välilehti
+## 10.8. Niteet-välilehti
 
 Vasemman reunan niteet-välilehdellä näkee tarkempia historiatietoja
 niteistä. Sinne pääsee myös klikkaamalla yksittäisen niteen viivakoodia
@@ -301,7 +301,7 @@ Historia-tiedoista näkee
 - näkee ja voi asettaa yleisen huomautuksen tai viesti virkailijalle
   -huomautuksen
 
-### Hankintatiedot
+## 10.9. Hankintatiedot
 
 Hankintatiedot-välilehdeltä näkee mm., miltä toimittajilta teosta on
 tilattu, milloin ja kuinka monta kappaletta. Jos on tarvittavat
@@ -309,7 +309,7 @@ käyttäjäoikeudet, niin välilehden linkeistä pääsee toimittajatietoihin
 ja tilauskoreihin.  
 ![](/assets/files/docs/Tiedonhaku/tietue3.png)
 
-### Teoksen ja niteen lainahistoria
+## 10.10. Teoksen ja niteen lainahistoria
 
 Teoksen kaikkien niteiden lainahistoriaan pääsee vasemman reunan
 Lainahistoria-linkistä. Myös yksittäisen niteen lainahistoriaa pystyy
@@ -331,3 +331,4 @@ nide on kirjastosta lainattu sekä viimeisin havaintopäivä.
 lainattu, tieto ei kirjaudu tälle näytölle. Eli tällä näytöllä näkyy
 vain lainaava kirjasto ja viimeisin havaintopäivä kirjautuu lainanneelle
 kirjastolle, vaikka palautus on tapahtunut toisessa kirjastossa.
+{: .notice--warning}
