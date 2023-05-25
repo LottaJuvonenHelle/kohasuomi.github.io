@@ -85,9 +85,9 @@ Rajoitukset-osiossa voi hakea julkaisuvuosien mukaan seuraavasti:
 * 2005		julkaisuvuosi on 2005
 * 2005-2010	julkaisuvuosi on välillä 2005-2010 (sisältäen 2005 ja 2010)
 * -2010		julkaisuvuosi on 2010 tai vanhempi
-* <2010 	julkaisuvuosi on pienempi kuin 2010
+* \<2010 	julkaisuvuosi on pienempi kuin 2010
 * 2005- 	julkaisuvuosi on 2005 tai uudempi
-* >2005 	julkaisuvuosi on suurempi kuin 2005
+* \>2005 	julkaisuvuosi on suurempi kuin 2005
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_vuosirajaus.png)
 
