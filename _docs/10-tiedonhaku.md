@@ -69,13 +69,16 @@ käyttämiseen](https://koha-community.org/manual/22.11/en/html/searching.html#i
 
 Tarkassa haussa voit määrittää haun perushakua täsmällisemmin. 
 
-Tarkka haku aukeaa napauttamalla Haku-painiketta ylälaidan valikossa. 
+Tarkka haku aukeaa napauttamalla _Haku_-painikkeen viereistä nuolta ja valitsemalla _Tarkka haku_ ylälaidan valikossa.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku4_tarkka_haku.png)
 
-Voit hakea kirjoittamalla hakusanat hakukenttiin ja valitsemalla alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Lisää hakuehtoja voit lisätä \[+\]-painikkeella.  
+Voit hakea kirjoittamalla hakusanat hakukenttiin ja valitsemalla alasvetovalikoista hakusanojen kohteet. Voit määrittää hakusanojen rajaavuuden valitsemalla niille alasvetovalikosta operaattorin _ja, tai, ei_. Lisää hakuehtoja voit lisätä \[+\]-painikkeella.
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku5_tarkan_haun_hakulauseet.png)
 
-Luokkarajaus on valikossa _Standardinumero_-kohdan alla:  
+Luokkarajaus on valikossa _Standardinumero_-kohdan alla:
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku7_luokkarajaus.png)
 
 Rajoitukset-osiossa voi hakea julkaisuvuosien mukaan seuraavasti:
