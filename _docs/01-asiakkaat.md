@@ -120,9 +120,9 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus.
 
 ![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
 
-Sotu-avain siirtyy automaattisesti kenttään nimeltä
+Sotu-avain siirtyy automaattisesti kirjoitussuojattuun kenttään nimeltä
 Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
-(kentän nimi voi vaihdella kimpan mukaan).
+(kentän nimi voi vaihdella kimpan mukaan). 
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain.png)
 
@@ -185,7 +185,8 @@ Valitse alasvetovalikosta takaajan suhde asiakkaaseen Huom. alasvetovalikon vaih
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
 
 Tallennuksen jälkeen huoltajan tiedoista näkyy hänen koko nimensä sekä kirjastokortin numero. Voit 
-tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot.
+tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot. Ensimmäisenä lisätylle takaajalle
+järjestelmä lähettää huollettavan mahdolliset laskut ja huomautukset.
 
 ![](/assets/files/docs/Asiakkaat/Takaajat.png)
 
