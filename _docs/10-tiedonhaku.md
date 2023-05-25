@@ -105,6 +105,9 @@ Hakuhistoriassa haut on jaettu kuluvan istunnon aikana ja aiemmissa istunnoissa 
 
 Historian voi poistaa valitsemalla poistettavat haut ja klikkaamalla _Poista_.
 
+**Huom.** Jos hakuhistoriaa ei itse poista, se säilyy Kohassa 1 kk ajan. Koha-Suomen [säilytysajat](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/#hakuhistoria).
+{: .notice--warning}
+
 ## 10.6. Nidehaku
 
 Nidehaulla voit esimerkiksi:
