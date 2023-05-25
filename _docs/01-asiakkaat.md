@@ -129,14 +129,14 @@ Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
 ![](/assets/files/docs/Asiakkaat/Tarkistahetu.png)
 
 Jos syötetty henkilötunnus on jo sotu-siilossa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
-henkilötunnuksen sotu-avaimella asiakastietoja. 
+henkilötunnuksen sotu-avaimella asiakastietoja.
 
-Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
+\- Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
 tallentamista käyttäen sotu-siilon antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
-Jos asiakastiedot löytyvät, niin käyttäjälle tulee ilmoitus "Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin." 
+\- Jos asiakastiedot löytyvät, niin käyttäjälle tulee ilmoitus "Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin." 
 Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita tarvittaessa muokataan.
 
 ![](/assets/files/docs/Asiakkaat/Sotu3.png)
