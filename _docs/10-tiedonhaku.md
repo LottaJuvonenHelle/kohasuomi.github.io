@@ -25,7 +25,7 @@ Hakuindeksirajauksissa voi valita mihin kenttään haku kohdistuu. Kirjastorajau
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku1_haun_rajaus.png)
 
-## 10.2. Hakusanojen etuliitteet
+### 10.1.1. Hakusanojen etuliitteet
 
 Voit kohdistaa haun tiettyihin kenttiin kirjoittamalla hakusanojen eteen etuliitteitä:
 
