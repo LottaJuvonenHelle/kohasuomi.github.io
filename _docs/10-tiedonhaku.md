@@ -91,7 +91,7 @@ Rajoitukset-osiossa voi hakea julkaisuvuosien mukaan seuraavasti:
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_vuosirajaus.png)
 
-Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Oletuksena tulokset järjestetään julkaisuvuoden perusteella uusimmasta vanhimpaan. Muita vaihtoehtoja ovat esimerkiksi tekijä, nimeke ja suosio (lainamäärä).
+Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Oletuksena tulokset järjestetään osuvuuden mukaan. Muita vaihtoehtoja ovat esimerkiksi julkaisuvuosi, tekijä, nimeke ja suosio (lainamäärä).
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
