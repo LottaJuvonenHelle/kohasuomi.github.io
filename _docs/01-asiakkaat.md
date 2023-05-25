@@ -98,10 +98,10 @@ Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset asiakkaan tyypin.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas3.png)
 
-### 1.2.1. Henkilötunnus ja sotu-siilo
+### 1.2.1. Henkilötunnus ja Sotuteekki
 
-Kohaan on tehty Suomessa ominaisuus, sotu-siilo, jonne tallennetaan
-tietoturvallisesti asiakkaiden henkilötunnukset. Sotu-siilo on yhteinen kaikille kimpoille.
+Kohaan on tehty Suomessa ominaisuus, Sotuteekki, jonne tallennetaan
+tietoturvallisesti asiakkaiden henkilötunnukset. Sotuteekki on yhteinen kaikille Koha-kimpoille.
 
 Oheisissa ruutukaappauksissa käytetty sotu on tehty
 henkilötunnusgeneraattorin avulla, se ei ole kenenkään henkilön oikea
@@ -113,13 +113,13 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus.
 
 ![](/assets/files/docs/Asiakkaat/Lisaahetu.png)
 
-Jos henkilötunnusta ei ole ennestään sotu-siilossa, siitä tulee ilmoitus
+Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
 "Hetu tallennettu!".
 
 ![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
 
-Sotu-avain siirtyy automaattisesti kenttään 
-Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain
+Sotu-avain siirtyy automaattisesti kenttään nimeltä
+Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
 (kentän nimi voi vaihdella kimpan mukaan).
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain.png)
@@ -128,11 +128,11 @@ Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
 
 ![](/assets/files/docs/Asiakkaat/Tarkistahetu.png)
 
-Jos syötetty henkilötunnus on jo sotu-siilossa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
+Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
 henkilötunnuksen sotu-avaimella asiakastietoja.
 
 \- Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
-tallentamista käyttäen sotu-siilon antamaa sotu-avainta.
+tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
@@ -142,12 +142,12 @@ Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita
 ![](/assets/files/docs/Asiakkaat/Sotu3.png)
 
 
-#### 1.2.1.1. Sotu-siilon käyttöliittymä
+#### 1.2.1.1. Sotuteekki
 
-Sotu-siiloon on olemassa myös toinen käyttöliittymä, jonka kautta
-esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
+Sotuteekissa esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
 sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
-Sotuteekistä tarkemmin Kohan ohje suomeksi kohdassa [12.16.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12163-sotuteekki)
+Sotuteekistä tarkemmin Kohan ohje suomeksi kohdassa
+[12.16.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12163-sotuteekki)
 
 ---
 
