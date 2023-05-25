@@ -118,8 +118,8 @@ Jos henkilötunnusta ei ole ennestään sotu-siilossa, siitä tulee ilmoitus
 
 ![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
 
-Sotu-avain siirtyy automaattisesti asiakastietoihin _Muut määritteet ja
-tunnukset_ -kohtaan kenttään Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain
+Sotu-avain siirtyy automaattisesti kenttään 
+Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain
 (kentän nimi voi vaihdella kimpan mukaan).
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain.png)
