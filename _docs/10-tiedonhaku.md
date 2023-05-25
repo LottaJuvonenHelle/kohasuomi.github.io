@@ -157,7 +157,9 @@ Valitaan esimerkiksi Kotkan pääkirjaston lasten ja nuorten osaston niteet.
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku21_nidehaun_rajaukset.png)
 
 Sivun alalaidassa on vielä rajaus luokkavälillä, niteen tilalla ja lainatiedoilla. Luokkavälillä rajaaminen toimii epäloogisesti. Haku palauttaa vain luokkarajauksen ylärajaa pienemmät tulokset. Esimerkiksi haku 
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku22_nidehaku_luokkahaku.png) 
+
 palauttaa luokkien 84.2-84.5 teokset. Haku luokasta 91 luokkaan 92 palauttaisi puolestaan vain 91-alkuisten luokkien niteet. Luokalla rajaaminen onnistuu helpommin käyttämällä räätälöityä kenttää “Luokka (084$a)”.
 
 _Lainauksien määrä_ -valinnalla voit hakea niteitä lainamäärän perusteella. Lainauspäivämäärästä rajataan tuloksia niteen lainojen ajankohdan perusteella. Alla on haettu kaikki alle 10 kertaa lainatut niteet, jotka on lainattu 15.10.2022. 
