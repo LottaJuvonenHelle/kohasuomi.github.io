@@ -115,7 +115,7 @@ Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus.
 ![](/assets/files/docs/Asiakkaat/Lisaahetu.png)
 
 
-\1. Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
+\- Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
 "Hetu tallennettu!".
 
 ![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
@@ -126,20 +126,20 @@ Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain.png)
 
-\2. Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
+\- Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
 henkilötunnuksen sotu-avaimella asiakastietoja.
 
-\- Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
+Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
 tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
 
-\- Jos asiakastiedot löytyvät, niin käyttäjälle tulee ilmoitus "Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin." 
+Jos asiakastiedot löytyvät, niin käyttäjälle tulee ilmoitus "Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin." 
 Klikkaamalla _OK_ käyttäjä siirtyy automaattisesti asiakkaan tietoihin, joita tarvittaessa muokataan.
 
 ![](/assets/files/docs/Asiakkaat/Sotu3.png)
 
-\3. Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
+\- Jos henkilötunnus on virheellinen, tulee siitä ilmoitus: “Tarkista hetu!”.
 
 ![](/assets/files/docs/Asiakkaat/Tarkistahetu.png)
 
