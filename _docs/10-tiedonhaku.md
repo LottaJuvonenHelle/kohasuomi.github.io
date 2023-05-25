@@ -85,7 +85,7 @@ Rajoitukset-osiossa voi hakea julkaisuvuosien mukaan seuraavasti:
 * <2010 	julkaisuvuosi on pienempi kuin 2010
 * 2005- 	julkaisuvuosi on 2005 tai uudempi
 * >2005 	julkaisuvuosi on suurempi kuin 2005
-* 
+
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_vuosirajaus.png)
 
 Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Oletuksena tulokset järjestetään julkaisuvuoden perusteella uusimmasta vanhimpaan. Muita vaihtoehtoja ovat esimerkiksi tekijä, nimeke ja suosio (lainamäärä).
