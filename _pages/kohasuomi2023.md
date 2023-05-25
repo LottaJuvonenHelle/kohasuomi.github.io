@@ -17,14 +17,16 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 25.5.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 
-* Lapin realign /Emmi
+* Lapin realign ei onnistunut /Emmi
 * Asiantuntijaryhmässä päätetty purkaa varauksenteko-sivun taulukon piilotus. Jotta se voidaan tehdä, mitää tiketin [Varauksenteko-sivulla ei toimi asiakastaulukon sarakkeiden piilotus](https://github.com/KohaSuomi/Koha/issues/571) ongelma ensin korjata. Vastuutus.
 * Päivystysvuorot viikosta 23 eteenpäin.
 * [Lomat githubin yhteystiedot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot)
 * Vkon 23 päivitys
-  * Käännöskorjauksia: [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
+  * Käännöskorjauksia: 
+    * [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
+    * [Käännösvirhe taustatyön tiedot -sivulla #11](https://github.com/KohaSuomi/Koha-translations/issues/11)
 
 ### Maanantai 22.5.2023 klo 10
 
