@@ -300,38 +300,36 @@ olevat viestivaihtoehdot vaihtelevat kimpoittain.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaanviestiasetukset.png)
 
-\- Ilmoitus eräpäivänä: Ilmoitus lainojen erääntymisestä eräpäivänä.
+\- Ilmoitus eräpäivänä: Ilmoitus lainojen erääntymisestä eräpäivänä. 
 
-\- Ennakkoilmoitus: Etukäteisilmoitus lähestyvästä eräpäivästä (Asiakas
-voi valita, montako päivää etukäteen ilmoitus tulee). HUOM! Jos tähän
-valitsee 0, ei viestiä lähetetä, vaikka rasti olisi paikallaan.
+\- Ennakkoilmoitus: Etukäteisilmoitus lähestyvästä eräpäivästä. Asiakas
+voi valita, montako päivää etukäteen ilmoitus tulee. 
+HUOM! Jos tähän valitsee 0, ei viestiä lähetetä, vaikka rasti olisi paikallaan.
 
 \- Saapumisilmoitus: Ilmoitus asiakkaalle noudettavissa olevasta
 varauksesta.
 
-\- Palautuskuitti: Lista asiakkaan juuri palauttamasta aineistosta.
+\- Palautuskuitti: Lista asiakkaan juuri palauttamasta aineistosta. Tämä on
+  sähköinen versio palautuskuitista.
 
 \- Lainauskuitti: Lista asiakkaan juuri lainaamista niteistä. Tämä on
   sähköinen versio lainauskuitista.
+  
+\- _Vain koosteilmoitus_ sekä ennakkoilmoitukseen ja eräpäiväilmoitukseen tallentuu
+asiakkaalle automaattisesti. Koosteilmoitukset lähetetään asiakkaalle, jotta hän saa 
+yhdessä viestissä kaikkien erääntyvien niteiden tiedot eikä jokaisesta lainasta erillistä viestiä.
 
-\- Lisää “Tekstiviesti numeroon” -kenttään asiakkaan puhelinnumero, johon hän haluaa viestien saapuvan.
-Huom. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos asiakas 
-haluaa varausilmoitukset tekstiviestinä. Tekstiviesti-vaihtoehtoon ei 
-voi laittaa rastia, jos tässä kentässä ei ole puhelinnumeroa.
+\- “Tekstiviesti numeroon” -kenttään kopioituu automaattisesti Matkapuhelin-kenttään
+lisätty numero. Tekstiviesti numeroon -kenttä on kirjoitussuojattu. Tekstiviesti-vaihtoehtoon ei 
+laiteta rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
-- SMS-palveluntuottaja-kohtaan ei tarvitse valita mitään. Ominaisuus ei
-  ole käytössä.
 
 **Tärkeää**
 
 \- Nämä asetukset kumoavat asiakaslajeihin tehdyt oletusvalinnat.
 
-\- Asiakas voi itse muuttaa näitä asetuksia verkkokirjastossa.
+\- Asiakas voi itse muuttaa kaikkia viestiasetuksia verkkokirjastossa, paitsi _Koosteilmoitus_-asetuksia.
 
-\- Valitse koosteilmoitus ennakkoilmoitukseen ja eräpäiväilmoitukseen,
-  niin asiakas saa yhdessä viestissä kaikkien erääntyvien niteiden tiedot
-  eikä jokaisesta lainasta erillistä viestiä! Huom. Joissain kimpoissa tämän sarakkeen 
-  ruksit on valittu oletuksena ja valinnat lukittu.
 
 ## 1.3. Tallennus
 
