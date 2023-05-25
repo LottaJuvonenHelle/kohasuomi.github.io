@@ -73,6 +73,7 @@ tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. haettaessa
 numeroa 0442676200 voit kirjoittaa sen juuri samalla tavalla tai
 muodossa 044 267 6200.
 
+
 Voit valita jokaisessa haussa hakutyypin alkaa tai sisältää.
 Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono
 voi olla missä tahansa kohdassa hakukentässä.
