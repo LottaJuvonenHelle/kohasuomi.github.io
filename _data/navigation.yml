@@ -15,7 +15,7 @@ docs:
     children:
       - title: '1. Asiakkaat'
         url: /dokumentaatio/asiakkaat/
-      - title: '2. Lainaus'
+      - title: '2. Lainaus ja palautus'
         url: /dokumentaatio/lainaus/
       - title: '3. Maksut'
         url: /dokumentaatio/maksut/
