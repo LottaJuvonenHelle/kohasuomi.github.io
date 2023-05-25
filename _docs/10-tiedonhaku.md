@@ -210,14 +210,10 @@ Vasemmassa reunassa on näkyvissä järjestelmäastuksista ja käyttäjän oikeu
 - sisällön kuvailu eli asiasanat ja kohdehenkilöt ja -yhteisöt yms.
 - luokitus (ykl ja fiktiivinen lisäluokka)
 - linkit kansikuvaan ja kuvaukseen
-- linkki verkkokirjastoon (sekä Kohan omaan että Finnaan, jos
-  sellainen on käytössä)
-- linkki MARC-esikatseluun, josta näkee kaikki teokselle tallennetut
-  tiedot MARC-kentittäin
+- linkki MARC-esikatseluun, josta näkee kaikki teokselle tallennetut tiedot MARC-kentittäin
 - kansikuva, jos sellaiseen on linkki
 - linkki varauksiin
-- musiikkiaineistolla ja erilaisilla artikkelikokoelmilla useimmiten
-  linkit osakohteisiin ja tieto osakohteiden määrästä
+- musiikkiaineistolla ja erilaisilla artikkelikokoelmilla useimmiten linkit osakohteisiin ja tieto osakohteiden määrästä
 
 ### 10.6.2. MARC-, Otsikoitu MARC ja ISBD-välilehdet
 
@@ -230,30 +226,24 @@ ISBD
 
 ## 10.7. Nidetiedot ja niiden suodattaminen
 
-Teoksen kuvailutietojen alla on tiedot siihen liittyvistä niteistä ja
-niiden saatavuudesta. Näkyvillä olevia niteitä voi myös suodattaa
-Valitsemalla nidetaulukon yläpuolelta _Suodata_. Järjestelmäasetuksesta
-riippuen niteet ovat joko yhdellä välilehdellä tai jaettuna
-kirjautumiskirjaston kokoelmaan ja muihin kokoelmiin. Kokoelman nimen
-perässä näkyy välilehdellä olevien niteiden määrä.
+Teoksen kuvailutietojen alla on tiedot siihen liittyvistä niteistä ja niiden saatavuudesta. Näkyvillä olevista niteistä voi hakea kirjoittamalla _Haku_-laatikkoon haluttu hakutermi. Vielä tarkemmin näkyvillä olevia niteitä voi myös suodattaa valitsemalla nidetaulukon yläpuolelta _Suodata_. Järjestelmäasetuksesta riippuen niteet ovat joko yhdellä välilehdellä tai jaettuna kirjautumiskirjaston kokoelmaan ja muihin kokoelmiin. Kokoelman nimen perässä näkyy välilehdellä olevien niteiden määrä.
 
 ![](/assets/files/docs/Tiedonhaku/tietue2.png)  
 Niteistä kerrotaan
 
-- aineistolaji
-- sijaintikirjasto
+- nidetyyppi
+- nykyinen kirjasto (=sijaintikirjasto)
 - kotikirjasto, jonka yhteydessä myöa hyllypaikka ja hyllytarkenne
 - kokoelma
 - luokka (eli käytännössä “Kohan koko signum”)
 - tila: saatavana, lainassa, kuljetettavana, kadonnut, ei lainata jne
-  - jos teos on lainassa, kerrotaan asiakkaan kirjastokortin numero,
-    mikä toimii myös linkkinä asiakastietoihin.
-- viimeisin havainto (päivittyy mm. lainatessa ja palautettaessa. Myös
-  silloin, kun palautetaan hyllyssä olevana)
-- viivakoodi, jota klikkaamalla pääsee niteen tietoihin vasemman
-  reunan Niteet-välilehdelle.
+  - jos teos on lainassa, kerrotaan asiakkaan kirjastokortin numero, mikä toimii myös linkkinä asiakastietoihin.
+- viimeisin havainto (päivittyy mm. lainatessa ja palautettaessa. Myös silloin, kun palautetaan hyllyssä olevana)
+- viimeksi lainattu
+- viivakoodi, jota klikkaamalla pääsee niteen tietoihin vasemman reunan Niteet-välilehdelle.
 - kausijulkaisun numerointi, eli lehden numero, esim. 2019 : 1
 - Yleiset huomautukset
+Näkyvillä olevissa tiedoissa voi olla kimppakohtaista vaihtelua.
 
 Suodatus on kätevä toiminto  
 ![](/assets/files/docs/Tiedonhaku/tietue4.png)
@@ -274,9 +264,7 @@ Voit suodattaa näkyville esim.
 
 ## 10.8. Niteet-välilehti
 
-Vasemman reunan niteet-välilehdellä näkee tarkempia historiatietoja
-niteistä. Sinne pääsee myös klikkaamalla yksittäisen niteen viivakoodia
-Kokoelmat-taulukosta.  
+Vasemman reunan niteet-välilehdellä näkee tarkempia historiatietoja niteistä. Sinne pääsee myös klikkaamalla yksittäisen niteen viivakoodia Kokoelmat-taulukosta.  
 ![](/assets/files/docs/Tiedonhaku/tietue7.png)  
 Niteestä näkee mm.
 
