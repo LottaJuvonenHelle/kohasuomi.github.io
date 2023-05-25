@@ -9,14 +9,20 @@ toc: true
 # 10. Tiedonhaku
 ## 10.1. Perushaku
 
-Kun haluat hakea Kohasta, napauta _Hae tietokannasta_-painiketta, kirjoita hakusanat ja valitse OK.
+Kun haluat hakea Kohasta, napauta _Hae tietokannasta-linkkiä_, kirjoita hakusanat ja paina Enter. Haun voi käynnistää myös valkeaa nuolta klikkaamalla.
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku1_haun_suorittaminen.png)
 
 Haku yhdistää oletuksena hakusanat AND-operaattorilla, eli palauttaa tietueet, joiden tiedoissa esiintyvät kaikki annetut hakusanat. AND-operaattorin lisäksi haussa voi käyttää myös OR- ja NOT-operaattoreita. 
 
-Hakusanat katkaistaan automaattisesti, eli haku _seitse_ kohdistuu kaikkiin merkkijonon _seitse_ sisältäviin sanoihin, kuten _seitsemän_, _seitsemäs_ tai _kuusikymmentäseitsemän_.
+Hakusanojen automaattinen katkaisu on kimppakohtainen asetus (QueryAutoTruncate). Mikäli asetus on päällä hakusanat katkaistaan automaattisesti, eli haku _seitse_ kohdistuu kaikkiin merkkijonon _seitse_ sisältäviin sanoihin, kuten _seitsemän, seitsemäs tai kuusikymmentäseitsemän_.
+Jos asetus ei ole päällä, tulee hakusanat katkaista *-merkillä.
 
 Sanojen järjestys ei vaikuta hakutulokseen. Haku _tiedonhaku kirjastot_ antaa saman tuloksen kuin _kirjastot tiedonhaku_.  
+
+Perushakuun voi lisätä rajauksen haluttuihin kenttiin tai haluttuun kirjastoon. Nämä ovat kimppakohtaisia asetuksia (_IntranetCatalogSearchPulldown_ ja _IntranetAddMastheadLibraryPulldown_). Rajaukset saa näkyviin hakulaatikon lopussa olevasta valikko-kuvakkeesta. Molemmat rajaukset ovat samanlaiset kuin tarkassa haussa.
+Kenttärajauksissa voi valita mihin kenttään haku kohdistuu. Kirjastorajaus rajaa hakutuloksen vain sellaisiin tietueisiin, joiden niteissä on joko koti- tai sijaintikirjastona valittu kirjasto.
+![](/assets/files/docs/Tiedonhaku/Tiedonhaku1_haun_rajaus.png)
+
 
 ## 10.2. Tarkka haku
 
