@@ -18,51 +18,51 @@ hakea asiakkaiden tietoja.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaat_hakusivu.png)
 
-Huom. Laajan asiakashaun voit tehdä myös ilman siirtymistä Asiakkaat-sivulle, kun klikkaat yläosan palkissa 
-kohtaa Hae asiakkaita ja avaat valikko-kuvakkeesta hakukentät esille.
-
 ![](/assets/files/docs/Asiakkaat/hae_asiakasta1.png)
 
 Klikkaamalla pientä valikko-kuvaketta hakulaatikon oikealla puolella
 saat lisää hakuominaisuuksia käyttöösi. Alasvetovalikoista saat lisää hakuehtoja.
 Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
 
+Huom. Laajan asiakashaun voit tehdä myös ilman siirtymistä Asiakkaat-sivulle, kun klikkaat yläosan palkissa 
+kohtaa Hae asiakkaita ja avaat valikko-kuvakkeesta hakukentät esille.
+
 Samat hakuominaisuudet aukeavat myös Asiakkaat-sivun vasempaan laitaan. 
 
 \- Perushaku:  
 Anna asiakkaan nimi tai nimen osa, käyttäjätunnus, kirjastokortin
-viivakoodi tai varaustunniste.
+viivakoodi, varaustunniste tai varaustunnisteen osa. Antaessasi nimen tai osan nimestä tai varaustunnisteesta
+valitse hakutyypiksi _sisältää_
 
 \- Sukunimi:  
-Anna asiakkaan sukunimi tai sukunimen osa.
+Anna asiakkaan sukunimi tai sukunimen osa. Valitse hakutyypiksi
+_sisältää_
 
 \- Kortin numero:
 Anna asiakkaan kortin numero
 
 \- Sähköposti:  
-Anna mikä tahansa osa sähköpostiosoitteesta ja valitse hakutyypiksi
-_sisältää_ (ei alkaa)
+Anna asiakkaan sähköpostiosoite tai osa siitä ja valitse hakutyypiksi
+_sisältää_
 
 \- Asiakkaan ID:  
 Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
 
 \- Käyttäjätunnus:  
-Anna asiakkaan kirjastokortin numero tai osa siitä.
+Anna asiakkaan kirjastokortin numero tai osa siitä. Antaessasi osan
+kirjastokortin numerosta valitse hakutyypiksi _sisältää_
 
 \- Lankapuhelin:  
 Anna lankapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
 tai käytä tyhjää merkkiä numeroiden jaksotteluun. Esim. haettaessa
 numeroa (013) 267 6200 voit kirjoittaa sen juuri samalla tavalla tai
-muodossa 013 267 6200.
+muodossa 013 267 6200
 
 \- Osoite:  
-Anna mikä tahansa asiakkaan osoitteen osa (kaikki osoitekentät
-huomioiden) ja valitse hakutyypiksi _sisältää_.
+Anna asiakkaan osoite tai osoitteen osa ja valitse hakutyypiksi _sisältää_.
 
 \- Syntymäaika:  
-Ohjeteksti ilmestyy kertomaan missä muodossa syntymäaika pitää antaa.
-Muoto PP.KK.VVVV tarkoittaa, että päivät, kuukausi ja vuosi erotetaan
-toisistaan pisteellä.
+Voit hakea muodossa PP.KK.VVVV, PPKKVV tai PPKKVVVV
 
 \- Etunimi:
 Tee asiakashaku etunimellä tai kaikilla etunimillä.
