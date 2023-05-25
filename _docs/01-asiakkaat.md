@@ -257,10 +257,10 @@ jos valitsit alussa väärän asiakastyypin.
 \- _Tullut asiakkaaksi_ -päivämäärä tulee automaattisesti kuluvan päivän
 mukaiseksi.
 
-\- _Vanhentuu_ -kohtaan ei tarvitse merkitä mitään. Tieto tulee
+\- _Vanhenee_ -kohtaan ei tarvitse merkitä mitään. Tieto tulee
 automaattisesti asiakaslajille tehtyjen määritysten mukaan.
 
-\- _Huomautus_ (näkyy verkkokirjastossa) -kohtaan voi merkitä
+\- _Huomautus (näkyy verkkokirjastossa)_ -kohtaan voi merkitä
 huomautuksen, jonka asiakas näkee verkkokirjastosta. Huomautus
 näkyy OPACissa ja Finnassa.
 
@@ -269,7 +269,7 @@ Finnassa se näkyy Omat tiedot-välilehdellä _Kirjastokortin asetukset_-laatiko
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko2.png)
 
 \- _Huomautus (näkyy virkailijatyökalussa)_ -laatikossa oleva huomautus
-näkyy Kohassa virkailijoille tiedot- ja lainausnäytöllä.
+näkyy Kohassa tiedot- ja lainausnäytöllä.
 
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko.png)
 
@@ -284,13 +284,14 @@ Tässä tallennettu käyttäjätunnus näkyy asiakkaan _Tiedot_-välilehdellä.
 
 #### 1.2.5.4. Muut määritteet ja tunnukset
 
-Tähän täytetään mm. Järjestelmäavain asiakastietojen lähetykseen. 
-
-Henkilötunnuksen lisäyksen yhteydessä sotu-avain siirtyy automaattisesti tähän Sotu-avain-kenttään. 
-
-Myös muita kimppakohtaisia määritteitä voi olla käytössä.
+Tähän täytetään mm. Automaattien automaattityyppi- ja automaatin toimittaja-alasvetovalikot 
+sekä yhteisöasiakkaan Y-tunnuskenttä.
 
 ![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset1.png)
+
+![](/assets/files/docs/Asiakkaat/Muutmaareetjatunnukset2.png)
+
+Myös muita kimppakohtaisia määritteitä voi olla käytössä.
 
 ### 1.2.6. Asiakkaan viestiasetukset
 
