@@ -180,7 +180,8 @@ alasvetovalikoista sopivat vaihtoehdot.
 Saat listan hakuun sopivista asiakkaista. Klikkaa oikealta _Valitse_-painiketta
 oikean henkilön kohdalla. 
 
-Valitse alasvetovalikosta takaajan suhde asiakkaaseen Huom. alasvetovalikon vaihtoehdot voivat vaihdella kimpoissa.
+Valitse alasvetovalikosta takaajan suhde asiakkaaseen. Alasvetovalikon 
+vaihtoehdot voivat vaihdella kimpoissa.
 
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
 
@@ -190,7 +191,7 @@ järjestelmä lähettää huollettavan mahdolliset laskut ja huomautukset.
 
 ![](/assets/files/docs/Asiakkaat/Takaajat.png)
 
-Huom! Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
+Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
 tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
 tietoihin toisella välilehdelle ja tee takaajahaku uudelleen.
 
