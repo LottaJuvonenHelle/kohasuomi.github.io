@@ -345,7 +345,7 @@ tiedot olisi hyvä täyttää, jotta niteitä voisi lainata:
 - v - Korvaushinta  
   *Tämä summa peritään asiakkaalta, kun nide merkitään
   kadonneeksi asiakkaalta
-- y - Kohan aineistolaji
+- y - Kohan aineistotyyppi
 
 _Huom! Näkyvissä olevat kentät voivat vaihdella kirjastokimpan ja
 käytetyn kuvailupohjan mukaan._
@@ -528,6 +528,8 @@ Nide voidaan siirtää nimeketietueelta toiselle käyttämällä _Liitä nide_
 
 Liittämiseen tarvitaan siirrettävän niteen viivakoodi, joka luetaan sen
 nimekkeen tietoihin, mihin nide halutaan siirtää.
+Jos nide on hankittu hankintaosion kautta, siirtyy siirron yhteydessä 
+myös niteen hankintatieto.
 
 ![](/assets/files/docs/Luettelointi/luettelointi52.png)
 
