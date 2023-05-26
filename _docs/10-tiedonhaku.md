@@ -308,17 +308,18 @@ _Hankintatiedot_-välilehdeltä näkee mm. miltä toimittajilta teosta on tilatt
 
 ## 10.10. Teoksen ja niteen lainahistoria
 
-Teoksen kaikkien niteiden lainahistoriaan pääsee vasemman reunan _Lainahistoria_-linkistä. Myös yksittäisen niteen lainahistoriaa pystyy tarkastelemaan _Niteet_-välilehden kautta.
+Teoksen kaikkien niteiden lainahistoriaan pääsee vasemman reunan _Lainahistoria_-linkistä. Yksittäisen niteen lainahistoriaa pystyy tarkastelemaan _Niteet_-välilehdeltä _Näytä niteen lainahistoria_ -linkistä.
 
-Lainahistoria-sivulla näkee  
-![](/assets/files/docs/Tiedonhaku/tietue9.png)
-
-- teoksen kaikkien niteiden kaikki lainakerrat
+Lainahistoria-sivulla näkee
+- teoksen kaikkien niteiden lainakerrat yhteensä
 - viivakoodin, lainanneen kirjaston, onko uusittu, koska lainattu, mikä oli eräpäivä ja koska palautettu
 
-Yksittäisen niteen lainahistoria  
-![](/assets/files/docs/Tiedonhaku/tietue11.png)  
+![](/assets/files/docs/Tiedonhaku/tietue9.png)
+
+Yksittäisen niteen lainahistoria
 Näytöllä on listattuna kaikki kirjastot ja kuinka monta kertaa kyseinen nide on kirjastosta lainattu sekä viimeisin havaintopäivä.
+
+![](/assets/files/docs/Tiedonhaku/tietue11.png)  
 
 **Huomioi**: Jos nide palautetaan eri kirjastoon kuin mistä se on lainattu, tieto ei kirjaudu tälle näytölle. Eli tällä näytöllä näkyy vain lainaava kirjasto ja viimeisin havaintopäivä kirjautuu lainanneelle kirjastolle, vaikka palautus on tapahtunut toisessa kirjastossa.
 {: .notice--warning}
