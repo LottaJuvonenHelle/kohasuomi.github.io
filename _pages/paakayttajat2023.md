@@ -24,7 +24,7 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi), Päi
     * tuotannossa tuli esille virheitä, joita ei ollut testeissä ilmaantunut tai huomattu -> kiinniolo jatkossa puoltoista päivää?
     * redusoituun kantaan isompi setti tietueita, asiakkaita, lehtitilauksia. Osakohteita enemmän. Enemmän erilaisissa nidetiloissa olevia niteitä. Asiakastiedot: asiakkailta puuttui huollettavia ja varauksia -> helpompi, jos asiakkaan kaikki huollettavat, varaukset ja lainat otettaisiin mukaan.
 * Kaksvaiheinen kirjautuminen käyttöön superlibrarian-tunnuksille, jos käytössä on työälyluuri.
-  *  TwoFactorAuthentication -järjestelmäasetus päälle
+  *  TwoFactorAuthentication -järjestelmäasetukseen _Salli_
 * Palataan takaisin normaaliin tikettien seurantaan ja päivitystahtiin.
   * Uudet tiketit Koha-repositorioon. (Muistakaa tehdä tiketit, ei töitä sähköpostin tai Matrixin kautta, ohi tiketöinnin)
   * Päivitykset kerran viikossa tiistaisin.
