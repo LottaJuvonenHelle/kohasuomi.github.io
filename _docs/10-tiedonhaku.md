@@ -254,6 +254,7 @@ Niteistä kerrotaan
 - viivakoodi, jota klikkaamalla pääsee niteen tietoihin vasemman reunan Niteet-välilehdelle.
 - kausijulkaisun numerointi, eli lehden numero, esim. 2019 : 1
 - Yleiset huomautukset
+
 Näkyvillä olevissa tiedoissa voi olla kimppakohtaista vaihtelua.
 
 Suodatus on kätevä toiminto  
@@ -275,30 +276,29 @@ Voit suodattaa näkyville esim.
 
 ## 10.8. Niteet-välilehti
 
-Vasemman reunan niteet-välilehdellä näkee tarkempia historiatietoja niteistä. Sinne pääsee myös klikkaamalla yksittäisen niteen viivakoodia Kokoelmat-taulukosta.  
+Vasemman reunan _Niteet_-välilehdellä näkee tarkempia historiatietoja niteistä. Sinne pääsee myös klikkaamalla yksittäisen niteen viivakoodia _Kokoelmat_-taulukosta (saatavuustiedoista).
+
 ![](/assets/files/docs/Tiedonhaku/tietue7.png)  
+
 Niteestä näkee mm.
 
-- hankintapaikan ja -hinnan
+- koti- ja nykyisen kirjaston, nidetyypin, kokoelman ja luokan
 - kenellä nide on tällä hetkellä lainassa
-- kuinka monte kertaa lainaa uusittu
+- kuinka monta kertaa nide on uusittu
 - voi asettaa niteen
-  - kadonneeksi (Huomioi, että järjestelmäasetuksista riippuen tästä
-    kadonneeksi asettaminen voi viedä niteen korvaushinnan asiakkaan
-    maksuihin.)
+  - Kadonneeksi (Huomioi, että järjestelmäasetuksista riippuen tästä kadonneeksi asettaminen voi viedä niteen korvaushinnan asiakkaan maksuihin.)
   - Vahingoittuneeksi (sama kuin Varattavuus niteen muokkauksessa)
   - Pois kierrosta -tilaiseksi (jos sallittu)
 
 ![](/assets/files/docs/Tiedonhaku/tietue8.png)  
+
 Historia-tiedoista näkee
 
-- tilaukseen liittyviä tietoja
+- vastaanottopäivän
 - niteen lainakerrat
 - viimeisin havainto ja lainauspäivä
 - viimeksi palauttaneen asiakkaan kirjastokortin numeron
-- viimeisimmän ja kaksi sitä edellistä lainaajaa
-- näkee ja voi asettaa yleisen huomautuksen tai viesti virkailijalle
-  -huomautuksen
+- näkee ja voi asettaa yleisen huomautuksen tai viesti virkailijalle -huomautuksen
 
 ## 10.9. Hankintatiedot
 
