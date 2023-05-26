@@ -302,32 +302,23 @@ Historia-tiedoista näkee
 
 ## 10.9. Hankintatiedot
 
-Hankintatiedot-välilehdeltä näkee mm., miltä toimittajilta teosta on
-tilattu, milloin ja kuinka monta kappaletta. Jos on tarvittavat
-käyttäjäoikeudet, niin välilehden linkeistä pääsee toimittajatietoihin
-ja tilauskoreihin.  
+_Hankintatiedot_-välilehdeltä näkee mm. miltä toimittajilta teosta on tilattu, milloin, mihin hintaan ja kuinka monta kappaletta. Jos on tarvittavat käyttäjäoikeudet, niin välilehden linkeistä pääsee toimittajatietoihin ja tilauskoreihin.
+
 ![](/assets/files/docs/Tiedonhaku/tietue3.png)
 
 ## 10.10. Teoksen ja niteen lainahistoria
 
-Teoksen kaikkien niteiden lainahistoriaan pääsee vasemman reunan
-Lainahistoria-linkistä. Myös yksittäisen niteen lainahistoriaa pystyy
-tarkastelemaan Niteet-välilehden kautta.
+Teoksen kaikkien niteiden lainahistoriaan pääsee vasemman reunan _Lainahistoria_-linkistä. Myös yksittäisen niteen lainahistoriaa pystyy tarkastelemaan _Niteet_-välilehden kautta.
 
 Lainahistoria-sivulla näkee  
 ![](/assets/files/docs/Tiedonhaku/tietue9.png)
 
 - teoksen kaikkien niteiden kaikki lainakerrat
-- viivakoodin, lainanneen kirjaston, onko uusittu, koska lainattu,
-  mikä oli eräpäivä ja koska palautettu
+- viivakoodin, lainanneen kirjaston, onko uusittu, koska lainattu, mikä oli eräpäivä ja koska palautettu
 
 Yksittäisen niteen lainahistoria  
 ![](/assets/files/docs/Tiedonhaku/tietue11.png)  
-Näytöllä on listattuna kaikki kirjastot ja kuinka monta kertaa kyseinen
-nide on kirjastosta lainattu sekä viimeisin havaintopäivä.
+Näytöllä on listattuna kaikki kirjastot ja kuinka monta kertaa kyseinen nide on kirjastosta lainattu sekä viimeisin havaintopäivä.
 
-**Huomioi**: Jos nide palautetaan eri kirjastoon kuin mistä se on
-lainattu, tieto ei kirjaudu tälle näytölle. Eli tällä näytöllä näkyy
-vain lainaava kirjasto ja viimeisin havaintopäivä kirjautuu lainanneelle
-kirjastolle, vaikka palautus on tapahtunut toisessa kirjastossa.
+**Huomioi**: Jos nide palautetaan eri kirjastoon kuin mistä se on lainattu, tieto ei kirjaudu tälle näytölle. Eli tällä näytöllä näkyy vain lainaava kirjasto ja viimeisin havaintopäivä kirjautuu lainanneelle kirjastolle, vaikka palautus on tapahtunut toisessa kirjastossa.
 {: .notice--warning}
