@@ -110,7 +110,7 @@ voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla
 Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne.png)
 
-### 10.3.1 Haku hakutuloksesta
+### 10.3.2 Haku hakutuloksesta
 
 Jo tehdyn haun hakutuloksiin voi tehdä uuden haun, jolla tarkennetaan ja rajataan hakua. _Hae tuloksista_ -haun voi tehdä sanahakuna tai sen voi kohdistaa alasvetovalikosta esim. tekijään tai asiasanaan. 
 
