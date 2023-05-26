@@ -183,7 +183,7 @@ Esimerkeissä valituilla ehdoilla hakutuloslista näyttää tältä.
 Voit tarkentaa hakua sarakkeiden ylälaidassa olevilla rajauskentillä: 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku24_nidehaku_tulosten_lisafiltterit.png)
 
-### Tulosten vienti CSV- tai -viivakooditiedostoksi
+### 10.5.1. Tulosten vienti CSV- tai -viivakooditiedostoksi
 
 Tulokset voi halutessaan viedä ohjelmasta CSV- tai -viivakooditiedostona jatkokäyttöä varten ylälaidan painikkeilla.
 
@@ -239,7 +239,8 @@ ISBD
 
 Teoksen kuvailutietojen alla on tiedot siihen liittyvistä niteistä ja niiden saatavuudesta. Näkyvillä olevista niteistä voi hakea kirjoittamalla _Haku_-laatikkoon haluttu hakutermi. Vielä tarkemmin näkyvillä olevia niteitä voi myös suodattaa valitsemalla nidetaulukon yläpuolelta _Suodata_. Järjestelmäasetuksesta riippuen niteet ovat joko yhdellä välilehdellä tai jaettuna kirjautumiskirjaston kokoelmaan ja muihin kokoelmiin. Kokoelman nimen perässä näkyy välilehdellä olevien niteiden määrä.
 
-![](/assets/files/docs/Tiedonhaku/tietue2.png)  
+![](/assets/files/docs/Tiedonhaku/tietue2.png)
+
 Niteistä kerrotaan
 
 - nidetyyppi
@@ -257,7 +258,8 @@ Niteistä kerrotaan
 
 Näkyvillä olevissa tiedoissa voi olla kimppakohtaista vaihtelua.
 
-Suodatus on kätevä toiminto  
+Suodatus on kätevä toiminto
+
 ![](/assets/files/docs/Tiedonhaku/tietue4.png)
 
 Voit suodattaa näkyville esim.
@@ -274,7 +276,7 @@ Voit suodattaa näkyville esim.
     täsmää hakuun.
 - tietyllä huomautuksella olevan niteen
 
-## 10.8. Niteet-välilehti
+### 10.7.1. Niteet-välilehti
 
 Vasemman reunan _Niteet_-välilehdellä näkee tarkempia historiatietoja niteistä. Sinne pääsee myös klikkaamalla yksittäisen niteen viivakoodia _Kokoelmat_-taulukosta (saatavuustiedoista).
 
@@ -300,13 +302,13 @@ Historia-tiedoista näkee
 - viimeksi palauttaneen asiakkaan kirjastokortin numeron
 - näkee ja voi asettaa yleisen huomautuksen tai viesti virkailijalle -huomautuksen
 
-## 10.9. Hankintatiedot
+### 10.7.2. Hankintatiedot
 
 _Hankintatiedot_-välilehdeltä näkee mm. miltä toimittajilta teosta on tilattu, milloin, mihin hintaan ja kuinka monta kappaletta. Jos on tarvittavat käyttäjäoikeudet, niin välilehden linkeistä pääsee toimittajatietoihin ja tilauskoreihin.
 
 ![](/assets/files/docs/Tiedonhaku/tietue3.png)
 
-## 10.10. Teoksen ja niteen lainahistoria
+### 10.7.3. Teoksen ja niteen lainahistoria
 
 Teoksen kaikkien niteiden lainahistoriaan pääsee vasemman reunan _Lainahistoria_-linkistä. Yksittäisen niteen lainahistoriaa pystyy tarkastelemaan _Niteet_-välilehdeltä _Näytä niteen lainahistoria_ -linkistä.
 
