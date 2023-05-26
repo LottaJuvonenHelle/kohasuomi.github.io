@@ -95,7 +95,9 @@ Voit valita hakutulosten järjestyksen _Järjestys_-valikosta. Oletuksena tuloks
 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku6_jarjestys.png)
 
-## 10.3. Hakutuloksen rajaaminen faseteilla
+## 10.3. Hakutuloksen rajaaminen 
+
+### 10.3.1 Hakutuloksen rajaaminen faseteilla
 
 Hakutulosta voi rajata hakutuloslistan vasemman reunan faseteilla. Fasettien sisältö riippuu hakutuloksesta.
 
@@ -107,6 +109,15 @@ voit rajata hakutulosta luonnonvalokuvausta käsitteleviin teoksiin valitsemalla
 
 Tämän jälkeen tuloslista näyttää vain luonnonvalokuvausta käsittelevät teokset. 
 ![](/assets/files/docs/Tiedonhaku/Tiedonhaku16_fasetit_lopputilanne.png)
+
+### 10.3.1 Haku hakutuloksesta
+
+Jo tehdyn haun hakutuloksiin voi tehdä uuden haun, jolla tarkennetaan ja rajataan hakua. _Hae tuloksista_ -haun voi tehdä sanahakuna tai sen voi kohdistaa alasvetovalikosta esim. tekijään tai asiasanaan. 
+
+![](/assets/files/docs/Tiedonhaku/haku_hakutuloksesta.png)
+
+Huom. Hakusanat tulee tarvittaessa katkaista \*-merkillä. Kimppakohtainen asetus automaattikatkaisusta ei päde tässä haussa.
+{: .notice--warning}
 
 ## 10.4. Hakuhistoria
 
