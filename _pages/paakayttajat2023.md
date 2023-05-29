@@ -10,6 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 22 esityslista
+
+Aika: 30.5.2023 klo 9.15 <br />
+Läsnä: 
+
+**Yhteiset**
+* Vaskin asiakasvarmenne vanhenee jo elokuussa
+  * jotta päästään kaikissa kimpoissa samaan uusimistahtiin, uusi varmenne tulee kaikille jakoon ma 24.7.2023.
+  * muilla kimpoilla uusi tulee siis jo aiemmin käyttöön ja vanha on käytettävissä pidempään kuin Vaskissa.
+
 ## Viikko 21 muistio
 
 Aika: 23.5.2023 klo 9.15 <br />
