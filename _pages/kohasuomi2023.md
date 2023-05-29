@@ -17,12 +17,19 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 29.5.2023 klo 10
 
-* Vaskin asiakasvarmenne vanhenee jo elokuussa?
+Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
+
+* Vaskin asiakasvarmenne vanhenee jo elokuussa
+  * uusi varmenne kaikille jakoon ma 24.7.2023
+  * muilla kimpoilla uusi ja vanha pidempään
 * [Tietueen tuominen TäTistä Vaaraan ei tuo oikeaa tallennuspohjaa](https://github.com/KohaSuomi/Koha/issues/592)
+* Tekstiviestien merkistöongelmat LinkMobilityn kanssa.
+* Lapin realign
 * Vkon 23 päivitys
   * Käännöskorjauksia: 
     * [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
     * [Käännösvirhe taustatyön tiedot -sivulla #11](https://github.com/KohaSuomi/Koha-translations/issues/11)
+    * [Taustatöissä hitautta](https://github.com/KohaSuomi/Koha/issues/582)
 
 
 ## Viikon 21 muistiot
