@@ -13,6 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 22 muistiot
+
+### Maanantai 29.5.2023 klo 10
+
+* Vaskin asiakasvarmenne vanhenee jo elokuussa?
+* [Tietueen tuominen TäTistä Vaaraan ei tuo oikeaa tallennuspohjaa](https://github.com/KohaSuomi/Koha/issues/592)
+* Vkon 23 päivitys
+  * Käännöskorjauksia: 
+    * [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
+    * [Käännösvirhe taustatyön tiedot -sivulla #11](https://github.com/KohaSuomi/Koha-translations/issues/11)
+
+
 ## Viikon 21 muistiot
 
 ### Torstai 25.5.2023 klo 10
