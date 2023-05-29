@@ -38,13 +38,13 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 
 ![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
-- Viimeksi lainatun niteen tiedot näkyvät **Lainattu**-kentässä.
-- Jos klikkaat täpän kohtaan **Näytä aina lainat reaaliaikaisesti**, lainaustilanteessa kaikki asiakkaan lainat näkyvät näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
+- Viimeksi lainatun niteen tiedot näkyvät *Lainattu*-kentässä.
+- Jos klikkaat täpän kohtaan *Näytä aina lainat reaaliaikaisesti*, lainaustilanteessa kaikki asiakkaan lainat näkyvät näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
 
 **Tärkeää:**
 
 - Monet viivakoodinlukijat lähettävät automaattisesti rivinvaihdon,
-  joten **Lainaus**-painiketta ei tarvitse välttämättä klikata.
+  joten *Lainaus*-painiketta ei tarvitse välttämättä klikata.
 - Jos niteen viivakoodia ei löydy, saat ehdotuksen pikaluettelointiin
   niteen lisäämiseksi. Toiminto ei ole välttämättä kaikilla kimpoilla
   käytössä.
