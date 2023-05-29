@@ -25,6 +25,8 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 * [Tietueen tuominen TäTistä Vaaraan ei tuo oikeaa tallennuspohjaa](https://github.com/KohaSuomi/Koha/issues/592)
 * Tekstiviestien merkistöongelmat LinkMobilityn kanssa.
 * Lapin realign
+  * biblioitemnumberit saadaan luultavasti korjattua nappaamalla niiden arvoksi rivin biblionumberin arvo
+  * lisätään tämä näiden korjaus realign-biblionumber-biblioitemnumber.sh skriptiin  
 * Vkon 23 päivitys
   * Käännöskorjauksia: 
     * [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
