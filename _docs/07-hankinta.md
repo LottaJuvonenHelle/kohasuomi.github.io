@@ -570,6 +570,9 @@ tässä vaiheessa muokata tietueen tietoja, valitse _Muokkaa tietuetta_.
 
 #### 7.4.1.6 Uudesta tiedostosta
 
+HUOM! Koha-Suomi ei tue tätä toimintatapaa.
+{: .notice--warning}
+
 Tilauksen voi tehdä tuomalla välivarastoon MARC-tietueita tiedostosta.
 
 Valitse välivarastoitava MARC-tietue klikkaamalla Selaa.
