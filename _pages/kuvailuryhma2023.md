@@ -8,6 +8,78 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2023'
 ---
 
+## Kuvailuryhmän muistio 5/2023
+
+Aika: 24.5.2023 klo 13.00–13.35
+
+Osallistujat: Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+Poissa: Mauri Aittaniemi (Lappi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Anna Viitanen.
+
+#### 2.	Versionvaihtokuulumiset #####
+
+Versionvaihdon jälkeen kuvailu on toiminut ilman suuria ongelmia. Tausta-ajoissa on ollut hitautta, minkä takia osakohteiden tallentumisessa paikalliskantoihin kestää välillä tavallista pidempään. Vie/tuo -napin klikkauksen jälkeen kannattaa odottaa rauhassa osakohteiden tallentumista. Tausta-ajojen hitaudesta on tehty tiketti: https://github.com/KohaSuomi/Koha/issues/582 
+
+OUTIssa oli ongelmia Kohan pluginien, kenttien toistamisen ja poistamisen kanssa Firefoxin vanhempaa 78-versiota käytettäessä. Tiistain päivitys poisti ongelmat. Lisäksi helatorstaina ja viikonloppuna valui OUTIn vanhojen tietueiden päälle tietueita ilman selvää syytä: https://github.com/KohaSuomi/Koha/issues/583 
+
+Päivi kaipaa kommentteja Koha-Suomen ohjeiden kuvailua koskevaan kohtaan. Keskusteltiin siitä, kannattaako Mikropalveluun liittyvät ohjeet ottaa osaksi kuvailuohjetta, vai olisiko niiden parempi olla (linkin takana) GitHubissa. Sovittiin, että katsotaan ohjeet läpi ja lähetetään kommentit/korjausehdotukset Päiville viimeistään 31.5.
+
+https://koha-suomi.fi/dokumentaatio/kuvailu/
+
+#### 3.	TäTin Finto-liitännäisten toiminta uudessa versiossa ####
+
+Asiasanakenttiä toistettaessa liitännäinen pitää aktivoida a-osakentän oikeassa laidassa olevasta editorinapista. Asteri-liitännäinen ei aluksi toiminut kenttiä toistettaessa, nyt sekin on jo saatu toimimaan.
+
+<p> https://github.com/KohaSuomi/Koha-22x/issues/22 </p>
+<p> https://github.com/KohaSuomi/Koha-22x/issues/182 </p>
+
+#### 4.	Kehitysehdotus ####
+
+024-kenttään pitäisi saada samanlainen väliviivat pudottava tietokantatriggeri kuin on 020-kentässäkin. Näin nuottien valutus toimisi paremmin. Antti tekee tästä kehitysehdotuksen.
+
+#### 5.	Ongelma 880-kenttiä sisältävien tietueiden viemisessä TäTistä Melindaan ####
+
+Jos Melinda-tietueessa on Alephille ylipitkä 880-kenttä (yleensä tiivistelmä), Koha ei osaa näyttää sitä oikein, mikäli ylipitkä kenttä on katkottu väärin Alephissa. Jos tällaista tietuetta muokkaa TäTissä ja vie muutoksen Melindaan, tietue palautuu takaisin oudon näköisenä, koska 880-kentän 6-osakenttä ja a-osakenttä eivät kuulu enää samaan 880-kenttään vaan ovat tietueessa omina toistuminaan. Ongelma korjaantuu yleensä sillä, että tuo tietueen uudestaan Mikropalvelulla Melindasta.
+
+Esim. Melinda-tietue 018727852
+
+<p>Tietue Melindassa:</p>
+<p>880 8 	|6 520-08/(N </p>
+<p>880 8 	|9   </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|a "Мне самому </p>
+
+
+<p>Tietue TäTissä oikeassa muodossa:</p>
+<p>880 8 	|6 520-08/(N </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|a "Мне самому </p>
+
+
+Liittyy tähän: <a href="https://www.kiwi.fi/pages/viewpage.action?pageId=191070355" target="_blank">Ylipitkät kentät Alephissa ja Melindassa - Melinda - kansallinen metatietovaranto - Yleinen sivusto (kiwi.fi)</a>
+
+Antti selvittelee vielä, onko ongelma Mikropalvelussa ja/tai voitaisiinko Melindan päässä tehdä näille tietueille jotakin.
+
+#### 6.	Uusi tiketti ####
+
+Osakohteiden päälle valui Vaskissa vääriä tietoja: https://github.com/KohaSuomi/Koha/issues/527 
+
+#### 7.	Muita asioita ####
+
+<ul>
+  <li>Kirkes-kirjastojen koulutus (RDA-koulutukset 4. & 5.9.) -> Onko tarvetta tarkistaa tai päivittää Kohaan ja TäTiin liittyviä kuvailuohjeita sitä ennen? </li>
+  <li>Kohti metatietovisiota -projektin loppuraportti luettavissa: https://www.kirjastot.fi/sites/default/files/content/ykn_kohti_metatietovisiota_loppuraportti2023.pdf </li>
+  <li>Marc-virheraportteihin pääsee nyt käsiksi TäTistä/paikalliskannoista. Aikaisemmin raportteihin oli linkit Redminessä: https://github.com/KohaSuomi/Koha/issues/560 </li>
+</ul>
+
+#### 8.	Seuraava kokous 13.9. klo 13.15 ####
+
+
+---
 ## Kuvailuryhmän muistio 4/2023
 
 Aika: 19.4.2023 klo 13.15–14.45
