@@ -31,7 +31,7 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
   * Käännöskorjauksia: 
     * [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
     * [Käännösvirhe taustatyön tiedot -sivulla #11](https://github.com/KohaSuomi/Koha-translations/issues/11)
-    * [Taustatöissä hitautta](https://github.com/KohaSuomi/Koha/issues/582)
+  * [Taustatöissä hitautta](https://github.com/KohaSuomi/Koha/issues/582)
 
 
 ## Viikon 21 muistiot
