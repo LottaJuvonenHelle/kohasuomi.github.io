@@ -24,20 +24,20 @@ Sihteeriksi valittiin Anna Viitanen.
 
 #### 2.	Versionvaihtokuulumiset #####
 
-Versionvaihdon jälkeen kuvailu on toiminut ilman suuria ongelmia. Tausta-ajoissa on ollut hitautta, minkä takia osakohteiden tallentumisessa paikalliskantoihin kestää välillä tavallista pidempään. Vie/tuo -napin klikkauksen jälkeen kannattaa odottaa rauhassa osakohteiden tallentumista. Tausta-ajojen hitaudesta on tehty tiketti: https://github.com/KohaSuomi/Koha/issues/582 
+Versionvaihdon jälkeen kuvailu on toiminut ilman suuria ongelmia. Tausta-ajoissa on ollut hitautta, minkä takia osakohteiden tallentumisessa paikalliskantoihin kestää välillä tavallista pidempään. Vie/tuo -napin klikkauksen jälkeen kannattaa odottaa rauhassa osakohteiden tallentumista. Tausta-ajojen hitaudesta on tehty tiketti: <a href="https://github.com/KohaSuomi/Koha/issues/582" target="_blank">Taustatöissä hitautta</a>
 
-OUTIssa oli ongelmia Kohan pluginien, kenttien toistamisen ja poistamisen kanssa Firefoxin vanhempaa 78-versiota käytettäessä. Tiistain päivitys poisti ongelmat. Lisäksi helatorstaina ja viikonloppuna valui OUTIn vanhojen tietueiden päälle tietueita ilman selvää syytä: https://github.com/KohaSuomi/Koha/issues/583 
+OUTIssa oli ongelmia Kohan pluginien, kenttien toistamisen ja poistamisen kanssa Firefoxin vanhempaa 78-versiota käytettäessä. Tiistain päivitys poisti ongelmat. Lisäksi helatorstaina ja viikonloppuna valui OUTIn vanhojen tietueiden päälle tietueita ilman selvää syytä: <a href="https://github.com/KohaSuomi/Koha/issues/583" target="_blank">TäTistä valunut vanhojen tietueiden päälle tietueita ilman kenenkään käsittelyä</a>
 
 Päivi kaipaa kommentteja Koha-Suomen ohjeiden kuvailua koskevaan kohtaan. Keskusteltiin siitä, kannattaako Mikropalveluun liittyvät ohjeet ottaa osaksi kuvailuohjetta, vai olisiko niiden parempi olla (linkin takana) GitHubissa. Sovittiin, että katsotaan ohjeet läpi ja lähetetään kommentit/korjausehdotukset Päiville viimeistään 31.5.
 
-https://koha-suomi.fi/dokumentaatio/kuvailu/
+<https://koha-suomi.fi/dokumentaatio/kuvailu/>
 
 #### 3.	TäTin Finto-liitännäisten toiminta uudessa versiossa ####
 
 Asiasanakenttiä toistettaessa liitännäinen pitää aktivoida a-osakentän oikeassa laidassa olevasta editorinapista. Asteri-liitännäinen ei aluksi toiminut kenttiä toistettaessa, nyt sekin on jo saatu toimimaan.
 
-<p> https://github.com/KohaSuomi/Koha-22x/issues/22 </p>
-<p> https://github.com/KohaSuomi/Koha-22x/issues/182 </p>
+<p> <a href="https://github.com/KohaSuomi/Koha-22x/issues/22" target="_blank">Finto-plugit - ksdev/ks-0070-KD-4590-Finto-value-builders</a> </p>
+<p> <a href="https://github.com/KohaSuomi/Koha-22x/issues/182" target="_blank">finto_finaf.pl -pluginin toimintojen alustusfunktiot</a> </p>
 
 #### 4.	Kehitysehdotus ####
 
@@ -66,14 +66,14 @@ Antti selvittelee vielä, onko ongelma Mikropalvelussa ja/tai voitaisiinko Melin
 
 #### 6.	Uusi tiketti ####
 
-Osakohteiden päälle valui Vaskissa vääriä tietoja: https://github.com/KohaSuomi/Koha/issues/527 
+Osakohteiden päälle valui Vaskissa vääriä tietoja: <a href="https://github.com/KohaSuomi/Koha/issues/527" target="_blank">Osakohteiden päälle valunut väärät tiedot</a>
 
 #### 7.	Muita asioita ####
 
 <ul>
   <li>Kirkes-kirjastojen koulutus (RDA-koulutukset 4. & 5.9.) -> Onko tarvetta tarkistaa tai päivittää Kohaan ja TäTiin liittyviä kuvailuohjeita sitä ennen? </li>
-  <li>Kohti metatietovisiota -projektin loppuraportti luettavissa: https://www.kirjastot.fi/sites/default/files/content/ykn_kohti_metatietovisiota_loppuraportti2023.pdf </li>
-  <li>Marc-virheraportteihin pääsee nyt käsiksi TäTistä/paikalliskannoista. Aikaisemmin raportteihin oli linkit Redminessä: https://github.com/KohaSuomi/Koha/issues/560 </li>
+  <li>Kohti metatietovisiota -projektin loppuraportti luettavissa: <a href="https://www.kirjastot.fi/sites/default/files/content/ykn_kohti_metatietovisiota_loppuraportti2023.pdf" target="_blank">Kohti metatietovisiota -selvitysprojektin raportointi</a>  </li>
+  <li>Marc-virheraportteihin pääsee nyt käsiksi TäTistä/paikalliskannoista. Aikaisemmin raportteihin oli linkit Redminessä: <a href="https://github.com/KohaSuomi/Koha/issues/560" target="_blank">Redminessä olevat MARC-kuvailuvirheraportit eivät toimi enää</a> </li>
 </ul>
 
 #### 8.	Seuraava kokous 13.9. klo 13.15 ####
