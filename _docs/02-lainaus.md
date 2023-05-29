@@ -14,26 +14,25 @@ asetukset). Koha-Suomi suosittelee Firefox ESR-version käyttöä.
 
 Lainauksen toimintoihin pääset useilla eri tavoilla. Virkailijaliittymän
 etusivulla on pikakuvakkeita, joista pääset ohjelman eri toimintoihin,
-mm. lainaus- ja palautustoimintoihin. Kaikista lainauksenvalvonnan
-toiminnoista on listaus **Lainaus ja palautus** -sivulla, jonne pääset
+mm. lainaus- ja palautussivun toimintoihin. *Lainaus ja palautus* -sivun toimintoihin pääset
 jokaisen sivun vasemmasta yläreunasta olevasta linkistä.
 
-![](/assets/files/docs/Lainaus/lainaus.png)
+![](/assets/files/docs/Lainaus/lainaus.PNG)
 
-Ohjelman pikanäppäimet:
+Ohjelmassa toimivat pikanäppäimet:
 
-- tiedonhaku Alt+Q
-- lainaus Alt+U
-- palautus Alt+R
-- lainakuitti Alt+P
+- Hae tietokannasta: *Alt+Q*
+- Lainaus: *Alt+U*
+- Palautus: *Alt+R*
+- Lainakuitti: *Alt+P*
 
 ## 2.1. Lainaaminen
 
 Aloita lainaaminen lukemalla asiakkaan kirjastokortin viivakoodi
-**Lainaus**-kenttään tai hakemalla asiakkaan tiedot hänen nimelläään.
+*Lainaus*-kenttään tai hakemalla asiakas hänen nimelläään.
 Toimi kirjastosi käytäntöjen mukaan.
 
-![](/assets/files/docs/Lainaus/lainaus_asiakastunnus.png)
+![](/assets/files/docs/Lainaus/lainaus_asiakastunnus.PNG)
 
 Lue lainattavan niteen viivakoodi nidekenttään.
 
