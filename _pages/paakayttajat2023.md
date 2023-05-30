@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22 muistio
 
 Aika: 30.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * Vaskin asiakasvarmenne vanhenee jo elokuussa
@@ -26,6 +26,11 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle)
 * [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/598)
 
 Pohjoisesta etelään
+
+**Vaara**
+* Ceepos-kassan toiminnallisuutta kaivataan takaisin Joensuun pääkirjastossa eli maksujen kuittausta automaattisesti.
+* asiakkaan varausten näkymisen ja Finnan kautta varausten teon ongelma johti siihen, että havaittiin alle 40 nidettä, joissa 952w-kenttä oli väärä eli 0000-00-00. Syynä tähän todennäköisimmin käyttäjän virhe eli kopioitu 952d-kentästä päiväys, joka on eri muodossa kuin kentässä w ja johtaa tallennuksessa päiväyksen nollautumiseen. Vaikka asiasta on tiedotettu, kaikki eivät muista, että päiväys tallentuu automaattisesti kun nidetieto tallennetaan. Tämän vuoksi piilotettiin w-kenttä näkyvistä eri kuvailupohjissa. Virheelliset päiväykset korjattu käsin.
+* Enon kirjasto menee muutaman viikon sulkuun kesällä remonttien (ulkoa ja sisältä), sen aiheuttamista muutoksista tehty tiketti.
 
 ## Viikko 21 muistio
 
