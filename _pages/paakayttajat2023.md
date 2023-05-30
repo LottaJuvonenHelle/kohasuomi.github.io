@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22 muistio
 
 Aika: 30.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Vaskin asiakasvarmenne vanhenee jo elokuussa
