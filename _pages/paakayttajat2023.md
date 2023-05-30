@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22 muistio
 
 Aika: 30.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * Vaskin asiakasvarmenne vanhenee jo elokuussa
@@ -36,7 +36,11 @@ Pohjoisesta etelään
 * Asiakashaku aiheuttaa sekaannusta, kun hakukentissä on erilaiset hakukriteerit oletuksena. #556
 * Tulevat ja loppuvat remonttit työllistävät taas kesänaikana.
 * Intranetuserjs:ssä oli väärä attribuuttiarvo sotusiilon rimpsussa, Anneli korjasi. Sotut/avaimet vielä korjaamatta. 
-* Normaalia ylläpitoa ja samoja pikkukorjauksia, kun muillakin kimpoilla. 
+* Normaalia ylläpitoa ja samoja pikkukorjauksia, kun muillakin kimpoilla.
+
+**Siilinjärvi**
+* Kohassa ei suurempaa mainittavaa, muutoin verkkomaksun käyttöönotto ja henkilökuntatilanne ajankohtaisia
+* Testataan tiketin #476 css:t
 
 ## Viikko 21 muistio
 
