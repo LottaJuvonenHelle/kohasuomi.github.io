@@ -10,17 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 22 esityslista
+## Viikko 22 muistio
 
 Aika: 30.5.2023 klo 9.15 <br />
-Läsnä: 
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * Vaskin asiakasvarmenne vanhenee jo elokuussa
   * jotta päästään kaikissa kimpoissa samaan uusimistahtiin, uusi varmenne tulee kaikille jakoon ma 24.7.2023.
   * muilla kimpoilla uusi tulee siis jo aiemmin käyttöön ja vanha on käytettävissä pidempään kuin Vaskissa.
+  * Pääkäyttäjät: vaihto mielummin jo toukokuussa, koska kesä-elokuu loma-aikaa kaikkialla
 * [Kaksivaiheisen kirjautumisen käyttöönotto](https://koha-community.org/manual/22.11/en/html/patrons.html#two-factor-authentication-in-the-staff-interface)
 * Show analytics/Näytä osakohteet -linkin piilotus?
+  * Päätös: Piilotetaan linkki ja otsikko css:llä. Anneli tekee.
+* [Viikon 22 päivitys](https://github.com/KohaSuomi/Koha/discussions/598)
+
+Pohjoisesta etelään
 
 ## Viikko 21 muistio
 
