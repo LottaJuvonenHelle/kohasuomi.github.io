@@ -606,6 +606,9 @@ Täydennä tarvittavat tiedot välilehdille ja valitse sitten _Tallenna_
 
 #### 7.4.1.7. Tilaus väliaikaistiedostosta
 
+HUOM! Koha-Suomi ei tue tätä toimintatapaa.
+{: .notice--warning}
+
 Tilauksen voi tehdä myös aineistontoimittajan lähettämän tiedoston
 kautta.
 
@@ -651,10 +654,11 @@ Listalle tulee teokset, joilla on eniten varauksia per nide.
 
 ![](/assets/files/docs/Hankinta/hankinta64.png)
 
-- Varauksia per nide -suhdetta voi säätää vasemmasta reunasta
+- Varauksia per nide -suhdetta voi säätää vasemmasta reunasta _Varausten suhde (suurempi tai yhtäsuuri kuin)_ -kohdasta. Mitä suurempi luku, sitä epätodennäköisemmin teoksia tulee listalle.
 - Jos haluat, että tilattu-tilaiset niteet otetaan mukaan, laita rasti
   kohtaan _Sisällytä tilatut_ (tämä kannattaa laittaa)
 - Jos haluat, että keskeytety varaukset otetaan mukaan, laita rasti kohtaan _Sisällytä keskeytetyt_ (suositeltavaa).
+- Raportti kertoo, kuinka monta nidettä ja varausta teokseen kohdistuu sekä niiden suhteen.
 - Oikeasta reunasta Tarvitaan lisäniteitä -sarakkeesta klikkaamalla
   pääsee lisäämään teoksen tilauskoriin. Raportti ehdottaa tilattavaa nidemäärää.
 
@@ -664,47 +668,49 @@ Kun olet tuonut nimeketiedot tavalla tai toisella, täytyy täyttää
 tilattavien niteiden tiedot (vähintään 1 nide). Pakolliset tiedot on
 merkitty punaisella. 
 
-**Huomioithan**, että tilastoinnin kannalta on erityisen tärkeää, että hankintapvm on määritetty. Ilman sitä nide ei tule mukaan hankintatilastoihin.
+**Huomioithan**, että tilastoinnin kannalta on erityisen tärkeää, että hankintapvm on määritetty. Ilman sitä nide ei tule mukaan hankintatilastoihin. **Kenttä täyttyy automaattisesti** tallennuksen yhteydessä, jos sitä ei ole määritetty pakolliseksi ja siihen on kytketty hankintapäivämäärän lisäävä liitännäinen (dateaccessioned.pl).
 
 ![](/assets/files/docs/Hankinta/hankinta62.png)
 
-- Jos luot vain yhden niteen, klikkaa _Lisää nide_
+- Jos luot vain yhden niteen, klikkaa _Lisää nide_.
 - Jos haluat luoda useamman niteen, klikkaa _Lisää useita niteitä_,
   jolloin painikkeen viereen tulee kenttä. Kirjoita kenttään haluttu
-  nidemäärä ja klikkaa _Lisää_
+  nidemäärä ja klikkaa _Lisää_.
+- _Tyhjennä_-painikkeella saat tyhjennettyä kentät.
 
 Niteet listautuu Nide-osion yläpuolelle.  
 ![](/assets/files/docs/Hankinta/hankinta621.png)
 
 Kun olet lisännyt tarvittavan määrän niteitä, täytä tilitystiedot.  
-Huom. Tilausta tehdessä numeroiden
-desimaalierottimena tulee käyttää pistettä (tilanne 19.10.2022).
+Huom. Tilausta tehdessä numeroiden desimaalierottimena tulee käyttää pistettä.
 
 ![](/assets/files/docs/Hankinta/hankinta63.png)
 
-- **Määrä**-kohtaan tulee tilaamiesi niteiden määrä yllä olevasta
-  taulukosta. 
+- _Määrä_-kohtaan tulee automaattisesti tilaamiesi niteiden määrä yllä olevasta
+  nidetaulukosta. 
   - **Tärkeää**: Et voi lisätä käsin määrää, vaan se täytyy tehdä
     edellisen kohdan Lisää nide -toiminnon kautta.
 
-- **Tili**-valikosta valitaan käytettävä tili
+- _Tili_-valikosta valitaan käytettävä tili.
 
-- **Rahayksikkö**-valikosta valitaan rahayksikkö
+- _Rahayksikkö_-valikosta valitaan rahayksikkö tarvittaessa.
 
-- **Toimittajan hinta** annetaan ilman alennuksia.
+- _Toimittajan hinta_ annetaan ilman alennuksia.
 
 - Jos hinta on **vahvistamaton**, laita valinta ruutuun.
   - HUOM! Jos tilauksessa on yksikin vahvistamaton hinta, tilausta
     ei voi sulkea.
 
-- Laita **veroprosentiksi** 0 %, koska budjetit ovat alvittomia.
+- Laita _veroprosentiksi_ 0 %, koska budjetit ovat alvittomia.
   - Kun olet antanut alennusprosentin, klikkaa tab-näppäintä, niin
     Koha täyttää loput hintatiedot.
  
- - **Korvausmaksu** on alennettu veroton hinta.
+ - _Korvausmaksu_ on alennettu veroton hinta.
+ - _Budjetoitu hinta_ täyttyy automaattisesti Toimittajan hinta -kentästä.
+ - _Yhteensä_ -kenttä täyttyy automaattisesti tilatun määrän ja toimittajan hinnan perusteella.
+ - _Sisäinen huomautus_, _Huomautus toimittajalle_, _Arvioitu saapumispvm_ ja _Tilasto-kohdat_ voi täyttää halutessaan.
 
-Kun olet täyttänyt kaikki tarvittavat kentät, klikkaa _Tallenna_
-lisätäksesi niteet tilaukseen. Jos hinta menee yli budjetin, saat siitä
+Kun olet täyttänyt kaikki tarvittavat kentät, klikkaa _Tallenna_ lisätäksesi niteet tilaukseen. Jos hinta menee yli budjetin, saat siitä
 huomautuksen.
 
 Kun tilaus on tallennettu, saat yhteenvedon tilauksesta.
@@ -712,10 +718,10 @@ Kun tilaus on tallennettu, saat yhteenvedon tilauksesta.
 ![](/assets/files/docs/Hankinta/hankinta641.png)
 
 Ennen tilauksen sulkemista voit vielä muokata tilauskoria ja sen sisältämiä
-tilauksia. Hae-kentällä voi suodattaa taulukossa näkyviä tietoja.
+tilauksia. _Haku_-kentällä voi suodattaa taulukossa näkyviä tietoja.
 
 - Klikkaamalla _Peruuta teoksen tilaus_ poistat tilausrivin ja siihen
-  liittyvät **kaikki** niteet, mutta tietue jää tietokantaan.
+  liittyvät **kaikki** niteet (vaikka ne olisivat lainassa), mutta tietue jää tietokantaan.
 
 - Klikkaamalla _Peruuta tilaus ja poista nimeketietue_ poistat sekä
   tilausrivin, niteet että nimeketietueen tietokannasta.
@@ -728,9 +734,9 @@ tilauksia. Hae-kentällä voi suodattaa taulukossa näkyviä tietoja.
   _Muokkaa tilauskoria_ -painiketta.
 - Tilauskorin voi poistaa kokonaan _Poista tilauskori_
   -painikkeesta.
-- _Vie tämä CSV-muodossa_ -painikkeen kautta voit viedä
-  tilauskorin tiedot CSV-muotoiseksi tiedostoksi.
-- Sähköpostitilaus-nappulasta korin sisällön voi lähettää toimittajan sähköpostiosoitteeseen, mikäli sellainen on määritetty toimittajan tietoihin.
+- _Sulje tilauskori_ -nappulasta tilauskorin voi sulkea. Tilausta ei voi vastaanottaa ennen kuin tilauskori on suljettu.
+- _Vie CSV-muodossa_ -painikkeen kautta voit viedä tilauskorin tiedot CSV-muotoiseksi tiedostoksi.
+- _Sähköpostitilaus_-nappulasta korin sisällön voi lähettää toimittajan sähköpostiosoitteeseen, mikäli sellainen on määritetty toimittajan tietoihin.
 
 ### 7.4.2. Tilauksen sulkeminen
 
