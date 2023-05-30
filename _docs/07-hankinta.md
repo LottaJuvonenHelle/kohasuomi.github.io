@@ -749,6 +749,7 @@ samannimiseen tilausryhmään”.
 
 - **Huom!** Jos yhdenkään tilauksen hinta on vahvistamaton, tilausta
   ei voi sulkea.
+- Tilauksen sulun yhteydessä tilauskorin voi viedä saman nimiseen tilausryhmään halutessaan. Laita tällöin rasti ilmoituksessa olevaan ruutuun. Tilausryhmistä tarkemmin alla.
 
 ### 7.4.3. Tilausryhmän tekeminen
 
@@ -767,10 +768,7 @@ sulkea ja viedä tilauksen PDF:ksi. Jos EDIFACT-määritykset on tehty, voi tila
 
 ![](/assets/files/docs/Hankinta/hankinta68.png)
 
-Tilauskorin sulun yhteydessä tehdyt tilausryhmät menevät
-“Suljettu”-välilehdelle. Sieltä tilausryhmän tietoja voi katsoa, avata uudelleen, viedä PDF:ksi tai CSV-muotoon. Jos EDIFACT-määritykset on tehty, voi tilauksen viedä myös EDIFACT-muotoon.
-
-![](/assets/files/docs/Hankinta/hankinta682.png)
+Tilauskorin sulun yhteydessä tehdyt tilausryhmät menevät _Suljettu_-välilehdelle. Sieltä tilausryhmän tietoja voi katsoa, avata uudelleen, viedä PDF:ksi tai CSV-muotoon. Jos EDIFACT-määritykset on tehty, voi tilauksen viedä myös EDIFACT-muotoon.
 
 Tilausryhmiin pääsee myös kun hakee Hankinnan etusivulla ensin
 toimittajan nimellä, ja valitsee sitten vasemmasta reunausta
