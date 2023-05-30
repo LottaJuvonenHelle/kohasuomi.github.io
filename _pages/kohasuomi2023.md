@@ -20,6 +20,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 * Pääkäyttäjät kysyy: onko tulossa testeille uudempi sisältö (asiakkaat, tietueet yms.) (lähiaikoina)?
 * Pääkäyttäjäpalsusta: varmenne toivottiin vanhenemaan kesälomajan ulkopuolelle ja ehdotettiin toukokuuta.
 * Pääkäyttäjien palaveriin osallistuminen Annelin loman aikana.
+* Versiopäivityksen tietokantamuutosten jako
+* Miten saataisiin testilaskuja Kirkes-testiltä Sarastialle?
 
 
 ### Maanantai 29.5.2023 klo 10
