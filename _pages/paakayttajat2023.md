@@ -20,6 +20,7 @@ Läsnä:
   * jotta päästään kaikissa kimpoissa samaan uusimistahtiin, uusi varmenne tulee kaikille jakoon ma 24.7.2023.
   * muilla kimpoilla uusi tulee siis jo aiemmin käyttöön ja vanha on käytettävissä pidempään kuin Vaskissa.
 * [Kaksivaiheisen kirjautumisen käyttöönotto](https://koha-community.org/manual/22.11/en/html/patrons.html#two-factor-authentication-in-the-staff-interface)
+* Show analytics/Näytä osakohteet -linkin piilotus?
 
 ## Viikko 21 muistio
 
