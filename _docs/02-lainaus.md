@@ -142,13 +142,19 @@ Asiakkaan muokkausnäytöllä rajoite tallentuu asiakkaalle, kun asiakkaan tiedo
   
 Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
-  ![](/assets/files/docs/Lainaus/rajoite1.PNG)
+![](/assets/files/docs/Lainaus/rajoite1.PNG)
+
+### 2.2.2.1
+
+Rajoitteen voit poistaa asiakkaalta *Poista*-toiminnolla.
+![](/assets/files/docs/Lainaus/rajoitteenpoisto.PNG)
+
 
 ### 2.2.3 Asiakkaan osoitetiedot ovat väärät
 
 Jos asiakkan tiedoissa on päällä asetus, että osoite on tarkistettava,
 lainaus estyy.  
-![](/assets/files/docs/Lainaus/vaaraosoite1.png)
+![](/assets/files/docs/Lainaus/vaaraosoite1.PNG)
 
 Lainaustilanteessa tulee huomautus:  
 ![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
