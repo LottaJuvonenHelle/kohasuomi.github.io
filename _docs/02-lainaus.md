@@ -132,6 +132,7 @@ rajoitukset*:
 ![](/assets/files/docs/Lainaus/rajoitteenlisäys1.PNG) 
 
 tai asiakkaan tiedoissa välilehdellä *Rajoitukset*:
+
 ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG) 
 
 Tallenna *Viesti/Kommentti*-kenttään rajoituksen syy. Jos rajoitus halutaan
