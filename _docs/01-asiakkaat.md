@@ -358,12 +358,7 @@ oteta mukaan tilastoihin.
 
 Asiakastietojen yläreunassa olevilla painikkeilla pääset muokkaamaan asiakastietoja, lisäämään asiakkaalle huollettavan, 
 vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, 
-tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa ja lisäämään asiakastietoihin viestin. 
-
-Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloasähköpostin, 
-poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. 
-
-![](/assets/files/docs/Asiakkaat/Muitatoimintoja.png)
+tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa ja lisäämään asiakastietoihin viestin. Harvemmin tarvittavia muokkaustoimintoja löytyy Muita toimintoja-alasvetovalikosta, joista tarkemmin kohdassa 1.5.7.
 
 ### 1.5.1. Lisää huollettava
 
@@ -439,22 +434,28 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 
 ![](/assets/files/docs/Asiakkaat/Muitatoimintoja1.png)
 
+Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloasähköpostin, poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi.
+
 #### 1.5.7.1. Asiakaan käyttöoikeuden jatkaminen
 
 Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tilin uusimiselle on useita linkkejä ja paikkoja. 
 
-Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä _Uusinta_ tai _Muita toimintoja_-alasvetovalikosta _Asiakkaan käyttöoikeuden jatkaminen_ voi jatkaa asiakkaan käyttöoikeutta.
-
-![](/assets/files/docs/Asiakkaat/Tilinuusiminen1.png)
-
-Asiakkaan tiedot -sivulla tili uusitaan ruudun keskellä sijaitsevan Huomio-kohdan _Uusinta_-linkin kautta, Kirjastotiedot-kohdasta tai 
-Muita toimintoja -alasvetovalikosta _Asiakkaan käyttöoikeuden jatkaminen_. 
+Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä _Uusinta_ tai _Muita toimintoja_-alasvetovalikosta _Asiakkaan käyttöoikeuden jatkaminen_ voi jatkaa asiakkaan käyttöoikeutta. Myös linkistä _Muokkaa asiakastietoja_ tai _Muokkaa_-napista pääsee jatkamaan asiakkaan käyttöikeutta asiakastietojen kautta.
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen2.png)
+
+Asiakkaan tiedot -sivulla tili uusitaan Huomio-kohdan _Uusinta- tai Muokkaa tietoja_-linkkien kautta, Kirjastotiedot-kohdasta,
+Muita toimintoja -alasvetovalikosta _Asiakkaan käyttöoikeuden jatkaminen_ tai _Muokkaa_-napista.
+
+![](/assets/files/docs/Asiakkaat/Tilinuusiminen1.png)
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen3.png)
 
 Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määritellyn voimassaoloajan mukaan.
+
+\- Järjestelmä ilmoittaa myös lähestyvästä vanhentumispäivästä.
+
+![](/assets/files/docs/Asiakkaat/Tilinuusiminen4.png)
 
 ### 1.5.7.2. Poista
 
@@ -474,16 +475,7 @@ Koha ilmoittaa selkeästi miksi asiakasta ei voi poistaa rekisteristä.
 
 ### 1.5.7.3. Päivitä lapsi aikuiseksi
 
-Lapsiasiakkaasta ei tule automaattisesti henkilöasiakasta ellei Kohassa ole
-siihen liittyvä ajo käynnissä. Lapsen voi muuttaa henkilöasiakkaaksi valitsemalla Muita toimintoja -valikosta _Päivitä lapsi
-aikuiseksi_. Koha antaa asiakastyyppivaihtoehdot, joista valitaan haluttua asiakastyyppi. 
-Huom. päivitysnappi on aktiivinen kaikilla alaikäisillä asiakkailla ja sillä voi muuttaa tätä kautta lapsiasiakkaan myös esim. kotipalveluasiakkaaksi.
-
-![](/assets/files/docs/Asiakkaat/Lapsiaikuiseksi1.png)
-
-Jos asiakas on edelleen alaikäinen, niin päivitys henkilöasiakkaaksi ei ole mahdollinen.
-
-![](/assets/files/docs/Asiakkaat/Lapsiaikuiseksi2.png)
+Tätä toimintoa ei käytetä sillä asiakastyypit päivittyvät järjestelmässä automaattisesti.
 
 ### 1.5.8. Lapsiasiakkaan takaajan vaihtaminen
 
