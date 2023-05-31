@@ -260,21 +260,21 @@ lainaamisen jatkamista.
 
 ## 2.4 Asiakkaan lainat
 
-**Lainassa**-painikkeesta saat näkyville asiakkaan kaikki lainat.  
+*Lainassa*-painikkeesta saat näkyville asiakkaan kaikki lainat.  
 ![](/assets/files/docs/Lainaus/lainassa.PNG)
 
-**Sarakkeet** -valikosta voit valita, mitä sarakkeita
-Lainassa-välilehdellä näytetään.
+*Sarakkeet* -valikosta voit valita, mitä sarakkeita
+Lainassa-välilehdellä näytetään. Sarakkeen valinnoissa voi olla kimppakohtaisia eroja.
 
 ![](/assets/files/docs/Lainaus/sarakkeen_nakyvyys.PNG)
 
-**Vie**-valikosta voit tulostaa, kopioida tai viedä asiakkaan lainat Excel- tai CSV-tiedostoiksi.
+*Vie*-valikosta voit tulostaa, kopioida tai viedä asiakkaan lainat Excel- tai CSV-tiedostoiksi.
 
 ![](/assets/files/docs/Lainaus/vie.PNG)
 
-Valikosta **Lainojen määrä nidetyypeittäin** näet asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
+Valikosta *Lainojen määrä nidetyypeittäin* näet asiakkaan kaikki lainat yhteenlaskettuna nidetyypeittäin.
 
-Ensimmäisenä näkyvät tänään lainatut lainat.
+Lainat-välilehdellä ensimmäisenä näkyvät tänään lainatut lainat.
 Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 
 ![](/assets/files/docs/Lainaus/lainat_naytto.PNG)
@@ -284,18 +284,18 @@ Myöhässä olevien lainojen eräpäivät näkyvät punaisella.
 Lainassa olevien niteiden laina-ajan voit uusia sen mukaan, mitä järjestelmän
 ylläpidon laina- ja maksusäännöissä on määritelty.
 
-Lainat voi uusia asiakkaan tiedoissa Lainassa-välilehdellä tai Lainaus ja palautus -sivulla.
+Lainat voi uusia asiakkaan tiedoissa Lainat-välilehdellä tai Lainaus ja palautus -sivulla olevalla *Uusinta*-toiminnolla.
 
-Huom! Jos asiakkaan sallittujen maksujen raja on ylittynyt, ohjelma ei huomauta siitä uusintatilanteessa.
+Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomauta siitä uusintatilanteessa.
 
-#### 2.4.1.1 Lainojen uusinta asiakkaan tiedoissa olevalla Lainassa-välilehdellä.
+#### 2.4.1.1 Lainojen uusinta asiakkaan tiedoissa olevalla Lainat-välilehdellä.
 
 ![](/assets/files/docs/Lainaus/uusinta.png)
 
 - Uusinta-sarakkeesta näet, kuinka monta kertaa kukin nide on uusittu. 
-  Valitse uusittavat niteet ruksaamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta **Uusi tai palauta
-  valitut niteet** tai jos uusit kaikki lainat, klikkaa **Uusi
-  kaikki** -painiketta.
+  Valitse uusittavat niteet ruksaamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta *Uusi tai palauta
+  valitut niteet* tai jos uusit kaikki lainat, klikkaa *Uusi
+  kaikki* -painiketta.
   
 - Uusinta-sarakkeen yläreunassa olevalla toiminnolla “valitse kaikki”
   voit valita uusittavaksi kaikki lainat, jotka on mahdollista uusia.
