@@ -28,6 +28,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
   * Onko jotain tehty meillä ke 17.5.2023 klo 21 jälkeen?
 *  [deleted-tauluissa biblioitemnumberin ja biblionumberin epäsynkka #606](https://github.com/KohaSuomi/Koha/issues/606)
 *  [Lumme: 500-virhe tehtäessä kirjaston perustoimintoja #611](https://github.com/KohaSuomi/Koha/issues/611)
+*  Tikettien vastuutus
 
 
 ### Maanantai 29.5.2023 klo 10
