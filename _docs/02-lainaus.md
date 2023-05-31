@@ -138,11 +138,9 @@ Tallenna *Viesti/Kommentti*-kenttään rajoituksen syy. Jos rajoitus halutaan
 olemaan voimassa vain tietyn ajan, tallenna *Vanhenee*-kohtaan rajoituksen viimeinen
 voimassaolopäivä.
 
-  ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG)
+Asiakkaan muokkausnäytöllä rajoite tallentuu asiakkaalle, kun asiakkaan tiedot tallennetaan. Rajoitukset-välilehdellä rajoitus tallennetaan *Lisää rajoitus* -painikkeella.  
   
-  Asiakkaan muokkausnäytöllä rajoite tallentuu asiakkaalle, kun asiakkaan tiedot tallennetaan. Rajoitukset-välilehdellä rajoitus tallennetaan *Lisää rajoitus* -painikkeella.  
-  
-  Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
+Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
   ![](/assets/files/docs/Lainaus/rajoite1.PNG)
 
