@@ -22,6 +22,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 * Pääkäyttäjien palaveriin osallistuminen Annelin loman aikana.
 * Versiopäivityksen tietokantamuutosten jako
 * Miten saataisiin testilaskuja Kirkes-testiltä Sarastialle?
+* Omituisia puhelinnumeroiden katoamisia ja muuttumisia raportoitu ainakin OUTIssa ja Kyytissä:
+  * [OUTI: asiakkaan tiedoissa on ruksattuna noutoilmoitus tekstiviestinä, mutta puhelinnumero SMS-kentästä puuttuu #607](https://github.com/KohaSuomi/Koha/issues/607)
+  * [OUTI: Asiakkaalle muuttunut vanha puhelinnumero matkapuhelin- ja tekstiviesti numeroon -kenttiin #608](https://github.com/KohaSuomi/Koha/issues/608)
+  * Onko jotain tehty meillä ke 17.5.2023 klo 21 jälkeen?
+*  [deleted-tauluissa biblioitemnumberin ja biblionumberin epäsynkka #606](https://github.com/KohaSuomi/Koha/issues/606)
+*  [Lumme: 500-virhe tehtäessä kirjaston perustoimintoja #611](https://github.com/KohaSuomi/Koha/issues/611)
 
 
 ### Maanantai 29.5.2023 klo 10
