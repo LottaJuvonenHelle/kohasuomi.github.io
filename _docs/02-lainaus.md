@@ -147,6 +147,7 @@ Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
 ### 2.2.2.1
 
 Rajoitteen voit poistaa asiakkaalta *Poista*-toiminnolla.
+
 ![](/assets/files/docs/Lainaus/rajoitteenpoisto.PNG)
 
 
@@ -159,13 +160,13 @@ lainaus estyy.
 Lainaustilanteessa tulee huomautus:  
 ![](/assets/files/docs/Lainaus/tarkistaosoite.PNG)
 
-Huomautuksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Vaihda asiakastietojen muokkausnäytöllä täppä 
-**Käyttäjätilin huomautukset** -osiossa **Tarkista osoite** -kohtaan
-“Ei” ja tallenna asiakastietojen muokkausnäyttö.
+Huomautuksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Huomautus poistuu, kun asiakastietojen muokkausnäytöllä kohdassa 
+*Käyttäjätilin huomautukset* vaihdat *Tarkista osoite* -kohtaan vaihtoehdon
+“Ei” ja tallennat asiakastiedot.
 
 ### 2.2.4 Asiakkaan kirjastokortti on kadonnut
 
-Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen muokkausnäytöllä osioon **Käyttäjätilin huomautukset** kohtaan **Kortti kadonnut** "Kllä".
+Kun asiakas ilmoittaa kirjastokorttinsa kadonneen, tallenna tieto asiakastietojen muokkausnäytöllä osioon *Käyttäjätilin huomautukset* kohtaan *Kortti kadonnut* "Kyllä".
 
 ![](/assets/files/docs/Lainaus/korttikadonnut1.PNG)
 
@@ -174,9 +175,10 @@ Lainaustilanteessa tulee huomautus:
 
 Kun asiakkaan kirjastokortti on kadonnut, toimi kimpassa sovittujen
 käytäntöjen mukaan.  
-Huomautuksen voit poistaa asiakastietojen muokkausnäytöllä vaihtamalla täppä
-**Käyttäjätilin huomautukset** -osiossa **Kortti kadonnut** -kohtaan
-“Ei”.
+
+Huomautus poistuu, kun asiakastietojen muokkausnäytöllä kohdassa 
+*Käyttäjätilin huomautukset* vaihdat *Kortti kadonnut* -kohtaan vaihtoehdon
+“Ei” ja tallennat asiakastiedot.
 
 ### 2.2.5 [Tili lukittu](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151013-tili-lukittu)
 ### 2.2.6 [Rajoite liiallisista kirjautumisyrityksistä](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151014-rajoite-liiallisista-kirjautumisyrityksist%C3%A4)
