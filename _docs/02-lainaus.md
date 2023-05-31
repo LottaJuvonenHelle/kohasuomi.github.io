@@ -38,7 +38,7 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 
 ![](/assets/files/docs/Lainaus/lainaaminen.PNG)
 
-- Viimeksi lainatun niteen tiedot näkyvät *Lainattu*-kentässä.
+- Viimeksi lainatun niteen tiedot näet *Lainattu*-kentässä.
 - Jos klikkaat täpän kohtaan *Näytä aina lainat reaaliaikaisesti*, lainaustilanteessa kaikki asiakkaan lainat näkyvät näytöllä. Tämä valinta voi olla piilotettuna kimpassasi.
 
 **Tärkeää:**
@@ -69,28 +69,29 @@ Kun olet lainannut kaikki asiakkaan lainat, voit tulostaa lainauskuitin
 eri tavoilla. Toimi kimppasi käytäntöjen mukaan.
 
 Kuitin voit tulostaa:
-- Painamalla näppäimistöltä **Enter**. (Huom.
+- Painamalla näppäimistöltä *Enter*. (Huom.
   järjestelmäasetuksista riippuen, Enter voi myös tyhjentää
   asiakastiedot).
-- Painamalla pikanäppäimiä **Alt+P**.
-- Asiakastietojen yläpuolelta olevasta **Tulosta**-valikosta valitsemalla **Tänään lainatut**.
-  
-**Huom!** Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta tulostuvat kaikki asiakkaalla lainassa olevat lainat kuitille.
+- Painamalla pikanäppäimiä *Alt+P*.
+- Asiakastietojen yläpuolelta olevasta *Tulosta*-valikosta valitsemalla *Tänään lainatut*.
+- Lainauskentän oikeassa yläkulmassa näkyvästä tulostimen kuvasta.
 ![](/assets/files/docs/Lainaus/tulostin.PNG)
 
-**Tulosta** -valikosta voit tulostaa myös kuitin:
+*Tulosta* -valikosta voit tulostaa myös lainakuitin toiminnolla *Tänään lainatut*:
 
 ![](/assets/files/docs/Lainaus/tulostakuitti.PNG)
 
-- **Asiakastietojen yhteenveto:** A4-tuloste asiakastiedoista,
+*Tulosta*-valikossa on näkyvillä tulostusvaihtoehdot, jotka ovat kimpassasi otettu käyttöön:
+- *Asiakastietojen yhteenveto*: A4-tuloste asiakastiedoista,
   lainoista, varauksista ja maksujen tilitystiedoista. Tätä ei
   suositella tulostettavan.
-- **Tulosta kuitti:** tulostaa kaikki asiakkaan lainat kuitille.
+- *Tulosta kuitti*: tulostaa kaikki asiakkaan lainat kuitille.
   Tulosteessa erotellaan myöhässä olevat lainat oman otsikon alle.
-- **Tänään lainatut:** tulostaa tänään lainattujen ja uusittujen
+- *Tänään lainatut*: tulostaa tänään lainattujen ja uusittujen
   lainojen tiedot kuitille.
-- **Tulosta erääntyneet**: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
-- **Tulosta tänään palautetut:** antaa asiakkaan palautuksista kuitin.
+- *Tulosta asiakkaan maksut*: tulostaa asiakkaan maksut kuitille.
+-  *Tulosta erääntyneet*: tulostaa erääntyneet lainat, jos asiakkaalla on myöhässä olevia lainoja.
+- *Tulosta palautuskuitti*: antaa asiakkaan palautuksista kuitin.
 
 Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 
