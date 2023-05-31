@@ -223,32 +223,32 @@ lainaamisen jatkamista.
 
 ![](/assets/files/docs/Lainaus/lainhuom5.PNG)
 
-- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa.
+- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ### 2.3.7 Asiakkaalla on liian monta lainaa.
 
 ![](/assets/files/docs/Lainaus/lainhuom6.png)
 
-- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa.
+- Lainauseston ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ### 2.3.8 Viivakoodia ei löytynyt.
 
 ![](/assets/files/docs/Lainaus/lainhuom7.png)
 
 - Pikaluettelointi on mahdollista, jos se on sallittu
-  järjestelmäasetuksissa.
+  järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ### 2.3.9 Lainattava nide on merkitty kadonneeksi.
 
 ![](/assets/files/docs/Lainaus/lainhuom8.png)
 
-- Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautusta.
+- Järjestelmäasetuksissa voidaan määritellä, tuleeko kadonneeksi merkitystä niteestä huomautusta. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ### 2.3.10 Lainattavalla niteellä on ikärajoitus, ja asiakas on liian nuori.
 
 ![](/assets/files/docs/Lainaus/lainhuom9.PNG)
 
-- Ikärajoituksen ohituksen salliminen määritellään järjestelmäasetuksissa.
+- Ikärajoituksen ohituksen salliminen määritellään järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
 
 ### 2.3.11 Lainattavalla niteellä on paljon varauksia, jonka takia lyhennetään laina-aikaa.
 
