@@ -522,7 +522,7 @@ lainaamista, laita valinta _Kyllä_ päälle Tarkista osoite -kohdassa. Lainausn
 Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
 kadonneeksi klikkaamalla _Kyllä_ Kortti kadonnut -kohdassa. Lainausnäytöllä tulee ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi_.
 
-![](/assets/files/docs/Asiakkaat/kadonnutkortti.png)
+![](/assets/files/docs/Asiakkaat/Kadonnutkortti.png)
 
 ##### 1.5.10.1.3 Tili lukittu
 
