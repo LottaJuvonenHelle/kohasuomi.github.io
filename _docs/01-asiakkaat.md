@@ -489,7 +489,7 @@ Lisääminen tapahtuu _Lisää takaaja_ -painikkeella. Hae lisättävän huoltaj
 
 ![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
 
-Valitse hakutuloksesta huoltaja ja klikkaa _Valitse_.
+Valitse hakutuloksesta huoltaja ja klikkaa _Valitse_ (_Select_).
 
 Valitse takaajan suhde ja tallenna.
 
@@ -502,9 +502,6 @@ Asiakkaan kuva voidaan lisätä valitsemalla kuva koneeltasi _Lataa asiakaskuva_
 \- Tämä osio ei ole näkyvissä, jos järjestelmäasetuksissa on estetty
 kuvien tallentaminen
 
-\- Työkaluissa olevalla toiminnolla _Asiakaskuvien lataus_ voi tuoda
-palvelimelle eräajona kuvia
-
 ### 1.5.10. Rajoitukset
 
 #### 1.5.10.1. Käyttäjätilin huomautukset
@@ -513,19 +510,19 @@ palvelimelle eräajona kuvia
 
 Molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta käyttämästä asiakastunnustaan.
 
-##### 1.5.10.1.1 Kortti kadonnut
-
-Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
-kadonneeksi klikkaamalla _Kyllä_ Kortti kadonnut -kohdassa. Lainausnäytöllä tulee ilmoitus _Kadonnut: Asiakkaan kortti on kadonnut_.
-
-![](/assets/files/docs/Asiakkaat/kadonnutkortti.png)
-
-##### 1.5.10.1.2 Väärä osoite
+##### 1.5.10.1.1 Väärä osoite
 
 Jos haluat lainauksen virkailijan tarkistavan asiakkaan osoitteen ennen
 lainaamista, laita valinta _Kyllä_ päälle Tarkista osoite -kohdassa. Lainausnäytöllä tulee ilmoitus _Osoite: Tarkista osoite_.
 
 ![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
+
+##### 1.5.10.1.2 Kortti kadonnut
+
+Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
+kadonneeksi klikkaamalla _Kyllä_ Kortti kadonnut -kohdassa. Lainausnäytöllä tulee ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi_.
+
+![](/assets/files/docs/Asiakkaat/kadonnutkortti.png)
 
 ##### 1.5.10.1.3 Tili lukittu
 
