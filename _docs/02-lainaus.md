@@ -188,14 +188,13 @@ Huomautus poistuu, kun asiakastietojen muokkausnäytöllä kohdassa
 
 ### 2.3.1 Huomautus liitteistä
 
-Jos lainaat niteen, joka sisältää useita osia ja tieto osista on
+Jos lainaat asiakkaalle niteen, joka sisältää useita osia ja tieto osista on
 tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
-ponnahdusikkunan, jossa kerrotaan montako osaa nide sisältää.
+ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 
 ![](/assets/files/docs/Lainaus/huomsisallosta.PNG)
 
-Joskus lainaustilanteessa näytölle voi tulla keltaisessa laatikossa
-oleva huomautus. Nämä huomautukset on käsiteltävä/huomioitava ennen
+Joskus lainaustilanteessa näytölle voi tulla keltaisella pohjalla oleva huomautus. Nämä huomautukset on käsiteltävä/huomioitava aina ennen
 lainaamisen jatkamista.
 
 ### 2.3.2 Aineisto on varattu jollekin toiselle asiakkaalle. Varausta ei ole vielä otettu kiinni.
