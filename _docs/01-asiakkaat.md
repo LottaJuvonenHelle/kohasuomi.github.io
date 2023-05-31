@@ -354,22 +354,22 @@ oteta mukaan tilastoihin.
 
 ## 1.5. Asiakkaan tietojen muokkaaminen
 
-Asiakkaan tietoja voidaan muokata eri painikkeiden kautta. Huom. Tässä voi olla kimppakohtaisia eroja.
-
-Muokataksesi jotain tiettyä osiota asiakastiedoissa (esim.
-Kirjastotiedot) klikkaa sen osion alla olevaa sinistä _Muokkaa_-linkkiä.
-
-![](/assets/files/docs/Asiakkaat/muokkaanappi2.png)
-
-Asiakastietojen yläreunassa olevilla painikkeilla pääset lisäämään asiakkaalle huollettavan, vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa, lisäämään asiakastietoihin viestin sekä Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, poistamaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. 
-
-Koko asiakastietueen muokkaukseen pääset _Muokkaa_-painiketta klikkaamalla.
-
 ![](/assets/files/docs/Asiakkaat/Muokkaanappi1.png)
+
+Asiakastietojen yläreunassa olevilla painikkeilla pääset muokkaamaan asiakastietoja, lisäämään asiakkaalle huollettavan, 
+vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, 
+tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa ja lisäämään asiakastietoihin viestin. 
+
+Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloasähköpostin, 
+poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi. 
+
+![](/assets/files/docs/Asiakkaat/Muitatoimintoja.png)
 
 ### 1.5.1. Lisää huollettava
 
-Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. _Lisää huollettava-nappi_ avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla huoltaja. Valittuasi asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy automaattisesti.
+Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. _Lisää huollettava-nappi_ avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla huoltaja. Valittuasi asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy automaattisesti. Valitse Suhde-alasvetovalikosta oikea vaihtoehto.
+
+![](/assets/files/docs/Asiakkaat/Lisaahuollettava.png)
 
 ### 1.5.2. Salasanan vaihtaminen
 
@@ -383,8 +383,8 @@ Asiakkaan salasanaa ei voi nähdä. Jos asiakas unohtaa salasanansa, hänelle pi
 jos et halua vaihtaa salasanaa.
 
 \- Jos haluat automaattisesti luodun salasanan, klikkaa _Valitse tästä
-luodaksesi satunnaisesti luodun salasanaehdotuksen_. Salasanat näytetään
-tekstinä.
+luodaksesi satunnaisesti luodun salasanaehdotuksen. Salasanat näytetään
+tekstinä._
 
 - Muista tallentaa.
 
