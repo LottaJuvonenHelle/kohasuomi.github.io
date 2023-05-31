@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22 muistio
 
 Aika: 30.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Susanna Sandell (Vaski)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Susanna Sandell (Vaski), Piia Semenoff, Pirkko-Liisa Lauhikari, Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset**
 * Vaskin asiakasvarmenne vanhenee jo elokuussa
@@ -47,6 +47,9 @@ Pohjoisesta etelään
 * Selvityksen alla otetaanko Hypernovan Koha SaaS-palveluna Oppimateriaalikeskukselle. Hypernova tarjoaa Kohan yhteisöversiota.
 * Vaskissa Pääkäyttäjän vakityö tarjolla.
 * Finnassa oli vanhoilla Apple-laitteilla ongelma, jonka Ere ilmeisesti sai ratkaistua.
+
+**OUTI**
+* Asiakkaille on tullut vielä miinusmerkkisiä maksuja, koska he pystyvät maksamaan verkkomaksupalvelussa saman maksun kahteen kertaan. Maalis-toukokuussa tuplamaksuja viidellä asiakkaalla.  
 
 
 ## Viikko 21 muistio
