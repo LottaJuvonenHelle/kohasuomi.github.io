@@ -391,19 +391,14 @@ tekstinä._
 ### 1.5.3. Asiakkaan tietojen kopioiminen
 
 Joissakin tilanteissa on tarpeen käyttää asiakastietojen kopioimista, jos
-esim. saman perheen jäsenille tehdään useita kortteja. Kohassa on
+esim. samaan perheeseen tehdään useita kortteja. Kohassa on
 toiminto, jolla voidaan kopioida henkilötiedot, jotka toistuvat eri
 tietueissa.
 
 Avaa sen asiakkaan tiedot, jonka haluat kopioida ja klikkaa
 _Kopioi_-nappia tietueen yläreunassa.
 
-Sukunimi, osoite, matkapuhelinnumero, sähköpostiosoite, kirjasto, asiakastyyppi ja ilmoitusten kieli 
-kopioituvat uuteen lomakkeeseen. Lisää puuttuvat tiedot ja klikkaa _Tallenna_.
-
-\- Lapsiasiakkaalta kopioituu myös hänen takaajatietonsa.
-
-\- Matkapuhelinkentän puhelinnumero kopioituu myös asiakkaan viestiasetuksiin.
+Tarkista, että kaikki tiedot ovat oikein ja täydennä puuttuvat tiedot.
 
 - Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
 
