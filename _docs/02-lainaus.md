@@ -197,7 +197,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 Joskus lainaustilanteessa näytölle voi tulla keltaisella pohjalla oleva huomautus. Nämä huomautukset on käsiteltävä/huomioitava aina ennen
 lainaamisen jatkamista.
 
-### 2.3.2 Aineisto on varattu jollekin toiselle asiakkaalle. Varausta ei ole vielä otettu kiinni.
+### 2.3.2 Aineisto on varattu jollekin toiselle asiakkaalle. Varaus ei ole jäänyt vielä kiinni.
 
 ![](/assets/files/docs/Lainaus/lainhuom1.PNG)
 
@@ -206,18 +206,18 @@ lainaamisen jatkamista.
 ![](/assets/files/docs/Lainaus/lainhuom2.PNG)
 
 - Jos esimerkiksi toinen perheenjäsen haluaa lainata varatun
-  aineiston, valitse **Poista varaus** ja klikkaa **Kyllä, lainaa
-  (Y)**. Varaus poistuu alkuperäiseltä varaajalta.
-- Jos valitset vaihtoehdon **Peruuta odottava-tila** ja klikkaat **Kyllä, lainaa
-  (Y)**, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi. 
+  aineiston, valitse *Poista varaus* ja klikkaa *Kyllä, lainaa
+  (Y)*. Varaus poistuu alkuperäiseltä varaajalta.
+- Jos valitset vaihtoehdon *Peruuta odottava-tila* ja klikkaat *Kyllä, lainaa
+  (Y)*, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi. Muista käydä lisäämässä varaukselle Vanhenee-päivämäärä teoksen Varaukset-sivulla.
 
 ### 2.3.4 Nide on jo lainassa tällä asiakkaalla.
 
-![](/assets/files/docs/Lainaus/lainhuom3.PNG)
-
-### 2.3.5 Aineisto on lainassa toisella asiakkaalla.
-
 ![](/assets/files/docs/Lainaus/lainhuom4.PNG)
+
+### 2.3.5 Nide on lainassa toisella asiakkaalla.
+
+![](/assets/files/docs/Lainaus/lainhuom3.PNG)
 
 ### 2.3.6 Aineistoa ei lainata (niteen tila on “Ei lainattavissa”).
 
