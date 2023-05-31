@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 22 muistio
 
 Aika: 30.5.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Susanna Sandell (Vaski), Piia Semenoff, Pirkko-Liisa Lauhikari, Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Susanna Sandell (Vaski), Piia Semenoff, Pirkko-Liisa Lauhikari, Veli-Pekka Marjoniemi (OUTI), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Vaskin asiakasvarmenne vanhenee jo elokuussa
@@ -50,6 +50,11 @@ Pohjoisesta etelään
 
 **OUTI**
 * Asiakkaille on tullut vielä miinusmerkkisiä maksuja, koska he pystyvät maksamaan verkkomaksupalvelussa saman maksun kahteen kertaan. Maalis-toukokuussa tuplamaksuja viidellä asiakkaalla.  
+
+**Lumme**
+* Asiakashaku aiheuttaa Lumpeissakin pientä sekaannusta. 
+* Lumpeissa oli myös väärä attribuuttiarvo sotusiilon rimpsussa, Anneli korjasi.
+* Normaalia pikkukorjauksia niin kuin muuallakin.
 
 
 ## Viikko 21 muistio
