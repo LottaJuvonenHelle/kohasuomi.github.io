@@ -51,6 +51,8 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 
 **Lainausasetukset**
 
+- Kimpassasi käytössä olevat lainausasetukset saat näkyville klikkaamalla viivakoodi-kentän lopussa olevaa valikko-kuvaketta.
+
 ![](/assets/files/docs/Lainaus/lainausasetukset.PNG)
 
 - Asetuksissa on mahdollista määritellä lainattavalle aineistolle muu
@@ -100,9 +102,9 @@ Kimpan pääkäyttäjät voivat muokata kuiteille tulostuvia tietoja.
 Kun lopetat lainaamisen, näytöltä on hyvä tyhjeentää asiakkaan tiedot.
 Näytön voit tyhjentää kahdella tavalla:
 
-- Painamalla **Enter**. (Huom! asetuksista riippuen, Enter voi tulostaa myös
+- Painamalla *Enter*. (Huom! asetuksista riippuen, Enter voi tulostaa myös
   asiakkaan lainakuitin).
-- Klikkaamalla **X-merkkiä** lainauskentän oikeasta yläkulmasta.
+- Klikkaamalla *X-merkkiä* lainauskentän oikeasta yläkulmasta.
 
 ![](/assets/files/docs/Lainaus/tyhjennys.PNG)
 
@@ -117,7 +119,7 @@ näytölle tulee huomautus lainaamisen eston syystä.
 ### 2.2.1 Asiakkaalla on liikaa maksuja
 
 ![](/assets/files/docs/Lainaus/liikaamaksuja.png)  
-Hox! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
+Huom! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
 
 ### 2.2.2 Asiakkaalla on rajoitus (lainauskielto)
@@ -125,14 +127,20 @@ raja on ylittynyt.
 Asiakkaille voidaan tallentaa rajoitus, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty.
 Rajoitus voi olla voimassa toistaiseksi tai määräajan. 
 
-Rajoituksen voit tallentaa asiakastietojen muokkausnäytöllä kohdassa **Asiakkaan
-rajoitukset** tai välilehdellä **Rajoitukset**. Laita **Selitys**-kenttään rajoituksen syy ja jos rajoitus halutaan
-olemaan voimassa vain tietyn ajan, laita **Vanhenee**-kohtaan viimeinen
+Rajoituksen voit tallentaa asiakastietojen muokkausnäytöllä kohdassa *Asiakkaan
+rajoitukset*:
+![](/assets/files/docs/Lainaus/rajoitteenlisäys1.PNG) 
+
+tai asiakkaan tiedoissa välilehdellä *Rajoitukset*:
+![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG) 
+
+Tallenna *Viesti/Kommentti*-kenttään rajoituksen syy. Jos rajoitus halutaan
+olemaan voimassa vain tietyn ajan, tallenna *Vanhenee*-kohtaan rajoituksen viimeinen
 voimassaolopäivä.
 
   ![](/assets/files/docs/Lainaus/rajoitteenlisäys.PNG)
   
-  Tallenna rajoitus **Lisää rajoitus** -painikkeesta.  
+  Asiakkaan muokkausnäytöllä rajoite tallentuu asiakkaalle, kun asiakkaan tiedot tallennetaan. Rajoitukset-välilehdellä rajoitus tallennetaan *Lisää rajoitus* -painikkeella.  
   
   Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
