@@ -32,6 +32,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 *  Taustatyöt
   * Kaikissa indeksoinneissa raportissa _/ tietuetta indeksoitu onnistuneesti. Joitain virheitä esiintyi._, vaikka indeksointi tuntuisi kuitenkin onnistuneen.
 * noreply(at)koha-suomi.fi osoitteesta Kohasta koha-suomi.fi-päätteisiin osoitteisiin lähetetyt viestit feilaa: _Recipient address rejected: User unknown in local recipient table_
+* Varausten noutoilmoitukset lähtevät versionvaihdon jälkeen kirjaston osoitteesta eli kirjaston tiedoissa olevasta replyto-osoitteesta, eikä kirjaston osoitteesta, jossa on noreply(at)koha-suomi.fi-osoite.
 
 
 ### Maanantai 29.5.2023 klo 10
