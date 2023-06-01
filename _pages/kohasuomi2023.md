@@ -18,19 +18,31 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ### Torstai 1.6.2023 klo 10
 
 * Pääkäyttäjät kysyy: onko tulossa testeille uudempi sisältö (asiakkaat, tietueet yms.) (lähiaikoina)?
+  * Pasi päivittää
+  * redusoituun kantaan isompi setti tietueita, asiakkaita, lehtitilauksia. Osakohteita enemmän. Enemmän erilaisissa nidetiloissa olevia niteitä. Asiakastiedot: asiakkailta puuttui huollettavia ja varauksia -> helpompi, jos asiakkaan kaikki huollettavat, varaukset ja lainat otettaisiin mukaan. -> Määrät mietintään vko 23 pääkäyttäjäpalsussa
 * Pääkäyttäjäpalsusta: varmenne toivottiin vanhenemaan kesälomajan ulkopuolelle ja ehdotettiin toukokuuta.
+  * Koha-Suomi pitäisi varmenteen vaihtoajankohdan mielummin syksyllä. Keskustellaan asiasta lisää pääkäyttäjien kanssa loppuvuodesta.
 * Pääkäyttäjien palaveriin osallistuminen Annelin loman aikana.
-* Versiopäivityksen tietokantamuutosten jako
+  * Päivystäjät osallistuvat palavereihin ja tiedottavat esim. päivityksistä
+* Versiopäivityksen tietokantamuutosten jakaminen Hypernovalle?
+  * Emmi ja Kodo katselee läpi skriptit ja jaetaan sitten Hypernovalle
 * Miten saataisiin testilaskuja Kirkes-testiltä Sarastialle?
+  * Kirkesläisille laitettu ohjeita laskutustyökalun käyttöön ja konfiguraatioon.
+  * Testilaskut voi tehdä työkalulla valmiiksi.
+  * sanoman muodostamiseen ja lähettämiseen tarvitaan sitten kehittäjien apua.
+  * Emmi ja Lasse avuksi 
 * Omituisia puhelinnumeroiden katoamisia ja muuttumisia raportoitu ainakin OUTIssa ja Kyytissä:
   * [OUTI: asiakkaan tiedoissa on ruksattuna noutoilmoitus tekstiviestinä, mutta puhelinnumero SMS-kentästä puuttuu #607](https://github.com/KohaSuomi/Koha/issues/607)
   * [OUTI: Asiakkaalle muuttunut vanha puhelinnumero matkapuhelin- ja tekstiviesti numeroon -kenttiin #608](https://github.com/KohaSuomi/Koha/issues/608)
   * Onko jotain tehty meillä ke 17.5.2023 klo 21 jälkeen?
+    * Ei ole
+  * Anneli testaa vielä erilaisia skenaarioita, mitkä voisi tyhjentää numerot
 *  [deleted-tauluissa biblioitemnumberin ja biblionumberin epäsynkka #606](https://github.com/KohaSuomi/Koha/issues/606)
 *  [Lumme: 500-virhe tehtäessä kirjaston perustoimintoja #611](https://github.com/KohaSuomi/Koha/issues/611)
 *  Tikettien vastuutus
 *  Taustatyöt
-  * Kaikissa indeksoinneissa raportissa _/ tietuetta indeksoitu onnistuneesti. Joitain virheitä esiintyi._, vaikka indeksointi tuntuisi kuitenkin onnistuneen.
+  * Kaikissa indeksoinneissa raportissa _/ tietuetta indeksoitu onnistuneesti. Joitain virheitä esiintyi._, vaikka indeksointi tuntuisi kuitenkin onnistuneen. -> Anneli tekee tiketin
+  * Anneli tekee tiketin jonon siivoamisestakin
 * noreply(at)koha-suomi.fi osoitteesta Kohasta koha-suomi.fi-päätteisiin osoitteisiin lähetetyt viestit feilaa: _Recipient address rejected: User unknown in local recipient table_
 * Varausten noutoilmoitukset lähtevät versionvaihdon jälkeen kirjaston osoitteesta eli kirjaston tiedoissa olevasta replyto-osoitteesta, eikä kirjaston osoitteesta, jossa on noreply(at)koha-suomi.fi-osoite.
   * MariaDB [outiprod]> select message_id,to_address,from_address,reply_address from message_queue where borrowernumber=246585 order by 1 desc limit 1;
