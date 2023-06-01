@@ -33,6 +33,13 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
   * Kaikissa indeksoinneissa raportissa _/ tietuetta indeksoitu onnistuneesti. Joitain virheitä esiintyi._, vaikka indeksointi tuntuisi kuitenkin onnistuneen.
 * noreply(at)koha-suomi.fi osoitteesta Kohasta koha-suomi.fi-päätteisiin osoitteisiin lähetetyt viestit feilaa: _Recipient address rejected: User unknown in local recipient table_
 * Varausten noutoilmoitukset lähtevät versionvaihdon jälkeen kirjaston osoitteesta eli kirjaston tiedoissa olevasta replyto-osoitteesta, eikä kirjaston osoitteesta, jossa on noreply(at)koha-suomi.fi-osoite.
+  * MariaDB [outiprod]> select message_id,to_address,from_address,reply_address from message_queue where borrowernumber=246585 order by 1 desc limit 1;
+
+| message_id | to_address                    | from_address                 | reply_address |
+|---|---|---|---|
+|   10891322 | anneli.osterman(at)koha-suomi.fi | kaijonharju.kirjasto(at)ouka.fi | NULL          |
+
+ 
 
 
 ### Maanantai 29.5.2023 klo 10
