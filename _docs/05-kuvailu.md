@@ -63,7 +63,7 @@ Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 
 ### 5.1.2. Osakohteiden lisääminen
 
-Nimekkelle voi lisätä osakohteita eli sisältöä haettavassa muodossa.
+Tietueelle voi lisätä osakohteita (julkaisuun sisältyviä novelleja, artikkeleita, sävellyksiä jne.)
 Valitse nimeketiedoissa _Uusi -&gt; Uusi osakohde_.
 
 ![](/assets/files/docs/Luettelointi/kuvailu6.png)
@@ -75,9 +75,9 @@ mikäli kuvailet musiikkiaineistoa.
 
 Kuvaile osakohde. Pakollisia kenttiä ovat 245a (päänimeke), 300a
 (laajuus tai kesto), 942c (aineistolaji, valitaan valikosta) sekä
-tallennuksen jälkeen muodostuva 008-kenttä (jos ei halua tarkemmin
+tallennuksen jälkeen muodostuva 008-kenttä. Jos et halua tarkemmin
 määritellä osakohteiden ominaisuuksia, riittää kun tallennat toiseen
-kertaan tietueen). Automaattisesti täyttyy linkkikenttä 773
+kertaan tietueen. Automaattisesti täyttyy linkkikenttä 773
 tarvittavilla emon tiedoilla, kuten kuvassa alla:
 
 ![](/assets/files/docs/Luettelointi/kuvailu7.png)
