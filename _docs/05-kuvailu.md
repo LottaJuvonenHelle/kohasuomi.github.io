@@ -65,6 +65,7 @@ Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 
 Täydellisten kuvailutietueiden valutus paikalliskantaan on selostettu erillisessä ohjeessa 
 https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/KohaSuomiServices-mikropalvelu
+Tämä toiminto on käytössä Koha-Suomen yleisissä kirjastokimpoissa.
 
 ### 5.1.3. Osakohteiden lisääminen
 
