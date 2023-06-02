@@ -13,6 +13,12 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 23 muistiot
+
+### Maanantai 5.6.2023 klo 10
+
+* [Seuraava yhteisön kehittäjien irc-tapaaminen 7.6.2023](https://wiki.koha-community.org/wiki/Development_IRC_meeting_7_June_2023)
+
 ## Viikon 22 muistiot
 
 ### Torstai 1.6.2023 klo 10
