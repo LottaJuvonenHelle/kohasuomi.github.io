@@ -61,7 +61,12 @@ Z39.50/SRU -haun kautta, pääset jatkamaan kuvailua.
 
 ![](/assets/files/docs/Luettelointi/kuvailu5.png)
 
-### 5.1.2. Osakohteiden lisääminen
+### 5.1.2. Tietueen valuminen TäTistä/Mikropalvelu
+
+Täydellisten kuvailutietueiden valutus paikalliskantaan on selostettu erillisessä ohjeessa 
+https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/KohaSuomiServices-mikropalvelu
+
+### 5.1.3. Osakohteiden lisääminen
 
 Tietueelle voi lisätä osakohteita (julkaisuun sisältyviä novelleja, artikkeleita, sävellyksiä jne.)
 Valitse nimeketiedoissa _Uusi -&gt; Uusi osakohde_.
@@ -86,7 +91,7 @@ Osakohteella ei ole niteitä, joten niteidentallennusnäytölle ei tarvitse
 tallentaa mitään, vaan voit palata vasemmalta _Perustiedot_-painikkeesta
 teoksen tietoihin.
 
-### 5.1.3. Tietueiden muokkaaminen peruseditorissa
+### 5.1.4. Tietueiden muokkaaminen peruseditorissa
 
 Muokataksesi nimeketietuetta ollessasi Kuvailu-osiossa klikkaa
 _Muokkaa tietuetta_ hakutulosnäytöllä
@@ -169,7 +174,7 @@ _Tallenna_ -painiketta.
 
 ![](/assets/files/docs/Luettelointi/kohakuvat7224.png)
 
-### 5.1.4. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
+### 5.1.5. Tietueiden muokkaaminen uudessa editorissa (kehittynyt editori)
 
 Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon asetuksessa _EnableAdvancedCatalogingEditor_. Editori ei ole vielä täysin
 luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
@@ -198,20 +203,20 @@ sisällön.
 
 ![](/assets/files/docs/Luettelointi/luettelointi104.png)
 
-#### 5.1.4.1. Pikanäppäimet uudessa editorissa
+#### 5.1.5.1. Pikanäppäimet uudessa editorissa
 
 _Pikanäppäimet_-valikon alta löytyy tarvittavat pikanäppäimet: 
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi545.png)
 
-### 5.1.4.2. Virtuaalinäppäimistö 
+### 5.1.5.2. Virtuaalinäppäimistö 
 
 Näppäinyhdistelmällä Shift-Ctrl-K saat esiin virtuaalinäppäimistön ja valikkorivillä olevasta painikkeesta
 _Näppäimistöasettelu_ pääset valitsemaan, millä kielellä haluat virtuaalinäppäimistön näkyville.
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi546.png)
 
-#### 5.1.4.3. Makrot uudessa editorissa
+#### 5.1.5.3. Makrot uudessa editorissa
 
 Makro on kätevä tapa lisätä kenttiä tietueeseen uudessa editorissa. Makro otetaan käyttöön
 valikkorivin _Makrot_-painikkeesta. Anna ensin uudelle makrolle kuvaava nimi ja sen jälkeen lisää
@@ -225,7 +230,7 @@ tarvittavat toiminnot. Voit lisätä useita toimintoja samaan makroon. Makro tal
 
 Valmiita makroja löydät yhteisön wikistä https://wiki.koha-community.org/wiki/Advanced_editor_macros (englanniksi)
 
-### 5.1.5. Tietueen kopioiminen
+### 5.1.6. Tietueen kopioiminen
 
 Aina et löydä haluamaasi tietuetta Z39.50/SRU -haun kautta. Näissä
 tapauksissa voit tehdä kopion samantyyppisestä tietueesta ja muokata
@@ -242,12 +247,12 @@ tallennat tietueen.
 
 ![](/assets/files/docs/Luettelointi/kuvailu16.png)
 
-### 5.1.6. Tietueiden yhdistäminen
+### 5.1.7. Tietueiden yhdistäminen
 
 Useita tietueita (tuplia) voidaan yhdistää yhdeksi tietueeksi
 Kuvailun tai tiedonhaun kautta.
 
-#### 5.1.6.1 Tietueiden yhdistäminen kuvailun kautta
+#### 5.1.7.1 Tietueiden yhdistäminen kuvailun kautta
 
 Hae yhdistettävät tietueet kuvailuhaun kautta, valitse niistä
 haluamasi tietueet ja käytä _Yhdistä valitut_ -toimintoa.
@@ -282,7 +287,7 @@ Yhdistämisraportti näyttää tältä edellä mainittujen asetusten mukaan:
 
 ![](/assets/files/docs/Luettelointi/luettelointi013.png)
 
-#### 5.1.6.2 Tietueiden yhdistäminen tiedonhaun kautta
+#### 5.1.7.2 Tietueiden yhdistäminen tiedonhaun kautta
 
 Hae tiedonhaussa teokset ja vie ne haluamaasi listaan.
 
@@ -300,7 +305,7 @@ Tämän jälkeen prosessi jatkuu kuten [kuvailun kautta
 aloitettaessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/3_Luettelointi#3161-Tietueiden-yhdist%C3%A4minen-luetteloinnin-kautta),
 kuvasta “Yhdistetään tietueita”.
 
-### 5.1.7. Tietueiden poistaminen
+### 5.1.8. Tietueiden poistaminen
 
 Tietue voidaan poistaa valitsemalla _Muokkaa_-valikosta _Poista tietue_.
 
