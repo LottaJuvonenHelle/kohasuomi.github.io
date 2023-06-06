@@ -18,7 +18,10 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 * normaalia ylläpitoa 
 * ihmettelimme jälleen eilen sitä, että lainojen ja varausten määrä ei noudata laina- ja maksusäännöissä tehtyjä asetuksia. Teen tiketin, jotta kehittäjät voisivat jossain vaiheessa tutkia, eikö tälle todellakaan voi mitään. Ongelma on ollut olemassa jo vuosia.
 
-
+**Lappi**
+* Normaalia ylläpitoa
+* Asiakkaan syntymäaika oli osunut kesäaikaan siirtymisen päivämäärälle, jonka vuoksi asiakkaan viivakoodi antoi virheen 500. Korjattu vaihtamalla syntymäpäivä. Emmi hoitaa selvitystä eteenpäin, tiketti #620
+* Saarenkylän kirjasto remontissa 22.6. - 30.7. Saarenkylän kirjaston aineistolle ajetaan not_loan-tila. Muuten ei aiheuta suuria muutoksia, sillä kiinnioloajan kirjastoauto leikkii olevansa Saarenkylän kirjasto ko. kirjaston pihalla
 
 ## Viikko 22 muistio
 
