@@ -207,7 +207,7 @@ _Pikanäppäimet_-valikon alta löytyy tarvittavat pikanäppäimet:
 
 ![](/assets/files/docs/Luettelointi/kohakuvatkausi545.png)
 
-### 5.1.5.2. Virtuaalinäppäimistö 
+#### 5.1.5.2. Virtuaalinäppäimistö 
 
 Näppäinyhdistelmällä Shift-Ctrl-K saat esiin virtuaalinäppäimistön ja valikkorivillä olevasta painikkeesta
 _Näppäimistöasettelu_ pääset valitsemaan, millä kielellä haluat virtuaalinäppäimistön näkyville.
