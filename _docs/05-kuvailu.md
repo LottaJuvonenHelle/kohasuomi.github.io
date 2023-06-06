@@ -180,9 +180,6 @@ _Tallenna_ -painiketta.
 Jos halutaan käyttää uutta editoria, se pitää laittaa päälle ylläpidon asetuksessa _EnableAdvancedCatalogingEditor_. Editori ei ole vielä täysin
 luotettava, joten kannattaa suhtautua varauksella sen käyttöön.
 
-HUOM! Ongelma on tietueen tallentamisessa, sillä uusi editori tuo tietueen ISBN:n viivojen kera ja silloin ei toimi tuplakontrolli, koska
-olemassa olevat tietueet ovat ilman ISBN:ssa olevia viivoja.
-
 ![](/assets/files/docs/Luettelointi/kuvailu15.png)
 
 Voit avata uuden, tyhjän tietueen tai tuoda toisesta järjestelmästä
