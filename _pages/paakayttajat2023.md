@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti)
 
 Etelästä pohjoiseen
 
@@ -40,6 +40,9 @@ Etelästä pohjoiseen
 * Ei mainittavaa Kohassa
 * Siilin kuvailija kävi opintomatkalla Vaarassa, kiitos opastuksesta!
 
+**Kyyti**
+* Uuden asiakkaan tervetuloviesti laitettu päälle eilen.
+* Tuomas jää lomalle tämän viikon jälkeen ja palaa elokuussa. Kotkan Roosa Väisänen paikalla suuren osan kesää.
 
 ## Viikko 22 muistio
 
