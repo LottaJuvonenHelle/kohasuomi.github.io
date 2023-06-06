@@ -12,7 +12,9 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
+
+Etelästä pohjoiseen
 
 **Vaara**
 * normaalia ylläpitoa 
@@ -33,6 +35,10 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren
 * Asiakkaalta Matkapuhelin-kentästä ja SMS-kentästä ovat puhelin numerot kadonneet. Ruksi noutoilmoituksen lähettämisestä testiviestinä on asiakkaalla päällä.  Ei näy, että hänen tietojaan olisi kukaan muokannut. OUTIssa on tullut muutama tapaus esille ja Kyytissä yksi. Ongelmasta tiketissä: https://github.com/KohaSuomi/Koha/issues/607.
 * Sähköpostina lähetettävien ilmoitusten lähettäjäosoite muuttunut versopäivityksessä. Nyt lähettäjänä on taas noutokirjaston sähköpostiosoite, kun se pitäisi olla noreply@koha-suomi.fi. Tiketti: https://github.com/KohaSuomi/Koha/issues/616
 * Asiakas oli ilmoittanut, että hän oli saanut sähköpostiin ilmoituksen, että kirjastokorttisi PIN-koodi vaihdettiin. Asiakas oli kertonut, ettei hän ole sitä tehnyt. Asiakkaan muutoslokilla ei näkynyt tietoa, että PIN-koodi olisi vaihdettu asiakkaan tai virkailijan toimesta. Asiakkaan Ilmoitukset-sivulla ei ollut myöskään ko. ilmoitusta. Asiakkaan huollettavalle, jolla sama s-postiosoite kuin huoltajalla, ei ole PIN-koodia vaihdettu. Tietokannasta ei löydy muita asiakkaita, joilla olisi sama s-postiosoite kuin tällä henkilöllä. Asiakkaalta pyydetty s-posti vielä nähtäväksi, jotta voimme varmistaa, onko posti lähetetty OUTIsta vai mahdollisesti jostain toisesta Koha-Suomen kimpan kirjastosta, jossa olisi asiakkaan kaima ja gmaili olisi jättänyt huomiotta osoitteessa olleen mahdollisen pisteen.
+
+**Siilinjärvi**
+* Ei mainittavaa Kohassa
+* Siilin kuvailija kävi opintomatkalla Vaarassa, kiitos opastuksesta!
 
 
 ## Viikko 22 muistio
