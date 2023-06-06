@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle)
 
 **Vaara**
 * normaalia ylläpitoa 
@@ -22,6 +22,10 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 * Normaalia ylläpitoa
 * Asiakkaan syntymäaika oli osunut kesäaikaan siirtymisen päivämäärälle, jonka vuoksi asiakkaan viivakoodi antoi virheen 500. Korjattu vaihtamalla syntymäpäivä. Emmi hoitaa selvitystä eteenpäin, tiketti #620
 * Saarenkylän kirjasto remontissa 22.6. - 30.7. Saarenkylän kirjaston aineistolle ajetaan not_loan-tila. Muuten ei aiheuta suuria muutoksia, sillä kiinnioloajan kirjastoauto leikkii olevansa Saarenkylän kirjasto ko. kirjaston pihalla
+
+**Helle**
+* Asiakastiedon muokkauksen Käyttökieli-asiakasmääre on nyt Asiakkaan identiteetti -osiossa.
+* Asiakastiedon muokkauksen Muut määreet -osio piilotettu.
 
 ## Viikko 22 muistio
 
