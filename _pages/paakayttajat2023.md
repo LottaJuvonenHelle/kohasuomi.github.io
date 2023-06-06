@@ -24,7 +24,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren
 * Saarenkylän kirjasto remontissa 22.6. - 30.7. Saarenkylän kirjaston aineistolle ajetaan not_loan-tila. Muuten ei aiheuta suuria muutoksia, sillä kiinnioloajan kirjastoauto leikkii olevansa Saarenkylän kirjasto ko. kirjaston pihalla
 
 **Helle**
-* Asiakastiedon muokkauksen Käyttökieli-asiakasmääre on nyt Asiakkaan identiteetti -osiossa.
+* Asiakastiedon muokkauksen Käyttökieli-asiakasmääre on nyt Asiakas identiteetti -osiossa.
 * Asiakastiedon muokkauksen Muut määreet -osio piilotettu.
 
 ## Viikko 22 muistio
