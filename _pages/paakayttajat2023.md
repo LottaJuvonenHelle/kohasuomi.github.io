@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Anni Rajala (Vaski)
 
 Etelästä pohjoiseen
 
@@ -48,6 +48,11 @@ Etelästä pohjoiseen
 * Normaalia ylläpitoa.
 * Lumme-Finna temppuili viime viikon loppupuolella, ongelma saatiin korjattua kehittäjien puolella. Tarkkaa syytä sivujen ulkonäköasetusten katoamiselle ei saatu.
 * Lumpeissa oli käytössä asetus, jolla lainoja sai uusittua, vaikka niihin oli varaus, jos vapaana oli saatavana olevia niteitä. Asetus jouduttiin ottamaan pois käytöstä, sillä se tuotti ongelmia lehtien varauksissa. Myös mahdolliset asiakkaiden kokemat ongelmat omien Finna-tietojen näkemisessä saattoivat johtua tästä asetuksesta. Tilannetta seuraillaan.
+
+**Vaski**
+* Finnassa otettu käyttöön kuljetustilaisen varauksen peruminen.
+* Kohassa otettu käyttöön asetus AllowRenewalIfOtherItemsAvailable, joka sallii varatun teoksen lainan uusimisen silloin kun teoksella on varaukset täyttäviä niteitä vähintään niin paljon kuin varauksia. Lumpeissa asetuksesta oli luovuttu, koska asetus ei osannut huomioida nidevarauksia ja näin näyttää olevan edelleen (oli unohtunut Vaskilta testata). Yhteisöstä löytyi tiketti aiheesta ja sen pohjalta Githubissa nyt [tiketti 630](https://github.com/KohaSuomi/Koha/issues/630) jossa toiveena saada yhteisön korjaus käyttöön.
+* Hitautta havaittu asiakashaussa, lisäksi raporteilla tullut proxy erroria ja Finnassa epäonnistunut lehtitietueiden saatavuustietojen haku. Asiakashaun hitautta havaittu muuallakin (muttei kaikkialla). Vaski tekee havainnoistaan tiketin.
 
 
 ## Viikko 22 muistio
