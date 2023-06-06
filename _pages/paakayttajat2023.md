@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Vaara**
 * normaalia ylläpitoa 
@@ -26,6 +26,14 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren
 **Helle**
 * Asiakastiedon muokkauksen Käyttökieli-asiakasmääre on nyt Asiakas identiteetti -osiossa.
 * Asiakastiedon muokkauksen Muut määreet -osio piilotettu.
+
+**OUTI**
+* OUTIn Finvoice-laskuissa puuttuvat ääkköset laskutettavan teoksen nimestä ja tekijältä. Tiedot ovat ”ArticleName”-kentässä. Asiakkaan Ilmoitukset-sivulla näkyvässä laskussa ääkköset näkyvät oikein, mutta kun laskutiedot siirtyvät kuntien laskutusohjelmiin, josta laskut lopullisesti tulostetaan, ääkköset ovat hävinneet ko. kentän tiedoilta. Ongelmaan ehkä löydetty ratkaisu. Piia tehnyt uudet testilaskut tänään, joista pääsemme tarkistamaan asian. Tiketti: https://github.com/KohaSuomi/Koha/issues/621
+* OUTIssa deleted-tauluissa biblioitemnumberin ja biblionumberin epäsynkkaa. Ei onnistu tietueen tai/ja niteen poistot, tulee virhe 500. Ongelmasta tiketeissä: https://github.com/KohaSuomi/Koha/issues/604 ja https://github.com/KohaSuomi/Koha/issues/606.
+* Asiakkaalta Matkapuhelin-kentästä ja SMS-kentästä ovat puhelin numerot kadonneet. Ruksi noutoilmoituksen lähettämisestä testiviestinä on asiakkaalla päällä.  Ei näy, että hänen tietojaan olisi kukaan muokannut. OUTIssa on tullut muutama tapaus esille ja Kyytissä yksi. Ongelmasta tiketissä: https://github.com/KohaSuomi/Koha/issues/607.
+* Sähköpostina lähetettävien ilmoitusten lähettäjäosoite muuttunut versopäivityksessä. Nyt lähettäjänä on taas noutokirjaston sähköpostiosoite, kun se pitäisi olla noreply@koha-suomi.fi. Tiketti: https://github.com/KohaSuomi/Koha/issues/616
+* Asiakas oli ilmoittanut, että hän oli saanut sähköpostiin ilmoituksen, että kirjastokorttisi PIN-koodi vaihdettiin. Asiakas oli kertonut, ettei hän ole sitä tehnyt. Asiakkaan muutoslokilla ei näkynyt tietoa, että PIN-koodi olisi vaihdettu asiakkaan tai virkailijan toimesta. Asiakkaan Ilmoitukset-sivulla ei ollut myöskään ko. ilmoitusta. Asiakkaan huollettavalle, jolla sama s-postiosoite kuin huoltajalla, ei ole PIN-koodia vaihdettu. Tietokannasta ei löydy muita asiakkaita, joilla olisi sama s-postiosoite kuin tällä henkilöllä. Asiakkaalta pyydetty s-posti vielä nähtäväksi, jotta voimme varmistaa, onko posti lähetetty OUTIsta vai mahdollisesti jostain toisesta Koha-Suomen kimpan kirjastosta, jossa olisi asiakkaan kaima ja gmaili olisi jättänyt huomiotta osoitteessa olleen mahdollisen pisteen.
+
 
 ## Viikko 22 muistio
 
