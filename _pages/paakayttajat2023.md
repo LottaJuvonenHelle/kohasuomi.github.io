@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme)
 
 Etelästä pohjoiseen
 
@@ -43,6 +43,12 @@ Etelästä pohjoiseen
 **Kyyti**
 * Uuden asiakkaan tervetuloviesti laitettu päälle eilen.
 * Tuomas jää lomalle tämän viikon jälkeen ja palaa elokuussa. Kotkan Roosa Väisänen paikalla suuren osan kesää.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Lumme-Finna temppuili viime viikon loppupuolella, ongelma saatiin korjattua kehittäjien puolella. Tarkkaa syytä sivujen ulkonäköasetusten katoamiselle ei saatu.
+* Lumpeissa oli käytössä asetus, jolla lainoja sai uusittua, vaikka niihin oli varaus, jos vapaana oli saatavana olevia niteitä. Asetus jouduttiin ottamaan pois käytöstä, sillä se tuotti ongelmia lehtien varauksissa. Myös mahdolliset asiakkaiden kokemat ongelmat omien Finna-tietojen näkemisessä saattoivat johtua tästä asetuksesta. Tilannetta seuraillaan.
+
 
 ## Viikko 22 muistio
 
