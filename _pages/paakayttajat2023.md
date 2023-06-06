@@ -12,7 +12,11 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+
+**Vaara**
+* normaalia ylläpitoa 
+* ihmettelimme jälleen eilen sitä, että lainojen ja varausten määrä ei noudata laina- ja maksusäännöissä tehtyjä asetuksia. Teen tiketin, jotta kehittäjät voisivat jossain vaiheessa tutkia, eikö tälle todellakaan voi mitään. Ongelma on ollut olemassa jo vuosia.
 
 
 
