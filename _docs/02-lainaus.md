@@ -306,7 +306,7 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
   uudelleen kyseisen päivämäärän ja kellonajan jälkeen. Huomautus
   tulee, kun päivittää Lainassa-välilehden tai käy välillä toisella
   sivulla.  
-  ![](/assets/files/docs/Lainaus/uusinta6.png)
+  ![](/assets/files/docs/Lainaus/uusinta6.PNG)
   
   - Jos kimpassa on sallittu lainojen palauttaminen Lainassa-välilehdellä ja Sarakkeen näkyvyys -valikosta on valittu Palautus-toiminto
   aktiiviseksi, voit palauttaa lainat valitsemalla palautettavat
