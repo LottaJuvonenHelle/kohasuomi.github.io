@@ -8,21 +8,16 @@ toc: true
 
 # 12. Työkalut
 
-Kohan Työkalut-osiossa on monenlaisia toimintoja, joilla voi mm. määritellä ilmoitusten ja kuittien tekstejä, muokata
-ja poistaa niteitä tai tietueita, käyttää siirtokokoelmia, määritellä kirjaston kiinniolopäivät jne.
-Käyttäjän oikeuksista riippuu, mitä työkaluja hänelle on näkyvissä.
-Osa työkaluista ei ole käyttökelpoisia tai tarpeellisia Suomen
-toimintaympäristössä.
+_Työkalut_-osiossa on monenlaisia toimintoja, joilla voi esim. määritellä ilmoitusten ja kuittien tekstejä, käyttää siirtokokoelmia tai määritellä kalenteriin kirjaston kiinniolopäivät. Käyttäjän oikeuksista riippuu, mitä työkaluja hänelle on näkyvissä.
+
+Osa työkaluista ei ole käyttökelpoisia tai tarpeellisia Koha-Suomen toimintaympäristössä. Nämä työkalut on merkitty kuvaan punaisella rastilla.
 
 Koha-Suomen omiin tarpeisiin kehitetyt työkalut (varausten noutoilmoitusten ja myöhästymisilmoitusten tulostus, sotuteekki, tarratulostus)
-löytyvät Työkaluliitännäiset-osiosta.
+löytyvät _Työkaluliitännäiset_-otsikon alta.
 
-<img src="/assets/files/docs/Tyokalut/tyokalut.png" title="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" alt="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalujen nimien perään on laitettu eri värisiä palloja niiden käyttökelpoisuuden perusteella" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/tyokalut.png" title="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalun nimen perässä on punainen rasti, jos se ei ole käyttökelpoinen Koha-Suomessa." alt="Kuvakaappaus Työkalut-osion aloitussivusta. Työkalun nimen perässä on punainen rasti, jos se ei ole käyttökelpoinen Koha-Suomessa." style="width:90.0%" />
 
-- Punaisella pallolla merkityt eivät ole käyttökelpoisia tai
-  tarpeellisia.
-- Keltaisella pallolla merkityt toimivat, mutta eivät ole
-  pääsääntöisesti tarpeellisia (enää).
+Osa aiemmin _Työkalut_-osiossa sijainneista toiminnoista, esim. niteiden ja tietuiden poisto tai muokkaus eräajona, on siirretty tässä versiossa (22.11) _Kuvailu_-osioon.
   
 ---
 
