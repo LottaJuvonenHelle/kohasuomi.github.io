@@ -32,8 +32,9 @@ voi tehdä _Uusi asiakaslista_ -painikkeesta.
 <img src="/assets/files/docs/Tyokalut/asiakaslistat00.png" alt="Kuvakaappaus uuden asiakaslistan luomisesta" style="width:90.0%" />
 
 Anna listalle nimi ja tallenna se. Jos lista merkitään jaetuksi, sen näkevät kimpassa kaikki, joilla on oikeus muokata asiakaslistoja.
+
 <img src="/assets/files/docs/Tyokalut/asiakaslistat01.png" alt="Kuvakaappaus uuden asiakaslistan nimeämisestä ja jaetuksi merkitsemisestä" 
-style="width:90.0%" />
+style="width:60.0%" />
 
 Tämän jälkeen listalle voi lisätä asiakkaita klikkaamalla
 _Toiminnot_-nappia ja valitsemalla _Lisää asiakkaita_.  
