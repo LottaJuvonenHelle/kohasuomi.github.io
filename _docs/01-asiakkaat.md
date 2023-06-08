@@ -588,23 +588,22 @@ Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä _Muut määreet 
 ## 1.6. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
 Jos järjestelmäasetuksissa annetaan asiakkaille oikeus muuttaa tietojaan
-verkkokirjaston kautta, täytyy muutokset hyväksyä virkailijaliittymän
-kautta ennen niiden voimaantuloa. Jos järjestelmässä on hyväksymistä
-odottavia muutoksia, niistä näkyy linkki _Tietojensa muokkaamista haluavat asiakkaat_
-Kohan etusivulla. 
+verkkokirjaston kautta, hyväksytään muutokset virkailijaliittymässä ennen muutosten voimaantuloa. 
+Jos järjestelmässä on hyväksymistä odottavia muutoksia, niistä näkyy Kohan etusivulla
+linkki _Tietojensa muokkaamista haluavat asiakkaat_. 
 
 ![](/assets/files/docs/Asiakkaat/Etusivunlinkki.png)
 
 Kun klikkaat linkkiä, saat listan kaikista odottavista muutospyynnöistä ja klikkaamalla asiakkaan
-nimen kohdalta saat hänen tekemät muutokset näkyviin. Voit hyväksyä muutokset, kieltää ne tai jättää
-ne kokonaan huomioimatta.
+nimen kohdalta saat hänen tekemänsä muutokset näkyviin. Voit hyväksyä muutokset _Hyväksy_, kieltää _Kiellä_ ne tai jättää
+ne kokonaan huomioimatta _Älä huomioi_.
 
 ![](/assets/files/docs/Asiakkaat/tietojenmuutos.png)
 
-Asiakkaan tiedot -linkistä pääset asiakkaan tietoihin katsomaan mm. onko asiakkaalla
-rajoitteita, jotka päivityksen yhteydessä on syytä ottaa pois.
+_Asiakkaan tiedot_ -linkistä pääset asiakkaan tietoihin katsomaan onko asiakkaalla
+esim. rajoitteita, jotka päivityksen yhteydessä on syytä ottaa pois.
 
-Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy sekä lainaus- että tiedot-sivulla.
+Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy lainaussivulla.
 
 ![](/assets/files/docs/Asiakkaat/Odottavatmuutokset.png)
 
