@@ -310,13 +310,13 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
   
   - Jos kimpassa on sallittu lainojen palauttaminen Lainassa-välilehdellä ja Sarakkeen näkyvyys -valikosta on valittu Palautus-toiminto
   aktiiviseksi, voit palauttaa lainat valitsemalla palautettavat
-  niteet **Palautus**-sarakkeesta ja klikkaamalla näytön alareunasta
-  painiketta **Uusi tai palauta valitut niteet**.
+  niteet Plautus-sarakkeesta ja klikkaamalla näytön alareunasta
+  painiketta *Uusi tai palauta valitut niteet*.
   
 #### 2.4.1.2 Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
 
-- Huomio kirjastosi käyttösäännöt. Joissain kirjastoissa käyttösäännöt edellyttävät kirjastokorttia
-  uusintatilanteessa eli tätä toimintoa ei saa silloin
+- Huomio kirjastosi käyttösäännöt. Jos kirjaston käyttösäännöt edellyttävät kirjastokorttia
+  uusintatilanteessa, tätä toimintoa ei saa silloin 
   käyttää.
 
 ![](/assets/files/docs/Lainaus/uusinta1.PNG)
@@ -326,9 +326,17 @@ Voit antaa uusittaville lainoille halutessasi eri eräpäivän, kuin nidetyypin 
 
 ![](/assets/files/docs/Lainaus/uusinta2.PNG)
 
-Jos niteen uusiminen onnistuu, saat ilmoituksen.
+Jos niteen uusiminen onnistuu, saat ilmoituksen:
 
-![](/assets/files/docs/Lainaus/uusinta3.png)
+![](/assets/files/docs/Lainaus/uusinta3.PNG)
+
+Jos teoksesta on esim. varaus, saat ilmoituksen:
+
+![](/assets/files/docs/Lainaus/uusinta8.PNG)
+
+Jos nide on esim. lyhytlaina tai pikalaina, jota ei pysty uusimaan tai jos lainan uusintakerrat ovat tulleet täyteen, saat ilmoituksen:
+
+![](/assets/files/docs/Lainaus/uusinta9.PNG)
 
 Jos nide ei ole lainassa, saat ilmoituksen.
 
