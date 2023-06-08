@@ -342,7 +342,7 @@ Jos viivakoodia ei löydy, saat ilmoituksen.
 
 ## 2.5 Asiakkaan varaukset
 
-**Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. Ennen kuin varaus on jäänyt kiinni, voit vaihtaa varauksen noutopaikan, poistaa varauksen, keskeyttää varauksen tai jatkaa keskeytetyn varauksen, mikäli toiminnnot
+**Varaukset**-välilehdellä näet asiakkaan varaukset ja missä tilassa varaukset ovat. Ennen kuin varaus on jäänyt kiinni, voit vaihtaa varauksen noutopaikan, keskeyttää varauksen tai jatkaa keskeytetyn varauksen, mikäli toiminnnot
 ovat sallittu järjestelmäasetuksissa. 
 
 ![](/assets/files/docs/Lainaus/varaukset2.PNG)
@@ -355,7 +355,9 @@ ovat sallittu järjestelmäasetuksissa.
 
 Voit asettaa asiakkaalle rajoituksen, joka estää lainaamisen ja uusimisen. 
 
-Rajoituksen voit lisätä asiakastietojen muokkausnäytöllä:
+Rajoituksen voit lisätä Rajoitukset-välilehdellä tai asiakastietojen muokkausnäytöllä
+
+[Asiakkaan rajoitukset](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15102-asiakkaan-rajoitukset)
 
 ![](/assets/files/docs/Lainaus/rajoitus1.PNG)
 
