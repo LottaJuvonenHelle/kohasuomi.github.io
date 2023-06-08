@@ -313,12 +313,6 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
   niteet **Palautus**-sarakkeesta ja klikkaamalla näytön alareunasta
   painiketta **Uusi tai palauta valitut niteet**.
   
-- Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta.       Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle tallentuu      merkintä, että asiakas sanoo palauttaneensa lainan. Tieto lainasta tallentuu myös Palautusilmoitukset-välilehdelle.  
-
-![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
-
-Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttaneensa" -lainan jälkeen ohjelma huomauttaa määrästä virkailijalle.
-
 #### 2.4.1.2 Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
 
 - Huomio kirjastosi käyttösäännöt. Joissain kirjastoissa käyttösäännöt edellyttävät kirjastokorttia
@@ -512,7 +506,7 @@ Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, 
 - Jos palautat niteen toisen kerran, ohjelma vaatii manuaalisen varausilmoituksen kuittauksen.
 
 
-### 2.7.4.4 Varaus toisessa kirjastossa
+### 2.7.2.4 Varaus toisessa kirjastossa
 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
@@ -553,6 +547,13 @@ Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 
 - Niteen laskutettutila ei poistu automaattisesti, jos järjestelmäasetuksissa on näin määritelty.
 
+### 2.7.3 Ilmoittaa palauttaneensa
+
+Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta. Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle tallentuu      merkintä, että asiakas sanoo palauttaneensa lainan. Tieto lainasta tallentuu myös Palautusilmoitukset-välilehdelle.  
+
+![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
+
+Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttaneensa" -lainan jälkeen ohjelma huomauttaa määrästä virkailijalle.
 
 ---
 
