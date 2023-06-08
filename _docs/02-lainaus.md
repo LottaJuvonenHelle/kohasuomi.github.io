@@ -359,32 +359,6 @@ Rajoituksen voit lisätä Rajoitukset-välilehdellä tai asiakastietojen muokkau
 
 [Asiakkaan rajoitukset](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15102-asiakkaan-rajoitukset)
 
-![](/assets/files/docs/Lainaus/rajoitus1.PNG)
-
-tai Rajoitukset-välilehdellä:
-
-![](/assets/files/docs/Lainaus/rajoitus2.PNG)
-
-Rajoitus näkyy asiakkaan Lainaus- ja Tiedot-näytöillä sekä Rajoitukset-välilehdellä.
-Rajoituksen voi ohittaa tilapäisesti, jos käyttäjän oikeudet sen sallivat.
-
-![](/assets/files/docs/Lainaus/rajoitus3.PNG)
-
-#### 2.6.1.1 Rajoituksen poistaminen
-
-Asiakastietojen muokkausnäytöllä poista rajoitus laittamalla täppä kohtaan **Poista** ja tallenna sivu.
-
-![](/assets/files/docs/Lainaus/rajoite_poisto1.PNG)
-
-Rajoitukset-välilehdellä poista rajoitus painamalla **Poista**-painiketta. 
-
-![](/assets/files/docs/Lainaus/rajoite_poisto2.PNG)
-
-Ohjelma varmistaa poiston ilmoituksella "Poista rajoitus?", valitse **OK**.
-
-![](/assets/files/docs/Lainaus/rajoite_poisto3.PNG)
-
-
 ### 2.6.2 Huomautukset asiakastiedoissa
 
 Voit tallentaa asiakastietojen muokkausnäytöllä asiakkaalle huomautuksia, jotka näkyvät asiakkaan Lainaus- ja Tiedot-näytöillä. 
