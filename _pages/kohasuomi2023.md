@@ -15,13 +15,24 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 23 muistiot
 
+### Torstai 1.6.2023 klo 10
+
+Läsnä:
+
+* Tietokantapalvelimien synkkausviive
+
+
 ### Maanantai 5.6.2023 klo 10
+
+Läsnä: Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 
 * [Seuraava yhteisön kehittäjien irc-tapaaminen 7.6.2023](https://wiki.koha-community.org/wiki/Development_IRC_meeting_7_June_2023)
 
 ## Viikon 22 muistiot
 
 ### Torstai 1.6.2023 klo 10
+
+Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 
 * Pääkäyttäjät kysyy: onko tulossa testeille uudempi sisältö (asiakkaat, tietueet yms.) (lähiaikoina)?
   * Pasi päivittää
