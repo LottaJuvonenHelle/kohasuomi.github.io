@@ -330,14 +330,6 @@ Jos niteen uusiminen onnistuu, saat ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/uusinta3.PNG)
 
-Jos teoksesta on esim. varaus, saat ilmoituksen:
-
-![](/assets/files/docs/Lainaus/uusinta8.PNG)
-
-Jos nide on esim. lyhytlaina tai pikalaina, jota ei pysty uusimaan tai jos lainan uusintakerrat ovat tulleet täyteen, saat ilmoituksen:
-
-![](/assets/files/docs/Lainaus/uusinta9.PNG)
-
 Jos nide ei ole lainassa, saat ilmoituksen.
 
 ![](/assets/files/docs/Lainaus/uusinta5.PNG)
