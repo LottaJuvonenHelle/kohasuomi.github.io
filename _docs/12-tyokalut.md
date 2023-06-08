@@ -37,7 +37,8 @@ Anna listalle nimi ja tallenna se. Jos lista merkitään jaetuksi, sen näkevät
 style="width:60.0%" />
 
 Tämän jälkeen listalle voi lisätä asiakkaita klikkaamalla
-_Toiminnot_-nappia ja valitsemalla _Lisää asiakkaita_.  
+_Toiminnot_-painiketta ja valitsemalla _Lisää asiakkaita_, kuten kuvassa. Toinen tapa on klikata lista lista auki sen nimestä.
+
 <img src="/assets/files/docs/Tyokalut/asiakaslistat02.png" alt="Kuvakaappaus asiakkaiden lisäämisestä uuteen asiakaslistaan" style="width:90.0%" />
 
 Siitä aukeaa sivu, jolla pystyt hakemaan asiakkaita esim. nimellä.
