@@ -615,17 +615,19 @@ useita eri välilehtiä, joilla on erilaisia tietoja.
 ![](/assets/files/docs/Asiakkaat/vasen.png)
 
 ### 1.7.1. Lainaus
-Lainaus-välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen kohdassa 2. [Lainaaminen](https://koha-suomi.fi/dokumentaatio/lainaus/)
+Lainaus-välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen kohdassa [2. Lainaaminen](https://koha-suomi.fi/dokumentaatio/lainaus/)
 
 ### 1.7.2. Tiedot
 
-Kaikki asiakkaan (henkilö)tiedot näkyvät Tiedot-välilehdellä. Täällä on
-yhteystiedot, huomautukset, asiakkaan viestiasetukset ym.
+Kaikki asiakkaan (henkilö)tiedot näkyvät Tiedot-välilehdellä mm. yhteystiedot, viestiasetukset, sotu-avain, kirjastotiedot sekä mahdolliset huomautukset ja tiedot rajoituksista.
+Huom. Näkymässä voi olla kimppakohtaisia eroja.
 
 Jos asiakas on lapsi, hänen takaajansa nimet ovat linkkinä kohdassa Takaajat.
+
 ![](/assets/files/docs/Asiakkaat/Huoltajat.png)
 
-Takaajan tietueessa näkyy kaikkien huollettavien tiedot kohdassa Taattavat.
+Takaajan tietueessa näkyy kaikkien huollettavien tiedot kohdassa Huollettavat.
+
 ![](/assets/files/docs/Asiakkaat/Taattavat.png)
 
 ### 1.7.3. Maksut
@@ -637,10 +639,13 @@ Maksut -välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen k
 Kiertolistat tarkoittaa lehtikiertolistaa eli jos kirjaston työntekijä
 on jonkun lehden sisäisellä kiertolistalla.
 
-![](/assets/files/docs/Asiakkaat/lehtikierto1.png)  
 ![](/assets/files/docs/Asiakkaat/lehtikierto2.png)
 
+Toiminnon käytössä voi olla kimppakohtaisia eroja.
+
 ### 1.7.5. Muutosloki
+
+_Huom. Tämä välilehti ei näy kaikille käyttäjille._
 
 Muutoslokille kertyy tietoa, kun asiakkaan tietoja on katsottu tai
 muokattu ja jos asiakastieto on tullut asiakashaussa hakutuloslistalle.
@@ -667,11 +672,9 @@ tapahtunut
 \- _Tiedot-sarake_ kertoo tarkemmin mitä tapahtuma koskee esim. mikä
 nide on lainattu tai asiakkaan kirjautuminen automaatille
 
-\- _Käyttöliittymä-sarakkeesta_ näkee onko loki kertynyt
-  virkailijaliittymästä (intranet), Kohan verkkokirjastosta tai Finnasta
-  (opac) tai palautus-/lainausautomaatilta (sip, opac). Rest-merkintä
-  tulee silloin, kun asiakkaan tietoihin on otettu yhteyttä restin kautta
-  esim. Ceepos ja Ellibs.
+\- _Käyttöliittymä-sarakkeesta_ näkee onko loki kertynyt esim.
+  virkailijaliittymästä, Kohan verkkokirjastosta tai Finnasta
+  tai palautus-/lainausautomaatilta. 
   
   Huom. Muutoslokiin pääsee myös Työkalujen kautta. Se on ohjeistettu Kohan ohje suomeksi -ohjeen 
   kohdassa [12.14 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#1214-lokien-katselu)
@@ -682,19 +685,21 @@ Tällä näytöllä näkyy asiakkaalle lähteneet tai lähtemässä olevat
 ilmoitukset. Ilmoittamistapa valitaan asiakastiedoissa asiakkaan
 viestiasetuksissa.
 
-<img src="Lahetetytilmoitukset.PNG" title="Kuvakaappaus Ilmoitukset-välilehdeltä" alt="Kuvakaappaus Ilmoitukset-välilehdeltä" style="width:65.0%" />
+![](/assets/files/docs/Asiakkaat/Lahetetytilmoitukset.png)
 
 \- _Ilmoitus_-sarakkeessa näkyy viestin otsikko. Klikkaamalla viestin
 nimeä pääset näkemään koko viestin.
 
 \- _Tyyppi_-sarakkeessa näkyy, missä muodossa viesti on lähetetty.
-Koha-Suomessa käytössä: printti, sms, sposti, suomi.fi
+Koha-Suomessa käytössä: printti, sms (tekstiviesti), sposti, suomi.fi, finvoice
 
 \- _Tila_-sarakkeesta näkee viestin lähetyksen tilan  
 _lähetetty_: viesti on lähetetty eteenpäin järjestelmästä varsinaiseen
-lähettävään järjestelmään  
+lähettävään järjestelmään
+
 _odottaa_: viestiä ei ole vielä lähetetty eteenpäin lähettävään
-järjestelmään  
+järjestelmään
+
 _epäonnistunut_: viestin lähetys on epäonnistunut. Osa
 lähettävistä järjestelmistä (esim. tekstiviestioperaattorit) palauttaa
 Kohaan epäonnistumisen syyn, jolloin se näkyy
@@ -706,27 +711,32 @@ luontiajankohdasta.
 
 \- _Toimitushuomautus_-sarakkeeseen tulee näkyviin viestin lähetyksen
   epäonnistumisen syy, jos Koha saa siitä tiedon. Lähinnä
-  tekstiviestioperaattorit palauttavat virheen syyn.  
+  tekstiviestioperaattorit palauttavat virheen syyn.
+  
   _Message is duplicate_ tarkoittaa, että Koha on hylännyt viestin, koska
   se on täsmälleen samanlainen kuin hiljattain lähetetty toinen viesti.
-  Näitä näkyy erityisesti tekstiviestien yhteydessä.  
+  Näitä näkyy erityisesti tekstiviestien yhteydessä.
+  
   _Message validity period has expired_ tarkoittaa, että viestiä on
-  yritetty lähettää maksimimäärä kertoja.  
+  yritetty lähettää maksimimäärä kertoja.
+  
   _Unknown error_ tarkoittaa, että viestin epäonnistumisen syytä ei
   tiedetä tai pystytä tarkentamaan. Syy voi olla esim. asiakkaan
   puhelinnumero voi olla väärä tai hänen puhelimensa ei ota vastaan
-  tekstiviestejä, tai operaattorin päässä on häiriö.  
+  tekstiviestejä, tai operaattorin päässä on häiriö.
+  
   _Recipient is temporarily unreachable_ tarkoittaa, että vastaanottajaan
-  ei ole saatu yhteyttä  
+  ei ole saatu yhteyttä.
+  
   _Unallowed recipient phone number_
   tarkoittaa, että asiakkaan puhelinnumerossa on jotain vikaa tai se on
-  väärässä muodossa (esim. lankapuhelin)
+  väärässä muodossa (esim. lankapuhelin).
 
 ### 1.7.7. Tilastot
 
 Tilastot-osiossa näkyy asiakkaan lainatilasto edelliseltä ja kuluvalta
 päivältä. Lainat on jaoteltuna aineistolajeittain ja hyllypaikoittain.
-Taulukossa näkyy myös kuluvan päivän palautukset ja lainat.
+Taulukossa näkyvät myös kuluvan päivän palautukset ja lainat.
 
 ![](/assets/files/docs/Asiakkaat/asiakkaantilastot.png)
 
