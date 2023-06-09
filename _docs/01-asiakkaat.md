@@ -341,7 +341,6 @@ kopio. Tallenna uutena tietueena_.
 
 ![](/assets/files/docs/Asiakkaat/Kopioiasiakastiedot1.png)
 
----
 
 ## 1.4. Ei-tilastoitavat-lainat
 
@@ -403,6 +402,9 @@ Tästä alasvetovalikosta voit valita ja tulostaa asiakkaan haluaman kuitin. Huo
 
 ![](/assets/files/docs/Asiakkaat/Tulosta.png)
 
+Kuittien tulostamisesta tarkemmin Kohan ohje suomeksi kohdassa
+[2.1.1. Kuittien tulostaminen](https://koha-suomi.fi/dokumentaatio/lainaus/#211-kuittien-tulostaminen)
+
 ### 1.5.5. Hae ja varaa
 
 _Hae ja varaa_-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun. Pääset tekemään varauksen asiakkaalle suoraan hakutuloslistalla tai tietueen tiedoissa. Hakutuloslistalla voit tarvittaessa myös poistaa toiminnon muistista asiakkaan tiedot. 
@@ -412,6 +414,9 @@ _Hae ja varaa_-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun
 Tietuetiedoissa sitä toimintoa ei ole.
 
 ![](/assets/files/docs/Asiakkaat/Haejavaraa2.png)
+
+Varaamisesta tarkemmin Kohan ohje suomeksi kohdassa
+[1.2 Varauksen teko asiakastietojen kautta](https://koha-suomi.fi/dokumentaatio/varaukset/#12-varauksen-teko-asiakastietojen-kautta)
 
 ### 1.5.6. Lisää viesti
 
@@ -676,8 +681,8 @@ nide on lainattu tai asiakkaan kirjautuminen automaatille
   virkailijaliittymästä, Kohan verkkokirjastosta tai Finnasta
   tai palautus-/lainausautomaatilta. 
   
-  Huom. Muutoslokiin pääsee myös Työkalujen kautta. Se on ohjeistettu Kohan ohje suomeksi -ohjeen 
-  kohdassa [12.14 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#1214-lokien-katselu)
+  Huom. Muutoslokiin pääsee myös Työkalujen kautta. 
+  Se on ohjeistettu Kohan ohje suomeksi -ohjeen kohdassa [12.14 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#1214-lokien-katselu)
 
 ### 1.7.6. Ilmoitukset
 
@@ -752,11 +757,12 @@ _Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksu
 
 ![](/assets/files/docs/Asiakkaat/lainat.png)
 
-Lainoista on tarkemmin Kohan ohje suomeksi kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
+Lainoista on tarkemmin Kohan ohje suomeksi kohdassa
+[2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
 
 ### 7.7.9.1 Perheen lainat
 
-_Huom. Perheen lainat-välilehden näkymisessä on kimppakohtaisia eroja__
+_Huom. Perheen lainat-välilehden näkymisessä on kimppakohtaisia eroja_
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
