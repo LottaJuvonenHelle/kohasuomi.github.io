@@ -428,9 +428,8 @@ jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
 - Palautuksen jälkeen niteen tilaksi muuttuu _Kuljetettavana_.  
   ![](/assets/files/docs/Lainaus/palautusviesti2.PNG)
 
-- Nide pitää palauttaa kotikirjastossaan, jotta sen tilaksi muuttuu
+- Nide pitää palauttaa vielä kotikirjastossa, jotta sen tilaksi muuttuu
   Saatavana-tila.
-
 
 ### 2.7.2.2 Useita osia sisältävän niteen palautus
 
