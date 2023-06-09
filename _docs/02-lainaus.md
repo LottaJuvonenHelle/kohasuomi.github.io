@@ -361,29 +361,16 @@ Rajoituksen voit lisätä Rajoitukset-välilehdellä tai asiakastietojen muokkau
 
 ### 2.6.2 Huomautukset asiakastiedoissa
 
-Voit tallentaa asiakastietojen muokkausnäytöllä asiakkaalle huomautuksia, jotka näkyvät asiakkaan Lainaus- ja Tiedot-näytöillä. 
+Voit tallentaa asiakastietojen muokkausnäytöllä asiakkaalle huomautuksia, jotka näkyvät verkkokirjastossa asiakkaan Omat tiedot -sivulla tai Kohassa asiakkaan Lainaus ja Tiedot -sivulla. 
 
 ![](/assets/files/docs/Lainaus/huomautukset1.PNG)
 
 ### 2.6.3 Viestit asiakastiedoissa
 
-Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus- ja Tiedot-näytöillä.
+Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus ja Tiedot -sivuilla
 Viestin voit lisätä joko toimintapainikkeesta **Lisää viesti** tai linkistä **+Lisää uusi viesti**.
 
-[![](/assets/files/docs/Lainaus/viesti1.PNG)
-
-Kun valitset **Lisää uusi viesti**, pääset valitsemaan, näytetäänkö
-viesti vain virkailijoille vai myös asiakkaalle verkkokirjastossa
-(valikossa asiakkaan nimi).
-
-[![](/assets/files/docs/Lainaus/lainausviesti2.PNG)
-
-Voit valita viestin esimääritellyistä viesteistä tai kirjoittaa oman
-viestin tyhjään kenttään. Kimpan pääkäyttäjät voivat lisätä esimääriteltyjä viestejä.
-
-![](/assets/files/docs/Lainaus/lainausviesti3.PNG)
-
-- HUOMIO! Viesti asiakkaalle näkyy myös virkailijoille.
+[Lisää viesti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#156-lis%C3%A4%C3%A4-viesti)
 
 
 ### 2.6.3 Vanhentunut asiakastieto
@@ -395,12 +382,12 @@ määritelty), näyttöön tulee ilmoitus:
 
 Tarkista asiakkaan yhteystiedot (osoite, puhelinnumero,
 sähköpostiosoite, viestiasetukset). Jos tiedot ovat ajantasalla, klikkaa
-**Uusinta**. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä **Muokkaa tietoja**.
+*Uusinta*. Jos tiedot täytyy päivittää, muokkaa ja päivitä tiedot ensin linkistä *Muokkaa tietoja*.
 
-Käyttöoikeuden voi jatkaa myös valikosta **Muita toimintoja**,
-valitsemalla **Asiakkaan käyttöoikeuden jatkaminen**.
+Käyttöoikeuden voit jatkaa myös valikosta *Muita toimintoja*,
+valitsemalla *Asiakkaan käyttöoikeuden jatkaminen*.
 
-![](/assets/files/docs/Lainaus/vanhentunut2.png)
+![](/assets/files/docs/Lainaus/vanhentunut2.PNG)
 
 ---
 
@@ -410,8 +397,8 @@ Aineiston palauttamiseen pääset eri näyttöjen kautta.
 
 ![](/assets/files/docs/Lainaus/palautus.PNG)
 
-Kaikista lainaustenvalvonnan toiminnoista on listaus **Lainaus ja
-palautus** -sivulla, jonne pääset jokaisen sivun vasemmasta yläreunasta
+Kaikista lainaustenvalvonnan toiminnoista on listaus *Lainaus ja
+palautus* -sivulla, jonne pääset jokaisen sivun vasemmasta yläreunasta
 olevasta linkistä.
 
 ### 2.7.1 Aineiston palauttaminen
@@ -421,11 +408,12 @@ Palautetun niteen tiedot tulevat näytölle.
 
 ![](/assets/files/docs/Lainaus/palautus1.PNG)
 
-**Sarakkeet**-valikosta voit valita, mitä tietoja Palautus-näytöllä näytetään. 
+![](/assets/files/docs/Lainaus/sarakkeet.PNG)
 
-**Vie**-valikosta voit tulostaa, kopioida tai viedä palautetut niteet Excel- tai CSV-tiedostoiksi.
+*Sarakkeet*-valikosta voit valita, mitä tietoja Palautus-näytöllä näytetään. 
+*Vie*-valikosta voit tulostaa, kopioida tai viedä palautetut niteet Excel- tai CSV-tiedostoiksi.
 
-Jos teoksesta on varaus ja saat näytölle ilmoituksen: **Maksuja ei peritä käsin peruutetuista varauksista**, voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
+Jos teoksesta on varaus ja saat näytölle ilmoituksen: *Maksuja ei peritä käsin peruutetuista varauksista*, voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
 
 
 ### 2.7.2 Palautuksen viestit
