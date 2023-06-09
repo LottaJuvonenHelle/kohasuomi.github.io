@@ -752,10 +752,13 @@ _Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksu
 
 ![](/assets/files/docs/Asiakkaat/lainat.png)
 
-Tällä näytöllä voi näkyä myös asiakkaan huollettavien lainat _Perheen lainat_-välilehdellä. 
-Huollettavalla puolestaan näkyy niiden henkilöiden lainat, joilla on sama takaaja kuin hänellä.
+Lainoista on tarkemmin Kohan ohje suomeksi kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
+
+### 7.7.9.1 Perheen lainat
+
 _Huom. Perheen lainat-välilehden näkymisessä on kimppakohtaisia eroja__
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
-Lainoista on tarkemmin Kohan ohje suomeksi kohdassa [2.4. Asiakkaan lainat](https://koha-suomi.fi/dokumentaatio/lainaus/#24-asiakkaan-lainat)
+ _Perheen lainat_-välilehdellä takaajalle näkyvät huollettavien lainat ja huollettaville
+ siellä näkyvät niiden henkilöiden lainat, joilla on sama takaaja.
