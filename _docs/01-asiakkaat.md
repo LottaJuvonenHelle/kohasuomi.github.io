@@ -742,19 +742,7 @@ Taulukossa näkyvät myös kuluvan päivän palautukset ja lainat.
 
 ### 1.7.8. Hankintaehdotukset
 
-Jos asiakas on tehnyt verkkokirjastossa hankintaehdotuksia, ne näkyvät
-asiakkaan tiedoissa Hankintaehdotukset-osiossa.
-
-![](/assets/files/docs/Asiakkaat/hankintaehdotukset.png)
-
-Samalla sivulla voi myös tehdä asiakkaan puolesta hankintaehdotuksen.
-Paina _Uusi hankintaehdotus_ -nappia, jolloin avautuu lomake. Täytä
-vähintään punaisella merkityt pakolliset tiedot ja paina sitten
-lomakkeen alareunasta _Lähetä ehdotuksesi_.
-
-![](/assets/files/docs/Asiakkaat/teeuusihankintaehdotus.png)
-
-![](/assets/files/docs/Asiakkaat/teeuusihankintaehdotus2.png)
+_Toiminto ei ole käytössä_
 
 ### 1.7.9. Lainat
 
@@ -764,9 +752,9 @@ _Lainassa_-painiketta. Maksut välilehteä ei näy, jos asiakkaalla ei ole maksu
 
 ![](/assets/files/docs/Asiakkaat/lainat.png)
 
-Tällä näytöllä näkyy myös asiakkaan huollettavien lainat _Perheen lainat_
--välilehdellä, jos tämän salliva asetus on päällä. Huollettavalla näkyy myös perheen sisarusten
-lainat eli niiden henkilöiden lainat, joilla on sama takaaja.
+Tällä näytöllä voi näkyä myös asiakkaan huollettavien lainat _Perheen lainat_-välilehdellä. 
+Huollettavalla puolestaan näkyy niiden henkilöiden lainat, joilla on sama takaaja kuin hänellä.
+_Huom. Perheen lainat-välilehden näkymisessä on kimppakohtaisia eroja__
 
 ![](/assets/files/docs/Asiakkaat/perheenlainat.png)
 
