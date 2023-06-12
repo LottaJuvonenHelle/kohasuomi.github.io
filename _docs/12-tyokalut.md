@@ -458,9 +458,9 @@ Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään
 
 Niteitä voi muokata automaattisesti iän mukaan. Työkalulla luodaan
 säännöt, joiden mukaan niteitä käsitellään automaattisesti. Sääntöjen
-lisäksi järjestelmänkehittäjän pitää ajastaa yöllinen ajo
+lisäksi toiminto vaatii järjestelmänkehittäjän ajastaman yöllisen ajon
 (_misc/cronjobs/automatic_item_modification_by_age.pl_), joka
-varsinaisesti sitten tekee sääntöjen mukaiset muutokset.
+varsinaisesti tekee sääntöjen mukaiset muutokset.
 
 Olemassa olevat säännöt näkyvät työkalun etusivulla. Sitä muokkaamaan ja
 uusia sääntöjä luomaan pääsee valitsemalla _Muokkaa sääntöjä_  
