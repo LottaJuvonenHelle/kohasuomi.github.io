@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 24 muistiot
+
+### Maanantai 12.6.2023 klo 10
+
+Läsnä: Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
+
+* [Lumme: Kohan rajapinnan avaus mobiilisovellukseen](https://github.com/KohaSuomi/Koha/issues/639)
+
 ## Viikon 23 muistiot
 
 ### Torstai 1.6.2023 klo 10
