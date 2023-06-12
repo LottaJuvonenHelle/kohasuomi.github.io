@@ -15,6 +15,7 @@ Aika: 13.6.2023 klo 9.15 <br />
 Läsnä:
 
 **Yhteiset asiat:**
+* Kirjataan muistiin: automaattien toimittajat Lyngsoe, Bibliotheca ja Mikroväylä ovat ilmoittaneet, että automaateissa voi ottaa käyttöön myös pidempiä PIN-koodeja kuin nyt on vain neljä numeroa.
 
 Pohjoisesta etelään
 
