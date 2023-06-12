@@ -454,36 +454,26 @@ Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään
 
 ---
 
-## 12.11 Automaattinen niteen muokkaus iän mukaan
+## 12.11 Niteen muokkaus iän mukaan
 
-Niteitä voi muokata automaattisesti iän mukaan. Työkalulla luodaan
-säännöt, joiden mukaan niteitä käsitellään automaattisesti. Sääntöjen
-lisäksi toiminto vaatii järjestelmänkehittäjän ajastaman yöllisen ajon
-(_misc/cronjobs/automatic_item_modification_by_age.pl_), joka
-varsinaisesti tekee sääntöjen mukaiset muutokset.
+Kuvailu-osion Niteen muokkaus iän mukaan -toiminnolla teet säännön tai sääntöjä, joiden perusteella niteen tiedot muuttuvat automaattisesti. Automatiikan toimintaan tarvitaan säännön lisäksi järjestelmänkehittäjän ajastama yöllinen ajo (_misc/cronjobs/automatic_item_modification_by_age.pl_).
 
-Olemassa olevat säännöt näkyvät työkalun etusivulla. Sitä muokkaamaan ja
-uusia sääntöjä luomaan pääsee valitsemalla _Muokkaa sääntöjä_  
+Tee uusi sääntö valitsemalla toiminnon etusivulta _Muokkaa sääntöjä_ 
 <img src="/assets/files/docs/Tyokalut/ianmukaan.png" alt="" style="width:90.0%" />  
-Voit nyt joko muokata olemassa olevaa tai tehdä uuden säännön
-valitsemalla _Lisää sääntö_  
+Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää sääntö_ 
 <img src="/assets/files/docs/Tyokalut/ianmukaan2.png" alt="" style="width:90.0%" />
 
-Uudelle säännölle määritetään seuraavat:
+Määritä uudelle säännölle nämä:
 
 <img src="/assets/files/docs/Tyokalut/ianmukaan3.png" alt="" style="width:90.0%" />
 
-- **Ikä päivinä**. Ikä lasketaan niteen hankintapäivä-kentän mukaan.
-- **Ehdot**, jotka pitää täyttyä ennen kuin nidettä muokataan. Voit
-  lisätä useamman ehdon valitsemalla _Lisää ehto_ kentän vierestä.
-- **Korvaajat**, eli mikä tieto niteeseen lisätään/muokataan. Voit
-  lisätä useamman korvaajan valitsemalla _Lisää korvaaja_ kentän
-  vierestä.
+- **Ikä päivinä**. kirjoita päivien määrä ja valitse se niteen päiväyskenttä, jonka mukaan ikä lasketaan.
+- **Ehdot**, valitse arvo, joka muuttuu automaattisesti. Voit lisätä useamman ehdon valitsemalla kentän vierestä _Lisää ehto_ .
+- **Korvaajat**, valitse arvo, joka korvaa automaattisesti Ehdot-kohdan arvon. Voit  lisätä useamman korvaajan valitsemalla _Lisää korvaaja_ kentän vierestä.
 
-Kun sääntö on valmis, valitse _Tallenna_-painike, joka “kelluu” sivun
-yläreunassa sivua vieritettäessä.
+Kun sääntö on valmis, valitse näytön yläreunan _Tallenna_-painike.
 
-Säännön voi poistaa valitsemalla _Poista tämä sääntö_.
+Poista tarpeeton sääntö valitsemalla _Poista tämä sääntö_.
 
 ---
 
