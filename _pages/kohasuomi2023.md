@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 12.6.2023 klo 10
 
-Läsnä: Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
+Läsnä: Emmi, Pasi, Ari, Lasse, Lari, Kodo
 
 * [Lumme: Kohan rajapinnan avaus mobiilisovellukseen](https://github.com/KohaSuomi/Koha/issues/639)
 
@@ -25,7 +25,7 @@ Läsnä: Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 
 ### Torstai 1.6.2023 klo 10
 
-Läsnä: Ville, Pasi, Ari, Lasse, Lari, Kodo
+Läsnä: Pasi, Ari, Lasse, Lari, Kodo
 
 * Tietokantapalvelimien synkkausviive
   * slave-palvelimella oli pari kauan kestänyttä raporttia, ja yksi "Waiting for table metadata lock"; seurataan asiaa.
