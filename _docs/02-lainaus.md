@@ -492,7 +492,7 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 ### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
 
 Jos järjestelmä on asetettu näyttämään maksut palautuksen yhteydessä,
-saat keltapohjaisen viestin asiakkaan maksuista.  
+saat keltapohjaisen ilmoituksen asiakkaan maksuista.  
 ![](/assets/files/docs/Lainaus/palautusviesti7.png)
 
 
@@ -500,7 +500,7 @@ saat keltapohjaisen viestin asiakkaan maksuista.
 
 Jos palautat kadonneeksi merkityn niteen, saat seuraavan ilmoituksen:  
 ![](/assets/files/docs/Lainaus/palautusviesti8.PNG)
-- Kadonnut-tila poistuu niteeltä automaattisesti, jos järjestelmäasetuksiin on näin määritelty. 
+- Kadonnut-tila poistuu niteeltä automaattisesti palautuksen yhteydessä, jos järjestelmäasetuksiin on näin määritelty. 
 
 
 ### 2.7.2.7 Laskutetun niteen palauttaminen
@@ -510,11 +510,37 @@ Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 
 - Niteen laskutettutila ei poistu automaattisesti, jos järjestelmäasetuksissa on näin määritelty.
 
-### 2.7.3 Ilmoittaa palauttaneensa
+### 2.7.3 Palautusilmoitukset
 
-Jos kimpassa on käytössä **Ilmoittaa palauttaneensa** -toiminto, toiminto painikkeen **Palautusilmoitukset** saat näkyville myös Sarakkeen näkyvyys -valikosta. Toimintoa voi käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. Ko. niteen kohdalle tallentuu      merkintä, että asiakas sanoo palauttaneensa lainan. Tieto lainasta tallentuu myös Palautusilmoitukset-välilehdelle.  
+Jos kimpassasi on käytössä *Palautusilmoitukset*, toiminto näkyy asiakkaan Lainat-välilehdellä. Jos *Palautusilmoitukset* eivät näy, saat ne näkyville Sarakkeen näkyvyys -valikosta. Toimintoa voit käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. 
+
+Klikkaa toimintoa *Ilmoitettu palautetuksi* ko. lainan kohdalla
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
+
+Saat Huomautukset-näytön, johon voit kertoa vapaamuotoisesti asiakkaan ilmoituksen palautuksesta.
+
+![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa1.PNG)
+
+Lainan Eräpäivä-sarakkeeseen tallentuu tieto "Ilmoittaa palauttaneensa" ja Palautusilmoitukset-sarakkeeseen ajankohta, jolloin palautusilmoitus on tallennettu.
+
+![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa2.PNG)
+
+Palautusilmoitukset-välilehdellä näet palautetuksi ilmoitetun lainan tiedot. Toiminnot-valikosta voit muokata huomautuksia tai ratkaista/merkitä palautuksen löytyneeksi. 
+
+![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa3.PNG)
+
+![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa4.PNG)
+
+Ratkaisuvaihtoehtoja ovat:
+- Löytynyt kirjastosta
+- Asiakas palautti
+
+Valitse niteelle tarvittaessa uusi tila. 
+
+Jos palautat palautetuksi ilmoitettu niteen Palautus-toiminnolla saat ilmoituksen, jossa voit myös ratkaista/merkitä palautuksen löytyneeksi.
+
+![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa5.PNG)
 
 Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttaneensa" -lainan jälkeen ohjelma huomauttaa määrästä virkailijalle.
 
