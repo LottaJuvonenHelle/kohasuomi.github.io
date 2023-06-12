@@ -20,6 +20,20 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä: Emmi, Pasi, Ari, Lasse, Lari, Kodo
 
 * [Lumme: Kohan rajapinnan avaus mobiilisovellukseen](https://github.com/KohaSuomi/Koha/issues/639)
+* Raahen laskutus: Nyt lähtee eteenpäin.
+  * raahelaskutus-domain on .ssh/config:ssa, ssh-avainten tarkistus valittaa, Kodo korjaa
+* Lumme haravointi valittaa 500-virhettä
+  * Logissa: _DBIC result _type isn't of the type BiblioMetadata at /home/koha/Koha/Koha/OAI/Server/Repository.pm line 181. 
+  * Vaikuttaa siltä kuin bibliolla ei olisi biblio_metadata-taulussa vastaavaa riviä
+* Lappi 500-virhe tietueessa, jossa ei 942-kentässä ollut osakenttää
+  * Luetteloijan korjattava 
+* Varausten vanhentuminen cron
+  * Ei laiteta käyttöön, Kohassa on nykyisin DefaultHoldExpirationDate -järjestelmäasetus jolla saa asetettua automaattisesti
+  * Onko tuossa asetuksessa bugi, kun varaukset eivät vanhene? Emmi tutkii.
+* Lapin biblionumber/biblioitemnumbereiden renumerointi ja synkkaus: Emmi korjaa.
+* MARC-virhelistaan: ilmottaako se xml-virheistä, ne pitäisi näkyä paremmin. Pasi muuttaa.
+* Tiistain päivitys
+  * Vaara: SIP-viesteissä tulee mukaan PA-kenttä, laitetaan vähitelle myös muille kimpoille
 
 ## Viikon 23 muistiot
 
