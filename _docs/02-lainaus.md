@@ -413,7 +413,10 @@ Palautetun niteen tiedot tulevat näytölle.
 *Sarakkeet*-valikosta voit valita, mitä tietoja Palautus-näytöllä näytetään. 
 *Vie*-valikosta voit tulostaa, kopioida tai viedä palautetut niteet Excel- tai CSV-tiedostoiksi.
 
-Jos teoksesta on varaus ja saat näytölle ilmoituksen: *Maksuja ei peritä käsin peruutetuista varauksista*, voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
+Jos teoksesta on varaus ja saat näytölle ilmoituksen: 
+
+![](/assets/files/docs/Lainaus/maksuilmoitus.PNG)
+Voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
 
 
 ### 2.7.2 Palautuksen viestit
@@ -445,19 +448,16 @@ Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja
 
 ***Varauksen infokuitin tulostaminen manuaalisesti***:
 
-- Kun palautat niteen, josta on varaus, saat siitä ilmoituksen:
+- Kun palautat niteen, josta on varaus, saat siitä ilmoituksen, jossa voi olla eri toimintovaihtoehtoja kimpan toimintatavoista ja asetuksista riippuen.
 
 ![](/assets/files/docs/Lainaus/palautusviesti10.PNG)
 
-- Valitsemalla toiminnon **Vahvista varaus**, nide menee Odottaa-tilaan.
-- Toiminnolla **Tulosta kuitti ja vahvista**, ohjelma tulostaa varauksen infokuitin ja muuttaa niteen Odottaa-tilaan. 
-- Toiminnolla **Älä huomioi**, nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
+- Valitsemalla toiminnon *Vahvista varaus*, nide menee Odottaa kirjastossa -tilaan.
+- Toiminnolla *Tulosta kuitti ja vahvista*, ohjelma tulostaa varauksen infokuitin ja muuttaa niteen Odottaa kirjastossa -tilaan. 
+- Toiminnolla *Älä huomioi*, varaus säilyy asiakkaalla voimassa olevana.
+- Jos palautat varatun niteen toistamiseen samalla näytöllä, voit saada ilmoituksen, jossa on mahdollista poistaa varaus toiminnolla *Poista varaus*. 
 
-Jos palautat varatun niteen toistamiseen samalla näytöllä, saat ilmoituksen, jossa on mahdollista poistaa varaus toiminnolla **Poista varaus**. 
-
-![](/assets/files/docs/Lainaus/palautusviesti11.PNG)
-
-- Poistetusta varauksesta ei tallennu asiakkaalle noutamattoman varauksen maksua, kun poisto tehdään samalla palautusnäytöllä, kuin alkuperäinen palautus on tehty. Varausviestin taakse jää ilmoitus **"Maksuja ei peritä käsin peruutetuista varauksista"**.
+- Poistetusta varauksesta ei tallennu asiakkaalle noutamattoman varauksen maksua, kun poisto tehdään samalla palautusnäytöllä, kuin alkuperäinen palautus on tehty. Varausviestin taakse jää ilmoitus "Maksuja ei peritä käsin peruutetuista varauksista".
 
 ***Varauksen infokuitin tulostuminen automaattisesti***:
 
@@ -478,9 +478,9 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
 ![](/assets/files/docs/Lainaus/palautusviesti5.PNG)
 
-- Valitsemalla **Vahvista varaus ja kuljetus**, vahvistat niteen kuljetettavaksi kirjastoon, missä on varauksen noutopaikka.
-- Toiminnolla **Tulosta kuitti, kuljeta ja vahvista**, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
-- Toiminnolla **Älä huomioi**, nide jää Saatavana-tilaan ja varaus säilyy asiakkaalla voimassa olevana.
+- Valitsemalla *Vahvista varaus ja kuljetus*, vahvistat niteen kuljetettavaksi kirjastoon, missä on varauksen noutopaikka.
+- Toiminnolla *Tulosta kuitti, kuljeta ja vahvista*, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
+- Toiminnolla *Älä huomioi**, varaus säilyy asiakkaalla voimassa olevana.
 
 ***Varauksen kuljetuskuitin tulostuminen automaattisesti***:
 
