@@ -16,8 +16,8 @@ Läsnä:
 
 **Yhteiset asiat:**
 * Kirjataan muistiin: automaattien toimittajat Lyngsoe, Bibliotheca ja Mikroväylä ovat ilmoittaneet, että automaateissa voi ottaa käyttöön myös pidempiä PIN-koodeja kuin nyt on vain neljä numeroa.
-* Varausjono-raportti / Koha-Suomen hyllyvarausraportti -> uudelleentarkasteltavaksi minkä ylläpitäminen olisi järkevintä?
-Keskusteltu tiketissä [#578](https://github.com/KohaSuomi/Koha/issues/578). Kannattaisiko pääkäyttäjäryhmä asian selvittelyä, voidaanko edentää ehdotus uudelleentarkastelusta asiantuntijaryhmään?
+* Varausjono-raportti / Koha-Suomen hyllyvarausraportti -> uudelleentarkasteltavaksi kumman ylläpitäminen olisi järkevintä?
+Keskusteltu tiketissä [#578](https://github.com/KohaSuomi/Koha/issues/578). Kannattaisiko pääkäyttäjäryhmä asian selvittelyä, voidaanko edentää ehdotus uudelleentarkastelusta asiantuntijaryhmään? (Anni / Vaski)
 
 Pohjoisesta etelään
 
