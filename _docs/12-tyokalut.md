@@ -467,7 +467,8 @@ Määritä uudelle säännölle nämä:
 
 <img src="/assets/files/docs/Tyokalut/ianmukaan3.png" alt="" style="width:90.0%" />
 
-- **Ikä päivinä**. kirjoita päivien määrä ja valitse se niteen päiväyskenttä, jonka mukaan ikä lasketaan.
+- **Ikä päivinä**. kirjoita päivien määrä.
+- **Ikä**, valitse se niteen päiväyskenttä, jonka mukaan ikä lasketaan.
 - **Ehdot**, valitse arvo, joka muuttuu automaattisesti. Voit lisätä useamman ehdon valitsemalla kentän vierestä _Lisää ehto_ .
 - **Korvaajat**, valitse arvo, joka korvaa automaattisesti Ehdot-kohdan arvon. Voit  lisätä useamman korvaajan valitsemalla _Lisää korvaaja_ kentän vierestä.
 
