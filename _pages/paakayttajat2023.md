@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Anni Rajala (Vaski)
 
 **Yhteiset asiat:**
 * Kirjataan muistiin: automaattien toimittajat Lyngsoe, Bibliotheca ja Mikroväylä ovat ilmoittaneet, että automaateissa voi ottaa käyttöön myös pidempiä PIN-koodeja kuin nyt on vain neljä numeroa.
@@ -53,6 +53,10 @@ Pohjoisesta etelään
 * Takaajatieto vielä linkitettynä, vaikka asiakas on jo täysi-ikäinen. Tiketti: #641
   * Tiketissä mainittu raportti 167 Takajalalliset asiakkaat voi olla nopea ja helppo korjata toimivaksi. Sen avulla voisimme tarkistaa onko meillä enemmänkin takaajallisia henkilöasiakkaita?
 * Kohan ohje suomeksi -ohjetta päivitetty.
+
+**Vaski**
+* Yksi työntekijä havainnut tapauksen, jossa asiakastietojen tallentaminen onnistui ilman osoitetietoja. Työntekijä muisteli, että kentät olisivat lomakkeelta puuttuneet kokonaan, mutta ei ollut asiasta täysin varma. Joka tapauksessa osoitetiedot olivat tyhjät, kun asiakasta tallentamisen jälkeen tarkasteli. Raporttihaulla (address = '') löytyi toinen vastaava tapaus, asiakastietue tallennettu 2.6.2023. Ei keksitty selitystä, mutta raportoidaan tämä vielä tiketiksi.
+* Palautetta tullut siitä, ettei Koha-Suomen sivuilla haku löydä ohjeita. Todettiin, että haku on Githubin, joka ei ole erityisen hyvä.
 
 
 ## Viikko 23 muistio
