@@ -20,6 +20,7 @@ Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara)
 Keskusteltu tiketissä [#578](https://github.com/KohaSuomi/Koha/issues/578). Kannattaisiko pääkäyttäjäryhmä asian selvittelyä, voidaanko edentää ehdotus uudelleentarkastelusta asiantuntijaryhmään? (Anni / Vaski)
 
 Pohjoisesta etelään
+
 **Lappi**
 * Tietue aiheuttaa Kohaan 500-virheen, syynä puutteellinen 942-kenttä. Vastaavia tietueita on vajaa 10, kehittäjä korjaa. 
 * Kuvailun hakukenttä tyhjene, jos hakulauseella ei löydy mitään. Toimii siis toisin kuin tiedonhakukenttä. Olisiko joku järjestelmäasetus vai ominaisuus?
