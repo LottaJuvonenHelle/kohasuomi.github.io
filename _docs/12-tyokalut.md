@@ -502,6 +502,7 @@ Lisää pohjaan toiminnot niistä muutoksista, jotka tietueille tehdään. Valit
 <img src="/assets/files/docs/Tyokalut/marcpohja3.png" title="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." alt="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." style="width:70.0%" />
 
 Valitse alasvetovalikosta tarvittava toiminto. 
+
 <img src="/assets/files/docs/Tyokalut/marcpohja4_1.PNG" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" style="width:90.0%" />
 
 Valitse alasvetovalikosta koskeeko muutos kaikkia muutettavan kentän toistumia vai vain ensimmäistä kenttätoistumaa.
