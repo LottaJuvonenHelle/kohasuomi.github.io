@@ -37,12 +37,28 @@ Läsnä: Emmi, Pasi, Ari, Lasse, Lari, Kodo
 
 ## Viikon 23 muistiot
 
-### Torstai 1.6.2023 klo 10
+### Torstai 8.6.2023 klo 10
 
 Läsnä: Pasi, Ari, Lasse, Lari, Kodo
 
 * Tietokantapalvelimien synkkausviive
   * slave-palvelimella oli pari kauan kestänyttä raporttia, ja yksi "Waiting for table metadata lock"; seurataan asiaa.
+
+* Kirjastokortin viivakoodin esittäminen asiakkaan tietonäytöllä
+  * Voidaan toteuttaa, ei tarvitse käyttää asiantuntijaryhmässä
+  * Pasi tutkii voidaanko toteuttaa esimerkiksi JavaScriptillä intranetuserjs:ään, Kodo tekee tiketin
+
+* Svean kanssa yritetty löytää yhteisymmärrystä SSH host-avainten skannauksesta. Svean palvelin blokkaa yhteyden jos tietyn ajan sisällä tulee liikaa pyyntöjä. "Liikaa pyyntöjä" on tässä tapauksessa neljä ja ssh-keyscan lähettää viisi pyyntöä avainskannauksella.
+
+* Laskutus Raahessa ei edelleenkään toimi, laskut eivät mene perille Raahen palvelimelle #634
+  * Kodo tutkii tiedonsiirtoyhteyttä
+
+* Finna-haravointi on rikki Lumpeessa ja Lapissa, kysymyksessä ilmeisesti viallinen kuvailutietue, johon koko homma kaatuu.
+
+* set_expirationdate_for_holds.pl täytyy siirtää utilityyn #631, Lasse hoitaa
+
+* Lumpeessa otettu toistaiseksi käyttöön debug-lokitus, koska ongelmia Lumpeissa tuntuu olevan kaikenlaisia kummallisia ongelmia #611.
+  * Tilanne on outo, koska Lumme-Koha on sama kuin kaikilla muillakin, vian on melkein pakko olla Lumpeen datassa.
 
 ### Maanantai 5.6.2023 klo 10
 
