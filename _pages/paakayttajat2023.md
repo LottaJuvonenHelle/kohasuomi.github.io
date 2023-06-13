@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi) 
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara)
 
 **Yhteiset asiat:**
 * Kirjataan muistiin: automaattien toimittajat Lyngsoe, Bibliotheca ja Mikroväylä ovat ilmoittaneet, että automaateissa voi ottaa käyttöön myös pidempiä PIN-koodeja kuin nyt on vain neljä numeroa.
@@ -25,6 +25,15 @@ Pohjoisesta etelään
 * Kuvailun hakukenttä tyhjene, jos hakulauseella ei löydy mitään. Toimii siis toisin kuin tiedonhakukenttä. Olisiko joku järjestelmäasetus vai ominaisuus?
 * Käyttäjätunnuksia tehty tiheään kesätyöntekijöille. 
 * Muuten rauhallista. 
+
+**Vaara**
+* Lauantaina oli tapahtunut pari ihmeteltävää asiaa, joista tein nyt tiketit:
+* https://github.com/KohaSuomi/Koha/issues/645 Varaustunnus vaihtui anonymisoiduksi vanhentuneiden varausten listalla, kun asiakas oli poistanut lainahistoriansa
+* https://github.com/KohaSuomi/Koha/issues/646 Varauksen noutoaika pidentyi viikolla, kun tulostettiin uusi odottavan varauksen kuitti. Asiakkaalle ei lähtenyt viestiä uudesta noutoajasta
+* Edge-selain kysyy varmenteen kahteen kertaan, toinen kerta Vaaran testikannalle. Ilmeisesti vika Meitan asetuksissa, teen sinne palvelupyynnön korjata asia.
+* Muuten normaalia ylläpitoa.
+
+
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
