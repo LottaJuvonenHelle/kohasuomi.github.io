@@ -460,15 +460,15 @@ Kuvailu-osion Niteen muokkaus iän mukaan -toiminnolla teet säännön tai sää
 
 Tee uusi sääntö tai muokkaa jo olemassa olevaa sääntöä valitsemalla toiminnon etusivulta _Muokkaa sääntöjä_ 
 
-<img src="/assets/files/docs/Tyokalut/ianmukaan01.png" alt="" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/ianmukaan01.png" alt="" style="width:90.0%" />
 
 Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää sääntö_  
 
-<img src="/assets/files/docs/Tyokalut/ianmukaan02.png" alt="" style="width:70.0%" />
+<img src="/assets/files/docs/Tyokalut/ianmukaan02.png" alt="" style="width:90.0%" />
 
 Määritä uudelle säännölle nämä:
 
-<img src="/assets/files/docs/Tyokalut/ianmukaan03.png" alt="" style="width:60.0%" />
+<img src="/assets/files/docs/Tyokalut/ianmukaan03.png" alt="" style="width:90.0%" />
 
 - **Ikä päivinä**. kirjoita päivien määrä.
 - **Ikä**, valitse se niteen päiväyskenttä, jonka mukaan ikä lasketaan.
