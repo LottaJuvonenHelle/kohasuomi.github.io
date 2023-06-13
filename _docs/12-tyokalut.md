@@ -484,7 +484,7 @@ Poista tarpeeton sääntö valitsemalla _Poista tämä sääntö_.
 ## 12.12 MARC-muokkauksen pohjat
 
 Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. 
-Sääntö tehdään Kuvailu-osion MARC-muokkauksen pohjat -toiminnossa.
+Tee sääntö Kuvailu-osion MARC-muokkauksen pohjat -toiminnossa.
 
 <img src="/assets/files/docs/Tyokalut/marcpohja.png" alt="" style="width:90.0%" />
 
