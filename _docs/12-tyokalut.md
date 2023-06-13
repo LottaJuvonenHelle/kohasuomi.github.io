@@ -467,7 +467,6 @@ Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää
 <img src="/assets/files/docs/Tyokalut/ianmukaan02.png" alt="" style="width:90.0%" />
 
 Määritä uudelle säännölle nämä:
-
 <img src="/assets/files/docs/Tyokalut/ianmukaan03.png" alt="" style="width:90.0%" />
 
 - **Ikä päivinä**. kirjoita päivien määrä.
