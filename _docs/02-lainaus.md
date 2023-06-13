@@ -416,6 +416,7 @@ Palautetun niteen tiedot tulevat näytölle.
 Jos teoksesta on varaus ja saat näytölle ilmoituksen: 
 
 ![](/assets/files/docs/Lainaus/maksuilmoitus.PNG)
+
 Voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamattoman varauksen maksua. Jos palautetusta teoksesta ei ole varausta, ilmoitusta ei tarvitse huomioida.
 
 
@@ -465,7 +466,7 @@ Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja
 
 ![](/assets/files/docs/Lainaus/palautusviesti3.PNG)
 
-- Jos järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen infokuitti heti, kun olet palauttanut varatun niteen. 
+- Varauksen infokuitti tulostuu heti automaattisesti, kun olet palauttanut varatun niteen. 
 - Jos palautat niteen toisen kerran, ohjelma vaatii manuaalisen varausilmoituksen kuittauksen.
 
 
@@ -486,13 +487,13 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
 ![](/assets/files/docs/Lainaus/palautusviesti13.PNG)
 
-- Jos järjestelmäasetuksiin on määritelty, että varauskuitit tulostuvat automaattisesti, tulostuu varauksen kuljetuskuitti heti, kun olet palauttanut varatun niteen. 
+- Kun palautat varatun niteen, tulostuu varauksen kuljetuskuitti heti automaattisesti.
 
 
 ### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
 
 Jos järjestelmä on asetettu näyttämään maksut palautuksen yhteydessä,
-saat keltapohjaisen ilmoituksen asiakkaan maksuista.  
+saat keltapohjaisen ilmoituksen asiakkaan maksuista. *Maksa*-linkistä pääset suoraan asiakkaan maksuihin.
 ![](/assets/files/docs/Lainaus/palautusviesti7.png)
 
 
@@ -526,7 +527,7 @@ Lainan Eräpäivä-sarakkeeseen tallentuu tieto "Ilmoittaa palauttaneensa" ja Pa
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa2.PNG)
 
-Palautusilmoitukset-välilehdellä näet palautetuksi ilmoitetun lainan tiedot. Toiminnot-valikosta voit muokata huomautuksia tai ratkaista/merkitä palautuksen löytyneeksi. 
+Palautusilmoitukset-välilehdellä näet palautetuksi ilmoitetun lainan tiedot. Toiminnot-valikosta voit muokata huomautuksia tai ratkaista/merkitä lainan löytyneeksi. 
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa3.PNG)
 
@@ -536,9 +537,9 @@ Ratkaisuvaihtoehtoja ovat:
 - Löytynyt kirjastosta
 - Asiakas palautti
 
-Valitse niteelle tarvittaessa myös uusi nidetila. 
+Valitse niteelle tarvittaessa myös uusi kadonnut-arvo. 
 
-Jos palautat palautetuksi ilmoitetun niteen Palautus-toiminnolla, saat ilmoituksen, jossa voit myös ratkaista/merkitä palautuksen löytyneeksi.
+Jos palautat palautetuksi ilmoitetun niteen Palautus-toiminnolla, saat ilmoituksen, jossa voit myös ratkaista/merkitä lainan löytyneeksi.
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa5.PNG)
 
