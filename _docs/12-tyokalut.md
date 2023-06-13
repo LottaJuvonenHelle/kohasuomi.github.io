@@ -483,52 +483,44 @@ Poista tarpeeton sääntö valitsemalla _Poista tämä sääntö_.
 
 ## 12.12 MARC-muokkauksen pohjat
 
-Kohassa pystyy muokkaamaan tietueita eräajona ja sitä varten tarvitaan
-säännöt, minkä pohjalta muokkausta tehdään. MARC-muokkauksen pohjat ovat
-tätä varten.
+Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. 
+Sääntö tehdään Kuvailu-osion MARC-muokkauksen pohjat -toiminnossa.
 
 <img src="/assets/files/docs/Tyokalut/marcpohja.png" alt="" style="width:90.0%" />
 
 ### Uuden muokkauspohjan tekeminen
 
-Uuden pohjan voi tehdä valitsemalla _Uusi pohja_  
+Tee uusi pohja valitsemalla _Uusi pohja_  
 <img src="/assets/files/docs/Tyokalut/marcpohja1.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" style="width:90.0%" />
 
-Anna pohjalle kuvaava nimi. Voit myös kopioida malliksi jonkin jo
+Anna pohjalle kuvaava nimi. Voit myös kopioida malliksi jo
 olemassa olevan pohjan.  
 <img src="/assets/files/docs/Tyokalut/marcpohja2.png" title="Kuvakaappaus uuden pohjan luonnista. Kuvassa on tekstikenttä Nimi ja alasvetovalikko, josta voi valita kopioitavan mallin. Nimi-kenttä on pakollinen." alt="Kuvakaappaus uuden pohjan luonnista. Kuvassa on tekstikenttä Nimi ja alasvetovalikko, josta voi valita kopioitavan mallin. Nimi-kenttä on pakollinen." style="width:90.0%" />
 
-Sen jälkeen pohjalle pitää lisätä toiminnot eli mitä muokkauksia
-tietueille halutaan tehdä. Valitse _Uusi toiminto_  
+Lisää pohjaan toiminnot niistä muutoksista, jotka tietueille tehdään. Valitse _Uusi toiminto_  
 <img src="/assets/files/docs/Tyokalut/marcpohja3.png" title="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." alt="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." style="width:70.0%" />
 
-Valitse ensimmäisestä valikosta, haluatko poistaa, lisätä/päivittää,
-siirtää, kopioida vai kopioida ja korvata.  
+Valitse alasvetovalikosta tarvittava toiminto. 
 <img src="/assets/files/docs/Tyokalut/marcpohja4_1.PNG" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" style="width:90.0%" />
 
-Sitten valitaan, koskeeko toiminto kaikkia määritettyjä kenttiä vai 1.
-vastaan tulevaa kenttää, joka täyttää kenttä-määrityksen.  
+Valitse alasvetovalikosta koskeeko muutos kaikkia muutettavan kentän toistumia vai vain ensimmäistä kenttätoistumaa.
 <img src="/assets/files/docs/Tyokalut/marcpohja5.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1." alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1." style="width:90.0%" />
 
-Seuraavaksi kirjoitetaan, mitä MARC-osakenttää halutaan muokata.  
+Kirjoita muutettava kenttä.  
 <img src="/assets/files/docs/Tyokalut/marcpohja6.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla kaksi kirjoituskenttää. Toisessa on marc-kentän numero 500 ja toisessa marc-osakentän kirjain a" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla kaksi kirjoituskenttää. Toisessa on marc-kentän numero 500 ja toisessa marc-osakentän kirjain a" style="width:90.0%" />
 
-Voit määrittää myös, pitääkö täyttyä jokin ehto ennen kuin muutos
-tehdään. Valittavissa on jos/paitsi-vaihtoehdot. Tämä ei ole
-pakollinen.  
+Valitse tarvittaessa muut ehdot.  
 <img src="/assets/files/docs/Tyokalut/marcpohja61.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" style="width:70.0%" />
 
-Määrittele ehdon vaatima kenttä sekä missä tapauksessa se otetaan
-huomioon.  
+Kirjoita ehtoon liittyvä kenttä ja valitse alaasvetovalikosta, milloin kenttä huomioidaan.  
 <img src="/assets/files/docs/Tyokalut/marcpohja7.png" title="Kuvakaappauksessa on kaksi kirjoituskenttää sek avattu alasvetovalikko. Kentiin on kirjoitettu 100 ja a. Alasvetovalikossa on vaihtoehdot &quot;on jo olemassa&quot;, &quot;ei ole olemassa&quot;, osumat ja &quot;ei osumaa&quot;" alt="Kuvakaappauksessa on kaksi kirjoituskenttää sek avattu alasvetovalikko. Kentiin on kirjoitettu 100 ja a. Alasvetovalikossa on vaihtoehdot &quot;on jo olemassa&quot;, &quot;ei ole olemassa&quot;, osumat ja &quot;ei osumaa&quot;" style="width:90.0%" />
 
-Voit myös käyttää ehdossa RegEx-sääntöä halutessasi. Kuvaus-kenttään
-voit kuvailla, mitä toiminto tekee. Toiminto tallennetaan valitsemalla
-_Lisää toiminto_.  
+Lisää tarvittaessa ehtoon RegEx-sääntö. 
+Kuvaus-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle.
+Tallenna toimintoa valitsemalla _Lisää toiminto_.  
 <img src="/assets/files/docs/Tyokalut/marcpohja8.png" title="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." alt="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." style="width:90.0%" />
 
-Toimintoja voi lisätä useamman samaan pohjaan ja niiden
-suoritusjärjestystä voi muuttaa ensimmäisen sarakkeen nuolilla.  
+Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.  
 <img src="/assets/files/docs/Tyokalut/marcpohja9.png" title="Kuvakaappaus, jossa näkyy valmiina juuri tehty sääntö taulukkona. Ensimmäissä sarakkeessa lukee Muuta järjestystä, toisessa sarakkeessa lukee tilaus, kolmannessa sarakkeessa lukee Toiminto, neljännessä sarakkeessa lukee Kuvaus, viidennessä sarakkeessa on muokkaa-nappula, kuudennessa sarakkeessa on poista-nappula." alt="Kuvakaappaus, jossa näkyy valmiina juuri tehty sääntö taulukkona. Ensimmäissä sarakkeessa lukee Muuta järjestystä, toisessa sarakkeessa lukee tilaus, kolmannessa sarakkeessa lukee Toiminto, neljännessä sarakkeessa lukee Kuvaus, viidennessä sarakkeessa on muokkaa-nappula, kuudennessa sarakkeessa on poista-nappula." style="width:90.0%" />
 
 ---
