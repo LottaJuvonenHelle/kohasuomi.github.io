@@ -458,7 +458,7 @@ Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään
 
 Kuvailu-osion Niteen muokkaus iän mukaan -toiminnolla teet säännön tai sääntöjä, joiden perusteella niteen tiedot muuttuvat automaattisesti. Automatiikan toimintaan tarvitaan säännön lisäksi järjestelmänkehittäjän ajastama yöllinen ajo (_misc/cronjobs/automatic_item_modification_by_age.pl_).
 
-Tee uusi sääntö valitsemalla toiminnon etusivulta _Muokkaa sääntöjä_ 
+Tee uusi sääntö tai muokkaa jo olemassa olevaa sääntöä valitsemalla toiminnon etusivulta _Muokkaa sääntöjä_ 
 
 <img src="/assets/files/docs/Tyokalut/ianmukaan01.png" alt="" style="width:90.0%" />
 Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää sääntö_  
