@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Leena Kinnunen (Lappi) 
 
 **Yhteiset asiat:**
 * Kirjataan muistiin: automaattien toimittajat Lyngsoe, Bibliotheca ja Mikroväylä ovat ilmoittaneet, että automaateissa voi ottaa käyttöön myös pidempiä PIN-koodeja kuin nyt on vain neljä numeroa.
@@ -20,6 +20,11 @@ Läsnä:
 Keskusteltu tiketissä [#578](https://github.com/KohaSuomi/Koha/issues/578). Kannattaisiko pääkäyttäjäryhmä asian selvittelyä, voidaanko edentää ehdotus uudelleentarkastelusta asiantuntijaryhmään? (Anni / Vaski)
 
 Pohjoisesta etelään
+**Lappi**
+* Tietue aiheuttaa Kohaan 500-virheen, syynä puutteellinen 942-kenttä. Vastaavia tietueita on vajaa 10, kehittäjä korjaa. 
+* Kuvailun hakukenttä tyhjene, jos hakulauseella ei löydy mitään. Toimii siis toisin kuin tiedonhakukenttä. Olisiko joku järjestelmäasetus vai ominaisuus?
+* Käyttäjätunnuksia tehty tiheään kesätyöntekijöille. 
+* Muuten rauhallista. 
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
