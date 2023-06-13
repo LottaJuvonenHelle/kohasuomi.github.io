@@ -12,12 +12,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat:**
 * Kirjataan muistiin: automaattien toimittajat Lyngsoe, Bibliotheca ja Mikroväylä ovat ilmoittaneet, että automaateissa voi ottaa käyttöön myös pidempiä PIN-koodeja kuin nyt on vain neljä numeroa.
+  * Selvitetään onko pitempää PIN-koodia mahdollista käyttää kaikissa palveluissa, joihin niillä kirjaudutaan.
+  * Vaski on lupautunut testaamaan.
 * Varausjono-raportti / Koha-Suomen hyllyvarausraportti -> uudelleentarkasteltavaksi kumman ylläpitäminen olisi järkevintä?
 Keskusteltu tiketissä [#578](https://github.com/KohaSuomi/Koha/issues/578). Kannattaisiko pääkäyttäjäryhmä asian selvittelyä, voidaanko edentää ehdotus uudelleentarkastelusta asiantuntijaryhmään? (Anni / Vaski)
+  * Vaski ottaa asian uudestaan esille pääkäyttäjäpalaveriin kesälomien jälkeen. Keskustellaan silloin laajemmalla osanottajamäärällä miten näiden varaus-raporttien osalta edetään.
 
 Pohjoisesta etelään
 
@@ -38,6 +41,18 @@ Pohjoisesta etelään
 * Virhe 500 toistuu säännöllisen epäsäännöllisesti palautuksissa. Asiaa selvitellään edelleen. 
 * Automaateilla otettiin käyttöön mahdollisuus, että asiakas saa lainattua niillä hyllyvarauksen, jota ei ole vielä palautettu Kohassa tai automaatilla.
 * Muuten normaalia ylläpitoa.
+
+**OUTI**
+* Finvoice-laskujen ääkkösongelma saatu oletettavasti kuntoon.
+  * Viime viikon laskutusajoissa oli muita ongelmia (Raahen laskutusaineistoa ei saatu ajettua ja Oulun laskutusaineisto oli ilmeisesti Monetralla siirretty väärälle laskutuspohjalle), joten korjauksen onnistuminen varmistuu tällä viikolla.
+* Pieni erä Raahen Finvoice-laskuja saatu lähtemään, mutta laskut eivät ainakaan eilen vielä näkyneet Raahen Monetralla.
+  * Palaverin jälkeen saimme tiedon, että laskut ovat siirtyneet nyt myös Monetralle.
+* Väärälle asiakkaalle mennyt s-postia, kun Finna-tilin sähköpostikenttä ei päivity, jos sähköpostiosoite muutetaan Kohassa. Laitettu taas palautetta Finna-tukeen.
+* Asiakkaalta tullut palautetta, että verkkokirjastossa kun asiakas siirtyy Lainat-sivulta Varaukset-sivulle, sivusto pyytää kirjautumaan uudelleen.
+  * Ongelma saatiin toistettua, kun odotettiin Finnan kirjautumisajan umpeutumiseen asti. Ei ole saatu vastausta asiakkaalta, että johtuuko virhetilanne timeoutista.
+* Takaajatieto vielä linkitettynä, vaikka asiakas on jo täysi-ikäinen. Tiketti: #641
+  * Tiketissä mainittu raportti 167 Takajalalliset asiakkaat voi olla nopea ja helppo korjata toimivaksi. Sen avulla voisimme tarkistaa onko meillä enemmänkin takaajallisia henkilöasiakkaita?
+* Kohan ohje suomeksi -ohjetta päivitetty.
 
 
 ## Viikko 23 muistio
