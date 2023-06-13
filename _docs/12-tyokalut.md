@@ -460,7 +460,7 @@ Kuvailu-osion Niteen muokkaus iän mukaan -toiminnolla teet säännön tai sää
 
 Tee uusi sääntö valitsemalla toiminnon etusivulta _Muokkaa sääntöjä_ 
 
-<img src="/assets/files/docs/Tyokalut/ianmukaan.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/ianmukaan01.png" alt="" style="width:90.0%" />
 Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää sääntö_  
 
 <img src="/assets/files/docs/Tyokalut/ianmukaan2.png" alt="" style="width:90.0%" />
