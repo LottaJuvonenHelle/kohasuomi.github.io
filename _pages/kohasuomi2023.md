@@ -20,18 +20,25 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä: Emmi, Pasi, Ari, Lasse, Lari, Kodo
 
 * [Lumme: Kohan rajapinnan avaus mobiilisovellukseen](https://github.com/KohaSuomi/Koha/issues/639)
+
 * Raahen laskutus: Nyt lähtee eteenpäin.
   * raahelaskutus-domain on .ssh/config:ssa, ssh-avainten tarkistus valittaa, Kodo korjaa
+
 * Lumme haravointi valittaa 500-virhettä
   * Logissa: _DBIC result _type isn't of the type BiblioMetadata at /home/koha/Koha/Koha/OAI/Server/Repository.pm line 181. 
   * Vaikuttaa siltä kuin bibliolla ei olisi biblio_metadata-taulussa vastaavaa riviä
+
 * Lappi 500-virhe tietueessa, jossa ei 942-kentässä ollut osakenttää
   * Luetteloijan korjattava 
+
 * Varausten vanhentuminen cron
   * Ei laiteta käyttöön, Kohassa on nykyisin DefaultHoldExpirationDate -järjestelmäasetus jolla saa asetettua automaattisesti
   * Onko tuossa asetuksessa bugi, kun varaukset eivät vanhene? Emmi tutkii.
+
 * Lapin biblionumber/biblioitemnumbereiden renumerointi ja synkkaus: Emmi korjaa.
+
 * MARC-virhelistaan: ilmottaako se xml-virheistä, ne pitäisi näkyä paremmin. Pasi muuttaa.
+
 * Tiistain päivitys
   * Vaara: SIP-viesteissä tulee mukaan PA-kenttä, laitetaan vähitelle myös muille kimpoille
 
@@ -75,30 +82,41 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 * Pääkäyttäjät kysyy: onko tulossa testeille uudempi sisältö (asiakkaat, tietueet yms.) (lähiaikoina)?
   * Pasi päivittää
   * redusoituun kantaan isompi setti tietueita, asiakkaita, lehtitilauksia. Osakohteita enemmän. Enemmän erilaisissa nidetiloissa olevia niteitä. Asiakastiedot: asiakkailta puuttui huollettavia ja varauksia -> helpompi, jos asiakkaan kaikki huollettavat, varaukset ja lainat otettaisiin mukaan. -> Määrät mietintään vko 23 pääkäyttäjäpalsussa
+
 * Pääkäyttäjäpalsusta: varmenne toivottiin vanhenemaan kesälomajan ulkopuolelle ja ehdotettiin toukokuuta.
   * Koha-Suomi pitäisi varmenteen vaihtoajankohdan mielummin syksyllä. Keskustellaan asiasta lisää pääkäyttäjien kanssa loppuvuodesta.
+
 * Pääkäyttäjien palaveriin osallistuminen Annelin loman aikana.
   * Päivystäjät osallistuvat palavereihin ja tiedottavat esim. päivityksistä
+
 * Versiopäivityksen tietokantamuutosten jakaminen Hypernovalle?
   * Emmi ja Kodo katselee läpi skriptit ja jaetaan sitten Hypernovalle
+
 * Miten saataisiin testilaskuja Kirkes-testiltä Sarastialle?
   * Kirkesläisille laitettu ohjeita laskutustyökalun käyttöön ja konfiguraatioon.
   * Testilaskut voi tehdä työkalulla valmiiksi.
   * sanoman muodostamiseen ja lähettämiseen tarvitaan sitten kehittäjien apua.
   * Emmi ja Lasse avuksi 
+
 * Omituisia puhelinnumeroiden katoamisia ja muuttumisia raportoitu ainakin OUTIssa ja Kyytissä:
   * [OUTI: asiakkaan tiedoissa on ruksattuna noutoilmoitus tekstiviestinä, mutta puhelinnumero SMS-kentästä puuttuu #607](https://github.com/KohaSuomi/Koha/issues/607)
   * [OUTI: Asiakkaalle muuttunut vanha puhelinnumero matkapuhelin- ja tekstiviesti numeroon -kenttiin #608](https://github.com/KohaSuomi/Koha/issues/608)
   * Onko jotain tehty meillä ke 17.5.2023 klo 21 jälkeen?
     * Ei ole
   * Anneli testaa vielä erilaisia skenaarioita, mitkä voisi tyhjentää numerot
+
 *  [deleted-tauluissa biblioitemnumberin ja biblionumberin epäsynkka #606](https://github.com/KohaSuomi/Koha/issues/606)
+
 *  [Lumme: 500-virhe tehtäessä kirjaston perustoimintoja #611](https://github.com/KohaSuomi/Koha/issues/611)
+
 *  Tikettien vastuutus
+
 *  Taustatyöt
   * Kaikissa indeksoinneissa raportissa _/ tietuetta indeksoitu onnistuneesti. Joitain virheitä esiintyi._, vaikka indeksointi tuntuisi kuitenkin onnistuneen. -> Anneli tekee tiketin
   * Anneli tekee tiketin jonon siivoamisestakin
+
 * noreply(at)koha-suomi.fi osoitteesta Kohasta koha-suomi.fi-päätteisiin osoitteisiin lähetetyt viestit feilaa: _Recipient address rejected: User unknown in local recipient table_
+
 * Varausten noutoilmoitukset lähtevät versionvaihdon jälkeen kirjaston osoitteesta eli kirjaston tiedoissa olevasta replyto-osoitteesta, eikä kirjaston osoitteesta, jossa on noreply(at)koha-suomi.fi-osoite.
   * MariaDB [outiprod]> select message_id,to_address,from_address,reply_address from message_queue where borrowernumber=246585 order by 1 desc limit 1;
 
@@ -116,11 +134,15 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 * Vaskin asiakasvarmenne vanhenee jo elokuussa
   * uusi varmenne kaikille jakoon ma 24.7.2023
   * muilla kimpoilla uusi ja vanha pidempään
+
 * [Tietueen tuominen TäTistä Vaaraan ei tuo oikeaa tallennuspohjaa](https://github.com/KohaSuomi/Koha/issues/592)
+
 * Tekstiviestien merkistöongelmat LinkMobilityn kanssa.
+
 * Lapin realign
   * biblioitemnumberit saadaan luultavasti korjattua nappaamalla niiden arvoksi rivin biblionumberin arvo
   * lisätään tämä näiden korjaus realign-biblionumber-biblioitemnumber.sh skriptiin  
+
 * Vkon 23 päivitys
   * Käännöskorjauksia: 
     * [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
@@ -135,9 +157,12 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 
 * Lapin realign ei onnistunut /Emmi
+
 * Asiantuntijaryhmässä päätetty purkaa varauksenteko-sivun taulukon piilotus. Jotta se voidaan tehdä, mitää tiketin [Varauksenteko-sivulla ei toimi asiakastaulukon sarakkeiden piilotus](https://github.com/KohaSuomi/Koha/issues/571) ongelma ensin korjata. Vastuutus.
+
 * Päivystysvuorot viikosta 23 eteenpäin.
 * [Lomat githubin yhteystiedot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot)
+
 * Vkon 23 päivitys
   * Käännöskorjauksia: 
     * [Kaksi käännösvirhettä liittyen takaajiin/taattaviin #577](https://github.com/KohaSuomi/Koha/issues/577)
@@ -150,6 +175,7 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Lasse, Lari, Kodo
 * tiistain päivityksen sisältö
   * [KohaSuomi/Koha/Kausijulkaisujen vastaanotossa ei toimi viivakoodinmuodostus #539](https://github.com/KohaSuomi/Koha/issues/539) 
   * [KohaSuomi/Koha/Realign-korjauksen ajo kimppoihin #548](https://github.com/KohaSuomi/Koha/issues/548) 
+
 * [tutkitaan, saako Print summary -tulosteen siirrettyä viestipohjiin.](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=11340)
 
 ## Viikon 20 muistiot
@@ -159,6 +185,7 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Lasse, Lari, Kodo
 Läsnä: Anneli, Emmi, Ville, Pasi, Lasse, Lari, Kodo
 
 * päivityksissä paluu normaaliin eli tiistai-aamuihin. Ellei kyseessä ole kriittinen korjaus.
+
 * pääsääntöisesti versionvpäivitys meni hyvin.
   * päivityksen jälkeen tuli esille ongelmia, joita ei ollut huomattu testeissä. Osa saatiin korjattua tiistaina/keskiviikkona, lopuista tehdään tiketit ja tutkitaan sitä mukaa kun ehditään.
 
@@ -170,6 +197,7 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 * Tuotannon kopiointi, nextiltä vai testiltä?
   * koskee konttipohjia
   * Päätös: next
+
 * Emmi ja Kodo aloittaa päivityksen ma-iltana klo 10.
 
 ## Viikon 19 muistiot
@@ -182,16 +210,21 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
   * onnistuuko ODUE-viestien lähetys jälkikäteen? (muistaakseni onnistuu /AÖ)
   * saako duedst- ja preduedgs-viestit muodostettua tiistaina? (saanee /KK)
   * **Päätös:** Luodaan viestit jonoon ja lähetetään ne, kun viestiliikenne taas käynnistetään. Tieto lisätty versionvaihdon muistiinpanoihin.
+
 * Lumpeelta kysellään voiko stopata/stopataanko viestiliikenne sulun ajalta?
   * **Päätös:** Sovitaan Lumpeiden kanssa, koska heidän viestiliikenne käynnistetään.
+
 * [Tietokantatriggerit päivityksen jälkeen heti käyttöön?](https://github.com/KohaSuomi/Koha-22x/issues/137) 
   * varmistettava, että esim. kirjastokortin numero tulee kopioiduksi userid-kenttään joko triggerillä tai js-rimpsulla.
   * **Päätös:** Lisätty versionvaihdon muistiinpanoihin
+
 * Editx-virheviestin lähetysajankohta
   * ongelmana elasticsearch-virheestä muodostuvat vialliset tilauskorit
   * Ei onnistu helposti, tutkitaan elasticsearch-virheen syytä tarkemmin versionvaihdon jälkeen.
+
 * KOHA_AUTO_FETCH ympäristömuuttujan voi asettaa joko /etc/environmentissa tai komentorivillä export KOHA_AUTO_FETCH=1 ennen buildia.
 Se hakee/päivittää kaikki ksdev/* branchit. Ei voi käyttää tuotannossa.
+
 * Lari testaa Ceepos-maksuja emulaattorissa
 
 
@@ -210,6 +243,7 @@ Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo, Pasi
 Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo
 
 * versionvaihdon tikettien tilanne
+
 * koha-suomi.fi-sertifikaatti vanhenee 20.5.2023
   * Kodo muistuttaa Bittigurua hoitamaan sertifikaatin uusimisen.
 
@@ -221,8 +255,10 @@ Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo
   * Luodaan uusi repo Koha-21x ja kloonaataan nykyinen Koha-repo siihen?
   * Päivitetään Koha-repon sisältämä koodikanta Koha-22x version mukaiseksi? Miten?
   * Päivitetään test-kannat uuteen versioon ke 10.5.2023
+
 * Ceepoksessa 503 virhe
   * testataan keskiviikkona lisää
+
 * [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
   * Pääkäyttäjäpalsussa päätettiin, että otetaan käyttöön vanha 001-liitännäinen järjestelmäasetuksen tilalle.
 
@@ -233,8 +269,8 @@ Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo
 Läsnä:
 
 * [Keskiviikon käyttökatkos](https://github.com/KohaSuomi/Koha/discussions/520)
-* Versionvaihdon tilanne
 
+* Versionvaihdon tilanne
 
 ### Maanantai 24.4.2023 klo 10
 
@@ -243,6 +279,7 @@ Läsnä: Anneli, Emmi, Lasse, Pasi, Lari, Kodo, Ville
 * Versionvaihdon tikettien läpikäynti
   * Tiketit käytiin läpi ja kirjoitettiin kommentit tiketteihin.
   * Arvioitiin versionvaihdon aikataulua.
+
 * Käytiin suppeasti läpi Kirkes-kimpan tietoturvavaikutusten arviointiraportti. 
 
 ## Viikon 16 muistiot
@@ -252,21 +289,28 @@ Läsnä: Anneli, Emmi, Lasse, Pasi, Lari, Kodo, Ville
 Läsnä: Anneli, Pasi, Emmi, Ville, Lari, Lasse, Ari, Kodo
 
 * Käyttöhäiriö 19.4.
+
 * Lokilevelit eri konteissa, ehdotus:
   * tuotannot: error
   * testit: warn
   * nextit: warn
   * kehitysympäristöt: debug/trace/info
+
 * Tikettien [Raporttien kyselyiden siirtäminen tietokantaslavelle - ksdev/ks-0082-KD-5239-altdbh](https://github.com/KohaSuomi/Koha-22x/issues/163) ja [Raporttien kyselyiden siirtäminen tietokantaslavelle - ksdev/ks-0083-KD-5239-use-altdbh-for-reports](https://github.com/KohaSuomi/Koha-22x/issues/164) vastuutus
+
 * [Työkaluliitännäiset/Tulosta ilmoituksia - viestin poistomahdollisuus tulostussivulle](https://github.com/KohaSuomi/Koha/issues/505)
   * Kehitysehdotus, mutta voisiko tästä ottaa Villelle pienen projektin ilman että tarvii käyttää tätä asiantuntijaryhmän kautta?  
 * Kaukolainat Raportointi(OKM)-plugarissa
   * OKM- tilastoihin ei pitäisi laskea kaukolainoja (joillakin kimpoilla on laskettu), mutta esim. Vaara haluaa kaukolainat kuukausitilastoihin
   * tällä hetkellä asetukset mahdollistavat vain joko-tai-tilanteen
   * [Valmiissa SQL-raporteissa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Kaukolainat) on kaukolainoihin liittyviä kyselyjä. Riittäisikö ne siihen saakka, kunnes raportointityökaluun saadaan kaukolaina-osio toimimaan?
+
 * Labyrintti sertifikaatti 25.4.2023
+
 * Elasticsearch-herjoja alkanut tulemaan taas EDItX-tilausten käsittelyssä.
+
 * Versionvaihdon tikettien vastuutus
+
 * Koha-Suomen po-tiedostot -> luodaan uudet kun perustiedot-näytön ja hakutulos-näytön muutokset tehty.
 
 ### Maanantai 17.4.2023 klo 10
@@ -287,9 +331,10 @@ Läsnä: Emmi, Kodo, Lari, Lasse, Pasi, Ville
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi, Ville
 
 * ruotsinkieliset käännökset
-* tietokanta-ajot suurin osa tehty, outissa vielä muutama ajo tekemättä.
-* kontrollerin vaihto meni ok. Loppujen lopuksi sinne oli vaihdettu vain levy, joka oli mennyt rikki.
 
+* tietokanta-ajot suurin osa tehty, outissa vielä muutama ajo tekemättä.
+
+* kontrollerin vaihto meni ok. Loppujen lopuksi sinne oli vaihdettu vain levy, joka oli mennyt rikki.
 
 ### Tiistai 11.4.2023 klo 12
 
