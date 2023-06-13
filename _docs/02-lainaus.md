@@ -209,7 +209,7 @@ lainaamisen jatkamista.
   aineiston, valitse *Poista varaus* ja klikkaa *Kyllä, lainaa
   (Y)*. Varaus poistuu alkuperäiseltä varaajalta.
 - Jos valitset vaihtoehdon *Peruuta odottava-tila* ja klikkaat *Kyllä, lainaa
-  (Y)*, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi. Muista käydä lisäämässä varaukselle Vanhenee-päivämäärä teoksen Varaukset-sivulla.
+  (Y)*, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi. Muista käydä lisäämässä varaukselle viimeinen voimassaolopäivämäärä teoksen Varaukset-sivulla Vanhenee-päivämäärä -kenttään.
 
 ### 2.3.4 Nide on jo lainassa tällä asiakkaalla.
 
@@ -292,8 +292,8 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
 
 ![](/assets/files/docs/Lainaus/uusinta.png)
 
-- Uusinta-sarakkeesta näet, kuinka monta kertaa kukin nide on uusittu. 
-  Valitse uusittavat niteet ruksaamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta *Uusi tai palauta
+- Uusinta-sarakkeesta näet, kuinka monta kertaa laina on uusittu. 
+  Valitse uusittavat lainat ruksaamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta *Uusi tai palauta
   valitut niteet* tai jos uusit kaikki lainat, klikkaa *Uusi
   kaikki* -painiketta.
   
@@ -310,7 +310,7 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
   
   - Jos kimpassa on sallittu lainojen palauttaminen Lainassa-välilehdellä ja Sarakkeen näkyvyys -valikosta on valittu Palautus-toiminto
   aktiiviseksi, voit palauttaa lainat valitsemalla palautettavat
-  niteet Plautus-sarakkeesta ja klikkaamalla näytön alareunasta
+  niteet Palutus-sarakkeesta ja klikkaamalla näytön alareunasta
   painiketta *Uusi tai palauta valitut niteet*.
   
 #### 2.4.1.2 Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
@@ -357,7 +357,7 @@ Voit asettaa asiakkaalle rajoituksen, joka estää lainaamisen ja uusimisen.
 
 Rajoituksen voit lisätä Rajoitukset-välilehdellä tai asiakastietojen muokkausnäytöllä
 
-[Asiakkaan rajoitukset](https://koha-suomi.fi/dokumentaatio/asiakkaat/#15102-asiakkaan-rajoitukset)
+[Asiakkaalla on rajoitus](https://koha-suomi.fi/dokumentaatio/lainaus/#222-asiakkaalla-on-rajoitus-lainauskielto)
 
 ### 2.6.2 Huomautukset asiakastiedoissa
 
