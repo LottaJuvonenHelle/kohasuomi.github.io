@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat:**
 * Kirjataan muistiin: automaattien toimittajat Lyngsoe, Bibliotheca ja Mikroväylä ovat ilmoittaneet, että automaateissa voi ottaa käyttöön myös pidempiä PIN-koodeja kuin nyt on vain neljä numeroa.
@@ -34,6 +34,10 @@ Pohjoisesta etelään
 * Edge-selain kysyy varmenteen kahteen kertaan, toinen kerta Vaaran testikannalle. Ilmeisesti vika Meitan asetuksissa, teen sinne palvelupyynnön korjata asia.
 * Muuten normaalia ylläpitoa.
 
+**Lumme**
+* Virhe 500 toistuu säännöllisen epäsäännöllisesti palautuksissa. Asiaa selvitellään edelleen. 
+* Automaateilla otettiin käyttöön mahdollisuus, että asiakas saa lainattua niillä hyllyvarauksen, jota ei ole vielä palautettu Kohassa tai automaatilla.
+* Muuten normaalia ylläpitoa.
 
 
 ## Viikko 23 muistio
