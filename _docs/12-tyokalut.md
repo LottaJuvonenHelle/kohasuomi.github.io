@@ -491,6 +491,7 @@ Tee sääntö Kuvailu-osion MARC-muokkauksen pohjat -toiminnossa.
 ### Uuden muokkauspohjan tekeminen
 
 Tee uusi pohja valitsemalla _Uusi pohja_ 
+
 <img src="/assets/files/docs/Tyokalut/marcpohja1.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" style="width:90.0%" />
 
 Anna pohjalle kuvaava nimi. Voit myös kopioida malliksi jo
