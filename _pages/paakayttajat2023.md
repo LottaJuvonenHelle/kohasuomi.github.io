@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
 
 **Yhteiset asiat:**
 * Kirjataan muistiin: automaattien toimittajat Lyngsoe, Bibliotheca ja Mikroväylä ovat ilmoittaneet, että automaateissa voi ottaa käyttöön myös pidempiä PIN-koodeja kuin nyt on vain neljä numeroa.
