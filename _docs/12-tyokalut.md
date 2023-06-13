@@ -519,7 +519,7 @@ Kirjoita ehtoon liittyvä kenttä ja valitse alaasvetovalikosta, milloin kenttä
 
 Lisää tarvittaessa ehtoon RegEx-sääntö. 
 Kuvaus-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle.
-Tallenna toimintoa valitsemalla _Lisää toiminto_.  
+Tallenna toiminto valitsemalla _Lisää toiminto_.  
 <img src="/assets/files/docs/Tyokalut/marcpohja8.png" title="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." alt="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." style="width:90.0%" />
 
 Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.  
