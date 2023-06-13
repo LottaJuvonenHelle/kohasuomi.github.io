@@ -463,7 +463,7 @@ Tee uusi sääntö tai muokkaa jo olemassa olevaa sääntöä valitsemalla toimi
 <img src="/assets/files/docs/Tyokalut/ianmukaan01.png" alt="" style="width:90.0%" />
 Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää sääntö_  
 
-<img src="/assets/files/docs/Tyokalut/ianmukaan2.png" alt="" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/ianmukaan02.png" alt="" style="width:90.0%" />
 
 Määritä uudelle säännölle nämä:
 
