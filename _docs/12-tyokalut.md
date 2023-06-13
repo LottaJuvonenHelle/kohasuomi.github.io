@@ -463,12 +463,11 @@ Tee uusi sääntö tai muokkaa jo olemassa olevaa sääntöä valitsemalla toimi
 <img src="/assets/files/docs/Tyokalut/ianmukaan01.png" alt="" style="width:60.0%" />
 Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää sääntö_  
 
-<img src="/assets/files/docs/Tyokalut/ianmukaan02.png" alt="" style="width:80.0%" />
+<img src="/assets/files/docs/Tyokalut/ianmukaan02.png" alt="" style="width:60.0%" />
 
 Määritä uudelle säännölle nämä:
 
-<img src="/assets/files/docs/Tyokalut/ianmukaan03.png" alt="" style="width:80.0%" />
-
+<img src="/assets/files/docs/Tyokalut/ianmukaan03.png" alt="" style="width:60.0%" />
 - **Ikä päivinä**. kirjoita päivien määrä.
 - **Ikä**, valitse se niteen päiväyskenttä, jonka mukaan ikä lasketaan.
 - **Ehdot**, valitse arvo, joka muuttuu automaattisesti. Voit lisätä useamman ehdon valitsemalla kentän vierestä _Lisää ehto_
