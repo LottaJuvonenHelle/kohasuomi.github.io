@@ -471,10 +471,10 @@ Määritä uudelle säännölle nämä:
 
 - **Ikä päivinä**. kirjoita päivien määrä.
 - **Ikä**, valitse se niteen päiväyskenttä, jonka mukaan ikä lasketaan.
-- **Ehdot**, valitse arvo, joka muuttuu automaattisesti. Voit lisätä useamman ehdon valitsemalla kentän vierestä _Lisää ehto_ .
+- **Ehdot**, valitse arvo, joka muuttuu automaattisesti. Voit lisätä useamman ehdon valitsemalla kentän vierestä _Lisää ehto_
 - **Korvaajat**, valitse arvo, joka korvaa automaattisesti Ehdot-kohdan arvon. Voit  lisätä useamman korvaajan valitsemalla _Lisää korvaaja_ kentän vierestä.
 
-Kun sääntö on valmis, valitse näytön yläreunan _Tallenna_-painike.
+Tallenna sääntö näytön yläreunan _Tallenna_-painikkeella.
 
 Poista tarpeeton sääntö valitsemalla _Poista tämä sääntö_.
 
