@@ -516,31 +516,44 @@ Tässä Asiakaskuva-laatikossa ei ole sallittu Kohankäyttää kameraa.
 
 ### 1.5.10. Rajoitukset
 
+Joissakin tilanteissa Koha estää lainaamasta aineistoa asiakkaalle, jos estot ovat 
+laitettu päälle järjestelmäasetuksissa. Näissä tilanteissa näytölle tulee huomautus lainaamisen eston syystä.
+
 #### 1.5.10.1. Käyttäjätilin huomautukset
 
 ![](/assets/files/docs/Asiakkaat/Kayttajatilinhuomautukset.png)
 
-Molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta käyttämästä asiakastunnustaan.
+Nämä molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asiakasta käyttämästä asiakastunnustaan.
 
 ##### 1.5.10.1.1 Väärä osoite
 
 Jos haluat lainauksen virkailijan tarkistavan asiakkaan osoitteen ennen
-lainaamista, laita valinta _Kyllä_ päälle Tarkista osoite -kohdassa. Lainaus- ja Tiedotnäytöillä näkyy ilmoitus _Osoite: Tarkista osoite_.
+lainaamista, laita valinta _Kyllä_ päälle Tarkista osoite -kohdassa. Lainaus- ja tiedot-näytöillä 
+näkyy ilmoitus _Osoite: Tarkista osoite_.
 
 ![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
+
+Ilmoituksen voit poistaa, kun olet korjannut asiakkaan osoitetiedot. Huomautus poistuu, kun 
+asiakastietojen muokkausnäytöllä kohdassa _Käyttäjätilin huomautukset_ vaihdat Tarkista osoite -kohtaan vaihtoehdon “Ei” ja tallennat asiakastiedot.
 
 ##### 1.5.10.1.2 Kortti kadonnut
 
 Jos asiakas ilmoittaa kadottaneensa kirjastokorttinsa, voit merkitä sen
-kadonneeksi klikkaamalla _Kyllä_ Kortti kadonnut -kohdassa. Lainaus- ja Tiedotnäytöillä näkyy ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi_.
+kadonneeksi klikkaamalla _Kyllä_ Kortti kadonnut -kohdassa. Lainaus- ja tiedot-näytöillä näkyy 
+ilmoitus _Kadonnut: Asiakkaan kortti on merkitty kadonneeksi_.
 
 ![](/assets/files/docs/Asiakkaat/Kadonnutkortti.png)
 
+Ilmoitus poistuu, kun asiakastietojen muokkausnäytöllä kohdassa _Käyttäjätilin huomautukset_ vaihdat Kortti kadonnut -kohtaan vaihtoehdon “Ei” ja tallennat asiakastiedot.
+
 ##### 1.5.10.1.3 Tili lukittu
 
-Asiakkaan tili lukitaan, jos hän yrittää kirjautua liian monta kertaa väärällä PIN-koodilla. Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" ilmoitus _Tili on lukittu_.
+Asiakkaan tili lukitaan, jos hän yrittää kirjautua liian monta kertaa väärällä PIN-koodilla. 
+Yritysten määrä asetetaan järjestelmäasetuksissa ja se voi vaihdella kimpoittain. 
+Kun tili on lukittu, tulee asiakkaan tietoihin vasemman reunan "tietoboksiin" ilmoitus _Tili on lukittu_.
 
-Lukitus poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Sen saa nollattua vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkkokirjastossa salasanan palautustoimintoa.
+Lukitus poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Sen saa nollattua 
+vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkkokirjastossa salasanan palautustoimintoa.
 
 ![](/assets/files/docs/Asiakkaat/tililukittu.png)
 
@@ -558,7 +571,10 @@ Rajoitteen voi poistaa myös manuaalisesti kortinvaihtotilanteessa.
 
 #### 1.5.10.2. Asiakkaan rajoitukset
 
-Asiakkaalle lisätään vapaamuotoinen rajoite joko asiakkaan tiedoissa _Muokkaa_-painikkeen takaa tai Lainaus- ja Tiedot-näytöillä välilehdellä _Rajoitukset_.
+Voit tallentaa asiakkaalle rajoituksen, joka aiheuttaa lainauskiellon, esim. kun lasku on lähetetty. 
+Rajoite voidaan lisätä asiakkaalle myös automaattisesti, kun lasku luodaan. Rajoitus voi olla voimassa toistaiseksi tai määräajan.
+
+Asiakkaalle lisätään vapaamuotoinen rajoite joko asiakkaan tiedoissa _Muokkaa_-painikkeen takaa tai Lainaus- ja tiedot-näytöillä välilehdellä _Rajoitukset_.
 
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus1.png)
 
@@ -589,6 +605,9 @@ Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toim
 Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä _Muut määreet ja tunnukset_-kohdassa.
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus8.png)
 
+##### 1.5.10.2.1 Asiakkaan rajoitusten poistaminen
+
+Rajoitteen voit poistaa asiakkaalta Poista-toiminnolla.
 
 ## 1.6. Asiakkaiden kommenttien ja muutospyyntöjen käsittely
 
