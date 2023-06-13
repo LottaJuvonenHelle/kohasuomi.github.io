@@ -512,13 +512,13 @@ Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 
 ### 2.7.3 Palautusilmoitukset
 
-Jos kimpassasi on käytössä *Palautusilmoitukset*, toiminto näkyy asiakkaan Lainat-välilehdellä. Jos *Palautusilmoitukset* eivät näy, saat ne näkyville Sarakkeen näkyvyys -valikosta. Toimintoa voit käyttää tilanteissa, kun asiakas ilmoittaa, että hän on palauttanut lainan, joka näkyy vielä hänen lainoissaan. 
+Jos kimpassasi on käytössä *Palautusilmoitukset*, toiminto näkyy asiakkaan Lainat-välilehdellä. Jos *Palautusilmoitukset* eivät näy, saat ne näkyville Sarakkeen näkyvyys -valikosta. Toimintoa voit käyttää tilanteissa, kun asiakas ilmoittaa palauttaneensa lainan, joka näkyy vielä hänen lainoissaan. 
 
 Klikkaa toimintoa *Ilmoitettu palautetuksi* ko. lainan kohdalla
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa.PNG)
 
-Saat Huomautukset-näytön, johon voit kertoa vapaamuotoisesti asiakkaan ilmoituksen palautuksesta.
+Saat Huomautukset-näytön, johon voit halutessasi kirjata asiakkaan ilmoituksen palautuksesta. Klikkaa lopuksi *Ilmoita palautetuksi* -painiketta.
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa1.PNG)
 
@@ -536,9 +536,9 @@ Ratkaisuvaihtoehtoja ovat:
 - Löytynyt kirjastosta
 - Asiakas palautti
 
-Valitse niteelle tarvittaessa uusi tila. 
+Valitse niteelle tarvittaessa myös uusi nidetila. 
 
-Jos palautat palautetuksi ilmoitettu niteen Palautus-toiminnolla saat ilmoituksen, jossa voit myös ratkaista/merkitä palautuksen löytyneeksi.
+Jos palautat palautetuksi ilmoitetun niteen Palautus-toiminnolla, saat ilmoituksen, jossa voit myös ratkaista/merkitä palautuksen löytyneeksi.
 
 ![](/assets/files/docs/Lainaus/ilmoittaa_palauttaneensa5.PNG)
 
