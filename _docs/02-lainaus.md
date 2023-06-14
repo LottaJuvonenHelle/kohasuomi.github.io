@@ -636,7 +636,21 @@ näkyvillä on _Ei mitään_.
 
 - *Vie*-valikosta voit viedä taulukon Excel- tai CSV-muotoon, kopioida tai tulostaa. Jos raportin haluaa välttämättä tulostaa, kannattaa se tehdä tämän toiminnon kautta, koska tiedot asettuu paperille tällöin paremmin.
 
+## 2.12 Noudettavissa olevat varaukset
 
+Tämä raportti näyttää kaikki kirjastossasi noutoa odottavat varaukset.
+
+![](/assets/files/docs/Lainaus/kaikkinoudettavat.PNG)
+
+HUOM! Vanhentuneet varaukset eivät näy oikein tämän näytön välilehdellä "Varaukset odottaneet yli X päivää". Käytä Kohan raporttia "Vanhentuneet, noutamattomat varaukset" (tai vastaavaa), jos kimpassasi sellainen on käytössä. Pyydä tarvittaessa kimppasi pääkäyttäjää tekemään raportti Kohaan.
+
+
+
+## 2.13 Varauksia per nide
+
+Tällä raportilla näet mm. varausten määrän yhtä nidettä kohti.
+
+![](/assets/files/docs/Lainaus/pernide.PNG)
 
 
 ## 2.8 Siirto-toiminto
@@ -682,36 +696,6 @@ Kuvailusääntöjen mukaisesti.
 Useimmat raportit saadaan Raportit-moduulin kautta, mutta joitakin
 raportteja löytyy myös Lainauksen toiminnoista.
 
-
-
-
-### Noudettavissa olevat varaukset
-
-Tämä raportti näyttää kaikki kirjastossasi noutoa odottavat niteet.
-
-![](/assets/files/docs/Lainaus/kaikkinoudettavat.png)
-
-HUOM! Vanhentuneet varaukset eivät enää näy oikein tämän näytön välilehdellä. Käytä vanhentuneiden varausten etsimiseksi 
-sql-raporttia :
-
-> select othernames as 'Varaustunnus', b.title as 'Teos', i.barcode as 'Viivakoodi', bi.itemtype as 'Aineistotyyppi'
-from old_reserves o
-JOIN biblio b using (biblionumber)
-JOIN biblioitems bi using (biblionumber)
-JOIN borrowers using (borrowernumber)
-JOIN items i using (itemnumber)
-where o.branchcode=<<Valitse kirjasto|branches>>
-and o.cancellationdate between <<Vanhentumispäivä alkaen|date>> AND <<Päättyen|date>>
-and o.found='W'
-AND o.expirationdate = (o.cancellationdate - INTERVAL 1 DAY)
-order by 1,2
-
-
-### Varauksia per nide
-
-Tällä raportilla näet mm. varausten määrän yhtä nidettä kohti.
-
-![](/assets/files/docs/Lainaus/pernide.png)
 
 ### Vastaanotettavat kuljetukset
 
