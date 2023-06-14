@@ -593,7 +593,7 @@ etsitään hyllyssä olevia varauksia.
 **Huomaa myös:** Hyllyvarausraportti ei ole täysin reaaliaikainen,
 vaikka se avautuukin nykyään nopeammin kuin ennen. Hyllyvarausraportin
 tiedot haetaan tausta-ajolla, jonka kesto on varausten määrästä riippuen
-muutamasta sekunnista useampaan minuuttiin riippuen siitä pajonko on varauksia kimpassa. Tänä aikana käsiteltävien
+muutamasta sekunnista useampaan minuuttiin. Tänä aikana käsiteltävien
 niteiden ja varausten tiedot voivat muuttua ja listalle voi tulla
 tietoa, joka ei pidä enää katseluhetkellä paikkansa. Tästä voi myös
 johtua, että listalle voi päätyä tilanne, että toisesta kirjastosta
@@ -611,11 +611,13 @@ muutoksia käyttäjien toiveiden perusteella.
 
 Vinkkejä:
 
+- Voit valita *Sarakkeet*-valikosta, mitä sarakkeita raportissa näytetään.
 - Valitse kirjasto-sarakkeista (On shelf/Varaus) oma kirjasto, jolloin pystyt helposti
-  tarkistamaan omassa kirjastossa paikalla olevat varaukset, joiden
+  tarkistamaan omassa kirjastossa paikalla olevat varaukset ja joiden
   noutopiste on myös oma kirjastosi.
 - Sivulla näytetään oletuksena 20 hyllyssä olevaa varausta. Valitse *Näytä_Kaikki*, jolloin saat samalle sivulle kaikki varaukset.
 - Voit raja listaa esimerkiksi materiaalin, hyllypaikan ja/tai kokoelman mukaan.
+- Voit järjestää hakutuloksia otsikkorivin kaksisuuntaisista nuolista nousevaan tai laskevaan järjestykseen.
 - Tarkista, ettei listalle ole jäänyt varauksia roikkumaan pitkäksi
   aikaa järjestämällä Varauspvm-sarake nousevasti, jolloin
   ylimmäiseksi tulee vanhimmat varaukset.
@@ -624,24 +626,15 @@ Listaus näyttää kaikki nimekkeet, joista on varauksia ja joilla on
 niteitä saatavana. Ensimmäisenä kannattaa tarkistaa ne varaukset, joissa
 noutokirjastona on oma kirjasto/oman kunnan toinen kirjasto.
 
-![](/assets/files/docs/Lainaus/hyllyvaraus1.png)
+![](/assets/files/docs/Lainaus/hyllyvaraus1.PNG)
 
-Voit suodattaa hakutuloksesta "On shelf" -sarakkeen alla olevasta
-valikosta oman kirjastosi aineistot esille. Jos valintaa ei ole tehty,
+Suodattaa sarakkeesta "On shelf" oman kirjastosi varaukset. Jos valintaa ei ole tehty,
 näkyvillä on _Ei mitään_.
 
-![](/assets/files/docs/Lainaus/hyllyvaraus2.png)
+![](/assets/files/docs/Lainaus/hyllyvaraus2.PNG)
 
-Näytön alareunassa näkyy, minkä verran aineistoa on suodatettu.
 
-![](/assets/files/docs/Lainaus/lainrap6.png)
-
-Voit halutessasi säätää näkyviä sarakkeita ”Sarakkeet”-kohdasta ylävalikosta.
-
-![](/assets/files/docs/Lainaus/hyllyvaraus4.png)
-
-- Voit lajitella hakutuloksia otsikkorivin nuolimerkinnöistä.
-- Vie-napista hyllyvarauslistan voi viedä Excel- tai CSV-muotoon, kopioida tai tulostaa. Jos raportin haluaa välttämättä tulostaa, kannattaa se tehdä tämän nappulan kautta, koska tiedot asettuu paperille tällöin paremmin.
+- *Vie*-valikosta voit viedä taulukon Excel- tai CSV-muotoon, kopioida tai tulostaa. Jos raportin haluaa välttämättä tulostaa, kannattaa se tehdä tämän toiminnon kautta, koska tiedot asettuu paperille tällöin paremmin.
 
 
 
