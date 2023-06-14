@@ -20,6 +20,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * Maanantai-illan käyttökatko (verkko-operaattorin runkoverkkovika)
+* pluginien releaset
 
 ### Maanantai 12.6.2023 klo 10
 
