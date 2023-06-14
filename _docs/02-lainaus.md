@@ -26,7 +26,7 @@ Ohjelmassa toimivat pikanäppäimet:
 - Palautus: *Alt+R*
 - Lainakuitti: *Alt+P*
 
-## 2.1. Lainaaminen
+## 2.1. Lainaus
 
 Aloita lainaaminen lukemalla asiakkaan kirjastokortin viivakoodi
 *Lainaus*-kenttään tai hakemalla asiakas hänen nimelläään.
@@ -391,7 +391,7 @@ valitsemalla *Asiakkaan käyttöoikeuden jatkaminen*.
 
 ---
 
-## 2.7 Palauttaminen
+## 2.7 Palautus
 
 Aineiston palauttamiseen pääset eri näyttöjen kautta.
 
@@ -546,6 +546,105 @@ Jos palautat palautetuksi ilmoitetun niteen Palautus-toiminnolla, saat ilmoituks
 Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttaneensa" -lainan jälkeen ohjelma huomauttaa määrästä virkailijalle.
 
 ---
+## 2.8 Uusinta
+
+[Uusinta](https://koha-suomi.fi/dokumentaatio/lainaus/#2412-uusinta-lainaus-ja-palautus--sivun-uusinta-linkist%C3%A4)
+
+## 2.9. Aseta kirjasto
+
+Oletuksena on, kun kirjaudut virkailijaliittymään, että kirjautumiskirjastoksi tulee oma kirjasto, joka on tallennettu käyttäjätunnuksesi tietoihin. 
+
+![](/assets/files/docs/Lainaus/kirjautuminen.PNG)
+
+Kirjaston nimi näkyy virkailijaliittymän oikeassa yläreunassa.
+**Tärkeää:** Lainat, palautukset ja kaikki muut toiminnot rekisteröityvät tunnukselle valitun
+kirjaston mukaan.
+
+![](/assets/files/docs/Lainaus/kirjastovalinta.PNG)
+
+Jos työskentelet useammassa kirjastossa, pääset valitsemaan toisen kirjautumiskirjaston
+_Aseta kirjasto_ -toiminnolla. Valitse kirjasto alasvetovalikosta ja klikkaa
+OK.
+
+![](/assets/files/docs/Lainaus/kirjastovalinta2.PNG)  
+
+## 2.10 Varausjono
+
+Tämä raportti näyttää kaikki varaukset, jotka kohdistuvat kirjastosi aineistoon. Raportti käyttää hyväksi kuljetusten painomatriisia, joka pitää olla määritelty kimppasi kirjastoille.
+
+**Huomaa:** Tämä ei ole Koha-Suomen ylläpitämä raportti hyllyvarausten
+käsittelyyn. Raportti ei välttämättä toimi kaikilta osin.
+
+![](/assets/files/docs/Lainaus/varausjono.PNG)
+
+- Valitse kirjasto, jonka paikalla olevia varattuja teoksia haet.
+- Voit rajata raportin nidetyypin, kokoelman ja hyllypaikan mukaan.
+
+![](/assets/files/docs/Lainaus/varausjono1.PNG)
+
+Hakutuloksia voi suodattaa ja järjestellä yläreunan valikon avulla.
+Näkyvillä olevia sarakkeita voi säätää *Sarakkeet*-valikosta ja tiedot voi viedä Excel- tai CSV-muotoon, kopioida ja tulostaa.
+
+## 2.11 Hyllyvaraukset
+
+**Huomaa:** Koha-Suomi suosittelee käyttämään tätä raporttia, kun
+etsitään hyllyssä olevia varauksia.
+
+**Huomaa myös:** Hyllyvarausraportti ei ole täysin reaaliaikainen,
+vaikka se avautuukin nykyään nopeammin kuin ennen. Hyllyvarausraportin
+tiedot haetaan tausta-ajolla, jonka kesto on varausten määrästä riippuen
+muutamasta sekunnista useampaan minuuttiin riippuen siitä pajonko on varauksia kimpassa. Tänä aikana käsiteltävien
+niteiden ja varausten tiedot voivat muuttua ja listalle voi tulla
+tietoa, joka ei pidä enää katseluhetkellä paikkansa. Tästä voi myös
+johtua, että listalle voi päätyä tilanne, että toisesta kirjastosta
+omaan kirjastoon kuljetettavana oleva nide näyttäisi olevan listan
+mukaan hyllyssä omassa kirjastossa. Nide on palautettu kesken ajon ja
+mennyt kuljetustilaan. Kuljetettavan niteen sijaintikirjastona on
+tietokannassa kohdekirjasto. Tälle epäreaaliaikaisuudelle ei ikävä kyllä
+voi tehdä mitään, koska tausta-ajolla kuluu työhönsä oma aikansa ja
+tilanne taustalla muuttuu koko ajan, kun niteitä palautetaan lainasta
+tai joku toinen ehtii palauttaa omassa hyllyssä paikalla olevan niteen.
+
+Hyllyvaraukset raportilla pystyy hakemaan näytölle kaikki voimassa
+olevat hyllyvaraukset. Raportin toimintaan on tehty Koha-Suomessa
+muutoksia käyttäjien toiveiden perusteella.
+
+Vinkkejä:
+
+- Valitse kirjasto-sarakkeista (On shelf/Varaus) oma kirjasto, jolloin pystyt helposti
+  tarkistamaan omassa kirjastossa paikalla olevat varaukset, joiden
+  noutopiste on myös oma kirjastosi.
+- Sivulla näytetään oletuksena 20 hyllyssä olevaa varausta. Valitse *Näytä_Kaikki*, jolloin saat samalle sivulle kaikki varaukset.
+- Voit raja listaa esimerkiksi materiaalin, hyllypaikan ja/tai kokoelman mukaan.
+- Tarkista, ettei listalle ole jäänyt varauksia roikkumaan pitkäksi
+  aikaa järjestämällä Varauspvm-sarake nousevasti, jolloin
+  ylimmäiseksi tulee vanhimmat varaukset.
+
+Listaus näyttää kaikki nimekkeet, joista on varauksia ja joilla on
+niteitä saatavana. Ensimmäisenä kannattaa tarkistaa ne varaukset, joissa
+noutokirjastona on oma kirjasto/oman kunnan toinen kirjasto.
+
+![](/assets/files/docs/Lainaus/hyllyvaraus1.png)
+
+Voit suodattaa hakutuloksesta "On shelf" -sarakkeen alla olevasta
+valikosta oman kirjastosi aineistot esille. Jos valintaa ei ole tehty,
+näkyvillä on _Ei mitään_.
+
+![](/assets/files/docs/Lainaus/hyllyvaraus2.png)
+
+Näytön alareunassa näkyy, minkä verran aineistoa on suodatettu.
+
+![](/assets/files/docs/Lainaus/lainrap6.png)
+
+Voit halutessasi säätää näkyviä sarakkeita ”Sarakkeet”-kohdasta ylävalikosta.
+
+![](/assets/files/docs/Lainaus/hyllyvaraus4.png)
+
+- Voit lajitella hakutuloksia otsikkorivin nuolimerkinnöistä.
+- Vie-napista hyllyvarauslistan voi viedä Excel- tai CSV-muotoon, kopioida tai tulostaa. Jos raportin haluaa välttämättä tulostaa, kannattaa se tehdä tämän nappulan kautta, koska tiedot asettuu paperille tällöin paremmin.
+
+
+
 
 ## 2.8 Siirto-toiminto
 
@@ -577,22 +676,7 @@ ei muutu, mutta nykyinen paikka on toinen kirjasto.
 
 ---
 
-## 2.9 Kirjaston valinta
 
-Oletuksena on, että kirjaudut virkailijatyökaluun kotikirjastossasi.
-Kirjaston nimi näkyy virkailijatyökaluikkunan oikeassa yläreunassa.
-**Tärkeää:** Lainat ja palautukset rekisteröityvät tunnukselle valitun
-kirjaston mukaan.
-
-![](/assets/files/docs/Lainaus/kirjastovalinta.png)
-
-Jos työskentelet useammassa kirjastossa, pääset valitsemaan kirjaston
-_Aseta kirjasto_ -napista. Valitse kirjasto alasvetovalikosta ja klikkaa
-OK.
-
-![](/assets/files/docs/Lainaus/kirjastovalinta2.png)  
-Valitsemasi kirjasto tulee näkyviin oikeaan yläkulmaan ja toiminnot
-tapahtuvat valitsemassasi kirjastossa (lainat, palautukset jne.)
 
 ## 2.10 Pikakuvailu
 
@@ -605,81 +689,8 @@ Kuvailusääntöjen mukaisesti.
 Useimmat raportit saadaan Raportit-moduulin kautta, mutta joitakin
 raportteja löytyy myös Lainauksen toiminnoista.
 
-### Varausjono
 
-Tämä raportti näyttää kaikki varaukset mitkä kohdistuvat kirjastosi aineistoon. 
 
-**Huomaa:** Tämä ei ole Koha-Suomen suosittelema raportti hyllyvarausten
-käsittelyyn.
-
-![](/assets/files/docs/Lainaus/raportit1001.png)
-
-- Voit rajata raportin ajovaiheessa nidetyypin, kokoelman ja hyllypaikan mukaan.
-
-![](/assets/files/docs/Lainaus/raportti2.png)
-
-Hakutuloksia voi suodattaa ja järjestellä yläreunan valikon avulla.
-Näkyvillä olevia sarakkeita voi säätää _Sarakkeet_
--painikkeella ja tiedot voi viedä Excel- tai CSV-muotoon, kopioida ja tulostaa.
-
-### Hyllyvaraukset
-
-**Huomaa:** Koha-Suomi suosittelee käyttämään tätä raporttia, kun
-etsitään hyllyvarauksia.
-
-**Huomaa myös:** Hyllyvarausraportti ei ole täysin reaaliaikainen,
-vaikka se avautuukin nykyään nopeammin kuin ennen. Hyllyvarausraportin
-tiedot haetaan tausta-ajolla, jonka kesto on varausten määrästä riippuen
-muutamasta sekunnista useampaan minuuttiin. Tänä aikana käsiteltävien
-niteiden ja varausten tiedot voivat muuttua ja listalle voi tulla
-tietoa, joka ei pidä enää katseluhetkellä paikkansa. Tästä voi myös
-johtua, että listalle voi päätyä tilanne, että toisesta kirjastosta
-omaan kirjastoon kuljetettavana oleva nide näyttäisi olevan listan
-mukaan hyllyssä omassa kirjastossa. Nide on palautettu kesken ajon ja
-mennyt kuljetustilaan. Kuljetettavan niteen sijaintikirjastona on
-tietokannassa kohdekirjasto. Tälle epäreaaliaikaisuudelle ei ikävä kyllä
-voi tehdä mitään, koska tausta-ajolla kuluu työhönsä oma aikansa ja
-tilanne taustalla muuttuu koko ajan, kun niteitä palautetaan lainasta
-tai joku muu ehtii palauttaa omassa hyllyssä paikalla olevan niteen.
-
-Hyllyvaraukset raportilla pystyy hakemaan näytölle kaikki voimassa
-olevat hyllyvaraukset. Raportin toimintaan on tehty Koha-Suomessa
-muutoksia käyttäjien toiveiden perusteella.
-
-Vinkkejä:
-
-- valitse kirjasto-sarakkeista oma kirjasto, jolloin pystyt helposti
-  tarkistamaan omassa kirjastossa paikalla olevat varaukset, joiden
-  noutopiste on myös oma kirjastosi.
-- rajaa lista esimerkiksi materiaalin mukaan pelkkiin DVD-levyihin
-  tai hyllypaikan mukaan aikuisten hyllypaikalle.
-- tarkista, ettei listalle ole jäänyt varauksia roikkumaan pitkäksi
-  aikaa järjestämällä Varauspvm-sarake nousevasti, jolloin
-  ylimmäiseksi tulee vanhimmat varaukset.
-
-Listaus näyttää kaikki nimekkeet, joista on varauksia ja joilla on
-niteitä saatavana. Ensin kannattaa tarkistaa ne varaukset, joissa
-noutokirjastona on oma kirjasto/oman kunnan toinen kirjasto.
-Noutokirjaston kuudennesta sarakkeesta "Varaus". 
-
-![](/assets/files/docs/Lainaus/hyllyvaraus1.png)
-
-Voit suodattaa hakutuloksesta "On shelf" -sarakkeen alla olevasta
-valikosta oman kirjastosi aineistot esille. Jos valintaa ei ole tehty,
-näkyvillä on _Ei mitään_.
-
-![](/assets/files/docs/Lainaus/hyllyvaraus2.png)
-
-Näytön alareunassa näkyy, minkä verran aineistoa on suodatettu.
-
-![](/assets/files/docs/Lainaus/lainrap6.png)
-
-Voit halutessasi säätää näkyviä sarakkeita ”Sarakkeet”-kohdasta ylävalikosta.
-
-![](/assets/files/docs/Lainaus/hyllyvaraus4.png)
-
-- Voit lajitella hakutuloksia otsikkorivin nuolimerkinnöistä.
-- Vie-napista hyllyvarauslistan voi viedä Excel- tai CSV-muotoon, kopioida tai tulostaa. Jos raportin haluaa välttämättä tulostaa, kannattaa se tehdä tämän nappulan kautta, koska tiedot asettuu paperille tällöin paremmin.
 
 ### Noudettavissa olevat varaukset
 
