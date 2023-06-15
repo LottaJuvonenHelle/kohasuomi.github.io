@@ -680,13 +680,13 @@ Ennen kuin tietueita voi muokata, pitää määrittää käytettävä MARC-muokk
 
 Tietueiden erämuokkaukseen pääse kahta kautta.
 
-##Korista##
+**Korista**
 
 ![](/assets/files/docs/Luettelointi/kuvailu59.png)
 
 Vie muokattavat tietueet koriin ja valitse kaikki (tai halutut) ja valitse sitten _Erämuokkaus_.
 
-##Kuvailu-välilehdeltä##
+**Kuvailu-välilehdeltä**
 
 Mene _Kuvailu_-välilehdelle ja valitse _Tietueiden muokkaus eräajona_
 
