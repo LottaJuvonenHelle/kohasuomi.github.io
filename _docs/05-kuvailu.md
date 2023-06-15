@@ -694,9 +694,9 @@ Mene _Kuvailu_-välilehdelle ja valitse _Tietueiden muokkaus eräajona_
 
 - Valitse ensin, muokataanko bibliografisia tietueita (nimekkeitä) vai auktoriteettitietueita (esim. kirjailija, asiasana).
 - Seuraavaksi valitaan muokattavat tietueet joko
--- tuomalla ne tiedostosta, jossa on lista tietuenumeroista (biblionumber). Tällaisen voi luoda esim. sql-kyselyllä _Raportointi_-osiossa tai keräämällä tietuenumeroita Muistioon.
--- valitsemalla valmiin listan Kohasta, tätä varten tee lista poistettavista tietueista.
--- listaamalla tietuenumerot tekstikenttään yksi per rivi
+  - tuomalla ne tiedostosta, jossa on lista tietuenumeroista (biblionumber). Tällaisen voi luoda esim. sql-kyselyllä _Raportointi_-osiossa tai keräämällä tietuenumeroita Muistioon.
+  - valitsemalla valmiin listan Kohasta, tätä varten tee lista poistettavista tietueista.
+  - listaamalla tietuenumerot tekstikenttään yksi per rivi
 - Viimeiseksi valitaan, mitä muokkauspohjaa käytetään eli mitä muutoksia tietueille tehdään.
 
 Valitse sitten _Jatka_.
