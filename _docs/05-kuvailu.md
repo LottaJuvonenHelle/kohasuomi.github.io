@@ -653,14 +653,17 @@ Työ menee taustatyöjonoon.
 ![](/assets/files/docs/Luettelointi/kuvailu55.png)
 
 Voit tarkastella työn etenemistä _Tarkastele jonossa olevan työn tietoja_
+
 ![](/assets/files/docs/Luettelointi/kuvailu56.png)
 
 Voit päivittää näytön esim. näppäinyhdistelmällä Crtl+R tai selaimen painikkeesta
 
 ![](/assets/files/docs/Luettelointi/kuvailu57.png)
+
 Pääset palaamaan työlistaan _Palaa työslistaan_-linkistä.
 
 Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta _Poista valitut
+
 ![](/assets/files/docs/Luettelointi/kuvailu58.png)
 
 ### 5.3.3. Tietueiden muokkaus eräajona
