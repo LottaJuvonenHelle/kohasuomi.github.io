@@ -605,7 +605,7 @@ Kuvailun työkaluista lähdetään liikkeelle valitsemalla niteet, mitä muokata
 
 Niteet voi tuoda
 - _Viivakooditiedostosta_, joka on tehty esim. keräämällä viivakoodeja muistioon tai tallentamalla nidehaku viivakooditiedostoksi
-- _Nidenumerotiedostosta_, joka on tehty esim. raportit-osiossa sql-kyselyllä tietokannasta
+- _Nidenumerotiedostosta_ (itemnumber), joka on tehty esim. raportit-osiossa sql-kyselyllä tietokannasta
 - _Lukemalla niteet yksi kerrallaan_ tekstilaatikkoon (jokainen omalle rivilleen)
 
 Niteille voi halutessaan lisätä oletuspohjan arvot laittamalla rastin kohtaan _Täytä kentät oletusarvoilla, oletuspohjasta_. Huomioi, että tämä ei välttämättä tuo mitään arvoja niteille, jos oletusluettelointipohjaan ei ole määritetty oletusarvoja 952-kenttään.
@@ -629,9 +629,45 @@ Muutokset tehdään valitsemalla _Tallenna_. Jos et haluakaan tehdä muutoksia, 
 
 ### 5.3.2. Niteiden poisto eräajona
 
+Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä kerralla.
+
+Valitse ensin poistettavat niteet.
+![](/assets/files/docs/Luettelointi/kuvailu53.png)
+
+- _Viivakooditiedostosta_, joka on tehty esim. keräämällä viivakoodeja muistioon tai tallentamalla nidehaku viivakooditiedostoksi
+- _Nidenumerotiedostosta_ (itemnumber), joka on tehty esim. raportit-osiossa sql-kyselyllä tietokannasta
+- _Lukemalla niteet yksi kerrallaan_ tekstilaatikkoon (jokainen omalle rivilleen)
+
+Valitse sitten _Jatka_.
+
+Poistettavat niteet listautuvat avautuvalle sivulle.
+![](/assets/files/docs/Luettelointi/kuvailu54.png)
+
+- Voit valita, mitä sarakkeita niteistä näytetään.
+- Voit vielä tässä vaiheessa ottaa pois rastin sellaisen niteen kohdalta, jota ei tarvikaan poistaa.
+- Suositus: Kannattaa laittaa rasti kohtaan _Poista tietueet, jos kaikki niteet poistettu_, jotta tietokantaan ei jää “roikkumaan” niteettömiä nimekkeitä. Huomioi kuitenkin kimppakohtaiset käytännöt.
+
+Valitse lopuksi _Poista valitut_ -painike.
+
+Työ menee taustatyöjonoon.
+![](/assets/files/docs/Luettelointi/kuvailu55.png)
+
+Voit tarkastella työn etenemistä _Tarkastele jonossa olevan työn tietoja_
+![](/assets/files/docs/Luettelointi/kuvailu56.png)
+
+Voit päivittää näytön esim. näppäinyhdistelmällä Crtl+R tai selaimen painikkeesta
+
+![](/assets/files/docs/Luettelointi/kuvailu57.png)
+Pääset palaamaan työlistaan _Palaa työslistaan_-linkistä.
+
+Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta _Poista valitut
+![](/assets/files/docs/Luettelointi/kuvailu58.png)
+
 ### 5.3.3. Tietueiden muokkaus eräajona
 
 ### 5.3.4. Tietueiden poisto eräajona
+
+
 
 
 ## 5.4. Auktoriteetit
