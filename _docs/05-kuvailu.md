@@ -666,12 +666,56 @@ Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset tietuee
 
 ![](/assets/files/docs/Luettelointi/kuvailu58.png)
 
+
 ### 5.3.3. Tietueiden muokkaus eräajona
+
+Tietueiden muokkauksessa eräajona voi lisätä/muokata tai poistaa MARC-kenttiä. Valituille tietueille voi esimerkiksi lisätä kielikoodin tai huomautuksen.
+
+Erämuokkauksessa on rajoituksia
+
+- jos tietueessa on jo olemassa muokattavaksi valittu MARC-kenttä, päivittää työkalu sen. Se ei lisää uuttaa toistumaa kentästä.
+- kiinteämittaisia kenttiä ei pysty muokkaamaan/poistamaan
+
+Ennen kuin tietueita voi muokata, pitää määrittää käytettävä MARC-muokkauksen pohja.
+
+Tietueiden erämuokkaukseen pääse kahta kautta.
+
+##Korista##
+
+![](/assets/files/docs/Luettelointi/kuvailu59.png)
+
+Vie muokattavat tietueet koriin ja valitse kaikki (tai halutut) ja valitse sitten _Erämuokkaus_.
+
+##Kuvailu-välilehdeltä##
+
+Mene _Kuvailu_-välilehdelle ja valitse _Tietueiden muokkaus eräajona_
+
+![](/assets/files/docs/Luettelointi/kuvailu60.png)
+
+- Valitse ensin, muokataanko bibliografisia tietueita (nimekkeitä) vai auktoriteettitietueita (esim. kirjailija, asiasana).
+- Seuraavaksi valitaan muokattavat tietueet joko
+-- tuomalla ne tiedostosta, jossa on lista tietuenumeroista (biblionumber). Tällaisen voi luoda esim. sql-kyselyllä _Raportointi_-osiossa tai keräämällä tietuenumeroita Muistioon.
+-- valitsemalla valmiin listan Kohasta, tätä varten tee lista poistettavista tietueista.
+-- listaamalla tietuenumerot tekstikenttään yksi per rivi
+- Viimeiseksi valitaan, mitä muokkauspohjaa käytetään eli mitä muutoksia tietueille tehdään.
+
+Valitse sitten _Jatka_.
+
+![](/assets/files/docs/Luettelointi/kuvailu61.png)
+
+- Voit vielä vaihtaa muokkauspohjan tai tullessasi korista käsin, valitse se nyt.
+- Voit tarkistaa muokkauksen tuloksen valitsemalla _Näytä MARC_, jolloin avautuu MARC-tietueen esikatselu ja mukana on myös haluttu muutos:
+
+![](/assets/files/docs/Luettelointi/kuvailu62.png)
+
+Kun kaikki on kuten pitääkin, valitse _Muokkaa valittuja tietueita_.
+
+Muokkauksen jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa tilanteen painamalla _Tarkastele jonossa olevan työn tietoja_ kuten edellä osiossa 5.3.2. on opastettu.
 
 ### 5.3.4. Tietueiden poisto eräajona
 
 
-
+### 5.3.5. MARC-muokkauksen pohjat
 
 ## 5.4. Auktoriteetit
 
