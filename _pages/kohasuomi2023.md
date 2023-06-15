@@ -23,6 +23,7 @@ Läsnä: Emmi, Kodo, Lari, Lasse, Pasi
   * Kyseessä oli runkoverkko-ongelma, eli meidän kannalta jo "neljännen osapuolen (Ficix) järjestelmässä ollut toimintahäiriö.
  
 * Pluginien releaset
+  * Hypernova toivoisi että plugineista tehdään releaset.
   * Ei tässä vaiheessa tehdä, koska aiheuttaisi meidän kannalta turhaa työtä.
   * Releasen voi rakentaa halutessaan itse käyttämällä deploy-skriptiä.
 
