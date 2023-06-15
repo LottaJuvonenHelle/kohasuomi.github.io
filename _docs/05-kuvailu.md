@@ -751,7 +751,7 @@ Poiston jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa tilanteen pain
 
 ### 5.3.5. MARC-muokkauksen pohjat
 
-Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. Tee sääntö _Kuvailu_-osion _MARC-muokkauksen pohjat -toiminnossa.
+Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. Tee sääntö _Kuvailu_-osion _MARC-muokkauksen pohjat_ -toiminnossa.
 
 ![](/assets/files/docs/Luettelointi/kuvailu66.png)
 
