@@ -599,6 +599,33 @@ klikkaamalla näkyy tämän niteen lainaushistoria.
 
 Niteiden muokkaus nimeketietueessa on ohjeistettu kohdassa [5.2.2.2](https://koha-suomi.fi/dokumentaatio/kuvailu/#5222-niteiden-er%C3%A4muokkaus-nimekkeess%C3%A4)
 
+Kuvailun työkaluista lähdetään liikkeelle valitsemalla niteet, mitä muokataan.
+
+![](/assets/files/docs/Luettelointi/kuvailu50.png)
+
+Niteet voi tuoda
+- _Viivakooditiedostosta_, joka on tehty esim. keräämällä viivakoodeja muistioon tai tallentamalla nidehaku viivakooditiedostoksi
+- _Nidenumerotiedostosta_, joka on tehty esim. raportit-osiossa sql-kyselyllä tietokannasta
+- _Lukemalla niteet yksi kerrallaan_ tekstilaatikkoon (jokainen omalle rivilleen)
+
+Niteille voi halutessaan lisätä oletuspohjan arvot laittamalla rastin kohtaan _Täytä kentät oletusarvoilla, oletuspohjasta_. Huomioi, että tämä ei välttämättä tuo mitään arvoja niteille, jos oletusluettelointipohjaan ei ole määritetty oletusarvoja 952-kenttään.
+
+Valitse _Jatka_ muokataksesi niteitä.
+
+Erämuokkauksessa voit
+![](/assets/files/docs/Luettelointi/kuvailu51.png)
+
+- valita, mitä niteitä muokataan
+- poistaa niteiltä lainassa-tilan (käytä harkiten)
+- säätää, mitä tietoja niteistä näytetään muokkauksessa
+
+![](/assets/files/docs/Luettelointi/kuvailu52.png)
+
+- Pakolliseksi merkittyjä tietoja ei pysty poistamaan niteiltä, mutta ne voi vaihtaa toiseksi tiedoksi.
+- Tiedon pystyy poistamaan laittamalla rastin halutun kentän viereen. Esim. kokoelmakoodin saa poistettua laittamalla rastin _Kokoelma_-kentän viereen.
+- Tiedon pystyy lisäämään joko valitsemalla alasvetovalikosta vaihtoehdon tai kirjoittamalla kenttään haluttu tieto. Riippuu kentästä, kumpi vaihtoehto on mahdollista. Esim. kirjasto- ja hyllypaikkatieto valitaan alasvetovalikosta, mutta huomautus-kenttiin kirjoitetaan haluttu tieto.
+
+Muutokset tehdään valitsemalla _Tallenna_. Jos et haluakaan tehdä muutoksia, valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin muutoksia ei tehdä.
 
 ### 5.3.2. Niteiden poisto eräajona
 
