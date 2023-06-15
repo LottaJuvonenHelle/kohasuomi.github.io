@@ -789,7 +789,7 @@ Kirjoita ehtoon liittyvä kenttä ja valitse alasvetovalikosta, milloin kenttä 
 
 ![](/assets/files/docs/Luettelointi/kuvailu75.png)
 
-Lisää tarvittaessa ehtoon _RegEx_-sääntö. _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle. Tallenna toiminto valitsemalla Lisää toiminto.
+Lisää tarvittaessa ehtoon _RegEx_-sääntö. _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle. Tallenna toiminto valitsemalla _Lisää toiminto_.
 
 ![](/assets/files/docs/Luettelointi/kuvailu76.png)
 
