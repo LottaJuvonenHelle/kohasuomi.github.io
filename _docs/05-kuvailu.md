@@ -714,7 +714,40 @@ Muokkauksen jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa tilanteen 
 
 ### 5.3.4. Tietueiden poisto eräajona
 
+Tietueiden eräpoistoon pääse kahta kautta.
 
+#### Korista
+
+![](/assets/files/docs/Luettelointi/kuvailu64.png)
+
+Vie muokattavat tietueet koriin ja valitse kaikki (tai halutut) ja valitse sitten _Eräpoisto_.
+
+#### Kuvailu-välilehdeltä
+
+Mene _Kuvailu_-välilehdelle ja valitse _Tietueiden poisto eräajona_
+
+![](/assets/files/docs/Luettelointi/kuvailu63.png)
+
+- Valitse ensin, poistatko bibliografisia tietueita (nimekkeitä) vai auktoritettitietueita (esim. kirjailijoita, asiasanoja).
+- Voit tuoda poistettavat tietueet joko
+  - tiedostona, joka sisältää poistettavien tietueiden tietuenumerot (biblionumber). Tällaisen listan voi luoda esimerkiksi sql-kyselyllä _Raportointi_-osiossa tai keräämällä tietuenumeroita Muistioon.
+  - valitsemalla valmiin listan Kohasta, tätä varten tee lista poistettavista tietueista.
+  - lisäämällä tietuenumerot tekstikenttään yksi per rivi.
+
+Valitse sitten _Jatka_.
+
+Tietueiden poistossa listataan poistoon valitut tietueet.
+
+![](/assets/files/docs/Luettelointi/kuvailu64.png)
+
+- jos tietueeseen liittyy lainassa olevia niteitä, ei sitä pysty poistamaan.
+- voit vielä tässä vaiheessa ottaa rastin pois niiltä tietueilta, joita et halua poistaa.
+- Huomioi: tietueiden eräpoisto poistaa myös tietueeseen liittyvät lehtitilaukset, niteet ja varaukset 
+  - tämä voi olla kätevää esim. kun teos ei ilmesty ja siihen on paljon varauksia, jolloin sitä ei pysty poistamaan tietueesta käsin poistamatta ensin varauksia.
+
+Valitse lopuksi _Poista valitut tietueet_. Jos et haluakaan poistaa, valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin poistoa ei tehdä.
+
+Poiston jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa tilanteen painamalla _Tarkastele jonossa olevan työn tietoja_ kuten edellä osiossa 5.3.2. on opastettu.
 
 ### 5.3.5. MARC-muokkauksen pohjat
 
