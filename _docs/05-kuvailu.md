@@ -773,7 +773,7 @@ Valitse alasvetovalikosta tarvittava toiminto.
 
 ![](/assets/files/docs/Luettelointi/kuvailu70.png)
 
-Valitse alasvetovalikosta koskeeko muutos kaikkia muutettavan kentän toistumia vai vain ensimmäistä kenttätoistumaa. Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1.
+Valitse alasvetovalikosta koskeeko muutos kaikkia muutettavan kentän toistumia vai vain ensimmäistä kenttätoistumaa. 
 
 ![](/assets/files/docs/Luettelointi/kuvailu71.png)
 
