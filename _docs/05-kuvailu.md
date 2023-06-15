@@ -662,7 +662,7 @@ Voit päivittää näytön esim. näppäinyhdistelmällä Crtl+R tai selaimen pa
 
 Pääset palaamaan työlistaan _Palaa työslistaan_-linkistä.
 
-Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta _Poista valitut
+Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta _Poista valitut_
 
 ![](/assets/files/docs/Luettelointi/kuvailu58.png)
 
