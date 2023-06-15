@@ -597,6 +597,9 @@ klikkaamalla näkyy tämän niteen lainaushistoria.
 
 ### 5.3.1. Niteiden muokkaus eräajona
 
+Niteiden muokkaus nimeketietueessa on ohjeistettu kohdassa [5.2.2.2](https://koha-suomi.fi/dokumentaatio/kuvailu/#5222-niteiden-er%C3%A4muokkaus-nimekkeess%C3%A4)
+
+
 ### 5.3.2. Niteiden poisto eräajona
 
 ### 5.3.3. Tietueiden muokkaus eräajona
