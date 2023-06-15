@@ -19,8 +19,35 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 Läsnä:
 
-* Maanantai-illan käyttökatko (verkko-operaattorin runkoverkkovika)
-* pluginien releaset
+* Maanantai-illan käyttökatko
+  * Kyseessä oli runkoverkko-ongelma, eli meidän kannalta jo "neljännen osapuolen (Ficix) järjestelmässä ollut toimintahäiriö.
+ 
+* Pluginien releaset
+  * Ei tässä vaiheessa tehdä, koska aiheuttaisi meidän kannalta turhaa työtä.
+  * Releasen voi rakentaa halutessaan itse käyttämällä deploy-skriptiä.
+
+* Integraatioasioita
+  * Tilausten vastaanoton automatisointi (Vaski)
+    * Palaveerattu nyt ohjelmistotoimittajan (Broomworks kanssa) Kodon koollekutsumana.
+    * Paikalla oli Koha-Suomelta Kodo, Vaskista Anni Rajala, Kaisa Hypén ja Aki Pyykkö ja Broomworksilta Urho Kaipainen.
+    * Viedään aineistontoimittajan sanomatunnus EDItX hankinnoissa aqbasket-taulun booksellernote -kenttään tilausten täsmäytystä varten.
+    * Varmistetaan booksellernoten hyödynnettävyys API:n kautta.
+    * Lari hoitaa Koha-Suomen suunnassa eteenpäin.
+    * Kodo toimittaa API-avaimen Vaski-testille Broomworksia varten ja Anni tekee tunnukset Kohaan.
+  * Kokoelman tasapainotustyökalu (Vaski)
+    * Palaveerataan ohjelmistoitoimittajan kanssa kunhan toimittaja on valittu. Vaski kutsuu kokouksen koolle.
+    * Tutkitaan mahdollisuutta saada kuljetusten painomatriisin automaattinen optimointi mukaan työkaluun.
+    * Toteutus vielä täysin avoin ja vaatii monenlaista selvittelyä.
+  * PowerBI (Vaski ja muut)
+    * Vaskissa rakenneltu raportteja datan saamiseksi Kohasta PowerBI:hin.
+    * Toiveissa datan siirron automatisointi Kohasta muihin järjestelmiin.
+    * Vaski avaan keskustelun PowerBI-ryhmässä.
+    * Tärkeää löytää yhteiset Koha-Suomen laajuiset käytännöt ja vakioitu datapaketti, ei kuntakohtaisia ratkaisuja!
+  * Tasku-Warkaus (Varkaus)
+    * Äkkipäätä vaikuttaisi siltä että Varkaudessa ollaan rakentamassa omaa verkkokirjastoa, johon ei tietenkään ole tarvetta, koska kansallinen ratkaisu on jo olemassa.
+    * Yhteystiedot saatu Lumme-kimpan pääkäyttäjältä, järjestetään palaveri ja käydään läpi mitä ollaan tekemässä ja miksi, Kodo kutsuu koolle.
+
+* Integraatioista "paimenkirje" kirjastoille. Koha-Suomi ja pääkäyttäjät on pidettävä kartalla siitä mitä aiotaan tehdä ja integraatioiden toteutuksesta on sovittava Koha-Suomen kanssa ennakkoon.
 
 ### Maanantai 12.6.2023 klo 10
 
