@@ -680,13 +680,13 @@ Ennen kuin tietueita voi muokata, pitää määrittää käytettävä MARC-muokk
 
 Tietueiden erämuokkaukseen pääse kahta kautta.
 
-**Korista**
+#### Korista
 
 ![](/assets/files/docs/Luettelointi/kuvailu59.png)
 
 Vie muokattavat tietueet koriin ja valitse kaikki (tai halutut) ja valitse sitten _Erämuokkaus_.
 
-**Kuvailu-välilehdeltä**
+#### Kuvailu-välilehdeltä
 
 Mene _Kuvailu_-välilehdelle ja valitse _Tietueiden muokkaus eräajona_
 
@@ -713,6 +713,7 @@ Kun kaikki on kuten pitääkin, valitse _Muokkaa valittuja tietueita_.
 Muokkauksen jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa tilanteen painamalla _Tarkastele jonossa olevan työn tietoja_ kuten edellä osiossa 5.3.2. on opastettu.
 
 ### 5.3.4. Tietueiden poisto eräajona
+
 
 
 ### 5.3.5. MARC-muokkauksen pohjat
