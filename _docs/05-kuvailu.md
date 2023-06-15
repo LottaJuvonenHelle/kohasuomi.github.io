@@ -751,6 +751,50 @@ Poiston jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa tilanteen pain
 
 ### 5.3.5. MARC-muokkauksen pohjat
 
+Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. Tee sääntö _Kuvailu_-osion _MARC-muokkauksen pohjat -toiminnossa.
+
+![](/assets/files/docs/Luettelointi/kuvailu66.png)
+
+#### Uuden muokkauspohjan tekeminen
+
+Tee uusi pohja valitsemalla _Uusi pohja_
+
+![](/assets/files/docs/Luettelointi/kuvailu67.png)
+
+Anna pohjalle kuvaava nimi. Voit myös kopioida malliksi jo olemassa olevan pohjan.
+
+![](/assets/files/docs/Luettelointi/kuvailu68.png)
+
+Lisää pohjaan toiminnot niistä muutoksista, jotka tietueille tehdään. Valitse _Uusi toiminto_
+
+![](/assets/files/docs/Luettelointi/kuvailu69.png)
+
+Valitse alasvetovalikosta tarvittava toiminto.
+
+![](/assets/files/docs/Luettelointi/kuvailu70.png)
+
+Valitse alasvetovalikosta koskeeko muutos kaikkia muutettavan kentän toistumia vai vain ensimmäistä kenttätoistumaa. Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1.
+
+![](/assets/files/docs/Luettelointi/kuvailu71.png)
+
+Kirjoita muutettava kenttä.
+
+![](/assets/files/docs/Luettelointi/kuvailu72.png)
+
+Valitse tarvittaessa muut ehdot.
+
+![](/assets/files/docs/Luettelointi/kuvailu73.png)
+
+Kirjoita ehtoon liittyvä kenttä ja valitse alasvetovalikosta, milloin kenttä huomioidaan.
+
+![](/assets/files/docs/Luettelointi/kuvailu75.png)
+
+Lisää tarvittaessa ehtoon _RegEx_-sääntö. _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle. Tallenna toiminto valitsemalla Lisää toiminto.
+
+![](/assets/files/docs/Luettelointi/kuvailu76.png)
+
+Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.
+
 ## 5.4. Auktoriteetit
 
 ohje tehdään myöhemmin
