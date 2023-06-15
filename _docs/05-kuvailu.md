@@ -469,7 +469,7 @@ Voit merkitä niteen myös vahingoittuneeksi.
 
 ![](/assets/files/docs/Luettelointi/kuvailu38.png)
 
-### 5.2.2.2. Niteiden erämuokkaus
+### 5.2.2.2. Niteiden erämuokkaus nimekkeessä
 
 #### Tiedon lisääminen
 
@@ -593,19 +593,30 @@ klikkaamalla näkyy tämän niteen lainaushistoria.
 
 ![](/assets/files/docs/Luettelointi/luettelointi016.png)
 
-## 5.3. Auktoriteetit
+## 5.3. Erämuokkaukset
+
+### 5.3.1. Niteiden muokkaus eräajona
+
+### 5.3.2. Niteiden poisto eräajona
+
+### 5.3.3. Tietueiden muokkaus eräajona
+
+### 5.3.4. Tietueiden poisto eräajona
+
+
+## 5.4. Auktoriteetit
 
 ohje tehdään myöhemmin
 
-## 5.4. Kuvailuohjeet
+## 5.5. Kuvailuohjeet
 
 [Yhteisön kuvailuohjeet](https://koha-community.org/manual/21.11/en/html/cataloging.html)
 
-### 5.4.1. Niteiden tarrat ja niiden tulostaminen
+### 5.5.1. Niteiden tarrat ja niiden tulostaminen
 
 Koha-Suomen ohje [tarratulostukseen](https://koha-suomi.fi/dokumentaatio/tyokalut/#12164-tarratulostusty%C3%B6kalu)
 
-### 5.4.2. Niteiden tallennusohjeet
+### 5.5.2. Niteiden tallennusohjeet
 
 <table>
 <thead>
