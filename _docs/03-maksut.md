@@ -27,7 +27,7 @@ Tällä näytöllä on seuraavat sarakkeet:
 
 \- _Päivitetty:_ päiväys, jolloin maksuriviä on päivitetty
 
-\- _Tilin tyyppi:_ tapahtuman selite
+\- _Maksun tyyppi:_ tapahtuman selite
 
 \- _Maksujen kuvaus:_ tieto mistä niteestä maksu muodostuu ja myöhästyneen
 niteen eräpäivä sekä linkki nidetietoon
@@ -132,8 +132,6 @@ Maksu siirtyy Maksa maksuja-välilehdeltä Tili-välilehdelle.
 
 \- Klikkaa Maksa kaikki -nappia.
 
-![](/assets/files/docs/Asiakkaat/maksa1.png)
-
 \- Klikkaa Hyväksy
 
 ### 3.2.4. Maksa jokin tietty summa maksuista
@@ -202,7 +200,8 @@ Kuvaus-kenttään voi antaa maksun kuvauksen
 ![](/assets/files/docs/Asiakkaat/maksunkuvaus.png)
 
 Summa-kenttäään annetaan pelkästään maksun määrä (vain numeroita ja
-desimaaleja). Tallennuksen jälkeen maksu näkyy yhteenvedossa.
+desimaaleja). Tallennuksen jälkeen maksu näkyy yhteenvedossa. 
+Maksun voi maksaa myös samantien klikkaamalla "Tallenna ja maksa".
 
 ![](/assets/files/docs/Asiakkaat/maksunsumma.png)
 
