@@ -786,10 +786,9 @@ Valitse tarvittaessa muut ehdot.
 ![](/assets/files/docs/Luettelointi/kuvailu73.png)
 
 Kirjoita ehtoon liittyvä kenttä ja valitse alasvetovalikosta, milloin kenttä huomioidaan.
+Lisää tarvittaessa ehtoon _RegEx_-sääntö. (Säännöllinen lauseke (engl. regular expression, regexp) on yksinkertainen merkkijonokieli, joka voi joko vastata tai olla vastaamatta jotain toista merkkijonoa. Tekstin lähde: [Säännöllinen lauseke](https://www.linux.fi/wiki/S%C3%A4%C3%A4nn%C3%B6llinen_lauseke))
 
 ![](/assets/files/docs/Luettelointi/kuvailu75.png)
-
-Lisää tarvittaessa ehtoon _RegEx_-sääntö. (Säännöllinen lauseke (engl. regular expression, regexp) on yksinkertainen merkkijonokieli, joka voi joko vastata tai olla vastaamatta jotain toista merkkijonoa. Tekstin lähde: [Säännöllinen lauseke](https://www.linux.fi/wiki/S%C3%A4%C3%A4nn%C3%B6llinen_lauseke))
 
 _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle. Tallenna toiminto valitsemalla _Lisää toiminto_.
 
