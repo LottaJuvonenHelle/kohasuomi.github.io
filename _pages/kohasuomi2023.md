@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 25 muistiot
+
+### Maanantai 19.6.2023 klo 10
+
+Läsnä:
+
+* Viikon 25 päivitys
+  * OKM-plugin: bde-tauluun on lisätty sarake biblionumber, lisäksi taulun päivityksen yhteydessä haetaan myös sieltä puuttuvat tietueet (aiemmin tämä onnistui vain tekemällä ajo force vivun kanssa)
+* [deleted-tauluissa biblioitemnumberin ja biblionumberin epäsynkka #606](https://github.com/KohaSuomi/Koha/issues/606) - mikä tässä on tilanne? 
+
 ## Viikon 24 muistiot
 
 ### Torstai 15.6.2023 klo 10
