@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 25 muistio
+Aika: 20.6.2023 klo 9.15
+Läsnä:
+
+**Yhteiset asiat:**
+
+Etelästä pohjoiseen
+
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
 Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Anni Rajala (Vaski)
