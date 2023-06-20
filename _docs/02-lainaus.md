@@ -648,7 +648,6 @@ Tämä raportti näyttää kaikki kirjastossasi noutoa odottavat varaukset.
 HUOM! Vanhentuneet varaukset eivät näy oikein tämän näytön välilehdellä "Varaukset odottaneet yli X päivää". Käytä Kohan raporttia "Vanhentuneet, noutamattomat varaukset" (tai vastaavaa), jos kimpassasi sellainen on käytössä. Pyydä tarvittaessa kimppasi pääkäyttäjää tekemään raportti Kohaan.
 
 
-
 ## 2.13 Varauksia per nide
 
 Tällä raportilla voit hakea varausten määrän annettua nidemäärää kohti tietyllä aikavälillä.
