@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 25 muistio
 Aika: 20.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi)
 
 **Yhteiset asiat:**
 * Emottomien osakohteiden poisto, tiketti [#348](https://github.com/KohaSuomi/Koha/issues/348) tehty jo tammikuussa. Olisi tärkeää saada siivottua näitä emottomia osakohteita pois tietokannoista/Päivi
@@ -23,6 +23,12 @@ Etelästä pohjoiseen
 **Vaara**
 * ei mitään isompaa ylläpidettävää
 * Reijolaan tulee uusi automaatti
+
+**Lappi**
+* Tiketti 623: Tornion niteillä näkyy hakutuloksessa edelleen 31.5. poistettu not_loan-tila Tornion varastoidut. Nidetiedoissa tila näkyy oikein.
+* Käyttäjätunnusten puolivuositarkistus käynnissä
+* Leena päivystää seuraavat 4 viikkoa
+* Rauhallista ollut.
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
