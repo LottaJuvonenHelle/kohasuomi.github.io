@@ -15,6 +15,7 @@ Aika: 20.6.2023 klo 9.15 <br />
 Läsnä:
 
 **Yhteiset asiat:**
+* Emottomien osakohteiden poisto, tiketti [#348](https://github.com/KohaSuomi/Koha/issues/348) tehty jo tammikuussa. Olisi tärkeää saada siivottua näitä emottomia osakohteita pois tietokannoista/Päivi
 
 Etelästä pohjoiseen
 
