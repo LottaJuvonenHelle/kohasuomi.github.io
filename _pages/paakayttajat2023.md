@@ -12,12 +12,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 25 muistio
 Aika: 20.6.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset asiat:**
 * Emottomien osakohteiden poisto, tiketti [#348](https://github.com/KohaSuomi/Koha/issues/348) tehty jo tammikuussa. Olisi tärkeää saada siivottua näitä emottomia osakohteita pois tietokannoista/Päivi
+* TäTin nalkuttimen päivittäminen - mikä tilanne? 
 
 Etelästä pohjoiseen
+
+**Vaara**
+* ei mitään isompaa ylläpidettävää
+* Reijolaan tulee uusi automaatti
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
