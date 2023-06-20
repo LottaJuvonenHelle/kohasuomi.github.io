@@ -648,7 +648,11 @@ HUOM! Vanhentuneet varaukset eivät näy oikein tämän näytön välilehdellä 
 
 ## 2.13 Varauksia per nide
 
-Tällä raportilla näet mm. varausten määrän yhtä nidettä kohti.
+Tällä raportilla voit hakea varausten määrän annettua nidemäärää kohti tietyllä aikavälillä.
+
+![](/assets/files/docs/Lainaus/varauksiapernide.PNG)
+
+Ohjelma ehdottaa lisää tilattavien niteiden määräärän, jotta ehto täyttyisi.
 
 ![](/assets/files/docs/Lainaus/pernide.PNG)
 
@@ -656,30 +660,31 @@ Tällä raportilla näet mm. varausten määrän yhtä nidettä kohti.
 ## 2.8 Siirto-toiminto
 
 Kirjastokimpassa voit siirtää niteitä toiseen kirjastoon käyttämällä
-**Siirto**-työkalua.
+*Siirto*-työkalua.
 
-- Valitse: Lainaus ja palautus -&gt; **Siirto**
+- Valitse: Lainaus ja palautus -&gt; *Siirto*
+  
+![](/assets/files/docs/Lainaus/Siirto.PNG)  
 
-![](/assets/files/docs/Lainaus/Siirto.png)  
 Valitse alasvetovalikosta kirjasto, johon olet siirtämässä aineistoa ja
-lue siirrettävän niteen viivakoodi _Syötä viivakoodi_ -kohtaan. Paina
-lopuksi **OK**.
+lue siirrettävän niteen viivakoodi *Syötä viivakoodi* -kenttään. Paina
+lopuksi *OK*. Niteeseen tulee palauttaessa tieto, minne nide pitää kuljettaa.
 
-![](/assets/files/docs/Lainaus/Siirto1_2.png)  
-Nyt niteeseen tulee palautuksessa tieto määränpäästä..
+![](/assets/files/docs/Lainaus/Siirto1_2.PNG)  
 
-![](/assets/files/docs/Lainaus/Siirto1_3.png)  
-ja niteen tilaksi kuljetuksessa.
+Tietueen perustiedot-näytöllä nide näkyy kuljetus-tilassa.
 
-![](/assets/files/docs/Lainaus/Siirto1_4.png)
+![](/assets/files/docs/Lainaus/Siirto1_3.PNG)  
 
-Kun nide saapuu kohteeseen, se on siellä palautettava, jotta nide ei ole
-enää kuljetuksessa.
+Kun nide saapuu kohteeseen, se on siellä palautettava, jotta niteeltä poistuu kuljetus-tila. 
+Palautuksessa tulee ilmoitus:
+
+![](/assets/files/docs/Lainaus/Siirto1_4.PNG)
 
 Nidettä ei ole pysyvästi siirretty kohdekirjastoon. Niteen kotikirjasto
 ei muutu, mutta nykyinen paikka on toinen kirjasto.
 
-![](/assets/files/docs/Lainaus/Siirto1_5.png)
+![](/assets/files/docs/Lainaus/Siirto1_5.PNG)
 
 ---
 
