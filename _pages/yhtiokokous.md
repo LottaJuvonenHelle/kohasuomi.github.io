@@ -13,6 +13,9 @@ Koha-Suomen yhtiökokous kokoontuu kerran vuodessa. Alla on vuosittain kokouksen
 
 ## Yhtiökokous 2023
 
+[Koha-Suomi yhtiökokouspöytäkirja2023.PDF](https://github.com/KohaSuomi/kohasuomi.github.io/files/11797065/Koha-Suomi.yhtiokokouspoytakirja2023.PDF)
+
+
 [Tilinpäätös 31.12.2022 Koha-Suomi Oy.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/11769788/Tilinpaatos.31.12.2022.Koha-Suomi.Oy.pdf)
 
 [Koha-Suomi Oy tase-erittelyt 2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/11769790/Koha-Suomi.Oy.tase-erittelyt.2022.pdf)
