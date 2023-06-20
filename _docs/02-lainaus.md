@@ -45,9 +45,12 @@ Lue lainattavan niteen viivakoodi nidekenttään.
 
 - Monet viivakoodinlukijat lähettävät automaattisesti rivinvaihdon,
   joten *Lainaus*-painiketta ei tarvitse välttämättä klikata.
-- Jos niteen viivakoodia ei löydy, saat ehdotuksen pikaluettelointiin
-  niteen lisäämiseksi. Toiminto ei ole välttämättä kaikilla kimpoilla
-  käytössä.
+- Jos niteen viivakoodia ei löydy, saat ilmoituksen:
+
+  ![](/assets/files/docs/Lainaus/lainausviesti6.PNG)
+
+ - Tarkista niteen viivakoodi, onko se oikein.
+ - Ohjelma voi ehdottaa pikaluettelointia, jos se on kimpassasi käytössä.
 
 **Lainausasetukset**
 
@@ -657,7 +660,7 @@ Ohjelma ehdottaa lisää tilattavien niteiden määräärän, jotta ehto täytty
 ![](/assets/files/docs/Lainaus/pernide.PNG)
 
 
-## 2.8 Siirto-toiminto
+## 2.14 Siirto-toiminto
 
 Kirjastokimpassa voit siirtää niteitä toiseen kirjastoon käyttämällä
 *Siirto*-työkalua.
@@ -686,57 +689,67 @@ ei muutu, mutta nykyinen paikka on toinen kirjasto.
 
 ![](/assets/files/docs/Lainaus/Siirto1_5.PNG)
 
----
+## 2.15 Lähetettävät kuljetukset
 
+Raportilla voit tarkistaa kirjastostasi lähetettävät niteet.
 
+![](/assets/files/docs/Lainaus/lähetettävätkuljetukset.PNG)
 
-## 2.10 Pikakuvailu
+## 2.16 Vastaanotettavat kuljetukset
 
-Kuvailusääntöjen mukaisesti.
-
----
-
-## 2.11 Lainauksen valmiit raportit
-
-Useimmat raportit saadaan Raportit-moduulin kautta, mutta joitakin
-raportteja löytyy myös Lainauksen toiminnoista.
-
-
-### Vastaanotettavat kuljetukset
-
-Tässä raportissa näkyvät ne niteet, jotka Kohan mukaan on kuljetuksessa
+Tällä raportilla näet niteet, jotka ovat kuljetuksessa
 kirjastoosi.
 
-![](/assets/files/docs/Lainaus/kuljetus.png)
+![](/assets/files/docs/Lainaus/kuljetus.PNG)
 
-### Myöhässä
+## 2.17 Myöhässä
 
-Koska tämä raportti vie paljon resursseja, sen määritykset annetaan
-ennen raportin ajamista.
+Varoitus: Tämä raportti vaatii paljon järjestelmäresursseja, jos tietokannassa on paljon myöhässä olevia lainoja.
 
-![](/assets/files/docs/Lainaus/raportti9.png)
+Koska raportti voi viedä paljon resursseja, raportti kannattaa määritellä suodattimella mahdollisimman tarkasti. 
 
-### Myöhässä ja maksuja
+![](/assets/files/docs/Lainaus/myöhässä.PNG)
 
-![](/assets/files/docs/Lainaus/lainrap12.png)
+## 2.18 Myöhässä ja maksuja
+
+Raportti antaa kaikki kirjastosi myöhässä olevat lainat. Voit hakea lainat hyllypaikan mukaan.
+
+![](/assets/files/docs/Lainaus/myöhässä2.PNG)
 
 ---
 
-## 2.12 Offline eli yhteydettömän tilan lainaus
+## 2.19 Yhteydettämän tilan lainaus
 
-Vaikka nettiyhteys ei toimisi, voit jatkaa lainaamista. Vaihtoehtoina on
+Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilanteissa lainaamiseen seuraavia ohjelmia:
 
 1.  **Offline lainausohjelma Windowsille** (KOC). Erillinen ohjelma
-    yksittäisille lainauskoneille. Tätä voi käyttää, kun ei ole yhteyttä
-    internetiin.
-2.  **Koha Offline Circulation Tool** (KOCT), joka on selaimen lisäosa.
-    Tätä voi käyttää esimerksi yllättävien verkkoyhteyskatkoksien
-    aikana.
-3.  **Yhteydettömän tilan lainaus**, jota voi käyttää, kun tietää
-    ennakkoon, ettei yhteyttä ole. Esimerkiksi kirjastoautossa. **Ei
-    suositella käytettäväksi**
+    yksittäiselle lainauskoneelle.
 
-### 2.12.1. Offline lainausohjelma Windowsille (KOC)
+2.  **Koha Offline Circulation Tool** (KOCT), joka on Firefox-selaimen lisäosa.
+
+Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. 
+
+### 2.19.1. Offline lainausohjelma Windowsille (KOC)
+
+1. Kirjaudu Kohaan ja lataa työpöytäsovellus. Latauslinkin löydät Lainaus ja Palautus -sivulta.
+![](/assets/files/docs/Lainaus/OfflineKOC.PNG)
+Linkki menee nettisivulle, josta ohjelma ladataan. 
+
+2. Valitse KohaOfflineCirculation_Installer_1_3.exe
+![](/assets/files/docs/Lainaus/OfflineKOC2.PNG)   
+
+3. Tallenna tiedosto. <br /> 
+![](/assets/files/docs/Lainaus/OfflineKOC3.PNG)
+
+4. Klikkaa selaimen oikeassa yläreunassa näkyvää nuolta ja avautuvaa tiedostoa. <br /> 
+![](/assets/files/docs/Lainaus/OfflineKOC4.PNG)
+
+![](/assets/files/docs/Lainaus/OfflineKOC4_1.PNG)
+
+6. Ohjelma pyytää järjestelmänvalvojan kirjautumisen koneelle, jos sinulla ei ole asennukseen tarvittavia oikeuksia.
+7. Ohjelman asennus alkaa, kun valitset "Next".
+
+
 
 [Ohjelman asennus ja käyttöohje (pdf)] Liitä linkkiteksti selaimeen, koska alusta ei suostu muuttamaan tätä suoraksi linkiksi.
 (https:github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Lainaus/Koha%20Offline%20Circulation.pdf)
