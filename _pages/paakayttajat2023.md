@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 25 muistio
 Aika: 20.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat:**
 * Emottomien osakohteiden poisto, tiketti [#348](https://github.com/KohaSuomi/Koha/issues/348) tehty jo tammikuussa. Olisi tärkeää saada siivottua näitä emottomia osakohteita pois tietokannoista/Päivi
@@ -29,6 +29,10 @@ Etelästä pohjoiseen
 * Käyttäjätunnusten puolivuositarkistus käynnissä
 * Leena päivystää seuraavat 4 viikkoa
 * Rauhallista ollut.
+
+**OUTI**
+* Normaaleja tukitöitä, ei mitään erityistä.
+* Kohan ohje suomeksi päivittelyä.
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
