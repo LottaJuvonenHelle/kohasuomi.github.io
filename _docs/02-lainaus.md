@@ -831,6 +831,7 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 ![](/assets/files/docs/Lainaus/OfflineKOCvalitselainat.PNG)
 
 11. Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt lainaustiedot näytölle. <br />
+
 ![](/assets/files/docs/Lainaus/OfflineKOClähetetyt.PNG)
 
 Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja mahdollisesti käsitellä manuaalisesti.
