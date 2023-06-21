@@ -741,7 +741,7 @@ Linkki menee nettisivulle, josta ohjelma ladataan.
 3. Tallenna tiedosto. <br /> 
 ![](/assets/files/docs/Lainaus/OfflineKOC3.PNG)
 
-4. Klikkaa selaimen oikeassa yläreunassa näkyvää nuolta ja siitä avautuvaa tiedostoa. <br /> 
+4. Klikkaa selaimen oikeassa yläkulmassa näkyvää nuolta ja siitä avautuvaa tiedostoa. <br /> 
 ![](/assets/files/docs/Lainaus/OfflineKOC4.PNG)
 
 ![](/assets/files/docs/Lainaus/OfflineKOC4_1.PNG)
@@ -751,7 +751,7 @@ Linkki menee nettisivulle, josta ohjelma ladataan.
 6. Ohjelman asennus alkaa, kun valitset *Next*. <br />
 ![](/assets/files/docs/Lainaus/OfflineKOC7.PNG)
 
-7. Hyväksy ohjelman ehdottama tallennus tiedosto valitsemalla *Next*. <br />
+7. Hyväksy ohjelman ehdottama tallennustiedosto valitsemalla *Next*. <br />
 ![](/assets/files/docs/Lainaus/OfflineKOC6.PNG)
 
 8. Valitsemalla *Next*, ohjelman kuvake asennetaan Käynnistä-valikkkoon nimellä "Koha Offline Ciruclation". <br />
@@ -772,6 +772,27 @@ Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikos
 ![](/assets/files/docs/Lainaus/OfflineKOC12.PNG)
 
 Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
+
+ **Ohjelman käyttäminen**
+
+Kun klikkaat ohjelman auki, sen on valmis käyttöön.
+Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia toimintoja eli asiakastunnus, niteen tunnus ja ohjelmapainikkeet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 [Ohjelman asennus ja käyttöohje (pdf)] Liitä linkkiteksti selaimeen, koska alusta ei suostu muuttamaan tätä suoraksi linkiksi.
