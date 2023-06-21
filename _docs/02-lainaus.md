@@ -784,21 +784,35 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastu
 1. Lue asiakkaan kirjastokortin viivakoodi *Borrower Cardnumber* -kenttään.
 2. Lue lainattavien niteiden nidetunnukset *Item Barcode* -kenttään. Nidetunnukset siirtyvät automaattisesti kenttään *Previously Scanned Barcodes*.
 3. Kun kaikki asiakkaan lainaamat niteet on luettu, klikkaa lopuksi *OK*-painiketta.
-4. **Ensimmäisen lainaajan jälkeen lainatiedot pitää tallentaa.**
+4. **Ensimmäisen lainaajan jälkeen lainatiedot pitää tallentaa.** Tallennuksessa 
 5. Ohjelma ehdottaa tallennuspaikkaa.
    - Älä muuta tiedoston nimeä, joka koostuu päivämäärästä ja kellonajasta (vvvv-kk-pp tunti-minuutti-sekuntti sekunninsadasosa).
-   - Valitse tallennuspaikaksi tiedosto, josta löydät tiedoston helposti ja johon on muillakin käyttäjillä tarvittaessa oikeus, jos esim. asiakaspalveluvuoro vaihtuu välissä ja toinen virkailija kirjautuu koneelle jatkaakseen Koha Offline Circulation -ohjelman käyttöä. Hyvä tallennuspaikka on esim. koneen C:-aseman Temp-kansio.
+   - Valitse tallennuspaikaksi tiedosto, josta löydät tiedoston helposti ja johon on muillakin käyttäjillä tarvittaessa oikeus, jos esim. asiakaspalveluvuoro vaihtuu välissä ja toinen virkailija kirjautuu koneelle jatkaakseen Koha Offline Circulation -ohjelman käyttöä. Hyvä tallennuspaikka on esim. koneen C:-aseman temp-kansio.
+  
+![](/assets/files/docs/Lainaus/OfflineKOCtemp.PNG)
+
    - Lainojen tallennuksen jälkeen ohjelma palaa takaisin lainausnäytölle ja voit jatkaa lainaamista seuraaville asiakkaille.
-   - Seuraavien asiakkaiden lainat tallentuvat aina samaan tiedostoon.
-   - Muista tallentaa jokaisen lainaajan lainat erikseen *OK*-painikkeella.
+   - Seuraavien asiakkaiden lainat tallentuvat aina samaan tiedostoon. Eri käyttäjien tallennetut tiedostot tallentuvat kukin omina tiedostoina valittuun kansioon.
+   - Muista tallentaa jokaisen lainaajan lainat erikseen *OK*-painikkeella, muuten lainat tallentuvat aina edelliselle asiakkaalle.
      
 **Huom! Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedostonnimen ja sijainnin vaikka paperille ylös.**
 
 ## 2.19.3 Lainatietojen lähettäminen tietokantaan
 
+**Lainat lähetetään tietokantaan heti, kun Koha taas toimii.** Jos lainat lähetetään tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
+1. Kun yhteydet taas toimivat, kirjaudu Kohaan.
+2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc).
+![](/assets/files/docs/Lainaus/lainatiedostonlähetys.PNG)
 
+3. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa.
+   
+![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
+![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
+4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
+
+![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot4.PNG)
 
 
 
