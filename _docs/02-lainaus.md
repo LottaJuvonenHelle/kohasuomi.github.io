@@ -736,14 +736,14 @@ Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jo
 
 Linkki menee nettisivulle, josta ohjelma ladataan. 
 
-2. Valitse KohaOfflineCirculation_Installer_1_3.exe
+2. Valitse KohaOfflineCirculation_Installer_1_3.exe <br />
 ![](/assets/files/docs/Lainaus/OfflineKOC2.PNG)   
 
 3. Tallenna tiedosto. <br /> 
 ![](/assets/files/docs/Lainaus/OfflineKOC3.PNG)
 
 4. Klikkaa selaimen oikeassa yläkulmassa näkyvää nuolta ja siitä avautuvaa tiedostoa. <br /> 
-![](/assets/files/docs/Lainaus/OfflineKOC4.PNG)
+![](/assets/files/docs/Lainaus/OfflineKOC4.PNG) <br />
 
 ![](/assets/files/docs/Lainaus/OfflineKOC4_1.PNG)
 
@@ -802,29 +802,29 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastu
 **Lainat lähetetään tietokantaan heti, kun Koha taas toimii.** Jos lainat lähetetään tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
 1. Kun yhteydet taas toimivat, kirjaudu Kohaan.
-2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc).
+2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc). <br />
 ![](/assets/files/docs/Lainaus/lainatiedostonlähetys.PNG)
 
 3. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. 
    
 ![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
 
-Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa.
+Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa. <br />
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
-4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
+4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*. <br />
 
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot4.PNG)
 
-5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla.
+5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla. <br />
 
 ![](/assets/files/docs/Lainaus/OfflineKOClataatiedosto.PNG)
 
-6. Valitse toiminto "Lisää yhteydettömän tilan jonoon". jonka jälkeen saat tiedon, että tiedosto on ladattu.
+6. Valitse toiminto *Lisää yhteydettömän tilan jonoon*. jonka jälkeen saat tiedon, että tiedosto on ladattu. <br />
 
 ![](/assets/files/docs/Lainaus/OfflineKOCjonoon.PNG)
 
-7. Saat tiedon, että tiedosto on ladattu.Jos sinulla on enemmän kuin yksi tiedosto ladattavana, valitse *Lähetä toinen KOC-tiedosto*.
+7. Saat tiedon, että tiedosto on ladattu. Jos sinulla on enemmän kuin yksi tiedosto ladattavana, valitse *Lähetä toinen KOC-tiedosto*. <br />
 
 ![](/assets/files/docs/Lainaus/OfflineKOCladattutiedosto.PNG)
 
