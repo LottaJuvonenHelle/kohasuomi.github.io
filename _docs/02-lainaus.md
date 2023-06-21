@@ -767,11 +767,9 @@ Linkki menee nettisivulle, josta ohjelma ladataan.
 **Asennuksen jälkeen:**
 
 Ohjelman pikakuvake pitäisi löytyä työpöydältä. <br />
-
 ![](/assets/files/docs/Lainaus/OfflineKOC11.PNG)
   
 Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikosta. <br />
-
 ![](/assets/files/docs/Lainaus/OfflineKOC12.PNG)
 
 Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
@@ -780,7 +778,6 @@ Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo n�
 
 Kun klikkaat ohjelman auki, se on valmis käyttöön.
 Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastunnusta, niteen tunnusta ja OK-painiketta. <br />
-
 ![](/assets/files/docs/Lainaus/OfflineKOClainaus.PNG)
 
 1. Lue asiakkaan kirjastokortin viivakoodi *Borrower Cardnumber* -kenttään.
@@ -805,23 +802,18 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastu
 
 1. Kun yhteydet taas toimivat, kirjaudu Kohaan.
 2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc). <br />
-   
 ![](/assets/files/docs/Lainaus/lainatiedostonlähetys.PNG)
 
 4. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. <br />
-   
 ![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
 
 Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa. <br />
-
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
-4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
-
+4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*. <br />
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot4.PNG)
 
-5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla.
-
+5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla. <br />
 ![](/assets/files/docs/Lainaus/OfflineKOClataatiedosto.PNG)
 
 6. Valitse toiminto *Lisää yhteydettömän tilan jonoon*. jonka jälkeen saat tiedon, että tiedosto on ladattu.
