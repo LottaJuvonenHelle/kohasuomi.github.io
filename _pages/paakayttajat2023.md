@@ -16,7 +16,8 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Pir
 
 **Yhteiset asiat:**
 * Emottomien osakohteiden poisto, tiketti [#348](https://github.com/KohaSuomi/Koha/issues/348) tehty jo tammikuussa. Olisi tärkeää saada siivottua näitä emottomia osakohteita pois tietokannoista/Päivi
-* TäTin nalkuttimen päivittäminen - mikä tilanne? 
+* TäTin nalkuttimen päivittäminen - mikä tilanne?
+* Kirjastokortin saaminen näkymään tietueen varaukset-sivulle. Asiasta tehty tiketti [#664](https://github.com/KohaSuomi/Koha/issues/664).
 
 Etelästä pohjoiseen
 
@@ -33,6 +34,11 @@ Etelästä pohjoiseen
 **OUTI**
 * Normaaleja tukitöitä, ei mitään erityistä.
 * Kohan ohje suomeksi päivittelyä.
+
+**Vaski**
+* Noutomuistutuksen käyttöönotossa yllätys, kun asetus olikin asiakkailla valmiiksi valittuna ja viestejä lähti liikkeelle ennen kuin oli tarkoitus.
+* Tietovarastoprojektin osalta toivottu kimppojen välistä yhteistyötä, jotta rajapintatoteutuksessa voitaisiin ottaa huomioon muut vastaavat tarpeet.
+* Kohaconin aikataulua odotellaan, jotta tiedettäisiin, minä päivinä olisi hyvä osallistua.
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
