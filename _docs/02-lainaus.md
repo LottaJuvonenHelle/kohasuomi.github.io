@@ -775,10 +775,12 @@ Linkki menee nettisivulle, josta ohjelma ladataan.
 
 **Asennuksen jälkeen:**
 
-Ohjelman pikakuvake pitäisi löytyä työpöydältä. <br />
+Ohjelman pikakuvake pitäisi löytyä työpöydältä.
+
 ![](/assets/files/docs/Lainaus/OfflineKOC11.PNG)
   
-Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikosta. <br />
+Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikosta.
+
 ![](/assets/files/docs/Lainaus/OfflineKOC12.PNG)
 
 Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
@@ -786,7 +788,8 @@ Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo n�
 ## 2.19.2 Offline lainausohjelmalla lainaaminen
 
 Kun klikkaat ohjelman auki, se on valmis käyttöön.
-Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastunnusta, niteen tunnusta ja OK-painiketta. <br />
+Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastunnusta, niteen tunnusta ja OK-painiketta.
+
 ![](/assets/files/docs/Lainaus/OfflineKOClainaus.PNG)
 
 1. Lue asiakkaan kirjastokortin viivakoodi *Borrower Cardnumber* -kenttään.
@@ -810,36 +813,44 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastu
 **Lainat lähetetään tietokantaan heti, kun Koha taas toimii.** Jos lainat lähetetään tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
 1. Kun yhteydet taas toimivat, kirjaudu Kohaan.
-2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc). <br />
+2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc).
+   
 ![](/assets/files/docs/Lainaus/lainatiedostonlähetys.PNG)
 
-4. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. <br />
+3. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla.
+   
 ![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
 
-Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa. <br />
+Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa.
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
-4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*. <br />
+4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
+
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot4.PNG)
 
-5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla. <br />
+5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla. 
+
 ![](/assets/files/docs/Lainaus/OfflineKOClataatiedosto.PNG)
 
-6. Valitse toiminto *Lisää yhteydettömän tilan jonoon*. jonka jälkeen saat tiedon, että tiedosto on ladattu. <br />
+6. Valitse toiminto *Lisää yhteydettömän tilan jonoon*. jonka jälkeen saat tiedon, että tiedosto on ladattu. 
+
 ![](/assets/files/docs/Lainaus/OfflineKOCjonoon.PNG)
 
-7. Saat tiedon, että tiedosto on ladattu. Jos sinulla on enemmän kuin yksi tiedosto ladattavana, valitse *Lähetä toinen KOC-tiedosto*. <br />
+7. Saat tiedon, että tiedosto on ladattu. Jos sinulla on enemmän kuin yksi tiedosto ladattavana, valitse *Lähetä toinen KOC-tiedosto*. 
+
 ![](/assets/files/docs/Lainaus/OfflineKOCladattutiedosto.PNG)
 
-8. Etsi toinen tiedosto samalla tavalla kuin etsit ensimmäisen tiedoston *Selaa*-toiminnolla. Valitse toinen ladattava tiedosto ja lataa se. Lisää tiedosto yhteydettömän tilan jonoon. <br />
+8. Etsi toinen tiedosto samalla tavalla kuin etsit ensimmäisen tiedoston *Selaa*-toiminnolla. Valitse toinen ladattava tiedosto ja lataa se. Lisää tiedosto yhteydettömän tilan jonoon. 
 
-9. Kun olet ladannut kaikki tiedostot, valitse *Näytä käsittelyä odottavat yhteydettömän tilan tapahtumat*. <br />
+9. Kun olet ladannut kaikki tiedostot, valitse *Näytä käsittelyä odottavat yhteydettömän tilan tapahtumat*. 
+
 ![](/assets/files/docs/Lainaus/OfflineKOCkäsittelyäodottavat.PNG)
 
-10. Saat listan lainoista, jotka pitää "käsitellä" (siirtää) tietokantaan. *Poista*-toiminnolla voit poistaa listalta lainat, joita et halua siirtää tietokantaan. Valitse siirrettävät lainat tietokantaan toiminnolla *Käsittele*. <br />
+10. Saat listan lainoista, jotka pitää "käsitellä" (siirtää) tietokantaan. *Poista*-toiminnolla voit poistaa listalta lainat, joita et halua siirtää tietokantaan. Valitse siirrettävät lainat tietokantaan toiminnolla *Käsittele*. 
+
 ![](/assets/files/docs/Lainaus/OfflineKOCvalitselainat.PNG)
 
-11. Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt lainaustiedot näytölle. <br />
+11. Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt lainaustiedot näytölle. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOClähetetyt.PNG)
 
