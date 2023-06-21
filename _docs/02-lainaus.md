@@ -778,6 +778,7 @@ Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo n�
 
 Kun klikkaat ohjelman auki, se on valmis käyttöön.
 Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastunnusta, niteen tunnusta ja OK-painiketta. <br />
+
 ![](/assets/files/docs/Lainaus/OfflineKOClainaus.PNG)
 
 1. Lue asiakkaan kirjastokortin viivakoodi *Borrower Cardnumber* -kenttään.
@@ -801,15 +802,15 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastu
 **Lainat lähetetään tietokantaan heti, kun Koha taas toimii.** Jos lainat lähetetään tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
 1. Kun yhteydet taas toimivat, kirjaudu Kohaan.
-2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc).
+2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc). <br />
    
 ![](/assets/files/docs/Lainaus/lainatiedostonlähetys.PNG)
 
-4. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. 
+4. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. <br />
    
 ![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
 
-Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa. 
+Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa. <br />
 
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
