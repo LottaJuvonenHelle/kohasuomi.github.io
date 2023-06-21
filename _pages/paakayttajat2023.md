@@ -17,7 +17,7 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Pir
 **Yhteiset asiat:**
 * Emottomien osakohteiden poisto, tiketti [#348](https://github.com/KohaSuomi/Koha/issues/348) tehty jo tammikuussa. Olisi tärkeää saada siivottua näitä emottomia osakohteita pois tietokannoista/Päivi
 * TäTin nalkuttimen päivittäminen - mikä tilanne?
-* Kirjastokortin saaminen näkymään tietueen varaukset-sivulle. Asiasta tehty tiketti [#664](https://github.com/KohaSuomi/Koha/issues/664).
+* Kirjastokortin saaminen näkymään tietueen varaukset-sivulle. Asiasta tehty tiketti [#664](https://github.com/KohaSuomi/Koha/issues/664)
 
 Etelästä pohjoiseen
 
