@@ -767,9 +767,11 @@ Linkki menee nettisivulle, josta ohjelma ladataan.
 **Asennuksen jälkeen:**
 
 Ohjelman pikakuvake pitäisi löytyä työpöydältä. <br />
+
 ![](/assets/files/docs/Lainaus/OfflineKOC11.PNG)
   
 Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikosta. <br />
+
 ![](/assets/files/docs/Lainaus/OfflineKOC12.PNG)
 
 Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
