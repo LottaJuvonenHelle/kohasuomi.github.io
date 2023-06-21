@@ -802,29 +802,31 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastu
 **Lainat lähetetään tietokantaan heti, kun Koha taas toimii.** Jos lainat lähetetään tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
 1. Kun yhteydet taas toimivat, kirjaudu Kohaan.
-2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc). <br />
+2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc).
+   
 ![](/assets/files/docs/Lainaus/lainatiedostonlähetys.PNG)
 
-3. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. 
+4. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. 
    
 ![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
 
-Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa. <br />
+Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa. 
+
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
-4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*. <br />
+4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
 
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot4.PNG)
 
-5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla. <br />
+5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla.
 
 ![](/assets/files/docs/Lainaus/OfflineKOClataatiedosto.PNG)
 
-6. Valitse toiminto *Lisää yhteydettömän tilan jonoon*. jonka jälkeen saat tiedon, että tiedosto on ladattu. <br />
+6. Valitse toiminto *Lisää yhteydettömän tilan jonoon*. jonka jälkeen saat tiedon, että tiedosto on ladattu.
 
 ![](/assets/files/docs/Lainaus/OfflineKOCjonoon.PNG)
 
-7. Saat tiedon, että tiedosto on ladattu. Jos sinulla on enemmän kuin yksi tiedosto ladattavana, valitse *Lähetä toinen KOC-tiedosto*. <br />
+7. Saat tiedon, että tiedosto on ladattu. Jos sinulla on enemmän kuin yksi tiedosto ladattavana, valitse *Lähetä toinen KOC-tiedosto*. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOCladattutiedosto.PNG)
 
