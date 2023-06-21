@@ -727,6 +727,7 @@ Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilante
 2.  **Koha Offline Circulation Tool** (KOCT), joka on Firefox-selaimen lisäosa.
 
 Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. 
+**Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, sitten kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautuvaan teokseen on varaus.
 
 ### 2.19.1. Offline lainausohjelma Windowsille (KOC)
 
@@ -773,13 +774,27 @@ Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikos
 
 Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
 
- **Ohjelman käyttäminen**
+## 2.19.2 Offline lainausohjelmalla lainaaminen
 
-Kun klikkaat ohjelman auki, sen on valmis käyttöön.
-Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia toimintoja eli asiakastunnus, niteen tunnus ja ohjelmapainikkeet.
+Kun klikkaat ohjelman auki, se on valmis käyttöön.
+Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastunnusta, niteen tunnusta ja OK-painiketta.
 
+![](/assets/files/docs/Lainaus/OfflineKOClainaus.PNG)
 
+1. Lue asiakkaan kirjastokortin viivakoodi *Borrower Cardnumber* -kenttään.
+2. Lue lainattavien niteiden nidetunnukset *Item Barcode* -kenttään. Nidetunnukset siirtyvät automaattisesti kenttään *Previously Scanned Barcodes*.
+3. Kun kaikki asiakkaan lainaamat niteet on luettu, klikkaa lopuksi *OK*-painiketta.
+4. **Ensimmäisen lainaajan jälkeen lainatiedot pitää tallentaa.**
+5. Ohjelma ehdottaa tallennuspaikkaa.
+   - Älä muuta tiedoston nimeä, joka koostuu päivämäärästä ja kellonajasta (vvvv-kk-pp tunti-minuutti-sekuntti sekunninsadasosa).
+   - Valitse tallennuspaikaksi tiedosto, josta löydät tiedoston helposti ja johon on muillakin käyttäjillä tarvittaessa oikeus, jos esim. asiakaspalveluvuoro vaihtuu välissä ja toinen virkailija kirjautuu koneelle jatkaakseen Koha Offline Circulation -ohjelman käyttöä. Hyvä tallennuspaikka on esim. koneen C:-aseman Temp-kansio.
+   - Lainojen tallennuksen jälkeen ohjelma palaa takaisin lainausnäytölle ja voit jatkaa lainaamista seuraaville asiakkaille.
+   - Seuraavien asiakkaiden lainat tallentuvat aina samaan tiedostoon.
+   - Muista tallentaa jokaisen lainaajan lainat erikseen *OK*-painikkeella.
+     
+**Huom! Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedostonnimen ja sijainnin vaikka paperille ylös.**
 
+## 2.19.3 Lainatietojen lähettäminen tietokantaan
 
 
 
