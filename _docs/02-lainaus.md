@@ -730,8 +730,9 @@ Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jo
 
 ### 2.19.1. Offline lainausohjelma Windowsille (KOC)
 
-1. Kirjaudu Kohaan ja lataa työpöytäsovellus. Latauslinkin löydät Lainaus ja Palautus -sivulta.
+1. Kirjaudu Kohaan ja lataa työpöytäsovellus. Latauslinkin löydät Lainaus ja Palautus -sivulta. <br />
 ![](/assets/files/docs/Lainaus/OfflineKOC.PNG)
+
 Linkki menee nettisivulle, josta ohjelma ladataan. 
 
 2. Valitse KohaOfflineCirculation_Installer_1_3.exe
@@ -740,14 +741,37 @@ Linkki menee nettisivulle, josta ohjelma ladataan.
 3. Tallenna tiedosto. <br /> 
 ![](/assets/files/docs/Lainaus/OfflineKOC3.PNG)
 
-4. Klikkaa selaimen oikeassa yläreunassa näkyvää nuolta ja avautuvaa tiedostoa. <br /> 
+4. Klikkaa selaimen oikeassa yläreunassa näkyvää nuolta ja siitä avautuvaa tiedostoa. <br /> 
 ![](/assets/files/docs/Lainaus/OfflineKOC4.PNG)
 
 ![](/assets/files/docs/Lainaus/OfflineKOC4_1.PNG)
 
-6. Ohjelma pyytää järjestelmänvalvojan kirjautumisen koneelle, jos sinulla ei ole asennukseen tarvittavia oikeuksia.
-7. Ohjelman asennus alkaa, kun valitset "Next".
+5. Ohjelma pyytää järjestelmänvalvojan kirjautumisen koneelle, jos sinulla ei ole asennukseen tarvittavia oikeuksia.
+   
+6. Ohjelman asennus alkaa, kun valitset *Next*. <br />
+![](/assets/files/docs/Lainaus/OfflineKOC7.PNG)
 
+7. Hyväksy ohjelman ehdottama tallennus tiedosto valitsemalla *Next*. <br />
+![](/assets/files/docs/Lainaus/OfflineKOC6.PNG)
+
+8. Valitsemalla *Next*, ohjelman kuvake asennetaan Käynnistä-valikkkoon nimellä "Koha Offline Ciruclation". <br />
+![](/assets/files/docs/Lainaus/OfflineKOC8.PNG)
+
+9. Ohjelman asennus alkaa, kun valitset *Install*. <br />
+![](/assets/files/docs/Lainaus/OfflineKOC9.PNG)
+
+10. Kun asennus on valmis, valitse *Finish*. <br />
+![](/assets/files/docs/Lainaus/OfflineKOC10.PNG)
+
+**Asennuksen jälkeen:**
+
+Ohjelman pikakuvake pitäisi löytyä työpöydältä. <br />
+![](/assets/files/docs/Lainaus/OfflineKOC11.PNG)
+  
+Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikosta. <br />
+![](/assets/files/docs/Lainaus/OfflineKOC12.PNG)
+
+Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
 
 
 [Ohjelman asennus ja käyttöohje (pdf)] Liitä linkkiteksti selaimeen, koska alusta ei suostu muuttamaan tätä suoraksi linkiksi.
