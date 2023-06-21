@@ -777,8 +777,7 @@ Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo n�
 ## 2.19.2 Offline lainausohjelmalla lainaaminen
 
 Kun klikkaat ohjelman auki, se on valmis käyttöön.
-Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastunnusta, niteen tunnusta ja OK-painiketta.
-
+Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastunnusta, niteen tunnusta ja OK-painiketta. <br />
 ![](/assets/files/docs/Lainaus/OfflineKOClainaus.PNG)
 
 1. Lue asiakkaan kirjastokortin viivakoodi *Borrower Cardnumber* -kenttään.
