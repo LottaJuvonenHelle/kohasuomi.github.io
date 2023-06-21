@@ -805,20 +805,46 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastu
 2. Lainaus ja palautus -sivulta valitse * Lähetä yhteydettömän tilan lainaustiedosto (*.koc).
 ![](/assets/files/docs/Lainaus/lainatiedostonlähetys.PNG)
 
-3. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa.
+3. Etsi tallennettu tiedosto/tallennetut tiedostot *Selaa*-toiminnolla. 
    
 ![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
+
+Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa.
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
 4. Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
 
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot4.PNG)
 
+5. Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla.
 
+![](/assets/files/docs/Lainaus/OfflineKOClataatiedosto.PNG)
 
+6. Valitse toiminto "Lisää yhteydettömän tilan jonoon". jonka jälkeen saat tiedon, että tiedosto on ladattu.
 
+![](/assets/files/docs/Lainaus/OfflineKOCjonoon.PNG)
 
+7. Saat tiedon, että tiedosto on ladattu.Jos sinulla on enemmän kuin yksi tiedosto ladattavana, valitse *Lähetä toinen KOC-tiedosto*.
 
+![](/assets/files/docs/Lainaus/OfflineKOCladattutiedosto.PNG)
+
+8. Etsi toinen tiedosto samalla tavalla kuin etsit ensimmäisen tiedoston *Selaa*-toiminnolla. Valitse toinen ladattava tiedosto ja lataa se. Lisää tiedosto yhteydettömän tilan jonoon.
+
+9. Kun olet ladannut kaikki tiedostot, valitse *Näytä käsittelyä odottavat yhteydettömän tilan tapahtumat*.
+
+![](/assets/files/docs/Lainaus/OfflineKOCkäsittelyäodottavat.PNG)
+
+10. Saat listan lainoista, jotka pitää "käsitellä" (siirtää) tietokantaan. *Poista*-toiminnolla voit poistaa listalta lainat, joita et halua siirtää tietokantaan. Valitse siirrettävät lainat tietokantaan toiminnolla *Käsittele*.
+
+![](/assets/files/docs/Lainaus/OfflineKOCvalitselainat.PNG)
+
+11. Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt lainaustiedot näytölle.
+
+![](/assets/files/docs/Lainaus/OfflineKOClähetetyt.PNG)
+
+Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja mahdollisesti käsitellä manuaalisesti.
+
+## 2.19.4 Lähetettyjen tiedostojen poistaminen
 
 
 
