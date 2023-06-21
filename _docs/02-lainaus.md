@@ -731,37 +731,46 @@ Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jo
 
 ### 2.19.1. Offline lainausohjelma Windowsille (KOC)
 
-1. Kirjaudu Kohaan ja lataa työpöytäsovellus. Latauslinkin löydät Lainaus ja Palautus -sivulta. <br />
+1. Kirjaudu Kohaan ja lataa työpöytäsovellus. Latauslinkin löydät Lainaus ja Palautus -sivulta.
+   
 ![](/assets/files/docs/Lainaus/OfflineKOC.PNG)
 
 Linkki menee nettisivulle, josta ohjelma ladataan. 
 
-2. Valitse KohaOfflineCirculation_Installer_1_3.exe <br />
+2. Valitse KohaOfflineCirculation_Installer_1_3.exe
+
 ![](/assets/files/docs/Lainaus/OfflineKOC2.PNG)   
 
-3. Tallenna tiedosto. <br /> 
+3. Tallenna tiedosto.
+   
 ![](/assets/files/docs/Lainaus/OfflineKOC3.PNG)
 
-4. Klikkaa selaimen oikeassa yläkulmassa näkyvää nuolta ja siitä avautuvaa tiedostoa. <br /> 
+4. Klikkaa selaimen oikeassa yläkulmassa näkyvää nuolta ja siitä avautuvaa tiedostoa.
+   
 ![](/assets/files/docs/Lainaus/OfflineKOC4.PNG) <br />
 
 ![](/assets/files/docs/Lainaus/OfflineKOC4_1.PNG)
 
 5. Ohjelma pyytää järjestelmänvalvojan kirjautumisen koneelle, jos sinulla ei ole asennukseen tarvittavia oikeuksia.
    
-6. Ohjelman asennus alkaa, kun valitset *Next*. <br />
+6. Ohjelman asennus alkaa, kun valitset *Next*.
+   
 ![](/assets/files/docs/Lainaus/OfflineKOC7.PNG)
 
-7. Hyväksy ohjelman ehdottama tallennustiedosto valitsemalla *Next*. <br />
+7. Hyväksy ohjelman ehdottama tallennustiedosto valitsemalla *Next*.
+   
 ![](/assets/files/docs/Lainaus/OfflineKOC6.PNG)
 
-8. Valitsemalla *Next*, ohjelman kuvake asennetaan Käynnistä-valikkkoon nimellä "Koha Offline Ciruclation". <br />
+8. Valitsemalla *Next*, ohjelman kuvake asennetaan Käynnistä-valikkkoon nimellä "Koha Offline Ciruclation".
+   
 ![](/assets/files/docs/Lainaus/OfflineKOC8.PNG)
 
-9. Ohjelman asennus alkaa, kun valitset *Install*. <br />
+9. Ohjelman asennus alkaa, kun valitset *Install*.
+    
 ![](/assets/files/docs/Lainaus/OfflineKOC9.PNG)
 
-10. Kun asennus on valmis, valitse *Finish*. <br />
+10. Kun asennus on valmis, valitse *Finish*.
+  
 ![](/assets/files/docs/Lainaus/OfflineKOC10.PNG)
 
 **Asennuksen jälkeen:**
