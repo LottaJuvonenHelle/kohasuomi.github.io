@@ -810,7 +810,7 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
 
 ## 2.19.3 Lainatietojen lähettäminen tietokantaan
 
-**Lainat lähetetään tietokantaan heti, kun Koha taas toimii.** Jos lainat lähetetään tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
+**Lähetä lainat tietokantaan heti, kun Koha taas toimii.** Jos lähetät lainat tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
 - Kun yhteydet taas toimivat, kirjaudu Kohaan.
 - Lainaus ja palautus -sivulta valitse *Lähetä yhteydettömän tilan lainaustiedosto (*.koc)*.
@@ -822,17 +822,18 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
 ![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
 
 Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa.
+
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
 - Jos lähetettäviä tiedostoja on useampia, valite ensimmäinen .KOC-tiedosto ja klikkaa *Avaa*.
 
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot4.PNG)
 
-- Lähetä valittu tiedosto Kohaan *Lataa tiedosto* -toiminnolla. 
+- Valitse *Lataa tiedosto*. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOClataatiedosto.PNG)
 
-- Valitse toiminto *Lisää yhteydettömän tilan jonoon*. jonka jälkeen saat tiedon, että tiedosto on ladattu. 
+- Valitse *Lisää yhteydettömän tilan jonoon*. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOCjonoon.PNG)
 
@@ -846,11 +847,11 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 ![](/assets/files/docs/Lainaus/OfflineKOCkäsittelyäodottavat.PNG)
 
-- Saat listan lainoista, jotka pitää "käsitellä" (siirtää) tietokantaan. *Poista*-toiminnolla voit poistaa listalta lainat, joita et halua siirtää tietokantaan. Valitse siirrettävät lainat tietokantaan toiminnolla *Käsittele*. 
+- Saat listan lainoista, jotka pitää "käsitellä" (siirtää) tietokantaan. *Poista*-toiminnolla voit poistaa listalta lainat, joita et halua siirtää. *Valitse kaikki" -toiminnolla saat valittua siirrettävät lainat. Klikkaa lopuksi *Käsittele*. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOCvalitselainat.PNG)
 
-- Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt lainaustiedot näytölle. 
+- Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt tiedot näytölle. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOClähetetyt.PNG)
 
