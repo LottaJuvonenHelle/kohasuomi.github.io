@@ -727,7 +727,7 @@ Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilante
 2.  **Koha Offline Circulation Tool** (KOCT), joka on Firefox-selaimen lisäosa.
 
 Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. 
-**Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, sitten kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautuvaan teokseen on varaus.
+**Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
 
 ### 2.19.1. Offline lainausohjelma Windowsille (KOC)
 
@@ -870,7 +870,8 @@ Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa 
 
 ## 2.19.2 Koha Offline Circulation Tool (KOCT)
 
-Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen.
+Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen. <br/>
+**Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
 
 ## 2.19.2.1 Selaimen lisäosan asennus
 
@@ -903,20 +904,38 @@ Anna parametrit seuraavasti:
 1. Kohtaan *Server*: anna kimppasi Koha-osoite.
 2. Kohtaan *Login*: oma Koha-käyttäjätunnus
 3. Kohtaan *Password*: käyttäjätunnuksesi salasana.
-4. Toiminnolla *Test configuration* voit testata asetuksia. Sivusto pyytää sinua todentamaan itsesi Koha-varmenteella, joka pitää olla asennettuna koneelle. Hyväksy varmenne *OK*:lla. Jos asetukset ovat oikein, saat tiedon "Configuration ok".
-   
-5. 
+4. Toiminnolla *Test configuration* voit testata asetuksia. Sivusto pyytää Koha-varmenteen todennuksen, joka pitää olla asennettuna koneelle. Hyväksy varmenne *OK*:lla. Jos asetukset ovat oikein, saat tiedon "Configuration ok".
 6. Valitse kohtaan "Branchcode" kirjasto, jossa työskentelet.
 7. Valitse kohtaan "Commit Type" **Apply directly to Koha**.
 8. Tallenna tiedot lopuksi painamalla *Save*.
 
+Nyt laajennuksen perusnäytön pitäisi näyttää tältä:
 
+![](/assets/files/docs/Lainaus/KOCTasetukset3.PNG)
 
+**Huom! Kun lopetat KOCT-lisäosan käytön, muista tyhjentää kohdasta "Configuration page" omat tiedot kohdista Username ja Password. Jokainen käyttäjä tallentaa omat tunnukset ohjelmalle. Kohtia Server ja Branchcode ei tarvitse muuttaa, kun käyttäjä vaihtuu.
 
+## 2.19.2.3 Lainaaminen KOCT-lisäosalla
 
+Avaa KOCT-lisäosa selaimen oikessa yläkulmassa näkyästä pikakuvkkeesta.
+Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnukset Item barcode -kentään. Lainat kirjautuvat automaattisesti Transaction-kohdan alla olevaan taulukkoon. Kun kaikki asiakkaan lainat on luettu, valitse *Clear cardnumber*.
 
+![](/assets/files/docs/Lainaus/KOCTlainaus.PNG)
 
+![](/assets/files/docs/Lainaus/KOCTlainaus2.PNG)
 
+*Apply to koha* - vie lainat suoraan Kohaan, kun ohjelma taas toimii.
+*Export data* - tallentaa koneen lainat koneen oletuskansioon (lainojen tallentaminen Kohaan tehdään tiedonsiirron kautta).
+*Clear* - tyhjentää lainatut lainat (ohjelma varoittaa lainoista, joita ei ole viety Kohaan).
+*Clear added* - tyhjentää lainatut lainat (ei varoita lainoista, joita ei ole viety Kohaan).
+
+## 2.19.2.4 Palauttaminen KOCT-lisäosalla (ei suositella)
+
+Lue palautettavan lainan nidetunnus kohtaan "Item barcode". Palautettavan niteen tieto siirtyy taulukkoon. Jos palautat lainoja KOCT:lla, ne on palautettava uudelleen Kohassa, kun se taas toimii. <br/>
+**Huom! Lainat pitää ladata Kohaan ensin, ennen palautuksia.**
+
+Kun lopetat ohjelman käytön, mene ensin "Configuration page" -sivulle ja tyhjennä parametreista omat kirjautumistietosi. <br/>
+Sulje lopuksi selain.
 
 [Ohjelman asennus ja käyttöohje (pdf)] Liitä linkkiteksti selaimeen, koska alusta ei suostu muuttamaan tätä suoraksi linkiksi.
 (https:github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Lainaus/Koha%20Offline%20Circulation.pdf)
