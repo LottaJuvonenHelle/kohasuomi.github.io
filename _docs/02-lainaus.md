@@ -785,7 +785,7 @@ Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikos
 
 Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
 
-## 2.19.2 Offline lainausohjelmalla lainaaminen
+## 2.19.1.1 Offline lainausohjelmalla lainaaminen
 
 Kun klikkaat ohjelman auki, se on valmis käyttöön.
 Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja eli asiakastunnuksen, lainattavan niteen tunnuksen ja OK-painikkeen.
@@ -808,7 +808,7 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
      
 **Huom! Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedostonnimen ja sijainnin vaikka paperille ylös.**
 
-## 2.19.3 Lainatietojen lähettäminen tietokantaan
+## 2.19.1.2 Lainatietojen lähettäminen tietokantaan
 
 **Lähetä lainat tietokantaan heti, kun Koha taas toimii.** Jos lähetät lainat tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
@@ -857,7 +857,7 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja mahdollisesti käsitellä manuaalisesti.
 
-## 2.19.4 Lähetettyjen tiedostojen poistaminen
+## 2.19.1.3 Lähetettyjen tiedostojen poistaminen
 
 Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa koneelta lopullisesti.
 1. Hae tiedosto(t), johon tallensit lainat.
@@ -867,6 +867,44 @@ Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa 
 ![](/assets/files/docs/Lainaus/OfflineKOCtiedostonpoisto.PNG)
 
 **Huom! Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahigossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.**
+
+## 2.19.2 Koha Offline Circulation Tool (KOCT)
+
+Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen.
+
+## 2.19.2.1 Selaimen lisäosan asennus
+
+Kirjaudu Kohaan ja lataa Firefox-selaimen lisäosa KOCT Lainaus ja Palautus -sivulta. 
+
+![](/assets/files/docs/Lainaus/KOCTlisäosa.PNG)
+
+Lataa lisäosa toiminnolla *Lisää Firefoxiin*.
+
+![](/assets/files/docs/Lainaus/KOCTlataus.PNG)
+
+Ohjelma varmistaa lisätäänkö Koha Offline Circulation Tool? Valitse *Lisää*.
+
+![](/assets/files/docs/Lainaus/KOCTlataus2.PNG)
+
+Lisäosan kuvake näkyy selaimen oikeassa yläkulmassa.
+
+![](/assets/files/docs/Lainaus/KOCTkuvake.PNG)
+
+## 2.19.2.2 KOCT-lisäosan käytön aloitus
+
+Avaa lisäosa selaimen oikessa yläkulmassa näkyästä pikakuvkkeesta.
+Mene asetuksiin "settings page"-linkistä.
+
+![](/assets/files/docs/Lainaus/KOCTasetukset.PNG)
+
+Syötä asetuksiin kimppasi Koha-osoite, oma käyttäjätunnus ja salasana.
+Toiminnolla *Test configuration* voit testata asetuksia. Sivusto pyytää sinua todentamaan itsesi varmenteella, joka pitää olla asennettuna koneelle. Hyväksy varmenne *OK*:lla. Jos asetukset ovat oikein, saat ilmoituksen "Configuration ok.
+
+
+
+
+
+
 
 
 
