@@ -897,8 +897,13 @@ Mene asetuksiin "settings page"-linkistä.
 
 ![](/assets/files/docs/Lainaus/KOCTasetukset.PNG)
 
-Syötä asetuksiin kimppasi Koha-osoite, oma käyttäjätunnus ja salasana.
-Toiminnolla *Test configuration* voit testata asetuksia. Sivusto pyytää sinua todentamaan itsesi varmenteella, joka pitää olla asennettuna koneelle. Hyväksy varmenne *OK*:lla. Jos asetukset ovat oikein, saat ilmoituksen "Configuration ok.
+![](/assets/files/docs/Lainaus/KOCTasetukset2.PNG)
+
+1. Syötä asetuksiin kimppasi Koha-osoite, oma käyttäjätunnus ja salasana.
+2. Toiminnolla *Test configuration* voit testata asetuksia. Sivusto pyytää sinua todentamaan itsesi Koha-varmenteella, joka pitää olla asennettuna koneelle. Hyväksy varmenne *OK*:lla. Jos asetukset ovat oikein, saat tiedon "Configuration ok".
+3. Valitse kohtaan "Branchcode" kirjasto, jossa työskentelet.
+4. Valitse kohtaan "Commit Type" **Apply directly to Koha**.
+5. Tallenna tiedot lopuksi painamalla *Save*.
 
 
 
