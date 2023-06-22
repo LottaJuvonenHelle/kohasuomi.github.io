@@ -947,23 +947,3 @@ Lue palautettavan lainan nidetunnus kohtaan "Item barcode". Palautettavan niteen
 
 Kun lopetat ohjelman käytön, mene ensin "Configuration page" -sivulle ja tyhjennä parametreista omat kirjautumistietosi. <br/>
 Sulje lopuksi selain.
-
-
-
-
-[Ohjelman asennus ja käyttöohje (pdf)] Liitä linkkiteksti selaimeen, koska alusta ei suostu muuttamaan tätä suoraksi linkiksi.
-(https:github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Lainaus/Koha%20Offline%20Circulation.pdf)
-
-### 2.12.2 Koha Offline Circulation Tool (KOCT)
-
-Englanninkielinen lisäosa.
-
-[Ohje pdf-muodossa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/d1dc796fbb0a91ac574f2e5e628df28ecd894eb5/assets/files/Koha%20Offline%20Circulation%20Tool%20(KOCT).pdf)
-
-
-### 2.12.3 Yhteydettömän tilan lainaus
-
-**Tämä ei ole suositeltava tapa**
-
-[Yhteydettömän lainauksen ohje pdf-muodossa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/8b5a19ba3ab67748beb2da63e68fd8d8da71ca19/assets/files/Yhteydetonlainaus.pdf)
----
