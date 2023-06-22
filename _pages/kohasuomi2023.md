@@ -14,6 +14,12 @@ hidden: true
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
 ## Viikon 25 muistiot
+### Torstai 22.6.2023 klo 10
+
+Läsnä: 
+
+* Viikon 26 päivitys
+  * [Vanhenemispäivä jää puuttumaan varaukselta, jolta perutaan odottaa tai kuljetettavana -tila #650](https://github.com/KohaSuomi/Koha/issues/650)
 
 ### Maanantai 19.6.2023 klo 10
 
