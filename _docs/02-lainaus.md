@@ -859,8 +859,14 @@ Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun 
 
 ## 2.19.4 Lähetettyjen tiedostojen poistaminen
 
+Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa koneelta lopullisesti.
+1. Hae tiedosto(t), johon tallensit lainat.
+2. Valitse poistettava KOC-tiedosto aktiiviseksi ja paina sen jälkeen näppäimistöltä yhtä aikaa *Shift+Del* -näppäimiä. Ohjelma kysyy, "Haluatko varmasti poistaa tämän tiedoston lopullisesti?"
+3. Valitse *Kyllä*.
+   
+![](/assets/files/docs/Lainaus/OfflineKOCtiedostonpoisto.PNG)
 
-
+**Huom! Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahigossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.**
 
 
 
