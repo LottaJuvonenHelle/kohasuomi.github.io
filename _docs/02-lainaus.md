@@ -795,7 +795,7 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja eli asiakastu
 1. Lue asiakkaan kirjastokortin viivakoodi *Borrower Cardnumber* -kenttään.
 2. Lue lainattavien niteiden nidetunnukset *Item Barcode* -kenttään. Nidetunnukset siirtyvät automaattisesti kenttään *Previously Scanned Barcodes*.
 3. Kun kaikki asiakkaan lainaamat niteet on luettu, klikkaa lopuksi *OK*-painiketta.
-4. **Ensimmäisen lainaajan jälkeen lainatiedot pitää tallentaa.** Tallennuksessa 
+4. **Ensimmäisen lainaajan jälkeen lainatiedot pitää tallentaa.**
 5. Ohjelma ehdottaa tallennuspaikkaa.
    - Älä muuta tiedoston nimeä, joka koostuu päivämäärästä ja kellonajasta (vvvv-kk-pp tunti-minuutti-sekuntti sekunninsadasosa).
    - Valitse tallennuspaikaksi tiedosto, josta löydät tiedoston helposti ja johon on muillakin käyttäjillä tarvittaessa oikeus, jos esim. asiakaspalveluvuoro vaihtuu välissä ja toinen virkailija kirjautuu koneelle jatkaakseen Koha Offline Circulation -ohjelman käyttöä. Hyvä tallennuspaikka on esim. koneen C:-aseman temp-kansio.
