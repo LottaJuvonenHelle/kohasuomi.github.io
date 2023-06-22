@@ -709,6 +709,7 @@ Koska raportti voi viedä paljon resursseja, raportti kannattaa määritellä su
 
 ![](/assets/files/docs/Lainaus/myöhässä.PNG)
 
+
 ## 2.18 Myöhässä ja maksuja
 
 Raportti antaa kaikki kirjastosi myöhässä olevat lainat. Voit hakea lainat hyllypaikan mukaan.
@@ -785,6 +786,7 @@ Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikos
 
 Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
 
+
 ## 2.19.1.1 Offline lainausohjelmalla lainaaminen
 
 Kun klikkaat ohjelman auki, se on valmis käyttöön.
@@ -807,6 +809,7 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
    - Muista tallentaa jokaisen lainaajan lainat erikseen *OK*-painikkeella, muuten lainat tallentuvat aina edelliselle asiakkaalle.
      
 **Huom! Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedostonnimen ja sijainnin vaikka paperille ylös.**
+
 
 ## 2.19.1.2 Lainatietojen lähettäminen tietokantaan
 
@@ -857,6 +860,7 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja mahdollisesti käsitellä manuaalisesti.
 
+
 ## 2.19.1.3 Lähetettyjen tiedostojen poistaminen
 
 Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa koneelta lopullisesti.
@@ -868,10 +872,12 @@ Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa 
 
 **Huom! Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahigossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.**
 
+
 ## 2.19.2 Koha Offline Circulation Tool (KOCT)
 
 Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen. <br/>
 **Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
+
 
 ## 2.19.2.1 Selaimen lisäosan asennus
 
@@ -890,6 +896,7 @@ Ohjelma varmistaa lisätäänkö Koha Offline Circulation Tool? Valitse *Lisää
 Lisäosan kuvake näkyy selaimen oikeassa yläkulmassa.
 
 ![](/assets/files/docs/Lainaus/KOCTkuvake.PNG)
+
 
 ## 2.19.2.2 KOCT-lisäosan käytön aloitus
 
@@ -915,6 +922,7 @@ Nyt laajennuksen perusnäytön pitäisi näyttää tältä:
 
 **Huom! Kun lopetat KOCT-lisäosan käytön, muista tyhjentää kohdasta "Configuration page" omat tiedot kohdista Username ja Password. Jokainen käyttäjä tallentaa omat tunnukset ohjelmalle. Kohtia Server ja Branchcode ei tarvitse muuttaa, kun käyttäjä vaihtuu.
 
+
 ## 2.19.2.3 Lainaaminen KOCT-lisäosalla
 
 Avaa KOCT-lisäosa selaimen oikessa yläkulmassa näkyästä pikakuvkkeesta.
@@ -931,11 +939,17 @@ Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnukset Ite
 
 ## 2.19.2.4 Palauttaminen KOCT-lisäosalla (ei suositella)
 
-Lue palautettavan lainan nidetunnus kohtaan "Item barcode". Palautettavan niteen tieto siirtyy taulukkoon. Jos palautat lainoja KOCT:lla, ne on palautettava uudelleen Kohassa, kun se taas toimii. <br/>
+Lue palautettavan lainan nidetunnus kohtaan "Item barcode". Palautettavan niteen tieto siirtyy taulukkoon. Jos palautat lainoja KOCT:lla, ne on palautettava uudelleen Kohassa, kun se taas toimii.
+
+![](/assets/files/docs/Lainaus/KOCTpalautus.PNG)
+
 **Huom! Lainat pitää ladata Kohaan ensin, ennen palautuksia.**
 
 Kun lopetat ohjelman käytön, mene ensin "Configuration page" -sivulle ja tyhjennä parametreista omat kirjautumistietosi. <br/>
 Sulje lopuksi selain.
+
+
+
 
 [Ohjelman asennus ja käyttöohje (pdf)] Liitä linkkiteksti selaimeen, koska alusta ei suostu muuttamaan tätä suoraksi linkiksi.
 (https:github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Lainaus/Koha%20Offline%20Circulation.pdf)
