@@ -735,7 +735,7 @@ Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jo
    
 ![](/assets/files/docs/Lainaus/OfflineKOC.PNG)
 
-Linkki menee nettisivulle, josta ohjelma ladataan. < br/>
+Linkki menee nettisivulle, josta ohjelma ladataan. 
 
 2. Valitse KohaOfflineCirculation_Installer_1_3.exe
 
