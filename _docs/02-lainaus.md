@@ -568,7 +568,7 @@ kirjaston mukaan.
 
 Jos työskentelet useammassa kirjastossa, pääset valitsemaan toisen kirjautumiskirjaston
 _Aseta kirjasto_ -toiminnolla. Valitse kirjasto alasvetovalikosta ja klikkaa
-OK.
+*OK*.
 
 ![](/assets/files/docs/Lainaus/kirjastovalinta2.PNG)  
 
@@ -605,7 +605,7 @@ omaan kirjastoon kuljetettavana oleva nide näyttäisi olevan listan
 mukaan hyllyssä omassa kirjastossa. Nide on palautettu kesken ajon ja
 mennyt kuljetustilaan. Kuljetettavan niteen sijaintikirjastona on
 tietokannassa kohdekirjasto. Tälle epäreaaliaikaisuudelle ei ikävä kyllä
-voi tehdä mitään, koska tausta-ajolla kuluu työhönsä oma aikansa ja
+voi tehdä mitään, koska tausta-ajolla kuluu työhön oma aikansa ja
 tilanne taustalla muuttuu koko ajan, kun niteitä palautetaan lainasta
 tai joku toinen ehtii palauttaa omassa hyllyssä paikalla olevan niteen.
 
@@ -632,8 +632,8 @@ noutokirjastona on oma kirjasto/oman kunnan toinen kirjasto.
 
 ![](/assets/files/docs/Lainaus/hyllyvaraus1.PNG)
 
-Suodattaa sarakkeesta "On shelf" oman kirjastosi varaukset. Jos valintaa ei ole tehty,
-näkyvillä on _Ei mitään_.
+Suodata sarakkeesta "On shelf" oman kirjastosi varaukset. Jos et ole tehnyt valintaa,
+sarakkeessa näkyy _Ei mitään_ ja näkyvillä on kaikkien kimppasi kirjastojen hyllyssä olevat varaukset.
 
 ![](/assets/files/docs/Lainaus/hyllyvaraus2.PNG)
 
@@ -655,7 +655,7 @@ Tällä raportilla voit hakea varausten määrän annettua nidemäärää kohti 
 
 ![](/assets/files/docs/Lainaus/varauksiapernide.PNG)
 
-Ohjelma ehdottaa lisää tilattavien niteiden määräärän, jotta ehto täyttyisi.
+Ohjelma ehdottaa lisää tilattavien niteiden määrän, jotta ehto täyttyisi.
 
 ![](/assets/files/docs/Lainaus/pernide.PNG)
 
@@ -706,7 +706,7 @@ kirjastoosi.
 
 Varoitus: Tämä raportti vaatii paljon järjestelmäresursseja, jos tietokannassa on paljon myöhässä olevia lainoja.
 
-Koska raportti voi viedä paljon resursseja, raportti kannattaa määritellä suodattimella mahdollisimman tarkasti. 
+Koska raportti voi viedä paljon resursseja, raportti kannattaa suodattaa mahdollisimman tarkasti. 
 
 ![](/assets/files/docs/Lainaus/myöhässä.PNG)
 
@@ -728,7 +728,7 @@ Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilante
 
 2.  **Koha Offline Circulation Tool** (KOCT), joka on Firefox-selaimen lisäosa.
 
-Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. 
+Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. <br/>
 **Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
 
 ### 2.19.1. Offline lainausohjelma Windowsille (KOC)
@@ -739,7 +739,7 @@ Kirjaudu Kohaan ja lataa työpöytäsovellus. Latauslinkin löydät Lainaus ja P
 
 Linkki menee nettisivulle, josta ohjelma ladataan. 
 
-Valitse KohaOfflineCirculation_Installer_1_3.exe
+Valitse *KohaOfflineCirculation_Installer_1_3.exe*.
 
 ![](/assets/files/docs/Lainaus/OfflineKOC2.PNG)   
 
@@ -851,7 +851,7 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 ![](/assets/files/docs/Lainaus/OfflineKOCkäsittelyäodottavat.PNG)
 
-- Saat listan lainoista, jotka pitää "käsitellä" (siirtää) tietokantaan. *Poista*-toiminnolla voit poistaa listalta lainat, joita et halua siirtää. *Valitse kaikki" -toiminnolla saat valittua siirrettävät lainat. Klikkaa lopuksi *Käsittele*. 
+- Saat listan lainoista, jotka pitää "käsitellä" (siirtää) tietokantaan. *Poista*-toiminnolla voit poistaa listalta lainat, joita et halua siirtää. *Valitse kaikki* -toiminnolla saat valittua siirrettävät lainat. Klikkaa lopuksi *Käsittele*. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOCvalitselainat.PNG)
 
@@ -859,7 +859,7 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 ![](/assets/files/docs/Lainaus/OfflineKOClähetetyt.PNG)
 
-Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja mahdollisesti käsitellä manuaalisesti.
+Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä, eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja mahdollisesti käsitellä manuaalisesti.
 
 
 ## 2.19.1.3 Lähetettyjen tiedostojen poistaminen
@@ -882,10 +882,11 @@ Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Li
 
 ## 2.19.2.1 Selaimen lisäosan asennus
 
-Kirjaudu Kohaan ja lataa Firefox-selaimen lisäosa KOCT Lainaus ja Palautus -sivulta. 
+Kirjaudu Kohaan ja lataa Firefoxin lisäosa Lainaus ja Palautus -sivulta linkistä *Lataa Firefox-selaimen lisäosa*. 
 
 ![](/assets/files/docs/Lainaus/KOCTlisäosa.PNG)
 
+Linkki vie nettisivulle, josta lisäosan voi ladata. <br/>
 Lataa lisäosa toiminnolla *Lisää Firefoxiin*.
 
 ![](/assets/files/docs/Lainaus/KOCTlataus.PNG)
@@ -894,7 +895,7 @@ Ohjelma varmistaa lisätäänkö Koha Offline Circulation Tool? Valitse *Lisää
 
 ![](/assets/files/docs/Lainaus/KOCTlataus2.PNG)
 
-Lisäosan kuvake näkyy selaimen oikeassa yläkulmassa.
+Lisäosan kuvake tulee näkyviin selaimen oikeaan yläkulmaan.
 
 ![](/assets/files/docs/Lainaus/KOCTkuvake.PNG)
 
@@ -927,7 +928,7 @@ Nyt laajennuksen perusnäytön pitäisi näyttää tältä:
 ## 2.19.2.3 Lainaaminen KOCT-lisäosalla
 
 Avaa KOCT-lisäosa selaimen oikessa yläkulmassa näkyästä pikakuvkkeesta.
-Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnukset Item barcode -kentään. Lainat kirjautuvat automaattisesti Transaction-kohdan alla olevaan taulukkoon. Kun kaikki asiakkaan lainat on luettu, valitse *Clear cardnumber*.
+Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnus Item barcode -kentään. Lainat kirjautuvat automaattisesti Transaction-kohdan alla olevaan taulukkoon. Kun kaikki asiakkaan lainat on luettu, valitse *Clear cardnumber*.
 
 ![](/assets/files/docs/Lainaus/KOCTlainaus.PNG)
 
