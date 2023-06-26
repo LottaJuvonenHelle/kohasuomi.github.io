@@ -146,7 +146,7 @@ Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
 ![](/assets/files/docs/Lainaus/rajoite1.PNG)
 
-### 2.2.2.1
+### 2.2.2.1 Rajoitteen poistaminen
 
 Rajoitteen voit poistaa asiakkaalta *Poista*-toiminnolla.
 
