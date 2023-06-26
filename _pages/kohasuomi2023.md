@@ -16,6 +16,16 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ## Viikon 26 muistiot
 ### Maanantai 26.6.2023 klo 10
 
+Läsnä: Emmi, Kodo, Lasse
+
+* Deleted-taulujen aikaleimojen korjauksia ohjelmassa tänään.
+
+* Lapin korjaus sovittu tehtäväksi 4.7. kello 8 aamulla.
+
+* Kuntasovelluksesta keskusteltu nykyään Koha-Suomen hallituksessa istuvan Tiia Häsän kanssa. Pidetään asiasta palaveri Hionin kanssa elokuussa kesälomien jälkeen.
+
+* Kirkes-data on saatu kantaan poistamalla ongelmia aiheuttaneet niteet. Osalla niteistä kuvailutietueen id ei vastaa Aurorassa 001-kentässä olevaa tietue-id:tä. Tämä korjattiin tällä konversiokierroksella tarkistamalla kaikkien niteiden kuvailutietue-id:t ja poistamalla käsin ongelmaniteet. Dumppien toistuvista virheilyistä reklamoitu Axiellia, joka kuitenkin ehtii selvittelemään ongelmia vasta heinäkuun puolella. Tutkimukset täällä meidän päässä jatkuvat.
+
 ## Viikon 25 muistiot
 ### Torstai 22.6.2023 klo 10
 
@@ -23,6 +33,25 @@ Läsnä: Lasse, Emmi, Kodo, Lari, Ari
 
 * Viikon 26 päivitys
   * [Vanhenemispäivä jää puuttumaan varaukselta, jolta perutaan odottaa tai kuljetettavana -tila #650](https://github.com/KohaSuomi/Koha/issues/650)
+
+* Deleteditems ja deletedbiblioitems taulujen biblioitemnumberit oikaistu muualla paitsi Lapissa, jossa oikaisu vaatii hieman erilaista lähestymistapaa.
+
+* Deleted* -taulujen päivityksessä taulujen timestampit muuttuivat, joka voi aiheuttaa poistotilastoihin virheitä.
+  * Korjataan deletedbiblioitemsien timestamp vastaamaan vastaavan deletedbiblion timestamppia.
+  * Korjataan deleteditemsin timestamp vastamaamaan datelastseeniä, jotta virheelliset timestampit eivät sotke tämän kuun tilastoja (datelastseen lienee vähiten väärä käytettävissä oleva tieto)
+
+* Deleteditems-tauluun on uutuutena tullut deleted_on -kenttä, mutta se on toistaiseksi suurimmalla osalla tietueita tyhjä
+  * Ajetaan deleted_on kentään tietueen timestamp ja muutetaan tilastointia niin että tietueen poistoajankohdan määrittelyyn käytetään ensisijaisesti deleted_on -kenttää. Tämä poistaa jatkossa timestamppien muuttumiseen liittyvät ongelmat tauluja päivitettäessä.
+
+* Lapin korjaus on hahmoteltu tiketissä #606.
+
+* Korjausta ei ole vielä lisätty re-align -skriptiin, sen toteutus täytyy miettiä erikseen.
+
+* Siilinjärven, Haminan ja Varkauden kuntasovelluksesta keskusteltu ohjelmistotoimittajan (Hion) kanssa.
+  * Keskustelu jatkuu edelleen, pyritään pitämään tästä tekninen palaveri mahdollisimman pian.
+  * Toteutettuna on käytännössä Finnan kanssa rinnakkainen, mutta toiminnoiltaan huomattavan riisuttu kuntakohtainen verkkokirjastototeutus.
+  * Kodon testauksissa esimerkiksi kirjastokortin liittäminen Haminan sovellukseen ei onnistunut, vaan tuloksena on "Virhe, tarkista kentät ja yritä uudelleen."
+  * Sovelluksen haku tuntuu palauttelevan vähän mitä sattuu ja teoksista esitettävät tiedot ovat erittäin suppeat. Esimerkiksi osakohteiden emot kyllä tuntuvat tarttuvan hakuun, mutta teostiedoissa ei ole mitään mainintaa osakohteista. Muutenkin tietojen suppeuden vuoksi on hyvin hankala hahmottaa mikä tietueessa tarkalleen ottaen vastasi hakua. Usein vastaavuutta ei näyttäisi olevan lainkaan, Esimerkiksi "Siiri ja Hurja Hunskeli" tuskin vastaa millään tavalla hakua "Totalimmortal". Hakutuloksia tuntuu saavan hieman vaihtelevasti ja sama haku palauttaa eri hakukerroilla tuloksia. Teoksen tekijänä näkyy usein toimitetuissa teoksissa teoksen toimittaja, joka ei ole tekijä jne.
 
 ### Maanantai 19.6.2023 klo 10
 
@@ -33,10 +62,14 @@ Läsnä: Lasse, Emmi, Kodo, Lari
   * Tietueen niteiden järjestäminen lehtinumeroinnin mukaan [#544](https://github.com/KohaSuomi/Koha/issues/544)
   * Asiakastaulukon sarakkeiden piilotus Varauksenteko-sivulla [#571](https://github.com/KohaSuomi/Koha/issues/571)
   * Taustatöiden siivousskripti päivittäin ajettavaksi [#618](https://github.com/KohaSuomi/Koha/issues/618)
+
 * [deleted-tauluissa biblioitemnumberin ja biblionumberin epäsynkka #606](https://github.com/KohaSuomi/Koha/issues/606)
   * Kodo lisää deleted-taulujen korjauksen realign-skriptiin
+
 * Ceepos-ongelma ratkaistu
+  
 * Kohan oma lokitus puutteellista, Kodo tutkii
+
 * Parilta kimpalta vielä tekemättä ajo jolla kopioidaan asiakkaan puhelinnumero smsalertnumberista mobileen
 
 ## Viikon 24 muistiot
