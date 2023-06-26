@@ -146,7 +146,9 @@ Asiakkaan Tiedot ja Lainaus -näytöillä rajoitus näkyy näin:
   
 ![](/assets/files/docs/Lainaus/rajoite1.PNG)
 
-### 2.2.2.1 Rajoitteen poistaminen
+### 2.2.2.1 [Rajoite liiallisista kirjautumisyrityksistä](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151014-rajoite-liiallisista-kirjautumisyrityksist%C3%A4)
+
+### 2.2.2.2 Rajoitteen poistaminen
 
 Rajoitteen voit poistaa asiakkaalta *Poista*-toiminnolla.
 
@@ -183,7 +185,7 @@ Huomautus poistuu, kun asiakastietojen muokkausnäytöllä kohdassa
 “Ei” ja tallennat asiakastiedot.
 
 ### 2.2.5 [Tili lukittu](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151013-tili-lukittu)
-### 2.2.6 [Rajoite liiallisista kirjautumisyrityksistä](https://koha-suomi.fi/dokumentaatio/asiakkaat/#151014-rajoite-liiallisista-kirjautumisyrityksist%C3%A4)
+
 ---
 
 ## 2.3 Lainauksen viestit ja huomautukset
