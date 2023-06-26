@@ -50,7 +50,6 @@ Lue lainattavan niteen viivakoodi nidekenttään.
   ![](/assets/files/docs/Lainaus/lainausviesti6.PNG)
 
  - Tarkista niteen viivakoodi, onko se oikein.
- - Ohjelma voi ehdottaa pikaluettelointia, jos se on kimpassasi käytössä.
 
 **Lainausasetukset**
 
@@ -212,8 +211,8 @@ lainaamisen jatkamista.
   aineiston, valitse *Poista varaus* ja klikkaa *Kyllä, lainaa
   (Y)*. Varaus poistuu alkuperäiseltä varaajalta.
 - Jos valitset vaihtoehdon *Peruuta odottava-tila* ja klikkaat *Kyllä, lainaa
-  (Y)*, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi. Muista käydä lisäämässä varaukselle viimeinen voimassaolopäivämäärä teoksen Varaukset-sivulla Vanhenee-päivämäärä -kenttään.
-
+  (Y)*, alkuperäisen varaajan noutoa odottanut varaus muuttuu takaisin voimassaolevaksi.
+  
 ### 2.3.4 Nide on jo lainassa tällä asiakkaalla.
 
 ![](/assets/files/docs/Lainaus/lainhuom4.PNG)
@@ -238,8 +237,7 @@ lainaamisen jatkamista.
 
 ![](/assets/files/docs/Lainaus/lainhuom7.png)
 
-- Pikaluettelointi on mahdollista, jos se on sallittu
-  järjestelmäasetuksissa. Välttämättä se ei ole päällä kimppasi kirjastossa.
+- Tarkista niteen viivakoodi, onko se oikein.
 
 ### 2.3.9 Lainattava nide on merkitty kadonneeksi.
 
@@ -296,7 +294,7 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
 ![](/assets/files/docs/Lainaus/uusinta.png)
 
 - Uusinta-sarakkeesta näet, kuinka monta kertaa laina on uusittu. 
-  Valitse uusittavat lainat ruksaamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta *Uusi tai palauta
+  Valitse uusittavat lainat ruksittamalla uusinnan valintaruutu uusittavan niteen kohdalla ja klikkaa näytön alareunasta painiketta *Uusi tai palauta
   valitut niteet* tai jos uusit kaikki lainat, klikkaa *Uusi
   kaikki* -painiketta.
   
@@ -307,7 +305,7 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
 - Jos kimpassa on käytössä asetus, joka estää uusimisen samana päivänä
   uudestaan, tulee huomautus “Ei uusintaa ennen…”. Lainan voi uusia
   uudelleen kyseisen päivämäärän ja kellonajan jälkeen. Huomautus
-  tulee, kun päivittää Lainassa-välilehden tai käy välillä toisella
+  tulee, kun päivität Lainassa-välilehden tai käyt välillä toisella
   sivulla.  
   ![](/assets/files/docs/Lainaus/uusinta6.PNG)
   
@@ -319,7 +317,7 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
 #### 2.4.1.2 Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
 
 - Huomio kirjastosi käyttösäännöt. Jos kirjaston käyttösäännöt edellyttävät kirjastokorttia
-  uusintatilanteessa, tätä toimintoa ei saa silloin 
+  uusintatilanteessa, tätä toimintoa ei tule silloin 
   käyttää.
 
 ![](/assets/files/docs/Lainaus/uusinta1.PNG)
@@ -341,6 +339,8 @@ Jos viivakoodia ei löydy, saat ilmoituksen.
 
 ![](/assets/files/docs/Lainaus/uusinta4.PNG)
 
+ - Tarkista niteen viivakoodi, onko se oikein.
+
 ---
 
 ## 2.5 Asiakkaan varaukset
@@ -358,7 +358,7 @@ ovat sallittu järjestelmäasetuksissa.
 
 Voit asettaa asiakkaalle rajoituksen, joka estää lainaamisen ja uusimisen. 
 
-Rajoituksen voit lisätä Rajoitukset-välilehdellä tai asiakastietojen muokkausnäytöllä
+Rajoituksen voit lisätä Rajoitukset-välilehdellä tai asiakastietojen muokkausnäytöllä:
 
 [Asiakkaalla on rajoitus](https://koha-suomi.fi/dokumentaatio/lainaus/#222-asiakkaalla-on-rajoitus-lainauskielto)
 
@@ -370,7 +370,7 @@ Voit tallentaa asiakastietojen muokkausnäytöllä asiakkaalle huomautuksia, jot
 
 ### 2.6.3 Viestit asiakastiedoissa
 
-Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus ja Tiedot -sivuilla
+Voit lisätä asiakkaalle lyhyitä viestejä, jotka näkyvät asiakkaan Lainaus ja Tiedot -sivuilla.
 Viestin voit lisätä joko toimintapainikkeesta **Lisää viesti** tai linkistä **+Lisää uusi viesti**.
 
 [Lisää viesti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#156-lis%C3%A4%C3%A4-viesti)
@@ -491,6 +491,7 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 ![](/assets/files/docs/Lainaus/palautusviesti13.PNG)
 
 - Kun palautat varatun niteen, tulostuu varauksen kuljetuskuitti heti automaattisesti.
+- Nide menee kuljetustilaan kirjastoon, missä on varauksen noutopaikka.
 
 
 ### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
@@ -516,7 +517,7 @@ Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 
 ### 2.7.3 Palautusilmoitukset
 
-Jos kimpassasi on käytössä *Palautusilmoitukset*, toiminto näkyy asiakkaan Lainat-välilehdellä. Jos *Palautusilmoitukset* eivät näy, saat ne näkyville Sarakkeen näkyvyys -valikosta. Toimintoa voit käyttää tilanteissa, kun asiakas ilmoittaa palauttaneensa lainan, joka näkyy vielä hänen lainoissaan. 
+Jos kimpassasi on käytössä *Palautusilmoitukset*, toiminto näkyy asiakkaan Lainat-välilehdellä. Jos *Palautusilmoitukset* eivät näy, saat sen näkyville Sarakkeet -valikosta. Toimintoa voit käyttää tilanteissa, kun asiakas ilmoittaa palauttaneensa lainan, joka näkyy vielä hänen lainoissaan. 
 
 Klikkaa toimintoa *Ilmoitettu palautetuksi* ko. lainan kohdalla
 
