@@ -13,6 +13,9 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 26 muistiot
+### Maanantai 26.6.2023 klo 10
+
 ## Viikon 25 muistiot
 ### Torstai 22.6.2023 klo 10
 
