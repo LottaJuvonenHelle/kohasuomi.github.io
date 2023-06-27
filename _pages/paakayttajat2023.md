@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 26 muistio
 Aika: 27.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara)
 
 **Yhteiset asiat:**
 
@@ -21,6 +21,12 @@ Pohjoisesta etelään
 **Lappi**
 * Tiketti 623 vielä korjaamatta
 * Rauhallista, ei kummempia tapahtumia
+
+**Vaara**
+* Enon kirjaston remonttisulku tehty maanantaiaamuna
+* Tiketti https://github.com/KohaSuomi/Koha/issues/252 Kielikoodien fasetissa olevata ongelmasta |||-merkkien kanssa. Lasse on tehnyt raportin, jolla saa haettua näitä koodeja sisältäviä nimekkeitä, mutta koska fasetin pitäisi toimia myös tuon sinänsä formaatin mukaisen koodin kanssa, tehdään siitä tiketti Bugzillaan.
+
+  
   
 ## Viikko 25 muistio
 Aika: 20.6.2023 klo 9.15 <br />
