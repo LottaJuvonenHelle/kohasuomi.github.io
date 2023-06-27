@@ -316,7 +316,7 @@ Huom! Jos asiakkaalla on sallittujen maksujen raja ylittynyt, ohjelma ei huomaut
   niteet Palutus-sarakkeesta ja klikkaamalla näytön alareunasta
   painiketta *Uusi tai palauta valitut niteet*.
   
-#### 2.4.1.2 Uusinta Lainaus ja palautus -sivun Uusinta-linkistä.
+#### 2.4.1.2 Uusinta-toiminto Lainaus ja palautus -sivulla
 
 - Huomio kirjastosi käyttösäännöt. Jos kirjaston käyttösäännöt edellyttävät kirjastokorttia
   uusintatilanteessa, tätä toimintoa ei tule silloin 
@@ -378,7 +378,7 @@ Viestin voit lisätä joko toimintapainikkeesta **Lisää viesti** tai linkistä
 [Lisää viesti](https://koha-suomi.fi/dokumentaatio/asiakkaat/#156-lis%C3%A4%C3%A4-viesti)
 
 
-### 2.6.3 Vanhentunut asiakastieto
+### 2.6.4 Vanhentunut asiakastieto
 
 Jos asiakastiedot vaativat määräaikaistarkistuksen (parametreissä
 määritelty), näyttöön tulee ilmoitus:
@@ -427,7 +427,7 @@ Voit poistaa varauksen tällä sivulla ilman, että asaikkaalle tulee noutamatto
 
 ### 2.7.2 Palautuksen viestit
 
-### 2.7.2.1 Toisen kirjaston aineiston palautus
+#### 2.7.2.1 Toisen kirjaston aineiston palautus
 
 Jos olet palauttamassa jonkun muun kirjaston aineistoa, saat viestin,
 jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
@@ -440,7 +440,7 @@ jossa ilmoitetaan mihin kirjastoon nide pitää kuljettaa.
 - Nide pitää palauttaa vielä kotikirjastossa, jotta sen tilaksi muuttuu
   Saatavana-tila.
 
-### 2.7.2.2 Useita osia sisältävän niteen palautus
+#### 2.7.2.2 Useita osia sisältävän niteen palautus
 
 Jos palautat niteen, joka sisältää useita osia ja tieto osista on
 tallennettu niteen tietoihin kenttään 3 (Liitteiden määrä), saat
@@ -448,7 +448,7 @@ ilmoituksen, jossa kerrotaan montako osaa nide sisältää.
 ![](/assets/files/docs/Lainaus/palautusviesti9.PNG)
 
 
-### 2.7.2.3 Varatun niteen palautus
+#### 2.7.2.3 Varatun niteen palautus
 
 Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja kuljetuskuitti automaattisesti vai pitääkö virkailijan vahvistaa kuitin tulostaminen. 
 
@@ -475,7 +475,7 @@ Järjestelmäasetuksissa voidaan määritellä, tulostetaanko varauksen info- ja
 - Jos palautat niteen toisen kerran, ohjelma vaatii manuaalisen varausilmoituksen kuittauksen.
 
 
-### 2.7.2.4 Varaus toisessa kirjastossa
+#### 2.7.2.4 Varaus toisessa kirjastossa
 
 Jos palautat niteen, josta on varaus jossain toisessa kirjastossa, saat
 ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
@@ -496,21 +496,21 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 - Nide menee kuljetustilaan kirjastoon, missä on varauksen noutopaikka.
 
 
-### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
+#### 2.7.2.5 Asiakkaan maksut palautusnäytöllä
 
 Jos järjestelmä on asetettu näyttämään maksut palautuksen yhteydessä,
 saat keltapohjaisen ilmoituksen asiakkaan maksuista. *Maksa*-linkistä pääset suoraan asiakkaan maksuihin.
 ![](/assets/files/docs/Lainaus/palautusviesti7.png)
 
 
-### 2.7.2.6 Kadonneeksi merkityn niteen palauttaminen
+#### 2.7.2.6 Kadonneeksi merkityn niteen palauttaminen
 
 Jos palautat kadonneeksi merkityn niteen, saat seuraavan ilmoituksen:  
 ![](/assets/files/docs/Lainaus/palautusviesti8.PNG)
 - Kadonnut-tila poistuu niteeltä automaattisesti palautuksen yhteydessä, jos järjestelmäasetuksiin on näin määritelty. 
 
 
-### 2.7.2.7 Laskutetun niteen palauttaminen
+#### 2.7.2.7 Laskutetun niteen palauttaminen
 
 Jos palautat niteen, joka on laskutettu, saat seuraavan ilmoituksen:
 ![](/assets/files/docs/Lainaus/palautusviesti12.PNG)
@@ -790,7 +790,7 @@ Voit kiinnittää ohjelman pikakuvakkeen tehtäväpalkkiin "Käynnistä"-valikos
 Jos tehtäväpalkin väri on musta, voit vaihtaa palkin väriä, jolloin logo näkyy paremmin.
 
 
-## 2.19.1.1 Offline lainausohjelmalla lainaaminen
+#### 2.19.1.1 Offline lainausohjelmalla lainaaminen
 
 Kun klikkaat ohjelman auki, se on valmis käyttöön.
 Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja eli asiakastunnuksen, lainattavan niteen tunnuksen ja OK-painikkeen.
@@ -814,7 +814,7 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
 **Huom! Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedostonnimen ja sijainnin vaikka paperille ylös.**
 
 
-## 2.19.1.2 Lainatietojen lähettäminen tietokantaan
+#### 2.19.1.2 Lainatietojen lähettäminen tietokantaan
 
 **Lähetä lainat tietokantaan heti, kun Koha taas toimii.** Jos lähetät lainat tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
@@ -864,7 +864,7 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä, eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja mahdollisesti käsitellä manuaalisesti.
 
 
-## 2.19.1.3 Lähetettyjen tiedostojen poistaminen
+#### 2.19.1.3 Lähetettyjen tiedostojen poistaminen
 
 Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa koneelta lopullisesti.
 1. Hae tiedosto(t), johon tallensit lainat.
@@ -876,13 +876,13 @@ Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa 
 **Huom! Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahigossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.**
 
 
-## 2.19.2 Koha Offline Circulation Tool (KOCT)
+### 2.19.2 Koha Offline Circulation Tool (KOCT)
 
 Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen. <br/>
 **Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
 
 
-## 2.19.2.1 Selaimen lisäosan asennus
+#### 2.19.2.1 Selaimen lisäosan asennus
 
 Kirjaudu Kohaan ja lataa Firefoxin lisäosa Lainaus ja Palautus -sivulta linkistä *Lataa Firefox-selaimen lisäosa*. 
 
@@ -902,7 +902,7 @@ Lisäosan kuvake tulee näkyviin selaimen oikeaan yläkulmaan.
 ![](/assets/files/docs/Lainaus/KOCTkuvake.PNG)
 
 
-## 2.19.2.2 KOCT-lisäosan käytön aloitus
+#### 2.19.2.2 KOCT-lisäosan käytön aloitus
 
 Avaa lisäosa selaimen oikessa yläkulmassa näkyästä pikakuvkkeesta.
 Mene asetuksiin "settings page"-linkistä.
@@ -927,7 +927,7 @@ Nyt laajennuksen perusnäytön pitäisi näyttää tältä:
 **Huom! Kun lopetat KOCT-lisäosan käytön, muista tyhjentää kohdasta "Configuration page" omat tiedot kohdista Username ja Password. Jokainen käyttäjä tallentaa omat tunnukset ohjelmalle. Kohtia Server ja Branchcode ei tarvitse muuttaa, kun käyttäjä vaihtuu.
 
 
-## 2.19.2.3 Lainaaminen KOCT-lisäosalla
+#### 2.19.2.3 Lainaaminen KOCT-lisäosalla
 
 Avaa KOCT-lisäosa selaimen oikessa yläkulmassa näkyästä pikakuvkkeesta.
 Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnus Item barcode -kentään. Lainat kirjautuvat automaattisesti Transaction-kohdan alla olevaan taulukkoon. Kun kaikki asiakkaan lainat on luettu, valitse *Clear cardnumber*.
@@ -941,7 +941,7 @@ Lue asiakastunnus Patron barcode -kenttään ja lainattavan niteen tunnus Item b
 *Clear* - tyhjentää lainatut lainat (ohjelma varoittaa lainoista, joita ei ole viety Kohaan).
 *Clear added* - tyhjentää lainatut lainat (ei varoita lainoista, joita ei ole viety Kohaan).
 
-## 2.19.2.4 Palauttaminen KOCT-lisäosalla (ei suositella)
+#### 2.19.2.4 Palauttaminen KOCT-lisäosalla (ei suositella)
 
 Lue palautettavan lainan nidetunnus kohtaan "Item barcode". Palautettavan niteen tieto siirtyy taulukkoon. Jos palautat lainoja KOCT:lla, ne on palautettava uudelleen Kohassa, kun se taas toimii.
 
