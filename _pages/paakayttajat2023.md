@@ -33,7 +33,7 @@ Pohjoisesta etelään
 * Oulun hankinnasta tuli palautetta, että taas olisi alkanut tulla tuplatietueita tilausvaiheessa. Esimerkkitapauksessa tilaukset olivat eri kirjastoille. Tietueista ei löytynyt mitään eroa. Tarkistin molemmat tilaukset ja tämä oli ainut, josta löysin tuplatietueen. Tiketti: https://github.com/KohaSuomi/Koha/issues/666
 
 **Helle**
-* Kohaan kirjautumisen määrityksissä oli käytössä script-tagi. Kehittäjä Emmi Takkiselta uudet määrittelyt kirjautumiseen ilman script-tagia.
+* Kohaan kirjautumisen sisällön määrityksissä oli käytössä script-tagi. Kehittäjä Emmi Takkiselta uudet määrittelyt kirjautumiseen ilman script-tagia.
   
   
 ## Viikko 25 muistio
