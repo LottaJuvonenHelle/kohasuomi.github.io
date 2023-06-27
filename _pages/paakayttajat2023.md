@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 26 muistio
 Aika: 27.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kodo
 
 **Yhteiset asiat:**
 * https://github.com/KohaSuomi/Koha/issues/606
@@ -28,6 +28,9 @@ Pohjoisesta etelään
 * Enon kirjaston remonttisulku tehty maanantaiaamuna
 * Tiketti https://github.com/KohaSuomi/Koha/issues/252 Kielikoodien fasetissa olevasta ongelmasta putkimerkkien kanssa. Lasse on tehnyt raportin, jolla saa haettua näitä koodeja sisältäviä nimekkeitä, mutta koska fasetin pitäisi toimia myös tuon sinänsä formaatin mukaisen koodin kanssa, tehdään siitä tiketti Bugzillaan.
 
+**OUTI**
+* Koha on antanut Oulussa pari kertaa Ceeposissa maksetun maksun jälkeen ilmoituksen ”Something went wrong, check the logs!” Yhteistä maksuille on ollut se, että molemmista maksuista puuttuu maksuriveiltä/osalta maksuriveistä maksun id-numero. Ei liity versiopäivitykseen, koska toinen maksutapahtumista oli tullut jo ennen versiopäivitystä. Tiketti: https://github.com/KohaSuomi/Koha/issues/665
+* Oulun hankinnasta tuli palautetta, että taas olisi alkanut tulla tuplatietueita tilausvaiheessa. Esimerkkitapauksessa tilaukset olivat eri kirjastoille. Tietueista ei löytynyt mitään eroa. Tarkistin molemmat tilaukset ja tämä oli ainut, josta löysin tuplatietueen. Tiketti: https://github.com/KohaSuomi/Koha/issues/666
   
   
 ## Viikko 25 muistio
