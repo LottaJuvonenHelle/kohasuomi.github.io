@@ -12,12 +12,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 26 muistio
 Aika: 27.6.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Leena Kinnunen (Lappi)
 
 **Yhteiset asiat:**
 
 Pohjoisesta etelään
 
+**Lappi**
+* Tiketti 623 vielä korjaamatta
+* Rauhallista, ei kummempia tapahtumia
+  
 ## Viikko 25 muistio
 Aika: 20.6.2023 klo 9.15 <br />
 Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Lari
