@@ -15,6 +15,8 @@ Aika: 27.6.2023 klo 9.15 <br />
 Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat:**
+* https://github.com/KohaSuomi/Koha/issues/606
+  Kodo on oikaissut epäsynkan kaikilta muilta kimpoilta paitsi Lapilta. Lapin korjaus tehdään 4.7.
 
 Pohjoisesta etelään
 
