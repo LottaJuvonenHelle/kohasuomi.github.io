@@ -24,7 +24,7 @@ Pohjoisesta etelään
 
 **Vaara**
 * Enon kirjaston remonttisulku tehty maanantaiaamuna
-* Tiketti https://github.com/KohaSuomi/Koha/issues/252 Kielikoodien fasetissa olevata ongelmasta putkimerkkien kanssa. Lasse on tehnyt raportin, jolla saa haettua näitä koodeja sisältäviä nimekkeitä, mutta koska fasetin pitäisi toimia myös tuon sinänsä formaatin mukaisen koodin kanssa, tehdään siitä tiketti Bugzillaan.
+* Tiketti https://github.com/KohaSuomi/Koha/issues/252 Kielikoodien fasetissa olevasta ongelmasta putkimerkkien kanssa. Lasse on tehnyt raportin, jolla saa haettua näitä koodeja sisältäviä nimekkeitä, mutta koska fasetin pitäisi toimia myös tuon sinänsä formaatin mukaisen koodin kanssa, tehdään siitä tiketti Bugzillaan.
 
   
   
