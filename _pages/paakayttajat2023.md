@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 26 muistio
 Aika: 27.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kodo, Kati sillgren (Helle)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kodo, Kati Sillgren (Helle)
 
 **Yhteiset asiat:**
 * https://github.com/KohaSuomi/Koha/issues/606
