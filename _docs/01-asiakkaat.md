@@ -363,7 +363,7 @@ Lasketa mukaan tilastoihin.
 
 Asiakastietojen yläreunassa olevilla painikkeilla pääset muokkaamaan asiakastietoja, lisäämään asiakkaalle huollettavan, 
 vaihtamaan salasanan, kopioimaan asiakkaan tiedot, tulostamaan asiakkaan haluamia kuitteja asiakaspalvelutilanteessa mm. Tänään lainatut-kuitin, 
-tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa ja lisäämään asiakastietoihin viestin. Harvemmin tarvittavia muokkaustoimintoja löytyy Muita toimintoja-alasvetovalikosta, joista tarkemmin kohdassa https://koha-suomi.fi/dokumentaatio/asiakkaat/#157-muita-toimintoja--alasvetovalikko
+tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa ja lisäämään asiakastietoihin viestin. Harvemmin tarvittavia muokkaustoimintoja löytyy Muita toimintoja-alasvetovalikosta, joista tarkemmin kohdassa [1.5.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#157-muita-toimintoja--alasvetovalikko)
 
 ### 1.5.1. Lisää huollettava
 
