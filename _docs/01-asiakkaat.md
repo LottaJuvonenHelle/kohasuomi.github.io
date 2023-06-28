@@ -25,10 +25,6 @@ saat lisää hakuominaisuuksia käyttöösi. Alasvetovalikoista saat lisää hak
 Samat hakuominaisuudet aukeavat automaattisesti Asiakkaat-sivun vasempaan laitaan. 
 Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
 
-Huom. Laajan asiakashaun voit tehdä myös ilman siirtymistä Asiakkaat-sivulle, kun klikkaat yläosan palkissa 
-kohtaa Hae asiakkaita ja avaat valikko-kuvakkeesta hakukentät esille.
-
-
 \- Perushaku:  
 Anna asiakkaan nimi tai nimen osa, käyttäjätunnus, kirjastokortin
 viivakoodi, varaustunniste tai varaustunnisteen osa. Antaessasi nimen tai osan nimestä tai varaustunnisteesta
@@ -74,7 +70,7 @@ numeroa 0442676200 voit kirjoittaa sen juuri samalla tavalla tai
 muodossa 044 267 6200.
 
 
-Voit valita jokaisessa haussa hakutyypin alkaa tai sisältää.
+Voit valita jokaisessa haussa hakutyypin _alkaa_ tai _sisältää_.
 Valinta _sisältää_ toimii vapaasanahaun kaltaisesti eli haettu merkkijono
 voi olla missä tahansa kohdassa hakukentässä.
 
@@ -85,23 +81,27 @@ linkkinä olevien kirjainten mukaan.
 
 ![](/assets/files/docs/Asiakkaat/aastaoohon.png)
 
+Huom. Laajan asiakashaun voit tehdä myös muilla kuin Asiakkaat-sivuilla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.
+Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.{: .notice--warning}
+
 ## 1.2. Lisää uusi asiakas
 
 Asiakkaat lisätään menemällä Asiakkaat-välilehdelle.
 
-![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas1.png)
+<img src="/assets/files/docs/Asiakkaat/Lisaauusiasiakas1.png" alt="" style="width:50.0%" />
 
-Sivulla on alasvetovalikkovaihtoehdot: +Uusi asiakas ja +Asiakkaan pikalisäys. Huom. Kaikissa kimpoissa ei ole Asiakkaan pikalisäys-vaihtoehtoa käytössä, joten valitse kimppasi ohjeistama asiakkaan lisäystapa.
+Sivulla on alasvetovalikkovaihtoehdot: **Uusi asiakas** ja **Asiakkaan pikalisäys**. 
+Huom. Kaikissa kimpoissa ei ole _Asiakkaan pikalisäys_-vaihtoehtoa käytössä, joten valitse kimppasi ohjeistama asiakkaan lisäystapa.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas2.png)
 
-Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset asiakkaan tyypin.
+Klikkaa _Uusi asiakas_, saat alasvetovalikon, josta valitset _asiakastyypin_.
 
 ![](/assets/files/docs/Asiakkaat/Lisaauusiasiakas3.png)
 
 ### 1.2.1. Henkilötunnus ja Sotuteekki
 
-Kohaan on tehty Suomessa ominaisuus, Sotuteekki, jonne tallennetaan
+Kohaan on tehty Suomessa ominaisuus, **Sotuteekki**, jonne tallennetaan
 tietoturvallisesti asiakkaiden henkilötunnukset. Sotuteekki on yhteinen kaikille Koha-kimpoille.
 
 Oheisissa ruutukaappauksissa käytetty sotu on tehty
@@ -110,13 +110,13 @@ tunnus, mutta täyttää tunnuksen ominaisuudet tarkistusmerkkiä myöten.
 Sotu-avaimella muodossa “sotuxxxx” voi hakea asiakkaan tiedot esille,
 mutta henkilötunnus ei näy.
 
-Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus.
+Syötä _Lisää hetu_-kohtaan asiakkaan henkilötunnus. Klikkaa _Tallenna_.
 
 ![](/assets/files/docs/Asiakkaat/Lisaahetu.png)
 
 
 \- Jos henkilötunnusta ei ole ennestään Sotuteekissä, siitä tulee ilmoitus
-"Hetu tallennettu!".
+"Hetu tallennettu!". 
 
 ![](/assets/files/docs/Asiakkaat/Hetutallennettu1.png)
 
@@ -126,10 +126,12 @@ Sosiaaliturvatunnus/Henkilötunnus/Sotu-avain/Hetu-avain
 
 ![](/assets/files/docs/Asiakkaat/Sotuavain.png)
 
-\- Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti asiakasrekisteristä löytyykö 
+Voit jatkaa uuden asiakkaan tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
+
+\- Jos syötetty henkilötunnus on jo Sotuteekissa, järjestelmä tutkii automaattisesti kimppasi asiakasrekisteristä löytyykö 
 henkilötunnuksen sotu-avaimella asiakastietoja.
 
-Jos tietoja ei löydy asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
+Jos tietoja ei löydy kimpan asiakasrekisteristä, niin käyttäjälle tulee ilmoitus “Hetu asetettu!". Jatka tuolloin uuden asiakkaan
 tallentamista käyttäen Sotuteekin antamaa sotu-avainta.
 
 ![](/assets/files/docs/Asiakkaat/Hetuasetettu.png)
@@ -150,8 +152,6 @@ sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 Sotuteekistä tarkemmin Kohan ohje suomeksi -ohjeen
 kohdassa [12.16.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12163-sotuteekki)
 
----
-
 ### 1.2.2. Nimi, syntymäaika ja varaustunnus
 
 Syötä asiakkaan koko nimi ja syntymäaika. Varaustunniste täyttyy automaattisesti. Huomaathan,
@@ -159,10 +159,12 @@ että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät 
 
 ![](/assets/files/docs/Asiakkaat/Varaustunnus1.png)
 
-Asiakaslajeihin on määritetty ikärajoituksia. Ohjelma tarkistaa
-syntymäajan mukaan, voiko asiakas kuulua asiakaslajiin, johon
-häntä ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:  
+Asiakastyyppeihin on määritetty ikärajoituksia. Ohjelma tarkistaa
+syntymäajan mukaan, voiko asiakas kuulua asiakastyyppiin, joka hänelle 
+ollaan tallentamassa. Voit saada tällaisen virheilmoituksen:  
 ![](/assets/files/docs/Asiakkaat/ikaraja.png)
+
+Voit vaihtaa asiakastyypin asiakkaalle sopivaksi.
 
 ### 1.2.3. Takaaja
 
@@ -170,12 +172,14 @@ Jos kyseessä on lapsiasiakas, hänelle pitää tallentaa takaaja. Klikkaa
 _Lisää takaaja_ -nappia, niin pääset hakemaan rekisteristä lapselle
 takaajan.
 
+Huom. kaikissa kimpoissa ei ole _Näytä takaajille lainat_-vaihtoehtoa valittavissa.
+
 ![](/assets/files/docs/Asiakkaat/Lisaatakaaja.png)
 
 Takaajaa voi hakea joko nimellä tai kirjastokortin numerolla. Valitse
 alasvetovalikoista sopivat vaihtoehdot.
 
-![](/assets/files/docs/Asiakkaat/Valitsetakaaja.png)
+<img src="/assets/files/docs/Asiakkaat/Valitsetakaaja.png" alt="" style="width:50.0%" />
 
 Saat listan hakuun sopivista asiakkaista. Klikkaa oikealta _Valitse_-painiketta
 oikean henkilön kohdalla. 
