@@ -336,6 +336,7 @@ laiteta rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
 
 \- Nämä viestiasetukset kumoavat asiakaslajeille tehdyt oletusvalinnat.
+{: .notice--warning}
 \- Asiakas voi itse muuttaa kaikkia viestiasetuksia verkkokirjastossa, paitsi _Koosteilmoitus_-asetuksia.
 {: .notice--warning}
 
