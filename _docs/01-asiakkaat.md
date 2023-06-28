@@ -23,7 +23,7 @@ hakea asiakkaiden tietoja.
 Klikkaamalla pientä valikko-kuvaketta hakulaatikon oikealla puolella
 saat lisää hakuominaisuuksia käyttöösi. Alasvetovalikoista saat lisää hakuehtoja.
 Samat hakuominaisuudet aukeavat automaattisesti Asiakkaat-sivun vasempaan laitaan. 
-Hakukenttiin tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
+Alasvetovalikoissa tekemiesi valintojen perusteella voit hakea asiakasta eri tavoin.
 
 \- Perushaku:  
 Anna asiakkaan nimi tai nimen osa, käyttäjätunnus, kirjastokortin
