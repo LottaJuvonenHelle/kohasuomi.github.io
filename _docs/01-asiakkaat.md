@@ -743,7 +743,8 @@ nimeä pääset näkemään koko viestin.
 \- _Tyyppi_-sarakkeessa näkyy, missä muodossa viesti on lähetetty.
 Koha-Suomessa käytössä: printti, sms (tekstiviesti), sposti, suomi.fi, finvoice
 
-\- _Tila_-sarakkeesta näkee viestin lähetyksen tilan  
+\- _Tila_-sarakkeesta näkee viestin lähetyksen tilan
+
 _lähetetty_: viesti on lähetetty eteenpäin järjestelmästä varsinaiseen
 lähettävään järjestelmään
 
