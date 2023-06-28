@@ -370,12 +370,14 @@ Asiakastietojen yläreunassa olevilla painikkeilla pääset
 - tekemään asiakkaalle tiedonhaussa varauksen siten, että asiakastieto säilyy muistissa
 - lisäämään asiakastietoihin viestin
 
+
+
 Harvemmin tarvittavia muokkaustoimintoja löytyy Muita toimintoja-alasvetovalikosta, joista tarkemmin 
 kohdassa [1.5.7 Muita toimintoja -alasvetovalikko](https://koha-suomi.fi/dokumentaatio/asiakkaat/#157-muita-toimintoja--alasvetovalikko)
 
 ### 1.5.1. Lisää huollettava
 
-Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. _Lisää huollettava-nappi_ avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla huoltaja. Valittuasi asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy automaattisesti. Valitse Suhde-alasvetovalikosta oikea vaihtoehto.
+Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. _Lisää huollettava_-painike avaa alasvetovalikon kimpan asiakastyypeistä, joilla tulee olla takaaja. Valittuasi sopivan asiakastyypin pääset lisäämään asiakastiedot huollettavalle. Takaaja-tieto täydentyy automaattisesti. Valitse Suhde-alasvetovalikosta oikea vaihtoehto.
 
 ![](/assets/files/docs/Asiakkaat/Lisaahuollettava.png)
 
@@ -383,9 +385,9 @@ Tämän napin kautta pääset tallentamaan asiakkaalle huollettavan. _Lisää hu
 
 Asiakkaan salasanan pääsee muokkaamaan _Vaihda salasana_-painikkeen kautta. 
 
-Asiakkaan salasanaa ei voi nähdä. Jos asiakas unohtaa salasanansa, hänelle pitää tallentaa uusi salasana.
+Asiakkaan salasanaa ei voi nähdä. Jos asiakas unohtaa salasanansa, hänelle tallennetaan uusi salasana.
 
-![](/assets/files/docs/Asiakkaat/salasana.png)
+<img src="/assets/files/docs/Asiakkaat/salasana.png" alt="" style="width:90.0%" />
 
 \- Koha ei voi näyttää entistä salasanaa. Jätä salasanakenttä tyhjäksi tai valitse _Peruuta_,
 jos et halua vaihtaa salasanaa.
@@ -394,7 +396,7 @@ jos et halua vaihtaa salasanaa.
 luodaksesi satunnaisesti luodun salasanaehdotuksen. Salasanat näytetään
 tekstinä._
 
-- Muista tallentaa.
+**Muista tallentaa.**
 
 ### 1.5.3. Asiakkaan tietojen kopioiminen
 
