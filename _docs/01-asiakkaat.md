@@ -625,7 +625,7 @@ Rajoitteet voi ohittaa klikkaamalla _Ohita rajoitus tilapäisesti_. Tässä toim
 
 ![](/assets/files/docs/Asiakkaat/Rajoitukset6.png)
 
-Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä _Muut määreet ja tunnukset_-kohdassa.
+Kimppakohtaisia määritteitä/rajoitteita voi olla käytössä myös _Muut määreet ja tunnukset_-kohdassa.
 ![](/assets/files/docs/Asiakkaat/Lisaarajoitus8.png)
 
 ##### 1.5.10.2.1 Asiakkaan rajoitusten poistaminen
@@ -650,7 +650,7 @@ ne kokonaan huomioimatta _Älä huomioi_.
 _Asiakkaan tiedot_ -linkistä pääset asiakkaan tietoihin katsomaan onko asiakkaalla
 esim. rajoitteita, jotka päivityksen yhteydessä on syytä ottaa pois.
 
-Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy lainaussivulla.
+Asiakkaan tiedoissa käsittelemätön muutospyyntö näkyy lainaussivulla kohdassa Huomio: _Odottavat muutokset: Tarkista odottavat muutospyynnöt_
 
 ![](/assets/files/docs/Asiakkaat/Odottavatmuutokset.png)
 
