@@ -45,7 +45,7 @@ _sisältää_
 Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
 
 \- Käyttäjätunnus:  
-Anna asiakkaanerillinen käyttäjätunnus tai kirjastokortin numero tai osa siitä. Tässä voi olla kimppakohtaisia eroja.
+Anna asiakkaan erillinen käyttäjätunnus tai kirjastokortin numero tai osa siitä. Käyttäjätunnuksen käytössä voi olla kimppakohtaisia eroja.
 Antaessasi osan kirjastokortin numerosta valitse hakutyypiksi _sisältää_
 
 \- Lankapuhelin:  
