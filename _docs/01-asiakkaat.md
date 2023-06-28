@@ -45,8 +45,8 @@ _sisältää_
 Anna Kohan Asiakkaan ID-numero (eri kuin kirjastokortti)
 
 \- Käyttäjätunnus:  
-Anna asiakkaan kirjastokortin numero tai osa siitä. Antaessasi osan
-kirjastokortin numerosta valitse hakutyypiksi _sisältää_
+Anna asiakkaanerillinen käyttäjätunnus tai kirjastokortin numero tai osa siitä. Tässä voi olla kimppakohtaisia eroja.
+Antaessasi osan kirjastokortin numerosta valitse hakutyypiksi _sisältää_
 
 \- Lankapuhelin:  
 Anna lankapuhelinnumero kokonaisuudessaan kuten se on syötetty järjestelmään
@@ -179,27 +179,28 @@ Huom. kaikissa kimpoissa ei ole _Näytä takaajille lainat_-vaihtoehtoa valittav
 Takaajaa voi hakea joko nimellä tai kirjastokortin numerolla. Valitse
 alasvetovalikoista sopivat vaihtoehdot.
 
-<img src="/assets/files/docs/Asiakkaat/Valitsetakaaja.png" alt="" style="width:50.0%" />
-
 Saat listan hakuun sopivista asiakkaista. Klikkaa oikealta _Valitse_-painiketta
 oikean henkilön kohdalla. 
+
+<img src="/assets/files/docs/Asiakkaat/Valitsetakaaja.png" alt="" style="width:50.0%" />
 
 Valitse alasvetovalikosta takaajan suhde asiakkaaseen. Alasvetovalikon 
 vaihtoehdot voivat vaihdella kimpoissa.
 
 ![](/assets/files/docs/Asiakkaat/Asiakastakaaja.png)
 
-Tallennuksen jälkeen huoltajan tiedoista näkyy hänen koko nimensä sekä kirjastokortin numero. Voit 
-tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot. Ensimmäisenä lisätylle takaajalle
-järjestelmä lähettää huollettavan mahdolliset laskut ja huomautukset.
+Valinnan jälkeen lapsen tiedoissa näkyy takaajan nimi sekä kirjastokorttinumero. Voit 
+tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot. 
+
+Huom. Ensimmäisenä lisätylle takaajalle järjestelmä lähettää huollettavan mahdolliset laskut ja huomautukset.{: .notice--warning}
 
 ![](/assets/files/docs/Asiakkaat/Takaajat.png)
 
-Jos takaajaa ei löydy asiakasrekisteristä, avaa uusi välilehti ja
-tallenna takaajan tiedot rekisteriin. Palaa sen jälkeen lapsiasiakkaan
-tietoihin toisella välilehdelle ja tee takaajahaku uudelleen.
+Jos takaajaa ei löydy asiakasrekisteristä, avaa selaimessa uusi välilehti ja
+tallenna takaajan tiedot rekisteriin. Palaa tallennuksen jälkeen lapsiasiakkaan
+tietoihin toiselle välilehdelle ja tee takaajahaku uudelleen.
 
-Roskakorin kuvaketta klikkaamalla saat huoltajatiedon poistettua. Huom. alaikäisellä asiakkaalla tulee aina olla vähintään
+Roskakorin kuvaketta klikkaamalla saat takaajatiedon poistettua. Huom. alaikäisellä asiakkaalla tulee aina olla vähintään
 yksi takaaja, joten lapsiasiakkaan tietojen tallennus ei onnistu, jos häneltä puuttuu takaajatieto.
 
 #### 1.2.3.1. Ei-asiakas takaaja-tiedon lisääminen
@@ -208,14 +209,16 @@ Kimppakohtainen.
 
 ![](/assets/files/docs/Asiakkaat/Eiasiakastakaaja.png)
 
-### 1.2.4. Yhteystiedot
+### 1.2.4. Osoite
 
 Osoite-osiossa _Kunta_ tarkoittaa käytännössä postitoimipaikkaa, ei
 pelkästään kotikuntaa. Englanninkielistä sanaa City ei voi kääntää
-postitoimipaikaksi tässä kohti, koska sama sana on kunta-merkityksessä
+postitoimipaikaksi tässä kohdassa, sillä City-sanaa käytetään kunta-merkityksessä
 muussa yhteydessä. Voit valita postinumeron ja postitoimipaikan alasvetovalikosta tai kirjoittaa ne itse.
 
 ![](/assets/files/docs/Asiakkaat/Osoitetiedot.png)
+
+### 1.2.5. Yhteystiedot
 
 Syötä _Yhteystiedot_-osiossa asiakkaan puhelinnumero (lankapuhelinnumero _Lankapuhelin_-kenttään ja matkapuhelinnumero
 _Matkapuhelin_-kenttään) ja sähköpostiosoite. Matkapuhelin-kenttään lisätty numero kopioituu automaattisesti asiakkaan viestiasetuksiin, jos
@@ -234,9 +237,9 @@ välttämättä ole otettu käyttöön.
 
 ![](/assets/files/docs/Asiakkaat/Vaihtoehtoinenosoite.png)
 
-### 1.2.5. Kirjastotiedot
+### 1.2.6. Kirjastotiedot
 
-#### 1.2.5.1. Kirjastonhallinta-osio
+#### 1.2.6.1. Kirjastonhallinta-osio
 
 Kirjastonhallinta-osio sisältää kirjaston käyttöön liittyviä tietoja.
 
@@ -255,7 +258,7 @@ jos valitsit alussa väärän asiakastyypin.
 
 \- Valitse asiakasviestien kieli kohdassa _Ilmoitusten kieli_.
 
-#### 1.2.5.2 Kirjaston asetukset-osio
+#### 1.2.6.2 Kirjaston asetukset-osio
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko1.png)
 
 \- _Tullut asiakkaaksi_ -päivämäärä tulee automaattisesti kuluvan päivän
@@ -277,7 +280,7 @@ näkyy Kohassa tiedot- ja lainausnäytöllä.
 
 ![](/assets/files/docs/Asiakkaat/Huomautuslaatikko.png)
 
-#### 1.2.5.3. Kirjautumistunnus-osio
+#### 1.2.6.3. Kirjautumistunnus-osio
 _Kirjautumistunnus_-osioon voi lukea esim. kirjastokortin numeron tai
 erillisen käyttäjätunnuksen, jolla asiakas voi kirjautua
 verkkokirjastoon. Huom! Kimppakohtaisia eroja.
@@ -286,7 +289,7 @@ verkkokirjastoon. Huom! Kimppakohtaisia eroja.
 
 Tässä tallennettu käyttäjätunnus näkyy asiakkaan _Tiedot_-välilehdellä.
 
-#### 1.2.5.4. Muut määritteet ja tunnukset
+#### 1.2.6.4. Muut määritteet ja tunnukset
 
 Tähän täytetään mm. Automaattien automaattityyppi- ja automaatin toimittaja-alasvetovalikot 
 sekä yhteisöasiakkaan Y-tunnuskenttä.
@@ -297,7 +300,7 @@ sekä yhteisöasiakkaan Y-tunnuskenttä.
 
 Myös muita kimppakohtaisia määritteitä voi olla käytössä.
 
-### 1.2.6. Asiakkaan viestiasetukset
+### 1.2.7. Asiakkaan viestiasetukset
 
 Lopuksi vielä tallennetaan asiakkaan viestiasetukset. Käytettävissä
 olevat viestivaihtoehdot vaihtelevat kimpoittain.
