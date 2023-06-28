@@ -16,7 +16,7 @@ hakea asiakkaan tietoja esim. nimihaulla sekä syntymäaikahaulla.
 Klikkaamalla yläpalkin linkkiä _Asiakkaat_ saat hakusivun, jossa voit selata tai
 hakea asiakkaiden tietoja.
 
-![](/assets/files/docs/Asiakkaat/Asiakkaat_hakusivu.png)
+<img src="/assets/files/docs/Asiakkaat/Asiakkaat_hakusivu.png" alt="" style="width:50.0%" />
 
 ![](/assets/files/docs/Asiakkaat/hae_asiakasta1.png)
 
