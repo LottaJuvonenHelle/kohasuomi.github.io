@@ -550,8 +550,8 @@ Nämä molemmat vaihtoehdot ovat eräänlaisia rajoituksia eli ne estävät asia
 
 ##### 1.5.10.1.1 Väärä osoite
 
-Jos haluat lainauksen virkailijan tarkistavan asiakkaan osoitteen ennen
-lainaamista, laita valinta _Kyllä_ päälle Tarkista osoite -kohdassa. Lainaus- ja tiedot-näytöillä 
+Jos haluat henkilökunnan tarkistavan asiakkaan osoitteen esim. ennen
+lainaamista, valitse _Kyllä_ Tarkista osoite -kohdassa. Lainaus- ja tiedot-näytöillä 
 näkyy ilmoitus _Osoite: Tarkista osoite_.
 
 ![](/assets/files/docs/Asiakkaat/vaaraosoite.png)
