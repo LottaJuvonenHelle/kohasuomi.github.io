@@ -456,7 +456,7 @@ Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainau
 
 ![](/assets/files/docs/Asiakkaat/Muitatoimintoja1.png)
 
-Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloasähköpostin, poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi.
+Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin, lähettämään asiakkaalle tervetuloa-sähköpostin, poistamaan asiakkaan tunnuksen sekä päivittämään lapsiasiakkaan aikuiseksi.
 
 #### 1.5.7.1. Asiakaan käyttöoikeuden jatkaminen
 
