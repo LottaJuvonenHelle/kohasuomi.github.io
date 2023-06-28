@@ -590,7 +590,7 @@ Rajoite poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Se
 
 Rajoitteen voi poistaa myös manuaalisesti kortinvaihtotilanteessa.
 
-![](/assets/files/docs/Asiakkaat/liikaayrityksia2.png)
+<img src="/assets/files/docs/Asiakkaat/liikaayrityksia2.png" alt="" style="width:90.0%" />
 
 #### 1.5.10.2. Asiakkaan rajoitukset
 
@@ -639,7 +639,7 @@ verkkokirjaston kautta, hyväksytään muutokset virkailijaliittymässä ennen m
 Jos järjestelmässä on hyväksymistä odottavia muutoksia, niistä näkyy Kohan etusivulla
 linkki _Tietojensa muokkaamista haluavat asiakkaat_. 
 
-![](/assets/files/docs/Asiakkaat/Etusivunlinkki.png)
+<img src="/assets/files/docs/Asiakkaat/Etusivunlinkki.png" alt="" style="width:90.0%" />
 
 Kun klikkaat linkkiä, saat listan kaikista odottavista muutospyynnöistä ja klikkaamalla asiakkaan
 nimen kohdalta saat hänen tekemänsä muutokset näkyviin. Voit hyväksyä muutokset _Hyväksy_, kieltää _Kiellä_ ne tai jättää
