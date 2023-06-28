@@ -701,7 +701,7 @@ muokattu ja jos asiakastieto on tullut asiakashaussa hakutuloslistalle.
 Täällä näkyvät myös lainaus- ja palautustapahtumat, jos niin on
 asetuksissa määritetty.
 
-![](/assets/files/docs/Asiakkaat/lokitiedot.png)
+<img src="/assets/files/docs/Asiakkaat/lokitiedot.png" alt="" style="width:90.0%" />
 
 \- _Pvm-sarake_ kertoo tarkan ajan (päivämäärä ja kellonaika), jolloin
 asiakkaan tiedoissa on tapahtunut jotain
@@ -735,7 +735,7 @@ Tällä näytöllä näkyy asiakkaalle lähteneet tai lähtemässä olevat
 ilmoitukset. Ilmoittamistapa valitaan asiakastiedoissa asiakkaan
 viestiasetuksissa.
 
-![](/assets/files/docs/Asiakkaat/Lahetetytilmoitukset.png)
+<img src="/assets/files/docs/Asiakkaat/Lahetetytilmoitukset.png" alt="" style="width:90.0%" />
 
 \- _Ilmoitus_-sarakkeessa näkyy viestin otsikko. Klikkaamalla viestin
 nimeä pääset näkemään koko viestin.
@@ -789,7 +789,7 @@ Tilastot-osiossa näkyy asiakkaan lainatilasto edelliseltä ja kuluvalta
 päivältä. Lainat on jaoteltuna aineistolajeittain ja hyllypaikoittain.
 Taulukossa näkyvät myös kuluvan päivän palautukset ja lainat.
 
-![](/assets/files/docs/Asiakkaat/asiakkaantilastot.png)
+<img src="/assets/files/docs/Asiakkaat/Asiakkaantilastot.png" alt="" style="width:90.0%" />
 
 ### 1.7.8. Hankintaehdotukset
 
