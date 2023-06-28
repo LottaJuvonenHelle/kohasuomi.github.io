@@ -30,6 +30,8 @@ Läsnä: Emmi, Kodo, Lasse
 
 * Kirkes-data on saatu kantaan poistamalla ongelmia aiheuttaneet niteet. Osalla niteistä kuvailutietueen id ei vastaa Aurorassa 001-kentässä olevaa tietue-id:tä. Tämä korjattiin tällä konversiokierroksella tarkistamalla kaikkien niteiden kuvailutietue-id:t ja poistamalla käsin ongelmaniteet. Dumppien toistuvista virheilyistä reklamoitu Axiellia, joka kuitenkin ehtii selvittelemään ongelmia vasta heinäkuun puolella. Tutkimukset täällä meidän päässä jatkuvat.
 
+* Tilastointi-plugin käyttää nyt deleted_on-saraketta poistoissa. Jos sarake on tyhjä, käytetään timestamp-saraketta.
+
 ## Viikon 25 muistiot
 ### Torstai 22.6.2023 klo 10
 
