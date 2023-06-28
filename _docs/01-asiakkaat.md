@@ -410,7 +410,7 @@ _Kopioi_-nappia tietueen yläreunassa.
 
 Tarkista, että kaikki tiedot ovat oikein ja täydennä puuttuvat tiedot.
 
-- Tallennuksen jälkeen pääset uuden asiakkaan tietoihin.
+Tallennuksen jälkeen siirryt automaattisesti uuden asiakkaan tietoihin.
 
 ### 1.5.4. Tulosta
 
