@@ -82,7 +82,8 @@ linkkinä olevien kirjainten mukaan.
 ![](/assets/files/docs/Asiakkaat/aastaoohon.png)
 
 Huom. Laajan asiakashaun voit tehdä myös muilla kuin Asiakkaat-sivuilla, jos vihreässä yläpalkissa näkyy vaihtoehto _"Hae asiakkaita"_.
-Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.{: .notice--warning}
+Klikkaa tuolloin _"Hae asiakkaita"_ aktiviiseksi ja avaa valikko-kuvakkeesta hakukentät esille.
+{: .notice--warning}
 
 ## 1.2. Lisää uusi asiakas
 
@@ -192,7 +193,8 @@ vaihtoehdot voivat vaihdella kimpoissa.
 Valinnan jälkeen lapsen tiedoissa näkyy takaajan nimi sekä kirjastokorttinumero. Voit 
 tallentaa lapsiasiakkaalle useamman kuin yhden huoltajan tiedot. 
 
-Huom. Ensimmäisenä lisätylle takaajalle järjestelmä lähettää huollettavan mahdolliset laskut ja huomautukset.{: .notice--warning}
+Huom. Ensimmäisenä lisätylle takaajalle järjestelmä lähettää huollettavan mahdolliset laskut ja huomautukset.
+{: .notice--warning}
 
 ![](/assets/files/docs/Asiakkaat/Takaajat.png)
 
