@@ -437,12 +437,15 @@ kohdassa [4.1.2 Varauksen teko asiakastietojen kautta](https://koha-suomi.fi/dok
 
 ### 1.5.6. Lisää viesti
 
+Tällä toiminnolla lisätään asiakastietoihin viestejä. Voit valita esimääritellyistä viesteistä tarvitsemasi pohjan ja muokata sitä tarvittaessa tai kirjoittaa tyhjään kenttään tarvittavan tekstin.
+Voit lisätä ns. Sisäisen viestin tai Asiakasliittymäviestin.
+
 ![](/assets/files/docs/Asiakkaat/Jataviesti1.png)
 
-Tällä toiminnolla lisätään asiakastietoihin viestejä. Voi lisätä ns. Sisäisen viestin tai Asiakasliittymäviestin. 
+
 Sisäinen viesti näkyy vain virkailijaliittymässä, asiakasliittymäviesti näkyy asiakkaalle verkkokirjastossa.
 
-Voit valita esimääritellyistä viesteistä tarvitsemasi pohjan ja muokata sitä tarvittaessa tai kirjoittaa tyhjään kenttään tarvittavan tekstin.
+
 
 ![](/assets/files/docs/Asiakkaat/Jataviesti2.png)
 
