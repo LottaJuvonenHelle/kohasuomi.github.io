@@ -396,7 +396,7 @@ jos et halua vaihtaa salasanaa.
 luodaksesi satunnaisesti luodun salasanaehdotuksen. Salasanat näytetään
 tekstinä._
 
-**Muista tallentaa.**
+Muista tallentaa.
 
 ### 1.5.3. Asiakkaan tietojen kopioiminen
 
@@ -462,22 +462,28 @@ Muita toimintoja -napin takaa löytyy toiminnot, joilla pääsee uusimaan tilin,
 
 Asiakastilin vanhennuttua asiakas ei pääse käyttämään korttiaan. Tilin uusimiselle on useita linkkejä ja paikkoja. 
 
-Lainausnäytöllä vanhentumispäivämäärän perässä olevasta linkistä _Uusinta_ tai _Muita toimintoja_-alasvetovalikosta _Asiakkaan käyttöoikeuden jatkaminen_ voi jatkaa asiakkaan käyttöoikeutta. Myös linkistä _Muokkaa asiakastietoja_ tai _Muokkaa_-napista pääsee jatkamaan asiakkaan käyttöikeutta asiakastietojen kautta.
+Yläpalkin _Muokkaa_ ja _Muita toimintoja_ valikoista pääsee joka asiakastieto-sivulla päivittämään asiakkaan käyttöoikeuden.
+
+
+Lainausnäytöllä vanhentumispäivämäärän perässä olevista linkeistä _Uusinta_ ja _Muokkaa tietoja_ voi jatkaa asiakkaan käyttöoikeutta. 
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen2.png)
 
-Asiakkaan tiedot -sivulla tili uusitaan Huomio-kohdan _Uusinta- tai Muokkaa tietoja_-linkkien kautta, Kirjastotiedot-kohdasta,
-Muita toimintoja -alasvetovalikosta _Asiakkaan käyttöoikeuden jatkaminen_ tai _Muokkaa_-napista.
+
+Asiakkaan tiedot -sivulla tilin voi uusia Huomio- ja Kirjastotiedot -kohdissa _Uusinta- tai Muokkaa tietoja_-linkkien kautta.
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen1.png)
 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen3.png)
 
+
 Asiakkaalle tallentuu tilin vanhentumispäivämäärä asiakastyypille määritellyn voimassaoloajan mukaan.
 
-\- Järjestelmä ilmoittaa myös lähestyvästä vanhentumispäivästä.
-
+Järjestelmä ilmoittaa myös lähestyvästä vanhentumispäivästä. 
 ![](/assets/files/docs/Asiakkaat/Tilinuusiminen4.png)
+
+
+Huom. Käyttöoikeuden voi päivittää tarvittaessa aiemminkin kuin vasta sen mennessä umpeen.
 
 ### 1.5.7.2. Poista
 
