@@ -307,26 +307,26 @@ olevat viestivaihtoehdot vaihtelevat kimpoittain.
 
 ![](/assets/files/docs/Asiakkaat/Asiakkaanviestiasetukset.png)
 
-\- Ilmoitus eräpäivänä: Ilmoitus lainojen erääntymisestä eräpäivänä. 
+\- _Ilmoitus eräpäivänä_: Ilmoitus lainojen erääntymisestä eräpäivänä. 
 
-\- Ennakkoilmoitus: Etukäteisilmoitus lähestyvästä eräpäivästä. Asiakas
+\- _Ennakkoilmoitus_: Etukäteisilmoitus lähestyvästä eräpäivästä. Asiakas
 voi valita, montako päivää etukäteen ilmoitus tulee. 
 HUOM! Jos tähän valitsee 0, ei viestiä lähetetä, vaikka rasti olisi paikallaan.
 
-\- Saapumisilmoitus: Ilmoitus asiakkaalle noudettavissa olevasta
+\- _Saapumisilmoitus_: Ilmoitus asiakkaalle noudettavissa olevasta
 varauksesta.
 
-\- Palautuskuitti: Lista asiakkaan juuri palauttamasta aineistosta. Tämä on
+\- _Palautuskuitti_: Lista asiakkaan juuri palauttamasta aineistosta. Tämä on
   sähköinen versio palautuskuitista.
 
-\- Lainauskuitti: Lista asiakkaan juuri lainaamista niteistä. Tämä on
+\- _Lainauskuitti_: Lista asiakkaan juuri lainaamista niteistä. Tämä on
   sähköinen versio lainauskuitista.
   
 \- _Vain koosteilmoitus_ sekä ennakkoilmoitukseen ja eräpäiväilmoitukseen tallentuu
 asiakkaalle automaattisesti. Koosteilmoitukset lähetetään asiakkaalle, jotta hän saa 
 yhdessä viestissä kaikkien erääntyvien niteiden tiedot eikä jokaisesta lainasta erillistä viestiä.
 
-\- “Tekstiviesti numeroon” -kenttään kopioituu automaattisesti Matkapuhelin-kenttään
+\- _“Tekstiviesti numeroon”_ -kenttään kopioituu automaattisesti Matkapuhelin-kenttään
 lisätty numero. Tekstiviesti numeroon -kenttä on kirjoitussuojattu. Tekstiviesti-vaihtoehtoon ei 
 laiteta rastia, jos tässä kentässä ei ole puhelinnumeroa.
 
