@@ -448,7 +448,7 @@ Asiakasliittymäviesti näkyy asiakkaalle verkkokirjastossa.
 
 Sekä sisäiset viestit että asiakasliittymäviestit näkyvät asiakkaan Lainaus- ja Tiedot-sivuilla. Ne voi poistaa klikkaamalla roskakorikuvaketta.
 
-![](/assets/files/docs/Asiakkaat/Jataviesti3.png)
+<img src="/assets/files/docs/Asiakkaat/Jataviesti3.png" alt="" style="width:90.0%" />
 
 **Viestiin tallentuu automaattisesti päivämäärä, kirjasto sekä viestin tallentaja, joten niitä ei tarvitse manuaalisesti lisätä viestiin.**
 
