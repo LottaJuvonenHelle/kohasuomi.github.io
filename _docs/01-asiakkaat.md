@@ -423,16 +423,17 @@ kohdassa [2.1.1. Kuittien tulostaminen](https://koha-suomi.fi/dokumentaatio/lain
 
 ### 1.5.5. Hae ja varaa
 
-_Hae ja varaa_-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun. Pääset tekemään varauksen asiakkaalle suoraan hakutuloslistalla tai tietueen tiedoissa. Hakutuloslistalla voit tarvittaessa myös poistaa toiminnon muistista asiakkaan tiedot. 
+_Hae ja varaa_-näppäin siirtää suoraan Tarkkaan hakuun tekemään tiedonhaun. Pääset tekemään varauksen asiakkaalle suoraan hakutuloslistalla tai tietueen tiedoissa. 
 
 ![](/assets/files/docs/Asiakkaat/Haejavaraa1.png)
 
-Tietuetiedoissa sitä toimintoa ei ole.
+Hakutuloslistalla voit tarvittaessa myös poistaa muistista asiakkaan tiedot valitsemalla _Unohda [asiakkaan tiedot]_. 
+Tietuetiedoissa poistotoimintoa ei ole.
 
 ![](/assets/files/docs/Asiakkaat/Haejavaraa2.png)
 
 Varaamisesta tarkemmin Kohan ohje suomeksi -ohjeen
-kohdassa [1.2 Varauksen teko asiakastietojen kautta](https://koha-suomi.fi/dokumentaatio/varaukset/#12-varauksen-teko-asiakastietojen-kautta)
+kohdassa [4.1.2 Varauksen teko asiakastietojen kautta](https://koha-suomi.fi/dokumentaatio/varaukset/#412-varauksen-teko-asiakastietojen-kautta)
 
 ### 1.5.6. Lisää viesti
 
