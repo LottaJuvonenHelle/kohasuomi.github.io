@@ -16,7 +16,10 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ## Viikon 26 muistiot
 ### Torstai 29.6.2023 klo 10
 
+Läsnä: Emmi, Kodo, Lasse
+
 * Keravan laskutuspalaveri 30.6. klo 9
+  * paikalla Sarastian, Keravan kaupungin ja Koha-Suomen väkeä, pyydetään mukaan myös joku kirkesläinen
 
 ### Maanantai 26.6.2023 klo 10
 
