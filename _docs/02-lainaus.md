@@ -580,8 +580,9 @@ _Aseta kirjasto_ -toiminnolla. Valitse kirjasto alasvetovalikosta ja klikkaa
 
 Tämä raportti näyttää kaikki varaukset, jotka kohdistuvat kirjastosi aineistoon. Raportti käyttää hyväksi kuljetusten painomatriisia, joka pitää olla määritelty kimppasi kirjastoille.
 
-**Huomaa:** Tämä ei ole Koha-Suomen ylläpitämä raportti hyllyvarausten
+Tämä ei ole Koha-Suomen ylläpitämä raportti hyllyvarausten
 käsittelyyn. Raportti ei välttämättä toimi kaikilta osin.
+{: .notice--warning}
 
 ![](/assets/files/docs/Lainaus/varausjono.PNG)
 
@@ -595,8 +596,9 @@ Näkyvillä olevia sarakkeita voi säätää *Sarakkeet*-valikosta ja tiedot voi
 
 ## 2.11 Hyllyvaraukset
 
-**Huomaa:** Koha-Suomi suosittelee käyttämään tätä raporttia, kun
+Koha-Suomi suosittelee käyttämään tätä raporttia, kun
 etsitään hyllyssä olevia varauksia.
+{: .notice--warning}
 
 **Huomaa myös:** Hyllyvarausraportti ei ole täysin reaaliaikainen,
 vaikka se avautuukin nykyään nopeammin kuin ennen. Hyllyvarausraportin
@@ -624,7 +626,7 @@ Vinkkejä:
   tarkistamaan omassa kirjastossa paikalla olevat varaukset ja joiden
   noutopiste on myös oma kirjastosi.
 - Sivulla näytetään oletuksena 20 hyllyssä olevaa varausta. Valitse *Näytä_Kaikki*, jolloin saat samalle sivulle kaikki varaukset.
-- Voit raja listaa esimerkiksi materiaalin, hyllypaikan ja/tai kokoelman mukaan.
+- Voit rajata listaa esimerkiksi materiaalin, hyllypaikan ja/tai kokoelman mukaan.
 - Voit järjestää hakutuloksia otsikkorivin kaksisuuntaisista nuolista nousevaan tai laskevaan järjestykseen.
 - Tarkista, ettei listalle ole jäänyt varauksia roikkumaan pitkäksi
   aikaa järjestämällä Varauspvm-sarake nousevasti, jolloin
@@ -650,7 +652,8 @@ Tämä raportti näyttää kaikki kirjastossasi noutoa odottavat varaukset.
 
 ![](/assets/files/docs/Lainaus/kaikkinoudettavat.PNG)
 
-HUOM! Vanhentuneet varaukset eivät näy oikein tämän näytön välilehdellä "Varaukset odottaneet yli X päivää". Käytä Kohan raporttia "Vanhentuneet, noutamattomat varaukset" (tai vastaavaa), jos kimpassasi sellainen on käytössä. Pyydä tarvittaessa kimppasi pääkäyttäjää tekemään raportti Kohaan.
+Vanhentuneet varaukset eivät näy oikein tämän näytön välilehdellä "Varaukset odottaneet yli X päivää". Käytä Kohan raporttia "Vanhentuneet, noutamattomat varaukset" (tai vastaavaa), jos kimpassasi sellainen on käytössä. Pyydä tarvittaessa kimppasi pääkäyttäjää tekemään raportti Kohaan.
+{: .notice--warning}
 
 
 ## 2.13 Varauksia per nide
@@ -709,6 +712,7 @@ kirjastoosi.
 ## 2.17 Myöhässä
 
 Varoitus: Tämä raportti vaatii paljon järjestelmäresursseja, jos tietokannassa on paljon myöhässä olevia lainoja.
+{: .notice--warning}
 
 Koska raportti voi viedä paljon resursseja, raportti kannattaa suodattaa mahdollisimman tarkasti. 
 
@@ -732,8 +736,10 @@ Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilante
 
 2.  **Koha Offline Circulation Tool** (KOCT), joka on Firefox-selaimen lisäosa.
 
-Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. <br/>
-**Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
+Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä.
+
+Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
+{: .notice--warning}
 
 ### 2.19.1. Offline lainausohjelma Windowsille (KOC)
 
@@ -813,8 +819,8 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
    - Seuraavien asiakkaiden lainat tallentuvat aina samaan tiedostoon. Eri käyttäjien tallennetut tiedostot tallentuvat kukin omina tiedostoina valittuun kansioon.
    - Muista tallentaa jokaisen lainaajan lainat erikseen *OK*-painikkeella, muuten lainat tallentuvat aina edelliselle asiakkaalle.
      
-**Huom! Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedostonnimen ja sijainnin vaikka paperille ylös.**
-
+Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedostonnimen ja sijainnin vaikka paperille ylös.
+{: .notice--warning}
 
 #### 2.19.1.2 Lainatietojen lähettäminen tietokantaan
 
@@ -875,14 +881,16 @@ Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa 
    
 ![](/assets/files/docs/Lainaus/OfflineKOCtiedostonpoisto.PNG)
 
-**Huom! Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahigossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.**
+Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahigossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.
+{: .notice--warning}
 
 
 ### 2.19.2 Koha Offline Circulation Tool (KOCT)
 
-Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen. <br/>
-**Huom!** Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
+Firefox-selaimen lisäosaa voi käyttä myös tilanteissa, kun Koha ei toimi. Lisäosa on englanninkielinen.
 
+Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
+{: .notice--warning}
 
 #### 2.19.2.1 Selaimen lisäosan asennus
 
@@ -926,7 +934,8 @@ Nyt laajennuksen perusnäytön pitäisi näyttää tältä:
 
 ![](/assets/files/docs/Lainaus/KOCTasetukset3.PNG)
 
-**Huom! Kun lopetat KOCT-lisäosan käytön, muista tyhjentää kohdasta "Configuration page" omat tiedot kohdista Username ja Password. Jokainen käyttäjä tallentaa omat tunnukset ohjelmalle. Kohtia Server ja Branchcode ei tarvitse muuttaa, kun käyttäjä vaihtuu.
+Kun lopetat KOCT-lisäosan käytön, muista tyhjentää kohdasta "Configuration page" omat tiedot kohdista Username ja Password. Jokainen käyttäjä tallentaa omat tunnukset ohjelmalle. Kohtia Server ja Branchcode ei tarvitse muuttaa, kun käyttäjä vaihtuu.
+{: .notice--warning}
 
 
 #### 2.19.2.3 Lainaaminen KOCT-lisäosalla
@@ -949,7 +958,8 @@ Lue palautettavan lainan nidetunnus kohtaan "Item barcode". Palautettavan niteen
 
 ![](/assets/files/docs/Lainaus/KOCTpalautus.PNG)
 
-**Huom! Lainat pitää ladata Kohaan ensin, ennen palautuksia.**
+Lainat pitää ladata Kohaan ensin, ennen palautuksia.
+{: .notice--warning}
 
 Kun lopetat ohjelman käytön, mene ensin "Configuration page" -sivulle ja tyhjennä parametreista omat kirjautumistietosi. <br/>
 Sulje lopuksi selain.
