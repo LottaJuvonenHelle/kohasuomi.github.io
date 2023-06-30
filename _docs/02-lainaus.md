@@ -819,7 +819,7 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
    - Seuraavien asiakkaiden lainat tallentuvat aina samaan tiedostoon. Eri käyttäjien tallennetut tiedostot tallentuvat kukin omina tiedostoina valittuun kansioon.
    - Muista tallentaa jokaisen lainaajan lainat erikseen *OK*-painikkeella, muuten lainat tallentuvat aina edelliselle asiakkaalle.
      
-Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedostonnimen ja sijainnin vaikka paperille ylös.
+Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedoston nimen ja sijainnin vaikka paperille ylös.
 {: .notice--warning}
 
 #### 2.19.1.2 Lainatietojen lähettäminen tietokantaan
