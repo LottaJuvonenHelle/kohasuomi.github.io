@@ -333,11 +333,11 @@ Jos niteen uusiminen onnistuu, saat ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/uusinta3.PNG)
 
-Jos nide ei ole lainassa, saat ilmoituksen.
+Jos nide ei ole lainassa, saat ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/uusinta5.PNG)
 
-Jos viivakoodia ei löydy, saat ilmoituksen.
+Jos viivakoodia ei löydy, saat ilmoituksen:
 
 ![](/assets/files/docs/Lainaus/uusinta4.PNG)
 
@@ -563,8 +563,10 @@ Oletuksena on, kun kirjaudut virkailijaliittymään, että kirjautumiskirjastoks
 ![](/assets/files/docs/Lainaus/kirjautuminen.PNG)
 
 Kirjaston nimi näkyy virkailijaliittymän oikeassa yläreunassa.
-**Tärkeää:** Lainat, palautukset ja kaikki muut toiminnot rekisteröityvät tunnukselle valitun
+
+Lainat, palautukset ja kaikki muut toiminnot rekisteröityvät tunnukselle valitun
 kirjaston mukaan.
+{: .notice--warning}
 
 ![](/assets/files/docs/Lainaus/kirjastovalinta.PNG)
 
