@@ -486,7 +486,7 @@ ilmoituksen ja tiedon, mihin kirjastoon nide pitää kuljettaa.
 
 - Valitsemalla *Vahvista varaus ja kuljetus*, vahvistat niteen kuljetettavaksi kirjastoon, missä on varauksen noutopaikka.
 - Toiminnolla *Tulosta kuitti, kuljeta ja vahvista*, ohjelma tulostaa varauksen kuljetuskuitin ja merkitsee niteen kuljetustilaan kirjastoon, missä on varauksen noutopaikka. 
-- Toiminnolla *Älä huomioi**, varaus säilyy asiakkaalla voimassa olevana.
+- Toiminnolla *Älä huomioi*, varaus säilyy asiakkaalla voimassa olevana.
 
 ***Varauksen kuljetuskuitin tulostuminen automaattisesti***:
 
