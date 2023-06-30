@@ -560,13 +560,13 @@ Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttan
 
 Oletuksena on, kun kirjaudut virkailijaliittymään, että kirjautumiskirjastoksi tulee oma kirjasto, joka on tallennettu käyttäjätunnuksesi tietoihin. 
 
-![](/assets/files/docs/Lainaus/kirjautuminen.PNG)
-
-Kirjaston nimi näkyy virkailijaliittymän oikeassa yläreunassa.
-
 Lainat, palautukset ja kaikki muut toiminnot rekisteröityvät tunnukselle valitun
 kirjaston mukaan.
 {: .notice--warning}
+
+![](/assets/files/docs/Lainaus/kirjautuminen.PNG)
+
+Kirjaston nimi näkyy virkailijaliittymän oikeassa yläreunassa.
 
 ![](/assets/files/docs/Lainaus/kirjastovalinta.PNG)
 
