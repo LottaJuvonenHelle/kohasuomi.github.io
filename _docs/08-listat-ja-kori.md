@@ -166,4 +166,4 @@ Korin sisällöstä voi myös valita niteitä ja niille toimenpiteitä
 - _Erämuokkaus_
 - _Eräpoisto_
 
-<img src=)"/assets/files/docs/Listat_ja_Kori/kori_toimenpiteet.PNG" title="Kuvankaappaus Korisi-sivulta, jossa on keltaisella merkitty painikkeet Poista, Lisää listaan, Varaa, Erämuokkaus ja Eräpoisto" alt="Kuvankaappaus Korisi-sivulta, jossa on keltaisella merkitty painikkeet Poista, Lisää listaan, Varaa, Erämuokkaus ja Eräpoisto" style="width:90.0%" />
+<img src="/assets/files/docs/Listat_ja_Kori/kori_toimenpiteet.PNG" title="Kuvankaappaus Korisi-sivulta, jossa on keltaisella merkitty painikkeet Poista, Lisää listaan, Varaa, Erämuokkaus ja Eräpoisto" alt="Kuvankaappaus Korisi-sivulta, jossa on keltaisella merkitty painikkeet Poista, Lisää listaan, Varaa, Erämuokkaus ja Eräpoisto" style="width:90.0%" />
