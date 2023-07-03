@@ -133,19 +133,20 @@ listauksiin, jotka tulostetaan tai sähköpostitetaan joko asiakkaalle tai
 itsellesi.
 
 Koritoiminto virkailijatyökalussa voidaan ottaa käyttöön tai pois
-käytöstä intranetbookbag-asetuksella järjestelmäasetuksissa. Lisätäksesi
-nimekkeitä koriin tee haku ja valitse nimekkeet, joita haluat lisätä
-koriin. Klikkaa Lisää koriin -alasvetovalikkoa.
+käytöstä intranetbookbag-asetuksella järjestelmäasetuksissa.
 
-![](/assets/files/docs/Listat_ja_Kori/lisaa_koriin.PNG)
+Lisätäksesi nimekkeitä koriin tee haku ja valitse nimekkeet, joita haluat lisätä
+koriin. Klikkaa hakutulossivulla _Lisää koriin_ -alasvetovalikkoa.
+
+<img src="/assets/files/docs/Listat_ja_Kori/lisaa_koriin.PNG" title="Kuvankaappaus hakutulossivulta, jossa on keltaisella merkitty Lisää koriin-painike sekä ruksatut tietueiden valintalaatikot" alt="Kuvankaappaus hakutulossivulta, jossa on keltaisella merkitty Lisää koriin-painike sekä ruksatut tietueiden valintalaatikot" style="width:90.0%" />
 
 Saat ruudun yläreunassa vahvistuksen onnistuneesta lisäyksestä.
 
 ![](/assets/files/docs/Listat_ja_Kori/lisatty_koriin.PNG)
 
-Klikkaamalla Kori-kuvaketta pääset näkemään Korin sisällön.
+Klikkaamalla _Kori_-kuvaketta pääset näkemään korin sisällön.
 
-![](/assets/files/docs/Listat_ja_Kori/korisi.PNG)
+<img src="/assets/files/docs/Listat_ja_Kori/korisi.PNG" title="Kuvankaappaus Korisi-sivulta, jossa näkyy korin sisältö" alt="Kuvankaappaus Korisi-sivulta, jossa näkyy korin sisältö" style="width:90.0%" />
 
 Täällä pystyt tekemään erilaisia toimintoja
 
@@ -159,10 +160,10 @@ Täällä pystyt tekemään erilaisia toimintoja
 
 Korin sisällöstä voi myös valita niteitä ja niille toimenpiteitä
 
-- Poista
-- Lisää listaan
-- Varaa
-- Erämuokkaus
-- Eräpoisto
+- _Poista_
+- _Lisää listaan_
+- _Varaa_
+- _Erämuokkaus_
+- _Eräpoisto_
 
-![](/assets/files/docs/Listat_ja_Kori/kori_toimenpiteet.PNG)
+<img src=)"/assets/files/docs/Listat_ja_Kori/kori_toimenpiteet.PNG" title="Kuvankaappaus Korisi-sivulta, jossa on keltaisella merkitty painikkeet Poista, Lisää listaan, Varaa, Erämuokkaus ja Eräpoisto" alt="Kuvankaappaus Korisi-sivulta, jossa on keltaisella merkitty painikkeet Poista, Lisää listaan, Varaa, Erämuokkaus ja Eräpoisto" style="width:90.0%" />
