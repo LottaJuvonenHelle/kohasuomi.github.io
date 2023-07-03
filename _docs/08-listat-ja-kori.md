@@ -97,7 +97,7 @@ yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki niteet ja
 nimekkeeseen liittyvät varaukset oikeassa järjestyksessä jäljelle
 jäävään nimeketietueeseen.
 
-![](/assets/files/docs/Listat_ja_Kori/yhdistettava.1jpg)
+![](/assets/files/docs/Listat_ja_Kori/yhdistettava_1.jpg)
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
 tietueet yhdistetään) ja voit valita myös luettelointipohjan.  
