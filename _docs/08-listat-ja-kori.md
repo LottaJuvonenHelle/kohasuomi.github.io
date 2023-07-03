@@ -117,7 +117,7 @@ Kun kuvailu näyttää valmiilta, klikkaa ruudun alareunassa _Yhdistä_.
 Asetuksissa voidaan määritellä, mitkä kentät näkyvät
 yhdistämisraportissa. Tässä tapauksessa kentät ovat 001, 245ab, 650.
 
-<img src="/assets/files/docs/Listat_ja_Kori/luettelointi012.png" title="Listat-sivulta kuvankaappaus, jossa on punaisella ympyröity Yhdistä-painike" alt="Listat-sivulta kuvankaappaus, jossa on punaisella ympyröity Yhdistä-painike"
+<img src="/assets/files/docs/Listat_ja_Kori/luettelointi012.png" title="Listat-sivulta kuvankaappaus, jossa on punaisella ympyröity Yhdistä-painike" alt="Listat-sivulta kuvankaappaus, jossa on punaisella ympyröity Yhdistä-painike">
 
 Yhdistämisraportti näyttää tältä edellä mainittujen asetusten mukaan:
 
