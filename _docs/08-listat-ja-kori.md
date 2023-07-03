@@ -83,11 +83,11 @@ listan nimen.
 ### 8.1.3. Listojen katsominen
 
 Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.  
-![](/assets/files/docs/Listat_ja_Kori/katso_lista.PNG)
+<img src="/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty yksi listan nimi" alt="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty yksi listan nimi" style="width:90.0%" />
 
 Klikkaamalla listan nimeä pääset näkemään listan sisällön. Voit varata tietueita tai poistaa tai yhdistellä valittuja tietueita listalta valintapainikkeilla. 
 
-![](/assets/files/docs/Listat_ja_Kori/listan_sisalto.png)
+<img src="/assets/files/docs/Listat_ja_Kori/listan_sisalto.png" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty otsikko Sisältö Kissakirjoja" alt="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty otsikko Sisältö Kissakirjoja" style="width:90.0%" /> 
 
 ### 8.1.4. Nimeketietueiden yhdistäminen Listojen kautta
 
@@ -98,26 +98,26 @@ yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki niteet ja
 nimekkeeseen liittyvät varaukset oikeassa järjestyksessä jäljelle
 jäävään nimeketietueeseen.
 
-![](/assets/files/docs/Listat_ja_Kori/yhdistettava_1.jpg)
+<img src="/assets/files/docs/Listat_ja_Kori/yhdistettava_1.jpg" title="Tiedonhakusivulta kuvankaappaus, jossa on punaisella laatikolla ympäröity Yhdistä valitut-nappula" alt="Tiedonhakusivulta kuvankaappaus, jossa on punaisella laatikolla ympäröity Yhdistä valitut-nappula" style="width:90.0%" />
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
 tietueet yhdistetään) ja voit valita myös luettelointipohjan.  
 
-![](/assets/files/docs/Listat_ja_Kori/yhdistettava_2.jpg)
+<img src="/assets/files/docs/Listat_ja_Kori/yhdistettava_2.jpg" title="Listat-sivulta kuvankaappaus yhdistettävistä tietueista" alt="Listat-sivulta kuvankaappaus yhdistettävistä tietueista" style="width:90.0%" />
 
 Vertaile tietueiden tietoja ja tarvittaessa siirrä muista tietueista
 tarvittavia kenttiä kohdetietueeseen. Jos kentän toistaminen on estetty
 luettelointiformaatissa, kentän toistaminen antaa virheilmoituksen.
 
-![](/assets/files/docs/Listat_ja_Kori/yhdistettava_3.jpg)
-
+<img src="/assets/files/docs/Listat_ja_Kori/yhdistettava_3.jpg" title="Listat-sivulta kuvankaapapus yhdistettävien tietueiden marc-näkymästä" alt="Listat-sivulta kuvankaapapus yhdistettävien tietueiden marc-näkymästä" style="width:90.0%" />
+ 
 ![](/assets/files/docs/Listat_ja_Kori/luettelointi014.png)
 
 Kun kuvailu näyttää valmiilta, klikkaa ruudun alareunassa _Yhdistä_.
 Asetuksissa voidaan määritellä, mitkä kentät näkyvät
 yhdistämisraportissa. Tässä tapauksessa kentät ovat 001, 245ab, 650.
 
-![](/assets/files/docs/Listat_ja_Kori/luettelointi012.png)
+<img src="/assets/files/docs/Listat_ja_Kori/luettelointi012.png" title="Listat-sivulta kuvankaappaus, jossa on punaisella ympyröity Yhdistä-painike" alt="Listat-sivulta kuvankaappaus, jossa on punaisella ympyröity Yhdistä-painike"
 
 Yhdistämisraportti näyttää tältä edellä mainittujen asetusten mukaan:
 
