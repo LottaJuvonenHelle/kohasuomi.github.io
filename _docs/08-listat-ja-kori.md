@@ -51,7 +51,7 @@ Lista voidaan luoda myös nimekehaun tuloksessa
 
 <!-- -->
 
-- Valitse _\[Uusi lista\]_ alasvetovalikosta  
+- Valitse _Uusi lista_ alasvetovalikosta  
   ![](/assets/files/docs/Listat_ja_Kori/uusi_lista1.png)
 
 Nimeä lista ja valitse listan tyyppi
@@ -65,12 +65,11 @@ Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää listalle_
 
 ### 8.1.2. Lisää listalle
 
-Lisätäksesi nimekkeitä olemassa olevalle listalle klikkaa listan nimeä
-(linkki) listat-sivulla.
+Lisätäksesi nimekkeitä olemassa olevalle listalle klikkaa listan nimeä _Listat_-sivulla.
 
 ![](/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png)
 
-Listat-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää niteitä_ ja lukemalla sen jälkeen niteen viivakoodin aukeavaan valikkoon.
+_Listat_-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää niteitä_ ja lukemalla sen jälkeen niteen viivakoodin aukeavaan valikkoon.
 
 ![](/assets/files/docs/Listat_ja_Kori/lisaa_niteita.png)
 
@@ -82,11 +81,10 @@ listan nimen.
 
 ### 8.1.3. Listojen katsominen
 
-Nähdäksesi jonkun listan sisällön, mene Listat-sivulle
-virkailijatyökalussa.  
+Nähdäksesi jonkun listan sisällön, mene _Listat_-sivulle.  
 ![](/assets/files/docs/Listat_ja_Kori/katso_lista.PNG)
 
-Klikkaamalla listan nimeä (linkki) pääset näkemään listan sisällön. Voit varata tietueita tai poistaa tai yhdistellä valittuja tietueita listalta valintapainikkeilla. 
+Klikkaamalla listan nimeä pääset näkemään listan sisällön. Voit varata tietueita tai poistaa tai yhdistellä valittuja tietueita listalta valintapainikkeilla. 
 
 ![](/assets/files/docs/Listat_ja_Kori/listan_sisalto.png)
 
@@ -99,7 +97,7 @@ yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki niteet ja
 nimekkeeseen liittyvät varaukset oikeassa järjestyksessä jäljelle
 jäävään nimeketietueeseen.
 
-![](/assets/files/docs/Listat_ja_Kori/luettelointi010.png)
+![](/assets/files/docs/Listat_ja_Kori/yhdistettävät_1.jpg)
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
 tietueet yhdistetään) ja voit valita myös luettelointipohjan.  
