@@ -101,11 +101,14 @@ jäävään nimeketietueeseen.
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
 tietueet yhdistetään) ja voit valita myös luettelointipohjan.  
+
+![](/assets/files/docs/Listat_ja_Kori/yhdistettava_2.jpg)
+
 Vertaile tietueiden tietoja ja tarvittaessa siirrä muista tietueista
 tarvittavia kenttiä kohdetietueeseen. Jos kentän toistaminen on estetty
 luettelointiformaatissa, kentän toistaminen antaa virheilmoituksen.
 
-![](/assets/files/docs/Listat_ja_Kori/yhdistettava_2.jpg)
+![](/assets/files/docs/Listat_ja_Kori/yhdistettava_3.jpg)
 
 ![](/assets/files/docs/Listat_ja_Kori/luettelointi014.png)
 
