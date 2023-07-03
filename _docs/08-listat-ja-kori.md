@@ -97,7 +97,7 @@ yhdistettäväksi. Yhdistämistoiminnon avulla saat kaikki niteet ja
 nimekkeeseen liittyvät varaukset oikeassa järjestyksessä jäljelle
 jäävään nimeketietueeseen.
 
-![](/assets/files/docs/Listat_ja_Kori/yhdistettävät.1jpg)
+![](/assets/files/docs/Listat_ja_Kori/yhdistettava.1jpg)
 
 Valitse listalta se tietue, mikä jää kohdetietueeksi (mihin muut
 tietueet yhdistetään) ja voit valita myös luettelointipohjan.  
@@ -105,7 +105,7 @@ Vertaile tietueiden tietoja ja tarvittaessa siirrä muista tietueista
 tarvittavia kenttiä kohdetietueeseen. Jos kentän toistaminen on estetty
 luettelointiformaatissa, kentän toistaminen antaa virheilmoituksen.
 
-![](/assets/files/docs/Listat_ja_Kori/yhdistettävät_2.jpg)
+![](/assets/files/docs/Listat_ja_Kori/yhdistettava_2.jpg)
 
 ![](/assets/files/docs/Listat_ja_Kori/luettelointi014.png)
 
@@ -117,7 +117,7 @@ yhdistämisraportissa. Tässä tapauksessa kentät ovat 001, 245ab, 650.
 
 Yhdistämisraportti näyttää tältä edellä mainittujen asetusten mukaan:
 
-![](/assets/files/docs/Listat_ja_Kori/luettelointi013.png)
+![](/assets/files/docs/Listat_ja_Kori/yhdistettava_4.jpg)
 
 ## 8.2. Kori
 
