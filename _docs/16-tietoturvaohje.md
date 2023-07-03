@@ -26,6 +26,8 @@ Vanhentuneilla virkailijatunnuksila kirjautuminen järjestelmään tulee estää
 
 ## Tunnukset ja kirjautuminen
 
+Virkailija- ja API-tunnuksia hallinnoivat pääsääntöisesti kimppojen pääkäyttäjät tai muut kimpan/kirjaston johdon valtuuttamat henkilöt. Koha-Suomi ei anna tunnuksia Koha-järjestelmiin, lukuunottamatta suoraan Koha-Suomen palveluksessa olevalle henkilökunnalle annettavia tunnuksia. Ennen tunnuksen luontia tulee olla selvillä miksi tunnus tarvitaan, kuka tarvitsee, mihin tunnusta tullaan käyttämään ja kuinka kauan sitä tarvitaan. Uusissa rajapinta-avauksissa tulee lisäksi aina konsultoida Koha-Suomea ennen tunnuksen antamista. Kimpan ja sen kuntien tietosuojaselosteiden läpikäynti ja päivitys voi myös olla tarpeen jos tunnuksia tehdään ulkopuolisille tahoille.
+
 Virkailjatunnukset täytyy erottaa virkailijan lainaajatunnuksista. Lainaajatunnuksien kanssa ei ole kirjastoautomaatiosta johtuen mahdollista käyttää riittävän vahvoja salasanoja. Virkailijatunnusten salasanojen tulisi olla vähintään aakkosnumeerisia ja riittävän pitkiä, kyberturvallisuuskeskus suosittelee vähintään 15 merkkiä. Sama koskee myös automaattien käyttämiä SIP-tunnuksia.
 
 Pääkäyttäjille kannattaa tehdä toinen matalammin käyttöoikeuksin varustettu tili perustyöskentelyyn. Pääkäyttäjätasoisin oikeuksin varustettua tiliä tulisi käyttää vain silloin kun sille on tarve.
