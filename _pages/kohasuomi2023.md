@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ## Viiko 27 muistiot
 ### Maanantai 3.7.2023 klo 10
 
-Läsnä:
+Läsnä: Lasse, Lari, Kodo, Emmi
 
 * Varmenteiden luominen
 * Keravan laskutus /Emmi
