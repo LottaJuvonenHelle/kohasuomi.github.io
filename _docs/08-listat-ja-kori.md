@@ -15,11 +15,11 @@ toc: true
 Listoja pääsee käsittelemään menemällä _Muita toimintoja-valikko -> Listat_. 
 Lista voidaan luoda Listat-sivulla klikkaamalla _Uusi lista_.
 
-![](/assets/files/docs/Listat_ja_Kori/lista.png)
+<img src="/assets/files/docs/Listat_ja_Kori/lista.png"
 
 Uudelle listalle on annettava muutama määritys:
 
-![](/assets/files/docs/Listat_ja_Kori/luo_lista.png)
+<img src="/assets/files/docs/Listat_ja_Kori/luo_lista.png" title="Listat-sivulta kuvankaappaus uuden listan luomisesta" alt="Listat-sivulta kuvankaappaus uuden listan luomisesta" style="width:90.0€ />
 
 - Anna listalle nimi _Nimi_ -kenttään.
 
