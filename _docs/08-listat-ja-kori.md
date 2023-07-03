@@ -44,7 +44,7 @@ Uudelle listalle on annettava muutama määritys:
 
 Lista voidaan luoda myös nimekehaun tuloksessa
 
-<img src="assets/files/docs/Listat_ja_Kori/listan_luominen_2.png" title="Hakutulosnäkymästä kuvankaappaus, jossa on keltaisella merkitty Uusi lista-valinta" alt="Hakutulosnäkymästä kuvankaappaus, jossa on keltaisella merkitty Uusi lista-valinta" style="width:90.0%" />
+<img src="/assets/files/docs/Listat_ja_Kori/listan_luominen_2.png" title="Hakutulosnäkymästä kuvankaappaus, jossa on keltaisella merkitty Uusi lista-valinta" alt="Hakutulosnäkymästä kuvankaappaus, jossa on keltaisella merkitty Uusi lista-valinta" style="width:90.0%" />
 
 - Valitse nimekkeen vasemmalla puolella oleviin valintaruutuihin ne
   nimekkeet, jotka haluat lisätä listalle.
