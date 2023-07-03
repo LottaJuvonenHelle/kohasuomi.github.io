@@ -13,7 +13,7 @@ toc: true
 ### 8.1.1 Listan luominen
 
 Listoja pääsee käsittelemään menemällä _Muita toimintoja-valikko -> Listat_. 
-Lista voidaan luoda Listat-sivulla klikkaamalla Uusi lista.
+Lista voidaan luoda Listat-sivulla klikkaamalla _Uusi lista_.
 
 ![](/assets/files/docs/Listat_ja_Kori/lista.png)
 
