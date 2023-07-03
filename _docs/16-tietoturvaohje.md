@@ -24,6 +24,8 @@ Kirjastokorttien ja virkailijatunnusten tulee lukittua jos salasana syötetään
 
 Vanhentuneilla virkailijatunnuksila kirjautuminen järjestelmään tulee estää. Järjestelmänkehittäjä voi ottaa toiminnon (ManageExpiredUserAccounts.pl cronjob) käyttöön pyynnöstä. Tunnuksen voimassaoloajan jatkaminen Kohan liittymässä aktivoi tunnuksen pienellä viiveellä jälleen takaisin, salasana ei muutu.
 
+Kaksivaiheinen tunnistautuminen tulee olla käytössä pääkäyttäjäoikeuksin varustetuilla tunnuksilla ja sen käyttö on suositeltavaa muillakin virkailijatunnuksilla.
+
 ## Tunnukset ja kirjautuminen
 
 Virkailija- ja API-tunnuksia hallinnoivat pääsääntöisesti kimppojen pääkäyttäjät tai muut kimpan/kirjaston johdon valtuuttamat henkilöt. Koha-Suomi ei anna tunnuksia Koha-järjestelmiin, lukuunottamatta suoraan Koha-Suomen palveluksessa olevalle henkilökunnalle annettavia tunnuksia. Ennen tunnuksen luontia tulee olla selvillä miksi tunnus tarvitaan, kuka tarvitsee, mihin tunnusta tullaan käyttämään ja kuinka kauan sitä tarvitaan. Uusissa rajapinta-avauksissa tulee lisäksi aina konsultoida Koha-Suomea ennen tunnuksen antamista. Kimpan ja sen kuntien tietosuojaselosteiden läpikäynti ja päivitys voi myös olla tarpeen jos tunnuksia tehdään ulkopuolisille tahoille.
