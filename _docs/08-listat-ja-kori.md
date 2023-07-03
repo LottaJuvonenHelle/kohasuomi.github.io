@@ -44,7 +44,7 @@ Uudelle listalle on annettava muutama määritys:
 
 Lista voidaan luoda myös nimekehaun tuloksessa
 
-![](/assets/files/docs/Listat_ja_Kori/listan_luominen_2.png)
+<img src="assets/files/docs/Listat_ja_Kori/listan_luominen_2.png" title="Hakutulosnäkymästä kuvankaappaus, jossa on keltaisella merkitty Uusi lista-valinta" alt="Hakutulosnäkymästä kuvankaappaus, jossa on keltaisella merkitty Uusi lista-valinta" style="width:90.0%" />
 
 - Valitse nimekkeen vasemmalla puolella oleviin valintaruutuihin ne
   nimekkeet, jotka haluat lisätä listalle.
@@ -52,7 +52,7 @@ Lista voidaan luoda myös nimekehaun tuloksessa
 <!-- -->
 
 - Valitse _Uusi lista_ alasvetovalikosta  
-  ![](/assets/files/docs/Listat_ja_Kori/uusi_lista1.png)
+<img src="/assets/files/docs/Listat_ja_Kori/uusi_lista1.png" title="Listat-sivulta kuvankaappaus" alt="Listat-sivulta kuvankaappaus" />
 
 Nimeä lista ja valitse listan tyyppi
 
@@ -67,11 +67,12 @@ Kun lista on tallennettu, pääset sinne _Listat_-sivulta ja _Lisää listalle_
 
 Lisätäksesi nimekkeitä olemassa olevalle listalle klikkaa listan nimeä _Listat_-sivulla.
 
-![](/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png)
+<img src="/assets/files/docs/Listat_ja_Kori/lisaa_listalle_2.png" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty yksi listan nimi" alt="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty yksi listan nimi" style="width:90.0%" />
 
 _Listat_-sivulla voit lisätä listalle uusia nimekkeitä klikkaamalla _Lisää niteitä_ ja lukemalla sen jälkeen niteen viivakoodin aukeavaan valikkoon.
 
-![](/assets/files/docs/Listat_ja_Kori/lisaa_niteita.png)
+<img src="/assets/files/docs/Listat_ja_Kori/lisaa_niteita.png" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty viivakoodi- ja tietuenumerokentät" title="Listat-sivulta kuvankaappaus, jossa on keltaisella merkitty viivakoodi- ja tietuenumerokentät" style="width:90.0%" />
+
 
 Nimeke voidaan lisätä listalle myös valitsemalla nimeke
 hakutulosnäytöltä ja valitsemalla Lisää listalle-valikosta olemassa olevan
