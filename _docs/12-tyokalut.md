@@ -151,6 +151,7 @@ ollenkaan.
 
 Asiakkaita ja lainatietoja voi poistaa eräajona seuraavien ehtojen
 mukaisesti:  
+
 <img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1V2022.PNG" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:90.0%" />
 
 - ylimmäisenä, otsikon yläpuolella, on Valitse kirjasto -vaihtoehto,
@@ -169,39 +170,31 @@ poistettaessa.
 ### 12.4.1 Asiakkaiden poisto
 
 Valitse haluamasi vaihtoehto/vaihtoehdot ja laita rasti
-_Vahvista_-ruutuun. Klikkaa sitten _Seuraava_-nappulaa.
+_Vahvista: Haluat varmasti poistaa asiakkaita_-ruutuun. Klikkaa sitten _Seuraava_-nappulaa.
 
-Seuraavaksi kerrotaan, kuinka monta asiakasta ollaan poistamassa ja mitä
-niille halutaan tehdä.  
+Seuraavaksi kerrotaan, kuinka monta asiakasta ollaan poistamassa ja mitä niille halutaan tehdä.  
+
 <img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2V2022.PNG" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta ollaan poistamassa ja kysytään, mitä asiakastiedoille halutaan tehdä" style="width:90.0%" />
 
 - Poistetaanko näiden asiakkaiden tiedot pysyvästi
-  - **Huom!** Tämä vaihtoehto poistaa asiakastiedot täysin
-    järjestelmästä, eikä niitä viedä deletedborrower-tauluun. Käytä
-    vain, jos haluat poistaa asiakastiedot täysin järjestelmästä ja
-    tilastoista.
+  - **Huom!** Tämä vaihtoehto poistaa asiakastiedot täysin järjestelmästä, eikä niitä viedä deletedborrower-tauluun. Käytä vain, jos haluat poistaa asiakastiedot täysin järjestelmästä ja tilastoista.
 - Siirrä näiden asiakkaiden tiedot roskakoriin
-  - tämä vaihtoehto siirtää asiakastiedot deletedborrowers-tauluun.
-    Tätä vaihtoehtoa kannattaa käyttää pääsääntöisesti.
+  - tämä vaihtoehto siirtää asiakastiedot deletedborrowers-tauluun. Tätä vaihtoehtoa kannattaa käyttää pääsääntöisesti.
 - Älä poista asiakastietoja (testiajo)
 
 Valitse haluamasi vaihtoehto ja klikkaa _Valmis_-nappulaa.
 
 Tämän jälkeen järjestelmä kertoo, kuinka monta asiakasta poistettiin, siirrettiin roskakoriin (deletedborrowers-tauluun) tai montako asiakastietoa olisi siirretty roskakoriin ja anonymisoitu, jos kyseessä ei olisi ollut testiajo. 
+
 <img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:90.0%" />
 
 ### 12.4.2 Lainahistorian anonymisointi
 
-Poista asiakkaita -toiminnon alapuolella on lainahistorian anonymisointi
--toiminto. Ihan ylimmäisenä, ennen asiakkaiden poistoa ja otsikon
-yläpuolella on Valitse kirjasto -vaihtoehto, josta voit valita, koskeeko
-anonymisointi kaikkia kirjastoja vai vain tiettyä kirjastoa.
+Poista asiakkaita -toiminnon alapuolella on lainahistorian anonymisointi -toiminto. Ihan ylimmäisenä, ennen asiakkaiden poistoa ja otsikon yläpuolella on Valitse kirjasto -vaihtoehto, josta voit valita, koskeeko anonymisointi kaikkia kirjastoja vai vain tiettyä kirjastoa.
 
-- Laita rasti kohtaan _Vahvista: Haluat anonymisoida asiakkaiden
-  lainahistorian_.
-- Valitse päivämäärä, mitä vanhemmat asiakkaiden lainahistoriat
-  poistetaan.
-- Klikkaa Seuraava
+- Laita rasti kohtaan _Vahvista: Haluat anonymisoida asiakkaiden lainahistorian_.
+- Valitse päivämäärä, mitä vanhemmat asiakkaiden lainahistoriat poistetaan.
+- Klikkaa _Seuraava_
 
 Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
@@ -215,38 +208,33 @@ Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
 ## 12.5 Asiakkaiden muokkaus eräajona
 
-Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle
-joukolle kerralla.
+Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle joukolle kerralla.
 
 <img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus1V2022.PNG" title="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" alt="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" style="width:90.0%" />  
-Muokattavat asiakkaat voi valita kolmella tavalla
 
+Muokattavat asiakkaat voi valita kolmella tavalla
 - tiedostosta
 - asiakaslistalta
-- lisäämällä heidän kirjastokortin numeron tekstikenttään, yksi per
-  rivi
+- lisäämällä heidän kirjastokortin numeron tekstikenttään, yksi per rivi
 
 Sen jälkeen valitaan _Seuraava_
 
 <img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.PNG" title="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" alt="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" style="width:90.0%" />
 
-Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu
-laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille eräajossa muutettavaksi valitsemillesi asiakkaille. Lopuksi valitaan _Tallenna_.
+Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille eräajossa muutettavaksi valitsemillesi asiakkaille. Lopuksi valitaan _Tallenna_.
 
 ---
 
 ## 12.6 Niteiden poisto eräajona
 
-Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä
-kerralla.
+Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä kerralla.
 
 Valitse ensin poistettavat niteet.  
+
 <img src="/assets/files/docs/Tyokalut/niteidenpoisto1V2022.PNG"  title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä"  style="width:70.0%" />
 
-- Voit tuoda niteet tiedostosta, joka sisältää joko viivakoodeja tai
-  nidenumeroita (itemnumber).
-  - Vinkki: Viivakoodi-tiedoston pystyy luomaan esim. Nidehaulla tai
-    lukemalla/lisäämällä ne tekstitiedostoon.
+- Voit tuoda niteet tiedostosta, joka sisältää joko viivakoodeja tai nidenumeroita (itemnumber).
+  - Vinkki: Viivakoodi-tiedoston pystyy luomaan esim. Nidehaulla tai lukemalla/lisäämällä ne tekstitiedostoon.
 - Tai lukea poistettavien niteiden viivakoodit tekstikenttään.
 
 Valitse sitten _Jatka_.
@@ -255,11 +243,8 @@ Poistettavat niteet listautuvat avautuvalle sivulle.
 <img src="/assets/files/docs/Tyokalut/niteidenpoisto2V2022.PNG" title="Kuvakaappaus valinnoista niteiden poisto -näkymästä" alt="Kuvakaappaus valinnoista niteiden poisto -näkymästä" style="width:90.0%" />
 
 - Voit valita, mitä sarakkeita niteistä näytetään.
-- Voit vielä tässä vaiheessa ottaa pois rastin sellaisen niteen
-  kohdalta, jota ei tarvikaan poistaa.
-- Suositus: Kannattaa laittaa rasti kohtaan _Poista tietueet, jos
-  kaikki niteet poistettu_, jotta tietokantaan ei jää “roikkumaan”
-  niteettömiä nimekkeitä. Huomioi kuitenkin kimppakohtaiset käytännöt.
+- Voit vielä tässä vaiheessa ottaa pois rastin sellaisen niteen kohdalta, jota ei tarvikaan poistaa.
+- Suositus: Kannattaa laittaa rasti kohtaan _Poista tietueet, jos kaikki niteet poistettu_, jotta tietokantaan ei jää “roikkumaan” niteettömiä nimekkeitä. Huomioi kuitenkin kimppakohtaiset käytännöt.
 
 Valitse lopuksi _Poista valitut_ -painike.
 
@@ -267,11 +252,9 @@ Saat yhteenvedon poistetuista niteistä ja tietueista:
 
 <img src="/assets/files/docs/Tyokalut/erapoisto2.png" title="Kuvakaappaus niteiden poiston tuloksista" alt="Kuvakaappaus niteiden poiston tuloksista" style="width:90.0%" />
 
-Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_
--napista tai linkistä.
+Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_-napista tai linkistä.
 
-Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset
-tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta
+Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta
 _Poista valitut_  
 <img src="/assets/files/docs/Tyokalut/niteidenpoisto4V2022.PNG" title="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" alt="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" style="width:90.0%" />
 
@@ -279,25 +262,19 @@ _Poista valitut_
 
 ## 12.7 Niteiden muokkaus eräajona
 
-Niteiden muokkaus eräajona tietueesta käsin on ohjeistettu
-\[\[/3_Luettelointi\#3222-Niteiden-erämuokkaus\|Niteiden
+Niteiden muokkaus eräajona tietueesta käsin on ohjeistettu \[\[/3_Luettelointi\#3222-Niteiden-erämuokkaus\|Niteiden
 erämuokkaus\]\]-osiossa.
 
-Työkaluista käsin liikkeelle lähdettäessä valitaan ensin, mitä niteitä
-muokataan.  
+Työkaluista käsin liikkeelle lähdettäessä valitaan ensin, mitä niteitä muokataan.  
+
 <img src="/assets/files/docs/Tyokalut/eramuokkaus1.png" title="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" alt="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" style="width:90.0%" />  
 Niteet voi tuoda
 
-- Viivakooditiedostosta, joka on tehty esim. keräämällä viivakoodeja
-  muistioon tai tallentamalla nidehaku viivakooditiedostoksi.
-- Nidenumerotiedostosta, joka on tehty esim. raportit-osiossa
-  sql-kyselyllä tietokannasta
+- Viivakooditiedostosta, joka on tehty esim. keräämällä viivakoodeja   muistioon tai tallentamalla nidehaku viivakooditiedostoksi.
+- Nidenumerotiedostosta, joka on tehty esim. raportit-osiossa   sql-kyselyllä tietokannasta
 - Lukemalla niteet yksi kerrallaan tekstilaatikkoon
 
-Niteille voi halutessaan lisätä oletuspohjan arvot laittamalla rastin
-kohtaan _Täytä kentät oletusarvoilla, oletuspohjasta_. Huomioi, että
-tämä ei välttämättä tuo mitään arvoja niteille, jos
-oletusluettelointipohjaan ei ole määritetty oletusarvoja 952-kenttään.
+Niteille voi halutessaan lisätä oletuspohjan arvot laittamalla rastin kohtaan _Täytä kentät oletusarvoilla, oletuspohjasta_. Huomioi, että tämä ei välttämättä tuo mitään arvoja niteille, jos oletusluettelointipohjaan ei ole määritetty oletusarvoja 952-kenttään.
 
 Valitse _Jatka_ muokataksesi niteitä.
 
@@ -311,27 +288,17 @@ Erämuokkauksessa voit
 Niteiden muokkaus  
 <img src="/assets/files/docs/Tyokalut/niteidenmuokkaus3V2022.PNG" title="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" alt="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" style="width:90.0%" />
 
-- Pakolliseksi merkittyjä tietoja ei pysty poistamaan niteiltä, mutta
-  ne voi vaihtaa toiseksi tiedoksi.
-- Tiedon pystyy poistamaan laittamalla rastin halutun kentän viereen.
-  Esim. kokoelmakoodin saa poistettua laittamalla rastin
-  Kokoelma-kentän viereen.
-- Tiedon pystyy lisäämään joko valitsemalla alasvetovalikosta
-  vaihtoehdon tai kirjoittamalla kenttään haluttu tieto. Riippuu
-  kentästä, kumpi vaihtoehto on mahdollista. Esim. kirjasto- ja
-  hyllypaikkatieto valitaan alasvetovalikosta, mutta
-  huomautus-kenttiin kirjoitetaan haluttu tieto.
+- Pakolliseksi merkittyjä tietoja ei pysty poistamaan niteiltä, mutta   ne voi vaihtaa toiseksi tiedoksi.
+- Tiedon pystyy poistamaan laittamalla rastin halutun kentän viereen. Esim. kokoelmakoodin saa poistettua laittamalla rastin Kokoelma-kentän viereen.
+- Tiedon pystyy lisäämään joko valitsemalla alasvetovalikosta vaihtoehdon tai kirjoittamalla kenttään haluttu tieto. Riippuu kentästä, kumpi vaihtoehto on mahdollista. Esim. kirjasto- ja hyllypaikkatieto valitaan alasvetovalikosta, mutta huomautus-kenttiin kirjoitetaan haluttu tieto.
 
-Muutokset tehdään valitsemalla _Tallenna_. Jos et haluakaan tehdä
-muutoksia, valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin
-muutoksia ei tehdä.
+Muutokset tehdään valitsemalla _Tallenna_. Jos et haluakaan tehdä muutoksia, valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin muutoksia ei tehdä.
 
 ---
 
 ## 12.8 Tietueiden poisto eräajona
 
-Tietueita pystyy poistamaan eräajona. Samaan näkymään voi päästä kahta
-kautta.
+Tietueita pystyy poistamaan eräajona. Samaan näkymään voi päästä kahta kautta.
 
 ### 12.8.1 Tietueen poisto korin kautta
 
@@ -347,13 +314,9 @@ Mene työkaluihin ja valitse _Tietueiden poisto eräajona_
 
 <img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona1.png" />
 
-- Valitse ensin, poistatko bibliografisia tietueita (nimekkeitä) vai
-  auktoritettitietueita (esim. kirjailijoita, asiasanoja).
+- Valitse ensin, poistatko bibliografisia tietueita (nimekkeitä) vai auktoritettitietueita (esim. kirjailijoita, asiasanoja).
 - Voit tuoda poistettavat tietueet joko
-  - tiedostona, joka sisältää poistettavien tietueiden tietuenumerot
-    (biblionumber). Tällaisen listan voi luoda esimerkiksi
-    sql-kyselyllä Raportointi-osiossa tai keräämällä tietuenumeroita
-    Muistioon.
+  - tiedostona, joka sisältää poistettavien tietueiden tietuenumerot (biblionumber). Tällaisen listan voi luoda esimerkiksi sql-kyselyllä Raportointi-osiossa tai keräämällä tietuenumeroita Muistioon.
   - valitsemalla valmiin listan Kohasta, tätä varten tee lista poistettavista tietueista. 
   - lisäämällä tietuenumerot tekstikenttään yksi per rivi.
 
@@ -363,18 +326,13 @@ Tietueiden poistossa listataan poistoon valitut tietueet.
 
 <img src="/assets/files/docs/Tyokalut/tietueidenpoisto3.png" />
 
-- jos tietueeseen liittyy lainassa olevia niteitä, ei sitä pysty
-  poistamaan.
-- voit vielä tässä vaiheessa ottaa rastin pois niiltä tietueilta,
-  joita et halua poistaa.
+- jos tietueeseen liittyy lainassa olevia niteitä, ei sitä pysty poistamaan.
+- voit vielä tässä vaiheessa ottaa rastin pois niiltä tietueilta, joita et halua poistaa.
 - **Huomioi**: tietueiden eräpoisto poistaa myös tietueeseen liittyvät
   lehtitilaukset, niteet ja varaukset (Kuvassa on käännösvirhe, subscriptions on käännetty virheellisesti "tilaukset", kun se oikeasti tarkoittaa Kohassa lehtitilauksia)
-  - tämä voi olla kätevää esim. kun teos ei ilmesty ja siihen on
-    paljon varauksia, jolloin sitä ei pysty poistamaan tietueesta
-    käsin poistamatta ensin varauksia.
+  - tämä voi olla kätevää esim. kun teos ei ilmesty ja siihen on paljon varauksia, jolloin sitä ei pysty poistamaan tietueesta käsin poistamatta ensin varauksia.
 
-Valitse lopuksi _Poista valitut tietueet_. Jos et haluakaan poistaa,
-valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin poistoa ei tehdä.
+Valitse lopuksi _Poista valitut tietueet_. Jos et haluakaan poistaa, valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin poistoa ei tehdä.
 
 Poiston jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa poiston tilanteen painamalla ”Tarkastele jonossa olevan työn tietoja”.  
 <img src="/assets/files/docs/Tyokalut/Tietueidenpoistoeraajona2.png" />
@@ -387,14 +345,11 @@ Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään
 
 ## 12.9 Tietueiden muokkaus eräajona
 
-Tietueiden muokkauksessa eräajona voi lisätä/muokata tai poistaa
-MARC-kenttiä. Valituille tietueille voi esimerkiksi lisätä kielikoodin
-tai huomautuksen.
+Tietueiden muokkauksessa eräajona voi lisätä/muokata tai poistaa MARC-kenttiä. Valituille tietueille voi esimerkiksi lisätä kielikoodin tai huomautuksen.
 
 Erämuokkauksessa on rajoituksia
 
-- jos tietueessa on jo olemassa muokattavaksi valittu MARC-kenttä,
-  päivittää työkalu sen. Se ei lisää uuttaa toistumaan kentästä.
+- jos tietueessa on jo olemassa muokattavaksi valittu MARC-kenttä, päivittää työkalu sen. Se ei lisää uuttaa toistumaan kentästä.
 - kiinteämittaisia kenttiä ei pysty muokkaamaan/poistamaan
 
 Ennen kuin tietueita voi muokata, pitää määrittää käytettävä
@@ -405,8 +360,7 @@ Tietueiden erämuokkaukseen pääse kahta kautta.
 **Korista**  
 <img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus1.png" />
 
-- Vie muokattavat tietueet koriin ja valitse kaikki (tai halutut) ja
-  valitse sitten _Erämuokkaus_.
+- Vie muokattavat tietueet koriin ja valitse kaikki (tai halutut) ja valitse sitten _Erämuokkaus_.
 
 **Työkaluista**  
 
@@ -414,25 +368,19 @@ Mene työkaluihin ja valitse _Tietueiden muokkaus eräajona_
 
 <img src="/assets/files/docs/Tyokalut/Tietueidenmuokkauseraajona1.png" />
 
-- Valitse ensin, muokataanko bibliografisia tietueita (nimekkeitä) vai
-  auktoriteettitietueita (esim. kirjailija, asiasana).
+- Valitse ensin, muokataanko bibliografisia tietueita (nimekkeitä) vai auktoriteettitietueita (esim. kirjailija, asiasana).
 - Seuraavaksi valitaan muokattavat tietueet joko
-  - tuomalla ne tiedostosta, jossa on lista tietuenumeroista
-    (biblionumber). Tällaisen voi luoda esim. sql-kyselyllä
-    Raportointi-osiossa tai keräämällä tietuenumeroita Muistioon.
+  - tuomalla ne tiedostosta, jossa on lista tietuenumeroista (biblionumber). Tällaisen voi luoda esim. sql-kyselyllä Raportointi-osiossa tai keräämällä tietuenumeroita Muistioon.
   - valitsemalla valmiin listan Kohasta, tätä varten tee lista poistettavista tietueista.
   - listaamalla tietuenumerot tekstikenttään yksi per rivi
-- Viimeiseksi valitaan, mitä muokkauspohjaa käytetään eli mitä
-  muutoksia tietueille tehdään.
+- Viimeiseksi valitaan, mitä muokkauspohjaa käytetään eli mitä muutoksia tietueille tehdään.
 
 Valitse sitten _Jatka_.
 
 <img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus2.png" />
 
-- Voit vielä vaihtaa muokkauspohjan tai tullessasi korista käsin,
-  valitse se nyt.
-- Voit tarkistaa muokkauksen tuloksen valitsemalla _Näytä MARC_,
-  jolloin avautuu MARC-tietueen esikatselu ja mukana on myös haluttu
+- Voit vielä vaihtaa muokkauspohjan tai tullessasi korista käsin, valitse se nyt.
+- Voit tarkistaa muokkauksen tuloksen valitsemalla _Näytä MARC_, jolloin avautuu MARC-tietueen esikatselu ja mukana on myös haluttu
   muutos:
 
 <img src="/assets/files/docs/Tyokalut/tietueidenmuokkaus3.png" />
