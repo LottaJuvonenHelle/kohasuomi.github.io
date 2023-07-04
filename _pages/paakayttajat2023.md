@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi)
+Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi), Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset asiat:**
 
@@ -27,6 +27,9 @@ Etelästä pohjoiseen
 * Lapin deleted-taulujen aikaleimat korjattu. Löytynyt erikoisia niteitä, joilta puuttuu kuvailutietue #606
 * Joillakin tietueilla 100-kentässä 9-attribuuttissa (Koha-Auth-Number) yksilöllinen numerosarja. Aiheuttaa sen, että hakutuloksessa tekijätiedon linkki ei löydy muita tuloksia. Tehty tiketti #682.
 * Kemiin tullut uusi omatoimiautomaatti.
+
+**OUTI**
+* Ei mitään erityistä.
 
   
 ## Viikko 26 muistio
