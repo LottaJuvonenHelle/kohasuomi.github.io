@@ -210,7 +210,7 @@ Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
 Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle joukolle kerralla.
 
-<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus1V2022.PNG" title="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" alt="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" style="width:90.0%" />  
+<img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus_v2023_1.jpg" title="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" alt="Kuvakaappaus asiakkaiden muokkaus eräajona sivun näkymästä" style="width:90.0%" />  
 
 Muokattavat asiakkaat voi valita kolmella tavalla
 - tiedostosta
