@@ -181,7 +181,7 @@ Läsnä: Pasi, Ari, Lasse, Lari, Kodo
 
 ### Maanantai 5.6.2023 klo 10
 
-Läsnä: Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
+Läsnä: Emmi, Pasi, Ari, Lasse, Lari, Kodo
 
 * [Seuraava yhteisön kehittäjien irc-tapaaminen 7.6.2023](https://wiki.koha-community.org/wiki/Development_IRC_meeting_7_June_2023)
 
@@ -189,7 +189,7 @@ Läsnä: Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
 
 ### Torstai 1.6.2023 klo 10
 
-Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
+Läsnä: Anneli, Emmi, Pasi, Ari, Lasse, Lari, Kodo
 
 * Pääkäyttäjät kysyy: onko tulossa testeille uudempi sisältö (asiakkaat, tietueet yms.) (lähiaikoina)?
   * Pasi päivittää
