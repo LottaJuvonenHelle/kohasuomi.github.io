@@ -19,8 +19,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä: Lasse, Lari, Kodo, Emmi
 
 * Varmenteiden luominen
-* Keravan laskutus /Emmi
-  * käydään vielä yhdessä mitä käyttöönotossa pitää ottaa huomioon 
+* Keravan laskutuspalaveri 30.6. klo 9 /Emmi
+  * laskut kulkevatkin Lowellin eteenpäin kautta eli yhteys on muodostettava Kohan ja Lowellin välille
+  * Lowelliin oltu yhteydessä Keravan kunnan toimesta 
+* Käytiin läpi laskutustyökalun käyttöönotto
+  * lisätään ohjeistusta vielä työkalun [wikiin](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki)  
 
 ## Viikon 26 muistiot
 ### Torstai 29.6.2023 klo 10
