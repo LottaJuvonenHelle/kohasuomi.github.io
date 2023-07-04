@@ -20,7 +20,7 @@ Etelästä pohjoiseen
 
 ## Viikko 26 muistio
 Aika: 27.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kodo, Kati Sillgren (Helle)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kodo, Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset asiat:**
 * https://github.com/KohaSuomi/Koha/issues/606
@@ -42,6 +42,9 @@ Pohjoisesta etelään
 
 **Helle**
 * Kohaan kirjautumisen sisällön määrityksissä oli käytössä script-tagi. Kehittäjä Emmi Takkiselta uudet määrittelyt kirjautumiseen ilman script-tagia.
+
+**Siilinjärvi**
+* Ei mainittavaa
   
   
 ## Viikko 25 muistio
