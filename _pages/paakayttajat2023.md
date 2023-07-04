@@ -12,11 +12,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
-Läsnä: 
+Läsnä: Päivi Knuutinen (Vaara)
 
 **Yhteiset asiat:**
 
 Etelästä pohjoiseen
+
+**Vaara**
+* Muutama PowerBI-raportti päätyy proxy erroriin, muut raportit toimivat. Nämä nyt "vialliset" ovat toimineet kesäkuun alussa.
+* Löytynyt toukokuun lopussa lisätty asiakastietue, josta puuttuu osoitetiedot, jotka ovat pakollisia tietoja. Hämmentävää.
+* Lähetetty Kansalliskirjastoon sähköpostia PerlKohaConin ohjelmasta, jota ei vieläkään näy missään.
 
 ## Viikko 26 muistio
 Aika: 27.6.2023 klo 9.15 <br />
