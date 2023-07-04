@@ -749,7 +749,33 @@ Valitse lopuksi _Poista valitut tietueet_. Jos et haluakaan poistaa, valitse _Pe
 
 Poiston jälkeen työn ilmoitetaan olevan jonossa. Voit tarkistaa tilanteen painamalla _Tarkastele jonossa olevan työn tietoja_ kuten edellä osiossa 5.3.2. on opastettu.
 
-### 5.3.5. MARC-muokkauksen pohjat
+### 5.3.5. Niteen muokkaus iän mukaan
+
+Kuvailu-osion Niteen muokkaus iän mukaan -toiminnolla teet säännön tai sääntöjä, joiden perusteella niteen tiedot muuttuvat automaattisesti. Automatiikan toimintaan tarvitaan säännön lisäksi järjestelmänkehittäjän ajastama yöllinen ajo (_misc/cronjobs/automatic_item_modification_by_age.pl_).
+
+Tee uusi sääntö tai muokkaa jo olemassa olevaa sääntöä valitsemalla toiminnon etusivulta _Muokkaa sääntöjä_ 
+
+<img src="/assets/files/docs/Tyokalut/ianmukaan01.png" alt="" style="width:90.0%" />
+
+Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää sääntö_  
+
+<img src="/assets/files/docs/Tyokalut/ianmukaan02.png" alt="" style="width:90.0%" />
+
+Määritä uudelle säännölle nämä:
+<img src="/assets/files/docs/Tyokalut/ianmukaan03.png" alt="" style="width:90.0%" />
+
+- **Ikä päivinä**. kirjoita päivien määrä.
+- **Ikä**, valitse se niteen päiväyskenttä, jonka mukaan ikä lasketaan.
+- **Ehdot**, valitse arvo, joka muuttuu automaattisesti. Voit lisätä useamman ehdon valitsemalla kentän vierestä _Lisää ehto_
+- **Korvaajat**, valitse arvo, joka korvaa automaattisesti Ehdot-kohdan arvon. Voit  lisätä useamman korvaajan valitsemalla _Lisää korvaaja_ kentän vierestä.
+
+Tallenna sääntö näytön yläreunan _Tallenna_-painikkeella.
+
+Poista tarpeeton sääntö valitsemalla _Poista tämä sääntö_.
+
+---
+
+### 5.3.6. MARC-muokkauksen pohjat
 
 Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. Tee sääntö _Kuvailu_-osion _MARC-muokkauksen pohjat_ -toiminnossa.
 
@@ -795,6 +821,7 @@ _Kuvaus_-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle
 ![](/assets/files/docs/Luettelointi/kuvailu76.png)
 
 Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.
+
 
 ## 5.4. Auktoriteetit
 
