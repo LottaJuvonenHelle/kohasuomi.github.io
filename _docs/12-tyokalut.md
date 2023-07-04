@@ -169,7 +169,7 @@ poistettaessa.
 ### 12.4.1 Asiakkaiden poisto
 
 Valitse haluamasi vaihtoehto/vaihtoehdot ja laita rasti
-Vahvista-ruutuun. Klikkaa sitten Seuraava-nappulaa.
+_Vahvista_-ruutuun. Klikkaa sitten _Seuraava_-nappulaa.
 
 Seuraavaksi kerrotaan, kuinka monta asiakasta ollaan poistamassa ja mitä
 niille halutaan tehdä.  
@@ -185,10 +185,9 @@ niille halutaan tehdä.
     Tätä vaihtoehtoa kannattaa käyttää pääsääntöisesti.
 - Älä poista asiakastietoja (testiajo)
 
-Valitse haluamasi vaihtoehto ja klikkaa Valmis-nappulaa.
+Valitse haluamasi vaihtoehto ja klikkaa _Valmis_-nappulaa.
 
-Tämän jälkeen järjestelmä kertoo, kuinka monta asiakasta poistettiin tai
-siirrettiin roskakoriin (deletedborrowers-tauluun).  
+Tämän jälkeen järjestelmä kertoo, kuinka monta asiakasta poistettiin, siirrettiin roskakoriin (deletedborrowers-tauluun) tai montako asiakastietoa olisi siirretty roskakoriin ja anonymisoitu, jos kyseessä ei olisi ollut testiajo. 
 <img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:90.0%" />
 
 ### 12.4.2 Lainahistorian anonymisointi
