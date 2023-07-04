@@ -154,7 +154,7 @@ mukaisesti:
 
 <img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto1V2022.PNG" title="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" alt="Kuvakaappaus asiakkaiden ja lainatietojen poisto eräajona -sivulta" style="width:90.0%" />
 
-- ylimmäisenä, otsikon yläpuolella, on Valitse kirjasto -vaihtoehto,
+- ylimmäisenä, otsikon yläpuolella, on _Valitse kirjasto_ -vaihtoehto,
   eli voit määrittää koskeeko ajo kaikkia kirjastoja vai vain tiettyä
   kirjastoa
 - jotka eivät ole lainanneet määritetyn päivämäärän jälkeen
@@ -222,77 +222,6 @@ Sen jälkeen valitaan _Seuraava_
 <img src="/assets/files/docs/Tyokalut/asiakkaidenmuokkaus2V2022.PNG" title="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" alt="Kuvakaappaus valittavista kentistä asiakkaiden muokkausnäkymästä" style="width:90.0%" />
 
 Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille eräajossa muutettavaksi valitsemillesi asiakkaille. Lopuksi valitaan _Tallenna_.
-
----
-
-## 12.6 Niteiden poisto eräajona
-
-Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä kerralla.
-
-Valitse ensin poistettavat niteet.  
-
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto1V2022.PNG"  title="Kuvakaappaus niteiden poisto eräajona -näkymästä" alt="Kuvakaappaus niteiden poisto eräajona -näkymästä"  style="width:70.0%" />
-
-- Voit tuoda niteet tiedostosta, joka sisältää joko viivakoodeja tai nidenumeroita (itemnumber).
-  - Vinkki: Viivakoodi-tiedoston pystyy luomaan esim. Nidehaulla tai lukemalla/lisäämällä ne tekstitiedostoon.
-- Tai lukea poistettavien niteiden viivakoodit tekstikenttään.
-
-Valitse sitten _Jatka_.
-
-Poistettavat niteet listautuvat avautuvalle sivulle.  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto2V2022.PNG" title="Kuvakaappaus valinnoista niteiden poisto -näkymästä" alt="Kuvakaappaus valinnoista niteiden poisto -näkymästä" style="width:90.0%" />
-
-- Voit valita, mitä sarakkeita niteistä näytetään.
-- Voit vielä tässä vaiheessa ottaa pois rastin sellaisen niteen kohdalta, jota ei tarvikaan poistaa.
-- Suositus: Kannattaa laittaa rasti kohtaan _Poista tietueet, jos kaikki niteet poistettu_, jotta tietokantaan ei jää “roikkumaan” niteettömiä nimekkeitä. Huomioi kuitenkin kimppakohtaiset käytännöt.
-
-Valitse lopuksi _Poista valitut_ -painike.
-
-Saat yhteenvedon poistetuista niteistä ja tietueista:
-
-<img src="/assets/files/docs/Tyokalut/erapoisto2.png" title="Kuvakaappaus niteiden poiston tuloksista" alt="Kuvakaappaus niteiden poiston tuloksista" style="width:90.0%" />
-
-Voit palata eräpoiston etusivulle _Palaa niteiden poiston eräajoon_-napista tai linkistä.
-
-Huomaa, että päädyt niteiden eräpoistoon myös silloin, jos valitset tietueesta useamman niteen ja sitten valitset taulukon yläpuolelta
-_Poista valitut_  
-<img src="/assets/files/docs/Tyokalut/niteidenpoisto4V2022.PNG" title="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" alt="Kuvakaappaus niteiden poiston valinnasta hakutulosnäkymästä" style="width:90.0%" />
-
----
-
-## 12.7 Niteiden muokkaus eräajona
-
-Niteiden muokkaus eräajona tietueesta käsin on ohjeistettu \[\[/3_Luettelointi\#3222-Niteiden-erämuokkaus\|Niteiden
-erämuokkaus\]\]-osiossa.
-
-Työkaluista käsin liikkeelle lähdettäessä valitaan ensin, mitä niteitä muokataan.  
-
-<img src="/assets/files/docs/Tyokalut/eramuokkaus1.png" title="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" alt="Kuvakaappaus niteiden muokkaus eräajona -näkymästä" style="width:90.0%" />  
-Niteet voi tuoda
-
-- Viivakooditiedostosta, joka on tehty esim. keräämällä viivakoodeja   muistioon tai tallentamalla nidehaku viivakooditiedostoksi.
-- Nidenumerotiedostosta, joka on tehty esim. raportit-osiossa   sql-kyselyllä tietokannasta
-- Lukemalla niteet yksi kerrallaan tekstilaatikkoon
-
-Niteille voi halutessaan lisätä oletuspohjan arvot laittamalla rastin kohtaan _Täytä kentät oletusarvoilla, oletuspohjasta_. Huomioi, että tämä ei välttämättä tuo mitään arvoja niteille, jos oletusluettelointipohjaan ei ole määritetty oletusarvoja 952-kenttään.
-
-Valitse _Jatka_ muokataksesi niteitä.
-
-Erämuokkauksessa voit  
-<img src="/assets/files/docs/Tyokalut/niteidenmuokkaus2V2022.PNG" title="Kuvakaappaus niteiden valinnasta muokkaukseen erajona -näkymästä" alt="Kuvakaappaus niteiden valinnasta muokkaukseen erajona -näkymästä" style="width:90.0%" />
-
-- valita, mitä niteitä muokataan
-- poistaa niteiltä lainassa-tilan (käytä harkiten)
-- säätää, mitä tietoja niteistä näytetään muokkauksessa
-
-Niteiden muokkaus  
-<img src="/assets/files/docs/Tyokalut/niteidenmuokkaus3V2022.PNG" title="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" alt="Kuvakaappaus niteisiin tehtävistä muokkauksista eräajona" style="width:90.0%" />
-
-- Pakolliseksi merkittyjä tietoja ei pysty poistamaan niteiltä, mutta   ne voi vaihtaa toiseksi tiedoksi.
-- Tiedon pystyy poistamaan laittamalla rastin halutun kentän viereen. Esim. kokoelmakoodin saa poistettua laittamalla rastin Kokoelma-kentän viereen.
-- Tiedon pystyy lisäämään joko valitsemalla alasvetovalikosta vaihtoehdon tai kirjoittamalla kenttään haluttu tieto. Riippuu kentästä, kumpi vaihtoehto on mahdollista. Esim. kirjasto- ja hyllypaikkatieto valitaan alasvetovalikosta, mutta huomautus-kenttiin kirjoitetaan haluttu tieto.
-
-Muutokset tehdään valitsemalla _Tallenna_. Jos et haluakaan tehdä muutoksia, valitse _Peruuta_ tai sulje ikkuna/välilehti, jolloin muutoksia ei tehdä.
 
 ---
 
