@@ -145,13 +145,9 @@ ollenkaan.
 
 ---
 
-## 12.4 Lähetä laskuja
 
-Laskutus tapahtuu laskutustyökalun avulla, katso [12.17.1 laskutustyökalun ohje](https://koha-suomi.fi/dokumentaatio/tyokalut/#12161-laskutusty%C3%B6kalu)
 
----
-
-## 12.5 Asiakkaiden poisto/lainatietojen poisto eräajona
+## 12.4 Asiakkaiden poisto/lainatietojen poisto eräajona
 
 Asiakkaita ja lainatietoja voi poistaa eräajona seuraavien ehtojen
 mukaisesti:  
@@ -170,7 +166,7 @@ mukaisesti:
 Kaikkia vaihtoehtoja voi yhdistellä keskenään asiakastietoja
 poistettaessa.
 
-### 12.5.1 Asiakkaiden poisto
+### 12.4.1 Asiakkaiden poisto
 
 Valitse haluamasi vaihtoehto/vaihtoehdot ja laita rasti
 Vahvista-ruutuun. Klikkaa sitten Seuraava-nappulaa.
@@ -195,7 +191,7 @@ Tämän jälkeen järjestelmä kertoo, kuinka monta asiakasta poistettiin tai
 siirrettiin roskakoriin (deletedborrowers-tauluun).  
 <img src="/assets/files/docs/Tyokalut/asiakkaidenpoisto2.png" title="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" alt="Kuvakaappaus, jossa kerrotaan kuinka monta asiakasta on siirretty roskakoriin" style="width:90.0%" />
 
-### 12.5.2 Lainahistorian anonymisointi
+### 12.4.2 Lainahistorian anonymisointi
 
 Poista asiakkaita -toiminnon alapuolella on lainahistorian anonymisointi
 -toiminto. Ihan ylimmäisenä, ennen asiakkaiden poistoa ja otsikon
@@ -218,7 +214,7 @@ Saat tiedon, kuinka monen asiakkaan lainahistoria anonymisoidaan.
 
 ---
 
-## 12.6 Asiakkaiden muokkaus eräajona
+## 12.5 Asiakkaiden muokkaus eräajona
 
 Asiakkaiden tietoja voi muokata eräajona eli tehdä sama muutos isommalle
 joukolle kerralla.
@@ -240,7 +236,7 @@ laittamalla rasti kentän viereen. Huomioi, että poisto tehdään kaikille erä
 
 ---
 
-## 12.7 Niteiden poisto eräajona
+## 12.6 Niteiden poisto eräajona
 
 Niteiden poistossa eräajona pystyy poistamaan ison joukon niteitä
 kerralla.
@@ -282,7 +278,7 @@ _Poista valitut_
 
 ---
 
-## 12.8 Niteiden muokkaus eräajona
+## 12.7 Niteiden muokkaus eräajona
 
 Niteiden muokkaus eräajona tietueesta käsin on ohjeistettu
 \[\[/3_Luettelointi\#3222-Niteiden-erämuokkaus\|Niteiden
@@ -333,12 +329,12 @@ muutoksia ei tehdä.
 
 ---
 
-## 12.9 Tietueiden poisto eräajona
+## 12.8 Tietueiden poisto eräajona
 
 Tietueita pystyy poistamaan eräajona. Samaan näkymään voi päästä kahta
 kautta.
 
-### 12.9.1 Tietueen poisto korin kautta
+### 12.8.1 Tietueen poisto korin kautta
 
 Vie haluamasi tietueet koriin ja avaa se.
 
@@ -346,7 +342,7 @@ Vie haluamasi tietueet koriin ja avaa se.
 
 - Valitse poistettavat tietueet ja klikkaa sitten _Eräpoisto_
 
-### 12.9.2 Tietueen poisto työkaluista käsin
+### 12.8.2 Tietueen poisto työkaluista käsin
 
 Mene työkaluihin ja valitse _Tietueiden poisto eräajona_
 
@@ -390,7 +386,7 @@ Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään
 
 ---
 
-## 12.10 Tietueiden muokkaus eräajona
+## 12.9 Tietueiden muokkaus eräajona
 
 Tietueiden muokkauksessa eräajona voi lisätä/muokata tai poistaa
 MARC-kenttiä. Valituille tietueille voi esimerkiksi lisätä kielikoodin
@@ -454,7 +450,7 @@ Jos valitset ”Tarkastele jonossa olevan työn tietoja”, pääset näkemään
 
 ---
 
-## 12.11 Niteen muokkaus iän mukaan
+## 12.10 Niteen muokkaus iän mukaan
 
 Kuvailu-osion Niteen muokkaus iän mukaan -toiminnolla teet säännön tai sääntöjä, joiden perusteella niteen tiedot muuttuvat automaattisesti. Automatiikan toimintaan tarvitaan säännön lisäksi järjestelmänkehittäjän ajastama yöllinen ajo (_misc/cronjobs/automatic_item_modification_by_age.pl_).
 
@@ -480,7 +476,7 @@ Poista tarpeeton sääntö valitsemalla _Poista tämä sääntö_.
 
 ---
 
-## 12.12 MARC-muokkauksen pohjat
+## 12.11 MARC-muokkauksen pohjat
 
 Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. 
 Tee sääntö Kuvailu-osion MARC-muokkauksen pohjat -toiminnossa.
@@ -526,7 +522,7 @@ Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusj
 
 ---
 
-## 12.13 Kalenteri
+## 12.12 Kalenteri
 
 Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät.
 Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä
@@ -538,7 +534,7 @@ kalenteri. Oikealla on vinkkejä ja listoja määritetyistä
 kiinniolopäivistä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:90.0%" />
 
-### 12.13.1 Kiinniolon lisääminen
+### 12.12.1 Kiinniolon lisääminen
 
 Lisää kiinniolopäivä-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
 päivämäärävälin ensimmäistä päivää. 
@@ -580,7 +576,7 @@ Kalenterin alalaidassa olevista linkeistä pääset takaisin kuluvan kuukauden k
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri4.png" title="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" alt="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" style="width:90.0%" />
 
-### 12.13.2 Sulkupäivien värikoodit
+### 12.12.2 Sulkupäivien värikoodit
 
 Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 
@@ -605,7 +601,7 @@ Kuluva päivä on näkyy tummanvihreällä kehystettynä, jos kyseinen päivä o
 näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:90.0%" />
 
-### 12.13.3 Sulkutiedon poistaminen
+### 12.12.3 Sulkutiedon poistaminen
 
 Sulkupäiviä voi myös poistaa, jos ne ovat virheellisiä tai tarpeettomia.
 
@@ -616,7 +612,7 @@ Valitse päivä tai aikavälin ensimmäinen päivä.
 Määritä tarvittaessa aikavälin loppupäivä. Valitse haluamasi
 poisto -vaihtoehto ja klikkaa Tallenna.
 
-### 12.13.4. Sulkutiedon muokkaaminen
+### 12.12.4. Sulkutiedon muokkaaminen
 
 Sulkupäivän voi muokata valitsemalla muutettava päivä. Voit muokata valitun päivän Nimekettä ja Kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokkauksen voi tehdä yksi päivä kerrallaan.
@@ -625,7 +621,7 @@ sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokk
 
 ---
 
-## 12.14 Lokien katselu
+## 12.13 Lokien katselu
 
 Lokien katselu -työkalulla pystyy hakemaan mm. asiakkaisiin, lainoihin,
 maksuihin, varauksiin ja luettelointitietueisiin liittyviä muutoksia.
@@ -684,7 +680,7 @@ välillä:
 
 ---
 
-## 12.15 Uutiset
+## 12.14 Uutiset
 
 Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
 
@@ -711,7 +707,7 @@ Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
 
 <img src="/assets/files/docs/Tyokalut/uutiset5.png" title="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" alt="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" style="width:90.0%" />
 
-### 12.15.1 Uuden uutisen luominen
+### 12.14.1 Uuden uutisen luominen
 
 Valitse sivun yläreunasta _Luo uusi_.
 
@@ -737,7 +733,7 @@ Valitse ja täytä tarvittavat tiedot:
 
 Tallenna valitsemalla *Tallenna* tai peruuta valitsemalla *Peruuta*.
 
-### 12.15.2 Uutisen poistaminen
+### 12.14.2 Uutisen poistaminen
 
 Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useamman uutiset voi poistaa valitsemalla uutinen vasemmalta ruksilla ja painamalla *Poista valitut*.
 
@@ -748,13 +744,13 @@ Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useam
 
 ---
 
-## 12.16 Työkaluliitännäiset
+## 12.15 Työkaluliitännäiset
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
 <img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:60.0%" />
 
-### 12.16.1 Laskutustyökalu
+### 12.15.1 Laskutustyökalu
 
 <img src="/assets/files/docs/Tyokalut/laskutus.png" title="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" alt="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" style="width:100.0%" />
 
@@ -788,7 +784,7 @@ Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite.
 Laskutuksen asetusten ohje on [Redminessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Laskutusty%C3%B6kalu-liit%C3%A4nn%C3%A4inen).
 
 
-### 12.16.2 Tulosta ilmoituksia
+### 12.15.2 Tulosta ilmoituksia
 
 *Tulosta ilmoituksia* -toimintoa käytetään, kun käytössä ei ole e-kirjepalvelua. Sillä tulostetaan pdf-muotoisia varausten saapumisilmoituksia sekä muistutuskirjeitä (palautuskehotuksia). *Tulosta ilmoituksia* -toiminto ei ole käytössä kaikissa kirjastokimpoissa.
 
@@ -806,14 +802,14 @@ Muistutusten kanssa toimitaan aivan samoin kuin noutoilmoitusten kanssa.
 <img src="/assets/files/docs/Tyokalut/tulostailmoituksia_tulostus.png" title="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" alt="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" style="width:100.0%" />
 
 
-### 12.16.3 Sotuteekki
+### 12.15.3 Sotuteekki
 
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
 Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
 
 <img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" style="width:70.0%" />
 
-### 12.16.4 Tarratulostustyökalu
+### 12.15.4 Tarratulostustyökalu
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
@@ -868,7 +864,7 @@ Ohje tarrapohjan muokkaajalle löytyy liitännäisen ohjesivulta:
 
 ---
 
-## 12.17 Siirtokokoelmat
+## 12.16 Siirtokokoelmat
 
 Siirtokokoelmaan lisätyt niteet palautuvat aina siihen kirjastoon, johon ne on siirretty. Niteiden kotikirjasto ei muutu. Perustiedot-näkymässä ei näy, että nide kuuluu johonkin siirtokokoelmaan.
 
