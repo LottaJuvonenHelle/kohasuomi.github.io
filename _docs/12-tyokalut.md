@@ -225,81 +225,7 @@ Asiakkaille voi joko lisätä tai poistaa tietoja. Poistaminen tapahtuu laittama
 
 ---
 
----
-
-## 12.10 Niteen muokkaus iän mukaan
-
-Kuvailu-osion Niteen muokkaus iän mukaan -toiminnolla teet säännön tai sääntöjä, joiden perusteella niteen tiedot muuttuvat automaattisesti. Automatiikan toimintaan tarvitaan säännön lisäksi järjestelmänkehittäjän ajastama yöllinen ajo (_misc/cronjobs/automatic_item_modification_by_age.pl_).
-
-Tee uusi sääntö tai muokkaa jo olemassa olevaa sääntöä valitsemalla toiminnon etusivulta _Muokkaa sääntöjä_ 
-
-<img src="/assets/files/docs/Tyokalut/ianmukaan01.png" alt="" style="width:90.0%" />
-
-Muokkaa olemassa olevaa sääntöä tai tee uusi sääntö valitsemalla _Lisää sääntö_  
-
-<img src="/assets/files/docs/Tyokalut/ianmukaan02.png" alt="" style="width:90.0%" />
-
-Määritä uudelle säännölle nämä:
-<img src="/assets/files/docs/Tyokalut/ianmukaan03.png" alt="" style="width:90.0%" />
-
-- **Ikä päivinä**. kirjoita päivien määrä.
-- **Ikä**, valitse se niteen päiväyskenttä, jonka mukaan ikä lasketaan.
-- **Ehdot**, valitse arvo, joka muuttuu automaattisesti. Voit lisätä useamman ehdon valitsemalla kentän vierestä _Lisää ehto_
-- **Korvaajat**, valitse arvo, joka korvaa automaattisesti Ehdot-kohdan arvon. Voit  lisätä useamman korvaajan valitsemalla _Lisää korvaaja_ kentän vierestä.
-
-Tallenna sääntö näytön yläreunan _Tallenna_-painikkeella.
-
-Poista tarpeeton sääntö valitsemalla _Poista tämä sääntö_.
-
----
-
-## 12.11 MARC-muokkauksen pohjat
-
-Tietueiden erämuokkaukseen tarvitaan sääntö, jonka perusteella tietuemuutos tehdään. 
-Tee sääntö Kuvailu-osion MARC-muokkauksen pohjat -toiminnossa.
-
-<img src="/assets/files/docs/Tyokalut/marcpohja.png" alt="" style="width:90.0%" />
-
-### Uuden muokkauspohjan tekeminen
-
-Tee uusi pohja valitsemalla _Uusi pohja_ 
-
-<img src="/assets/files/docs/Tyokalut/marcpohja1.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla Uusi pohja -niminen nappula" style="width:90.0%" />
-
-Anna pohjalle kuvaava nimi. Voit myös kopioida malliksi jo
-olemassa olevan pohjan.  
-<img src="/assets/files/docs/Tyokalut/marcpohja2.png" title="Kuvakaappaus uuden pohjan luonnista. Kuvassa on tekstikenttä Nimi ja alasvetovalikko, josta voi valita kopioitavan mallin. Nimi-kenttä on pakollinen." alt="Kuvakaappaus uuden pohjan luonnista. Kuvassa on tekstikenttä Nimi ja alasvetovalikko, josta voi valita kopioitavan mallin. Nimi-kenttä on pakollinen." style="width:90.0%" />
-
-Lisää pohjaan toiminnot niistä muutoksista, jotka tietueille tehdään. Valitse _Uusi toiminto_  
-<img src="/assets/files/docs/Tyokalut/marcpohja3.png" title="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." alt="Kuvakaappaus, jossa näkyy kaksi nappulaa: uusi pohja sekä uusi toiminto. Jälkimmäinen on ympyröity punaisella laatikolla." style="width:70.0%" />
-
-Valitse alasvetovalikosta tarvittava toiminto. 
-
-<img src="/assets/files/docs/Tyokalut/marcpohja4_1.PNG" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot poista, lisää/päivitä, siirry, kopio, kopioi ja korvaa" style="width:90.0%" />
-
-Valitse alasvetovalikosta koskeeko muutos kaikkia muutettavan kentän toistumia vai vain ensimmäistä kenttätoistumaa.
-<img src="/assets/files/docs/Tyokalut/marcpohja5.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1." alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, josta voi valita vaihtoehdot kaikki tai 1." style="width:90.0%" />
-
-Kirjoita muutettava kenttä.  
-<img src="/assets/files/docs/Tyokalut/marcpohja6.png" title="Kuvakaappaus, jossa on ympyröity punaisella laatikolla kaksi kirjoituskenttää. Toisessa on marc-kentän numero 500 ja toisessa marc-osakentän kirjain a" alt="Kuvakaappaus, jossa on ympyröity punaisella laatikolla kaksi kirjoituskenttää. Toisessa on marc-kentän numero 500 ja toisessa marc-osakentän kirjain a" style="width:90.0%" />
-
-Valitse tarvittaessa muut ehdot.  
-<img src="/assets/files/docs/Tyokalut/marcpohja61.png" title="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" alt="Kuvakaappaus, jossa on avattuna alasvetovalikko, jossa on vaihtoehdot jos ja paitsi" style="width:70.0%" />
-
-Kirjoita ehtoon liittyvä kenttä ja valitse alasvetovalikosta, milloin kenttä huomioidaan.  
-<img src="/assets/files/docs/Tyokalut/marcpohja7.png" title="Kuvakaappauksessa on kaksi kirjoituskenttää sek avattu alasvetovalikko. Kentiin on kirjoitettu 100 ja a. Alasvetovalikossa on vaihtoehdot &quot;on jo olemassa&quot;, &quot;ei ole olemassa&quot;, osumat ja &quot;ei osumaa&quot;" alt="Kuvakaappauksessa on kaksi kirjoituskenttää sek avattu alasvetovalikko. Kentiin on kirjoitettu 100 ja a. Alasvetovalikossa on vaihtoehdot &quot;on jo olemassa&quot;, &quot;ei ole olemassa&quot;, osumat ja &quot;ei osumaa&quot;" style="width:90.0%" />
-
-Lisää tarvittaessa ehtoon RegEx-sääntö. ("Säännöllinen lauseke (engl. regular expression, regexp) on yksinkertainen merkkijonokieli, joka voi joko vastata tai olla vastaamatta jotain toista merkkijonoa." Tekstin lähde: https://www.linux.fi/wiki/S%C3%A4%C3%A4nn%C3%B6llinen_lauseke)
-Kuvaus-kenttään voit lisätä tiedon, mitä muokkaustominto tekee tietueelle.
-Tallenna toiminto valitsemalla _Lisää toiminto_.  
-<img src="/assets/files/docs/Tyokalut/marcpohja8.png" title="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." alt="Kuvakaappaus valmiiksi määritetystä toiminnosta. Punaisella on ympyröity kohdat RegEx, Kuvaus sekä Lisää toiminto -nappula. Kuvaus-kenttään on kirjoitettu Tällä säännöllä voi poistaa Aku Ankoista 500a-kentän." style="width:90.0%" />
-
-Voit lisätä samaan pohjaan useamman toiminnon ja muuttaa toimintojen suoritusjärjestyksen nuolipainikkeilla.  
-<img src="/assets/files/docs/Tyokalut/marcpohja9.png" title="Kuvakaappaus, jossa näkyy valmiina juuri tehty sääntö taulukkona. Ensimmäissä sarakkeessa lukee Muuta järjestystä, toisessa sarakkeessa lukee tilaus, kolmannessa sarakkeessa lukee Toiminto, neljännessä sarakkeessa lukee Kuvaus, viidennessä sarakkeessa on muokkaa-nappula, kuudennessa sarakkeessa on poista-nappula." alt="Kuvakaappaus, jossa näkyy valmiina juuri tehty sääntö taulukkona. Ensimmäissä sarakkeessa lukee Muuta järjestystä, toisessa sarakkeessa lukee tilaus, kolmannessa sarakkeessa lukee Toiminto, neljännessä sarakkeessa lukee Kuvaus, viidennessä sarakkeessa on muokkaa-nappula, kuudennessa sarakkeessa on poista-nappula." style="width:90.0%" />
-
----
-
-## 12.12 Kalenteri
+## 12.6 Kalenteri
 
 Kalenteri-työkalulla voi määrittää kirjaston aukiolo- ja sulkupäivät.
 Jos päivä on merkitty kalenterissa suljetuksi, ei sille tule eräpäiviä
@@ -311,7 +237,7 @@ kalenteri. Oikealla on vinkkejä ja listoja määritetyistä
 kiinniolopäivistä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri1.png" title="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" alt="Kuvakaappaus kalenteri-työkalun näkymästä. Esillä on vasemmalla Oulun kaupungin pääkirjaston kalenteri maaliskuulta 2022. Oikealla on vinkkejä ja listoja kiinniolopäivistä" style="width:90.0%" />
 
-### 12.12.1 Kiinniolon lisääminen
+### 12.6.1 Kiinniolon lisääminen
 
 Lisää kiinniolopäivä-valikko avautuu klikkaamalla kalenterista haluttua päivämäärää tai
 päivämäärävälin ensimmäistä päivää. 
@@ -353,7 +279,7 @@ Kalenterin alalaidassa olevista linkeistä pääset takaisin kuluvan kuukauden k
 
 <img src="/assets/files/docs/Tyokalut/Kalenteri4.png" title="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" alt="Kuvakaappaus kalenterissa olevista Eilinen, Today ja Huominen -linkeistä" style="width:90.0%" />
 
-### 12.12.2 Sulkupäivien värikoodit
+### 12.6.2 Sulkupäivien värikoodit
 
 Eri tyyppiset sulkupäivät on merkitty eri väreillä.
 
@@ -378,7 +304,7 @@ Kuluva päivä on näkyy tummanvihreällä kehystettynä, jos kyseinen päivä o
 näkyy siinä sulkupäivän tyypin mukainen väri vihreällä kehystettynä.  
 <img src="/assets/files/docs/Tyokalut/Kalenteri7.png" title="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" alt="Kuvakaappaus kalenterista, jossa on ympyröity punaisella laatikolla kuluva päivä" style="width:90.0%" />
 
-### 12.12.3 Sulkutiedon poistaminen
+### 12.6.3 Sulkutiedon poistaminen
 
 Sulkupäiviä voi myös poistaa, jos ne ovat virheellisiä tai tarpeettomia.
 
@@ -389,7 +315,7 @@ Valitse päivä tai aikavälin ensimmäinen päivä.
 Määritä tarvittaessa aikavälin loppupäivä. Valitse haluamasi
 poisto -vaihtoehto ja klikkaa Tallenna.
 
-### 12.12.4. Sulkutiedon muokkaaminen
+### 12.6.4. Sulkutiedon muokkaaminen
 
 Sulkupäivän voi muokata valitsemalla muutettava päivä. Voit muokata valitun päivän Nimekettä ja Kuvausta. Valitse
 sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokkauksen voi tehdä yksi päivä kerrallaan.
@@ -398,7 +324,7 @@ sitten vaihtoehto _Muokkaa kiinniolopäivää_ ja klikkaa Tallenna-nappia. Muokk
 
 ---
 
-## 12.13 Lokien katselu
+## 12.7 Lokien katselu
 
 Lokien katselu -työkalulla pystyy hakemaan mm. asiakkaisiin, lainoihin,
 maksuihin, varauksiin ja luettelointitietueisiin liittyviä muutoksia.
@@ -457,7 +383,7 @@ välillä:
 
 ---
 
-## 12.14 Uutiset
+## 12.8 Uutiset
 
 Uutiset-työkalulla voi kirjoittaa uutisia tai tiedotteita virkailijaliittymään, Kohan verkkokirjastoon ja kuiteille. Uutisia voi kirjoittaa niillä kielillä, mitä omaan Kohaan on asennettu.
 
@@ -484,7 +410,7 @@ Uutiset näkyvät virkailijaliittymässä etusivun vasemmassa reunassa.
 
 <img src="/assets/files/docs/Tyokalut/uutiset5.png" title="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" alt="Etusivulta kuvakaappaus, jossa näkyy kaksi uutista ja vähän muita osia sivusta" style="width:90.0%" />
 
-### 12.14.1 Uuden uutisen luominen
+### 12.8.1 Uuden uutisen luominen
 
 Valitse sivun yläreunasta _Luo uusi_.
 
@@ -510,7 +436,7 @@ Valitse ja täytä tarvittavat tiedot:
 
 Tallenna valitsemalla *Tallenna* tai peruuta valitsemalla *Peruuta*.
 
-### 12.14.2 Uutisen poistaminen
+### 12.8.2 Uutisen poistaminen
 
 Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useamman uutiset voi poistaa valitsemalla uutinen vasemmalta ruksilla ja painamalla *Poista valitut*.
 
@@ -521,13 +447,13 @@ Uutisen voi poistaa klikkaamalla halutun uutisen kohdalla *Poista*-nappia. Useam
 
 ---
 
-## 12.15 Työkaluliitännäiset
+## 12.9 Työkaluliitännäiset
 
 Työkaluliitännäiset löytyvät Työkalut-sivun Muut työkalut-palstalta. Koha-Suomella tällä hetkellä neljä työkaluliitännäistä: laskutustyökalu, tulosta ilmoituksia, sotuteekki ja tarratulostustyökalu.
 
 <img src="/assets/files/docs/Tyokalut/tyokaluliitannaiset.png" title="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" alt="Työkaluliitännäiset-sivulta kuvakaappaus, jossa luetellaan käytössä olevat liitännäiset" style="width:60.0%" />
 
-### 12.15.1 Laskutustyökalu
+### 12.9.1 Laskutustyökalu
 
 <img src="/assets/files/docs/Tyokalut/laskutus.png" title="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" alt="Näkymä laskutustyökalusta: rajaustoiminnot ja yhden testiasiakkaan laskutettavat niteet" style="width:100.0%" />
 
@@ -561,7 +487,7 @@ Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite.
 Laskutuksen asetusten ohje on [Redminessa](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Laskutusty%C3%B6kalu-liit%C3%A4nn%C3%A4inen).
 
 
-### 12.15.2 Tulosta ilmoituksia
+### 12.9.2 Tulosta ilmoituksia
 
 *Tulosta ilmoituksia* -toimintoa käytetään, kun käytössä ei ole e-kirjepalvelua. Sillä tulostetaan pdf-muotoisia varausten saapumisilmoituksia sekä muistutuskirjeitä (palautuskehotuksia). *Tulosta ilmoituksia* -toiminto ei ole käytössä kaikissa kirjastokimpoissa.
 
@@ -579,14 +505,14 @@ Muistutusten kanssa toimitaan aivan samoin kuin noutoilmoitusten kanssa.
 <img src="/assets/files/docs/Tyokalut/tulostailmoituksia_tulostus.png" title="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" alt="Näkymä noutoilmoituksen pdf-tulostuksesta: vasemmalla saapumisilmoituskirje ja oikealla pdf-tulostuksen valikoita ja painikkeita" style="width:100.0%" />
 
 
-### 12.15.3 Sotuteekki
+### 12.9.3 Sotuteekki
 
 Sotuteekistä löytyvät asiakkaiden henkilötunnukset. Sitä käytetään asiakaslaskutuksessa, kun halutaan selvittää laskutettavan asiakkaan henkilötunnus asiakkaan sotu-avaimen avulla.
 Sotuteekkiin kirjaudutaan erillisillä tunnuksilla. Tunnukset ovat vain laskuttajilla. Kimppojen pääkäyttäjät voivat luoda tunnuksia, jos laskuttajissa tapahtuu muutoksia.
 
 <img src="/assets/files/docs/Tyokalut/sotuteekki.png" title="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" alt="Sotuteekki-sivulta kuvakaappaus, jossa ovat kentät tunnus, salasana ja sotu-avain" style="width:70.0%" />
 
-### 12.15.4 Tarratulostustyökalu
+### 12.9.4 Tarratulostustyökalu
 
 Aloita tarratulostus valitsemalla tarrapohja.
 
@@ -641,7 +567,7 @@ Ohje tarrapohjan muokkaajalle löytyy liitännäisen ohjesivulta:
 
 ---
 
-## 12.16 Siirtokokoelmat
+## 12.10 Siirtokokoelmat
 
 Siirtokokoelmaan lisätyt niteet palautuvat aina siihen kirjastoon, johon ne on siirretty. Niteiden kotikirjasto ei muutu. Perustiedot-näkymässä ei näy, että nide kuuluu johonkin siirtokokoelmaan.
 
