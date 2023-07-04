@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi), Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi), Veli-Pekka Marjoniemi (OUTI), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat:**
 
@@ -31,10 +31,14 @@ Etelästä pohjoiseen
 **OUTI**
 * Ei mitään erityistä.
 
+**Vaski**
+* Mynämäen kellutus alkanut eilen. Ongelmia ei ilmennyt. Kellutus kiinnostaa nyt muissakin kunnissa.
+* Verkkomaksuissa havaittu pitkiäkin viiveitä. Maksujen poistumisessa Kohasta voi kestää. Maksukuittauksetkaan eivät ole menneet asiakkaille perille. Paytrailin päässä ei havaittu ongelmia. Jatketaan selvittelyä Kansalliskirjaston kanssa.
+
   
 ## Viikko 26 muistio
 Aika: 27.6.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kodo, Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kodo, Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat:**
 * https://github.com/KohaSuomi/Koha/issues/606
@@ -59,11 +63,15 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * Ei mainittavaa
+
+**Vaski**
+* Varausten kuljetustiloja peruutettaessa nidekuljetustilat eivät poistu. Tämä olisi tarpeen joissain tilanteissa, koska nyt kuljetustilan saa sellaiseen tilaan, ettei sitä saa helposti purettua niteeltä.
+* Bugzillasta löytynyt joitain tikettejä koskien havaittuja ongelmia. Tiketöidään myös GitHubiin.
   
   
 ## Viikko 25 muistio
 Aika: 20.6.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Lari
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Lari, Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat:**
 * Emottomien osakohteiden poisto, tiketti [#348](https://github.com/KohaSuomi/Koha/issues/348) tehty jo tammikuussa. Olisi tärkeää saada siivottua näitä emottomia osakohteita pois tietokannoista/Päivi
