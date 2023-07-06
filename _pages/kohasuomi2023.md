@@ -14,6 +14,17 @@ hidden: true
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
 ## Viiko 27 muistiot
+### Torstai 6.7.2023 klo 10
+
+Läsnä: Lasse, Lari, Kodo, Emmi
+
+* Viikon 28 päivitys:
+  * OKM-plugarin päivitys: uusi sarake publication_year
+* Yhteisön tiketti [33734](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=33734)
+  * Lasse hoitaa
+* Biblioitems.datereceived on edelleen kiinni MARC-pohjissa kentässä 942$1
+  * pääkäyttäjille hoksautus 
+
 ### Maanantai 3.7.2023 klo 10
 
 Läsnä: Lasse, Lari, Kodo, Emmi
