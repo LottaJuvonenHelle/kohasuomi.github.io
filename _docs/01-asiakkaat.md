@@ -664,7 +664,7 @@ useita eri välilehtiä, joilla on erilaisia tietoja.
 
 ### 1.7.1. Lainaus
 Lainaus-välilehden toiminnot on kuvattu tarkemmin Kohan ohje suomeksi -ohjeen 
-kohdassa [2. Lainaaminen](https://koha-suomi.fi/dokumentaatio/lainaus/)
+kohdassa [2. Lainaus ja palautus](https://koha-suomi.fi/dokumentaatio/lainaus/)
 
 ### 1.7.2. Tiedot
 
