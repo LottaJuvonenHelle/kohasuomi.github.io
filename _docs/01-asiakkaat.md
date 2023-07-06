@@ -728,7 +728,7 @@ nide on lainattu tai asiakkaan kirjautuminen automaatille
   
   Huom. Muutoslokiin pääsee myös Työkalujen kautta. 
   Se on ohjeistettu Kohan ohje suomeksi -ohjeen 
-  kohdassa [12.14 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#1214-lokien-katselu)
+  kohdassa [12.7 Lokien katselu](https://koha-suomi.fi/dokumentaatio/tyokalut/#127-lokien-katselu)
 
 ### 1.7.6. Ilmoitukset
 
