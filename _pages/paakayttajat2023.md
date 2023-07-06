@@ -10,6 +10,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 28 muistio
+Aika:
+Läsnä:
+
+**Yhteiset asiat:**
+
+* biblioitems.datereceived, joka oli KS-muutos ja tiputettiin versionvaihdossa pois, on edelleen kiinni kuvailupohjissa kentässä 942$1
+  * liitos pitäisi ottaa pois (ja mahdollisesti korvata toisella sarakkeella)
+
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
 Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi), Veli-Pekka Marjoniemi (OUTI), Mikko Liimatainen (Vaski)
