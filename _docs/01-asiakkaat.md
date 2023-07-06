@@ -151,7 +151,7 @@ tietoturvallisesti asiakkaiden henkilötunnukset. Sotuteekki on yhteinen kaikill
 Sotuteekissa esimerkiksi laskuttajat voivat tarkistaa asiakkaan henkilötunnuksen
 sotu-avaimella. Heillä on erilliset tunnukset tarkistusta varten.
 Sotuteekistä tarkemmin Kohan ohje suomeksi -ohjeen
-kohdassa [12.16.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#12163-sotuteekki)
+kohdassa [12.9.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#1293-sotuteekki)
 
 ### 1.2.2. Nimi, syntymäaika ja varaustunnus
 
