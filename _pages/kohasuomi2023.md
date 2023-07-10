@@ -14,13 +14,15 @@ hidden: true
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
 ## Viikon 28 muistiot
+
 ### Maanantai 10.7.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Lari ja Lassi
 
 * Viikon 28 päivitys:
   * OKM-plugarin päivitys: uusi sarake [publication_year](https://github.com/KohaSuomi/koha-plugin-OKM-stats/issues/8)
-  * [Palautuskuittiin ei tule palautettujen lainojen tietoja, jos laina- ja palautuskirjasto ovat erit #449](https://github.com/KohaSuomi/Koha/issues/449)  
+  * [Palautuskuittiin ei tule palautettujen lainojen tietoja, jos laina- ja palautuskirjasto ovat erit #449](https://github.com/KohaSuomi/Koha/issues/449)
+  * [Listan kautta tietueiden erämuokkaus](https://github.com/KohaSuomi/Koha/issues/574)
 
 ## Viikon 27 muistiot
 ### Torstai 6.7.2023 klo 10
