@@ -47,8 +47,8 @@ Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. t
 * Muuten rauhallista, aikaa siivota tietokantaa 
   
 **Helle**
-* Asiakastiedon vasemman tietoruudun Tili on lukittu -teksti aiheuttanut henkilökunnassa hämmennystä. Palaverissa saatu tieto, että tekstiin ei tule muutosta/tarkennusta, mistä on kyse.
-* Palaverissa mainittu kuvailupohjan biblioitems.datereceived liitoksen poisto: Helleen jätetty vielä. 942|1-kentän mahdollisista arvoista apua tikettiin https://github.com/KohaSuomi/Koha/issues/392 (Tänään 34182 tikettiin liittyvällä niteellä on ko. kentän arvona muu päiväysarvo kuin 2018-09-04.) 
+* Asiakastiedon vasemman tietoruudun Tili on lukittu -teksti aiheuttanut henkilökunnassa hämmennystä. Palaverissa saatu tieto, että tekstiin ei tule muutosta/tarkennusta.
+* Palaverissa mainittu kuvailupohjan biblioitems.datereceived liitoksen poisto: Helleen jätetään toistaiseksi. 942|1-kentän mahdollisista arvoista on apua tikettiin #392 (Tänään 34182 tikettiin liittyvällä niteellä on ko. kentän arvona muu päiväysarvo kuin 2018-09-04.) 
   
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
