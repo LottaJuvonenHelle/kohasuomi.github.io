@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28 muistio
 
 Aika: 11.7.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Piia Semenoff (OUTI)
 
 **Yhteiset asiat:**
 
