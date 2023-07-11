@@ -21,7 +21,7 @@ Läsnä: Leena Kinnunen (Lappi)
   * liitos pitäisi ottaa pois (ja mahdollisesti korvata toisella sarakkeella)
 * [Virkailijoille tullut versionvaihdossa liikaa oikeuksia maksuissa #572](https://github.com/KohaSuomi/Koha/issues/572)
   * nämä voisi tarkistaa joka kimpasta ja kommentoida tikettiin onko näille tarve tehdä jotakin, tehdään korjaukset sitten kaikille kerralla
-* Finnan ongelmien ja kehitysehdotusten läpikäynti ja niiden lähettäminen Kansalliskirjastoon. 
+* Finnan ongelmien ja kehitysehdotusten läpikäynti (jossain ennalta sovitussa aamupalaverissa). 
 
 
 **Lappi**
