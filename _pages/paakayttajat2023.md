@@ -11,14 +11,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
 ## Viikko 28 muistio
-Aika:
+
+Aika: 11.7.2023 klo 9.15
 Läsnä:
 
 **Yhteiset asiat:**
 
 * biblioitems.datereceived, joka oli KS-muutos ja tiputettiin versionvaihdossa pois, on edelleen kiinni kuvailupohjissa kentässä 942$1
   * liitos pitäisi ottaa pois (ja mahdollisesti korvata toisella sarakkeella)
-*  [Virkailijoille tullut versionvaihdossa liikaa oikeuksia maksuissa #572](https://github.com/KohaSuomi/Koha/issues/572)
+* [Virkailijoille tullut versionvaihdossa liikaa oikeuksia maksuissa #572](https://github.com/KohaSuomi/Koha/issues/572)
   * nämä voisi tarkistaa joka kimpasta ja kommentoida tikettiin onko näille tarve tehdä jotakin, tehdään korjaukset sitten kaikille kerralla  
 
 ## Viikko 27 muistio
