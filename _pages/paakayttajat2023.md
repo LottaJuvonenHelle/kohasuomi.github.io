@@ -12,8 +12,8 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 28 muistio
 
-Aika: 11.7.2023 klo 9.15
-Läsnä: Leena Kinnunen (Lappi)
+Aika: 11.7.2023 klo 9.15 <br />
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset asiat:**
 
@@ -40,6 +40,12 @@ ja se on luonut joka kerta tekijätietoa tallennettaessa uuden yksilöllisen tun
 Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. tekijältä. Tehty tiketti #682. : Korjaantui vaihtamalla järjestelmäasetuksen UseAuthoritiesForTracings valinnaksi: Älä käytä auktoriteettitietueiden numeroita tekstitiedon sijasta asiasanahauissa.
 * Hoidettu rästiin jääneitä pikkukorjauksia Kohaan
 * Tukipyyntöjen osalta rauhallista
+
+**Vaara**
+* Viime viikolla raportoimani ongelma PowerBI-raporttien proxy errorista johtui muuttuneesta käytännöstä. Lari sai sen korjattua ja Emmi teki [tiedotteen](https://github.com/KohaSuomi/Koha/discussions/685)
+* Vastaanotettavien kuljetusten listalla näkyy varattujen niteiden kohdalla asiakkaan nimi ja hänen sähköpostiosoitteensa. Tein siitä tiketin [664](https://github.com/orgs/KohaSuomi/projects/4/views/1?pane=issue&itemId=31270343)
+* Muuten rauhallista, aikaa siivota tietokantaa 
+  
 
   
 ## Viikko 27 muistio
