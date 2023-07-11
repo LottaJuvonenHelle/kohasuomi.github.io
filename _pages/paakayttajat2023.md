@@ -41,6 +41,10 @@ Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. t
 * Hoidettu rästiin jääneitä pikkukorjauksia Kohaan
 * Tukipyyntöjen osalta rauhallista
 
+**OUTI**
+* Rauhallista, perustukihommia
+* Koha Offline-lainauksessa tuli vastaan kummallisuus, että virkailijoiden omiin henkilökohtaisiin tallennuspaikkoihin tallentamat Kohan Offline-lainat näkyivät toisilla koneilla eri käyttäjien Koha-istunnoissa, kun lainoja siirrettiin tiedostoista Kohaan. Vika ei todennäköisesti ole Kohassa vaan tutkitaan ensin onko kyseessä Oulun sisäinen tiedosto-ongelma. 
+
 **Vaara**
 * Viime viikolla raportoimani ongelma PowerBI-raporttien proxy errorista johtui muuttuneesta käytännöstä. Lari sai sen korjattua ja Emmi teki [tiedotteen](https://github.com/KohaSuomi/Koha/discussions/685)
 * Vastaanotettavien kuljetusten listalla näkyy varattujen niteiden kohdalla asiakkaan nimi ja hänen sähköpostiosoitteensa. Tein siitä tiketin [687](https://github.com/orgs/KohaSuomi/projects/4/views/1?pane=issue&itemId=32700366) 
