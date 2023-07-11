@@ -37,7 +37,7 @@ tehty tiketti, voidaanko nämä 9-osakentän tiedot poistaa
   
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi), Veli-Pekka Marjoniemi (OUTI), Mikko Liimatainen (Vaski)
+Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi), Veli-Pekka Marjoniemi (OUTI), Mikko Liimatainen (Vaski), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset asiat:**
 
@@ -59,6 +59,9 @@ Etelästä pohjoiseen
 **Vaski**
 * Mynämäen kellutus alkanut eilen. Ongelmia ei ilmennyt. Kellutus kiinnostaa nyt muissakin kunnissa.
 * Verkkomaksuissa havaittu pitkiäkin viiveitä. Maksujen poistumisessa Kohasta voi kestää. Maksukuittauksetkaan eivät ole menneet asiakkaille perille. Paytrailin päässä ei havaittu ongelmia. Jatketaan selvittelyä Kansalliskirjaston kanssa.
+
+**Siilinjärvi**
+* Kohassa ei erityistä, muut kesätyöt pitävät kiireisenä
 
   
 ## Viikko 26 muistio
