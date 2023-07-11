@@ -130,7 +130,7 @@ Läsnä: Emmi, Kodo, Lari, Lasse, Pasi
   * Releasen voi rakentaa halutessaan itse käyttämällä deploy-skriptiä.
 
 * Integraatioasioita
-  * Tilausten vastaanoton automatisointi (Vaski)
+  * Tilausten vastaanoton automatisointi eli Puppe (Vaski)
     * Palaveerattu nyt ohjelmistotoimittajan (Broomworks kanssa) Kodon koollekutsumana.
     * Paikalla oli Koha-Suomelta Kodo, Vaskista Anni Rajala, Kaisa Hypén ja Aki Pyykkö ja Broomworksilta Urho Kaipainen.
     * Viedään aineistontoimittajan sanomatunnus EDItX hankinnoissa aqbasket-taulun booksellernote -kenttään tilausten täsmäytystä varten.
