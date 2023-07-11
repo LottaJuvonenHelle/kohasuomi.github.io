@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28 muistio
 
 Aika: 11.7.2023 klo 9.15
-Läsnä:
+Läsnä: Leena Kinnunen (Lappi)
 
 **Yhteiset asiat:**
 
@@ -22,6 +22,18 @@ Läsnä:
 * [Virkailijoille tullut versionvaihdossa liikaa oikeuksia maksuissa #572](https://github.com/KohaSuomi/Koha/issues/572)
   * nämä voisi tarkistaa joka kimpasta ja kommentoida tikettiin onko näille tarve tehdä jotakin, tehdään korjaukset sitten kaikille kerralla  
 
+
+**Lappi**
+* Kohan ohje päivitetty Lapin vastuualueelta
+* Osassa tietueita on 100-kentän 9-osakentässä RLIN-numero (Koha-Auth-Number), esim. biblionumber=1743001 tekijätieto muodossa an:128065, ei au.
+Ilmeisesti RLIN-numero on syntynyt jossain vaiheessa, jos on ollut päällä automaattinen auktorisointi, 
+ja se on luonut joka kerta tekijätietoa tallennettaessa uuden yksilöllisen tunnisteen. 
+Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. tekijältä. Tehty tiketti #682. Onko muilla näitä, yhteinen korjaus?
+tehty tiketti, voidaanko nämä 9-osakentän tiedot poistaa
+* Hoidettu rästiin jääneitä pikkukorjauksia Kohaan
+* Tukipyyntöjen osalta rauhallista
+
+  
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
 Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi), Veli-Pekka Marjoniemi (OUTI), Mikko Liimatainen (Vaski)
