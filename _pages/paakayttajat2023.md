@@ -18,11 +18,19 @@ Läsnä: Leena Kinnunen (Lappi)
 **Yhteiset asiat:**
 
 * biblioitems.datereceived, joka oli KS-muutos ja tiputettiin versionvaihdossa pois, on edelleen kiinni kuvailupohjissa kentässä 942$1
-  * liitos pitäisi ottaa pois (ja mahdollisesti korvata toisella sarakkeella)
+  * liitos pitäisi ottaa pois (ja mahdollisesti korvata toisella sarakkeella) - se onnistuu Poista napilla 942-kentän tietoja katsottaessa.
+  * ![kuva](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/1f529cb9-80a1-4721-8e95-5aa10d57563b)
+  * korvaavaa ei keksitty äkkiseltään. Mietitään ajan kanssa, onko tarvetta.
+
 * [Virkailijoille tullut versionvaihdossa liikaa oikeuksia maksuissa #572](https://github.com/KohaSuomi/Koha/issues/572)
   * nämä voisi tarkistaa joka kimpasta ja kommentoida tikettiin onko näille tarve tehdä jotakin, tehdään korjaukset sitten kaikille kerralla
-* Finnan ongelmien ja kehitysehdotusten läpikäynti (jossain ennalta sovitussa aamupalaverissa). 
 
+* Finnan ongelmien ja kehitysehdotusten läpikäynti (jossain ennalta sovitussa aamupalaverissa).
+  * Sovitaan aika lomien jälkeen, kun on enemmän väkeä paikalla.
+
+* [KohaConin-ohjelma](https://perlkohacon.fi/Schedule.html#) (näyttää päivittyvän jatkuvasti)
+
+Pohjoisesta etelään
 
 **Lappi**
 * Kohan ohje päivitetty Lapin vastuualueelta
