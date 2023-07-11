@@ -37,8 +37,7 @@ Pohjoisesta etelään
 * Osassa tietueita on 100-kentän 9-osakentässä RLIN-numero (Koha-Auth-Number), esim. biblionumber=1743001 tekijätieto muodossa an:128065, ei au.
 Ilmeisesti RLIN-numero on syntynyt jossain vaiheessa, jos on ollut päällä automaattinen auktorisointi, 
 ja se on luonut joka kerta tekijätietoa tallennettaessa uuden yksilöllisen tunnisteen. 
-Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. tekijältä. Tehty tiketti #682. Onko muilla näitä, yhteinen korjaus?
-Korjaantui vaihtamalla järjestelmäasetuksen UseAuthoritiesForTracings valinnaksi: Älä käytä auktoriteettitietueiden numeroita tekstitiedon sijasta asiasanahauissa.
+Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. tekijältä. Tehty tiketti #682. : Korjaantui vaihtamalla järjestelmäasetuksen UseAuthoritiesForTracings valinnaksi: Älä käytä auktoriteettitietueiden numeroita tekstitiedon sijasta asiasanahauissa.
 * Hoidettu rästiin jääneitä pikkukorjauksia Kohaan
 * Tukipyyntöjen osalta rauhallista
 
