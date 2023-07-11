@@ -38,7 +38,7 @@ Pohjoisesta etelään
 Ilmeisesti RLIN-numero on syntynyt jossain vaiheessa, jos on ollut päällä automaattinen auktorisointi, 
 ja se on luonut joka kerta tekijätietoa tallennettaessa uuden yksilöllisen tunnisteen. 
 Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. tekijältä. Tehty tiketti #682. Onko muilla näitä, yhteinen korjaus?
-tehty tiketti, voidaanko nämä 9-osakentän tiedot poistaa
+Korjaantui vaihtamalla järjestelmäasetuksen UseAuthoritiesForTracings valinnaksi: Älä käytä auktoriteettitietueiden numeroita tekstitiedon sijasta asiasanahauissa.
 * Hoidettu rästiin jääneitä pikkukorjauksia Kohaan
 * Tukipyyntöjen osalta rauhallista
 
