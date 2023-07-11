@@ -43,7 +43,7 @@ Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. t
 
 **Vaara**
 * Viime viikolla raportoimani ongelma PowerBI-raporttien proxy errorista johtui muuttuneesta käytännöstä. Lari sai sen korjattua ja Emmi teki [tiedotteen](https://github.com/KohaSuomi/Koha/discussions/685)
-* Vastaanotettavien kuljetusten listalla näkyy varattujen niteiden kohdalla asiakkaan nimi ja hänen sähköpostiosoitteensa. Tein siitä tiketin [664](https://github.com/orgs/KohaSuomi/projects/4/views/1?pane=issue&itemId=31270343)
+* Vastaanotettavien kuljetusten listalla näkyy varattujen niteiden kohdalla asiakkaan nimi ja hänen sähköpostiosoitteensa. Tein siitä tiketin [687](https://github.com/orgs/KohaSuomi/projects/4/views/1?pane=issue&itemId=32700366) 
 * Muuten rauhallista, aikaa siivota tietokantaa 
   
 
