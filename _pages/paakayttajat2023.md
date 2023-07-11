@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28 muistio
 
 Aika: 11.7.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle)
 
 **Yhteiset asiat:**
 
@@ -46,7 +46,9 @@ Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. t
 * Vastaanotettavien kuljetusten listalla näkyy varattujen niteiden kohdalla asiakkaan nimi ja hänen sähköpostiosoitteensa. Tein siitä tiketin [687](https://github.com/orgs/KohaSuomi/projects/4/views/1?pane=issue&itemId=32700366) 
 * Muuten rauhallista, aikaa siivota tietokantaa 
   
-
+**Helle**
+* Asiakastiedon vasemman tietoruudun Tili on lukittu -teksti aiheuttanut henkilökunnassa hämmennystä. Palaverissa saatu tieto, että tekstiin ei tule muutosta/tarkennusta, mistä on kyse.
+* Palaverissa mainittu kuvailupohjan biblioitems.datereceived liitoksen poisto: Helleen jätetty vielä. 942|1-kentän mahdollisista arvoista apua tikettiin https://github.com/KohaSuomi/Koha/issues/392 (Tänään 34182 tikettiin liittyvällä niteellä on ko. kentän arvona muu päiväysarvo kuin 2018-09-04.) 
   
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
