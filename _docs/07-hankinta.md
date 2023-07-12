@@ -818,7 +818,7 @@ samaa, hidastuu vastaanotto.
   postikuluja.
 
 Kun klikkaat _Seuraava_, saat sivun, jossa listataan kaikki valitun toimittajan tilaukset. Voit nyt etsiä
-vastaanotettavan teoksen kirjoittamalla/syöttämällä taulukon yläpuolella olevaan Hae-laatikkoon esim. teoksen nimen alun, ISBN-numeron tai tekijän
+vastaanotettavan teoksen kirjoittamalla/syöttämällä taulukon yläpuolella olevaan Haku-laatikkoon esim. teoksen nimen alun, ISBN-numeron tai tekijän
 nimestä alun. Voit myös käyttää taulukon omia suodatusrivejä kirjoittaa/lukea Yhteenveto-sarakkeen hakukenttään hakemasi tiedon.
 
 Klikkaa vastaanotettavan teoksen rivin oikeassa reunassa olevaa
@@ -849,12 +849,27 @@ vastaanotettaviin.
 ![](/assets/files/docs/Hankinta/hankinta77.png)
 
 Kun olet vastaanottanut koko lähetyksen, valitse alareunasta _Lopeta
-vastaanotto_, jolloin ohjaudut kuittisivulle.  
+vastaanotto_, jolloin ohjaudut laskun tietoihin.
 ![](/assets/files/docs/Hankinta/hankinta771.png)
 
 - Laita rasti kohtaan _Suljettu_, jolloin lasku suljetaan, eikä jää
   turhaan avoimeksi.
 - Valitse sitten _Tallenna_.
+
+### 7.5.1 Oikaisut
+
+Laskun tiedoissa Oikaisut-kohdasta pystyy tekemään tilauksen summaan oikaisuja klikkaamalla _Lisää oikaisu_.
+
+Oikaisut voivat olla tarpeellisia esimerkiksi pyöristysten tai tilille lisättyjen creditien vuoksi.
+
+![](/assets/files/docs/Hankinta/hankinta772.png)
+
+- _Summa_: Lisää tähän oikaisun summa. Se voi olla positiivinen tai negatiivinen.
+- _Syy_: Oikaisun syy. Vaatii, että auktorisoituihin arvoihin on määritetty ADJ_REASON-luokkaan syyt.
+- _Huomaa_: Tähän voi lisätä huomautuksia.
+- _Tili_: Valitse tähän tili, jonka summaa oikaistaan.
+- _Vähennetäänkö heti avoimesta laskusta?_: Jos tähän laittaa rastin, tehdään oikaisu heti. Jos rastia ei laiteta, otetaan oikaisu huomioon vasta, kun lasku suljetaan.
+- _Päivitä oikaisut_ -napista saa tallennettua oikaisun.
 
 Pääset pois sivulta valitsemalla vasemmalta valikosta esim. Hankinnat.
 
