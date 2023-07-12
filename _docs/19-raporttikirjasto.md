@@ -20,7 +20,7 @@ Raportilla voi laskea omat tilastot Koha-yhteisön Hea-muodossa, jotta pystyy ar
 [Koha-yhteisön Hea-tilastopalvelu](https://hea.koha-community.org/)
 
 
-Lisännyt: Anneli Österman
+Lisännyt: Anneli Österman<br />
 Pvm: 2.1.2020
 
 ```
@@ -49,7 +49,6 @@ Tällä raportilla saadaan selville lainaaja, vaikka hän olisi määritellyt yk
 Raporttiin luetaan niteen viivakoodi ja se näyttää kaikki "yksityiset" asiakkaat palautusajan mukaan laskevasti.
 
 ```
-<code class="sql">
 select DATE_FORMAT(s.datetime, '%d.%m.%Y %T') as 'Palautusaika',  
 CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',bi.biblionumber,'\">',bi.title,'</a>') AS 'Nimeke', 
 CONCAT('<a href=\"/cgi-bin/koha/circ/circulation.pl?borrowernumber=',b.borrowernumber,'\">',b.firstname,' ',b.surname,'</a>') AS 'Lainaaja' 
@@ -59,8 +58,6 @@ join items i on i.itemnumber = s.itemnumber
 join biblio bi on i.biblionumber = bi.biblionumber
 where b.privacy = 2 and s.type = 'return' and barcode=<<barcode>> order by s.datetime desc
 ```
-
-
 
 ### Ylen lainat
 
@@ -83,8 +80,6 @@ GROUP BY b.biblionumber
 ORDER BY 1,2,3
 ```
 
-
-
 ### Ensilainat tunneittain viikonpäivittäin
 
 Laskee ensilainat tunneittain viikonpäivän mukaan valitussa kirjastossa valitulla ajanjaksolla. Raportin tehnyt Pasi Kallinen 2019.
@@ -101,13 +96,11 @@ GROUP BY Paiva, Tunti
 ORDER BY WEEKDAY(datetime), Tunti
 ```
 
-
-
 ### Lainatilasto
 
 Raportti laskee ensilainat (issue) ja uusinnat (renew) sekä niiden summan. Tiedot ryhmitetään kirjastoittain. Raportille annetaan parametriksi kirjastotunnuksen kuntaosio ja %-merkki, (esim. OU% tai JOE%) ja aikaväli. Lainoihin ei lasketa mukaan asiakastyyppien EITILASTO ja KAUKOLAINA lainoja. Muokkaa tarvittaessa asiakastyyppien tunnisteita. Raportti näyttää automaattisesti 100 riviä.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 10.12.2021
 
 ```
@@ -124,7 +117,7 @@ group by s.branch, s.type WITH ROLLUP LIMIT 100
 
 Raportti laskee lainassa olleiden palautusten määrän aikavälillä ryhmitettynä kirjastoittain. Raportille annetaan parametriksi kirjastotunnuksen kuntaosio ja %-merkki (esim. OU% tai JOE%) sekä aikaväli. Raportti on hidas.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 10.12.2021
 
 ```
@@ -144,7 +137,7 @@ group by s.branch WITH ROLLUP LIMIT 50
 
 Hakee automaatilla tietyllä ajanjaksolla tehdyt lainat ja palautukset ja lajittelee ne kellonajan mukaan. Raporttiin tarvitaan automaatin asiakas-ID -numero (borrowernumber). Muista laittaa haettava ajanjakso päättymään päivää myöhemmin eli esim. tammikuun lainat haetaan 1.1.-1.2. Tiedot selvitetään action_logs-merkinnöistä. Raportti on hidas.
 
-Lisääjä: Lari Strand
+Lisääjä: Lari Strand<br />
 Pvm: 14.12.2021
 
 ```
@@ -160,13 +153,11 @@ FROM action_logs
 GROUP BY HOUR(timestamp)
 ```
 
-
-
 ### Videopelien lainamäärät
 
 Raportti listaa tietueet, joiden aineistotyyppi on videopeli ja näyttää niiden hyllypaikan, konsolityypin (mikäli se on merkitty 753a-kenttään), viimeisimmän lainauspäivän, vastaanottopäivän ja niteen lainamäärän.
 
-Lisätty: 13.1.2022
+Lisätty: 13.1.2022<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -183,14 +174,12 @@ order by 2,3,1
 LIMIT 2000
 ```
 
-
-
 ### PowerBI-koulutusta varten luotu kysely
 
 Raportti on luotu PowerBI-koulutusta varten ja hakee lainoja ja uusintoja. Mukaan ei tule Ei tilasto -asiakastyypin lainoja/uusintoja. Tämä versio on päivitetty toimimaan versiossa 21.11.
 
-Lisätty: 11.10.2022
-Lisääjä: Anneli Österman
+Lisätty: 11.10.2022<br />
+Lisääjä: Anneli Österman<br />
 Versio: 21.11
 
 ```
@@ -214,13 +203,10 @@ AND b.categorycode != 'EITILASTO'
 AND s.type in ('issue', 'renew')
 ```
 
-
-
 ### PowerBI-tilasto kunnan mukaan
 
-
-Lisätty: 29.9.2022
-Lisääjä: Anneli Österman
+Lisätty: 29.9.2022<br />
+Lisääjä: Anneli Österman<br />
 Versio: 21.11
 
 Tämä on sama raportti kuin yllä, mutta mukaan otetaan vain määritetyn kunnan tilastot. Rajaus tehdään kirjoittamalla kuntaosion alku ja %-merkki. Esim. OU%, JOE%. Raportilla voi hakea myös yhden kirjaston tiedot, jos kuntaosio-ehtoon laittaa koko kirjastoyksikön tunnuksen, esim, OUPE%.
@@ -245,12 +231,10 @@ AND s.type in ('issue', 'renew')
 AND s.branch like <<Kuntaosio ja %-merkki>>
 ```
 
-
-
 ### PowerBI-tilasto, jossa nimekkeestä myös alaotsikko ja osan nimeke
 
-Lisätty: 11.10.2022
-Lisääjä: Päivi Knuutinen
+Lisätty: 11.10.2022<br />
+Lisääjä: Päivi Knuutinen<br />
 Versio: 21.11
 
 ```
@@ -275,14 +259,12 @@ AND b.categorycode != 'EITILASTO'
 AND s.type in ('issue', 'renew')
 ```
 
-
-
 ### Kirjaston voimassa olevien lainojen määrä eräpäiväaikavälillä
 
 Raportti laskee, kuinka monta voimassa olevaa lainaa on valitussa kirjastossa valitulla eräpäiväaikavälillä. Tällä voidaan tarkistaa esim. kirjaston yllättävissä sulkutilanteissa, onko tarpeen siirtää eräpäiviä eteenpäin.
 
-Lisätty: 18.10.2022
-Lisääjä: Anneli Österman
+Lisätty: 18.10.2022<br />
+Lisääjä: Anneli Österman<br />
 Versio: 21.11
 
 ```
@@ -293,14 +275,12 @@ and date(date_due) between  <<Alkupvm|date>> and  <<Loppupvm|date>>
 group by 1 WITH ROLLUP
 ```
 
-
-
 ### Celia-äänikirjojen lainat
 
 PUHECD-aineiston 599a Daisy-niteiden lainat+uusinnat yhteensä niteen kotikirjaston mukaan
 
-Lisätty: 24.11.2022
-Lisääjä: Päivi Knuutinen
+Lisätty: 24.11.2022<br />
+Lisääjä: Päivi Knuutinen<br />
 Versio: 21.11
 
 ```
@@ -317,15 +297,13 @@ group by items.itemnumber
 order by lainat DESC
 ```
 
-
-
 ## Kaukolainat
 
 ### Kaukolainojen kuukausitilasto, valitse vuosi
 
 Laskee annetut kaukolainat ja ryhmittelee ne kuukauden ja aineistotyypin mukaan. Parametreiksi annetaan vuosi ja lainaava kirjasto. Mukaan lasketaan vain ensilainat.
 
-Pvm: 2.7.2021
+Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -342,7 +320,7 @@ GROUP BY month(datetime), itemtype
 
 Laskee annetut kaukolainat ja ryhmittelee ne kuukauden ja aineistotyypin mukaan. Parametreiksi annetaan aikaväli ja lainaava kirjasto. Mukaan lasketaan vain ensilainat.
 
-Pvm: 2.7.2021
+Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -359,7 +337,7 @@ GROUP BY month(datetime), itemtype with ROLLUP
 
 Laskee annetut kaukolainat. Parametreiksi annetaan vuosi, hyllypaikka ja lainaava kirjasto. Mukaan lasketaan vain ensilainat.
 
-Pvm: 2.7.2021
+Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -378,7 +356,7 @@ GROUP BY year(datetime)
 
 Laskee annetut kaukolainat, joiden niteen luokka kuuluu kaunokirjallisuuden luokkaan. Parametreiksi annetaan vuosi, aineistotyyppi ja lainaava kirjasto. Mukaan lasketaan vain ensilainat.
 
-Pvm: 2.7.2021
+Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -398,7 +376,7 @@ GROUP BY year(datetime)
 
 Laskee annetut kaukolainat ja ryhmittelee tulokset postinumeron ja aineistotyypin mukaan. Parametreiksi annetaan vuosi ja lainaava kirjasto. Mukaan lasketaan vain ensilainat.
 
-Pvm: 2.7.2021
+Pvm: 2.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -412,8 +390,6 @@ AND branch=<<Lähettävä kirjasto|branches>>
 GROUP BY zipcode, itemtype
 ```
 
-
-
 ## Asiakkaat ja tunnukset
 
 
@@ -421,8 +397,8 @@ GROUP BY zipcode, itemtype
 
 Celian aineistoja lainanneiden asiakkaiden määrä kuntatasolla ja vuoden mukaan.
 
-Lisännyt: Anneli Österman / OUTI-kirjastot
-Korjannut: Mikko Liimatainen / Vaski-kirjastot
+Lisännyt: Anneli Österman / OUTI-kirjastot<br />
+Korjannut: Mikko Liimatainen / Vaski-kirjastot<br />
 Aika: 20.8.2019 / 2022
 
 ```
@@ -458,7 +434,7 @@ ORDER BY time_queued ASC
 
 Hakee kaikki ylimääräistä tekstiä sisältävät puhelinnumerot Kohan borrowers-taulusta. Tekstejä on päätynyt puhelinnumerokenttiin ainakin Pallas-konversioissa. Mahdollisesti myös Origoista.
 
-Lisääjä: Pasi Korkalo / Koha-Suomi
+Lisääjä: Kodo Korkalo / Koha-Suomi<br />
 Pvm: 8.1.2019
 
 ```
@@ -472,7 +448,7 @@ SELECT CONCAT('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', bo
 
 Hakee kaikki ylimääräisiä merkkejä sisältävät mobiili- ja lankapuhelinnumerot Kohan borrowers-taulusta.
 
-Lisääjä: Lari Strand / Koha-Suomi
+Lisääjä: Lari Strand / Koha-Suomi<br />
 Pvm: 30.8.2021
 
 ```
@@ -484,7 +460,7 @@ phone as Lankapuhelin, mobile as Matkapuhelin FROM borrowers where phone REGEXP 
 
 Raportilla voi tarkistaa, ketkä virkailijat ovat vaihtaneet salasanat vuonna 2020
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 4.2.2020
 
 ```
@@ -500,7 +476,7 @@ and year(timestamp)=2020;
 
 Raportilla voi hakea asiakkaan Ceepos-kassan tapahtumanumeron perusteella.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 7.4.2020
 
 ```
@@ -514,7 +490,7 @@ where pta.transaction_id=<<Tapahtumanumero>>
 
 Raportilla voi hakea lapsiasiakkaat, joilla ei ole takaajaa. Tarkista, että lapsiasiakkaiden asiakastyypit vastaa oman kimpan asiakastyyppejä.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 7.4.2020 / Päivitetty 31.5.2023
 
 ```
@@ -528,8 +504,8 @@ and borrowernumber not in (select guarantee_id from borrower_relationships);
 
 Raportilla voi hakea henkilöasiakkaat, joilla on takaaja.
 
-Lisääjä: Anneli Österman
-Tekijä: Kodo Korkalo
+Lisääjä: Anneli Österman<br />
+Tekijä: Kodo Korkalo<br />
 Pvm: 7.4.2020
 
 ```
@@ -540,7 +516,7 @@ select concat ('<a href="/cgi-bin/koha/members/moremember.pl?borrowernumber=', b
 
 Raportti listaa henkilöasiakkaat, joilla ei ole kirjastokortin numeroa. Parametriksi valitaan kirjasto.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 7.4.2020
 
 ```
@@ -555,7 +531,7 @@ AND branchcode=<<Valitse kirjasto|branches>>
 
 Raportti listaa asiakkaat, joiden syntymäaika on ennen 1.1.1920, mukaan ei oteta asiakastyyppiä EITILASTO.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 7.4.2020
 
 ```
@@ -579,7 +555,7 @@ WHERE code = 'SSN'
 
 Raportti laskee asiakkaiden määrän kirjastoittain. Mukaan ei tule asiakastyyppejä VIRKAILIJA, AUTOM ja EITILASTO. Näytetään 100 riviä.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.4.2020
 
 ```
@@ -593,7 +569,7 @@ GROUP BY branchcode limit 100
 
 Raportti listaa sellaiset asiakkaat, joilla on varauksia lähellä sallittua maksiamia. Raportti laskee myös asiakkaiden voimassa olevien varausten määrän. Muuta raporttiin HAVING COUNT -kohtaan omalle kirjastolle/kimpalle sopiva luku eli esim. jos maksimi on 100 varausta, niin jokin vähän sitä pienempi luku. Raportissa huomioidaan asiakastyypit HENKILO ja LAPSI.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.4.2020
 
 ```
@@ -611,7 +587,7 @@ ORDER BY 2 DESC
 
 Raportti listaa kirjastoittain asiakkaat, joilla on huomautuksia.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.4.2020
 
 ```
@@ -626,7 +602,7 @@ AND branchcode=<<Valitse kirjasto|branches>>
 
 Raportilla voi hakea asiakkaan varaustunnisteen perusteella. Välillä asiakashaulla varaustunnuksella hakeminen palauttaa liikaa tuloksia, koska tunnus on hyvin yleinen ja osuu haussa myös muihin tietoihin kuten etu- ja sukunimeen.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 25.8.2020
 
 ```
@@ -639,7 +615,7 @@ WHERE othernames=<<Kirjoita varaustunnus>>
 
 Raportilla voi hakea kirjastokortin numeron perusteella asiakkaan epäonnistuneiden kirjautumisyritysten määrän. Jos määrä on sama tai ylittää FailedLoginAttempts-järjestelmäasetukseen määritetyn luvun, on asiakkaan tunnus lukossa ja siihen pitää vaihtaa uusi salasana.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 27.4.2021
 
 ```select login_attempts as 'Kirjautumisyrityksiä' from borrowers where cardnumber=<<Kirjastokortin numero>></code></pre>
@@ -648,7 +624,7 @@ Pvm: 27.4.2021
 
 Raportilla voi hakea SIP2-tunnukset, joiden tietoihin on merkitty asiakasmääreet TOIMITTAJA ja AUTOTYPE. [Ohje asiakasmääreiden lisäämisestä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Automaattityypin_ja_toimittajan_lis%C3%A4%C3%A4minen_asiakasm%C3%A4%C3%A4reeksi).
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.6.2021
 
 ```
@@ -663,7 +639,7 @@ order by 3```
 
 Raportilla voi hakea asiakkaat, joilla on kirjastokortin numero ja varaustunnus sama. Säädä tarvittaessa asiakastyyppien tunnuksia, jotta virkailijatunnukset ja ei-tilastoitavat lainat jää pois tuloksista.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 3.5.2022
 
 ```
@@ -674,7 +650,7 @@ select CONCAT('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',bo
 
 Raportilla voi hakea asiakkaat, joiden epäonnistuneet kirjautumisyritykset ylittävät tietyn lukumäärän. Tietosuojasyistä huomattavan suuren määrän epäonnistuneita kirjatumisyrityksiä (50 tai yli) omaavien asiakkaiden kirjastokortti voi olla tarpeen vaihtaa.
 
-Lisääjä: Kodo Korkalo
+Lisääjä: Kodo Korkalo<br />
 Pvm: 15.11.2022
 
 ```
@@ -683,10 +659,6 @@ login_attempts AS 'Kirjautumisyritykset'
 FROM borrowers
 WHERE login_attempts>=<<Etsi asiakkaat, joilla on yli tämä määrä kirjautumisyrityksiä>>
 ```
-
-
-
-
 
 ## Varaukset
 
@@ -724,7 +696,7 @@ ORDER by Varaukset DESC
 
 Raportilla voi hakea top20-listan teoksista, joihin on tehty eniten varauksia seitsemän viime päivän aikana.
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 25.10.2018
 
 ```
@@ -803,7 +775,7 @@ Raportilla voi tarkistaa, mitä tietoja varauksesta on tallentunut action_logs-t
 * sip = automaatti
 * api = rajapinta (esim. Finna)
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 20.3.2019
 
 ```select * from action_logs where object in (select reserve_id from old_reserves where borrowernumber=<<borrowernumber>> and biblionumber=<<biblionumber>>) and module='HOLDS';</pre>
@@ -827,7 +799,7 @@ order by reserve_id DESC limit 1
 
 Raportilla voi hakea varaukset ja tallentaa ne Finnassa näkyvään muotoon. Varausten määrä rajoitettu 25:een, voit muuttaa määrää korvaamalla LIMIT-kohdassa olevan numeron.
 
-Lisääjä: Päivi Knuutinen / Vaara
+Lisääjä: Päivi Knuutinen / Vaara<br />
 Pvm: 3.12.2018
 
 SELECT
@@ -844,7 +816,7 @@ LIMIT 25
 
 Raportilla voi katsoa, miten valitun kirjaston varausten noudot ajoittuvat päivittäin tunneittain valitulla aikavälillä.
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 3.3.2020
 
 ```
@@ -864,7 +836,7 @@ GROUP BY date(s.datetime), hour(s.datetime)
 
 Raportilla voi katsoa, miten valitun kirjaston varausten noudot ajoittuvat tunneittain valitulla aikavälillä.
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 3.3.2020
 
 ```
@@ -884,7 +856,7 @@ GROUP BY hour(s.datetime)
 
 Raportilla voi hakea kirjaston mukaan noudettavissa olevat varaukset. Sarakkeina on Varaustunniste, Viimeinen noutopäivä, teoksen nimeke ja niteen viivakoodi. Tiedot järjestetään ensimmäisen sarakkeen mukaan. Jos haluaa, voi ORDER BY -riville lisätä vielä kakkosen, jolloin varaukset järjestetään ensin varaustunnisteen mukaan ja sen sisällä vielä viimeisen noutopäivän mukaan.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.6.2020
 
 ```
@@ -902,8 +874,8 @@ ORDER BY 1
 
 Raportilla voi hakea automaattisesti poistetut varaukset tietystä toimipaikasta (kun järjestelmäasetus ExpireReservesMaxPickUpDelay on asetettu päälle). Lista on järjestetty varaustunnuksen mukaan.
 
-Lisääjä: Minna Kivinen
-Pvm: 28.9.2020
+Lisääjä: Minna Kivinen<br />
+Pvm: 28.9.2020<br />
 Kohan versio: 20.05 
 
 ```
@@ -920,8 +892,8 @@ ORDER BY borrowers.othernames
 
 Ylläolevasta hieman muokattu raportti, jolla voi hakea tietyn viimeisen noutopäivän automaattisesti poistetut varaukset tietystä toimipaikasta (kun järjestelmäasetus ExpireReservesMaxPickUpDelay on asetettu päälle). Lista on järjestetty varaustunnuksen mukaan.
 
-Lisääjä: Hanna Saario
-Pvm: 28.9.2020
+Lisääjä: Hanna Saario<br />
+Pvm: 28.9.2020<br />
 Kohan versio: 20.05 
 
 ```
@@ -938,8 +910,8 @@ ORDER BY borrowers.othernames
 
 Raportilla voi hakea sellaiset niteet, jotka on palautettu automaattiin ja jääneet kiinni varaukseen, mutta joita ei ole sen jälkeen palautettu virkailijaliittymässä. 
 
-Lisääjä: Anneli Österman
-Pvm: 10.12.2020, päivitetty 8.7.2022
+Lisääjä: Anneli Österman<br />
+Pvm: 10.12.2020, päivitetty 8.7.2022<br />
 Kohan versio: 21.11
 
 ```
@@ -956,8 +928,8 @@ and itemnumber not in (select itemnumber from branchtransfers where datearrived 
 
 Raportti näyttää varauksen paikan varausjonossa. Jos sija ei ole 1, kannattaa yleensä odottaa, että jossain muualla kirja poimitaan ensin. Lainassa oleviin niteisiin tehdyt nidevaraukset sotkevat varausjonologiikkaa. Nidevarauksia nimekkeessä -sarakkeesta näkyy, montako nidevarausta tietueeseen on. Nämä yleensä pudottavat listassa näkyvän varauksen sijaintia varausjonossa todellista tilannetta alemmas. MUUTA i.itype <> 'EILAINA' -kohtaa tarpeen mukaan.
 
-Lisääjä: Hannu Jokiranta / 3AMK-kirjastot
-Pvm: 19.1.2021
+Lisääjä: Hannu Jokiranta / 3AMK-kirjastot<br />
+Pvm: 19.1.2021<br />
 Kohan versio 20.11
 
 ```
@@ -1062,7 +1034,7 @@ ORDER BY i.itemcallnumber
 
 Raportilla voi hakea ne teokset/tietueet, joihin kohdistuu nidevaraus. Tulokseen tulee teoksen nimeke ja linkki varausjono-sivulle.
 
-Pvm: 3.6.2021
+Pvm: 3.6.2021<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -1078,7 +1050,7 @@ order by 2
 
 Raportti hakee ne noudettavissa olevat varaukset, joiden nide on kuljetettavana.
 
-Pvm: 28.6.2021, uusi versio 8.7.2021
+Pvm: 28.6.2021, uusi versio 8.7.2021<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -1098,7 +1070,7 @@ group by reserves.borrowernumber
 
 Raportilla voi hakea niteet, jotka ovat sekä lainassa, että siihen liittyy varaus, joka on kuljetustilassa (found='T') toiselle asiakkaalle. Tyypillisesti tilanne voi syntyä, kun nide palautetaan noutokirjastossa palautusautomaattiin, eikä ole vielä sen jälkeen palautettu Kohassa. Raportti listaa varanneen asiakkaan ja varaukseen kiinni jääneen niteen viivakoodin sekä niteen sijaintikirjaston.
 
-Pvm: 14.3.2022
+Pvm: 14.3.2022<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -1112,7 +1084,7 @@ Valitse kirjastoyksikkö ja päivämääräväliin viimeistä noutopäivää seu
 
 Raportti hakee ne varaukset, joissa on viimeinen noutopäivä yksi päivä aiemmin kuin vanhentumispäivä, eli mukaan tulee vain ne varaukset, joissa on vanhentumispäivää edeltävä päivä. Mukaan voi tulla sellaisia varauksia, joista asiakas on viimeisenä noutopäivänä ilmoittanut, että ei haluakaan sitä. Mukaan ei tule sellaisia, jotka asiakas on pyytänyt poistamaan muuna päivänä kuin viimeisenä noutopäivänä.
 
-Pvm: 10.6.2022 / muokattu 1.7.2022 / muokattu 22.5.2023
+Pvm: 10.6.2022 / muokattu 1.7.2022 / muokattu 22.5.2023<br />
 Lisääjä: Anneli Österman
 
 
@@ -1135,7 +1107,7 @@ order by 1,2
 
 Raportilla voi hakea nimekkeet, joihin kohdistuu varauksia, mutta ainut nide on merkitty kadonneeksi.
 
-Pvm: 17.11.2022, muokattu 7.12.2022
+Pvm: 17.11.2022, muokattu 7.12.2022<br />
 Lisääjä: Anneli Österman
 
 ```
@@ -1152,7 +1124,7 @@ ORDER BY 2
 
 Raportti hakee nimekkeet, joihin on varauksia mutta kaikki niteet kadonneet tai ei varattavia tai niteitä ei ole ollenkaan. Kehitetty versio yllä olevasta kyselystä.
 
-Pvm: 30.11.2022
+Pvm: 30.11.2022<br />
 Tekijä: Mikko Liimatainen
 
 ```
@@ -1172,7 +1144,7 @@ ORDER BY Nidemäärä ASC
 
 ### Varausten määrä valitulla aikavälillä
 
-Tehty: 8.8.2022
+Tehty: 8.8.2022<br />
 Tekijä: Antti Kiviniemi / Koha-Suomen harjoittelija
 
 ```
@@ -1199,7 +1171,7 @@ GROUP BY reserves.branchcode WITH ROLLUP
 
 Raportilla voi hakea niteettömät nimekkeet. Raportissa annetaan parametriksi aineistolaji. Jos haluat listata kaikki niteettömät kerralla aineistolajista riippumatta, poista raportista alimmainen rivi.
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 3.7.2019
 
 ```SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
@@ -1217,7 +1189,7 @@ AND bi.itemtype=<<Valitse aineistolaji|itemtypes>>
 
 "Weeding toolilla" voi tutkia esim. nollalainoja kirjaston, aineistolajin, hyllypaikan mukaan. Tehty Koha Reports Libraryn raportin pohjalta. 
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Päivitetty: 24.11.2020
 
 ```
@@ -1295,7 +1267,7 @@ ORDER BY items.cn_sort
 
 Parametriksi annetaan niteen itemnumber.
 
-Tehnyt: Anneli Österman 
+Tehnyt: Anneli Österman<br />
 Pvm: 6.8.2019
 
 ```select * from statistics where itemnumber=<<Itemnumber>></pre>
@@ -1304,7 +1276,7 @@ Pvm: 6.8.2019
 
 Raportti listaa kirjastoittain nimekkeet, joiden aineistolaji poikkeaa kirjaston niteelle asetetusta aineistolajista.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.4.2020
 
 ```
@@ -1322,7 +1294,7 @@ ORDER BY 4,1
 
 Raportti listaa nimekkeet, joihin kohdistuu varauksia, mutta niillä ei ole yhtään nidettä, joka voisi täyttää varauksen.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.4.2020
 
 ```
@@ -1338,7 +1310,7 @@ WHERE reserves.biblionumber NOT IN (select biblionumber from items)
 
 Raportti listaa niteet, joilla ei ole aineistolajia määritetty.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 17.4.2020
 
 ```
@@ -1351,7 +1323,7 @@ WHERE itype IN('NULL', '')
 
 Raportti listaa niteet, jotka on poistettu valittuna vuonna ja valitussa kunnassa. Niteistä haetaan nimeke, tekijä, julkaisuvuosi, lehden numero, viivakoodi, sijaintikirjasto, hyllypaikka, aineistolaji, hankintapäivä, viimeksi nähty -päivä, viimeksi lainattu -päivä ja lainakerrat. Tulokset järjestetään sarakkeen 12 mukaan (lainakerrat).
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 29.3.2021 (muokattu 8.12.2021)
 
 ```
@@ -1377,7 +1349,7 @@ ORDER BY 12 desc
 
 Raportti listaa valitulla aikavälillä poistetut niteet, joiden kotikirjasto, hyllpaikka ja kokoelmakoodi on valitun mukaiset. Kaikki raportin kysymät parametrit pitää syöttää, jotta saisi tuloksia. Tiedot järjestetään sarakkeen 12 mukaan nousevasti, eli lainamäärien mukaan. Tämä on muunnos yläpuolella olevasta "Poistetut niteet ja niiden lainamäärät" -raportista.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Aika: 1.4.2021 (muokattu 8.12.2021)
 
 ```
@@ -1407,7 +1379,7 @@ ORDER BY 12 asc
 
 Raportti laskee hyllyssä olevien niteiden määrän hyllypaikan ja aineistotyypin mukaan. Raportilla näytetään myös aina hyllypaikan paikalla olevien niteiden kokonaismäärä. Raportille annetaan parametriksi sijaintikirjasto.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 8.12.2021
 
 ```
@@ -1423,7 +1395,7 @@ group by location, itemtype with ROLLUP
 
 Raportti hakee tietueet, joissa 942-kenttä esiintyy kahdesti. HUOM! Raskas ajo, aja vain hiljaisena hetkenä. 
 
-Lisääjä: Emmi Takkinen
+Lisääjä: Emmi Takkinen<br />
 Pvm: 14.12.2021
 
 ```
@@ -1437,7 +1409,7 @@ WHERE ExtractValue(metadata,'count(//datafield[@tag="942"])') > 1
 
 Raportti hakee kaikki niteet, joiden perässä on ylimääräinen välilyönti
 
-Lisääjä: Emmi Takkinen
+Lisääjä: Emmi Takkinen<br />
 Pvm: 10.8.2022
 
 ```
@@ -1452,7 +1424,7 @@ WHERE i.itemcallnumber REGEXP '\\s$'
 
 Raportti hakee kaikki niteet, joissa "Hakintapäivämäärä" tai "Hinta voimassa alkaen" kentässä on arvo 0000-00-00.
 
-Lisääjä: Emmi Takkinen
+Lisääjä: Emmi Takkinen<br />
 Pvm: 29.11.2022
 
 ```
@@ -1468,7 +1440,7 @@ OR replacementpricedate = "0000-00-00"
 
 Raportti hakee niteet, joiden viivakoodissa on perässä ylimääräinen välilyönti.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 18.1.2023
 
 ```
@@ -1483,7 +1455,7 @@ WHERE i.barcode REGEXP '\\s$'
 
 Raportti hakee niteet, joiden cn_sort-kenttä alkaa kirjaimella. cn_sort pitäisi aina alkaa numerolla, jotta okm-tilastoissa toimii jako kaunoon/tietoon ja tiedonhaussa luokalla järjestäminen.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 19.1.2023
 
 ```
@@ -1660,7 +1632,7 @@ Kauko (kaukolainat)
 A (käyttäjätilin hallinta)
 Konve (konvertoidut maksut esim. OUTI ja Lappi)
  
-Lisääjä: Päivi Knuutinen / Vaara-kirjastot
+Lisääjä: Päivi Knuutinen / Vaara-kirjastot<br />
 pvm: 30.10.2018
 
 ```
@@ -1696,8 +1668,8 @@ Lisääjä: Päivi Knuutinen / VAARA 5.2.2019
 
 ### Asiakkaan haku maksun ID:llä (Ceepos)
 
-Lisääjä: Anneli Österman
-Lisätty: 11.10.2022
+Lisääjä: Anneli Österman<br />
+Lisätty: 11.10.2022<br />
 Versio: 21.11
 
 Asiakkaan haku maksun ID-tunnisteella. Jos tunnisteen edessä on # -merkki, jätä se hakukentästä pois. 
@@ -1710,7 +1682,7 @@ select concat('<a href="/cgi-bin/koha/members/boraccount.pl?borrowernumber=',bor
 
 ### Asiakkaan miinusmerkkiset maksut
 
-Lisääjä: Pirkko-Liisa Lauhikari
+Lisääjä: Pirkko-Liisa Lauhikari<br />
 Lisätty: 13.1.2023
 
 Raportilla voi hakea asiakkaat, joiden maksut ovat miinuksella.
@@ -1727,7 +1699,7 @@ select distinct(borrowernumber) from accountlines where credit_type_code='PAYMEN
 
 Raportilla voi hakea 300 viimeisimmän osakohteen tietuenumeron.
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 28.11.2018
 
 ```SELECT b.biblionumber
@@ -1739,7 +1711,7 @@ ORDER BY b.biblionumber DESC LIMIT 300```
 
 ### Osakohde merkitty monografiaksi
 
-Lisääjä: Anneli Österman / OUTI-kirjastot
+Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 26.6.2019
 
 ```SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
@@ -1757,7 +1729,7 @@ AND SUBSTR(ExtractValue(bm.metadata,'//leader'),8,1) NOT IN ('a', 'b', 'd')</pre
 Kysely, johon voi syöttää kenttien arvoja. Hakee tietueet, joiden annetussa kentässä annettu merkkijono. Linkki tietueeseen. Toimii ainakin yhteisöversiossa. Tuloksen voi toki järjestää tarpeen mukaan, tässä on haettu aineistoa, jonka linkki on tod.näk. vanhentunut.
 Ohje käyttäjälle raportin muuta-boxissa: Esim. 856 u = http% tai 776 i = verkko%
 
-Lisääjä: Hanna Saario / Diakonia-amk:n kirjasto
+Lisääjä: Hanna Saario / Diakonia-amk:n kirjasto<br />
 Pvm: 7.4.2021
 
 ```
@@ -1773,7 +1745,7 @@ ORDER BY copyrightdate ASC
 
 Kysely hakee tietueet, joiden 856u-kentän linkissä on tietty merkkijono. Tässä haetaan "ecom"-sanan sisältävät linkit. Prosenttimerkkien sisään voi muokata myös muun tiedon. Huomaa, että raportti on hidas, koska tiedot haetaan marcxml:stä like-ehdolla.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 6.7.2021
 
 ```
@@ -1786,7 +1758,7 @@ WHERE ExtractValue(bm.metadata, '//datafield[@tag="856"]/subfield[@code="u"]') l
 
 Kysely hakee tietueet, joiden biblioitems.itemtype-kenttä on NULL, tyhjä tai tieto tuplana. Mukaan tulee sekä emot että osakohteet.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.7.2021
 
 ```
@@ -1800,7 +1772,7 @@ WHERE (bi.itemtype is NULL OR bi.itemtype='' OR bi.itemtype like '%|%')
 
 Kysely hakee monografia-tietueet, joiden biblioitems.itemtype-kenttä on NULL, tyhjä tai tieto tuplana. Mukaan ei tule osakohteet. Kysely on hidas, koska se hakee tietoja marcxml:stä.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.7.2021
 
 ```
@@ -1816,7 +1788,7 @@ AND ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') = ''
 
 Kysely hakee tietueet, joiden biblioitems.cn_class-kentssä ei ole mitään arvoa. Kyseiseen kenttään viedään 084a-kentän tieto luettelointitiedoista.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 24.9.2021
 
 ```
@@ -1838,7 +1810,7 @@ order by b.biblionumber asc
 
 Raportti hakee emotietueet, joissa ei ole kielikoodia 041a- ja 041d-kentissä ja 008-kentässä on merkkipaikoilla 35-37 'zxx'.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 24.9.2021
 
 ```
@@ -1886,7 +1858,7 @@ ORDER BY
 
 Raportti listaa ajasta riippumatta kaikki niteet, jotka ovat kuljetettavana ja lähettävänä kirjastona on valittu kirjasto.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.4.2020 / Päivitetty 11.7.2023 AÖ
 
 ```
@@ -1905,7 +1877,8 @@ ORDER BY 5
 
 Parametreiksi valitaan lähettäjäkirjasto ja vuosi (kirjoita vuosilukuja perään prosenttimerkki, esim. 2018%). Tulokset jaotellaan kuukausittain.
 
-Tehnyt: Anneli Österman 27.2.2019
+Tehnyt: Anneli Österman<br />
+Pvm: 27.2.2019
 
 ```select month(datesent) as 'Kuukausi',count(*) as 'Lähetettyjä niteitä'
 from branchtransfers 
@@ -1917,7 +1890,8 @@ group by month(datesent)</pre>
 
 Parametreiksi valitaan vastaanottajakirjasto ja vuosi (kirjoita vuosilukuja perään prosenttimerkki, esim. 2018%). Tulokset jaotellaan kuukausittain.
 
-Tehnyt: Anneli Österman 27.2.2019
+Tehnyt: Anneli Österman<br />
+Pvm: 27.2.2019
 
 ```select month(datesent) as 'Kuukausi' ,count(*) as 'Vastaanotetut niteet'
 from branchtransfers 
@@ -1934,7 +1908,9 @@ group by month(datesent)</pre>
 ### Vastaanotetut hankinnat (Kouvola)
 
 Kouvolassa rahoja seurataan hyllypaikoittain ja osin aineistolajeittain, jotta valitsijoiden on helppo seurata ’omia’ rahojansa. Tässä on varmaan paljon vaihtelua kirjastoittain ja siksi tätä raporttia voi joutua paljonkin kustomoimaan. Aineistojen hintoja on raporttiin haettu paristakin paikasta ihan vertailun vuoksi, me käytämme sum(items.price) eli niteissä olevaa hintaa.
-Tehnyt: Tuomas Kunttu 17.1.2021
+
+Tehnyt: Tuomas Kunttu<br />
+Pvm: 17.1.2021
 
 ```
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', format(sum(items.price), 0,'fi_FI') AS 'Hinta niteissä', format(sum(aqorders.unitprice), 0,'fi_FI') AS 'Hinta tilauksessa', 'A-hyllypaikka'
@@ -2052,7 +2028,9 @@ WHERE aqorders.datereceived BETWEEN @AloitusPvm AND @LopetusPvm AND items.homebr
 ### Saapumattomien hankintojen raportti
 
 Raportti laskee tilattujen, mutta saapumattomien hankintojen kappalemäärät ja hinnat. Jaottelu hyllypaikoittain. Muuta homebranch koodiin.
-Tuomas Kunttu 24.11.2020
+
+Lisääjä: Tuomas Kunttu<br />
+Pvm: 24.11.2020
 
 ```
 SELECT items.location AS 'hyllypaikka', count(items.itemnumber) AS 'Tilattu_kpl', format(sum(aqorders.ecost), 0,'fi_FI') AS 'Hinta tilauksessa (ecost)'
@@ -2067,7 +2045,7 @@ GROUP BY items.location WITH ROLLUP
 
 Raportti listaa nimekkeet, joissa on valitulla kirjastolla nide/niteitä tilattu-tilassa (notforloan: -1). Lisäksi parametrinä määritetään, että niteen hankintapäivä on aikaisempi kuin valittu päivä. Raportista on erityisesti apua silloin, kun kyseessä on vanhasta järjestelmästä tuodut niteet, joille ei ole tilausta Kohassa.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.4.2020
 
 ```
@@ -2087,7 +2065,7 @@ GROUP BY biblionumber
 
 Raportti listaa nimekkeet, joissa on valitulla kirjastolla nide/niteitä saapunut-tilassa (notforloan: -2). Lisäksi parametrinä määritetään, että niteen hankintapäivä on aikaisempi kuin valittu päivä. Raportista on erityisesti apua silloin, kun kyseessä on vanhasta järjestelmästä tuodut niteet, joille ei ole tilausta Kohassa.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 9.4.2020
 
 ```
@@ -2107,7 +2085,7 @@ GROUP BY biblionumber
 
 Raportilla voi hakea nimekkeet, joihin on otettu vastaan (items.datereceived) nide valitulla aikavälillä. Mukaan ei ole aikakaus ja sanomalehdet. Rajaus kirjastoon tehdään kotikirjaston perusteella ja haetaan syötetyn kirjastojen kuntalyhenteen perusteella ja lisäksi pitää laittaa '%-merkki', esim. 'OU%' tai 'MLI%'.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 22.9.2020
 
 ```
@@ -2127,7 +2105,7 @@ ORDER BY 6,5
 
 Raportti luo linkin listaukseen niiden toimittajien tilauskoreista, joiden tilauksia on mahdollisesti käsitelty useammin kuin kerran. Korin poistamalla ylimääräisten niteiden tulisi poistua.
 
-Lisääjä: Emmi Takkinen
+Lisääjä: Emmi Takkinen<br />
 Pvm: 2.12.2021
 
 ```
@@ -2147,7 +2125,7 @@ Raportti hakee lehtitilaukset, joiden luokka-kentässä on ylimääräisiä väl
 
 Ylimääräiset välilyönnit signumin perässä aiheuttaa ongelmia nidehaussa, joten on hyvä pitää huoli, että sellaisia ei synny.
 
-Lisääjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Pvm: 15.7.2022
 
 ```
@@ -2162,7 +2140,7 @@ select firstacquidate,branchcode,subscriptionid,biblionumber,callnumber from sub
 
 Raportilla voi hakea niteet, jotka ovat lähteneet kuljetukseen valitusta kirjastosta eivätkä ole vielä saapuneet määränpäähän. Valittavina parametreinä kirjasto ja lähtöpäivämäärä.
 
-Lisännyt: Anneli Österman / OUTI-kirjastot
+Lisännyt: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 29.11.2019
 
 ```SELECT CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'">',b.title,'</a>') AS Nimeke, b.author AS 'Tekijä', i.barcode AS Viivakoodi, i.cn_sort AS 'Luokka ja pääsana'
