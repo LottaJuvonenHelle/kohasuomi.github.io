@@ -71,17 +71,15 @@ Ilmoituksia ja kuitteja ylläpitävät pääsääntöisesti kimppojen
 pääkäyttäjät, mutta tässä voi olla kimppakohtaisia eroja.
 
 Ilmoitukset ja kuitit -työkalun etusivulla on lista olemassa olevista
-pohjista. Ilmoitukset voivat olla joko kaikkia kirjastoja koskevia tai
-kirjastokohtaisia. Kirjastokohtaiset pohjat ovat listan lopussa. 
-Kaikki ilmoitukset ja pohjat eivät välttämättä ole käytössä omassa kimpassasi.
+pohjista. Ilmoitukset voivat olla joko kaikkia kirjastoja koskevia (oletuksena) tai
+kirjastokohtaisia. Kaikki ilmoitus- ja kuittipohjat eivät välttämättä ole käytössä omassa kimpassasi.
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset00.png" alt="Kuvakaappaus Ilmoitukset ja kuitit -osion etusivusta, jossa listataan käytössä olevat ilmoitus- ja kuittipohjat" style="width:90.0%" />
 
 - Uusi pohjia voi tehdä _Uusi ilmoitus_ -napilla
 - Pohjan voi kopioida toiselle kirjastolle _Kopioi_-napilla
 - Pohjaa voi muokata _Muokkaa_-napilla
-- Pohjan voi poistaa _Poista_-napilla. Kaikissa pohjissa poistomahdollisuutta ei ole,
-koska pohjat voivat olla järjestelmän sisäisessä käytössä.
+- Pohjan voi poistaa _Poista_-napilla. Kaikissa pohjissa poistomahdollisuutta ei ole, tällä halutaan estää mahdollisten virhetilanteiden synty järjestelmässä.
 
 ### 12.2.1 Ilmoituksen muokkaaminen
 
@@ -106,6 +104,8 @@ Myös viestin aiheessa voi käyttää tietokanta-tägejä. Jos viesti on html-mu
 _HTML-viesti_, jolloin viesti osataan käsitellä oikein. 
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="Kuvakaappaus, jossa esimerkkinä sähköposti-ilmoituksesta on eräpäivämuistutus" style="width:90.0%" />
+
+Lisätietoja ja -ohjeita ilmoitusten muokkaamisesta on englanninkielisessä Koha-wikissä https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips
 
 ### 12.2.2 Eräpäivä kuitille ilman kellonaikaa
 
