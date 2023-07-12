@@ -2187,7 +2187,7 @@ UPDATE reserves SET expirationdate='2020-09-07' WHERE branchcode IN ('KOU_A1', '
 tai
 
 ```
-UPDATE reserves SET expirationdate='2021-11-08' WHERE branchcode = 'KEPK' AND found='W' AND expirationdate = '2021-11-06';</pre>
+UPDATE reserves SET expirationdate='2021-11-08' WHERE branchcode = 'KEPK' AND found='W' AND expirationdate = '2021-11-06';
 ```
 
 ### Eräpäivät siirretty
@@ -2281,7 +2281,7 @@ KEPK:sta noudettavat varaukset keskeytetty (993 kpl), ja kirjasto ei-noutopaikak
 ```
 update branches set pickup_location=0 where branchcode='KEPK';
 insert into reserves_kd4067 select * from reserves where branchcode='KEPK' and suspend=0;
-update reserves set suspend=1 where branchcode='KEPK';</pre>
+update reserves set suspend=1 where branchcode='KEPK';
 ```
 
 ### Varausten noutopaikan vaihtaminen toiseen kirjastoon
@@ -2294,7 +2294,7 @@ insert into reserves_kd4071 select * from reserves where branchcode='JOE_RAN';
 update reserves set branchcode='JOE_JOE' where reserve_id in (select reserve_id from reserves_kd4071);
 ```
 
-(Eli kaikki JOE_RAN varaukset otettu ensin talteen reserves_kd4071 -tauluun, ja sitten vaihdettu niistä alkuperäisistä varauksista noutopaikaksi JOE_JOE)</pre>
+(Eli kaikki JOE_RAN varaukset otettu ensin talteen reserves_kd4071 -tauluun, ja sitten vaihdettu niistä alkuperäisistä varauksista noutopaikaksi JOE_JOE)
 
 ### Varausten noutopäivän siirto vuodella eteenpäin
 
@@ -2380,7 +2380,7 @@ UPDATE borrowers SET flags = flags - (1<<12) WHERE flags = flags | (1<<12) AND b
 
 Raportilla voi tutkia, mitä muutoksia asiakkaan tietoihin on tehty koko Koha-historian aikana. Parametriksi annetaan asiakkaan borrowernumber.
 
-Lissäjä: Anneli Österman
+Lisääjä: Anneli Österman<br />
 Lisäyspvm: 25.3.2022, muokattu 29.3.2022
 
 ```
