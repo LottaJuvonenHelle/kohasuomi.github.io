@@ -15,6 +15,14 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 28 muistiot
 
+### Torstai 13.7.2023 klo 10
+
+Läsnä:
+
+* OUTIssa oli tiistaina ja Vaskissa keskiviikkona Koha alhaalla hetken aikaa ja tietokanta ilmoitti  "Waiting for table metadata lock". Ilmeisesti message_queue-taulu menee taas lukkoon herkästi.
+  * OUTIn kohdalla syy saattoi olla Annelin kysely message_queue-tauluun, Vaskin osalta Mikko testaili Ilmoitukset-välilehden hitautta ja joutui tappamaan selaimen prosessin. Ei varmuutta, johtuiko käyttökatko juuri noista, mutta osuvat ajallisesti samoihin aikoihin.
+ 
+
 ### Maanantai 10.7.2023 klo 10
 
 Läsnä: Anneli, Lari ja Lassi
