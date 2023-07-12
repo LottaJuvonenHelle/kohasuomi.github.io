@@ -618,7 +618,9 @@ Raportilla voi hakea kirjastokortin numeron perusteella asiakkaan epäonnistunei
 Lisääjä: Anneli Österman<br />
 Pvm: 27.4.2021
 
-```select login_attempts as 'Kirjautumisyrityksiä' from borrowers where cardnumber=<<Kirjastokortin numero>></code></pre>
+```
+select login_attempts as 'Kirjautumisyrityksiä' from borrowers where cardnumber=<<Kirjastokortin numero>>
+```
 
 ### Automaatit ja niiden toimittajat
 
@@ -632,7 +634,8 @@ select b.borrowernumber, branchcode, cardnumber, attribute
 from borrowers b
 join borrower_attributes using (borrowernumber)
 where code in ('TOIMITTAJA', 'AUTOTYPE')
-order by 3```
+order by 3
+```
 
 
 ### Asiakkaat, joilla kirjastokortin numero ja varaustunnus sama
@@ -778,7 +781,9 @@ Raportilla voi tarkistaa, mitä tietoja varauksesta on tallentunut action_logs-t
 Lisääjä: Anneli Österman<br />
 Pvm: 20.3.2019
 
-```select * from action_logs where object in (select reserve_id from old_reserves where borrowernumber=<<borrowernumber>> and biblionumber=<<biblionumber>>) and module='HOLDS';</pre>
+```
+select * from action_logs where object in (select reserve_id from old_reserves where borrowernumber=<<borrowernumber>> and biblionumber=<<biblionumber>>) and module='HOLDS';
+```
 
 ### Asiakkaan haku poistetun varauksen niteen viivakoodin perusteella
 
@@ -802,6 +807,7 @@ Raportilla voi hakea varaukset ja tallentaa ne Finnassa näkyvään muotoon. Var
 Lisääjä: Päivi Knuutinen / Vaara<br />
 Pvm: 3.12.2018
 
+```
 SELECT
   b.biblionumber AS 'biblionumber',
   count(h.reservedate) AS 'Varauksia' 
@@ -811,6 +817,7 @@ LEFT JOIN reserves h ON (b.biblionumber=h.biblionumber)
 GROUP BY b.biblionumber 
 ORDER BY Varauksia DESC
 LIMIT 25
+```
 
 ### Varausten noudot päivittäin tunneittain valitulla aikavälillä
 
@@ -1174,7 +1181,8 @@ Raportilla voi hakea niteettömät nimekkeet. Raportissa annetaan parametriksi a
 Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 3.7.2019
 
-```SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
+```
+SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
 bi.itemtype AS 'Aineistolaji', b.biblionumber
 from biblio b
 LEFT JOIN items i ON b.biblionumber = i.biblionumber
@@ -1270,7 +1278,9 @@ Parametriksi annetaan niteen itemnumber.
 Tehnyt: Anneli Österman<br />
 Pvm: 6.8.2019
 
-```select * from statistics where itemnumber=<<Itemnumber>></pre>
+```
+select * from statistics where itemnumber=<<Itemnumber>>
+```
 
 ### Eriparit aineistolajit
 
@@ -1465,8 +1475,6 @@ where cn_sort regexp '^[A-Ö]'
 and dateaccessioned> <<Hankittu pvm:n jälkeen|date>>
 order by 1
 ```
-
-
 
 ## Laskutus
 
@@ -1702,19 +1710,22 @@ Raportilla voi hakea 300 viimeisimmän osakohteen tietuenumeron.
 Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 28.11.2018
 
-```SELECT b.biblionumber
+```
+SELECT b.biblionumber
 FROM biblio b
 LEFT JOIN biblio_metadata bm ON b.biblionumber = bm.biblionumber
 WHERE ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') != ''
 AND ExtractValue(bm.metadata,'//datafield[@tag="337"]/subfield[@code="a"]') = <<Kirjoita tyyppi>>
-ORDER BY b.biblionumber DESC LIMIT 300```
+ORDER BY b.biblionumber DESC LIMIT 300
+```
 
 ### Osakohde merkitty monografiaksi
 
 Lisääjä: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 26.6.2019
 
-```SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
+```
+SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
 bi.itemtype AS 'Aineistolaji', bi.biblionumber AS 'Biblionro'
 from biblio b
 LEFT JOIN items i ON b.biblionumber = i.biblionumber
@@ -1722,7 +1733,8 @@ LEFT JOIN biblioitems bi ON bi.biblionumber = b.biblionumber
 LEFT JOIN biblio_metadata bm ON bm.biblionumber = b.biblionumber
 WHERE ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') != ''
 AND i.itemnumber IS NULL
-AND SUBSTR(ExtractValue(bm.metadata,'//leader'),8,1) NOT IN ('a', 'b', 'd')</pre>
+AND SUBSTR(ExtractValue(bm.metadata,'//leader'),8,1) NOT IN ('a', 'b', 'd')
+```
 
 ### Bibit, joiden tietyssä kentässä tietty merkkijono
 
@@ -1880,11 +1892,13 @@ Parametreiksi valitaan lähettäjäkirjasto ja vuosi (kirjoita vuosilukuja perä
 Tehnyt: Anneli Österman<br />
 Pvm: 27.2.2019
 
-```select month(datesent) as 'Kuukausi',count(*) as 'Lähetettyjä niteitä'
+```
+select month(datesent) as 'Kuukausi',count(*) as 'Lähetettyjä niteitä'
 from branchtransfers 
 where frombranch=<<Lähettäjäkirjasto|branches>>
 and datesent like <<Kirjoita vuosi ja prosenttimerkki>>
-group by month(datesent)</pre>
+group by month(datesent)
+```
 
 ### Saapuvien kuljetusten määrä
 
@@ -1893,15 +1907,13 @@ Parametreiksi valitaan vastaanottajakirjasto ja vuosi (kirjoita vuosilukuja per�
 Tehnyt: Anneli Österman<br />
 Pvm: 27.2.2019
 
-```select month(datesent) as 'Kuukausi' ,count(*) as 'Vastaanotetut niteet'
+```
+select month(datesent) as 'Kuukausi' ,count(*) as 'Vastaanotetut niteet'
 from branchtransfers 
 where tobranch=<<Vastaanottajakirjasto|branches>>
 and datesent like <<Kirjoita vuosi ja prosenttimerkki>>
-group by month(datesent)</pre>
-
-
-
-
+group by month(datesent)
+```
 
 ## Hankinta
 
@@ -2143,14 +2155,16 @@ Raportilla voi hakea niteet, jotka ovat lähteneet kuljetukseen valitusta kirjas
 Lisännyt: Anneli Österman / OUTI-kirjastot<br />
 Pvm: 29.11.2019
 
-```SELECT CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'">',b.title,'</a>') AS Nimeke, b.author AS 'Tekijä', i.barcode AS Viivakoodi, i.cn_sort AS 'Luokka ja pääsana'
+```
+SELECT CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'">',b.title,'</a>') AS Nimeke, b.author AS 'Tekijä', i.barcode AS Viivakoodi, i.cn_sort AS 'Luokka ja pääsana'
 FROM branchtransfers bt
 JOIN items i USING (itemnumber)
 JOIN biblio b USING (biblionumber)
 WHERE bt.frombranch=<<Valitse kirjasto|branches>>
 AND date(bt.datesent)=<<Valitse päivämäärä|date>>
 AND datearrived is null
-ORDER BY 4```
+ORDER BY 4
+```
 
 
 
@@ -2160,126 +2174,174 @@ Tämän otsikon alle kerätään erilaisia ylläpitoon ja siirtoihin liittyviä 
 
 ### Varausten noutopäivien siirto
 
-```UPDATE reserves SET expirationdate='2020-06-15' WHERE branchcode IN ('KOU_EL', 'KOU_HA', 'KOU_IN', 'KOU_JA', 'KOU_KO', 'KOU_VA', 'KOU_MY', 'KOU_QU', 'KOU_PK') AND found='W' AND expirationdate BETWEEN '2020-06-06' AND '2020-06-12';
+```
+UPDATE reserves SET expirationdate='2020-06-15' WHERE branchcode IN ('KOU_EL', 'KOU_HA', 'KOU_IN', 'KOU_JA', 'KOU_KO', 'KOU_VA', 'KOU_MY', 'KOU_QU', 'KOU_PK') AND found='W' AND expirationdate BETWEEN '2020-06-06' AND '2020-06-12';
+```
 
 tai
 
+```
 UPDATE reserves SET expirationdate='2020-09-07' WHERE branchcode IN ('KOU_A1', 'KOU_A2') AND found='W' AND expirationdate = '2020-06-15';
+```
 
 tai
 
+```
 UPDATE reserves SET expirationdate='2021-11-08' WHERE branchcode = 'KEPK' AND found='W' AND expirationdate = '2021-11-06';</pre>
+```
 
 ### Eräpäivät siirretty
 
-```UPDATE issues SET date_due='2020-09-07 23:59:01' WHERE branchcode IN ('KOU_A1', 'KOU_A2') AND date_due BETWEEN '2020-06-15' AND '2020-09-02';
+```
+UPDATE issues SET date_due='2020-09-07 23:59:01' WHERE branchcode IN ('KOU_A1', 'KOU_A2') AND date_due BETWEEN '2020-06-15' AND '2020-09-02';
+```
 
 tai
 
+```
 UPDATE issues SET date_due='2020-08-31 23:59:01' WHERE branchcode = 'ROAU' AND date_due LIKE '2020-06-08%';
+```
 
 tai
 
+```
 UPDATE issues SET date_due='2021-10-18 23:59:01' WHERE branchcode IN ('RAHA', 'RAPA', 'RAPK', 'RAVI') AND date_due LIKE '2021-10-15%';
+```
 
 tai
 
-UPDATE issues SET date_due='2020-04-01 23:59:01' WHERE branchcode in ('PYPK', 'PYPIR', 'PYKIKI') AND returndate is null AND date_due between '2020-03-13' AND '2020-04-01';</pre>
-
+```
+UPDATE issues SET date_due='2020-04-01 23:59:01' WHERE branchcode in ('PYPK', 'PYPIR', 'PYKIKI') AND returndate is null AND date_due between '2020-03-13' AND '2020-04-01';
+```
 ### Eräpäivät siirretty asiakaslajilta
 
-```UPDATE issues iss LEFT JOIN borrowers bor ON (iss.borrowernumber = bor.borrowernumber) SET iss.date_due = '2020-09-14 23:59:01' WHERE iss.branchcode IN ('OUAKSELI', 'OUAS', 'OUH', 'OUHA', 'OUHI', 'OUJA', 'OUKA', 'OUKEL', 'OUKI', 'OUKK', 'OUKL', 'OUKS', 'OUKV', 'OUMA', 'OUMAR', 'OUONNELI', 'OUOS', 'OUPK', 'OUPT', 'OUPV', 'OUR', 'OURI', 'OUTEUVO', 'OUUL', 'OUY', 'OUYKI', 'OUYLI') AND iss.date_due BETWEEN '2020-06-08' AND '2020-09-14' AND bor.categorycode = 'KOTIPALVEL';</pre>
+```
+UPDATE issues iss LEFT JOIN borrowers bor ON (iss.borrowernumber = bor.borrowernumber) SET iss.date_due = '2020-09-14 23:59:01' WHERE iss.branchcode IN ('OUAKSELI', 'OUAS', 'OUH', 'OUHA', 'OUHI', 'OUJA', 'OUKA', 'OUKEL', 'OUKI', 'OUKK', 'OUKL', 'OUKS', 'OUKV', 'OUMA', 'OUMAR', 'OUONNELI', 'OUOS', 'OUPK', 'OUPT', 'OUPV', 'OUR', 'OURI', 'OUTEUVO', 'OUUL', 'OUY', 'OUYKI', 'OUYLI') AND iss.date_due BETWEEN '2020-06-08' AND '2020-09-14' AND bor.categorycode = 'KOTIPALVEL';
+```
 
 
 ### Eräpäivän korjaus tietyn päivän lainoilta
 
-```UPDATE issues SET date_due='2019-11-21 23:59:00' WHERE issuedate like '2019-10-09%' AND branchcode='ROAU';</pre>
+```
+UPDATE issues SET date_due='2019-11-21 23:59:00' WHERE issuedate like '2019-10-09%' AND branchcode='ROAU';
+```
 
 ### Noutamattomien varausten maksun poisto
 
-```UPDATE accountlines SET amountoutstanding=0 WHERE accounttype='HE' AND timestamp like '2020-06-02%' AND amountoutstanding=1;</pre>
+```
+UPDATE accountlines SET amountoutstanding=0 WHERE accounttype='HE' AND timestamp like '2020-06-02%' AND amountoutstanding=1;
+```
 
 ### Asiakastilin vanhenemisen siirto
 
-```UPDATE borrowers SET dateexpiry=dateexpiry + interval 6 month WHERE dateexpiry BETWEEN '2020-03-17' AND '2020-12-31' AND categorycode!='VIRKAILIJA';</pre>
+```
+UPDATE borrowers SET dateexpiry=dateexpiry + interval 6 month WHERE dateexpiry BETWEEN '2020-03-17' AND '2020-12-31' AND categorycode!='VIRKAILIJA';
+```
 
 ### Niteen kotikirjaston muutos
 
-```UPDATE items SET homebranch='OUPK' WHERE homebranch like 'OU%' AND homebranch not in ('OUBY', 'OUKIKA', 'OUKEPA', 'OUAKSELI', 'OUPK') AND itype not in ('LA', 'SL', 'ES') AND permanent_location not in ('KOULU', 'LUKIO');</pre>
+```
+UPDATE items SET homebranch='OUPK' WHERE homebranch like 'OU%' AND homebranch not in ('OUBY', 'OUKIKA', 'OUKEPA', 'OUAKSELI', 'OUPK') AND itype not in ('LA', 'SL', 'ES') AND permanent_location not in ('KOULU', 'LUKIO');
+```
 
 ### Kellutussäännön fiksaus
 
-```UPDATE floating_matrix SET condition_rules = REPLACE(condition_rules, ' PILA ', ' EIKELLU ') WHERE condition_rules like '%PILA%';</pre>
+```
+UPDATE floating_matrix SET condition_rules = REPLACE(condition_rules, ' PILA ', ' EIKELLU ') WHERE condition_rules like '%PILA%';
+```
 
 ### Viestinnän poikkeustilanteet
 
-```Otin talteen (tauluun kd_4400) pending-tilaiset viestit ennen tuota haluttua aikaa, ja asetin sitten niitten viestien tilaksi failed.
+Otin talteen (tauluun kd_4400) pending-tilaiset viestit ennen tuota haluttua aikaa, ja asetin sitten niitten viestien tilaksi failed.
 
+```
 create table kd_4400 like message_queue;
 insert kd_4400 select * from message_queue where status='pending' and time_queued < '2020-04-02 10:31:33';
 update message_queue set status='failed' where status='pending' and time_queued < '2020-04-02 10:31:33';
-
-    Laitoin ajastetut viestintäpalikat päälle.</pre>
+```
+Laitoin ajastetut viestintäpalikat päälle.
 
 
 ### Varausten keskeytys ja ei-noutopaikaksi laitto
 
-```Varaukset noista ('TLYT', 'YPAU', 'YPEN', 'YPKA', 'YPKI', 'YPMU', 'YPPA') keskeytetty (yht. 199 kpl), ja kys. kirjastot laitettu ei-noutopaikoiksi.
+Varaukset noista ('TLYT', 'YPAU', 'YPEN', 'YPKA', 'YPKI', 'YPMU', 'YPPA') keskeytetty (yht. 199 kpl), ja kys. kirjastot laitettu ei-noutopaikoiksi.
 
 Ajetut SQL-komennot:
 
+```
 create table reserves_kd4067 like reserves;
 insert into reserves_kd4067 select * from reserves where branchcode in ('TLYT', 'YPAU', 'YPEN', 'YPKA', 'YPKI', 'YPMU', 'YPPA') and suspend=0;
 update reserves set suspend=1 where branchcode in ('TLYT', 'YPAU', 'YPEN', 'YPKA', 'YPKI', 'YPMU', 'YPPA') and suspend=0
 update branches set pickup_location=0 where branchcode in ('TLYT', 'YPAU', 'YPEN', 'YPKA', 'YPKI', 'YPMU', 'YPPA');
+```
 
 tai
 KEPK:sta noudettavat varaukset keskeytetty (993 kpl), ja kirjasto ei-noutopaikaksi.
 
+```
 update branches set pickup_location=0 where branchcode='KEPK';
 insert into reserves_kd4067 select * from reserves where branchcode='KEPK' and suspend=0;
 update reserves set suspend=1 where branchcode='KEPK';</pre>
+```
 
 ### Varausten noutopaikan vaihtaminen toiseen kirjastoon
 
-```Varaukset vaihdettu noudettavaksi JOE_JOE:sta. Tehdyt komennot:
+Varaukset vaihdettu noudettavaksi JOE_JOE:sta. Tehdyt komennot:
 
+```
 create table reserves_kd4071 like reserves;
 insert into reserves_kd4071 select * from reserves where branchcode='JOE_RAN';
 update reserves set branchcode='JOE_JOE' where reserve_id in (select reserve_id from reserves_kd4071);
+```
 
 (Eli kaikki JOE_RAN varaukset otettu ensin talteen reserves_kd4071 -tauluun, ja sitten vaihdettu niistä alkuperäisistä varauksista noutopaikaksi JOE_JOE)</pre>
 
 ### Varausten noutopäivän siirto vuodella eteenpäin
 
-```UPDATE reserves SET expirationdate = DATE_ADD(expirationdate, INTERVAL 1 YEAR) WHERE reserve_id IN(SELECT reserve_id FROM reserves WHERE reservedate = DATE_SUB(expirationdate, INTERVAL 1 YEAR) AND (found IS NULL OR found = 'T'));</pre>
+```
+UPDATE reserves SET expirationdate = DATE_ADD(expirationdate, INTERVAL 1 YEAR) WHERE reserve_id IN(SELECT reserve_id FROM reserves WHERE reservedate = DATE_SUB(expirationdate, INTERVAL 1 YEAR) AND (found IS NULL OR found = 'T'));
+```
 
 ### Hyllypaikan niteiden muuttaminen tilapäisesti ei-lainata -tilaan
 
-```Pääkirjaston lastenosaston paikalla olevat niteet laitettu notforloan-arvolle, jonka mukaan niteitä ei lainata eikä varata, mutta arvo poistuu niteen palautuksen yhteydessä (ei koske lehtiä)
+Pääkirjaston lastenosaston paikalla olevat niteet laitettu notforloan-arvolle, jonka mukaan niteitä ei lainata eikä varata, mutta arvo poistuu niteen palautuksen yhteydessä (ei koske lehtiä)
 
+```
 update items set notforloan=9 where holdingbranch='JOE_JOE' and location='LAP' and itype!='AL' and notforloan=0 and onloan is not null; 
+```
 
 korjaus noudettavien varausten osalta:
-update items i left join reserves r on (i.itemnumber=r.itemnumber) set i.notforloan=0 where i.notforloan=9 and r.found='W';</pre>
+```
+update items i left join reserves r on (i.itemnumber=r.itemnumber) set i.notforloan=0 where i.notforloan=9 and r.found='W';
+```
 
 ### Lehtitilausten sulkeminen ja odottaa- tilaisten tiputtaminen 'Reklamaatiot' -listalta
 
-```UPDATE subscription SET closed='1' WHERE enddate < '2020-01-01';</pre>
+```
+UPDATE subscription SET closed='1' WHERE enddate < '2020-01-01';
+```
 
-```UPDATE serial SET status=8 WHERE subscriptionid IN (SELECT subscriptionid FROM subscription WHERE closed=1) AND status=1;</pre>
+```
+UPDATE serial SET status=8 WHERE subscriptionid IN (SELECT subscriptionid FROM subscription WHERE closed=1) AND status=1;
+```
 
 ### Ei-lainassa olevien, ei-varaukseen tärpänneiden ja nidetilattomien niteiden nidetilan päivittäminen
 
 Esimerkki tiketti #5351
 
-```CREATE TABLE items_kd5351_20220425 SELECT i.itemnumber, i.homebranch, i.onloan, r.found FROM items i LEFT JOIN reserves r ON(i.itemnumber = r.itemnumber) WHERE i.homebranch IN ("ROPK", "ROLO") AND i.notforloan = 0 AND i.onloan IS NULL AND r.found IS NULL;</pre>
+```
+CREATE TABLE items_kd5351_20220425 SELECT i.itemnumber, i.homebranch, i.onloan, r.found FROM items i LEFT JOIN reserves r ON(i.itemnumber = r.itemnumber) WHERE i.homebranch IN ("ROPK", "ROLO") AND i.notforloan = 0 AND i.onloan IS NULL AND r.found IS NULL;
+```
 
-```UPDATE items i LEFT JOIN reserves r ON(i.itemnumber = r.itemnumber) SET i.notforloan = 9 WHERE i.homebranch IN ("ROPK", "ROLO") AND i.notforloan = 0 AND i.onloan IS NULL AND r.found IS NULL;</pre>
+```
+UPDATE items i LEFT JOIN reserves r ON(i.itemnumber = r.itemnumber) SET i.notforloan = 9 WHERE i.homebranch IN ("ROPK", "ROLO") AND i.notforloan = 0 AND i.onloan IS NULL AND r.found IS NULL;
+```
 
 ### Poistettujen niteiden palauttaminen niin, ettei palauteta jo palautettuja niteitä 
 
-```INSERT IGNORE INTO items SELECT di.* FROM deleteditems di JOIN biblio b USING(biblionumber) WHERE di.enumchron LIKE "2021 : %" AND b.title = "Anna 2021.";</pre>
+```
+INSERT IGNORE INTO items SELECT di.* FROM deleteditems di JOIN biblio b USING(biblionumber) WHERE di.enumchron LIKE "2021 : %" AND b.title = "Anna 2021.";
+```
 
 ### Käyttöoikeuksien käsittely 
 
@@ -2289,7 +2351,9 @@ Käyttöoikeuksien moduulien id:t ja käyttöoikeuden nimi löytyvät taulusta p
 
 Yksittäisen oikeuden lisääminen:
 
-```INSERT INTO user_permissions (borrowernumber, module, code) VALUES (12345, 12, "suggestions_manage");</pre>
+```
+INSERT INTO user_permissions (borrowernumber, module, code) VALUES (12345, 12, "suggestions_manage");
+```
 
 Täysien oikeuksien lisääminen:
 
@@ -2299,12 +2363,15 @@ Täysien oikeuksien lisääminen:
 
 Yksittäisen oikeuden poisto:
 
-```DELETE FROM user_permissions WHERE code = "suggestions_manage" AND borrowernumber='12345';</pre>
+```
+DELETE FROM user_permissions WHERE code = "suggestions_manage" AND borrowernumber='12345';
+```
 
 Täysien oikeuksien poisto:
 
-```UPDATE borrowers SET flags = flags - (1<<12) WHERE flags = flags | (1<<12) AND borrowernumber='12345';</pre>
-
+```
+UPDATE borrowers SET flags = flags - (1<<12) WHERE flags = flags | (1<<12) AND borrowernumber='12345';
+```
 ### Hyllypaikka ja signum muutoksia
 
 ## Lokien katselu
