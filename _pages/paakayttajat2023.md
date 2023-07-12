@@ -13,12 +13,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28 muistio
 
 Aika: 11.7.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Piia Semenoff (OUTI)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Anneli Österman (Koha-Suomi)
 
 **Yhteiset asiat:**
 
 * biblioitems.datereceived, joka oli KS-muutos ja tiputettiin versionvaihdossa pois, on edelleen kiinni kuvailupohjissa kentässä 942$1
-  * liitos pitäisi ottaa pois (ja mahdollisesti korvata toisella sarakkeella) - se onnistuu Poista napilla 942-kentän tietoja katsottaessa.
+  * liitos pitäisi ottaa pois (ja mahdollisesti korvata toisella sarakkeella) - se onnistuu Poista napilla 942-kentän tietoja katsottaessa. Pääkäyttäjät poistavat liitoksen manuaalisesti kuvailupohjista.
   * ![kuva](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/1f529cb9-80a1-4721-8e95-5aa10d57563b)
   * korvaavaa ei keksitty äkkiseltään. Mietitään ajan kanssa, onko tarvetta.
 
