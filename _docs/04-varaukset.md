@@ -143,27 +143,18 @@ Huomaa: Molemmissa tapauksissa varaus vahvistetaan tai tulostetaan kuitti ja hyv
 
 ## 4.2.2. Varaus palautetaan automaattiin
 
-Jos kimpassa on käytössä varatun aineiston noutoilmoitusten viivästäminen automaattipalautuksille, menevät kaikki automaatilla palautetut varatut niteet kuljetustilaan. Myös noutopisteeseen palautuneet jäävät odottamaan “kuljetusta” uudelleenkäsittelyyn. Käytännössä kaikki automaattiin palautetut varaukset pitää siis palauttaa noutopisteessä uudelleen virkailijaliittymässä, vasta siinä vaiheessa noutoilmoitus lähtee asiakkaalle.
+Automaattiin palautetut varaukset pitää palauttaa uudelleen Kohassa, jotta niistä lähtee asiakkaalle noutoilmoitus. Ennen uudelleenpalautusta varaukset ovat käsiteltävänä-tilaisia.
 
-Jos viivästys ei ole käytössä, lähtee noutoilmoitus asiakkaalle heti, kun aineisto palautetaan automaattiin.
+Toiminnallisuus perustuu järjestelmäasetukseen ja jos se ei ole käytössä, lähtee noutoilmoitus asiakkaalle heti, kun aineisto palautetaan automaattiin. Omatoimiaikana ei haluta, että varauksista lähtee noutoilmoituksia.
 
 ## 4.2.3. Varausten näkyminen asiakkaan tiedoissa
 
 Asiakkaan tiedoissa näkyy _Varaukset_-välilehdellä, minne varattu nide on palautettu ja milloin.
 
-**Virkailijaliittymässä palautettu varaus:**
-
 ![](/assets/files/docs/Lainaus/Varaus_22_varausnäkymä_asiakkaalla.PNG)
 
 Ensimmäinen nide odottaa noutopisteessä ja toinen on kuljetettavana noutokirjastoon
 
-**Automaattiin palautettu**:
-
-Jos noutoilmoitusten viivästäminen automaattipalautuksissa ei ole käytössä, näkyy varaus samalla tavalla kuin yllä olevassa tapauksessa.
-
-Jos käytössä on noutoilmoitusten viivästäminen, näkyy varaus näin:
-
-![](/assets/files/docs/Lainaus/Varaus_23_Automaattiin_palautus.PNG)
 
 ## 4.2.4. Kiinni jääneiden varausten näkyminen kokoelmatiedoissa ja varausjonossa
 
@@ -173,12 +164,12 @@ Automaatilla palautettu, noutoilmoitusta ei vielä lähetetty. Varaus näkyy nid
 
 ![](/assets/files/docs/Lainaus/Varaus_24_palautettu_automaatilla.PNG)
 
-    1. Noudettavissa oleva, noutoilmoitus lähetetty
-    2. Teos on kuljetettavana
+1. Noudettavissa oleva, noutoilmoitus lähetetty
+2. Teos on kuljetettavana
     
 ![](/assets/files/docs/Lainaus/Varaus_25_kokoelmat_varattu_ja_kuljetuksessa.PNG)
 
-**Varausjono**-sivulla kiinni jäänyt varaus voi olla kolmessa eri tilassa: Automaatilla palautettu, kiinni jäänyt varaus, noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on In transit/Kuljetettavana-tilassa.
+**Varausjono**-sivulla kiinni jäänyt varaus voi olla kolmessa eri tilassa: Automaatilla palautettu, kiinni jäänyt varaus, noutoilmoitusta ei vielä lähetetty. Priority-sarakkeessa varaus on Käsiteltävänä-tilassa.
 
 ![](/assets/files/docs/Lainaus/Varausjono_1_InProcessing.PNG)
 
@@ -196,4 +187,4 @@ Jos varauksen noutaa joku muu kuin varaaja itse (perheenjäsen tai muu valtuutet
 
 ![](/assets/files/docs/Lainaus/Varaus_27_VarauksenNoutoToinen_2.PNG)
 
----
+Jos valitaan _Peruuta odottava-tila_, siirtyy varaus takaisin jonon ensimmäiseksi ja se jää uudelleen kiinni samalle asiakkaalle, kun teokseen kuuluva nide seuraavan kerran palautetaan.
