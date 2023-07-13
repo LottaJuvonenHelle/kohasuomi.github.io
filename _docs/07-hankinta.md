@@ -328,7 +328,8 @@ Tallenna hankintaehdotus _Lähetä ehdotuksesi_ -napista. Voit myös peruuttaa h
 ### 7.3.2 Hankintaehdotusten ylläpitäminen
 
 ![](/assets/files/docs/Hankinta/hankinta24.png)  
-Hankintaehdotukset lajitellaan eri välilehtiin niiden tilan mukaan:
+
+Hankintaehdotukset lajitellaan oletuksena eri välilehtiin niiden tilan mukaan:
 _Hyväksytty, Odottaa, Tarkistettu, Tilattu ja Hylätty_. Jokaisessa
 hyväksytyssä tai hylätyssä ehdotuksessa näkyy sen käsitelleen henkilön
 nimi ja syy, joka on tallennettu ehdotuksen hyväksymiselle tai
@@ -344,19 +345,19 @@ hylkäämiselle (löytyy _Tila_-sarakkeesta).
 - _Hylätty_-tila on ehdotuksella, jolle on valittu _Hylätty_
   alasvetovalikosta.
 
+Lajittelun voi muuttaa vasemmasta reunasta Järjestä-valikosta myös kirjaston, nidetyypin, käsittelijän ja hyväksyjän mukaiseksi.
+
 Jos kirjastoon tulee paljon hankintaehdotuksia, niitä voi suodattaa
-käyttämällä vasemman reunan valikoita.  
+käyttämällä vasemman reunan valikoita _Aineiston tiedot_, _Ehdotuksen tiedot_ ja _Hankintatiedot_.  
 ![](/assets/files/docs/Hankinta/hankinta25.png)  
-Klikkaamalla sinistä otsikkoa (linkki) saat avattua valikon tarkempaan
-suodatukseen ja klikkaamalla _<span lang="tyhjennä"></span>_ kaikki
+
+Klikkaamalla valikon otsikkoa, saat avattua valikon tarkempaan
+suodatukseen ja klikkaamalla _tyhjennä_, kaikki
 suodattimet tyhjennetään ja näet kaikki hankintaehdotukset.
 
 **Vinkki:** Hankintaehdotukset rajoitetaan automaattisesti kirjastoosi
 tehtyihin ehdotuksiin. Jos haluat nähdä kaikkien (tai jonkun muun
-kirjaston) hankintaehdotukset, klikkaa _Hankintatiedot_-linkkiä
-suodattaaksesi haluamasi kirjaston.
-
-![](/assets/files/docs/Hankinta/hankinta26.png)
+kirjaston) hankintaehdotukset, valitse hankintaehdotustaulukon yläpuolelta _Näytetään hankintaehdotukset kirjastolle_-valikosta haluamasi kirjasto.
 
 Kun katsot _Odottaa_-tilassa olevia ehdotuksia, voit tehdä valinnan
 kunkin nimekkeen vasemmalla puolella olevaan laatikkoon ja valita näille
@@ -365,12 +366,12 @@ kokonaan poistaa ehdotuksen _Poista valitut_ -valinnalla.
 
 ![](/assets/files/docs/Hankinta/hankinta27.png)
 
-Voit myös muokata hankintaehdotuksen tietoja ennen hyväksymistä.  
-![](/assets/files/docs/Hankinta/hankinta28.png)
-
-Klikkaamalla _Muokkaa_ ruudun yläreunassa voit päästä muokkaamaan
+Klikkaamalla _Muokkaa_ hankintaehdotusrivin oikeassa reunassa, pääset muokkaamaan
 hankintaehdotusta.  
 ![](/assets/files/docs/Hankinta/hankinta29.png)
+
+Muokkaa ehdotusta tarvittavilta osin.
+![](/assets/files/docs/Hankinta/hankinta28.png)
 
 Tällä näytöllä voit antaa ehdotukselle lisäinformaatiota tai korjata
 asiakkaan antamia tietoja. Voit myös muuttaa ehdotuksen tilan eli
@@ -391,10 +392,8 @@ takaisin syyvalikon.
 ![](/assets/files/docs/Hankinta/hankinta31.png)
 
 Kun olet klikannut _OK_, ehdotus menee sopivalle välilehdelle. Tila
-vaihtuu myös asiakkaan tiedoissa verkkokirjastossa ja asiakkaalle lähtee
+vaihtuu myös asiakkaan tiedoissa verkkokirjastossa (ei koske Finnaa) ja asiakkaalle lähtee
 sähköpostiviesti ehdotuksen hyväksymisestä/hylkäämisestä.
-
-![](/assets/files/docs/Hankinta/hankinta32.png)
 
 ## 7.4 Tilausten teko
 
