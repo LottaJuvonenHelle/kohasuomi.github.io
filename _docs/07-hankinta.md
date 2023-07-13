@@ -875,11 +875,6 @@ Pääset pois sivulta valitsemalla vasemmalta valikosta esim. Hankinnat.
 
 ## 7.6. Tilauksen peruminen
 
-**Huom!** Tilausrivin poistaminen poistaa kaikki siihen liittyvät niteet, myös jo lainassa olevat. Jos jotain teosta ei saadakaan kaikkia osia,
-  ei saa poistaa koko riviä, koska silloin poistuu myös vastaanotetut
-  niteet. Kohassa ei ole varsinaisesti olemassa osatoimitus-toimintoa.
-  Poista saapumattomat niteet tiedonhaun kautta.
-
 Hae toimittajan tiedoilla kuten tilausta vastaanotettaessa. Tilauksen
 peruminen lähtee vastaanottonäkymästä.
 
@@ -895,8 +890,8 @@ Hae peruttava tilaus teoksen hakutoiminnolla.
 ![](/assets/files/docs/Hankinta/hankinta80.png)
 
 - Klikkaa _Peruuta teoksen tilaus_ -linkkiä, jolloin poistuu
-  tilausriviin liittyvät niteet, mutta luettelointitiedot ja muiden kirjastojen
-  niteet ja asiakkaiden varaukset säilyvät.
+  tilausriviin liittyvät vastaanottamattomat niteet, mutta luettelointitiedot ja muiden kirjastojen
+  niteet ja asiakkaiden varaukset säilyvät. Myös oman kirjaston jo vastaanotetut niteet säilyvät. (Tämä on korjaantunut aiemmasta versiosta, jossa myös vastaanotetut poistuivat)
 - Jos tilausriviin teokseen ei liity muita tilauksia, niteitä ja
   varauksia, voi poistaa myös nimekkeen _Peruuta teoksen tilaus ja
   nimeketietue_ -linkistä.
@@ -905,6 +900,7 @@ Saat varmistuskysymyksen tilauksen poistosta.
 
 Jos poistat myös nimekkeen ilmoitetaan se varmistusviestissä  
 ![](/assets/files/docs/Hankinta/hankinta81.png)  
+
 Jos taas et poista nimekettä, sekin kerrotaan varmistusviestissä  
 ![](/assets/files/docs/Hankinta/hankinta82.png)
 
