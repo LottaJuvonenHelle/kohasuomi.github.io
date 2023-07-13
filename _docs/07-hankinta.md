@@ -969,7 +969,7 @@ _Toiminnot_-napin alta löytyy lisää vaihtoehtoja
 ## 7.9. Hankinnan hakutoiminnot
 
 Jokaisen hankintaosion sivun yläreunassa on pikahakulaatikko toimittajan
-tai tilauksen hakua varten.
+tai tilauksen hakua varten.hankin
 
 ### 7.9.1 Toimittajahaku
 
@@ -998,15 +998,13 @@ tarvitse olla kokonaan.
 - Voit säätää _Sarakkeet_ -napista, mitä sarakkeita taulukossa on näkyvillä.
 - _Vie_ -napista voit viedä tulokset Excel- tai CSV-muotoon, kopioida tiedot tai tulostaa ne.
 
-Klikkaamalla plus-merkkiä hankintahaun oikealla puolella voit laajentaa
+Klikkaamalla valikko-kuvaketta hankintahaun oikeassa reunassa voit laajentaa
 hakuehtoja.
 
 ![](/assets/files/docs/Hankinta/hankinta91.png)
 
-Saat laajemman hakulomakkeen, kun valitset haun oikeassa reunassa olevaa
-_Tarkka haku_ -linkkiä.
-
-![](/assets/files/docs/Hankinta/hankinta92.png)
+Saat laajemman hakulomakkeen, kun valitset avautuvasta valikosta
+_Tarkka haku_ -linkin.
 
 Tarkassa haussa pystyt hakemaan mm. ISBN-numerolla  
 ![](/assets/files/docs/Hankinta/hankinta921.png)
