@@ -105,7 +105,7 @@ _HTML-viesti_, jolloin viesti osataan käsitellä oikein.
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset02.png" alt="Kuvakaappaus, jossa esimerkkinä sähköposti-ilmoituksesta on eräpäivämuistutus" style="width:90.0%" />
 
-Lisätietoja ja -ohjeita ilmoitusten muokkaamisesta on englanninkielisessä Koha-wikissä https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips
+Lisätietoja ja -ohjeita ilmoitusten muokkaamisesta on englanninkielisessä [Koha-wikissä](https://wiki.koha-community.org/wiki/Customising_Notices_and_Slips)
 
 ### 12.2.2 Eräpäivä kuitille ilman kellonaikaa
 
@@ -119,11 +119,11 @@ Eräpäivä: &lt;&lt;issues.date_due \| dateonly &gt;&gt;
 ## 12.3 Myöhästymisilmoitusten määrittely
 
 Myöhästymisilmoitusten eli palautuskehotusten aikataulu määritetään
-Myöhästymisilmoitusten määrittely -työkalulla. Määrittelyt voivat olla
-joko kaikkia tai yksittäisiä kirjastoja koskevia. Ilmoituksia voi
-lähettää kolme, mutta kaikkia tai mitään ei tarvitse lähettää.
+_Myöhästymisilmoitusten määrittely_ -työkalulla. Määrittelyt voivat olla
+joko kaikkia (_Oletus_) tai yksittäisiä kirjastoja koskevia. Ilmoituksia voi
+lähettää kolme, mutta kaikkia tai mitään ei tarvitse lähettää. Jos kimpassa on käytössä _Laskutustyökalu_-liitännäinen, esim. kolmas ilmoitus saattaa viitata laskuun.
 
-**Huomioi**, että jos oletussääntö on määritetty, ei yksittäiselle
+Huomioi, että jos oletussääntö on määritetty, ei yksittäiselle
 kirjastolle pysty tekemään sääntöä, että ilmoituksia ei lähetetä
 ollenkaan.
 
@@ -132,8 +132,7 @@ ollenkaan.
 - Taulukossa listataan ne asiakastyypit, joille on määritetty
   asiakastyyppien ylläpidossa, että myöhästymisilmoituksia lähetetään.
 - _Viive_-kenttään määritetään, montako päivää eräpäivän jälkeen
-  myöhästyisilmoitus lähetetään. Jos kimpassa käytetään Laskutustyökalu-liitännäistä,
-  esim. kolmas ilmoitus saattaa viitata laskuun.
+  myöhästyisilmoitus lähetetään. Järjestelmäasetuksella voidaan erikseen määritellä, otetaanko kirjaston kiinniolopäivät tässä huomioon.
 - _Kirje_-sarakkeessa valitaan, mitä ilmoituspohjaa käytetään viestiä
   lähetettäessä. Ks. kohta 12.2 Ilmoitukset ja kuitit.
 - _Rajoita_-kohtaan laitetaan rasti, jos halutaan asiakkaan menevän
