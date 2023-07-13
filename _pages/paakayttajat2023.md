@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 28 muistio
 
 Aika: 11.7.2023 klo 9.15 <br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Anneli Österman (Koha-Suomi)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Anneli Österman (Koha-Suomi), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset asiat:**
 
@@ -55,7 +55,10 @@ Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. t
   
 **Helle**
 * Asiakastiedon vasemman tietoruudun Tili on lukittu -teksti aiheuttanut henkilökunnassa hämmennystä. Palaverissa saatu tieto, että tekstiin ei tule muutosta/tarkennusta.
-* Palaverissa mainittu kuvailupohjan biblioitems.datereceived liitoksen poisto: Helleen jätetään toistaiseksi. 942|1-kentän mahdollisista arvoista on apua tikettiin #392 (Tänään 34182 tikettiin liittyvällä niteellä on ko. kentän arvona muu päiväysarvo kuin 2018-09-04.) 
+* Palaverissa mainittu kuvailupohjan biblioitems.datereceived liitoksen poisto: Helleen jätetään toistaiseksi. 942|1-kentän mahdollisista arvoista on apua tikettiin #392 (Tänään 34182 tikettiin liittyvällä niteellä on ko. kentän arvona muu päiväysarvo kuin 2018-09-04.)
+
+**Siilinjärvi**
+* Ei mainittavaa.
   
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
