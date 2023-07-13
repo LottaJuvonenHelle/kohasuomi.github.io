@@ -332,7 +332,7 @@ Yleiset ja tieteelliset Koha-kirjastot kokosivat yhdessä keväällä 2021 indek
 
 Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 
-### Indeksi, luokka, luokan selite
+### 10.8.1 Indeksi, luokka, luokan selite
 
 |Indeksin nimi|Luokka|Luokan selite|
 |---|---|---|
@@ -778,7 +778,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |uri|952u|URI|
 |withdrawn|9520|Pois kierrosta -tila|
 
-### Luokka, luokan selite, indeksi
+### 10.8.2 Luokka, luokan selite, indeksi
 
 |Luokka|Luokan selite|Indeksi|
 |---|---|---|
