@@ -236,20 +236,12 @@ valitut.
 
 Jos toimipistekoodia ei ole näkyvissä, klikkaa Lisää toimipiste.
 
-![](/assets/files/docs/Asiakkaat/lisäätoimipiste.png)
-
 Toimipiste on sama kuin kassan numero. Jos kirjastossa on useampi kassa,
 tulee tähän toimipistekoodi.
-
-![](/assets/files/docs/Asiakkaat/lisäätoimipiste2.png)
-
-![](/assets/files/docs/Asiakkaat/lisäätoimipiste3.png)
 
 Kun toimipiste on valittu, se näkyy näytöllä. Toimipiste näkyy niin
 kauan kuin evästeitä (cookies) ei tyhjennetä. Jos evästeet poistetaan,
 pitää toimipiste lisätä uudelleen.
-
-![](/assets/files/docs/Asiakkaat/lisäätoimipiste4.png)
 
 ### 3.5.2. Maksun lähettäminen kassaohjelmaan
 
