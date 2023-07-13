@@ -325,3 +325,909 @@ Näytöllä on listattuna kaikki kirjastot ja kuinka monta kertaa kyseinen nide 
 
 **Huomioi**: Jos nide palautetaan eri kirjastoon kuin mistä se on lainattu, tieto ei kirjaudu tälle näytölle. Eli tällä näytöllä näkyy vain lainaava kirjasto ja viimeisin havaintopäivä kirjautuu lainanneelle kirjastolle, vaikka palautus on tapahtunut toisessa kirjastossa.
 {: .notice--warning}
+
+## 10.8 Hakukone Elasticsearch ja sen indeksit
+
+Yleiset ja tieteelliset Koha-kirjastot kokosivat yhdessä keväällä 2021 indeksoinnin (tiedonhaun) tarpeet ja siitä syntyi seuraavanlainen määrittely.
+
+Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
+
+### Indeksi, luokka, luokan selite
+
+|Indeksin nimi|Luokka|Luokan selite|
+|---|---|---|
+|abtract|520|Huomatus sisällöstä, tiivistelmä, tms.|
+|accessibility-content|341abcde|Saavutettavuussisältö|
+|agelevel|049c|Tarkastus tai inventointi - suomalainen kenttä - elokuvan tai pelin ikäraja|
+|agelevel|521a|Huomautus kohderyhmästä|
+|acqsource|952e|Hankintapaikka - nidetieto|
+|alt-performance-medium|382p|Vaihtoehtoinen esityskokoonpano|
+|arl|526c|Lukutaidon aste|
+|arp|526d|Nimekkeen pistearvo|
+|audience-term|385a|Kohderyhmä|
+|auth-code|042a|autentikointikoodi|
+|author|100a|Pääkirjaus - henkilönnimi|
+|author|110a|Pääkirjaus - yhteisönnimi|
+|author|111a|Pääkirjaus - kokouksen nimi|
+|author|505r|Huomautus sisällön rakenteesta - tekijä|
+|author|700a|Lisäkirjaus - henkilönnimi|
+|author|900a|Viittaus - henkilönnimi - suomalainen kenttä|
+|author|910a|Viittaus - yhteisönnimi - suomalainen kenttä|
+|author|911a|Viittaus - kokouksen nimi - suomalainen kenttä|
+|author-in-order|245c|Vastuullisuusmerkinnöt jne.|
+|author-in-order|505r|Huomautus sisällön rakenteesta - tekijä|
+|author-name-corporate|110|Yhteisönnimi|
+|author-name-corporate|111|Kokouksen nimi|
+|author-name-corporate|711|Lisäkirjaus - Kokouksen nimi|
+|author-name-corporate|810|Sarjalisäkirjaus - Yhteisönnimi|
+|author-name-corporate|811|Sarjalisäkirjaus - Kokouksen nimi|
+|author-name-personal|100|Pääkirjaus - henkilönnimi|
+|author-name-personal|400|Katso-viittaus henkilönnimestä?|
+|author-name-personal|700|Lisäkirjaus- henkilönnimi|
+|author-name-personal|800|Sarjalisäkirjaus - henkilönnimi|
+|author-title|100|Pääkirjaus - henkilönnimi|
+|author-title|110|Pääkirjaus - yhteisönnimi|
+|author-title|111|Pääkirjaus - kokouksen nimi|
+|author-title|700t|Lisäkirjaus - henkilönnimi, teoksen nimeke|
+|author-title|710t|Lisäkirjaus - yhteisönnimi, teoksen nimeke|
+|author-title|711t|Lisäkirjaus - kokouksen nimi, teoksen nimeke|
+|author-title|800t|Sarjalisäkirjaus - henkilönnimi, teoksen nimeke|
+|author-title|810t|Sarjalisäkirjaus - yhteisönnimi, teoksen nimeke|
+|author-title|811t|Sarjalisäkirjaus - kokouksen nimi, teoksen nimeke|
+|awards-note|586a|Huomautus palkinnosta|
+|barcode|952p|Niteen viivakoodi|
+|bfg-number|015|NBN-tunnus|
+|bib-level|leader_/7|Tietueen taso (nimiö)|
+|biblioitemnumber|999d|Tietueen biblionumber|
+|bio|008_/34|Elämäkerta|
+|bnb-card-number|015|NBN-tunnus|
+|canceled-isbn|020z|Peruttu tai virheellinen ISBN-tunnus|
+|canceled-issn|022z|Peruttu ISSN-tunnus|
+|carrier-type-term|338a|Tallennetyyppi|
+|collection-code|9528|Kokoelmakoodi|
+|classification-source|9522|Niteen luokituksen lähde|
+|cn-bib-sort|9426|Järjestämistä varten normalisoitu tietueen luokka|
+|cn-bib-source|9422|Tietueen luokituksen lähde|
+|cn-class|942h|Luokka|
+|cn-item|942i|Item part|
+|cn-prefix|942k|Signumin prefiksi|
+|cn-sort|9526|Järjestämistä varten normalisoitu niteen luokka|
+|cn-suffix|942m|Signumin suffiksi|
+|cni|003|Tietueen kontrollinumeron tunniste|
+|code-geographic|043|Maantieteellisen alueen koodi|
+|code-institution|040|Luetteloiva organisaatio|
+|coded-location-qualifier|952f|Niteen koodattu paikkamääre|
+|coden|030|CODEN-tunnus|
+|conference-name|111|Pääkirjaus - Kokouksen nimi|
+|conference-name|411|Katso-viittaus konferenssin nimestä?|
+|conference-name|611|Kokouksen nimi asiasanana|
+|conference-name|711|Lisäkirjaus - Kokouksen nimi|
+|conference-name|811|Sarjalisäkirjaus - Kokouksen nimi|
+|contet-type-term|336a|Sisältötyyppi|
+|control-number|001|Tietueen kontrollinumero|
+|control-number-identifier|003|Tietueen kontrollinumeron tunniste|
+|copydate|260c|Julkaisu-, jakelu- jne. aika|
+|copydate|264c|Tuotanto-, julkaisu-/kustannus-, jakelu- tai valmistusaika tai tekijänoikeusvuosi|
+|copydate|008_/7-10|Julkaisuaika|
+|copynumber|952t|Nidenumero|
+|corporate-name|110|Pääkirjaus - Yhteisönnimi|
+|corporate-name|410|Katso-viittaus yhteisönnimestä?|
+|corporate-name|610|Yhteisönnimi asiasanana|
+|corporate-name|710|Lisäkirjaus - Yhteisönnimi|
+|corporate-name|810|Sarjalisäkirjaus - Yhteisönnimi|
+|creator-term|386a|Tekijän ominaisuudet - tekijä|
+|cross-reference|1009|Linkitys tekijä-auktoritettiin|
+|cross-reference|2459|Linkitys nimeke-auktoriteettiin|
+|cross-reference|7009|Linkitys tekijä-auktoriteettiin|
+|ctype|008_/24-27|Sisältö|
+|curriculum|658abc|Opinto-ohjelman tai kurssin tavoitteet hakuterminä|
+|damaged|9524|Niteen Vaurioitunut-arvo|
+|date-entered-on-file|008_/0-5|Luontipäivä|
+|date-of-acquisition|952d|Hankintapäivä niteessä|
+|date-of-publication|008_/7-10|Julkaisuaika|
+|date-of-publication|260c|Julkaisu-, jakelu- jne. aika|
+|date-of-publication|264c|Tuotanto-, julkaisu-/kustannus-, jakelu- tai valmistusaika tai tekijänoikeusvuosi|
+|date-time-last-modified|005|Viimeisimmän päivityksen ajankohta|
+|datelastborrowed|952s|Viimeksi lainattu (nide)|
+|datelastseen|952r|Viimeksi nähty (nide)|
+|description-source-note|588a|Huomautus kuvailun perustasta|
+|dewey-classification|082|Deweyn luokitus, DDC|
+|dissertation-information|502|Huomautus väitöskirjasta|
+|doubling-instrument|382d|Sivusoitin|
+|editor|100a|Pääkirjaus - henkilönnimi|
+|editor|700a|Lisäkirjaus - henkilönnimi|
+|encoding-format|347b|Tiedostomuoto|
+|extent|300|Ulkoasutiedot|
+|ff7-00|007_/0|Aineistoluokka|
+|ff7-01|007_/1|Aineiston erityismääre|
+|ff7-01-02|007_/0-1|Aineistoluokka ja Aineiston erityismääre|
+|ff7-02|007_/2|Määrittelemätön??|
+|ff8-23|008_/23|Ilmiasu|
+|ff8-29|008_/29|Kokousjulkaisu|
+|geographic-class|052|Maantieteellinen luokitus|
+|holdinglibrary|952b|Sijaintikirjasto|
+|homelibrary|952a|Kotikirjasto|
+|host-item|773at|Linkkikenttä - emokohde|
+|host-item-number|7739|Linkkikenttä - emokohde|
+|identifier-other|024aa|Muut standarditunnukset|
+|identifier-publisher-for-music|028|Julkaisijan ja jakajan tunnus|
+|identifier-standard|010|Library of Congress kontrollinumero|
+|identifier-standard|011|?|
+|identifier-standard|015|NBN-tunnus|
+|identifier-standard|017|Tekijänoikeus- tai vapaakappaletunnus|
+|identifier-standard|018|Artikkelin tekijänoikeusmaksun koodi|
+|identifier-standard|020a|ISBN-tunnus|
+|identifier-standard|022a|ISSN-tunnus| 
+|identifier-standard|024a|Muut standarditunnukset|
+|incorrect-issn|022y|ISSN-tunnus (virheellinen)|
+|index-term-genre|655a|Aineiston lajityyppi/muoto hakuterminä|
+|index-term-genre|655x|Aineiston lajityyppi/muoto hakuterminä|
+|index-term-uncontrolled|653a|Kontrolloimaton hakutermi|
+|indexed-by|510|Huomautus tietolähteestä|
+|interest-grade-level|521a|Huomautus kohderyhmästä|
+|isbn|020a|ISBN-tunnus|
+|issn|022a|ISSN-tunnus|
+|issn|830x|Sarjalisäkirjauksen ISSN|
+|issues|952l|Lainauksia|
+|itemnumber|9529|Niteen numero|
+|itemtype|942c|Aineistotyyppi|
+|itemtype|952y|Nidetyyppi|
+|itype|942c|Aineistotyyppi|
+|koha-auth-number|1000|Pääkirjaus - henkilönnimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|1100|Pääkirjaus - yhteisönnimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|1110|Pääkirjaus - kokouksen nimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|1300|Pääkirjaus - yhtenäistetty nimeke - auktoriteettitietueen kontollinumero|
+|koha-auth-number|2450|?|
+|koha-auth-number|4000|?|
+|koha-auth-number|4100|?|
+|koha-auth-number|4400|?|
+|koha-auth-number|4900|?|
+|koha-auth-number|6000|Henkilönnimi asiasanana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6100|Yhteisönnimi asiasanana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6110|Kokouksen nimi asiasanana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6300|Yhtenäistetty nimeke asiasanana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6480|Aikaa ilmaiseva termi asiasanana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6510|Maantieteellinen nimi asiasanana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6520|?|
+|koha-auth-number|6530|?|
+|koha-auth-number|6540|Fasettianalysoitu asiasana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6500|Kontrolloidun asiasanaston asiasana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6550|Aineiston lajityyppi/muoto hakuterminä - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6560|Ammatti hakuterminä - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6570|Tapahtuma tai toiminto hakuterminä - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6620|Hierarkkinen maantieteellinen nimi asiasanana - auktoriteettitietueen kontollinumero|
+|koha-auth-number|6900|?|
+|koha-auth-number|6910|?|
+|koha-auth-number|6960|?|
+|koha-auth-number|6970|?|
+|koha-auth-number|6980|?|
+|koha-auth-number|6990|?|
+|koha-auth-number|7000|Lisäkirjaus - henkilönnimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|7100|Lisäkirjaus - yhteisönnimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|7110|Lisäkirjaus - kokouksen nimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|7300|Lisäkirjaus - yhtenäistetty nimeke - auktoriteettitietueen kontollinumero|
+|koha-auth-number|7510|Lisäkirjaus - maantieteellinen nimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|7960|?|
+|koha-auth-number|7970|?|
+|koha-auth-number|7980|?|
+|koha-auth-number|7990|?|
+|koha-auth-number|8000|Sarjalisäkirjaus - henkilönnimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|8100|Sarjalisäkirjaus - yhteisönnimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|8110|Sarjalisäkirjaus - kokouksen nimi - auktoriteettitietueen kontollinumero|
+|koha-auth-number|8300|Sarjalisäkirjaus - yhtenäistetty nimeke - auktoriteettitietueen kontollinumero|
+|koha-auth-number|8960|?|
+|koha-auth-number|8970|?|
+|koha-auth-number|8980|?|
+|koha-auth-number|8990|?|
+|language-intermediate-translation|041k|Kielikoodi - välikäännösten kieli|
+|language-original|041h|Kielikoodi - alkuperäinen kieli|
+|lc-call-number|050b|Library of Congress -luokitus - kappalenumero|
+|lc-card-number|010|Library of Congress kontrollinumero|
+|lc-card-number|011|?|
+|lexile-number|521a|Huomautus kohderyhmästä|
+|lf|008_/33|Kirjallisuuslaji|
+|library-specific-notes|598a|Paikallinen huomautus|
+|library-specific-notes|599a|Paikallinen huomautus|
+|llength|leader_/0-4|Tietueen pituus|
+|ln|008_/35-37|Kieli|
+|ln|041a|Kielikoodi - tekstin tai ääniraidan kieli|
+|ln|041d|Kielikoodi - lauletun tai puhutun aineiston kieli |
+|ln|041j|Kielikoodi - tekstityksen kieli|
+|ln-acaudio|041q|Kielikoodi - äänivastineen kieli|
+|ln-audio|041a|Kielikoodi - tekstin tai ääniraidan kieli|
+|ln-audio|041d|Kielikoodi - lauletun tai puhutun aineiston kieli|
+|ln-captions|041p|Kielikoodi - Kuulovammaisille tarkoitetun tekstityksen kieli|
+|ln-subtitle|041j|Kielikoodi - tekstityksen kieli|
+|ln-visual|041r|Kielikoodi - Visuaalinen kieli (ei-teksti)|
+|loc|952c|Hyllypaikka|
+|local-classification|952o|Kohan koko signum|
+|local-number|999c|Kohan biblionumber|
+|location-item-part|852i|Sijainti|
+|lost|9521|Kadonnut-tila|
+|map-scale|034|Kartta-aineiston matemaattiset tiedot koodeina|
+|material-type|007|Ulkoasutiedot|
+|materials-specified|9523|Liitteiden määrä|
+|media-type-term|337a|Mediatyyppi|
+|methodology-controlled-term|567b|Huomautus metodologiasta|
+|microform-generation|007_/11|Mikrotallenteen sukupolvi|
+|mtype|942c|Nidetyyppi|
+|music-key|130r|Pääkirjaus - yhtenäistetty nimeke - sävellaji|
+|music-key|240r|Yhtenäistetty nimeke - sävellaji|
+|music-key|243r|Kokoava yhtenäistetty nimeke - sävellaji|
+|music-key|630r|Yhtenäistetty nimeke asiasanana - sävellaji|
+|music-key|700r|Lisäkirjaus - henkilönnimi - sävellaji|
+|music-key|730r|Lisäkirjaus - yhtenäistetty nimeke - sävellaji|
+|musical-opus-number|383b|Musiikkiteoksen numerointimerkintö|
+|musical-publisher-with-opus|383e|Musiikkiteoksen numerointimerkintö|
+|musical-serial-number|383a|Musiikkiteoksen numerointimerkintö|
+|musical-thematic-index-number|383c|Musiikkiteoksen numerointimerkintö|
+|nal-call-number|070|National Agricultural Library -luokitus|
+|name|100|Pääkirjaus - henkilönnimi|
+|name|110|Pääkirjaus - yhteisönnimi|
+|name|111|Pääkirjaus - kokouksen nimi|
+|name|400||
+|name|600a|Henkilönnimi asiasanana|
+|name|610|Yhteisönnimi asiasanana|
+|name|611|Kokouksen nimi asiasanana|
+|name|700|Lisäkirjaus - henkilönnimi|
+|name|710|Lisäkirjaus - yhteisönnimi |
+|name|711|Lisäkirjaus - kokouksennimi|
+|name|800|Sarjalisäkirjaus - henkilönnimi|
+|name|810|Sarjalisäkirjaus - yhteisönnimi|
+|name|811|Sarjalisäkirjaus - kokouksen nimi|
+|name-and-title|100|Pääkirjaus - henkilönnnimi|
+|name-and-title|110|Pääkirjaus - yhteisönnimi|
+|name-and-title|111|Pääkirjaus - kokouksen nimi|
+|name-and-title|400at||
+|name-and-title|410at||
+|name-and-title|411at||
+|name-and-title|600at|Henkilönnimi asiasanana + teoksen nimeke|
+|name-and-title|610at|Yhteisönniminimi asiasanana + teoksen nimeke|
+|name-and-title|611at|Kokouksen nimi asiasanana + teoksen nimeke|
+|name-and-title|700at|Lisäkirjaus - henkilönnimi + teoksen nimeke|
+|name-and-title|710at|Lisäkirjaus - yhteisönnimi + teoksen nimeke|
+|name-and-title|711at|Lisäkirjaus - kokouksen nimi + teoksen nimeke|
+|name-and-title|800at|Sarjalisäkirjaus - henkilönnimi + teoksen nimeke|
+|name-and-title|810at|Sarjalisäkirjaus - yhteisönnimi + teoksen nimeke|
+|name-and-title|811at|Sarjalisäkirjaus - kokouksen nimi + teoksen nimeke|
+|name-geographic|651|Maantieteellinen nimi asiasanana|
+|name-geographic|751a|Lisäkirjaus - maantieteellinen nimi|
+|nlm-call-number|060|National Library of Medicine -luokitus|
+|not-onloan-count|999x|Koha-kenttä|
+|notated-music-format-term|348a|Nuottiaineiston muoto|
+|note|500|Yleinen huomautus|
+|note|505|Huomautus sisällön rakenteesta|
+|note|509ac|Huomautus muusta opinnäytteestä|
+|note|546a|Huomautus kielistä|
+|note|590|Paikallinen huomautus|
+|note|594a|Paikallinen huomautus|
+|note|598a|Paikallinen huomautus|
+|note|599a|Paikallinen huomautus|
+|note|952z|Yleinen huomautus|
+|notforloan|9527|Ei lainattavissa|
+|number-govt-pub|086|Virallisjulkaisujen luokitus|
+|number-legal-deposit|017|Tekijänoikeus- tai vapaakappaletunnus|
+|number-local-acquisition|952i|Inventaarionumero|
+|number-natl-biblio|015|NBN-tunnus|
+|onloan|952q|Lainassa|
+|other-classification|084a|Luokka|
+|other-control-number|035|Järjestelmän tuottama kontrollinumero|
+|ownership-history|561a|Huomautus omistushistoriasta|
+|performance-medium|382a|Esityskokoonpano|
+|performance-note|382v|Esityskokoonpanon huomautus|
+|personal-name|100|Henkilönnimi|
+|personal-name|400||
+|personal-name|600a|Henkilönnimi asiasanana|
+|personal-name|700|Lisäkirjaus - henkilönnimi|
+|personal-name|800|Sarjalisäkirjaus - henkilönnimi|
+|pl|008_/15-17|Julkaisu-, tuotanto- tai toteuttamismaa|
+|place-of-origin|	257a|Tuottajan maa|
+|place-of-origin|	370g|Teoksen tai ekspression luontipaikka|
+|place-of-origin|	655z|Maantieteellinen lisämääre|
+|place-of-publication|	260a|Julkaisu-/kustannus-, jakelu- jne. paikka|
+|place-of-publication	|264a|Tuotanto-, julkaisu-/kustannus-, jakelu- tai valmistuspaikka|
+|placement|	852h|Paikkamerkin hyllyluokka|
+|price|952g|Hankintahinta|
+|provider|260|Julkaisutiedot|
+|provider|264|Huomautus tuotanto-, julkaisu-/kustannus-, jakelu-, valmistus- tai tekijänoikeustiedoista|
+|publisher|264b|Tuottajan, julkaisijan/kustantajan, jakajan tai valmistajan nimi|
+|publisher|260b|Julkaisijan/kustantajan, jakajan jne. nimi|
+|reading-grade-level|521a|Huomautus kohderyhmästä|
+|record-control-number|770w|Tietueen kontrollinumero - linkkikenttä suplementti/erikoisnumero|
+|record-control-number|772w|Tietueen kontrollinumero - linkkikenttä suplementin pääjulkaisu|
+|record-control-number|773w|Tietueen kontrollinumero - linkkikenttä emokohde|
+|record-control-number|774w|Tietueen kontrollinumero - linkkikenttä osakohde|
+|record-control-number|775w|Tietueen kontrollinumero - linkkikenttä muu painos|
+|record-control-number|776w|Tietueen kontrollinumero - linkkikenttä toinen ilmiasu|
+|record-control-number|777w|Tietueen kontrollinumero - linkkikenttä kanssajulkaisu|
+|record-control-number|780w|Tietueen kontrollinumero - linkkikenttä edeltäjä|
+|record-control-number|785w|Tietueen kontrollinumero - linkkikenttä seuraaja|
+|record-control-number|787w|Tietueen kontrollinumero - linkkikenttä muu suhde|
+|record-control-number|800w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus henkilönnimi|
+|record-control-number|810w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus yhteisönnimi|
+|record-control-number|811w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus kokouksen nimi|
+|record-control-number|830w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus yhtenäistetty nimeke|
+|record-control-number-773w|773w|Tietueen kontrollinumero - linkkikenttä emokohde|
+|record-source|008_/39|Luetteloiva organisaatio|
+|related-periodical|247|Aikaisempi nimeke (kausijulkaisu)|
+|related-periodical|780|Linkkikenttä edeltäjä|
+|related-periodical|785|Linkkikenttä seuraaja|
+|renewals|952m|Uusintojen määrä|
+|replacementprice|952v|Korvaushinta|
+|replacementpricedate|952w|Hinta voimassa alkaen|
+|report-number|027|ISRN-tunnus tai muu standardoitu raporttinumero|
+|reserves|952n|Varauksien määrä|
+|restricted|9525|Käyttörajoitukset|
+|rtype|leader_/6|Tietueen tyyppi|
+|soloist|382b|Solisti|
+|standardized-terms-of-access|506f|Pääsyrajoitus standarditerminologialla|
+|stock-number|037|Hankintapaikka|
+|su-geo|650z|Maantieteellinen lisämääre|
+|su-geo|651a|Maantieteellinen nimi|
+|subject|651|Maantieteellinen nimi asiasanana|
+|subject|348a|Termi nuottiaineiston muodolle|
+|subject|600a|Henkilönnimi|
+|subject|653a|Kontrolloimaton hakutermi|
+|subject|630r|Sävellaji|
+|subject|600b|Numerointi (henkilönnimessä)|
+|subject|600t|Teoksen nimeke|
+|subject|610a|Yhteisönnimi |
+|subject|610b|Alayksikkö (yhteisönnimessä)|
+|subject|610t|Teoksen nimeke|
+|subject|611|Kokouksen nimi asiasanana|
+|subject|630a|Yhtenäistetty nimeke|
+|subject|630n|Numerointitieto (yhtenäistetty nimeke)|
+|subject|630p|Teoksen osan nimeke|
+|subject|648a|Aikaa ilmaiseva termi|
+|subject|650a|Aihetta ilmaiseva termi tai maantieteellinen nimi|
+|subject|650b|Maantieteellistä nimeä seuraava aihetta ilmaiseva termi|
+|subject|650c|Tapahtumapaikka|
+|subject|650d|Tapahtuman aika|
+|subject|650v|Muotoa ilmaiseva lisämääre|
+|subject|650x|Yleinen lisämääre|
+|subject|650y|Aikaa ilmaiseva lisämääre|
+|subject|650z|Maantieteellinen lisämääre|
+|subject|651a|Maantieteellinen nimi asiasanana|
+|subject|651c|Maantieteellinen nimi asiasanana|
+|subject|651d|Maantieteellinen nimi asiasanana|
+|subject|651e|Maantieteellinen nimi asiasanana|
+|subject|651n|Maantieteellinen nimi asiasanana|
+|subject|651t|Maantieteellinen nimi asiasanana|
+|subject|655a|Lajityyppiä/muotoa kuvaava termi tai fokustermi|
+|subject|655x|Yleinen lisämääre (lajityypille)|
+|subject-name-personal|600a|Henkilönnimi|
+|subloc|952j|Hyllytarkenne|
+|suppress|942n|?|
+|system-control-number|035a|Järjestelmän tuottama kontrollinumero|
+|system-control-number-cancelled|035z|Peruttu tai virheellinen kontrollinumero|
+|system-details-note|538a|Huomautus järjestelmävaatimuksista|
+|ta|008_/22|Kohderyhmä?|
+|terms-governing-use-and-reproduction|540abc|Käytön ja kopioinnin ehdot, käyttöluvan antaja, käyttöehtojen peruste|
+|terms-of-access|506a|Pääsyrajoituksen ehdot|
+|terms-of-use|540a|Käytön ja kopioinnin ehdot|
+|terms-of-use-authorization|540c|Käyttöehtojen peruste|
+|terms-of-use-jurisdiction|540b|Käyttöluvan antaja|
+|thematic-number|630n|Numerointitieto (yhtenäistetty nimeke)|
+|thematic-number|130n|Numerointitieto (yhtenäistetty nimeke)|
+|thematic-number|240n|Numerointitieto (yhtenäistetty nimeke)|
+|thematic-number|243n|Numerointitieto (yhtenäistetty nimeke)|
+|thematic-number|700n|Numerointitieto (lisäkirjaus henkilönnimi)|
+|thematic-number|730n|Numerointitieto (yhtenäistetty nimeke)|
+|time-period|388a|Luomisaika|
+|time-period|655y|Aikaa ilmaiseva lisämääre|
+|title|247|Aikaisempi nimeke|
+|title|780|Edeltäjä - linkkikenttä|
+|title|785|Seuraaja - linkkikenttä|
+|title|700t|Teoksen nimeke|
+|title|710t|Teoksen nimeke|
+|title|711t|Teoksen nimeke|
+|title|490a|Sarjamerkintö|
+|title|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|
+|title|830n|Numerointitieto (sarjalisäkirjaus)|
+|title|830p|Teoksen osan nimeke (sarjalisäkirjaus)|
+|title|830v|Sarjan sisäinen numerointi|
+|title|130|Yhtenäistetty nimeke|
+|title|210|Lyhennetty nimeke|
+|title|211|?|
+|title|212|?|
+|title|214|?|
+|title|222|Avainnimeke|
+|title|240|Yhtenäistetty nimeke|
+|title|245(ab)|Päänimeke, muut nimeketiedot|
+|title|245p|Teoksen osan nimi|
+|title|245n|Numerointitieto (nimekkeessä)|
+|title|246|Muut nimekkeet|
+|title|505t|Nimeke (huomautus sisällön rakenteesta)|
+|title|730|Yhtenäistetty nimeke (lisäkirjaus)|
+|title|740|Nimeke, kontrolloimaton ja kohteeseen liittyvä tai analyyttinen (lisäkirjaus)|
+|title-abbreviated|210|Lyhennetty nimeke|
+|title-abbreviated|211|?|
+|title-abbreviated|246|Muut nimekkeet|
+|title-collective|243|Kokoava yhtenäistetty nimeke|
+|title-cover|245a|Päänimeke|
+|title-expanded|214|?|
+|title-expanded|246|Muut nimekkeet|
+|title-former|247|Aikaisempi nimeke|
+|title-former|780|Edeltäjä - linkkikenttä|
+|title-former|246|Muut nimekkeet|
+|title-key|222|Avainnimeke|
+|title-later|785|Seuraaja - linkkikenttä|
+|title-other-variant|247|Aikaisempi nimeke|
+|title-other-variant|212|?|
+|title-other-variant|740|Nimeke, kontrolloimaton ja kohteeseen liittyvä tai analyyttinen (lisäkirjaus)|
+|title-series|800t|Teoksen nimeke (sarjalisäkirjaus henkilönnimi)|
+|title-series|440a|Sarjamerkintö lisäkirjausmuodossa|
+|title-series|490a|Sarjamerkintö (ei lisäkirjausmuodossa)|
+|title-series|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|
+|title-series|830n|Numerointitieto (sarjalisäkirjaus)|
+|title-series|830p|Teoksen osan nimeke (sarjalisäkirjaus)|
+|title-series|830v|Sarjan sisäinen numerointi|
+|title-uniform|700t|Teoksen nimeke|
+|title-uniform|710t|Teoksen nimeke|
+|title-uniform|711t|Teoksen nimeke|
+|title-uniform|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|
+|title-uniform|830n|Numerointitieto (sarjalisäkirjaus)|
+|title-uniform|830p|Teoksen osan nimeke (sarjalisäkirjaus)|
+|title-uniform|830v|Sarjan sisäinen numerointi|
+|title-uniform|130|Yhtenäistetty nimeke|
+|title-uniform|240|Yhtenäistetty nimeke|
+|title-uniform|730|Yhtenäistetty nimeke|
+|totalissues|9420|?|
+|udc-aux-subdivision|080x|UDK lisäluku|
+|udc-classification|080|Yleinen kymmenluokitus (UDK)|
+|uri|952u|URI|
+|withdrawn|9520|Pois kierrosta -tila|
+
+### Luokka, luokan selite, indeksi
+
+|Luokka|Luokan selite|Indeksi|
+|---|---|---|
+|001|Tietueen kontrollinumero|control-number|
+|003|Tietueen kontrollinumeron tunniste|cni|
+|003|Tietueen kontrollinumeron tunniste|control-number-identifier|
+|005|Viimeisimmän päivityksen ajankohta|date-time-last-modified|
+|007|Ulkoasutiedot|material-type|
+|007_/0|Aineistoluokka|ff7-00|
+|007_/0-1|Aineistoluokka ja Aineiston erityismääre|ff7-01-02|
+|007_/1|Aineiston erityismääre|ff7-01|
+|007_/11|Mikrotallenteen sukupolvi|microform-generation|
+|007_/2|Määrittelemätön??|ff7-02|
+|008_/0-5|Luontipäivä|date-entered-on-file|
+|008_/15-17|Julkaisu-, tuotanto- tai toteuttamismaa|pl|
+|008_/22|Kohderyhmä?|ta|
+|008_/23|Ilmiasu|ff8-23|
+|008_/24-27|Ilmiasu|ctype|
+|008_/29|Kokousjulkaisu|ff8-29|
+|008_/33|Kirjallisuuslaji|lf|
+|008_/34|Elämäkerta|bio|
+|008_/35-37|Kieli|ln|
+|008_/39|Luetteloiva organisaatio|record-source|
+|008_/7-10|Julkaisuaika|date-of-publication|
+|008_/7-10|Julkaisuaika|copydate|
+|010|Library of Congress kontrollinumero|identifier-standard|
+|010|Library of Congress kontrollinumero|lc-card-number|
+|011|?|identifier-standard|
+|011|?|lc-card-number|
+|015|NBN-tunnus|identifier-standard|
+|015|NBN-tunnus|number-natl-biblio|
+|017|Tekijänoikeus- tai vapaakappaletunnus|identifier-standard|
+|017|Tekijänoikeus- tai vapaakappaletunnus|number-legal-deposit|
+|018|Artikkelin tekijänoikeusmaksun koodi|identifier-standard|
+|020a|ISBN-tunnus|identifier-standard|
+|020a|ISBN-tunnus|isbn|
+|020z|Peruttu tai virheellinen ISBN-tunnus|canceled-isbn|
+|022a|ISSN-tunnus|identifier-standard|
+|022a|ISSN-tunnus|issn|
+|022y|ISSN-tunnus (virheellinen)|incorrect-issn|
+|022z|Peruttu ISSN-tunnus|canceled-issn|
+|024a|Muut standarditunnukset|identifier-standard|
+|024aa|Muut standarditunnukset|identifier-other|
+|027|ISRN-tunnus tai muu standardoitu raporttinumero|report-number|
+|028|Julkaisijan ja jakajan tunnus|identifier-publisher-for-music|
+|030|CODEN-tunnus|coden|
+|034|Kartta-aineiston matemaattiset tiedot koodeina|map-scale|
+|035|Järjestelmän tuottama kontrollinumero|other-control-number|
+|035a|Järjestelmän tuottama kontrollinumero|system-control-number|
+|035z|Peruttu tai virheellinen kontrollinumero|system-control-number-cancelled|
+|037|Hankintapaikka|stock-number|
+|040|Luetteloiva organisaatio|code-institution|
+|041a|Kielikoodi - tekstin tai ääniraidan kieli|ln|
+|041a|Kielikoodi - tekstin tai ääniraidan kieli|ln-audio|
+|041d|Kielikoodi - lauletun tai puhutun aineiston kieli|ln-audio|
+|041d|Kielikoodi - lauletun tai puhutun aineiston kieli|ln|
+|041h|Kielikoodi - alkuperäinen kieli|language-original|
+|041j|Kielikoodi - tekstityksen kieli|ln-subtitle|
+|041j|Kielikoodi - tekstityksen kieli|ln|
+|041k|Kielikoodi - välikäännösten kieli|language-intermediate-translation|
+|041p|Kielikoodi - Kuulovammaisille tarkoitetun tekstityksen kieli|ln-captions|
+|041q|Kielikoodi - äänivastineen kieli|ln-acaudio|
+|041r|Kielikoodi - Visuaalinen kieli (ei-teksti)|ln-visual|
+|042a|autentikointikoodi|auth-code|
+|043|Maantieteellisen alueen koodi|code-geographic|
+|049c|Tarkastus tai inventointi - suomalainen kenttä - elokuvan tai pelin ikäraja|agelevel|
+|050b|Library of Congress -luokitus - kappalenumero|lc-call-number|
+|052|Maantieteellinen luokitus|geographic-class|
+|060|National Library of Medicine -luokitus|nlm-call-number|
+|070|National Agricultural Library -luokitus|nal-call-number|
+|080|National Agricultural Library -luokitus|udc-classification|
+|080x|UDK lisäluku|udc-aux-subdivision|
+|082|Deweyn luokitus, DDC|dewey-classification|
+|084a|Luokka|other-classification|
+|086|Virallisjulkaisujen luokitus|number-govt-pub|
+|100|Pääkirjaus - henkilönnimi|author-name-personal|
+|100|Pääkirjaus - henkilönnimi|name|
+|100|Pääkirjaus - henkilönnimi|author-title|
+|100|Pääkirjaus - henkilönnimi|personal-name|
+|100|Pääkirjaus - henkilönnimi|name-and-title|
+|1000|Pääkirjaus - henkilönnimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|1009|Linkitys tekijä-auktoritettiin|cross-reference|
+|100a|Pääkirjaus - henkilönnimi|author|
+|100a|Pääkirjaus - henkilönnimi|editor|
+|100a|Pääkirjaus - henkilönnimi|author-personal-bibliography|
+|110|Yhteisönnimi|author-name-corporate|
+|110|Pääkirjaus - yhteisönnimi|name|
+|110|Pääkirjaus - yhteisönnimi|author-title|
+|110|Pääkirjaus - yhteisönnimi|corporate-name|
+|110|Pääkirjaus - yhteisönnimi|name-and-title|
+|1100|Pääkirjaus - henkilönnimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|110a|Pääkirjaus - yhteisönönnimi|author|
+|111|Pääkirjaus - kokouksen nimi|name-and-title|
+|111|Kokouksen nimi|author-name-corporate|
+|111|Kokouksen nimi|conference-name|
+|111|Kokouksen nimi|name|
+|111|Pääkirjaus - kokouksen nimi|author-title|
+|1110|Pääkirjaus - kokouksen nimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|111a|Pääkirjaus - kokouksen nimi|author|
+|130|Yhtenäistetty nimeke|title|
+|130|Yhtenäistetty nimeke|title-uniform|
+|1300|Pääkirjaus - yhtenäistetty nimeke - auktoriteettitietueen kontollinumero|koha-auth-number|
+|130n|Numerointitieto (yhtenäistetty nimeke)|thematic-number|
+|130r|Pääkirjaus - yhtenäistetty nimeke - sävellaji|music-key|
+|210|Lyhennetty nimeke|title|
+|210|Lyhennetty nimeke|title-abbreviated|
+|211|?|title|
+|211|?|title-abbreviated|
+|212|?|title-other-variant|
+|212|?|title|
+|214|?|title|
+|214|?|title-expanded|
+|222|Avainnimeke|title-key|
+|222|Avainnimeke|title|
+|240|Yhtenäistetty nimeke|title-uniform|
+|240|Yhtenäistetty nimeke|title|
+|240n|Numerointitieto (yhtenäistetty nimeke)|thematic-number|
+|240r|Yhtenäistetty nimeke - sävellaji|music-key|
+|243|Kokoava yhtenäistetty nimeke|title-collective|
+|243n|Numerointitieto (yhtenäistetty nimeke)|thematic-number|
+|243r|Kokoava yhtenäistetty nimeke - sävellaji|music-key|
+|245(ab)|Päänimeke, muut nimeketiedot|title|
+|2450|?|koha-auth-number|
+|2459|Linkitys nimeke-auktoriteettiin|cross-reference|
+|245a|Päänimeke|title-cover|
+|245c|Vastuullisuusmerkinnöt jne.|author-in-order|
+|245n|Numerointitieto (nimekkeessä)|title|
+|245p|Teoksen osan nimi|title|
+|246|Muut nimekkeet|title|
+|246|Muut nimekkeet|title-abbreviated|
+|246|Muut nimekkeet|title-expanded|
+|246|Muut nimekkeet|title-former|
+|247|Aikaisempi nimeke|title-other-variant|
+|247|Aikaisempi nimeke|title|
+|247|Aikaisempi nimeke|related-periodical|
+|247|Aikaisempi nimeke|title-former|
+|257a|Tuottajan maa|place-of-origin|
+|260|Julkaisutiedot|provider|
+|260a|Julkaisu-/kustannus-, jakelu- jne. paikka|place-of-publication|
+|260b|Julkaisijan/kustantajan, jakajan jne. nimi|publisher|
+|260c|Julkaisu-, jakelu- jne. aika|date-of-publication|
+|260c|Julkaisu-, jakelu- jne. aika|copydate|
+|264|Huomautus tuotanto-, julkaisu-/kustannus-, jakelu-, valmistus- tai tekijänoikeustiedoista|provider|
+|264a|Tuotanto-, julkaisu-/kustannus-, jakelu- tai valmistuspaikka|place-of-publication|
+|264b|Tuottajan, julkaisijan/kustantajan, jakajan tai valmistajan nimi|publisher|
+|264c|Tuotanto-, julkaisu-/kustannus-, jakelu- tai valmistusaika tai tekijänoikeusvuosi|date-of-publication|
+|264c|Tuotanto-, julkaisu-/kustannus-, jakelu- tai valmistusaika tai tekijänoikeusvuosi|copydate|
+|300|Ulkoasutiedot|extent|
+|336a|Sisältötyyppi|content-type-term|
+|337a|Mediatyyppi|media-type-term|
+|338a|Tallennetyyppi|carrier-type-term|
+|341abcde|Saavutettavuussisältö|accessibility-content|
+|347b|Tiedostomuoto|encoding-format|
+|348a|Termi nuottiaineiston muodolle|subject|
+|348a|Termi nuottiaineiston muodolle|notated-music-format-term|
+|370g|Teoksen tai ekspression luontipaikka|place-of-origin|
+|382a|Esityskokoonpano|performance-medium|
+|382b|Solisti|soloist|
+|382d|Sivusoitin|doubling-instrument|
+|382p|Vaihtoehtoinen esityskokoonpano|alt-performance-medium|
+|382v|Esityskokoonpanon huomautus|performance-note|
+|383a|Musiikkiteoksen numerointimerkintö|musical-serial-number|
+|383b|Musiikkiteoksen numerointimerkintö|musical-opus-number|
+|383c|Musiikkiteoksen numerointimerkintö|musical-thematic-index-number|
+|383e|Musiikkiteoksen numerointimerkintö|musical-publisher-with-opus|
+|385a|Kohderyhmä|audience-term|
+|386a|Tekijän ominaisuudet - tekijä|creator-term|
+|388a|Luomisaika|time-period|
+|400|Katso-viittaus henkilönnimestä?|author-name-personal|
+|400||name|
+|400||personal-name|
+|4000||koha-auth-number|
+|400at||name-and-title|
+|400t||author-title|
+|410|Katso-viittaus yhteisönnimestä?|corporate-name|
+|4100||koha-auth-number|
+|410at||name-and-title|
+|410t||author-title|
+|411|Katso-viittaus konferenssin nimestä?|conference-name|
+|411at||name-and-title|
+|411t||author-title|
+|4400||koha-auth-number|
+|440a|Sarjamerkintö lisäkirjausmuodossa|title-series|
+|4900||koha-auth-number|
+|490a|Sarjamerkintö (ei lisäkirjausmuodossa)|title-series|
+|490a|Sarjamerkintö|title|
+|500|Yleinen huomautus|note|
+|502|Huomautus väitöskirjasta|dissertation-information|
+|505|Huomautus sisällön rakenteesta|note|
+|505r|Huomautus sisällön rakenteesta - tekijä|author|
+|505r|Huomautus sisällön rakenteesta - tekijä|author-in-order|
+|505t|Nimeke (huomautus sisällön rakenteesta)|title|
+|506a|Pääsyrajoituksen ehdot|terms-of-access|
+|506f|Pääsyrajoitus standarditerminologialla|standardized-terms-of-access|
+|509ac|Huomautus muusta opinnäytteestä|note|
+|510|Huomautus tietolähteestä|indexed-by|
+|520|Huomatus sisällöstä, tiivistelmä, tms.|abstract|
+|521a|Huomautus kohderyhmästä|agelevel|
+|521a|Huomautus kohderyhmästä|interest-grade-level|
+|521a|Huomautus kohderyhmästä|reading-grade-level|
+|521a|Huomautus kohderyhmästä|lexile-number|
+|526c|Lukutaidon aste|arl|
+|526d|Nimekkeen pistearvo|arp|
+|538a|Huomautus järjestelmävaatimuksista|system-details-note|
+|540a|Käytön ja kopioinnin ehdot|terms-of-use|
+|540abc|Käytön ja kopioinnin ehdot, käyttöluvan antaja, käyttöehtojen peruste|terms-governing-use-and-reproduction|
+|540b|Käyttöluvan antaja|terms-of-use-jurisdiction|
+|540c|Käyttöehtojen peruste|terms-of-use-authorization|
+|546c|Huomautus kielistä|note|
+|561a|Huomautus omistushistoriasta|ownership-history|
+|567b|Huomautus metodologiasta|methodology-controlled-term|
+|586a|Huomautus palkinnosta|awards-note|
+|588a|Huomautus kuvailun perustasta|description-source-note|
+|590|Paikallinen huomautus|note|
+|594a|Paikallinen huomautus|note|
+|598a|Paikallinen huomautus|note|
+|598a|Paikallinen huomautus|library-specific-notes|
+|599a|Paikallinen huomautus|note|
+|599a|Paikallinen huomautus|library-specific-notes|
+|6000|Henkilönnimi asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|600a|Henkilönnimi|subject|
+|600a|Henkilönnimi|subject-name-personal|
+|600a|Henkilönnimi|name|
+|600a|Henkilönnimi|personal-name|
+|600at|Henkilönnimi asiasanana + teoksen nimeke|name-and-title|
+|600b|Numerointi (henkilönnimessä)|subject|
+|600t|Teoksen nimeke|subject|
+|610|Yhteisönnimi asiasanana|corporate-name|
+|610|Yhteisönnimi|name|
+|6100|Yhteisönnimi asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|610a|Yhteisönnimi |subject|
+|610at|Yhteisönniminimi asiasanana + teoksen nimeke|name-and-title|
+|610b|Alayksikkö (yhteisönnimessä)|subject|
+|610t|Teoksen nimeke|subject|
+|611|Kokouksen nimi asiasanana|subject|
+|611|Kokouksen nimi asiasanana|conference-name|
+|611|Kokouksen nimi asiasanana|name|
+|6110|Kokouksen nimi asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|611at|Kokouksen nimi asiasanana + teoksen nimeke|name-and-title|
+|6300|Yhtenäistetty nimeke asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|630a|Yhtenäistetty nimeke|subject|
+|630n|Numerointitieto (yhtenäistetty nimeke)|subject|
+|630n|Numerointitieto (yhtenäistetty nimeke)|thematic-number|
+|630p|Teoksen osan nimeke|subject|
+|630r|Sävellaji|subject|
+|630r|Yhtenäistetty nimeke asiasanana - sävellaji|music-key|
+|6480|Aikaa ilmaiseva termi asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|648a|Aikaa ilmaiseva termi|subject|
+|6500|Kontrolloidun asiasanaston asiasana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|650a|Aihetta ilmaiseva termi tai maantieteellinen nimi|subject|
+|650b|Maantieteellistä nimeä seuraava aihetta ilmaiseva termi|subject|
+|650c|Tapahtumapaikka|subject|
+|650d|Tapahtuman aika|subject|
+|650v|Muotoa ilmaiseva lisämääre|subject|
+|650x|Yleinen lisämääre|subject|
+|650y|Aikaa ilmaiseva lisämääre|subject|
+|650z|Maantieteellinen lisämääre|su-geo|
+|650z|Maantieteellinen lisämääre|subject|
+|651ancdet|Maantieteellinen nimi asiasanana|subject|
+|651c|Maantieteellinen nimi asiasanana|subject|
+|651d|Maantieteellinen nimi asiasanana|subject|
+|651e|Maantieteellinen nimi asiasanana|subject|
+|651n|Maantieteellinen nimi asiasanana|subject|
+|651t|Maantieteellinen nimi asiasanana|subject|
+|651|Maantieteellinen nimi asiasanana|name-geographic|
+|6510|Maantieteellinen nimi asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|651a|Maantieteellinen nimi|su-geo|
+|6520|?|koha-auth-number|
+|6530|?|koha-auth-number|
+|653a|Kontrolloimaton hakutermi|subject|
+|653a|Kontrolloimaton hakutermi|index-term-uncontrolled|
+|6540|Maantieteellinen nimi asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|6550|Aineiston lajityyppi/muoto hakuterminä - auktoriteettitietueen kontollinumero|koha-auth-number|
+|655a|Lajityyppiä/muotoa kuvaava termi tai fokustermi|index-term-genre|
+|655a|Lajityyppiä/muotoa kuvaava termi tai fokustermi|subject|
+|655x|Yleinen lisämääre (lajityypille)|index-term-genre|
+|655x|Yleinen lisämääre (lajityypille)|subject|
+|655y|Aikaa ilmaiseva lisämääre|time-period|
+|655z|Maantieteellinen lisämääre|place-of-origin|
+|6560|Ammatti hakuterminä - auktoriteettitietueen kontollinumero|koha-auth-number|
+|6570|Tapahtuma tai toiminto hakuterminä - auktoriteettitietueen kontollinumero|koha-auth-number|
+|658abc|Opinto-ohjelman tai kurssin tavoitteet hakuterminä|curriculum|
+|6620|Hierarkkinen maantieteellinen nimi asiasanana - auktoriteettitietueen kontollinumero|koha-auth-number|
+|6900|?|koha-auth-number|
+|6910|?|koha-auth-number|
+|6960|?|koha-auth-number|
+|6970|?|koha-auth-number|
+|6980|?|koha-auth-number|
+|6990|?|koha-auth-number|
+|700|Lisäkirjaus - henkilönnimi|editor|
+|700|Lisäkirjaus - henkilönnimi|author-name-personal|
+|700|Lisäkirjaus - henkilönnimi|name|
+|700|Lisäkirjaus - henkilönnimi|personal-name|
+|7000|Lisäkirjaus - henkilönnimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|7009|Linkitys tekijä-auktoriteettiin|cross-reference|
+|700a|Lisäkirjaus - henkilönnimi|author|
+|700at|Lisäkirjaus - henkilönnimi + teoksen nimeke|name-and-title|
+|700n|Numerointitieto (lisäkirjaus henkilönnimi)|thematic-number|
+|700r|Lisäkirjaus - henkilönnimi - sävellaji|music-key|
+|700t|Teoksen nimeke|title|
+|700t|Teoksen nimeke|title-uniform|
+|700t|Teoksen nimeke|author-title|
+|710|Lisäkirjaus yhteisönnimi|author-name-corporate|
+|710|Lisäkirjaus yhteisönnimi|name|
+|710|Lisäkirjaus yhteisönnimi|corporate-name|
+|7100|Lisäkirjaus - yhteisönnimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|710a|Lisäkirjaus yhteisönnimi|author|
+|710at|Lisäkirjaus - yhteisönnimi + teoksen nimeke|name-and-title|
+|710t|Teoksen nimeke|title|
+|710t|Teoksen nimeke|title-uniform|
+|710t|Teoksen nimeke|author-title|
+|711|Lisäkirjaus - Kokouksen nimi|author-name-corporate|
+|711|Lisäkirjaus - Kokouksen nimi|conference-name|
+|711|Lisäkirjaus - Kokouksen nimi|name|
+|7110|Lisäkirjaus - kokouksen nimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|711a|Lisäkirjaus - kokouksen nimi|author|
+|711at|Lisäkirjaus - kokouksen nimi + teoksen nimeke|name-and-title|
+|711t|Teoksen nimeke|title|
+|711t|Teoksen nimeke|title-uniform|
+|711t|Teoksen nimeke|author-title|
+|730|Yhtenäistetty nimeke (lisäkirjaus)|title-uniform|
+|730|Yhtenäistetty nimeke (lisäkirjaus)|title|
+|7300|Lisäkirjaus - yhtenäistetty nimeke - auktoriteettitietueen kontollinumero|koha-auth-number|
+|730n|Numerointitieto (yhtenäistetty nimeke)|thematic-number|
+|730r|Lisäkirjaus - yhtenäistetty nimeke - sävellaji|music-key|
+|740|Nimeke, kontrolloimaton ja kohteeseen liittyvä tai analyyttinen (lisäkirjaus)|title-other-variant|
+|740|Nimeke, kontrolloimaton ja kohteeseen liittyvä tai analyyttinen (lisäkirjaus)|title|
+|7510|Lisäkirjaus - maantieteellinen nimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|751a|Lisäkirjaus - maantieteellinen nimi|name-geographic|
+|770w|Tietueen kontrollinumero - linkkikenttä suplementti/erikoisnumero|record-control-number|
+|772w|Tietueen kontrollinumero - linkkikenttä suplementin pääjulkaisu|record-control-number|
+|7739|Linkkikenttä - emokohde|host-item-number|
+|773at|Linkkikenttä - emokohde|host-item|
+|773w|Tietueen kontrollinumero - linkkikenttä emokohde|record-control-number|
+|773w|Tietueen kontrollinumero - linkkikenttä emokohde|record-control-number-773w|
+|774w|Tietueen kontrollinumero - linkkikenttä osakohde|record-control-number|
+|775w|Tietueen kontrollinumero - linkkikenttä muu painos|record-control-number|
+|776w|Tietueen kontrollinumero - linkkikenttä toinen ilmiasu|record-control-number|
+|777w|Tietueen kontrollinumero - linkkikenttä kanssajulkaisu|record-control-number|
+|780|Edeltäjä - linkkikenttä|title|
+|780|Edeltäjä - linkkikenttä|related-periodical|
+|780|Edeltäjä - linkkikenttä|title-former|
+|780w|Tietueen kontrollinumero - linkkikenttä edeltäjä|record-control-number|
+|785|Seuraaja - linkkikenttä|title-later|
+|785|Seuraaja - linkkikenttä|title|
+|785|Seuraaja - linkkikenttä|related-periodical|
+|785w|Tietueen kontrollinumero - linkkikenttä seuraaja|record-control-number|
+|787w|Tietueen kontrollinumero - linkkikenttä muu suhde|record-control-number|
+|7960|?|koha-auth-number|
+|7970|?|koha-auth-number|
+|7980|?|koha-auth-number|
+|7990|?|koha-auth-number|
+|800|Sarjalisäkirjaus - henkilönnimi|personal-name|
+|800|Sarjalisäkirjaus - henkilönnimi|author-name-personal|
+|800|Sarjalisäkirjaus - henkilönnimi|name|
+|8000|Sarjalisäkirjaus - henkilönnimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|800a|Sarjalisäkirjaus - henkilönnimi|author|
+|800at|Sarjalisäkirjaus - henkilönnimi + teoksen nimeke|name-and-title|
+|800t|Sarjalisäkirjaus - henkilönnimi, teoksen nimeke|title-series|
+|800t|Sarjalisäkirjaus - henkilönnimi, teoksen nimeke|author-title|
+|800w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus henkilönnimi|record-control-number|
+|810|Sarjalisäkirjaus - Yhteisönnimi|author-name-corporate|
+|810|Sarjalisäkirjaus - Yhteisönnimi|name|
+|810|Sarjalisäkirjaus - Yhteisönnimi|corporate-name|
+|8100|Sarjalisäkirjaus - yhteisönnimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|810a|Sarjalisäkirjaus - Yhteisönnimi|author|
+|810at|Sarjalisäkirjaus - yhteisönnimi + teoksen nimeke|name-and-title|
+|810t|Sarjalisäkirjaus - Yhteisönnimi|author-title|
+|810w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus yhteisönnimi|record-control-number|
+|811|Sarjalisäkirjaus - Yhteisönnimi|author-name-corporate|
+|811|Sarjalisäkirjaus - Kokouksen nimi|conference-name|
+|811|Sarjalisäkirjaus - kokouksen nimi|name|
+|8110|Sarjalisäkirjaus - kokouksen nimi - auktoriteettitietueen kontollinumero|koha-auth-number|
+|811a|Sarjalisäkirjaus - Yhteisönnimi|author|
+|811at|Sarjalisäkirjaus - kokouksen nimi + teoksen nimeke|name-and-title|
+|811t|Sarjalisäkirjaus - kokouksen nimi, teoksen nimeke|author-title|
+|811w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus kokouksen nimi|record-control-number|
+|8300|Sarjalisäkirjaus - yhtenäistetty nimeke - auktoriteettitietueen kontollinumero|koha-auth-number|
+|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|title-series|
+|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|title|
+|830a|Yhtenäistetty nimeke (sarjalisäkirjaus)|title-uniform|
+|830n|Numerointitieto (sarjalisäkirjaus)|title-series|
+|830n|Numerointitieto (sarjalisäkirjaus)|title|
+|830n|Numerointitieto (sarjalisäkirjaus)|title-uniform|
+|830p|Teoksen osan nimeke (sarjalisäkirjaus)|title-series|
+|830p|Teoksen osan nimeke (sarjalisäkirjaus)|title|
+|830p|Teoksen osan nimeke (sarjalisäkirjaus)|title-uniform|
+|830v|Teoksen osan nimeke (sarjalisäkirjaus)|title-series|
+|830v|Teoksen osan nimeke (sarjalisäkirjaus)|title|
+|830v|Teoksen osan nimeke (sarjalisäkirjaus)|title-uniform|
+|830w|Bibliografisen tietueen kontrollinumero - sarjalisäkirjaus yhtenäistetty nimeke|record-control-number|
+|830x|Sarjalisäkirjauksen ISSN|issn|
+|852h|Paikkamerkin hyllyluokka|placement|
+|852i|Sijainti|location-item-part|
+|8960|?|koha-auth-number|
+|8970|?|koha-auth-number|
+|8980|?|koha-auth-number|
+|8990|?|koha-auth-number|
+|900a|Viittaus - henkilönnimi - suomalainen kenttä|author|
+|910a|Viittaus - yhteisönnimi - suomalainen kenttä|author|
+|911a|Viittaus - kokouksen nimi - suomalainen kenttä|author|
+|9420||totalissues|
+|9422|Tietueen luokituksen lähde|cn-bib-source|
+|9426|Järjestämistä varten normalisoitu tietueen luokka|cn-bib-sort|
+|942c|Aineistotyyppi|mtype|
+|942c|Aineistotyyppi|itemtype|
+|942c|Aineistotyyppi|itype|
+|942h|Luokka|cn-class|
+|942i|Item part|cn-item|
+|942k|Signumin prefiksi|cn-prefix|
+|942m|Signumin prefiksi|cn-suffix|
+|942n|?|suppress|
+|9520|Pois kierrosta -tila|withdrawn|
+|9521|Kadonnut -tila|lost|
+|9522|Niteen luokituksen lähde|classification-source|
+|9523|Liitteiden määrä|materials-specified|
+|9524|Vaurioitunut -tila|damaged|
+|9525|Käyttörajoitukset|restricted|
+|9526|Järjestämistä varten normalisoitu niteen luokka|cn-sort|
+|9527|Ei lainattavissa|notforloan|
+|9528|Kokoelmakoodi|ccode|
+|9529|Niteen numero|itemnumber|
+|952a|Omistajakirjasto|homebranch|
+|952b|Sijaintikirjasto|holdingbranch|
+|952c|Hyllypaikka|loc|
+|952d|Hankintapvm|date-of-acquisition|
+|952e|Hankintapaikka|acqsource|
+|952f|Koodattu paikkamääre|coded-location-qualifier|
+|952g|Hankintahinta|price|
+|952i|Inventaarionumero|number-local-acquisition|
+|952j|Hyllytarkenne|subloc|
+|952l|Lainauksia yhteensä|issues|
+|952m|Uusintoja yhteensä|renewals|
+|952n|Varauksia yhteensä|reserves|
+|952o|Kohan koko signum|local-classification|
+|952p|Viivakoodi|barcode|
+|952q|Lainassa|onloan|
+|952r|Viimeksi nähty pvm|datelastseen|
+|952s|Viimeksi lainattu pvm|datelastborrowed|
+|952t|Nidenumero|copynumber|
+|952u|URI|uri|
+|952v|Korvaushinta|replacementprice|
+|952w|Korvaushinta|replacementpricedate|
+|952y|Nidetyyppi|itemtype|
+|952z|Yleinen huomautus|note|
+|960|?|collection-960|
+|999c|Koha biblionumber|local-number|
+|999d|Koha biblioitemnumber|biblioitemnumber|
+|999x|?|not-onloan-count|
+|leader_/0-4|Tietueen pituus|llength|
+|leader_/6|Tietueen tyyppi|rtype|
+|leader_/7|Tietueen taso (nimiö)|bib-level|
