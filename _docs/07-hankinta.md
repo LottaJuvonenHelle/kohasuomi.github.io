@@ -927,11 +927,11 @@ Kun tilauksia on suodatettu toimittajan mukaan, hakutulos näyttää tältä:
 
 ![](/assets/files/docs/Hankinta/hankinta84.png)
 
-- Nimeketietojen vasemmassa reunassa on sarake, josta voi valita ne
-  nimekkeet, joita halutaan reklamoida.
-- Sivun alareunasta klikkaa _Reklamoi tilaus_, kun haluat reklamaation
-  lähtevän toimittajalle.
-- Voit myös tallentaa tiedot CSV-muodossa.
+- Voit suodattaa taulukon tuloksia Haku-kentällä.
+- Ensimmäisestä sarakkeesta voit valita ne nimekkeet, joita haluat reklamoida.
+- Klikkaa taulukon alapuolelta _Reklamoi tilaus_, kun haluat reklamaation
+  lähtevän toimittajalle sähköpostilla.
+- Voit myös tallentaa tiedot CSV-muodossa valitsemalla _Vie CSV-muodossa_.
 
 Kun sähköpostin lähetys onnistuu, tulee seuraava ilmoitus:  
 ![](/assets/files/docs/Hankinta/hankinta85.png)
