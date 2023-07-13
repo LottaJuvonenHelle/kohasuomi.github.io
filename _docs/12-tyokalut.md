@@ -127,7 +127,7 @@ Huomioi, että jos oletussääntö on määritetty, ei yksittäiselle
 kirjastolle pysty tekemään sääntöä, että ilmoituksia ei lähetetä
 ollenkaan.
 
-<img src="/assets/files/docs/Tyokalut/myohastymisilmoitukset.png" alt="Kuvakaappaus taulukosta, jossa määritellään lähetettävät myöhästymisilmoitukset" style="width:90.0%" />
+<img src="/assets/files/docs/Tyokalut/myohastymisilmoitukset.png" title="Kuvakaappaus taulukosta, jossa määritellään lähetettävät myöhästymisilmoitukset" alt="Kuvakaappaus taulukosta, jossa määritellään lähetettävät myöhästymisilmoitukset" style="width:90.0%" />
 
 - Taulukossa listataan ne asiakastyypit, joille on määritetty
   asiakastyyppien ylläpidossa, että myöhästymisilmoituksia lähetetään.
@@ -136,11 +136,11 @@ ollenkaan.
 - _Kirje_-sarakkeessa valitaan, mitä ilmoituspohjaa käytetään viestiä
   lähetettäessä. Ks. kohta 12.2 Ilmoitukset ja kuitit.
 - _Rajoita_-kohtaan laitetaan rasti, jos halutaan asiakkaan menevän
-  lainakieltoon viestin lähdettyä.
+  lainakieltoon viestin lähdettyä. Järjestelmäasetuksella voidaan erikseen määritellä, poistuuko rajoite automaattisesti lainojen palauduttua.
 - _Maksu_-kohtaan määritetään ilmoituksesta perittävän maksun määrä. Maksuttoman ilmoituksen sarake jätetään tyhjäksi.
 - _Sähköposti_, _Tuloste_, _Tekstiviesti_ jne -kohdista valitaan
   halutut vaihtoehdot kimpan viestien lähetystapojen mukaan.
-- Määrittelyt tallennetaan _Tallenna muutokset_ -nappulalla.
+- Määrittelyt tallennetaan _Tallenna muutokset_ -painikkeella.
 
 ---
 
