@@ -969,7 +969,7 @@ _Toiminnot_-napin alta löytyy lisää vaihtoehtoja
 ## 7.9. Hankinnan hakutoiminnot
 
 Jokaisen hankintaosion sivun yläreunassa on pikahakulaatikko toimittajan
-tai tilauksen hakua varten.hankin
+tai tilauksen hakua varten.
 
 ### 7.9.1 Toimittajahaku
 
@@ -1015,12 +1015,14 @@ Hankinnan etusivulla on näkyvillä kaikki aktiiviset tilit.
 
 ![](/assets/files/docs/Hankinta/hankinta93.png)
 
-- Voit suodattaa näkymää _Hae_-kentällä tai alasvetovalikosta kirjaston mukaan. Voit viedä tulokset _Vie_-napilla Excel- tai CSV-muotoon, kopioida tiedot tai tulostaa ne.
+- Voit suodattaa näkymää _Haku_-kentällä tai alasvetovalikosta kirjaston mukaan.
+- Voit viedä tulokset _Vie_-napilla Excel- tai CSV-muotoon, kopioida tiedot tai tulostaa ne.
+- _Sarakkeet_-napilla voi määrittää, mitä sarakkeita on näkyvillä.
 
 Klikkaamalla jotain _Tilattu_- tai _Käytetty_-sarakkeen summaa saat
 näkyviin siihen tiliin tehdyt tilaukset.
 
 ![](/assets/files/docs/Hankinta/hankinta94.png)
 
-- Myös tällä sivulla toimii _Hae_-kenttä.
-- Voit myös järjestää tuloksia otsikkorivin nuolilla.
+- Myös tällä sivulla toimii _Haku_-kenttä.
+- Voit myös järjestää tuloksia esim. nimekkeen mukaan sarakkeen ensimmäisen rivin nuolilla.
