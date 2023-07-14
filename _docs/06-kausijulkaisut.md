@@ -308,8 +308,21 @@ Tilauksen tiedoista pääset suoraan esimerkiksi vastaanottamaan lehtinumeron.
 Koha voi lähettää sähköpostin kausijulkaisujesi toimittajalle, jos
 tilatut numerot ovat myöhässä tai puuttuvat. Vasemmalla valikossa on
 _Reklamaatiot_-linkki tätä varten. Varmista kimppasi pääkäyttäjältä, onko sähköposti-reklamaatioiden lähetys käytössä.
+
 ![](/assets/files/docs/Kausijulkaisut/kausijul35.png)  
 ![](/assets/files/docs/Kausijulkaisut/reklamaatiot.PNG)
+
+Valitse ensin, miltä toimittajalta tilattuja kausijulkaisuja haluat reklamoida. Haku on hidas, jos numeroita on paljon.
+
+![](/assets/files/docs/Kausijulkaisut/reklamaatiot1.png)
+
+Saat listan kaikista valitun toimittajan lehtinumeroista, joiden olisi jo pitänyt saapua.
+
+![](/assets/files/docs/Kausijulkaisut/reklamaatiot2.png)
+
+Voit suodattaa numeroita päivämäärävälillä tai taulukon alareunasta sarakkeiden suodattimilla, esim. nimekkeellä ja kirjastolla.
+
+Valitse tarvittavat numerot ja klikkaa _Lähetä ilmoitus_.
 
 ## 6.8. Lehtitilauksen päättymisajan tarkistaminen
 
