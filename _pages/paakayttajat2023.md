@@ -10,6 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 29 esityslista
+
+Aika: 17.7.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset asiat:**
+
+* Elasticsearchin indeksit -listaus lisätty Kohan ohje suomeksi -> Tiedonhaku -> [Hakukone Elasticsearch ja sen indeksit](https://koha-suomi.fi/dokumentaatio/tiedonhaku/#108-hakukone-elasticsearch-ja-sen-indeksit)
+* Valmiit SQL-raportit lisätty [Raporttikirjastoon](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/) Ohjeet-sivulle.
+
 ## Viikko 28 muistio
 
 Aika: 11.7.2023 klo 9.15 <br />
