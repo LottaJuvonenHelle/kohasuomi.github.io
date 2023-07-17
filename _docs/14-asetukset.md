@@ -791,6 +791,28 @@ RESERVE_EXPIRED|Noutamattoman varauksen maksu|Lisätään ajastetulla ajolla asi
 
 ## 15. Credit-tyypit
 
+Credit-tyypeillä merkitään Kohassa maksusuoritukset, hyvitykset ja peruutukset. Maksutyypit kirjataan positiivisina arvoina, credit-tyypit negatiivisina arvoina, jolloin tilitapahtumat pysyvät balanssissa. Kun asiakkaalla ei ole maksamattomia maksuja, ovat creditit ja maksutyypit yhtä suuria.
+
+![](/assets/files/docs/Asetukset/credittyypit.png)
+
+Uuden credi-tyypin voi lisätä _Uusi credit-tyyppi_ -linkistä.
+
+
+![](/assets/files/docs/Asetukset/credittyypit1.png)
+
+* _Credit-tyypin koodi_: Credit-tyypin tunnus, joka kirjataan maksut-tauluun
+* _Kuvaus_: Credit-tyypin selkokielinen kuvaus, joka näkyy asiakkaan maksuissa.
+* _Voidaan lisätä käsin_: Jos tähän laittaa raksin, näkyy tyyppi credit-maksujen lisäysvälilehdellä (Koha-Suomen kimpoissa piilotettu).
+* _Ota käyttöön credit-numero_: Jos on tarpeen saada jokaiselle credit-maksulle oma juokseva numeronsa, tällä valinnalla sellaisen saa käyttöön. Numeron muoto määritetään AutoCreditNumber-järjestelmäasetuksessa.
+* _Kirjastorajoitus_: Valitse haluamasi kirjastot tai _Kaikki kirjastot_, jos et halua rajata tiettyihin kirjastoihin.
+
+### 15.1 Yleisimpiä credit-tyyppejä
+
+Tunnus|Kuvaus|Käyttökohde
+---|---|---
+PAYMENT|Maksusuoritus|Asiakas on maksanut maksun joko kokonaan tai osan siitä
+WRITEOFF|Maksun poisto|Asiakkaan maksu on poistettu
+
 ## 16. Liitännäiset
 
 ## 17. Hallinoi taustatöitä
