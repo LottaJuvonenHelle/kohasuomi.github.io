@@ -744,6 +744,23 @@ Noutopalvelu löytyy Kohan Lainaus ja palautus -osiosta.
 
 ## 13. Asiakkaan rajoitukset
 
+Asiakkaille voi lisätä manuaalisesti rajoituksia, jotka voi määrittää Asiakkaan rajoitukset osiossa ylläpidossa. Jotta nämä tulisi näkyville asiakastiedoissa rajoitusta lisätessä, pitää olla päällä järjestelmäasetus PatronRestrictionTypes. Yhden rajoitetyypin voi kerrallaan asettaa oletukseksi.
+
+![](/assets/files/docs/Asetukset/rajoitukset.png)
+
+Uusi rajoitus lisätään klikkaamalla _Uusi rajoitus_.
+
+![](/assets/files/docs/Asetukset/rajoitukset2.png)
+
+* _Koodi_: Rajoituksen tunnus
+* _Otsikko_: Rajoituksen kuvaus, joka näkyy rajoitusta lisätessä.
+* _Poista maksun jälkeen_: Toiminnolla saa rajoitteen poistumaan, kun alla oleva maksuraja saavutetaan eli asiakas maksaa niin paljon maksuja, että niitä on vähemmän kuin maksurajaan on merkitty.
+* _Maksuraja_: Tähän merkitään summa, jonka alle kun asiakkaan maksut menee, poistuu rajoitus automaattisesti.
+
+Rajoitustyypit näkyvät asiakkaan tiedoissa rajoitusta lisätessä näin:
+
+![](/assets/files/docs/Asetukset/rajoitukset3.png)
+
 ## 14. Maksutyypit
 
 ## 15. Credit-tyypit
