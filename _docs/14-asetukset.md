@@ -763,6 +763,32 @@ Rajoitustyypit näkyvät asiakkaan tiedoissa rajoitusta lisätessä näin:
 
 ## 14. Maksutyypit
 
+Maksutyypeissä on näkyvillä sekä manuaalisesti lisättävät maksutyypit että järjestelmän sisäiset maksutyypit.
+
+![](/assets/files/docs/Asetukset/maksutyypit.png)
+
+Järjestelmän sisäiset maksutyypit saa näkyville klikkaamalla _Näytä kaikki maksutyypit_. Manuaalisesti lisättyjä maksuja pystyy muokkaamaan ja arkistoimaan. Uuden maksutyypin voi luoda valitsemalla _Uusi maksutyyppi_.
+
+![](/assets/files/docs/Asetukset/maksutyypit1.png)
+
+* _Maksutyypin tunnus_: Maksutyypin tunnus, joka kirjautuu maksutauluun maksuja lisätessä.
+* _Oletussumma_: Voit määrittää maksulle oletussummaan, joka tulee automaattisesti maksu-kenttään maksua lisätessä asiakkaan tiedoissa.
+* _Kuvaus_: Maksun selkokielinen kuvaus, joka näkyy käyttäjälle maksua lisätessä asiakkaan tiedoissa.
+* _Voidaan lisätä maksun käsin?_: Tämä pitää valita, jotta maksu tulee näkyviin asiakkaan tiedoissa maksun lisäykseen.
+* _Voidaan myydä?_: Tämä liittyy Kohan kassa-toimintoon. Jos tähän lisää rastin, tulee maksutyyppi näkyviin kassa-toiminnossa myytävänä tuotteena.
+* _Kirjastorajoitus_: Voit rajata maksutyypin halutessasi tiettyjen kirjastojen käyttöön. Valitse _Kaikki kirjastot_, jos et halua rajoittaa.
+
+### 14.1 Yleisimpiä maksutyyppejä
+
+Tunnus|Kuvaus|Käyttökohde
+---|---|---
+NEW_CARD|Uusi kortti|Maksu uudesta kortista
+ODUE|Palautuskehotus|Koha-Suomen oma lisäys, jolla palautuskehotuksesta lisätään asiakkaalle maksu
+OVERDUE|Myöhästymismaksu|Päivittäinen myöhästymismaksu
+Pay|Maksusuoritus|Asiakkaan tekemä maksusuoritus
+RESERVE_EXPIRED|Noutamattoman varauksen maksu|Lisätään ajastetulla ajolla asiakkaalle, kun hän ei nouda varaustaan
+
+
 ## 15. Credit-tyypit
 
 ## 16. Liitännäiset
