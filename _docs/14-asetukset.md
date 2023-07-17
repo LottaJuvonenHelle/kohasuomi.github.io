@@ -829,6 +829,17 @@ Liitännäisissä näkyvät kaikki asennetut liitännäiset ja niiden tila. Liit
 
 ## 17. Hallinnoi taustatöitä
 
+Kohassa menee erilaiset tietokantaa kuormittavat toiminnot taustatyöjonoon, josta ne käsitellään sitä mukaa kuin ehditään. Jonoon menevät mm. tietueiden ja niteiden erämuokkaukset- ja poistot, tietueiden indeksoinnit, varausten eräpoistot ja tietueiden vienti välivarastoon. Pääsääntöisesti työt valmistuvat saman minuutin sisään, mutta ruuhka-aikoina käsittelyssä voi mennä kauemminkin.
+
+![](/assets/files/docs/Asetukset/taustatyot.png)
+
+* _Vain nykyiset taustatyöt_: Jos tämä on valittuna, näytetään vain taustatyöt, jotka ovat keskeneräisiä. Jos taulukossa ei ole mitään sisältöä, ota tästä pois raksi, niin näet vanhempia töitä.
+* _Sisällytä vain taustatyöt, jotka on aloitettu viimeisen tunnin aikana_: Tämä rajaa näytettävat taustatyöt niihin, jotka on aloitettu viimeisen tunnin aikana.
+* Sarakkeen otsikkojen perusteella voi suodattaa näkymää. _Tyyppi_-sarakkeessa voi suodattaa näkyville esimerkiksi niteiden poistot eräajona.
+* _Näytä_-napista saa näkyville työstä tarkempia tietoja. Osasta töistä näkee, mitä tietueita tai niteitä muutos on koskenut, mutta osasta ei näy teostietoja.
+![](/assets/files/docs/Asetukset/taustatyot1.png)
+
+
 ## 18. MARC-kuvailupohjat
 
 ## 19. Kohan MARC-määritykset
