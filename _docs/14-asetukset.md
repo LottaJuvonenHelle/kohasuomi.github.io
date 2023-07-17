@@ -795,7 +795,7 @@ Credit-tyypeillä merkitään Kohassa maksusuoritukset, hyvitykset ja peruutukse
 
 ![](/assets/files/docs/Asetukset/credittyypit.png)
 
-Uuden credi-tyypin voi lisätä _Uusi credit-tyyppi_ -linkistä.
+Uuden credit-tyypin voi lisätä _Uusi credit-tyyppi_ -linkistä.
 
 
 ![](/assets/files/docs/Asetukset/credittyypit1.png)
@@ -815,7 +815,19 @@ WRITEOFF|Maksun poisto|Asiakkaan maksu on poistettu
 
 ## 16. Liitännäiset
 
-## 17. Hallinoi taustatöitä
+Liitännäisissä näkyvät kaikki asennetut liitännäiset ja niiden tila. Liitännäisiä on eri tyyppisiä. Osa on ns. työkaluja, jotka saa käynnistettyä (esim. tarratulostustyökalu), osa toimii vain taustalla, eikä niillä ole käyttöliittymää (esim. tekstiviestiajurit).
+
+![](/assets/files/docs/Asetukset/liitannaiset.png)
+
+* Uusia liitännäisiä saa asennettua _Lataa liitännäinen_ -napin kautta. Koha tukee vain KPZ-muotoisia tiedostoja.
+* Näytettäviä liitännäisiä voi suodattaa _Näytä liitännäisiä luokan mukaan_ -valikosta.
+* Toiminnot-sarakkeen napista voi liitännäisestä riippuen tehdä seuraavia toimintoja:
+  * _Käynnistä työkalu_: Jos liitännäinen on työkalutyyppinen, voi sen avata tästä.
+  * _Määrittely_: Jos liitännäiseen liittyy asetuksia ja määrittelyjä, voi ne tehdä tästä.
+  * _Poista asennus_: Tästä saa liitännäisen asennuksen poistettua.
+  * _Poista käytöstä_: Tästä saa liitännäisen pois käytöstä, mutta sen asennus säilyy. Jos liitännäinen on poistettu käytöstä, saa sen taas käyttöön valitsemalla _Ota käyttöön_.
+
+## 17. Hallinnoi taustatöitä
 
 ## 18. MARC-kuvailupohjat
 
