@@ -13,7 +13,7 @@ Koha-Suomen asiantuntijaryhmän kokoukset vuonna 2022.
 
 ## Muistio 9/22
 
-Aika 12.12.2022 klo 9
+Aika 12.12.2022 klo 9<br />
 Läsnä: Anneli Österman, Kodo Korkalo, Ari Mäkiranta, Kati Sillgren, Päivi Knuutinen, Susanna Sandell, Tuomas Kunttu, Leena Kinnunen
 
 ### 1. Arin ajankohtaiset
@@ -69,11 +69,10 @@ Seuraava asiantuntijaryhmän kokous ma 16.1.2023 klo 9.
 
 Tuomaksen PowerBI-esittely 25.1.2023 klo 9-11.
 
----
 
 ## Muistio 8/22
 
-Aika: 14.11.2022 klo 13
+Aika: 14.11.2022 klo 13<br />
 Läsnä: Anneli Österman, Kodo Korkalo, Päivi Knuutinen, Susanna Sandell, Kati Sillgren, Ari Mäkiranta, Noora Valkonen, Tuomas Kunttu, Katja Valjakka
 Poissa: Pia Kusmin
 
@@ -118,7 +117,8 @@ Kaikki listatut kehitysehdotukset käytiin läpi. Osa hylättiin, lopuille mieti
 
 ### 4. Strategia-pajan koonnin läpikäynti
 
-Koha-seminaarissa oli 28.10.2022 strategia-paja. Käytiin läpi "pajan yhteenveto":https://tiketti.koha-suomi.fi/attachments/5663/Koha-SuomiOystrategianarviointi2022.pdf.
+Koha-seminaarissa oli 28.10.2022 strategia-paja. Käytiin läpi pajan yhteenveto: [Koha-SuomiOystrategianarviointi2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12077212/Koha-SuomiOystrategianarviointi2022.pdf)
+
 
 ### 5. Muut asiat
 
@@ -136,11 +136,10 @@ Koha-seminaarissa oli 28.10.2022 strategia-paja. Käytiin läpi "pajan yhteenvet
 
 * Versionvaihto tapahtuu toukokuussa 2023. Asiantuntijat/pääkäyttäjät selvittävät onko kimpoissa sellaisia päiviä, jolloin päivitystä ei voi tehdä. 
 
----
 
 ## Muistio 7/22
 
-Aika: 10.10.2022 klo 9
+Aika: 10.10.2022 klo 9<br />
 Läsnä: Anneli Österman, Pia Kusmin, Tuomas Kunttu, Päivi Knuutinen, Katja Valjakka, Susanna Sandell, Kati Sillgren, Ari Mäkiranta, Noora Valkonen
 
 ### 1. Arin ajankohtaiset
@@ -175,14 +174,10 @@ Työpajat
 Pe 9-12 Yleisten Koha-kirjastojen strategiapaja
 
 
----
-
 ## Muistio 6/22
 
-Aika: 16.9.2022 klo 10-11.30
+Aika: 16.9.2022 klo 10-11.30<br />
 Läsnä: Ari Mäkiranta, Kati Sillgren, Katja Valjakka, Päivi Knuutinen, Pia Kusmin, Susanna Sandell, Anneli Österman
-
-*Aiheet*
 
 ### 1. Arin ajankohtaiset
 
@@ -231,7 +226,7 @@ Todettiin keskustelujen pohjalta, että nykyinen tapa, että kellutuksen voi mä
 
 Sovitaan ajankohta, jolloin käytetään tiketöinnissä testauksen vuoksi pelkästään Githubia. Testin tarkoituksena on kokeilla, soveltuuko Github tiketöinnissä ja niiden hallinnoinnissa korvaamaan Redmineä.
 
-*Päätös*: Testiaika loka-marraskuu, jonka jälkeen pääkäyttäjäryhmä arvioi, soveltuuko Github meidän käyttöön. Asiantuntijaryhmä tekee pääkäyttäjien ja kehittäjien arvion pohjalta päätöksen.
+**Päätös**: Testiaika loka-marraskuu, jonka jälkeen pääkäyttäjäryhmä arvioi, soveltuuko Github meidän käyttöön. Asiantuntijaryhmä tekee pääkäyttäjien ja kehittäjien arvion pohjalta päätöksen.
 
 ### 6. Koha-seminaari
 
@@ -256,7 +251,8 @@ Ari jatkaa yhteydenpitoa tieteellisten puolelle. Ilmoittautuminen tulossa, Kansa
 
 Käytiin läpi tiekartta ja merkittiin vihreällä valmistuneet osiot.
 
-Päivitetty tiekartta: attachment:Tiekartta2022paivityssyyskuu.xlsx
+Päivitetty tiekartta: [Tiekartta2022paivityssyyskuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12077146/Tiekartta2022paivityssyyskuu.xlsx)
+
 
 ### 8. Muut asiat
 
@@ -272,14 +268,10 @@ Ma 10.10. klo 9
 Ma 14.11. klo 13
 Ma 12.12. klo 9
 
----
-
 ## Muistio 5/22
 
-Aika: 30.5.2022
+Aika: 30.5.2022<br />
 Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Noora Valkonen (OUTI), Ari Mäkiranta (Koha-Suomi), Kati Sillgren (Helle), Katja Valjakka (Lumme), Anneli Österman (Koha-Suomi)
-
-*Aiheet*
 
 ### 1. Arin ajankohtaiset
 
@@ -322,11 +314,10 @@ Ehdotuksia aiheiksi voi lähettää Arille tai Annelille elokuun puoliväliin me
 
 Annelin on tarkoitus aloittaa vuoden 2023 alusta kahdeksi vuodeksi 100 % Koha-Suomen pääkäyttäjänä.
 
----
 
 ## Muistio 4/22
 
-Aika: 9.5.2022 klo 13.15
+Aika: 9.5.2022 klo 13.15<br />
 Läsnä: Päivi Knuutinen, Ari Mäkiranta, Pia Kusmin, Asko Autio, Kodo Korkalo, Tuomas Kunttu, Johanna Räisä, Kati Sillgren, Katja Valjakka, Anneli Österman
 
 ### 1. Arin ajankohtaiset
@@ -362,7 +353,7 @@ Päätös: Jatketaan selvittelyä versionvaihdon jälkeen ja tutkitaan saadaanko
 
 ### 6. Tiekartta
 
-Käydään läpi tiekartta. Liitteenä attachment:Tiekarttayleinenosa.pdf, attachment:Tiekartta2022valmistelu.xlsx, attachment:tiekartta2022.pdf
+Käydään läpi tiekartta. Liitteenä [Tiekarttayleinenosa.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12077154/Tiekarttayleinenosa.pdf), [Tiekartta2022valmistelu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12077162/Tiekartta2022valmistelu.xlsx), [tiekartta2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12077177/tiekartta2022.pdf)
 
 **Päätös:** Hyväksytään tiekartta. Jatkossa seuranta tehdään vuoden ensimmäisessä kokouksessa.
 
@@ -370,11 +361,9 @@ Käydään läpi tiekartta. Liitteenä attachment:Tiekarttayleinenosa.pdf, attac
 
 Ma 30.5.2022 klo 9.15.
 
----
-
 ## Muistio 3/22
 
-Aika: 16.3.2022 klo 9.15
+Aika: 16.3.2022 klo 9.15<br />
 Läsnä: Ari Mäkiranta, Asko Autio (Vaski), Noora Valkonen (OUTI), Pia Kusmin (Lappi), Susanna Sandell (Vaski), Kati Sillgren (Helle), Päivi Knuutinen (Vaara), Anneli Österman, Tuomas Kunttu (Kyyti)
 
 ### 1. Arin ajankohtaiset
@@ -392,13 +381,16 @@ Läsnä: Ari Mäkiranta, Asko Autio (Vaski), Noora Valkonen (OUTI), Pia Kusmin (
 
 ### 3. Tiekartta
 
-Käytiin läpi tiekartta ja tehtiin alustava aikataulutus tuleville vuosille. Priorisointi on tehty aiemmissa kokouksissa. Liitteenä tiekartan valmistelu-tiedosto. attachment:Tiekartta2022valmistelu.xlsx
+Käytiin läpi tiekartta ja tehtiin alustava aikataulutus tuleville vuosille. Priorisointi on tehty aiemmissa kokouksissa. Liitteenä tiekartan valmistelu-tiedosto. 
+
+[Tiekartta2022valmistelu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12077192/Tiekartta2022valmistelu.xlsx)
 
 ### 4. Asiakastietojen vanhentuminen ja lainakielto
 
 Kimpoissa käydään keskustelu, voidaanko siirtyä pidempään (10-100 v) henkilöasiakkaiden (lapset ja aikuiset) asiakkuuden voimassaoloaikaan, jotta asiakkaan kirjaston käyttö ei esty.
 
-Liitteenä kimppojen nykyiset asiakastietojen voimassaoloajat. attachment:Kimppojenasiakkuuksienvoimassaoloajat.docx
+Liitteenä kimppojen nykyiset asiakastietojen voimassaoloajat. [Kimppojenasiakkuuksienvoimassaoloajat.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12077197/Kimppojenasiakkuuksienvoimassaoloajat.docx)
+
 
 ### 5. Muut asiat
 
@@ -408,11 +400,9 @@ Ei muita asioita.
 
 Seuraava kokous on ke 13.4.2022 klo 13.15.
 
----
-
 ## Muistio 2/22
 
-Aika: 23.2.2022 klo klo 9.15
+Aika: 23.2.2022 klo klo 9.15<br />
 Läsnä: Ari Mäkiranta, Anneli Österman, Päivi Knuutinen, Pia Kusmin, Katri Sillgren, Noora Valkonen, Asko Autio, Tuomas Kunttu
 
 
@@ -473,24 +463,24 @@ Aikuinen-asiakastyypin asiakastietoon lisätty Tarkista osoite = kyllä
 
 **Päätös:** Kerätään kaikkien kimppojen asiakastietojen voimassaoloaika. Tieto Annelille.
 
-Asiakasviestinnässä voisi tutkia uudemmassa versiossa käytettävissä olevien viestiliitännäisten mahdollisuuksia: "Koha mailer plugin ja emailer":https://www.youtube.com/watch?v=serAmqPf9WA
+Asiakasviestinnässä voisi tutkia uudemmassa versiossa käytettävissä olevien viestiliitännäisten mahdollisuuksia: [Koha mailer plugin ja emailer](https://www.youtube.com/watch?v=serAmqPf9WA)
 
 ### 6. Seuraava kokous
 
 Seuraava kokous ke 16.3.2022 klo 9.15.
 
----
 
 ## Kokous 1/22
 
-Aika 26.1.2022 klo 9.15
+Aika 26.1.2022 klo 9.15<br />
 Läsnä: Ari Mäkiranta (Koha-Suomi), Leena Kinnunen (Lappi), Katri Sillgren (Helle), Tuomas Kunttu (Kyyti), Susanna Sandell (Vaski), Asko Autio (Vaski), Anneli Österman (Koha-Suomi), Noora Valkonen (OUTI), Päivi Knuutinen (Vaara), Katja Valjakka (Lumme) 
 
 ### 1. Arin ajankohtaiset
 
 ### 2. Asiantuntijaryhmän vuosisuunnitelma 2022
 
-Käytiin läpi vuosisuunnitelma: attachment:Asiantuntijaryhmän_vuosisuunnitelma2022.docx
+Käytiin läpi vuosisuunnitelma: [Asiantuntijaryhmän_vuosisuunnitelma2022.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12077136/Asiantuntijaryhman_vuosisuunnitelma2022.docx)
+
 
 ### 3. Versionvaihdon tilanne
 
@@ -500,7 +490,7 @@ Tiketit käyty läpi ja vastuutettu kehittäjille. Seuraavaksi aikataulutetaan k
 
 #### 4.1 Aineiston korvaushinnat alvittomiksi.
 
-verottajan mukaan korvaus kadonneesta/tuhoutuneesta aineistosta on arvonlisäverotonta: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48609/vahingonkorvaus_ja_vahingonkorvauksen_l/tässä
+verottajan mukaan korvaus kadonneesta/tuhoutuneesta aineistosta on arvonlisäverotonta: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48609/vahingonkorvaus_ja_vahingonkorvauksen_l/
 
 Tässä vielä tuo KHO:n päätös korvaushintojen alvittomuudesta:
 
