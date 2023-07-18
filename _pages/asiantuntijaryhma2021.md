@@ -401,3 +401,63 @@ Raportointityökalun Hankinta-tilastot eivät anna oikeita lukuja. Ongelma huoma
 
 Kevään kokousajat: 15.2.2021 klo 9.15, 15.3.2021 klo 9.15, 12.4.2021 klo 9.15, 10.5.2021 klo 9.15
 
+
+## Koha-Suomi asiantuntijaryhmän kokous 1/21 
+			
+Kokousaika: 11.1.2021 klo 10
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Katja Valjakka (Lumme), Noora Valkonen (OUTI), Anneli Österman (OUTI, Koha-Suomi)
+
+
+### 1. Arin tilannekatsaus
+
+Yhteisen palvelinsalikokonaisuuden kilpailutus on auki ja se päättyy 8.1.2021. Katsotaan tilanne kokouksessa: Kaksi tarjousta tullut, hallitus tekee päätöksen tällä viikolla ja valtuuttaa Arin jatkamaan neuvotteluja ja käyttöönottoa. Palvelimien kulut jaetaan asukasluvun mukaan ja laskutetaan suoraan kunnilta.
+
+Vaskissa toinen konversiokierros on menossa ja projekti etenee hyvin.  Vaskissa saatu lisäresurssia projektiin, Mikko Liimatainen aloitti järjestelmätiimissä 1.1.2021 ja on vuoden loppuun töissä.
+
+Kehittäjät ja Anneli päivystävät pareittain. Päivystys arkisin 8-16, viikonloppuisin ja iltaisin ei ole päivystystä. Palaute kokeilusta on ollut positiivista, joten jatketaan näin.
+
+Versiopäivityksen osalta ensimmäiset tiketit vastuutettu kehittäjille pitkälle sen perusteella, kuka ominaisuuden on aikanaan tehnyt.
+
+### 2. Sotu-siilo
+
+Sotu-siilon käyttö vaatii paljon Koha-Suomi spesifiä koodia ja on siksi isotöinen ylläpitää. Jos hetut olisi mahdollista tallentaa Kohaan, mutta pitää piilotettuina siten, etteivät ne näy virkailijoille, vähentäisi se koodin ylläpitotarvetta ja mahdollistaisi Hetun käytön erilaisissa käyttötarkoituksissa. Samaan aikaan se heikentää tietoturvaa sikäli, että vaikka hetut olisivat piilotettuina Kohassa, ovat ne silti samassa järjestelmässä kuin muutkin asiakastiedot.
+
+Ajatus pohdiskeluun lähti tästä: https://tietosuoja.fi/-/henkilotunnusta-ei-saa-nykyisinkaan-kayttaa-tunnistamiseen-tiukennuksia-on-kuitenkin-harkittava ja sivulla oleva linkki lausuntoon (siellä kohdassa V kerrotaan, että henkilötunnus ei ole salassa pidettävä tieto).
+
+Jatketaan tästä keskustelua.
+
+Päätös: Ei vielä virallisia päätöksiä kimpoissa, mutta sähköpostiviestityksen perusteella alustavasti luopuminen on ok, jos voidaan säilyttää nykyinen tietoturvan taso ja tietoon pääsee käsiksi vain ne käyttäjät, joilla on siihen työtehtävien kannalta tarpeen (esim. laskuttajat). Jatketaan asian selvittelyä kehittäjien kanssa.
+    
+### 3. Mobiilikirjastokortti
+
+Useammassa kimpassa on ollut puhetta mobiilikirjastokortin käyttöönotosta. Käydään läpi mitä suunnitelmia kimpoilla on ja keskustellaan, löytyisikö sellainen ratkaisu, jota pystyisi helposti käyttämään kaikissa kimpoissa.
+
+Päätös: Kouvolassa ja Joensuussa kaupunki-appi, joihin tulossa myös mobiilikortti. Kirjautuminen niissä todennäköisesti RESTin kautta. Käytännössä sovelluksessa näytetään vain kirjastokortti viivakoodina. Sama toiminnallisuus on myös Finnassa ja useampi kimppa käyttääkin sitä jo nyt. Finnan versiossa on kuitenkin ongelmana, että sen toiminnolla pystyy generoimaan minkä tahansa kirjastokortin viivakoodin. Toki käyttäjä tarvitsee lainausautomaatilla lainatakseen lisäksi PIN-koodin (mikäli toiminto käytössä laitteella).
+Tuomas laittaa Finna-toimistoon ehdotuksen Koha-kirjastojen puolesta, että mobiilikorttiin ei pääse käsiksi ilman kirjautumista ja osoiterivillä ei pysty muuttamaan kirjastokortin numeroa ja generoimaan viivakoodia mistä kortista tahansa.
+
+### 4. Muut asiat
+
+Tietojen säilytysajat pohdinnassa pääkäyttäjillä, niistä pitänee tehdä päätös myös asiantuntijaryhmässä. Yhteinen päätös olisi paras vaihtoehto. https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat
+
+Päätös: Pääkäyttäjät tekevät ehdotuksen ja asiantuntijaryhmä tekee varsinaisen päätöksen. Otettava huomioon mm.
+* kirjanpitolaki, maksuihin liittyvät säilytettävä ainakin 6 v
+* kaikki säilytysajat pitää perustella
+* kuntien arkistonmuodostussuunnitelmat
+
+Uudessa Koha-versiossa asiakastiedoissa on Varaushistoria-toiminnallisuus. Pohditaan, pitääkö sitä verrata lainahistoriaan eli pitääkö se piilottaa henkilökunnalta samalla tavalla?
+
+Päätös: Lainahistoriaan rinnastettava tieto, piilotetaan.
+
+Missä mennään aineistolajimuutosehdotuksen suhteen? https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Aineistolajimuutosehdotus
+Tilanne: Suurin osa ongelmista saatu ratkaistua ja asiaa edistetään. Kellutuksen suhteen vielä ratkaistavia asioita. Helle ja Vaara pohtii, miten saisivat toteutettua omat kellutussääntönsä.
+
+
+Raportointityökalun Hankinta-tilastot eivät anna oikeita lukuja. Ongelma huomattu Hellessä ja OUTIssa.
+
+Päätös: Luodaan SQL-raportit Tuomaksen raporttien pohjalta. Ohjelman virheiden korjaaminen tällä aikataululla ei ole realistista. Anneli ja kehittäjät tutkivat asiaa.
+
+### 5. Seuraavat kokoukset
+
+Kevään kokousajat: 15.2.2021 klo 9.15, 15.3.2021 klo 9.15, 12.4.2021 klo 9.15, 10.5.2021 klo 9.15
