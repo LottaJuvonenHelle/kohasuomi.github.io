@@ -9,6 +9,87 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
+## Koha-Suomi asiantuntijaryhmän kokous	7/18 
+			
+kokousaika: 20.12.2018 klo 12 Lync-kokous
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Vaara), Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Maarit Tuomisto (Helle), Noora Valkonen (OUTI)
+
+
+### 1. Arin tilannekatsaus
+
+Vaala liittyy Outiin tammikuun ensimmäisellä viikolla. Työ on edennyt hyvin. Hankintaportaalin kanssa on yhä ongelmia. Verkkomaksamisen käyttöönottoa Finnan kanssa suunnitellaan useassa kimpassa.
+
+### 2. Finnan aineistotyypit
+
+Finnan aineistotyyppiasia on muutostilassa, joten niitä Koha-Suomen yhteisiä aineistolajeja ei ehkä nyt kannata kantoihin ajaa. Nehän luotiin Finnan ehdoilla ja nyt Finnan aineistolajit muuttunevat, joten pitää miettiä avataanko tämä asia uudelleen.
+https://www.kiwi.fi/display/Finna/Tulevia+muutoksia+Finnan+aineistotyyppeihin+-webinaari
+
+### 3. Tietosuoja-asiat
+
+Keskustellaan miten edetään tietosuoja-asioiden kanssa. Itsepalvelunoudossa ei enää voi käyttää automaattisesti asiakkaan nimeä vaan tarvitaan alias. Tiukan tulkinnan mukaan sähköpostilla ei voi lähettää asiakkaan lainaustietoja (niteiden lähestyvä eräpäivä) Tähänkin pitää löytää jokin ratkaisu. 
+
+### 4. Omatoimikirjastot
+
+omatoimikirjasto-toiminnallisuudet Kohassa
+Omatoimiin liittyvät käytännöt ovat Koha-kirjastoissa erilaisia, mistä johtuen tarpeet omatoimi ns. banneihin Kohassa on erilaiset. Päästäisiinköhän näissä suurempaan yhtenäisyyteen. Erilaisten käytäntöjen ja tarpeiden kartoittamisella pitäisi lähteä.
+
+### 5. Koha-Suomen henkkilöjärjestelyt
+
+- Anneli siirtyy vuodenvaihteessa Koha-Suomen pääkäyttäjäksi 40% työajalla. Keskustellaan toiveista ja tarpeista mihin Annelin työaikaa kohdennetaan
+- Ari Toimitusjohta-tuotepäälliköksi 100%. Ari Puhelinnumero säilyy samana. Pasi Kalliselle, Jukalle ja Annelille otetaan uudet puhelinnumerot. Arille, Annelille ja kehittäjille on luotu s-posti. etunimi.sukunimi@koha-suomi.fi. Nämä ovat jo käytössä ja kimpoissa pitää nyt testata, etteivät jää roskapostifilttereihin.
+
+### 6. Seuraavat kokoukset
+
+Vuoden 2019 ensimmäiset kokoukset pidetään 21.1. ja 18.2.
+
+
+
+## Koha-Suomi asiantuntijaryhmän kokous 6/18 
+			
+kokousaika: 5.11.2018 klo 12 Lync-kokous
+
+Kuulolla:  (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Vaara), Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Maarit Tuomisto (Helle), Noora Valkonen (OUTI)
+sihteerivuorossa Helle-kirjastot
+Pois: 
+Aiheita:
+
+### 1. Kimppojen kuulumiset
+
+Helle: Viddla-palveluun on tutustuttu. Helle-Ellibs yhteys on avattu. Kuljetusten säätö mietinnässä. Toimiiko varauspainomatriisi Finnan ja Kohan välillä? 
+
+Kyyti: EditX käytössä koko Kyytissä. Kesällä oli ongelmia palautuskehotusten kanssa. Parametrimuutoksella ongelma on todennäköisesti ratkaistu. Syyskuussa tehtiin kiinteämittaisten kenttien korjausajo, joka meni hyvin. 
+
+Lappi: Luetteloinnin korjaus on menossa. Lapissa aineistolajit on jo yhteisen päätöksen mukaiset.
+
+Lumme: Lumpeen palvelimen hidastelu on korjattu. Tavoitteena yhtenäistää kirjastojen välisiä käytäntöjä. Finna on testausvaiheessa. Tilastopalikkaa odotetaan kiivaasti. 
+
+OUTI: Koulukirjastot konvertoitu. Vaala liittyy OUTI-kirjastoihin vuoden alussa. Hankintaportaali on tulossa käyttöön marraskuussa. Finnassa käytössä salasananpalautus.
+
+Vaara: Finnassa on otettu verkkomaksaminen käyttöön. Pyritään opettamaan asiakkaita Finnan käyttöjiksi.
+
+Vaski: Vaskijohtoryhmä käsittelee 20.11. Koha projektin tuloksia. Verkkomaksaminen ei vieläkään käytössä. 
+
+### 2. Arin tilannekatsaus
+Yhtiön taloustilanne on hyvä. Ensi vuodelle on tarkoitus lisätä henkilöstöresurssia siten, että Yhtiölle tulee pääkäyttäjä 40% työpanoksella. Toimitusjohtaja asiaa selvitellään ja on mahdollista, että Ari siirtyy 100% tuotepäällikkö-toimitusjohtajaksi. Vaalan konversio on työnalla ja etenee hyvin. Hankintaportaalia on valmistumassa.
+
+### 3. Ryhmien työskentely
+Keskustellaan ryhmien työnjaosta sekä asiantuntijaryhmän tehtävästä. 
+Asiantuntijaryhmä katsoo tulevaisuuteen. Pääkäyttäjät on keskittyneet akuuttiin. Kuvailuryhmältä pyydetään kuvailuun liittyvissä kehitysasioissa mielipidettä. 
+
+### 4. Omatoimikirjastot
+omatoimikirjasto-toiminnallisuudet Kohassa
+Omatoimiin liittyvät käytännöt ovat Koha-kirjastoissa erilaisia, mistä johtuen tarpeet omatoimi ns. banneihin Kohassa on erilaiset. Päästäisiinköhän näissä suurempaan yhtenäisyyteen. Erilaisten käytäntöjen ja tarpeiden kartoittamisella pitäisi lähteä. 
+
+### 5. laskutus
+Tulossa on paljon muutoksia laskutuspuolelle kirjastoissa, lähinnä talousjärjestelmissä joihin Kohasta pitää saada tietoa siirrettyä. Koha-rajapintaan kohdistuu monenlaisia toiveita. Mitä aletaan ominaisuuksia Koha-Suomen kustannuksella kuhunkin rajapintaan toteuttamaan? Näistä on Johannan tekemä kooste olemassa.
+6. Muut asiat
+Helle-kirjastoilla huoli bugien korjauksista. Asiantuntijaryhmän tehtävänä on seurata, että bugeja korjataan ja priorisoidaan.
+
+### 7. Seuraavat kokoukset
+Seuraava kokous 4.12. kello 10.15.
+
+
 ## Koha-Suomi asiantuntijaryhmän kokous	5/18 
 
 kokousaika: 14.5.2018 klo 9.15-10.30 Lync-kokous
