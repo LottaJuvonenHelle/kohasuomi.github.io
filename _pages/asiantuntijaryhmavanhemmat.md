@@ -9,6 +9,8 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
+Tällä sivulla on Koha-Suomen asiantuntijaryhmän muistiot vuosilta 2016-2020.
+
 
 ## Koha-Suomi asiantuntijaryhmän kokous	10/20 
 			
