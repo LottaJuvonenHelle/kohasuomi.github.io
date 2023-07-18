@@ -9,6 +9,138 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
+
+## Koha-Suomi asiantuntijaryhmän kokous 2/19 
+			
+kokousaika: 18.2.2019 klo 9.15 jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara) Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Anneli Österman (OUTI), Maarit Tuomisto (Helle)
+
+### 1. Kimppojen kuulumiset
+
+Helle: Tilastomodulin käytöstä tarkoitus järjestää yhteistilaisiin viikolla 9.
+Viddla-videopalvelun kanssa on jokin ongelma jota selvitetään. 
+
+Kyyti: Verkkomaksamisen testaukset menossa. Käyttöönotto maaliskuun alkupuolella. 
+Redmine-esittelyt pidetty Kyytin henkilökunnalle. Osallistujia parikymmentä.
+Kyytin asiakastiedoista on poistettu sukupuolitieto kaikilta asiakkaita.
+
+Lappi: Verkkomaksun käyttöönottoa varten on alettava poistamaan asiakkaiden yli 5 vuotta vanhempia maksuja. Poistot tehtävä käsin, koska näitä maksuja ei pysty virheettömästi poistamaan ajolla. Verkkomaksun käyttöönotto voi tästä syystä viivästyä. 
+Vuoden alussa selvisi, että elokuvia, joissa ei ole ikärajamerkintää, on yli 3000. Näitä korjataan luettelointitietoihin nyt käsin. 
+Pääkäyttäjien työn alla kriisi- ja viestintäsuunnitelma Lapille Kohaa tai Finnaa koskevien käyttökatkojen tai muiden ongelmien varalta. 
+
+Lumme: Lumme-kirjastoissa Finna otettu käyttöön, opacista ei voida luopua, ennen kuin Lumpeissa käytössä olevat genret saadaan näkymään myös uudessa verkkokirjastossa
+verkkomaksamista Finnan kautta testataan
+lehtinumeroitten aineistolajit häviävät, kun uusi numero vastaanotetaan. samoja ongelmia ollut myös Kyytissä ja Lapissa, liittynee edellisen numeron automaattiseen muutokseen saatavissa –tilaan (korjauspyyntö redminessä Kyytillä ja Lapilla, liitetään Lumme)
+kirjastot kipuilevat tilastojen kanssa
+Heinävesi vaihtaa maakuntaa, kirjasto lähtee Lumpeesta ja liittyy Vaaraan vuoden lopussa. Asiasta pidetään palaveri Mikkelissä 15.3. johon osallistuvat Koha-Suomesta Ari M., Johanna R., Pasi K. sekä Lumme-pääkäyttäjät
+
+OUTI: Kohasta lähtevät sähköpostit eivät mene perille asiakkaille, kyselty apuja Oulun Digiltä. Ongelma todennäköisesti siinä, että viestit lähtevät Oulun Digin palvelimelta, mutta lähettäjänä näkyy asiakkaan kotikirjasto/lainaava kirjasto, jolloin vastaanottajien sähköpostin palveluntarjoajat tulkitsee viestit epäluotettaviksi. hankintaportaalin tuotantokäyttö keskeytetty ongelmien vuoksi. Ongelmia mm. luettelointitiedoissa.raportointityökaluun saatu tänään PiiMegalta korjaus, Pasi ja Johanna vie muutokset Koha-Suomen koodikantaan.
+
+Vaara: varaustunnisteen anonymisointi vireillä.
+vanha opac on piilotettu toissa viikolla, samoin Vaara-kirjastojen vanhat nettisivut poistettu käytöstä
+toimivaa raportointiohjelmaa odotetaan
+Redminestä ei tule sähköpostiviestit Vaara-kirjastojen sähköposteihin. Asiaa selvitetään (Pasi Kallinen)
+Finnan uudessa versiossa tuli mahdolliseksi tehdä hankintatoivomuslomake. Tehty Vaaraan ja toimii, ei tosin ole yhtä kätevä kuin oli vanhassa opacissa oleva.
+
+Vaski: Ei uutta kerrottavaa
+
+### 2. Arin tilannekatsaus
+
+Joensuu haki avustusta Suomi.Fi viestien toteutukseen, jos rahaa saadaan, Koha-Suomi tekee työn Kohan osalta. Vaara toimii silloin pilottina. 
+Melinda integraatio etenee Kohan päässä hyvin, mutta kansalliskirjastolla on kiireinen kevät, joten käyttöönotto tapahtuu alkusyksystä. Tätä ennen pidetään vielä luettelijoille koulutus.
+
+Piimega ei ole vieläkään saanut tilastotyökalun virheitä korjatuksi. OKM:n tilastojen näkökulmasta alkaa olla kiire. Hankintaportaali on Outin osalta testausvaiheessa, mutta siitäkin on löytynyt virheitä, joten käyttöönottoa ei ole voitu toteuttaa. 
+Joensuun konservatorion kirjasto ja Pohjois-Karjalan keskussairaalan kirjasto ovat kiinnostuneita Kohasta.
+
+### 3. Asiantuntijaryhmän vuosisuunnitelma
+
+Asiantuntijaryhmälle pitää laatia vuosisuunnitelma vuodelle 2019. Liitteenä on suunnitelmaluonnos, jossa on tarkoitus kuvata toimintatapa. Ari jatkaa suunnitelman valmistelua ja käsitellään se seuraavassa kokouksessa.
+
+### 4. Koha-seminaarin valmistelu
+
+Käydään läpi seminaarijärjestelyjen tilanne ja ehdotukset aiheista ja puhujista. Uusia ideoita ei vielä ollut. Ari selvittää Ruotsin matkallaan löytyisikö sieltä hyvää puhujaa.
+
+### 5. Finna
+
+Erkki Tolonen tulee 29.3. kokoukseen keskustelemaan Koha-kirjastojen tarpeista ja toiveista Finnan suhteen. Erkki toivoi päivitettyä versiota meidän kootuista toiveistamme. Keskustellaan tästä. Pyydetään pääkäyttäjiä käymään lista läpi ja tarvittaessa asiantuntijaryhmä käsittele sitä ennen kuin lista laitetaan Kansalliskirjastoon. 
+
+### 6. Muut asiat
+
+Varaustunnisteiden muuttaminen kaikissa kimpoissa saman kaavan mukaan. Päätettiin, että yhtenäisyyden takia siirrytään kaikissa asennuksissa käyttämään numerotunnistetta.
+
+
+
+## Koha-Suomi asiantuntijaryhmän kokous	1/19 
+			
+kokousaika: 21.1.2019 klo 9.15 skype-kokous
+Liity Lync-kokoukseen 
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Maarit Tuomisto (Helle), Noora Valkonen (OUTI)
+
+
+Aiheita:
+
+### 1. Kimppojen kuulumiset
+
+Helle: Ei erityistä. Odotellaan tilastotyökalua ja sen käyttöönottoa.
+
+Kyyti: Verkkomaksujen käyttöönottoa valmistellaan. Aloitetaan maaliskuussa.
+
+Lappi: Ongelmia viestilähetysten kanssa. Konversiossa hävinneet nimekkeet selvitetään tämän vuoden aikana.
+
+Lumme: Finnan käyttöönotto meneillään. Lumme-kanta näkyy jo verkossa, mutta asiakkaille ja muille kirjastoille käyttöönotosta tiedotetaan vasta kuun vaihteessa. Opac  ja Finna auki rinnakkaispalveluna helmikuun ajan.Verkkomaksamista valmistellaan, Mikkelin kaupungin tietohallinnon palvelutarjoajan vaihto viivästyttää ja hankaloittaa valmistelua.Viime vuoden toimintatilastot, toistaiseksi hiljaista, kommentteja ei vielä ole saatu hirveästi kirjastoista.
+
+OUTI: Tilastotyökalun testausta. Hankintaportaalin testausta ja käyttöönotonvalmistelua.
+
+Vaara: -          Editx vihdoin edistymässä palomuuri- ym. ongelmien jälkeen. Kirjastopalvelulta on saatu jo lähetettyä Vaaraan viestejä. Kirjavälitys ei ole ilmeisesti vielä testannut.
+-          helmikuussa Jjoensuun pääkirjastoon tulossa uusi lajitteleva palautusautomaatti, jonka myötä jouduttu tarkastelemaan asetuksia
+-          raporttiohjelman tuloksia tutkittu ja ihmetelty, kun vihdoin päästy sitä käyttämään. Vielä on kummallisuuksia tuloksissa.
+-          Finnassa otettu osasto- eli hyllypaikkafasetti käyttöön. Finnassa oli virhetoiminto varauksissa, asiakas ei päässyt muokkaamaan varauksiaan mikäli hänellä oli maksimimäärä varauksia. Tämä korjattiin nopeasti, kun laitoin palautetta Finna-postiin. Ongelman syynä oli REST-rajapinnassa ollut liian tiukka tarkistus (https://tiketti.koha-suomi.fi:83/issues/3765)
+
+Vaski: Vaskin KOHA-tilanne on edelleen selvitys- ja keskusteluvaiheessa. 
+Yleisten kirjastojen Finna-mallipohja. Turku on mukana osana kehittämiskirjastotoimintaansa Finna-mallipohjan tekemisessä. Mallipohjaa työstävät Kansalliskirjasto, Kirjastot.fi ja Turku. Tavoitteena on luoda mallikirjastopohja liittyville yleisille kirjastoille, mutta samalla kehitetään yleisten kirjastojen Finnaa. Kansalliskirjaston johtava käytettävyysasiantuntija Riitta Peltonen vetää ryhmää.
+ 
+
+### 2. Arin tilannekatsaus
+
+Ari kertoi Koha-kuulumiset. Melinda integraatio on työnalla. Tällä hetkellä testausvaiheessa. Jonkin verran korjattavaa on löytynyt, mutta integraatio etenee hyvin. Hankintaportaali on Oulussa testausvaiheessa. Mahdollisuus yksittäisen omatoimikirjan käyttökieltoon on myös viimeistelyssä. Annelin työkuva määritellään, kun Ari lähiaikana käy Oulussa.
+
+### 3. Asiantuntijaryhmän vuosisuunnitelma
+
+Asiantuntijaryhmälle pitää laatia vuosisuunnitelma vuodelle 2019. Syksyn Koha-seminaarissa luonnosteltiin jo tätä. Seminaaridokumentti on tässä liitteenä keskustelun pohjaksi.
+
+Asiantuntijaryhmän tehtävät:
+    • kerää ja koostaa kehittämisehdotukset ja tarpeet,
+    • vastaa tuotteen kehittämislinjausten ja toiminnallisten vaatimusten valmistelusta,
+    • tuottaa kehittämisideoista esitykset hallitukselle,
+    • toteuttaa tuotepäällikön kanssa tuotteenhallinnan ja kehittämisen edellyttämät toimenpiteet.
+    • Osallistuu kansainvälisen Koha-yhteisön toimintaan.
+
+Vuosisuunnitelma: Melinda integraatio valmistuu kevään aikana. 
+Asiantuntijaryhmä osallistuu muiden ryhmien toiminnan ohjaaminen ja nataa niille tehtäviä.  koha-seminaarinen organisoiminen. Pyydetään Erkki Tolosta osallistumaan Asiantuntijaryhmän kokoukseen ja kertomaan Finna-tilannekatsaus.
+
+### 4. Koha-seminaarin valmistelu
+
+Seuraava Koha-seminaari järjestetään Turussa 12.-13.9. Aloitetaan seminaarin suunnittelu ja jaetaan vastuita. Kehittämien teemaksi. Leena on koonnut Lapin kustannuksia ja mitä sillä saa. Leena lupasi organisoita/auttaa tiedon keräämisessä muista kimpoista.
+Turku tekee ilmoittautumislomakkeen ohjeiden pohjalta.  Nimikyltit (nimi ja kirjasto). Ohjelma valmiiksi huhtikuun lopussa ja ilmoittautuminen toukokuun loppuun. Mukaan otetaan 90 ensin ilmoittautunutta. 
+    1. päivä: yhtiön ajankohtainen tila, Kimppojen kuluvertailu, Ryhmätapaamiset, 
+Illanvietto (kevyesti ja vapaamuotoisesti)
+    2. Ulkopuolinen puhuja (jokainen miettii (aihetta/puhujaa), Tieteellisten kirjastojen kuulumiset (yhtenäistäminen), Paneeli
+
+### 5. Suomi.fi viestit
+
+Joensuun kaupunki tekee avustushakemusta suomi.fi viestien käyttöön ottoon. Sieltä kysyttiin Koha-Suomen kiinnostusta lähteä mukaan hankkeeseen. Lupasin 24.1. mennessä kertoa voimmeko lähteä mukaan ja mitä ominaisuuden käyttöönotto maksaisi. Tämä kannattaa toteuttaa, jos avustusta saadaan. Ilman avustusta tämä ei ole vielä kiireellinen, sillä kirjastot joutuvat käyttämään vanhaa viestitapaa rinnalla niin kauan kuin suomi.fi vaatii käyttäjiltä Hetua.
+
+### 6. Muut asiat
+
+Raportointityökalun käyttöön on toivottu koulutusta ja se suunnitteilla.
+
+### 6. Seuraavat kokoukset
+
+Sovittiin loput kevään kokousajat: 18.2., 29.3., 24,4. ja 13.5. 
+
 ## Koha-Suomi asiantuntijaryhmän kokous	7/18 
 			
 kokousaika: 20.12.2018 klo 12 Lync-kokous
