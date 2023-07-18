@@ -1840,19 +1840,19 @@ Selvitettävä, onko koneellinen ajo mahdollista vertaamalla hyllypaikkaa ja luo
 
 Läsnä: Noora Valkonen (pj), Ari Mäkiranta, Pia Kusmin, Susanna Sandell, Toni Sundahl, Maarit Tuomisto, Pirjo Sapman, Tuomas Kunttu (muistio)
 
-## 1.  Arin tilannekatsaus
+### 1.  Arin tilannekatsaus
 Lari tekee Finnaa tämän joulukuun, ei tule vielä valmiiksi. Kohassa on saatavuustiedoissa ongelmaa, joka vaatii uuden moduulin kirjoittamista. Lari jatkaa helmi-maaliskuussa jatkaa ja silloin pitäisi rajapinnan valmistua. 
 Olli-Antti tekee versiopäivitystä. Siilinjärven ja Kuusamon konversiot ovat menossa.
 Lapin dumpissa on ongelmia ja Lapin käyttöönotto siirtynyt.
 Redminen tiketit eivät nyt etene, mutta tarkoitus on että myöhemmin alkavat edetä, kun isot asiat saadaan pois alta.
 Turku olisi valmis tekemään ja maksamaan järjestelmäkatselmoinnin. Ei kannattane tehdä tähän versioon, suositellaan että tehdään Kohan uuteen versioon. Turku saa kyllä katselmoinnin tehdä.
 
-##  2. Aineistolajit, hyllypaikat jne. yhtenäistäminen, tilanne
+###  2. Aineistolajit, hyllypaikat jne. yhtenäistäminen, tilanne
 Keskusteltiin kuvailuryhmän tekemästä aineistolajien yhdistämisehdotuksesta. Sitä pidettiin pääosin hyvänä. Keskustelua herättivät lähinnä kielikurssien ja äänikirjojen puuttuminen.
 Sovittiin, että muutoksista kuvailuryhmän ehdotukseen keskustellaan sähköpostitse. Muutosehdotuksiin tarvitaan perustelut sekä montako on ko. aineistoa ja onko kyseessä karttuva kokoelma.
 Aineistolajit päätetään seuraavassa kokouksessa.
 
-## 3. Hallitukselta tehtäväksi: esitys mallista verkkokirjastomaksujen jakamiseksi kuntien kesken.
+### 3. Hallitukselta tehtäväksi: esitys mallista verkkokirjastomaksujen jakamiseksi kuntien kesken.
 
 Tämän hetken tilanne: 
 * Outissa on jaettu asukaslukujen suhteessa. 
@@ -1862,13 +1862,13 @@ Tämän hetken tilanne:
 Vaihtoehtoja: asiakastunnuksen mukaan, niteen kotipisteeseen liittyvä, asiakkaan asiointikirjasto, kunnan asukasluku.
 Asiantuntijaryhmä päätyi siihen, että asiakkaan kotikirjasto tai niteen kotikirjasto ovat parhaat tavat jakaa verkkokirjastomaksu. Suurin osa osallistujista oli asiakkaan kotikirjaston kannalta. Asiaa tutkitaan vielä Vaarassa ja asia päätetään seuraavassa kokouksessa.
 
-## 4. Virkailija-Kohan näkymien (template) yhtenäistäminen. Keskustellaan, miten asiaa kannattaisi viedä eteenpäin.
+### 4. Virkailija-Kohan näkymien (template) yhtenäistäminen. Keskustellaan, miten asiaa kannattaisi viedä eteenpäin.
 Yllättäen tulleet muutokset virkailijanäkymässä ovat herättäneet hämmennystä Kyytissä. Tällaisista muutoksista pitäisi saada tietää etukäteen. Pitäisi myös päättää, mikä käytössä olevista näkymistä tulee kaikille yhteisiksi. Päätettiin viedä asia pääkäyttäjäryhmään. Oulu toimittaisi tiedot näkymämuutoksista.
 
-## 5. Muut esille tulevat asiat
+### 5. Muut esille tulevat asiat
 Ei muita esille tulevia asioita.
 
-## 6. Seuraava kokous
+### 6. Seuraava kokous
 Seuraava asiantuntijaryhmänkokous sovittu 16.1.17 klo 9, seuraava hallituksen kokous on 3.2.17.
 
 Kokous päättyi klo 10.10.
