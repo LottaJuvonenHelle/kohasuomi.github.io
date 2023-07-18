@@ -22,6 +22,9 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 [Asiantuntijaryhmän vuoden 2021 muistiot](/asiantuntijaryhma2021)
 
+[Asiantuntijaryhmän muistiot 2016-2020](/asiantuntijaryhmavanhemmat)
+
+
 ## Koha-Suomen viikkopalaverit
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa, maanantaisin ja torstaisin.
