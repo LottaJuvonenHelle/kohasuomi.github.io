@@ -38,6 +38,7 @@ Etelästä pohjoiseen
 
 **Vaski**
 * Kohassa katko ma 17.7., johtui samasata messages_queue -taulun lukittumisesta kuin viime keskiviikonkin katko Vaskissa.
+* Noutomuistutuksen lähetyksestä poistettu email-pakotus, jotta saatiin lähetys noudattamaan asiakkaan viestiasetuksia. Ennen muutosta noutomuistutus lähti kaikille asiakkaille, joilla oli sähköposti, asia tuli ilmi kun tästä tuli asiakaspalautetta.
 
 ## Viikko 28 muistio
 
