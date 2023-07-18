@@ -9,6 +9,268 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
+## Koha-Suomi asiantuntijaryhmän kokous	5/18 
+
+kokousaika: 14.5.2018 klo 9.15-10.30 Lync-kokous
+
+
+Kuulolla: Noora Valkonen (OUTI) PJ, Leena Kinnunen (Lapin kirjasto), Ari Mäkiranta (Vaara), Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Tuomas Kunttu (Kyyti) muistio.
+
+Pois: Maarit Tuomisto (Helle)
+
+### 1. Kimppojen kuulumiset
+
+Kyyti: Finnaa tehdään. Otetaan käyttöön syyskuun alussa. Henkilökunnan koulutuksia elokuun jälkipuoliskolla. Sisällöntuotantoa tulee Finnaan syötteiden avulla mm. Kirkannasta, Kirjasammosta, omasta blogista ja kymenlaaksonyt.net-tapahtumasivustolta.
+
+Lappi: Finna otetaan käyttöön kesäkuun lopulla. Odotellaan laskutusprojektin aloittamista.
+
+Lumme: Versionvaihto oli viime viikolla. Finnalla ei vielä tarkempaa aikataulua, riippuu Kansalliskirjastosta.
+
+OUTI: Vaalan kunnankirjaston ja Oulun koulukirjastojen liittymistä OUTI-kimppaan valmistellaan. Raportointi/tilastotyökalu: palaveriaika sovittu. 
+
+Vaara: Finna käytännössä valmis. Julkistamisen ajankohta on auki.
+
+Vaski: Kohan loppuraportti on tekeillä. Kesäkuun lopussa Koha-projekti päättyy ja päätöksenteko siirtyy Vaskin johtoryhmälle.
+
+### 2. Arin tilannekatsaus
+
+Versionvaihdot: Helleessä paraikaa menossa. Täti on viimeisenä vuorossa.
+
+Kehittäjät ja Ari kokoustivat Oulussa 1,5 päivää käyden läpi Kohan asioita:
+    • Tietosuoja-asetukseen liittyvät työt ovat työnalla. Lokitukseen on tulossa työkalu.
+    • Redminea selkeytetään
+    • Kehittäjien ja pääkäyttäjien työnjaosta keskusteltu. Oulussa tehty pääkäyttäjien työtehtävälistaa. Ari lähettää listan asiantuntijaryhmälle.
+    • Pitäisikö Koha-Suomella olla käyttötuki / pääkäyttäjä?
+        ◦ Tässä asiantuntijaryhmässä tuli yhteistä pääkäyttäjää kannattavia kommentteja. On Koha-Suomen hallituksen asia.
+        ◦ Jokainen kimppa toimittaa Arille tiedon pääkäyttäjistä ja tiedon kuinka suuri osa työajasta menee pääkäyttäjäasioihin.
+    • Mikä on Kohan ylläpitosopimukseen sisältyvää työtä ja mikä kimpoilta laskutettavaa työtä?
+        ◦ Ari kirjoittaa tästä alkupaperin ja jakaa sen verkkotyökaluun. Asiantuntijaryhmä jatkaa työskentelyä siellä.
+    • Kehittäjät erikoistuvat Kohassa eri asioihin.
+        ◦ uildmaster, hoitaa versionhallintaa ja yhdistää versioita. Pasi Kallinen
+        ◦ Konversiot, Pasi Korkalo
+        ◦ Rajapinnat (REST API, SAP, Labyrintti, Arena, Sonera, ProE/Lastu, Lindorf, RopoCapital, OpusCapita EPL/PDF, EditX, z39.50, SIP, Finna OAI-PMH, CPU) Jukka Hakosalo, Lari Taskula
+        ◦ Käyttöliittymät ja käyttökokemus. Johanna Räisä
+        ◦ Dokumentaatio Kaikki + pääkäyttäjät
+
+Anneli Österman, Pasi Korkalo ja Ari kävivät korkeakoulukirjastojen Kohan kick-off- tilaisuudessa. Korkeakoulukirjastot aloittavat Koha-Suomi versiolla. Ensimmäiset amk-kirjastot menevät tuotantoon viikolla 42.
+
+Koha-Suomessa on kehittäjän rekrytointi menossa. Ouluun tulossa korkeakouluharjoittelija.
+
+Kansalliskirjasto on hakenut Koha-osaajia, Olli-Antti Kivilahti rekrytoitu sinne.
+
+Mikkelissä tehty tietosuojapyyntölomake, jonka asiakas voi täyttää, kun haluaa saada itsestään tallennetut tiedot. Pirjo on lähettänyt lomakkeen asiantuntijaryhmälle. Asiakas saa jatkossa nettilinkin, jossa myös logitiedot, kuka hänen tietojaan on katsellut. 
+
+
+### 3. Asiantuntijaryhmän varsinaiset ja varajäsenet seuraavalle vuodelle (toimikausi 6/2018-5/2019)
+
+Onko kimpoissanne tullut tai tulossa jäsenmuutoksia? Hallitus päättää ryhmän ensi kaudelle toivottavasti viimeistään 25.5.18
+ 
+Jäsenet/varajäsenet nyt: 
+Maarit Tuomisto / Calle Lindroos (Helle)<br />
+Tuomas Kunttu / Jarmo Tikka (Kyyti)<br />
+Leena Kinnunen / Pia Kusmin (Lappi)<br />
+Pirjo Sapman / Jaana Sopanen (Lumme)<br />
+Noora Valkonen/ Anneli Österman (OUTI)<br />
+Ari Mäkiranta / Päivi Knuutinen (Vaara)<br />
+Susanna Sandell / Anni Rajala (Vaski)
+
+Pirjo Sampan varmistaa varaedustajan tilanteen. Kokoukseen jälkeen on varmistunut, että Jaana Sopanen jatkaa varaedustajana. Sitten menevät hallituksen päätettäväksi.
+
+### 4. Kuvailuryhmän vetäjä
+
+Kimpoista ei löytynyt vapaaehtoisia vetäjiä. Oulun luetteloijaa yritetään houkutella tehtävään.
+
+
+### 5. Asiakkaan allekirjoituksen tallentaminen Kohaan
+
+Tuomakselta, jäi pois edellisestä esityslistasta:
+Tällainen kehitysidea tuli mieleen, kun asiakkaiden ilmoituslomakkeiden kanssa tuskaillaan, että pitääkö niitä säilyttää ja kuinka kauan ja jos asiakas lopettaa kirjastonkäytön pitäisi tämä lomakekin hävittää.
+Mitä jos asiakkaan allekirjoitus otettaisiinkin Kohaan käyttäen sellaista allekirjoituspaneelia, jolla esim. postissa kuitataan paketteja (esim. Signotec signature pad). Näin ei tarvitsisi säilyttää paperisia lomakkeita ja kun asiakas poistetaan Kohasta, häviää allekirjoituskin.
+
+Ari selvittää asiaa. Kunnissa tehdään itsenäiset ratkaisut tietosuoja-asetuksen soveltamisesta lomakkeiden säilyttämisen ja allekirjoitusten sähköisen tallentamisen suhteen.
+
+### 6. Muut ajankohtaiset asiat
+
+[Tiketti 3020](https://tiketti.koha-suomi.fi:83/issues/3020)
+Pitääkö korvaushinnan olla veroton vai verollinen? Yhteinen ratkaisu Koha-kirjastoille tarvitaan. Ari neuvottelee budjetteja ja luettelointeja käsittelevien sekä pääkäyttäjien kanssa. Pääkäyttäjille päätettäväksi.
+
+Koha-kirjastojen ottaessa yhä enemmän Finnaa käyttöön pitäisi sopia, miten Kohan rajapintaan liittyviä toiveita kootaan ja esitetään Kansalliskirjaston suuntaan. Sovittiin, että pääkäyttäjäryhmä kokoaa asiat ja esittää eteenpäin.
+ 
+### 7. Seuraavat kokoukset
+
+Syksyllä, odotellaan hallituksen kokousaikataulu ennen kuin päätetään kokousajat.
+Hallituksen kokoukset, asiantuntijaryhmän kuulumiset toimitetaan muutamaa päivää ennen Arille:
+25.5. klo 8.
+
+Seuraavan asiantuntijaryhmänkokouksen linkin toimittaa Ari, jotta Helleestäkin päästään mukaan.
+
+Koha-seminaari Kouvolassa 20.-21.9.18
+
+## Koha-Suomi asiantuntijaryhmän kokous 3/18 
+
+12.3.2018 klo 9.15 Lync-kokous
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Pia Kusmin (Lapin kirjasto) Ari Mäkiranta (Vaara), Anni Rajala (Vaski), Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Maarit Tuomisto (Helle), Noora Valkonen (OUTI)
+sihteerivuorossa Vaski-kirjastot
+
+Pois: -
+Aiheita:
+
+### 1. Kimppojen kuulumiset
+
+Helle:
+Origo-konversio etenee ja tilanne alkaa näyttää kohtuullisen hyvältä. Lukas-kirjastot odottavat mukaan pääsemistä ja Pukkilan konversion tekemisestä käsityönä on käyty keskustelua. Helteessä työn alla vielä monet käytännön asiat, kuten pääkäyttäjyyteen liittyvät ratkaisut.
+
+Kyyti:
+Versionvaihto tehtiin edellisellä viikolla (lainauspalvelut pois käytöstä ma-to, kirjastoja pidettiin kuitenkin osittain auki myös sinä aikana). Järjestelmän käyttö aloitettiin porrastetusti (tiistaina kimpan pääkäyttäjät, keskiviikkona kuntien pääkäyttäjät, torstaina muu henkilökunta). Vaihto meni kaiken kaikkiaan hyvin, myös automaattien ja omatoimikirjastojen osalta.
+Eniten hämmennystä aiheuttanut pisteiden/pilkkujen käyttö, jossa on vaihtelua eri toimintojen välillä sekä jonkin verran myös testi- ja tuotantoympäristön välillä.
+Henkilökunnalle pidettiin tunnin mittainen koulutus uuden version mukanaan tuomista muutoksista. Tuomas laittaa jakoon Kyytin koulutusmateriaalia soveltuvin osin.
+
+Lappi:
+Uuden version testaus meneillään.
+
+Lumme:
+Uuden version testaus aloitettu, järjestelmäasetuksia käyty läpi. Uuden version mukanaan tuomat muutokset jakavat mielipiteitä.
+
+OUTI:
+Finna ollut käytössä nyt kuukauden verran ja ollut vakaa. Verkkomaksamiseen liittyen huomattu, että toiminto vaatii asiakkaan tietoihin tallennetun sähköpostiosoitteen, mutta syy ei ole selvillä. Asia ratkaistu tällä hetkellä niin, että verkkomaksamista yrittävä asiakasta saa sähköpostin lisäämistä kehottava popparin, mikäli sähköpostiosoite puuttuu tiedoista.
+Kohan ja Ceepoksen välillä merkistöongelma (ääkköset estävät siirtymisen).
+
+Vaara:
+Aineisto haravoitu viime viikolla Finnaan. Samana päivänä Koha hidasteli merkittävästi, mutta ei ilmeisesti liittynyt kuitenkaan haravointiin.
+Olli-Antti Kivilahti on aloittanut viime viikolla Älykkäässä varausjono -hankkeessa. Ajateltu alustavasti käyttää hankkeessa Vaaran ja Lapin aineistoja ja lisäksi tarkoituksena olisi, ettei toteutus ole järjestelmäsidonnainen.
+
+Vaski:
+Ei erityisiä kuulumisia, mutta Vaskin Koha-projektin omistaja Ulla-Maija Maunu siirtyy toisiin tehtäviin Turun kaupunginkirjastosta.
+
+### 2. Arin tilannekatsaus
+Koha-Suomen strategiaa on alettava valmistella. Suunnitteluun otetaan mukaan asiantuntijaryhmä ja kehittäjät. Esitys suunnitelmasta viedään hallituksen toukokuun kokoukseen.
+
+### 3. Tietosuoja-asetuksen soveltaminen kirjastoissa
+Oulun / OUTI-kirjastojen suunnitelma:
+    • eroon järjestelmistä, jotka eivät täytä asetusta (mm. Oulun koulukirjastojen Koha-asennus, WebKake as.rekisteri)
+    • rekisteriselosteiden tarkistus 25.5.18 mennessä
+    • kirjalliset ohjeistukset henkilökunnalle ja esimiehille henkilötietojen käsittelystä, kukin järjestelmä erikseen. Yhteisten järjestelmien osalta OUTI-kirjastojen yhteiset ohjeet. 25.5.18 mennessä
+    • koulutukset henkilökunnalle ohjeistusten soveltamisesta, kukin kunta itsenäisesti, Oulussa 10/ 2018
+    • asiakkaille suunnattuja tietoturva-tilaisuuksia, puhujaa etsiskellään, ei aikataulutettu
+Hoidossa OUTISSA jo:
+    • Koha-käyttäjätunnukset henkilökohtaiset, käyttöoikeudet tarpeen mukaan
+    • Oulusta löytyy tietosuojavastaavia
+    • ns. kertakirjautuminen tulossa testikäyttöön
+Muuta:
+    • Kansallista soveltamisohjetta ei ole vielä julkaistu.
+    • Kohan teknisen puolen osalta toteutussuunnitelma on valmiina, lokituksen suhteen ei uskota olevan ongelmia.
+Käytiin lisäksi keskustelua kimppojen käytännöistä säilyttää lainaajatietolomakkeita, jonka uusi asiakas täyttää. Vaarassa on nyt alettu säilyttää uudelleen lomakkeita ja Kyyti on kerännyt niitä talteen jo usean vuoden ajan. Oulussa lomakkeita ei nykyisin enää säästetä. Lomakkeiden säilytyksessä muistettava, että ne pitäisi myös hävittää arkistosta, kun asiakkuus päättyy.
+
+### 4. Tikettien käsittelyn periaatteet, työsuunnitelma
+Tavoitteena on, että ensi syksynä pystyttäisiin jo reagoimaan muihinkin kuin ei-kiireellisiin tiketteihin (myös kehitysehdotuksiin). Tikettejä käsitellään asiantuntijaryhmän kokouksissa ja lähdetään ainakin alkuun liikkeelle siten, että Ari tuo käsiteltävät tiketit kokoukseen.
+Myös tikettien tekemisestä koskevaa ohjeistusta on selkiytettävä. Ari miettii ohjeistusta kehittäjien kanssa.
+
+### 5. Melinda-valmistelu, työsuunnitelma
+Sovittiin, että kukin kartoittaa kimppansa sisältä mahdollista uutta kuvailuryhmän vetäjää ja käydään ehdotuksia läpi seuraavassa asiantuntijaryhmän kokouksessa.
+
+### 6. Muut ajankohtaiset asiat
+Keskusteltiin verkkomaksamisesta ja Ceepos-ohjelmasta.
+Ari menossa KATVE-ryhmän seuraavaan kokoukseen 21.3.
+
+### 7. Seuraavat kokoukset
+16.4., 14.5.
+
+Hallituksen kokoukset, asiantuntijaryhmän kuulumiset toimitetaan muutamaa päivää ennen Arille:
+23.3. klo 8, tilinpäätös, 20.4. klo 8, 25.5. klo 8
+
+## Koha-Suomi asiantuntijaryhmän kokous	1/18 
+
+15.1.2018 klo 9.15-10.01 Lync-kokous
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Vaara), Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Maarit Tuomisto (Helle), Noora Valkonen (OUTI)
+sihteerivuorossa OUTI-kirjastot
+
+Pois: -
+
+Aiheita:
+
+### 1. Kimppojen kuulumiset
+
+Helle: Origo-kirjastojen konversio etenee arvioitua hitaammin. OKM-tilastojen vaatimat muokkaukset järjestelmään hidastivat etenemistä. Myös Koha versiovaihdoksen yllätykset OUTIssa on ratkottava ennen versiovaihdosten etenemistä muihin kimppoihin.
+Vasta Origo-konversion ja uuden version asennuksen jälkeen voidaan siirtyä Aurora-konversion työkalun tekemiseen, datan siirtojen testailuun ja Kohan käyttöönottoon Lukas-kirjastoissa. Käyttöönotto ei tästä johtuen tule toteutumaan maaliskuun loppuun mennessä. 
+
+Kyyti:  uuden version testausta.
+
+Lappi: versiopäivitysaikataulua odotetaan. Hitaus Lapissa iso ongelma, uuden version testikantaa ei vielä ole, laskutusta ei tehdä. Postinumerovirheitä, EDItX-ongelmaa (BTJ hidas). Automaatteja ja omatoimikirjastoja otettu käyttöön useampia. Perehdytyksessä uusi, 4. Koha-pääkäyttäjä Lapille. 
+
+Lumme: keskeisten henkilöiden muutoksia: pää-TäTi-luetteloija jäämässä eläkkeelle, uusi tulossa. Savonlinnan pääkäyttäjä jäänyt pois, uusi aloittaa. Tilastoja tehdään, tilaukset aiheuttavat hässäkkää, testikanta tulollaan ja testausten vastuunjako työn alla. BTJ on saanut viimein ennakkolistat auki. 
+
+OUTI: versionvaihdon jälkitöitä (ks. kohta 3). Finnan käyttöönoton tavoiteaikataulu: asiakasjulkistus beta-versiona 31.1. mennessä. Verkkomaksamisen käyttöönotto venyy helmikuulle
+
+Vaara: testikanta pystyssä ja testaaminen alkanut, Finnaa valmistellaan. Muistakaa kerätä valtuutukset käyttöönottoon kaikilta kimpan kunnilta. Normaalia elämää ilman järjestelmänkehittäjää talossa.
+
+Vaski: ei isompia uutisia.
+
+### 2. Arin tilannekatsaus
+
+Koha-Suomi: kehittäjiä töissä taas hyvin kesään saakka. Vuodenvaihteessa töissä oli vain 2 järjestelmänkehittäjää. 
+Pasi Kallinen aloittanut kirjastojärjestelmänkehittäjänä, sopimus 30.6.18 saakka 100% työaika. Pasi on tuttu Evergreen-ajoilta.
+Lari töissä 30h/vko, sopimus ajalle 15.1.-30.6.18 
+Jukka Hakosalo tekee 3pv/vko 1.2.18 alkaen toistaiseksi. Työpiste Oulussa.
+Pasi ja Johanna jatkavat 100% työajalla
+
+Versiovaihdon etenemisen kanssa ratkaisevaa on OUTI-kirjastoissa ilmenneen maksujen laskentatavan ongelman ratkaisu, joka koskee ennen versiovaihdosta lainattuja, erääntymään pääseviä teoksia. Koha-versioiden maksujen muodostumisen logiikat ovat erilaiset, mitä aiheuttaa ongelman. 
+Tietosuoja-asetuksen vaatimusten täyttämistä valmisteltu ohjelmiston osalta, lokitusta mietitty. Kansallista ohjeistusta odotetaan.
+
+### 3. Versionvaihtokokemuksia OUTI-kirjastoista
+
+- monta asiaa vielä korjattavana, Finna-haravointi saatiin tehtyä viikolla 3. Finna-testaus on käynnissä parhaillaan Vaskista saadun ”tarkistusmuistilistan” avulla.
+- versiovaihtoon kannattaa varata reilusti aikaa: päivä tietokanta-ajoihin, päivä testaukseen. Oulussa päivitettiin palvelin samalla, mikä vei aikansa. Tämän monet ovat jo tehneet.
+- tuli paljon yllätyksiä, joita ei testikannassa ilmennyt tai testaus ei ollut riittävän perinpohjaista
+- erityisesti kannattaa testata kattavasti maksujen muodostuminen (kaikki asiakaslaji / aineistolajiyhdistelmät) ja automaatit ennen avaamista 
+- tiedonhaku on edelleen hitaanlaista, Finnan käyttöön saaminen pelastaa paljon. Finna haku on todella nopea
+- lainaus/ palautus Kohassa nopeutuu
+- asiakastietoja karsittu näytöiltä, tietoturva parempi, vähemmän lokitettavaa
+- tilausten syöttäminen nopeutuu
+- tilastotyökalu lopultakin käyttöön, PiiMega tosin tekee sen kanssa korjauksia edelleen
+
+#### 3.1 Versiovaihtoaikataulu muille Koha-kirjastoille
+
+Pyritään saamaan aikataulu viikon-parin sisään, vahvistetaan heti maksuongelman ratkettua. Seuraavat versiovaihdot vaalien jälkeen, vähintään kuukauden varoitusajalla. Viikon kiinniolo ei ole huono idea, aina voi avata ennakoitua aiemmin, jos kaikki näyttää hyvältä.
+
+Järjestys OUTIn jälkeen: Kyyti (Johanna tekee), Lappi (Pasi tekee), Vaara, Lumme toukokuussa Helatorstai-viikolla. Helle johonkin väliin. Kun vauhtiin päästään, on mahdollista tehdä kahta konversiota yhtä aikaa.
+
+### 4. Ohje Koha:n käyttöön ottavalle kirjastolle
+
+Ohjeluuranko liitteenä, vaatii vielä paljon lihaa luiden päälle. Byrokratia-osuus lähellä valmista, Ari katsoo ja täydentää sivut 1-2.
+
+Liite: [Liite muistioon 1_2018_Kohan käyttöönotto kirjastossa.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12078818/Liite.muistioon.1_2018_Kohan.kayttoonotto.kirjastossa.docx)
+
+### 5. Muut ajankohtaiset asiat
+
+- ProEconomica-rajapinta-asia ei ole edennyt. Odottaa järjestelmänkehittäjän työaikaa ennen kuin hintakyselyäkään lähetetään mahdollisille tekijöille.
+- BookWhere- poimintaohjelma, ei missään tapauksessa ehdi tuotantoon nyt alkavalle sopimuskaudelle. 
+- MusaMelinda-ryhmän ehdotuksesta keskusteltiin vielä. Koha-kirjastojen on ratkaistava asia toisin, tai työ Kohassa on suuri ja vaikuttaa signumeihin, selkätarroihin ym. käytäntöön. Koha-vastaehdotus  tehdään Tätin ja Melindan välissä. Poiminta Melindasta ja Melindaan onnistuu eri ratkaisuista huolimatta.
+Melindan kanssa edettävä syksyn 2018 aikana. 
+- Aineistolajit on lyhenteineen sovittu keväällä 2017.
+
+Koha-asiantuntijaryhmän työlistalla kevään 2018 aikana:
+- Tikettien käsittelyn periaatteet työstettävä, ennen kuin tikettien purku todella alkaa
+- Tietosuoja-asetuksen ei-ohjelmistoon liittyvien toimien toteuttamisessa kannattaa tehdä yhteistyötä. On laadittava ohjeistuksia, järjestettävä koulutusta ym.
+*Leena pistää Rovaniemellä käytössä olevia yleisiä tietosuojaperiaatteita sähköpostilla jakoon, voi löytyä sovellettavaa myös kirjastojärjestelmään liittyen. 
+*Tietosuoja-asioista kannattaa järjestää koulutuksia. Pirjo laittaa sähköpostilla jakoon hyvän koulutuksen materiaalit.
+- Melinda käsittelyyn kevään mittaan
+
+### 5. Seuraavat kokoukset
+12.2.<br />
+12.3.<br />
+16.4.<br />
+14.5.<br />
+
+Hallituksen kokoukset, asiantuntijaryhmän kuulumiset toimitetaan muutamaa päivää ennen Arille:
+26.1. klo 8<br />
+23.2. klo 8<br />
+23.3. klo 8, tilinpäätös<br />
+20.4. klo 8<br />
+25.5. klo 8<br />
+
+
 
 ## Koha-Suomi asiantuntijaryhmän kokous 9/17
 
@@ -57,7 +319,10 @@ Koha-Suomen hallituksen seminaari järjestetään torstaina 14.12. Helsingissä.
   
 ### 3. Melinda-musa-lausunto
 
-Keskusteltiin Koha-Suomen musiikki-TäTien ehdotuksesta (liite 1). Ehdotus hyväksyttiin esityksen mukaisesti. 
+Keskusteltiin Koha-Suomen musiikki-TäTien ehdotuksesta (liite 1). Ehdotus hyväksyttiin esityksen mukaisesti.
+
+Liite 1: [Liite 1 Koha-Suomen asiantuntijat_9_2017_Musiikkiaineistojen pääsanan valinta RDA.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12078756/Liite.1.Koha-Suomen.asiantuntijat_9_2017_Musiikkiaineistojen.paasanan.valinta.RDA.docx)
+
 
 ### 4. Btj:n luettelointiuudistus
 
@@ -261,6 +526,9 @@ Täsmennetään mikä on Koha-Suomen vastuu ja mikä kirjaston vastuulla. Leena 
 ### 8. REST-API-asiakasrajoitukset (ja Finna) ks. liite
 
 - tiedoksi, muutostoiveita ei herännyt.
+
+Liite: [REST-API-asiakasrajoitukset.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12078770/REST-API-asiakasrajoitukset.xlsx)
+
 
 ### 9. ISIL-tunnus
 
