@@ -10,6 +10,115 @@ title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
 
+## Koha-Suomi asiantuntijaryhmän kokous 6/19 
+			
+Kokousaika: ma 4.11.2019 klo 13.00 jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara) Susanna Sandell (Vaski), Kati Sillgren (Helle), Noora Valkonen (OUTI). Anneli Österman (siht.), Erkki Tolonen (Kansalliskirjasto)
+Poissa: Katja Valjakka (Lumme)
+
+### 1. Finna-toiveet
+
+Käydään läpi Koha-kirjastojen Finna-toiveet yhdessä Kansalliskirjaston Finna-tiimin kanssa.
+    • Käytiin läpi Redminestä Finna-toiveet: https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Kansalliskirjastolle_2932019_esitetyt_kehitysehdotukset_
+        ◦ Kokouksen aikana tulleet kommentit merkitty #-merkillä wikiin.
+    • Osa toiveista vaatii, että REST-rajapinnan kautta saadaan välitettyä Finnalle tietoja. Ari keskustelee Larin kanssa, mitä muutoksia olisi tarpeen tehdä ja onko ne toteutettavissa.
+    • Viestien näyttäminen isona kokonaisuutena työn alla Kansalliskirjastolla. Tässä yhteydessä keskusteltiin myös siitä, miten saataisiin asiakkaalle viestittyä, että hän on ”täysi-ikäinen” ja kannattaisi vaihtaa PIN-koodi, jotta esim. omaan Finna-tiliinsä lapsen kortin lisänneet vanhemmat eivät enää pääse hänen tietoihinsa.
+    • Suomi.fi Viestit –integraation hyödyntäminen myös Finnassa tutkinnan arvoinen asia.
+    • Seuraava yhteinen tapaaminen alkuvuonna.
+    • Sovittiin, että Erkki lisää kommentteja suoraan wikiin, jolloin kaikki pystyvät seuraamaan toiveiden kehittymistä.
+
+### 2. Arin tilannekatsaus
+
+Suomi.fi viestien integrointi on valmis. Vaara testaa vuoden loppuun saakka. Koodi on viety myös muihin kimppoihin, joten halukkaat voivat ottaa sen käyttöön.
+    • Jos Suomi.fi Viestit haluaa ottaa käyttöön, on kimpan tehtävä sopimukset VRK:n kanssa ennen käyttöönottoa. Kannattaa kuitenkin odottaa Vaaran asiakas-tuotannon käyttökokemukset. Asiakaskäyttö aloitetaan alkuvuodesta 2020.
+    • Kohan tietoturvan auditointi lähdössä käyntiin Oulussa ja valmistuu tänä vuonna.
+    • Tavoitteena selvittää, voisiko kaikkien kimppojen palvelimet sijoittaa yhteen paikkaan, jolloin palvelimien ylläpitotyö helpottuu kehittäjille. Nyt palvelimet ovat monen toimijan takana, mikä monimutkaistaa työtä ja toimintaympäristöjä. Palvelimien keskittäminen yhteen paikkaan toisi mahdollisesti myös kustannussäästöjä.
+
+### 3. Suosittelija-palvelut
+
+Suositelijapalveluiden käyttöönotosta on tullut toiveita. Olisi hyvä, jos kaikissa olisi käytössä sama palvelu. Kouvolalla on aihetta sivuava projekti, jonka puitteissa asiaa voisi selvittää. Keskustellaan suosittelijapalveluista ja onko niille tarvetta useammassa kimpassa.
+    • OUTI-kirjastoille esitelty HeadAI:n ohjelmaa, joka on tekoälypohjainen suosittelija. Myös Kouvola ja Lappi saanut myös heiltä mainoksen. Suosittelija ei ole sidottu lainatietoihin, mikä on Suomen kokoisessa massassa ehkä hyvä, koska datamäärä jää ehkä liian pieneksi hyvien suosituksien aikaansaamiseksi.
+        ◦ perustuu kirjastotietokannan tietueiden luettelointiin ja dataan
+        ◦ suositelee kirjastossa paikalla olevalle asiakkaalle luettavaa.
+        ◦ kirjasto pystyy rakentamaan erilaisia lähtötilanteista, joista asiakas pystyy valitsemaan ja asiakkaan erilaiset valinnat kehittävät suosituksia edelleen.
+        ◦ mobiilisovellus
+    • Koha-Suomi avustaa rajapintapuolella, mikäli se on tarpeen.
+
+### 4. Keskustellaan asiakkaan nimen näyttämisestä lainausnäytöllä
+
+Viime kokouksessa keskusteltiin asiakkaan nimen näyttämisestä ja sovittiin, että jokaisessa kimpassa käydään asiasta vielä keskustelua. Tarkistetaan tämän asian tilanne.
+    • Kyyti, Lumme, Vaara kannattaa, että nimi näkyy lainausnäytöllä.
+    • Helle, Lappi, OUTI ei kannata nimen näkymistä lainausnäytöllä.
+    • Selvitetään tarkemmin kehittäjien kanssa, mitä muutos vaatisi. Riittää, että kirjastokortin numeron tilalla on nimi lainausnäytöllä. Kaikkia asiakastietoja ei tulisi näkyviin lainausnäytölle.
+    • Päätetään seuraavassa kokouksessa, miten toteutetaan.
+
+### 5. Asiantuntijaryhmän tehtävät
+
+Ryhmän ajasta menee tällä hetkellä suurin osa palveluiden kehittämiseen liittyviin asioihin. Olisiko tarvetta perustaa ryhmä, joka keskittyisi tuohon palveluiden kehittämiseen ja yhteisten käytäntöjen valmisteluun?
+    • Ehdotus: jokaiseen asiantuntijaryhmän kokoukseen mukaan tikettien läpikäyntiä
+    • Ehdotus: johtajat ja asiantuntijat voisivat pitää yhteiskokouksen, jossa käydään läpi suurempia linjoja
+    • Ei koettu tarpeelliseksi uutta ryhmää, koska samat ihmiset jo nyt ryhmissä
+    • Ehdotus: välillä ”työpajoja”, joissa tarvittava edustus nykyisistä ryhmistä mukana
+    • Pääkäyttäjä-palaveri: kuulumiset ja kehittäminen, sekottuuko keskenään? Voisiko järjestää työpajoja? Tieteellisillä pääkäyttäjillä palaverin lopussa ”tekninen vartti”, jossa kehittäjä mukana. Olisiko tarpeen myös meillä?
+
+### 6. Muut asiat
+
+Seuraava kokous 9.12.2019 klo 9.15
+
+## Koha-Suomi asiantuntijaryhmän kokous	5/19 
+			
+kokousaika: 4.10.2019 klo 12.00 jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara) Susanna Sandell (Vaski), Katja Valjakka (Lumme), Kati Sillgren (Helle)
+Poissa: 
+
+### 1. Kimppojen kuulumiset
+
+Käytiin läpi kimppojen kuulumiset. Mitään erityistä ei tullut esille.
+
+### 2. Arin tilannekatsaus
+
+Suomi.fi viestien integrointi kohaan on valmis ja sitä testataan tällä hetkellä Vaarassa. Melinda-integraatiossa on menossa replikoinnin testaus. Tässä hidastelua aiheuttaa Kansalliskirjaston resurssipula.
+
+### 3. Anneli Östermanin kutsuminen ryhmän sihteeriksi
+
+Anneli on Koha-Suomen pääkäyttäjänä parhaiten perillä Kohan suomiversiosta ja toisi siten hyvän lisän ryhmän keskusteluun. asiantuntijaroolin lisäksi Anneli voisi toimia kokousten sihteerinä.
+Päätös: Päätettiin kutsua Anneli ryhmän sihteeriksi.
+
+### 4. Keskustellaan asiakkaan nimen näyttämisestä lainausnäytöllä
+
+Vaaran johtajat toivoivat, että selvitetään miten paljon työtä tarvitaan, jos asiakkaan nimi näytetään lainausnäytöllä ja sen vaatima logitus toteutetaan Kohaan.
+https://tiketti.koha-suomi.fi/issues/4146
+
+Kehittäjien arvio on, että tarvittavat koodimuutokset ovat melko suuria ja työmäärä on noin viikon kehittäjätyö aina, kun versiovaihto toteutetaan. Muutosta tuskin saadaan vietyä Kohan Kv-versioon eli se vie meidän versiota taas kauemmas siitä. Sovittiin, että kussakin kimpassa keskustellaan vielä onko tälle muutokselle todellista tarvetta ja päätetään asiasta myöhemmin asiantuntijaryhmässä
+
+### 5. Kohan tietosuoja-auditointi
+
+Oulun kaupunki on valinnut Kohan yhdeksi tietosuoja-auditoinnin kohteeksi. Auditointi on kilpailutusvaiheessa ja kunhan siitä tulee lisätietoa, Oulu tiedottaa asiasta. Tietosuoja-auditointi on melko kallista työtä, joten nyt saamme sen Oulun kustannuksella. Tulos tulee hyödyttämään kaikkia 
+Koha-asennuksia.
+
+### 6. pääkäyttäjä- ja kuvailuryhmien tehtävät
+
+Liitteenä on ryhmien tehtävät listattuna. keskustellaan näistä ja tehdään tarvittaessa lisäyksiä.
+
+Pääkäyttäjäryhmä: [pääkäyttäjät_tehtävät.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12078993/paakayttajat_tehtavat.docx)
+
+Kuvailuryhmä: [Kuvailuryhmän tehtävät.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12079000/Kuvailuryhman.tehtavat.docx)
+
+
+### 7. Kehityskohteinen priorisointi
+
+Viime kokouksessa päätettiin priorisoida tiketit 65 (rinnakkaisvaraus) ja tiketti 3068 (logitustiedon korjaus). Ryhmä piti tärkeänä, että tikettien käsittely voitiin viimein aloittaa. Kehittäjät tutkivat tikettejä ja alustavasti ne näyttävät olevan toteutettavissa. Niitä päästää varsinaisesti tekemään nyt syksyllä, kun kehittäjät ovat palanneet lomalta ja kesken olevat kehityskohteet valmistuvat (Suomi.fi viestit ja Melinda)
+
+### 8. Muut asiat
+
+Sovitaan syksyn kokousajat
+Kirjastoille on tullut tieto, että Paytrail-maksaminen tulee kirjastoille maksulliseksi
+
+
 ## Koha-Suomi asiantuntijaryhmän kokous	4/19 
 			
 kokousaika: 9.5.2019 klo 13.15 jitsi-kokous
