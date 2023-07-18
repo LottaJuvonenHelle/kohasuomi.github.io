@@ -9,6 +9,163 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
+## Koha-Suomi asiantuntijaryhmän kokous 9/17
+
+18.09.2017 Lync-kokous
+
+Kuulolla:
+Ari Mäkiranta, Joensuu<br />
+Leena Kinnunen, Rovaniemi<br />
+Selja Kunttu, Kouvola<br />
+Pirjo Sapman, Mikkeli<br />
+Noora Valkonen, Oulu (pj)<br />
+Susanna Sandell, Turku (siht)<br />
+Anni Rajala, Turku<br />
+
+Aiheita:
+
+### 1. Todetaan ryhmän jäsenet, varajäsenet, päivitetään yhteystiedot
+
+Asiantuntijaryhmän toimikausi on 1 vuosi ja katkesi kesällä.
+
+Hallituksen kokouksen esityslistalla Koha-asiantuntijaryhmän jäseniksi / varajäseniksi ehdotettu:
+Helle: Maarit Tuomisto / Calle Lindroos<br />
+Kyyti: Tuomas Kunttu / Kaarina Saarimäki-Huttunen<br />
+Lapin kirjasto: Leena Kinnunen / Pia Kusmin<br />
+Lumme: Pirjo Sapman / Jaana Sopanen<br />
+OUTI: Noora Valkonen / Anneli Österman<br />
+Vaara: Ari Mäkiranta / Päivi Knuutinen<br />
+Vaski: Susanna Sandell / Anni Rajala<br />
+
+### 2. Valitaan puheenjohtaja vuodeksi ja sovitaan sihteeristä (kiertävä käytäntö jatkuu?)
+
+Puheenjohtajaksi valittiin Noora Valkonen Outi-kirjastoista. 
+
+Sihteeriyden kiertävä käytäntö jatkuu.
+
+### 3. Kimppojen kuulumiset kesältä -17
+
+Kyyti: 
+* Finnaa odotellaan, siihen kannattaisi panostaa (Esim Suosittelijan lisääminen)
+
+Lapin kirjasto: 
+* Lapin kirjasto aloitti Kohalla 2.5., Kemi 5.6., Posio 14.8. ja Karpalot (Ranua, Simo, Tervola) 28.8. Työn alla Keminmaan konversio, käyttöönottopäivä on 7.10. Konversiot menivät pääosin hyvin, Lapilla oli isompia ongelmia (tietueita jäi siirtymättä, niteiden ja kirjastokorttien viivakoodeihin tuli ylimääräisiä tarkistusmerkkejä). Posio vei aineistot käsin, vain asiakastiedot konvertoitiin. Lapin kirjaston konversion teki Jukka Aaltonen, muut konversiot Pasi Korkalo. 
+* Lapin kirjaston ylläpito siirtyi suunniteltua aiemmin Koha-Suomelle 29.5. 
+* Koha toimii pääasiassa normaalisti. Hankinnan kanssa vielä ongelmia ja kaikki kirjastot eivät pysty vielä hankkimaan verkkokauppojen kautta. Laskutusta ei aloitettu. Asetuksissa on ollut melko paljon korjattavaa (laina-aikoja, viestiasetuksia, luettelointi- ja tarrapohjia…). Automaatit toimivat Torniota lukuun ottamatta, ja ne on suojattu Stunnelilla. 
+* Omatoimikirjastoja käytössä useita. 
+
+Lumme: 
+* Omatoimikirjastoa ollaan perustamassa Mikkeliin. Finnaa mietitään. Uutta versiota ei olla päästy testaamaan kesälomien jälkeen lainkaan. 
+
+OUTI: 
+* Tilastotyökalu julkaisukunnossa 9/17, datan avaamisen ratkaisusta neuvotellaan (6-aikahanke), eli tilastotyökalun raporteista osia avattaisiin rajapinnan avulla. 
+* Maija Sarasteen läksiäiset vietetty, hallituksessa hänen tilalleen tulee Jouni Pääkkölä. 
+* Finnaa odotellaan ja rakennellaan. 
+* Versiopäivitykseen valmistautumista (12/17). 
+
+Vaara: 
+* Hyllypaikkoja yhtenäistetään ja pyritään vähentämään. 
+* Muutama omatoimikirjasto tullut lisää.
+
+Vaski: 
+* Turussa kaksi osa-aikaista työntekijää on aloittanut Koha-projektissa.
+* Vaskin testi-Koha on perustettu ja siihen tullaan asentamaan Aurora-dumppi. 
+* Vuoden vaihteen jälkeen Vaski tekee päätöksen käyttöönotosta.
+
+ ### 4. Arin tilannekatsaus
+
+Tilastotyökalu, versionvaihto ja Finna vievät nyt kehittäjien resurssit. Tavoite keventää jatkossa koodareiden työkuormaa. Finnaa ylläpitää Kansalliskirjasto, hankinnassa aineistotoimittajat vastaavat verkkokaupoistaan jne. 
+Melinda-palavereja on pidetty Kansalliskirjaston kanssa. Melindaan liittyminen edellyttää versionvaihdon. 
+
+### 5. Libki, asiakaspäätteiden avoimen lähdekoodin hallinnointiohjelma Koha-Suomen valikoimaan? http://libki.org/
+
+Pääkäyttäjät ja järjestelmänkehittäjät ovat käyneet keskustelua kesän aikana
+- kirjastoilla on tarvetta toimivaan, edulliseen asiakastietokoneiden varaamis/hallintajärjestelmään
+- keskusteltava mm. Koha-Suomen palveluvalikoima, Koha-Suomen resurssit, mahdolliset toteutusvaihtoehdot
+- tehtävä esitys hallitukselle
+
+Tarvetta asiakaspäätteiden hallinnointiohjelmaan ainakin Vaarassa ja Lumpeessa. 
+
+Palataan asiaan myöhemmin, jos resursseja vapautuu. 
+
+### 6. Koha ja EU:n tietosuoja-asetus
+
+[Kirjastolehti: Avoin lähdekoodi yleistyy kirjastojen järjestelmissä](http://kirjastolehti.fi/artikkelit/avoin-lahdekoodi-yleistyy-kirjastojen-jarjestelmissa/)
+
+[Miten valmistautua EU:n tietosuoja-asetukseen.pd](http://www.tietosuoja.fi/material/attachments/tietosuojavaltuutettu/tietosuojavaltuutetuntoimisto/oppaat/1Em8rT7IF/Miten_valmistautua_EUn_tietosuoja-asetukseen.pdf)
+- asiakastietojen katselun selvittäminen jälkikäteen?
+
+Selvitellään tätä, mitä teknisesti vaatii, kuinka tarkkoja tietoja tarvitaan (riittääkö, että näkee kuka on käynyt tiedoissa). Pirjo välitti kaikille Johanna Räisän koosteen asiasta.
+
+### 7. Ohjeistuksen / vastuunjakopaperin luominen uusia liittyviä Koha-kirjastoja varten (Kirjasto - Koha-Suomi)
+
+Täsmennetään mikä on Koha-Suomen vastuu ja mikä kirjaston vastuulla. Leena tekee luonnoksen. Oulu jakaa syksyn aikana Oulun Tietotekniikan kanssa työstetyn vastuunjakotaulukon (kirjasto – OTT-Koha-Suomi).
+
+### 8. REST-API-asiakasrajoitukset (ja Finna) ks. liite
+
+- tiedoksi, muutostoiveita ei herännyt.
+
+### 9. ISIL-tunnus
+
+Kuvailuryhmän ehdotus ISIL-tunnukseksi on FI-TATI. Se olisi linjassa mm Melindan kanssa, jonka tunnus on FI-MELINDA. Kannatetaan.  Ari vie asiaa eteenpäin.
+
+### 10. Aku Ankka-Suomen kuvalehti –indeksoitumisongelma ja yhteinen ratkaisu / merkintätapa Koha-Suomen kirjastoille?
+
+Myös Lumpeessa on nyt törmätty tähän ”löytymisongelmaan” tiedonhaun puolella, mikä kuormittaa erityisesti asiakaspalvelussa, koska asiakkaat eivät itse pysty tällä hetkellä varaamaan aikakauslehtien uusia numeroita. 
+Ongelma liittyy Zebra indeksoriin.
+
+OUTIssa ratkaistu osittain ja väliaikaisesti luetteloimalla ”neljännesvuosinimekkeet ” ongelmallisille aikakauslehdille. Noora välittää kuvakaappauksia luetteloinnista. Elasticserach ja Koha-versiovaihdoksesta odotetaan apua asiaan.
+
+### 11. Celia-poimintayhteys
+Celia-kirjastoon on toivottu poimintayhteyttä. Kannattaisiko yhteys hoitaa koko Koha-Suomelle, poimittaisiinko sieltä Tätiin ja sitten omiin kantoihin? Jos yhteydettä kysellään kaikille, kuka sen tekee? Vai aletaanko poimintayhteyksiä selvittämään kimpoittain/kunnittain?
+Noora vie kuvailuryhmään.
+
+### 12. Asiantuntijaryhmän kuulumiset hallitukseen
+
+Seuraava hallituksen kokous 6.10.17 Noora laatii luonnoksen asiantuntijaryhmän kuulumisiksi ja lähettää kommentoitavaksi kuun vaihteessa.
+
+### 13. Seuraavat kokoukset
+16.10.
+13.11.
+11.12.
+
+## Asiantuntijaryhmän kokous 24.4.17
+
+Paikalla: Ari, Noora, Maarit, Tuomas, Leena, Jaana ja Susanna
+
+### Kimppojen tilannekatsaus:
+
+Helle: Hektinen vaihe on menossa käyttöönoton lähestyessä. Koulutukset alkavat tällä viikolla. 
+
+Vaski: Ongelmana kirjastoihmisen saaminen Koha projektiin. Projektiin on it-rahoitusta saatuna.
+
+Kyyti: Sähköpostiongelman takia 6 päivään ei lähtenyt ilmoituksia. Kotka aloittaa kellutuksen. Finnaa varten on perustettu työryhmä.
+
+Lappi: 8 päivää avaamiseen. Kokonaisuus näyttää ihan hyvältä. kaksi puutetta: E-kirje ei lähde ja automaattien rajapinta ei vielä toimi. Kemi siirtyy 5.6. Koulutukset pyörivät täysillä.
+
+Outi: raportointityökalu vielä vaiheessa, Finna testauksessa.
+
+Vaara: Arki rullaa.
+
+Arin katsaus: Versiovaihdon valmistelu täydessä käynnissä. 
+
+Kehitysasiat: Älykäsvarausjono sai rahoitusta 34000€. Varsinainen projekti alkaa syksyllä.
+Taskukirjasto ja Koha? Outissa iso osa nettikäytöstä mobiilikäyttöä.
+Finnan mobiilikäytön kokemukset ovat Vaskissa hyviä.
+
+Työtapa-asiat:
+Suomi.fi maksaminen: odotellaan päätöksiä kuntatasolla ja odotellaan Finnan maksuratkaisua.
+Luettelointiasiat: 
+    1. BTJ:N monikielisen kirjaston aineiston poimiminen. Osa on poiminut osa ei. Sopimuksen mukaan ainoastaan Helmetillä on oikeus poimia?
+    2. Luettelointi: Outi ja Lappi luetteloivat ensin TÄTiin. Helle ei ole miettinyt. Vaarassa ensin omaan ja sieltä siirto.
+    3. Koha-koulutukset organisoi jatkossa Koha-Suomi. Helle menee vanhan käytännön mukaan ja Lappi hoitaa liittyvät kirjastot itse.
+
+Muut asiat: 
+miten tulkitaan tuhoutuneen aineiston korvaamatta jättäminen ja siitä aiheutuva lainauskielto? Päätettiin odottaa käytännön selkiytymistä ennen kuin muutetaan Kohan toimintaa?
+Ovatko korvaushinnat julkis- vai yksityisoikeudellisia maksua? ovatko siis suoraan ulosottokelpoisia? 
+Pyritään saamaan esityslista aikaisemmin valmiiksi. 
+
+
 ## Koha-asiantuntijaryhmän kokous 3/2017
 
 Aika: ma 20.3. klo 9.15-10<br />
@@ -90,6 +247,7 @@ oman työnsä ensin tehtyä. Tällä hetkellä hyllypaikkojen ja kokoelmien yhte
 käyttää aikaa.
 
 **Päätös 2:** Koha-Suomen yhteiset asiakaslajit:
+
 Henkilöasiakas<br />
 Lapsiasiakas<br />
 Yhteisöasiakas<br />
