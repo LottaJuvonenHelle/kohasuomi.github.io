@@ -102,135 +102,153 @@ body#pat_moremember.pat label[for="issues-table-load-immediately"] { display: no
 
 ### Säädä Viesti asiakkaalle -viestin väriä
 
-Versio 21.11
+Versio 22.11
 
-> /* Säädä Viesti asiakkaalle -viestin väriä */
+```
+/* Säädä Viesti asiakkaalle -viestin väriä */
 #messages.circmessage span { color:#009900; font-weight: bold;}
 #messages.circmessage span.circ-hlt { color:#cc0000; }
-
+```
 
 ### Piilota Tiedot-sivulla Alternative contact / Vaihtoehtoinen yhteys -osio
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota Tiedot-sivulla Alternative contact / Vaihtoehtoinen yhteys -osio */ 
+```
+/* Piilota Tiedot-sivulla Alternative contact / Vaihtoehtoinen yhteys -osio */ 
 #patron-alternative-contact,
 #patron-alternative-contact + div { display:none; }
-
+```
 
 ### Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio */
+```
+/* Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio */
 #patron-alternate-address,
 #patron-alternate-address + div { display:none; }
+```
 
 
 ### Piilota asiakkaan muokkauksessa Yhteystiedot-boksista vihjeet näkyvistä
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota asiakkaan muokkauksessa Yhteystiedot-boksista vihjeet näkyvistä */ 
+```
+/* Piilota asiakkaan muokkauksessa Yhteystiedot-boksista vihjeet näkyvistä */ 
 fieldset#memberentry_contact.rows div.hint { display: none; }
-
+```
 
 ### Piilota maksujen mitätöintitäppä Asiakkaan tiedot- ja Lainaus-sivuilta
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Asiakkaan lainat-taulu */
-/* Piilota maksujen mitätöinti -täppä */
-#circ_circulation #issues-table label[for="exemptfine"] { display:none; }
-#circ_circulation #issues-table input#exemptfine { display:none; }
-
-> /* Asiakkaan tiedot -sivulla lainat-taulu */
-/* Piilota maksujen mitätöinti -täppä */
+```
+/* Asiakkaan tiedot -sivulla lainat-taulu */
+/* Piilota Poista myöhästymismaksut palautettaessa -täppä */
 #pat_moremember #issues-table label[for="exemptfine"] { display:none; }
 #pat_moremember #issues-table input#exemptfine { display:none; }
 
+/* Lainaus-sivulla Asiakkaan lainat-taulu */
+/* Piilota Poista myöhästymismaksut palautettaessa -täppä */
+#circ_circulation #issues-table label[for="exemptfine"] { display:none; }
+#circ_circulation #issues-table input#exemptfine { display:none; }
+```
 
 ### Piilota asiakkaan tiedot -näytöltä muokkaa-linkit
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota asiakkaan tiedot -näytöltä muokkaa-linkit. Jatkossa muokkaus onnistuu vain yläreunan Muokkaa-napista */
+```
+/* Piilota asiakkaan tiedot -näytöltä muokkaa-linkit. Jatkossa muokkaus onnistuu vain yläreunan Muokkaa-napista */
 body#pat_moremember a[href*="&step="] { display: none; }
-
+```
 
 ### Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
+```
+/* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
 body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
-
+```
 
 ### Piilota Tarkista edelliset lainat -kohta asiakkaan muokkauksesta
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota Tarkista edelliset lainat -kohta asiakkaan muokkauksesta */
+```
+/* Piilota Tarkista edelliset lainat -kohta asiakkaan muokkauksesta */
 body#pat_memberentrygen.pat label[for="checkprevcheckout"] { display:none; }
 body#pat_memberentrygen.pat select#checkprevcheckout { display:none; }
-
+```
 
 ### Piilota Tarkista edelliset lainat -kohta asiakkaan tiedot-sivulla
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota asiakkaan tiedot -sivulta "Tarkista edelliset lainat" -kohta */
+```
+/* Piilota asiakkaan tiedot -sivulta "Tarkista edelliset lainat" -kohta */
 body#pat_moremember.pat li#patron-checkprev { display:none; }
-
+```
 
 ### Piilota ennakkoilmoituksen valinnasta 0 päivän keston
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota ennakkoilmoituksen valinnasta 0 päivän keston */
-body#pat_memberentrygen.pat option[value='0'] { display:none; }
-
+```
+/* Piilota ennakkoilmoituksen valinnasta 0 päivän keston. Käy lisäksi valitsemassa asiakastyyppien ylläpidossa asiakastyyppien viestiasetuksiin jotain muuta kuin 0 oletukseksi. Valinta tehtävä kaikille asiakastyypeille erikseen. */
+body#pat_memberentrygen.pat fieldset#memberentry_messaging_prefs.rows option[value='0'] { display:none; }
+```
 
 ### Piilota Salli automaattinen uusinta -kohta
 
 Asiakkaan lisäys/muokkausnäytöllä on kohta "Salli automaattinen uusinta", vaikka toiminto ei olisi sallittu laina- ja maksusäännöissä. Kohdan saa piiloon seuraavasti:
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota Salli automaattinen uusinta -kohta asiakkaan muokkauksesta */
-body#pat_memberentrygen.pat li.radio { display:none; }
-
+```
+/* Automatic renewal / Automaattinen uusinta -checkboxi piiloon */
+body#circ_circulation #set-automatic-renewal { display: none; }
+```
 
 ### Piilota Ei-asiakas-takaaja -osio
 
 Lapsiasiakkaalle voi lisätä uudemmassa versiossa myös takaajan, jonka asiakastietoja ei tallenneta Kohaan. Kohdan saa piiloon seuraavasti:
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
+```
+/* Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta */
 body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
-
+```
 
 ### Asiakkaan tietoruudun piilotus asiakastiedoista vasemmasta reunasta
 
 Versio: 21.11
+Asiantuntijaryhmä on päättänyt, että tietoruutu on näkyvillä, jotta tilin lukkiutuminen näkyy virkailijalle.
 
-> /* Asiakkaan tietoruudun piilotus vasemmasta reunasta */
+```
+/* Asiakkaan tietoruudun piilotus vasemmasta reunasta */
 div.patroninfo { display: none; }
+```
 
 
 ### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -kohdat Tiedot-näytöltä
 
-Versio: 21.11
+Versio: 22.11
+Tarpeellisuus: Vapaaehtoinen
 
-> /* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot */
+```
+/* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot */
 #patron-privacyguarantor + li { display: none; }
 #patron-privacyguarantor { display: none; }
-
+```
 
 ### Säädä Lisää viesti -popparin alasvetovalikon leveyttä
 
-Versio: 21.11
+Versio: 22.11
 
 Säätö tehdään sekä lainaus- että tiedot-sivulle.
 
@@ -240,12 +258,11 @@ Ennen säätöä:
 Säädön jälkeen:
 !{width:30%}jalkeenviesti.png!
 
-> /* Säädä Lisää viesti -popupissa valikon leveys kapeammaksi lainaus- ja tiedot-näytöillä */
-body#pat_moremember.pat.modal-open select#select_patron_messages { width: 556px;
-}
-body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556px;
-}
-
+```
+/* Säädä Lisää viesti -popupissa valikon leveys kapeammaksi lainaus- ja tiedot-näytöillä */
+body#pat_moremember.pat.modal-open select#select_patron_messages { width: 556px; }
+body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556px; }
+```
 
 ---
 
@@ -253,51 +270,63 @@ body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556
 
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi */
+```
+/* Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi */
 #pcard_members_search .browse a,
 #pat_member .browse a {
   padding:0 0.25em;
   font-size:larger;
 }
-
+```
 
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle
 
-Versio: 21.11
+Versio: 22.11
 
-> /* Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle */
+```
+/* Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle */
 #pcard_members_search .browse a:hover,
 #pat_member .browse a:hover {
-  background-color:#e8f0f8;
+  background-color: #f3f4f4;
 }
-
+```
 
 ### Piilota asiakashaun "Kaikki"-vaihtoehto
 
 Täällä pyritään estämään se, että virkailija ei vahingossa hae tietokannan kaikkia asiakastietoja listalle, jolloin kaikille listalla oleville tehdään muutoslokiin merkintä asiakastietojen katselusta.
 
-Versio: 21.11
+Versio: 22.11
+Tarpeellisuus: Suositeltava
 
-> /* Piilota asiakashaun "Kaikki"-vaihtoehto*/
+```
+/* Piilota asiakashaun "Kaikki"-vaihtoehto*/
 #memberresultst_length select option:last-child { display: none; }
-
+```
 
 ### Piilota Asiakkaan pikalisäys -painike
 
 Rimpsu piilottaa Asiakkaan pikalisäys -painikkeen. Kyseisellä lomakkeella ei ole kaikkia tarvittavia kenttiä näkyvissä, joten se on ainakin osalle kimpoista turha.
 
-> /* Piilota Asiakkaan pikalisäys -nappi */
-body#pat_member.pat div#quick-add-new-patron-button.btn-group { display: none; }
+Versio 22.11
+Tarpeellisuus: Suositeltava
 
+```
+/* Piilota Asiakkaan pikalisäys -nappi */
+body#pat_member.pat div#quick-add-new-patron-button.btn-group { display: none; }
+```
 
 ### Piilota asiakashausta valikosta Lajittelu-vaihtoehdot
 
-> /* Piilota asiakashausta valikosta Lajittelu-vaihtoehdot */
+Versio 22.11
+Tarpeellisuus: Vapaaehtoinen
+
+```
+/* Piilota asiakashausta valikosta Lajittelu-vaihtoehdot */
 body#pat_member.pat select#searchfieldstype_filter option[value='sort1'] { display:none; }
 body#pat_member.pat select#searchfieldstype_filter option[value='sort2'] { display:none; }
-
+```
 
 ---
 
@@ -309,9 +338,13 @@ body#pat_member.pat select#searchfieldstype_filter option[value='sort2'] { displ
 
 Jos lainattavaan teokseen on varaus, antaa Koha ilmoituksen, jossa ilmoitetaan  varauksesta ja pitää päättää, mitä tehdään. Yksi vaihtoehto on "Älä lainaa ja tulosta", joka tulostaa varauksen infokuitin (hold_slip). Varaus ei kuitenkaan jää kiinni eikä nide mene kuljetustilaan, joten kuitti on turha ja aiheuttaa ennemminkin hämmennystä, kun siihen tulostuu asiakkaan tiedot ja varauksen viimeinen voimassaolopäivä (yleensä parin vuoden päässä). Alla olevalla rimpsulla saa napin piiloon.
 
-> /* Piilota Älä lainaa ja tulosta kuitti -nappula */
-body#circ_circulation.circ button.print { display: none; }
+Versio 22.11
+Tarpeellisuus: Vapaaehtoinen
 
+```
+/* Piilota Älä lainaa ja tulosta kuitti -nappula */
+body#circ_circulation.circ button.print { display: none; }
+```
 
 Nappi näkyvissä
 !alalainaaprint1.png!
@@ -324,22 +357,25 @@ Nappi piilossa
 Versio: 21.11
 Versio: 22.11 Ei tarpeellinen, koska  AllowSetAutomaticRenewal -järjestelmäasetuksella saa täpän piiloon.
 
-> /* Automatic renewal / Automaattinen uusinta -checkboxi piiloon */
+```
+/* Automatic renewal / Automaattinen uusinta -checkboxi piiloon */
 body#circ_circulation #set-automatic-renewal { display: none; }
-
+```
 
 ### Palautus
 
 ### Piilota palautus-näytön asetukset
 
-Versio: 21.11
+Versio: 22.11
+Tarpeellisuus: Suositeltava
 
-> /* Piilota Palautus-sivulla palautusasetukset. En saanut piilotettua blokkia, jossa asetukset on, mutta sisällön sain */
-div#forgive-overdue-fines.circ-setting { display: none; }
-div#book-drop-mode.circ-setting { display: none; }
-div.forgive-manual-hold-fees.circ-setting { display: none; }
-body#circ_returns.circ div#show-circ-settings a { display: none; }
-
+```
+/* Piilota Palautukset-sivulla palautusasetukset - varmista, ettei piilota muita vastaavia asetussäätöjä*/
+body#circ_returns.circ i.fa.fa-sliders { display: none; }
+body#circ_returns.circ div#forgive-overdue-fines.circ-setting { display: none; }
+body#circ_returns.circ div#book-drop-mode.circ-setting { display: none; }
+body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none; }
+```
 
 ### Piilota asiakkaan tiedot varaus-popupeista
 
