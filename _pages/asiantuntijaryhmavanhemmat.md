@@ -9,6 +9,117 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
+## Koha-asiantuntijaryhmän kokous 3/2017
+
+Aika: ma 20.3. klo 9.15-10<br />
+Paikka: Lync<br />
+Läsnä: Noora Valkonen (pj., siht.), OUTI<br />
+Tuomas Kunttu, Kyyti<br />
+Ari Mäkiranta, Vaara<br />
+Susanna Sandell, Vaski<br />
+Pirjo Sapman, Lumme<br />
+Maarit Tuomisto, Helle<br />
+Poissa: Leena Kinnunen, Lapin kirjasto
+
+Käsitellyt asiat:
+
+### 1. Kimppojen kuulumiset
+
+Helle: käyttöönotto sovittu ja tiedotettu, tapahtuu 23.5.17. Palvelin käynnissä, kaksi Koha-versiota
+seurannassa. Yhteiset käyttösäännöt ovat valmiit. Koulutuksia suunnitellaan, jo tuotannossa oleviin
+Koha-kirjastoihin ehkä tulossa pyyntöjä kouluttajaksi Helle-kirjastoille.
+
+Vaski: Turun selvitysprojekti käynnistyy hitaasti, kirjaston puolelta resurssia heikosti. Omaa
+asennusta mietitään.
+
+Lumme: EDItX pilotointi etenee, tilauksia tehty ja oikeamuotoista vastausviestiä saatu. Mikkelissä
+tehdään omatoimikirjastoja . Tarkoitus avata loppukesällä kaksi.
+
+Kyyti: Kotka ryhtyy kelluttamaan aineistoja pääsiäisen jälkeen. Aineistolajien kiinteämittaisten
+kenttien määrittelyt tehty, järjestelmänkehittäjän työaikaa odotetaan muutosten ajamiseksi.
+Varauksissa huomattu ongelmaa, niteet eivät aina ota kiinni.
+
+OUTI: aloittelee tilastosovelluksen käyttöä. REST-rajapintaa odottaneita palveluja (mm. Rockway,
+Varaamo) otetaan käyttöön.
+
+### 2. Arin tilannekatsaus
+
+Vaara-kirjastoissa rauhallista.
+* Järjestelmänkehittäjät ovat parhaillaan Helsingissä ”versiopäivitysleirillä”. Loppukeväästä on toive
+saada versiopäivitys tehtyä.
+* Finna testausvaiheessa, Kansalliskirjasto on testannut, OUTIn testauksia odotetaan. Autentikoinnin
+kanssa tekemistä.
+* Lapissa työ edennyt hyvin, konversioaika lyöty lukkoon, käyttöönotto 2.5.17.
+
+### 3. Täti-luettelointiohjeet
+
+Asiantuntijaryhmän kommenttia pyydetään TäTi-ohjeistukseen.
+https://tiketti.koha-suomi.fi:83/boards/5/topics/24
+
+* asiantuntijaryhmän suhtautuminen minitietojen käyttämiseen TäTissä (edes väliaikaisesti tai
+väliaikaisten aineistojen osalta)?
+
+Tilapäisesti ja rajallisten kokoelmanosien osalta pysyvästi voisi asiantuntijaryhmän mielestä TäTiin
+viedä myös minitietoja. Melindaan tehdään hankintatietueet, jotka täydentyvät aikanaan. Miksipä ei
+voisi viedä TäTiinkin minitietueita jo hankintavaiheessa?
+Koha-kirjastoilla on useita eri aineistontoimittajia käytössä ja erilaisia minitietueita.
+**Päätös:** Ari selvittää, onko teknistä ongelmaa hankintavaiheen minitietojen viemisessä TäTi-kantaan.
+
+* virheiden ilmoittaminen: mitkä ovat ilmoittamisen arvoisia virheitä?
+Selvää on, että hyllytykseen vaikuttavat virheet pitää ilmoittaa aina huomattaessa. Tietueiden
+tarkistamiseen ei ole suotavaa käyttää työaikaa ylen määrin. Hidastaa myös uuden aineiston
+saamista asiakkaille. Luetteloinnin tasosta ja yhdenmukaistamisesta on tulossa mm. YKN keskustelua
+huhtikuussa 2017. BTJ neuvotteluosapuolena.
+**Päätös:** asiantuntijaryhmä suosittelee, että BTJ:n tietueet korjautetaan BTJ:llä kerran, eikä omia
+luettelointeja viilata loputtomiin.
+
+* luettelointijärjestys: ensin TäTiin josta työnnetään omaan kantaan vain toisin päin?
+Päivittämisessä nyt n. vuorokauden viive.
+**Päätös:** Päivitysviive korjaantunee versiovaihdossa ja ongelma korjaantuu itsestään.
+
+### 4. Asiakaslajien, hyllypaikkojen ja kokoelmien yhtenäistäminen
+
+Asiakaslajit ovat yhteneväiset kaikissa Koha-Suomi-kirjastoissa. Parametroinneissa on eroa, eikä
+kaikissa kimpoissa ole käytössä kaikkia asiakaslajeja.
+Hyllypaikkojen karsiminen on Lumme-kirjastoissa johtanut kokoelmien huomattavaan
+lisääntymiseen, mikä ei ole paras mahdollinen lopputulos. Ollaan palaamassa vanhoihin
+hyllypaikkoihin.
+
+**Päätös:** palataan hyllypaikkojen yhtenäistämisiin Koha-Suomen tasolla, kun kimpat saavat ensin
+oman työnsä ensin tehtyä. Tällä hetkellä hyllypaikkojen ja kokoelmien yhtenäistämiseen ei kannata
+käyttää aikaa.
+
+**Päätös 2:** Koha-Suomen yhteiset asiakaslajit:
+Henkilöasiakas<br />
+Lapsiasiakas<br />
+Yhteisöasiakas<br />
+Kirjaston työntekijä<br />
+Kaukolainakirjasto<br />
+Kotipalveluasiakas<br />
+Ei tilastoitavat lainat<br />
+Huollettava, muu kuin lapsi<br />
+Automaatti<br />
+
+### 5. Muut esille tulevat asiat
+
+* Onko järjestelmänkehittäjien tuki kimpoille tasainen?
+Kyytissä ei ole ”omaa” järjestelmänkehittäjää. Iltojen ja viikonloppujen hätätilanteiden
+järjestelmätuki puuttuu. Sama tilanne on edessä Helle-kimpassa. Lapin tilanne konversion jälkeen?
+Ari: 4. järjestelmänkehittäjä on suunnitelmissa palkata Koha-Suomen laajetessa, viimeistään Vaskin
+tullessa mukaan.
+Hallituksen päätöstä odotellaan puhelinpäivystyksen järjestämisestä mm. viikonloppujen
+kriisitilanteita varten. Järjestelmänkehittäjillä on päivystysnumero, johon vastataan viikonloppuisin.
+Vastaaja saa erilliskorvauksen. Numero olisi kimppojen pääkäyttäjien tiedossa.
+Versiopäivityksen jälkeen toivottavasti päästään purkamaan tikettejä.
+
+### 6. tiedoksi valmiita, asiantuntijaryhmässä käyneitä, töitä: yhtenäisversio käytössä, templatet
+yhtenäistetty, yhteiset aineistolajit sovittu, pääkäyttäjät ovat sopineet myös yhteiset lyhenteet
+aineistolajeille.
+Verkkomaksujen jakamisperusteita kimpoissa ei olla yhdenmukaistamassa, keskusteluissa on todettu
+niiden olevan liian erilaiset tällä hetkellä.
+
+### 7. Seuraava kokous Lyncissä 24.4.17 klo 9.00
+Jaana Sopanen osallistuu Lumme-kimpasta, Pirjo lomalla.
 
 ## Koha-asiantuntijaryhmän kokous 2/2017 
 
