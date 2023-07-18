@@ -9,7 +9,164 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
+
 ## Koha-Suomi asiantuntijaryhmän kokous 9/17
+
+11.12.2017 klo 9.15 – 10.25 Lync-kokous
+
+Kuulolla: Tuomas Kunttu, Pia Kusmin, Maarit Tuomisto, Ari Mäkiranta, Susanna Sandell, Noora Valkonen, Pirjo Sapman
+Pois: Leena Kinnunen
+
+Käsiteltyjä asioita:
+
+### 1. Kimppojen kuulumiset
+
+Helle: 	Origo-konversiot tuottaneet ongelmia, Loviisassa käyttöönotto viivästynyt.
+Helle-kannassa kadonneitten asiasanojen korjausajoja tehty.
+ 
+Kyyti: 	Sunnuntai-iltana järjestelmässä käyttökatkos, verkkokirjasto ollut pois käytöstä.         
+Asiasta saatu runsaasti asiakaspalautetta. 
+Finna-käyttöliittymää työstetään.
+Versiovaihdon aikataulu ei ole vielä varmistunut, tapahtunee todennäköisesti kuitenkin alkuvuonna. 
+Rda-toolkit tilattu Kyytille.
+
+Lappi:	Lapissa valmistaudutaan pikku hiljaa versiovaihdokseen tietokantaa siivoamalla ja Finnaa suunnittelemalla.
+
+Lumme:	Ongelmia ollut viime viikkoina hankintojen (Aarre-verkkokaupan sekä valintalistojen
+siirtymisen) kanssa.  Ongelmat johtuvat todennäköisesti Btj:n järjestelmien ja kantojen vaihdoksista.
+   
+OUTI: 	Outissa käynnistyy alkavalla viikolla versiopäivitys tuotantokannassa. Kirjastot kiinni
+12. – 14.12. Ylikuormituksen välttämiseksi käyttöönottoa porrastettu siten, etteivät kaikki Outi-kirjastot ala käyttää ohjelman toimintojen yhtä aikaa. 
+
+Vaara: 	Vaarassa ongelmia karhujen lähtemisen kanssa. Huomenna uusi yritys. 
+Kohan palvelin nyt päivitetty. 
+Kimpassa hyllypaikkojen yhtenäistäminen menossa. 
+ 
+Vaski:	Susanna kertoi keskustelussa esiinnousseiden Finnan katko-ongelmien johtuneen
+hakuindeksin toimintahäiriöistä. 
+Koha-hanketta jatketaan kesäkuun loppuun. Hankkeessa työskentelevät Susanna Sandell ja Anni Rajala. 
+
+### 2. Arin tilannekatsaus 
+Kaikissa Koha-kirjastoissa seurataan Outin järjestelmänvaihtoa jännityksellä. Outin kokemusten perusteella voidaan sitten varmistaa muiden kimppojen versionvaihdon aikataulut. Kyytin versionvaihto ajoittunee alkuvuoteen. 
+Avoinna olleeseen 4. koodarin paikkaan saatiin yksi hakemus. Larin työsuhdetta jatkettanee kesäkuun loppuun (tekee osa-aikaista 30 h/vko). Ari toimii 50% työajalla Koha-Suomen toimitusjohtajana ja tuotepäällikkönä, sekä alkuvuoden 50% Joensuun seutukirjaston vs. kirjastotoimenjohtajana.
+Koha-Suomen hallituksen seminaari järjestetään torstaina 14.12. Helsingissä. Seminaarissa Ari esittelee hallitukselle ensi vuoden toimintasuunnitelman. Kehittäjien henkilöresurssin vähyydestä johtuen kevät varataan kimppojen versiovaihtoihin (Kyyti – Lappi), syksypuolella on tarkoitus päästä käsiksi Redminen kautta tulleisiin kehittämis- ja korjausehdotuksiin. Ensi vuoden tavoitteita ovat myös: 
+    • verkostomaisen työtavan jäntevöittäminen
+    • aikataulut
+    • Melinda- ja Finna yhteistyö
+    • Eu:n tietosuoja-asetuksen tekninen toteutus Koha-järjestelmässä (25.5. mennessä)
+  
+### 3. Melinda-musa-lausunto
+
+Keskusteltiin Koha-Suomen musiikki-TäTien ehdotuksesta (liite 1). Ehdotus hyväksyttiin esityksen mukaisesti. 
+
+### 4. Btj:n luettelointiuudistus
+
+Btj:n luettelointiuudistus on aiheuttanut epätietoisuutta kansikuvalinkkien jakamisesta Finnan kautta. Kuvalinkit ovat sisältyneet luettelointitietueisiin ja kirjastojen asiakkaat ovat saaneet ne näkyviinsä verkkokirjastoissa. Useissa kimpoissa on tarkoitus luopua erillisen verkkokirjaston ylläpidosta Finnaan liittymisen jälkeen, joten kansikuvien näkyminen myös Finnan kautta kannattaa varmistaa. Kansalliskirjastosta voi tarvittaessa kysyä konsulttiapua kansikuvien saamiseksi käyttöön.   
+
+### 5. Luettelointiryhmä esittää Finton / Asterin käyttöönottoa
+
+Koha-Suomen kuvailuryhmä esittää, että Finto otettaisiin käyttöön Suomen Koha-kirjastoissa ja TäTissä (Liite 2).  
+Esitys hyväksyttiin, mutta todettiin samalla, että Finton käyttöönotto ei tule toteutumaan alkuvuoden 2018 aikana sen vaatiman kehittäjäpanoksen takia.  
+
+### 6.  2017 käsiteltyjä asioita, tilannekooste
+
+- Konversioita: Siilinjärvi, Kuusamo, Helle (osin), Lapin kirjasto, Kemi, Posio, Karpalo-kirjastot, Keminmaa. Tulossa 2018 ainakin: Helle (loput).
+- Koha-asennusten yhtenäistämistä:
+Aineistolajit: sovittu yhteiset, käyttöön viimeistään versiovaihdoksen yhteydessä.
+Asiakaslajit: käytössä yhteiset.
+Hyllypaikat, kokoelmat: yhtenäistäminen toistaiseksi jäädytetty. Keskustelut kimpoissa käynnissä. Yhtenäistäminen on aineisto- ja asiakaslajeja vaikeampaa koska hyllypaikoilla ja kokoelmilla viitataan usein sijaintiin kirjaston fyysisessä ympäristössä. Hyllypaikkojen karsiminen on johtanut kokoelmien määrän lisääntymiseen ym.
+- Ohjeistus/vastuunjakopaperi uudelle, Kohan käyttöön ottavalle, kirjastolle. Lappi työstää.
+- Koha-rajapintaliittymiä:
+Raportointityökalu: aina vain uutta korjattavaa löytyy. Oulussa työstetään toimittajan kanssa.
+Datan avaus -rajapinta: 6Aika-hanke oli kiinnostunut rahoittamaan rajapinnan raportointityökalun datasta avoimen datan palveluun, mutta Koha-versiovaihdon ja 6Aika-hankkeen aikataulusta johtuen ei ehditä teettää. 
+Libki: ei toteuteta nyt.
+Koha-proEconomica: Kuusamo kartoittanut mahdollisesti kiinnostuneet hintakyselyä varten. Noora selvittää asian tilanteen.
+- Luettelointiin liittyviä asioita:
+Täti-luettelointiohjeistukset: asiantuntijaryhmä kommentoinut ja osaltaan hyväksynyt. Löytyvät Redmine:sta https://tiketti.koha-suomi.fi:83/documents/19
+ISIL-tunnus Täti-luettelointiin: tilattu 
+Celia-poimintayhteys: luttelointiasiantuntijat käsitelleet asiaa
+Päätös: Celia-kokoelmat ovat karttuvia. Celioiden luettelointityö on tällä hetkellä hieman hajanaista. Kuvailuryhmässä on kyllä jo aiemmin sovittu, että Celiat luetteloidaan TäTiin ja niiden luettelointikäytännöstä on sovittu. Oulu ja Mikkeli luetteloivat Celiat TäTiin. Joensuu on luetteloinut Celioita omaan tietokantaansa, mutta työ on tällä hetkellä seis. Lapin kirjastot luetteloivat Celioita TäTiin sekä toistaiseksi myös omaan tietokantaan. Kyyti-kirjastoissa luetteloidaan myös Celiat, mutta toistaiseksi vain omaan tietokantaan. Helle-kirjastot eivät ole vielä luetteloineet Celioita.
+Kuvailuryhmä ei toistaiseksi näe tarpeelliseksi selvittää poimintayhteyttä Celiaan. Celian tiedot ovat vaatimattomat. On helpompaa ja suhteellisen nopeaa luetteloida Celia-tietue TäTiin esim. kirjatietueen pohjalta.
+- Koha-Suomen työkäytäntöihin liittyviä asioita:
+Hosting-palvelu @koha-suomi.fi-osoitteiden käyttöön saamiseksi. Tilanne?
+Järjestelmätuki:  Järjestelmänkehittäjien viikonloppupäivystys, 4. kehittäjää rekrytoidaan parhaillaan
+
+### 6. Seuraavat kokoukset
+
+Ehdotus:
+15.1.<br />
+12.2.<br />
+12.3.<br />
+16.4.<br />
+14.5.<br />
+
+Sovittiin, että kokoonnutaan etäpalaveriin ma 15.1. alkaen klo 9.15. Muut palaveriajat vahvistetaan, kun Koha-Suomen hallituksen kevään kokoontumisajankohdat ovat tiedossa.
+
+### 7. Kokouksen päättäminen
+	Puheenjohtaja päätti kokouksen klo 10.25.
+
+## Koha-Suomi asiantuntijaryhmän kokous 8/17
+
+13.11.2017 klo 9.00 Lync-kokous
+
+Kuulolla: 
+Leena Kinnunen, Lapin kirjasto <br />
+Tuomas Kunttu, Kyyti<br />
+Maarit Tuomisto, Helle <br />
+Ari Mäkiranta, Vaara <br />
+Susanna Sandell, Anni Rajala, Vaski<br />
+Noora Valkonen, OUTI (pj. siht.)<br />
+Pirjo Sapman, Lumme
+
+Pois: -
+
+Aiheita:
+
+Puheenjohtaja ei ollut valmistellut esityslistaa.
+
+### 1. Kimppojen kuulumiset
+
+Helle: Keskinäinen yhteistyösopimus pian allekirjoitettu, RDA-koulutus tulossa. Esitys e-aineistojen yhteistyöstä. Logistiikkaa säädetään.
+
+Kyyti: Finna työn alla, viivakoodigeneraattoriongelma toistui Kouvolassa lokakuussa. Versionvaihto- ja testausaikataulu epäselvä, alkuvuonna 2018 kuitenkin.
+
+Lapin kirjasto: Pasi korjaillut keskeneräisyyksiä konversion jäljiltä. Finnan suunnittelu alkamassa. Hitaus iso ongelma, epäillään rautapuolen ongelmaa.
+
+Lumme: E-aineistojen yhteishankinnasta kimpassa päätös, EditX kaikille lumpeille, tietosuojaselostetta kirjoitetaan.
+
+OUTI: Uuden version testaukset alkaneet, tuotantoon 14. tai 15.12.17 Noora välittää jäsenille uusia Koha-ominaisuuksia, jotka on OUTIssa käsitelty ja päätetty ottaa heti käyttöön, testata myöhemmin lisää tai jättää tässä vaiheessa ottamatta käyttöön. Finnan käyttöönotolla jatketaan heti versiovaihdoksen jälkeen.
+
+Vaara: Taustapalvelimen päivitys aloitettu. Testausta aloiteltu. Hallitus päättänyt neljännen koodarin palkkaamisesta vuodelle 2018. Kustannusvaikutus lienee pieni, Ari viestii asiasta vielä. Arista 50% Koha-työntekijä (toimitusjohtaja-tuotepäällikkö). Vallan vaihtoa valmistellaan. Rebekka jää lomalle 14.12.17, Ari sijaisena 6kk. Kulttuurijohtaja eriytetään tehtävästä, kun virka aikanaan laitetaan auki.
+
+Vaski: Koha-projekti jatkuu vuodelle 2018, käyttöönottopäätös siirtyy. Irtisanomisaika Axiellin järjestelmässä lienee 6kk. Susanna lähettää tarkistuslistan Finna-testauksen avuksi. Rebekkaa odotellaan töihin, aloittaa vuoden vaihteessa.
+
+### 2. Arin tilannekatsaus
+
+Mitä meneillään Kohassa:
+- Järjestelmänkehittäjän rekrytointi, Larin toivotaan ottavan työn vastaan.
+- Vallanvaihdon valmistelu meneillään.
+- Ari ja Koha Kansalliskirjaston Kirjastoverkkopäivillä lokakuussa. Kirjastoverkkopäivien ohjelmasta osa löytyy tallenteina https://www.kiwi.fi/pages/viewpage.action?pageId=86967065
+- Koha:n seuraava kansainvälinen versio sisältää standardinmukaisen kaukopalveluosion.
+- Melindasta ei palavereja ollut nyt. Esitys yleisen kirjaston Melindaan liittymisestä löytyy Kirjastoverkkopäivien tallenteesta.
+
+### 3. Muut esille tulevat asiat
+
+- Susanna kertoi KATVE (Kansalliskirjaston tietopalvelualan verkkostandardityöryhmä) kokouksesta. Tietosuoja-asetusta käsitelty. Tärkeää olisi, että kaupungit tulkitsevat asetusta samalla tavalla. Asetus sisältää paljon muutakin kuin teknistä järjestelmäasiaa. 
+Tietosuoja-asetuksesta hyviä esityksiä Kirjastoverkkopäivillä, esitystä ei tallennettu mutta materiaalit löytyvät:
+Pekka Heikkinen: EU:n yleinen tietosuoja-asetus http://tinyurl.com/yar862a8 , lisämateriaalia: http://tinyurl.com/y9unqnss
+Jarkko Reittu: Kuinka valmistautua yleiseen tietosuoja-asetukseen http://tinyurl.com/yatysjmq
+- Puhuttiin maakuntakirjastojen vaihtumisesta kehitystehtäviksi ja mihin kehittämistehtäviin myönnettävää avustusta voi käyttää.
+Lahden maantieteelliselle kehittämistehtäväalueelle tulee kolme eri kirjastojärjestelmää. Kehittäjäkirjastorahalla ei järjestelmänkehitystä tueta. Kimpoilla on ollut yhteiseksi hyväksi tehtyjä töitä (esim. pääkäyttäjät, luetteloijat yms.), muuttuvatko nyt laskutettaviksi? Kaukopalvelun maksullisuutta mietitään.
+
+Monissa kimpoissa ns. maakuntakirjastorahalla maksettu yhteiset e-aineistot. Avustusten ehtojen tulkinta selvinnee 2018 aikana.
+- Koha-seminaari Helsingissä  14.12.17, kutsuttuna hallituksen jäsenet tai varajäsenet ja järjestelmänkehittäjät, joiden osallistumista haittaa samaan ajankohtaan osuva Koha versiovaihdos OUTI-kirjastoissa.
+
+- Loppukevennys: [Suomi100- tapahtumien maakuntalaulut pop-versioina](http://www.maakuntalaulut.fi/)
+
+### 4. Seuraavat kokoukset
+11.12.
+
+## Koha-Suomi asiantuntijaryhmän kokous 6/17
 
 18.09.2017 Lync-kokous
 
@@ -129,7 +286,9 @@ Seuraava hallituksen kokous 6.10.17 Noora laatii luonnoksen asiantuntijaryhmän 
 13.11.
 11.12.
 
-## Asiantuntijaryhmän kokous 24.4.17
+## Asiantuntijaryhmän kokous 4/17
+
+Aika: 24.4.17
 
 Paikalla: Ari, Noora, Maarit, Tuomas, Leena, Jaana ja Susanna
 
