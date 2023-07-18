@@ -29,13 +29,13 @@ Edellisessä versionvaihdossa huomatut ongelmat
 * testaamaan päästiin liian myöhään.
 * testikantaan vietävä datamäärä turhan iso, pienempikin määrä riittää testaukseen.
 * cronien päälle laittaminen
-** ei ollut tietoa, mitkä päällä ja milloin ne laitetaan päälle
+  * ei ollut tietoa, mitkä päällä ja milloin ne laitetaan päälle
 * Kansalliskirjaston/Finna-toimiston kanssa aikataulusta sopiminen
-** tehdään keskitetymmin Koha-Suomen kautta
+  * tehdään keskitetymmin Koha-Suomen kautta
 * testaus piti tehdä moneen kertaan
 * versionvaihto oli lähellä kesälomakautta ja tekijöitä jäi heti lomille ja pieni joukko jäi tekemään jälkisiivouksia
 * katkon ajankohta
-** tieto mahdollisimman pian kirjastoille
+  * tieto mahdollisimman pian kirjastoille
 * rajapinnat
 * tiedotus - missä mitäkin löytyy oli epäselvää
 * kuvailu - työkalut valmistuivat hitaasti
@@ -59,7 +59,7 @@ Kuhunkin tikettiin kirjattiin päätös.
 
 ### 4. Vaskin itsepalveluautomaattien kilpailutus
 
-Susanna kertoi lyhyen koosteen kilpailutuksesta. Koko tarjouspyyntö: attachment:Tarjouspyynto12092022.pdf
+Susanna kertoi lyhyen koosteen kilpailutuksesta. Koko tarjouspyyntö: [Tarjouspyynto12092022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12076801/Tarjouspyynto12092022.pdf)
 
 ### 5. Seuraava kokous
 
@@ -86,7 +86,7 @@ Poissa: Pia Kusmin
 
 Käytiin läpi ja päivitettiin tiekartta.
 
-attachment:Tiekartta2022paivitysmarraskuu.xlsx
+[Tiekartta2022paivitysmarraskuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12076809/Tiekartta2022paivitysmarraskuu.xlsx)
 
 ### 3. Kehitysehdotusten läpikäyntiä
 
@@ -123,18 +123,16 @@ Koha-seminaarissa oli 28.10.2022 strategia-paja. Käytiin läpi "pajan yhteenvet
 ### 5. Muut asiat
 
 * Sähkökatkoihin varautuminen.
-** Konesalissa sähkönsyöttö on kahdennettu (kuten kaikki muukin), eli virtaa saadaan kahta erillistä piuhaa pitkin.
-** Lisäksi on vielä erillinen varavirtalaite, joka hyppää puikkoihin siinä vaiheessa jos molemmat syöttölinjat ovat pimeinä, tällä varavirtalaitteella pärjätään jonkin aikaa, tarkkaa aika ei tiedossa.
-** Nimipalvelun tarjoaja MPY (Mikkelin puhelin yhdistys) hallinoi koha-suomi.fi-osoitteita. Heillä on käytössä järeät UPS-laitteet (nopeasti reagoiva pieni varavirtalaite) ja varavoimalaite. Käytännössä UPS-hoksaa heti kun sähköt katkeavat ja syöttää laitteille virtaa niin kauan että varavoimalaite ehtii hätiin. Varavoimalaite syöttää virtaa niin kauan kuin sille on polttoainetta saatavana.
-** Palvelujen kannalta sähkökatkojen ei pitäisi tulla näkyväksi muuten kuin korkeintaan kuntien sähköjärjestelmien häiriöiden vuoksi, jolloin työasemille tai verkkolaitteille ei välttämättä kunnan sisällä ole virtaa tarjolla. 
-*** Kunnissa on mahdollisesti voitu varautua sähkökatkoihin varustamalla työasemat ja verkkolaitteet varavirralla, halutessanne voitte tarkistaa asian omasta kunnastanne.
-** Kohalle on kaksi offline-lainausjärjestelmää Koha offline circulation (Windows-ohjelma) ja Koha offline circulation tool (Firefox-liitännäinen), jotka kumpikin toimii. Niiden käyttöä kannattaa harjoitella ennen tositilannetta.
-** Kunnissa kannattaa miettiä, missä tilanteessa kirjasto laitetaan kiinni.
-
-
+  * Konesalissa sähkönsyöttö on kahdennettu (kuten kaikki muukin), eli virtaa saadaan kahta erillistä piuhaa pitkin.
+  * Lisäksi on vielä erillinen varavirtalaite, joka hyppää puikkoihin siinä vaiheessa jos molemmat syöttölinjat ovat pimeinä, tällä varavirtalaitteella pärjätään jonkin aikaa, tarkkaa aika ei tiedossa.
+  * Nimipalvelun tarjoaja MPY (Mikkelin puhelin yhdistys) hallinoi koha-suomi.fi-osoitteita. Heillä on käytössä järeät UPS-laitteet (nopeasti reagoiva pieni varavirtalaite) ja varavoimalaite. Käytännössä UPS-hoksaa heti kun sähköt katkeavat ja syöttää laitteille virtaa niin kauan että varavoimalaite ehtii hätiin. Varavoimalaite syöttää virtaa niin kauan kuin sille on polttoainetta saatavana.
+  * Palvelujen kannalta sähkökatkojen ei pitäisi tulla näkyväksi muuten kuin korkeintaan kuntien sähköjärjestelmien häiriöiden vuoksi, jolloin työasemille tai verkkolaitteille ei välttämättä kunnan sisällä ole virtaa tarjolla. 
+    * Kunnissa on mahdollisesti voitu varautua sähkökatkoihin varustamalla työasemat ja verkkolaitteet varavirralla, halutessanne voitte tarkistaa asian omasta kunnastanne.
+  * Kohalle on kaksi offline-lainausjärjestelmää Koha offline circulation (Windows-ohjelma) ja Koha offline circulation tool (Firefox-liitännäinen), jotka kumpikin toimii. Niiden käyttöä kannattaa harjoitella ennen tositilannetta.
+  * Kunnissa kannattaa miettiä, missä tilanteessa kirjasto laitetaan kiinni.
 
 * Keskusteltiin, voisiko Tuomas pitää PowerBI-esittelyn.
-** sql-raportit jakoon kaikille jo ennakkoon
+  * sql-raportit jakoon kaikille jo ennakkoon
 
 * Versionvaihto tapahtuu toukokuussa 2023. Asiantuntijat/pääkäyttäjät selvittävät onko kimpoissa sellaisia päiviä, jolloin päivitystä ei voi tehdä. 
 
@@ -197,8 +195,9 @@ Läsnä: Ari Mäkiranta, Kati Sillgren, Katja Valjakka, Päivi Knuutinen, Pia Ku
 
 Käytiin läpi pääkäyttäjä- ja kuvailuryhmän vuosisunnitelmat ja hyväksyttiin ne.
 
-Pääkäyttäjät: attachment:paakayttajatvuosisuunnitelma2022.docx
-Kuvailijat: attachment:kuvailijatvuosisuunnitelma2022.docx
+Pääkäyttäjät: [paakayttajatvuosisuunnitelma2022.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12076821/paakayttajatvuosisuunnitelma2022.docx)
+
+Kuvailijat: [kuvailijatvuosisuunnitelma2022.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12076825/kuvailijatvuosisuunnitelma2022.docx)
 
 ### 3. Henkilötunnuksettomien asiakkaiden voimassaoloaika
 
@@ -262,10 +261,10 @@ Päivitetty tiekartta: attachment:Tiekartta2022paivityssyyskuu.xlsx
 ### 8. Muut asiat
 
 * Koha-Suomi-domain sähköpostiosoitteessa
-** Vaski haluaa pitää käytössä vaskikirjastot.fi-osoitteen. Vaskissa on tehty spf-sääntö vain vaskikirjastot.fi-domainille ja ongelmia ei ole. Ei kuntakohtaisia sääntöjä. OUTIssakin on ollut käytössä outikirjastot.fi-domain ja spf-sääntö on jouduttu tekemään kaikkiin kuntiin. Testataan lisää, mistä tällainen päinvastainen kokemus johtuu.
+  * Vaski haluaa pitää käytössä vaskikirjastot.fi-osoitteen. Vaskissa on tehty spf-sääntö vain vaskikirjastot.fi-domainille ja ongelmia ei ole. Ei kuntakohtaisia sääntöjä. OUTIssakin on ollut käytössä outikirjastot.fi-domain ja spf-sääntö on jouduttu tekemään kaikkiin kuntiin. Testataan lisää, mistä tällainen päinvastainen kokemus johtuu.
 
 * Virkailijaliittymässä tehdyssä uusinnassa tilastoitumiskirjastona käytetään virkailijan kirjautumiskirjastoa, ei lainannutta kirjastoa. Eräpäivä menee lainanneen kirjaston eräpäiväkalenterin mukaan, vaikka laina uusitaan toisessa kirjastossa. Onko tämä toimintatapa ok vai pitäisikö uusinta kirjautua tällaisessakin tapauksessa lainanneen kirjaston mukaan?
-** *Päätös*: toimintatapa on looginen, ei vaadi muutosta.
+  * **Päätös**: toimintatapa on looginen, ei vaadi muutosta.
 
 ### 9. Seuraavat kokoukset
 
@@ -292,7 +291,7 @@ Läsnä: Leena Kinnunen ja Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Päivi Knu
 
 Tietetoturvasyistä aiemmin on piilotettu itsepalvelulainauksesta vanhemmat lainat. Nyt tiedot tarvitaan mm. Vaara-kirjastoissa näkyviin, jotta asiakkaat voivat uusia vanhempia lainojaan.
 
-Päätös: Pyritään siihen, että itsepalvelussa laitetaan kaikkialla pin-koodikysely päälle ja jätetään lainat näkyville. Piilotetaan maksut-välilehti css:llä, koska koko maksuhistoria näkyy ja voi olla asiakkaalle hämmentävä.
+**Päätös**: Pyritään siihen, että itsepalvelussa laitetaan kaikkialla pin-koodikysely päälle ja jätetään lainat näkyville. Piilotetaan maksut-välilehti css:llä, koska koko maksuhistoria näkyy ja voi olla asiakkaalle hämmentävä.
 
 ### 3. Versionvaihdon kuulumiset
 
@@ -330,8 +329,6 @@ Annelin on tarkoitus aloittaa vuoden 2023 alusta kahdeksi vuodeksi 100 % Koha-Su
 Aika: 9.5.2022 klo 13.15
 Läsnä: Päivi Knuutinen, Ari Mäkiranta, Pia Kusmin, Asko Autio, Kodo Korkalo, Tuomas Kunttu, Johanna Räisä, Kati Sillgren, Katja Valjakka, Anneli Österman
 
-*Aiheet*
-
 ### 1. Arin ajankohtaiset
 
 ### 2. Kirjastokorttien vanhenemisaika
@@ -344,7 +341,7 @@ Osalla kimpoista on lisäksi käytössä käyttösääntö, että henkilötunnuk
 
 [Nimen piilotus eri näytöillä](https://tiketti.koha-suomi.fi/issues/4602)
 
-Päätös: Piilotetaan asiakkaan infoboksi vasemmasta reunasta ja tarpeen mukaan asiakkaan yhteystietoja poppareista CSS:llä.
+**Päätös**: Piilotetaan asiakkaan infoboksi vasemmasta reunasta ja tarpeen mukaan asiakkaan yhteystietoja poppareista CSS:llä.
 
 Asiakkaan nimi näkyy jatkossa lainausnäytöllä.
 
@@ -354,7 +351,7 @@ Asiakkaan nimi näkyy jatkossa lainausnäytöllä.
 
 Halutaan lokitettavaksi:
 * kun asiakastietoja muutetaan, kirjataan sekä vanha että uusi arvo
-** tärkeää myös, onko muutoksen tehnyt asiakas itse vai virkailija
+  * tärkeää myös, onko muutoksen tehnyt asiakas itse vai virkailija
 * Lokitetaan asiakastietojen katselu asiakastiedoissa (kaikki alasivut) ja asiakashaussa
 
 ### 5. Viestin lähetysmaksu viestityypeittäin
@@ -379,8 +376,6 @@ Ma 30.5.2022 klo 9.15.
 
 Aika: 16.3.2022 klo 9.15
 Läsnä: Ari Mäkiranta, Asko Autio (Vaski), Noora Valkonen (OUTI), Pia Kusmin (Lappi), Susanna Sandell (Vaski), Kati Sillgren (Helle), Päivi Knuutinen (Vaara), Anneli Österman, Tuomas Kunttu (Kyyti)
-
-*Aiheet*
 
 ### 1. Arin ajankohtaiset
 
@@ -420,7 +415,6 @@ Seuraava kokous on ke 13.4.2022 klo 13.15.
 Aika: 23.2.2022 klo klo 9.15
 Läsnä: Ari Mäkiranta, Anneli Österman, Päivi Knuutinen, Pia Kusmin, Katri Sillgren, Noora Valkonen, Asko Autio, Tuomas Kunttu
 
-*Aiheet*
 
 ### 1. Arin ajankohtaiset
 
@@ -436,7 +430,7 @@ Pe 25.2.2022 Koha-Suomen tiekartta-webinaari.
 
 Aikataulu. Kimppojen toiveet ja esteet.
 
-Päätös: tavoitteena versionvaihto ti 7.6.2022, vähintään yksi päivä kiinni, tarvittaessa puoltoista päivää. Pyritään saamaan e-aineistot mahdollisimman nopeasti auki.
+**Päätös**: tavoitteena versionvaihto ti 7.6.2022, vähintään yksi päivä kiinni, tarvittaessa puoltoista päivää. Pyritään saamaan e-aineistot mahdollisimman nopeasti auki.
 
 Kehittäjien työaika suunnataan tästä lähtien versionvaihtoon ja hoidetaan vain kriittiset muut tehtävät. Kirjastoilta tarvitaan keväälle iso työpanos uuden version testaukseen.
 
@@ -477,7 +471,7 @@ Tarkista osoite – tämä piiloon/pois käytöstä?
 
 Aikuinen-asiakastyypin asiakastietoon lisätty Tarkista osoite = kyllä
 
-*Päätös:* Kerätään kaikkien kimppojen asiakastietojen voimassaoloaika. Tieto Annelille.
+**Päätös:** Kerätään kaikkien kimppojen asiakastietojen voimassaoloaika. Tieto Annelille.
 
 Asiakasviestinnässä voisi tutkia uudemmassa versiossa käytettävissä olevien viestiliitännäisten mahdollisuuksia: "Koha mailer plugin ja emailer":https://www.youtube.com/watch?v=serAmqPf9WA
 
@@ -491,8 +485,6 @@ Seuraava kokous ke 16.3.2022 klo 9.15.
 
 Aika 26.1.2022 klo 9.15
 Läsnä: Ari Mäkiranta (Koha-Suomi), Leena Kinnunen (Lappi), Katri Sillgren (Helle), Tuomas Kunttu (Kyyti), Susanna Sandell (Vaski), Asko Autio (Vaski), Anneli Österman (Koha-Suomi), Noora Valkonen (OUTI), Päivi Knuutinen (Vaara), Katja Valjakka (Lumme) 
-
-*Aiheet*
 
 ### 1. Arin ajankohtaiset
 
@@ -518,7 +510,7 @@ Yhtiö vuokrasi videokasetteja ja muuta irtainta omaisuutta kuten videolaitteita
 
 Vuokratun omaisuuden palautuksen myöhästymisen johdosta asiakkaalta perittävää viivästyskorvausta ja vuokratun omaisuuden palauttamatta jättämisen johdosta asiakkaalta perittävää korvausta ei pidetty arvonlisäverolain 73 §:n 1 momentissa tarkoitettuina myynnistä suoritettavan veron perusteeseen luettavina vastikkeina vaan vahingonkorvauksen luonteisina erinä, joista yhtiön ei ollut suoritettava arvonlisäveroa."
 
-*Päätös:* EDItX-rajapintaan tehdään muutos, että niteelle viedään korvaushinta alvittomana. Tiedotus muutoksesta pääkäyttäjien kautta.
+**Päätös:** EDItX-rajapintaan tehdään muutos, että niteelle viedään korvaushinta alvittomana. Tiedotus muutoksesta pääkäyttäjien kautta.
 
 #### 4.2. Huoltokatkon ajankohta
 
