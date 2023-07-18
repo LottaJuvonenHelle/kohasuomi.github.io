@@ -10,6 +10,200 @@ title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
 
+## Koha-Suomi asiantuntijaryhmän kokous	2/20 
+			
+Kokousaika: 17.2.2020 klo 9.15-. jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara), Asko Autio (Vaski), Kati Sillgren (Helle), Anneli Österman, Leena Kinnunen (Lapin kirjasto)
+
+Poissa: Susanna Sandell (Vaski), Noora Valkonen (OUTI), Katja Valjakka (Lumme) 
+
+### 1. Arin tilannekatsaus
+
+Melinda-integraatiossa odotellaan, että Kansalliskirjastolla on aikaa edistää asiaa. Vielä kesken on SRU-rajapinta. Melinda-koulutukset on sovittu neljälle paikkakunnalle 19.3. alkaen. Vielä tarvitaan kouluttajat Kyyti/Lumme ja Helle -koulutuksiin. Kimppojen osaamisen takia parasta olisi löytää kouluttajat kimppojen sisältä.
+    • Melinda-koulutukset joudutaan todennäköisesti pitämään testikannassa.
+    • Testi-Tätin osoite löytyy wikistä: https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/KohaSuomiServices-mikropalvelu Linkin voi välittää Täti-luetteloijille, jotka tulevat käyttämään Melindaa. Myös helpottamaan kouluttajan löytymistä.
+    • Vaski-kirjastot ovat tehneet virallisen päätöksen Kohaan siirtymisestä. Käyttöönottoprojekti alkaa huhtikuussa 2020 ja varsinainen käyttöönotto toukokuussa 2021.
+    • Lähettäkää kimppojen palvelimien rautojen speksit ja vuosihinta Arille yhteisen palvelinpalveluselvitystä varten. Tieto tarvitaan kaikista muista kimpoista paitsi Vaarasta. 
+
+### 2. Tietoturva-auditoinnin seuranta ja toimenpiteet
+Pasi on tehnyt korjaukset valtaosaan auditoinnissa havaittuihin puutteisiin. Korjauksia testataan tällä hetkellä Outin asennuksessa ja jos ongelmia ei ilmene, niitä viedään muihin asennuksiin. Viime kokouksessa päätettiin IP-avaruuden rajaamisesta ja työtunnuksista pääkäyttäjille. Käydään läpi näiden toimien tilanne eri kimpoissa.
+
+Koha-Suomen tietoturvaohje: https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Koha-Suomen_tietoturvaohje
+
+    • IP-rajausten ja käyttäjätunnusten tilanne:
+        ◦ OUTI: rajaukset ja tunnukset kunnossa
+        ◦ Lappi: LapIT voi tehdä pyydetyt muutokset asiantuntijatyönä. Ei vielä otettu yhteyttä niihin kuntiin, joitka eivät ole LapITin tuen piirissä. Tunnukset ok
+        ◦ Vaara: IP-rajausasia laitettu alulle. Tulossa palaveri siitä, mitä tehdään VPN-yhteyksille. Tunnukset ok.
+        ◦ Kyyti: IP-rajausasiaa edistetty. Käyttäjätunnukset ohjeistettu tehtäväksi.
+        ◦ Helle: kaikkiin kuntiin otettu yhteyttä IP-rajauksen suhteen. 6/12 kunnista IP:t selvillä. Käyttäjätunnukset ok.
+        ◦ Lumme: ei tietoa.
+    • 
+### 3. Versiovaihdon valmistelu
+
+Viime kokouksessa päätettiin, että Anneli ja Ari kokoavat selkokielisemmän listan Suomi-Koha ominaisuuksista ja asiantuntijaryhmä selvittää olisiko kimpoissa henkilöitä, joilla olisi aikaa käydä listaa kommentoimassa. Käydään kierros kimppojen tilanteesta. 
+
+Finna-väki ehtii tehdä tähän liittyvät rajapinnat vasta kesälomien jälkeen, joten päivitys jää joka tapauksessa loppuvuoteen. Yritämme Annelin kanssa saada listaan asioita vielä helmikuun aikana.
+
+    • Ari ja Anneli aloittavat tikettien ja ominaisuuksien läpikäynnin ke 19.2.2020
+    • Ari esittänyt toiveen johtajien aamukahveilla, että muutkin työntekijät kuin pääkäyttäjät/asiantuntijaryhmän jäsenet saisivat käyttää työaikaa ominaisuuksien arviointiin. Pohdittiin, ketä mistäkin kimpasta voisi osallistua.
+        ◦ Vaara: 5 hlön käyttäjäryhmä
+        ◦ Lappi: käyttäjäryhmä
+        ◦ OUTI: Koha-ryhmä, OUTI Teamsin hyödyntäminen jollain tasolla
+        ◦ Kyyti: ei vielä tietoa
+        ◦ Vaski: projektiryhmä
+    • Tieteelliset: HAMK-pilottina. Heillä on 6 kriittistä asiaa, jotka saatava yhteisöön, jotta voivat siirtyä kansainväliseen versioon. KV-version REST ei sisällä kaikkea tarvittavaa ja Finna-toimisto ei ehdi tekemään kaikkia tarvittavia muutoksia Finnaan ennen kesälomia.
+    • Yleisten kirjastojen versiovaihto mennee syksylle.
+
+### 4. Koha-seminaari
+
+Koha-seminaari järjestetään tänä vuonna yhdessä tieteellisten Koha-kirjastojen kanssa. Ari on yhdyshenkilö sinnepäin. Aloitetaan keskustelu seminaarin mahdollisista aiheista ja ajankohdasta.
+    • Seminaarin valmistelijoina Arin kanssa Hankenista Tua Hindersson-Söderholm ja HAMKista Kivisen Minna
+    • Kaikki selvittävät 28.2.2020 mennessä, mikä viikoista 38-39 ja 41 olisi paras seminaarille ja ilmoittavat sen Arille. Vkolla 40 on KINE.
+    • Paikkana voisi mahdollisesti olla Porvoo.
+    • Aihe-ehdotuksia: 
+        ◦ käyttäjän näkemys? Löytyisikö esitelmöijää, joka ei ole pääkäyttäjä?
+        ◦ ryhmä/pajatoiminta uusiksi?
+            ▪ keskustelua versiovaihdosta ja ominaisuuksista. Mahdollisuus vaikuttaa.
+            ▪ esim. 4-6 isompaa teemaa ja niiden sisällä voi olla pienempiä teemoja
+        ◦ ulkomainen esitys? mihin suuntaan kohan kehitys on menossa? ruotsista tai norjasta? 
+        ◦ pieni puheenvuoro tietoturvasta ja jokaisen käyttäjän vastuusta
+        ◦ päästäänkö Kohaa oikeasti itse kehittämään?
+        ◦ aihe-ehdotukset Arille pe 28.2.2020 mennessä. Ehdotukset voi laittaa koko asiantuntijaryhmälle CC:nä.
+    • Mietittiin, striimataanko jotain? Houkutteleeko striimaus jäämään etäosallistumaan, jolloin välitön keskustelu ja vuorovaikutus seminaarissa menetetään? Toisaalta, monessa kunnassa tiukat ajat ja matkustuslupia ei saada helposti, jolloin etäosallistuminen on hyvä tapa osallistua edes osittain.
+
+### 5. Muut asiat
+
+Ei muita asioita.
+
+### 6. Kevään kokoukset
+
+16.3.2020 klo 9:15, 20.4.2020 klo 9:15, 4.5.2020 klo 9:15
+
+
+## Koha-Suomi asiantuntijaryhmän kokous	1/20 
+			
+Kokousaika: 27.1.2020 klo 10-12. jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara) Susanna Sandell (Vaski), Kati Sillgren (Helle), Noora Valkonen (OUTI), Anneli Österman, Leena Kinnunen (Lapin kirjasto)
+
+Poissa: Katja Valjakka (Lumme)
+
+### 1. Työryhmien tavoitteet
+
+Aloitetaan keskustelu asiantuntijaryhmän ja muiden ryhmien tavoitteista vuodelle 2020. Hallitus hyväksyi yhtiön tavoitteet vuodelle 2020 joulukuun kokouksessa. Viimeksi puhuttiin jo alustavasti tavoitteista:
+
+    • tehostetaan asiantuntijaryhmän työskentelyä ja työskennellään myös kokousten välillä
+    • kuvailijoiden tavoite: Melindan käyttöönotto, kuvailu ja toimintatavat yhtenäiseksi
+    • asiantuntijoiden tavoite: tikettien priorisointi jatkuvasti, mukaan myös johtajia, yhteinen työpajapäivä alkuvuoteen? Miten kehitetään Kohaa ja miten kirjastopalvelua, asiat menevät sekaisin keskenään
+        ◦ tieteellisillä myös perustettu asiantuntijaryhmä, yhteistyö heidän kanssaan?
+https://www.kiwi.fi/pages/viewpage.action?pageId=147358304
+            ▪ Tieteellisillä menossa pilotti, jossa kokeillaan päästä mahdollisimman lähelle kansainvälistä versiota. Ensimmäinen käyttöönotto ilmeisesti jo maaliskuussa.
+        ◦ riittävän ajoissa ennen kokousta asiat tiedoksi, jotta ehtii tiedustelemaan mielipiteitä omassa kimpassa –> sovitaan jo edellisessä kokouksessa seuraavan kokouksen päätettävät asiat, jolloin aikaa selvittelyille jää
+    • johtajien aamukahveille asiantuntijaryhmän asioita puheeksi
+        ◦ päätettiin, että johtajien kahveille kutsutaan tarpeen mukaan myös Anneli ja joku kehittäjistä.
+    • pyritään järjestämään työpajapäivä maalis-huhtikuulle
+        ◦ päätettiin, että kaikissa kimpoissa otetaan työn alle osallistujien keräys työpajaan
+        ◦ työpajassa käydään läpi versiopäivitystä
+
+### 2. Arin tilannekatsaus
+
+Emmi Takkinen on Johannan sijaisena 1.2.-7.10.2020 välisen ajan. Emmin saa kiinni Johannan numerosta ja Emmin s-posti on emmi.takkinen ät koha-suomi.fi.  Oulun tietoturva-auditoinnissa löytyi joitakin haavoittuvuuksia, käsitellään niitä omana kohtanaan. Melinda-integraatiossa odotellaan, että Kansalliskirjastolla on aikaa edistää asiaa. Tällä hetkellä aikaisintaan maaliskuussa päästään tuotantoon. Palvelinkartoituksessa kerätään tällä hetkellä dataa palvelimiin kohdistuvasta kuormasta.
+
+    • Melindan käyttöönotto mennee maaliskuulle
+        ◦ kimppojen ”keskuskirjastoille” tulossa valtakirjat valtuutuksesta, vastaava valtuutus kuin Finnassa. Yhdellä sopimuksella/kimppa mukaan Melindaan.
+    • Vaarassa outokumpulainen firma ottaa helmikuussa palvelimen rasitusdataa.
+    • keskitetyt palvelimet aikaisintaan käyttöön syksyllä, jos niihin päädytään. Riippuu nykyisistä sopimuksista ja niiden voimassaoloajasta. Ari kyselee jokaisesta kimpasta tarkempia tietoja.
+    • Vaarassa Suomi.fi Viestit tarjotaan kohta myös asiakkaille käyttöön.
+
+### 3. Tietoturva-auditoinnin tulokset
+
+Oulun tilaama tietoturva-auditointi on tehty ja siitä on saatu raportti. Joitakin haavoittuvuuksia löytyi, mutta ei onneksi mitään hirmu vakavaa. Keskustellaan auditoinnin tuloksista ja tietoturvan parantamisesta yleensä. Helpoin tapa parantaa yleistä tietoturvaa on rajoittaa IP-osoitteita, joista Kohan palvelimelle pääsee kirjautumaan. Tämä käytäntö on Outissa ja se pitäisi ottaa kaikissa kimpoissa käyttöön.
+    • tarkempi kommentaari auditoinnin raportista ja toimenpidesuositukset Koha-kirjastoille lähetetään salattuna pääkäyttäjille.
+    • asiantuntijaryhmä ottaa työn alle IP-osoitteiden rajaamisen. Edustaja voi organisoida työn itse tai antaa sen jollekin toiselle tehtäväksi omassa organisaatiossa.
+    • ensi vuodelle pyritään varaamaan yhtiön budjettiin raha käyttäjäoikeuksien tarkempaan auditointiin.
+
+### 4. Versiovaihdon valmistelu
+
+Yleisenä tavoitteena on päästä lähemmäs yhteisöversiota. Koska on selvää, ettei kaikkia meidän muutoksia tulla saamaan yhteisöversioon, pitäisi selvittää, onko jotain muutoksia, joista voisimme luopua. Tämä helpottaisi jatkossa versiovaihtoja. Yksi tietoturva-auditoinnin huomioista oli juuri tuo version vanhuus eli meidän pitäisi pystyä nopeammin siirtymään uudempaan versioon. Mitä enemmän meillä on omaa koodia, sitä vaikeampaa versiovaihto aina on. Ehdotan, että perustetaan ryhmä, jossa on mukana asiantuntijoiden ja pääkäyttäjien lisäksi muitakin Koha-kirjastojen edustajia. Lisäksi versiopäivityksen ajaksi keskeytettäisiin (freeze) täysin uusien ominaisuuksien kehittäminen, jotta siirtotyö ei lisääntyisi ja versiopäivitykseen saadaan irrotettua mahdollisimman paljon työaikaa. 
+
+    • tehdään Redmineen https://tiketti.koha-suomi.fi/projects/mls/wiki/Versiop%C3%A4ivitys_2019-2020 -sivun alle oma sivu, jonne kirjataan ominaisuudet ja asiantuntijaryhmä ja muut arviointityöhön osallistuvat pyrkivät kommentoimaan sen jälkeen ehdotuksia.
+    • Anneli ja Ari aloittelee ominaisuuksien keräämisen lähiaikoina.
+    • kaikki selvittävät seuraavaan kokoukseen mennessä, löytyykö omasta kimpasta innokkaita, joilla olisi käyttää työaikaa ominaisuuksien arviointiin.
+
+### 5. Muut asiat
+
+    • Syksyn KohaConiin on hyväksytty Suomesta kaksi 25 minuutin puheenvuoroa. Rebekka Pilppula puhuu yleisesti suomalaisesta kirjastojärjestelmästä (ei tietojärjestelmästä) ja Ari Mäkiranta ja Esa-Pekka Keskitalo Koha-kirjastojen järjestäytymisestä ja sektorien välisestä yhteistyöstä.
+
+### 6. Kevään kokoukset
+
+17.2.2020 klo 9:15, 16.3.2020 klo 9:15, 20.4.2020 klo 9:15, 4.5.2020 klo 9:15
+
+
+## Koha-Suomi asiantuntijaryhmän kokous 7/19 
+			
+kokousaika: 9.12.2019 klo 9.15. jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara) Susanna Sandell (Vaski), Kati Sillgren (Helle), Noora Valkonen (OUTI), Anneli Österman
+Poissa: Leena Kinnunen (Lapin kirjasto), Katja Valjakka (Lumme)
+
+### 1. Työryhmien tavoitteet
+
+Aloitetaan keskustelu asiantuntijaryhmän ja muiden ryhmien tavoitteista vuodelle 2020. Hallitus hyväksyy yhtiön tavoitteet vuodelle 2020 joulukuun kokouksessa ja sen jälkeen voidaan kirjata myös ryhmien tavoitteet. Keskustellaan siitä, miten asiantuntijaryhmä valmistelee tavoitteet, jotta ne saadaan heti alkuvuonna valmiiksi.
+
+    • hallituksella kokous ensi viikolla, sen jälkeen Ari laittaa viestiä vuosisuunnitelmasta
+    • tehostetaan asiantuntijaryhmän työskentelyä ja työskennellään myös kokousten välillä
+    • kuvailijoiden tavoite: Melindan käyttöönotto, kuvailu ja toimintatavat yhtenäiseksi
+    • asiantuntijoiden tavoite: tikettien priorisointi jatkuvasti, mukaan myös johtajia, yhteinen työpajapäivä alkuvuoteen? Miten kehitetään Kohaa ja miten kirjastopalvelua, asiat menevät sekaisin keskenään
+        ◦ tieteellisillä myös perustettu asiantuntijaryhmä, yhteistyö heidän kanssaan?
+        ◦ riittävän ajoissa ennen kokousta asiat tiedoksi, jotta ehtii tiedustelemaan mielipiteitä omassa kimpassa –> sovitaan jo edellisessä kokouksessa seuraavan kokouksen päätettävät asiat, jolloin aikaa selvittelyille jää
+    • johtajien aamukahveille asiantuntijaryhmän asioita puheeksi
+
+### 2. Arin tilannekatsaus
+
+Johanna on jäänyt vapaalle ja on poissa ainakin 7.10.2020 saakka. Johannalle palkataan sijainen.  Oulussa auditointi tehdään vielä joulukuun aikana. Melinda-integraatiossa odotellaan, että Kansalliskirjastolla on aikaa edistää asiaa. Tavoitteena on päästä sen käyttöön alkuvuonna. Ari on aloittanut palvelinkartoituksen tekoa.
+
+    • Mikkelissä ollut korkeakouluharjoittelija Emmi Takkinen kehittäjänä, harjoittelu tammikuun puoleen väliin, jolloin valmistuu. Todennäköisesti Johannan sijaiseksi tammikuussa.
+    • tietoturva-auditointi alkamassa Oulussa. Testaavat mm. käyttäjäoikeudet, rajapinnat, yrittävät päästä sisään tai saada sellaisia tietoja ulos, joita ei saisi saada.
+    • Joensuu maksaa (mikäli se maksaa jotain) konsultaation palvelinkartoituksesta. Selvitetään, mitä vaatisi, jos kaikki Koha-Suomi-kimpat siirtyisivät samoille palvelimille.
+    • Melinda-integraatio. Odotetaan, että Kansalliskirjasto saa palvelimet siirrettyä ja voivat keskittyä meihin. Luetteloijien koulutukset tammi-helmikuussa. Kuvailun yhdessä sovitut pelisäännöt hyvä käydä siinä samalla läpi. 
+    • Pasi Korkalo tulee tekemään YSA-YSO-konversion. RDA-konversio myös ehkä siinä samalla.
+    • vuonna 2020 Anneli Östermanin työajasta 50 % Koha-Suomelle.
+    • versionvaihdon aikataulu vielä kesken, kehittäjät tekevät jo vertailua, mitä ominaisuuksia löytyy yhteisöversiosta. Sen jälkeen nähdään, mitkä omat muutokset pitää viedä ja mitä halutaan pitää mukana. Uusimpaan versioon on jo saatu jonkin verran Koha-Ssuomen ja Kansalliskirjaston muutoksia.
+    • Finna-haku edelleen Hakosalon Jukalla työn alla.
+    • Koitetaan jatkossa tehdä kaikki muutokset plugineilla, jos muutoksen luonne sen vain mahdollistaa. Ei enää Kohan sisäiseen koodiin muutoksia, ellei välttämätöntä.
+    • Vaarassa testissä olevat Suomi.fi Viestit tökkineet edelleen jonkin verran viime aikoina. VRK:n päässä ollut joitain virheitä. Ei kuitenkaan henkilökunta raportoinut nyt mitään uutta virhettä. Käyttöönotto alkuvuonna, tuskin tulee olemaan kovin suosittu asiakkaiden keskuudessa kömpelyyden vuoksi. Kaikkiin kimppoihin on asennettu tarvittavat koodit, mutta käyttöönotto vaatii VRK:n kanssa sopimuksen. Suvi Joensuusta osannee auttaa.
+    • Oulun eteläinen alue selvittelemässä yhteisen kimpan perustamista, myös Ari ollut selvitystyöntekijään yhteydessä.
+    • Vaskissa tehdään Kohan käyttöönottopäätös tammikuussa. Jos Koha päätetään ottaa käyttöön, niin käyttöönottoprojekti alkaa lähes heti.
+
+### 3. Tikettien tilanne
+
+Keväällä päätettiin, että otetaan tiketti 65 (rinnakkaisvaraus) ja tiketti 3068 (logitustiedon korjaus) työnalle. Ne ovat kehittäjillä työnalla, mutta ihan helposti ne eivät näytä ratkeavan. Outissa on ollut toivetta ennakkorekisteröinnin saamisesta Finnan kanssa toimimaan (Kehitysehdotus 1030). Tällainen toiminto on tulossa Finnan ja Alman välille. Kohassa se vaatiin toiminnon lisäämistä REST-rajapintaan. Ennakkorekisteröinti nopeuttaisi uusien asiakkaiden tekoa. Keskustellaan olisiko tämä sellainen asia, joka lisätään kehittäjien työlistalle.
+
+    • Pasi Kallinen vie rinnakkaisvarausjuttua eteenpäin.
+    • Kansalliskirjaston pääkehittäjä Joonas Kylmälä pyytänyt, että koodimuutokset tarkistetaan toisen kehittäjän toimesta ennen kuin viedään tuotantoon. Hidastaa vähän koodin läpipääsyä meidän tuotantoon, mutta varmistaa, ettei läpi pääse virheellistä koodia. Tämä on tärkeää varsinkin tieteellisille kirjastoille, jotka käyttävät Koha-Suomen master-versiota ”tuotantoversiona”. Koha-Suomella on erikseen tuotantoversio.
+    • Puhuttiin tiketistä https://tiketti.koha-suomi.fi/issues/2878 ja Ari pohtii kehittäjien kanssa, saisiko yhteisöstä tähän korjauksen. Ongelma vaikuttaa ikävästi mm. siihen, että asiakkaat saavat uuden eräpäivän kotikirjaston eikä lainaavan kirjaston eräpäiväkalenterin mukaisesti. Lisäksi vaikuttaa lainatilastoihin.
+
+### 4. Päätetään asiakkaan nimen näyttämisestä lainausnäytöllä
+
+Viime kokouksessa keskusteltiin asiakkaan nimen näyttämisestä. Tilanne meni kimppojen osalta silloin tasan. Keskustellaan asiasta ja tehdään keskustelun jälkeen päätös asiasta.
+
+    • Vaara, Lumme, Kyyti, Vaski haluaa nimen näkyviin
+    • Helle, OUTI, Lappi ei halua nimeä näkyviin
+    • Päätös: Nimi laitetaan näkyviin lainaus-näytölle. Muutos tehdään heti kun ehditään.
+
+### 5. Muut asiat
+
+    • ei muita asioita
+
+### 6. Seuraava kokous
+
+    • sovitaan, kun hallituksen kokousaikataulu on selvillä.
+
+
 ## Koha-Suomi asiantuntijaryhmän kokous 6/19 
 			
 Kokousaika: ma 4.11.2019 klo 13.00 jitsi-kokous
