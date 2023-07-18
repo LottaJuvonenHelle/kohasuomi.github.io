@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29 esityslista
 
 Aika: 17.7.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski)
+Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset asiat:**
 
@@ -39,6 +39,10 @@ Etelästä pohjoiseen
 **Vaski**
 * Kohassa katko ma 17.7., johtui samasata messages_queue -taulun lukittumisesta kuin viime keskiviikonkin katko Vaskissa.
 * Noutomuistutuksen lähetyksestä poistettu email-pakotus, jotta saatiin lähetys noudattamaan asiakkaan viestiasetuksia. Ennen muutosta noutomuistutus lähti kaikille asiakkaille, joilla oli sähköposti, asia tuli ilmi kun tästä tuli asiakaspalautetta.
+
+**OUTI**
+* Koha Offline -työpöytäsovellus aiheuttanut henkilökunnassa hämmennystä, kun samassa kirjastossa eri asiakaspalvelupisteissä sovellusta käyttäville on tullut näkyviin toistenkin virkailijoiden offline-lainat. Testauksessa huomattu, että kun lataa tiedoston Kohaan, niin saman kirjaston offline-lainat näkyvät kaikille. Ne voivat näkyä "Odottavat yhteydettömän tilan toimet" -linkin takana tai siinä vaiheessa, kun lähettää yhteydettömän tilan lainaustiedoston eli klikkaa "Lähetä yhteydettömän tilan lainaustiedosto (*.koc)" -linkkiä ja etenee koko matkan ”Näytä käsittelyä odottavat yhteydettömän tilan tapahtumat”-linkkiin asti ja klikkaa sitä. Todettu siis ominaisuudeksi, joka hoituu ohjeen päivittämisellä ja siitä tiedottamisella.
+* Muuten rauhallista, normaalia tukitoimintaa.
 
 ## Viikko 28 muistio
 
