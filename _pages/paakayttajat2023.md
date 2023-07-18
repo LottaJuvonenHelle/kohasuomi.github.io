@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29 esityslista
 
 Aika: 17.7.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI), Leena Kinnunen (Lappi)
 
 **Yhteiset asiat:**
 
@@ -43,6 +43,12 @@ Etelästä pohjoiseen
 **OUTI**
 * Koha Offline -työpöytäsovellus aiheuttanut henkilökunnassa hämmennystä, kun samassa kirjastossa eri asiakaspalvelupisteissä sovellusta käyttäville on tullut näkyviin toistenkin virkailijoiden offline-lainat. Testauksessa huomattu, että kun lataa tiedoston Kohaan, niin saman kirjaston offline-lainat näkyvät kaikille. Ne voivat näkyä "Odottavat yhteydettömän tilan toimet" -linkin takana tai siinä vaiheessa, kun lähettää yhteydettömän tilan lainaustiedoston eli klikkaa "Lähetä yhteydettömän tilan lainaustiedosto (*.koc)" -linkkiä ja etenee koko matkan ”Näytä käsittelyä odottavat yhteydettömän tilan tapahtumat”-linkkiin asti ja klikkaa sitä. Todettu siis ominaisuudeksi, joka hoituu ohjeen päivittämisellä ja siitä tiedottamisella.
 * Muuten rauhallista, normaalia tukitoimintaa.
+
+**Lappi**
+* Korjattu luettelopohjien osakenttien järjestystä ja poistettu First received date -kentät
+* Yhtä lukuunottamatta Lapin Redminen tiketit käyty läpi, siirretty Githubiin tai suljettu. 
+* Edelleen rästiin jääneiden tehtävien hoitoa
+* Vuoronvaihto: Pia ja Maria palaa lomalta, Leena jää lomalle
 
 ## Viikko 28 muistio
 
