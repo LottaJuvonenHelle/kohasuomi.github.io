@@ -9,6 +9,7 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmä 2021'
 ---
 
+
 ## Esityslista 7/21
 
 *Aika*: 15.9.2021 klo 14.00-15.30<br />
@@ -158,8 +159,6 @@ Aihe-ehdotuksia:
 * Tehdään Redmineen koonti kimppojen pääkättäjäresursseista.
 * Seuraava kokous 25.8. klo 9.15 (Finna-asiat)
 
----
-
 ## Muistio 4/21
 
 *Aika:* 12.4.2021 klo 9.15<br />
@@ -223,7 +222,7 @@ Yksi vanhimmista kehitysehdotuksista. [Asia on edennyt yhteisöversiossa](https:
 
 ### 5. Pääkäyttäjien vuosisuunnitelma
 
-Käydään läpi "Pääkäyttäjien vuosisuunnitelma":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2021#Viikko-10-muistio.
+Käydään läpi [Pääkäyttäjien vuosisuunnitelma](https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2021#Viikko-10-muistio).
 
 **Päätös:** Vuosisuunnitelma hyväksyttiin
 
@@ -268,7 +267,7 @@ Melinda, koulutukset todennäköisesti huhtikuussa. Konesali toivottavasti maali
 
 * Miksi meillä on varaustunnus othernames-kentässä? Skeeman mukaan kenttään laitetaan "any other names associated with the patron/borrower", mikä toki voi tarkoittaa myös varaustunnusta, jos oikein laajasti asiaa ajattelee. Mutta, voisiko sen sijaan käyttää erillistä asiakasmäärettä, jonka saa Kohan omien toimintojen avulla uniikiksi? Yhteisössä othernames-kenttä ei ole uniikki, se on Koha-Suomessa määritetty tietokantatasolla. RESTin kannalta on myös sama ongelma kuin puhelinnumerojen kanssa, ulkopuolinen ei voi tietää, että othernames sisältää varaustunnuksen eikä asiakkaan nimitietoja. 
 * Onnistuu: Varaustunnuksen pystyy(nee?) generoimaan myös asiakasmääreeseen, määre on haettavissa, sen voi määrittää näkyville brief informationiin ja lainaukseseen/tiedot-sivulle, sen voi määrittää muokattavaksi opacissa, uudemmassa versiossa sen voi määrittää pakolliseksi, sen saa tulostumaan kuitteihin/viesteihin (HOLD/HOLDSLIP).
-* Ongelmia: asiakasmääreet ei kulje esim. Finnaan RESTin kautta, asiakasmääreiden muutokset eivät lokitu ("Tiketti bugzillassa":https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26744), näkyvyys varauspopparissa (Koha-Suomen tekemä muutos)
+* Ongelmia: asiakasmääreet ei kulje esim. Finnaan RESTin kautta, asiakasmääreiden muutokset eivät lokitu ([Tiketti bugzillassa](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=26744)), näkyvyys varauspopparissa (Koha-Suomen tekemä muutos)
 
 **Päätös:** Edistetään hiljalleen. Otetaan käyttöön, kun ongelmat ratkaistu.
 
@@ -332,7 +331,7 @@ Onko tarvetta Finna-yhteispalaveriin?
 * missä mennään?
 * Ari on yhteydessä Erkkiin, pyritään saamaan palaveri huhtikuulle. Kerätään sitä ennen mahdolliset uudet ehdotukset.
 
-Finna aineistyyppien Koha auktorisoidut arvot: Moduli aineistotyyppien määrittämiseksi kuvailutietueille on nyt testissä. Osa Finnan aineistotyypeistä on kuitenkin hyvin pitkiä (esimerkiksi ContinuouslyUpdatedResource) ja Koha taas sallii auktorisoiduille arvoille vain 10 merkkiä. Finna-aineistotyypit täytyy siis mielekkäällä tavalla lyhentää, jotta ne soveltuvat käytettäviksi Kohan auktorisoitujen arvojen koodeina. Koodien selitteet voivat olla halutun muotoisia ("Jatkuvasti päivittyvä resurssi" tms) ja selitteitä käytetään liittymässä suurimmassa osassa näyttöjä, mutta esimerkiksi ccl-haussa käytetään koodeja. Sen vuoksi myös koodien on syytä olla sellaisia, että ccl-haut aineistotyypeillä onnistuvat tuskattomasti (esimerkiksi itype:CUR vs ITYPE:CONUPDRESO). Millaisia ajatuksia asiantuntijaryhmällä on koodien suhteen? Esimerkki Vaski-kirjastojen kuvailutietueiden konversiossa saamista aineistotyypeistä löytyy täältä: https://pastebin.com/RLveU81s  - Kodo/Koha-Suomi
+Finna aineistyyppien Koha auktorisoidut arvot: Moduli aineistotyyppien määrittämiseksi kuvailutietueille on nyt testissä. Osa Finnan aineistotyypeistä on kuitenkin hyvin pitkiä (esimerkiksi ContinuouslyUpdatedResource) ja Koha taas sallii auktorisoiduille arvoille vain 10 merkkiä. Finna-aineistotyypit täytyy siis mielekkäällä tavalla lyhentää, jotta ne soveltuvat käytettäviksi Kohan auktorisoitujen arvojen koodeina. Koodien selitteet voivat olla halutun muotoisia ("Jatkuvasti päivittyvä resurssi" tms) ja selitteitä käytetään liittymässä suurimmassa osassa näyttöjä, mutta esimerkiksi ccl-haussa käytetään koodeja. Sen vuoksi myös koodien on syytä olla sellaisia, että ccl-haut aineistotyypeillä onnistuvat tuskattomasti (esimerkiksi itype:CUR vs ITYPE:CONUPDRESO). Millaisia ajatuksia asiantuntijaryhmällä on koodien suhteen? [Esimerkki Vaski-kirjastojen kuvailutietueiden konversiossa saamista aineistotyypeistä löytyy täältä](https://pastebin.com/RLveU81s)  - Kodo/Koha-Suomi
  
 **Päätös:** Valtuutetaan pääkäyttäjäryhmä valitsemaan arvojen lyhenteet. Pyydetään Kodolta tarkemmat reunaehdot (voiko olla esim. suomenkielinen lyhenne). Tehdään päätökset 23.2.2021 pääkäyttäjäpalaverissa.
 
@@ -362,7 +361,7 @@ Versiopäivityksen osalta ensimmäiset tiketit vastuutettu kehittäjille pitkäl
 
 Sotu-siilon käyttö vaatii paljon Koha-Suomi spesifiä koodia ja on siksi isotöinen ylläpitää. Jos hetut olisi mahdollista tallentaa Kohaan, mutta pitää piilotettuina siten, etteivät ne näy virkailijoille, vähentäisi se koodin ylläpitotarvetta ja mahdollistaisi Hetun käytön erilaisissa käyttötarkoituksissa. Samaan aikaan se heikentää tietoturvaa sikäli, että vaikka hetut olisivat piilotettuina Kohassa, ovat ne silti samassa järjestelmässä kuin muutkin asiakastiedot.
 
-Ajatus pohdiskeluun lähti tästä: https://tietosuoja.fi/-/henkilotunnusta-ei-saa-nykyisinkaan-kayttaa-tunnistamiseen-tiukennuksia-on-kuitenkin-harkittava ja sivulla oleva linkki lausuntoon (siellä kohdassa V kerrotaan, että henkilötunnus ei ole salassa pidettävä tieto).
+Ajatus pohdiskeluun lähti tästä: [Henkilötunnusta ei saa nykyisinkään käyttää tunnistamiseen](https://tietosuoja.fi/-/henkilotunnusta-ei-saa-nykyisinkaan-kayttaa-tunnistamiseen-tiukennuksia-on-kuitenkin-harkittava) ja sivulla oleva linkki lausuntoon (siellä kohdassa V kerrotaan, että henkilötunnus ei ole salassa pidettävä tieto).
 
 Jatketaan tästä keskustelua.
 
@@ -377,7 +376,7 @@ Tuomas laittaa Finna-toimistoon ehdotuksen Koha-kirjastojen puolesta, että mobi
 
 ### 4.	Muut asiat
 
-Tietojen säilytysajat pohdinnassa pääkäyttäjillä, niistä pitänee tehdä päätös myös asiantuntijaryhmässä. Yhteinen päätös olisi paras vaihtoehto. https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat
+Tietojen säilytysajat pohdinnassa pääkäyttäjillä, niistä pitänee tehdä päätös myös asiantuntijaryhmässä. Yhteinen päätös olisi paras vaihtoehto. [Tietojen säilytysajat](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tietojen_s%C3%A4ilytysajat)
 
 Päätös: Pääkäyttäjät tekevät ehdotuksen ja asiantuntijaryhmä tekee varsinaisen päätöksen. Otettava huomioon mm.
 * kirjanpitolaki, maksuihin liittyvät säilytettävä ainakin 6 v
