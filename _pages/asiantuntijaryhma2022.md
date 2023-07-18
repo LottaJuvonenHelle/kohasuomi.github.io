@@ -9,7 +9,9 @@ toc: true
 title: 'Koha-Suomen asiantuntijaryhmä 2022'
 ---
 
-Koha-Suomen asiantuntijaryhmän kokoukset vuonna 2022.
+Tältä sivulta löydät Koha-Suomen asiantuntijaryhmän vuoden 2022 muistiot. Uusin muistio on aina ylimmäisenä.
+
+Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Katja Valjakka (Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot). Koha-Suomesta mukana on puheenjohtajana Ari Mäkiranta ja asiantuntijoina Anneli Österman ja Kodo Korkalo.
 
 ## Muistio 9/22
 
