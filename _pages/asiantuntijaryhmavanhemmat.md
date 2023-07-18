@@ -10,6 +10,230 @@ title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
 
+## Koha-Suomi asiantuntijaryhmän kokous	10/20 
+			
+Kokousaika: 14.12.2020 klo 9.15
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Asko Autio (Vaski), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Katja Valjakka (Lumme), Anneli Österman (OUTI, Koha-Suomi)
+
+Poissa: Noora Valkonen (OUTI)
+
+### 1. Arin tilannekatsaus
+
+Yhteisen palvelinsalikokonaisuuden kilpailutus on auki ja se päättyy 8.1.2021. 
+
+Vaskissa toinen konversiokierros on menossa ja projekti etenee hyvin. 
+
+Kyytissä hajosi toinenkin Raid-ohjain la 28.11. Koha oli pois käytöstä 9-15.30.
+
+Heinäveden konversio ja käyttöönotto siirretään kuukaudella eteenpäin, koska konversiotyökalussa on vika.
+
+Kokeillaan kehittäjien kanssa päivystystä pareittain. Päivystys arkisin 8-16, viikonloppuisin ja iltaisin ei ole päivystystä.
+
+Versiopäivityksen osalta ensimmäiset tiketit vastuutettu kehittäjille.
+
+### 2. Sotu-siilo
+
+Sotu-siilon käyttö vaatii paljon Koha-Suomi spesifiä koodia ja on siksi isotöinen ylläpitää. Jos hetut olisi mahdollista tallentaa Kohaan, mutta pitää piilotettuina siten, etteivät ne näy virkailijoille, vähentäisi se koodin ylläpitotarvetta ja mahdollistaisi Hetun käytön erilaisissa käyttötarkoituksissa. Samaan aikaan se heikentää tietoturvaa sikäli, että vaikka hetut olisivat piilotettuina Kohassa, ovat ne silti samassa järjestelmässä kuin muutkin asiakastiedot.
+
+Ajatus pohdiskeluun lähti tästä: https://tietosuoja.fi/-/henkilotunnusta-ei-saa-nykyisinkaan-kayttaa-tunnistamiseen-tiukennuksia-on-kuitenkin-harkittava ja sivulla oleva linkki lausuntoon (siellä kohdassa V kerrotaan, että henkilötunnus ei ole salassa pidettävä tieto).
+
+Keskustellaan tästä.
+* Aurorassa hetu piilotettu, näkyy vain tähtiä, kun hetu on tallennettu. Laskuttajilla erilliset tunnukset, joilla näkee hetun. Raporteille ei tule näkymään hetu, jos ei oikeuksia nähdä sitä.
+* huolehdittava, että virheellisen hetun voi myös vaihtaa.
+Päätös: Kaikki keskustelee vielä omassa kimpassa asiasta ja käsitellään uudelleen seuraavassa kokouksessa.
+
+
+### 3. Muut asiat
+
+Lappi: Palauttamattoman aineiston laskutus ja liitännät ulkoisiin talousjärjestelmiin. Mitä suunnitelmia Koha-Suomella?
+
+* Koha-Suomella tarkoitus toteuttaa standardinmukainen Finvoice-tuki. Laskutus/talouhallintojärjestelmien toimittajien tehtävänä sen jälkeen huolehtia data oman järjestelmänsä ymmärtämään muotoon.
+
+Indeksointityöryhmään ilmoitettu seuraavat henkilöt:
+
+* Anna Viitanen (Vaski)
+* Kai Sormunen (Vaara)
+* Antti Heikkinen (OUTI)
+* Taru Savola (Lappi)
+* Anneli Österman (OUTI, Koha-Suomi)
+* Sirpa Janhonen (Varastokirjasto)
+* Satu Niininen (Kansalliskirjasto)
+* Markku Untinen (Helle)
+* Ari Albrecht (Lumme)
+* Katja Valjakka (Lumme)
+
+### 4. Seuraavat kokoukset
+
+Kevään kokousajat:
+
+11.1.2021 klo 10.00, 
+15.2.2021 klo 9.15, 
+15.3.2021 klo 9.15, 
+12.4.2021 klo 9.15, 
+10.5.2021 klo 9.15
+
+## Koha-Suomi asiantuntijaryhmän kokous	9/20 
+			
+Kokousaika: 23.11.2020 klo 9.15
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Asko Autio (Vaski), Kati Sillgren (Helle), Pia Kusmin (Lappi), Katja Valjakka (Lumme), Anneli Österman (OUTI, Koha-Suomi, siht.)
+
+Poissa: Noora Valkonen, Leena Kinnunen
+
+
+### 1. Arin tilannekatsaus
+
+Yhteisen palvelinsalikokonaisuuden alustava määrittely on tehty ja kilpailutusta valmistellaan. 
+
+Vaskissa toinen konversiokierros on menossa ja projekti etenee hyvin. 
+
+Lauantaina 21.11.2020 Kyytin palvelimella hajosi emolevyltä väyliä ja ilmeisesti raid. Kodo aloitti palvelimen palautusta käyttökuntoon jo lauantaina ja kehittäjät jatkoivat maanantaina korjaamista. Kyyti lainauskunnossa ma noin klo 10. Indeksoinnissa jotain puutteita, mutta ongelman selvittelyä jatkettiin.
+
+Heinäveden konversio ja käyttöönotto siirretään ehkä kuukaudella eteenpäin, koska konversiotyökalussa on vika.
+
+Johanna palasi takaisin töihin 19.11.2020 ja ottaa Jukalta Melindan käyttöönoton takaisin vastuulleen.
+
+Oulun Teamsiin perustettu oma tiimi kuvailuryhmän tarpeesta ja selvitetään, meneekö myös pääkäyttäjät sinne. Tiimissä on tarkoitus keskustella ja jakaa tietoa.
+
+### 2. Työryhmien ensi vuoden toiminta ja tavoitteet
+
+Tänä vuonna asiantuntijaryhmän vuosisuunnitelma valmistui keväällä, mutta muiden vasta syksyllä. Aloitetaan ensi vuoden suunnitelmien teko jo tänä vuonna, jotta ne voidaan hyväksyä heti alkuvuonna. Asiantuntijaryhmä valmistelee omansa ja edellyttää muita käynnistämään omiensuunnitelmiensa valmistelun.
+
+Päätös: Anneli ja Antti ottavat työn alle vuosisuunnitelmat pääkäyttäjä- ja kuvailuryhmissä. Ari aloittaa asiantuntijaryhmän suunnitelman tekemisen.
+
+### 3. Indeksointitarpeet Elasticsearchissä
+
+Perustetaan ryhmä, jossa mietitään Elasticsearhcin indeksointitarpeita. Mukaan tarvitaan pääkäyttäjiä, kuvailijoita ja tiedonhakijoita sekä edustajia tieteellisistä Koha-kirjastoista.
+
+Päätös: Perustetaan ryhmä. Pe 4.12.2020 mennessä kimpoista jäsenet tiedoksi Annelille.
+
+
+### 4. Versionvaihto
+
+Versionvaihto-projekti perustettu ja sinne kirjattu ylös kaikki ominaisuudet. Projektista löytyy jatkossa kaikki versionpäivitykseen liittyvä tieto.
+
+Kohan käännösprojekti menossa yhdessä korkeakoulujen pääkäyttäjien kanssa.
+
+### 5. Muut asiat
+
+Ei muita asioita.
+
+### 6. Seuraavat kokoukset
+
+14.12. klo 9.15
+
+Kevään kokousajat:
+
+11.1.2021 klo 10.00, 
+15.2.2021 klo 9.15, 
+15.3.2021 klo 9.15, 
+12.4.2021 klo 9.15, 
+10.5.2021 klo 9.15
+
+
+## Koha-Suomi asiantuntijaryhmän kokous	8/20 
+			
+Kokousaika: 26.10.2020 klo 9.15 ja 2.11.2020 klo 9.15
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Kati Sillgren (Helle), Noora Valkonen (OUTI), Anneli Österman, Emmi Takkinen, Pasi Korkalo, Anni Rajala (Vaski, 2.11.2020)
+
+Poissa: Noora Valkonen
+
+
+### 1. Versiovaihdon valmistelu
+
+Liitteenä on Annelin ja Arin yhteenveto kommentoitavana olleista ominaisuuksista. Kävimme listan läpi myös kehittäjien kanssa ja Emmi Takkinen ja Pasi Korkalo osallistuvat kokoukseen. Käydään listasta keskustelua.
+
+Liite: [Versiovaihto.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12079381/Versiovaihto.xlsx)
+
+Päätös: Päästiin Laina- ja maksusääntöihin 26.10.2020. Jatkettiin ominaisuuksien käsittelyä ma 2.11.2020 klo 9.15 Teamsissä. Päätökset kirjattu liitteenä olevaan Versiopäivitys-taulukkoon. Anneli kirjaa ne myös Redmineen keskustelupalstalle jokaisen ominaisuuden kohdalle ja tekee uutisen aiheesta Redmineen.
+
+### 2. Editx-hankinta
+
+Kirjastoissa EditX-määrittelyissä on yhä ongelmia. Itse rajapinta toimii oikein, mutta, kun määrittelyt on tehty joko kirjastoissa tai toimittajan järjestelmässä väärin, tulee paljon ongelmia, jotka työllistävät kehittäjiä liikaa. Keskustellaan tästä.
+
+Tulossa muutoksia: Epäonnistuneet sanomat siirretään seitsemän päivän ajan uudelleenkäsiteltäviksi, jolloin pääkäyttäjillä on viikko aikaa selvittää ongelma (lisätä puuttuvat tilit, toimittajat, olla yhteydessä sanoman toimittajaan yms.). Virheraportit lähetetään jatkossa vain pääkäyttäjille ja jos ongelma ei ole pääkäyttäjän tai toimittajan korjattavissa, niin vasta sitten ollaan yhteydessä kehittäjiin.
+
+### 3. Muut asiat
+
+Oulussa ja Jyväskylässä menossa Moda-hanke, jossa tutkitaan, miten voitaisiin toteuttaa sähköinen rekisteröityminen asiakkaaksi.
+
+### 4. Seuraavat kokoukset
+
+23.11. klo 9.15, 14.12. klo 9.15
+
+## Koha-Suomi asiantuntijaryhmän kokous	7/20 
+			
+Kokousaika: 28.9.2020 klo 9.15-. Jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: 
+
+Ari Mäkiranta (Koha-Suomi Oy, pj.),
+Helle: Kati Sillgren, 
+Kyyti: Tuomas Kunttu, 
+Lappi: Leena Kinnunen, 
+Lumme: Katja Valjakka, 
+Outi: Anneli Österman (vara),
+Vaara: Päivi Knuutinen, 
+Vaski: Susanna Sandell, 
+
+
+### 1. Arin tilannekatsaus
+
+Kunnilta odotetaan enää Turun vastausta ja jos sielläkään ei nähdä estettä yhteiseen konesaliin siirtymiselle, voidaan aloittaa kilpailutuksen valmistelu. Tieteellisten kirjastojen versionvaihto on täydessä vauhdissa ja kaksi ensimmäistä on jo tuotannossa. Jatkossa kirjastoja siirretään uuteen versioon joka viikko. Vaskissa on päästy ensimmäisen koekonversion tekemiseen.
+
+[Tieteellisten versiovaihtoa voi seurata täältä](https://www.kiwi.fi/display/KK/Update+schedule+and+progress+tracking)
+
+### 2. Palvelinkartoitus
+
+Kunnilta odotetaan enää Turun vastausta ja jos sielläkään ei nähdä estettä yhteiseen konesaliin siirtymiselle, voidaan aloittaa kilpailutuksen valmistelu.
+
+Päätös: Kaikille kimpoille on alustavien tietojen mukaan ok, että mennään yhteiseen konesaliin. Odotellaan vielä viimeisiä virallisia vahvistuksia ennen kuin asiaa edistetään.
+
+### 3. Versiovaihdon tilanne
+
+Anneli piti pääkäyttäjäryhmässä esityksen mahdollisesta muutoksesta aineistolajien käyttötapaan ja se on herättänyt jo jonkin verran keskustelua. Keskustellaan tästä lisää ja katsotaan samalla versionvaihdon kommentoinnin tilannetta yleisesti
+
+Päätös: Kaivattiin konkreettista tapaa testata ja miettiä ehdotusta. Päätettiin tehdä asiantuntijoille käyttäjätunnukset Vaskin testiin, koska se on anonymisoitu tietokanta ja siellä on valmiina Vaskin konversion vuoksi ehdotuksen malliset aineistolajit.
+
+Anneli ja Korkalon Pasi ovat pohtineet, miten aineistolaji saadaan helpommin mukaan esim. viesteihin, lainatietoihin ja siihen on ehdolla parikin erilaista ratkaisua. Aineistolajitieto voidaan kytkeä luettelointietoihin 942c-kenttään, josta se päätyy myös biblioitems-tauluun, josta se on käytettävissä helposti myös esim. raporteille, viestipohjille yms.
+
+### 4. Pääkäyttäjä- ja kuvailuryhmien vuosisuunnitelmien hyväksyminen
+
+Suunnitelmat liitteenä. Käydään ne vielä läpi.
+
+Pääkäyttäjät: ei lisättävää, hyväksytään [pääkäyttäjät_tehtävät.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12079364/paakayttajat_tehtavat.docx)
+
+Kuvailijat: ei lisättävää, hyväksytään [Kuvailuryhmän tehtävät.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12079366/Kuvailuryhman.tehtavat.docx)
+
+
+### 5. Koha-webinaari
+
+Koha-webinaari 2.10.2020. Annelin esitys on liitteenä. Webinaariin on jo noin 100 ilmoittautunutta.
+
+
+### 6. Tilastointi
+
+Tilastointiin liittyen kimpoissa on ollut suunnitelmia sen automatisoinnista ja erilaisia projekteja on suunniteltu. Keskustellaan tästä ja miten tilastoinnin kanssa edetään.
+
+Päätös: Perustetaan tilastointitarpeita ja perusteita kartoittava työryhmä. Arilla on valmiina lista ehdokkaista.
+
+### 7. Muut asiat
+
+Helle-kimppa tarvitsee Tätiin uuden aineistolajin e-elokuva, jotta Kirjastopalvelulta saadaan tuotua Viddlan elokuvien kuvailutietueet. Muilla ei ole aineistolajille tarvetta, mutta sen lisääminen sopii muille kuvailuryhmän jäsenille.
+
+Päätös: Asiantuntijaryhmälle sopii uuden aineistolajin lisääminen, joten Tätiin lisätään aineistolaji e-Elokuva lyhenteellä ELEFFA.
+
+### 8. Seuraavat kokoukset
+
+26.10. klo 9.15, 23.11. klo 9.15, 14.12. klo 9.15
+
+
 ## Koha-Suomi asiantuntijaryhmän kokous	4/20 
 			
 Kokousaika: 20.4.2020 klo 9.15-. jitsi-kokous
