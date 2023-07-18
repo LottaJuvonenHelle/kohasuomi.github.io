@@ -10,6 +10,103 @@ title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
 
 
+## Koha-Suomi asiantuntijaryhmän kokous	4/19 
+			
+kokousaika: 9.5.2019 klo 13.15 jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara) Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Anneli Österman (OUTI), Maarit Tuomisto (Helle)
+Poissa: 
+
+### 1. Asiantuntijaryhmän vuosisuunnitelma
+
+Käytiin suunnitelmaluonnos läpi. Sovittiin, että Ari lisää siihen kaikki strategiset tavoitteet. Erityisesti osaamisen kehittämiseen liittyvät tavoitteet koskettavat kaikkia Koha-Suomen ryhmiä. 
+
+
+### 2. Arin tilannekatsaus
+
+Kevään aikana on tehty tietokantakorjaus Helteessä ja nyt se alkaa olla valmis Finnaa varten. Suomi.fi viestien integrointi kohaan on myös käynnistetty. Melinda-integraatiossa on menossa replikoinnin testaus. Automaateilla palautetun varatun aineiston viestien viivästys testattiin Lapin kirjastoissa ja kun ongelmia ei ollut, on muutos viety kaikkiin kimppoihin.
+
+
+### 4. Koha-seminaarin valmistelu
+
+Käytiin läpi ohjelmaluonnos ja todettiin se lähes valmiiksi. Puhujat laittavat Arille otsikot 17.5. mennessä. Susanna tekee ilmoittautumiskyselyn, kun Ari on laittanut siihen tarvittavan aineiston. Ilmoittautuminen avataan toukokuun lopussa.
+
+
+### 5. Kehityskohteinen priorisointi
+
+Käytiin läpi Tikettilistaus ja arvotettiin ne skaalalla 1-3 (1 tärkein, 3 ei kiireellinen). Tässä vaiheessa kiireellisiksi katsottiin tiketti 65 (rinnakkaisvaraus) ja tiketti 3068 (logitustiedon korjaus). Ryhmä piti tärkeänä, että tikettien käsittely voitiin viimein aloittaa.
+
+### 6. Muut asiat
+
+Seuraava kokous
+Keskiviikko 14.8. klo 9.15
+
+
+
+
+
+## Koha-Suomi asiantuntijaryhmän kokous 3/19 
+			
+kokousaika: 29.3.2019 klo 9.30 jitsi-kokous
+https://meet.jit.si/adminsuomikoha
+
+Kuulolla: Leena Kinnunen (Lapin kirjasto), Tuomas Kunttu (Kyyti), Ari Mäkiranta (Koha-Suomi), Päivi Knuutinen (Vaara) Susanna Sandell (Vaski), Pirjo Sapman (Lumme), Anneli Österman (OUTI), 
+Poissa: Maarit Tuomisto (Helle)
+
+### 1. Finna
+
+Keskusteltiin Koha-kirjastojen kehitystoiveista yhdessä Kansalliskirjaston kehitystiimin kanssa. Käytiin läpi asiantuntijaryhmän laatima Finnan kehittämistaulukko tärkeimmistä vähiten tärkeisiin. 
+
+Sovittiin, että niistä laaditaan käyttötarvekuvaukset, jotka helpottavat Finnan kehittäjiä hahmottamaan mitä tahdomme toivotuilla muutoksilla. Lähetämme myös asiakaspalautteet Kansalliskirjastoon, jotta he saavat kuvan, mitä loppukäyttäjät toivovat.
+Sovittiin, että pidämme vastaavat katsaukset kaksi kertaa vuodessa. Seuraava on ensi syksynä.
+
+### 2. Kimppojen kuulumiset
+
+Kyyti: Verkkomaksaminen ja varaustunnisteiden anonymisointi otettiin käyttöön 19.3. Verkkomaksamisen asiakkaat ovat ottaneet hyvin vastaan ja maksuja on jo ensimmäisen viikon aikana maksettu runsaasti. 
+Varaustunnisteiden anonymisointikin meni aika hyvin, tosin varaustunnisteet, jotka oli vaihdettu muutamia päiviä ennen muutosajoa vaihtuivat kuitenkin numeerisiksi.
+
+
+Lumme:  Finna käytössä, saatu joitakin asiakastoiveita liittyen asiakastoimintoihin (joista suuri osa sisältyy Koha-kirjastojen yhteistoiveisiin).
+genrejen näkyminen Finnan kautta hämmentää: osassa Lumme-tietueita genret näkyvät Lumme-finnassa, osassa ei! Varkauden Tiina P. selvittää, mistä erot johtuvat.
+ Lumme-kannan av-tietueita korjataan: 2016 Lumme-kimpassa pidettiin varausjonot kirjastokohtaisina, koska kuljetussopimusta ei ollut. Tästä johtuen kannassa on edelleen paljon rinnakkaisia av-aineiston tupla- ja triplatietueita, joiden yhdistäminen ja korjaaminen työllistää.   
+verkkomaksamisen käyttöönotto tod.näk. toukokuussa: aiheuttaa muutoksia Lumpeiden huomautuskäytäntöihin ja aineistokorvausten perintään; vaatii käyttösääntöjen uudistamisen tältä osin kaikissa kimpan kirjastoissa.
+Heinäveden kirjasto pysyy Lumpeissa ainakin kuluvan vuoden ajan.
+
+
+OUTI: laskutusjärjestelmän muutosta selvitellään edelleen.
+Pasi tuonut testille uudemman version sip2-palvelimen koodista ja sitä on testailtu viestin lähetyksen viivästyksen lisäksi.
+tietoliikennekatkot ja -hidastelut aiheuttaneet outouksia. 
+tietoturva-asiat mielessä, pitäisikö esim. lähestyvästä eräpäivästä ilmoittavasta viestistä poistaa kirjastokortin numero?
+pääkäyttäjät tehneet henkilökunnalle, esimiehille ja itselleen uuden ohjeistuksen käyttäjätunnusten tilaamisesta, käsittelystä ja toimittamisesta. Julkaistu pe 29.3.2019.
+
+Vaara:  varaustunnisteen anonymisointi tuotantoon 15.4.
+Editx käytössä Kirjastopalvelun tilauksissa, Kirjavälitykselle saatu juuri testaukseen. Hankintaportaalin käyttöönotto odottaa lisää OUTIn kokemuksia, ei vielä ryhdytä toimenpiteisiin Vaarassa
+
+### 3. Arin tilannekatsaus
+
+Joensuu sai avustusta Suomi.Fi viestien toteutukseen, Koha-Suomi tekee työn Kohan osalta. Vaara toimii silloin pilottina. Melinda integraatio etenee Kohan päässä hyvin, mutta kansalliskirjastolla on kiireinen kevät, joten käyttöönotto tapahtuu alkusyksystä. Tätä ennen pidetään vielä luettelijoille koulutus.
+Kävin Ruotsin Koha-ryhmän seminaarissa esittelemässä meidän malliamme, joka herätti kiinnostusta. Ruotsissa Koha-kirjastot ovat eivät ole järjestäytyneet muutoin, kuin muodostamalla käyttäjäryhmän, jolla on ohjausryhmä, mutta muuten kirjastot toimivat itsenäisesti. Ruotsissa on kaksi yritystä joilta kirjastot ostavat Kohaan liittyviä palveluita. Heidän Kohansa on hyvin lähellä kansainvälistä versiota. Keskustelimme yhteistyöstä ja uskon, että se tulee jatkossa tiivistymään.
+
+
+### 4. Koha-seminaarin valmistelu
+
+Käytiin läpi seminaarijärjestelyjen tilanne ja ehdotukset aiheista ja puhujista.  Ruotsin tapaamisessa ei noussut uusia puhujaehdokkaita, joten päätettiin, että kimpoilta tulee lyhyet esitykset ehdottamistaan aiheista ja Ari Kysyy Kansalliskirjastosta puhujaa ketterästä kehityksestä..
+
+
+
+### 5. Kehityskohteinen priorisointi
+
+-Laskutuksen integraatiot: Ainakin Oululla ja Mikkelillä on kaupunkien laskutusjärjestelmä muuttumassa. Osalla ei ole integraatiota ollutkaan.
+-Ceepos integraatiot (Lappi, LUMME? onko muita tulossa?)
+-Lappi pilotoi lainausautomaatteihin liittynyttä noutoilmoitusvirheen korjausta. Jos ongelmia ei ilmene, ajetaan se kaikkiin asennuksiin.
+-Tilastomodulin jatkokehitys
+
+### 6. Muut asiat
+
+siirrettiin huhtikuun kokous pidettäväksi 9.5. kello 13.15
+
+
 ## Koha-Suomi asiantuntijaryhmän kokous 2/19 
 			
 kokousaika: 18.2.2019 klo 9.15 jitsi-kokous
