@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29 esityslista
 
 Aika: 17.7.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Anni Rajala (Vaski)
 
 **Yhteiset asiat:**
 
@@ -36,6 +36,8 @@ Läsnä:
 
 Etelästä pohjoiseen
 
+**Vaski**
+* Kohassa katko ma 17.7., johtui samasata messages_queue -taulun lukittumisesta kuin viime keskiviikonkin katko Vaskissa.
 
 ## Viikko 28 muistio
 
