@@ -490,7 +490,7 @@ Tiketit käyty läpi ja vastuutettu kehittäjille. Seuraavaksi aikataulutetaan k
 
 #### 4.1 Aineiston korvaushinnat alvittomiksi.
 
-verottajan mukaan korvaus kadonneesta/tuhoutuneesta aineistosta on arvonlisäverotonta: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48609/vahingonkorvaus_ja_vahingonkorvauksen_l/
+Verottajan mukaan korvaus kadonneesta/tuhoutuneesta aineistosta on [arvonlisäverotonta]( https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48609/vahingonkorvaus_ja_vahingonkorvauksen_l/)
 
 Tässä vielä tuo KHO:n päätös korvaushintojen alvittomuudesta:
 
@@ -514,7 +514,6 @@ Keskusteltiin kirjeviestien lähetyksestä ja siitä, että se kannattaisi tehd�
 
 Seuraava kokous 23.2.2022 klo 9.15.
 
----
 
 ## Tiekarttakokoukset
 
