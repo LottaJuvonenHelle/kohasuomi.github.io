@@ -8,6 +8,163 @@ header:
 toc: true
 title: 'Koha-Suomen asiantuntijaryhmän vanhemmat muistiot'
 ---
+
+
+## Koha-asiantuntijaryhmän kokous 2/2017 
+
+Aika:	13.2. klo 9 - 9.40
+
+Paikka:	Lync
+
+Läsnä:	Noora Valkonen	(puh.joht.)<br />
+Leena Kinnunen, Lappi<br />
+Tuomas Kunttu, Kyyti<br />
+Ari Mäkiranta, Vaara<br />
+Susanna Sandell, Turku<br />
+Maarit Tuomisto, Helle<br />
+Pirjo Sapman, Lumme	(siht.)<br />
+
+Käsitellyt asiat
+
+### 1. Kuulumiset kimpoista:
+
+Käytiin lyhyt kuulumiskierros. Lapissa Kohan käyttöönoton aikataulua joudutaan kiirehtimään. Kimpan kirjastojen nykyjärjestelmien käyttösopimukset päättyvät huhti-toukokuussa. Kemin konversion tekee Johanna Räisä. Lapin testikanta aukeaa tällä viikolla.
+
+Turussa käynnistyy it-projekti, jossa selvitetään Kohan soveltuvuus Turun ja muiden Aura-kirjastojen järjestelmäksi. Ulla-Maija Maunu on puheenjohtajana projektin ohjausryhmässä.   
+
+Lumme-kirjastoissa Editx-pilotointi seisoo edelleen. Btj ei ole pyynnöistä huolimatta toimittanut tehtyjä testitilauksia Mikkelin palvelimelle.
+Lumme-kirjastojen automaattien yhteydet pätkivät edelleen. Johanna R. selvittelee syytä yhteistyössä Disecin kanssa.  Lumme-kirjastojen suhtautuminen verkkomaksamiseen kartoitettavana. 
+
+Helle-kirjastot ovat solmineet käyttöpalvelusopimuksen Kuntien Tieran kanssa. Kansalliskirjaston kanssa on laadittu konversiosäännöt, joita aletaan testaamaan Helle-kannoissa kevään kuluessa. Helle-kirjastojen on tarkoitus ottaa käyttöön Koha toukokuussa. Kirkkonummi on jättäytynyt pois Helle-kirjastoista josta johtuen rahoituskuviot on mietitty uusiksi.     
+	
+Kyytin kuulumiset jäivät tässä yhteydessä kuulematta yhteysongelmien takia.
+
+### 2.	Arin tilannekatsaus
+
+Arilla on Btj:n kanssa palaveri / neuvottelu / tapaaminen, jossa otetaan myös EditX -pilotin eteneminen puheeksi.  Kyytissä oli ollut jotain indeksointiongelmia viikonlopun aikana, jolloin Johanna R. oli hälytetty töihin selvittämään tilanne. Samanlainen ongelma oli tullut esiin myös Vaara-kirjastoissa seuraavalla viikolla. 
+
+Kehittäjillä on tarkoitus kokoontua helmikuussa paripäiväiseen hackfestiin Helsinkiin miettimään versiopäivitystä.   
+
+### 3. Koha-Suomen hallitus kokoontui 3.2.2017. 
+
+### 4. Sisällönkuvailuryhmässä ja asiantuntijaryhmässä työstetty aineistolajiehdotus on
+
+hyväksytty hallituksessa 3.2.17.
+ 
+Asiantuntijaryhmän on toivottu jatkavan yhtenäistämistyötä aineistolajilogojen yhdenmukaistamisella. Asiantuntijaryhmän pitäisi laatia esitys ohjausryhmälle. 
+
+Keskusteltiin yhtenäistämisen tarpeellisuudesta. Mietittiin, onko aineistolajilogoja ja/tai kuvia ylipäätään pakko käyttää kirjastojen asiakaskäyttöliittymissä. 
+
+Hallitus toivoo myös asiakaslajien, hyllypaikkojen ja kokoelmien yhtenäistämistä Koha-Suomen kirjastoissa. 
+
+Asiasta keskusteltiin ja pohdittiin, miksi yhtenäistämistä pidetään hallituksessa tärkeänä valtakunnan tasolla kirjastojen kesken. Ari lupasi selvitellä asiaa hallitukselta tarkemmin, sillä mm. kirjastojen rakennukset / tilat eivät automaattisesti taivu yhteisiin käytäntöihin ja hyllypaikkoihin (esim. Turku). Kimppojen sisällä, ”yhden asennuksen” sisällä yhtenäistämistä pidetään järkevänä sillä kimpoissa yhtenäistäminen vaikuttaa suoraan asiakasnäkymään ja helpottaa sitä kautta asiakkaan asiointia kirjastoissa.
+
+
+### 5. Keskusteltiin tietoturvasopimuksista. Käytännöt vaihtelevat kimpoissa. 
+
+Oulussa allekirjoitetutetaan tietoturvasopimus aina, jos annetaan pääsy palvelimelle. Noora lähettää asiantuntijaryhmän jäsenille Oulun sopimusmallin, jota kirjastot ja kimpat voivat muokata omaan käyttöönsä. 
+
+### 6.Koha-Suomen pääkäyttäjät (ja varmaan muutkin ryhmät) kaipaavat helposti hallinnoitavaa sähköpostilistaa, johon voisi jokainen liittyä halutessaan. 
+
+Samalla olisi mahdollisuus ottaa keskeisille henkilöille (Ari, Virpi) @koha-suomi.fi -päätteiset sähköpostiosoitteet. Palvelu ei ole kauhean kallis: esim. Hostingpalvelu.fi, hinta n. 10€ /kk. 
+
+Ari Mäkiranta valtuutettiin esittämään hallitukselle sähköpostin hosting-palvelun hankkimista. 
+
+### 7.	ProEconomica-rajapinnasta tiedoksi: 
+
+Kuusamo on ottamut tehtäväkseen kartoittaa rajapinnasta "vahvasti kiinnostuneet" ja tehdä hintakyselyn mahdollisille rajapinnan tekijöille.
+
+### 8. Muut esille tulevat asiat
+
+Järjestelmäkehittäjien mahdollinen viikonloppupäivystys ja erilaiset toteutusmallit ovat selvitettävänä.
+
+
+### 9. Seuraava kokous pidetään 20. maaliskuuta alkaen klo 9.
+
+## Koha-Suomen asiantuntijaryhmän verkkokokous 16.1.2017
+
+Paikalla: 
+Tuomas Kunttu
+Ari Mäkiranta
+Susanna Sandell
+Pirjo Sapman
+Maarit Tuomisto
+Noora Valkonen pj.
+Leena siht.
+
+### 1. Ajankohtaiset / Ari
+
+* Siilinjärvi tuotannossa omana asennuksena
+* Kuusamo liitetty Outiin loppiaisena
+* Koha uusi master on asennettu ja siihen tutustutaan, kun valmistellaan versiovaihtoa
+* Lari teki joulukuun loppuun saakka Kohan-Finna rajapintoja. Nyt testaavat kansalliskirjastossa ja Lari tulee Helmi- ja maaliskuuksi viimeistelemään integraatiota.
+ 
+
+### 2. Aineistolajit: 
+
+* Otettava huomioon, että valitut aineistolajit eivät aiheuta ongelmia Finnassa. Finna tukeutuu vain kiinteämittaisiin tietoihin, näistä tarkemmin Vaskin kommenteissa. 
+* Lumpeilla paljon variaatioita, ei kiinteämittaisia kenttiä.
+* Aiemmissa järjestelmissä ei kiinteämittaisilla kentillä ollut merkitystä.
+* Voitava ottaa huomioon myös tulevaisuuden aineistolajit.
+* Asiakaslähtöisyys yhtä tärkeä kuin järjestelmä / Finna.
+* Kaikki Koha-kirjastot ovat menossa Melindaan pääasiassa mallilla suppea.
+* Aineistolajien määrää tärkeämpi on niiden yhtenäisyys. 
+* Aineistolajeille on sopimatta lyhenteet, vaikutusta tilaussanomiin
+* Esitys viedään Koha-Suomen hallitukselle 3.2.
+* Lappi ottaa käyttöön Kohan käyttöönotossa, muut versiopäivityksessä
+
+
+Aineistolajeiksi sovittiin: 
+Aikakauslehti<br />
+Artikkeli <br />
+Blu-ray <br />
+C-kasetti, puhe<br />
+C-kasetti, musiikki<br />
+CD-ROM<br />
+CD-levy, puhe<br />
+CD-levy, musiikki<br />
+Celian äänikirja<br />
+DVD-ROM poistuu, aineistot voi siirtää CD-ROM aineistolajiin<br />
+Dia<br />
+DVD<br />
+E-kirja<br />
+E-lehti<br />
+E-äänikirja<br />
+Esine<br />
+Kartta<br />
+Kirja<br />
+Konsolipeli<br />
+Kuva<br />
+Käsikirjoitus<br />
+Mikrofilmi<br />
+Mikrokortti<br />
+Moniviestin<br />
+MP3 poistuu, aineistot voi siirtää CD, puhe tai CD, musiikki<br />
+Nuotti<br />
+Partituuri<br />
+Peli = Esine + asiasana<br />
+Pienpainate ei oteta käyttöön -> kirja +  Marc21 kentä 904: pienpainate<br />
+Sanomalehti<br />
+Työpiirustus<br />
+Verkkoaineisto<br />
+Videokasetti<br />
+Äänilevy, asiasana single, ep-levy<br />
+
+### 3. ProEconomica ja Koha
+
+Kuusamo ja Pudasjärvi/Taivalkoski käyttää ProEconomicaa, halua tehdä laskutukseen rajapinta ko. palveluun. Noora laittaa kyselyn kimpoille onko muilla halua käyttää rajapintaa. Katsotaan kiinnostuksen perusteella kustannuksia ja toteutusta.
+
+### 4. Muut asiat
+
+Kohderyhmien käyttö Finnassa: Marc21-kentät pääasiallinen lähde. Hyllypaikat myös mahdollisia, mutta Marc21-parempi tekniseltä kannalta. 
+Selvitettävä, onko koneellinen ajo mahdollista vertaamalla hyllypaikkaa ja luomalla oletuksena oikean kohderyhmän?
+
+### 5. Seuraavat kokousajat 
+
+13.2. klo 9.00
+20.3. klo 9.00
+24.4. klo 9.00
+
 ## Asiantuntijaryhmän Lync-kokous 12.12.2016 klo 9.00
 
 Läsnä: Noora Valkonen (pj), Ari Mäkiranta, Pia Kusmin, Susanna Sandell, Toni Sundahl, Maarit Tuomisto, Pirjo Sapman, Tuomas Kunttu (muistio)
