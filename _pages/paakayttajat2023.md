@@ -19,11 +19,23 @@ Läsnä:
 
 * Elasticsearchin indeksit -listaus lisätty Kohan ohje suomeksi -> Tiedonhaku -> [Hakukone Elasticsearch ja sen indeksit](https://koha-suomi.fi/dokumentaatio/tiedonhaku/#108-hakukone-elasticsearch-ja-sen-indeksit)
 * Valmiit SQL-raportit lisätty [Raporttikirjastoon](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/) Ohjeet-sivulle.
-* Uudet asiakasvarmenteet jakoon vasta vkolla 31. Jakelutavan sopiminen.
+* Uudet asiakasvarmenteet jakoon vasta vkolla 31. Jakelutavan sopiminen. Laitetaan Matrixiin uusi varmenne ja salasana.
+  * Vaski: Askolle, Annille ja Mikolle Matrixissa
+  * Lappi: Pialle ja Marialle
+  * OUTI: Piialle, Pirkko-Liisalle ja Vellulle
+  * Siilinjärvi: Reetta
+  * Vaara: Päivi, Auli, Irina
+  * Lumme: ?
+  * Kyyti: ?
+  * Helle: Kati
+  * Kirkes: Erika
 * Kohan ohje suomeksi - viimeiset viilailut
   * numerointien tarkistukset, onko kaikilla otsikkotasoilla numerointi?
   * noudattaako kuvat nykyohjeistusta?
   * vertaile vielä yhteisön manuaaliin, löytyisikö jotain uutta lisättävää.
+
+Etelästä pohjoiseen
+
 
 ## Viikko 28 muistio
 
