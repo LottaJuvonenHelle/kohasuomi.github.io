@@ -949,6 +949,7 @@ Versio: 22.11
 
 Versio: 21.11
 
+```
 .gradient {
 background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, rgb(255, 241, 186)), color-stop(0.99, rgb(255,255,255)) );
 }
