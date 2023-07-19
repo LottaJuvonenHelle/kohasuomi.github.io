@@ -769,8 +769,14 @@ $( document ).ready(function() {
 
 ### Poistetaan ylimääräiset välilyönnit niteen muokkausnäytöllä
 
+Tällä poistetaan ylimääräiset välilyönnit kentistä niteen muokkausnäytöllä. Välilyönnit poistetaan alusta, lopusta ja useammat peräkkäiset välilyönnit välistä.
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
 ```
-/* poista niteen muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
+/// ALKU ///
+/* Poista niteen muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#cat_additem.cat input').blur(function() {
      var tmp = $(this).val();
@@ -780,14 +786,19 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
+/// LOPPU ///
 ```
 
 ### Poistetaan ylimääräiset välilyönnit kausijulkaisujen vastaantotossa
 
 Skripti poistaa ylimääräiset välilyönnit sekä tarkistaa, että sarjanumero on muodossa "vuosi : numero". Jos vuoden jälkeen puuttuu välilyönti, käytännössä se lisätään sinne. Tarkistus tehdään kaikkiin nidekenttiin, mutta korjaus ei "tartu", jos kentän alussa ei ole vuosinumeroa.
 
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
 ```
-/* poista kausijulkaisun vastaanottonäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
+/// ALKU ///
+/* Poista kausijulkaisun vastaanottonäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä. Tarkistetaan samalla, että numerointikaava on muodossa "vuosi : numero". */
 $(document).ready(function() {
   $('body#ser_serials-edit.ser input').blur(function() {
      var tmp = $(this).val();
@@ -798,21 +809,25 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
+/// LOPPU ///
 ```
 
 ### Niteiden eräpoistossa täppä kohtaan "Poista tietueet.."
 
 Skripti laittaa niteiden eräpoistossa valmiiksi täpän kohtaan "Poista tietueet, jos kaikki niteet poistettu". Näin todennäköisemmin tietokantaan ei jää roikkumaan niteettömiä tietueita.
 
-Versio: 21.11
-
-Tarpeellisuus: suositeltava
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
 
 ```
-/* Laita niteiden eräpoistossa täppä kohtaan "Poista tietueet, jos kaikki niteet poistettu" */
+/// ALKU ///
+
+/* Laita niteiden eräpoistossa täppä kohtaan "Poista tietueet, jos kaikki niteet poistettu". Tällä varmistetaan, että tietokantaan ei jää niteettömiä tietueita. */
 $(document).ready(function () {
   $("#del_records").attr('checked', true);
 });
+
+/// LOPPU ///
 ```
 
 ---
