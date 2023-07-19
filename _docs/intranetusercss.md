@@ -450,12 +450,6 @@ Tarpeellisuus: Vapaaehtoinen
 body#circ_circulation.circ button.print { display: none; }
 ```
 
-Nappi näkyvissä
-!alalainaaprint1.png!
-
-Nappi piilossa
-!alalainaaprint.png!
-
 ### Piilota Automatic renewal / Automaattinen uusinta -checkbox
 
 Versio: 21.11<br />
@@ -591,7 +585,6 @@ Versio: 22.11
 .label { vertical-align: inherit; }
 ```
 
-!tasaus.png!
 
 ### Fonttikokojen säätö isommaksi koko perustiedot-näytöllä
 
@@ -613,8 +606,6 @@ Versio: 21.11
 #catalogue_detail_biblio h1 { font-size: 16pt; }
 ```
 
-!nimeke.png!
-
 ### Seuraava- ja Edellinen -linkit pienemmiksi
 
 Versio: 17.05, ei tarpeellinen versiossa 21.11, koska linkit muuttuneet nuoliksi
@@ -627,7 +618,6 @@ body#catlaog_labeledMARCdetail div.browse-prev-next { font-size:8.5pt; backgroun
 body#catalog_moredetail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff;}
 ```
 
-!edellinen.png!
 
 ### Piilota kentät 336-338
 
@@ -638,8 +628,6 @@ Versio: 22.11
 /* Piilota perustiedot-näytöltä kentät 336-338 */
 body#catalog_detail #content_type.results_summary { display: none; }
 ```
-
-!tyypit.png!
 
 ### Esityskokoonpanon järjestys näytöllä
 
@@ -662,8 +650,6 @@ Versio: 22.11
 .results_summary .label { color: #333; font-weight: bold }
 body#catalog_detail.catalog h5.author { font-weight: bold }
 ```
-
-!tasaus.png!
 
 ### Auktoriteettien MARC-näkymän säätöä
 
