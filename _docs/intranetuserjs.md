@@ -58,10 +58,12 @@ $(document).ready(function () {
 /// LOPPU ///
 ```
 
-
 ---
 
-## Piilota Perheen lainat -välilehti
+## Asiakkaan muokkausnäyttö
+
+
+### Piilota Perheen lainat -välilehti
 
 Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
@@ -72,10 +74,6 @@ Versio: 22.11
 $(document).ready(function() { $("#relatives-issues-tab").parent().hide(); });
 /// LOPPU ///
 ```
-
----
-
-## Asiakkaan muokkausnäyttö
 
 ### Henkilötunnuksen lisäys sotusiiloon ja syntymäajan asettaminen automaattisesti henkilötunnuksesta
 
