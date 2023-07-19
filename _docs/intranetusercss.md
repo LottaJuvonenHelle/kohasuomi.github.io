@@ -382,27 +382,29 @@ body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none
 Jotta turhia asiakastietojen katseluita saadaan vähennettyä, piilotetaan palautuksessa asiakkaan yhteystiedot varausten popupeista. Rimpsuista on kaksi eri versiota ja niitä käytetään riippuen siitä, onko käytössä varausten automaattinen kiinni jääminen vai ei.
 
 Tarpeellisuus: Pakollinen
-Versio: 21.11
+Versio: 22.11
 
 Varausten automaattinen kiinnijääminen päällä. HUOM! Alimmainen rivi korjattu toisenlaiseksi, koska aiempi versio piilotti palautuksessa oikean yläreunan valikosta kirjastovalinnan. Uudella versiossa piilottuu sähköpostiosoite, mutta laatikkoon jää näkyville listapallero.
 
-> /* Piilota varausruudusta asiakkaan yhteystiedot, kun käytössä automaattinen varauksen kiinni jääminen */
-body#circ_returns.circ li.patronaddress1 { display: none; }
-body#circ_returns.circ li.patroncity { display: none; }
+```
+/* Piilota varausruudusta asiakkaan yhteystiedot, kun käytössä automaattinen varauksen kiinni jääminen */ 
+body#circ_returns.circ div.dialog.message.hold-auto-filled ul li:nth-child(4) { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
+body#circ_returns.circ li.patronaddress1 { display: none; } 
+body#circ_returns.circ li.patroncity { display: none; } 
 body#circ_returns.circ a#boremail { display: none; }
-
+```
 
 
 Varausten automaattinen kiinnijääminen ei ole päällä
 
-> /* Piilota varauksen popparista asiakkaan yhteystiedot */
+```
+/* Piilota varauksen popparista asiakkaan yhteystiedot */
 body#circ_returns.circ.modal-open ul li:nth-child(4) { display: none; } /* Varaus palautuskirjastossa, puhelinnumero piiloon */
 body#circ_returns.circ.modal-open ul li:nth-child(5) { display: none; }  /* Kuljetettava muualle, sähköpostiosoite piiloon */
 body#circ_returns.circ.modal-open li.patronaddress1 { display: none; } /* Osoite piiloon */
 body#circ_returns.circ.modal-open li.patroncity { display: none; } /* Osoite piiloon */
 body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palautuskirjastossa, sähköpostiosoite piiloon */
-
-
+```
 
 ### Laskutettu-merkintä palautuksessa isommaksi
 
@@ -411,8 +413,10 @@ Jos palautetaan laskutettu nide, siitä näkyvä ilmoitus on pieni. Alla olevall
 Lisätty: 28.12.2022
 Tekijä: Anni Rajala
 
-> p.problem.ret_nflupdate { font-weight: 500; font-size: 26px; }
-
+```
+/* Säädä Laskutettu-merkintä palautuksessa isommaksi */
+p.problem.ret_nflupdate { font-weight: 500; font-size: 22px; }
+```
 
 ---
 
@@ -421,30 +425,39 @@ Tekijä: Anni Rajala
 ### Piilota Luo hyvitys -välilehden sisältö asiakkaan maksuista 
 
 Tarpeellisuus: Hyvin suositeltava
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota Luo hyvitys -välilehden sisältö asiakkaan maksuista */
-form#mancredit { display: none; }
-
+```
+/* Piilota Luo hyvitys -välilehti asiakkaan maksuista */
+li.manualcredit { display: none; }
+body#pat_paycollect.pat a[href*="/cgi-bin/koha/members/mancredit.pl"] {
+  display: none;
+}
+```
 
 ### Piilota oletusmaksuja asiakkaan lisää maksu -toiminnosta
 
-Tarpeellisuus: Suositeltava
-Versio: 21.11
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
 
-> /* Poistaa oletusmaksuja asiakkaan lisää maksu -toiminnosta */
+```
+/* Piilota maksutyyppejä asiakkaan lisää maksu -toiminnosta */
 body#pat_maninvoice.pat option[value='NEW_CARD'] { display:none; }
 body#pat_maninvoice.pat option[value='LOST'] { display:none; }
-
+```
 
 ### Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Luo hyvitys -painike
 
 Tarpeellisuus: Suositeltava
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Luo hyvitys -painike */
-#table_account_fines button.refund-action{ display: none; }
-
+```
+/* Piilota alennus, peruuta veloitus, luo hyvitys ja mitätöi maksutapahtuma -napit asiakkaan tilitapahtumat sivulta */
+body#pat_borraccount button.discount-action { display: none; }
+body#pat_borraccount button.cancel-action { display: none; }
+body#pat_borraccount button.refund-action { display: none; }
+body#pat_borraccount a.void-action { display: none; }
+```
 
 ---
 
@@ -453,31 +466,34 @@ Versio: 21.11
 ### Tasaa otsikko ja tieto perustiedot-näytöllä samalle tasolle
 
 Tarpeellisuus: Suositeltava (selkiyttää näkymää)
-Versio: 21.11
+Versio: 22.11
 
-> /* Tasaa otsikko ja tieto perustiedot-näytöllä samalle tasolle */
+```
+/* Tasaa otsikko ja tieto perustiedot-näytöllä samalle tasolle */
 .label { vertical-align: inherit; }
-
+```
 
 !tasaus.png!
 
 ### Fonttikokojen säätö isommaksi koko perustiedot-näytöllä
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Vapaaehtoinen, käytä mielummin selaimen ctrl+ -toimintoa suurentamaan fontteja
 Versio: 21.11
 
-> /* Säädä perustiedot-näytön fonttikokoja isommaksi*/
+```
+/* Säädä perustiedot-näytön fonttikokoja isommaksi*/
 #catalogue_detail_biblio { font-size:larger; }
-
+```
 
 ### Otsikkorivin fonttikoko suuremmaksi
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Ei tarpeen enää versiossa 22.11
 Versio: 21.11
 
-> /* Otsikkorivin (nimeke ja tekijä) fonttikoko suuremmaksi */
+```
+/* Otsikkorivin (nimeke ja tekijä) fonttikoko suuremmaksi */
 #catalogue_detail_biblio h1 { font-size: 16pt; }
-
+```
 
 !nimeke.png!
 
@@ -497,11 +513,12 @@ body#catalog_moredetail div.browse-prev-next { font-size:8.5pt; background-color
 ### Piilota kentät 336-338
 
 Tarpeellisuus: Vapaaehtoinen
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota perustiedot-näytöltä kentät 336-338 */
+```
+/* Piilota perustiedot-näytöltä kentät 336-338 */
 body#catalog_detail #content_type.results_summary { display: none; }
-
+```
 
 !tyypit.png!
 
@@ -509,20 +526,23 @@ body#catalog_detail #content_type.results_summary { display: none; }
 
 Versio: 17.05
 
-> /* Esityskokoonpanon järjestys näytöllä */
+```
+/* Esityskokoonpanon järjestys näytöllä */
 .performance-medium span[class^="sf-"] + span[class^="sf-"]:before {
   content: ", ";
 }
-
+```
 
 ### Otsikot boldattuna mustalla
 
 Tarpeellisuus: Suositeltava
-Versio: 21.11
+Versio: 22.11
 
-> *Otsikot boldattuna mustalla*
-.results_summary .label { color: #000000; font-weight: bold !important; }
-
+```
+/* Rivien otsikot boldilla perustiedot-näytöllä */
+.results_summary .label { color: #333; font-weight: bold }
+body#catalog_detail.catalog h5.author { font-weight: bold }
+```
 
 !tasaus.png!
 
@@ -530,24 +550,26 @@ Versio: 21.11
 
 Versio: 17.05
 
-> /* Auktoriteettien MARC */
+```
+/* Auktoriteettien MARC */
 #authoritiestabs div.tag p { font-weight: normal; display: inline; font-family: monospace; }
 #authoritiestabs div.tag .labelsubfield,
 #authoritiestabs div.tag .labelsubfield b { font-weight: normal; font-family: sans-serif; }
 #authoritiestabs div.tag .labelsubfield span { display:none; }
 #authoritiestabs div.tag p .labelsubfield:hover span,
 #authoritiestabs div.tag p:hover .labelsubfield span {  display: inline; float:right; border: 1px solid black; background-color:#f0f0f0; position:relative; top: -1em; right: 0; padding:1em; }
-
+```
 
 ### Muokka hakutulos-näytön värejä
 
 Versio: 17.05
 
-> /* Muokkaa hakutulos-näytön värejä */
+```
+/* Muokkaa hakutulos-näytön värejä */
 .results_summary { color: #000111 !important; }
 .results_summary span { color: #000000; font-weight: normal !important; }
 .results_summary .label { color: #000000 !important; }
-
+```
 
 ### Piilota Näytä kausijulkaisun tiedot -linkki
 
