@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 29 esityslista
 
 Aika: 17.7.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI), Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
+Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI), Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Auli Rantasalo (Vaara)
 
 **Yhteiset asiat:**
 
@@ -55,6 +55,9 @@ Etelästä pohjoiseen
 * Verkkomaksamisen käyttöönotto nytkähtänyt vähän eteenpäin, tavoiteaikatauluna elokuun loppu
 * Koha-ohjeen päivitys kesken 12.1 Asiakaslistojen osalta, koska tiketti [#638](https://github.com/KohaSuomi/Koha/issues/638) odottaa korjausta
 * Reetta jää lomalle, Marko palaa lomalta
+
+**Vaara**
+* Noutamattomien varauksien listalla oli asiakastunnisteena " AnonnymousPatron", joka johtuu lainahistorian tyhjentämisestä. Siitä olikin jo tiketti tehty.
 
 ## Viikko 28 muistio
 
