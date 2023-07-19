@@ -385,7 +385,7 @@ $(document).ready(function () {
 
 Tämä skripti tarvitaan edellisen kaveriksi, jotta viestitäppien poisto onnistuu ensimmäisellä tallennuskerralla. [Liittyy tikettiin 538](https://github.com/KohaSuomi/Koha/issues/538).
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -525,6 +525,9 @@ $("#messages .circ-hlt").each(function( index ){
 ### PIN-koodi nelinumeroiseksi
 
 Tällä muutetaan skriptissä mainituille asiakastyypeille salasanan generointi nelinumeroiseksi. Ilman tätä, asiakkaille tulee aakkosnumeerisia salasanoja.
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
 
 ```
 /// ALKU  ///
@@ -815,7 +818,7 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
 
 Indeksointityöryhmä ideoi mukautuksia tiedonhakun hakusivulle. Alla siitä syntyneet muutokset.
 
-Tarpeellisuus: Suositelta<br />
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -1098,7 +1101,7 @@ $(document).ready(function () {
 
 ### Tyhjennä Hae tietokannasta -hakukenttä
 
-Tarpeellisuus: Ei tarpeellinen versiossa 22.11
+Tarpeellisuus: Ei tarpeellinen versiossa 22.11.
 
 ```
 $(document).ready(function() {
