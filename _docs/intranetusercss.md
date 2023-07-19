@@ -15,7 +15,7 @@ Jokaisen kohdalle on merkitty, missä Koha-versiossa se toimii.
 
 ### Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -40,7 +40,7 @@ Sotu-avain-kentän voi "kirjoitussuojata" niin, että siihen pystyy Lisää sotu
 
 Huomioi, että patron_attr_4-osiossa oleva numero riippuu siitä, kuinka monentena sotu-avain on näytöllä. Esim. OUTI-kirjastoissa numerona on 3 ja Hellessä 4. Voit tarkistaa numeron klikkaamalla asiakkaan muokkausnäytöllä hiiren oikealla sotu-avain-kenttää ja valitsemalla "Inspect Element (Q)" (toimii ainakin Firefoxilla).
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -69,7 +69,7 @@ div#patron-extended-attributes ol li:nth-child(1) { display:none; }
 
 ### Piilota Luo hyvitys -välilehden sisältö
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -82,7 +82,7 @@ body#pat_paycollect.pat a[href*="/cgi-bin/koha/members/mancredit.pl"] {
 
 ### Piilota asiakkaan ikä Tiedot-välilehdellä
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -92,7 +92,7 @@ body#pat_moremember.pat span.age_years { display: none; }
 
 ### Piilota Näytä aina lainat reaaliaikaisesti -valinta
 
-Tarpeellisuus: Suositeltava, parantaa suorituskykyä.
+Tarpeellisuus: Suositeltava, parantaa suorituskykyä.<br />
 Versio 22.11
 
 ```
@@ -105,6 +105,7 @@ body#pat_moremember.pat label[for="issues-table-load-immediately"] { display: no
 
 ### Säädä Viesti asiakkaalle -viestin väriä
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio 22.11
 
 ```
@@ -115,6 +116,7 @@ Versio 22.11
 
 ### Piilota Tiedot-sivulla Alternative contact / Vaihtoehtoinen yhteys -osio
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -125,6 +127,7 @@ Versio: 22.11
 
 ### Piilota asiakkaan tiedot -sivulta Alternate address/ Vaihtoehtoinen osoite -osio
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -136,6 +139,7 @@ Versio: 22.11
 
 ### Piilota asiakkaan muokkauksessa Yhteystiedot-boksista vihjeet näkyvistä
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -145,6 +149,7 @@ fieldset#memberentry_contact.rows div.hint { display: none; }
 
 ### Piilota maksujen mitätöintitäppä Asiakkaan tiedot- ja Lainaus-sivuilta
 
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -161,6 +166,7 @@ Versio: 22.11
 
 ### Piilota asiakkaan tiedot -näytöltä muokkaa-linkit
 
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -170,6 +176,7 @@ body#pat_moremember a[href*="&step="] { display: none; }
 
 ### Piilota Ei asiakas -takaaja -kohta asiakkaan muokkauksesta
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -179,6 +186,7 @@ body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
 
 ### Piilota Tarkista edelliset lainat -kohta asiakkaan muokkauksesta
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -189,6 +197,7 @@ body#pat_memberentrygen.pat select#checkprevcheckout { display:none; }
 
 ### Piilota Tarkista edelliset lainat -kohta asiakkaan tiedot-sivulla
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -198,6 +207,9 @@ body#pat_moremember.pat li#patron-checkprev { display:none; }
 
 ### Piilota ennakkoilmoituksen valinnasta 0 päivän keston
 
+Jos ennakkoilmoitukseen valitsee päiväksi 0, viesti ei lähde ollenkaan.
+
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -206,7 +218,7 @@ body#pat_memberentrygen.pat fieldset#memberentry_messaging_prefs.rows option[val
 ```
 ### Piilota asiakkaan viestiasetuksista ennakkoilmoituksen viive -vaihtoehdoista 0 ja 8-30
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -218,7 +230,7 @@ body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='0'], [value='8'], [value
 
 ### Piilota käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite ja Kadonnut kortti)
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -228,7 +240,7 @@ Versio: 22.11
 
 ### Piilota noutomuistutus asiakaslomakkeelta
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -238,7 +250,7 @@ body#pat_memberentrygen #memberentry_messaging_prefs table tbody tr:last-child {
 
 ### Piilota noutomuistutus tiedot-sivulta viestiasetuksista
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -250,6 +262,7 @@ body#pat_moremember #patron-messaging-prefs table tbody tr:last-child { display:
 
 Asiakkaan lisäys/muokkausnäytöllä on kohta "Salli automaattinen uusinta", vaikka toiminto ei olisi sallittu laina- ja maksusäännöissä. Kohdan saa piiloon seuraavasti:
 
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -261,6 +274,7 @@ body#circ_circulation #set-automatic-renewal { display: none; }
 
 Lapsiasiakkaalle voi lisätä uudemmassa versiossa myös takaajan, jonka asiakastietoja ei tallenneta Kohaan. Kohdan saa piiloon seuraavasti:
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -270,7 +284,8 @@ body#pat_memberentrygen.pat fieldset#non_patron_guarantor.rows { display:none; }
 
 ### Asiakkaan tietoruudun piilotus asiakastiedoista vasemmasta reunasta
 
-Versio: 21.11
+Tarpeellisuus: Ei tarpeen<br />
+Versio: 21.11<br />
 Asiantuntijaryhmä on päättänyt, että tietoruutu on näkyvillä, jotta tilin lukkiutuminen näkyy virkailijalle.
 
 ```
@@ -280,7 +295,7 @@ div.patroninfo { display: none; }
 
 ### Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto ja Tulosta erääntyneet -valinnat
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -294,8 +309,8 @@ Versio: 22.11
 
 ### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -kohdat Tiedot-näytöltä
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
-Tarpeellisuus: Vapaaehtoinen
 
 ```
 /* Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -tiedot */
@@ -305,24 +320,20 @@ Tarpeellisuus: Vapaaehtoinen
 
 ### Säädä Lisää viesti -popparin alasvetovalikon leveyttä
 
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 Säätö tehdään sekä lainaus- että tiedot-sivulle.
-
-Ennen säätöä:
-!{width:30%}ennenviesti.png!
-
-Säädön jälkeen:
-!{width:30%}jalkeenviesti.png!
 
 ```
 /* Säädä Lisää viesti -popupissa valikon leveys kapeammaksi lainaus- ja tiedot-näytöillä */
 body#pat_moremember.pat.modal-open select#select_patron_messages { width: 556px; }
 body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556px; }
 ```
+
 ### Piilota kirjautumistunnusosio asiakaslomakkeelta
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -332,7 +343,7 @@ body#pat_memberentrygen.pat #memberentry_userid {display:none}
 
 ### Piilota käyttäjänimi-kenttä salasananvaihto-sivulta
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -346,7 +357,7 @@ form[action="/cgi-bin/koha/members/member-password.pl"] ol li:nth-child(1) {
 
 ### Piilota Ensisijainen yhteydenottotapa -valinta asiakkaan muokkauksesta
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -361,6 +372,7 @@ body#pat_memberentrygen.pat label[for="primary_contact_method"] { display: none;
 
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimet isommaksi ja harvemmaksi
 
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -374,6 +386,7 @@ Versio: 22.11
 
 ### Säädä Selaa sukunimen mukaan -kohdan kirjaimien taustaväri toiseksi, kun hiiri viedään kirjaimen kohdalle
 
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -388,7 +401,7 @@ Versio: 22.11
 
 Täällä pyritään estämään se, että virkailija ei vahingossa hae tietokannan kaikkia asiakastietoja listalle, jolloin kaikille listalla oleville tehdään muutoslokiin merkintä asiakastietojen katselusta.
 
-Versio: 22.11
+Versio: 22.11<br />
 Tarpeellisuus: Suositeltava
 
 ```
@@ -400,7 +413,7 @@ Tarpeellisuus: Suositeltava
 
 Rimpsu piilottaa Asiakkaan pikalisäys -painikkeen. Kyseisellä lomakkeella ei ole kaikkia tarvittavia kenttiä näkyvissä, joten se on ainakin osalle kimpoista turha.
 
-Versio 22.11
+Versio 22.11<br />
 Tarpeellisuus: Suositeltava
 
 ```
@@ -410,7 +423,7 @@ body#pat_member.pat div#quick-add-new-patron-button.btn-group { display: none; }
 
 ### Piilota asiakashausta valikosta Lajittelu-vaihtoehdot
 
-Versio 22.11
+Versio 22.11<br />
 Tarpeellisuus: Vapaaehtoinen
 
 ```
@@ -429,7 +442,7 @@ body#pat_member.pat select#searchfieldstype_filter option[value='sort2'] { displ
 
 Jos lainattavaan teokseen on varaus, antaa Koha ilmoituksen, jossa ilmoitetaan  varauksesta ja pitää päättää, mitä tehdään. Yksi vaihtoehto on "Älä lainaa ja tulosta", joka tulostaa varauksen infokuitin (hold_slip). Varaus ei kuitenkaan jää kiinni eikä nide mene kuljetustilaan, joten kuitti on turha ja aiheuttaa ennemminkin hämmennystä, kun siihen tulostuu asiakkaan tiedot ja varauksen viimeinen voimassaolopäivä (yleensä parin vuoden päässä). Alla olevalla rimpsulla saa napin piiloon.
 
-Versio 22.11
+Versio 22.11<br />
 Tarpeellisuus: Vapaaehtoinen
 
 ```
@@ -445,7 +458,7 @@ Nappi piilossa
 
 ### Piilota Automatic renewal / Automaattinen uusinta -checkbox
 
-Versio: 21.11
+Versio: 21.11<br />
 Versio: 22.11 Ei tarpeellinen, koska  AllowSetAutomaticRenewal -järjestelmäasetuksella saa täpän piiloon.
 
 ```
@@ -457,7 +470,7 @@ body#circ_circulation #set-automatic-renewal { display: none; }
 
 ### Piilota palautus-näytön asetukset
 
-Versio: 22.11
+Versio: 22.11<br />
 Tarpeellisuus: Suositeltava
 
 ```
@@ -472,7 +485,7 @@ body#circ_returns.circ div.forgive-manual-hold-fees.circ-setting { display: none
 
 Jotta turhia asiakastietojen katseluita saadaan vähennettyä, piilotetaan palautuksessa asiakkaan yhteystiedot varausten popupeista. Rimpsuista on kaksi eri versiota ja niitä käytetään riippuen siitä, onko käytössä varausten automaattinen kiinni jääminen vai ei.
 
-Tarpeellisuus: Pakollinen
+Tarpeellisuus: Pakollinen<br />
 Versio: 22.11
 
 Varausten automaattinen kiinnijääminen päällä. HUOM! Alimmainen rivi korjattu toisenlaiseksi, koska aiempi versio piilotti palautuksessa oikean yläreunan valikosta kirjastovalinnan. Uudella versiossa piilottuu sähköpostiosoite, mutta laatikkoon jää näkyville listapallero.
@@ -501,9 +514,9 @@ body#circ_returns.circ.modal-open a#boremail { display: none; } /* Varaus palaut
 
 Jos palautetaan laskutettu nide, siitä näkyvä ilmoitus on pieni. Alla olevalla css-säädöllä Laskutettu-ohjeistuksen kokoa saa säädettyä isommaksi.
 
-Lisätty: 28.12.2022
-Tekijä: Anni Rajala
-Tarpeellisuus: Vapaaehtoinen
+Lisätty: 28.12.2022<br />
+Tekijä: Anni Rajala<br />
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -513,7 +526,7 @@ p.problem.ret_nflupdate { font-weight: 500; font-size: 22px; }
 
 ### Piilota varauksen palautuspopparista Älä huomioi -nappi
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -529,7 +542,7 @@ body#circ_returns.circ.modal-open button.btn.btn-default.deny { display: none; }
 
 ### Piilota Luo hyvitys -välilehden sisältö asiakkaan maksuista 
 
-Tarpeellisuus: Hyvin suositeltava
+Tarpeellisuus: Hyvin suositeltava<br />
 Versio: 22.11
 
 ```
@@ -542,7 +555,7 @@ body#pat_paycollect.pat a[href*="/cgi-bin/koha/members/mancredit.pl"] {
 
 ### Piilota oletusmaksuja asiakkaan lisää maksu -toiminnosta
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -553,7 +566,7 @@ body#pat_maninvoice.pat option[value='LOST'] { display:none; }
 
 ### Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä Luo hyvitys -painike
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -570,7 +583,7 @@ body#pat_borraccount a.void-action { display: none; }
 
 ### Tasaa otsikko ja tieto perustiedot-näytöllä samalle tasolle
 
-Tarpeellisuus: Suositeltava (selkiyttää näkymää)
+Tarpeellisuus: Suositeltava (selkiyttää näkymää)<br />
 Versio: 22.11
 
 ```
@@ -582,7 +595,7 @@ Versio: 22.11
 
 ### Fonttikokojen säätö isommaksi koko perustiedot-näytöllä
 
-Tarpeellisuus: Vapaaehtoinen, käytä mielummin selaimen ctrl+ -toimintoa suurentamaan fontteja
+Tarpeellisuus: Vapaaehtoinen, käytä mielummin selaimen ctrl+ -toimintoa suurentamaan fontteja<br />
 Versio: 21.11
 
 ```
@@ -592,7 +605,7 @@ Versio: 21.11
 
 ### Otsikkorivin fonttikoko suuremmaksi
 
-Tarpeellisuus: Ei tarpeen enää versiossa 22.11
+Tarpeellisuus: Ei tarpeen enää versiossa 22.11<br />
 Versio: 21.11
 
 ```
@@ -618,7 +631,7 @@ body#catalog_moredetail div.browse-prev-next { font-size:8.5pt; background-color
 
 ### Piilota kentät 336-338
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -641,7 +654,7 @@ Versio: 17.05
 
 ### Otsikot boldattuna mustalla
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -687,7 +700,7 @@ span.results_summary.analytics { display: none; }
 
 ### Piilota perustiedot-näytöltä Osakohteet ja Näytä osakohteet -kohta kuvailutietojen osiosta
 
-Versio: 22.11
+Versio: 22.11<br />
 Tarpeellisuus: Vapaaehtoinen
 
 ```
@@ -699,19 +712,13 @@ body#catalog_detail span.results_summary.analytics.analytic_undefined { display:
 
 Piilota perustiedot-näytöltä huomautus toimenpiteestä eli MARC-kentän 583-tieto.
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
 /* Piilota Toimenpide-huomautus 583-kenttä perustiedot-näytöltä */
 span.results_summary.actionnote { display: none; }
 ```
-
-Ennen piilotusta:
-!{width:40%}toimintaennen.png!
-
-Piilotuksen jälkeen:
-!{width:40%}toimintajalkeen.png!
 
 ### Piilota tuplakansikuvat
 
@@ -731,7 +738,7 @@ Versio: 17.05
 
 Alla on kolme versiota, joilla voi säätää kansikuvien kokoa. Ensimmäinen versio vaikuttaa sekä hakutuloslista-sivulle että perustiedot-sivulle. Toinen vaikuttaa vain hakutulostilsta-sivulle ja kolmas perustiedot-näytölle. 
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio 22.11
 
 Hakutuloslistalle ja perustiedot-näytölle:
@@ -760,7 +767,7 @@ body#catalog_detail.catalog .bookcoverimg {
 
 ### Piilota tarkassa haussa Lisärajaukset-osio
 
-Tarpeellisuus: Vapaaehtoinen (huom. jos tämän piilottaa, menee piiloon osa indeksointityöryhmän päättämistä hakurajausvaihtoehdoista)
+Tarpeellisuus: Vapaaehtoinen (huom. jos tämän piilottaa, menee piiloon osa indeksointityöryhmän päättämistä hakurajausvaihtoehdoista)<br />
 Versio: 22.11
 
 ```
@@ -774,7 +781,7 @@ Versio: 22.11
 
 ### Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -787,7 +794,7 @@ body#circ_request.catalog div.top.pager:after {
 
 ### Piilota varauksen teko -sivulta asiakkaiden selaaminen sukunimen mukaan
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -796,7 +803,7 @@ body#circ_request.catalog div.browse { display: none; }
 ```
 ### Piilota Näytä aina varaukset -täppä varauksen teko -sivulla
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -807,7 +814,7 @@ body#circ_request.catalog input#always_show_holds { display:none; }
 
 ### Säädä, kuinka leveä näytön pitää olla, jotta taulukoista piilotetaan sivulta toiselle siirtyminen
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -830,7 +837,7 @@ Versio: 22.11
 
 Kun varaus on keskeytetty, muuttuu tällä säädöllä teksti keskeytetty-teksti punaiseksi ja keskeytys on helpompi havaita.
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -844,7 +851,7 @@ Versio: 22.11
 
 ### Tasaa kausijulkaisujen vastaanotossa nidetiedot keskemmälle ruutua
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -859,7 +866,7 @@ body#ser_serials-edit.ser fieldset.rows ol li label {float: left; font-weight: 7
 
 ### Muuta kaikissa taulukoissa rivin taustaväri, kun hiiri viedään rivin kohdalle
 
-Tarpeellisuus: Suositeltava
+Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
@@ -869,7 +876,7 @@ tr:hover td { background-color:#f8fcf6 !important; }
 
 ### Korjataan päivämääräkentän leveys sopivaksi
 
-Tarpeellisuus: Suositeltava. Ei todennäköisesti tarvita enää seuraavassa versiossa.
+Tarpeellisuus: Suositeltava. Ei todennäköisesti tarvita enää seuraavassa versiossa.<br />
 Versio: 22.11
 
 ```
@@ -891,7 +898,7 @@ Versio: 21.11
 
 ### OpenDocument-vaihtoehdon piilotus raporteista
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -901,7 +908,7 @@ body#rep_guided_reports_start.rep button#format + ul li:nth-child(3){display: no
 
 ### Kimpan logo näkyviin yläpalkkiin
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
@@ -927,7 +934,7 @@ Versio: 22.11
 
 Tällä saa säädettyä mustan yläpalkin leveämmäksi, mutta huomioi, että se vaikuttaa myös alareunan palkin leveyteen samalla.
 
-Tarpeellisuus: Vapaaehtoinen
+Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
 
 ```
