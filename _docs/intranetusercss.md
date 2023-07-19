@@ -263,6 +263,40 @@ Säädön jälkeen:
 body#pat_moremember.pat.modal-open select#select_patron_messages { width: 556px; }
 body#circ_circulation.circ.modal-open select#select_patron_messages { width: 556px; }
 ```
+### Piilota kirjautumistunnusosio asiakaslomakkeelta
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+/* Piilota kirjautumistunnusosio asiakaslomakkeelta */ /* Toimii 16.5.2022 MLI */ /* BorrowerUnwantedFields-asetuksella saa userid:n ja passwordin piiloon, mutta ei salasanan vanhenemispäivä-kenttää. */
+body#pat_memberentrygen.pat #memberentry_userid {display:none}
+```
+
+### Piilota käyttäjänimi-kenttä salasananvaihto-sivulta
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+/*Käyttäjänimi-kentän piilotus salasananvaihto-sivulla*/
+/* /cgi-bin/koha/members/member-password.pl?member=?????? */
+/* Toimii 9.2.2023 */
+form[action="/cgi-bin/koha/members/member-password.pl"] ol li:nth-child(1) {
+  display: none;
+}
+```
+
+### Piilota Ensisijainen yhteydenottotapa -valinta asiakkaan muokkauksesta
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+/* Piilota Ensisijainen yhteydenottotapa -valinta asiakkaan muokkauksesta */
+body#pat_memberentrygen.pat select#primary_contact_method.noEnterSubmit { display: none; }
+body#pat_memberentrygen.pat label[for="primary_contact_method"] { display: none; }
+```
 
 ---
 
@@ -412,11 +446,25 @@ Jos palautetaan laskutettu nide, siitä näkyvä ilmoitus on pieni. Alla olevall
 
 Lisätty: 28.12.2022
 Tekijä: Anni Rajala
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
 
 ```
 /* Säädä Laskutettu-merkintä palautuksessa isommaksi */
 p.problem.ret_nflupdate { font-weight: 500; font-size: 22px; }
 ```
+
+### Piilota varauksen palautuspopparista Älä huomioi -nappi
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+/* Piilota varauksen palauttamisen yhteydessä popparista Älä huomioi -nappi (kun käytössä HoldsAutoFill-järjestelmäasetus) */
+/* ja jo noudettavana olevan varauksen uudelleenpalautuksen yhteydessä popparista Poista varaus -nappi ja Peru kuljetus -nappi */
+body#circ_returns.circ.modal-open button.btn.btn-default.deny { display: none; }
+```
+
 
 ---
 
@@ -501,12 +549,13 @@ Versio: 21.11
 
 Versio: 17.05, ei tarpeellinen versiossa 21.11, koska linkit muuttuneet nuoliksi
 
-> /* Seuraava- ja edellinen-linkit pienemmiksi, jotta ne mahtuvat niille sallittuun tilaan */
+```
+/* Seuraava- ja edellinen-linkit pienemmiksi, jotta ne mahtuvat niille sallittuun tilaan */
 body#catalog_detail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff; }
 body#catalog_MARCdetail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff;}
 body#catlaog_labeledMARCdetail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff;}
 body#catalog_moredetail div.browse-prev-next { font-size:8.5pt; background-color:#ffffff;}
-
+```
 
 !edellinen.png!
 
@@ -575,19 +624,31 @@ Versio: 17.05
 
 Versio: 17.05
 
-> span.results_summary.analytics { display: none; }
+```
+span.results_summary.analytics { display: none; }
+```
 
+### Piilota perustiedot-näytöltä Osakohteet ja Näytä osakohteet -kohta kuvailutietojen osiosta
 
+Versio: 22.11
+Tarpeellisuus: Vapaaehtoinen
+
+```
+/* Piilota perustiedot-näytöltä Osakohteet ja Näytä osakohteet -kohta kuvailutietojen osiosta. */
+body#catalog_detail span.results_summary.analytics.analytic_monograph { display: none; }
+body#catalog_detail span.results_summary.analytics.analytic_undefined { display: none; }
+```
 ### Piilota Huomautus toimenpiteistä
 
 Piilota perustiedot-näytöltä huomautus toimenpiteestä eli MARC-kentän 583-tieto.
 
 Tarpeellisuus: Vapaaehtoinen
-Versio: 21.11
+Versio: 22.11
 
-> /* Piilota Toimenpide-huomautus 583-kenttä perustiedot-näytöltä */
+```
+/* Piilota Toimenpide-huomautus 583-kenttä perustiedot-näytöltä */
 span.results_summary.actionnote { display: none; }
-
+```
 
 Ennen piilotusta:
 !{width:40%}toimintaennen.png!
@@ -601,9 +662,12 @@ Joskus luettelointitiedoissa on syystä tai toisesta useampi kansikuvalinkki. Jo
 
 Versio: 17.05
 
-> .cover_image_container ~ .cover_image_container {
+```
+/* Piilota tuplakansikuvat */
+.cover_image_container ~ .cover_image_container {
    display:none;
 }
+```
 
 
 ### Säädä kansikuvan kokoa
@@ -611,28 +675,88 @@ Versio: 17.05
 Alla on kolme versiota, joilla voi säätää kansikuvien kokoa. Ensimmäinen versio vaikuttaa sekä hakutuloslista-sivulle että perustiedot-sivulle. Toinen vaikuttaa vain hakutulostilsta-sivulle ja kolmas perustiedot-näytölle. 
 
 Tarpeellisuus: Suositeltava
-Versio 21.11
+Versio 22.11
 
 Hakutuloslistalle ja perustiedot-näytölle:
-> /* Säädä hakutuloslistan ja perustiedot-näytön kansikuva tietyn kokoiseksi. Muuta pikselikoko tarvittaessa toiseksi. */
+```
+/* Säädä hakutuloslistan ja perustiedot-näytön kansikuva tietyn kokoiseksi. Muuta pikselikoko tarvittaessa toiseksi. */
 .bookcoverimg {
   width: 150px;
 }
-
+```
 
 Vain hakutuloslistalle:
-> /* Säädä hakutuloslistan kansikuva tietyn kokoiseksi. Muuta pikselikoko tarvittaessa toiseksi. */
+```
+/* Säädä hakutuloslistan kansikuva tietyn kokoiseksi. Muuta pikselikoko tarvittaessa toiseksi. */
 body#catalog_results.catalog .bookcoverimg {
   width: 150px;
 }
-
+```
 
 Vain perustiedot-näytölle:
-> /* Säädä perustiedotnäytön kansikuva tietyn kokoiseksi. Muuta pikselikoko tarvittaessa toiseksi. */
+```
+/* Säädä perustiedotnäytön kansikuva tietyn kokoiseksi. Muuta pikselikoko tarvittaessa toiseksi. */
 body#catalog_detail.catalog .bookcoverimg {
   width: 270px;
 }
+```
+---
 
+## Varaukset
+
+### Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Lisää varauksenteko-sivulle huomautus valita noutokirjasto niteen kohdalta, jos tehdään nidevaraus. */
+body#circ_request.catalog div.top.pager:after {
+  content: "Valitse noutokirjasto niteen kohdalta, jos teet nidevarauksen.";
+  color:red;
+}
+```
+
+### Piilota varauksen teko -sivulta asiakkaiden selaaminen sukunimen mukaan
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+/* Piilota varauksen teko -sivulta asiakkaiden selaaminen sukunimen mukaan */
+body#circ_request.catalog div.browse { display: none; }
+```
+### Piilota Näytä aina varaukset -täppä varauksen teko -sivulla
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+/* Piilota "Näytä aina varaukset" -täppä varauksenteko-sivulla, koska se ei toimi Koha-Suomi-muutosten vuoksi. */
+body#circ_request.catalog label[for="always_show_holds"] { display:none; }
+body#circ_request.catalog input#always_show_holds { display:none; }
+```
+
+### Säädä, kuinka leveä näytön pitää olla, jotta taulukoista piilotetaan sivulta toiselle siirtyminen
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+/* Säädetään sitä, kuinka leveä näytön pitää olla, että taulukoista piilotetaan siirtyminen sivulta toiselle sivunumeroiden perusteella esim. varaustenteko-sivulla. Eli piilotetaan numerolinkit. */
+@media only screen and (min-width: 1000px) {
+    .dataTables_wrapper
+        .dataTables_paginate
+            span
+                .paginate_button,
+    .dataTables_wrapper
+        .dataTables_paginate
+            span
+                .ellipsis {
+                    display: inline-block;
+                }
+}
+```
 
 ---
 
@@ -640,21 +764,35 @@ body#catalog_detail.catalog .bookcoverimg {
 
 ### Muuta kaikissa taulukoissa rivin taustaväri, kun hiiri viedään rivin kohdalle
 
-Versio: 21.11
+Tarpeellisuus: Suositeltava
+Versio: 22.11
 
-> /* Muuta kaikissa taulukoissa rivin taustaväri, kun hiiri viedään rivin kohdalle. */
-tr:hover td { background-color:#e8f0f8 !important; }
+```
+/* Muuta kaikissa taulukoissa rivin taustaväri, kun hiiri viedään rivin kohdalle. */
+tr:hover td { background-color:#f8fcf6 !important; }
+```
 
+### Korjataan päivämääräkentän leveys sopivaksi
+
+Tarpeellisuus: Suositeltava. Ei todennäköisesti tarvita enää seuraavassa versiossa.
+Versio: 22.11
+
+```
+/* Korjataan päivämääräkenttien leveys sopivaksi. Tiketit 111 ja 119 */
+.flatpickr-input {width: auto}
+```
 
 ### Koha-logon piilotus virkailijaliittymän vasemmasta reunasta
 
 Versio: 21.11
-> /* Piilota Kohan logo vasemmasta reunasta */
+
+```
+/* Piilota Kohan logo vasemmasta reunasta */
 #container-main {
     /* Contains the news + both columns of links + pending box + userblock box */
     background-image:none;
 }
-
+```
 ---
 
 > /* Niteiden muokkaus -taulukko */
