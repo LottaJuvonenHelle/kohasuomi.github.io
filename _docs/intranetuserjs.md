@@ -12,7 +12,7 @@ HUOM! Koha-Suomen kirjastojen pääkäyttäjät: Kohaan tehdyn tietoturva-audito
 
 Kun Kohan käyttöliittymän toiminta pysäytetään IntranetUserJS-järjestelmäasetuksen tarkistussumman vuoksi, tulee ilmoitus: KOHA IS STOPPED DUE TO CHECKSUM MISMATCH IN SYSTEM PREFERENCES. PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR.
 
-[Muutokseen liittyvä tiketti](ttps://tiketti.koha-suomi.fi/issues/4343)
+[Muutokseen liittyvä tiketti](https://tiketti.koha-suomi.fi/issues/4343)
 
 
 
@@ -20,9 +20,11 @@ Kun Kohan käyttöliittymän toiminta pysäytetään IntranetUserJS-järjestelm�
 
 ### Alt+p tulostaa kuitin
 
-Tämä ei tuntuisi toimivan.
+Tarpeellisuus: Suositeltava <br />
+Versio: 22.11
 
 ```
+/// ALKU ///
 /* When returning books, if there is an input with onclick handler that starts with "Dopop",
    allow pressing alt+p to click on that input. That should be a "print a slip" -type thing. */
 
@@ -35,19 +37,31 @@ $(document).ready(function () {
      }
   });
 });
+/// LOPPU ///
 ```
 
 ## Palautus
 
-### "Maksuja ei peritä käsin peruutetuista varauksista" -täppä päälle
+### "Poista käsin poistettujen varausten maksut" -täppä päälle
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
 
 ```
+/// ALKU ///
+
+/* Laita raksi "Poista käsin poistettujen varausten maksut" -kohtaa palautuksessa. Tällä estetään noutamattoman varauksen maksun syntyminen, kun varaus noudettavissa oleva varaus poistetaan palautuksen kautta. Huom! Ei toimi, jos palautus tehdään muualla kuin Palautus-sivulla. */
 $(document).ready(function () {
   $("#forgivemanualholdsexpire").attr('checked', true);
 });
+
+/// LOPPU ///
 ```
 
 ### Palautusosion siivousta (Tritonia)
+
+Tarpeellisuus: ?<br />
+Versio: ?
 
 ```
 $( document ).ready(function() {
@@ -67,6 +81,9 @@ if( ( $( '#circ_returns #exemptcheck' ).prop("checked") == true ) || ( $( '#circ
 
 ### Kursorin kohdistus oikeaan paikkaan palautussivuilla (Tritonia)
 
+Tarpeellisuus: ?<br />
+Versio: ?
+
 ```
 $( document ).ready(function() {
   $( '#circ_returns #checkin-form #barcode' ).focus();
@@ -77,38 +94,65 @@ $( document ).ready(function() {
 
 ## Piilota Perheen lainat -välilehti
 
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
 ```
+/// ALKU ///
 /* Piilota Perheen lainat -välilehti */
 $(document).ready(function() { $("#relatives-issues-tab").parent().hide(); });
+/// LOPPU ///
 ```
 
 ---
 
 ## Asiakkaan muokkausnäyttö
 
-### Syntymäajan asettaminen automaattisesti henkilötunnuksesta
+### Henkilötunnuksen lisäys sotusiiloon ja syntymäajan asettaminen automaattisesti henkilötunnuksesta
 
-Asettaa automaattisesti syntymäajan kun sotu on laitettu, ja poistutaan sotu-kentästä. Tiketti #3796
+Lisää asiakkaan muokkausnäytölle Henkilötunnus-kentän ja sen viennin sotusiiloon sekä asettaa automaattisesti syntymäajan henkilötunnuksen perusteella.
+
+Tarpeellisuus: Suositeltava <br />
+Versio: 22.11
 
 ```
-/* Generoi syntymäaika henkilötunnuksesta */
+/// ALKU ///
+/// Lisätään asiakkaan lisäys/muokkausnäytölle hetun lisäysmahdollisuus. Rimpsu myös muodostaa syntymäaika-kenttään tiedon henkilötunnuksen perusteella. ///
 $(document).ready(function() {
-  $('body#pat_memberentrygen.pat input[name="ssn_ssn"]').blur(function() {
-     var tmp = $(this).val().trim();
-     var re = /^\d{6}[-A]\d{3}[0-9A-Z]$/i;
-     if (re.test(tmp)) {
-        var day = tmp.substr(0, 2);
-        var month = tmp.substr(2, 2);
-        var year = tmp.substr(4, 2);
-        if (tmp.substr(6, 1) == "-") {
-           year = "19" + year;
-        } else {
-           year = "20" + year;
-        }
-        $('#dateofbirth').datepicker('setDate', new Date(year+'-'+month+'-'+day));
-     }
-  });
+    $("#entryform #memberentry_identity ol").before('<ol><li><label>Lisää hetu:</label><input type="text" id="ssnvalue"></input><button onclick="addSSN(event)">Tallenna</button></li></ol><hr/>');
 });
+function addSSN(event) {
+    event.preventDefault();
+    $.ajax({
+        url: "/api/v1/contrib/kohasuomi/ssn/add",
+        type: "POST",
+        dataType: "json",
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify({
+            token: 'yS390RiiReRhd2qXBmEIkD',
+            ssn: $("#ssnvalue").val()
+        }),
+        success: function(result) {
+            alert(result.msg);
+            var entry = $("#ssnvalue").val().trim();
+            var dateofbirth = ((entry.substr(6, 1) == "-" ? "19": "20") + entry.substr(4, 2) + "-" + entry.substr(2, 2) + "-" + entry.substr(0, 2));
+            var fp = document.querySelector("#dateofbirth")._flatpickr;
+            fp.setDate(dateofbirth);
+            $("#patron_attr_5").val(result.ssnkey); //Tämä id on katsottava järjestelmäkohtaisesti
+        },
+        error: function(err) {
+            var message = JSON.parse(err.responseText).message;
+            if ($.isNumeric(message)) {
+                if (window.confirm('Asiakas on jo olemassa! Paina OK siirtyäksesi tietoihin.')) {
+                    window.open('/cgi-bin/koha/members/moremember.pl?borrowernumber=' + message, '_blank');
+                }
+            } else {
+                alert(message);
+            }
+        }
+    });
+}
+/// LOPPU ///
 ```
 
 
@@ -116,7 +160,11 @@ $(document).ready(function() {
 
 Näillä kahdella JS:llä voi poistaa asiakkaan muokkausnäytöllä ylimääräiset välilyönnit kentistä. Näytöllä on kahta eriä kenttätyyppiä, minkä vuoksi JS:kin on kaksi. Funktiot poistaa kentistä välilyönnit alusta ja lopusta sekä useammat peräkkäiset välilyönnit välistä.
 
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
 ```
+/// ALKU ///
 /* poista asiakkaan muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#pat_memberentrygen.pat input').blur(function() {
@@ -127,9 +175,11 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
+/// LOPPU ///
 ```
 
 ```
+/// ALKU ///
 /* poista asiakkaan muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä*/
 $(document).ready(function() {
   $('body#pat_memberentrygen.pat textarea').blur(function() {
@@ -140,44 +190,29 @@ $(document).ready(function() {
      $(this).val(tmp);
   });
 });
+/// LOPPU ///
 ```
 
-### Poista sukunimestä ja etunimestä välilyönnit alusta ja lopusta 
-
-Näiden asemesta on ehkä järkevämpää käyttää yläpuolella olevaa skriptiä.
-
-```
-/* poista sukunimestä ja etunimestä välilyönnit alusta ja lopusta */
-$(document).ready(function() {
-  $('body#pat_memberentrygen.pat input#surname').blur(function() {
-     var tmp = $(this).val();
-     tmp = tmp.replace(/^ +/, '');
-     tmp = tmp.replace(/ +$/, '');
-     $(this).val(tmp);
-  });
-});
-$(document).ready(function() {
-  $('body#pat_memberentrygen.pat input#firstname').blur(function() {
-     var tmp = $(this).val();
-     tmp = tmp.replace(/^ +/, '');
-     tmp = tmp.replace(/ +$/, '');
-     $(this).val(tmp);
-  });
-});
-```
 
 ### Aseta syntymäpäiväkalenterin alasvetovalikon vuodet
 
-Raja on 50 edellistä vuotta
+Raja on 50 edellistä vuotta.
+
+Tarpeellisuus: Ei tarpeellinen versiossa 22.11
+
 
 ```
+/// ALKU ///
 /* aseta syntymäpäivä-datepickerin dropdownin vuodet */
 $(document).ready(function() {
   $("body#pat_memberentrygen.pat #dateofbirth").datepicker({yearRange: "c-50:c+1"});
 });
+/// LOPPU ///
 ```
 
 ### Kopioi matkapuhelinnumero SMS-tekstiviestinumerokenttään
+
+Tämä on korvattu tietokannan triggerillä.
 
 ```
 $(document).ready(function() {
@@ -194,6 +229,9 @@ $(document).ready(function() {
 
 ### Siirretään Hetu ja tilastoryhmä toiseen paikkaan asiakkaan tietojen muokkaussivulla (Tritonia, päivitetty 2021 kv-Kohaa varten)
 
+Tarpeellisuus: ?<br />
+Versio: ?
+
 ```
 $( document ).ready(function() {
   $( '#memberentry_identity #othernames' ).parents( 'ol' ).append( '<li>' + $( '#memberentry_patron_attributes #patron_attr_3' ).parents( 'li' ).html() + '</li>' );
@@ -203,6 +241,8 @@ $( document ).ready(function() {
 ```
 
 ### Kopioidaan kirjastokortin numero käyttäjätunnus-kenttään
+
+Tämä on korvattu tietokantatriggerillä.
 
 Vaatii, että käyttäjän pitää klikata kirjastokortti-kentän ulkopuolelle (esim. tallentaa tiedot), jotta tieto kopioituu.
 
@@ -218,31 +258,43 @@ $(document).ready(function() {
 });
 ```
 
-### Varaustunnuksen anonymisointi (Other name -kenttään)
+### Varaustunnuksen generointi
 
-Versioon 20.05 ja uudempaan.
+Skripti generoi HOLDID-asiakasmääreeseen anonyymin varaustunnisteen, joka on käytännössä UNIX-aikaleima.
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
 
 ```
-// Varaustunnuksen automaattinen generointi/anonymisointi - Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master) 
+/// ALKU ///
+
+// Varaustunnuksen automaattinen generointi/anonymisointi - Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master)
+// Tämä generoi patron_attr_2-kenttään. Tarkista oikea attribuutti asiakkaan muokkaussivulta selaimen Tarkista-toiminnolla. Jos attribuutin arvo muuttuu, pitää se muuttaa jokaiseen kohtaan, jossa se mainitaan. //
+
 $(document).ready(function(){
     if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=add&") || window.location.search.includes("?op=duplicate&")) {
       var unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
       var epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-      $('input[id=othernames]').val(epochdashed);
-      $("#othernames").focus(function() {
+      $('textarea#patron_attr_2').val(epochdashed);
+
+      $("#patron_attr_2").focus(function() {
         unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
         epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-        $('input[id=othernames]').val(epochdashed);
+        $('textarea#patron_attr_2').val(epochdashed);
       });
     }
+
       if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=modify")) {
-      $("#othernames").focus(function() {
+      $("#patron_attr_2").focus(function() {
         unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
         epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-        $('input[id=othernames]').val(epochdashed);
+        $('textarea#patron_attr_2').val(epochdashed);
       });
     }
 });
+
+/// LOPPU ///
+
 ```
 
 
@@ -284,82 +336,165 @@ $(document).ready(function(){
 
 Asiakasmääreen saa piilotettua muokkausnäytöllä seuraavalla rimpsulla. "patron_attr_1"-kohtaan voi vaihtaa tarvittaessa toisen numeron ykkösen sijalle. Numero kertoo, monesko määre on listalla.
 
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: ?
+
 ```
+/// ALKU ///
 $( document ).ready(function() {
   $( '#pat_memberentrygen #memberentry_patron_attributes #patron_attr_1' ).parents( 'li' ).remove();
 });
+/// LOPPU ///
 ```
 
-### Puhelinnumeron validointi
+### Puhelinnumeron validointi ja viestitäppien poisto, jos puhelinnumero tai sähköpostiosoite puuttuu
 
-Versioon 20.05 ja uudempaan. Tarkoitettu korvaamaan järjestelmäasetus ValidatePhoneNumber (kts. #4650)
+Versioon 20.05 ja uudempaan. Tarkoitettu korvaamaan järjestelmäasetus ValidatePhoneNumber (kts. #4650).
 
-Uusi versio 19.5.2022
+Tässä on kaksi toiminnallisuutta yhdessä, koska ne ovat riippuvaisia toisistaan toiminnallisesti.
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
 
 ```
-/* Puhelinnumeron muodon tarkistus */
+/// ALKU ///
+/* Puhelinnumeron muodon tarkistus ja email/sms-viestitäpät*/
 // Add additional validation to member add/edit form
-$(document).ready(function(){    
-   // Replace forms "Save" button 
-   // (otherwise form is sent regardless validation checks made here) 
-   var language = $(".currentlanguage").text();
-   var save_text; 
-   if(language == "Suomi"){
-     save_text = "Tallenna";
-   }else if(language == "Svenska"){
-     save_text = "Spara";
-   }else {
-     save_text = "Save";
-   }
-  $('#pat_memberentrygen #saverecord').replaceWith('<button class="btn btn-default" id="modified_saverecord"><i class="fa fa-save"></i> '+save_text+'</button>');
-   var isvalid = 1;
-   $('#phone').blur(function(){
+$(document).ready(function () {
+  if (window.location.href.indexOf("members/memberentry.pl") > -1) {
+    // Replace forms "Save" button 
+    // (otherwise form is sent regardless validation checks made here) 
+    $('#pat_memberentrygen #saverecord').replaceWith('<button class="btn btn-default" id="modified_saverecord"><i class="fa fa-save"></i> Save</button>');
+
+    var isvalid = 1;
+
+    $('#phone').blur(function () {
       var error_mes = "";
       var phone = $('#phone').val();
-      var phone_reg = /^[+]?([^-\s][0-9]+)+$/;
+      var phone_reg = /^((90[0-9]{3})?0|\+358)(?!(100|20(0|2(0|[2-3])|9[8-9])|300|600|700|708|75(00[0-3]|(1|2)\d{2}|30[0-2]|32[0-2]|75[0-2]|98[0-2])))(4|50|10[1-9]|20(1|2(1|[4-9])|[3-9])|29|30[1-9]|71|73|75(00[3-9]|30[3-9]|32[3-9]|53[3-9]|83[3-9])|2|3|5|6|8|9|1[3-9])(\d?){4,19}\d$/;
+
       if (phone && !phone_reg.test(phone)) {
         error_mes = error_mes + "\nPlease enter a valid phone number.\n";
-        $('#phone').after('<label id="phone-error" class="error" for="phone">'+error_mes+'</label>');
+        $('#phone').after('<label id="phone-error" class="error" for="phone">' + error_mes + '</label>');
         isvalid = 0;
       } else {
-      	isvalid = 1;
+        isvalid = 1;
       }
-   });
-   $('#mobile').blur(function(){
+    });
+
+    $('#mobile').blur(function () {
       var error_mes = "";
       var mobile = $('#mobile').val();
-      var mobile_reg = /^[+]?([^-\s][0-9]+)+$/;
+      var mobile_reg = /^((90[0-9]{3})?0|\+358)(?!(100|20(0|2(0|[2-3])|9[8-9])|300|600|700|708|75(00[0-3]|(1|2)\d{2}|30[0-2]|32[0-2]|75[0-2]|98[0-2])))(4|50|10[1-9]|20(1|2(1|[4-9])|[3-9])|29|30[1-9]|71|73|75(00[3-9]|30[3-9]|32[3-9]|53[3-9]|83[3-9])|2|3|5|6|8|9|1[3-9])(\d?){4,19}\d$/;
+
       if (mobile && !mobile_reg.test(mobile)) {
         error_mes = error_mes + "\nPlease enter a valid mobile number.\n";
-        $('#mobile').after('<label id="mobile-error" class="error" for="mobile">'+error_mes+'</label>');
+        $('#mobile').after('<label id="mobile-error" class="error" for="mobile">' + error_mes + '</label>');
         isvalid = 0;
       } else {
-      	isvalid = 1;
+        isvalid = 1;
       }
-   });
-   $('#SMSnumber').blur(function(){
+    });
+
+    $('#SMSnumber').blur(function () {
       var error_mes = "";
       var SMSnumber = $('#SMSnumber').val();
-      var SMSnumber_reg = /^[+]?([^-\s][0-9]+)+$/;
+      var SMSnumber_reg = /^((90[0-9]{3})?0|\+358)(?!(100|20(0|2(0|[2-3])|9[8-9])|300|600|700|708|75(00[0-3]|(1|2)\d{2}|30[0-2]|32[0-2]|75[0-2]|98[0-2])))(4|50|10[1-9]|20(1|2(1|[4-9])|[3-9])|29|30[1-9]|71|73|75(00[3-9]|30[3-9]|32[3-9]|53[3-9]|83[3-9])|2|3|5|6|8|9|1[3-9])(\d?){4,19}\d$/;
+
       if (SMSnumber && !SMSnumber_reg.test(SMSnumber)) {
         error_mes = error_mes + "\nPlease enter a valid SMS number.\n";
-        $('#SMSnumber').after('<label id="SMSnumber-error" class="error" for="SMSnumber">'+error_mes+'</label>');
+        $('#SMSnumber').after('<label id="SMSnumber-error" class="error" for="SMSnumber">' + error_mes + '</label>');
         isvalid = 0;
       } else {
-      	isvalid = 1;
+        isvalid = 1;
       }
-   });
-   $('#modified_saverecord').click(function(e){
-      if(isvalid == 1){
-        if( check_form_borrowers() ){
-          $("#entryform").submit();
+    });
+
+    $('#modified_saverecord').click(function (e) {
+      var text = "";
+      if (isvalid == 1) {
+        //Vahvista viestitäppien poisto popupissa jos sähköposti/matkapuhelin puuttuu
+
+        if (!$('#email').val()) {
+          if ($('#email1').attr('checked') || $('#email2').attr('checked') || $('#email3').attr('checked') || $('#email4').attr('checked') || $('#email5').attr('checked') || $('#email6').attr('checked') || $('#email10').attr('checked')) {
+            text = "Sähköpostiosoite puuttuu. Sähköposti-viestiasetukset poistetaan.\n";
+            $('#email1').removeAttr('checked');
+            $('#email1').attr('disabled', 'disabled');
+            $('#email2').removeAttr('checked');
+            $('#email2').attr('disabled', 'disabled');
+            $('#email3').removeAttr('checked');
+            $('#email3').attr('disabled', 'disabled');
+            $('#email4').removeAttr('checked');
+            $('#email4').attr('disabled', 'disabled');
+            $('#email5').removeAttr('checked');
+            $('#email5').attr('disabled', 'disabled');
+            $('#email6').removeAttr('checked');
+            $('#email6').attr('disabled', 'disabled');
+            $('#email10').removeAttr('checked');
+            $('#email10').attr('disabled', 'disabled');
+          }
         }
+        if (!$('#mobile').val()) {
+          if ($('#sms1').attr('checked') || $('#sms4').attr('checked') || $('#sms10').attr('checked')) {
+            text += "Matkapuhelinnumero puuttuu. Tekstiviesti-viestiasetukset poistetaan.";
+            $('#sms1').removeAttr('checked');
+            $('#sms1').attr('disabled', 'disabled');
+            $('#sms4').removeAttr('checked');
+            $('#sms4').attr('disabled', 'disabled');
+            $('#sms10').removeAttr('checked');
+            $('#sms10').attr('disabled', 'disabled');
+          }
+        }
+
+        if (text.charAt(0)){
+          alert(text);
+        }
+        
+        $("#entryform").submit();
       }
-   });
+    }
+    );
+  }
 });
+/// LOPPU ///
+```
+
+### Apuskripti puhelinnumeron tarkistus/viestitäppä -skriptille
+
+Tämä skripti tarvitaan edellisen kaveriksi, jotta viestitäppien poisto onnistuu ensimmäisellä tallennuskerralla. [Liittyy tikettiin 538](https://github.com/KohaSuomi/Koha/issues/538).
+
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+///ALKU///
+/* Tiketti 538 Lisää viestitäppiin checked-arvot jo ne laitettaessa, jolloin viestiasetusten tarkistus onnistuu ensimmäisellä asiakastietojen tallennuskerralla */
+$(document).ready(function () {
+    if (window.location.href.indexOf("members/memberentry.pl") > -1) {
+var classA = Array.from(document.getElementsByClassName("pmp_sms"))
+     ,classB = Array.from(document.getElementsByClassName("pmp_email"))
+     ,result = Array.from(new Set(classA.concat(classB)));
+
+for (var i = 0; i < result.length; i ++) {
+      result[i].onclick = function(){
+    var checkStatus = $(this).is(':checked');   
+
+    if(checkStatus){
+        $(this).attr('checked', 'checked');
+    }
+    else{
+        $(this).removeAttr('checked');
+    }
+   };
+  }
+}});
+///LOPPU///
 ```
 
 ### Asiakkaan osoitteenmuutospyyntö- täppä oletuksena hyväksy
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: ?
 
 ```
 $(document).ready(function () {
@@ -372,14 +507,22 @@ $('input:radio[value="approve"]').attr('checked', true);
 
 ## Asiakkaan tiedot näyttö
 
-### Piilota viestin tekijän nimi
+### Piilota viestin tekijän nimi Tiedot-näytöllä
+
+Tarpeellisuus: Vapaaehtoinen <br />
+Versio: 22.11
 
 ```
+/// ALKU ///
+
+/* Piilota viestin tekijän nimi asiakkaan Tiedot-näytöllä */
 $("#messages .circ-hlt a").remove();
 $("#messages .circ-hlt").each(function( index ){
   var str = $(this).text().replace("(  )", "");
   $(this).text(str);
 });
+
+/// LOPPU ///
 ```
 
 ---
@@ -387,6 +530,9 @@ $("#messages .circ-hlt").each(function( index ){
 ## Tarkka haku
 
 ### Aineistolajirajauksen tyhjennys
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: ?
 
 ```
 /* Aineistolajirajauksen tyhjennys tarkassa haussa */
@@ -402,51 +548,58 @@ $(document).ready(function() {
 
 Tiketti #494. Valikkojen oletus on asiasana, joten kolmannen arvoa ei tarvitse erikseen asettaa.
 
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
 ```
+/// ALKU ///
+
+/* Tarkka-haku ja Sanahaku-oletustermit korvataan Nimeke, Tekijä, Asiasana */
 $(document).ready(function() {
   var elems = $("body#catalog_advsearch select[name='idx']");
   elems.eq(0).val('ti');
   elems.eq(1).val('au');
+  elems.eq(2).val('su');
 });
+
+/// LOPPU ///
 ```
 
 ### Linkki Finna-näkymään
 
-  Versioon 20.05 ja uudempaan.
+Tämä lisää tietueen perustiedot-näytölle valikkoriville viimeiseksi Avaa Finnassa -nappulan, joka vie oman kimpan Finnaan saman teoksen tietoihin.
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
 ```
-  /* This file is part of Koha.
-  /*
-  /* Koha is free software; you can redistribute it and/or modify it
-  /* under the terms of the GNU General Public License as published by
-  /* the Free Software Foundation; either version 3 of the License, or
-  /* (at your option) any later version.
-  /*
-  /* Koha is distributed in the hope that it will be useful, but
-  /* WITHOUT ANY WARRANTY; without even the implied warranty of
-  /* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-  /* GNU General Public License for more details.
-  /*
-  /* You should have received a copy of the GNU General Public License
-  /* along with Koha; if not, see <http://www.gnu.org/licenses>.
+ /// ALKU ///
+/// Lisää tietueen perustiedot-näytölle valikkoriville loppuun Avaa Finnassa -nappula. Muista vaihtaa osoitteisiin oman kimpan tunnisteet Vaaran tunnisteiden sijaan. ///
 
-
-
-$(document).ready(function() {
-	if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
-		var details_elem = document.getElementById("catalogue_detail_biblio");
-		var span_elem = document.createElement("span");
-		span_elem.className = "results_summary";
-		var link_elem = document.createElement("a");
-		var params = new URLSearchParams(window.location.search);
-		var biblionumber = parseInt(params.get("biblionumber"));
-		link_elem.href = "https://kohatesti.finna-test.fi/kvkoha1/Record/kvkoha." + biblionumber;
-                link_elem.target = "_blank";
-		var link_text = document.createTextNode("Avaa Finnassa");
-		link_elem.appendChild(link_text);
-		span_elem.appendChild(link_elem);
-		details_elem.appendChild(span_elem);
-	}
+$( document ).ready(function() {
+if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
+        /*var details_elem = document.getElementById("catalogue_detail_biblio");
+        var span_elem = document.createElement("span");
+        span_elem.className = "results_summary";
+        var link_elem = document.createElement("a");
+        link_elem.href = "https://vaara.finna.fi/Record/vaarakirjastot." + biblionumber;
+        var link_text = document.createTextNode("Open in Finna");
+        link_elem.appendChild(link_text);
+        span_elem.appendChild(link_elem);
+        details_elem.appendChild(span_elem);*/
+  		var linktext = 'Avaa Finnassa';
+        if( $( '#changelanguage .currentlanguage' ).text() == 'English' ) {
+        	linktext = 'Open in Finna';
+        } else if ( $( '#changelanguage .currentlanguage' ).text() == 'Svenska' ) {
+        	linktext = 'Öppna i Finna';
+        }
+        var params = new URLSearchParams(window.location.search);
+        var biblionumber = parseInt(params.get("biblionumber"));
+  		$( '#catalog_detail #toolbar' ).append( '<div class="btn-group"> <a href="https://vaara.finna.fi/Record/vaarakirjastot.' + biblionumber + '" class="btn btn-default" target="_blank"><i class="fa fa-external-link"></i> ' + linktext + '</a></div>' );
+}
 });
+
+/// LOPPU ///
 ```
 
 ### Linkki Finna-näkymään (nappula) (Tritonia 2020)
@@ -480,14 +633,22 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
 
 Indeksointityöryhmä ideoi mukautuksia tiedonhakun hakusivulle. Alla siitä syntyneet muutokset.
 
+Tarpeellisuus: Suositelta<br />
+Versio: 22.11
+
 ```
+/// ALKU ///
+
+/* Näillä rimpsuilla tehdään tiedonhakuun Indeksointi-työryhmän päättämät muutokset. Asetetaan otsikot eri kielillä aineistotyyppi-, hyllytarkenne- ja ikärajavälilehdille tiedonhaussa. Lisätään alasvetovalikoihin YKL, UDK, Päivittyvä julkaisu ja Kausijulkaisu */
 $(document).ready(function() {
+
     if ( $('html').attr('lang') == 'fi-FI') {
       $("#advsearch-tab-mtype a").text("Aineistotyyppi"); /* MTYPE auktorisoituarvo tarkassa haussa */
       $("#advsearch-tab-subloc a").text("Hyllytarkenne"); /* SUBLOC auktorisoituarvo tarkassa haussa */
       $("#advsearch-tab-agelevel a").text("Ikärajat"); /* AGELEVEL auktorisoituarvo tarkassa haussa */
+      $("#advsearch-tab-bib-level a").text("Emokohde/Osakohde"); /* bib-level auktorisoituarvo tarkassa haussa */
       $("#searchterms select").append(new Option('YKL-luokitus', 'other-classification')); /* Lisää uuden valinnan YKL-luokitus */
-      $("#searchterms select").append(new Option('UDC-luokitus', 'udc-classification')); /* Lisää uuden valinnan UDC-luokitus */
+      $("#searchterms select").append(new Option('UDK-luokitus', 'udc-classification')); /* Lisää uuden valinnan UDK-luokitus */
       $("#subtype select option[value='mus:i'").parent().append(new Option('Päivittyvä julkaisu', 'bib-level:i')); /*Lisää lisärajoitukset valikkoon uuden arvon */
       $("#subtype select option[value='mus:i'").parent().append(new Option('Kausijulkaisu', 'bib-level:s')); /*Lisää lisärajoitukset valikkoon uuden arvon */
     }
@@ -495,22 +656,27 @@ $(document).ready(function() {
       $("#advsearch-tab-mtype a").text("Materialtyp");
       $("#advsearch-tab-subloc a").text("Underplats");
       $("#advsearch-tab-agelevel a").text("Åldersgränser");
+      $("#advsearch-tab-bib-level a").text("Huvudobjekt/Delobjekt");
       $("#searchterms select").append(new Option('YKL-klassification', 'other-classification'));
       $("#searchterms select").append(new Option('UDC-klassification', 'udc-classification'));
-      $("#subtype select option[value='mus:i'").parent().append(new Option('Päivittyvä julkaisu', 'bib-level:i'));
-      $("#subtype select option[value='mus:i'").parent().append(new Option('Kausijulkaisu', 'bib-level:s'));
+      $("#subtype select option[value='mus:i'").parent().append(new Option('Publikation som uppdateras', 'bib-level:i'));
+      $("#subtype select option[value='mus:i'").parent().append(new Option('Seriell publikation', 'bib-level:s'));
     }
     else if ( $('html').attr('lang') == 'en') {
       $("#advsearch-tab-mtype a").text("Material type");
       $("#advsearch-tab-subloc a").text("Sub location"); 
       $("#advsearch-tab-agelevel a").text("Age levels");
+      $("#advsearch-tab-bib-level a").text("Child/monographic record");
       $("#searchterms select").append(new Option('Other classification', 'other-classification'));
       $("#searchterms select").append(new Option('UDC classification', 'udc-classification'));
       $("#subtype select option[value='mus:i'").parent().append(new Option('Integrating resource', 'bib-level:i'));
       $("#subtype select option[value='mus:i'").parent().append(new Option('Serial', 'bib-level:s'));
     }
+
     $("#searchterms select option[value='location']").val('loc'); /* Muuttaa location-arvon loc-arvoksi "Hakusanat"-valikossa */
 });
+
+/// LOPPU ///
 ```
 
 ---
