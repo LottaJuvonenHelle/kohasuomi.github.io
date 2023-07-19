@@ -15,10 +15,13 @@ Jokaisen kohdalle on merkitty, missä Koha-versiossa se toimii.
 
 ### Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto
 
-Versio: 17.05
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
 
 ```
-option[value='address'] { display:none; }
+/* Piilota Asiakkaat-sivulla hausta osoite-hakuvaihtoehto */
+body#pat_member #searchfieldstype option[value='address'] { display:none; }
+body#pat_member #searchfieldstype_filter option[value='address'] { display:none; }
 ```
 
 ### Piilota asiakkaan kuva, jos asiakkaalla ei ole sellaista
@@ -201,6 +204,47 @@ Versio: 22.11
 /* Piilota ennakkoilmoituksen valinnasta 0 päivän keston. Käy lisäksi valitsemassa asiakastyyppien ylläpidossa asiakastyyppien viestiasetuksiin jotain muuta kuin 0 oletukseksi. Valinta tehtävä kaikille asiakastyypeille erikseen. */
 body#pat_memberentrygen.pat fieldset#memberentry_messaging_prefs.rows option[value='0'] { display:none; }
 ```
+### Piilota asiakkaan viestiasetuksista ennakkoilmoituksen viive -vaihtoehdoista 0 ja 8-30
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Asiakkaan viestiasetukset, ennakkoilmoituksen viive-vaihtoehdoista arvot 0 ja 8-30 piiloon */
+body#pat_memberentrygen.pat [name="2-DAYS"] :is([value='0'], [value='8'], [value='9'], [value='10'],
+ [value='11'], [value='12'], [value='13'], [value='14'], [value='15'], [value='16'], [value='17'], [value='18'], [value='19'], [value='20'],
+ [value='21'], [value='22'], [value='23'], [value='24'], [value='25'], [value='26'], [value='27'], [value='28'], [value='29'], [value='30']) { display:none; }
+```
+
+### Piilota käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite ja Kadonnut kortti)
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Piilota Käyttäjätilin huomautukset asiakaslomakkeelta (Tarkista osoite ja Kadonnut kortti) */ 
+#pat_memberentrygen #memberentry_account_flags { display:none; }
+```
+
+### Piilota noutomuistutus asiakaslomakkeelta
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Noutomuistutuksen piilotus asiakaslomakkeelta / / Toimii 9.3.2023 MLI */
+body#pat_memberentrygen #memberentry_messaging_prefs table tbody tr:last-child { display:none; }
+```
+
+### Piilota noutomuistutus tiedot-sivulta viestiasetuksista
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Noutomuistutuksen piilotus tiedot-sivulta / / Toimii 9.3.2023 MLI */
+body#pat_moremember #patron-messaging-prefs table tbody tr:last-child { display:none; }
+```
 
 ### Piilota Salli automaattinen uusinta -kohta
 
@@ -233,6 +277,19 @@ Asiantuntijaryhmä on päättänyt, että tietoruutu on näkyvillä, jotta tilin
 /* Asiakkaan tietoruudun piilotus vasemmasta reunasta */
 div.patroninfo { display: none; }
 ```
+
+### Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto ja Tulosta erääntyneet -valinnat
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Piilota asiakastietojen tulosta-valikosta Asiakastietojen yhteenveto ja Tulosta erääntyneet valinnat */ 
+/* Toimii 9.2.2023 */
+#printsummary,
+#print_overdues {display: none}
+```
+
 
 
 ### Piilota Näytä takaajalle lainat ja Näytä takaajalle maksut -kohdat Tiedot-näytöltä
@@ -700,6 +757,17 @@ body#catalog_detail.catalog .bookcoverimg {
   width: 270px;
 }
 ```
+
+### Piilota tarkassa haussa Lisärajaukset-osio
+
+Tarpeellisuus: Vapaaehtoinen (huom. jos tämän piilottaa, menee piiloon osa indeksointityöryhmän päättämistä hakurajausvaihtoehdoista)
+Versio: 22.11
+
+```
+/* Tarkan haun Lisärajuslaatikon piilotus */ /* Toimii 17.2.2023 MLI */ /* Jos tämän laittaa päälle, menettää valikoihin lisätyt hakuehdot */
+#catalog_advsearch #subtype { display:none; }
+```
+
 ---
 
 ## Varaukset
@@ -758,6 +826,33 @@ Versio: 22.11
 }
 ```
 
+### Varauksen keskeytyksen korostus punaiseksi
+
+Kun varaus on keskeytetty, muuttuu tällä säädöllä teksti keskeytetty-teksti punaiseksi ja keskeytys on helpompi havaita.
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Varausten keskeytyksen korostus punaikseksi tietueen varaukset-sivulla */ 
+#circ_request.catalog button[data-suspended="true"] + label { color:red; font-weight:bold !important;}
+```
+
+---
+
+## Kausijulkaisut
+
+### Tasaa kausijulkaisujen vastaanotossa nidetiedot keskemmälle ruutua
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Tasaa kausijulkaisujen vastaanotossa nidetiedot keskemmälle ruutua. */
+body#ser_serials-edit.ser fieldset.rows ol li {display:block;}
+body#ser_serials-edit.ser fieldset.rows ol li label {float: left; font-weight: 700; margin-right: 1rem; text-align: right;}
+```
+
 ---
 
 ## Muita
@@ -791,6 +886,54 @@ Versio: 21.11
 #container-main {
     /* Contains the news + both columns of links + pending box + userblock box */
     background-image:none;
+}
+```
+
+### OpenDocument-vaihtoehdon piilotus raporteista
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* OpenDocumentin piilotus raporteista */ /* Toimii 16.5.2022 MLI */
+body#rep_guided_reports_start.rep button#format + ul li:nth-child(3){display: none;}
+```
+
+### Kimpan logo näkyviin yläpalkkiin
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Kimpan logo näkyviin yläreunaan */
+/* Vaihda kuvan osoite oikeaksi, logojen osoitteet löytyvät osoitteesta https://github.com/KohaSuomi/Koha-22x/commit/c55dbc5f6b4a721361bc42529e6aa7865d31cee6 Voit myös säätää kuvan kokoa tarvittaessa. */
+/* Yläkulman logon pienennys sopimaan yläpalkin tilaan. Toimii 6.3.2023 MLI */
+#logo.navbar-brand:after {
+  background-image: url(/koha-suomi-images/vaski-images/vaski-logo-transparent-white.png);
+  background-size: 103px 30px;  
+  display: block;
+  width: 103px; 
+  height: 30px;
+  content:"";
+}
+
+/* Yläkulman Koha-logon piilotus */
+.navbar-brand > img {
+    display:none;
+}
+```
+
+### Musta yläpalkki leveämmäksi
+
+Tällä saa säädettyä mustan yläpalkin leveämmäksi, mutta huomioi, että se vaikuttaa myös alareunan palkin leveyteen samalla.
+
+Tarpeellisuus: Vapaaehtoinen
+Versio: 22.11
+
+```
+/* Musta yläpalkki leveämmäksi - tarvittaessa vain */
+.navbar {
+  height: 45px;
 }
 ```
 ---
