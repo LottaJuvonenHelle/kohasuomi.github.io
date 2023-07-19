@@ -25,7 +25,7 @@ Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI), Leena Kinnunen (Lapp
   * OUTI: Piialle, Pirkko-Liisalle ja Vellulle
   * Siilinjärvi: Reetta
   * Vaara: Päivi, Auli, Irina
-  * Lumme: ?
+  * Lumme: Hanna, Katja
   * Kyyti: ?
   * Helle: Kati
   * Kirkes: Erika
