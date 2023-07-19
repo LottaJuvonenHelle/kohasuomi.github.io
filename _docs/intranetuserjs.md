@@ -58,37 +58,6 @@ $(document).ready(function () {
 /// LOPPU ///
 ```
 
-### Palautusosion siivousta (Tritonia)
-
-Tarpeellisuus: ?<br />
-Versio: ?
-
-```
-$( document ).ready(function() {
-  $( '#circ_returns #return_date_override_fields' ).hide();
-  $( '#circ_returns' ).on( 'click', '.show_circ_options_button', function(){
-  $( '#return_date_override_fields, .show_circ_options_button' ).toggle();
-  });
-  $( '#circ_returns #checkin-form #return_date_override_fields' ).before( '<div class="show_circ_options_button"><i class="fa fa-caret-right"></i> Check in options</div><div class="show_circ_options_button" style="display: none;"><i class="fa fa-times"></i> Close check in options</div>');
-  $( '#circ_returns #return_date_override_fields' ).prepend( '<h3>Check in options</h3>' );
-  $( '#circ_returns #return_date_override_fields' ).append( $( '#circ_returns #checkin_options' ).parents( '.yui-u' ).html() );
-  $( '#circ_returns .yui-u > #checkin_options' ).remove();
-if( ( $( '#circ_returns #exemptcheck' ).prop("checked") == true ) || ( $( '#circ_returns #return_date_override_remember' ).prop("checked") == true ) || ( $( '#circ_returns #dropboxcheck' ).prop("checked") == true ) || ( $( '#circ_returns #forgivemanualholdsexpire' ).prop("checked") == true ) ) {
-  $( '#return_date_override_fields, .show_circ_options_button' ).toggle();
-}
-});
-```
-
-### Kursorin kohdistus oikeaan paikkaan palautussivuilla (Tritonia)
-
-Tarpeellisuus: ?<br />
-Versio: ?
-
-```
-$( document ).ready(function() {
-  $( '#circ_returns #checkin-form #barcode' ).focus();
-});
-```
 
 ---
 
@@ -227,19 +196,6 @@ $(document).ready(function() {
 });
 ```
 
-### Siirretään Hetu ja tilastoryhmä toiseen paikkaan asiakkaan tietojen muokkaussivulla (Tritonia, päivitetty 2021 kv-Kohaa varten)
-
-Tarpeellisuus: ?<br />
-Versio: ?
-
-```
-$( document ).ready(function() {
-  $( '#memberentry_identity #othernames' ).parents( 'ol' ).append( '<li>' + $( '#memberentry_patron_attributes #patron_attr_3' ).parents( 'li' ).html() + '</li>' );
-  $( '#memberentry_identity #othernames' ).parents( 'ol' ).append( '<li>' + $( '#memberentry_patron_attributes #patron_attr_5' ).parents( 'li' ).html() + '</li>' );
-  $( '#pat_memberentrygen #memberentry_patron_attributes #patron_attr_3, #pat_memberentrygen #memberentry_patron_attributes #patron_attr_5' ).parents( 'li' ).remove();
-});
-```
-
 ### Kopioidaan kirjastokortin numero käyttäjätunnus-kenttään
 
 Tämä on korvattu tietokantatriggerillä.
@@ -297,40 +253,6 @@ $(document).ready(function(){
 
 ```
 
-
-### Varaustunnuksen automaattinen täyttö nimen perusteella 
-
-Versioon 20.05 ja uudempaan.
-
-```
-// This file is part of Koha.
-//
-// Koha is free software; you can redistribute it and/or modify it
-// under the terms of the GNU General Public License as published by
-// the Free Software Foundation; either version 3 of the License, or
-// (at your option) any later version.
-//
-// Koha is distributed in the hope that it will be useful, but
-// WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with Koha; if not, see <http://www.gnu.org/licenses>.
-// Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master) 
-// Adapted from Koha-suomi patch for KD-205 (commit cd74805e73ead0569abfc158e8b7ac1fe2bedfbe from https://github.com/KohaSuomi/Koha/ branch master
-
-
-$(document).ready(function(){
-    if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=add&")) {
-      var firstname = $("#entryform").find("#firstname");
-      var surname = $("#entryform").find("#surname");
-      $("#othernames").focus(function() {
-        $("#othernames").val(  surname.val() + ", " + firstname.val()  );
-      });
-    }
-});
-```
 
 ### Asiakasmääreen piilotus
 
@@ -491,6 +413,81 @@ for (var i = 0; i < result.length; i ++) {
 ///LOPPU///
 ```
 
+### Ilmoitusten oletuskielivalinnaksi suomi
+
+Kuitit tulostuvat sekakielisinä, jos käytössä on oletuspohja. Tämä skripti asettaa kielivalinnaksi suomen, jos valittuna on tallennettaessa oletus.
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+//Asiakkaalle lähtevien ilmoitusten oletuskielivalinta suomeksi
+$(document).ready(function () {
+  if (window.location.href.indexOf("members/memberentry.pl") > -1) {
+    var $notices_lang_select = document.querySelector('#lang');
+    var selected = $notices_lang_select.value;
+    if (selected == 'default') {
+      $notices_lang_select.value = 'fi-FI';  
+    }
+  }
+});
+/// LOPPU ///
+```
+
+### Varaustunnus-asiakasmääreen siirto
+
+Tällä skriptillä saa siirrettyä Varaustunnus-asiakasmääreen Asiakasidentiteetti-osioon sivun alkuun. Voit joutua kokeilemaan skriptille eri paikkoja IntranetUserJS:ssä, jotta se asettuu oikeaan kohtaan.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+// Varaustunnus-asiakasmääreen siirto
+$(document).ready(function () {
+  if (window.location.href.indexOf("members/memberentry.pl") > -1) {
+    var holdidlabel = $('label[for="' + "patron_attr_2" + '"]');
+    var clearbutton = holdidlabel.next().next().next();
+    clearbutton.replaceWith( '<button type="button" class="fa fa-fw fa-trash fa-lg" style="color:green; border:none;">' );
+    holdidlabel.next().next().next().on('click', function(e){
+        holdidlabel.next().val('');
+    });
+    var li = holdidlabel.parent();
+    $( "#identity_lgd" ).next().append(li);
+  }
+});
+/// LOPPU ///
+```
+
+### Sotuavain-asiakasmääreen siirto
+
+Tällä skriptillä saa siirrettyä Sotuavain-asiakasmääreen Asiakasidentiteetti-osioon sivun alkuun. Voit joutua kokeilemaan skriptille eri paikkoja IntranetUserJS:ssä, jotta se asettuu oikeaan kohtaan.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+// Sotuavain-asiakasmääreen siirto
+$(document).ready(function () {
+  if (window.location.href.indexOf("members/memberentry.pl") > -1) {
+    var sotuavainlabel = $('label[for="' + "patron_attr_6" + '"]');
+    var clearbutton = sotuavainlabel.next().next().next();
+    clearbutton.replaceWith( '<button type="button" class="fa fa-fw fa-trash fa-lg" style="color:green; border:none;">' );
+    sotuavainlabel.next().next().next().on('click', function(e){
+        sotuavainlabel.next().val('');
+    });
+    var li = sotuavainlabel.parent();
+    var ssnfield = $( '#ssnvalue' );
+    ssnfield.parent().append(li);
+  }
+});
+/// LOPPU ///
+```
+
+
+
 ### Asiakkaan osoitteenmuutospyyntö- täppä oletuksena hyväksy
 
 Tarpeellisuus: Vapaaehtoinen<br />
@@ -505,7 +502,7 @@ $('input:radio[value="approve"]').attr('checked', true);
 
 ---
 
-## Asiakkaan tiedot näyttö
+## Asiakkaan tiedot -näyttö
 
 ### Piilota viestin tekijän nimi Tiedot-näytöllä
 
@@ -523,6 +520,217 @@ $("#messages .circ-hlt").each(function( index ){
 });
 
 /// LOPPU ///
+```
+
+### PIN-koodi nelinumeroiseksi
+
+Tällä muutetaan skriptissä mainituille asiakastyypeille salasanan generointi nelinumeroiseksi. Ilman tätä, asiakkaille tulee aakkosnumeerisia salasanoja.
+
+```
+/// ALKU  ///
+/// Tällä muutetaan tässä mainituille asiakastyypeille salasanan generointi nelinumeroiseksi. Ilman tätä, asiakkaille tulee aakkosnumeerisia salasanoja ///
+
+/* Generoi henkilöasiakkaalle PIN-koodi salasanaksi */
+function generate_patron_password() {
+    // generate a PIN
+    var chars = '0123456789';
+    var length = 4;
+    var password = '';
+    for (var i = 0; i < length; i++) {
+        password += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    return password;
+}
+
+$(document).ready(function () {
+    if (window.location.href.indexOf("members/member-password.pl") > -1) {
+        $("body").on('click', "#fillrandom", function (event) {
+           event.stopImmediatePropagation();
+             event.preventDefault();
+
+            var password = '';
+            var patron = $('.patroncategory').text();
+             if ( (patron.indexOf("HENKILO") >= 0) || (patron.indexOf("LAPSI") >= 0) || (patron.indexOf("YHTEISO") >= 0) || (patron.indexOf("KOTIPALVEL") >= 0) || (patron.indexOf("KIRJASTO") >= 0) || (patron.indexOf("MUUKUINLAP") >= 0) ) {
+                password = generate_patron_password();
+                $("#newpassword").val(password);
+                $("#newpassword").attr('type', 'text');
+                $("#newpassword2").val(password);
+                $("#newpassword2").attr('type', 'text');
+                return;
+            }
+            else {
+                var pattern_regex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{3,}/;
+                while (!pattern_regex.test(password)) {
+                    password = generate_password();
+                }
+                $("#newpassword").val(password);
+                $("#newpassword").attr('type', 'text');
+                $("#newpassword2").val(password);
+                $("#newpassword2").attr('type', 'text');
+                return;
+            }
+
+        });
+    }
+});
+
+/// LOPPU ///
+```
+
+### Noudettavissa olevat varaukset valikon taakse
+
+Skripti siirtää noudettavissa olevat varaukset valikon taakse, jolloin ne eivät pidennä näyttöä. Jos noudettavia varauksia on paljon, voi näyttö venyä hyvinkin pitkäksi ja lainataulukkoa saa etsiä monen rullauksen päästä.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+/// Siirretään asiakkaan lainaus- ja tiedot-sivuille odottavat varaukset valikon alle ///
+
+$( document ).ready(function() {
+    if ( window.location.href.indexOf("members/moremember.pl") > -1 || window.location.href.indexOf("circ/circulation.pl") > -1 ){
+      var emo = $( '#holdswaiting' ).parent();
+      $( '#holdswaiting' ).detach().appendTo( emo );
+      $( '#holdswaiting > h4:nth-of-type(1)' ).attr("data-toggle","collapse");
+      $( '#holdswaiting > h4:nth-of-type(1)' ).attr("data-target","#collapseOmat");
+      $( '#holdswaiting > h4:nth-of-type(1)' ).addClass("collapsed");
+      $( '#holdswaiting > h4:nth-of-type(1)' ).append(' <i class="fa fa-caret-down"></i>');
+      $( '#holdswaiting > ul:nth-of-type(1)' ).attr("id","collapseOmat");
+      $( '#holdswaiting > ul:nth-of-type(1)' ).addClass("collapse");
+      $( '#holdswaiting > h4:nth-of-type(2)' ).attr("data-toggle","collapse");
+      $( '#holdswaiting > h4:nth-of-type(2)' ).attr("data-target","#collapseMuut");
+      $( '#holdswaiting > h4:nth-of-type(2)' ).addClass("collapsed");
+      $( '#holdswaiting > h4:nth-of-type(2)' ).append(' <i class="fa fa-caret-down"></i>');
+      $( '#holdswaiting > ul:nth-of-type(2)' ).attr("id","collapseMuut");
+      $( '#holdswaiting > ul:nth-of-type(2)' ).addClass("collapse");
+      $( '#holdswaiting > h4:nth-child(1)' ).click(function(){
+        if ( $( '#holdswaiting > h4:nth-of-type(1) > i' ).hasClass('fa-caret-down') ){
+          $( '#holdswaiting > h4:nth-of-type(1) > i' ).removeClass('fa-caret-down');
+          $( '#holdswaiting > h4:nth-of-type(1) > i' ).addClass('fa-caret-up');
+        }
+        else if ( $( '#holdswaiting > h4:nth-of-type(1) > i' ).hasClass('fa-caret-up') ){
+          $( '#holdswaiting > h4:nth-of-type(1) > i' ).removeClass('fa-caret-up');
+          $( '#holdswaiting > h4:nth-of-type(1) > i' ).addClass('fa-caret-down');
+        }
+      });
+      $( '#holdswaiting > h4:nth-of-type(2)' ).click(function(){
+        if ( $( '#holdswaiting > h4:nth-of-type(2) > i' ).hasClass('fa-caret-down') ){
+          $( '#holdswaiting > h4:nth-of-type(2) > i' ).removeClass('fa-caret-down');
+          $( '#holdswaiting > h4:nth-of-type(2) > i' ).addClass('fa-caret-up');
+        }
+        else if ( $( '#holdswaiting > h4:nth-of-type(2) > i' ).hasClass('fa-caret-up') ){
+          $( '#holdswaiting > h4:nth-of-type(2) > i' ).removeClass('fa-caret-up');
+          $( '#holdswaiting > h4:nth-of-type(2) > i' ).addClass('fa-caret-down');
+        }
+      });
+    }
+});
+
+/// LOPPU ///
+```
+
+### Lisää huolettava -monivalintanapin lisäys
+
+Tällä skriptillä saa muutettua Lisää huollettava -napin valikoksi, josta voi valita, mitä asiakastyyppiä lisättävällä huollettavalla käytetään. Tämä on tarpeellinen lähinnä niissä kimpoissa, joissa lapsiasiakastyyppejä on useampi omatoimirajoitteiden vuoksi. Tarkista, että asiakastyyppien tunnukset ja kuvaukset vastaavat kimppasi tietoja.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+/* Lisää huollettava monivalintanappi. Asiakastyyppien tunnisteet pitää tarkistaa ja muuttaa tarvittaessa kimpassa käytettäviin. */
+$(document).ready(function() {
+  if ( !!document.getElementById("addchild") ){
+    var editpatron_url = new URLSearchParams(document.getElementById("editpatron").href);
+    var asiakasnumero = editpatron_url.get('borrowernumber');
+    var kayttokieli = 'Suomi';
+
+    var lapsiLinkki = "/cgi-bin/koha/members/memberentry.pl?op=add&categorycode=LAPSI&guarantor_id=" + asiakasnumero;
+    var omatoimilapsiLinkki = "/cgi-bin/koha/members/memberentry.pl?op=add&categorycode=LAOMATOIMI&guarantor_id=" + asiakasnumero;
+    var muuHuollettavaLinkki = "/cgi-bin/koha/members/memberentry.pl?op=add&categorycode=MUUHUOL&guarantor_id=" + asiakasnumero;
+    var lisaaHuollettavaNappi = "<div class='btn-group'><button class='btn btn-default dropdown-toggle' data-toggle='dropdown'><i class='fa fa-plus'></i><span id='huollettavaKaannos'> Lisää huollettava.</span> <span class='caret'></span></button><ul class='dropdown-menu'><li><a href=" + lapsiLinkki + ">Lapsiasiakas, omatoimi kielletty</a></li><li><a href=" + omatoimilapsiLinkki + ">Lapsiasiakas, omatoimi sallittu</a></li><li><a href=" + muuHuollettavaLinkki + ">Huollettava, muu kuin lapsi</a></li></ul></div>";
+
+    $( "#editpatron" ).after( lisaaHuollettavaNappi );
+    $('#addchild').css('display','none');
+
+    kayttokieli = document.getElementsByClassName('currentlanguage')[0].innerHTML;
+    if (kayttokieli == 'Suomi') {
+      $("#huollettavaKaannos").text(" Lisää huollettava");
+    }
+    else if (kayttokieli == 'Svenska') {
+      $("#huollettavaKaannos").text(" Lägg till barn");
+    }
+    else if (kayttokieli == 'English') {
+      $("#huollettavaKaannos").text(" Add child");
+    }
+  }    
+});
+/// LOPPU ///
+```
+
+
+---
+## Maksut
+
+### Ceepos-maksu -napin lisäys
+
+Tämä skripti lisää maksun maksamissivulle Ceepos-maksu -napin, jolla saa vietyä maksun Ceepos-kassaliittymään.
+
+Tarpeellisuus: Vapaaehtoinen (Ceepos-kassaa käyttäville tarpeellinen)<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+
+/// Ceepos-maksu -napin lisäys ///
+/// Napin taustavärinä ja reunavärinä keltainen? #ffc32b ///
+
+$(document).ready(function() {
+  let ceeposBranches = ['JOE_JOE'];
+  if (ceeposBranches.includes($("#logged-in-info-full .logged-in-branch-code").text())) {
+    $("#payfine .action, #payindivfine .action").find("input").after('<input type="button" id="CeeposMaksu" class="btn btn-primary" style="margin-left:3px;"  value="Ceepos-maksu"  onclick="setCeeposPayment($(this))"/>');
+   if(localStorage.getItem('ceeposOffice')){
+     $('#payment_type').val(localStorage.getItem('ceeposOffice'));
+   }
+  }
+  $('#paycollect').hide();
+  $("#circmessages a[href*='/cgi-bin/koha/members/paycollect.pl'").hide();
+  $("#patron_messages a[href*='/cgi-bin/koha/members/paycollect.pl'").hide();
+});
+function setCeeposPayment(element) {
+  var ceeposOffice = $('#payment_type').find(":selected").val();
+  localStorage.setItem('ceeposOffice', ceeposOffice);
+  	let payments;
+  	let borrowernumber;
+    if($("#payindivfine").find("#pay_individual").val() == 1) {
+      borrowernumber = $("#payindivfine").find("#borrowernumber").val();
+       payments = [{'borrowernumber': $("#payindivfine").find("#borrowernumber").val(), 'accountlines_id': $("#payindivfine").find("#accountlines_id").val(), 'description': $("#payindivfine").find("#description").val(), 'amountoutstanding': $("#payindivfine").find("#amountoutstanding").val(), 'payment_type': $("#payindivfine").find("#debit_type_code").val(), 'office': ceeposOffice}];
+} else {
+  	borrowernumber = $("#payfine").find("#borrowernumber").val();
+  	payments = [{'borrowernumber': $("#payfine").find("#borrowernumber").val(), 'accountlines': $("#payfine").find("#selected_accts").val(), 'amountoutstanding': $("#payfine").find("#collected").val(), 'office': ceeposOffice}];
+}
+    $.ajax({
+     url: "/api/v1/contrib/kohasuomi/payments/ceepos", 
+     type: "POST",
+     dataType: "json",
+     contentType: "application/json; charset=utf-8",
+     data: JSON.stringify(payments),
+     beforeSend: function() {
+        $("#CeeposMaksu").attr("disabled", true);
+        alert("Maksu lähetetty, käsittele kassassa!");
+     },
+     success: function (result) {
+         location.href = '/cgi-bin/koha/members/boraccount.pl?borrowernumber='+borrowernumber;
+      },
+      error: function (xhr, status, error) {
+          $("#CeeposMaksu").attr("disabled", false);
+          alert(JSON.parse(xhr.responseText).error);
+      }
+   });
+}
+
+///LOPPU ///
 ```
 
 ---
@@ -602,32 +810,6 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
 /// LOPPU ///
 ```
 
-### Linkki Finna-näkymään (nappula) (Tritonia 2020)
-
-```
-$( document ).ready(function() {
-if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
-        /*var details_elem = document.getElementById("catalogue_detail_biblio");
-        var span_elem = document.createElement("span");
-        span_elem.className = "results_summary";
-        var link_elem = document.createElement("a");
-        link_elem.href = "https://tritonia.finna.fi/Record/tria." + biblionumber;
-        var link_text = document.createTextNode("Open in Finna");
-        link_elem.appendChild(link_text);
-        span_elem.appendChild(link_elem);
-        details_elem.appendChild(span_elem);*/
-  		var linktext = 'Avaa Finnassa';
-        if( $( '#changelanguage .currentlanguage' ).text() == 'English' ) {
-        	linktext = 'Open in Finna';
-        } else if ( $( '#changelanguage .currentlanguage' ).text() == 'Svenska' ) {
-        	linktext = 'Öppna i Finna';
-        }
-        var params = new URLSearchParams(window.location.search);
-        var biblionumber = parseInt(params.get("biblionumber"));
-  		$( '#catalog_detail #toolbar' ).prepend( '<a href="https://tritonia.finna.fi/Record/tria.' + biblionumber + '" class="btn" style="float: right;" target="_blank"><i class="fa fa-external-link"></i> ' + linktext + '</a>' );
-}
-});
-```
 
 ### Indeksointityöryhmän tekemät tiedonhaun mukautukset
 
@@ -684,89 +866,6 @@ $(document).ready(function() {
 ## Luettelointi, niteiden muokkaus ja kausijulkaisut
 
 
-### Luettelointinäkymässä highlight työstettävälle tagille (ja pois kun klikkaa taustaa) (Tritonia)
-
-```
-$( document ).ready(function() {
-  $( '#cat_addholding .tag, #cat_addbiblio .tag' ).on( 'click', function( event ){
-  $( '.tag' ).removeClass( 'new_active_tag' );
-  $( this ).addClass( 'new_active_tag' );
-event.stopPropagation();
-});
-  $( '#cat_addholding #doc, #cat_addbiblio #doc' ).on( 'click', function(event){
-  $( '.tag' ).removeClass( 'new_active_tag' );
-});
-```
-
-### Luettelointinäkymässä lisätään lukitulle tagi-inputille lukkoikoni (Tritonia)
-
-```
-$( '#cat_addbiblio .tag .subfield_line .input_marceditor.readonly' ).after( '<i class="fa fa-lock"></i>' );
-```
-
-### Valitaan cataloging-etusivulla "search the catalog" -haku "cataloging search" -haun sijasta (joka piilotetaan) (Tritonia)
-
-```
-$( document ).ready(function() {
-$( '#cat_addbooks #header_search li[aria-controls="addbooks_search"]' ).hide();
-$( '#cat_addbooks #header_search' ).tabs( { active: 4 } );
-$( '#cat_addbooks #header_search #catalog_search #cat-search-block #search-form' ).focus();
-});
-```
-
-### Lisätään holding id näkyville tietueen holdings-listaukseen (Tritonia)
-
-```
-$( document ).ready(function() {
-  $( '#catalog_detail .summaryholdings_table thead tr' ).append( '<th>Holding ID</th>' );
-  $( '#catalog_detail .summaryholdings_table tbody tr' ).each(function(){
-  $( this ).append( '<td>' + $( this ).children( '.actions' ).children( '.delete' ).attr( 'href' ).split("holding_id=").pop() + '</td>' );
-});
-```
-
-
-### Siirretään item-listaus sivun loppuun itemin muokkaussivulla (Tritonia, päivitetty 2020)
-
-```
-$( document ).ready(function() {
-    $( '#cat_additem #cataloguing_additem_itemlist' ).after( $( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parents( 'div' ).html() );
-	$( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parent( 'div' ).hide();*/
-	$( '#cat_additem #cataloguing_additem_itemlist' ).prepend( $( '#cat_additem #cataloguing_additem_itemlist>.row' ) );
-});
-```
-
-### Luettelointivalikon pysyminen sivun ylälaidassa MARC-näkymässä (Tritonia 2020)
-
-```
-$( document ).ready(function() {
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 150) {
-        $('#cat_addbiblio #toolbar').addClass('fixed_cataloging_menu');
-    } else {
-        $('#cat_addbiblio #toolbar').removeClass('fixed_cataloging_menu');
-    }
-});
-```
-
-### Lisätään nidenäkymän tietojen otsikoihin rivivälejä (Tritonia 2020)
-
-```
-$( document ).ready(function() {
-$( '#catalogue_detail_biblio .results_summary .label' ).before( '<div style="width: 100%; height: 1px;"></div>' );
-});
-```
-
-### Poistetaan turhat hakaset "Edit item" -napista (Tritonia)
-
-```
-$( document ).ready(function() {
-  $( '#catalog_moredetail #catalogue_detail_biblio .yui-g .listgroup h4 a' ).each( function() {
-  $( this ).text( $( this ).text().replace('[', '') );
-  $( this ).text( $( this ).text().replace(']', '') );
-  });
-});
-```
-
 ### Poistetaan ylimääräiset välilyönnit niteen muokkausnäytöllä
 
 Tällä poistetaan ylimääräiset välilyönnit kentistä niteen muokkausnäytöllä. Välilyönnit poistetaan alusta, lopusta ja useammat peräkkäiset välilyönnit välistä.
@@ -812,6 +911,40 @@ $(document).ready(function() {
 /// LOPPU ///
 ```
 
+### Poistetaan ylimääräiset välilyönnit hankinnassa
+
+Tarpeellisuus: Suositeltava, jos toimii<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+/* Poista hankinnassa uuden tilauksen niteen muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä */
+/* Tämä ei toimi? */
+$(document).ready(function() {
+  $('body#acq_neworderempty.acq').on("blur", "input", function() {
+     var tmp = $(this).val();
+     tmp = tmp.replace(/^ +/, '');
+     tmp = tmp.replace(/ +$/, '');
+     tmp = tmp.replace(/  */g, ' ');
+     $(this).val(tmp);
+  });
+});
+
+/* Poista hankinnassa uuden tilauksen niteen muokkausnäytön kentistä välilyönnit alusta, lopusta ja useammat peräkkäiset välilyönnit välistä */ 
+/* Tämä ei toimi? */
+$(document).ready(function() {
+  $('body#acq_neworderempty.acq').on("blur", "textarea", function() {
+     var tmp = $(this).val();
+     tmp = tmp.replace(/^ +/, '');
+     tmp = tmp.replace(/ +$/, '');
+     tmp = tmp.replace(/  */g, ' ');
+     $(this).val(tmp);
+  });
+});
+
+/// LOPPU ///
+```
+
 ### Niteiden eräpoistossa täppä kohtaan "Poista tietueet.."
 
 Skripti laittaa niteiden eräpoistossa valmiiksi täpän kohtaan "Poista tietueet, jos kaikki niteet poistettu". Näin todennäköisemmin tietokantaan ei jää roikkumaan niteettömiä tietueita.
@@ -830,56 +963,142 @@ $(document).ready(function () {
 /// LOPPU ///
 ```
 
+### Niteen lisäys tarratulostusjonoon
+
+Näillä skripteillä lisätään niteen muokkausnäytölle sekä teoksen perustiedot-näytölle mahdollisuus lisätä nide tarratulostusjonoon.
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+/// Niteiden lisäys tarratulostusjonoon niteen muokkausnäytöltä nidetietojen alapuolelta sekä nidetaulun Toiminnot-valikoista. ///
+
+$(document).ready(function() {
+    $(".print_label").after('<li><a href="#" onclick="setPrintQueue($(this))">Tulostusjonoon</a></li>');
+  $("#addnewitem").after('<input type="button" style="margin-left:3px;" value="Tulostusjonoon" onclick="setPrintQueue($(this))"/>');
+});
+
+function setPrintQueue(element) {
+  let searchParams = new URLSearchParams(element.parent().parent().find(".print_label a").attr("href"));
+  let itemnumber = element.parent().find('input[name="itemnumber"]').val();
+  let number = itemnumber ? itemnumber : searchParams.get('number_list');
+  $.ajax({
+   url: "/api/v1/contrib/kohasuomi/labels/print/queue", 
+   type: "POST",
+   dataType: "json",
+   contentType: "application/json; charset=utf-8",
+   data: JSON.stringify({ itemnumber: number, printed: 0 }),
+   success: function (result) {
+       alert("Nide lisätty jonoon!");
+    },
+    error: function (err) {
+    	alert("Lisäys epäonnistui!");
+    }
+ });
+}
+
+/* Niteiden lisäys tarratulostustyökaluun perustiedot-näytöltä */
+$(document).ready(function() {
+    $("#holdings .itemselection_action_modify, #otherholdings .itemselection_action_modify").after(' <a href="#" class="itemselection_action_print" onclick="addItemsToPrintQueue(event, $(this))"><i class="fa fa-print"></i> Lisää valitut niteet tulostusjonoon</a>');
+});
+function addItemsToPrintQueue(e, element) {
+    e.preventDefault();
+    var requests = [];
+    $("input[name='itemnumber'][type='checkbox']:visible:checked", 'table.items_table').each(function() {
+        var itemnumber = $(this).val();
+        requests.push($.ajax({
+            url: "/api/v1/contrib/kohasuomi/labels/print/queue",
+            type: "POST",
+            datatype: "json",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify({ itemnumber: itemnumber, printed: 0 }),
+            error: function (err) {
+                console.error( `Niteen nro. ${itemnumber} lisäys tulostusjonoon epäonnistui.` );
+            }
+        }));
+    });
+    window.onbeforeunload = function () {
+        if ( requests.length ) {
+            return "";
+        }
+    };
+    $('.itemselection_action_print').replaceWith(`<a class="itemselection_action_print disabled" style="cursor: not-allowed;"><i class="fa fa-print"></i> Lisätään ${requests.length} nide${requests.length == 1 ? "" : "ttä"} tulostusjonoon...</a>`);
+    $.when.apply($, requests).done(function () {
+        alert( `${requests.length} nide${requests.length == 1 ? "" : "ttä"} lisätty tulostusjonoon.` );
+    }).fail(function () {
+        alert( "Niteiden lisäys tulostusjonoon keskeytyi. Tarkista tulostusjono." );
+    }).always(function () {
+        $('.itemselection_action_print').replaceWith('<a href="#" class="itemselection_action_print" onclick="addItemsToPrintQueue(event, $(this))"><i class="fa fa-print"></i> Lisää valitut niteet tulostusjonoon</a>');
+        requests = [];
+    });
+}
+
+/// LOPPU ///
+```
+### Nidelistaus sivun loppuun niteen muokkauksessa
+
+Tällä skriptillä saa siirrettyä niteen muokkauksessa nidelistauksen muokattavana olevan niten tietojen alapuolelle, eikä muokkaukseen mennessä tarvitse ensin kelata mahdollisesti kymmenien niteiden ohi.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+/* Siirretään nidelistaus sivun loppuun niteen muokkaussivulla. */
+$( document ).ready(function() {
+    $( '#cat_additem #cataloguing_additem_itemlist' ).after( $( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parents( 'div' ).html() );
+	$( '#cat_additem #cataloguing_additem_itemlist #itemst_wrapper' ).parent( 'div' ).hide();*/
+	$( '#cat_additem #cataloguing_additem_itemlist' ).prepend( $( '#cat_additem #cataloguing_additem_itemlist>.row' ) );
+});
+/// LOPPU ///
+```
+
+### Z39.50-hakuikkuna suuremmaksi
+
+Tällä skriptillä saa Z39.50-hakuikkunan suuremmaksi.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+
+/* Muuta Z39.50-hakuikkunan koko suuremmaksi. Ikkunan koko on turhan pieni hakutuloksille. */
+//Cataloging > Z39.50/SRU pop-up
+ //BEGIN Resize Z39.50 window
+  if (document.location.href.indexOf('z3950_search.pl')>-1) window.resizeTo((screen.width * 0.9), (screen.height * 0.9)), window.moveTo(0, 0);
+  $(window).on('load resize', function(){
+   $('#cat_z3950_search .col-xs-6 .rows, #cat_z3950_search #z3950_search_targets').height($(this).height() * 0.75);
+   $('#cat_z3950_search .col-xs-6 .rows').css('overflow-y', 'scroll');
+  });
+//END
+
+/// LOPPU ///
+```
+
 ---
 
 ## Yleiset
 
 ### Piilota Uusinta-välilehti yläosan hakukentästä
 
+Kohan uusinta-toiminnallisuus ei noudata laina- ja maksusääntöjä ja antaa uusia, vaikka teokseen kohdistuu varaus tai uusintakerrat ovat tulleet jo täyteen.
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
 ```
+/// ALKU ///
 $(document).ready(function () {
   $( "li[aria-controls='renew_search']" ).hide();
 });
-```
-
-### Koha logo ylävalikkoon (Tritonia)
-
-```
-$( document ).ready(function() {
-  $( '#header #toplevelmenu' ).before( '<a href="/cgi-bin/koha/mainpage.pl" class="new_koha_toplogo" alt="Koha home"><img src="https://www.tritonia.fi/img/koha_logo_2019.png" alt="Koha home"></a>' );
-});
-```
-
-### Kielivalinta ylävalikkoon ja piilotetaan apusivulinkki (Tritonia, päivitetty 2020)
-
-```
-$( document ).ready(function() {
-$( '#changelanguage' ).hide();
-var $langtext = 'Kieli';
-if( $( '.currentlanguage' ).text() == 'English' ) {
-$langtext = 'Language';
-} else if ( $( '.currentlanguage' ).text() == 'Svenska' ) {
-$langtext = 'Språk';
-}
-$( '#user-menu.nav.navbar-nav.navbar-right' ).append( '<li class="dropdown" id="new_lang_dropdown"><a href="#" id="drop99" role="button" class="dropdown-toggle" data-toggle="dropdown">' + $langtext + ' <b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledby="drop99">' + $( '#changelanguage ul.navbar-nav' ).html() + '</ul>' );
-$( '#user-menu .currentlanguage' ).append( ' <i class="fa fa-check"></i>' );  
-});
-```
-
-### Etusivun ikonien parempi asettelu (Tritonia, pävitetty 2020)
-
-```
-$( document ).ready(function() {
-$( '#main_intranet-main #container-main' ).append( '<div id="new_icon_container"></div>' );
-$( '#main_intranet-main #container-main .row:first-child' ).hide();
-$( '#main_intranet-main .biglinks-list li' ).each(function(){
-	$( '#main_intranet-main #new_icon_container' ).append( $( this ).html() );
-});
-$( '#main_intranet-main #new_icon_container' ).prepend( $( '#main_intranet-main #area-pending' ).parent( 'div' ).html() );
-});
+/// LOPPU ///
 ```
 
 ### Tyhjennä Hae tietokannasta -hakukenttä
+
+Tarpeellisuus: Ei tarpeellinen versiossa 22.11
 
 ```
 $(document).ready(function() {
