@@ -218,7 +218,6 @@ box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
 Asetus|Suositus|Lisätietoja
 ---|---|---
 SearchEngine| ElasticSearch|
-timeout|1800|
 PatronAutoComplete | Älä ehdota | Vältetään turhia tietojen katseluja
 AgeRestrictionOverride | Älä salli | Esim. elokuvien ja pelien ikärajat ovat sitovia
 ItemsDeniedRenewal | notforloan: [6] | Estää laskutetun niteen uusimisen
