@@ -10,5 +10,7 @@ Tälle sivulle on kerätty erilaisia käyttöönotto-ohjeita.
 
 ## EDItX-hankinta
 
+[EDItX-hankinnan käyttöönotto-ohje](/dokumentaatio/editx/)
+
 ## Laskutusliitännäinen
 
