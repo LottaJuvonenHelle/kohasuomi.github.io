@@ -143,7 +143,7 @@ Aina kun kenttäliitoksia muutetaan, pitää vanhojen tietueiden tiedot päivitt
 
 ### 1.5 ONIX-aineistolajien määritys
 
-Kohan tietokannassa on _map_productform_-taulu, jossa liitetään tilaussanoman "ONIX-aineistotyypit":https://ns.editeur.org/onix36/en/7 Kohan nidetyyppeihin. Liitokset tekee järjestelmänkehittäjä heille toimitetun vastaavuuslistan perusteella.
+Kohan tietokannassa on _map_productform_-taulu, jossa liitetään tilaussanoman [ONIX-aineistotyypit](https://ns.editeur.org/onix36/en/7) Kohan nidetyyppeihin. Liitokset tekee järjestelmänkehittäjä heille toimitetun vastaavuuslistan perusteella.
 
 Vastaavuslistan esimerkkitiedosto: [map_productform_uusi.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12107611/map_productform_uusi.xlsx)
 
