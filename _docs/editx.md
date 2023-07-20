@@ -137,7 +137,7 @@ Kohan MARC-määrityksissä pitää olla seuraavat määritykset:
 * Julkaisija MARC-kentästä 028$b liitetään biblioitems-taulun kenttään _editionresponsibility_.
   * publishercodea ja editionresponsibilityä käytetään täsmäytyksessä aina yhdessä. Vain jos kumpikin täsmää, syntyy vastaavuus.
 
-!editx2.png!
+![](/assets/files/docs/Ohjeet/editx2.png)
 
 Aina kun kenttäliitoksia muutetaan, pitää vanhojen tietueiden tiedot päivittää ajan tasalle (misc/batchRebuildBiblioTables.pl vie kuvailutiedoista tietokannan taulun sarakkeisiin määritettyjen kenttien sisällön). Järjestelmänkehittäjä tekee tämän pyynnöstä.
 
