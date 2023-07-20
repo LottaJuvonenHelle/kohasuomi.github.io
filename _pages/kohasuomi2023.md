@@ -27,7 +27,7 @@ Läsnä: Anneli, Lasse
 
 Läsnä: Anneli, Lasse
 
-* OUTIssa oli vkolla 28 tiistaina ja Vaskissa keskiviikkona Koha alhaalla hetken aikaa ja tietokanta ilmoitti  "Waiting for table metadata lock". Ilmeisesti message_queue-taulu menee taas lukkoon herkästi.
+* OUTIssa oli vkolla 28 tiistaina 11.7.2023 klo 9.06 maissa ja Vaskissa keskiviikkona 12.7.2023 klo 12.59 maissa Koha alhaalla hetken aikaa ja tietokanta ilmoitti  "Waiting for table metadata lock". Ilmeisesti message_queue-taulu menee taas lukkoon herkästi.
   * OUTIn kohdalla syy saattoi olla Annelin kysely message_queue-tauluun, Vaskin osalta Mikko testaili Ilmoitukset-välilehden hitautta ja joutui tappamaan selaimen prosessin. Ei varmuutta, johtuiko käyttökatko juuri noista, mutta osuvat ajallisesti samoihin aikoihin.
 * Ei päivitystä
 * asiakasvarmenteiden jakelu siirtyy vkolta 30 seuraavalle viikolle, kun paikalla on henkilöitä, joilla on pääsy palomuurille.
