@@ -12,10 +12,201 @@ Koha-yhteisön suositus on, että auktorisoitujen arvojen koodeihin, esim. kirja
 
 Lisäksi koodeissa ei kannata olla myöskään alaviivoja, koska ne voivat aiheuttaa ongelmia indeksin kanssa.
 
-IntranetNav
+### IntranetNav
 
-[IntranetUserCSS](/dokumentaatio/intranetusercss/)
+IntranetNav-järjestelmäasetuksella saa lisättyä Kohan yläpalkkiin linkkejä. Alla viimeisin versio, jolla saa lisättyä Koha-Suomi-alasvetovalikon:
 
-[IntranetUserJS](/dokumentaatio/intranetuserjs/)
+```
+<li class="dropdown pull-right"><li class="nav navbar-nav pull-right"><a href="
+<li id="kohasuomi-navlinkit" class="dropdown pull-right">
+  <a href="/cgi-bin/koha/mainpage.pl" class="dropdown-toggle" data-toggle="dropdown">Koha-Suomi <b class="caret"></b></a>
+  <ul class="dropdown-menu dropdown-menu-left">
+    <li><a href="https://koha-suomi.fi/dokumentaatio/ohjeet/
+" target="_ohjeet">Koha-ohje</a></li>
+<li><a href="https://github.com/KohaSuomi/Koha/discussions
+" target="_tiedotteet">Tiedotteet</a></li>
+<li><a href="https://koha-suomi.fi/muistiot
+" target="_muistiot">Muistiot</a></li>
+<li><a href="https://github.com/orgs/KohaSuomi/projects/4
+" target="_tiketit">Tiketit</a></li>
+ </ul>
+</li>
+```
 
-SCOUserCSS
+### IntranetUserCSS
+
+IntranetUserCSS-järjestelmäasetuksella voi "ohittaa" Kohan omia CSS-määrityksiä ja tehdä esimerkiksi erilaisia piilotuksia. Alla on linkki CSS-kirjastoon.
+
+[IntranetUserCSS-kirjasto](/dokumentaatio/intranetusercss/)
+
+### IntranetUserJS
+
+IntranetUserJS-järjestelmäasetukseen voi lisätä JavaScript-koodeja, joille voi esim. lisätä tietoja eri näytöille kuten henkilötunnuksen lisäyskenttä asiakkaan muokkauksessa. Järjestelmäasetuksen muokkaamiseen tarvitaan kehittäjien apua, lue tarkemmat ohjeet alla olevasta JS-kirjastosta.
+
+[IntranetUserJS-kirjasto](/dokumentaatio/intranetuserjs/)
+
+### SCOUserCSS
+
+SCOUserCSS-järjestelmäasetuksella voi säätää Kohan itsepalvelulainauksen ulkoasua.
+
+Vaara-kirjastojen versio:
+
+```
+.navbar {
+	display: none;
+}
+
+#opacheader {
+	display: none;
+}
+
+.sco_entry.col-5 {
+  background-color: rgb(81, 163, 226);
+  margin: 25px 25px 55px 55px;
+  padding: 25px 25px 25px 25px;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35); 
+box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
+}
+
+.sco_entry.col-5 h4 {
+ font-size: 25px;
+ color: darkslategrey;
+}
+
+
+.sco_entry.col {
+  background-color: rgb(179, 222, 122);
+  margin: 25px 25px 55px 55px;
+  padding: 25px 25px 25px 25px;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35); 
+box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
+}
+
+.sco_entry.col h4 {
+ font-size: 25px;
+ color: darkslategrey;
+}
+
+
+#newcheckout {
+  background-color: rgb(81, 163, 226);
+
+  padding: 25px 25px 25px 25px;
+  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35); 
+box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
+}
+
+.sco_entry h2 {
+ font-size: 25px;
+ color: darkslategrey;
+}
+
+#account {
+ display: none;
+}
+
+label {
+
+  white-space:nowrap;
+}
+
+
+#uibarcode {
+  			
+            width: 116%;
+  
+        }
+
+.alert.alert-info {
+  			background-color:rgb(0, 241, 111);
+
+  
+        }
+
+/*  .alert.alert-info::after {content: "  Kirjautumisen jälkeen istunto katkaistaan 40 sekunnin kuluttua. Kirjaudu sisään uudelleen tarvittaessa.";}
+*/
+```
+
+OUTI-kirjastojen versio:
+
+```
+a#account.nav-link { display: none; }
+
+.navbar {
+	display: none;
+}
+
+#opacheader {
+	display: none;
+}
+
+.btn.btn-info.btn-sm.return{
+  display: none;
+}
+
+.sco_entry.col-5 {
+  max-width: 500px;
+  background-color: skyblue;
+  margin: 25px 25px 55px 55px;
+  padding: 25px 25px 25px 25px;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35); 
+box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
+}
+
+.sco_entry.col-5 h4 {
+ font-size: 25px;
+ color: black;
+}
+
+
+.sco_entry.col {
+  max-width: 500px;
+  background-color: #8fe67e;
+  margin: 25px 25px 55px 55px;
+  padding: 25px 25px 25px 25px;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35); 
+box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
+
+}
+
+.sco_entry.col h4 {
+ font-size: 25px;
+ color: black;
+}
+
+
+#newcheckout {
+  background-color: skyblue;
+  max-width: 400px;
+  padding: 25px 25px 25px 25px;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35); 
+box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
+}
+
+.sco_entry h2 {
+ font-size: 25px;
+ color: black;
+}
+
+#account {
+ display: none;
+}
+```
