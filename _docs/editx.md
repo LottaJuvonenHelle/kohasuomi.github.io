@@ -8,7 +8,7 @@ toc: true
 
 EditX on avoimiin standardeihin perustuva ja helposti laajennettava tapa siirtää tietoja aineistontoimittajien ja Kohan välillä. Sen avulla pystytään toimimaan Kohan hankinnan suhteen samalla tavalla riippumatta aineistontoimittajasta.
 
-![](/assets/files/docs/Ohjeet/editx.png)
+![](/assets/files/docs/Ohjeet/editx.PNG)
 
 ## 1. Käyttöönotto Kohassa
 
@@ -43,7 +43,9 @@ Tilien luonnissa on mahdollista tehdä
 * Joka vuosi uudet tilit samassa muodossa, vain vuosiluku vaihtuu.
 * Ikitilit, jotka ovat nimensä mukaisesti "ikuisesti" voimassa, esim. OUPKAIK2999. Vuosiluku on tässäkin tapauksessa oltava mukana.
 
-Toimittaja luo verkkokauppaansa tilejä vastaavat korit. Katso tarkempi ohje kohdasta [[EditX-hankinta#2-Käyttöönotto-aineistontoimittajan-verkkokaupassa|Käyttöönotto aineistontoimittajan verkkokaupassa]].  Korin nimi on vapaa, mutta tilin Koha-tilikoodi täytyy tulla tilaussanomassa FundNumber-elementissä. Esim.
+Toimittaja luo verkkokauppaansa tilejä vastaavat korit. Katso tarkempi ohje kohdasta EditX-hankinta#2-Käyttöönotto-aineistontoimittajan-verkkokaupassa|Käyttöönotto aineistontoimittajan verkkokaupassa.  Korin nimi on vapaa, mutta tilin Koha-tilikoodi täytyy tulla tilaussanomassa FundNumber-elementissä. Esim.
+
+[[Testi|Testi2]]
 
 Kori: AIK2019
 FundNumber: OUPKAIK2019
