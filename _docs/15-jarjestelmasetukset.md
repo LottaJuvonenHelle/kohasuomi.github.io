@@ -6,11 +6,13 @@ redirect_from:
 toc: true
 ---
 
-Ohjeita ja tietoja eri järjestelmäasetuksista
+## Ohjeita ja tietoja eri järjestelmäasetuksista
 
 Koha-yhteisön suositus on, että auktorisoitujen arvojen koodeihin, esim. kirjastojen, hyllypaikkojen, yms. lyhenteisiin kannattaa käyttää vain kirjaimia a-z ja numeroita 0-9. Muut merkit voivat aiheuttaa ongelmia Kohan ja indeksoinnin kanssa.
 
 Lisäksi koodeissa ei kannata olla myöskään alaviivoja, koska ne voivat aiheuttaa ongelmia indeksin kanssa.
+
+Koska järjestelmäasetuksia on satoja, ei kaikista ole tällä sivulla tietoja. Järjestelmäasetuksia on käyty läpi pääkäyttäjien kanssa ja läpikäynneistä on tallenteet [Koha-Suomen Youtube-kanavalla](https://www.youtube.com/@koha-suomi/videos).
 
 ### IntranetNav
 
@@ -210,3 +212,8 @@ box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
  display: none;
 }
 ```
+
+### Yksittäisiin asetuksiin suosituksia
+
+SearchEngine: ElasticSearch
+timeout: 1800
