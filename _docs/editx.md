@@ -1,6 +1,6 @@
 ---
 title: 'EDItX-hankinta'
-permalink: /dokumentaatio/editx-hankinta/
+permalink: /dokumentaatio/editx/
 redirect_from:
   - /theme-setup/
 toc: true
