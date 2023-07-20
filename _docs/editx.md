@@ -8,8 +8,7 @@ toc: true
 
 EditX on avoimiin standardeihin perustuva ja helposti laajennettava tapa siirtää tietoja aineistontoimittajien ja Kohan välillä. Sen avulla pystytään toimimaan Kohan hankinnan suhteen samalla tavalla riippumatta aineistontoimittajasta.
 
-!editx.png!
-
+![](/assets/files/docs/Ohjeet/editx.png)
 
 ## 1. Käyttöönotto Kohassa
 
@@ -19,27 +18,26 @@ Kohassa pitää tehdä seuraavia määrityksiä, jotta tietueiden yhdistely ja t
 
 Kohaan on määriteltävä tietynmuotoiset tilit. Tilien tilikoodi pitää olla muodossa _kirjastolyhenne - hyllypaikkalyhenne - budjettivuosi_, esim.
 
-OUPKAIK2019
-OUPK = kirjaston lyhenne Kohassa
-AIK = hyllypaikan lyhenne
+OUPKAIK2019<br />
+OUPK = kirjaston lyhenne Kohassa<br />
+AIK = hyllypaikan lyhenne<br />
 2019 = budjettivuosi
 
-OUPKLN2019 
-OUPK = Oulun kaupungin pääkirjasto 
-LN = Lasten ja nuorten hyllypaikka
-2019 = budjettivuosi
+OUPKLN2019<br />
+OUPK = Oulun kaupungin pääkirjasto<br />
+LN = Lasten ja nuorten hyllypaikka<br />
+2019 = budjettivuosi<br />
 
-MUPKAIK2019
-MUPK = Muhoksen kirjasto 
-AIK = Aikuisten hyllypaikka
-2019 = budjettivuosi
-
+MUPKAIK2019<br />
+MUPK = Muhoksen kirjasto<br />
+AIK = Aikuisten hyllypaikka<br />
+2019 = budjettivuosi<br />
 
 *Huomioitavaa:* EditX-tilauksissa käytettävien tilien täytyy olla hyllypaikan mukaisia. Ei voida käyttää esim. AV-tiliä, jos sen nimistä hyllypaikkaa ei ole olemassa Kohassa.
 
 *Lisähuomioitavaa:* Kirjaston lyhenteeseen pitää ottaa mukaan koko kirjaston lyhenne eli se, mikä on tallennettu Kohan ylläpidossa kirjastolle lyhenteeksi. Jos lyhenne on kaksiosainen, pitää koko tunnus ottaa mukaan, esim. JOE_ENO tai MLI_ANT.
 
-!kirjastojahyllypaikka.png!
+![](/assets/files/docs/Ohjeet/kirjastojahyllypaikka.png)
 
 Tilien luonnissa on mahdollista tehdä
 * Joka vuosi uudet tilit samassa muodossa, vain vuosiluku vaihtuu.
@@ -54,33 +52,21 @@ DeliverToLocation: OUPKAIK2019
 
 Yhdellä korilla tilataan yhdelle kirjastolle ja yhdelle hyllypaikalle. Verkkokaupassa on siis oltava kori jokaiselle hyllypaikalle, jolle tilataan.
 
-#### Ikitili
+#### 1.1.1 Ikitilit
 
-Jos käytetään ikitiliä voi tehdä myös niin, että kunnalla on Kohassa yksi tili esim. OUPK2999, joka tulee EditX-sanomassa kohtaan FundNumber. Kirjasto- ja hyllypaikkatieto tulee tällöin DestinationLocation/DeliverToLocation -kohtaan muodossa kirjaston lyhenne - hyllypaikan lyhenne - vuosiluku eli OUPKAIK2019. Käytännössä tämä tarkoittaa, että verkkokaupassa pitää todennäköisesti olla niin monta koria kuin mitä kirjasto/hyllypaikka-yhdistelmiä tarvitaan.
+Jos käytetään ikitiliä voi tehdä myös niin, että kunnalla on Kohassa yksi tili esim. OUPK2999, joka tulee EditX-sanomassa kohtaan FundNumber. Kirjasto- ja hyllypaikkatieto tulee tällöin DestinationLocation/DeliverToLocation -kohtaan muodossa kirjaston lyhenne - hyllypaikan lyhenne - vuosiluku eli OUPKAIK2999. Käytännössä tämä tarkoittaa, että verkkokaupassa pitää todennäköisesti olla niin monta koria kuin mitä kirjasto/hyllypaikka-yhdistelmiä tarvitaan.
 
-Kori 1:
+Kori 1 - Oulun pääkirjasto/Aikuiset:
 FundNumber: OUPK2999
 DestinationLocation/DeliverToLocation: OUPKAIK2999
 
-Kori 2:
+Kori 2 - Oulun pääkirjasto/Lapset ja nuoret:
 FundNumber: OUPK2999
 DestinationLocation/DeliverToLocation: OUPKLN2999
 
-Kori 3:
+Kori 3 - Oulun pääkirjasto/Musiikki:
 FundNumber: OUPK2999
 DestinationLocation/DeliverToLocation OUPKMUS2999
-
-Kori 4:
-FundNumber: OUPK2999
-DestinationLocation/DeliverToLocation: OUKKAIK2999
-
-Kori 5:
-FundNumber: OUPK2999
-DestinationLocation/DeliverToLocation: OUKKLN2999
-
-Kori 6:
-FundNumber: OUPK2999
-DestinationLocation/DeliverToLocation: OUKKMUS2999
 
 Ja niin edelleen, kunnes kaikki halutut kirjasto/hyllypaikkayhdistelmät on katettu.
 
