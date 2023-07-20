@@ -43,13 +43,12 @@ Tilien luonnissa on mahdollista tehdä
 * Joka vuosi uudet tilit samassa muodossa, vain vuosiluku vaihtuu.
 * Ikitilit, jotka ovat nimensä mukaisesti "ikuisesti" voimassa, esim. OUPKAIK2999. Vuosiluku on tässäkin tapauksessa oltava mukana.
 
-Toimittaja luo verkkokauppaansa tilejä vastaavat korit. Katso tarkempi ohje kohdasta EditX-hankinta#2-Käyttöönotto-aineistontoimittajan-verkkokaupassa|Käyttöönotto aineistontoimittajan verkkokaupassa.  Korin nimi on vapaa, mutta tilin Koha-tilikoodi täytyy tulla tilaussanomassa FundNumber-elementissä. Esim.
+Toimittaja luo verkkokauppaansa tilejä vastaavat korit. Katso tarkempi ohje kohdasta _Käyttöönotto aineistontoimittajan verkkokaupassa_.  Korin nimi on vapaa, mutta tilin Koha-tilikoodi täytyy tulla tilaussanomassa FundNumber-elementissä. Esim.
 
-[[Testi|Testi2]]
 
-Kori: AIK2019
-FundNumber: OUPKAIK2019
-DestinationLocation: OUPKAIK2019
+Kori: AIK2019<br />
+FundNumber: OUPKAIK2019<br />
+DestinationLocation: OUPKAIK2019<br />
 DeliverToLocation: OUPKAIK2019
 
 Yhdellä korilla tilataan yhdelle kirjastolle ja yhdelle hyllypaikalle. Verkkokaupassa on siis oltava kori jokaiselle hyllypaikalle, jolle tilataan.
@@ -58,16 +57,16 @@ Yhdellä korilla tilataan yhdelle kirjastolle ja yhdelle hyllypaikalle. Verkkoka
 
 Jos käytetään ikitiliä voi tehdä myös niin, että kunnalla on Kohassa yksi tili esim. OUPK2999, joka tulee EditX-sanomassa kohtaan FundNumber. Kirjasto- ja hyllypaikkatieto tulee tällöin DestinationLocation/DeliverToLocation -kohtaan muodossa kirjaston lyhenne - hyllypaikan lyhenne - vuosiluku eli OUPKAIK2999. Käytännössä tämä tarkoittaa, että verkkokaupassa pitää todennäköisesti olla niin monta koria kuin mitä kirjasto/hyllypaikka-yhdistelmiä tarvitaan.
 
-Kori 1 - Oulun pääkirjasto/Aikuiset:
-FundNumber: OUPK2999
+Kori 1 - Oulun pääkirjasto/Aikuiset:<br />
+FundNumber: OUPK2999<br />
 DestinationLocation/DeliverToLocation: OUPKAIK2999
 
-Kori 2 - Oulun pääkirjasto/Lapset ja nuoret:
-FundNumber: OUPK2999
+Kori 2 - Oulun pääkirjasto/Lapset ja nuoret:<br />
+FundNumber: OUPK2999<br />
 DestinationLocation/DeliverToLocation: OUPKLN2999
 
-Kori 3 - Oulun pääkirjasto/Musiikki:
-FundNumber: OUPK2999
+Kori 3 - Oulun pääkirjasto/Musiikki:<br />
+FundNumber: OUPK2999<br />
 DestinationLocation/DeliverToLocation OUPKMUS2999
 
 Ja niin edelleen, kunnes kaikki halutut kirjasto/hyllypaikkayhdistelmät on katettu.
@@ -75,9 +74,9 @@ Ja niin edelleen, kunnes kaikki halutut kirjasto/hyllypaikkayhdistelmät on kate
 
 ### 1.2 Kohan toimittajatieto
 
-Kohassa pitää olla (kuntakohtainen) toimittajatieto olemassa jokaiselle toimittajalle, jolta aineistoa tilataan, esim. Oulu Kirjastopalvelu. [[5_Hankinta#52-Toimittaja|Toimittajan lisääminen]]
+Kohassa pitää olla (kuntakohtainen) toimittajatieto olemassa jokaiselle toimittajalle, jolta aineistoa tilataan, esim. Oulu Kirjastopalvelu.
 
-Lisäksi sanomassa oleva aineiston toimittaja pitää liittää Kohan toimittajatietoon. Liitosta varten tarvitaan sanoman VendorAssignedID ja sitä vastaava Koha-aineistotoimittajan id-tunnus. Sen näkee toimittajatiedoissa selaimen osoiteriviltä.
+Lisäksi sanomassa oleva aineiston toimittaja pitää liittää Kohan toimittajatietoon. Liitosta varten tarvitaan sanoman _VendorAssignedID_ ja sitä vastaava Koha-aineistotoimittajan id-tunnus. Sen näkee toimittajatiedoissa selaimen osoiteriviltä.
 
 !editx6.png!
 
@@ -87,30 +86,32 @@ Kohan aineistotoimittajan liittäminen tilaussanoman toimittajatietoon tehdään
 
 Valitse _Uusi tili_
 
-!editx5.png!
+![](/assets/files/docs/Ohjeet/editx5.png)
 
 Täytä seuraavat kohdat
-!editx7.png!
 
-* *Toimittaja:* Valitse toimittajatieto alasvetovalikosta.
+![](/assets/files/docs/Ohjeet/editx7.png)
 
-* *Kuvaus:* Kuvaus on vapaaehtoinen.
 
-* *Siirto:* Valitse "FILE".
+* **Toimittaja:** Valitse toimittajatieto alasvetovalikosta.
 
-* *Määre:* Kenttään valitaan 
+* **Kuvaus:** Kuvaus on vapaaehtoinen.
+
+* **Siirto:** Valitse "FILE".
+
+* **Määre:** Kenttään valitaan 
 ** _Assigned by supplier (91)_ käytettäessä sanoman VendorAssignedID:tä
 ** _Assiegned by buyer (92)_ käytettäessä sanoman BuyerAssignedID:tä
 
-* *SAN:* Kenttään tulee joko VendorAssignedID tai BuyerAssignedID, riippuen siitä, kumpaa halutaan käyttää.
+* **SAN:** Kenttään tulee joko VendorAssignedID tai BuyerAssignedID, riippuen siitä, kumpaa halutaan käyttää.
 
-* *Käytössä olevat tilaukset:* Laita tähän ruksi. (Suomennos muutetaan myöhemmin.)
+* **Tilaukset sallittu*:* Laita tähän ruksi.
 
 Valitse _OK_.
 
 Lisätty EDI-tili tulee näkyviin EDI-tilien listalle. Olemassaolevia tilejä voi muokata valitsemalla _Muokkaa_. Tilin voi poistaa _Poista_-painikkeella.
 
-!editx8.png!
+![](/assets/files/docs/Ohjeet/editx8.png)
 
 ### 1.3 Authoriser eli tilauksen luoja
 
