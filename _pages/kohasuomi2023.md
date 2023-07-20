@@ -15,6 +15,14 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 29 muistiot
 
+### Torstai 20.7.2023 klo 10
+
+Läsnä: Anneli, Lasse
+
+* Vaskissa service unavailable 503 ma 17.7.2023 klo 13.05 aikoihin. table lock, lastseen-arvojen kirjauksia jonossa. Kyselyt ei tahtonut kuolla pois.
+* OUTIssa service unavailable 503 to 20.7.2023 klo 9.36 aikoihin, ei table lockia tai jumiutuneita kyselyjä. Pelkkä korefresh auttoi.
+
+ 
 ### Maanantai 17.7.2023 klo 10
 
 Läsnä: Anneli, Lasse
