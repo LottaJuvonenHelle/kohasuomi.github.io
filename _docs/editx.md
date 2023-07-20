@@ -78,7 +78,7 @@ Kohassa pitää olla (kuntakohtainen) toimittajatieto olemassa jokaiselle toimit
 
 Lisäksi sanomassa oleva aineiston toimittaja pitää liittää Kohan toimittajatietoon. Liitosta varten tarvitaan sanoman _VendorAssignedID_ ja sitä vastaava Koha-aineistotoimittajan id-tunnus. Sen näkee toimittajatiedoissa selaimen osoiteriviltä.
 
-!editx6.png!
+![](/assets/files/docs/Ohjeet/editx6.png)
 
 #### 1.2.1 Kohan toimittajatiedon mäppääminen toimittajan asiakastunnukseen
 
@@ -105,7 +105,7 @@ Täytä seuraavat kohdat
 
 * **SAN:** Kenttään tulee joko VendorAssignedID tai BuyerAssignedID, riippuen siitä, kumpaa halutaan käyttää.
 
-* **Tilaukset sallittu*:* Laita tähän ruksi.
+* **Tilaukset sallittu:** Laita tähän ruksi.
 
 Valitse _OK_.
 
@@ -115,9 +115,9 @@ Lisätty EDI-tili tulee näkyviin EDI-tilien listalle. Olemassaolevia tilejä vo
 
 ### 1.3 Authoriser eli tilauksen luoja
 
-Kohaan täytyy luoda EditX-tilauksille _Authoriser_. Tämä on Kohan käyttäjätunnus, joka näkyy EditX tilauksissa tilauksen luojana. Tunnus ei tarvitse mitään oikeuksia. Katso [[1_Asiakkaat#11-Lisää-uusi-asiakas|Asiakkaan lisäys]].
+Kohaan täytyy luoda EditX-tilauksille _Authoriser_. Tämä on Kohan käyttäjätunnus, joka näkyy EditX tilauksissa tilauksen luojana. Tunnus ei tarvitse mitään oikeuksia. Katso Asiakkaan lisäys.
 
-Authoriser:in borrowernumber määritetään EditX-rajapinnan konfiguraatiossa (*anteeksi, jäi kaksi suomenkielistä sanaa). Tämän tekee pyynnöstä järjestelmänkehittäjä.
+Authoriserin borrowernumber määritetään EditX-rajapinnan konfiguraatiossa (*anteeksi, jäi kaksi suomenkielistä sanaa). Tämän tekee pyynnöstä järjestelmänkehittäjä.
 
 ### 1.4 Kohan MARC-määritykset
 
@@ -135,25 +135,22 @@ Kohan MARC-määrityksissä pitää olla seuraavat määritykset:
 * EAN-koodi MARC-kentästä 024$a liitetään biblioitems-taulun kenttään _ean_. Indikaattoria ei huomioida.
 * Julkaisijan tunnus MARC-kentästä 028$a liitetään biblioitems-taulun kenttään _publishercode_.
 * Julkaisija MARC-kentästä 028$b liitetään biblioitems-taulun kenttään _editionresponsibility_.
-** publishercodea ja editionresponsibilityä käytetään täsmäytyksessä aina yhdessä. Vain jos kumpikin täsmää, syntyy vastaavuus.
+  * publishercodea ja editionresponsibilityä käytetään täsmäytyksessä aina yhdessä. Vain jos kumpikin täsmää, syntyy vastaavuus.
 
 !editx2.png!
 
-Aina kun kenttäliitoksia muutetaan, pitää vanhojen tietueiden tiedot päivittää ajan tasalle (misc/batchRebuildBiblioTables.pm --downstream --confirm). Järjestelmänkehittäjä tekee tämän pyynnöstä.
-
-*Huomaa:* On mahdollista, että liitos näyttäisi olevan paikoillaan, vaikka ei oikeasti olekaan. Tarkista siis aina liitos _Muokkaa_-painikkeen takaa.
+Aina kun kenttäliitoksia muutetaan, pitää vanhojen tietueiden tiedot päivittää ajan tasalle (misc/batchRebuildBiblioTables.pl vie kuvailutiedoista tietokannan taulun sarakkeisiin määritettyjen kenttien sisällön). Järjestelmänkehittäjä tekee tämän pyynnöstä.
 
 ### 1.5 ONIX-aineistolajien määritys
 
-Kohan tietokannassa on _map_productform_-taulu, jossa liitetään tilaussanoman "ONIX-aineistotyypit":https://ns.editeur.org/onix36/en/7 Kohan aineistolajeihin. Liitokset tekee järjestelmänkehittäjä heille toimitetun vastaavuuslistan perusteella.
+Kohan tietokannassa on _map_productform_-taulu, jossa liitetään tilaussanoman "ONIX-aineistotyypit":https://ns.editeur.org/onix36/en/7 Kohan nidetyyppeihin. Liitokset tekee järjestelmänkehittäjä heille toimitetun vastaavuuslistan perusteella.
 
-Vastaavuslistan esimerkkitiedosto: attachment:map_productform_uusi.xlsx
+Vastaavuslistan esimerkkitiedosto: [map_productform_uusi.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12107611/map_productform_uusi.xlsx)
 
----
 
 ### 1.5.1 Vaihtoehtoiset hyllypaikkamääritykset (ONIX-aineistolajien vaihtoehtoiset määritykset)
 
-Tietokannassa Map_productfrom taulussa on kaksi nidetyyppi-saraketta (productform ja productform_alternative).
+Tietokannassa map_productfrom-taulussa on kaksi nidetyyppi-saraketta (productform ja productform_alternative).
 
 Ensisijaisesti käytetään productform-sarakkeen arvoa. Jos halutaan käyttää productform_alternative arvoa, niin procurement-config.xml tiedostoon määritellään asetus <productform_alternative_triggers></productform_alternative_triggers> ja sen sisään hyllypaikat pilkulla eroteltuna, joille halutaan productform_alternative-sarakkeen arvon nidetyyppi.
 Esim.
@@ -163,11 +160,9 @@ Esim.
 
 ### 1.6 Tietueiden täsmäytys eli tuplakontrolli
 
-EDItX-sanomista luodaan tilauksen luonnin yhteydessä minitietue kaikista niistä teoksista, joita ei löydy ennestään tietokannasta. EDItX-sanomassa on jokaiselle teokselle kuvailutieto MARCXML-muodossa. Ennen kuin uusi tietue luodaan, tarkistetaan, löytyykö tietokannasta jo kyseinen teos. Vertailuun/täsmäytykseen käytetään biblioitems-taulun ISBN (020$a), EAN (024$a), ja publishercodea (julkaisijan tunnus 028$a) yhdessä editionresponsibilityn (julkaisijan nimen 028$b) kanssa (kumpikin pitää täsmätä). Jos millään standarditunnisteella ei löydy Kohan biblioitems-taulusta, niin luodaan uusi tietue. Jos löytyy vastaavuus, käytetään tilauksen luonnissa kyseistä tietuetta ja niteet luodaan olemassa olevaan tietueeseen.
+EDItX-sanomista luodaan tilauksen luonnin yhteydessä minitietue kaikista niistä teoksista, joita ei löydy ennestään tietokannasta. EDItX-sanomassa on jokaiselle teokselle kuvailutieto MARCXML-muodossa. Ennen kuin uusi tietue luodaan, tarkistetaan, löytyykö tietokannasta jo kyseinen teos. Vertailuun/täsmäytykseen käytetään biblioitems-taulun ISBN (020$a), EAN (024$a), ja publishercodea (julkaisijan tunnus 028$a) yhdessä editionresponsibilityn (julkaisijan nimen 028$b) kanssa (kumpikin pitää täsmätä). Jos millään standarditunnisteella ei löydy tietuetta Kohan biblioitems-taulusta, niin luodaan uusi tietue. Jos löytyy vastaavuus, käytetään tilauksen luonnissa kyseistä tietuetta ja niteet luodaan olemassa olevaan tietueeseen.
 
-Tietueiden täsmäytyksessä on tällä hetkellä puute, joka aiheuttaa tuplatietueita tietokantaan. Jos tietueella on biblioitems-taulun ISBN- tai EAN-sarakkeessa kaksi tai useampi tunniste, ei täsmäytys toimi. Jos tunnisteita on useampi, erotetaan ne |-merkillä toisistaan. Täsmäytys pyrkii täsmäyttämään koko sarakkeen sisältöön, jolloin esim. yhdellä ISBN-numerolla haettaessa tieto ei täsmää sarakkeen tietoon. Tästä on tehty kehitysehdotus, että täsmäyttäjä osaisi purkaa sarakkeen sisällön palasiksi ja täsmäyttää tunnisteen kumpaankin/kaikkiin tietoihin erikseen.
-
----
+Tietueiden täsmäytyksessä on tällä hetkellä puute, joka voi aiheuttaa tuplatietueita tietokantaan. Jos tietueella on useampi standarditunniste, tallennetaan tietokannan tauluun vain kuvailutietueen ensimmäinen esiintymä. Jos tulevassa tietueessa onkin tunnisteet eri järjestyksessä kuin aiemmin lisätyssä tietueessa, eivät tunnisteet täsmää ja luodaan uusi tietue. Tämä ei ole kovin yleistä, mutta se on mahdollista varsinkin jos tilataan täydennyksenä vanhempaa aineistoa.
 
 ## 2. Käyttöönotto aineistontoimittajan verkkokaupassa
 
