@@ -21,7 +21,7 @@ Läsnä: Anneli, Lasse
 
 * Vaskissa service unavailable 503 ma 17.7.2023 klo 13.05 aikoihin. table lock, lastseen-arvojen kirjauksia jonossa. Kyselyt ei tahtonut kuolla pois.
 * OUTIssa service unavailable 503 to 20.7.2023 klo 9.36 aikoihin, ei table lockia tai jumiutuneita kyselyjä. Pelkkä korefresh auttoi.
-* kokouksen ulkopuolelta tieto ylös, että OUTIssa ollut vastaava katko myös ke 5.7.2023 n. klo 9.38. Matrix-keskustelujen perusteella silloin on näkynyt lokeilla read erroreita ja proxy erroria: The timeout specified has expired: ja sitten toinen proxy error AH10154: pass request body failed to 0.0.0.0:0
+* kokouksen ulkopuolelta tieto ylös, että OUTIssa ollut vastaava katko myös ke 5.7.2023 n. klo 9.38. Katko oli mennyt ohi itsestään. Matrix-keskustelujen perusteella silloin on näkynyt lokeilla read erroreita ja proxy erroria: The timeout specified has expired: ja sitten toinen proxy error AH10154: pass request body failed to 0.0.0.0:0
  
 ### Maanantai 17.7.2023 klo 10
 
