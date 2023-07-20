@@ -49,6 +49,8 @@ docs:
         url: /dokumentaatio/asetukset/
       - title: 'Järjestelmäasetukset'
         url: /dokumentaatio/jarjestelmaasetukset/
+      - title: 'Käyttöönotto-ohjeita'
+        url: /dokumentaatio/kayttoonotto-ohjeita/
       - title: 'Tietojen säilytysajat'
         url: /dokumentaatio/tietojensailytysajat/
       - title: 'Ajastetut ajot'
