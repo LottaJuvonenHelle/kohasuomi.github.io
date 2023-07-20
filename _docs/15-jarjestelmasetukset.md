@@ -215,5 +215,19 @@ box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
 
 ### Yksittäisiin asetuksiin suosituksia
 
-SearchEngine: ElasticSearch
-timeout: 1800
+SearchEngine: ElasticSearch<br />
+timeout: 1800<br />
+PatronAutoComplete: Älä ehdota (Vältetään turhia tietojen katseluja)<br />
+AgeRestrictionOverride: Älä salli (Esim. elokuvien ja pelien ikärajat ovat sitovia)<br />
+ItemsDeniedRenewal: notforloan: [6] (Estää laskutetun niteen uusimisen)<br />
+CalculateFinesOnReturn: Älä laske (Myöhästymismaksut lasketaan yöllä ajastetulla ajolla. Jos tämäkin on päällä, maksut voivat kirjautua asiakkaalle tietyissä tilanteissa uudelleen [maksut maksetaan ja sitten sen jälkeen palautetaan myöhässä olevia niteitä])<br />
+HidePersonalDetailOnCirculation: Piilota (Vältetään turhia tietojen katseluja)<br />
+HoldsNeedProcessingSIP: Älä täytä (Omatoimiaikana automaattiin palautetuista varatuista niteistä ei lähde näin noutoilmoituksia)<br />
+StoreLastBorrower: Säilytä (Säilytetään erillisessä taulussa niteen viimeisin lainaaja, vaikka lainat anonymisoidaan. Auttaa löytämään oikean asiakkaan ongelmatilanteissa.)<br />
+TransfersBlockCirc: Estä (Kuljetukseen on reagoitava)<br />
+TrapHoldsOnOrder: Ota kiinni (saapunut/tilattu-tilaiset jäävät palautuksessa varauksiin kiinni)<br />
+UpdateNotForLoanStatusOnCheckin: 6 : ONLYMESSAGE (Laskutetusta niteestä tulee ilmoitus)<br />
+
+
+
+
