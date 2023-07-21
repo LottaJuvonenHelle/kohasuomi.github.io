@@ -1,14 +1,20 @@
+---
+title: 'Finto-liitännäiset'
+permalink: /dokumentaatio/finto/
+redirect_from:
+  - /theme-setup/
+toc: true
+---
 
+## Finto-liitännäiset
 
-## Finto-plugin
+Finto-liitännäiset ovat käytössä Täti-tietokannassa.
 
-Luetteloinnissa voidaan käyttää liitännäisiä, jotka hakevat tiedot Finton sanastoista. Kun liitännäinen on lisätty kenttään, luetteloija voi kirjoittaa kyseiseen kenttään hakutermin, jolla sanastosta haetaan, ja valita sopivan arvon suoraan valikosta. Osakenttään tulee siis valittu arvo, osakenttään 0 tulee lähde-URI, ja osakenttään 2 tulee lähteen nimi, esim. "yso/fin"
+Kuvailussa voidaan käyttää liitännäisiä, jotka hakevat tiedot Finton sanastoista. Kun liitännäinen on lisätty kenttään, kuvailija voi kirjoittaa kyseiseen kenttään hakutermin, jolla sanastosta haetaan, ja valita sopivan arvon suoraan valikosta. Osakenttään tulee siis valittu arvo, osakenttään 0 tulee lähde-URI, ja osakenttään 2 tulee lähteen nimi, esim. "yso/fin"
 
-Finto-pluginien nimet alkavat "finto_", jonka jälkeen on sanasto, josta plugin hakee tiedot (esim. "seko", "yso"). Jos nimessä on "local", sallii plugin myös paikallisen arvon lisäämisen, ja jos pluginin nimi päättyy "_ind", asettaa se myös kentän toisen indikaattorin arvoksi "7".
+Finto-liitännäisten nimet alkavat "finto_", jonka jälkeen on sanasto, josta plugin hakee tiedot (esim. "seko", "yso"). Jos nimessä on "local", sallii plugin myös paikallisen arvon lisäämisen, ja jos pluginin nimi päättyy "_ind", asettaa se myös kentän toisen indikaattorin arvoksi "7".
 
-Finto-pluginit ovat käytössä Täti-tietokannassa.
-
-### Pluginin määrittäminen käyttöön
+### Liitännäisen määrittäminen käyttöön
 
 Kannattaa tehdä ainakin nämä määritykset alkuunsa:
 
@@ -47,29 +53,27 @@ Muokkaa myös muut kentät. Helpoiten pääset kentän valintaan "murupolusta" k
 ![](/assets/files/docs/Ohjeet/finto8.png)
 
 
-### Pluginin toiminta luetteloinnissa
+### Liitännäisen toiminta kuvailussa
 
-Plugineja on useamman tyyppisiä ja ne toimivat pääsääntöisesti samalla periaatteella. Osassa voi kuitenkin käyttää myös "paikallisia" termejä, jolloin liitännäinen toimii vähän eri tavalla.
+Liitännäisiä on useamman tyyppisiä ja ne toimivat pääsääntöisesti samalla periaatteella. Osassa voi kuitenkin käyttää myös "paikallisia" termejä, jolloin liitännäinen toimii vähän eri tavalla.
 
 #### YSO/Kauno
 
-Plugin noudattaa käyttöliittymän kielivalintaa eli kun Kohassa on käyttökielenä suomi, haetaan suomenkielisiä termejä. Kun taas käyttöliittymän kieli on ruotsi, haetaan termejä ruotsinkielisestä sanastosta.
+Liitännäinen noudattaa käyttöliittymän kielivalintaa eli kun Kohassa on käyttökielenä suomi, haetaan suomenkielisiä termejä. Kun taas käyttöliittymän kieli on ruotsi, haetaan termejä ruotsinkielisestä sanastosta.
 
-*Huom!* Järjestä kentät luettelointisääntöjen mukaiseen järjestykseen. Esimerkkikuvissa järjestystä ei ole muutettu.
-
-Kun kenttään alkaa kirjoittamaan termiä, lähtee plugin hakemaan sitä Fintosta ja ehdottaa hakua vastaavia termejä. Sulkeissa termin perässä lukee, kummasta sanastosta, ysosta vai kaunosta, termiä ehdotetaan.
-!fintoplug9.png!
+Kun kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä Fintosta ja ehdottaa hakua vastaavia termejä. Sulkeissa termin perässä lukee, kummasta sanastosta, ysosta vai kaunosta, termiä ehdotetaan.
+![](/assets/files/docs/Ohjeet/finto9.png)
 
 Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttään lisätään linkki termiin ysossa ja 2-kenttään asiasanan/termin lähde.
-!fintoplug10.png!
+![](/assets/files/docs/Ohjeet/finto10.png)
 
 #### SLM - Suomalainen lajityyppi- ja muotosanasto
 
-Kun kenttää alkaa kirjoittamaan termiä, lähtee plugin hakemaan sitä SLM-termeistä ja ehdottaa vastaavia termejä.
-!fintoplug11.png!
+Kun kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä SLM-termeistä ja ehdottaa vastaavia termejä.
+![](/assets/files/docs/Ohjeet/finto11.png)
 
 Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttään lisätään linkki termiin SLM-sanastossa ja 2-kenttään termin lähde.
 !fintoplug12.png!
 
-Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin listalta valitaan itse kirjoitettu termi, jolloin se siirtyy oikeaan kenttään ja 2-kenttään tulee termin lähteeksi "local"
+?Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin listalta valitaan itse kirjoitettu termi, jolloin se siirtyy oikeaan kenttään ja 2-kenttään tulee termin lähteeksi "local"?
 !fintoplug13.png!
