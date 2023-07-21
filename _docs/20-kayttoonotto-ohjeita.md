@@ -12,5 +12,8 @@ Tälle sivulle on kerätty erilaisia käyttöönotto-ohjeita.
 
 [EDItX-hankinnan käyttöönotto-ohje](/dokumentaatio/editx/)
 
-## Laskutusliitännäinen
+## Laskutustyökalu
 
+Laskutustyökalu on toteutettu liitännäisenä.
+
+[Laskutustyökalun käyttöönotto-ohje](/dokumentaatio/laskutustyokalu/)
