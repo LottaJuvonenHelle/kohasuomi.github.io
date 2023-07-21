@@ -85,6 +85,8 @@ kirjastokohtaisia. Kaikki ilmoitus- ja kuittipohjat eivät välttämättä ole k
 
 ### 12.2.1 Ilmoituksen muokkaaminen
 
+Huom! Tämän ohjeen päivitys versioon 22.11 on vielä kesken.
+
 Ilmoituksen tai kuitin voi tehdä samoille kielille kuin mitä Kohaan on
 asennettu käyttökieliksi (suomi, englanti, ruotsi). Lisäksi on olemassa Oletus-pohja, jota
 käytetään silloin, kun asiakkaalle ei ole asiakastiedoissa valittuna asiointikieltä. 
