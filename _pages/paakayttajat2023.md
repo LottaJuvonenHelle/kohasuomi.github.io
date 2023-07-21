@@ -23,7 +23,7 @@ Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI), Leena Kinnunen (Lapp
   * Vaski: Askolle, Annille ja Mikolle Matrixissa
   * Lappi: Pialle ja Marialle
   * OUTI: Piialle, Pirkko-Liisalle ja Vellulle
-  * Siilinjärvi: Reetta (14.8. alkaen)
+  * Siilinjärvi: Reetta (paikalla 14.8. alkaen)
   * Vaara: Päivi, Auli, Irina
   * Lumme: Hanna, Katja
   * Kyyti: ?
