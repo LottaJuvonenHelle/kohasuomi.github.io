@@ -39,35 +39,38 @@ Laskuja varten täytyy lisätä ilmoituspohja, ODUECLAIM, joihin sisältö laite
 
 Laskutuspohjissa voi käyttää seuraavia tägejä.
 
-Laskun numero: <<invoicenumber>><br />
-Tilinumero: <<accountnumber>><br />
-BIC: <<biccode>><br />
-Laskun eräpäivä: <<invoice_duedate>><br />
-Laskun eräpäivä (Finvoice muoto): <<finvoice_duedate>><br />
-Viitenumero: <<referencenumber>><br />
-Lainaajan nimi: <<issueborname>><br />
-Lainaajan kirjastokortti: <<issueborbarcode>><br />
-Maksettava yhteensä: <<totalfines>><br />
-Y-tunnus: <<businessid>><br />
-Laskuttajan nimi: <<grouplibrary>><br />
-Laskuttajan osoite: <<groupaddress>><br />
-Laskuttajan postinumero: <<groupzipcode>><br />
-Laskuttajan postitoimipaikka: <<groupcity>><br />
-Laskuttajan puhelinnumero: <<groupphone>><br />
-Viimeiseksi lainatun niteen lainapäivä: <<lastitemissuedate>><br />
+```
+Laskun numero: <<invoicenumber>>
+Tilinumero: <<accountnumber>>
+BIC: <<biccode>>
+Laskun eräpäivä: <<invoice_duedate>>
+Laskun eräpäivä (Finvoice muoto): <<finvoice_duedate>>
+Viitenumero: <<referencenumber>>
+Lainaajan nimi: <<issueborname>>
+Lainaajan kirjastokortti: <<issueborbarcode>>
+Maksettava yhteensä: <<totalfines>>
+Y-tunnus: <<businessid>>
+Laskuttajan nimi: <<grouplibrary>>
+Laskuttajan osoite: <<groupaddress>>
+Laskuttajan postinumero: <<groupzipcode>>
+Laskuttajan postitoimipaikka: <<groupcity>>
+Laskuttajan puhelinnumero: <<groupphone>>
+Viimeiseksi lainatun niteen lainapäivä: <<lastitemissuedate>>
 Viimeiseksi lainatun niteen eräpäivä: <<lastitemduedate>>
-
+```
 
 Teostiedot pitää "ympäröidä" <item> ja </item> tägeillä, jotta teostiedot tulostuvat laskulle. 
 
-<item><br />
-Eräpäivä: <<date_due>><br />
-Teos: <<biblio.title>>  <<items.enumchron>> / <<biblio.author>><br />
-Aineistotyyppi: <<biblioitems.itemtype>> <br />
-Viivakoodi: <<items.barcode>><br />
-Luokka: <<items.itemcallnumber>><br />
-Korvaushinta: <<items.replacementprice>> €<br />
-</item><br />
+```
+<item>
+Eräpäivä: <<date_due>>
+Teos: <<biblio.title>>  <<items.enumchron>> / <<biblio.author>>
+Aineistotyyppi: <<biblioitems.itemtype>> 
+Viivakoodi: <<items.barcode>>
+Luokka: <<items.itemcallnumber>>
+Korvaushinta: <<items.replacementprice>> €
+</item>
+```
 
 ### 2.2 Määritys myöhästymisilmoituksiin
 
