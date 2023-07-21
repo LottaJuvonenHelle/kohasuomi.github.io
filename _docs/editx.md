@@ -166,27 +166,27 @@ Tietueiden täsmäytyksessä on tällä hetkellä puute, joka voi aiheuttaa tupl
 
 ## 2. Käyttöönotto aineistontoimittajan verkkokaupassa
 
-Aineistontoimittajan verkkokaupan täytyy tukea EditX-tilaussanomien lähettämistä. Selvitä asia ennakkoon toimittajasi kanssa. Tällä hetkellä EditX-tilaussanomia käyttää Booky/Kirjastopalvelu, Kirjavälitys sekä Woiman hankintaportaali.
+Aineistontoimittajan verkkokaupan täytyy tukea EDItX-tilaussanomien lähettämistä. Selvitä asia ennakkoon toimittajasi kanssa. Tällä hetkellä EDItX-tilaussanomia käyttää Booky/Kirjastopalvelu, Kirjavälitys sekä Woiman hankintaportaali.
 
 Verkkokaupoissa on tehtävä seuraavat määritykset:
 
-* tilauskori pitää määrittää EditX-tilaussanomia ”muodostavaksi”
-* tilauskoriin pitää määrittää FundNumber, DeliverToLocation ja DestinationLocation -elementteihin Kohan tilikoodi
+* tilauskori pitää määrittää EDItX-tilaussanomia ”muodostavaksi”.
+* tilauskoriin pitää määrittää FundNumber, DeliverToLocation ja DestinationLocation -elementteihin Kohan tilikoodi (katso myös kohta ikitilit).
 * aineistotoimittajatiedot SellerParty/PartyName/NameLine -elementissä: Tunnistettuja aineistontoimittajia ovat 'Kirjavälitys Oy', 'Booky.fi Oy' ja 'BTJ Finland Oy'. 
-** Aineistontoimittajien nimien tulee olla sanoman SellerParty/PartyName/NameLine -elementissä täsmälleen tässä muodossa, esimerkiksi 'KV' ei ole tunnistettu aineistontoimittaja eikä rajapinta osaa sen perusteella arvata että kyseessä on Kirjavälitys Oy.
-
-
+  * Aineistontoimittajien nimien tulee olla sanoman SellerParty/PartyName/NameLine -elementissä täsmälleen tässä muodossa, esimerkiksi 'KV' ei ole tunnistettu aineistontoimittaja eikä rajapinta osaa sen perusteella arvata että kyseessä on Kirjavälitys Oy.
+  * Jokaisen toimittajan sanoma on hieman erilainen, vaikka kyseessä on standardi, niin tällä tiedolla tunnistetaan, mitä käsittelijää sanoman käsittelyyn käytetään.
+ 
 Toimittajalta pitää tilata tilauskorit ja niihin pitää tehdä seuraavat määritykset. Esim.
 
-Aikuisten hyllypaikalle: FundNumber, DeliverToLocation ja DestinationLocation OUPKAIK2019
-Lasten ja nuorten hyllypaikalle: FundNumber, DeliverToLocation ja DestinationLocation OUPKLN2019
+Aikuisten hyllypaikalle: FundNumber, DeliverToLocation ja DestinationLocation OUPKAIK2019<br/>
+Lasten ja nuorten hyllypaikalle: FundNumber, DeliverToLocation ja DestinationLocation OUPKLN2019<br/>
 Musiikki-hyllypaikalle: FundNumber, DeliverToLocation ja DestinationLocation OUPKMUS2019
 
 *Huomioitavaa:* Tili- ja sijoitustiedot ovat sidoksissa toisiinsa. Korien sijoitustietojen on vastattava Kohan kirjastoyksiköitä ja hyllypaikkoja. Sijoitustietona ei voi käyttää esim. OUPKAV2019, jos Kohassa ei ole olemassa AV-hyllypaikkaa.
 
 Järjestelmänkehittäjä toimittaa Koha-palvelimen osoitteen, käyttäjätunnuksen ja salasanan aineistontoimittajille pyynnöstä.
 
-Lisäksi tarvitaan tilaussanomissa oleva VendorAssignedID (toimittajan antama tunniste) tai BuyerAssignedID (kirjaston antama tunniste), jotta tilaukset pystytään muodostamaan Kohassa oikean toimittajatiedon alle. VendorAssignedID:n saa aineistontoimittajilta. BuyerAssignedID:n voi määritellä itse ja pyytää aineistontoimittajaa käyttämään sitä sanomassa.
+Lisäksi tarvitaan tilaussanomissa oleva VendorAssignedID (toimittajan antama tunniste) tai BuyerAssignedID (kirjaston antama tunniste), jotta tilaukset pystytään muodostamaan Kohassa oikean toimittajatiedon alle. VendorAssignedID:n saa aineistontoimittajilta ja se on monestikin sama kuin asiakasnumero. BuyerAssignedID:n voi määritellä itse ja pyytää aineistontoimittajaa käyttämään sitä sanomassa.
 
 ---
 
@@ -291,25 +291,25 @@ Tilaussanomien käsittelyn etenemistä voi seurata hankinnan EDIFACT-sanomat -si
 
 Kenttien selitteet:
 
-* *Tyyppi* kertoo sanoman sisällön muodon (käytännössä aina EDItX).
+* **Tyyppi** kertoo sanoman sisällön muodon (käytännössä aina EDItX).
 
-* *Siirretty* kertoo päivän, jolloin sanoma on tullut palvelimelle.
+* **Siirretty** kertoo päivän, jolloin sanoma on tullut palvelimelle.
 
-* *Tila* kertoo sanoman käsittelyn tilan. Tilakoodit ovat:
-** PROCESSING: käsittely on käynnissä
-** POSTPONED: sanoma on joko virheellinen tai ei ole tullut palvelimelle vielä kokonaan
-** FAILED: käsittely on epäonnistunut
-** OK: käsitelty onnistuneesti
+* **Tila** kertoo sanoman käsittelyn tilan. Tilakoodit ovat:
+  * PROCESSING: käsittely on käynnissä
+  * POSTPONED: sanoma on joko virheellinen tai ei ole tullut palvelimelle vielä kokonaan
+  * FAILED: käsittely on epäonnistunut
+  * OK: käsitelty onnistuneesti
 
-* *Toimittaja*-kenttään tulee aineistontoimittajan toimittajatieto, jos sellainen sanomasta löytyy ja se on liitetty Koha-toimittajaan.
+* **Toimittaja**-kenttään tulee aineistontoimittajan toimittajatieto, jos sellainen sanomasta löytyy ja se on liitetty Koha-toimittajaan.
 
-* *Tiedot*-kentässä on linkki Koha-laskuun (ei käytössä).
+* **Tiedot**-kentässä on linkki Koha-laskuun (ei käytössä).
 
-* *Tiedostonimi* on sanoman tiedostonimi.
+* **Tiedostonimi** on sanoman tiedostonimi.
 
-* *Toiminnot*
-** _Katso viesti_ näyttää sanoman sisällön. Viesti-popparin sisältö on sekava, mutta siitä voi etsiä tarvitsemansa tiedon selaimen hakutoiminnolla (CTRL+F).
-** _Poista_ poistaa rivin EDIFACT-sanomista, mutta ei poista tilausta eikä siihen liittyviä kuvailutietueita, niteitä ja varauksia.
+* **Toiminnot**
+  * _Katso viesti_ näyttää sanoman sisällön. Viesti-popparin sisältö on sekava, mutta siitä voi etsiä tarvitsemansa tiedon selaimen hakutoiminnolla (CTRL+F).
+  * _Poista_ poistaa rivin EDIFACT-sanomista, mutta ei poista tilausta eikä siihen liittyviä kuvailutietueita, niteitä ja varauksia. Tiedosto säilyy myös palvelimella.
 
 ### 4.2 Virheraportointi sähköpostitse
 
@@ -339,21 +339,23 @@ Puutteelliset sanomat on jätetty hakemistoon /home/koha/koha-dev/var/spool/edit
 
 Käsittely voi epäonnistua koska
 * tilaussanoma on tullut palvelimelle sellaiseen aikaan, jolloin sanomia ei käsitellä. Esim. myöhään illalla tai aikaisin aamulla.
-** käy tarkistamassa EDIFACT-sanomat-sivulla hakemalla sanoman tiedostonimellä, onko sanoman käsittely edelleen kesken. Jos sanoman tila on ok, ei tarvitse tehdä korjausliikkeitä.
+ * käy tarkistamassa EDIFACT-sanomat-sivulla hakemalla sanoman tiedostonimellä, onko sanoman käsittely edelleen kesken. Jos sanoman tila on ok, ei tarvitse tehdä korjausliikkeitä.
 * tilaussanoma yritetään ottaa käsittelyyn kesken palvelimelle siirron
-** käy tarkistamassa EDIFACT-sanomat-sivulla hakemalla sanoman tiedostonimellä, onko sanoman käsittely edelleen kesken. Jos sanoman tila on ok, ei tarvitse tehdä korjausliikkeitä.
-** jos sanoman käsittely on epäonnistunut uudelleen, siitä tulee toinen viesti eri syyllä.
+ * käy tarkistamassa EDIFACT-sanomat-sivulla hakemalla sanoman tiedostonimellä, onko sanoman käsittely edelleen kesken. Jos sanoman tila on ok, ei tarvitse tehdä korjausliikkeitä.
+ * jos sanoman käsittely on epäonnistunut uudelleen, siitä tulee toinen viesti eri syyllä.
 
 #### Virheellinen tai puuttuva FundNumber
 
 Sanomassa voi olla virheellinen FundNumber eli tilikoodi tai sitten tilikoodi puuttuu Kohasta.
 
 ```
-=== Sanoma: LibraryShipNotice_15373634_20200406115217.xml ===
+Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
+2023-02-14 21:00:04 -- portaali_order_20230214091202.xml: No matching FundNumber found: TUPKTIE2024
+2023-02-14 21:00:04 -- portaali_order_20230214091202.xml: LibraryShipNotice required values errors: 1
+2023-02-14 21:00:04 -- portaali_order_20230214091202.xml: Validation failed
+2023-02-14 21:00:04 -- Order processing failed for file /var/spool/koha/editx/load/portaali_order_20230214091202.xml.
 
-2020-04-06 12.00.04 -- Error was: Cannot insert order: Mandatory parameter budget_id is missing at /home/koha/Koha/Koha/Procurement/OrderProcessor/Order.pm line 37.
-
-Koskee: HEI_PKM2020
+Sanoma koskee sijainteja/tilejä: TUPKTAI2023 TUPKTIE2023 TUPKTIE2024
 ```
 
 * Jos tilikoodi on väärin sanomassa, pyydä (pääkäyttäjä tai kimpassa asiasta vastaava) aineistontoimittajaa korjaamaan tieto oikeaksi heidän järjestelmässään.
@@ -364,14 +366,24 @@ Koskee: HEI_PKM2020
 Jos sanomassa tulee mukana VendorAssignedID tai BuyerAssignedID, jota ei ole lisätty EDI-tilit sivulle Kohassa, niin tulee seuraava sanoma:
 
 ```
-Seuraavien EDItX sanomien käsittelyssä oli ongelmia:
+=== Sanoma: portaali_order_20230113142204.xml ===
 
-=== Sanoma: portaali_order_20200423103001.xml ===
+Ote rajapinnan virhelokista (/var/log/koha/editx/error.log):
+2023-01-18 06:00:03 --
+-- Validating file portaali_order_20230113142204.xml:
+2023-01-18 06:00:03 -- portaali_order_20230113142204.xml: No vendor for SAN 79611b (qualifier 91) in vendor_edi_accounts.
+2023-01-18 06:00:03 -- portaali_order_20230113142204.xml: LibraryShipNotice required values errors: 1
+2023-01-18 06:00:03 -- portaali_order_20230113142204.xml: Validation failed
+2023-01-18 06:00:03 -- Error was: Died at /var/lib/koha/plugins/Koha/Plugin/Fi/KohaSuomi/Editx/Procurement/Validator.pm line 600.
+--
+2023-01-18 21:00:03 --
+-- Validating file portaali_order_20230113142204.xml:
+2023-01-18 21:00:03 -- portaali_order_20230113142204.xml: No vendor for SAN 79611b (qualifier 91) in vendor_edi_accounts.
+2023-01-18 21:00:03 -- portaali_order_20230113142204.xml: LibraryShipNotice required values errors: 1
+2023-01-18 21:00:03 -- portaali_order_20230113142204.xml: Validation failed
+2023-01-18 21:00:04 -- Error was: Died at /var/lib/koha/plugins/Koha/Plugin/Fi/KohaSuomi/Editx/Procurement/Validator.pm line 600.
 
-2020-04-23 10.30.05 -- No vendor for SAN 267139 (qualifier 91) in vendor_edi_accounts.
-2020-04-23 10.30.05 -- Error was: Died at /home/koha/Koha/Koha/Procurement/OrderProcessor.pm line 544.
-
-Koskee: RAPKAIK2020
+Sanoma koskee sijainteja/tilejä: PYHA2018
 ```
 
 * Tarkista, onko tunnus (viestissä SAN xxxx) oikein ja lisää (pääkäyttäjä) tarvittava mäppäys EDI-tilit -sivulle
@@ -422,17 +434,17 @@ Koskee: KEPKLN2020
 
 #### Tietueella/niteellä on väärä aineistolaji
 
-Tietueen aineistolaji (jatkossa aineistotyyppi) tallennetaan MARC-tietueessa 942c-kenttään. Niteen aineistolaji (jatkossa nidetyyppi) tallennetaan 952y-kenttään. Aineistolaji (jatkossa siis nidetyyppi ja aineistotyyppi) määrittyy tilaussanomassa olevan ProductForm-tiedon mukaan. Tagissa kerrotaan aineiston ONIX-koodi. "Lista product form -tyyppisistä ONIX-koodeista":https://ns.editeur.org/onix36/en/7. Tietokannassa taas on map_productform-taulu, jossa määritetään, mikä ONIX-koodi vastaa mitäkin Kohan aineistolajia. Oman kimpan määritykset voi tarkistaa SQL-kyselyllä 
+Tietueen aineistotyyppi tallennetaan MARC-tietueessa 942c-kenttään. Niteen nidetyyppi tallennetaan 952y-kenttään. Nidetyyppi määrittyy tilaussanomassa olevan ProductForm-tiedon mukaan. Tagissa kerrotaan aineiston ONIX-koodi. "Lista product form -tyyppisistä ONIX-koodeista":https://ns.editeur.org/onix36/en/7. Tietokannassa taas on map_productform-taulu, jossa määritetään, mikä ONIX-koodi vastaa mitäkin Kohan nidetyyppiä. Oman kimpan määritykset voi tarkistaa SQL-kyselyllä 
 
 ```select * from map_productform```
 
-Jos tietue/nide on mielestäsi saanut väärän aineistolajin (eli 942c-kentässä olevan aineistolajin tai niteen aineistolajin), käy ensin tarkistamassa EDItX-sanomasta teoksen ONIX-koodi. Jos se on väärä, kannattaa siitä laittaa palautetta sanoman toimittajalle.
+Jos nide on mielestäsi saanut väärän nidetyypin, käy ensin tarkistamassa EDItX-sanomasta teoksen ONIX-koodi. Jos se on väärä, kannattaa siitä laittaa palautetta sanoman toimittajalle.
 
 EDItX-sanoman löytää esim. näin: 
 
-* Mene teoksen tiedoissa Hankintatiedot-välilehdelle
-* Klikkaa auki (toiseen välilehteen) (vanhimman) Tilauskorin linkki
-* Kopioi Huomautus-riviltä EDItX-sanoman tiedostonimi ja aukaise (toiseen välilehteen) vasemmasta reunasta EDIFACT-sanomat sivu
+* Mene teoksen tiedoissa Hankintatiedot-välilehdelle.
+* Kopioi Sisäinen huomautus-riviltä EDItX-sanoman tiedostonimi ja aukaise (toiseen välilehteen) Tilauskori-sarakkeen linkki, jolloin pääset hankintaosioon.
+* Valitse vasemmasta reunasta EDIFACT-sanomat sivu.
 * Liitä kopiomasi tiedostonimi EDIFACT-sivulla Haku-kenttään, jolloin se suodattuu näkyville. Klikkaa "Katso viesti".
 * Sanoma on hankala lukea, mutta selaimen ctrl-f -toiminnolla pystyy hakemaan esim. nimekkeellä.
 * ONIX-koodi löytyy ProductFrom-tagin sisältä. Huomaa, että jokaisella teoksella on oma taginsa, joten tarkista, että katsot oikeaa.
