@@ -73,7 +73,8 @@ Kun kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sit�
 ![](/assets/files/docs/Ohjeet/finto11.png)
 
 Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttään lisätään linkki termiin SLM-sanastossa ja 2-kenttään termin lähde.
-!fintoplug12.png!
+![](/assets/files/docs/Ohjeet/finto12.png)
 
-?Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin listalta valitaan itse kirjoitettu termi, jolloin se siirtyy oikeaan kenttään ja 2-kenttään tulee termin lähteeksi "local"?
+? Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin listalta valitaan itse kirjoitettu termi, jolloin se siirtyy oikeaan kenttään ja 2-kenttään tulee termin lähteeksi "local" ?
+
 !fintoplug13.png!
