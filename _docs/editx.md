@@ -434,7 +434,7 @@ Koskee: KEPKLN2020
 
 #### Tietueella/niteellä on väärä aineistolaji
 
-Tietueen aineistotyyppi tallennetaan MARC-tietueessa 942c-kenttään. Niteen nidetyyppi tallennetaan 952y-kenttään. Nidetyyppi määrittyy tilaussanomassa olevan ProductForm-tiedon mukaan. Tagissa kerrotaan aineiston ONIX-koodi. "Lista product form -tyyppisistä ONIX-koodeista":https://ns.editeur.org/onix36/en/7. Tietokannassa taas on map_productform-taulu, jossa määritetään, mikä ONIX-koodi vastaa mitäkin Kohan nidetyyppiä. Oman kimpan määritykset voi tarkistaa SQL-kyselyllä 
+Tietueen aineistotyyppi tallennetaan MARC-tietueessa 942c-kenttään. Niteen nidetyyppi tallennetaan 952y-kenttään. Nidetyyppi määrittyy tilaussanomassa olevan ProductForm-tiedon mukaan. Tagissa kerrotaan aineiston ONIX-koodi. [Lista product form -tyyppisistä ONIX-koodeista](https://ns.editeur.org/onix36/en/7). Tietokannassa taas on map_productform-taulu, jossa määritetään, mikä ONIX-koodi vastaa mitäkin Kohan nidetyyppiä. Oman kimpan määritykset voi tarkistaa SQL-kyselyllä 
 
 ```select * from map_productform```
 
