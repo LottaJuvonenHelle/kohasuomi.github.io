@@ -287,7 +287,7 @@ Sanomat käsitellään klo 7.00-22.00 välisenä aikana minuutin välein tai nii
 
 Tilaussanomien käsittelyn etenemistä voi seurata hankinnan EDIFACT-sanomat -sivulla.
 
-!editx3.png!
+![](/assets/files/docs/Ohjeet/editx3.png)
 
 Kenttien selitteet:
 
@@ -317,7 +317,7 @@ Virheisiin päättyneiden sanomien käsittelystä on mahdollista saada valittuih
 
 Esimerkkiviesti:
 
-!editx4.png!
+![](/assets/files/docs/Ohjeet/editx4.png)
 
 ### 4.3 Erilaisia virhetilanteita
 
