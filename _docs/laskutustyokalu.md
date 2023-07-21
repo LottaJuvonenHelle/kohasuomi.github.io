@@ -104,9 +104,9 @@ Lisää **kirjastot** ryhmään alasvetovalikosta
 
 Valitse ryhmän **laskutustapa**: Finvoice, E-lasku tai PDF-lasku
   ![](/assets/files/docs/Ohjeet/laskutustyokalu7.png)
-    * **Finvoice** muodostaa laskuista finvoice-muotoisen xml-tiedoston, joka voidaan viedä kunnan laskutusjärjestelmään ja varsinaiset laksut lähetetään sieltä sitten asiakkalle.
-    * **E-lasku** muodostaa asiakkaille e-kirjeenä lähetettävän laskun. Tämä vaatii, että kimpassa on käytössä e-kirjeiden lähetyspalvelu.
-    * **PDF-lasku** muodostaa pdf-tiedoston/tiedostot, jotka laskuttaja voi itse tulostaa ja lähettää asiakkaille.
+* **Finvoice** muodostaa laskuista finvoice-muotoisen xml-tiedoston, joka voidaan viedä kunnan laskutusjärjestelmään ja varsinaiset laksut lähetetään sieltä sitten asiakkalle.
+* **E-lasku** muodostaa asiakkaille e-kirjeenä lähetettävän laskun. Tämä vaatii, että kimpassa on käytössä e-kirjeiden lähetyspalvelu.
+* **PDF-lasku** muodostaa pdf-tiedoston/tiedostot, jotka laskuttaja voi itse tulostaa ja lähettää asiakkaille.
 
 **Laskutusryhmän yhteystietoihin** voi lisätä tarpeelliset tiedot. HUOM! Tilinumero- ja BIC-tunnus-kentät ovat pakollisia kaikissa laskutusmuodoissa.
 ![](/assets/files/docs/Ohjeet/laskutustyokalu8.png)
@@ -117,7 +117,7 @@ Valitse ryhmän **laskutustapa**: Finvoice, E-lasku tai PDF-lasku
 ![](/assets/files/docs/Ohjeet/laskutustyokalu9.png)
 
 **Rajoitus** voidaan asetettaa joko vain huollettavalle tai halutessa myös huoltajalle.
-  * Huomioi, että huoltajalle lisätty rajoite ei poistu automaattisesti, kun laskutetut aineistot palautetaan. Laskutettavalta asiakkaalta rajoite poistuu automaattisesti.
+* Huomioi, että huoltajalle lisätty rajoite ei poistu automaattisesti, kun laskutetut aineistot palautetaan. Laskutettavalta asiakkaalta rajoite poistuu automaattisesti.
 ![](/assets/files/docs/Ohjeet/laskutustyokalu10.png)
 
 **Niteen hinnan** voi lisätä asiakkaan maksuihin, mutta kannattaa huomioida, että jos käytössä on verkkokirjastossa verkkomaksumahdollisuus, asiakas voi vahingossa maksaa samat korvaushinnat sekä verkkomaksuna, että laskulla.
