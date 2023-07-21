@@ -8,24 +8,34 @@ toc: true
 
 Laskutustyökalulla voi tällä hetkellä luoda Finvoice- ja PDF-laskuja.
 
-## Asennus ja päivitys
+## 1. Asennus ja päivitys
 
 [Liitännäisen koodi GitHubissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/tree/22.xx).
 
 ![](/assets/files/docs/Ohjeet/laskutustyokalu.png)
 
-## Käyttöönotto
+## 2. Käyttöönotto
 
 Käyttöönotto vaatii muutamien asetusten lisäämistä.
 
 * Käyttöoikeudet: Laskuttajat tarvitsevat seuraavat käyttäjäoikeudet: Plugins->tool, updatecharges, edit_borrowers ja edit_items. 
 *HUOM! Muista lisätä käyttäjä myös liitännäisen asetukseen "Sallitut käyttäjät" (Yleiset-asetukset)!*
 
+### 2.1 Viestipohjat
+
 Laskuja varten täytyy lisätä ilmoituspohja, ODUECLAIM, joihin sisältö laitetaan *finvoice-*, *print-*, tai *pdf*-viestityypin pohjalle (muita tyyppejä on mm. Sähköposti, Tekstiviesti). finvoice-pohjaan määritellään Finvoice-sanoman sisältö ja pdf-pohjaan PDF-lasku HTML-muodossa. E-kirjeitä varten tehdään viestipohja ODUECLAIM-viestipohjaan print-pohjaan. ODUECLAIM-pohjaa muokkaamalla voidaan laskea osoitetietoja oikeaan kohtaan, tämä vaatii hieman html/css-tuntemusta. Viestipohjista on esimerkit saatavilla "Githubista":https://github.com/KohaSuomi/koha-plugin-overdue-tool/tree/21.11/Koha/Plugin/Fi/KohaSuomi/OverdueTool/examples. 
 
 ![](/assets/files/docs/Ohjeet/laskutustyokalu1.png)
 
-### Viestipohjissa käytettävät tägit kootusti.
+
+
+[Esimerkit viestipohjista GitHubissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/tree/21.11/Koha/Plugin/Fi/KohaSuomi/OverdueTool/examples).
+
+* FINVOICE-sanomaa varten käytetään ODUECLAIM-viestipohjassa finvoice-pohjaa/osiota.
+* PDF-tulostusta käytettäessä käytetään ODUECLAIM-viestipohjaa ja viestin sisältö laitetaan pdf-pohjaan/osioon. Muista tehdä tarvittaessa kaikki kieliversiot. 
+* E-kirjeenä lähtevien laskujen sisältö laitetaan ODUECLAIM-viestipohjaan *Tuloste*-pohjaan/osioon. Pohjaan laitetaan vain varsinainen viestin sisältö, ei lähettäjän tai vastaanottajan yhteystietoja. Viestin aihe -kentästä otetaan kirjeen "otsikko", joka tulostuu oikeaan yläreunaan. Muista tehdä tarvittaessa kaikki kieliversiot. Jos kieliversioita ei ole määritetty, käytetään Oletus-kielen tietoja.
+
+#### 2.1.2 Viestipohjissa käytettävät tägit kootusti
 
 Laskutuspohjissa voi käyttää seuraavia tägejä.
 
@@ -59,21 +69,13 @@ Luokka: <<items.itemcallnumber>><br />
 Korvaushinta: <<items.replacementprice>> €<br />
 </item><br />
 
-### Viestipohjat
-
-[Esimerkit viestipohjista GitHubissa](https://github.com/KohaSuomi/koha-plugin-overdue-tool/tree/21.11/Koha/Plugin/Fi/KohaSuomi/OverdueTool/examples).
-
-* FINVOICE-sanomaa varten käytetään ODUECLAIM-viestipohjassa finvoice-pohjaa/osiota.
-* PDF-tulostusta käytettäessä käytetään ODUECLAIM-viestipohjaa ja viestin sisältö laitetaan pdf-pohjaan/osioon. Muista tehdä tarvittaessa kaikki kieliversiot. 
-* E-kirjeenä lähtevien laskujen sisältö laitetaan ODUECLAIM-viestipohjaan *Tuloste*-pohjaan/osioon. Pohjaan laitetaan vain varsinainen viestin sisältö, ei lähettäjän tai vastaanottajan yhteystietoja. Viestin aihe -kentästä otetaan kirjeen "otsikko", joka tulostuu oikeaan yläreunaan. Muista tehdä tarvittaessa kaikki kieliversiot. Jos kieliversioita ei ole määritetty, käytetään Oletus-kielen tietoja.
-
-### Määritys myöhästymisilmoituksiin
+### 2.2 Määritys myöhästymisilmoituksiin
 
 Myöhästymisilmoituksiin tulee määritellä sarake laskuille. Tästä asetuksesta käytetään vain viivettä, jolla haetaan laskutettava materiaali. Jos kaikilla kirjastoilla on sama viive, voi tehdä vain oletussäännön. Viestipohjakin pitää valita, koska ilman sitä tallennus ei onnistu.
 
 ![](/assets/files/docs/Ohjeet/laskutustyokalu2.png)
 
-### Työkalun määrittäminen
+### 2.3 Työkalun määrittäminen
 
 Laskutustyökalu löytyy Työkalut -> Työkaluliitännäiset.
 
@@ -132,26 +134,29 @@ Jos laskutusryhmän laskuihin halutaan lisätä _Laskutuslisä_, syötä summa s
 ![](/assets/files/docs/Ohjeet/laskutustyokalu16.png)
 
 
-## Laskujen tekeminen
+## 3. Laskujen tekeminen
 
 Laskutustyökalu löytyy Työkaluista kohdasta Työkaluliitännäiset. Työkalu avautuu suoraan linkkiä klikkaamalla.
 
 ![](/assets/files/docs/Ohjeet/laskutustyokalu17.png)
 
+Työkalu listaa asiakkaat, joilla on laskutettavia lainoja.
+
+![](/assets/files/docs/Ohjeet/laskutustyokalu18.png)
+
 * Laskutettava aineisto haetaan aikaväliltä. Sivulle tultaessa aikaväli muodostuu automaattisesti myöhästymisilmoituksissa olevan viiveen ja työkalun asetuksissa olevan "Näytä lainat eräpäivästä n kuukautta taaksepäin"-asetuksen mukaan. Aikaväliä voi muuttaa tarvittaessa.
 * Laskutettava aineisto näkyy kunkin asiakkaan alla, tiedot saa auki asiakkaan tiedoissa olevasta nuolesta.
-* Laskutettavasta aineistoista voi vielä tässä vaiheessa muokata korvaushintaa tai jättää jonkun aineiston pois laskulta ottamalla ruksin pois niteen kohdalta. Aineisto jolle ei ole määritelty korvaushintaa jätetään alustavasti pois laskulta, jos hinnan lisää aineisto laskutetaan. Jos hintatietoa muokkaa, tallennetaan uusi hinta myös niteen tietoihin.
-* Kun on tarkistanut laskutettavan aineiston tiedot voi siitä luoda PDF:n, elasku-viestin tai Finvoice-sanoman. Tämä riippuu mitkä pohjat on lisätty laskutusryhmälle. Laskun luonti lisää niteille asetuksissa määritellyn "Laskutettu"-tilan. Jos sivun lataa uudestaan niin juuri äsken laskutettu aineisto ei enää näy listassa. Sen saa näkyviin kun valitsee "Näytä laskutetut".
-** PDF:n, elasku-viestin ja Finvoice-sanoman luontiin käytetään käyttäjän kirjautumiskirjaston viestipohjaa. Jos laskuttaa kerralla useamman kirjaston aineistoa, pitää kirjautua siihen kirjastoon, jolle on luotu ODUECLAIM- tai FINVOICE-pohjat. Yleensä tämä on kunnan pääkirjasto.
+* Laskutettavasta aineistoista voi vielä tässä vaiheessa muokata korvaushintaa tai jättää jonkun aineiston pois laskulta ottamalla ruksin pois niteen kohdalta. Aineisto jolle ei ole määritelty korvaushintaa jätetään alustavasti pois laskulta, jos hinnan lisää, aineisto laskutetaan. Jos hintatietoa muokkaa, tallennetaan uusi hinta myös niteen tietoihin.
+* Kun olet tarkistanut laskutettavan aineiston tiedot, voit siitä luoda PDF:n, elasku-viestin tai Finvoice-sanoman. Tämä riippuu mitkä pohjat on lisätty laskutusryhmälle. Laskun luonti lisää niteille asetuksissa määritellyn "Laskutettu"-tilan. Jos sivun lataa uudestaan niin juuri äsken laskutettu aineisto ei enää näy listassa. Sen saa näkyviin kun valitsee _Näytä laskutetut_.
+  * PDF:n, elasku-viestin ja Finvoice-sanoman luontiin käytetään käyttäjän kirjautumiskirjaston viestipohjaa. Jos laskuttaa kerralla useamman kirjaston aineistoa, pitää kirjautua siihen kirjastoon, jolle on luotu ODUECLAIM- tai FINVOICE-pohjat. Yleensä tämä on kunnan pääkirjasto.
 * Tuloksia voi myös suodattaa asiakasryhmän ja minimisumman mukaan. Minimisumma kannattaa säätää nollaan, jotta mukaan tulee myös ne asiakkaat, joiden laskutettavien niteiden kaikki korvaushinnat ovat nolla tai tyhjä.
 
-!Screenshot2021-12-22at13-46-46.png!
 
-* Ennen PDF:n tulostamista pääsee esikatselu-näkymään, missä näkee sivun asettelun.
-!2021-08-16at08-48-47Laskutustyökalu.png!
+Ennen PDF:n tulostamista pääsee esikatselu-näkymään, missä näkee sivun asettelun.
+![](/assets/files/docs/Ohjeet/laskutustyokalu19.png)
 
-* Lasku luodaan asiakkaan ilmoituksiin, jolloin siitä jää jälki järjestelmään. Finvoice-sanomat lähetetään eteenpäin ajastetusti, joten korjauksia voidaan tehdä ennen lähetystä.
+Lasku tallennetaan asiakkaan ilmoituksiin, jolloin siitä jää jälki järjestelmään. Finvoice-sanomat lähetetään eteenpäin ajastetusti, joten korjauksia voidaan tehdä ennen lähetystä.
 
-## Laskutettujen palautus
+## 4. Laskutettujen palautus
 
 Kun asiakkaan kaikki laskutetut niteet palautetaan, poistuu asiakkaalta rajoite. Jos osaa laskutetuista niteistä ei palauteta, jää rajoite paikalleen. Niteille jää laskutettu-tila ja asiakkaan tietoihin tieto (viesti), että hänelle on lähettetty lasku. Nämä tiedot pitää poistaa manuaalisesti.
