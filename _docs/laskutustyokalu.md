@@ -6,7 +6,7 @@ redirect_from:
 toc: true
 ---
 
-Laskutustyökalulla voi tällä hetkellä luoda Finvoice- ja PDF-laskuja.
+Laskutustyökalulla voi tällä hetkellä luoda Finvoice-, ekirje- ja PDF-laskuja.
 
 ## 1. Asennus ja päivitys
 
@@ -23,7 +23,7 @@ Käyttöönotto vaatii muutamien asetusten lisäämistä.
 
 ### 2.1 Viestipohjat
 
-Laskuja varten täytyy lisätä ilmoituspohja, ODUECLAIM, joihin sisältö laitetaan *finvoice-*, *print-*, tai *pdf*-viestityypin pohjalle (muita tyyppejä on mm. Sähköposti, Tekstiviesti). finvoice-pohjaan määritellään Finvoice-sanoman sisältö ja pdf-pohjaan PDF-lasku HTML-muodossa. E-kirjeitä varten tehdään viestipohja ODUECLAIM-viestipohjaan print-pohjaan. ODUECLAIM-pohjaa muokkaamalla voidaan laskea osoitetietoja oikeaan kohtaan, tämä vaatii hieman html/css-tuntemusta. Viestipohjista on esimerkit saatavilla "Githubista":https://github.com/KohaSuomi/koha-plugin-overdue-tool/tree/21.11/Koha/Plugin/Fi/KohaSuomi/OverdueTool/examples. 
+Laskuja varten täytyy lisätä ilmoituspohja, ODUECLAIM, joihin sisältö laitetaan *finvoice-*, *print-*, tai *pdf*-viestityypin pohjalle (muita tyyppejä on mm. Sähköposti, Tekstiviesti). finvoice-pohjaan määritellään Finvoice-sanoman sisältö ja pdf-pohjaan PDF-lasku HTML-muodossa. E-kirjeitä varten tehdään viestipohja ODUECLAIM-viestipohjaan print-pohjaan. ODUECLAIM-pohjaa muokkaamalla voidaan laskea osoitetietoja oikeaan kohtaan, tämä vaatii hieman html/css-tuntemusta.
 
 ![](/assets/files/docs/Ohjeet/laskutustyokalu1.png)
 
@@ -94,13 +94,15 @@ Yleisissä asetuksissa voi määrittää seuraavia asioita:
 * **Laskutetun niteen "ei lainata"-tila**: määritä tähän laskutettavalle aineistolle asetettavan notforloan-tilan arvo. Se on aika yleisesti arvo 6.
 * **Sallitut käyttäjät (borrowernumberit pilkulla erotettuna)**: kirjoita tähän niiden käyttäjien borrowernumberit, joilla on oikeus päästä laskutustyökaluun. Pääsy kannattaa sallia vain oikeasti laskutusta tekeville.
 
-Ryhmäasetuksiin tulee näkyviin jokainen määritelty laskutusryhmä ja näkyvät asetukset ovat säädettävissä laskutusryhmäkohtaisesti.
-  * laskutusryhmät määritetään liitännäisessä
+**Ryhmäasetuksiin** tulee näkyviin jokainen määritelty laskutusryhmä ja näkyvät asetukset ovat säädettävissä laskutusryhmäkohtaisesti.
+
+**Laskutusryhmät** määritetään liitännäisessä
   ![](/assets/files/docs/Ohjeet/laskutustyokalu5.png)
-  * lisää kirjastot ryhmään alasvetovalikosta
+
+Lisää **kirjastot** ryhmään alasvetovalikosta
   ![](/assets/files/docs/Ohjeet/laskutustyokalu6.png)
 
-  * valitse ryhmän laskutustapa: Finvoice, E-lasku tai PDF-lasku
+Valitse ryhmän **laskutustapa**: Finvoice, E-lasku tai PDF-lasku
   ![](/assets/files/docs/Ohjeet/laskutustyokalu7.png)
     * **Finvoice** muodostaa laskuista finvoice-muotoisen xml-tiedoston, joka voidaan viedä kunnan laskutusjärjestelmään ja varsinaiset laksut lähetetään sieltä sitten asiakkalle.
     * **E-lasku** muodostaa asiakkaille e-kirjeenä lähetettävän laskun. Tämä vaatii, että kimpassa on käytössä e-kirjeiden lähetyspalvelu.
@@ -115,7 +117,7 @@ Ryhmäasetuksiin tulee näkyviin jokainen määritelty laskutusryhmä ja näkyv�
 ![](/assets/files/docs/Ohjeet/laskutustyokalu9.png)
 
 **Rajoitus** voidaan asetettaa joko vain huollettavalle tai halutessa myös huoltajalle.
-* Huomioi, että huoltajalle lisätty rajoite ei poistu automaattisesti, kun laskutetut aineistot palautetaan. Laskutettavalta asiakkaalta rajoite poistuu automaattisesti.
+  * Huomioi, että huoltajalle lisätty rajoite ei poistu automaattisesti, kun laskutetut aineistot palautetaan. Laskutettavalta asiakkaalta rajoite poistuu automaattisesti.
 ![](/assets/files/docs/Ohjeet/laskutustyokalu10.png)
 
 **Niteen hinnan** voi lisätä asiakkaan maksuihin, mutta kannattaa huomioida, että jos käytössä on verkkokirjastossa verkkomaksumahdollisuus, asiakas voi vahingossa maksaa samat korvaushinnat sekä verkkomaksuna, että laskulla.
@@ -124,7 +126,7 @@ Ryhmäasetuksiin tulee näkyviin jokainen määritelty laskutusryhmä ja näkyv�
 Laskutettavista niteistä syntyneet **myöhästymismaksut** voidaan myös lisätä laskulle. Tässäkin kannattaa ottaa huomioon, että jos kimpalla on verkkokirjastossa käytössä verkkomaksutoiminto, voi asiakas maksaa myöhästymismaksut vahingossa kahteen kertaan.
 ![](/assets/files/docs/Ohjeet/laskutustyokalu12.png)
 
-Jos laskutusryhmän laskuihin halutaan lisätä _Laskutuslisä_, syötä summa siihen tarkoitettuun kenttään.
+Jos laskutusryhmän laskuihin halutaan lisätä **Laskutuslisä**, syötä summa siihen tarkoitettuun kenttään.
 ![](/assets/files/docs/Ohjeet/laskutustyokalu13.png)
 
 **Viesti asiakkaalle** -kenttään voit määrittää, minkälainen viesti laitetaan laskutetun asiakkaan (aikuisasiakas tai huoltaja) tietoihin. (Samanlainen viesti, mikä tulee Lisää viesti -toiminnolla)
