@@ -65,8 +65,8 @@ Liitännäisiä on kaksi, jotka liitetään eri kenttiin:
 
 Liitännäinen|Liitettävä kenttä
 ---|---
-finto_yso-kauno.pl|650a
-finto_ysopaikat.pl|651a
+finto_yso-kauno.pl|650$a
+finto_ysopaikat.pl|257$a, 370$g, 651$a
 
 Kun kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä Fintosta ja ehdottaa hakua vastaavia termejä. Sulkeissa termin perässä lukee, kummasta sanastosta, ysosta vai kaunosta, termiä ehdotetaan.
 ![](/assets/files/docs/Ohjeet/finto9.png)
@@ -76,7 +76,7 @@ Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttää
 
 #### SLM - Suomalainen lajityyppi- ja muotosanasto
 
-Liitännäinen on 655a-kentässä ja nimeltään finto_slm-local.pl.
+Liitännäinen on 655$a-kentässä ja nimeltään finto_slm-local.pl.
 
 Kun 655-kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä SLM-termeistä ja ehdottaa vastaavia termejä.
 ![](/assets/files/docs/Ohjeet/finto11.png)
@@ -84,6 +84,6 @@ Kun 655-kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan 
 Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttään lisätään linkki termiin SLM-sanastossa ja 2-kenttään termin lähde.
 ![](/assets/files/docs/Ohjeet/finto12.png)
 
-Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin 655a-kenttään kirjoitetaan haluttu sana ja 2-kenttään tulee termin lähteeksi "local" sekä 2. indikaattoriksi '7'. **HUOM!** Tällä hetkellä pitää ensin painaa a-kentän viereistä editoria, jotta oman termin lisääminen onnistuu.
+Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin 655$a-kenttään kirjoitetaan haluttu sana ja 2-kenttään tulee termin lähteeksi "local" sekä 2. indikaattoriksi '7'. **HUOM!** Tällä hetkellä pitää ensin painaa a-kentän viereistä editoria, jotta oman termin lisääminen onnistuu.
 
 !fintoplug13.png!
