@@ -14,7 +14,7 @@ Kuvailussa voidaan käyttää liitännäisiä, jotka hakevat tiedot Finton sanas
 
 Finto-liitännäisten nimet alkavat "finto_", jonka jälkeen on sanasto, josta plugin hakee tiedot (esim. "seko", "yso"). Jos nimessä on "local", sallii plugin myös paikallisen arvon lisäämisen, ja jos pluginin nimi päättyy "_ind", asettaa se myös kentän toisen indikaattorin arvoksi "7".
 
-### Liitännäisen määrittäminen käyttöön
+### Liitännäisten määrittäminen käyttöön
 
 KIR-kuvailupohjassa on määritetty käyttöön seuraavat liitännäiset:
 
@@ -74,7 +74,7 @@ Muokkaa myös muut kentät. Helpoiten pääset kentän valintaan "murupolusta" k
 ![](/assets/files/docs/Ohjeet/finto8.png)
 
 
-### Liitännäisen toiminta kuvailussa
+### Liitännäisten toiminta kuvailussa
 
 Liitännäisiä on useamman tyyppisiä ja ne toimivat pääsääntöisesti samalla periaatteella. Osassa voi kuitenkin käyttää myös "paikallisia" termejä, jolloin liitännäinen toimii vähän eri tavalla.
 
