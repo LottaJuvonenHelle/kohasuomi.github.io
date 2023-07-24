@@ -57,3 +57,5 @@ docs:
         url: /dokumentaatio/ajastetutajot/
       - title: 'Raporttikirjasto'
         url: /dokumentaatio/raporttikirjasto/
+      - title: 'Ohjeita ongelmatilanteisiin'
+        url: /dokumentaatio/ongelmatilanteet/
