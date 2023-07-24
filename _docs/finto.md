@@ -78,9 +78,14 @@ Muokkaa myös muut kentät. Helpoiten pääset kentän valintaan "murupolusta" k
 
 Liitännäisiä on useamman tyyppisiä ja ne toimivat pääsääntöisesti samalla periaatteella. Osassa voi kuitenkin käyttää myös "paikallisia" termejä, jolloin liitännäinen toimii vähän eri tavalla.
 
-#### YSO/Kauno
+#### YSO - yleinen suomalainen ontologia ja KAUNO - fiktiivisen aineiston ontologia
 
-Liitännäisiä on kaksi eri versiota ja niiden nimet ovat _finto_yso-kauno.pl_ ja _finto_yso-kauno_noind.pl_. Toinen versio lisää myöskin indikaattorin.
+Liitännäisiä on kaksi eri versiota ja niiden nimet ovat _finto_yso-kauno.pl_ ja _finto_yso-kauno_noind.pl_. Toinen versio lisää myöskin indikaattorin. Liitännäiset hakevat sekä YSOsta että KAUNOsta.
+
+
+[YSO - Yleinen suomalainen ontologia](https://finto.fi/yso/fi/)
+
+[KAUNO - fiktiivisen aineiston ontologia](https://finto.fi/kauno/fi/)
 
 Liitännäiset noudattavat käyttöliittymän kielivalintaa eli kun Kohassa on käyttökielenä suomi, haetaan suomenkielisiä termejä. Kun taas käyttöliittymän kieli on ruotsi, haetaan termejä ruotsinkielisestä sanastosta.
 
@@ -94,6 +99,8 @@ Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttää
 
 Liitännäinen on 655$a-kentässä ja nimeltään _finto_slm-local.pl_.
 
+[SLM - Suomalainen lajityyppi- ja muotosanasto](https://finto.fi/slm/fi/)
+
 Kun 655-kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä SLM-termeistä ja ehdottaa vastaavia termejä.
 ![](/assets/files/docs/Ohjeet/finto11.png)
 
@@ -104,9 +111,10 @@ Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia t
 
 ![](/assets/files/docs/Ohjeet/finto13.png)
 
-#### YSO/Aika
+#### YSO-aika
 
 Liitännäisiä on kaksi ja ne ovat nimeltään _finto_yso-aika.pl_ ja _finto_yso-aika_noind.pl_. Ne toimivat muuten samoin, mutta toinen lisää myös indikaattorin.
+[YSO-aika](https://finto.fi/yso-aika/fi/index)
 
 finto_yso-aika.pl kentässä 388$a
 ![](/assets/files/docs/Ohjeet/finto15.png)
@@ -114,17 +122,24 @@ finto_yso-aika.pl kentässä 388$a
 finto_yso-aika_noind.pl kentässä 648$a
 ![](/assets/files/docs/Ohjeet/finto14.png)
 
-#### YSO/Paikat
+
+
+#### YSO-paikat
 
 Liitännäisiä on kaksi ja ovat nimeltäään _finto_ysopaikat.pl_ ja _finto_ysopaikat_noind.pl_. Ne toimivat muuten samoin, mutta toinen lisää myös indikaattorin.
+[YSO-paikat](https://finto.fi/yso-paikat/fi/)
+
 
 finto_ysopaikat.pl kentässä 651$a
 ![](/assets/files/docs/Ohjeet/finto16.png)
+
 
 #### Asteri
 
 Asteri-tietokantaan liitetty liitännäinen on nimeltään _finto_finaf.pl_. Sen tarkempi kuvaus ja käyttöönotto-ohjeet löytyvät [Asteri-sivulta](https://koha-suomi.fi/dokumentaatio/asteri/).
 
-#### YSO/Seko
+#### SEKO - Suomalainen esityskokoonpanosanasto
 
 YSO/Seko-liitännäinen _finto_seko_nouri_noind.pl_ ei ole vielä varsinaisesti käytössä, mutta se on tehty valmiiksi sitä varten, että se otetaan käyttöön jossain vaiheessa.
+
+[SEKO - Suomalainen esityskokoonpanosanasto](https://finto.fi/seko/fi/)
