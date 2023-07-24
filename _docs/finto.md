@@ -114,6 +114,7 @@ Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia t
 #### YSO-aika
 
 Liitännäisiä on kaksi ja ne ovat nimeltään _finto_yso-aika.pl_ ja _finto_yso-aika_noind.pl_. Ne toimivat muuten samoin, mutta toinen lisää myös indikaattorin.
+
 [YSO-aika](https://finto.fi/yso-aika/fi/index)
 
 finto_yso-aika.pl kentässä 388$a
@@ -127,6 +128,7 @@ finto_yso-aika_noind.pl kentässä 648$a
 #### YSO-paikat
 
 Liitännäisiä on kaksi ja ovat nimeltäään _finto_ysopaikat.pl_ ja _finto_ysopaikat_noind.pl_. Ne toimivat muuten samoin, mutta toinen lisää myös indikaattorin.
+
 [YSO-paikat](https://finto.fi/yso-paikat/fi/)
 
 
