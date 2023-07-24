@@ -86,4 +86,4 @@ Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttää
 
 Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin 655$a-kenttään kirjoitetaan haluttu sana ja 2-kenttään tulee termin lähteeksi "local" sekä 2. indikaattoriksi '7'. **HUOM!** Tällä hetkellä pitää ensin painaa a-kentän viereistä editoria, jotta oman termin lisääminen onnistuu.
 
-!fintoplug13.png!
+![](/assets/files/docs/Ohjeet/finto13.png)
