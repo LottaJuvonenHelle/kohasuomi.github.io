@@ -22,9 +22,9 @@ MARC-kenttä|Kentän kuvaus|Liitännäinen
 ---|---|---
 257$a|Tuottajan maa|finto_ysopaikat.pl
 370$g|Teoksen tai ekspression luontipaikka|finto_ysopaikat.pl
-650$a|Aihetta ilmaiseva termi tai maantieteellinen nimi|finto_yso-kauno_ind.pl
-651$a|Maantieteellinen nimi|finto_ysopaikat-local_ind.pl
-655$a|Lajityyppiä/muotoa kuvaava temi tai fokustermi|finto_slm-local_ind.pl
+650$a|Aihetta ilmaiseva termi tai maantieteellinen nimi|finto_yso-kauno.pl
+651$a|Maantieteellinen nimi|finto_ysopaikat.pl
+655$a|Lajityyppiä/muotoa kuvaava temi tai fokustermi|finto_slm-local.pl
 
 Ylläpito -> MARC-kuvailupohjat
 
@@ -61,6 +61,13 @@ Liitännäisiä on useamman tyyppisiä ja ne toimivat pääsääntöisesti samal
 
 Liitännäinen noudattaa käyttöliittymän kielivalintaa eli kun Kohassa on käyttökielenä suomi, haetaan suomenkielisiä termejä. Kun taas käyttöliittymän kieli on ruotsi, haetaan termejä ruotsinkielisestä sanastosta.
 
+Liitännäisiä on kaksi, jotka liitetään eri kenttiin:
+
+Liitännäinen|Liitettävä kenttä
+---|---
+finto_yso-kauno.pl|650a
+finto_ysopaikat.pl|651a
+
 Kun kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä Fintosta ja ehdottaa hakua vastaavia termejä. Sulkeissa termin perässä lukee, kummasta sanastosta, ysosta vai kaunosta, termiä ehdotetaan.
 ![](/assets/files/docs/Ohjeet/finto9.png)
 
@@ -69,12 +76,14 @@ Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttää
 
 #### SLM - Suomalainen lajityyppi- ja muotosanasto
 
-Kun kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä SLM-termeistä ja ehdottaa vastaavia termejä.
+Liitännäinen on 655a-kentässä ja nimeltään finto_slm-local.pl.
+
+Kun 655-kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä SLM-termeistä ja ehdottaa vastaavia termejä.
 ![](/assets/files/docs/Ohjeet/finto11.png)
 
 Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttään lisätään linkki termiin SLM-sanastossa ja 2-kenttään termin lähde.
 ![](/assets/files/docs/Ohjeet/finto12.png)
 
-? Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin listalta valitaan itse kirjoitettu termi, jolloin se siirtyy oikeaan kenttään ja 2-kenttään tulee termin lähteeksi "local" ?
+Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin 655a-kenttään kirjoitetaan haluttu sana ja 2-kenttään tulee termin lähteeksi "local" sekä 2. indikaattoriksi '7'. **HUOM!** Tällä hetkellä pitää ensin painaa a-kentän viereistä editoria, jotta oman termin lisääminen onnistuu.
 
 !fintoplug13.png!
