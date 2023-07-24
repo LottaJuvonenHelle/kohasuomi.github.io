@@ -1,4 +1,10 @@
-
+---
+title: 'Ohjeita ongelmatilanteisiin'
+permalink: /dokumentaatio/ongelmatilanteet/
+redirect_from:
+  - /theme-setup/
+toc: true
+---
 
 Tähän dokumenttiin kerätään kimppojen pääkäyttäjille tavallisimmat ongelmatilanteet ja neuvot niiden selvittämiseen.
 
@@ -12,6 +18,7 @@ Tarkista ensin:
 * onko kyseessä kaikki Kohan osiot vai vain yksi (esim. hankinta)
 
 * minkä virheilmoituksen saat?
+  * KOHA IS STOPPED DUE TO CHECKSUM MISMATCH IN SYSTEM PREFERENCES. PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR. -> Joku on säätänyt IntranetUserJS-järjestelmäasetusta ja tarkistussumma ei enää vastaa konfiguraatiossa olevaa. Soita järjestelmänkehittäjien päivystyspuhelimeen.
 
 * toimiiko englanninkielisessä versiossa?
 
