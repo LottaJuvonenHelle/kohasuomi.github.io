@@ -86,7 +86,7 @@ Tarkista:
   * sammuta tulostin ja anna olla kiinni n. 20 s ja käynnistä uudelleen.
 * onko tulostimen ajurit asennettu?
 * saako kuittitulostimelle tulostettua esim. Muistio-ohjelmasta?
-* onko selaimen tulostusasetukset määritetty oikein? Tarkista [Kuittitulostuksen_asetukset](https://koha-suomi.fi/dokumentaatio/kuittitulostuksen-asetukset/).
+* onko selaimen tulostusasetukset määritetty oikein? Tarkista [Kuittitulostuksen asetukset](https://koha-suomi.fi/dokumentaatio/kuittitulostuksen-asetukset/).
 * onko kuittipohja määritetty oikein? Työkalut -> Ilmoitukset ja kuitit
 
 ## Hyllyvarauslistalle tulee niteitä, joita siellä ei kuuluisi olla
