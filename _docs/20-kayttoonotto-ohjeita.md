@@ -8,6 +8,12 @@ toc: true
 
 Tälle sivulle on kerätty erilaisia käyttöönotto-ohjeita.
 
+## Asteri-liitännäinen
+
+Asteri-liitännäisellä saa haettua Kansalliskirjaston KANTO-tietokannasta auktoriteettitietueita TäTiin.
+
+[Asteri-liitännäisen käyttöönotto-ohje](/dokumentaatio/asteri/)
+
 ## EDItX-hankinta
 
 [EDItX-hankinnan käyttöönotto-ohje](/dokumentaatio/editx/)
