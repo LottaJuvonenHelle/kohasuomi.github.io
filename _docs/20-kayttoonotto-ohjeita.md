@@ -30,3 +30,8 @@ Laskutustyökalu on toteutettu liitännäisenä.
 
 [Laskutustyökalun käyttöönotto-ohje](/dokumentaatio/laskutustyokalu/)
 
+## RDA ja poikkeava pääsana
+
+Jos on tarve poiketa kuvailusääntöjen mukaisista pääsanoista, voi käyttää 942him-kenttiä ohittamaan normaalikäytännöt. Alla linkki ohjeeseen.
+
+[RDA ja poikkeava pääsana](/dokumentaatio/rdanuotti/)
