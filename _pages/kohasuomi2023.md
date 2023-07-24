@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 30 muistiot
+
+### Maanantai 24.7.2023 klo 10
+
+Läsnä: Anneli ja Lasse
+
+* Siilissä ssh connection warning: Failed to fetch keys for xxx from remote (KSMessaging) su 23.7.2023
+
+
 ## Viikon 29 muistiot
 
 ### Torstai 20.7.2023 klo 10
