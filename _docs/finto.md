@@ -120,6 +120,9 @@ finto_yso-aika_noind.pl kentässä 648$a
 
 Liitännäisiä on kaksi ja ovat nimeltäään finto_ysopaikat.pl ja finto_ysopaikat_noind.pl. Ne toimivat muuten samoin, mutta toinen lisää myös indikaattorin.
 
+finto_ysopaikat.pl kentässä 651$a
+![](/assets/files/docs/Ohjeet/finto16.png)
+
 #### Asteri
 
-Asteri-tietokantaan liitetty liitännäinen finto_finaf.pl. Sen kuvaus löytyy [Asteri-sivulta](https://koha-suomi.fi/dokumentaatio/asteri/)
+Asteri-tietokantaan liitetty liitännäinen on nimeltään finto_finaf.pl. Sen tarkempi kuvaus ja käyttöönotto-ohjeet löytyvät [Asteri-sivulta](https://koha-suomi.fi/dokumentaatio/asteri/).
