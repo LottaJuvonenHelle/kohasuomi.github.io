@@ -80,14 +80,9 @@ Liitännäisiä on useamman tyyppisiä ja ne toimivat pääsääntöisesti samal
 
 #### YSO/Kauno
 
-Liitännäinen noudattaa käyttöliittymän kielivalintaa eli kun Kohassa on käyttökielenä suomi, haetaan suomenkielisiä termejä. Kun taas käyttöliittymän kieli on ruotsi, haetaan termejä ruotsinkielisestä sanastosta.
+Liitännäisiä on kaksi eri versiota ja niiden nimet ovat finto_yso-kauno.pl ja finto_yso-kauno_noind.pl. Toinen versio lisää myöskin indikaattorin.
 
-Liitännäisiä on kaksi, jotka liitetään eri kenttiin:
-
-Liitännäinen|Liitettävä kenttä
----|---
-finto_yso-kauno.pl|650$a
-finto_ysopaikat.pl|257$a, 370$g, 651$a
+Liitännäiset noudattavat käyttöliittymän kielivalintaa eli kun Kohassa on käyttökielenä suomi, haetaan suomenkielisiä termejä. Kun taas käyttöliittymän kieli on ruotsi, haetaan termejä ruotsinkielisestä sanastosta.
 
 Kun kenttään alkaa kirjoittamaan termiä, lähtee liitännäinen hakemaan sitä Fintosta ja ehdottaa hakua vastaavia termejä. Sulkeissa termin perässä lukee, kummasta sanastosta, ysosta vai kaunosta, termiä ehdotetaan.
 ![](/assets/files/docs/Ohjeet/finto9.png)
@@ -108,3 +103,23 @@ Kun listalta valitsee termin, tuodaan sen tiedot oikeisiin kenttiin. 0-kenttää
 Kun tämä pluginin on käytössä, pystyy kirjoittamaan myös ns. paikallisia termejä. Tällöin 655$a-kenttään kirjoitetaan haluttu sana ja 2-kenttään tulee termin lähteeksi "local" sekä 2. indikaattoriksi '7'. **HUOM!** Tällä hetkellä pitää ensin painaa a-kentän viereistä editoria, jotta oman termin lisääminen onnistuu.
 
 ![](/assets/files/docs/Ohjeet/finto13.png)
+
+#### YSO/Aika
+
+Liitännäisiä on kaksi ja ne ovat nimeltään finto_yso-aika.pl ja finto_yso-aika_noind.pl. Ne toimivat muuten samoin, mutta toinen lisää myös indikaattorin.
+
+finto_yso-aika.pl kentässä 388$a
+![](/assets/files/docs/Ohjeet/finto15.png)
+
+finto_yso-aika_noind.pl kentässä 648$a
+![](/assets/files/docs/Ohjeet/finto14.png)
+
+
+
+#### YSO/Paikat
+
+Liitännäisiä on kaksi ja ovat nimeltäään finto_ysopaikat.pl ja finto_ysopaikat_noind.pl. Ne toimivat muuten samoin, mutta toinen lisää myös indikaattorin.
+
+#### Asteri
+
+Asteri-tietokantaan liitetty liitännäinen finto_finaf.pl. Sen kuvaus löytyy [Asteri-sivulta](https://koha-suomi.fi/dokumentaatio/asteri/)
