@@ -12,6 +12,7 @@ Lisäksi tarrapohjaan pitää tehdä lisäyksiä.
 Tässä ratkaisussa tiedot poimitaan 942-kentästä normaalien sääntöjen sijaan, jolloin kuvailija pystyy itse määrittämään, mitä tietoja signumiin tulee.
 
 Tähän liittyy seuraavat liitännäiset:
+
 Liitännäinen|Liitetään kenttään
 ---|---
 fi_signumbuilder_942k_branchloc_942hm.pl|952o
@@ -22,6 +23,8 @@ fi_signumbuilder_942khm_branchloc.pl|952o
 fi_signumbuilder_942khm_branchloc_genre.pl|952o
 fi_signumbuilder_942khm_loc.pl|952o
 ykl_from_084a.pl|942h
+
+**Marraskuussa 2022 tehtiin muutos**, että kaikki pääsana-liitännäiset tarkistavat ensim 942m-kentän ja jos siellä ei ole sisältöä, toimitaan normaalin käytännön mukaisesti.
 
 ## Muutokset kuvailupohjaan
 
