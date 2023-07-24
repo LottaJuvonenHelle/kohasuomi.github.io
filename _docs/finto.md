@@ -16,15 +16,36 @@ Finto-liitännäisten nimet alkavat "finto_", jonka jälkeen on sanasto, josta p
 
 ### Liitännäisen määrittäminen käyttöön
 
-Kannattaa tehdä ainakin nämä määritykset alkuunsa:
+KIR-kuvailupohjassa on määritetty käyttöön seuraavat liitännäiset:
 
-MARC-kenttä|Kentän kuvaus|Liitännäinen
----|---|---
-257$a|Tuottajan maa|finto_ysopaikat.pl
-370$g|Teoksen tai ekspression luontipaikka|finto_ysopaikat.pl
-650$a|Aihetta ilmaiseva termi tai maantieteellinen nimi|finto_yso-kauno.pl
-651$a|Maantieteellinen nimi|finto_ysopaikat.pl
-655$a|Lajityyppiä/muotoa kuvaava temi tai fokustermi|finto_slm-local.pl
+| Kenttä | Osakenttä | Selite | Liitännäinen |
+|---|---|---|---|
+| 100      | a           | Henkilönnimi                                      | finto_finaf.pl            |
+| 110      | a           | Yhteisönnimi                                      | finto_finaf.pl            |
+| 111      | a           | Kokouksen tai hallintoalueen nimi                 | finto_finaf.pl            |
+| 257      | a           | Tuottajan maa                                     | finto_ysopaikat_noind.pl  |
+| 370      | g           | Teoksen tai ekspression luontipaikka              | finto_ysopaikat_noind.pl  |
+| 382      | a           | Esityskokoonpano                                  | finto_seko_nouri_noind.pl |
+| 382      | b           | Solisti                                           | finto_seko_nouri_noind.pl |
+| 382      | d           | Sivusoitin                                        | finto_seko_nouri_noind.pl |
+| 382      | p           | Vaihtoehtoinen esityskokoonpano                   | finto_seko_nouri_noind.pl |
+| 385      | a           | Kohderyhmä                                        | finto_yso-kauno_noind.pl  |
+| 386      | a           | Tekijä                                            | finto_yso-kauno_noind.pl  |
+| 388      | a           | Luomisaika                                        | finto_yso-aika.pl         |
+| 600      | a           | Henkilönnimi                                      | finto_finaf.pl            |
+| 610      | a           | Yhteisönnimi                                      | finto_finaf.pl            |
+| 611      | a           | Kokouksen tai hallintoalueen nimi                 | finto_finaf.pl            |
+| 648      | a           | Aikaa ilmaiseva termi                             | finto_yso-aika_noind.pl   |
+| 650      | a           | Aihetta ilmaiseva termi tai maantieteellinen nimi | finto_yso-kauno.pl        |
+| 651      | a           | Maantieteellinen nimi                             | finto_ysopaikat.pl        |
+| 655      | a           | Lajityyppiä/muotoa kuvaava termi tai fokustermi   | finto_slm-local.pl        |
+| 700      | a           | Henkilönnimi                                      | finto_finaf.pl            |
+| 710      | a           | Yhteisönnimi                                      | finto_finaf.pl            |
+| 711      | a           | Kokouksen tai hallintoalueen nimi                 | finto_finaf.pl            |
+| 800      | a           | Henkilönnimi                                      | finto_finaf.pl            |
+| 810      | a           | Yhteisönnimi                                      | finto_finaf.pl            |
+| 811      | a           | Kokouksen tai hallintoalueen nimi                 | finto_finaf.pl            |
+
 
 Ylläpito -> MARC-kuvailupohjat
 
