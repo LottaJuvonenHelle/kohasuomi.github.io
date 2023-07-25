@@ -12,7 +12,7 @@ Tälle sivulle on koottu esimerkit erilaisista kuitti- ja viestipohjista. Testat
 
 Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
 
-### Suomeksi
+#### Suomeksi
 ```
 [% USE Branches %]
 
@@ -38,7 +38,7 @@ Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
 Noutokirjasto: <<reserves.branchcode>></p>
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 [% USE Branches %]
 
@@ -99,7 +99,7 @@ at the OUTI Web Library:
 
 Tieto lisätään email-pohjaan.
 
-### Suomeksi
+#### Suomeksi
 ```
 Asiakas: <<borrowers.othernames>>
 
@@ -113,7 +113,7 @@ OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Customer: <<borrowers.othernames>>
 
@@ -151,7 +151,7 @@ Myös syntaksi ```[% IF borrower.categorycode == "VIRKAILIJA" %]``` viestin alus
 
 Tieto lisätään Tuloste/Print-pohjaan. HTML-täppä pitää laittaa paikoilleen.
 
-### Suomeksi
+#### Suomeksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -174,7 +174,7 @@ www.outikirjastot.fi</p>
 ```
 
 
-### Englanniksi
+#### Englanniksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -221,7 +221,7 @@ http://www.outikirjastot.fi
 ps. Verkkokirjastossa omaan kirjastokorttiin voi liittää myös muita kirjastokortteja, esimerkiksi lapsen tai muun perheenjäsenen kortin. Tämän toiminnon avulla liitetyn kortin tietoja pääsee tarkastelemaan ja muokkaamaan, uusimaan lainoja ja tekemään varauksia. Kortin liittämiseen tarvitsee tietää liitettävän kirjastokortin numero ja sen pin-koodi.
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Library card number: <<borrowers.cardnumber>>
 
@@ -243,7 +243,7 @@ http://www.outikirjastot.fi
 
 Email-pohjaan. HTML-täppä paikoilleen.
 
-### Suomeksi
+#### Suomeksi
 
 ```
 [% USE Price %]
@@ -293,7 +293,7 @@ Uusintakerrat: <<issues.renewals_count>>
 <br /></p>
 ```
 
-### Englanniksi
+#### Englanniksi
 
 ```
 [% USE Price %]
@@ -359,7 +359,7 @@ www.outikirjastot.fi</p>
 
 Email-pohjaan. HTML-täppä paikoilleen.
 
-### Suomeksi
+#### Suomeksi
 ```
 [% USE Price %]
 
@@ -401,7 +401,7 @@ Asiakkaalla on hyvityksiä [% balance | $Price %] €.
 <br />www.outikirjastot.fi</p>
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 [% USE Price %]
 
@@ -447,7 +447,7 @@ Credits [% balance | $Price %] €.
 
 Email-pohjaan.
 
-### Suomeksi
+#### Suomeksi
 ```
 Lainasitte tänään <<branches.branchname>>sta  seuraavat teokset:
 
@@ -460,7 +460,7 @@ Terveisin OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 You checked out from <<branches.branchname>> following items:
 
@@ -478,7 +478,7 @@ www.outikirjastot.fi
 
 ### Email-pohjaan
 
-### Suomeksi
+#### Suomeksi
 ```
 NOUTOILMOITUS                                        
 <<today>>
@@ -501,7 +501,7 @@ Terveisin
 www.outikirjastot.fi
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Library pick-up notice 
 <<today>>
@@ -528,7 +528,7 @@ www.outikirjastot.fi
 
 E-kirjeeseen tulee osoitetiedot Paten toimintojen kautta, niitä ei määritetä viestipohjaan.
 
-### Suomeksi
+#### Suomeksi
 ```
 NOUTOILMOITUS                                        
 <<today>>
@@ -551,7 +551,7 @@ Terveisin
 www.outikirjastot.fi
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Your reservation is waiting for pickup. Your hold identifier is
 <<borrowers.othernames>>.
@@ -571,12 +571,12 @@ www.outikirjastot.fi
 
 ### SMS/Tekstiviesti-pohjaan
 
-### Suomeksi
+#### Suomeksi
 ```
 Varaustunnuksellasi <<borrowers.othernames>> on noudettavissa varaus <<biblio.title>> <<items.enumchron>> <<biblioitems.number>> (<<items.barcode>>)  <<branches.branchname>>sta <<reserves.expirationdate>> asti.
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Your hold identifier is <<borrowers.othernames>>. Your hold <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
 ```
@@ -585,7 +585,7 @@ Your hold identifier is <<borrowers.othernames>>. Your hold <<biblio.title>> <<b
 
 Tuloste/Print-pohjaan. HMTL-täppä pakoilleen.
 
-### Suomeksi
+#### Suomeksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -612,7 +612,7 @@ Nide: [% item.barcode %] <br />
 <br />
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -643,7 +643,7 @@ Barcode: [% item.barcode %] <br />
 
 Email-pohjaan.
 
-### Suomeksi
+#### Suomeksi
 ```
 <<branches.branchname>>
 <<today>>
@@ -658,7 +658,7 @@ Terveisin OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 <<branches.branchname>>
 <<today>>
@@ -678,7 +678,7 @@ www.outikirjastot.fi
 
 Tuloste/Print-pohjalle. HMTL-täppä paikoilleen.
 
-### Suomeksi
+#### Suomeksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -704,7 +704,7 @@ Uusintakerrat: <<issues.renewals>><br /><br /></item>
 <br />www.outikirjastot.fi</p>
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -734,7 +734,7 @@ Renewals: <<issues.renewals>><br /><br /></item>
 
 ### Email/sähköposti-pohjaan
 
-### Suomeksi
+#### Suomeksi
 ```
 Hyvä kirjaston asiakas 
 
@@ -810,7 +810,7 @@ OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Dear library user
 
@@ -847,7 +847,7 @@ www.outikirjastot.fi
 
 E-kirjeessä asiakkaan yhteystiedot tulee Paten kautta, niitä ei määritetä viestipohjaan.
 
-### Suomeksi
+#### Suomeksi
 ```
 Hyvä kirjaston asiakas. Lainasi ovat myöhässä. 
 
@@ -881,7 +881,7 @@ Ilmoita kirjastoon sähköpostiosoitteesi tai lisää se OUTI-verkkokirjastossa,
 niin saat tämän viestin nopeammin ja ekologisemmin.
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Dear library user
 
@@ -919,7 +919,7 @@ http://www.outikirjastot.fi
 
 ### Email/sähköposti-pohjaan
 
-### Suomeksi
+#### Suomeksi
 ```
 Hyvä kirjaston asiakas  
 
@@ -960,7 +960,7 @@ OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Dear library user
 
@@ -1002,7 +1002,7 @@ www.outikirjastot.fi
 
 E-kirjeissä asiakkaan yhteystiedot haetaan Paten kautta, niitä ei lisätä viestipohjaan.
 
-### Suomeksi
+#### Suomeksi
 ```
 Hyvä kirjaston asiakas 
  
@@ -1037,7 +1037,7 @@ Ilmoita kirjastoon sähköpostiosoitteesi tai lisää se OUTI-verkkokirjastossa,
 niin saat tämän viestin nopeammin ja ekologisemmin.
 ```
 
-### Englanniksi
+#### Englanniksi
 ```
 Dear library user
  
@@ -1082,7 +1082,7 @@ Katso laskutustyökalun ohjeet.
 
 ### Tuloste/Print-pohjaan
 
-### Suomeksi
+#### Suomeksi
 ```
 Lainaaja: <<issueborname>>, <<issueborbarcode>>
 
@@ -1200,7 +1200,7 @@ Laskunumero: <<invoicenumber>>
 
 Koha-yhteisössä on toteutettu asiakkaan maksukuitti, joka korvaa aiemman Koha-Suomen oman FINESLIP-kuittipohjan. FINESLIP-kuittipohjan saa poistaa.
 
-### Suomeksi
+#### Suomeksi
 
 Viestityyppi: Tulosta<br />
 HTML-viesti: kyllä<br />
@@ -1270,7 +1270,7 @@ Viestin sisältö:
   </tfoot>
 </table>
 ```
-### Englanniksi
+#### Englanniksi
 
 Viestityyppi: Tulosta<br />
 HTML-viesti: kyllä<br />
@@ -1409,7 +1409,7 @@ Viestin sisältö:
 
 ## 2FA_OTP_TOKEN
 
-### Suomeksi
+#### Suomeksi
 
 Viestityyppi: Sähköposti<br />
 HTML-viesti: ei<br />
@@ -1422,7 +1422,7 @@ Kaksivaiheisen kirjautumisen tunnisteesi on [% otp_token %].
 
 Se on voimassa minuutin.
 ```
-### Englanniksi
+#### Englanniksi
 
 Viestityyppi: Sähköposti<br />
 HTML-viesti: ei<br />
@@ -1436,7 +1436,7 @@ It is valid one minute.
 
 ## 2FA_ENABLE
 
-### Suomeksi
+#### Suomeksi
 
 Viestityyppi: Sähköposti<br />
 HTML-viesti: ei<br />
@@ -1446,7 +1446,7 @@ Viestin sisältö:
 Koha-käyttäjätunnuksellesi laitettiin juuri päälle kaksivaiheinen tunnistautuminen. Jos et tehnyt sitä itse, ota yhteys ylläpitoon.
 ```
 
-### Englanniksi
+#### Englanniksi
 
 Viestityyppi: Sähköposti<br />
 HTML-viesti: ei<br />
@@ -1457,7 +1457,7 @@ Two factor authentication was enabled for your Koha account. If you did not do t
 ```
 ## 2FA_DISABLE 
 
-### Suomeksi
+#### Suomeksi
 
 Viestityyppi: Sähköposti<br />
 HTML-viesti: ei<br />
@@ -1467,7 +1467,7 @@ Viestin sisältö:
 Koha-käyttäjätunnuksesi kaksivaiheinen kirjautuminen otettiin pois päältä. Jos et tehnyt sitä itse, ota yhteys ylläpitoon.
 ```
 
-### Englanniksi
+#### Englanniksi
 
 Viestityyppi: Sähköposti<br />
 HTML-viesti: ei<br />
@@ -1481,7 +1481,7 @@ Two factor authentication was disabled for your Koha account. If you did not do 
 
 Tämän viestin lähettäminen vaatii, että se sallitaan järjestelmäasetuksessa NotifyPasswordChange.
 
-### Suomeksi
+#### Suomeksi
 
 Viestityyppi: Sähköposti<br />
 HTML-viesti: ei<br />
@@ -1495,7 +1495,7 @@ Ystävällisin terveisin
 Vaara-kirjastot
 ```
 
-### Englanniksi
+#### Englanniksi
 
 Viestityyppi: Sähköposti<br />
 HTML-viesti: ei<br />
@@ -1616,7 +1616,7 @@ Thank you!
 
 Kohassa pystyy lähettämään automaattisesti tai asiakkaan tiedoista käsin asiakkaalle tervetuloviestin, jossa käytetään tätä viestipohjaa. Viestiin voi lisätä esim. linkin kirjaston käyttösääntöihin, verkkokirjastoon, e-kirjastoon yms.
 
-### Suomeksi
+#### Suomeksi
 
 Viestityyppi: Sähköposti
 HTML-viesti: kyllä
@@ -1638,7 +1638,7 @@ Ystävällisin terveisin
 Vaara-kirjastot
 ```
 
-### Englanniksi
+#### Englanniksi
 
 Viestityyppi: Sähköposti
 HTML-viesti: kyllä
