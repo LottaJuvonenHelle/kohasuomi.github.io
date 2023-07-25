@@ -87,7 +87,7 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
 
 Tässä ohjeessa neuvotaan, miten SIP2-tunnuksille eli Z Automaatti Z -asiakastyypeille voi lisätä käyttöön asiakasmääreet Automaatin toimittaja ja Automaattityyppi.
 
-!{width:30%}Automaatti.png! !{width:30%}automaattitoim.png! !{width:30%}automaattityyppi.png!
+![](/assets/files/docs/Ohjeet/maareet.png) ![](/assets/files/docs/Ohjeet/automaattitoimittaja.png) ![](/assets/files/docs/Ohjeet/automaattityyppi.png)
 
 Tee ensin auktorisoidut arvo ja sen jälkeen asiakasmääreet.
 
@@ -112,7 +112,7 @@ Lisää kaksi uutta auktorisoidun arvon tyyppiä ja niille auktorisoidut arvot. 
 |Ovikone|Ovikone|
 |Palautus|Palautusautomaatti|
 
-!{width:50%}automtype.png!
+(/assets/files/docs/Ohjeet/automtype.png)
 
 *TOIMITTAJAT*
 
@@ -123,7 +123,7 @@ Lisää kaksi uutta auktorisoidun arvon tyyppiä ja niille auktorisoidut arvot. 
 |Mikrovayla|Mikroväylä|
 |Supa|P. V. Supa|
 
-!{width:50%}toimittajat.png!
+(/assets/files/docs/Ohjeet/toimittajat.png)
 
 Tämän jälkeen voit siirtyä tekemään asiakasmääreet.
 
@@ -145,4 +145,4 @@ Tee kaksi uutta asiakasmäärettä: Automaatin toimittaja ja Automaattityyppi
   * TOIMITTAJA: TOIMITTAJAT
 * Valitse *Tyyppi*-valikosta Z Automaatti Z, jolloin asiakasmääre näkyy vain automaattitunnus-asiakastyypille
 
-!{width:40%}toimittaja.png! !{width:40%}autotype.png!
+(/assets/files/docs/Ohjeet/toimittaja.png) (/assets/files/docs/Ohjeet/autotype.png)
