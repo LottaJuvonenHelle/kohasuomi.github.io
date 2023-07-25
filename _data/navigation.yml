@@ -49,6 +49,8 @@ docs:
         url: /dokumentaatio/ajastetutajot/
       - title: 'Asetukset'
         url: /dokumentaatio/asetukset/
+      - title: 'Automaatit ja omatoimi'
+        url: /dokumentaatio/automaatit/
       - title: 'Järjestelmäasetukset'
         url: /dokumentaatio/jarjestelmaasetukset/
       - title: 'Kuitit ja viestipohjat'
