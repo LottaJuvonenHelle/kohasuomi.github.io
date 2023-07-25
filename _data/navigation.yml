@@ -45,17 +45,22 @@ docs:
         url: /dokumentaatio/koulutukset/
   - title: Tekninen dokumentaatio
     children:
+      - title: 'Ajastetut ajot'
+        url: /dokumentaatio/ajastetutajot/
       - title: 'Asetukset'
         url: /dokumentaatio/asetukset/
       - title: 'Järjestelmäasetukset'
         url: /dokumentaatio/jarjestelmaasetukset/
+      - title: 'Kuitit ja viestipohjat'
+        url: /dokumentaatio/kuititjaviestit/
       - title: 'Käyttöönotto-ohjeita'
         url: /dokumentaatio/kayttoonotto-ohjeita/
-      - title: 'Tietojen säilytysajat'
-        url: /dokumentaatio/tietojensailytysajat/
-      - title: 'Ajastetut ajot'
-        url: /dokumentaatio/ajastetutajot/
-      - title: 'Raporttikirjasto'
-        url: /dokumentaatio/raporttikirjasto/
       - title: 'Ohjeita ongelmatilanteisiin'
         url: /dokumentaatio/ongelmatilanteet/
+      - title: 'Raporttikirjasto'
+        url: /dokumentaatio/raporttikirjasto/
+      - title: 'Tietojen säilytysajat'
+        url: /dokumentaatio/tietojensailytysajat/
+
+
+
