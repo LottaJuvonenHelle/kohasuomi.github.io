@@ -1130,6 +1130,8 @@ Laskunumero: <<invoicenumber>>
 
 ### PDF-pohjaan
 
+#### Suomeksi
+
 ```
 <div class="header">
     <div class="sender">
@@ -1354,7 +1356,7 @@ Viestin sisältö:
 </table>
 ```
 
-### Ruotsiksi
+#### Ruotsiksi
 
 Viestityyppi: Tulosta<br />
 HTML-viesti: kyllä<br />
