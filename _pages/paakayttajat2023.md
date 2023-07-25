@@ -10,7 +10,23 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 29 esityslista
+## Viikko 30 esityslista
+
+Aika: 25.7.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset asiat**
+
+* Dokumentaatioita siirretty Redminestä Koha-Suomen verkkosivuille ja TäTiin sekä vanhoja päivitetty
+  * [IntranetUserCSS](https://koha-suomi.fi/dokumentaatio/intranetusercss/)
+  * [IntranetUserJS](https://koha-suomi.fi/dokumentaatio/intranetuserjs/)
+  * [Käyttöönotto-ohjeita](https://koha-suomi.fi/dokumentaatio/kayttoonotto-ohjeita/)-sivu, jossa ohjeistus Asteriin, Editx:ään, laskutustyökaluun, Fintoon
+  * [Ohjeita ongelmatilanteisiin](https://koha-suomi.fi/dokumentaatio/ongelmatilanteet/)
+  * TäTin toimintaohjeet siirretty Redminestä TäTin sisäiseksi sivuksi. Linkki samassa paikassa TäTin yläpalkissa kuin ennenkin.
+* TäTin IntranetUserCSS:iä säädetty sekä BorrowerUnwantedFields-järjestelmäasetusta. Myös turhia asiakasmääreitä poistettu. Varaustunnusta en vielä saanut poistettua, koska se on käytössä käyttäjätunnuksilla.
+
+
+## Viikko 29 muistio
 
 Aika: 17.7.2023 klo 9.15 <br />
 Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI), Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Auli Rantasalo (Vaara)
