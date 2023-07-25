@@ -1208,6 +1208,8 @@ Laskunumero: <<invoicenumber>>
 
 ## ACCOUNTS_SUMMARY eli asiakkaan maksut
 
+### Tulosta/Print-pohjaan
+
 Koha-yhteisössä on toteutettu asiakkaan maksukuitti, joka korvaa aiemman Koha-Suomen oman FINESLIP-kuittipohjan. FINESLIP-kuittipohjan saa poistaa.
 
 #### Suomeksi
