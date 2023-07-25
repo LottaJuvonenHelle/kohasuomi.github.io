@@ -1205,6 +1205,7 @@ Laskunumero: <<invoicenumber>><br />
 </div>
 Laskunumero: <<invoicenumber>>
 ```
+
 ## ACCOUNTS_SUMMARY eli asiakkaan maksut
 
 Koha-yhteisössä on toteutettu asiakkaan maksukuitti, joka korvaa aiemman Koha-Suomen oman FINESLIP-kuittipohjan. FINESLIP-kuittipohjan saa poistaa.
@@ -1627,6 +1628,8 @@ Thank you!
 ## WELCOME
 
 Kohassa pystyy lähettämään automaattisesti tai asiakkaan tiedoista käsin asiakkaalle tervetuloviestin, jossa käytetään tätä viestipohjaa. Viestiin voi lisätä esim. linkin kirjaston käyttösääntöihin, verkkokirjastoon, e-kirjastoon yms.
+
+### Email-pohjaan
 
 #### Suomeksi
 
