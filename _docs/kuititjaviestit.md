@@ -10,9 +10,12 @@ Tälle sivulle on koottu esimerkit erilaisista kuitti- ja viestipohjista. Testat
 
 ## HOLD_SLIP eli varauksen info- ja kuljetuskuitti
 
+### Email-pohjaan
+
 Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
 
 #### Suomeksi
+
 ```
 [% USE Branches %]
 
@@ -39,6 +42,7 @@ Noutokirjasto: <<reserves.branchcode>></p>
 ```
 
 #### Englanniksi
+
 ```
 [% USE Branches %]
 
@@ -97,9 +101,12 @@ at the OUTI Web Library:
 
 ## MEMBERSHIP_EXPIRY eli sähköpostiviesti tilin voimassaoloajan loppumisesta
 
+### Email-pohjaan
+
 Tieto lisätään email-pohjaan.
 
 #### Suomeksi
+
 ```
 Asiakas: <<borrowers.othernames>>
 
@@ -114,6 +121,7 @@ www.outikirjastot.fi
 ```
 
 #### Englanniksi
+
 ```
 Customer: <<borrowers.othernames>>
 
@@ -149,9 +157,12 @@ Myös syntaksi ```[% IF borrower.categorycode == "VIRKAILIJA" %]``` viestin alus
 
 ## FINESLIP eli asiakkaan maksut
 
+### Tuloste/Print-pohjaan
+
 Tieto lisätään Tuloste/Print-pohjaan. HTML-täppä pitää laittaa paikoilleen.
 
 #### Suomeksi
+
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -175,6 +186,7 @@ www.outikirjastot.fi</p>
 
 
 #### Englanniksi
+
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -198,9 +210,10 @@ www.outikirjastot.fi</p>
 
 ## DUEDGST eli Eräpäivämuistutus eräpäivänä
 
-Email-pohjaan.
+### Email-pohjaan
 
-Suomi
+#### Suomeksi
+
 ```
 Asiakastunnus: <<borrowers.cardnumber>>
 
@@ -222,6 +235,7 @@ ps. Verkkokirjastossa omaan kirjastokorttiin voi liittää myös muita kirjastok
 ```
 
 #### Englanniksi
+
 ```
 Library card number: <<borrowers.cardnumber>>
 
@@ -240,6 +254,8 @@ http://www.outikirjastot.fi
 ```
 
 ## ISSUESLIP eli lainakuitti kaikista lainoista
+
+### Email-pohjaan
 
 Email-pohjaan. HTML-täppä paikoilleen.
 
@@ -357,9 +373,12 @@ www.outikirjastot.fi</p>
 
 ## ISSUEQLSLIP eli lainakuitti päivän lainoista
 
+### Email-pohjaan
+
 Email-pohjaan. HTML-täppä paikoilleen.
 
 #### Suomeksi
+
 ```
 [% USE Price %]
 
@@ -402,6 +421,7 @@ Asiakkaalla on hyvityksiä [% balance | $Price %] €.
 ```
 
 #### Englanniksi
+
 ```
 [% USE Price %]
 
@@ -445,9 +465,10 @@ Credits [% balance | $Price %] €.
 
 ## CHECKOUT eli Lainauskuitti sähköpostiin
 
-Email-pohjaan.
+### Email-pohjaan
 
 #### Suomeksi
+
 ```
 Lainasitte tänään <<branches.branchname>>sta  seuraavat teokset:
 
@@ -461,6 +482,7 @@ www.outikirjastot.fi
 ```
 
 #### Englanniksi
+
 ```
 You checked out from <<branches.branchname>> following items:
 
@@ -479,6 +501,7 @@ www.outikirjastot.fi
 ### Email-pohjaan
 
 #### Suomeksi
+
 ```
 NOUTOILMOITUS                                        
 <<today>>
@@ -502,6 +525,7 @@ www.outikirjastot.fi
 ```
 
 #### Englanniksi
+
 ```
 Library pick-up notice 
 <<today>>
@@ -529,6 +553,7 @@ www.outikirjastot.fi
 E-kirjeeseen tulee osoitetiedot Paten toimintojen kautta, niitä ei määritetä viestipohjaan.
 
 #### Suomeksi
+
 ```
 NOUTOILMOITUS                                        
 <<today>>
@@ -552,6 +577,7 @@ www.outikirjastot.fi
 ```
 
 #### Englanniksi
+
 ```
 Your reservation is waiting for pickup. Your hold identifier is
 <<borrowers.othernames>>.
@@ -572,20 +598,25 @@ www.outikirjastot.fi
 ### SMS/Tekstiviesti-pohjaan
 
 #### Suomeksi
+
 ```
 Varaustunnuksellasi <<borrowers.othernames>> on noudettavissa varaus <<biblio.title>> <<items.enumchron>> <<biblioitems.number>> (<<items.barcode>>)  <<branches.branchname>>sta <<reserves.expirationdate>> asti.
 ```
 
 #### Englanniksi
+
 ```
 Your hold identifier is <<borrowers.othernames>>. Your hold <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
 ```
 
 ## CHECKINSLIP eli palautuskuitti
 
+### Tuloste/Print-pohjaan
+
 Tuloste/Print-pohjaan. HMTL-täppä pakoilleen.
 
 #### Suomeksi
+
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -613,6 +644,7 @@ Nide: [% item.barcode %] <br />
 ```
 
 #### Englanniksi
+
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -641,9 +673,10 @@ Barcode: [% item.barcode %] <br />
 
 ## CHECKIN eli palautuskuitti sähköpostiin
 
-Email-pohjaan.
+### Email-pohjaan
 
 #### Suomeksi
+
 ```
 <<branches.branchname>>
 <<today>>
@@ -659,6 +692,7 @@ www.outikirjastot.fi
 ```
 
 #### Englanniksi
+
 ```
 <<branches.branchname>>
 <<today>>
@@ -676,9 +710,12 @@ www.outikirjastot.fi
 
 ## OVERDUES_SLIP eli myöhässä olevat lainat kuitille
 
+### Tuloste/Print-pohjaan
+
 Tuloste/Print-pohjalle. HMTL-täppä paikoilleen.
 
 #### Suomeksi
+
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -705,6 +742,7 @@ Uusintakerrat: <<issues.renewals>><br /><br /></item>
 ```
 
 #### Englanniksi
+
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -735,44 +773,7 @@ Renewals: <<issues.renewals>><br /><br /></item>
 ### Email/sähköposti-pohjaan
 
 #### Suomeksi
-```
-Hyvä kirjaston asiakas 
 
-Lainasi ovat myöhässä. 
-
-Asiakastunnus: <<borrowers.cardnumber>>
-
-Erääntyneet lainat:
-----
-<item>Nide: <<items.barcode>>, Aineistolaji: <<items.itype>>
-Teos: <<biblio.title>> <<items.enumchron>> / <<biblio.author>>  
-Eräpäivä: <<issues.date_due>>, Lainattu: <<issues.issuedate>>
-</item>
-----
-
-Palautathan lainasi mahdollisimman pian. Voit uusia lainasi OUTI-verkkokirjastossa, jos niistä ei ole varauksia. Lainan voi uusia enintään 10 kertaa peräkkäin. OUTI-verkkokirjaston osoite: www.outikirjastot.fi
-
-Myöhästymismaksut alkavat kertyä heti eräpäivän jälkeen. Lasten aineistosta ja lapsiasiakkaan lainoista ei mene myöhästymismaksua.
-
-Perimme tämän muistutuksen lähettämisestä 1,50 euron huomautusmaksun.
-
-Palauttamattomista lainoista lähetämme laskun.
-
-Epäselvissä tapauksissa pyydämme ottamaan yhteyttä kirjastoon.
-
-
-Ystävällisin terveisin
-
-OUTI-kirjastot
-
-<<branches.branchname>>
-<<branches.branchfax>>
-<<branches.branchphone>>
-<<branches.branchreplyto>>
-www.outikirjastot.fi
-```
-
-Englanti
 ```
 Hyvä kirjaston asiakas 
 
@@ -811,6 +812,7 @@ www.outikirjastot.fi
 ```
 
 #### Englanniksi
+
 ```
 Dear library user
 
@@ -848,6 +850,7 @@ www.outikirjastot.fi
 E-kirjeessä asiakkaan yhteystiedot tulee Paten kautta, niitä ei määritetä viestipohjaan.
 
 #### Suomeksi
+
 ```
 Hyvä kirjaston asiakas. Lainasi ovat myöhässä. 
 
@@ -882,6 +885,7 @@ niin saat tämän viestin nopeammin ja ekologisemmin.
 ```
 
 #### Englanniksi
+
 ```
 Dear library user
 
@@ -920,6 +924,7 @@ http://www.outikirjastot.fi
 ### Email/sähköposti-pohjaan
 
 #### Suomeksi
+
 ```
 Hyvä kirjaston asiakas  
 
@@ -961,6 +966,7 @@ www.outikirjastot.fi
 ```
 
 #### Englanniksi
+
 ```
 Dear library user
 
@@ -1003,6 +1009,7 @@ www.outikirjastot.fi
 E-kirjeissä asiakkaan yhteystiedot haetaan Paten kautta, niitä ei lisätä viestipohjaan.
 
 #### Suomeksi
+
 ```
 Hyvä kirjaston asiakas 
  
@@ -1038,6 +1045,7 @@ niin saat tämän viestin nopeammin ja ekologisemmin.
 ```
 
 #### Englanniksi
+
 ```
 Dear library user
  
@@ -1083,6 +1091,7 @@ Katso laskutustyökalun ohjeet.
 ### Tuloste/Print-pohjaan
 
 #### Suomeksi
+
 ```
 Lainaaja: <<issueborname>>, <<issueborbarcode>>
 
@@ -1270,6 +1279,7 @@ Viestin sisältö:
   </tfoot>
 </table>
 ```
+
 #### Englanniksi
 
 Viestityyppi: Tulosta<br />
@@ -1422,6 +1432,7 @@ Kaksivaiheisen kirjautumisen tunnisteesi on [% otp_token %].
 
 Se on voimassa minuutin.
 ```
+
 #### Englanniksi
 
 Viestityyppi: Sähköposti<br />
@@ -1455,6 +1466,7 @@ Viestin sisältö:
 ```
 Two factor authentication was enabled for your Koha account. If you did not do this yourself please contact your administrator.
 ```
+
 ## 2FA_DISABLE 
 
 #### Suomeksi
