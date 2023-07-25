@@ -12,7 +12,7 @@ Finto-liitännäiset ovat käytössä Täti-tietokannassa.
 
 Kuvailussa voidaan käyttää liitännäisiä, jotka hakevat tiedot Finton sanastoista. Kun liitännäinen on lisätty kenttään, kuvailija voi kirjoittaa kyseiseen kenttään hakutermin, jolla sanastosta haetaan, ja valita sopivan arvon suoraan valikosta. Osakenttään tulee siis valittu arvo, osakenttään 0 tulee lähde-URI, ja osakenttään 2 tulee lähteen nimi, esim. "yso/fin"
 
-Finto-liitännäisten nimet alkavat "finto_", jonka jälkeen on sanasto, josta plugin hakee tiedot (esim. "seko", "yso"). Jos nimessä on "local", sallii plugin myös paikallisen arvon lisäämisen, ja jos pluginin nimi päättyy "_ind", asettaa se myös kentän toisen indikaattorin arvoksi "7".
+Finto-liitännäisten nimet alkavat "finto_", jonka jälkeen on sanasto, josta plugin hakee tiedot (esim. "seko", "yso"). Jos nimessä on "local", sallii plugin myös paikallisen arvon lisäämisen, ja jos pluginin nimi päättyy "_noind", se ei aseta indikaattooriin arvoa.
 
 ### Liitännäisten määrittäminen käyttöön
 
@@ -142,6 +142,8 @@ Asteri-tietokantaan liitetty liitännäinen on nimeltään _finto_finaf.pl_. Sen
 
 #### SEKO - Suomalainen esityskokoonpanosanasto
 
-YSO/Seko-liitännäinen _finto_seko_nouri_noind.pl_ ei ole vielä varsinaisesti käytössä, mutta se on tehty valmiiksi sitä varten, että se otetaan käyttöön jossain vaiheessa.
+SEKO-liitännäisiä on kaksi _finto_seko_nouri_noind.pl_ ja _finto_seko.pl_, joista jälkimmäinen ei ole vielä varsinaisesti käytössä, mutta se on tehty valmiiksi sitä varten, että se otetaan käyttöön jossain vaiheessa.
+
+Käytössä oleva liitännäinen hakee SEKO-sanastosta termit ja lisää 2-osakenttään termin 'seko'. Jälkimmäinen hakee termin, lisää 2-osakenttään termin 'seko' sekä lisää 0-osakenttään termin urin.
 
 [SEKO - Suomalainen esityskokoonpanosanasto](https://finto.fi/seko/fi/)
