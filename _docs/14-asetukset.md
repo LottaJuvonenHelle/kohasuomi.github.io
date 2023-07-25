@@ -196,6 +196,73 @@ LOST-luokassa on niteiden kadonnut-arvot.
 
 MTYPE-luokassa on tietueiden aineistotyypit, jotka vastaavat Finnan materiaalityyppejä. Arvo on kytketty MARC-kenttä 942c.
 
+Koha-Suomen pääkäyttäjäryhmän 23.2.2021 ja 2.3.2021 päättämät aineistotyyppien tunnisteet
+(1.11.2021 lisätty VIDEOPELI ja LAUTAPELI korvaamaan KONSOLIP):
+
+|Finna-materiaalityyppi|MTYPE|Selite|
+|---|---|---|
+|Article|ARTIKKELI|Artikkeli|
+|Atlas|ATLAS|Atlas|
+|BluRay|BLURAY|Blu-ray|
+|BookSection|KIRJANOSA|Kirjan osa|
+|Book|KIRJA|Kirja|
+|Braille|BRAILLE|Braille|
+|CDROM|CDROM|CD-ROM|
+|CD|CD|CD|
+|ChipCartridge|PIIRIKOT|Piirikotelo|
+|Drawing|PIIRROS|Piirros|
+|DVD|DVD|DVD|
+|eBook|EKIRJA|eKirja|
+|Electronic|ELEKTRON|Elektroninen|
+|Journal|ALEHTI|Aikakauslehti|
+|Kit|MONIVIES|Moniviestin|
+|Manuscript|KASIKIRJ|Käsikirjoitus|
+|Map|KARTTA|Kartta|
+|Microfilm|MIKROF|Mikrofilmi|
+|MusicalScore|NUOTTI|Nuotti|
+|MusicRecording|MUSATAL|Musiikkitallenne|
+|Newspaper|SLEHTI|Sanomalehti|
+|NonmusicalCassette|PUHEKAS|Kasetti, puhe|
+|NonmusicalCD|PUHECD|CD, puhe|
+|NonmusicalDisc|PUHELEVY|Äänilevy, puhe|
+|NonmusicalRecording|PUHETAL|Äänitallenne, puhe|
+|OnlineVideo|EVIDEO|eVideo|
+|Painting|MAALAUS|Maalaus|
+|Photo|VALOKUVA|Valokuva|
+|PhysicalObject|ESINE|Esine|
+|Print|MUUPAINATE|Muu painate|
+|Serial|KAUSIJULK|Kausijulkaisu|
+|Slide|DIA|Dia|
+|SoundCassette|AANIKAS|Äänikasetti|
+|SoundDisc|AANILEVY|Äänilevy|
+|SoundRecording|AANITALL|Äänitallenne|
+|TechnicalDrawing|TYOPIIR|Työpiirustus|
+|VideoCassette|VIDEOKAS|Videokasetti|
+|VideoDisc|VIDEOLEVY|Videolevy|
+|Video|VIDEO|Video|
+|TapeCartridge|NAUHAKAS|Nauhakasetti|
+|DiscCartridge|OPTINEN|Optinen levykasetti|
+|TapeCasette|DATKAS|DAT-kasetti|
+|TapeReel|MAGNEETTI|Magneettinauha|
+|FloppyDisc|LEVYKE|Levyke|
+|Filmstrip|RAINA|Raina|
+|Transparency|KALVO|Kalvo|
+|Collage|KOLLAASI|Kollaasi|
+|Photonegative|NEGATIIVI|Valokuvanegatiivi|
+|Flashcard|KORTTI|Sana- tai kuvakortti|
+|Chart|KAAVIO|Kaavio|
+|MotionPicture|ELOKUVA|Elokuva|
+|SensorImage|KAUKOKART|Kaukokartoituskuva|
+|VideoCartridge|VIDEOSILM|Videosilmukkakasetti|
+|VideoReel|VIDEOKELA|Videokela|
+|Collection|KOKOELMA|Kokoelma|
+|SubUnit|SARJANOSA|Sarjan osa|
+|ContinuouslyUpdatedRecource|PAIVITTYVA|Päivittyvä julkaisu|
+|Other|MUU|Muu aineisto|
+|VideoGame|VIDEOPELI|Videopeli|
+|BoardGame|LAUTAPELI|Lautapeli|
+
+
 **NOT_LOAN**
 
 NOT_LOAN-luokassa on niteen Ei lainata -arvot. Arvot voivat olla miinus- tai plusmerkkisiä. *SkipHoldTrapOnNotForLoanValue*-järjestelmäasetuksella määritetään, mitkä ei-lainata-arvot estää varausten kiinni jäämisen. *TrapHoldsOnOrder*-järjestelmäasetuksessa määritetään, ovatko miinusmerkkiset arvot varattavissa.
