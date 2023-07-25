@@ -12,7 +12,7 @@ Tälle sivulle on koottu esimerkit erilaisista kuitti- ja viestipohjista. Testat
 
 Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
 
-Suomi:
+### Suomeksi
 ```
 [% USE Branches %]
 
@@ -38,7 +38,7 @@ Suomi:
 Noutokirjasto: <<reserves.branchcode>></p>
 ```
 
-Englanti:
+### Englanniksi
 ```
 [% USE Branches %]
 
@@ -99,7 +99,7 @@ at the OUTI Web Library:
 
 Tieto lisätään email-pohjaan.
 
-Suomi:
+### Suomeksi
 ```
 Asiakas: <<borrowers.othernames>>
 
@@ -113,7 +113,7 @@ OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-Englanti:
+### Englanniksi
 ```
 Customer: <<borrowers.othernames>>
 
@@ -151,7 +151,7 @@ Myös syntaksi ```[% IF borrower.categorycode == "VIRKAILIJA" %]``` viestin alus
 
 Tieto lisätään Tuloste/Print-pohjaan. HTML-täppä pitää laittaa paikoilleen.
 
-Suomi:
+### Suomeksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -174,7 +174,7 @@ www.outikirjastot.fi</p>
 ```
 
 
-Englanti:
+### Englanniksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -221,7 +221,7 @@ http://www.outikirjastot.fi
 ps. Verkkokirjastossa omaan kirjastokorttiin voi liittää myös muita kirjastokortteja, esimerkiksi lapsen tai muun perheenjäsenen kortin. Tämän toiminnon avulla liitetyn kortin tietoja pääsee tarkastelemaan ja muokkaamaan, uusimaan lainoja ja tekemään varauksia. Kortin liittämiseen tarvitsee tietää liitettävän kirjastokortin numero ja sen pin-koodi.
 ```
 
-Englanti:
+### Englanniksi
 ```
 Library card number: <<borrowers.cardnumber>>
 
@@ -243,7 +243,8 @@ http://www.outikirjastot.fi
 
 Email-pohjaan. HTML-täppä paikoilleen.
 
-Suomi:
+### Suomeksi
+
 ```
 [% USE Price %]
 
@@ -258,20 +259,16 @@ Suomi:
 <h3><<branches.branchname>><br />
 <<today>></h3><br />
 
-<h2>Kaikki lainassa olevat</h2>
+<h3>Kaikki lainassa olevat</h3>
 <checkedout>
 <p><<biblio.title>> <<items.enumchron>> / <<biblio.author>> <br />
 Nidetunnus: <<items.barcode>><br />
 Eräpäivä: <<issues.date_due | dateonly >><br />
-Uusintakerrat: <<items.renewals>>
+Uusittu: <<issues.renewals_count>> / 7 kertaa
 </p>
 </checkedout>
+<p>Yhteensä lainoja: [% checkouts.count %] 
 
-<p>Yhteensä: [% checkouts.count %][% IF checkouts.count > 1 %]
-      lainaa
-[% ELSE %]
-      laina
-    [% END %] </p>
 <br/>
 <h4>Myöhässä olevat</h4>
 <overdue>
@@ -279,31 +276,25 @@ Uusintakerrat: <<items.renewals>>
 <<biblio.title>> / <<biblio.author>>  <br />
 Nidetunnus: <<items.barcode>><br />
 Eräpäivä: <<issues.date_due | dateonly >> <br />
-Uusintakerrat: <<items.renewals>>
+Uusintakerrat: <<issues.renewals_count>>
 </p>
-<p>Yhteensä: [% overdues.count %][% IF overdues.count > 1 %]
-      lainaa
-[% ELSE %]
-      laina
-    [% END %] </p>
 </overdue>
+<p>Yhteensä myöhässä: [% overdues.count %]
 <br />
-<p>Maksut: 
+<p>Maksut:
 [% SET balance = borrower.account.balance %]
-[% IF balance > 0 %]
-[% balance | $Price %] €.
-[% END %]
-[% IF balance < 0 %]
-Asiakkaalla on hyvityksiä [% balance | $Price %] €.
-[% END %]
+[% balance | $Price %] €
+<br>
+<br>
+<br>
+<br>Lainat voi uusia puhelimitse p. <<branches.branchphone>>
+<br>tai verkkokirjastossa: https://vaara.finna.fi
+<br>Tutustu myös e-aineistoihimme!
 <br /></p>
-<p><<branches.branchfax>><br />
-<<branches.branchphone>><br />
-www.outikirjastot.fi</p>
-<br />
 ```
 
-Englanti:
+### Englanniksi
+
 ```
 [% USE Price %]
 
@@ -323,7 +314,7 @@ Englanti:
 <p><<biblio.title>> <<items.enumchron>> / <<biblio.author>> <br />
 Barcode: <<items.barcode>><br />
 Due date: <<issues.date_due | dateonly >><br />
-Renewals: <<items.renewals>>
+Renewals: <<issues.renewals_count>>
 </p>
 </checkedout>
 
@@ -339,7 +330,7 @@ Renewals: <<items.renewals>>
 <<biblio.title>> / <<biblio.author>>  <br />
 Barcode: <<items.barcode>><br />
 Due date: <<issues.date_due | dateonly >> <br />
-Renewals: <<items.renewals>>
+Renewals: <<issues.renewals_count>>
 </overdue>
 </p>
 <p>Check outs: [% overdues.count %][% IF overdues.count > 1 %]
@@ -368,7 +359,7 @@ www.outikirjastot.fi</p>
 
 Email-pohjaan. HTML-täppä paikoilleen.
 
-Suomi:
+### Suomeksi
 ```
 [% USE Price %]
 
@@ -410,7 +401,7 @@ Asiakkaalla on hyvityksiä [% balance | $Price %] €.
 <br />www.outikirjastot.fi</p>
 ```
 
-Englanti:
+### Englanniksi
 ```
 [% USE Price %]
 
@@ -456,7 +447,7 @@ Credits [% balance | $Price %] €.
 
 Email-pohjaan.
 
-Suomi:
+### Suomeksi
 ```
 Lainasitte tänään <<branches.branchname>>sta  seuraavat teokset:
 
@@ -469,7 +460,7 @@ Terveisin OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-Englanti:
+### Englanniksi
 ```
 You checked out from <<branches.branchname>> following items:
 
@@ -487,7 +478,7 @@ www.outikirjastot.fi
 
 ### Email-pohjaan
 
-Suomeksi:
+### Suomeksi
 ```
 NOUTOILMOITUS                                        
 <<today>>
@@ -510,7 +501,7 @@ Terveisin
 www.outikirjastot.fi
 ```
 
-Englanniksi:
+### Englanniksi
 ```
 Library pick-up notice 
 <<today>>
@@ -537,7 +528,7 @@ www.outikirjastot.fi
 
 E-kirjeeseen tulee osoitetiedot Paten toimintojen kautta, niitä ei määritetä viestipohjaan.
 
-Suomi:
+### Suomeksi
 ```
 NOUTOILMOITUS                                        
 <<today>>
@@ -560,7 +551,7 @@ Terveisin
 www.outikirjastot.fi
 ```
 
-Englanti:
+### Englanniksi
 ```
 Your reservation is waiting for pickup. Your hold identifier is
 <<borrowers.othernames>>.
@@ -580,12 +571,12 @@ www.outikirjastot.fi
 
 ### SMS/Tekstiviesti-pohjaan
 
-Suomi:
+### Suomeksi
 ```
 Varaustunnuksellasi <<borrowers.othernames>> on noudettavissa varaus <<biblio.title>> <<items.enumchron>> <<biblioitems.number>> (<<items.barcode>>)  <<branches.branchname>>sta <<reserves.expirationdate>> asti.
 ```
 
-Englanti:
+### Englanniksi
 ```
 Your hold identifier is <<borrowers.othernames>>. Your hold <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
 ```
@@ -594,7 +585,7 @@ Your hold identifier is <<borrowers.othernames>>. Your hold <<biblio.title>> <<b
 
 Tuloste/Print-pohjaan. HMTL-täppä pakoilleen.
 
-Suomi:
+### Suomeksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -621,7 +612,7 @@ Nide: [% item.barcode %] <br />
 <br />
 ```
 
-Englanti:
+### Englanniksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -652,7 +643,7 @@ Barcode: [% item.barcode %] <br />
 
 Email-pohjaan.
 
-Suomi:
+### Suomeksi
 ```
 <<branches.branchname>>
 <<today>>
@@ -667,7 +658,7 @@ Terveisin OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-Englanti:
+### Englanniksi
 ```
 <<branches.branchname>>
 <<today>>
@@ -687,7 +678,7 @@ www.outikirjastot.fi
 
 Tuloste/Print-pohjalle. HMTL-täppä paikoilleen.
 
-Suomi:
+### Suomeksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -713,7 +704,7 @@ Uusintakerrat: <<issues.renewals>><br /><br /></item>
 <br />www.outikirjastot.fi</p>
 ```
 
-Englanti:
+### Englanniksi
 ```
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -743,7 +734,7 @@ Renewals: <<issues.renewals>><br /><br /></item>
 
 ### Email/sähköposti-pohjaan
 
-Suomi:
+### Suomeksi
 ```
 Hyvä kirjaston asiakas 
 
@@ -819,7 +810,7 @@ OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-Englanti:
+### Englanniksi
 ```
 Dear library user
 
@@ -856,7 +847,7 @@ www.outikirjastot.fi
 
 E-kirjeessä asiakkaan yhteystiedot tulee Paten kautta, niitä ei määritetä viestipohjaan.
 
-Suomi:
+### Suomeksi
 ```
 Hyvä kirjaston asiakas. Lainasi ovat myöhässä. 
 
@@ -890,7 +881,7 @@ Ilmoita kirjastoon sähköpostiosoitteesi tai lisää se OUTI-verkkokirjastossa,
 niin saat tämän viestin nopeammin ja ekologisemmin.
 ```
 
-Englanti:
+### Englanniksi
 ```
 Dear library user
 
@@ -928,7 +919,7 @@ http://www.outikirjastot.fi
 
 ### Email/sähköposti-pohjaan
 
-Suomi:
+### Suomeksi
 ```
 Hyvä kirjaston asiakas  
 
@@ -969,7 +960,7 @@ OUTI-kirjastot
 www.outikirjastot.fi
 ```
 
-Englanti:
+### Englanniksi
 ```
 Dear library user
 
@@ -1011,7 +1002,7 @@ www.outikirjastot.fi
 
 E-kirjeissä asiakkaan yhteystiedot haetaan Paten kautta, niitä ei lisätä viestipohjaan.
 
-Suomi:
+### Suomeksi
 ```
 Hyvä kirjaston asiakas 
  
@@ -1046,7 +1037,7 @@ Ilmoita kirjastoon sähköpostiosoitteesi tai lisää se OUTI-verkkokirjastossa,
 niin saat tämän viestin nopeammin ja ekologisemmin.
 ```
 
-Englanti:
+### Englanniksi
 ```
 Dear library user
  
@@ -1091,7 +1082,7 @@ Katso laskutustyökalun ohjeet.
 
 ### Tuloste/Print-pohjaan
 
-Suomi:
+### Suomeksi
 ```
 Lainaaja: <<issueborname>>, <<issueborbarcode>>
 
