@@ -43,7 +43,7 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
 ### Käyttäjätunnuksen luonti
 
 * jokaisella automaatilla/omatoimilaitteella täytyy tilastoinnin ja virheiden selvittelyjen vuoksi olla oma käyttäjätunnus Kohassa.
-* kimpan pääkäyttäjät tekevät Kohaan uuden käyttäjätunnuksen, jonka asiakastyyppi on "Z Automaatti Z". Tunnuksen muodossa ja nimeämisessä kannattaa käyttää kaavaa, jolla tunnuksen tunnistaa tietyn kirjaston tunnukseksi. Esim. kirjaston lyhenne ja numeroita: KEPK0001. Tunnuksessa voi myös tulla esille automaatin tyyppi: Esim. KEPKLAI1
+* kimpan pääkäyttäjät tekevät Kohaan uuden käyttäjätunnuksen, jonka asiakastyyppi on "Z Automaatti Z". Tunnuksen muodossa ja nimeämisessä kannattaa käyttää kaavaa, jolla tunnuksen tunnistaa tietyn kirjaston tunnukseksi. Esim. kirjaston lyhenne ja numeroita: ABCD0001. Tunnuksessa voi myös tulla esille automaatin tyyppi: Esim. ABCDLAI1
   * Huom. ei ääkkösiä tai erikoismerkkejä tunnukseen
 * laita tunnukselle vanhentumispäiväksi kuluva päivä (muutetaan myöhemmin).
   * Kyseessä on tietoturvakysymys. Jos tunnus joutuu vääriin käsiin, niin sillä ei pääse kirjautumaan, kun tunnus ei ole voimassa.
@@ -73,7 +73,7 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
 
 ### Käyttäjätunnuksen toimittaminen automaatin toimittajalle
 
-* kimpan pääkäyttäjä toimittaa turvasähköpostilla tai onetimesecretinä SIP2-käyttäjätunnuksen, salasanan, organisaatiotunnuksen (institution, joka on sen kirjastotoimipisteen tunnus, jossa automaatti fyysisesti sijaitsee, esim. KEPK), SIP2-palvelimen osoitteen ja portin numeron salatusti automaatin/omatoimilaitteen toimittajalle, joka määrittää ne laitteelle.
+* kimpan pääkäyttäjä toimittaa turvasähköpostilla tai onetimesecretinä SIP2-käyttäjätunnuksen, salasanan, organisaatiotunnuksen (institution, joka on sen kirjastotoimipisteen tunnus, jossa automaatti fyysisesti sijaitsee, esim. ABCD), SIP2-palvelimen osoitteen ja portin numeron salatusti automaatin/omatoimilaitteen toimittajalle, joka määrittää ne laitteelle.
   * mene osoitteeseen onetimesecret.com ja liitä yllä mainitut tiedot tekstikenttään.
   * luo onetimesecret siten, että se on voimassa 7 päivää ja kopioi annettu url-osoite (huom. älä kopioi osoiteriviltä vaan nettisivulla ilmoitettu osoite)
   * lähetä onetimesecret-osoite automaatin toimittajalle ja pyydä kuittaamaan, kun tunnukset on otettu talteen.
@@ -112,7 +112,7 @@ Lisää kaksi uutta auktorisoidun arvon tyyppiä ja niille auktorisoidut arvot. 
 |Ovikone|Ovikone|
 |Palautus|Palautusautomaatti|
 
-(/assets/files/docs/Ohjeet/automtype.png)
+![](/assets/files/docs/Ohjeet/automtype.png)
 
 *TOIMITTAJAT*
 
@@ -123,7 +123,7 @@ Lisää kaksi uutta auktorisoidun arvon tyyppiä ja niille auktorisoidut arvot. 
 |Mikrovayla|Mikroväylä|
 |Supa|P. V. Supa|
 
-(/assets/files/docs/Ohjeet/toimittajat.png)
+![](/assets/files/docs/Ohjeet/toimittajat.png)
 
 Tämän jälkeen voit siirtyä tekemään asiakasmääreet.
 
@@ -145,4 +145,4 @@ Tee kaksi uutta asiakasmäärettä: Automaatin toimittaja ja Automaattityyppi
   * TOIMITTAJA: TOIMITTAJAT
 * Valitse *Tyyppi*-valikosta Z Automaatti Z, jolloin asiakasmääre näkyy vain automaattitunnus-asiakastyypille
 
-(/assets/files/docs/Ohjeet/toimittaja.png) (/assets/files/docs/Ohjeet/autotype.png)
+![](/assets/files/docs/Ohjeet/toimittaja.png) ![](/assets/files/docs/Ohjeet/autotype.png)
