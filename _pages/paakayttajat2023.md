@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30 muistio
 
 Aika: 25.7.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Auli Rantasalo (Vaara), Anneli Österman ja Lasse Pouru (Koha-Suomi), Johanna Miettunen (3AMK), Hanna Ikonen (Lumme)
+Läsnä: Pia Kusmin (Lappi), Auli Rantasalo (Vaara), Anneli Österman ja Lasse Pouru (Koha-Suomi), Johanna Miettunen (3AMK), Hanna Ikonen (Lumme), Piia Semenoff (OUTI)
 
 **Yhteiset asiat**
 
