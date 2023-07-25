@@ -24,7 +24,7 @@ Osassa kimpoista lapsiasiakkaalla pitää olla huoltajan lupa omatoimikirjaston 
   * Estämällä LAPSI-asiakastyyppi nämä asiakkaat eivät pääse sisään omatoimeen. Samoin voi tehdä tarvittaessa esim. YHTEISO-asiakastyypille (yhteisöasiakas). 
   * Sallimalla vain LAOMATOIMI- ja HENKILO-asiakastyyppien pääsyn, eli estää pääsyn muilta asiakastyypeiltä. 
   * Lapsiasiakkaiden pääsyn esto pitää tehdä kimpan sisällä kaikissa kirjastoissa samalla tavalla, mutta muiden asiakastyyppien eston voi päättää/määrittää kirjastokohtaisesti, mikäli kimpan käyttösäännöt sen sallivat.
-* Ajasta update_patron_category.pl-cronista toinen ajo, joka muuttaa LAOMATOIMI -> HENKILO (Tee tukipyyntö järjestelmänkehittäjille). Huomaa, että ajo pitää tehdä kummallekin lapsi-tyypille.
+* Ajasta _update_patron_category.pl_-cronista toinen ajo, joka muuttaa LAOMATOIMI -> HENKILO (Tee tukipyyntö järjestelmänkehittäjille). Huomaa, että ajo pitää tehdä kummallekin lapsi-tyypille.
 
 Kun kaikki muutokset on tehty, pitää jatkossa valita jo lapsiasiakasta lisätessä, kumpaa asiakastyyppiä käytetään sen mukaan, antaako huoltaja luvan vai ei. Jos huoltaja sallii myöhemmin omatoimen, vaihdetaan asiakastyypiksi "Lapsi, omatoimi sallittu".
 
@@ -42,7 +42,7 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
 
 ### Käyttäjätunnuksen luonti
 
-* jokaisella automaatilla/omatoimilaitteella täytyy tilastoinnin ja virheiden selvittelyjen vuoksi olla oma käyttäjätunnus Kohassa.
+* jokaisella automaatilla/omatoimilaitteella täytyy tilastoinnin ja virheiden selvittelyjen vuoksi olla oma käyttäjätunnus Kohassa. Poikkeuksena on omatoimiovikoneet, joissa on kaksi oviyksikköä, esim. yksi ulko-ovella ja yksi kauempana sisäovella.
 * kimpan pääkäyttäjät tekevät Kohaan uuden käyttäjätunnuksen, jonka asiakastyyppi on "Z Automaatti Z". Tunnuksen muodossa ja nimeämisessä kannattaa käyttää kaavaa, jolla tunnuksen tunnistaa tietyn kirjaston tunnukseksi. Esim. kirjaston lyhenne ja numeroita: ABCD0001. Tunnuksessa voi myös tulla esille automaatin tyyppi: Esim. ABCDLAI1
   * Huom. ei ääkkösiä tai erikoismerkkejä tunnukseen
 * laita tunnukselle vanhentumispäiväksi kuluva päivä (muutetaan myöhemmin).
@@ -51,7 +51,7 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
 * salasanan pitää olla pitkä (kyberturvallisuuskeskus suosittelee vähintään 15 merkkiä) ja monimutkainen eli sisältää vähintään sekä kirjaimia että numeroita. Salasanan pitää olla vahva, koska SIP2-tunnuksella on laaja pääsy mm. asiakkaiden tietoihin.
 * Salasanan tulee olla validia XML-koodia, eli kielletyt erikoismerkit on: & , < , > , " tai '  sen mukaan, kumpaa käytetty rajoittimena 
 * merkitse asiakasmääreisiin automaatin tyyppi (lainausautomaatti, palautusautomaatti, ovikone jne) ja toimittaja.
-  * Automaattityypin ja toimittajan lisääminen asiakasmääreeksi -ohje
+  * [Automaattityypin ja toimittajan lisääminen asiakasmääreeksi](https://koha-suomi.fi/dokumentaatio/automaatit/#automaattityypin-ja-toimittajan-lis%C3%A4%C3%A4minen-asiakasm%C3%A4%C3%A4reeksi) -ohje
 
 ### Käyttäjätunnuksen toimittaminen Koha-Suomelle
 
@@ -65,6 +65,7 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
   * jos sinulla on käytössä turvasähköposti, niin voit lähettää tunnukset myös suoraan sillä osoitteeseen support [at] koha-suomi.fi
 
 * **tietoturvasyistä älä koskaan kirjaa tunnusta tai salasanaa GitHubiin tikettiin, äläkä lähetä salasanoja tai tunnuksia mihinkään salaamattomia tiedonsiirtoväyliä käyttäen (esimerkiksi salaamattomalla sähköpostilla)**
+
 * järjestelmänkehittäjä lisää automaatin tiedot SIP2-palvelimelle.
   * automaatin XML-määritystiedosto pitää validoida aina, kun tiedostoon tehdään muutoksia, eli esim. <br />
   @ xmllint --noout your_test_file.xml; echo $?@<br />
@@ -89,7 +90,7 @@ Tässä ohjeessa neuvotaan, miten SIP2-tunnuksille eli Z Automaatti Z -asiakasty
 
 ![](/assets/files/docs/Ohjeet/maareet.png) ![](/assets/files/docs/Ohjeet/automaattitoimittaja.png) ![](/assets/files/docs/Ohjeet/automaattityyppi.png)
 
-Tee ensin auktorisoidut arvo ja sen jälkeen asiakasmääreet.
+Tee ensin auktorisoidut arvot ja sen jälkeen asiakasmääreet.
 
 ### Auktorisoitujen arvojen lisääminen
 
@@ -143,6 +144,6 @@ Tee kaksi uutta asiakasmäärettä: Automaatin toimittaja ja Automaattityyppi
 * Valitse *Auktorisoidun arvon luokka* -valikosta
   * AUTOTYPE: AUTOMTYPE
   * TOIMITTAJA: TOIMITTAJAT
-* Valitse *Tyyppi*-valikosta Z Automaatti Z, jolloin asiakasmääre näkyy vain automaattitunnus-asiakastyypille
+* Valitse *Tyyppi*-valikosta Z Automaatti Z, jolloin asiakasmääre näkyy vain automaattitunnus-asiakastyypille.
 
 ![](/assets/files/docs/Ohjeet/toimittaja.png) ![](/assets/files/docs/Ohjeet/autotype.png)
