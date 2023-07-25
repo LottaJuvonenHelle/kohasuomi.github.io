@@ -1089,7 +1089,7 @@ http://www.outikirjastot.fi
 
 Katso laskutustyökalun ohjeet.
 
-## Tuloste/Print-pohjaan
+### Tuloste/Print-pohjaan
 
 Suomi:
 ```
@@ -1204,4 +1204,522 @@ Laskunumero: <<invoicenumber>><br />
 </p>
 </div>
 Laskunumero: <<invoicenumber>>
+```
+## ACCOUNTS_SUMMARY eli asiakkaan maksut
+
+Koha-yhteisössä on toteutettu asiakkaan maksukuitti, joka korvaa aiemman Koha-Suomen oman FINESLIP-kuittipohjan. FINESLIP-kuittipohjan saa poistaa.
+
+### Suomeksi
+
+Viestityyppi: Tulosta<br />
+HTML-viesti: kyllä<br />
+Viestin aihe: Maksukuitti<br />
+Viestin sisältö:
+```
+[% USE Branches %]
+[% USE Koha %]
+[% USE KohaDates %]
+[% USE Price %]
+[% PROCESS 'accounts.inc' %]
+<table>
+  [% IF ( Koha.Preference('LibraryName') ) %]
+    <tr>
+      <th colspan='3' class='centerednames'>
+        <h1>[% Koha.Preference('LibraryName') | html %]</h1>
+      </th>
+    </tr>
+  [% END %]
+
+  <tr>
+    <th colspan='3' class='centerednames'>
+      <h2>[% Branches.GetName( borrower.branchcode ) | html %]</h2>
+    </th>
+  </tr>
+
+  <tr>
+    <th colspan='3' class='centerednames'>
+      <h3>Voimassa olevat maksut</h3>
+    </th>
+  </tr>
+
+  [% IF borrower.account.outstanding_debits.total_outstanding %]
+  <tr>
+    <th>Päivämäärä</th>
+    <th>Maksu</th>
+    <th style="text-align:right;">Maksamatta</th>
+  </tr>
+  [% FOREACH debit IN borrower.account.outstanding_debits %]
+  <tr>
+    <td>[% debit.date | $KohaDates %]</td>
+    <td>
+      [% PROCESS account_type_description account=debit %]
+      [%- IF debit.description %], [% debit.description | html %][% END %]
+    </td>
+    <td class='debit'>[% debit.amountoutstanding | $Price %]</td>
+  </tr>
+  [% END %]
+  [% ELSE %]
+  <tr>
+    <td colspan=3'>Sinulla ei ole maksamattomia maksuja.</td>
+  </tr>
+  [% END %]
+
+    <tfoot>
+    <tr>
+      <td colspan='2'>
+        [% IF borrower.account.balance < 0 %]
+         Creditiä yhteensä [% today | $KohaDates %]:
+        [% ELSE %]
+          Maksamattomia maksuja yhteensä [% today | $KohaDates %]:
+        [% END %]
+      </td>
+      [% IF ( borrower.account.balance <= 0 ) %]<td class='credit'>[% borrower.account.balance * -1 | $Price %]</td>
+      [% ELSE %]<td class='debit'>[% borrower.account.balance | $Price %]</td>[% END %]
+    </tr>
+  </tfoot>
+</table>
+```
+### Englanniksi
+
+Viestityyppi: Tulosta<br />
+HTML-viesti: kyllä<br />
+Viestin aihe: Accounts summary<br />
+Viestin sisältö:
+```
+[% USE Branches %]
+[% USE Koha %]
+[% USE KohaDates %]
+[% USE Price %]
+[% PROCESS 'accounts.inc' %]
+<table>
+  [% IF ( Koha.Preference('LibraryName') ) %]
+    <tr>
+      <th colspan='3' class='centerednames'>
+        <h1>[% Koha.Preference('LibraryName') | html %]</h1>
+      </th>
+    </tr>
+  [% END %]
+
+  <tr>
+    <th colspan='3' class='centerednames'>
+      <h2>[% Branches.GetName( borrower.branchcode ) | html %]</h2>
+    </th>
+  </tr>
+
+  <tr>
+    <th colspan='3' class='centerednames'>
+      <h3>Outstanding accounts</h3>
+    </th>
+  </tr>
+
+  [% IF borrower.account.outstanding_debits.total_outstanding %]
+  <tr>
+    <th>Date</th>
+    <th>Charge</th>
+    <th style="text-align:right;">Amount outstanding</th>
+  </tr>
+  [% FOREACH debit IN borrower.account.outstanding_debits %]
+  <tr>
+    <td>[% debit.date | $KohaDates %]</td>
+    <td>
+      [% PROCESS account_type_description account=debit %]
+      [%- IF debit.description %], [% debit.description | html %][% END %]
+    </td>
+    <td class='debit'>[% debit.amountoutstanding | $Price %]</td>
+  </tr>
+  [% END %]
+  [% ELSE %]
+  <tr>
+    <td colspan='3'>There are no outstanding debts on your account.</td>
+  </tr>
+  [% END %]
+
+    <tfoot>
+    <tr>
+      <td colspan='2'>
+        [% IF borrower.account.balance < 0 %]
+         Total credit as of [% today | $KohaDates %]:
+        [% ELSE %]
+          Total outstanding dues as of  [% today | $KohaDates %]:
+        [% END %]
+      </td>
+      [% IF ( borrower.account.balance <= 0 ) %]<td class='credit'>[% borrower.account.balance * -1 | $Price %]</td>
+      [% ELSE %]<td class='debit'>[% borrower.account.balance | $Price %]</td>[% END %]
+    </tr>
+  </tfoot>
+</table>
+```
+
+### Ruotsiksi
+
+Viestityyppi: Tulosta<br />
+HTML-viesti: kyllä<br />
+Viestin aihe: Avgifter<br />
+Viestin sisältö:
+```
+[% USE Branches %]
+[% USE Koha %]
+[% USE KohaDates %]
+[% USE Price %]
+[% PROCESS 'accounts.inc' %]
+<table>
+  [% IF ( Koha.Preference('LibraryName') ) %]
+    <tr>
+      <th colspan='3' class='centerednames'>
+        <h1>[% Koha.Preference('LibraryName') | html %]</h1>
+      </th>
+    </tr>
+  [% END %]
+
+  <tr>
+    <th colspan='3' class='centerednames'>
+      <h2>[% Branches.GetName( borrower.branchcode ) | html %]</h2>
+    </th>
+  </tr>
+
+  <tr>
+    <th colspan='3' class='centerednames'>
+      <h3>Nuvarande avgifter</h3>
+    </th>
+  </tr>
+
+  [% IF borrower.account.outstanding_debits.total_outstanding %]
+  <tr>
+    <th>Datum</th>
+    <th>Förklaring</th>
+    <th style="text-align:right;">Obetald avgift</th>
+  </tr>
+  [% FOREACH debit IN borrower.account.outstanding_debits %]
+  <tr>
+    <td>[% debit.date | $KohaDates %]</td>
+    <td>
+      [% PROCESS account_type_description account=debit %]
+      [%- IF debit.description %], [% debit.description | html %][% END %]
+    </td>
+    <td class='debit'>[% debit.amountoutstanding | $Price %]</td>
+  </tr>
+  [% END %]
+  [% ELSE %]
+  <tr>
+    <td colspan='3'>Du har inga obetalda avgifter.</td>
+  </tr>
+  [% END %]
+
+    <tfoot>
+    <tr>
+      <td colspan='2'>
+       Obetalda avgifter sammanlagt [% today | $KohaDates %]:
+      </td>
+     <td class='debit'>[% borrower.account.balance | $Price %]</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
+## 2FA_OTP_TOKEN
+
+### Suomeksi
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: ei<br />
+Viestin aihe: Kaksivaiheisen kirjautumisen tunniste<br />
+Viestin sisältö:
+```
+Hei,
+
+Kaksivaiheisen kirjautumisen tunnisteesi on [% otp_token %]. 
+
+Se on voimassa minuutin.
+```
+### Englanniksi
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: ei<br />
+Viestin aihe: Two-authentication step token<br />
+Viestin sisältö:
+```
+Your authentication token is [% otp_token %].
+
+It is valid one minute.
+```
+
+## 2FA_ENABLE
+
+### Suomeksi
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: ei<br />
+Viestin aihe: Kaksivaiheinen kirjautuminen päällä<br />
+Viestin sisältö:
+```
+Koha-käyttäjätunnuksellesi laitettiin juuri päälle kaksivaiheinen tunnistautuminen. Jos et tehnyt sitä itse, ota yhteys ylläpitoon.
+```
+
+### Englanniksi
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: ei<br />
+Viestin aihe: Confirmation of enabling two factor authentication<br />
+Viestin sisältö:
+```
+Two factor authentication was enabled for your Koha account. If you did not do this yourself please contact your administrator.
+```
+## 2FA_DISABLE 
+
+### Suomeksi
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: ei<br />
+Viestin aihe: Kaksivaiheinen kirjautuminen pois päältä<br />
+Viestin sisältö:
+```
+Koha-käyttäjätunnuksesi kaksivaiheinen kirjautuminen otettiin pois päältä. Jos et tehnyt sitä itse, ota yhteys ylläpitoon.
+```
+
+### Englanniksi
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: ei<br />
+Viestin aihe: Two factor authentication disabled<br />
+Viestin sisältö:
+```
+Two factor authentication was disabled for your Koha account. If you did not do this yourself please contact your administrator.
+```
+
+## PASSWORD_CHANGE
+
+Tämän viestin lähettäminen vaatii, että se sallitaan järjestelmäasetuksessa NotifyPasswordChange.
+
+### Suomeksi
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: ei<br />
+Viestin aihe: Kirjastokorttisi salasana vaihdettiin<br />
+Viestin sisältö:
+```
+Kirjastokorttisi salasana vaihdettiin. Jos et tehnyt sitä itse tai et pyytänyt vaihtoa, ole yhteydessä kirjastoosi.
+
+Ystävällisin terveisin
+
+Vaara-kirjastot
+```
+
+### Englanniksi
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: ei<br />
+Viestin aihe: Notification of password change<br />
+Viestin sisältö:
+```
+The password of your librarycard has been changed. If you did not change it yourself (or requested that change), please contact your library.
+
+Best regards
+
+Vaara-kirjastot
+```
+
+## HOLD_CHANGED 
+
+Viestipohja liittyy järjestelmäasetukseen ExpireReservesAutoFill eli viesti lähetetään, jos sallitaan vanhentuneiden varausten jäädä automaattisesti kiinni seuraavaan jonossa olevaan varaukseen. Ei liene tarpeellinen.
+
+## NEW_CURBSIDE_PICKUP
+
+Viestillä ilmoitetaan asiakkaalle, että hänellä on noutopalvelussa valmiina nouto. Toiminto vielä tutkinnan alla, joten lisätään tähän pohja, jos joku päättää ottaa toiminnon käyttöön.
+
+## OPAC_REG
+
+Liittyy järjestelmäasetukseen  PatronSelfRegistration, jossa asiakkaat voivat itse rekisteröityä asiakkaaksi Kohan opacissa. Toimintoa ei voi käyttää, koska meillä ei ole käytössä Kohan omaa opacia.
+
+## OVERDUE_FINE_DESC
+
+Tämä ei ole varsinaisesti viestipohja, vaan sillä säädellään, mitä tietoja säilytetään myöhästymismaksun _Kuvauksessa_, kun nide poistetaan.
+
+Myöhästymismaksu ennen siihen liittyvän niteen poistoa:
+![kuva](https://user-images.githubusercontent.com/33121325/223685774-d67db8f1-5cdd-421b-b340-0991463d2348.png)
+
+Myöhästymismaksu niteen poiston jälkeen:
+![kuva](https://user-images.githubusercontent.com/33121325/223685972-79bac0ac-390c-4bdf-8c8f-03ac7bfc7e7d.png)
+
+Tähän voisi ainakin alustavasti laittaa nämä tiedot:
+
+Viestityyppi: Tulosta
+```
+[% item.biblio.title %] [% checkout.date_due | $KohaDates %] [% item.barcode %]
+```
+
+## STAFF_PASSWORD_RESET
+
+Tämä viestipohja liittyy toimintoon, jossa henkilökunta voi lähettää asiakkaalle sähköpostiviestin, jonka kautta asiakas voi vaihtaa salasanansa. Tämä vaatii Kohan opacin käytön, joten toimintoa ei voida käyttää. Vaatii toimiakseen myös asetuksen OpacResetPassword, jota ei voi laittaa päälle, koska se vaatii Kohan opacin käytön.
+
+![kuva](https://user-images.githubusercontent.com/33121325/223687743-63a37599-07f0-465f-9379-e56177c5e960.png)
+
+![kuva](https://user-images.githubusercontent.com/33121325/223687505-03a1c8f8-0887-46b6-8cf7-6955f346a5ce.png)
+
+## ILL_REQUEST_UPDATE
+
+Liittyy Kaukolaina-moduuliin, joka meillä ei ole käytössä.
+
+## RECEIPT
+
+Liittyy Myyntipiste-moduuliin, joka meillä ei ole käytössä.
+
+## PICKUP_RECALLED_ITEM
+
+Recall on eräänlainen korkean prioriteetin varaus, jonka asiakas voi tehdä (jos asetukset sen sallivat) lainassa olevaan aineistoon. Sen hetkiselle ainaajalle lähtee viesti uudesta eräpäivästä ja pyyntö palauttaa teos. Kun nide palautetaan, jää prioriteettivaraus kiinni ja siitä lähtee tällä pohjalla "noutoilmoitus" prioriteettivarauksen tekijälle. Tämä toiminto ei todennäköisesti sovi yleisten kirjastojen toimintaympäristöön.
+
+Tälle on valmiina Kohassa englanninkielisenä seuraava viestipohja:
+
+Viestityyppi: Sähköposti
+```
+Date: <<today>>
+
+<<borrowers.firstname>> <<borrowers.surname>>,
+
+A recall that you requested on the following item: <<biblio.title>> / <<biblio.author>> (<<items.barcode>>) is now ready for you to pick up at <<recalls.branchcode>>. Please pick up your item by <<recalls.expirationdate>>.
+
+Thank you!
+```
+
+## RECALL_REQUESTER_DET
+
+Recall on eräänlainen korkean prioriteetin varaus, jonka asiakas voi tehdä (jos asetukset sen sallivat) lainassa olevaan aineistoon. Sen hetkiselle lainaajalle lähtee viesti uudesta eräpäivästä ja pyyntö palauttaa teos ja kun se palautetaan, jää prioriteettivaraus kiinni ja siitä tulostuu tällä pohjalla "infokuitti". Tämä toiminto ei todennäköisesti sovi yleisten kirjastojen toimintaympäristöön.
+
+Tälle on Kohassa valmiina englanninkielinen viestipohja.
+
+Viestityyppi: Tulosta
+```
+Date: <<today>>
+
+Recall for pickup at <<branches.branchname>>
+<<borrowers.surname>>, <<borrowers.firstname>> (<<borrowers.cardnumber>>)
+<<borrowers.phone>>
+<<borrowers.streetnumber>> <<borrowers.address>>, <<borrowers.address2>>, <<borrowers.city>> <<borrowers.zipcode>>
+<<borrowers.email>>
+
+ITEM RECALLED
+<<biblio.title>> by <<biblio.author>>
+Barcode: <<items.barcode>>
+Callnumber: <<items.itemcallnumber>>
+Waiting since: <<recalls.waitingdate>>
+Notes: <<recalls.recallnotes>>
+```
+
+## RETURN_RECALLED_ITEM
+
+Recall on eräänlainen korkean prioriteetin varaus, jonka asiakas voi tehdä (jos asetukset sen sallivat) lainassa olevaan aineistoon. Sen hetkiselle lainaajalle lähtee viesti uudesta eräpäivästä ja pyyntö palauttaa teos tällä viestipohjalla. Tämä toiminto ei todennäköisesti sovi yleisten kirjastojen toimintaympäristöön.
+
+Kohassa on valmiina englanninkielinen viestipohja tälle.
+
+Viestityyppi: Sähköposti
+```
+Date: <<today>>
+
+<<borrowers.firstname>> <<borrowers.surname>>,
+
+A recall has been placed on the following item: <<biblio.title>> / <<biblio.author>> (<<items.barcode>>). The due date has been updated, and is now <<issues.date_due>>. Please return the item before the due date.
+
+Thank you!
+```
+
+## WELCOME
+
+Kohassa pystyy lähettämään automaattisesti tai asiakkaan tiedoista käsin asiakkaalle tervetuloviestin, jossa käytetään tätä viestipohjaa. Viestiin voi lisätä esim. linkin kirjaston käyttösääntöihin, verkkokirjastoon, e-kirjastoon yms.
+
+### Suomeksi
+
+Viestityyppi: Sähköposti
+HTML-viesti: kyllä
+Viestin aihe: Tervetuloa Vaara-kirjastojen asiakkaaksi
+```
+[% USE Koha %]
+Hei [% borrower.firstname %].
+
+Tervetuloa Vaara-kirjastojen asiakkaaksi.
+
+<a href='https://vaara.finna.fi'>Verkkokirjastossamme</a> voit uusia lainojasi, etsiä tietoa kirjaston kokoelmista ja tehdä varauksia.
+
+Tutustuthan myös <a href='https://vaara.finna.fi/Content/asiakkaana#userrights'>käyttösääntöihimme</a>.
+
+Jos sinulla on mitä tahansa kysyttävää kirjaston toiminnasta tai aineistostamme, ole meihin yhteydessä. <a href='https://vaara.finna.fi/Content/kirjastot'>Yhteystietomme löytyvät verkkokirjastosta</a>.
+
+Ystävällisin terveisin
+
+Vaara-kirjastot
+```
+
+### Englanniksi
+
+Viestityyppi: Sähköposti
+HTML-viesti: kyllä
+Viestin aihe: Welcome to Vaara Libraries
+```
+[% USE Koha %]
+Hello [% borrower.firstname %].
+
+Welcome to Vaara Libraries.
+
+<a href='https://vaara.finna.fi'>In our web library</a> you can renew your loans, search for materials and make reservations.
+
+Please read our <a href='https://vaara.finna.fi/Content/asiakkaana#userrights'>library rules of use</a>.
+
+If you have any questions about our library or our services, please do not hesitate to contact us. <a href='https://vaara.finna.fi/Content/kirjastot'>Our contact info</a>.
+
+Best regards
+
+Vaara Libraries
+```
+
+## ISSUESLIP
+
+Asiakkaan kaikki lainat kuitille, myöhässä olevat omana osionaan. Tässä ei toimi enää vanha uusinnat-tägi vaan se pitää korvata <<issues.renewals_count>> -tägillä.
+
+Viestityyppi: Sähköposti<br />
+HTML-viesti: kyllä<br />
+Viestin aihe: Kaikki lainat kuitille<br />
+```
+[% USE Price %]
+
+<style type="text/css">
+  h1 { font-family: arial; font-size: 20pt; }
+  h2 { font-family: arial; font-size: 14pt; }
+  h3 { font-family: arial; font-size: 18pt; }
+  h4 { font-family: arial; font-size: 14pt; }
+  p { font-family: arial; font-size: 10pt; }
+</style>
+
+<h3><<branches.branchname>><br />
+<<today>></h3><br />
+
+<h3>Kaikki lainassa olevat</h3>
+<checkedout>
+<p><<biblio.title>> <<items.enumchron>> / <<biblio.author>> <br />
+Nidetunnus: <<items.barcode>><br />
+Eräpäivä: <<issues.date_due | dateonly >><br />
+Uusittu: <<issues.renewals_count>> / 7 kertaa
+</p>
+</checkedout>
+<p>Yhteensä lainoja: [% checkouts.count %] 
+
+<br/>
+<h4>Myöhässä olevat</h4>
+<overdue>
+<p>
+<<biblio.title>> / <<biblio.author>>  <br />
+Nidetunnus: <<items.barcode>><br />
+Eräpäivä: <<issues.date_due | dateonly >> <br />
+Uusintakerrat: <<issues.renewals_count>>
+</p>
+</overdue>
+<p>Yhteensä myöhässä: [% overdues.count %]
+<br />
+<p>Maksut:
+[% SET balance = borrower.account.balance %]
+[% balance | $Price %] €
+<br>
+<br>
+<br>
+<br>Lainat voi uusia puhelimitse p. <<branches.branchphone>>
+<br>tai verkkokirjastossa: https://vaara.finna.fi
+<br>Tutustu myös e-aineistoihimme!
+<br /></p>
 ```
