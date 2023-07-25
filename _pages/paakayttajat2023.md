@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30 muistio
 
 Aika: 25.7.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Auli Rantasalo (Vaara), Anneli Österman ja Lasse Pouru (Koha-Suomi), Johanna Miettunen (3AMK)
+Läsnä: Pia Kusmin (Lappi), Auli Rantasalo (Vaara), Anneli Österman ja Lasse Pouru (Koha-Suomi), Johanna Miettunen (3AMK), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat**
 
@@ -32,7 +32,12 @@ Pohjoisesta etelään
 
 **Vaara**
 * Kaksi työntekijää on kertonut, että lainaustilanteessa kortin ja kirjan nidetarran lukemisen jälkeen, ohjelma on heittänyt kohan kirjautumistilaan. Uudelleen kirjauduttua Kohaan ohjelma palautuu asiakkaan lainaukseen ja kirja on mennyt lainaan. Toisen työntekijän kohdalla tämä oli tapahtunut seitsemän kertaa eli seitsemän lainan kohdalla. Jos tätä vielä tapahtuu, otetaan kuvakaappaus ja tehdään tiketti.
-* Työntekijä ihmetteli miten toisinaan kun peruuttaa varauksen samalla kun palauttaa varauksen, tulee noutamattoman varauksen maksu. Anneli tiesi kertoa, että tämä johtuu siitä mitä kautta peruuttaa varauksen. 
+* Työntekijä ihmetteli miten toisinaan kun peruuttaa varauksen samalla kun palauttaa varauksen, tulee noutamattoman varauksen maksu. Anneli tiesi kertoa, että tämä johtuu siitä mitä kautta peruuttaa varauksen.
+
+**Lumme**
+* Perus ylläpitoa.
+* Tuli vastaan tapaus, jossa virkailija oli palauttanut lokien mukaan asiakkaan kirjan, mutta kirja oli jostain syystä pysynyt asiakkaalla lainassa. Toinen palautus poisti kirjan asiakkaan lainoista.
+ 
 
 ## Viikko 29 muistio
 
