@@ -31,7 +31,7 @@ Pohjoisesta etelään
 * Ei mitään mainittavaa.
 
 **OUTI**
-* Viime viikolla asiakas maksoi verkkokirjastossa kirjastomaksunsa 21.6. klo 00:00, jonka jälkeen hän uusi lainansa klo 00:01-00:02. Klo 00:03 hänelle muodostui uudet myöhästymismaksut siten, että maksut kertyivät vanhojen, juuri maksettujen maksujen päälle. Todennäköisesti asiakas meni maksamaan maksujaan juuri silloin, kun maksuajo on käynnistymässä/käynnissä. Tiketti 694 https://github.com/KohaSuomi/Koha/issues/694
+* Viime viikolla asiakas maksoi verkkokirjastossa kirjastomaksunsa 21.6. klo 00:00, jonka jälkeen hän uusi lainansa klo 00:01-00:02. Klo 00:03 hänelle muodostui uudet myöhästymismaksut siten, että maksut kertyivät vanhojen, juuri maksettujen maksujen päälle. Todennäköisesti asiakas meni maksamaan maksujaan juuri silloin, kun maksuajo on käynnistymässä/käynnissä. https://github.com/KohaSuomi/Koha/issues/694
 
 **Vaara**
 * Kaksi työntekijää on kertonut, että lainaustilanteessa kortin ja kirjan nidetarran lukemisen jälkeen, ohjelma on heittänyt kohan kirjautumistilaan. Uudelleen kirjauduttua Kohaan ohjelma palautuu asiakkaan lainaukseen ja kirja on mennyt lainaan. Toisen työntekijän kohdalla tämä oli tapahtunut seitsemän kertaa eli seitsemän lainan kohdalla. Jos tätä vielä tapahtuu, otetaan kuvakaappaus ja tehdään tiketti.
