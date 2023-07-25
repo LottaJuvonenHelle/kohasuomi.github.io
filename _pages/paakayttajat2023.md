@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 30 esityslista
+## Viikko 30 muistio
 
 Aika: 25.7.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Auli Rantasalo (Vaara)
+Läsnä: Pia Kusmin (Lappi), Auli Rantasalo (Vaara), Anneli Österman ja Lasse Pouru (Koha-Suomi), Johanna Miettunen (3AMK)
 
 **Yhteiset asiat**
 
@@ -37,7 +37,7 @@ Pohjoisesta etelään
 ## Viikko 29 muistio
 
 Aika: 17.7.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI), Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Auli Rantasalo (Vaara)
+Läsnä: Anni Rajala (Vaski), Veli-Pekka Marjoniemi (OUTI), Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Auli Rantasalo (Vaara), Anneli Österman ja Lasse Pouru (Koha-Suomi)
 
 **Yhteiset asiat:**
 
