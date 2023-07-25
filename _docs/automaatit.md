@@ -45,10 +45,8 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
 * jokaisella automaatilla/omatoimilaitteella täytyy tilastoinnin ja virheiden selvittelyjen vuoksi olla oma käyttäjätunnus Kohassa.
 * kimpan pääkäyttäjät tekevät Kohaan uuden käyttäjätunnuksen, jonka asiakastyyppi on "Z Automaatti Z". Tunnuksen muodossa ja nimeämisessä kannattaa käyttää kaavaa, jolla tunnuksen tunnistaa tietyn kirjaston tunnukseksi. Esim. kirjaston lyhenne ja numeroita: KEPK0001. Tunnuksessa voi myös tulla esille automaatin tyyppi: Esim. KEPKLAI1
   * Huom. ei ääkkösiä tai erikoismerkkejä tunnukseen
-
 * laita tunnukselle vanhentumispäiväksi kuluva päivä (muutetaan myöhemmin).
   * Kyseessä on tietoturvakysymys. Jos tunnus joutuu vääriin käsiin, niin sillä ei pääse kirjautumaan, kun tunnus ei ole voimassa.
-
 * tunnukselle annetaan käyttäjäoikeudeksi _circulate_ -oikeus (valituksi tulee automaattisesti myös sen alaoikeudet, se on ok).
 * salasanan pitää olla pitkä (kyberturvallisuuskeskus suosittelee vähintään 15 merkkiä) ja monimutkainen eli sisältää vähintään sekä kirjaimia että numeroita. Salasanan pitää olla vahva, koska SIP2-tunnuksella on laaja pääsy mm. asiakkaiden tietoihin.
 * Salasanan tulee olla validia XML-koodia, eli kielletyt erikoismerkit on: & , < , > , " tai '  sen mukaan, kumpaa käytetty rajoittimena 
@@ -58,19 +56,19 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
 ### Käyttäjätunnuksen toimittaminen Koha-Suomelle
 
 * käyttäjätunnus ja salasana toimitetaan järjestelmänkehittäjälle salatusti joko Matrixissa yksityisviestinä päivystäjälle/asiaa hoitavalle kehittäjälle, onetimesecretinä tai salattuna sähköpostina.
+* Muista tehdä uuden tunnuksen lisäämisestä aina myös tukipyyntö GitHubiin, jotta tieto ei hautaudu vain sähköpostiin/Matrixiin ja työ saadaan myös tilastoitua.
 
   * Onetimesecret
     * mene osoitteeseen onetimesecret.com ja liitä käyttäjätunnus ja salasana tekstikenttään. Lisäksi tarvitaan tieto, mille SIP2-palvelimelle tunnus ja salasana lisätään sekä sen kirjastotoimipisteen koodi missä automaatti sijaitsee.
     * luo onetimesecret siten, että se on voimassa 7 päivää ja kopioi annettu url-osoite (huom. älä kopioi osoiteriviltä vaan nettisivulla ilmoitettu osoite)
     * lähetä onetimesecret-osoite kehittäjille osoitteeseen support [at] koha-suomi.fi ja pyydä kuittaamaan, kun tunnukset on otettu talteen.
-
   * jos sinulla on käytössä turvasähköposti, niin voit lähettää tunnukset myös suoraan sillä osoitteeseen support [at] koha-suomi.fi
 
 * **tietoturvasyistä älä koskaan kirjaa tunnusta tai salasanaa GitHubiin tikettiin, äläkä lähetä salasanoja tai tunnuksia mihinkään salaamattomia tiedonsiirtoväyliä käyttäen (esimerkiksi salaamattomalla sähköpostilla)**
 * järjestelmänkehittäjä lisää automaatin tiedot SIP2-palvelimelle.
-  * automaatin XML-määritystiedosto pitää validoida aina, kun tiedostoon tehdään muutoksia, eli esim. 
-  @ xmllint --noout your_test_file.xml; echo $?@
-  0 = ei virheitä
+  * automaatin XML-määritystiedosto pitää validoida aina, kun tiedostoon tehdään muutoksia, eli esim. <br />
+  @ xmllint --noout your_test_file.xml; echo $?@<br />
+  0 = ei virheitä<br />
   1 = virheitä (listattu)
 
 ### Käyttäjätunnuksen toimittaminen automaatin toimittajalle
