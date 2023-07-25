@@ -1420,6 +1420,8 @@ Viestin sisältö:
 
 ## 2FA_OTP_TOKEN
 
+### Email-pohjaan
+
 #### Suomeksi
 
 Viestityyppi: Sähköposti<br />
@@ -1448,6 +1450,8 @@ It is valid one minute.
 
 ## 2FA_ENABLE
 
+### Email-pohjaan
+
 #### Suomeksi
 
 Viestityyppi: Sähköposti<br />
@@ -1470,6 +1474,8 @@ Two factor authentication was enabled for your Koha account. If you did not do t
 
 ## 2FA_DISABLE 
 
+### Email-pohjaan
+
 #### Suomeksi
 
 Viestityyppi: Sähköposti<br />
@@ -1491,6 +1497,8 @@ Two factor authentication was disabled for your Koha account. If you did not do 
 ```
 
 ## PASSWORD_CHANGE
+
+### Email-pohjaan
 
 Tämän viestin lähettäminen vaatii, että se sallitaan järjestelmäasetuksessa NotifyPasswordChange.
 
