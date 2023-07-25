@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 30 esityslista
 
 Aika: 25.7.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 
@@ -26,6 +26,9 @@ Läsnä:
 * TäTin IntranetUserCSS:iä sekä BorrowerUnwantedFields-järjestelmäasetusta säädetty. Myös turhia asiakasmääreitä poistettu. Varaustunnusta en vielä saanut poistettua, koska se on käytössä käyttäjätunnuksilla.
 
 Pohjoisesta etelään
+
+**Lappi**
+* Ei mitään mainittavaa. 
 
 ## Viikko 29 muistio
 
