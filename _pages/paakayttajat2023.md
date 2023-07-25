@@ -18,13 +18,14 @@ Läsnä:
 **Yhteiset asiat**
 
 * Dokumentaatioita siirretty Redminestä Koha-Suomen verkkosivuille ja TäTiin sekä vanhoja päivitetty
-  * [IntranetUserCSS](https://koha-suomi.fi/dokumentaatio/intranetusercss/)
-  * [IntranetUserJS](https://koha-suomi.fi/dokumentaatio/intranetuserjs/)
-  * [Käyttöönotto-ohjeita](https://koha-suomi.fi/dokumentaatio/kayttoonotto-ohjeita/)-sivu, jossa ohjeistus Asteriin, Editx:ään, laskutustyökaluun, Fintoon
+  * [IntranetUserCSS](https://koha-suomi.fi/dokumentaatio/intranetusercss/) päivitetty versioon 22.11
+  * [IntranetUserJS](https://koha-suomi.fi/dokumentaatio/intranetuserjs/) päivitetty versioon 22.11
+  * [Käyttöönotto-ohjeita](https://koha-suomi.fi/dokumentaatio/kayttoonotto-ohjeita/)-sivu, jossa ohjeistus Asteriin, Editx:ään, laskutustyökaluun, RDA ja poikkeava pääsana sekä Fintoon
   * [Ohjeita ongelmatilanteisiin](https://koha-suomi.fi/dokumentaatio/ongelmatilanteet/)
   * TäTin toimintaohjeet siirretty Redminestä TäTin sisäiseksi sivuksi. Linkki samassa paikassa TäTin yläpalkissa kuin ennenkin.
-* TäTin IntranetUserCSS:iä säädetty sekä BorrowerUnwantedFields-järjestelmäasetusta. Myös turhia asiakasmääreitä poistettu. Varaustunnusta en vielä saanut poistettua, koska se on käytössä käyttäjätunnuksilla.
+* TäTin IntranetUserCSS:iä sekä BorrowerUnwantedFields-järjestelmäasetusta säädetty. Myös turhia asiakasmääreitä poistettu. Varaustunnusta en vielä saanut poistettua, koska se on käytössä käyttäjätunnuksilla.
 
+Pohjoisesta etelään
 
 ## Viikko 29 muistio
 
