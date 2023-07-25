@@ -12,11 +12,28 @@ Finto-liitännäiset ovat käytössä Täti-tietokannassa.
 
 Kuvailussa voidaan käyttää liitännäisiä, jotka hakevat tiedot Finton sanastoista. Kun liitännäinen on lisätty kenttään, kuvailija voi kirjoittaa kyseiseen kenttään hakutermin, jolla sanastosta haetaan, ja valita sopivan arvon suoraan valikosta. Osakenttään tulee siis valittu arvo, osakenttään 0 tulee lähde-URI, ja osakenttään 2 tulee lähteen nimi, esim. "yso/fin"
 
-Finto-liitännäisten nimet alkavat "finto_", jonka jälkeen on sanasto, josta plugin hakee tiedot (esim. "seko", "yso"). Jos nimessä on "local", sallii plugin myös paikallisen arvon lisäämisen, ja jos pluginin nimi päättyy "_noind", se ei aseta indikaattooriin arvoa.
+Finto-liitännäisten nimet alkavat "finto_", jonka jälkeen on sanasto, josta plugin hakee tiedot (esim. "seko", "yso"). Jos nimessä on "local", sallii plugin myös paikallisen arvon lisäämisen. Jos pluginin nimi päättyy "_noind", se ei aseta indikaattooriin arvoa, muuten se asettaa yso-aika.pl-liitännäisessä 1. indikaattoriin arvon '1' ja muihin 2. indikaattoriin arvoksi '7'.
 
-### Liitännäisten määrittäminen käyttöön
+Tällä hetkellä on olemassa seuraavat liitännäiset:
 
-KIR-kuvailupohjassa on määritetty käyttöön seuraavat liitännäiset:
+
+| Liitännäinen          | Nimi |
+|---|---|
+| finto_finaf.pl            | Asteri-liitännäinen |
+| finto_seko.pl | SEKO, asettaa indikaattorin ja urin |
+| finto_seko_nouri_noind.pl | SEKO, ei indikaattoria eikä uria |
+| finto_slm-local.pl        | SLM |
+| finto_yso-kauno.pl        | YSO ja KAUNO |
+| finto_yso-kauno_noind.pl  | YSO ja KAUNO, ei indikaattoria |
+| finto_yso-aika.pl         | YSO-aika |
+| finto_yso-aika_noind.pl   | YSO-aika, ei indikaattoria |
+| finto-yso-aika_ind2_7.pl | YSO-aika, 2. indikaattoriksi 7 |
+| finto_ysopaikat.pl        | YSO-paikat |
+| finto_ysopaikat_noind.pl  | YSO-paikat, ei indikaattoria |
+
+
+
+Kuvailupohjissa on määritetty käyttöön seuraavat liitännäiset:
 
 | Kenttä | Osakenttä | Selite | Liitännäinen |
 |---|---|---|---|
@@ -46,6 +63,8 @@ KIR-kuvailupohjassa on määritetty käyttöön seuraavat liitännäiset:
 | 810      | a           | Yhteisönnimi                                      | finto_finaf.pl            |
 | 811      | a           | Kokouksen tai hallintoalueen nimi                 | finto_finaf.pl            |
 
+
+### Liitännäisten määrittäminen käyttöön
 
 Ylläpito -> MARC-kuvailupohjat
 
