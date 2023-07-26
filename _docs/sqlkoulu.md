@@ -6,13 +6,13 @@ redirect_FROM:
 toc: true
 ---
 
-Ohjeen tekijä: Johanna Räisä
+Ohjeen tekijä: Johanna Räisä<br />
 Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023
 
 
-"Koha-Suomen tietokantaskeema löytyy Dokumenteistä":https://tiketti.koha-suomi.fi/documents/52.
+[Kohan tietokantaskeema](https://schema.koha-community.org/)
 
-Tutkimusmatka Kohan tietokantaan -koulutuksen tallenne löytyy "täältä":https://youtu.be/lH7Z8OetO3c
+[Tutkimusmatka Kohan tietokantaan](https://youtu.be/lH7Z8OetO3c) -koulutuksen tallenne.
 
 ## SQL-lauseiden rakentaminen
 
@@ -149,7 +149,7 @@ Aloitus- ja lopetuspäivämäärien kuvaus eli yllä esim. AloitusPvm, kannattaa
 COUNT-komennolla voidaan laskea tulosjoukon rivien määrä yhteen.
 
 ```
-SELECT count(*) FROM items WHERE itype = 'KIRJA';
+SELECT count(*) FROM items WHERE itype = '28VRK';
 ```
 
 ## GROUP BY
@@ -259,7 +259,7 @@ WHERE b.borrowernumber = 1;
 
 Mallin lause antaa kaikki nykyiset ja vanhat lainat asiakkaalle, jonka borrowernumber on yksi.
 
-Kohan relaatiot löytyvät tietokantarakenteesta. http://schema.koha-community.org/
+Kohan relaatiot löytyvät [tietokantarakenteesta](http://schema.koha-community.org/). 
 Yleensä relaatiot on nimetty samalla nimellä, kuten mallissa kaikista tauluista löytyy borrowernumber-kenttä.
 
 ## Lauseen rakentaminen
