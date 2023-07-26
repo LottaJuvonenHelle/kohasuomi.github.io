@@ -212,19 +212,27 @@ Käytetään PowerBIn sisällä mittareita luotaessa.
 ### Lainausdataan liittyviä lausekkeita
 
 ```Lainojen määrä = count('Lainausdata'[Tapahtumatyyppi])```
+
 ```Ensilainojen määrä = CALCULATE('Mittarit'[Lainojen määrä],'Lainausdata'[Tapahtumatyyppi] IN {"issue"})```
+
 ```Lainaajien määrä = DISTINCTCOUNT('Lainausdata'[asiakas-id])```
+
 ```Lainaajien keski-ikä = AVERAGEX(SUMMARIZE(Lainausdata, Lainausdata[Asiakas-id], Lainausdata[Ikä]), Lainausdata[Ikä])```
 
 ### Nidedataan liittyviä lausekkeita
 
 ```Aineiston keski-ikä = AVERAGE('Nidedata'[aineiston ikä])```
+
 ```Niteiden määrä = count('Nidedata'[Nidenumero])```
+
 ```5 vuotta vanha aineisto = CALCULATE([Niteiden määrä], 'Nidedata'[aineiston ikä] IN {0,1,2,3,4})```
+
 ```5 vuotta vanhan aineiston osuus = DIVIDE('Mittarit'[5 vuotta vanha aineisto],'Mittarit'[Niteiden määrä])```
+
 ```Lainat / nide = DIVIDE(SUM('Nidedata'[Lainoja_yht.]), [Niteiden määrä])```
 
 Jotta saadaan laskettua aineiston, jota ei ole lainattu viiteen vuoteen (=1825 päivää) ja joka on saapunut yli 2 vuotta (=730 päivää) sitten, määrä ja osuus tarvitaan seuraavat mittarit:
+
 ```
 Viimeksi lainattu -mittari = SELECTEDVALUE('Niteet'[Viimeksi lainattu])
 Päiviä viime lainauksesta = DATEDIFF('Mittarit'[Viimeksi lainattu -mittari];TODAY();DAY)
@@ -237,5 +245,7 @@ Päiviä saapumisesta = DATEDIFF('Mittarit'[Saapumispäivä_mittari];TODAY();DAY
 ### Hankintoihin liittyviä lausekkeita
 
 ```Hankitut niteet = COUNT('Hankintadata'[itemnumber])```
+
 ```Ei-lainatut hankinnat = CALCULATE('Mittarit'[Hankitut niteet], 'Hankintadata'[Lainoja_yht.]=0)```
+
 ```Ei-lainattujen hankintojen osuus = DIVIDE([Ei-lainatut hankinnat], [Hankitut niteet])```
