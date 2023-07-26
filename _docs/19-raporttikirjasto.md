@@ -15,6 +15,10 @@ Tänne voi tallentaa valmiita SQL-raportteja. Laita raportti olemassa olevien ot
 
 [Täältä löydät lyhkäsen oppimäärän](/dokumentaatio/sqlkoulu/), miten Kohassa tehdään SQL-raportteja.
 
+## PowerBI
+
+PowerBI-ohjelmaa voi hyödyntää tilastojen visualisointiin. Tuomas Kunttu Kouvolasta on kerännyt SQL-kyselyitä ja DAX-lausekkeita [PowerBI-sivulle](/dokumentaatio/powerbi/).
+
 ## Hea-tilastot
 
 ### Tilastot Koha-yhteisön Hea-muodossa
