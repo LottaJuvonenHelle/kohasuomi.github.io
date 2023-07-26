@@ -7,7 +7,7 @@ toc: true
 ---
 
 Ohjeen tekijä: Johanna Räisä
-Päivittänyt: Anneli Österman / 3.4.2020
+Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023
 
 
 "Koha-Suomen tietokantaskeema löytyy Dokumenteistä":https://tiketti.koha-suomi.fi/documents/52.
@@ -284,7 +284,11 @@ Kohan tallennetuissa raporteissa voi käyttää ehdoissa hyväksi myös auktoris
 _sarakkeen nimi = <<Kuvaus tiedosta|auktorisoitu arvo>>_
 
 Se näkyy raportin ajovaiheessa näin:
-!kuvausauktORisoitu.jpg!
+![](/assets/files/docs/Ohjeet/sqlkoulu2.png)
+
+Arvoja saa lisättyä kyselyyn myös _Lisää ajoajan parametri_ -valikosta valitsemalla soveltuvan.
+
+![](/assets/files/docs/Ohjeet/sqlkoulu1.png)
 
 ### 1. Kirjasto
 
@@ -292,7 +296,7 @@ Se näkyy raportin ajovaiheessa näin:
 SELECT * FROM items WHERE homebranch=<<Valitse kirjasto|branches>>
 ```
 
-!kirjasto.png!
+![](/assets/files/docs/Ohjeet/sqlkoulu.png)
 
 tai
 
@@ -300,55 +304,74 @@ tai
 SELECT * FROM bORrowers WHERE branchcode=<<Asiakkaan kotikirjasto|branches>>
 ```
 
-## 2. Hyllypaikka
+### 2. Hyllypaikka
 
 ```
-SELECT * FROM items WHERE location=<<Hyllypaikka|loc>>
+SELECT * FROM items WHERE location=<<Valitse hyllypaikka|loc>>
 ```
 
-!hyllypaikka.png!
+![](/assets/files/docs/Ohjeet/sqlkoulu3.png)
 
-## 3. Aineistolaji
-
-```
-SELECT * FROM items WHERE itype=<<Aineistolaji|itemtypes>>
-```
-
-!aineistolajit.png!
-
-## 4. Kokoelma
+### 3. Nidetyyppi
 
 ```
-SELECT * FROM items WHERE ccode=<<Kokoelma|ccode>>
+SELECT * FROM items WHERE itype=<<Valitse nidetyyppi|itemtypes>>
 ```
 
-!kokoelma.png!
+![](/assets/files/docs/Ohjeet/sqlkoulu4.png)
 
-## 5. Päivämäärän valinta kalenterista
+
+### 4. Aineistotyyppi
+
+```
+SELECT * FROM biblioitems WHERE itemtype = <<Valitse aineistotyyppi|MTYPE>>
+```
+
+![](/assets/files/docs/Ohjeet/sqlkoulu5.png)
+
+### 5. Kokoelma
+
+```
+SELECT * FROM items WHERE ccode=<<Valitse kokoelma|CCODE>>
+```
+
+![](/assets/files/docs/Ohjeet/sqlkoulu6.png)
+
+### 6. Päivämäärän valinta kalenterista
 
 ```
 SELECT * FROM issues WHERE issue_date=<<Lainauspäivä|date>>
 ```
 
-!kalenterivalikko.png!
+![](/assets/files/docs/Ohjeet/sqlkoulu7.png)
 
-## 6. Linkin lisääminen rapORtille
+### 7. Linkin lisääminen raportille
 
-RapORttiin voi lisätä linkin esimerkiksi asiakkaaseen, teokseen, niteeseen, luettelointitietueeseen tai varaukseen. Se tehdään CONCAT-toiminnolla SELECT-riville. Kohdeosoitteen voi tarkistaa osoiteriviltä halutussa Kohan osiossa.
+Raporttiin voi lisätä linkin esimerkiksi asiakkaaseen, teokseen, niteeseen, luettelointitietueeseen tai varaukseen. Se tehdään CONCAT-toiminnolla SELECT-riville. Kohdeosoitteen voi tarkistaa osoiteriviltä halutussa Kohan osiossa.
 
-### Asiakkaaseen
+Versiosta 22.11 lähtien Koha lisää automaattisesti linkin asiakkaaseen, niteeseen ja tietueeseen, jos raportin tuloksissa on sarakkeessa borrowernumber, itemnuber tai biblionumber.
 
-Linkki asiakkaaseen siten, että tekstinä näkyy kirjastokORtin numero ja osoitteeseen lisätään asiakkaan bORrowernumber. Linkki avautuu uuteen välilehteen.
+![](/assets/files/docs/Ohjeet/sqlkoulu8.png)
+
+Jos klikkaat borrowernumberin, itemnumberin tai biblionumberin vieressä olevaa pientä kolmiota, pääset suoraan kyseisen asiakkaan, niteen tai tietueen tietoihin tai muokkaukseen. Asiakkaan osalta pääset myös suoraan lainaamaan.
+
+![](/assets/files/docs/Ohjeet/sqlkoulu9.png)
+
+Jos kuitenkin haluat näkyville esim. kirjastokortin numeron tai teoksen nimekkeen, alla on siihen ohjeet.
+
+#### 7.1 Asiakkaaseen
+
+Linkki asiakkaaseen siten, että tekstinä näkyy kirjastokortin numero ja osoitteeseen lisätään asiakkaan borrowernumber. Linkki avautuu uuteen välilehteen.
 
 ```
-SELECT CONCAT('<a href=\"/cgi-bin/koha/members/mORemember.pl?bORrowernumber=',b.bORrowernumber,'" target="_blank">',b.cardnumber,'</a>') AS 'Asiakas'
-FROM bORrowers b
+SELECT CONCAT('<a href=\"/cgi-bin/koha/members/mORemember.pl?borrowernumber=',b.bORrowernumber,'" target="_blank">',b.cardnumber,'</a>') AS 'Asiakas'
+FROM borrowers b
 WHERE zipcode=<<Postinumero>>
 ```
 
-b.cardnumber-tiedon sijalle voi periaatteessa laittaa minkä tahansa bORrowers-taulun tiedon, mutta kannattaa muistaa ettei tee turhia asiakastietojen katseluja rapORteillakaan.
+b.cardnumber-tiedon sijalle voi periaatteessa laittaa minkä tahansa borrowers-taulun tiedon, mutta kannattaa muistaa ettei tee turhia asiakastietojen katseluja raporteillakaan.
 
-### Teoksen perustiedot-näytölle
+#### 7.2 Teoksen perustiedot-näytölle
 
 Linkki teokseen siten, että tekstinä näkyy teoksen nimeke ja osoitteeseen lisätään teoksen biblionumber. Linkki avautuu uuteen välilehteen.
 
@@ -358,7 +381,7 @@ FROM biblio b
 WHERE datecreated BETWEEN <<Luontipäivä aikaisintaan|date>> AND <<Luontipäivä viimeistään|date>>
 ```
 
-###  Niteen muokkaukseen
+####  7.3 Niteen muokkaukseen
 
 Linkki tietyn niteen muokkaukseen niin, että osoitteeseen lisätään biblionumber, itemnumber ja linkkitekstiksi tulee viivakoodi. Linkki avautuu uuteen välilehteen.
 
@@ -368,7 +391,7 @@ FROM items i
 WHERE i.ccode='CELIA'
 ```
 
-### Tietueen muokkaukseen
+#### 7.4 Tietueen muokkaukseen
 
 Linkki tietueen muokkaukseen siten, että osoitteeseen lisätään biblionumber ja linkin tekstiksi tulee biblionumber. Linkin tekstiksi voi helposti muokata myös teoksen nimen halutessaan vaihtamalla jälkimmäiseen b.biblionumber-kohtaan b.title. Linkki avautuu uuteen välilehteen.
 
@@ -378,9 +401,9 @@ FROM biblio b
 WHERE datecreated=<<Valitse päivä|date>>
 ```
 
-### Varausjonoon
+#### 7.5 Varausjonoon
 
-Linkki tietueen varausjonoon siten, että linkkitekstinä on tietueen title. Linkki avautuu uuteen välilehteen.
+Linkki tietueen varausjonoon siten, että linkkitekstinä on tietueen nimeke. Linkki avautuu uuteen välilehteen.
 
 ```
 SELECT CONCAT('<a href=\"/cgi-bin/koha/reserve/request.pl?biblionumber=',b.biblionumber,'" target="_blank">',b.title,'</a>') AS 'Varausjonoon'
@@ -389,11 +412,11 @@ JOIN biblio b USING (biblionumber)
 WHERE r.branchcode=<<Valitse noutokirjasto|branches>>
 ```
 
-## Pölkyillä vai ei?
+### 8. Pölkyillä vai ei?
 
 Monesti kyselyt kirjoitetaan niin, että "käskyt" kirjoitetaan pölkkykirjaimin, jolloin ne on helpompi erottaa tekstin seasta. Kohan kannalta ei ole merkitystä, kirjoitetaanko pölkyillä vai ei.
 
-## Ei toimi?
+### 9. Ei toimi?
 
-* tarkista, että hipsuilla " tai ' on vastakappaleet, monesti ne esiintyvät pareittain
-* tarkista kirjoitusvirheet. Esimerkiksi biblionumber-sanan voi kirjoittaa kovin monella tapaa väärin (bilionumber, biblionumer..)
+* tarkista, että hipsuilla " tai ' on vastakappaleet, monesti ne esiintyvät pareittain.
+* tarkista kirjoitusvirheet. Esimerkiksi biblionumber-sanan voi kirjoittaa kovin monella tapaa väärin (bilionumber, biblionumer..).
