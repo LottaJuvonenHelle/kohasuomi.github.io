@@ -11,6 +11,10 @@ Tälle sivulle on kerätty erilaisia SQL-raportteja.
 
 Tänne voi tallentaa valmiita SQL-raportteja. Laita raportti olemassa olevien otsikoiden alle tai lisää uusi otsikko, jos mikään ei sovellu tarkoitukseen. Kuvaa raportin toiminta ja laita myös nimesi ja lisäyspäivä kuvauksen alle.
 
+## Miten tehdä SQL-raportteja
+
+[Täältä löydät lyhkäsen oppimäärän](/dokumentaatio/sqlkoulu/), miten Kohassa tehdään SQL-raportteja.
+
 ## Hea-tilastot
 
 ### Tilastot Koha-yhteisön Hea-muodossa
