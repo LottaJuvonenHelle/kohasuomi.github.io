@@ -1,5 +1,5 @@
 ---
-title: 'Miten tehdä SQL-rapORtteja'
+title: 'Miten tehdä SQL-raportteja'
 permalink: /dokumentaatio/sqlkoulu/
 redirect_FROM:
   - /theme-setup/
@@ -22,21 +22,21 @@ Lause, jolla haetaan tietoa tietokannasta.
 Yksinkertaisimmillaan lause on:
 
 ```
-SELECT * FROM bORrowers;
+SELECT * FROM borrowers;
 ```
 
-Tällä komennolla haetaan kaikki taulun kentät ilman rajausta. Tätä tulee välttää rapORtteja luodessa, niissä pitäisi määritellä tarvittavat kentät.
+Tällä komennolla haetaan kaikki taulun kentät ilman rajausta. Tätä tulee välttää raportteja luodessa, niissä pitäisi määritellä tarvittavat kentät.
 
 Taulusta voidaan myös kysellä pelkästään tiettyjä kenttiä kirjoittamalla tähden tilalle halutut kentät.
 
 ```
-SELECT bORrowernumber, cardnumber, address FROM bORrowers;
+SELECT borrowernumber, cardnumber, address FROM borrowers;
 ```
 
 Kenttien nimiä voidaan myös muuttaa, jos ei haluta näyttää englanninkielisiä sarakeotsikoita. Tämä tapahtuu "as"-sanalla.
 
 ```
-SELECT bORrowernumber as 'Asiakasnumero', cardnumber as 'KORtin numero', address as 'Osoite' FROM bORrowers;
+SELECT borrowernumber as 'Asiakasnumero', cardnumber as 'Kortin numero', address as 'Osoite' FROM borrowers;
 ```
 
 Nimi kannattaa laittaa yksöishipsuihin, varsinkin jos se on kaksiosainen tai sisältää ääkkösiä.
@@ -46,7 +46,7 @@ Nimi kannattaa laittaa yksöishipsuihin, varsinkin jos se on kaksiosainen tai si
 Jos halutaan rajata haku tiettyjen parametrien mukaan, niin silloin SELECT-lauseeseen lisätään WHERE-komento.
 
 ```
-SELECT * FROM bORrowers WHERE categORycode = 'LAPSI';
+SELECT * FROM borrowers WHERE categorycode = 'LAPSI';
 ```
 
 Arvot, joissa on kirjaimia tulee olla hipsujen sisässä. Jos et tiedä onko kenttä numerokenttä, niin on turvallisinta ympäröidä hipsuilla.
