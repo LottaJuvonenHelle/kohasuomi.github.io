@@ -16,6 +16,21 @@ Päivittänyt: Anneli Österman / 3.4.2020 / 26.7.2023
 
 ## SQL-lauseiden rakentaminen
 
+### Lauseen rakentaminen
+
+Lausetta rakentaessa kannattaa ensin miettiä mikä on päätaulu, eli mitä tietoa halutaan ja tarvitseeko siihen yhdistellä muita tauluja.
+
+Esimerkki: Haluan asiakkaat ja niille maksut ajalta 01.06.2022-10.06.2022, lisäksi sellaiset maksut joita ei ole vielä maksettu. Järjestetään ne vielä päivämäärän mukaan laskevasti, eli uusimmasta vanhimpaan.
+
+```
+SELECT b.surname as 'Sukunimi', b.firstname as 'Etunimi', a.amountoutstANDing as 'Maksun määrä', a.description as 'Kuvaus' FROM borrowers b
+JOIN accountlines a on b.borrowernumber = a.borrowernumber
+WHERE a.amountoutstanding != 0 AND date(a.date) between '2022-06-01' AND '2022-06-10' ORDER BY date desc;
+```
+
+Kannattaa myös katsoa ensin [Koha-yhteisön raporttikirjastosta](https://wiki.koha-community.org/wiki/SQL_Reports_Library) onko siellä mallia, josta saisi pienellä muokkauksella sopivan.
+
+
 ### SELECT-lause
 
 Lause, jolla haetaan tietoa tietokannasta.
@@ -262,20 +277,6 @@ Mallin lause antaa kaikki nykyiset ja vanhat lainat asiakkaalle, jonka borrowern
 Kohan relaatiot löytyvät [tietokantarakenteesta](http://schema.koha-community.org/). 
 Yleensä relaatiot on nimetty samalla nimellä, kuten mallissa kaikista tauluista löytyy borrowernumber-kenttä.
 
-## Lauseen rakentaminen
-
-Lausetta rakentaessa kannattaa miettiä mikä on päätaulu, eli mitä tietoa halutaan ja tarvitseeko siihen yhdistellä muita tauluja.
-
-Esimerkki: Haluan asiakkaat ja niille maksut ajalta 01.06.2022-10.06.2022, lisäksi sellaiset maksut joita ei ole vielä maksettu. Järjestetään ne vielä päivämäärän mukaan laskevasti, eli uusimmasta vanhimpaan.
-
-```
-SELECT b.surname as 'Sukunimi', b.firstname as 'Etunimi', a.amountoutstANDing as 'Maksun määrä', a.description as 'Kuvaus' FROM borrowers b
-JOIN accountlines a on b.borrowernumber = a.borrowernumber
-WHERE a.amountoutstanding != 0 AND date(a.date) between '2022-06-01' AND '2022-06-10' ORDER BY date desc;
-```
-
-Kannattaa myös katsoa ensin [Koha-yhteisön raporttikirjastosta](https://wiki.koha-community.org/wiki/SQL_Reports_Library) onko siellä mallia, josta saisi pienellä muokkauksella sopivan.
-
 
 ## Tallennetut raportit
 
@@ -412,11 +413,11 @@ JOIN biblio b USING (biblionumber)
 WHERE r.branchcode=<<Valitse noutokirjasto|branches>>
 ```
 
-### 8. Pölkyillä vai ei?
+## Pölkyillä vai ei?
 
 Monesti kyselyt kirjoitetaan niin, että "käskyt" kirjoitetaan pölkkykirjaimin, jolloin ne on helpompi erottaa tekstin seasta. Kohan kannalta ei ole merkitystä, kirjoitetaanko pölkyillä vai ei.
 
-### 9. Ei toimi?
+## Ei toimi?
 
 * tarkista, että hipsuilla " tai ' on vastakappaleet, monesti ne esiintyvät pareittain.
 * tarkista kirjoitusvirheet. Esimerkiksi biblionumber-sanan voi kirjoittaa kovin monella tapaa väärin (bilionumber, biblionumer..).
