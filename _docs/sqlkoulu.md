@@ -282,7 +282,9 @@ Yleensä relaatiot on nimetty samalla nimellä, kuten mallissa kaikista tauluist
 
 Kohan tallennetuissa raporteissa voi käyttää ehdoissa hyväksi myös auktorisoituja arvoja, jolloin ne saadaan kyselyn ajovaiheessa alasvetovalikkoon. Ne määritellään käyttöön seuraavasti:
 
-_sarakkeen nimi = <<Kuvaus tiedosta|auktorisoitu arvo>>_
+```
+sarakkeen nimi = <<Kuvaus tiedosta|auktorisoitu arvo>>
+```
 
 Se näkyy raportin ajovaiheessa näin:
 ![](/assets/files/docs/Ohjeet/sqlkoulu2.png)
