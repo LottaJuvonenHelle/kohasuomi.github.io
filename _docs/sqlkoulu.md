@@ -152,7 +152,7 @@ COUNT-komennolla voidaan laskea tulosjoukon rivien määrä yhteen.
 SELECT count(*) FROM items WHERE itype = '28VRK';
 ```
 
-## GROUP BY
+### GROUP BY
 
 GROUP BY -komennolla voidaan ryhmitellä tulosjoukkoa.
 
@@ -178,7 +178,7 @@ SELECT * FROM borrowers ORDER BY surname DESC;
 
 Mallin lause järjestää tulosjoukon sukunimen mukaan laskevasti (descending), eli Ö:stä A:han.
 
-## LIMIT
+### LIMIT
 
 LIMIT-komennolla voidaan rajata hakutuloksen tulosjoukkoa.
 
@@ -189,7 +189,7 @@ SELECT * FROM borrowers LIMIT 100;
 Mallin  lause hakee 100 ensimmäistä riviä borrowers-taulusta.
 
 
-## CONCAT
+### CONCAT
 
 CONCAT-komennolla voidaan muodostaa yhtenäisiä merkkijonoja. 
 
@@ -199,7 +199,7 @@ SELECT concat(b.surname,' ', b.firstname) as 'Asiakas' FROM borrowers WHERE cate
 
 Mallissa yhteen sarakkeeseen tulee asiakkaan sukunimi, väli ja etunimi.
 
-## ExtractValue
+### ExtractValue
 
 ExtractValue-komennolla voidaan kysellä tietoa kentän sisällä olevasta rakenteesta. Kannattaa huomioida, että nämä voivat hidastaa kyselyä.
 
@@ -229,7 +229,7 @@ Kiinteämittaisista kentistä 007-kentässä 1. merkkipaikalta 2 merkkiä eteenp
 SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"]'),1,2) IN ('ss')
 ```
 
-## NULL ja tyhjä
+### NULL ja tyhjä
 
 Tietokannassa voi olla kahden tyyppisiä "tyhjiä"-kenttiä. NULL tarkoittaa, että kenttään ei ole määritelty mitään. Toinen vaihtoehto on, että kentässä on tyhjä merkkijono. NULL-määreen kanssa käytetään IS-sanaa =-merkin tilalla. Negatiivisia hakuja tehdessä käytetään 'IS NOT NULL'.
 
@@ -246,7 +246,7 @@ SELECT * FROM items WHERE (barcode IS NULL OR barcode = '') AND homebranch = 'ML
 
 Mallin tulosjoukko muodostuu niteistä, joilla ei ole viivakoodia. *Huomaa sulut OR-vertailujen ympärillä!* Jos sekoitellaan AND- ja OR-vertailua, niin OR pitää ympyröidä suluilla.
 
-## Relaatiot
+### Relaatiot
 
 Relaatioilla tarkoitetaan tauluja yhdistäviä tekijöitä, kuten asiakkaiden relaatiota lainoihin.
 
