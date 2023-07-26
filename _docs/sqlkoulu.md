@@ -1,7 +1,7 @@
 ---
-title: 'Miten tehdä SQL-raportteja'
+title: 'Miten tehdä SQL-rapORtteja'
 permalink: /dokumentaatio/sqlkoulu/
-redirect_from:
+redirect_FROM:
   - /theme-setup/
 toc: true
 ---
@@ -14,53 +14,57 @@ Päivittänyt: Anneli Österman / 3.4.2020
 
 Tutkimusmatka Kohan tietokantaan -koulutuksen tallenne löytyy "täältä":https://youtu.be/lH7Z8OetO3c
 
-# SQL-lauseiden rakentaminen
+## SQL-lauseiden rakentaminen
 
-## Select-lause
+### SELECT-lause
 
 Lause, jolla haetaan tietoa tietokannasta.
 Yksinkertaisimmillaan lause on:
+
 ```
-select * from borrowers;
+SELECT * FROM bORrowers;
 ```
-Tällä komennolla haetaan kaikki taulun kentät ilman rajausta. Tätä tulee välttää raportteja luodessa, niissä pitäisi määritellä tarvittavat kentät.
+
+Tällä komennolla haetaan kaikki taulun kentät ilman rajausta. Tätä tulee välttää rapORtteja luodessa, niissä pitäisi määritellä tarvittavat kentät.
 
 Taulusta voidaan myös kysellä pelkästään tiettyjä kenttiä kirjoittamalla tähden tilalle halutut kentät.
 
 ```
-select borrowernumber, cardnumber, address from borrowers;
+SELECT bORrowernumber, cardnumber, address FROM bORrowers;
 ```
 
-Kenttien nimiä voidaan myös muuttaa, jos ei haluta näyttää englanninkielisiä. Tämä tapahtuu "as"-sanalla.
+Kenttien nimiä voidaan myös muuttaa, jos ei haluta näyttää englanninkielisiä sarakeotsikoita. Tämä tapahtuu "as"-sanalla.
 
 ```
-select borrowernumber as 'Asiakasnumero', cardnumber as 'Kortin numero', address as 'Osoite' from borrowers;
+SELECT bORrowernumber as 'Asiakasnumero', cardnumber as 'KORtin numero', address as 'Osoite' FROM bORrowers;
 ```
 
-## Where
+Nimi kannattaa laittaa yksöishipsuihin, varsinkin jos se on kaksiosainen tai sisältää ääkkösiä.
 
-Jos halutaan rajata haku tiettyjen parametrien mukaan, niin silloin select-lauseeseen lisätään where-komento.
+### WHERE
+
+Jos halutaan rajata haku tiettyjen parametrien mukaan, niin silloin SELECT-lauseeseen lisätään WHERE-komento.
 
 ```
-select * from borrowers where category = 'LAPSI';
+SELECT * FROM bORrowers WHERE categORycode = 'LAPSI';
 ```
 
 Arvot, joissa on kirjaimia tulee olla hipsujen sisässä. Jos et tiedä onko kenttä numerokenttä, niin on turvallisinta ympäröidä hipsuilla.
 
-Where-komentoon voi lisätä useita rajoituksia and- ja or-sanalla.
+WHERE-komentoon voi lisätä useita rajoituksia AND- ja OR-sanalla.
 
 ```
-select * from items where itype = 'KIRJA' and location = 'A';
-select * from items where itype = 'KIRJA' or itype = 'CD';
+SELECT * FROM items WHERE itype = '28VRK' AND location = 'A';
+SELECT * FROM items WHERE itype = '14VRK' OR itype = '28VRK';
 ```
 
-Mallissa And-sanan tulosjoukko muodostuu riveistä, joilla on aineistolaji kirja ja hyllypaikka aikuiset.
-Mallissa Or-sanan tulosjoukko muodostuu riveistä, joilla on aineistolaji kirja tai aineistolaji cd. Eli tulosjoukko muodostuu kummastakin aineistolajista.
+Mallissa AND-sanan tulosjoukko muodostuu riveistä, joilla on nidetyyppi 28VRK ja hyllypaikka aikuiset.
+Mallissa OR-sanan tulosjoukko muodostuu riveistä, joilla on nidetyyppi 14VRK tai nidetyyppi 28VRK. Eli tulosjoukko muodostuu kummastakin nidetyypistä.
 
-Joskus on helpompi saada tulosjoukko rajoittamalla negatiivisesti.
+Joskus on helpompi saada tulosjoukko rajoittamalla negatiivisesti. Siihen käytetään määritystä !=
 
 ```
-select * from items where itype != 'EKIRJA' and homebranch = 'MLI_PK';
+SELECT * FROM items WHERE itype != '28VRK' AND homebranch = 'MLI_PK';
 ```
 
 Mallin haussa tulosjoukko muodostuu Mikkelin pääkirjaston kaikista muista niteistä paitsi e-kirjasta.
@@ -68,46 +72,46 @@ Mallin haussa tulosjoukko muodostuu Mikkelin pääkirjaston kaikista muista nite
 Jos Kohassa halutaan valita kirjastopiste ennen raportin käynnistystä niin silloin raporttin laitetaan ohjelmoitu valintatyökalu.
 
 ```
-select * from items where itype != 'EKIRJA' and homebranch=<<Kotikirjasto|branches>>;
+SELECT * FROM items WHERE itype != '28VRK' AND homebranch=<<Kotikirjasto|branches>>;
 ```
 
-Käyttääksesi where-rajauksia sinun tulee tietää tunnusarvot. Tietokannassa käytetään lyhyitä tunnuksia, joilla on nopeampi hakea. Kuvaukset ovat yleensä ihmisiä varten ja ne näytetään vain käyttöliittymässä.
+Käyttääksesi WHERE-rajauksia sinun tulee tietää tunnusarvot. Tietokannassa käytetään lyhyitä tunnuksia, joilla on nopeampi hakea. Kuvaukset ovat yleensä ihmisiä varten ja ne näytetään vain käyttöliittymässä.
 
-## Like
+### LIKE
 
-Select-lauseissa voidaan käyttää vertailussa myös like-sanaa. Esim, jos halutaan jonkun tietyn kunnan kirjastopisteet samaan tulosjoukkoon.
-
-```
-select * from items where homebranch like 'MLI%';
-```
-
-Mallin tulosjoukkoon tulee kaikki niteet kirjastopisteistä joiden lyhenne alkaa sanalla MLI. Like-vertailussa pystytään käyttämään %-merkkiä, joka toimii villinä korttina haussa. Tämä on todella paljon hitaampaa, kuin suoraan =-merkillä muodostettu lause.
-
-Like-komennossakin on mahdollisuus negatiiviseen rakenteeseen.
+SELECT-lauseissa voidaan käyttää vertailussa myös LIKE-sanaa. Esim, jos halutaan jonkun tietyn kunnan kirjastopisteet samaan tulosjoukkoon.
 
 ```
-select * from items where homebranch not like 'MLI%';
+SELECT * FROM items WHERE homebranch LIKE 'MLI%';
 ```
 
-## Join
+Mallin tulosjoukkoon tulee kaikki niteet kirjastopisteistä joiden lyhenne alkaa sanalla MLI. LIKE-vertailussa pystytään käyttämään %-merkkiä, joka toimii villinä korttina haussa. Tämä on todella paljon hitaampaa, kuin suoraan =-merkillä muodostettu lause.
 
-Haussa tulosjoukkoon saadaan tietoa muista tauluista relaatioiden avulla. Join-komento on keskeisessä roolissa tässä yhdistelyssä.
+LIKE-komennossakin on mahdollisuus negatiiviseen rakenteeseen. Tällöin käytetään määritettä 'NOT LIKE'.
 
 ```
-select b.author as 'Tekijä', b.title as 'Nimeke', i.location as 'Hyllypaikka', i.homebranch as 'Kotikirjasto' from items i 
-join biblio b on i.biblionumber = b.biblionumber 
-where i.itype = 'KIRJA';
+SELECT * FROM items WHERE homebranch NOT LIKE 'MLI%';
 ```
 
-Mallissa yhdistetään items-taulu ja biblio-taulu ja otetaan kummastakin tietoa tulosjoukkoon. Lauseessa tauluille on annettu lyhenteet, joita käytetään selventämään mistä taulusta tieto pitäisi tulla. Jos tauluissa on paljon saman nimisiä kenttiä, sql ei tiedä kummasta on kyse, siksi kentän eteen tulee laittaa tietoa taulusta joko taulun koko nimellä tai sitten määritellyllä lyhenteellä.
+### JOIN
+
+Haussa tulosjoukkoon saadaan tietoa muista tauluista relaatioiden avulla. JOIN-komento on keskeisessä roolissa tässä yhdistelyssä.
+
+```
+SELECT b.author as 'Tekijä', b.title as 'Nimeke', i.location as 'Hyllypaikka', i.homebranch as 'Kotikirjasto' FROM items i 
+JOIN biblio b on i.biblionumber = b.biblionumber 
+WHERE i.itype = '28VRK';
+```
+
+Mallissa yhdistetään items-taulu ja biblio-taulu ja otetaan kummastakin tietoa tulosjoukkoon. Lauseessa tauluille on annettu lyhenteet, joita käytetään selventämään mistä taulusta tieto pitäisi tulla. Jos tauluissa on paljon saman nimisiä kenttiä, SQL ei tiedä kummasta on kyse, siksi kentän eteen tulee laittaa tietoa taulusta joko taulun koko nimellä tai sitten määritellyllä lyhenteellä.
 
 Lauseessa voi olla ääretön määrä join-komentoja, jos vain tauluilla on jokin yhdistävä kenttä (relaatio). Kuitenkin mitä enemmän yhdistetään taulujen tietoa sitä hitaammaksi haut käyvät.
 
-Join-komentoja on erilaisia. "Katso visuaalinen esittely joinien eroista":https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins
+JOIN-komentoja on erilaisia. [Katso visuaalinen esittely JOINien eroista](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins).
 
-## Taulujen aliakset
+### Taulujen aliakset
 
-Kyselyssä voi määrittää tauluille aliaksen, jolla voi viitata muualla kyselyssä. Tämä on helppo ja nopea tapa kertoa, mistä taulusta tieto halutaan hakea, jos useassa taulussa on sama sarake käytössä. Jos taulua ei määrittele, ilmoittaa Koha tiedon olevan "ambiguous" eli epämääräinen eikä aja raporttia.
+Kyselyssä voi määrittää tauluille aliaksen, jolla voi viitata muualla kyselyssä tauluun. Tämä on helppo ja nopea tapa kertoa, mistä taulusta tieto halutaan hakea, jos useassa taulussa on sama sarake käytössä. Jos taulua ei määrittele, ilmoittaa Koha tiedon olevan "ambiguous" eli epämääräinen eikä aja raporttia.
 
 Aliaksen voi keksiä itse, mutta se kannattaa olla helposti muistettava ja lyhyt. Alias kirjoitetaan kyselyssä heti taulun nimen perään. Alla olevassa kyselyssä biblionumber löytyy kummastakin taulusta, joten se on määritetty haettavaksi biblio-taulusta.
 
@@ -118,14 +122,14 @@ JOIN items i USING (biblionumber)
 WHERE i.holdingbranch='OUPK'
 ```
 
-## Ajalla rajaaminen
+### Ajalla rajaaminen
 
-Tulosjoukkon rajaaminen ajan mukaan voidaan määritellä monella eri tavalla, mutta yksin kertaisin on opetella between-lause.
+Tulosjoukkon rajaaminen ajan mukaan voidaan määritellä monella eri tavalla, mutta yksin kertaisin on opetella BETWEEN-lause.
 
 ```
 SELECT *
 FROM items
-WHERE date(dateaccessioned) BETWEEN '2016-01-01' AND '2016-12-31';
+WHERE date(dateaccessioned) BETWEEN '2022-01-01' AND '2022-12-31';
 ```
 
 Tietokannassa päivämäärät ovat yleensä muodossa 2016-01-01 12:00:00, mallin lauseessa halutaan vain päiväys eikä kellonaikaa. Siksi päivämäärä-kenttä on ympyröity date:lla.
@@ -138,57 +142,59 @@ FROM items
 WHERE date(dateaccessioned) BETWEEN <<AloitusPvm |date>> AND <<LopetusPvm |date>>;
 ```
 
-## Count
+Aloitus- ja lopetuspäivämäärien kuvaus eli yllä esim. AloitusPvm, kannattaa olla eri nimiset, muuten Koha yhdistelee ne samaksi kentäksi.
 
-Count-komennolla voidaan laskea tulosjoukon rivien määrä yhteen.
+### COUNT
 
-```
-select count(*) from items where itype = 'KIRJA';
-```
-
-## Group by
-
-"Group by"-komennolla voidaan ryhmitellä tulosjoukkoa.
+COUNT-komennolla voidaan laskea tulosjoukon rivien määrä yhteen.
 
 ```
-select * from issues group by itemnumber;
+SELECT count(*) FROM items WHERE itype = 'KIRJA';
 ```
 
-Mallin lause antaa lainat-taulusta tulosjoukon niteen numeron mukaan, eli joka rivillä on eri itemnumber. Tätä joudutaan käyttämään joskus jos tulosjoukkoon tulee paljon samoja rivejä. Tämä ei toimi yhdessä countin kanssa.
+## GROUP BY
 
-## Order by
-
-"Order by"-komennolla voidaan järjestää tulosjoukkoa halutulla tavalla.
+GROUP BY -komennolla voidaan ryhmitellä tulosjoukkoa.
 
 ```
-select * from borrowers order by surname asc;
+SELECT * FROM issues group by itemnumber;
 ```
 
-Mallin lause järjestää tulosjoukon sukunimen mukaan nousevasti, eli A:sta Ö:hön.
+Mallin lause antaa lainat-taulusta tulosjoukon niteen numeron mukaan, eli joka rivillä on eri itemnumber. Tätä joudutaan käyttämään joskus jos tulosjoukkoon tulee paljon samoja rivejä.
+
+### ORDER BY
+
+ORDER BY -komennolla voidaan järjestää tulosjoukkoa halutulla tavalla.
 
 ```
-select * from borrowers order by surname desc;
+SELECT * FROM borrowers ORDER BY surname ASC;
 ```
 
-Mallin lause järjestää tulosjoukon sukunimen mukaan laskevasti, eli Ö:stä A:han.
-
-## Limit
-
-"Limit"-komennolla voidaan rajata hakutuloksen tulosjoukkoa.
+Mallin lause järjestää tulosjoukon sukunimen mukaan nousevasti (ascending), eli A:sta Ö:hön.
 
 ```
-select * from borrowers limit 100;
+SELECT * FROM borrowers ORDER BY surname DESC;
+```
+
+Mallin lause järjestää tulosjoukon sukunimen mukaan laskevasti (descending), eli Ö:stä A:han.
+
+## LIMIT
+
+LIMIT-komennolla voidaan rajata hakutuloksen tulosjoukkoa.
+
+```
+SELECT * FROM borrowers LIMIT 100;
 ```
 
 Mallin  lause hakee 100 ensimmäistä riviä borrowers-taulusta.
 
 
-## Concat
+## CONCAT
 
-Concat-komennolla voidaan muodostaa yhtenäisiä merkkijonoja. 
+CONCAT-komennolla voidaan muodostaa yhtenäisiä merkkijonoja. 
 
 ```
-select concat(b.surname,' ', b.firstname) as 'Asiakas' from borrowers where category = 'HENKILO';
+SELECT concat(b.surname,' ', b.firstname) as 'Asiakas' FROM borrowers WHERE categorycode = 'HENKILO';
 ```
 
 Mallissa yhteen sarakkeeseen tulee asiakkaan sukunimi, väli ja etunimi.
@@ -198,17 +204,17 @@ Mallissa yhteen sarakkeeseen tulee asiakkaan sukunimi, väli ja etunimi.
 ExtractValue-komennolla voidaan kysellä tietoa kentän sisällä olevasta rakenteesta. Kannattaa huomioida, että nämä voivat hidastaa kyselyä.
 
 ```
-select * from biblio_metadata bm
-where ExtractValue(bm.metadata, '//datafield[@tag="773"]/subfield[@code="w"]') = '';
+SELECT * FROM biblio_metadata bm
+WHERE ExtractValue(bm.metadata, '//datafield[@tag="773"]/subfield[@code="w"]') = '';
 ```
 
 Jos MARC-kentän tiedot halutaan hakea vain taulukon sarakkeeseen, sen voi tehdä näin:
 
 ```
-select title, ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]')
+SELECT title, ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]')
 FROM biblio_metadata bm
 JOIN biblio b using (biblionumber)
-where biblionumber=1234
+WHERE biblionumber=1234
 ```
 
 Mallissa mennään marcxml-kentän sisälle ja tarkastellaan xml-rakennetta. Mallin haku antaa tulosjoukoksi luettelointitiedot, joilla ei ole kenttää 773w eli se on tyhjä.
@@ -223,32 +229,32 @@ Kiinteämittaisista kentistä 007-kentässä 1. merkkipaikalta 2 merkkiä eteenp
 SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="007"]'),1,2) IN ('ss')
 ```
 
-## Null ja tyhjä
+## NULL ja tyhjä
 
-Tietokannassa voi olla kahden tyyppisiä "tyhjiä"-kenttiä. Null tarkoittaa, että kenttään ei ole määritelty mitään. Toinen vaihtoehto on, että kentässä on tyhjä merkkijono.
+Tietokannassa voi olla kahden tyyppisiä "tyhjiä"-kenttiä. NULL tarkoittaa, että kenttään ei ole määritelty mitään. Toinen vaihtoehto on, että kentässä on tyhjä merkkijono. NULL-määreen kanssa käytetään IS-sanaa =-merkin tilalla. Negatiivisia hakuja tehdessä käytetään 'IS NOT NULL'.
 
 ```
-select * from items where barcode is null and homebranch = 'MLI_PK';
-select * from items where barcode = '' and homebranch = 'MLI_PK';
+SELECT * FROM items WHERE barcode IS NULL AND homebranch = 'MLI_PK';
+SELECT * FROM items WHERE barcode = '' AND homebranch = 'MLI_PK';
 ```
 
 Jos "tyhjiä" halutaan käyttää vertailussa niin silloin kannattaa testata kumpaakin yhtä aikaa.
 
 ```
-select * from items where (barcode is null or barcode = '') and homebranch = 'MLI_PK';
+SELECT * FROM items WHERE (barcode IS NULL OR barcode = '') AND homebranch = 'MLI_PK';
 ```
 
-Mallin tulosjoukko muodostuu niteistä, joilla ei ole viivakoodia. *Huomaa sulut or-vertailujen ympärillä!* Jos sekoitellaan and- ja or-vertailua, niin or pitää ympyröidä suluilla.
+Mallin tulosjoukko muodostuu niteistä, joilla ei ole viivakoodia. *Huomaa sulut OR-vertailujen ympärillä!* Jos sekoitellaan AND- ja OR-vertailua, niin OR pitää ympyröidä suluilla.
 
-h1. Relaatiot
+## Relaatiot
 
 Relaatioilla tarkoitetaan tauluja yhdistäviä tekijöitä, kuten asiakkaiden relaatiota lainoihin.
 
 ```
-select count(*) from borrowers b
-join issues i on b.borrowernumber = i.borrowernumber
-join old_issues oi on b.borrowernumber = oi.borrowernumber
-where b.borrowernumber = 1;
+SELECT count(*) FROM borrowers b
+JOIN issues i on b.borrowernumber = i.borrowernumber
+JOIN old_issues oi on b.borrowernumber = oi.borrowernumber
+WHERE b.borrowernumber = 1;
 ```
 
 Mallin lause antaa kaikki nykyiset ja vanhat lainat asiakkaalle, jonka borrowernumber on yksi.
@@ -256,31 +262,31 @@ Mallin lause antaa kaikki nykyiset ja vanhat lainat asiakkaalle, jonka borrowern
 Kohan relaatiot löytyvät tietokantarakenteesta. http://schema.koha-community.org/
 Yleensä relaatiot on nimetty samalla nimellä, kuten mallissa kaikista tauluista löytyy borrowernumber-kenttä.
 
-h1. Lauseen rakentaminen
+## Lauseen rakentaminen
 
 Lausetta rakentaessa kannattaa miettiä mikä on päätaulu, eli mitä tietoa halutaan ja tarvitseeko siihen yhdistellä muita tauluja.
 
-Esimerkki: Haluan asiakkaat ja niille maksut ajalta 01.06.2016-10.06-2016, lisäksi sellaiset maksut joita ei ole vielä maksettu. Järjestetään ne vielä päivämäärän mukaan laskevasti, eli uusimmasta vanhimpaan.
+Esimerkki: Haluan asiakkaat ja niille maksut ajalta 01.06.2022-10.06.2022, lisäksi sellaiset maksut joita ei ole vielä maksettu. Järjestetään ne vielä päivämäärän mukaan laskevasti, eli uusimmasta vanhimpaan.
 
 ```
-SELECT b.surname as 'Sukunimi', b.firstname as 'Etunimi', a.amountoutstanding as 'Maksun määrä', a.description as 'Kuvaus' FROM borrowers b
-join accountlines a on b.borrowernumber = a.borrowernumber
-where a.amountoutstanding != 0 and date(a.date) between '2016-06-01' and '2016-06-10' order by date desc;
+SELECT b.surname as 'Sukunimi', b.firstname as 'Etunimi', a.amountoutstANDing as 'Maksun määrä', a.description as 'Kuvaus' FROM borrowers b
+JOIN accountlines a on b.borrowernumber = a.borrowernumber
+WHERE a.amountoutstanding != 0 AND date(a.date) between '2022-06-01' AND '2022-06-10' ORDER BY date desc;
 ```
 
-Kannattaa myös katsoa ensin Koha-yhteisön raporttipohjista onko siellä mallia, josta saisi pienellä muokkauksella sopivan.
-https://wiki.koha-community.org/wiki/SQL_Reports_Library
+Kannattaa myös katsoa ensin [Koha-yhteisön raporttikirjastosta](https://wiki.koha-community.org/wiki/SQL_Reports_Library) onko siellä mallia, josta saisi pienellä muokkauksella sopivan.
 
-h1. Tallennetut raportit
+
+## Tallennetut raportit
 
 Kohan tallennetuissa raporteissa voi käyttää ehdoissa hyväksi myös auktorisoituja arvoja, jolloin ne saadaan kyselyn ajovaiheessa alasvetovalikkoon. Ne määritellään käyttöön seuraavasti:
 
 _sarakkeen nimi = <<Kuvaus tiedosta|auktorisoitu arvo>>_
 
 Se näkyy raportin ajovaiheessa näin:
-!kuvausauktorisoitu.jpg!
+!kuvausauktORisoitu.jpg!
 
-## 1. Kirjasto
+### 1. Kirjasto
 
 ```
 SELECT * FROM items WHERE homebranch=<<Valitse kirjasto|branches>>
@@ -291,7 +297,7 @@ SELECT * FROM items WHERE homebranch=<<Valitse kirjasto|branches>>
 tai
 
 ```
-SELECT * FROM borrowers WHERE branchcode=<<Asiakkaan kotikirjasto|branches>>
+SELECT * FROM bORrowers WHERE branchcode=<<Asiakkaan kotikirjasto|branches>>
 ```
 
 ## 2. Hyllypaikka
@@ -326,21 +332,21 @@ SELECT * FROM issues WHERE issue_date=<<Lainauspäivä|date>>
 
 !kalenterivalikko.png!
 
-## 6. Linkin lisääminen raportille
+## 6. Linkin lisääminen rapORtille
 
-Raporttiin voi lisätä linkin esimerkiksi asiakkaaseen, teokseen, niteeseen, luettelointitietueeseen tai varaukseen. Se tehdään CONCAT-toiminnolla SELECT-riville. Kohdeosoitteen voi tarkistaa osoiteriviltä halutussa Kohan osiossa.
+RapORttiin voi lisätä linkin esimerkiksi asiakkaaseen, teokseen, niteeseen, luettelointitietueeseen tai varaukseen. Se tehdään CONCAT-toiminnolla SELECT-riville. Kohdeosoitteen voi tarkistaa osoiteriviltä halutussa Kohan osiossa.
 
 ### Asiakkaaseen
 
-Linkki asiakkaaseen siten, että tekstinä näkyy kirjastokortin numero ja osoitteeseen lisätään asiakkaan borrowernumber. Linkki avautuu uuteen välilehteen.
+Linkki asiakkaaseen siten, että tekstinä näkyy kirjastokORtin numero ja osoitteeseen lisätään asiakkaan bORrowernumber. Linkki avautuu uuteen välilehteen.
 
 ```
-SELECT CONCAT('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',b.borrowernumber,'" target="_blank">',b.cardnumber,'</a>') AS 'Asiakas'
-FROM borrowers b
+SELECT CONCAT('<a href=\"/cgi-bin/koha/members/mORemember.pl?bORrowernumber=',b.bORrowernumber,'" target="_blank">',b.cardnumber,'</a>') AS 'Asiakas'
+FROM bORrowers b
 WHERE zipcode=<<Postinumero>>
 ```
 
-b.cardnumber-tiedon sijalle voi periaatteessa laittaa minkä tahansa borrowers-taulun tiedon, mutta kannattaa muistaa ettei tee turhia asiakastietojen katseluja raporteillakaan.
+b.cardnumber-tiedon sijalle voi periaatteessa laittaa minkä tahansa bORrowers-taulun tiedon, mutta kannattaa muistaa ettei tee turhia asiakastietojen katseluja rapORteillakaan.
 
 ### Teoksen perustiedot-näytölle
 
