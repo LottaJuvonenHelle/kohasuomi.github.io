@@ -196,12 +196,12 @@ WHERE convert(di.homebranch using 'utf8') LIKE (@Kunta:= <<Kunta tai kirjasto es
 ## Taustatietoja muista lähteistä
 
 * Halutun alueen asukasmäärät (esim. kunnittain, postinumeroalueitttain, ikäryhmittäin)
-* "Postinumeroalueet":https://tiketti.koha-suomi.fi/attachments/5715/postinumerot.csv (postinumerot, postinumeroalueen nimi, kunta)
-* "aikatietotaulu":https://tiketti.koha-suomi.fi/attachments/5711/aikatietotaulu.xlsx, jossa tarkasteltavan ajan päivämäärät, viikonpäivät, kuukaudet, vuodet omina sarakkeinaan
-* "luokitustiedot":https://tiketti.koha-suomi.fi/attachments/5714/luokat_muotoluokat.xlsx
-* "kielikoodit":https://tiketti.koha-suomi.fi/attachments/5713/kielikoodit.csv
-* "aineistotyyppiryhmittelyt":https://tiketti.koha-suomi.fi/attachments/5712/Aineistoryhm%C3%A4t.xlsx
-* "ikäryhmät":https://tiketti.koha-suomi.fi/attachments/5716/ik%C3%A4ryhm%C3%A4t.xlsx, joilla haluaa asiakkaita tarkastella
+* Postinumeroalueet: [postinumerot.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12169979/postinumerot.xlsx) (postinumerot, postinumeroalueen nimi, kunta)
+* Aikatietotaulu: [aikatietotaulu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12169988/aikatietotaulu.xlsx), jossa tarkasteltavan ajan päivämäärät, viikonpäivät, kuukaudet, vuodet omina sarakkeinaan
+* Luokitustiedot: [luokat_muotoluokat.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12169992/luokat_muotoluokat.xlsx)
+* Kielikoodit: [kielikoodit.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12170010/kielikoodit.xlsx)
+* Aineistotyyppiryhmittelyt: [Aineistoryhmät.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12170017/Aineistoryhmat.xlsx)
+* Ikäryhmät: [ikäryhmät.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12170028/ikaryhmat.xlsx), joilla haluaa asiakkaita tarkastella
 
 Näistä luokitustiedot ja kielikoodit ovat melko suoraan käytettävissä. Muita voi joutua muokkaamaan halutunlaisiksi.
 
@@ -235,10 +235,20 @@ Jotta saadaan laskettua aineiston, jota ei ole lainattu viiteen vuoteen (=1825 p
 
 ```
 Viimeksi lainattu -mittari = SELECTEDVALUE('Niteet'[Viimeksi lainattu])
+```
+```
 Päiviä viime lainauksesta = DATEDIFF('Mittarit'[Viimeksi lainattu -mittari];TODAY();DAY)
+```
+```
 Saapumispäivä_mittari = SELECTEDVALUE('Niteet'[Saapumispäivä])
+```
+```
 Päiviä saapumisesta = DATEDIFF('Mittarit'[Saapumispäivä_mittari];TODAY();DAY)
+```
+```
 5 vuoteen ei lainattu = CALCULATE('Mittarit'[Niteiden määrä]; FILTER('Niteet';'Mittarit'[Päiviä viime lainauksesta]>1825); FILTER ('Niteet';'Mittarit'[Päiviä saapumisesta]>730))
+```
+```
 5 vuoteen lainaamattomien osuus = DIVIDE([5 vuoteen ei lainattu]; [Niteiden määrä])
 ```
 
