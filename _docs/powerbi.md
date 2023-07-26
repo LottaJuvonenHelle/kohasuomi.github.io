@@ -1,4 +1,10 @@
-
+---
+title: 'PowerBI'
+permalink: /dokumentaatio/powerbi/
+redirect_FROM:
+  - /theme-setup/
+toc: true
+---
 
 Kouvolan kaupunginkirjaston PowerBI-tilastoissa käytettyjä raportteja. 
 
