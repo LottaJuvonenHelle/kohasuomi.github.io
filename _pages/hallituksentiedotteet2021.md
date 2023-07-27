@@ -82,12 +82,12 @@ Toukokuun viestintäkyselyn koontia kävimme huolella läpi ja siitä nousi muut
 
 Vahvistimme myös asiantuntijaryhmän jäsenet ja heillä on kohta pian kokous:  
 
-Helle: Kati Sillgren, Calle Lindroos (vara)
-Kyyti: Tuomas Kunttu, Jarmo Tikka (vara) 
-Lappi: Leena Kinnunen, Pia Kusmin (vara) 
-Lumme: Katja Valjakka, Tiina Pietikäinen (vara) 
-Outi: Noora Valkonen, Anneli Österman (vara) 
-Vaara: Päivi Knuutinen, Irina Halminen (vara)
+Helle: Kati Sillgren, Calle Lindroos (vara)<br />
+Kyyti: Tuomas Kunttu, Jarmo Tikka (vara)<br />
+Lappi: Leena Kinnunen, Pia Kusmin (vara)<br />
+Lumme: Katja Valjakka, Tiina Pietikäinen (vara)<br />
+Outi: Noora Valkonen, Anneli Österman (vara)<br />
+Vaara: Päivi Knuutinen, Irina Halminen (vara)<br />
 Vaski: Susanna Sandell, Asko Autio (vara). 
 
 Nämä nimet kannattaa laittaa muistiin, koska he ovat niitä, jotka kehittämisasioissa ovat äänitorvia niin kimpasta Koha-Suomeen kuin toistapäin. Ottakaa rohkeasti yhteyttä omaan edustajaanne. 
