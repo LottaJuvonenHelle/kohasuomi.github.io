@@ -127,13 +127,14 @@ Tänään oli nykyisen hallituksen viimeinen kokous ja seuraavaksi on sitten yht
 
 Tärkeä asia oli hyväksy tiekartta toimenpidesuunnitelmineen, molemmat liitteenä. Tiekartasta tulee meille tärkeä työkalu ja sen seuranta on ensisijassa asiantuntijaryhmän vastuulla, mutta alkuun hallituskin seuraa asioita tarkemmin, koska asia kiinnostaa!
 
-[AsiantuntijaryhmänMuistio42022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180041/AsiantuntijaryhmanMuistio42022.pdf)
+[Tiekartta2022toimenpiteetvalmis.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180198/Tiekartta2022toimenpiteetvalmis.xlsx)
+ja 
 [Tiekarttayleinenosa.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180040/Tiekarttayleinenosa.pdf)
 
 
 Tuttuun tapaan tsekattiin talouden toteuma ja siinä ei ole mitään yllättävää. Toimitusjohtajan raportti ei ole nyt liitteenä, vaan Ari kertoi suullisesti tärkeimmät asiat ja tarkemmin syksyllä. Mukava uutinen oli, että uusi korkeakouluharjoittelija on saatu rekryttyä.
 
-Kolmantena liitteenä on asiantuntijaryhmän muistio. attachment:AsiantuntijaryhmänMuistio42022.pdf
+Kolmantena liitteenä on asiantuntijaryhmän muistio. [AsiantuntijaryhmänMuistio42022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180041/AsiantuntijaryhmanMuistio42022.pdf)
 
 Mitä mainiointa viikonloppua!
 
