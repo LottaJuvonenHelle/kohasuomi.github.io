@@ -191,7 +191,7 @@ Asialistan isoimpana asiana oli asiantuntijaryhmän vuosisuunnitelma, liitteenä
 Asiantuntijaryhmän vuosisuunnitelma 2022: [Asiantuntijaryhman_vuosisuunnitelma2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180008/Asiantuntijaryhman_vuosisuunnitelma2022.pdf)
 
 
-Liitteenä myös asiantuntijaryhmän kokouksen muistio, "joka löytyy myös Redminestä":https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2022 . Huomatkaa, että versionvaihdon valmistelu etenee ja seuraavaksi projekti aikataulutetaan ja tehdään projektille suunnitelma.
+Liitteenä myös [asiantuntijaryhmän kokouksen muistio](https://koha-suomi.fi/asiantuntijaryhma2022#kokous-122), joka löytyy myös Redminestä (HUOM! Muistiot siirretty Koha-Suomen verkkosivuille heinäkuussa 2023). Huomatkaa, että versionvaihdon valmistelu etenee ja seuraavaksi projekti aikataulutetaan ja tehdään projektille suunnitelma.
 
 
 Kolmantena liitteenä tuttuun tapaan toimitusjohtajan raportti alkuvuodelta: [Toimitusjohtajan_raportti_1_2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180011/Toimitusjohtajan_raportti_1_2022.pdf)
