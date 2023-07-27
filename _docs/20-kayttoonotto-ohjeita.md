@@ -28,7 +28,7 @@ Finto-liitännäisiä voi hakea auktorisoituja muotoja käytettävistä termeist
 
 Laskutustyökalu on toteutettu liitännäisenä.
 
-[Laskutustyökalun käyttöönotto-ohje](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki)
+[Laskutustyökalun käyttöönotto-ohje](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki) Koha-Suomen GitHubissa.
 
 ## RDA ja poikkeava pääsana
 
