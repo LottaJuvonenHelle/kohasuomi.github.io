@@ -29,7 +29,7 @@ Koha-Suomen toimintasuunnitelma 2022: [Koha-Suomitoimintasuunnitelma2022.pdf](ht
 
 T. Rebekka, hallituksen pj.
 
----
+
 
 ## Koha-Suomen hallituksen tiedote 8/2021
 
@@ -47,7 +47,7 @@ Liitteenä toimitusjohtajan raportti luettavaksi: [Toimitusjohtajan_raportti9_20
 
 T. Rebekka, hallituksen pj.
 
----
+
 
 ## Koha-Suomen hallituksen tiedote 7/2021
 
@@ -60,14 +60,12 @@ Kokouksessa keskustelimme taloustilanteesta ja miltä loppuvuosi sen suhteen nä
 Asiantuntijaryhmän muistiot löytyvät (Redminestä): [Koha-Suomen verkkosivut - Muistiot - Asiantuntijaryhmän muistiot](https://koha-suomi.fi/muistiot#koha-suomen-asiantuntijaryhm%C3%A4)
 
  
-
 Rauhallista viikonloppua kaikille!
 
 t. Rebekka, hallituksen puheenjohtaja
 
 Toimitusjohtajan raportti 7/21: [Toimitusjohtajan_raportti7_2021.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180505/Toimitusjohtajan_raportti7_2021.pdf)
 
----
 
 ## Koha-Suomen hallituksen tiedote 6/2021 
 
@@ -104,7 +102,6 @@ Mukavaa syyskauden aloitusta teille kaikille!
 
 T. Rebekka, hallituksen pj. 
 
----
 
 ## Koha-Suomen hallituksen tiedote 4/2021 
 
@@ -128,7 +125,6 @@ Mukavaa viikonloppua!
 t. Rebekka, hallituksen pj. 
 
  
----
 
 ## Koha-Suomen hallituksen tiedote 3/2021 
 
@@ -150,8 +146,7 @@ Hyvää viikonloppua!
 
 T. Rebekka Pilppula, hallituksen pj. 
 
- 
----
+
 
 ## Koha-Suomen hallituksen tiedote 2/2021 
 
@@ -176,7 +171,6 @@ Liitteenä toimitusjohtajan raportti: [Toimitusjohtajanraportti1_2021.pdf](https
 
 T. Rebekka, hallituksen pj 
 
----
 
 ## Koha-Suomen hallituksen tiedote 1/2021 
 
