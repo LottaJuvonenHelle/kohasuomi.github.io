@@ -16,6 +16,8 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 [Koha-Suomen hallituksen vuoden 2022 tiedotteet](/hallituksentiedotteet2022)
 
+[Koha-Suomen hallituksen vuoden 2021 tiedotteet](/hallituksentiedotteet2021)
+
 ## Koha-Suomen asiantuntijaryhmä
 
 [Asiantuntijaryhmän vuoden 2023 muistiot](/asiantuntijaryhma2023)
