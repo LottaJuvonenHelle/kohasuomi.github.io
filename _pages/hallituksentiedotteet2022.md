@@ -151,8 +151,7 @@ Kokouksessa hyväksyttiin viestintäsuunnitelma (liitteenä), tsekattiin talous 
 Seuraavassa kokouksessa on tarkoitus sitten hyväksyä tiekartta, mikäli asiantuntijaryhmä ehtii sen omalta osaltaan käsitellä ensi maanantaina. Itse olen kovin innoissani tiekartan valmistelusta ja siitä tulee meille hyvä työkalu.
 
 [Viestintasuunnitelma_2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180028/Viestintasuunnitelma_2022.pdf)
- ja [Toimitusjohtajan_raportti_ 3_2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180024/Toimitusjohtajan_raportti_.3_2022.pdf)
-
+ ja [Toimitusjohtajan_raportti_ 3_2022.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12180270/Toimitusjohtajan_raportti_.3_2022.pdf)
 
 Hyvää toukokuuta kaikille!
 
