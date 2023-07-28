@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 31 muistiot
+
+### Maanantai 30.7.2023 klo 10
+
+Läsnä:
+
+**Aiheet**
+* Asiakasvarmenteiden teko ja jako pääkäyttäjille
+  * pääkäyttäjien muistiossa lista, kenelle toimitetaan (Matrixissa) missäkin kimpassa
+
 ## Viikon 30 muistiot
 
 ### Maanantai 24.7.2023 klo 10
