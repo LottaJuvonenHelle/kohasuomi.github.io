@@ -571,7 +571,18 @@ body#pat_borraccount button.refund-action { display: none; }
 body#pat_borraccount a.void-action { display: none; }
 ```
 
----
+### Piilota asiakkaan Maksut/Tapahtumat-välilehdeltä
+
+Piilota Maksut/Tapahtumat-välilehdeltä maksun tietojen tulostus-napit sekä Maksu-nappi. Liittyy tikettiin [Koha #476](https://github.com/KohaSuomi/Koha/issues/476).
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
+```
+body#pat_borraccount a.btn.btn-default.btn-xs.invoice-print-action { display: none; } /* Maksun tietojen tulostus-napin piilotus */
+body#pat_borraccount a.btn.btn-default.btn-xs.pay-action { display: none; } /* Maksu-napin piilotus */
+body#pat_borraccount a.btn.btn-default.btn-xs.receipt-print-action { display: none; } /* Maksutapahtuman tai maksun poiston kuitti */
+```
 
 ## Tiedonhaku
 
@@ -694,6 +705,7 @@ Tarpeellisuus: Vapaaehtoinen
 body#catalog_detail span.results_summary.analytics.analytic_monograph { display: none; }
 body#catalog_detail span.results_summary.analytics.analytic_undefined { display: none; }
 ```
+
 ### Piilota Huomautus toimenpiteistä
 
 Piilota perustiedot-näytöltä huomautus toimenpiteestä eli MARC-kentän 583-tieto.
