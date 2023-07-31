@@ -359,7 +359,7 @@ Läsnä: Anneli Österman, Pasi Kallinen, Heli Auranen, Katja Valjakka, Timo Pes
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-45-muistio)
 
 **Yhteiset**
-* "Viikon 45 päivitys":https://tiketti.koha-suomi.fi/news/44
+* [Viikon 45 päivitys](https://tiketti.koha-suomi.fi/news/44)
   * seurailkaa valutuksen toimivuutta
 * [Uusi CSS-säätö Lisää viesti -popparin valikon leveydelle](https://koha-suomi.fi/dokumentaatio/intranetusercss/#s%C3%A4%C3%A4d%C3%A4-lis%C3%A4%C3%A4-viesti--popparin-alasvetovalikon-leveytt%C3%A4)
 * [Korjattu versio asiakastietojen piilotuksesta varausruudussa palautuksessa](https://koha-suomi.fi/dokumentaatio/intranetusercss/#piilota-asiakkaan-tiedot-varaus-popupeista). Liittyy tikettiin [244](https://github.com/KohaSuomi/Koha/issues/244)
@@ -402,199 +402,192 @@ Läsnä: Anneli Österman, Pasi Kallinen, Heli Auranen, Katja Valjakka, Timo Pes
 Aika: 1.11.2022 klo 9.15
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Pia Kusmin (Lappi), Anneli Österman ja Pirkko-Liisa Lauhikari, Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-44-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-44-muistio)
 
-*Yhteiset*
+**Yhteiset**
 
 * Oskari-harjoittelijan esittäytyminen
 
-* "Viikon 44 Koha-päivitys":https://tiketti.koha-suomi.fi/news/43
+* [Viikon 44 Koha-päivitys](https://tiketti.koha-suomi.fi/news/43)
 
-* "G-tiketti #217":https://github.com/KohaSuomi/Koha/issues/217 Käyttöoikeuden suggestions_manage poistaminen käyttäjiltä /Emmi
+* [G-tiketti #217](https://github.com/KohaSuomi/Koha/issues/217) Käyttöoikeuden suggestions_manage poistaminen käyttäjiltä /Emmi
   * Tehdään ajot kimppoihin (paitsi OUTIin) tällä viikolla. Jos on jotain huomioon otettavaa, kommentoikaa tikettiin.   
 
 * Testattavat - miten hoidetaan jatkossa?
   * Testattaville laitetaan nyt Tikettien seuranassa tilaksi "Testattava", seurataanko sitä, vai laitetaanko lisäksi vielä johonkin hoksautus/pyyntö?
-*  * Päätös: Kaikki yrittää seurata Testattava-statusta, mutta pyydetään kehittäjiä hoksautamaan silti jatkossa matrixissa Pääkäyttäjät - Yleinen -kanavalla, kun jokin siirtyy testattavaksi.
-*  * Keskusteltiin myös, mikä on riittävä määrä testauksia, jotta korjauksen/muutoksen voi viedä tuotantoon. Päätettiin, että 2-3 testausta riittää. Jos muutos voi näkyä eri tavoilla eri kimpoissa (esim. eri signum-liitännäisiä käytössä), niin sitten olisi hyvä, että odotellaan useampi testaus. 
+    * Päätös: Kaikki yrittää seurata Testattava-statusta, mutta pyydetään kehittäjiä hoksautamaan silti jatkossa matrixissa Pääkäyttäjät - Yleinen -kanavalla, kun jokin siirtyy testattavaksi.
+    * Keskusteltiin myös, mikä on riittävä määrä testauksia, jotta korjauksen/muutoksen voi viedä tuotantoon. Päätettiin, että 2-3 testausta riittää. Jos muutos voi näkyä eri tavoilla eri kimpoissa (esim. eri signum-liitännäisiä käytössä), niin sitten olisi hyvä, että odotellaan useampi testaus. 
 
 * Github-tiketit - älä poista otsikkoriviltä Bugi, Kehitysehdotus ja Tukipyyntö -sanoja. Tikettien seuranta -projektissa ne helpottaa seuraamista.
 
-*Vaara*
+**Vaara**
 * Kohassa ei mitään erityistä.
 * Finnan evästeasetuksia muokattu.
 * Paytrailin uuden rajapinnan ongelma tai joku muu, kun asiakkaan maksu Finnan kautta ei näkynyt heti Kohassa viime torstaina. Keskiviikkona otettiin käyttöön uusi rajapinta.
 
-*Lumme*
+**Lumme**
 * Perjantaina 4.11. Mikkelin pääkirjasto suljettu ja Pieksämäen pääkirjasto omatoiminen. Henkilökunnan toiminnansuunnittelupäivä.
 * Finnan evästemäärittely tehty. 
 
-*Lappi*
+**Lappi**
 * Rovaniemen kellutus otettu pois päältä 1.11.
 * Leena on käynyt tekemässä Finnaan tarvittavat eväisteisiin liittyvät muutokset
 * Tehty uusi tarrapohja (rullatarra viivakoodilla)
 * Tehty tiketti vanhan omatoimen esto -tiedon poistamiseksi. Github 232 ja Redmine 5414 
 
-*OUTI*
+**OUTI**
 * Finvoice:
   * Oulun pienessä tuotantolaskutuserässä huomattiin vielä puutteita esim. eräpäivätieto ei ollut tullut laskuille, vaikka oli testilaskuilla, laskupohjasta puuttui ns. vapaatekstikenttä, johon voi lisätä kaikkiin laskuihin tulevan vakiotekstin. Eli testilaskujen tekeminen jatkuu...
-* Kaikki uudet osakohteet eivät aina valu oikein TäTistä paikalliskantoihin, vaan osa osakohteista tai joskus myös kaikki osakohteet jäävät valumatta. Nämä valumatta jääneet osakohteet näkyvät siirtoraportissa Keskeytyneet-välilehdellä ja useimmiten virheviestinä on "Aborting! Newer export added". Bugitiketti: https://github.com/KohaSuomi/Koha/issues/229
-* Siirtoraportin Keskeytykset-sivulle on tullut yli 10 sivua tietueita, joissa virheilmoitus Internal Server Error. Virheilmoitukset ovat tulleet 29.10. yöllä n. klo 3.46 - 4.00 välillä. Anneli kysynyt kehittäjiltä, mistä virheilmoitukset olisivat voineet tulla. Syytä ei ole vielä löytynyt. https://github.com/KohaSuomi/Koha/issues/239
+* Kaikki uudet osakohteet eivät aina valu oikein TäTistä paikalliskantoihin, vaan osa osakohteista tai joskus myös kaikki osakohteet jäävät valumatta. Nämä valumatta jääneet osakohteet näkyvät siirtoraportissa Keskeytyneet-välilehdellä ja useimmiten virheviestinä on "Aborting! Newer export added". [Bugitiketti](https://github.com/KohaSuomi/Koha/issues/229)
+* Siirtoraportin Keskeytykset-sivulle on tullut yli 10 sivua tietueita, joissa virheilmoitus Internal Server Error. Virheilmoitukset ovat tulleet 29.10. yöllä n. klo 3.46 - 4.00 välillä. Anneli kysynyt kehittäjiltä, mistä virheilmoitukset olisivat voineet tulla. Syytä ei ole vielä löytynyt. [Tiketti #239](https://github.com/KohaSuomi/Koha/issues/239)
 * Oulussa aloitettu 31.10.2022 Oulun pääkirjaston remontin ajaksi yksipuolinen kellutus viiden muun OUTI-kirjaston kanssa. Eli Oulun tietyt nidetyypit kelluvat näissä kirjastoissa, mutta heidän aineistot eivät kellu Oulussa. 
 * Oulussa henkilökunnan virkistyspäivä pe 4.11., jolloin Koha-tuki ei päivystä.
 
-*Helle*
+**Helle**
 * Muutamia Hankintaportaalin kautta ilmestyneitä tuplatilauksia: tuplat poistettu.
 * Muutamia Hankintaportaalin virheellisiä tilaussanomia: pyydetty Hankintaportaalin ylläpitäjää lähettämään sanomat uudestaan korjattuina. 
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-44-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
 
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-44-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 43 muistio
 
 Aika: 25.10.2022 klo 9.15
 Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen, Tiina Pietikäinen (Lumme), Kati Sillgren (Helle), Mikko Liimatainen (Vaski), Reetta Pihlaja (Siilinjärvi)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-43-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-43-muistio)
 
-*Yhteiset*
+**Yhteiset**
 
-* "Viikon 43 päivitys":https://tiketti.koha-suomi.fi/news/42
+* [Viikon 43 päivitys](https://tiketti.koha-suomi.fi/news/42)
   * Käykää muokkaamassa kuvailupohjiin näkyville 942him-kentät
-  * "RDA ja poikkeavat pääsanat":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/RDA_ja_poikkeava_p%C3%A4%C3%A4sana
+  * [RDA ja poikkeavat pääsanat](https://koha-suomi.fi/dokumentaatio/rdanuotti/)
 
-*OUTI*
+**OUTI**
 * Finvoice:
   * Oulussa tarvitaan laskutuksen täsmäytystä varten laskutettujen niteiden määrät ja euromääräinen yhteissumma. Pyydetty Oulun Digiltä.
-  * Laskutusliitännäisessä kun hakee asiakkaan laskutettuja lainoja, päivämäärärajaus ei toimi. https://github.com/KohaSuomi/Koha/issues/228 
+  * Laskutusliitännäisessä kun hakee asiakkaan laskutettuja lainoja, päivämäärärajaus ei toimi. [Tiketti #228](https://github.com/KohaSuomi/Koha/issues/228)
   * Raahen Finvoice testilaskut tehty ja ajettu eteenpäin.
 * Pyhäjoella Pirttikosken kirjasto on lopettanut toiminnan. Kirjasto poistetaan järjestelmästä, kun vuoden 2022 tilastot otettu.
 * Tarkoitus ottaa ensi viikolla käyttöön yksipuolinen kellutus viiden OUTI-kirjaston kanssa Oulun pääkirjaston remontin ajaksi. Eli Oulun tietyt nidetyypit kelluvat kellutuksessa mukana olevissa kirjastoissa, mutta Oulussa näiden kirjastojen aineistot eivät kellu.
 
-*Vaara*
+**Vaara**
 * ei ihmeempiä, mutta tänä aamuna heti 8 jälkeen tuli viesti, että niteiden tallennus ei onnistu. Signumia ei saanut tehtyä o-kentästä kuten normaalisti on tehty kirjoille. Ilmeni, että Vaaraa oli kohdannut typo, koska muilla toimi viikkokorjausten jälkeenkin niteiden tallennus. Asia saatiin kuntoon palaverin aikana.
 
-*Lappi*
+**Lappi**
 * Uutta tarrapohjaa muokataan.
 * Uuden Paytrailin käyttöönotto 27.10.2022. Testit ja tilitykset menneet oikein.
 * SmartBox päivitetään uuteen versioon ja muutetaan toimimaan automaatin tavoin.
 
-*Helle*
+**Helle**
 * Tiistai-aamusta 18.10.2022 alkaen tunneloitujen automaattien (2 kpl) toimimisessa ongelmia. Keskiviikko-aamupäivästä 19.10.2022 alkaen molemmat automaatit toimineet ok.
 * Elokuussa 2022 käyttöön otetulla automaatilla on ollut väärä kirjastotieto. Automaattiin liittyvät kirjastoyksikkötiedot muutettu oikealle kirjastolle. Emmi vaihtanut tietokantaan automaatilla lainatuille niteille oikean kirjaston. https://github.com/KohaSuomi/Koha/issues/219
 
-*Vaski*
+**Vaski**
 * Huoltokatkojen venyessä eräpäivämuistutusten lähetys jää tekemättä, jos katko menee yli yhdeksään. Mietitty viestien lähetyksen viivästyttämistä tai kehittäjien tekemää viestien lähetystä ongelmatilanteissa.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Ei kummempia, PIN-koodin palautustoiminto Finnassa saatu käyttöön ensin testiin ja nyt myös tuotantoon. Siili ei tarvitse toimintoa varten erillistä Koha-asiakastunnusta, mutta ei selvinnyt tarvitsevatko muut kirjastot vielä vanhoja tunnuksiansa.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-43-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 42 muistio
 
 Aika: ti 18.10.2022 klo 9.15
 Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Kati Sillgren (Helle), Heli Auranen, Timo Pesonen, Tenho Volanen (Lumme)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-42-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-42-muistio)
 
-* Lisäättekö Integraatiolistalle viestitysrajapinnat: https://github.com/KohaSuomi/Koha/wiki/Integraatiot
+* Lisäättekö [Integraatiolistalle viestitysrajapinnat](https://github.com/KohaSuomi/Koha/wiki/Integraatiot)
   * tekstiviestit, paperikirjeet, suomi.fi jne
-* "Viikon päivitys":https://tiketti.koha-suomi.fi/news/41
-* Githubin wikin lisättiin "sivu":https://github.com/KohaSuomi/Koha/wiki/Kohan-kanssa-yhteensopivat-laitteet, johon voidaan listata Kohan kanssa yhteensopivaksi testattuja oheislaitteitta, kuten kuittareita ja viivakoodinlukijoita.
-* Valmiisiin SQL-raportteihin lisätty "kysely":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Kirjaston-voimassa-olevien-lainojen-m%C3%A4%C3%A4r%C3%A4-er%C3%A4p%C3%A4iv%C3%A4aikav%C3%A4lill%C3%A4, jolla voi laskea tietyn kirjaston eräpäiväaikavälin lainojen määrän. Raporttilla voi tarkistaa esim. kirjaston yllättävissä kiinnimenotilanteissa, onko tarpeen tehdä eräpäiväsiirtoja ja voiko ne tehdä Eräpäivien siirto eräajona -työkalulla vai pyytääkö ajoa kehittäjiltä. Eräpäivine siirrolla voi tehdä kerrallaan noin 1000 lainan eräpäivän siirtoja ja jos eräpäiviä on tuota enemmän, niin niitä voi käsitellä myös osina esim. asiakastyyppien perusteella. Jos siirrettäviä eräpäiviä on 1000-3000, voi ne hyvin tehdä itse työkalulla, sitä suuremmat määrät kannattaa pyytää ajona.
+* [Viikon päivitys](https://tiketti.koha-suomi.fi/news/41)
+* [Githubin wikin lisättiin sivu](https://github.com/KohaSuomi/Koha/wiki/Kohan-kanssa-yhteensopivat-laitteet), johon voidaan listata Kohan kanssa yhteensopivaksi testattuja oheislaitteitta, kuten kuittareita ja viivakoodinlukijoita.
+* Valmiisiin SQL-raportteihin lisätty [kysely](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#kirjaston-voimassa-olevien-lainojen-m%C3%A4%C3%A4r%C3%A4-er%C3%A4p%C3%A4iv%C3%A4aikav%C3%A4lill%C3%A4), jolla voi laskea tietyn kirjaston eräpäiväaikavälin lainojen määrän. Raporttilla voi tarkistaa esim. kirjaston yllättävissä kiinnimenotilanteissa, onko tarpeen tehdä eräpäiväsiirtoja ja voiko ne tehdä Eräpäivien siirto eräajona -työkalulla vai pyytääkö ajoa kehittäjiltä. Eräpäivine siirrolla voi tehdä kerrallaan noin 1000 lainan eräpäivän siirtoja ja jos eräpäiviä on tuota enemmän, niin niitä voi käsitellä myös osina esim. asiakastyyppien perusteella. Jos siirrettäviä eräpäiviä on 1000-3000, voi ne hyvin tehdä itse työkalulla, sitä suuremmat määrät kannattaa pyytää ajona.
 
-*Vaara*
+**Vaara**
 * ei mitään erityistä
 * Finnan evästeasetuksia pähkäilty ja kysytty neuvoja
 
-*OUTI*
+**OUTI**
 * selvitelty EditX-ongelmasanomia
 * Oulussa käynnistetty pienellä laskutuserällä Finvoice-laskutus ja Raahen laskutuksen käynnistäminen on vielä alussa.
 
-*Vaski*
+**Vaski**
 * Yhdellä TäTi-käyttäjällä ei ole onnistuneet tietueiden siirrot Melindaan. Ongelmaan näyttää löytyneen syy Melindan päästä: "Melindan käyttäjätunnusten hallinta ei ollut näemmä vielä kärryillä siitä, että Vaskin kuvailijat ovat siirtyneet TäTi-kuvailijoiksi. Se, että puute käyttäjätunnusten päivityksessä ilmeni vasta nyt, johtuu oletettavasti siitä, että vanhemmilla Vaskin tunnuksilla TäTi lähettää päivitykset Melindaan aina (default-)tunnuksella OUTI1002, jolloin oikeusongelmaan ei törmätä."
 * Vaskissa kymmenkunta automaattia, joiden yksikkötieto puuttuu tai on väärä. Aiheuttavat sip-lokissa virheilmoituksia, pyydetään toimittajia korjaamaan.
 * Emo-/osakohde-fasettia kaivataan takaisin tiedonhakuun. Ei pystytä toteuttamaan samalla tavalla kuin muut fasetit vaan vaatii template-muutoksen, Anneli kyselee vielä tämän muutoksen perään.
 * Viimeisin huoltokatko aiheutti ennakoitua pidemmän palvelukatkon Vaskissa (Turun pääkirjaston tunneloidun palautusautomaatin takia Vaskia ei voitu siirtää väliaikaisesti toiselle nodelle) ja tieto viivästymisestä tuli myöhään.
 Varsinkin kun tapahtui kahtena kuukautena perätysten, on aiheuttanut harmitusta ja lisännyt epäluottamuottamusta huoltokatkojen suhteen henkilökunnassa. Tunneloidusta automaatista ei olla pääsemässä eroon vielä parin vuoden sisällä, joten Vaski on kiinnostunut proxy-ohjelmistosta joka keskustelisi sip2ohttps-yhteydellä Kohan kanssa Kohan ja automaatin välissä.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Juuri kun sertifikaatti-asennuksista oli selvitty, meillä luovuttiin lopultakin lainaustiskillä kimppa-tunnuksista ja siirryttiin henk.koht. tunnuksiin. Asennettiin siis paljon lisää sertifikaatteja.
 * Mikroväylän automaatit päivitetään 1.11. kyselemään pin-koodia.
 * Otetaan käyttöön pin-koodin palautus Finnassa: https://www.kiwi.fi/pages/viewpage.action?pageId=103197538 Anneli hoksasi ohjeessa tosin vanhan version käyttäjäoikeuden, nyt kai delete_borrowers ja edit_borrowers
 * Henkilöasiakkuuden 10 v voimassaoloaika, miten jatkossa pidetään yhteystiedot ajan tasalla? Pitää pohtia.
 
-*Lappi*
+**Lappi**
 * Asiakkaan varaukset eivät näy Finnassa, Kohassa näkyy. Tehty tiketti #212. Jatketaan asian selvittelyä.
 * Hankinnan tilit vuodelle 2023 melkein valmiit. 
 * Kehittäjiltä tuli viesti, että meidän automaattien salasanat ovat liian lyhyitä. Uusiin/päivitettyihin automaateihin on jo laitettu paremmat salasanat. Vanhojen muuttaminen olisi todella suuritöinen ja tarkkaa ajankohtaa vaativa operaatio. Keskusteltiin pääkäyttäjien kanssa ja salasanoja ei ehkä kannata lähteä vaihtamaan vaan muuttaa ne luonnollisen poistuman/muutoksen kautta.
 
-*Helle*
+**Helle**
 * Lari muuttanut kirjastokortin omaavien henkilöasiakastyyppien asiakastietojen vanhentumisajan 10 vuoden päähän
 * Keskiviikon 12.10.2022 palvelinhuollon käyttökatko odotettua pidempi (indeksiin liittyvä ongelma). Helle-Koha oli katkon jälkeen käytössä n. klo 10.50 alkaen.
 
-*Lumme*
+**Lumme**
 * Yhden asiakkaan kirjautumisessa e-palveluihin ja kohaan edelleen ongelmia. Selvitellään. Kysellään myös täällä ehdotettu kirjautumistietojen tallennuksen ja niiden päivitysten tila.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-42-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-42-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 41 muistio
 
 Aika: ti 11.10.2022 klo 9.15
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen, Tiina Pietikäinen, Timo Pesonen (Lumme), Anneli Österman ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Pia Kusmin (Lappi), Mikko Liimatainen (Vaski)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-41-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-41-muistio)
 
-*Yhteiset*
-* "Viikon päivitys":https://tiketti.koha-suomi.fi/news/39 tehdäänkin ti-iltana.
+**Yhteiset**
+* [Viikon päivitys](https://tiketti.koha-suomi.fi/news/39) tehdäänkin ti-iltana.
 * Ke-aamuna huoltoikkuna klo 7-9, katkoksia tiedossa. Laiterikon aiheuttanut ongelma saatu korjattua ja nyt päästään tekemään viime kuussa suunnitellut huoltotoimenpiteet.
 * Githubin säädöt
 * Asiakkaalta tuli Oulussa ehdotus, että Finnassa näkyisi lainan viimeisin uusintapäivä. Tieto kulkee "op-get-checkouts":https://outi.koha-suomi.fi/api/v1/.html#op-get-checkouts -endpointissa, joten se todennäköisesti saadaan Finnallekin kulkemaan. Finnan pitäisi vain tukea sitten sen näyttämistä asiakkaalle.
 * #5633 - käykää lisäämässä oman kimppanne listaus ja tieto, onko käytössä hetuttomille 1 vuoden voimassaoloaika.
 * Onhan kaikissa kimpoissa päällä pseudonymisointi sekä tuotannossa että testillä?
-Pseudonymization
-PseudonymizationPatronFields
-PseudonymizationTransactionFields 
+  Pseudonymization
+  PseudonymizationPatronFields
+  PseudonymizationTransactionFields 
 * 10 v voimassaoloaika -ajo -> muistakaa muokata asiakastyyppien voimassaoloajat myös Kohaan.
 * Kaikille kimpoille ajetaan tänään uusiksi koko kuluvan vuoden tilastot vanhassa OKM-tilastointi työkalussa olleen virheen vuoksi.  
 
-*Vaara*
+**Vaara**
 * ei mitään erityistä Kohassa
 * Finnan evästeasetukset aiheuttavat toimenpiteitä tämän kuun aikana
 
-*Lumme*
+**Lumme**
 * Hupsuja sähköpostiosoitteita löytyi noin parisen sataa
 * Finnan muutoksia tutkaillaan
 
-*OUTI*
+**OUTI**
 * virheellisiä editx-sanomia selvitelty
 * koulukirjaston niteillä oli virheellisiä nidetyyppejä, jolloin lainoista syntyi myöhästymismaksuja. Nidetyypit korjattu oikeanlaisiksi koulukirjastossa.
 
-*Helle*
+**Helle**
 * Virheelliset n. 50 sähköpostiosoitetta korjattu asiakastiedoissa.
 * Asiakas ei saanut uusittua Finnassa lainojaan. Lainoilla oli Kohassa näkyvä tieto: Ajastettu automaaattista uusintaa varten. Hellessä ei ole ko. toimintoa käytössä, mutta Lainauksen Lainausasetuksissa oli käytettävissä Automaattinen uusinta -vaihtoehto valintaruutuineen. Vaihtoehto on nyt piilotettu.
 * Tietueiden yhdistelysäännöt ovat aiheuttaneet säilytettävien kenttien katoamista, kun ei ole molempiin yhdistelytapoihin (Z39.50 ja Vie/Tuo) tarvittavalla tavalla toimivaa yhdistelysääntöä. 
 
-*Lappi*
+**Lappi**
 * Rovaniemen pääkirjasto palannut takaisin väistötiloista.
 * Virheelliset sähköpostiosoitteet korjattu.
 * Paljon ollut pientä sälää, mutta pääosin normi ylläpitoa.
 * Finnan muutoksia selvitellään.
 
-*Vaski*
+**Vaski**
 * Vaskin kimpan laajuinen musiikin kellutus työn alla. Kellutusta varten perustettavaa kellutusyksikköä mietitään.
 * Jokeri-ongelmaan mietitty ratkaisua. Turhista damaged-tiloista haluttaisiin eroon.
 * Tarratulostuksen pohjien muokkauksessa havaittu ongelma, jossa kenttien tiedot menevät yhdelle riville. Tarrojen tulostus toimii silti oikein.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-41-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 40 muistio
 
