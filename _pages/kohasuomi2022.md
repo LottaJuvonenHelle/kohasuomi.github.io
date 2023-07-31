@@ -41,7 +41,7 @@ Läsnä: Anneli, Pasi, Ari, Kodo, Lasse, Emmi, Lari
 
 * Muistiot viikosta 1 lähtien [githubissa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/_pages/kohasuomi23.md) eli [Koha-Suomen sivuilla](https://koha-suomi.fi/kohasuomi23]
 
-[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-52-muistio) | [Palaa sivun alkuun](/kohasuomi2022)
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-52-muistio)  [Palaa sivun alkuun](/kohasuomi2022)
 
 
 ## Viikon 51 muistio
@@ -77,7 +77,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Versionvaihto repo tehty
 
-[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-51-muistio) | [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-51-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 
 ## Viikon 50 muistio
@@ -188,6 +188,8 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
 ## Viikon 48 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-48-muistio
+
+### Maanantain palaveri
 
 Aika: 28.11.2022 klo 10
 Läsnä: Ari, Emmi, Kodo, Lari, Pasi
@@ -334,10 +336,10 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Pasi
   * Github-tiketti 242 - käännösmuutos
   * Hyllyvarausraportin päivitys, no hold allowed. Github-tiketti 226.
   * Aineistotyyppi lainaukseen ja palautukseen, jos ehditään tekemään muutos, että näytetään auktorisoidun arvon kuvaus. G-238
-  * https://github.com/KohaSuomi/Koha/issues/213?
+  * [KohaSuomi/Koha #213](https://github.com/KohaSuomi/Koha/issues/213)?
   ** tehdään ensin Siiliin uudelleenindeksointi, sitten muille
   * Muutetaan TäTin tietueiden valutusta ja valmistaudutaan valutuksen keskeyttämiseen yön ajaksi. Yöllisistä valumisista on ollut ongelmia.
-  * https://github.com/KohaSuomi/Koha/issues/207
+  * [KohaSuomi/Koha #207](https://github.com/KohaSuomi/Koha/issues/207)
 
 * Versionvaihdot-projektissa 16 avointa tikettiä. Muut suljettu tai siirretty muihin projekteihin. Loppujen tilanne?
   * Käydään läpi torstain palaverissa.
@@ -352,7 +354,7 @@ Hyllyvarausraportin taustalla on ajo, joka kerää raportin tarvitsemat tiedot a
 
 !{width:45%}hyllyvarausraportti.png!
 
-Liittyy "Github-tikettiin 254":https://github.com/KohaSuomi/Koha/issues/254
+Liittyy [Github-tikettiin 254](https://github.com/KohaSuomi/Koha/issues/254)
 
 #hyllyvarausraportti #virhetilanne
 
@@ -362,7 +364,7 @@ Viestiepohjien ylläpidossa jos kopioi pohjan tietylle kirjastolle, mutta valits
 
 !{width:35%}viestipohja.png!
 
-Liittyy "Github-tikettiin 237":https://github.com/KohaSuomi/Koha/issues/237
+Liittyy [Github-tikettiin 237](https://github.com/KohaSuomi/Koha/issues/237)
 
 #viestipohjat
 
@@ -379,13 +381,15 @@ Liittyy "Github-tikettiin 237":https://github.com/KohaSuomi/Koha/issues/237
 
 * Lasse Pouru aloittaa Johannan sijaisena 12.12. Turussa.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-45-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-45-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ---
 
 ## Viikon 44 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-44-muistio
+
+### Maanantain palaveri
 
 Aika: 31.10.2022 klo 10
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Oskari, Pasi
@@ -404,7 +408,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Oskari, Pasi
   * Jatkossa olisi hyvä tehdä uudelleenindeksointi aina, kun tehdään isoja tilamuutoksia tietokanta-ajona. Kodo lisää tiedon Principioon.
 
 * Tiistain päivitys
-  * "GitHub tiketti 222":https://github.com/KohaSuomi/Koha/issues/222 - Siirtotoiminnon rikkinäisen linkin korjaus
+  * [GitHub tiketti 222":https://github.com/KohaSuomi/Koha/issues/222 - Siirtotoiminnon rikkinäisen linkin korjaus
   * Yksi käännöskorjaus, Anneli täydentää tähän muutoksen.
   * lastseen-arvon päivitys RESTin borrower/status-kirjautumisessa #4234. Finna-kirjautuminen pitää vielä tarkistaa (Anneli tarkistaa).
 
