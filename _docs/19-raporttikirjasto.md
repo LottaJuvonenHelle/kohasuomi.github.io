@@ -205,7 +205,7 @@ LEFT JOIN deletedbiblioitems ON d.biblionumber = deletedbiblioitems.biblionumber
 LEFT JOIN biblio bi ON i.biblionumber=bi.biblionumber
 LEFT JOIN deletedbiblio dbi ON d.biblionumber=dbi.biblionumber
 LEFT JOIN biblio bi2 ON d.biblionumber = bi2.biblionumber 
-LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON d.biblioitemnumber = bde.biblioitemnumber
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON d.biblionumber = bde.biblionumber
 WHERE date(datetime) BETWEEN <<Aikaväli alkaen|date>> AND <<Päättyen|date>>
 AND b.categorycode != 'EITILASTO'
 AND s.type in ('issue', 'renew')
@@ -261,7 +261,7 @@ LEFT JOIN deletedbiblioitems ON d.biblionumber = deletedbiblioitems.biblionumber
 LEFT JOIN biblio bi ON i.biblionumber=bi.biblionumber
 LEFT JOIN deletedbiblio dbi ON d.biblionumber=dbi.biblionumber
 LEFT JOIN biblio bi2 ON d.biblionumber = bi2.biblionumber
-LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON d.biblioitemnumber = bde.biblioitemnumber
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON d.biblionumber = bde.biblionumber
 WHERE date(datetime) BETWEEN <<Aikaväli alkaen|date>> AND <<Päättyen|date>>
 AND b.categorycode != 'EITILASTO'
 AND s.type in ('issue', 'renew')
@@ -413,7 +413,7 @@ Aika: 20.8.2019 / 2022
 select count(distinct(borrowernumber)) as Lainaajat
 from statistics s
 left join items i ON i.itemnumber=s.itemnumber
-left join koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON bde.biblioitemnumber=i.biblionumber
+left join koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON bde.biblionumber=i.biblionumber
 where type in ('issue') 
 and branch like <<Kirjoita kirjastolyhenteen alku ja %>> 
 and year(datetime)=<<Vuosiluku>>
