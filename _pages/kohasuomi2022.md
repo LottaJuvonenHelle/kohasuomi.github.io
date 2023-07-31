@@ -17,7 +17,7 @@ Kehittäjien viikkopalaverit vuodelta 2022.
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-52-muistio
 
-Aika: 29.12.2022 klo 10
+Aika: 29.12.2022 klo 10<br />
 Läsnä: Anneli, Pasi, Ari, Kodo, Lasse, Emmi, Lari
 
 ### Torstain palaveri
@@ -50,7 +50,7 @@ Läsnä: Anneli, Pasi, Ari, Kodo, Lasse, Emmi, Lari
 
 ### Maanantain palaveri
 
-Aika: 19.12.2022 klo 10
+Aika: 19.12.2022 klo 10<br />
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Viikon 51 päivitys (mahdollisesti):
@@ -59,7 +59,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Valutuksessa otetaan käyttöön uusi versio Melindan rajapinnasta
   * Vaatii meidän päässä vain endpointin urlin vaihtamisen Tätin Biblio exporter palveluun (tati.koha-suomi.fi/service). 
-  * [Ohjeet urlin vaihtoon täällä]"https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/KohaSuomiServices-mikropalvelu#Biblio-exporter".
+  * [Ohjeet urlin vaihtoon täällä](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/KohaSuomiServices-mikropalvelu#Biblio-exporter).
 
 * Asiantuntijaryhmässä käsiteltyjen kehitysehdotusten aikataulutus ja vastuutus
 
@@ -67,7 +67,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 ### Torstain palaveri
 
-* "Yhteystiedot lisätty Koha-Suomen nettisivuille":https://koha-suomi.fi/yhteystiedot
+* [Yhteystiedot lisätty Koha-Suomen nettisivuille](https://koha-suomi.fi/yhteystiedot)
   * Kuvat kaikista? Kuvaamossa?
   * [Githubin wikissä pääkäyttäjien (ja meidän) yhteystiedot](https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot)
 
@@ -84,7 +84,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-50-muistio
 
-Aika: 12.12.2022 klo 12
+Aika: 12.12.2022 klo 12<br />
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi, Oskari
 
 ### Maanantain palaveri
@@ -137,7 +137,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-49-muistio
 
-Aika: 5.12.2022 klo 10
+Aika: 5.12.2022 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
 
 
@@ -180,7 +180,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
 
 * Githubin testijakso päättynyt, pääkäyttäjät eivät nähneet estettä tikettien osalta siirtymiseen Redminestä Githubiin.
 
-* "Vuoden 2023 muistioille":https://koha-suomi.fi/muistiot koti
+* [Vuoden 2023 muistioille koti](https://koha-suomi.fi/muistiot)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-49-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
@@ -191,7 +191,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 28.11.2022 klo 10
+Aika: 28.11.2022 klo 10<br />
 Läsnä: Ari, Emmi, Kodo, Lari, Pasi
 
 * Viikon 48 päivitys
@@ -238,7 +238,7 @@ Läsnä: Ari, Emmi, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 21.11.2022 klo 10
+Aika: 21.11.2022 klo 10<br />
 Läsnä: Emmi, Kodo, Lari, Pasi
 
 * Raision Finvoice-laskut eivät lähde eteenpäin  
@@ -267,7 +267,7 @@ Läsnä: Emmi, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 14.11.2022 klo 10
+Aika: 14.11.2022 klo 10<br />
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Pasi
 
 * Emon ja osakohteiden valutus
@@ -320,10 +320,10 @@ Lisätään tuotantoihin tiistaina 22.11. Finnoihin tehdään sen jälkeen muuto
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-45-muistio
 
-Aika: 7.11.2022 klo 10
+Aika: 7.11.2022 klo 10<br />
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Pasi
 
-* "strategiapajan yhteenvedon anti":https://tiketti.koha-suomi.fi/attachments/5663/Koha-SuomiOystrategianarviointi2022.pdf
+* [strategiapajan yhteenvedon anti](https://tiketti.koha-suomi.fi/attachments/5663/Koha-SuomiOystrategianarviointi2022.pdf)
   * päivystävä kehittäjä pääkäyttäjien palaveriin
   * Ari keskustelee yhteisestä kehittäjäpalaverista Kansalliskirjaston kanssa
   * Kodo mukaan asiantuntijaryhmän kokouksiin
@@ -374,7 +374,7 @@ Liittyy [Github-tikettiin 237](https://github.com/KohaSuomi/Koha/issues/237)
   * tiketit tehdään kuten ennenkin Koha-repositorioon, mutta siirretään tarvittaessa muihin repoihin, jos ne liittyvät niihin. Esim. jos tiketti liittyy tarratyökaluun, siirretään se kyseiseen repoon.
   ** lisätään repositorioihin tieto suomeksi selkokielisesti, mihin toimintoon se liittyy.
   * Tiketin seuranta -projektissa näkyy kaikki tiketit reposta huolimatta, jos niihin vain on muistettu laittaa projekti-tieto.
-  * Kaikki Koha-Suomen tiketit näkyvät, kun klikkaa Githubin yläreunasta "Issues-linkkiä":https://github.com/issues ja muuttaa hakukenttään seuraavan tiedon "is:open is:issue user:kohasuomi archived:false" (ilman hipsuja).
+  * Kaikki Koha-Suomen tiketit näkyvät, kun klikkaa Githubin yläreunasta [Issues-linkkiä](https://github.com/issues) ja muuttaa hakukenttään seuraavan tiedon "is:open is:issue user:kohasuomi archived:false" (ilman hipsuja).
   * tikettien siirrolla pyritään sujuvoittamaan koodikannan ylläpitoa, kun tiettyyn koodiin liittyvät tiketit ovat koodin yhteydessä.
 
 * loginattempts
@@ -390,7 +390,7 @@ Liittyy [Github-tikettiin 237](https://github.com/KohaSuomi/Koha/issues/237)
 
 ### Maanantain palaveri
 
-Aika: 31.10.2022 klo 10
+Aika: 31.10.2022 klo 10<br />
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Oskari, Pasi
 
 * Päivystysvuorot viikosta 45 eteenpäin
@@ -407,7 +407,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Oskari, Pasi
   * Jatkossa olisi hyvä tehdä uudelleenindeksointi aina, kun tehdään isoja tilamuutoksia tietokanta-ajona. Kodo lisää tiedon Principioon.
 
 * Tiistain päivitys
-  * [GitHub tiketti 222":https://github.com/KohaSuomi/Koha/issues/222 - Siirtotoiminnon rikkinäisen linkin korjaus
+  * [GitHub tiketti 222](https://github.com/KohaSuomi/Koha/issues/222) - Siirtotoiminnon rikkinäisen linkin korjaus
   * Yksi käännöskorjaus, Anneli täydentää tähän muutoksen.
   * lastseen-arvon päivitys RESTin borrower/status-kirjautumisessa #4234. Finna-kirjautuminen pitää vielä tarkistaa (Anneli tarkistaa).
 
@@ -441,7 +441,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Oskari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 24.10.2022 klo 12
+Aika: 24.10.2022 klo 12<br />
 Läsnä: Kodo Korkalo, Ari Mäkiranta, Emmi Takkinen, Lari Strand, Anneli Österman
 
 * Service Check
@@ -480,7 +480,7 @@ Läsnä: Kodo Korkalo, Ari Mäkiranta, Emmi Takkinen, Lari Strand, Anneli Öster
 
 ### Maanantain palaveri
 
-Aika: 17.10.2022 klo 12
+Aika: 17.10.2022 klo 12<br />
 Läsnä: Anneli, Lari, Emmi, Pasi, Kodo
 
 * Jos käytössä on Toveri-plugin, sen tarvitsemat käyttöoikeudet näkyvät listalla valittavana mutta ilman kuvausta. Voisiko lisätä esim. jQueryllä?
@@ -488,7 +488,7 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Kodo
 
 * Tiistain päivitys
   * categorycode-muutos statistics-tauluun
-  * "marc-kuvailuvirheraportit":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/MARC-luettelointivirheraportit toimintaan ja näkyville.
+  * [marc-kuvailuvirheraportit](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/MARC-luettelointivirheraportit) toimintaan ja näkyville.
     * vaatii pfsensessä muutoksia sekä muutosten käyttöönoton tiistai-aamuna. -> Muutoksia ei tarvita
     * ajastukset päälle 17.10.
   * kuvailupohjien automaattinen päivitys käyttöön tätissä ja paikallisissa kannoissa 17.10.
@@ -524,7 +524,7 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Kodo
 
 ### Maanantain palaveri
 
-Aika: 10.10.2022 klo 12
+Aika: 10.10.2022 klo 12<br />
 Läsnä: Anneli, Lari, Emmi, Pasi, Ari, Kodo
 
 * Raxit eli Rantasalmi omaksi kunnaksi
@@ -591,7 +591,7 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Ari, Kodo
 
 ### Maanantain palaveri
 
-Aika: 3.10.2022 klo 12
+Aika: 3.10.2022 klo 12<br />
 Läsnä: Ari, Anneli, Johanna, Kodo, Lari, Pasi
 
 * Testi-Tätin RCN-täsmäytyssäännöt ei toimi ajatellusti. Kaikki KP:n päiväpakettien tietueet täsmäytyy yhteen tietueeseen.
@@ -678,7 +678,7 @@ Läsnä: Ari, Anneli, Johanna, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 26.9.2022 klo 12.30
+Aika: 26.9.2022 klo 12.30<br />
 Läsnä: Anneli, Emmi, Johanna, Lari, Pasi
 
 * Päivitys tehdäänkin jo ma-ilta klo 22 jälkeen, Lari tiedottaa pääkäyttäjiä.
@@ -697,7 +697,7 @@ Läsnä: Anneli, Emmi, Johanna, Lari, Pasi
 * Tietueiden vienti paikalliskannasta Tätiin ja niiden täydennys Tätissä?
   * Ari keskustelee asiasta johtajien aamukahveilla
 
-* Yhteisössä on palautettu asiakaslaji sarake statistics-tauluun, bug "7021":https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=7021
+* Yhteisössä on palautettu asiakaslaji sarake statistics-tauluun, [bug 7021](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=7021)
   * Mietitty Elementsissä muutoksen tuomista meille jo nyt ja tarvittavien muutosten tekemistä kantaan valmiiksi, jotta on vähemmän työtä ja kadonnutta dataa versionvaihdossa.
   * Päätös: Emmi tuo muutoksen yhteisöstä ja tekee tarvittavat tietokantamuutokset/ajot.
 
@@ -725,7 +725,7 @@ Läsnä: Anneli, Emmi, Johanna, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 19.9.2022
+Aika: 19.9.2022<br />
 Läsnä: Anneli, Ari (poistui 12.30), Emmi, Johanna, Kodo, Lari, Pasi
 
 * Tuotannon päivitys - versiotiedote
@@ -775,7 +775,7 @@ Läsnä: Anneli, Ari (poistui 12.30), Emmi, Johanna, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: ma 12.9.2022 klo 12.00-
+Aika: ma 12.9.2022 klo 12.00-<br />
 Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-37-muistio
@@ -844,7 +844,7 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 
 ### Maanantain palaveri
 
-Aika: ma 5.9.2022 klo 12.00-
+Aika: ma 5.9.2022 klo 12.00-<br />
 Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-36-muistio
@@ -861,7 +861,7 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 * Biblioservice tietokannan dumppaus päivittäin, menee tati-prod -varmuuskopiohakemistoon.
 
 * Vastaisuudessa lyhyt kuvaus commit messageen kun principiota päivitetään, jotta on helpompi seurata siellä tapahtuneita muutoksia tarvitsematta lukea läpi koko dokumenttia.
-  * "Tikettien tilannetaulukkoon":https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/k-s_git_branches.ods samanlainen lyhyt kuvaus, kun tekee muutoksia.
+  * [Tikettien tilannetaulukkoon](https://github.com/KohaSuomi/koha-suomi-utility/blob/master/docs/k-s_git_branches.ods) samanlainen lyhyt kuvaus, kun tekee muutoksia.
 
 * Branchien nimeäminen jatkossa ja tulevaa versiopäivitystä silmälläpitäen
   * ks- ja KD/Bug-numeroiden lisäksi lyhyt parin sanan kuvaus mitä branchissa on, tämä voidaan ottaa käyttöön heti
@@ -931,7 +931,7 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 
 ### Maanantain palaveri
 
-Aika: 29.8.2022 klo 12
+Aika: 29.8.2022 klo 12<br />
 Läsnä: Ari, Antti, Lari, Johanna, Kodo, Anneli ja Emmi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-35-muistio
@@ -989,7 +989,7 @@ Läsnä: Ari, Antti, Lari, Johanna, Kodo, Anneli ja Emmi
 
 ### Maanantain palaveri
 
-Aika: 22.8.2022 klo 12
+Aika: 22.8.2022 klo 12<br />
 Läsnä: Antti, Lari, Emmi, Johanna ja Kodo
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-34-muistio
@@ -1043,7 +1043,7 @@ Läsnä: Antti, Lari, Emmi, Johanna ja Kodo
 
 ### Maanantain palaveri
 
-Aika: 15.8.2022 klo 12
+Aika: 15.8.2022 klo 12<br />
 Läsnä: Antti, Ari, Emmi, Johanna, Kodo, Lari
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-33-muistio
@@ -1076,7 +1076,7 @@ Läsnä: Antti, Ari, Emmi, Johanna, Kodo, Lari
 
 ### Maanantain palaveri
 
-Aika: 8.8.2022 klo 12
+Aika: 8.8.2022 klo 12<br />
 Läsnä: Ari, Johanna, Antti, Pasi, Lari ja Emmi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-32-muistio
@@ -1093,7 +1093,7 @@ Läsnä: Ari, Johanna, Antti, Pasi, Lari ja Emmi
 
 ### Maanantain palaveri
 
-Aika: 1.8.2022 klo 12
+Aika: 1.8.2022 klo 12<br />
 Läsnä: Antti, Ari, Pasi, Emmi, Kodo ja Johanna
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-31-muistio
@@ -1137,7 +1137,7 @@ Läsnä: Antti, Ari, Pasi, Emmi, Kodo ja Johanna
 
 ### Maanantain palaveri
 
-Aika: 25.7.2022 klo 12
+Aika: 25.7.2022 klo 12<br />
 Läsnä: Anneli, Antti, Lari, Pasi, Emmi, Kodo ja Johanna
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-30-muistio
@@ -1184,7 +1184,7 @@ Läsnä: Anneli, Antti, Lari, Pasi, Emmi, Kodo ja Johanna
 
 ### Maanantain palaveri
 
-Aika: 18.7.2022 klo 12
+Aika: 18.7.2022 klo 12<br />
 Läsnä: Anneli, Antti, Lari, Pasi, Emmi ja Kodo
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-29-muistio
@@ -1215,7 +1215,7 @@ Läsnä: Anneli, Antti, Lari, Pasi, Emmi ja Kodo
 
 ### Maanantain palaveri
 
-Aika: 11.7.2022 klo 12
+Aika: 11.7.2022 klo 12<br />
 Läsnä: Anneli, Antti, Lari, Pasi ja Emmi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-28-muistio
@@ -1240,7 +1240,7 @@ Läsnä: Anneli, Antti, Lari, Pasi ja Emmi
 
 ### Maanantain palaveri
 
-Aika: 30.6.2022 klo 10
+Aika: 30.6.2022 klo 10<br />
 Läsnä: Ari, Anneli, Antti, Lari ja Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-26-muistio
@@ -1280,7 +1280,7 @@ Läsnä: Ari, Anneli, Antti, Lari ja Pasi
 
 ### Maanantain palaveri
 
-Aika: 6.6.2022
+Aika: 6.6.2022<br />
 Läsnä: Ari, Emmi, Johanna, Pasi, Lari, Kodo, Anneli
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-23-muistio
@@ -1314,7 +1314,7 @@ Läsnä: Ari, Emmi, Johanna, Pasi, Lari, Kodo, Anneli
 
 ### Maanantain palaveri
 
-Aika: 30.5.2022
+Aika: 30.5.2022<br />
 Läsnä: Ari, Emmi, Johanna, Pasi, Lari, Kodo, Anneli
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-22-muistio
@@ -1336,7 +1336,7 @@ Läsnä: Ari, Emmi, Johanna, Pasi, Lari, Kodo, Anneli
 
 ## Viikon 21 muistio
 
-Aika: 23.5.2022
+Aika: 23.5.2022<br />
 Läsnä: Ari, Emmi, Johanna, Pasi, Lari, Kodo
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-21-muistio
@@ -1350,7 +1350,7 @@ Läsnä: Ari, Emmi, Johanna, Pasi, Lari, Kodo
 
 ### Maanantain palaveri
 
-Aika: 16.5.2022
+Aika: 16.5.2022<br />
 Läsnä: Ari, Emmi, Johanna, Anneli, Pasi, Lari, Kodo
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-20-muistio
@@ -1379,7 +1379,7 @@ Läsnä: Ari, Emmi, Johanna, Anneli, Pasi, Lari, Kodo
 
 ### Maanantain palaveri
 
-Aika: 9.5.2022
+Aika: 9.5.2022<br />
 Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Anneli, Ari
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-19-muistio
@@ -1401,7 +1401,7 @@ Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Anneli, Ari
 
 ### Maanantain palaveri
 
-Aika: 2.5.2022
+Aika: 2.5.2022<br />
 Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Anneli, Ari
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-18-muistio
@@ -1428,7 +1428,7 @@ Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Anneli, Ari
 
 ### Maanantain palaveri
 
-Aika: 25.4.2022
+Aika: 25.4.2022<br />
 Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Anneli
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-17-muistio
@@ -1480,7 +1480,7 @@ Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Anneli
 
 ### Maanantain palaveri
 
-Aika: 18.4.2022
+Aika: 18.4.2022<br />
 Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Ari
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-16-muistio
@@ -1493,7 +1493,7 @@ Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Ari
 
 ### Maanantain palaveri
 
-Aika: 11.4.2022
+Aika: 11.4.2022<br />
 Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Anneli
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-15-muistio
@@ -1511,7 +1511,7 @@ Läsnä: Emmi, Johanna, Lari, Pasi, Kodo, Anneli
 
 ### Maanantain palaveri
 
-Aika: 4.4.2022
+Aika: 4.4.2022<br />
 Läsnä: Ari, Emmi, Johanna, Lari, Pasi, Anneli
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-14-muistio
@@ -1533,7 +1533,7 @@ Läsnä: Ari, Emmi, Johanna, Lari, Pasi, Anneli
 
 ### Maanantain palaveri
 
-Aika: 28.3.2022 klo 12.30 - 13.30
+Aika: 28.3.2022 klo 12.30 - 13.30<br />
 Läsnä: Ari, Emmi, Johanna, Kodo, Lari, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-13-muistio
@@ -1588,7 +1588,7 @@ Läsnä: Ari, Emmi, Johanna, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 21.3.2022
+Aika: 21.3.2022<br />
 Läsnä: Ari, Anneli, Emmi, Johanna, Lari, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-12-muistio
@@ -1612,7 +1612,7 @@ Läsnä: Ari, Anneli, Emmi, Johanna, Lari, Pasi
 
 ## Viikon 11 muistio
 
-Aika: 14.3.2022
+Aika: 14.3.2022<br />
 Läsnä: Ari, Anneli, Emmi, Johanna, Kodo, Lari, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-11-muistio
@@ -1649,7 +1649,7 @@ Läsnä: Ari, Anneli, Emmi, Johanna, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 7.3.2022
+Aika: 7.3.2022<br />
 Läsnä: Johanna, Kodo, Lari, Pasi, Emmi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-10-muistio
@@ -1673,7 +1673,7 @@ Läsnä: Johanna, Kodo, Lari, Pasi, Emmi
 
 ### Maanantain palaveri
 
-Aika: 28.2.2022
+Aika: 28.2.2022<br />
 Läsnä: Anneli, Johanna, Kodo, Lari, Pasi, Ari, Emmi
 
 * Versionvaihdon aikataulutusta
@@ -1718,7 +1718,7 @@ Läsnä: Anneli, Johanna, Kodo, Lari, Pasi, Ari, Emmi
 
 ### Maanantain palaveri
 
-Aika: 21.2.2022
+Aika: 21.2.2022<br />
 Läsnä: Anneli, Johanna, Kodo, Lari, Pasi, Ari, Emmi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-8-muistio
@@ -1764,26 +1764,26 @@ Läsnä: Anneli, Johanna, Kodo, Lari, Pasi, Ari, Emmi
 
 ### Maanantain palaveri
 
-Aika: 14.2.2022
+Aika: 14.2.2022<br />
 Läsnä:  Anneli, Johanna, Kodo, Lari, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-7-muistio
 
 * Biblio_data_elementsiin lisättävät sarakkeet:
   * Anneli huomautti, että tauluun menevät myös osakohteet. Rajataanko nämä jatkossa pois vai lisätäänkö sarake component_part?
-  ** lisätään sarake host_record, joka kertoo emotietueen. Jos null, niin se ei ole osakohde
+    * lisätään sarake host_record, joka kertoo emotietueen. Jos null, niin se ei ole osakohde
   * Plugariin hahmoteltu deleted_on saraketta, johon kopioitaisiin timestamp deletedbiblioitems-taulusta.
   * Onko encoding_level (nimiön 17 merkkipaikka - Koodaustaso) tarpeellinen?
-  ** Ei tarvita.
+    * Ei tarvita.
   * Tiputetaan sanomalehdet/aikakauslehdet pois okm-raporteilta.
   * Tarkempi luokka fiction sarakkeen lisäksi?
-  ** mielellään kyllä. Ja vielä niin, että otettaisiin mukaan vain ensimmäinen 084a:n esiintymä. Jos esiintymiä on useampi, on ne biblioitems-taulussa cn_class-sarakkeessa eroteltuna |-merkillä. Helpottaisi hakuja, jos olisi vain yksi luokka.
-  ** Päätös: tiputetaan biblioitems.cn_class-sarakkeesta toistumat triggerillä
+    * mielellään kyllä. Ja vielä niin, että otettaisiin mukaan vain ensimmäinen 084a:n esiintymä. Jos esiintymiä on useampi, on ne biblioitems-taulussa cn_class-sarakkeessa eroteltuna |-merkillä. Helpottaisi hakuja, jos olisi vain yksi luokka.
+    * Päätös: tiputetaan biblioitems.cn_class-sarakkeesta toistumat triggerillä
   * Muita usein tarvittavia tietoja:
-  ** biblioitems.isnb (ongelma, jos useampi esiintymä. eroteltu |-merkillä) - tiputetaan triggerillä muut ja tallennetaan vain ensimmäinen esiintymä
-  ** biblioitems.ean (ongelma, jos useampi esiintymä. eroteltu |-merkillä) - tiputetaan triggerillä muut ja tallennetaan vain ensimmäinen esiintymä
-  ** biblioitems.issn(ongelma, jos useampi esiintymä. eroteltu |-merkillä) - tiputetaan triggerillä muut ja tallennetaan vain ensimmäinen esiintymä
-  * "toivotaan, että yhteisö pääsee eroon deleted- ja old-tauluista":https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=20271.
+    * biblioitems.isnb (ongelma, jos useampi esiintymä. eroteltu |-merkillä) - tiputetaan triggerillä muut ja tallennetaan vain ensimmäinen esiintymä
+    * biblioitems.ean (ongelma, jos useampi esiintymä. eroteltu |-merkillä) - tiputetaan triggerillä muut ja tallennetaan vain ensimmäinen esiintymä
+    * biblioitems.issn(ongelma, jos useampi esiintymä. eroteltu |-merkillä) - tiputetaan triggerillä muut ja tallennetaan vain ensimmäinen esiintymä
+  * [toivotaan, että yhteisö pääsee eroon deleted- ja old-tauluista](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=20271.)
 
 * Annelin loma siirtyi päivällä aiemmaksi, uusi lomajakso pe 4.3. - to 10.3. Pärjääkö Johanna pe yksin päivystyksessä, puhelujen siirto Johannalle?
   * Johanna pärjää
@@ -1824,7 +1824,7 @@ Läsnä:  Anneli, Johanna, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 7.2.2022 klo 12.00
+Aika: 7.2.2022 klo 12.00<br />
 Läsnä: Anneli, Ari, Emmi, Johanna, Kodo, Lari, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-6-muistio
@@ -2047,7 +2047,7 @@ Läsnä: Anneli, Emmi, Johanna, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 17.1.2022 klo 12
+Aika: 17.1.2022 klo 12<br />
 Läsnä: Ari, Anneli, Emmi, Johanna, Kodo, Lari, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-3-muistio
@@ -2078,7 +2078,7 @@ Läsnä: Ari, Anneli, Emmi, Johanna, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 10.1.2022 klo 12
+Aika: 10.1.2022 klo 12<br />
 Läsnä: Ari, Anneli, Emmi, Johanna, Kodo, Lari, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-2-muistio
@@ -2104,7 +2104,7 @@ Läsnä: Ari, Anneli, Emmi, Johanna, Kodo, Lari, Pasi
 
 ### Maanantain palaveri
 
-Aika: 3.1.2022 klo 12.00
+Aika: 3.1.2022 klo 12.00<br />
 Läsnä: Anneli, Ari, Johanna, Emmi, Kodo, Lari
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-1-muistio
@@ -2163,4 +2163,3 @@ Läsnä: Anneli, Ari, Johanna, Emmi, Kodo, Lari
  
 [Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-1-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-1-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
