@@ -121,11 +121,11 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Suomi.fi palaveri
   * XML+PDF/SFTP siirtotavasta poistumassa mahdollisuus olla lähettämättä paperikirjeitä
-  ** kirjastojen kannalta tilanne on hankala, koska Suomi.fi postituspalvelun käyttöönotosta tarvittaisiin päätös kustakin kimpan kunnasta
-  ** Suomi.fi ei mahdollista paperikirjeiden lähettämistä hetuttomille asiakkaille, joten johtaisi kahteen päällekkäiseen sopimukseen (kimppojen oma ja suomi.fi)
-  ** myös sopimustekniset asiat voivat sitoa kuntien/kimppojen käsiä tässä
+    * kirjastojen kannalta tilanne on hankala, koska Suomi.fi postituspalvelun käyttöönotosta tarvittaisiin päätös kustakin kimpan kunnasta
+    * Suomi.fi ei mahdollista paperikirjeiden lähettämistä hetuttomille asiakkaille, joten johtaisi kahteen päällekkäiseen sopimukseen (kimppojen oma ja suomi.fi)
+    * myös sopimustekniset asiat voivat sitoa kuntien/kimppojen käsiä tässä
   * VIA ei jatka REST-rajapintansa ylläpitoa/kehittämistä, ainoaksi mahdollisuudeksi jää WebServices jos ei haluta lähettää kirjeitä
-  ** WebServices on testaamaton ja tekniseltä toteutukseltaan epätyydyttävä (mm. erillinen Java-kielinen signer-moduli tarvitaan)
+    * WebServices on testaamaton ja tekniseltä toteutukseltaan epätyydyttävä (mm. erillinen Java-kielinen signer-moduli tarvitaan)
   * Palaveri Suomi.fi väen kanssa asiasta maanantaina 19.12. Ari, Anneli, Kodo ja Knuutisen Päivi paikalle.
 
 * [KohaSuomi/Koha #295](https://github.com/KohaSuomi/Koha/issues/295) Vaski: okm-tilastovääristymän korjaaminen  
@@ -149,8 +149,8 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
 * Konversiot (Kirkes ja vähän muutkin tulevat)
   * bulkmarcimport menee uusiksi ja samalla kaikki muutkin meidän omat bulk*import -skriptit, eli koko import-ketju täytyy suunnitella ja koodata uusiksi versiovaihdoksen jäljiltä.
   * Jos yritettäisiin päästä tässäkin mahdollisimman lähelle yhteisöversiota, eli luovutaan bulkmarcimportia lukuunottamatta import-työkaluista ja tuodaan data kantaan suorina sql insertteinä.
-  ** Pitäisi toimia, on tehty ennenkin mm. Kyytin ja Lumpeen konversioiden aikana, mutta ei kyllä ole testattu pitkään pitkään aikaan.
-  ** Kuinka paljon bulkmarcimportin Koha-Suomi (oplibmatcher, preserve biblionumber, component parts) ja kansalliskirjasto (holdings-tuki) ominaisuuksista tarvitaan edelleen mukaan.
+    * Pitäisi toimia, on tehty ennenkin mm. Kyytin ja Lumpeen konversioiden aikana, mutta ei kyllä ole testattu pitkään pitkään aikaan.
+    * Kuinka paljon bulkmarcimportin Koha-Suomi (oplibmatcher, preserve biblionumber, component parts) ja kansalliskirjasto (holdings-tuki) ominaisuuksista tarvitaan edelleen mukaan.
 
 * Bibliografisten tietueiden deduplikointi konversioissa
   * Deduplikointi ei ole ongelma Kirkeksessä, koska kyseessä on kokonaan uusi Koha-installaatio, jatkossa tuotaessa uusia kirjastoja entisten kimppojen osaksi tämä on kuitenkin viimeistään ratkaistava.
@@ -337,7 +337,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Pasi
   * Hyllyvarausraportin päivitys, no hold allowed. Github-tiketti 226.
   * Aineistotyyppi lainaukseen ja palautukseen, jos ehditään tekemään muutos, että näytetään auktorisoidun arvon kuvaus. G-238
   * [KohaSuomi/Koha #213](https://github.com/KohaSuomi/Koha/issues/213)?
-  ** tehdään ensin Siiliin uudelleenindeksointi, sitten muille
+   * tehdään ensin Siiliin uudelleenindeksointi, sitten muille
   * Muutetaan TäTin tietueiden valutusta ja valmistaudutaan valutuksen keskeyttämiseen yön ajaksi. Yöllisistä valumisista on ollut ongelmia.
   * [KohaSuomi/Koha #207](https://github.com/KohaSuomi/Koha/issues/207)
 
@@ -372,7 +372,7 @@ Liittyy [Github-tikettiin 237](https://github.com/KohaSuomi/Koha/issues/237)
 
 * tiketit ja repositoriot
   * tiketit tehdään kuten ennenkin Koha-repositorioon, mutta siirretään tarvittaessa muihin repoihin, jos ne liittyvät niihin. Esim. jos tiketti liittyy tarratyökaluun, siirretään se kyseiseen repoon.
-  ** lisätään repositorioihin tieto suomeksi selkokielisesti, mihin toimintoon se liittyy.
+    * lisätään repositorioihin tieto suomeksi selkokielisesti, mihin toimintoon se liittyy.
   * Tiketin seuranta -projektissa näkyy kaikki tiketit reposta huolimatta, jos niihin vain on muistettu laittaa projekti-tieto.
   * Kaikki Koha-Suomen tiketit näkyvät, kun klikkaa Githubin yläreunasta [Issues-linkkiä](https://github.com/issues) ja muuttaa hakukenttään seuraavan tiedon "is:open is:issue user:kohasuomi archived:false" (ilman hipsuja).
   * tikettien siirrolla pyritään sujuvoittamaan koodikannan ylläpitoa, kun tiettyyn koodiin liittyvät tiketit ovat koodin yhteydessä.
@@ -424,9 +424,9 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Oskari, Pasi
 
 * valutuksen ongelmat
   * osa internal server error -ongelmista johtuu siitä, että elasticsearch käy yöllä alhaalla
-  ** valutus-daemon käynnissä aina, myös varsinaisen valutusajan ulkopuolella. -> Muutetaan pysähtymään 00-06.
+    * valutus-daemon käynnissä aina, myös varsinaisen valutusajan ulkopuolella. -> Muutetaan pysähtymään 00-06.
   * totalissues-arvon päivittyminen
-  ** Ratkaisu: katkaistaan kuvailupohjien ja biblioitems.totalissues -linkki ja tehdään erillinen cron laskemaan lainamäärät suoraan biblioitems-tauluun
+    * Ratkaisu: katkaistaan kuvailupohjien ja biblioitems.totalissues -linkki ja tehdään erillinen cron laskemaan lainamäärät suoraan biblioitems-tauluun
   * päivällä olevat internal server error -ilmoitukset
 
 * [#215](https://github.com/KohaSuomi/Koha/issues/215)
@@ -552,16 +552,16 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Ari, Kodo
 
 * #5629 - Uusi sarake categorycode statistics-tauluun
   * aikataulu: 
-  ** ti 18.10.2022 päivityksessä koodimuutos ja skeeman päivitys
-  ** tietojen vienti usercodesta categorycodeen tai päätellään borrowernumberista, jos usercodea ei ole. Tehdään pari kimppaa kerrallaan öisin.
-  ** sen jälkeen tiputetaan usercode-sarake taulusta
-  ** Vastuussa: Emmi
+    * ti 18.10.2022 päivityksessä koodimuutos ja skeeman päivitys
+    * tietojen vienti usercodesta categorycodeen tai päätellään borrowernumberista, jos usercodea ei ole. Tehdään pari kimppaa kerrallaan öisin.
+    * sen jälkeen tiputetaan usercode-sarake taulusta
+    * Vastuussa: Emmi
 
 * Tätin ja Melindan ongelmia
   * yksi erä jäänyt staging-tilaan kun Elastic mennyt alta
-  ** Emmi lataa tiedoston palvelimelta ja Anneli vie sen tietueiden välivarastoinnilla Tätiin.
+    * Emmi lataa tiedoston palvelimelta ja Anneli vie sen tietueiden välivarastoinnilla Tätiin.
   * Melindaan syntynyt tuplia
-  ** Palvelimella oli prosessit päällä tuplasti, ylimääräisten pysäytys auttoi ongelmaan.
+    * Palvelimella oli prosessit päällä tuplasti, ylimääräisten pysäytys auttoi ongelmaan.
 
 * Kyytin Haminan ja Siilinjärven kuntasovellus
   * Toimii samalla tavalla kuin Finna. Kuntasovelluksessa kaikki liikenne kulkee Geniemin palvelimen kautta.
@@ -659,10 +659,10 @@ Läsnä: Ari, Anneli, Johanna, Kodo, Lari, Pasi
 
 * Tiistain päivitys
   * Laskutustyökaluun erillinen ryhmäasetus huoltajan rajoitukselle. Laskutusryhmässä pitää käydä kytkemässä päälle, jos se halutaan.
-  ** Nykyiset rajoitusasetukset tippuu pois, joten ne pitää käydä asettamassa uudelleen halutulla tavalla kaikille ryhmille.
+    * Nykyiset rajoitusasetukset tippuu pois, joten ne pitää käydä asettamassa uudelleen halutulla tavalla kaikille ryhmille.
   * Uudempi versio Raportointi-liitännäisestä
   * [Hyllytarkenne näkymään niteen palautuksessa](https://github.com/KohaSuomi/Koha/issues/198)
-  ** Ajakaa päivityksessä ./translate install fi-FI ja ./translate install sv-SE, jotta tulee kieliversioihinkin näkyviin.
+    * Ajakaa päivityksessä ./translate install fi-FI ja ./translate install sv-SE, jotta tulee kieliversioihinkin näkyviin.
   * Finto-plugineista poistettu kenttien täyttämisen yhteydessä olleet animaatiot (testataan, josko pluginien käytettävyys paranee)
 
 * Huoltoikkuna 12.10.2022 ja tulossa käyttökatko.
@@ -760,9 +760,9 @@ Läsnä: Anneli, Ari (poistui 12.30), Emmi, Johanna, Kodo, Lari, Pasi
 * Tiistain päivitys
   * #5594 Signum-pluginit ja pääsanojen välilyönnit - signumiin muodostuvat välilyönnit korvataan alaviivalla
   * Laskutustyökalun päivityksiä
-  ** Finvoice-lähetys joko zip-pakettina tai yksittäisinä xml-tiedostoina. 
-  ** Finvoicen xml-tiedostojen lähetys rivivaihtojen kanssa tai ilman.
-  ** Mahdollisuus saada holhoajan tiedot erikseen laskulle, uusi ryhmäasetus tätä varten: "Muuta takaajakäsittely". [Finvoice-esimerkki pohjaan lisäys tätä varten](https://github.com/KohaSuomi/koha-plugin-overdue-tool/blob/21.11/Koha/Plugin/Fi/KohaSuomi/OverdueTool/examples/finvoice-example.xml#L36).
+    * Finvoice-lähetys joko zip-pakettina tai yksittäisinä xml-tiedostoina. 
+    * Finvoicen xml-tiedostojen lähetys rivivaihtojen kanssa tai ilman.
+    * Mahdollisuus saada holhoajan tiedot erikseen laskulle, uusi ryhmäasetus tätä varten: "Muuta takaajakäsittely". [Finvoice-esimerkki pohjaan lisäys tätä varten](https://github.com/KohaSuomi/koha-plugin-overdue-tool/blob/21.11/Koha/Plugin/Fi/KohaSuomi/OverdueTool/examples/finvoice-example.xml#L36).
     * "Luonti onnistui"-ilmoituksen näkyminen sivun yläreunassa ja sulkemispainike.
   * Tietuenäytölle valutuksen aktivointinappi ja ilmoitus milloin on aktivoitu.
   * Itsepalvelulainaus: virheilmoitus käyttäjälle, jos viivakoodia ei löydy palauttaessa.
@@ -805,7 +805,7 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 
 * Aikatauludokumentti päivitetty (https://tiketti.koha-suomi.fi/projects/mls/wiki/Aikataulu_2020-2021), pari avointa asiaa / Kodo
   * Palomuurien IP-rajaus selvitettävä BittiGurulta
-  ** Kodo kysyy Bittigurulta keskiviikon huoltokatkon aikaan.
+    * Kodo kysyy Bittigurulta keskiviikon huoltokatkon aikaan.
   * YSO-konversion tilanne ja toimintasuunnitelma
   * RDA-konversion tilanne ja toimintasuunnitelma
   * EBooking varausjärjestelmän SIP2OHTTP-tilanne
@@ -912,7 +912,7 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
   * Niteet pitäisi Smartboxilla piipata sekä automaatille luukkua täytettäessä (jotta automaatti tietää missä luukussa ne ovat) että Kohan virkailijaliittymään (jotta aineisto muuttuu noudettavaksi ja asiakas saa noutoilmoituksen)
   * Cron-skripti voisi hoitaa Smartbox-automaatin toimipisteessä olevat processing tilaiset reserves-taulussa siten että niille tehtäisiin Kohan return-modulilla automaattinen "tiskipalautus"?
   * Asiakaspalautuksissa ja virkailijan tekemässä palautuksessa pitäisi toimia eri tavalla
-  ** Entäs jos automaattiin palautuu asiakkaan palauttamana nide johon seuraavan tärppäävän varauksen noutopaikka on se sama automaatti, silloin noutoilmoituskirjettä ei saisi lähteä ennenkuin henkilökunta on käsitellyt niteen ja siirtänyt sen oikeaan luukkuun noudettavaksi. Kaksi tunnusta?
+    * Entäs jos automaattiin palautuu asiakkaan palauttamana nide johon seuraavan tärppäävän varauksen noutopaikka on se sama automaatti, silloin noutoilmoituskirjettä ei saisi lähteä ennenkuin henkilökunta on käsitellyt niteen ja siirtänyt sen oikeaan luukkuun noudettavaksi. Kaksi tunnusta?
 
 * Kantapalvelimen resurssihärö, ylipitkät kyselyt ja ko-db-reaper
   * Kantapalvelimelle (nat) oli jäänyt pyörimään johonkin ihme limboon hyvin vanhoja kyselyjä, jotka pikkuhiljaa söivät kantapalvelimen prosessoriaikaa. Kyselyt on tapettu.
@@ -955,10 +955,10 @@ Läsnä: Ari, Antti, Lari, Johanna, Kodo, Anneli ja Emmi
 
 * Tiketti 4353
   * signumbuilder tuottaa viallisia signumheader:eitä eli teoksen pääsanoja
-  ** signumbuilder tuottaa pääsanoja, joissa on välilyöntejä, esim. "5 M" tai "70 ". Oikeellinen pääsana: "5MI" tai "70O"
+    * signumbuilder tuottaa pääsanoja, joissa on välilyöntejä, esim. "5 M" tai "70 ". Oikeellinen pääsana: "5MI" tai "70O"
   * se, että pääsanassa on välilyönti aiheuttaa ongelmia signumYKL, signumLoc, signumHeading arvojen paikantamisesa
   * Ratkaistaanko asia korjaamalla signumbuilder, vai muuttamalla tarratulostimen koodia ottamaan signumbuilderin virheelliset pääsanat
-  ** jos asia korjataan muuttamalla tarratulostimen koodia, niin se ei silti korjaa aiemmin mainittua ongelmaa, missä pääsanan välilyönnit (joita ei pitäisi olla) estävät YKL / Loc / Heading oikeellista paikantamista.
+    * jos asia korjataan muuttamalla tarratulostimen koodia, niin se ei silti korjaa aiemmin mainittua ongelmaa, missä pääsanan välilyönnit (joita ei pitäisi olla) estävät YKL / Loc / Heading oikeellista paikantamista.
 
 * KohaCon2022
   * [Osallistutaan etänä](http://koha-us.org/events/conferences/kohacon22/) Ilmoittautuminen 31.8.2022 mennessä.
@@ -980,8 +980,8 @@ Läsnä: Ari, Antti, Lari, Johanna, Kodo, Anneli ja Emmi
 
 * Sähköpostien lähetys 
   * iso osa kimpoista oli valmis luopumaan bounce-viestien läpikäynnistä.
-  ** OUTIssa haluttiin tarkistaa ensin Nooralta -> voidaan luopua bounce-viestien läpikäynnistä.
-  ** Vaskissa haluttiin säilyttää vaskikirjastot-domain, mutta aikoivat vielä keskustella asiasta.
+    * OUTIssa haluttiin tarkistaa ensin Nooralta -> voidaan luopua bounce-viestien läpikäynnistä.
+    * Vaskissa haluttiin säilyttää vaskikirjastot-domain, mutta aikoivat vielä keskustella asiasta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-35-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
@@ -1008,8 +1008,8 @@ Läsnä: Antti, Lari, Emmi, Johanna ja Kodo
 * #5537 käsittely (jälleen)
   * Ongelma on luultua pienempi
   * Ongelma on asia, mikä korjaantuu tulevissa Koha versioissa
-  ** deleteditems -taulun käytöstä luovutaan 
-  ** Kun nide poistetaan, items.itemnumber ei muutu null vaan items -tauluun tulee uusi kenttä, joka kertoo, onko nide poistettu
+    * deleteditems -taulun käytöstä luovutaan 
+    * Kun nide poistetaan, items.itemnumber ei muutu null vaan items -tauluun tulee uusi kenttä, joka kertoo, onko nide poistettu
   * => Tiketin hylkäys?
 
 * Sertifikaattikriisin jälkipyykki, korjaus ja opittua
@@ -1865,12 +1865,12 @@ Läsnä: Anneli, Ari, Emmi, Johanna, Kodo, Lari, Pasi
 
 * Tilastointiin muutama muutos:
   * BiblioDataElements.pm käyttämään tietokanta slavea #5260 
-  ** viety masteriin, ei vielä tuotannossa (odottaa että C4::KohaSuomi::Tweaks viedään tuotantohaaraan)
+    * viety masteriin, ei vielä tuotannossa (odottaa että C4::KohaSuomi::Tweaks viedään tuotantohaaraan)
   * biblio_data_elements-taulun päivitys myös kun MARC muuttuu #5264 
-  ** voisi vielä testata esim. OUTIssa, lähinnä kiinnostaa paljonko vaikuttaa cronin suoritusaikaan 
+    * voisi vielä testata esim. OUTIssa, lähinnä kiinnostaa paljonko vaikuttaa cronin suoritusaikaan 
   * kielikoodi 008-kentästä #5263 
-  ** vielä tekeillä, testattava
-  ** HUOM! muutos vaatii sitten biblio_data_elementsin pakkopäivityksen, kerta taulua halutaan käyttää SQL-raporteissa
+    * vielä tekeillä, testattava
+    * HUOM! muutos vaatii sitten biblio_data_elementsin pakkopäivityksen, kerta taulua halutaan käyttää SQL-raporteissa
 
 * PostiMessaging PDF-kirjeet, koodissa oleva mm ei ole sama paperilla. Nostettu arvoa 16mm mikä on tulostettuna n. 13mm.
 
