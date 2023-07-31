@@ -214,7 +214,7 @@ Läsnä: Ari, Emmi, Kodo, Lari, Pasi
 * [Tikettien työnkulku](https://github.com/KohaSuomi/Koha/wiki/Tikettien-ty%C3%B6nkulku)
   * "Valmis" -> "Suljettu", koska välttämättä mitään ei tehty?
 
-* Salasanasuojatut raportit ja tiivisteiden laskenta, esimerkiksi https://vaski-test.koha-suomi.fi/cgi-bin/koha/reports/guided_reports.pl?reports=2182&phase=Edit%20SQL
+* Salasanasuojatut raportit ja tiivisteiden laskenta, [esimerkiksi](https://vaski-test.koha-suomi.fi/cgi-bin/koha/reports/guided_reports.pl?reports=2182&phase=Edit%20SQL)
   * Komentoriviltä: ```echo -n "salasana" | md5sum``` (-n on tärkeä, koska se estää echoa tuuppaamasta ylimääräistä enteriä salasanan loppuun ja muutamasta tiivistettä aivan toiseksi kuin on tarkoitus)
   * MariaDB clientissa: select md5('salasana');
   * Kodo tekee tiivistelaskurin tallennettuihin raportteihin.
@@ -234,17 +234,19 @@ Läsnä: Ari, Emmi, Kodo, Lari, Pasi
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-47-muistio
 
+### Maanantain palaveri
+
 Aika: 21.11.2022 klo 10
 Läsnä: Emmi, Kodo, Lari, Pasi
 
 * Raision Finvoice-laskut eivät lähde eteenpäin  
   * Syynä mitä luultavammin se, että Svean päässä on säädetty hakemisto-oikeuksia. Pyydetty Vaskin pääkäyttäjiä olemaan vielä yhteydessä Sveaan ja varmistamaan tämä.
-* "KohaSuomi/Koha #215":https://github.com/KohaSuomi/Koha/issues/215 Kuvailupohjiin käyttöön 942$b-kenttä
+* [KohaSuomi/Koha #215](https://github.com/KohaSuomi/Koha/issues/215] Kuvailupohjiin käyttöön 942$b-kenttä
   * Ehtiikö tämän viikon päivitykseen?
   * Pasi hoitaa.
 
 * Viikon 47 päivitys:
-  * "KohaSuomi/koha-plugin-overdue-tool #2":https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/2 Laskutusliitännäiseen lisätty tieto laskutettujen niteiden määrästä ja laskutetun aineiston kokonaissumma
+  * [KohaSuomi/koha-plugin-overdue-tool #2](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/2) Laskutusliitännäiseen lisätty tieto laskutettujen niteiden määrästä ja laskutetun aineiston kokonaissumma
 
 ### Torstain palaveri
 
@@ -255,13 +257,13 @@ Läsnä: Emmi, Kodo, Lari, Pasi
   * Jokainen merkkaa ehdotuksensa kalenteriin
 * Viikon 48 päivitys
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-47-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-47-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikon 46 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-46-muistio
+
+### Maanantain palaveri
 
 Aika: 14.11.2022 klo 10
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Pasi
@@ -291,7 +293,7 @@ Kohan ylläpidossa ei voinut poistaa laina- ja maksusääntöä. Ongelma johtui 
 
 !{width:45%}lainasaannot8.png!
 
-Liittyy Github-tikettin "Koha #259":https://github.com/KohaSuomi/Koha/issues/259
+Liittyy Github-tikettin [Koha #259](https://github.com/KohaSuomi/Koha/issues/259)
 
 #lainajamaksusäännöt #ylläpito
 
@@ -307,11 +309,10 @@ Perustiedot-näytölle tulee parannuksia. Näkyville tulee mm. aineistotyyppi
 Finnaa varten on tehty plugin (Authorised values endpoints) joka tarjoaa Finnalle selkokieliset kuvaukset sublocationeista. Finna käyttää tätä tietoa jatkossa näyttääkseen niteen sublocationin kuvauksen autorisoiduista arvoista niteen tiedoissa.
 Lisätään tuotantoihin tiistaina 22.11. Finnoihin tehdään sen jälkeen muutos heidän aikataulullaan.
 
-Liittyy redmine-tikettiin:https://tiketti.koha-suomi.fi/issues/5476
+[Liittyy redmine-tikettiin](https://tiketti.koha-suomi.fi/issues/5476)
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-46-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-46-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 45 muistio
 
