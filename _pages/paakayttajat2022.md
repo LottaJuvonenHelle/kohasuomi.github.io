@@ -481,7 +481,7 @@ Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja 
 
 **Helle**
 * Tiistai-aamusta 18.10.2022 alkaen tunneloitujen automaattien (2 kpl) toimimisessa ongelmia. Keskiviikko-aamupäivästä 19.10.2022 alkaen molemmat automaatit toimineet ok.
-* Elokuussa 2022 käyttöön otetulla automaatilla on ollut väärä kirjastotieto. Automaattiin liittyvät kirjastoyksikkötiedot muutettu oikealle kirjastolle. Emmi vaihtanut tietokantaan automaatilla lainatuille niteille oikean kirjaston. https://github.com/KohaSuomi/Koha/issues/219
+* Elokuussa 2022 käyttöön otetulla automaatilla on ollut väärä kirjastotieto. Automaattiin liittyvät kirjastoyksikkötiedot muutettu oikealle kirjastolle. Emmi vaihtanut tietokantaan automaatilla lainatuille niteille oikean kirjaston. [Tiketti #219](https://github.com/KohaSuomi/Koha/issues/219)
 
 **Vaski**
 * Huoltokatkojen venyessä eräpäivämuistutusten lähetys jää tekemättä, jos katko menee yli yhdeksään. Mietitty viestien lähetyksen viivästyttämistä tai kehittäjien tekemää viestien lähetystä ongelmatilanteissa.
@@ -522,7 +522,7 @@ Varsinkin kun tapahtui kahtena kuukautena perätysten, on aiheuttanut harmitusta
 **Siilinjärvi**
 * Juuri kun sertifikaatti-asennuksista oli selvitty, meillä luovuttiin lopultakin lainaustiskillä kimppa-tunnuksista ja siirryttiin henk.koht. tunnuksiin. Asennettiin siis paljon lisää sertifikaatteja.
 * Mikroväylän automaatit päivitetään 1.11. kyselemään pin-koodia.
-* Otetaan käyttöön pin-koodin palautus Finnassa: https://www.kiwi.fi/pages/viewpage.action?pageId=103197538 Anneli hoksasi ohjeessa tosin vanhan version käyttäjäoikeuden, nyt kai delete_borrowers ja edit_borrowers
+* [Otetaan käyttöön pin-koodin palautus Finnassa](https://www.kiwi.fi/pages/viewpage.action?pageId=103197538) Anneli hoksasi ohjeessa tosin vanhan version käyttäjäoikeuden, nyt kai delete_borrowers ja edit_borrowers
 * Henkilöasiakkuuden 10 v voimassaoloaika, miten jatkossa pidetään yhteystiedot ajan tasalla? Pitää pohtia.
 
 **Lappi**
@@ -594,9 +594,9 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen,
 Aika: ti 4.10.2022 klo 9.15
 Läsnä: Heli Auranen, Katja Valjakka, Tiina Pietikäinen (Lumme), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Pia Kusmin (Lappi), Anni Rajala (Vaski), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-40-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-40-muistio)
 
-*Yhteiset asiat*
+**Yhteiset asiat**
 * Lari pyysi minua (Tuomas Kunttu)  kysymään Kansalliskirjastolta muutosta Finnaan, että Kohassa asiakkaan kotikirjasto ja Finnan Ensisijainen noutopaikka olisivat aina synkronissa: muutos toiseen muuttaisi aina myös toisen. Rajapinnan mukaan tämä olisi mahdollista. (Nythän Kohasta Finnaan kotikirjasto siirtyy sen ensimmäisen kerran, ei sen jälkeen ja toiseen suuntaan ei ollenkaan.)
 Jäin miettimään, että jos saavat muutoksen tehtyä, niin kumpaan suuntaan muutoksen pitäisi ensin tapahtua Kohasta Finnaan vai Finnasta Kohaan. Useimmissa tapauksissa ja ainakin meillä muutos saisi mennä Finnasta Kohaan. Mutta entä tapaukset joissa Kohassa asiakkaiden kotikirjastoja on muutettu ajoilla (esim. Oulu #5603), onko näissä tapauksissa pyydetty muutosta myös Finnaan ja voiko muutos Finnasta Kohaan aiheuttaa näissä jotain ongelmaa?
   * triggeröikö tietokanta-ajot Kohassa muutoksen myös Finnaan?
@@ -610,7 +610,7 @@ Jäin miettimään, että jos saavat muutoksen tehtyä, niin kumpaan suuntaan mu
   * Kohan skeeman päivitys
 
 * Varaustunnus asiakasmääreeksi seuraavassa versionvaihdossa.
-* Muistattehan sulkea tiketit, kun ne ovat valmiit tai muuttaa tilaksi jokin muu. "Ratkaisu ehdotettu -tilaisia on tällä hetkellä 30 kpl":https://tiketti.koha-suomi.fi/projects/fbox/issues?utf8=%E2%9C%93&set_filter=1&sort=id%3Adesc&f%5B%5D=status_id&op%5Bstatus_id%5D=%3D&v%5Bstatus_id%5D%5B%5D=3&f%5B%5D=&c%5B%5D=due_date&c%5B%5D=tracker&c%5B%5D=status&c%5B%5D=priority&c%5B%5D=votes_total&c%5B%5D=subject&c%5B%5D=assigned_to&c%5B%5D=updated_on&c%5B%5D=author&c%5B%5D=category&c%5B%5D=cf_14&c%5B%5D=cf_15&group_by=&t%5B%5D=
+* Muistattehan sulkea tiketit, kun ne ovat valmiit tai muuttaa tilaksi jokin muu. [Ratkaisu ehdotettu -tilaisia on tällä hetkellä 30 kpl](https://tiketti.koha-suomi.fi/projects/fbox/issues?utf8=%E2%9C%93&set_filter=1&sort=id%3Adesc&f%5B%5D=status_id&op%5Bstatus_id%5D=%3D&v%5Bstatus_id%5D%5B%5D=3&f%5B%5D=&c%5B%5D=due_date&c%5B%5D=tracker&c%5B%5D=status&c%5B%5D=priority&c%5B%5D=votes_total&c%5B%5D=subject&c%5B%5D=assigned_to&c%5B%5D=updated_on&c%5B%5D=author&c%5B%5D=category&c%5B%5D=cf_14&c%5B%5D=cf_15&group_by=&t%5B%5D=)
 * Finna-Koha-kirjanmerkin lisäys/muokkausohje tiketissä #5616 ja laitettu myös Matrixiin.
 * #5487
 * #5452 - verkkokirjastouusinnat
@@ -622,84 +622,80 @@ Jäin miettimään, että jos saavat muutoksen tehtyä, niin kumpaan suuntaan mu
 * Tikettien seuranta -projekti
   * oikeuksia lisätty, onnistuuko nyt tikettiin projektin ja statuksen lisääminen?
 
-*Lumme*
+**Lumme**
 * Vanhentunut varaus ei poistunut, antoi vanhan varausajan kuittiin.
 * Virkailijan antaa uusia, vaikka sakkoa yli 10 e. 
 * Finnassa uusinta antoi 4 vkoa laina-aikaa, vaikka 2 vko laina (varattu aineisto). Millaisia laina ja maksusääntöjä käytetään Finnassa määritellään CircControl ja HomeOrHoldingBranch
 
-*Vaara*
+**Vaara**
 * Varmistuskysymys, voiko PowerBI:hin tarvittavia tilastoja ajaa päivällä (voi)
 * Huokailua, miksi esihenkilöt eivät voi pyytää työntekijöille tarvittavia Koha-oikeuksia ajoissa vaan vasta sitten, kun työntekijä on jo talossa
 * Irina kyseli itsepalvelulainauksen toimintatavasta, kun asiakas yrittää lainata toiselle varattua teosta
 * Varauksen noutoajan ja viimeisen voimassaolopäivän ongelma (jos asiakas valinnut lyhyemmän voimassaoloajan, varaus saattaa tulla vaikka viimeisenä voimassaolopäivänä, jolloin noutoaikaa ei jää)
 
-*Kyyti*
+**Kyyti**
 * Versionvaihdosta asti aikakauslehtien vastaanotossa on tullut väärää vuotta joidenkin lehtien kohdalla. Ongelma tarkentunut kerran kuussa ilmestyviin lehtiin. Vika voi olla numerointikaavoissa. Mutta miksi se on muuttunut, kun on aikaisemmin toiminut.
 * Varauksen viimeinen voimassaolopäivä on ollut sulkupäivä. Syy voi olla asiakkaan muuttama varauksen viimeinen voimassaolopäivä. Näkikö jostain jälkikäteen mikä on ollut viimeinen voimassaolopäivä varausta tehtäessä. Anneli vinkkasi: https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Varauksen-tiedot-lokilla
 
-*Lappi*
+**Lappi**
 * Paytrail muutokset tulevat Lapin kirjastoille lokakuun aikana.
 * Keminmaan kirjastoauton laina- ja maksusäännöt puuttuivat jostain syystä kokonaan. 
 * Ensimmäinen GitHub-tiketti tehty.
 
-*Vaski*
+**Vaski**
 * FloatRules-järjestelmäasetuksen toiminnallisuutta päivitetty tuotantoon, minkä ansiosta Vaskissa nyt valmiudet aloittaa Vaski-tasoisen kellutuksen kokeilu. Vaski-johtoryhmä tekee päätöksen aloitusajankohdasta.
 
-*Helle*
+**Helle**
 * Emmi poistanut käyttäjätunnuksilta tarpeettoman hankintaehdotuksiin liittyvän oikeuden (suggestions_manage). #5621
 * Sotuteekin käyttöongelmia yhdellä Sotuteekki-tunnuksella: tunnuksella Sotuteekkiin kirjautuminen Firefox-selaimessa heitti ulos Kohasta. Chrome-selaimella onnistui yhden sotun haku. Tehty uusi tunnus, jonka Kati testasi ja havaitsi toimivaksi. Pyydetty tunnuksen omaavaa tarkistamaan/tarkistuttamaan selaimen asetukset (mm. pluginien sallimisen).
 * Tarkka haku -toimintoon lisätty Kirjastoryhmät-hakuehto.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Vanhentuneiden maksujen sql-raportin päivitykseen apuja Annelilta ja Katilta. Reetta pohti ääneen voisiko vanhentuneet maksut lisätä raportointityökaluun, mutta ehkä niitä on järkevämpää hakea sql:llä jatkossakin.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-40-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-40-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 39 muistio
 
 Aika: ti 27.9.2022 klo 9.15
 Läsnä: Tiina Pietikäinen, Timo Pesonen, Heli Auranen (Lumme), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Susanna Sandell (Vaski), Pia Kusmin (Lappi), Anneli Österman (OUTI)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-39-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-39-muistio)
 
-*Yhteiset asiat*
+**Yhteiset asiat**
 * Githubin testiaika loka-marraskuu
-  * Tiketit tehdään tänne: https://github.com/KohaSuomi/Koha/issues
-*  * jokaista kohtaa tiketissä ei tarvitse täyttää
-*  * tiketin avaaja laittaa tilaksi Done, kun tiketti on valmis
-*  * Huomiot ja kehitysehdotukset yms. tikettiin https://github.com/KohaSuomi/Koha/issues/188
-  * Tikettejä voi seurata visuaalisesti täällä: https://github.com/orgs/KohaSuomi/projects/4
-* "Vkon 39 päivitys":https://tiketti.koha-suomi.fi/news/37
+  * [Tiketit tehdään tänne](https://github.com/KohaSuomi/Koha/issues)
+    * jokaista kohtaa tiketissä ei tarvitse täyttää
+    * tiketin avaaja laittaa tilaksi Done, kun tiketti on valmis
+    * Huomiot ja kehitysehdotukset yms. [tikettiin 188](https://github.com/KohaSuomi/Koha/issues/188)
+  * [Tikettejä voi seurata visuaalisesti täällä](https://github.com/orgs/KohaSuomi/projects/4)
+* [Vkon 39 päivitys](https://tiketti.koha-suomi.fi/news/37)
 * Kohan ohje suomeksi -wikin päivitystilanne?
 
-*Lumme*
+**Lumme**
 * Asiakkaalla ongelma vaihtaa varauksen noutopistettä varausta tehdessä. Onnistui jälkikäteen. Epäselväksi jäi, tekikö asiakas nidevarausta. Tähän liittyen tiketissä 5475 oleva koodi lisätty Lumpeen CSS:n.
 * Uuden sertin asentamisessa pientä säätöä eri pisteissä.
 
-*Vaara*
+**Vaara**
 * Viime viikon varmenteiden asentamisessa ongelmia, kun entinen vanhentui eikä uusi toiminut automaattisesti. Onneksi saatiin useita erilaisia ohjeita päivän mittaan ja useimmat ongelmat saatiin ratkaistua ohjeiden avulla. Ilmeisesti kovin monenlaisia koneita/selaimia/selainversioita käytössä, kun niin paljon tuli kyselyitä.
 * Kohan itsepalvelu testauksessa, toiveessa saada ihan lähipäivinä käyttöön.
 
-*Kyyti*
+**Kyyti**
 * #5614 hankintaportaalin käyttöönotto. Mikä on Woiman tarvitsema osoite? Anneli selvittää. (Kokouksen jälkeen Lari antoi tarvittavat tiedot)
 * Mikä on tilanne kesäkuun uusintojen kanssa? Tehty korjaus, joka ei aivan onnnistunut. Korjauksen korjaus tekeillä. (Ja kokouksen jälkeen Emmi ilmoitti, että korjaus on onnistunut)
 
-*Vaski*
+**Vaski**
 * Joistain kirjastoista raportoidaan, että tarratulostus on hieman muuttunut, eli ei enää pyydä valitsemaan tulostusohjelmaa. Syynä on oletettavasti se, että selain on päivitetty uuteen versioon. 
 
-*Lappi*
+**Lappi**
 * Rovaniemen muutto takaisin pääkirjastolle väistötiloista etenee ja työllistää.
 * Me naiset kausijulkaisupohja tilauksineen oli onnistuttu poistamaan. Koitetaan saada palautettua testipuolelta tai ehkä joudutaan tekemään kokonaan uudestaan.
 * Paytrail uudistus etenee ja ensi maanantaina pidetään aloituskokous. Finna-tukeen toimitetaan uusi kauppiastunnus ja varmenne heti kun ne saadaan. Sitten päästään testaamaan.
 
-*OUTI*
+**OUTI**
 * Noutokirjastottomien varausten syntymekanismi selvisi. Ongelma johtui Finna-Koha-bookmarkletin käytöstä. Ilmeisesti Finnassa on jotain muuttunut ja osoiteriville kertyy biblionumberin jälkeen kauttaviivalla "polku", joka tulee bookmarkletia klikatessa mukaan Kohan puolelle. Jos ei huomaa, että Kohassa varauksen teko näyttää oudolta vaan tekee varauksen loppuun asti, syntyy noutokirjastoton varaus. Pasi korjasi bookmarkletin JavaScript-rimpsun ja uusi laitetaan jakeluun.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-39-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-39-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 38 muistio
 
