@@ -89,7 +89,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi, Oskari
 
 ### Maanantain palaveri
 
-* "KohaSuomi/Koha #294":https://github.com/KohaSuomi/Koha/issues/294 TUVR-yksikön voimassa olevien varausten keskeytys määräajaksi
+* [KohaSuomi/Koha #294](https://github.com/KohaSuomi/Koha/issues/294) TUVR-yksikön voimassa olevien varausten keskeytys määräajaksi
   * Määräaika 14.12.
 
 * Vko 50 päivitys
@@ -128,11 +128,10 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi
   ** WebServices on testaamaton ja tekniseltä toteutukseltaan epätyydyttävä (mm. erillinen Java-kielinen signer-moduli tarvitaan)
   * Palaveri Suomi.fi väen kanssa asiasta maanantaina 19.12. Ari, Anneli, Kodo ja Knuutisen Päivi paikalle.
 
-* "KohaSuomi/Koha #295":https://github.com/KohaSuomi/Koha/issues/295 Vaski: okm-tilastovääristymän korjaaminen  
+* [KohaSuomi/Koha #295](https://github.com/KohaSuomi/Koha/issues/295) Vaski: okm-tilastovääristymän korjaaminen  
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-50-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-50-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 49 muistio
 
@@ -142,7 +141,7 @@ Aika: 5.12.2022 klo 10
 Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
 
 
-  *Maanantai  *
+### Maanantain palaveri
 
 * Tilastointipalaverissa (29.11.) esiin nousseet asiat
   * Hätyytellään vielä kertaalleen, että tunnus tarvitaan.
@@ -171,7 +170,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
   * ohitetaan seuraavat kentät: 09x,046z,59x,880,9xx,xxx9,8565,579
   * 046z tämän vuoksi: https://tiketti.koha-suomi.fi/issues/5404
 
-  *Torstai  *
+### Torstain palaveri
 
 * ma 12.12. asiantuntijaryhmän palsu klo 9, pitäisikö siirtää KS-palsu myöhemmäksi?
   * Siirretään klo 12
@@ -183,9 +182,8 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
 
 * "Vuoden 2023 muistioille":https://koha-suomi.fi/muistiot koti
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-49-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-49-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 48 muistio
 
@@ -195,11 +193,11 @@ Aika: 28.11.2022 klo 10
 Läsnä: Ari, Emmi, Kodo, Lari, Pasi
 
 * Viikon 48 päivitys
-  * "KohaSuomi/Koha #269":https://github.com/KohaSuomi/Koha/issues/269 Käännösmuutos vahvista lainaus popuppiin
+  * [KohaSuomi/Koha #269](https://github.com/KohaSuomi/Koha/issues/269) Käännösmuutos vahvista lainaus popuppiin
 
 ### Torstain palaveri
 
-* "Koha 22.11 julkaistu":https://koha-community.org/koha-22-11-released/ -> versionvaihdon käynnistys
+* [Koha 22.11 julkaistu](https://koha-community.org/koha-22-11-released/) -> versionvaihdon käynnistys
 
 * Päivystysvuorot viikosta 49 alkaen
   * Emmi ja Kodo
@@ -210,10 +208,10 @@ Läsnä: Ari, Emmi, Kodo, Lari, Pasi
 
 * Viikon 50 päivitys
   * Viikon 49 päivitys ohitetaan itsenäisyyspäivän vuoksi.
-  * https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/1
-  * https://github.com/KohaSuomi/Koha/issues/204
+  * [koha-plugin-ceepos-integration #1](https://github.com/KohaSuomi/koha-plugin-ceepos-integration/issues/1)
+  * [koha # 204](https://github.com/KohaSuomi/Koha/issues/204)
 
-* Tikettien työnkulku https://github.com/KohaSuomi/Koha/wiki/Tikettien-ty%C3%B6nkulku
+* [Tikettien työnkulku](https://github.com/KohaSuomi/Koha/wiki/Tikettien-ty%C3%B6nkulku)
   * "Valmis" -> "Suljettu", koska välttämättä mitään ei tehty?
 
 * Salasanasuojatut raportit ja tiivisteiden laskenta, esimerkiksi https://vaski-test.koha-suomi.fi/cgi-bin/koha/reports/guided_reports.pl?reports=2182&phase=Edit%20SQL
@@ -229,9 +227,8 @@ Läsnä: Ari, Emmi, Kodo, Lari, Pasi
   * /home/[tunnus]/backup
   * Ohjeet principiossa (tosin suppeat)
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-48-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-48-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 47 muistio
 
