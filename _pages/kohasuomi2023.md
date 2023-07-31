@@ -17,11 +17,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 30.7.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Lasse, Pasi, Lari, Ari
 
 **Aiheet**
 * Asiakasvarmenteiden teko ja jako pääkäyttäjille
   * pääkäyttäjien muistiossa lista, kenelle toimitetaan (Matrixissa) missäkin kimpassa
+  * Lari hoitaa
+* Service unavailable -ongelmat
+  * tehdään vuositaulut viesteille -> Lari hoitaa, tehdään uusi tiketti
+  * saattaisi johtua siitä, että perl 
 
 ## Viikon 30 muistiot
 
