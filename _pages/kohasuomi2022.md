@@ -215,7 +215,7 @@ Läsnä: Ari, Emmi, Kodo, Lari, Pasi
   * "Valmis" -> "Suljettu", koska välttämättä mitään ei tehty?
 
 * Salasanasuojatut raportit ja tiivisteiden laskenta, esimerkiksi https://vaski-test.koha-suomi.fi/cgi-bin/koha/reports/guided_reports.pl?reports=2182&phase=Edit%20SQL
-  * Komentoriviltä: echo -n "salasana" | md5sum (-n on tärkeä, koska se estää echoa tuuppaamasta ylimääräistä enteriä salasanan loppuun ja muutamasta tiivistettä aivan toiseksi kuin on tarkoitus)
+  * Komentoriviltä: ```echo -n "salasana" | md5sum``` (-n on tärkeä, koska se estää echoa tuuppaamasta ylimääräistä enteriä salasanan loppuun ja muutamasta tiivistettä aivan toiseksi kuin on tarkoitus)
   * MariaDB clientissa: select md5('salasana');
   * Kodo tekee tiivistelaskurin tallennettuihin raportteihin.
 
