@@ -35,6 +35,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa, maanantaisin ja torst
 
 [Koha-Suomen vuoden 2023 muistiot](/kohasuomi2023)
 
+[Koha-Suomen vuoden 2022 muistiot](/kohasuomi2022)
+
 ## Koha-Suomen pääkäyttäjäryhmän viikkopalaverit
 
 Pääkäyttäjäryhmä kokoontuu kerran viikossa ja mukana ovat kaikki kimppojen pääkäyttäjät, jotka mukaan pääsevät. Palavereissa Koha-Suomi tiedottaa muutoksista, keskustellaan erilaisista ongelmista ja ajatuksista sekä kerrotaan jokaisen kimpan kuulumiset.
