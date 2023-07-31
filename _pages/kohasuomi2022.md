@@ -589,6 +589,8 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Ari, Kodo
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-40-muistio
 
+### Maanantain palaveri
+
 Aika: 3.10.2022 klo 12
 Läsnä: Ari, Anneli, Johanna, Kodo, Lari, Pasi
 
@@ -635,14 +637,14 @@ Läsnä: Ari, Anneli, Johanna, Kodo, Lari, Pasi
 
 * Tiistain päivitys
   * Kellutukseen tulevat seuraavat korjaukset
-  ** Kirjastotunnuksessa voidaan käyttää %-merkkiä, jolloin kunnan kaikille toimipisteille voidaan määrittää vain yksi yleissääntö
-  ** Asetuksen ei enää tulisi yrittää täsmäyttää niteeseen kaikkia olemassa olevia sääntöjä
+    * Kirjastotunnuksessa voidaan käyttää %-merkkiä, jolloin kunnan kaikille toimipisteille voidaan määrittää vain yksi yleissääntö
+    * Asetuksen ei enää tulisi yrittää täsmäyttää niteeseen kaikkia olemassa olevia sääntöjä
   * Finna-rajapinnan pluginin päivitys.
-  ** Varaustunnus tarkistetaan Finnassa ennen kuin se lähetetään Kohaan.
-  ** Rajapinnan vaatimia oikeuksia on karsittu.
+    * Varaustunnus tarkistetaan Finnassa ennen kuin se lähetetään Kohaan.
+    * Rajapinnan vaatimia oikeuksia on karsittu.
   * Varaustunnusten käsittelyyn korjauksia Kohassa
-  ** Jos varaustunnus on jo olemassa, tulee nyt ilmoitus, että se on jo toisella asiakkaalla.
-  ** Tallentamattomat tiedot eivät enää tipahda lomakkeelta, jos virheilmoituksen saa.
+    * Jos varaustunnus on jo olemassa, tulee nyt ilmoitus, että se on jo toisella asiakkaalla.
+    * Tallentamattomat tiedot eivät enää tipahda lomakkeelta, jos virheilmoituksen saa.
 
 ### Torstain palaveri
 
@@ -659,7 +661,7 @@ Läsnä: Ari, Anneli, Johanna, Kodo, Lari, Pasi
   * Laskutustyökaluun erillinen ryhmäasetus huoltajan rajoitukselle. Laskutusryhmässä pitää käydä kytkemässä päälle, jos se halutaan.
   ** Nykyiset rajoitusasetukset tippuu pois, joten ne pitää käydä asettamassa uudelleen halutulla tavalla kaikille ryhmille.
   * Uudempi versio Raportointi-liitännäisestä
-  * Hyllytarkenne näkymään niteen palautuksessa, https://github.com/KohaSuomi/Koha/issues/198
+  * [Hyllytarkenne näkymään niteen palautuksessa](https://github.com/KohaSuomi/Koha/issues/198)
   ** Ajakaa päivityksessä ./translate install fi-FI ja ./translate install sv-SE, jotta tulee kieliversioihinkin näkyviin.
   * Finto-plugineista poistettu kenttien täyttämisen yhteydessä olleet animaatiot (testataan, josko pluginien käytettävyys paranee)
 
@@ -667,13 +669,14 @@ Läsnä: Ari, Anneli, Johanna, Kodo, Lari, Pasi
 
 * altdb-toiminto taas pystyyn - Kodo tekee
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-40-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-40-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 39 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-39-muistio
+
+### Maanantain palaveri
 
 Aika: 26.9.2022 klo 12.30
 Läsnä: Anneli, Emmi, Johanna, Lari, Pasi
@@ -682,11 +685,11 @@ Läsnä: Anneli, Emmi, Johanna, Lari, Pasi
 
 ### Torstain palaveri
 
-* Varaustunnuksen uniikkiuden tarkistaminen: Asiakasmääreen voi määrittää uniikiksi nyt käytettävän othernames-kentän sijaan. https://tiketti.koha-suomi.fi/issues/5605. PatronDuplicateMatchingAddFields ei toimi.
+* Varaustunnuksen uniikkiuden tarkistaminen: Asiakasmääreen voi määrittää uniikiksi nyt käytettävän othernames-kentän sijaan. [Redmine #5605](https://tiketti.koha-suomi.fi/issues/5605). PatronDuplicateMatchingAddFields ei toimi.
   * #5627 varaustunnuksen tarkistus Finnassa. Ennen Finnassa tehtiin tarkistus "lennossa", mutta Finna-toimisto vastannut, että tarkistusta ei tehdä Finnassa. Mitenköhän tuo on ennen toiminut?
-  ** Lari tehnyt Finna-rajapintaan muutoksen, että Koha valittaa/välittää tiedon, jos varaustunnus on jo käytössä. Testataan testi-Finnassa
-  ** Seuraavaan vesionvaihtoon muutetaan varaustunnus asiakasmääreeksi ja puretaan nykyinen oma othernames-säätö
-  ** Tehdään väliaikainen korjaus nykyiseen tapaan, muutetaan virheilmoitus informatiivisemmaksi ja tutkitaan, saako lomakkeen tiedot säilymään paremmin tuplatapauksessa.
+    * Lari tehnyt Finna-rajapintaan muutoksen, että Koha valittaa/välittää tiedon, jos varaustunnus on jo käytössä. Testataan testi-Finnassa
+    * Seuraavaan vesionvaihtoon muutetaan varaustunnus asiakasmääreeksi ja puretaan nykyinen oma othernames-säätö
+    * Tehdään väliaikainen korjaus nykyiseen tapaan, muutetaan virheilmoitus informatiivisemmaksi ja tutkitaan, saako lomakkeen tiedot säilymään paremmin tuplatapauksessa.
 
 * Asiakkaan kotikirjaston vaihto Finnassa (Kotikirjasto (lyhenne), rajapinnassa "library_id": "JOE_PYH" esim.): Tuki olemassa Finna-pluginissa. Pitäisi saada kulkemaan Finnasta/Finnaan. Yhteys Finna-tukeen?
   * Lari kysyy Tuomakselta, ehtisikö hän olemaan yhteydessä Finna-toimistoon.
@@ -710,16 +713,17 @@ Läsnä: Anneli, Emmi, Johanna, Lari, Pasi
 
 * Tiistain päivitys
   * Kellutukseen tulevat seuraavat korjaukset
-  ** Kirjastotunnuksessa voidaan käyttää %-merkkiä, jolloin kunnan kaikille toimipisteille voidaan määrittää vain yksi yleissääntö
-  ** Asetuksen ei enää tulisi yrittää täsmäyttää niteeseen kaikkia olemassa olevia sääntöjä
+    * Kirjastotunnuksessa voidaan käyttää %-merkkiä, jolloin kunnan kaikille toimipisteille voidaan määrittää vain yksi yleissääntö
+    * Asetuksen ei enää tulisi yrittää täsmäyttää niteeseen kaikkia olemassa olevia sääntöjä
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-39-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-39-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 38 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-38-muistio
+
+### Maanantain palaveri
 
 Aika: 19.9.2022
 Läsnä: Anneli, Ari (poistui 12.30), Emmi, Johanna, Kodo, Lari, Pasi
@@ -730,7 +734,7 @@ Läsnä: Anneli, Ari (poistui 12.30), Emmi, Johanna, Kodo, Lari, Pasi
   * SCO-korjauksia
   * Vaihtoehtoinen nidetyyppi EditX:ssä.
 
-* "Asiantuntijaryhmän kokouksesta":https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2022#Muistio-622
+* [Asiantuntijaryhmän kokouksesta](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2022#Muistio-622)
   * Sähköpostin lähettäjäosoite, vaskin ja outin eri kokemukset spf:n tarpeesta
   * asiakkuuden voimassaoloaika
   * kellutusryhmät - floatrules
@@ -758,17 +762,18 @@ Läsnä: Anneli, Ari (poistui 12.30), Emmi, Johanna, Kodo, Lari, Pasi
   * Laskutustyökalun päivityksiä
   ** Finvoice-lähetys joko zip-pakettina tai yksittäisinä xml-tiedostoina. 
   ** Finvoicen xml-tiedostojen lähetys rivivaihtojen kanssa tai ilman.
-  ** Mahdollisuus saada holhoajan tiedot erikseen laskulle, uusi ryhmäasetus tätä varten: "Muuta takaajakäsittely". Finvoice-esimerkki pohjaan lisäys tätä varten. https://github.com/KohaSuomi/koha-plugin-overdue-tool/blob/21.11/Koha/Plugin/Fi/KohaSuomi/OverdueTool/examples/finvoice-example.xml#L36
-  ** "Luonti onnistui"-ilmoituksen näkyminen sivun yläreunassa ja sulkemispainike.
+  ** Mahdollisuus saada holhoajan tiedot erikseen laskulle, uusi ryhmäasetus tätä varten: "Muuta takaajakäsittely". [Finvoice-esimerkki pohjaan lisäys tätä varten](https://github.com/KohaSuomi/koha-plugin-overdue-tool/blob/21.11/Koha/Plugin/Fi/KohaSuomi/OverdueTool/examples/finvoice-example.xml#L36).
+    * "Luonti onnistui"-ilmoituksen näkyminen sivun yläreunassa ja sulkemispainike.
   * Tietuenäytölle valutuksen aktivointinappi ja ilmoitus milloin on aktivoitu.
   * Itsepalvelulainaus: virheilmoitus käyttäjälle, jos viivakoodia ei löydy palauttaessa.
   * Loput Finto-pluginit: finto_seko_noind.pl, finto_seko_nouri_noind.pl, finto_seko.pl, finto_slm-local.pl, finto_yso-aika_ind2_7.pl, finto_yso-aika_noind.pl, finto_yso-aika.pl, finto_yso-kauno_noind.pl, finto_yso-kauno.pl, finto_ysopaikat_noind.pl, finto_ysopaikat.pl
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-38-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-38-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 37 muistio
+
+### Maanantain palaveri
 
 Aika: ma 12.9.2022 klo 12.00-
 Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
@@ -819,7 +824,7 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 
 * #5452 lainojen väärin kirjautuneet uusinnat ensilainasta
   * ongelmana kuinka rajata korjaus koskemaan vain verkkokirjastossa tehtyjä uusintoja, muuten kaikki uusinnat tietyllä aikavälillä "korjautuvat"
-  ** ei haitanne?/AÖ
+    * ei haitanne?/AÖ
 
 * jättimäiset kansikuvat, saako ne määritettyä xslt:llä aina tiettyyn kokoon? #5420
   * css:llä voisi onnistua
@@ -831,11 +836,13 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
   * Edellinen ei kuitenkaan selitä miksi alkuvuodenkin lainoissa on heittoa, sillä virhe on ollut olemassa vasta 2 kuukautta.
   * Luultavasti vika ollut plugarin edellisessä versiossa, mutta missä kohdin on arvoitus. Ajetaan tilastot uudelleen joka tapauksessa.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-37-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-37-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ---
 
 ## Viikko 36 muistio
+
+### Maanantain palaveri
 
 Aika: ma 5.9.2022 klo 12.00-
 Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
@@ -870,14 +877,14 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 
 ### Torstain palaveri
 
-* Kuvailutietueiden niteiden kokonaislainamäärien oikaisu: https://tiketti.koha-suomi.fi/issues/4525. Tiketti Vaskin, mutta sama operaatio pitäisi tehdä muissakin kimpoissa.
+* [Kuvailutietueiden niteiden kokonaislainamäärien oikaisu](https://tiketti.koha-suomi.fi/issues/4525). Tiketti Vaskin, mutta sama operaatio pitäisi tehdä muissakin kimpoissa.
 
 * Redminen siivousta ja GitHubiin siirtymisen valmistelua
   * Hyvin vanhat, ei enää ajankohtaiset tiketit suljettu
   * Vanhat projektit, kuten KohaD ja Server suljettu
   * Manage nimetty uudelleen "Muistiot ja keskustelu" sekä tiketöinti sieltä poistettu käytöstä
 
-* Mitä tälle tehdään? https://tiketti.koha-suomi.fi/projects/mls/wiki/Aikataulu_2020-2021 Hoidettujahan nuo toki kaikki on, pitäisikö tämä vielä varmuuden välttämiseksi käydä läpi ja katsoa onko jotain olennaista unohtunut?
+* [Mitä tälle tehdään?](https://tiketti.koha-suomi.fi/projects/mls/wiki/Aikataulu_2020-2021) Hoidettujahan nuo toki kaikki on, pitäisikö tämä vielä varmuuden välttämiseksi käydä läpi ja katsoa onko jotain olennaista unohtunut?
 
 * Kellutusryhmät ja -säännöt
   * Tällä hetkellä kellutusryhmien käyttäminen ei ole pakollista, sillä kellutussäännön lisääminen kirjastopisteiden välille kelluttaa (tai ei kelluta hieman säännöstä riippuen) pisteiden kaiken muun aineiston automaattisesti
@@ -918,11 +925,13 @@ Läsnä: Ari, Lari, Johanna, Emmi, Pasi, Kodo ja Anneli
 * Uutta Finto-Asteri-plugia on testattu Oulussa, Turussa ja Joensuussa. Voidaan muuttaa Finto-plugit toimimaan uusien javascript-kirjastojen mukaan.
   * Laitetaan Finto-Asteri-plugi tuotantoon ja Lari muuttaa muut Finto-plugit yhteensopiviksi Kohan kanssa.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-36-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-36-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ---
 
 ## Viikko 35 muistio
+
+### Maanantain palaveri
 
 Aika: 29.8.2022 klo 12
 Läsnä: Ari, Antti, Lari, Johanna, Kodo, Anneli ja Emmi
@@ -954,11 +963,11 @@ Läsnä: Ari, Antti, Lari, Johanna, Kodo, Anneli ja Emmi
   ** jos asia korjataan muuttamalla tarratulostimen koodia, niin se ei silti korjaa aiemmin mainittua ongelmaa, missä pääsanan välilyönnit (joita ei pitäisi olla) estävät YKL / Loc / Heading oikeellista paikantamista.
 
 * KohaCon2022
-  * "Osallistutaan etänä":http://koha-us.org/events/conferences/kohacon22/ Ilmoittautuminen 31.8.2022 mennessä.
+  * [Osallistutaan etänä](http://koha-us.org/events/conferences/kohacon22/) Ilmoittautuminen 31.8.2022 mennessä.
 
 ### Torstain palaveri
 
-* ByWaterSolution tehnyt plugarin "koha-plugin-barcode-prefixer":https://github.com/bywatersolutions/koha-plugin-barcode-prefixer
+* ByWaterSolution tehnyt plugarin [koha-plugin-barcode-prefixer](https://github.com/bywatersolutions/koha-plugin-barcode-prefixer)
   * ilmeisesti tämän olisi tarkoitus toimia samaan tapaan kuin K-S:n BarcodePrefix-asetus
   * lisäksi plugarilla voi ilmeisesti määrittää prefixin asiakkaiden korttinumeroille
   * tätä voisi testata (tällä ei tosin ehkä täysin voida korvata BarcodePrefix-asetus, sillä Editx-plugari käyttää sitä)
@@ -976,11 +985,11 @@ Läsnä: Ari, Antti, Lari, Johanna, Kodo, Anneli ja Emmi
   ** OUTIssa haluttiin tarkistaa ensin Nooralta -> voidaan luopua bounce-viestien läpikäynnistä.
   ** Vaskissa haluttiin säilyttää vaskikirjastot-domain, mutta aikoivat vielä keskustella asiasta.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-35-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-35-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikko 34 muistio
+
+### Maanantain palaveri
 
 Aika: 22.8.2022 klo 12
 Läsnä: Antti, Lari, Emmi, Johanna ja Kodo
@@ -994,7 +1003,7 @@ Läsnä: Antti, Lari, Emmi, Johanna ja Kodo
   * Vain 4 kuntaa, mutta väkimäärältään sijoittuu Lumpeen ja Vaaran väliin
   * Wikipedia kertoo: "Oman kunnankirjaston kokoelman ulkopuolisista varauksita peritään pieni maksu.", käytäntö poikkeaa muista Koha-Suomi -kirjastoista sekä tiekartan linjauksista, eikä taida olla toteutettavissa järkevästi Kohassa.
 
-* Finna-JSONiksi top-listat Pasin koodilla suoraan feature-branchiksi? Yhteisössä hook ollut työn alla joka mahdollistaisi plugarisoinnin (https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=24724)
+* Finna-JSONiksi top-listat Pasin koodilla suoraan feature-branchiksi? [Yhteisössä hook ollut työn alla joka mahdollistaisi plugarisoinnin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=24724)
 
 ### Torstain palaveri
 
@@ -1030,11 +1039,11 @@ Läsnä: Antti, Lari, Emmi, Johanna ja Kodo
 * Melinda-palaveri ja Kansalliskirjaston Slack
   * Palaveriin osallistuu myös Emmi ja Lari.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-34-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-34-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikko 33 muistio
+
+### Maanantain palaveri
 
 Aika: 15.8.2022 klo 12
 Läsnä: Antti, Ari, Emmi, Johanna, Kodo, Lari
@@ -1063,11 +1072,11 @@ Läsnä: Antti, Ari, Emmi, Johanna, Kodo, Lari
 * Mystinen asiakasvarmenneongelma pääasiallisena riesana tällä hetkellä. Aiheutti eilen noin tunnin käyttökatkon kaikissa kimpoissa. Selvittely jatkuu.
   * Bootataan haproxy tänään 18.8. klo 14.45 ja katsotaan tulisiko se sillä järkiinsä. Aiheuttaa lyhyen katkon kimpoissa, tiedotetaan pääkäyttäjiä.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-33-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-33-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikko 32 muistio
+
+### Maanantain palaveri
 
 Aika: 8.8.2022 klo 12
 Läsnä: Ari, Johanna, Antti, Pasi, Lari ja Emmi
@@ -1080,16 +1089,17 @@ Läsnä: Ari, Johanna, Antti, Pasi, Lari ja Emmi
 * #5566, Laskutusliitännäinen: takaajan rajoite ei poistu automaattisesti, kun kaikki laskutetut on palautettu
   * Rajoituksen poistuminen on kytketty Kohan omiin prosesseihin, toiminto on siis linkitetty aineistoon. Takaajaa ei ole millään tavalla linkitetty aineistoon, joten tiedon poistaminen ei ole teknisesti mahdollista siten että se tapahtuisi luotettavasti.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-32-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-32-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikko 31 muistio
+
+### Maanantain palaveri
 
 Aika: 1.8.2022 klo 12
 Läsnä: Antti, Ari, Pasi, Emmi, Kodo ja Johanna
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-31-muistio
+
 * Tuntidumpit takaisin käyttöön?
   * tarkoitus kytkeä takaisin päälle, olivat katkolla versiopäivityksen ajan.
 
@@ -1097,8 +1107,8 @@ Läsnä: Antti, Ari, Pasi, Emmi, Kodo ja Johanna
   * Turva-konttii ei enää pääse osoitteella. Kontti on vielä päällä, jotta saadaan otettua siitä dumppeja.
 
 * https://tiketti.koha-suomi.fi/issues/5544 - -Search.pm:ään (tai mihin se nyt kuuluukin)- Koha/Biblio.pm get_components_query koodimuutos, joka poistaa katkaisun käytöstä kontrollinumeroilla (rcn?) haettaessa?
-  ** rcn-indeksin tyyppimuutoksella numeeriseksi ei vaikutusta.
-  ** kontrollinumeron laittaminen sitaatteihin rcn-haussa näyttäisi tekevän oikean asian, tarvitaan muutos hakuihin ja pitäisi viedä myös yhteisöön.
+  * rcn-indeksin tyyppimuutoksella numeeriseksi ei vaikutusta.
+  * kontrollinumeron laittaminen sitaatteihin rcn-haussa näyttäisi tekevän oikean asian, tarvitaan muutos hakuihin ja pitäisi viedä myös yhteisöön.
 
 * Käännöspuutteet ja uusi tuotanto.
   * Odotellaan, että Anneli palaa lomalta.
@@ -1123,30 +1133,32 @@ Läsnä: Antti, Ari, Pasi, Emmi, Kodo ja Johanna
 * Tuotantojen päivitys
   * Johanna päivittää 10.8. huoltokatkon puitteissa
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-31-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-31-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikko 30 muistio
+
+### Maanantain palaveri
 
 Aika: 25.7.2022 klo 12
 Läsnä: Anneli, Antti, Lari, Pasi, Emmi, Kodo ja Johanna
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-30-muistio
 
-* https://tiketti.koha-suomi.fi/issues/5269 - mitä tehdään?
+* [https://tiketti.koha-suomi.fi/issues/5269](Redmine #5269) - mitä tehdään?
   * Poistetaan message_transports taulusta ei-koosteviestien transportit, joka hävittää koostetäpät Finnasta  (testattu ja toimii).
   * Tehdään tietokantaan triggeri, joka pakottaa täpät paikalleen aina kun asiakkaan viestivalintoja muutetaan.
   * Piilotetaan koostetäppä Kohan liittymästä css:llä.
   * Ajetaan digest-täpät paikalleen kaikille asiakkaille joilla niitä ei ole.
 
-* https://tiketti.koha-suomi.fi/issues/5532
+* [Redmine #5532](https://tiketti.koha-suomi.fi/issues/5532)
   * Ei tehdä korjauksia lastseen-arvon mukaan, koska arvot voivat olla korjauksen jälkeen yhtä väärin. OKM-tilastot lasketaan laskentakaavan mukaan, joten ei vaikuta niihin. Kokoelmatyön kannalta poistotilastot ovat väärin, mutta tiedotetaan virheestä.
 
-* https://tiketti.koha-suomi.fi/issues/5542 - koska tarkemmin ottaen tulee saataville?
+* [Redmine #5542](https://tiketti.koha-suomi.fi/issues/5542) - koska tarkemmin ottaen tulee saataville?
   * Viikolla 30.
 
-* https://tiketti.koha-suomi.fi/issues/5523 - testitulosten kirjaus ja miten edetään?
+* [Redmine #5523](https://tiketti.koha-suomi.fi/issues/5523) - testitulosten kirjaus ja miten edetään?
 
-* https://tiketti.koha-suomi.fi/issues/5544 - Search.pm:ään (tai mihin se nyt kuuluukin) koodimuutos, joka poistaa katkaisun käytöstä kontrollinumeroilla (rcn?) haettaessa?
+* [Redmine #5544](https://tiketti.koha-suomi.fi/issues/5544) - Search.pm:ään (tai mihin se nyt kuuluukin) koodimuutos, joka poistaa katkaisun käytöstä kontrollinumeroilla (rcn?) haettaessa?
   * kokeillaan muuttaa Siilin testillä rcn-indeksin tyyppi numeeriseksi ja indeksoidaan uudelleen.
   * tarkistetaan, onko kannoissa vanhoja ei-numeerisia 001-kenttiä.
 
@@ -1168,11 +1180,11 @@ Läsnä: Anneli, Antti, Lari, Pasi, Emmi, Kodo ja Johanna
   * Antti H. laittanut KP:lle pyynnön lisätä 035a myös osakohteille. Siellä lomaillaan 4.8.2022 saakka ja Antti 14.8.2022 saakka.
   * kannattaisiko sääntöön lisätä myös 022a ja 035a niiden 001/003-sääntöjen lisäksi? Vai lakkaako se toimimasta kokonaan?
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-30-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-30-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikko 29 muistio
+
+### Maanantain palaveri
 
 Aika: 18.7.2022 klo 12
 Läsnä: Anneli, Antti, Lari, Pasi, Emmi ja Kodo
@@ -1199,11 +1211,11 @@ Läsnä: Anneli, Antti, Lari, Pasi, Emmi ja Kodo
 * Sähköpostiosoite sip-sanomassa.
   * Hoidetaan pois template-muutoksella.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-29-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-29-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikko 28 muistio
+
+### Maanantain palaveri
 
 Aika: 11.7.2022 klo 12
 Läsnä: Anneli, Antti, Lari, Pasi ja Emmi
@@ -1224,9 +1236,7 @@ Läsnä: Anneli, Antti, Lari, Pasi ja Emmi
 * #5520 - OUTIssa deleteditems barcode ei-uniikiksi
   * Antti tekee muutoksen ma-aamuna aikaisin.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-28-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-28-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
 ## Viikko 26 muistio
 
