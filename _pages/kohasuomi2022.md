@@ -41,23 +41,25 @@ Läsnä: Anneli, Pasi, Ari, Kodo, Lasse, Emmi, Lari
 
 * Muistiot viikosta 1 lähtien [githubissa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/_pages/kohasuomi23.md) eli [Koha-Suomen sivuilla](https://koha-suomi.fi/kohasuomi23]
 
-[Palaa sivun alkuun](/kohasuomi2022)
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-52-muistio) | [Palaa sivun alkuun](/kohasuomi2022)
 
 
 ## Viikon 51 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-51-muistio
 
+### Maanantain palaveri
+
 Aika: 19.12.2022 klo 10
 Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Viikon 51 päivitys (mahdollisesti):
-  * "KohaSuomi/koha-plugin-overdue-tool #3":https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/3 Laskutettujen niteiden määrän ja laskutetun aineiston yhteissumma ei aina täsmää
-  * -"KohaSuomi/Koha #233":https://github.com/KohaSuomi/Koha/issues/233 Hyllyvarausraporttin On-shelf-sarakkeen JA Varaus-sarakkeen kirjastotunnus-arvon korostus silloin, kun kirjastotunnus löytyy molemmista sarakkeista- Ei mene tämä vielä, koska vaatii at-ryhmän päätöksen. Seuraava kokous 16.1. eli mennee viikon 3 päivitykseen.
+  * [KohaSuomi/koha-plugin-overdue-tool #39](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/3) Laskutettujen niteiden määrän ja laskutetun aineiston yhteissumma ei aina täsmää
+  * [KohaSuomi/Koha #233](https://github.com/KohaSuomi/Koha/issues/233) Hyllyvarausraporttin On-shelf-sarakkeen JA Varaus-sarakkeen kirjastotunnus-arvon korostus silloin, kun kirjastotunnus löytyy molemmista sarakkeista- Ei mene tämä vielä, koska vaatii at-ryhmän päätöksen. Seuraava kokous 16.1. eli mennee viikon 3 päivitykseen.
 
 * Valutuksessa otetaan käyttöön uusi versio Melindan rajapinnasta
   * Vaatii meidän päässä vain endpointin urlin vaihtamisen Tätin Biblio exporter palveluun (tati.koha-suomi.fi/service). 
-  * Ohjeet urlin vaihtoon "täällä":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/KohaSuomiServices-mikropalvelu#Biblio-exporter.
+  * [Ohjeet urlin vaihtoon täällä]"https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/KohaSuomiServices-mikropalvelu#Biblio-exporter".
 
 * Asiantuntijaryhmässä käsiteltyjen kehitysehdotusten aikataulutus ja vastuutus
 
@@ -67,7 +69,7 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * "Yhteystiedot lisätty Koha-Suomen nettisivuille":https://koha-suomi.fi/yhteystiedot
   * Kuvat kaikista? Kuvaamossa?
-  * "Githubin wikissä pääkäyttäjien (ja meidän) yhteystiedot":https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot
+  * [Githubin wikissä pääkäyttäjien (ja meidän) yhteystiedot](https://github.com/KohaSuomi/Koha/wiki/Koha-yhteystiedot)
 
 * Tehdäänkö viikolla 52 viikkopäivitystä? Ei tehdä.
 
@@ -75,9 +77,8 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Versionvaihto repo tehty
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-51-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-51-muistio) | [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 50 muistio
 
