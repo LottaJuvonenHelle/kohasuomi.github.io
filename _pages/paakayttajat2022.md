@@ -1,11 +1,11 @@
 ---
 layout: single
-permalink: /paakayttajat2023
+permalink: /paakayttajat2022
 header:
   overlay_color: '#5e616c'
   overlay_image: /assets/images/cropped-pexels-photo-113850.jpeg
 toc: true
-title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
+title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2022'
 ---
 
 Pääkäyttäjäryhmän viikkopalaverimuistiot vuodelta 2022.
@@ -19,7 +19,7 @@ Läsnä: Anni Rajala (Vaski), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI),
 "Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-52-muistio
 
 *Yhteiset*
-* Kirkes-kimpan järjestelmäasetusten läpikäyntiä ke 11.1.2023 klo 9-11.15. "Linkki kokoukseen":https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2JlMGUwZjgtNzk4OS00YmYxLThlNjgtOTIxZDg3NzAyMWIz%40thread.v2/0?context=%7b%22Tid%22%3a%225cc89a67-fa29-4356-af5d-f436abc7c21b%22%2c%22Oid%22%3a%229fb701ba-ed03-4130-af66-87d3c323bb9a%22%7d%3E. Tallennetaan tarvittaessa. Mukaan saa tulla kaikki haluavat, mutta pääpaino on Kirkeksen asioissa. :)
+* Kirkes-kimpan järjestelmäasetusten läpikäyntiä ke 11.1.2023 klo 9-11.15. [Linkki kokoukseen](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2JlMGUwZjgtNzk4OS00YmYxLThlNjgtOTIxZDg3NzAyMWIz%40thread.v2/0?context=%7b%22Tid%22%3a%225cc89a67-fa29-4356-af5d-f436abc7c21b%22%2c%22Oid%22%3a%229fb701ba-ed03-4130-af66-87d3c323bb9a%22%7d%3E). Tallennetaan tarvittaessa. Mukaan saa tulla kaikki haluavat, mutta pääpaino on Kirkeksen asioissa. :)
 
 * "Versionvaihto-repositorio tehty":https://github.com/KohaSuomi/Koha-22.x
 
