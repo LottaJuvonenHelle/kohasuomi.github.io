@@ -26,6 +26,9 @@ Läsnä: Anneli, Lasse, Pasi, Lari, Ari
 * Service unavailable -ongelmat
   * tehdään vuositaulut viesteille -> Lari hoitaa, tehdään uusi tiketti
   * saattaisi johtua siitä, että perl lukitsee taulun, kysely jää niin pitkäks aikaa pyörimään että perl-prosessi tapetaan, ja sitten taulun avaavaa perl-koodia ei ajeta koska se prosessi tapettiin
+* Viikon 31 päivitys
+  * [Koha #668](https://github.com/KohaSuomi/Koha/issues/668)
+  * Vaskin tekstiviesteissä ei näy vieraat kirjaimet
 
 ## Viikon 30 muistiot
 
