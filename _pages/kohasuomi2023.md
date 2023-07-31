@@ -25,7 +25,7 @@ Läsnä: Anneli, Lasse, Pasi, Lari, Ari
   * Lari hoitaa
 * Service unavailable -ongelmat
   * tehdään vuositaulut viesteille -> Lari hoitaa, tehdään uusi tiketti
-  * saattaisi johtua siitä, että perl 
+  * saattaisi johtua siitä, että perl lukitsee taulun, kysely jää niin pitkäks aikaa pyörimään että perl-prosessi tapetaan, ja sitten taulun avaavaa perl-koodia ei ajeta koska se prosessi tapettiin
 
 ## Viikon 30 muistiot
 
