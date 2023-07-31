@@ -10,6 +10,25 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 31 muistio
+
+Aika: 1.8.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset asiat**
+
+* Siirretyt ja päivitetyt dokumentaatiot:
+  * [Finto-liitännäiset](https://koha-suomi.fi/dokumentaatio/finto/)
+  * [Kuitti- ja viestipohjat](https://koha-suomi.fi/dokumentaatio/kuititjaviestit/)
+  * [Miten tehdä SQL-raportteja](https://koha-suomi.fi/dokumentaatio/sqlkoulu/) ohje/koulutus/opas
+  * [Termistö suomi-englanti](https://github.com/KohaSuomi/Koha-translations/wiki/Termist%C3%B6-suomi%E2%80%90englanti)
+  * [PowerBI-raportit ja DAX-lausekkeet](https://koha-suomi.fi/dokumentaatio/powerbi/)
+  * [Koha-Suomen hallituksen tiedotteet vuosilta 2021-2022](https://koha-suomi.fi/muistiot#koha-suomen-hallituksen-tiedotteet)
+  * [Laskutusliitännäinen](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki)
+* [Viikon 31 päivitys](https://github.com/KohaSuomi/Koha/discussions/706)
+* Asiakasvarmenteet jaettu ma Matrixin kautta pääkäyttäjille.
+
+ 
 ## Viikko 30 muistio
 
 Aika: 25.7.2023 klo 9.15 <br />
