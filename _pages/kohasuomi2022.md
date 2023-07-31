@@ -383,7 +383,6 @@ Liittyy [Github-tikettiin 237](https://github.com/KohaSuomi/Koha/issues/237)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-45-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 44 muistio
 
@@ -430,16 +429,17 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Oskari, Pasi
   ** Ratkaisu: katkaistaan kuvailupohjien ja biblioitems.totalissues -linkki ja tehdään erillinen cron laskemaan lainamäärät suoraan biblioitems-tauluun
   * päivällä olevat internal server error -ilmoitukset
 
-* "#215":https://github.com/KohaSuomi/Koha/issues/215
+* [#215](https://github.com/KohaSuomi/Koha/issues/215)
   * Pasi hoitaa
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-44-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-44-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 43 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-43-muistio
+
+### Maanantain palaveri
 
 Aika: 24.10.2022 klo 12
 Läsnä: Kodo Korkalo, Ari Mäkiranta, Emmi Takkinen, Lari Strand, Anneli Österman
@@ -448,7 +448,7 @@ Läsnä: Kodo Korkalo, Ari Mäkiranta, Emmi Takkinen, Lari Strand, Anneli Öster
   * Ehdotus: SSH avaintarkistusten sähköpostinotifikaatiot kytketään pois käytöstä ja viikon päivystäjät ajavat aina aamulla töihin tullessaan kojump *-prod ko-service-check, jolla saadaan listattua kussakin kontainerissa syntyneet mahdolliset ongelmat (mukaanluettuna SSH avainvirheet) ja niihin pystytään reagoimaan heti. 
   * Uusi "warning" ilmoitustaso.
   * *Päätös*: päivystäjä ajaa aamuisin.
-  ** voi ajaa myös, jos tulee ilmoituksia ongelmista.
+    * voi ajaa myös, jos tulee ilmoituksia ongelmista.
 
 * Vim->Vis palvelimilla ja kontainereissa? (https://github.com/martanne/vis/wiki/FAQ)
   * Vis oletukseksi ja siirtymäajan jälkeen poistetaan kokonaan Vim käytöstä.
@@ -460,23 +460,25 @@ Läsnä: Kodo Korkalo, Ari Mäkiranta, Emmi Takkinen, Lari Strand, Anneli Öster
 
 * Tiistain päivitys
   * #5606 - Niteiden poisto eräajona ja virheellinen viivakoodi - virhe 500
-  * "G-tiketti 197":https://github.com/KohaSuomi/Koha/issues/197 eli signum 942m-kentästä ekana
+  * [G-tiketti 197](https://github.com/KohaSuomi/Koha/issues/197) eli signum 942m-kentästä ekana
   * Editx-validoinnin parannukset
-  * "G-tiketti 224":https://github.com/KohaSuomi/Koha/issues/224 Finvoice-validointi epäonnistuu, jos AuthorName on yli 100 merkkiä pitkä
-  * "Käännökset":https://github.com/KohaSuomi/Koha/issues/222 - github-tiketti 222
+  * [G-tiketti 224](https://github.com/KohaSuomi/Koha/issues/224) Finvoice-validointi epäonnistuu, jos AuthorName on yli 100 merkkiä pitkä
+  * [Käännökset](https://github.com/KohaSuomi/Koha/issues/222) - github-tiketti 222
 
 ### Torstain palaveri
 
 * TäTien floating_matrixit
 * Slaven kummitustaulu kirkestestillä ja orpo .ibd
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-43-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-43-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
+
 
 ## Viikon 42 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-42-muistio
+
+### Maanantain palaveri
 
 Aika: 17.10.2022 klo 12
 Läsnä: Anneli, Lari, Emmi, Pasi, Kodo
@@ -487,8 +489,8 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Kodo
 * Tiistain päivitys
   * categorycode-muutos statistics-tauluun
   * "marc-kuvailuvirheraportit":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/MARC-luettelointivirheraportit toimintaan ja näkyville.
-  ** vaatii pfsensessä muutoksia sekä muutosten käyttöönoton tiistai-aamuna. -> Muutoksia ei tarvita
-  ** ajastukset päälle 17.10.
+    * vaatii pfsensessä muutoksia sekä muutosten käyttöönoton tiistai-aamuna. -> Muutoksia ei tarvita
+    * ajastukset päälle 17.10.
   * kuvailupohjien automaattinen päivitys käyttöön tätissä ja paikallisissa kannoissa 17.10.
   * #5590 - asiakastyypin vaihtaminen asettaa asiakkaalle asiakastyypin oletusviestiasetukset ilmoittamatta. Tuodaan yhteisöstä korjaus, jossa virkailijalle annetaan ilmoitus, että asetukset muutetaan asiakastyypin oletuksiksi. Jos klikkaa ok, asetukset vaihdetaan. Jos klikkaa peruuta, asetuksia ei vaihdeta.
 
@@ -496,11 +498,11 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Kodo
 
 * Tiistain päivitys
   * #5606 - Niteiden poisto eräajona ja virheellinen viivakoodi - virhe 500
-  * "G-tiketti 197":https://github.com/KohaSuomi/Koha/issues/197 eli signum 942m-kentästä ekana?
+  * [G-tiketti 197](https://github.com/KohaSuomi/Koha/issues/197) eli signum 942m-kentästä ekana?
   * Editx-validoinnin parannukset
-  * https://github.com/KohaSuomi/Koha/issues/211?
+  * [Koha #211](https://github.com/KohaSuomi/Koha/issues/211)?
 
-* "G-tiketti 214":https://github.com/KohaSuomi/Koha/issues/214 - onko mahdollista toteuttaa? Aiemminhan nuo tiedot laskettiin proelaskutus-tiedostosta.
+* [G-tiketti 214](https://github.com/KohaSuomi/Koha/issues/214) - onko mahdollista toteuttaa? Aiemminhan nuo tiedot laskettiin proelaskutus-tiedostosta.
   * todennäköisesti jonkinlainen ratkaisu on toteutettavissa, mutta aikataulullisesti sellaista ei ole mahdollista toteuttaa ihan heti. Anneli kysyy, pystyykö esim. Digi toteuttamaan skriptin, joka laskee tiedot heidän yhdistämästään xml-tiedostosta.
 
 
@@ -513,13 +515,14 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Kodo
 
 * Koha-Suomelle tulee harjoittelija todennäköisesti Ouluun. Tarkka aloitusaika ei ole vielä tiedossa.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-42-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-42-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 41 muistio
 
 "Pääkäyttäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%c3%a4%c3%a4k%c3%a4ytt%c3%a4j%c3%a4t_-_vuosi_2022#Viikko-41-muistio
+
+### Maanantain palaveri
 
 Aika: 10.10.2022 klo 12
 Läsnä: Anneli, Lari, Emmi, Pasi, Ari, Kodo
@@ -569,19 +572,18 @@ Läsnä: Anneli, Lari, Emmi, Pasi, Ari, Kodo
 * Suomi.fi-viesteille ei saa valittua täppää, templatet ei noudata tietokannassa määritettyjä viestiasetustyyppejä. Sama ongelma koosteviesti-täpän kohdalla.
   * Pasi tutkii
 
-* "Github-tiketti 204":https://github.com/KohaSuomi/Koha/issues/204
+* [Github-tiketti 204](https://github.com/KohaSuomi/Koha/issues/204)
   * Korjataan toistaiseksi javascriptillä sekä se, että täpät poistuu, kun sähköpostiosoite poistetaan ja että täpät eivät ole valittavissa, jos sähköpostiosoitetta ei ole.
 
 * Tiistain päivitys
   * categorycode-muutos statistics-tauluun
-  * "marc-kuvailuvirheraportit":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/MARC-luettelointivirheraportit toimintaan ja näkyville.
-  ** vaatii pfsensessä muutoksia sekä muutosten käyttöönoton tiistai-aamuna.
-  ** ajastukset päälle
+  * [marc-kuvailuvirheraportit](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/MARC-luettelointivirheraportit) toimintaan ja näkyville.
+    * vaatii pfsensessä muutoksia sekä muutosten käyttöönoton tiistai-aamuna.
+    * ajastukset päälle
   * kuvailupohjien automaattinen päivitys käyttöön tätissä ja paikallisissa kannoissa
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-41-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022
+[Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-41-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
----
 
 ## Viikon 40 muistio
 
