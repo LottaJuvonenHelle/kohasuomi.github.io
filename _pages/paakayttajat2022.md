@@ -702,9 +702,9 @@ Läsnä: Tiina Pietikäinen, Timo Pesonen, Heli Auranen (Lumme), Päivi Knuutine
 Aika: 20.9.2022 klo 9.15
 Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Susanna Sandell (Vaski), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi, alkuosan paikalla), Kati Sillgren (Helle), Heli Auranen, Timo Pesonen, Tiina Pietikäinen (Lumme)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-38-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-38-muistio)
 
-*Yhteiset asiat*
+**Yhteiset asiat**
 * Kansikuvat pienemmäksi / tietyn kokoiseksi. #5420 ja "IntranetUserCSS-sivulla":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/IntranetUserCSS#S%C3%A4%C3%A4d%C3%A4-kansikuvan-kokoa.
 * Lari kaipaa testauskommentteja uudesta "OKM-liitännäisestä":https://github.com/orgs/KohaSuomi/teams/superlibrarians/discussions/3/comments/74, joka on testeillä.
 * Kaikki lainojen verkkokirjastouusinnat kirjatuivat versionvaihdon jälkeen parin viikon ajan Finna-käyttäjän kotikirjaston mukaan. Kirjastotiedot korjataan niin, että uusinnoille laitetaan kirjastoksi lainauskirjasto.
@@ -713,30 +713,28 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Susanna Sandell (Vaski), An
 * Alkuvuoden OKM-tilastojen laskennassa on löytynyt virhe. Ensin näytti, että mukaan ei ole tulleet lainat, joiden nide on poistettu, mutta loppujen lopuksi ei ole varma, mistä virhe johtui. Emmi tutkii asiaa. Virhe koskee siis vanhasta liitännäisestä konvertoituja tilastoja (tammi-toukokuu).
 * "Asiantuntijaryhmän 6/22 muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2022#Muistio-622
 
-*Vaara*
+**Vaara**
 * Varaamisen ongelmista on mm. tiketti 3983. Vaarassa on ainakin pari asiakasta, joille ei mene sana perille varaamisen käytännöistä ja haluttaisiin rajoittaa ohjelmallisesti paremmin varaamista. Kohan määritykset lainojen ja varausten määrästä eivät toimi kaikilta osin.
 * Itsepalvelulainauksen näkymä on nyt hyvä, kun käännöksiä saatu paikoilleen.
 
-*Vaski*
+**Vaski**
 * Finna: Verkkomaksujen tuplamaksumahdollisuus on todennäköisesti ratkennut. Kansalliskirjasto löysi maksutapahtumasta tilanteen, jossa oli mahdollista esim. selaimen taaksepäin navigoinnilla päätyä tilanteeseen, jossa selain kysyi lomakkeen uudelleenlähettämistä. Tämä korjattu ja tuotannossa.
 * Jos virkailijaliittymässä lainaa ja 15-20 minuutin sisällä palauttaa automaattiin, saattaa tapahtua uusi lainaus palautuksen yhteydessä. https://tiketti.koha-suomi.fi/issues/5611
 
-*Lappi*
+**Lappi**
 * Lisää huollettava -nappi aiheuttanut päänvaivaa, mutta nyt vihdoin korjattu ja huoltajan tiedot kopioituvat huollettavalle.
 * Rovaniemen muuttoon liittyvät siirrot tiketöidään ja pyydetään kehittäjiä apuun. 
 
-*OUTI*
+**OUTI**
 * Oulun koulukirjastojen itsepalvelutoiminnon Valmis-painikkeen ongelma selvinnyt. Itsepalvelutoiminto on määritetty niin, että sinne mennessä ei tarvita asiakasvarmennetta. Ilmeisesti jotain oli muuttunut kesäkuussa tehdyssä versiopäivityksessä ja pieni, uusi osa itsepalvelun tarvitsemista tiedoista ei ollutkaan varmenteen ”ulkopuolella”. Koha-Suomen palomuurille on tehty muutos, että puuttuva osio sallittiin ilman varmennetta.
 * Sähköpostiviestien palautusosoite poistettu kaikikilta kirjastoila, lähettäjäosoitteen (@koha-suomi.fi) muutoksia jatketaan pikkuhiljaa. Viestien otsikoihin lisätty selkeästi tieto, että viesti tulee OUTI-kirjastosta.
 * Jälleen onnistuttu tekemään varaus, jossa tietokantaan ei ole tallentunut varauksen noutopaikkaa. Kun yrittää lainata tai palauttaa varatun tietueen niteitä, tulee Virhe 500.
 * Oulun Ceepos-ympäristöön tehdään päivitys ti 20.9. klo 20.15 alkaen. Päivitys kestää noin kaksi tuntia, jonka aikana OUTIn verkkomaksupalvelu ei ole käytettävissä. 
 
-*Siilinjärvi*
+**Siilinjärvi**
 * paikalla vain alkuosan, varmistui se että Siilinjärvellä palataan jatkossa henkilöasiakkuuden 10v voimassaoloaikaan.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-38-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 37 muistio
 
