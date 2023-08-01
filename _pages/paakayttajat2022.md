@@ -316,7 +316,7 @@ Läsnä: Anneli Österman, Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI
   * Tiketin seuranta -projektissa näkyy kaikki tiketit reposta huolimatta, jos niihin vain on muistettu laittaa projekti-tieto.
   * Kaikki Koha-Suomen tiketit näkyvät, kun klikkaa Githubin yläreunasta "Issues-linkkiä":https://github.com/issues ja muuttaa hakukenttään seuraavan tiedon "is:open is:issue user:kohasuomi archived:false" (ilman hipsuja).
   * tikettien siirrolla pyritään sujuvoittamaan koodikannan ylläpitoa, kun tiettyyn koodiin liittyvät tiketit ovat koodin yhteydessä.
-* https://github.com/KohaSuomi/Koha/issues/204
+* [Koha #204](https://github.com/KohaSuomi/Koha/issues/204)
   * laitetaan kaikkiin kimppoihin käyttöön.
 
 **OUTI**
@@ -741,9 +741,9 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Susanna Sandell (Vaski), An
 Aika: 13.9.2022 klo 9.15
 Läsnä: Pia Kusmin (Lappi), Päivi Knuutinen (Vaara), Tiina Pietikäinen, Katja Valjakka, Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski), Anneli Österman ja Piia Semenoff (OUTI), Kati Sillgren (Helle)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-37-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-37-muistio)
 
-*Yhteiset asiat*
+**Yhteiset asiat**
 * Kirkesläisten esittely
 * Vaskissa oli jälleen onnistuttu hyppäämään 9000 viivakoodin yli #5545 /Emmi
   * Viivakoodin perään ei saa kirjoittaa numeroita/merkkejä, koska generointi menee höpsis.
@@ -753,37 +753,35 @@ Läsnä: Pia Kusmin (Lappi), Päivi Knuutinen (Vaara), Tiina Pietikäinen, Katja
 * Uusi IntranetUserCSS-rimpsu, jolla saa piilotettua Varaukset odottaneet yli 7 päivää -välilehti #5586
 
 
-*Lappi*
+**Lappi**
 * Rovaniemen pääkirjaston paluumuutto lähenee ja työllistää.
 * Huoltajan tiedot eivät kopioidu lapselle, vaikka PrefillGuaranteeField on käytössä. Tehdään tiketti.
 * Siirtokokoelman uutta ohjetta kaipaillaan, että saadaan ohjeistus henkilökunnalle vanhojen siirtolainojen korjaamisesta ja ohjeistus uudesta toimintatavasta.
 * Keskeneräisiä töitä paljon. 
 
-*Vaara*
+**Vaara**
 * Asiakkaan pikalisäys-painike piilotettiin, kun se oli lähinnä hämäävä eikä mitään käyttötarkoitusta keksitty
 * Karsikon kirjaston muutto on vaiheessa, jossa uuden kirjaston hyllyjä täytetään ja vanhaan kirjastoon jätetty vanha aineisto poistetaan tietokannasta. 
 * Uuden sertifikaatin ohjeistus lähetetty henkilökunnalle.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Ei mainittavaa, sertifikaattia asennellaan viimeisillekin käyttäjille.
 
-*Vaski*
+**Vaski**
 * Verkkomaksujen tuplaantuminen edelleen riesana. Maksujen tuplaantumista tapahtunut melkein joka viikko.
 
-*OUTI*
+**OUTI**
 * Pekurin avaus- ja pääkirjaston sulkutoimenpiteitä mm. asiakkaiden kotikirjaston muutos, varausten noutokirjastomuutos, Finnaan tilattu asiakkaiden oletusnoutokirjastomuutos jne..
 * Finnatoimistosta pyydetty varausten Peruutus- sanan muuttoa Poisto-sanaksi
 
-*Helle*
+**Helle**
 * Sertifikaatti jaettu edellisellä viikolla (viikko 36).
 * Kohan Asiakkaan pikalisäys -toiminnon painike piilotettu.
 * Noudettavat varaukset -toiminnon Varaukset odottaneet noutoa yli 7 päivää -välilehti piilotettu.
 * Uudelle asiakkaalle lisätyt lähes kaikki tiedot katoavat tallentaessa, kun asiakastietoon on lisätty jo olemassa oleva varaustunniste (vain osoitetiedot jäävät). Tiketti tästä https://tiketti.koha-suomi.fi/issues/5605
-* Helle-Finnassa ruotsinkielisen teoksen esittelyteksti oli englanninkielinen kaikilla käyttöliittymäkielillä. Ko. teoksen esittelyteksti haetaan Kansalliskirjaston palvelimelta. Korjausliikkeenä Finna-toimisto lisäsi esittelytekstin linkkikenttään 856q kentästä puuttuneen arvon (text TAI text/html). Korjauksen jälkeen esittelyteksti on ruotsinkielinen. Teostiedot Helle-Finnassa https://helle.finna.fi/Record/helle.710689
+* Helle-Finnassa ruotsinkielisen teoksen esittelyteksti oli englanninkielinen kaikilla käyttöliittymäkielillä. Ko. teoksen esittelyteksti haetaan Kansalliskirjaston palvelimelta. Korjausliikkeenä Finna-toimisto lisäsi esittelytekstin linkkikenttään 856q kentästä puuttuneen arvon (text TAI text/html). Korjauksen jälkeen esittelyteksti on ruotsinkielinen. [Teostiedot Helle-Finnassa](https://helle.finna.fi/Record/helle.710689)
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-37-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 36 muistio
 
