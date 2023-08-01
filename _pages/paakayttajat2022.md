@@ -2057,67 +2057,65 @@ Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Au
 Aika: 22.2.2022 klo 9.15
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tiina Pietikäinen, Timo Pesonen, Heli Auranen, Katja Valjakka (Lumme), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-8-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-8-muistio)
 
-*Yhteiset*
-* GitHubin käyttöohje: attachment:GitHubinkaytto.pdf
-* "Tiketin 4780":https://tiketti.koha-suomi.fi/issues/4780 taustalla oleva syy saattoi löytyä puutteellisista Kohan MARC-määrityksistä. Määritykset eivät ole tallentuneet kaikille kuvailupohjille ja mäppäyksen uudelleentallennus vie määrityksen kaikkiin kuvailupohjiin. Eli kaikkien kimppojen kannattaa käydä napsuttelemassa läpi kaikki Kohan MARC-määritykset (Muokkaa ja sitten OK). Jatkossa, jos muistaa, kannattaa käydä kliksuttelemassa ainakin standarditunnisteet uudelleen, jos tekee uusia kuvailupohjia.
+**Yhteiset**
+* GitHubin käyttöohje: ks. viikko 9
+* [Tiketin 4780](https://tiketti.koha-suomi.fi/issues/4780) taustalla oleva syy saattoi löytyä puutteellisista Kohan MARC-määrityksistä. Määritykset eivät ole tallentuneet kaikille kuvailupohjille ja mäppäyksen uudelleentallennus vie määrityksen kaikkiin kuvailupohjiin. Eli kaikkien kimppojen kannattaa käydä napsuttelemassa läpi kaikki Kohan MARC-määritykset (Muokkaa ja sitten OK). Jatkossa, jos muistaa, kannattaa käydä kliksuttelemassa ainakin standarditunnisteet uudelleen, jos tekee uusia kuvailupohjia.
 
-*Vaara*
+**Vaara**
 * Hankintaportaalin virheestä johtuva tuplatilauskorien sotku aiheuttanut töitä, toivottavasti ei sentään kuluja muuten kuin työajan kohdalla. Täytyy seurata tilannetta.
 * Bugin 4780 selvittelyä eli tallennamme uudelleen MARC-mäppäykset varmuuden vuoksi.
 * Selaimen versionvaihto aiheutti tietenkin ison kuittikirjoitinrumban. Henkilökunnalla ei ole oikeuksia tehdä kaikkia asetuksia koneille, joten Meitaa jouduttiin pyytämään apuun. Sen jälkeen vielä sotkua asiakaskoneiden selaimen vaihdon kanssa, aloitusnäytöksi vaihdettu väärä näkymä, joka kyselee varmennetta.
 
-*Lumme*
+**Lumme**
 * Asiakkaalla kirjasta tullut maksu (ja maksettu 18.2.2022). Muutoslokissa näkyy eräpäivä 4.2.2022. Asiakkaan Finnan lainahistoriassa teoksella on eräpäivä 28.2.2022 (Asiakas näytti puhelimestaan). Teos uusittiin 18.2. ja eräpäiväksi tuli 18.3. Maksu maksettiin, mutta asiakas tuli seuraavana päivänä ihmettelemään miksi meni maksu, vaikka hänelle näkyi eräpäivä 28.2.
 * Tullut esiin perille menemättömiä varausilmoituksia ja niiden yksilöinti oli hankalaa. Nidetunnuksen jos laittaa, viesteissä näkyy yksilöinti.
 * Esinekuvat eivät näy Finnassa. Ovat kuitenkin tulleet konesalipäivityksessä uudelle palvelimelle. Anneli ehdotti 800 kentässä osoitteen vaihdon.
 * Hankintaportaalin virheestä johtuva tuplatilauskorien sotku näkyy myös Lumpeissa.
 
-*Lappi*
+**Lappi**
 * 16.2. siirtyneet ylimääräiset EditX-sanomat aiheuttaneet harmia. Kirjastoja ohjeistettu korjaamaan virheelliset tilauskorit itse.
 * Laina- ja maksusääntötaulukkoon hieman korjauksia.
 * Paljon pientä ylläpidettävää, kysymyksiä, päivityksiä raportteihin, jne.
 
-*Kyyti*
+**Kyyti**
 * Onko keinoa estää varaaminen Finnassa, mutta sallia virkailijaliittymässä?
 - Järjestelmäasetus AllowHoldPolicyOverride Salli/älä salli henkilökunnan ohittaa varaussääntöjä varauksia tehdessään.
 * Kyytissä alkoi Kohaan tulla pienistä kunnista jonkin verran epäonnistuneita paperisia viestejä, saapumisilmoituksia lähinnä. Syyksi paljastui pienten kirjastojen tapa soittaa asiakkaalle varauksesta ja sen jälkeen peruuttaa viesti eli Tulosta ilmoituksia | Peruuta -> viestin lähetys "epäonnistunut"
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Ylimääräiset 16.2. tilauskorit siivottu pois
 * Tiketti #5261 mietitytti, meillä on ilmeisesti aineiston vastaanotossa muutettu käsin korvaushinta jo valmiiksi verottomaksi.
 
-*OUTI*
+**OUTI**
 * Raahen kirjastossa on pari kertaa tullut vastaan tilanne, ettei sotu avain ole tallentunut automaattisesti asiakkaan sotu-kenttään, kun Koha on ilmoittanut asiakkaan sotun lisäysvaiheessa, että sotu on jo olemassa. Sotun lisäystä oli yritetty ainakin toisessa tapauksessa useammalla koneella, selaimella ja selainversiolla onnistumatta siinä. Sotu-avaimen lisääminen oli lopulta onnistunut toisena päivänä.
 * Pääkirjaston muuttoon liittyviä kokoelmien siirtoja tehty.
-* Luetteloinnista tullut pyyntö, saisiko Siirtoraportti-liitännäiseen sellaisen muutoksen, että tietue-linkit muuttuisivat toisen väriseksi sen jälkeen, kun käyttäjä on klikannut niitä (https://tiketti.koha-suomi.fi/issues/5276).
+* Luetteloinnista tullut pyyntö, saisiko Siirtoraportti-liitännäiseen sellaisen muutoksen, että tietue-linkit muuttuisivat toisen väriseksi sen jälkeen, kun käyttäjä on klikannut niitä [Redmine #5276](https://tiketti.koha-suomi.fi/issues/5276).
 * Woima oli tehnyt hankintaportaalissa jonkin korjauksen Aurora-kirjastoille, joka oli vaikuttanut myös OUTIn tilauksiin niin, että joillekin kirjastoille oli muodostunut uudet tilauskorit jo tilattuihin ja toimitettuihin aineistoihin (tilaukset tehty 2019, 2020, 2021). Oulun ylimääräiset tilaukset olivat syntyneet myös hankintaportaaliin eli kaikki ylimääräiset tilaukset pitää selvittää portaalista pois Woiman kanssa, etteivät laskuta niistä enää kirjastoa. 
 * Virkailijalle oli tullut vastaan peli, jossa oli ollut viivakooditarra ja infotarra, mutta nidettä ei ollut löytynyt tietokannasta. Nidettä ei löytynyt myöskään poistettujen niteiden taulusta, mutta tietue löytyy poistettujen tietueiden taulusta vuodelta 2018. Mysteeriksi jää, miten on pystytty tulostamaan infotarra niteelle, jota ei ole koskaan ollut järjestelmässä.
 * Finnassa on ollut lähes vuoden käytössä ominaisuus, joka ainakin OUTIssa on jäänyt huomaamatta eli käyttäjälle lähetetään vahvistusviesti annettuun sähköpostiosoitteeseen Finna-tilin luomisen yhteydessä ja vaihdettaessa Finnaan tallennettua sähköpostiosoitetta. Uusi tili tai osoite tulee voimaan vasta, kun käyttäjä on klikannut vahvistusviestin linkkiä. Sähköpostiosoitetta vaihdettaessa myös vanhaan osoitteeseen lähetetään ilmoitus tapahtumasta.
 * 22.2.2022 olisi Finnaan pitänyt tulla korjaus, että asiakas pystyy poistamaan oman s-postiosoitteensa itse verkkokirjastosta. Ei toiminut ainakaan vielä.
 * Läpikäyty uuden version ominaisuuksia mitä niistä otetaan käyttöön OUTIssa.
 
-*Helle*
+**Helle**
 * Hankintaportaalin tilaukset eivät siirry Helle-Kohaan.
 * Miten Nidehaun hakutuloksen saa Exceliin? Kiitos Anneli, kun näytit palaverissa tavan. (Nidehaun tulosten vienti Exceliin -tiketti vuodelta 2018 #2915)
 
-*Vaski*
+**Vaski**
 * Ylimääräiset tilauskorit poistettu
 * Kaukopalveluvaraukset jäävät lainaamisen yhteydessä noudettavana-tilaan
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-8-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-8-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 7 muistio
 
 Aika: 15.2.2022 klo 9.15
 Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Anneli Österman ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-7-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-7-muistio)
 
-*Yhteiset*
+**Yhteiset**
 
 * Lokitukset kaikille samoiksi (uudessa versiossa)
   * Ehdotus: laitetaan uudessa versiossa päälle seuraavat lokitukset:  AcquisitionLog,  AuthFailureLog,  AuthSuccessLog (tämä ei ehkä pakollinen),  BorrowersLog,  CataloguingLog,  FinesLog,  HoldsLog,  IssueLog,  RenewalLog,  ReturnLog
@@ -2125,11 +2123,11 @@ Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Reetta Pihlaja (Sii
   * käykää hyväksymässä kutsut Superlibrarian-ryhmään, kutsu pitäisi olla sähköpostissa.
   * jos ette ole vielä rekisteröityneet, teettehän sen piakkoin, jotta pääsette muokkaamaan ohjeita ja tekemään tikettejä, kun sen aika tulee.
 
-*Lumme*
+**Lumme**
 * Viddla ei tunnu toimivan hyvin vieläkään, mutta ongelma lienee Viddlalla, selvitellään.
 * Eräpäivämuistutusten lähettäjä- ja vastaanottajakenttien sovitus ikkunakuoreen korjattu. Koodissa oli liian pieni marginaali.
 
-*OUTI*
+**OUTI**
 * Yhteyden katketessa on tullut tapauksia, että varauksen lainaaminen on epäonnistunut automaatilla sekä virkailijalla. Varauksen poistaminen on auttanut ongelmaan. Yhteyden katkeamisessa tapahtuu jotain, joka muuttaa asiakkaan varauksen löytymään yhtäaikaa sekä aktiivisten että vanhojen varausten taulusta tietokannassa.
 * Ruukin pääkirjastolla asiakaspalvelutiskin koneessa oli ongelmia kuittien tulostuksessa. Koneessa oli Firefoxin versio 91.5.0 esr. Ongelmaan auttoi, kun koneeseen päivitettiin Firefoxin vanhempi versio.
 * Oulun koulukirjaston ongelmat itsepalvelulainauksessa jatkuivat korjauksista (poistettiin kuitintulostus-valikko ja muokattiin kielivalintoja), joten Koha-Suomi teki päätöksen luopua varmenteen käytöstä itsepalvelulainauksen osalta. Muutos tehtiin järjestelmään viime huoltokatkon ohessa 9.2.2022. Kielivalinnat oli jo aiemmin korjattu, mutta edelleen tuottivat ongelmia koulukirjastoissa, joten se korjattiin uudelleen. 
@@ -2138,26 +2136,24 @@ Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Reetta Pihlaja (Sii
 * Laskutusliitännäiseen tehtiin vielä asetussäätöjä. Oli jäänyt määrittelemättä kolmas myöhästymissääntö, jolloin kaikkia laskutettuja ei näkynyt liitännäisessä vaikka ne näkyivät laskutuslistalla.
 * OUTIssa laitettiin pois päältä TrackLastPatronActivity-järjestelmäasetuksen (päivittää asiakkaan lastseen-arvon). Nyt seurataan, onko sillä vaikutusta katkoksiin, joita on ollut paljon varsinkin OUTIssa.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Ei mitään poikkeavaa.
 
-*Vaara*
+**Vaara**
 * Viime viikolla tiistai-iltana lakkasi hyllyvarausraportti toimimasta. Ongelman syynä oli parissa nimeketietueessa ollut "haamunide" eli olematon nide, joka oli käytännössä tyhjä rivi nidevalikossa. Toiseen nimekkeeseen oli tullut varaus, jonka takia hyllyvarausraportti lakkasi toimimasta. Haamuniteet poistamalla ongelma korjaantui.
 * Pahasti jälkijunassa pyydettiin vihdoin selaimen päivitys Vaara-kirjastojen työkoneille. Meita ilmoitti, että Software Centerissä on asennettavissa Firefox 91.5.1 ESR-versio. Erilaisia ongelmia eri kirjastoissa parhaillaan: jotku eivät pysty asentamaan ollenkaan versiota, kuittitulostus tökkii jne. 
 
-*Lappi*
+**Lappi**
 * Tietokannassa niteetön tietue, jolla 451 000 osakohdetta. Selvittelyn jälkeen huomattiin, että tietueelta puuttuu 001-kentästä kontrollinumero kokonaan. Sen kun lisäsi, osakohteet poistuivat ja tietueen uskalsi poistaa.
 * pp.inet.fi sähköpostit lukevat kohan viestien linkit väärin. Pyydetty asiakkaita olemaan yhteydessä sähköpostipalvelun tarjoajaan. 
 * Muutoin normiylläpitoa.
 
-*Vaski*
+**Vaski**
 * OKM musiikki ja muut äänitteet rajausta ihmetelty
 * Konversio yksikön poistoa suunniteltu
 * Laskutustyökalu käyttökunnossa, aloitetaan käyttökoulutukset ja -testaukset
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-7-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-7-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 6 muistio
 
