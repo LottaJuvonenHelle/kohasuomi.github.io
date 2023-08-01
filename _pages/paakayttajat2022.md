@@ -1779,8 +1779,7 @@ items.reserves | 952 ‡n
 items.restricted | 952 ‡5
 items.stack | (automaattisesti)
 items.stocknumber | 952 ‡i
-items.sub_location | 952 ‡S, 952 ‡j (952 ‡S on Koha-Suomen viritys, Vaskin käyttöönotossa tähän laitettiin
-952 ‡j ja tarkoitus laittaa se kaikille muillekin versionvaihdossa)
+items.sub_location | 952 ‡S, 952 ‡j (952 ‡S on Koha-Suomen viritys, Vaskin käyttöönotossa tähän laitettiin 952 ‡j ja tarkoitus laittaa se kaikille muillekin versionvaihdossa)
 items.timestamp | (automaattinen)
 items.uri | 952 ‡u
 items.withdrawn | 952 ‡0
@@ -1820,80 +1819,78 @@ items.withdrawn_on | (automaattinen)
 Aika: 29.3.2022 klo 9.15
 Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Tiina Pietikäinen, Timo Pesonen, Heli Auranen (Lumme), Reetta Pihlaja (Siilinjärvi), Pia Kusmin ja Maria Joona (Lappi), Anni Rajala (Vaski), Anneli Österman, Pirkko-Liisa Lauhikari, Piia Semenoff (OUTI), Kati Sillgren (Helle)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-13-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-13-muistio)
 
-*Yhteiset*
+**Yhteiset**
 * Käytiin läpi Koha2marc mäppäykset. Sovittiin, että annetaan tehdyt määritykset vielä Heikkisen Antin tarkistettavaksi.
 
-*Vaara*
+**Vaara**
 * Ei mitään erityistä, Päivi lomaili muutaman päivän. Jatketaan uuden version testausta.
 
-*Lumme*
+**Lumme**
 * Pikkuhiljaa tehdään uusia säätöjä testikantaan.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Onneksi ei mitään mainittavaa, koska henkilöstötilanne todella haastava just nyt. Yritetään testata kuitenkin, kun ehditään.
 
-*Lappi*
+**Lappi**
 * Uusi versio ja järjestelmäasetusten läpikäynti työllistää.
 * Lappiin saatu vihdoin tehtyä korjausajo videopelien ja lautapelien osalta.
 * Rovaniemen remontti/muutto lähenee. Pitääkö tehdä muutokset sekä tuotantoon että testille? Pyydetään kehittäjiä kopioimaan tehtyjä muutoksia tuotannosta testille, jotta voidaan testata niiden toimivuus myös uudessa ympäristössä (esim. kellutusmatriisi, laina-maksusäännöt, smartbox).
 
-*Vaski*
+**Vaski**
 * Mietitty Asiakkaan tiedot -näkymän muokkausta, koska viestit ja odottavat varaukset siirtyneet tietojen yläpuolelle. Laaditaan ehdotuksesta tiketti Redmineen.
 
-*OUTI*
+**OUTI**
 * Testattu Lyngsoen automaattia testikannassa. Vaikuttaisi hyvältä. Liitteenä testausmuistiinpanot. attachment:Versionvaihto2022_automaattitestaus.docx
 * Oulussa vastaanotettiin 8 nidettä, kun olisi pitänyt vastaanottaa vain 2. Virkailija perui vastaanoton ja otti vastaan vain ne kaksi. Muuten näytti hyvältä, mutta tiedonhaussa kaikki 8 nidettä oli edelleen Saapunut-tilassa eikä virkailija tiennyt mihin kahteen niteeseen vastaanotto oikeasti oli kohdistunut. Neuvoimme menemään takaisin teoksen vastaanottoon, jolloin hän näkee mitä jäljellä olevia niteitä Koha ehdottaa vastaanotettaviksi ja niiden viivakoodien perusteella virkailija pystyi vertailemaan mitkä kaksi oli oikeasti vastaanotettu. Anneli laittoi OUTIssa päälle asetuksen AcqItemSetSubfieldsWhenReceiptIsCancelled, jolla pystyy määrittämään mihin tilaan nide menee, kun tilauksen vastaanotto perutaan.
 
-*Helle*
+**Helle**
 * Ensimmäinen verkkomaksu, joka ei ole poistunut asiakkaan Helle-Koha-tiedoista.
 * Muutama virheellinen saman tilin EDItX-sanoma. Hankintaportaalissa asiakasnumeron määrittelyssä puutteita.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-13-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-13-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 12 muistio
 
 Aika: 22.3.2022 klo 9.15
 Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen, Tiina Pietikäinen (Lumme), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anni Rajala (Vaski), Pia Kusmin (Lappi), Tuomas Kunttu ja Christer Skog (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Piia Semenoff (OUTI), Kati Sillgren (Helle)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-12-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-12-muistio)
 
-*Yhteiset*
+**Yhteiset**
 * Koulutusvideoiden tekemistä Teams-kokouksina, kunhan K-S-ominaisuuksien siirrot valmiimpia.
 
-*Kyyti*
+**Kyyti**
 * Tutkittu testikohaa, järjestelmäasetukset käyty läpi.
 * Ensi viikolle kutsuttu Kyytin pääkäyttäjäpalaveri. Tarkoituksena keskustella uusista ominaiuuksista ja jakaa testausvastuuta.
 * Mikroväylän etähallinta tulossa käyttöön (saatu tunnukset).
 
-*Lumme*
+**Lumme**
 * Kirjakaappi tulossa Mikkelin lähikirjastoon (varausten nouto). Toukokuussa tarkoitus ottaa käyttöön.
 * Tutkittu uusia tulevia Kohan ominaisuuksia.
 
-*Vaara*
+**Vaara**
 * järjestelmäasetusten säätöä testikannassa. Automaatteja koskevat asetukset AllowItemsOnHoldCheckoutSIP ja HoldsNeedProcessingSIP aiheuttivat huolta, kun ei voi testata, mutta onneksi Outi ja Vaski voivat testata näitä
 * muuten normaalia ylläpitoa, ei mitään kiirettä
 
-*Vaski*
+**Vaski**
 * Keskitytty uuden version järjestelmäasetusten läpikäyntiin, saataneen loppuviikkoon mennessä valmiiksi
 * Uusia tukipyyntöjä tullut henkilökunnalta viime aikoina harvakseltaan
 * Henkilökunnalle pidetään tänään verkkokirjaston ideointipaja, pääpaino yhteisen viestinnän ja sisällöntuotannon kehittämisessä
 * Vaskissa pystytään näillä näkymin testaamaan uutta versiota MikroVäylän ja Bibliothecan automaatin kanssa
 
-*Lappi*
+**Lappi**
 * Järjestelmäasetusten läpikäyminen aloitettu.
 * Luotu uusi tarrapohja leveälle rullatarralle viivakoodilla. 
 * SmartBox-hanketta viety eteenpäin. Rovaniemi toimii pilottina "varaustennoutoautomaatti-hankkeessa", joka toimii samalla tyylillä kuin postin pakettiautomaatit.
 * Rovaniemen remonttiin liittyviä töitä aloitellaan.
 * Tietokannan/hankinnan siivousta tehty hiljaisina hetkinä. 
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Järjestelmäasetusten läpikäyminen aloitettu.
 
-*OUTI*
+**OUTI**
 * Koskelan kirjaston vesivahinkosulku jatkuu, tehty erä- ja noutopäiväylityksiä lisää. Kuusamon kirjaston remotin loppusilaus, tehty eräpäiväylityksiä sinne myös. Pääkirjaston remontin aineiston muuttotoimenpiteitä tehty myös.
 * Järjestelmäasetuksien läpikäynti vielä kesken. 
 * OUTIn pääkäyttäjät lupasivat hoitaa uuden version automaattitestaukset Lyngsoen automaatilla. Testataan sitten, kun automaatti on yhteydessä testikantaan.
@@ -1901,29 +1898,27 @@ Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen, Tiina Pietikäinen (Lumme),
 * Asiakas oli poistanut vahingossa kaikki varauksensa Finnassa, joten mietimme, että voisiko Finnassa Varaukset -sivun "Peru kaikki varaukset" -napin tekstin muuttaa muotoon "Poista kaikki varaukset"? Toinen vaihtoehto olisi piilottaa nappi.
 * Asiakkaan kanssa käyty pitkään keskustelua, kun hän ei saa kirjaston viestejä. As. oli selvittänyt omalta sähköpostin tarjoajaltaan (eräs valtion virasto), että Kohasta lähtevien sähköpostien pitäisi käyttää TLS:ää, jotta viestit eivät esty. Anneli kysyy asiasta kehittäjiltä.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-12-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-12-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 11 muistio
 
 Aika: 15.3.2022 klo 9.15
 Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Susanna Sandell (Vaski), Tiina Pietikäinen, Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Kati Sillgren (Helle)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-11-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-11-muistio)
 
-*Yhteiset*
+**Yhteiset**
 * Testikannat yhteisöversiossa
   * tiedonhaku ei vielä toimi, indeksointi tehdään tänään Siiliin, Lumpeeseen ja Kyytiin. Jos niissä ei ole ollut kummempia ongelmia, laitetaan ajo ensi yöksi Helleen, Vaaraan ja Lappiin. Outi ja Vaski ajetaan keskiviikon ja torstain välisenä yönä.
   * käännökset vielä vanhat, selvitellään, miten saadaan uudemmat.
   * Tehdään Githubiin Superlibrarians-ryhmään keskustelu, johon laitetaan keskitetysti Koha-Suomi-ominaisuuksien testauspyynnöt. Raportointi ongelmista Versionvaihto-projektin tiketteihin, jotta keskustelu pysyy kompaktina. Keskustelun voi laitta seurantaan halutessaan, jolloin saa sähköpostiin ilmoituksen uudesta viestistä.
-* Uusi raportti: "Niteet ja asiakkaat, joiden nide on lainassa ja kiinni kuljetettavassa varauksessa":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Valmiita_SQL-raportteja#Niteet-ja-asiakkaat-joiden-nide-on-lainassa-ja-kiinni-kuljetettavassa-varauksessa
+* Uusi raportti: [Niteet ja asiakkaat, joiden nide on lainassa ja kiinni kuljetettavassa varauksessa](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#niteet-ja-asiakkaat-joiden-nide-on-lainassa-ja-kiinni-kuljetettavassa-varauksessa)
 
-*Vaara*
+**Vaara**
 * Päivi tehnyt mm. järjestelmäasetusten käännöksiä, mutta valitettavasti käännöksiä ei vielä saa uuteen versioon (toivottavasti muutaman päivän sisällä saa)
 * Finna-tukeen tehtiin pyyntö, että varaustunnistetta asiakas ei voi tallentaa tyhjänä (Koha ei hyväksy tyhjää varaustunnistetta) ja se muutos tapahtui saman päivän aikana
 
-*OUTI*
+**OUTI**
 * Anneli kaivanut nuorten selkokirjoista lainaus- ja nidetilastoja vuosilta 2017 ja 2021 liittyen Seinäjoen kaupunginkirjaston ErTeltä tulleeseen pyyntöön. Annelilla valmiita raporttipohjia, joita voi tarvittaessa hyödyntää.
 * Tyrnävän Murron koululle tulossa uusi Lyngsoen kirjakaappi. Ei tule varausten noutopisteeksi.
 * Henkilökunnalta tullut palautetta, ettei kaikki 0-kiertoiset niteet tule nidehaulla tehtyyn 0-kiertoisten raporttiin. Raportille tulee vain niteet, joilla Issues-taulussa on arvo 0. Niteillä, joilla arvona on null jäävät raportilta pois. Arvolla null oleville niteille voisi jossain vaiheessa tehdä korjausajon.
@@ -1931,48 +1926,46 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Anneli Österman ja Pirkko-
 * Useammasta kirjastosta tullut viime aikoina palautetta, ettei gmailin s-postiviestit mene perille asiakkaille. Muistutettu taas kimpan kirjastoja, että ovathan pyytäneet kunnian it-tukea tekemään sähköpostipalvelimelleen SPF-säännöt, jotta sähköpostin lähettäjäpalvelimella (Bittigurulla) on oikeus lähettää heidän nimissään viestejä. 
 * Henkilökunnalta tullut palautetta, ettei pääkirjaston muuttoon liittyvä nidetila ”Muuttolaatikossa” poistu automaattisesti, jos nide palautetaan palautusautomaatilla. 
 
-*Lappi*
+**Lappi**
 * Laskutuksen ohje saatu päivitettyä ja laskutus otettu käyttöön.
 * Sähköpostien perillemeno takkuaa edelleen.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Ei mainittavaa.
 
-*Kyyti*
+**Kyyti**
 * Tuli ilmoitus, että asiakas oli virkailijalta pyytäessään saanut palautuskuitin, jossa ei näkynyt palautettuja niteitä. 
 Oulusta kerrottiin, että ainakin tilanteessa, jossa nide on lainattu toisesta kirjastosta ja palautettu toisen kirjaston automaattiin, virkailijan tulostamaan palautuskuitti ei tulostu palautettujen niteiden tietoja.
 * Aloitettu uuden version ihmettely
 
-*Vaski*
+**Vaski**
 * Versionvaihdon asioita pyöritellään. Testauksen mahdollinen työnjako, katkon tarkka ajankohta ja tunnistautuminen mm e-aineistoihin katkon aikana mietityttävät.
 * Vaskin Finnassa Searchspecs.yamlista oma versio, jolla säädetään hakutuloksen relevanssia. Nyt kävi ilmi, että se estää mm aihehaun 655-kentästä. Tarkoitus on säätää haku kuntoon säilyttäen oma relevanssi.
 * Ilmoitukset vanhenevasta kirjastokortista eivät ole lähteneet, croni puuttui.
 
-*Lumme*
+**Lumme**
 * Huomattiin, että asiakas voi lainata 5 kpl lasten ja 5 kpl aikuisten konsolipeliä. Säännöissä on, että 5 konsolipeliä saa olla lainassa kaiken kaikkiaan. 
 * Varkaudessa tyhjennetään väestösuojaa.
 
-*Helle*
+**Helle**
 * Helle-Kohasta löytyi Kyyti-kimpan raportilla (kiitos Tuomas!) n. 500 tietuetta ilman 001-kenttää. 001-kenttäpuutteita on myös äskettäin tallennetuissa tietueissa. Mistä johtuukaan tuo? Helle-kuvailijoita pyydetty tarkistamaan, että käsitellyllä tietueella on 001-kenttä (ja siihen liittyvä 003-kenttä). Ja ilmoittamaan, miten toimien 001-kenttä on jäänyt puuttumaan. 
 
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-11-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-11-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 10 muistio
 
 Aika: 8.3.2022 klo 9.15
 Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Pia Kusmin (Lappi), Kati Sillgren (Helle), Timo Pesonen, Katja Valjakka, Heli Auranen (Lumme), Susanna Sandell (Vaski)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-10-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-10-muistio)
 
-*Yhteiset*
+**Yhteiset**
 * Tätiin "yhteiset" viestipohjat?
   * Todettiin, että ehdotus on hyvä. Viestipohjia ei ole pakko käyttää, mutta halutessaan voi tarvittavan viestipohjan kopioida itselle ja muokata sen omalle kimpalle sopivaksi.
 * "Versionvaihdon alustava aikataulu":https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Aikataulu
 
-*OUTI*
+**OUTI**
 * Asiakkaalta tullut ihmettelyä, kun lainat voi uusia Finnassa saman päivän aikana useamman kerran. Kävi ilmi, että OUTIssa ei ole määritelty mitään laina- ja maksusääntöjen kohtaan ”Ei uusintaa ennen”. Osalla kimpoista ko. kohtaan on määritelty arvoksi 1 päivä vähemmän kuin nidetyypin varsinainen laina-aika on, eikä heillä uusinta saman päivän aikana useamman kerran ole mahdollista.
 * Laskutusliitännäisen käyttäjä ihmetteli, kun kaikki laskutetut niteet on palautettu, asiakkaalta lähtee rajoite (=lainauskielto) pois automaattisesti, mutta asiakkaan huomautuksiin jää merkintä, että asiakkaalle tai hänen huollettavalleen on lähetetty lasku ja niteille jää laskutettutila päälle. Järjestelmä toimii asiakkaan kannalta oikein, koska kun hän on palauttanut tai muuten korvannut laskutetut aineistot, hänellä on oikeus päästä heti lainaamaan. OUTIssa selvitetään, sopiiko tämä käytäntö kaikille kimpan laskuttajille.
 * Koskelan kirjasto meni viime tiistaina kesken päivän kiinni, koska rakennuksessa oli huomattu vesivuoto. Tehty sulkuun liittyviä toimenpiteitä, mm. oma noutoilmoituspohja, koska varaukset noudettavissa pääkirjastosta, erä- ja noutopäivien siirtoja. Kirjaston avaamisesta ei ole vielä tietoa.
@@ -1981,87 +1974,83 @@ Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli 
 * Huomen aamulla 9.3. klo 7-9 taas Kohan huoltoikkuna. Tulossa ainakin n. 20 s. käyttökatko.
 * OUTIlle ja ilmeisesti kaikille kimpoille on tuotantoon laitettu tänään ylimääräisten kuljetustilojen tiputuskoodi. Testattu OUTIn testillä virkailijaliittymässä ja palautusautomaatilla ja todettu toimivaksi.
 
-*Vaara*
+**Vaara**
 * Irina testannut liikuntaesineille kuvien saamista Finnaan, saa virheilmoituksen kuvia ladattaessa. Tutkitaan asiaa.
 * ei muuta mainittavaa
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Myös meiltä puuttui laina- ja maksusäännöistä ei uusintaa ennen -määritys, mutta kukaan ei ollut tainnut edes huomata sitä Finnassa.
 * Huomautus edelliseen: arvo 1 kyseisessä sarakkeessa esti meillä uusinnan kokonaan päivää ennen eräpäivää asti. Päivin ohje: arvo on 1 päivä vähemmän kuin normaali uusinta-aika.
 * Yhteiset viestipohjat on hyvä idea, vaikka meillä on käytössä vain suomenkieliset viestit. Kielivalinta ei ole myöskään näkyvissä asiakastiedoissa kirjastonhallinnassa.
 * Ei muuta mainittavaa.
 
-*Kyyti*
+**Kyyti**
 * Ollaan tutkittu AllowItemsOnHoldCheckout-asetusta. Meillä on ollut älä salli, jolloin ei asiakas ei ole voinut lainata nidettä, johon kohdistuu varaus. Kuitenkin hän on sen voinut lainata tiskillä, koska paikalla olijalla on etuoikeus. Testaus on kesken.
 * Henkilökuntaa on vaihtunut sen verran on, että on alettu taas ihmetellä eri asiakkaiden samoja varaustunnisteita. Meillä varaukset on järjestetty neljän viimeisen numeron mukaan. Pitää kerrata taustaa asialle.
 
-*Lappi*
+**Lappi**
 * Gmail ilmoittelee "ei turvallisesta" viestistä ja osa viesteistä on kääntynyt takaisin kirjastolle. Ohjeistettu tarkistamaan kunnan/kaupungin tietohallinnosta, että siellä on tarvittava SFP-sääntö. Muistutetaan kirjastoja myös auttamaan asiakkaita sähköpostin käytössä ja sallimaan kirjaston viestit sähköposteissaan.
 * Remontit/kiinniolot työllistävät varmaan koko kevään.
 
-*Lumme*
+**Lumme**
 *  Mikkeli palauusautomaatti hajosi.
 * Laina- ja maksusäännöissä myös Lumpeilla ”Ei uusintaa ennen” kohta tyhjä, korjataan asia. Eli asiakas pn voinut uusia Finnassa saman päivän lainoja.
 * Osassa Lumpeita tullut asiakkaille ilmoituksia tietoturvallisuudesta (kuten Lapille). Ilmoitetaan tietohallinnoille säätöjen tarpeesta.
 
-*Vaski*
+**Vaski**
 * laskutuksen hiontaa vielä, mm laskutuslisän lisääminen asiakkaan maksuihin niille joilla tällainen on ollut aiemmin käytössä (PDF-lasku)
 * Ruskon pääkirjasto meni kiinni homevaurion takia, aineistoa jaettu usean muun kunnan toimipisteen kesken. Ns yhdensuuntainen kellutus. Turun kirjastoautoille pysäkki Ruskolle ja sille uusi yksikkö, jotta saadaan varaukset kohdistumaan
 * Verkkokirjastoon Vaskin näkymään suunnitteilla: Peru kaikki varaukset -painikkeen piilottaminen, Lehtivarauksen jononumeron piilottaminen 
 
 
-
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-10-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-10-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 9 muistio
 
 Aika: 1.3.2022 klo 9.15
 Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Tiina Vauhkonen (Vaara), Pia Kusmin (Lappi), Timo Pesonen, Katja Valjakka, Tiina Pietikäinen, Heli Auranen (Lumme), Reetta Pihlaja (Siilinjärvi, klo 10 asti), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-9-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-9-muistio)
 
-*Yhteiset*
-* Onko toiveita, missä järjestyksessä "K-S-ominaisuuksia":https://tiketti.koha-suomi.fi/projects/versionvaihto/issues toteutetaan?
+**Yhteiset**
+* Onko toiveita, missä järjestyksessä [K-S-ominaisuuksia](https://tiketti.koha-suomi.fi/projects/versionvaihto/issues) toteutetaan?
   * päivittäiset välttämättömät: lainaukseen, palautukseen, hyllyvarauksiin
-* Versiopäivityksen "testausohjeita":https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Testausohjeet ja "aikataulu":https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Aikataulu
+* Versiopäivityksen [testausohjeita](https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Testausohjeet) ja [aikataulu](https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Aikataulu)
 * Asiakkaan tietopyyntöön liittyvää linkkiä ei lähetetä jatkossa enää asiakkaan s-postiin, koska s-postiin tuleva linkki, joka vei tietopyynnön verkkosivulle ei enää toimi. Tietopyynnöt otetaan pdf-tiedostona ja toimitetaan asiakkaalle jotenkin turvallisesti. Toiminnallisuudesta luovutaan versionvaihdoksen yhteydessä. Jatkossa tietopyynnöt pyydetään kehittäjiltä.
-* Uusi versio GitHubin käyttö -ohjeesta, mukana myös wikin päivittäminen: attachment:GitHubinkaytto.pdf
+* Uusi versio GitHubin käyttö -ohjeesta, mukana myös wikin päivittäminen: [GitHubinkaytto.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12228421/GitHubinkaytto.pdf)
 
-*OUTI*
+
+**OUTI**
 * Asiakkaalta tullut ihmettelyä, kun gmailin s-postiin tuleviin OUTIn s-postiviesteihin tulee kysymysmerkki, joka tarkoittaa sitä, ettei viestiä ole todennettu. Koska Kohasta lähetettävät viestit lähetetään Bittigurun palvelimelta kuntien domainien nimissä, domainien haltijoiden pitää sallia viestien lähetys Bittigurun nimissä. Kaikissa OUTIn kunnissa sitä ei oltu tehty, pyynnöstä huolimatta. Versiopäivityksen jälkeen s-postiviestin lähetykset siirretään lähtemään Koha-Suomen palvelimelta.
 * Asiakkaalta tullut kehitysehdotus, että tulisi muistutus tekstiviestillä varauksen noudosta ennen viimeistä noutopäivää. Uudessa versiossa on viestipohja HOLD_REMINDER.
 * Marc-mäppäysten uudelleen tallennuksen jälkeen Mikropalvelu valutti tietueet uudelleen tietueille, joille ei ollut aiemmin tallentunut ean-koodi tietokantaan virhetilanteen vuoksi. Kun mäppäykset korjattiin ja tietueet tallennettiin uudelleen, ean-koodi tallentui myös tietokantaan ja Mikropalvelu teki valutuksen kuin pitääkin. 
 * Kempeleen liikuntavälinelainaamo aloittaa maaliskuussa.
 
-*Vaara*
+**Vaara**
 * OKM-raporttien tulokset ovat täysin mielivaltaisessa järjestyksessä, kun avaa raporttisivun. Toki oikean raportin löytää, kun järjestää raportit id:n mukaan uudelleen pariin kertaan, että saa uusimman ylimmäiseksi, mutta olisi kiva jos olisi aina tässä järjestyksessä
 * Ihmetelty Heinäveden kanssa raportilla Aineistotyypitön monografiatietue saatuja tuloksia. Nimekkeiden joukossa on jopa nimeke, josta viimeinenkin nide on poistettu viime vuonna. Raportin tuloksessa nimekkeissä 942-kenttä on tuplasti (ei siis puutu vaan on kahteen kertaan) ja ihmetys kohdistuu siihen, mistä näitä virheitä tulee. Olen ottanut raportin muutaman viikon välein ja eilen listalla olleet 11 nimekettä (9 Blu-ray, 2 cd-rom) olivat siis uusia virheitä.
 
-*Lappi*
+**Lappi**
 * Laskutuspohjat, laskutusryhmät ja asetukset saatu tehtyä. Johanna siirtää ne testiltä tuotantokantaan ja testikanta vapautuu uudelle versiolle.
 * Marc-pohjat tarkistettu.
 
-*Lumme*
+**Lumme**
 * Pieksämäellä tehty laskutus eilen ensimmäistä kertaa uutta laskutuspohjaa käyttäen. Hyllytarkistusraporttia laskuttaja toivoi vielä ja semmoisen rapsan saimmekin Vaarasta.
 * Mikkelissä lainauksia mennyt väärälle kortille (henkilökunnan lapselle). Vaihdetaan lapsen kortti.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Ei mainittavaa.
 
-*Helle*
+**Helle**
 * Tilaukset siirtyvät nyt oikein Hankintaportaalista Helle-Kohaan. Jeee!
 * Ylläpidon Marc-määritykset OK-klikkailtu. Erikoisuus biblio-taulun olemassa olleisiin määrityksiin liittyen: kentät 260c ja 490a näyttivät määritellyiltä, mutta kytkös puuttui kenttien Muokkaa-toiminnosta. Kenttien 260c ja 490a kytkökset lisätty nyt.
 * Maanantaina 28.2.2022 illansuussa muuttui ei-kelluvien kuljetettavien niteiden käyttäytyminen. Tiketti #5280. 
 
-*Vaski*
+**Vaski**
 * Versionvaihdon testauksen suunnittelu aloitettu
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-9-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-9-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
 
 ## Viikko 8 muistio
 
