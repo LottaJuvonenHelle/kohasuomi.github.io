@@ -13,7 +13,7 @@ Pääkäyttäjäryhmän viikkopalaverimuistiot vuodelta 2022.
 
 ## Viikko 52 muistio
 
-Aika: 27.12.2022 klo 9.15
+Aika: 27.12.2022 klo 9.15<br />
 Läsnä: Anni Rajala (Vaski), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-52-muistio)
@@ -44,7 +44,7 @@ Läsnä: Anni Rajala (Vaski), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI),
 
 ## Viikko 51 muistio
 
-Aika: 20.12.2022 klo 9.15
+Aika: 20.12.2022 klo 9.15<br />
 Läsnä: Pia Kusmin ja Leena Kinnunen (Lappi), Anneli Österman, Veli-Pekka Marjoniemi, Piia Semenoff, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Kati Sillgren (Helle), Heli Auranen, Timo Pesonen (Lumme)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-51-muistio)
@@ -81,7 +81,7 @@ Läsnä: Pia Kusmin ja Leena Kinnunen (Lappi), Anneli Österman, Veli-Pekka Marj
 
 ## Viikko 50 muistio
 
-Aika: 13.12.2022 klo 9.15
+Aika: 13.12.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Timo Pesonen (Lumme), Pia Kusmin ja Leena Kinnunen (Lappi), Anni Rajala (Vaski), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-50-muistio)
@@ -130,7 +130,7 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Timo Pesonen 
 
 ## Viikko 49 muistio
 
-Aika: Ke 7.12.2022 klo 9.15
+Aika: Ke 7.12.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen (Vaara), Pia Kusmin (Lappi), Heli Auranen (Lumme), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Emmi Takkinen,
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-49-muistio)
@@ -178,7 +178,7 @@ https://github.com/KohaSuomi/Koha/wiki/Omatoimilaitteet-ja-s%C3%A4hk%C3%B6katkot
 
 ## Viikko 48 muistio
 
-Aika: 29.11.2022 klo 9.15
+Aika: 29.11.2022 klo 9.15<br />
 Läsnä: Anni Rajala (Vaski), Pirkko-Liisa Lauhikari, Anneli Österman ja Veli-Pekka Marjoniemi (OUTI), Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Kati Sillgren (Helle), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tuomas Kunttu (Kyyti)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-48-muistio)
@@ -219,7 +219,7 @@ Läsnä: Anni Rajala (Vaski), Pirkko-Liisa Lauhikari, Anneli Österman ja Veli-P
 
 ## Viikko 47 muistio
 
-Aika: 22.11.2022, klo 9.15
+Aika: 22.11.2022, klo 9.15<br />
 Läsnä: Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Veli-Pekka Marjoniemi, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-47-muistio)
@@ -304,7 +304,7 @@ Läsnä: Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Ku
 
 ## Viikko 46 muistio
 
-Aika: 15.11.2022, klo 9.15
+Aika: 15.11.2022, klo 9.15<br />
 Läsnä: Anneli Österman, Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Anni Rajala (Vaski), Heli Auranen, Timo Pesonen (Lumme), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-46-muistio)
@@ -353,7 +353,7 @@ Läsnä: Anneli Österman, Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI
 
 ## Viikko 45 muistio
 
-Aika: 8.11.2022 klo 9.15
+Aika: 8.11.2022 klo 9.15<br />
 Läsnä: Anneli Österman, Pasi Kallinen, Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Susanna Sandell (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-45-muistio)
@@ -399,7 +399,7 @@ Läsnä: Anneli Österman, Pasi Kallinen, Heli Auranen, Katja Valjakka, Timo Pes
 
 ## Viikko 44 muistio
 
-Aika: 1.11.2022 klo 9.15
+Aika: 1.11.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen, Tenho Volanen, Timo Pesonen (Lumme), Pia Kusmin (Lappi), Anneli Österman ja Pirkko-Liisa Lauhikari, Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-44-muistio)
@@ -452,7 +452,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen,
 
 ## Viikko 43 muistio
 
-Aika: 25.10.2022 klo 9.15
+Aika: 25.10.2022 klo 9.15<br />
 Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen, Tiina Pietikäinen (Lumme), Kati Sillgren (Helle), Mikko Liimatainen (Vaski), Reetta Pihlaja (Siilinjärvi)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-43-muistio)
@@ -493,7 +493,7 @@ Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja 
 
 ## Viikko 42 muistio
 
-Aika: ti 18.10.2022 klo 9.15
+Aika: ti 18.10.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Kati Sillgren (Helle), Heli Auranen, Timo Pesonen, Tenho Volanen (Lumme)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-42-muistio)
@@ -541,7 +541,7 @@ Varsinkin kun tapahtui kahtena kuukautena perätysten, on aiheuttanut harmitusta
 
 ## Viikko 41 muistio
 
-Aika: ti 11.10.2022 klo 9.15
+Aika: ti 11.10.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen, Tiina Pietikäinen, Timo Pesonen (Lumme), Anneli Österman ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Pia Kusmin (Lappi), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-41-muistio)
@@ -591,7 +591,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen,
 
 ## Viikko 40 muistio
 
-Aika: ti 4.10.2022 klo 9.15
+Aika: ti 4.10.2022 klo 9.15<br />
 Läsnä: Heli Auranen, Katja Valjakka, Tiina Pietikäinen (Lumme), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Pia Kusmin (Lappi), Anni Rajala (Vaski), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-40-muistio)
@@ -657,7 +657,7 @@ Jäin miettimään, että jos saavat muutoksen tehtyä, niin kumpaan suuntaan mu
 
 ## Viikko 39 muistio
 
-Aika: ti 27.9.2022 klo 9.15
+Aika: ti 27.9.2022 klo 9.15<br />
 Läsnä: Tiina Pietikäinen, Timo Pesonen, Heli Auranen (Lumme), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Susanna Sandell (Vaski), Pia Kusmin (Lappi), Anneli Österman (OUTI)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-39-muistio)
@@ -699,7 +699,7 @@ Läsnä: Tiina Pietikäinen, Timo Pesonen, Heli Auranen (Lumme), Päivi Knuutine
 
 ## Viikko 38 muistio
 
-Aika: 20.9.2022 klo 9.15
+Aika: 20.9.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Susanna Sandell (Vaski), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi, alkuosan paikalla), Kati Sillgren (Helle), Heli Auranen, Timo Pesonen, Tiina Pietikäinen (Lumme)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-38-muistio)
@@ -738,7 +738,7 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Susanna Sandell (Vaski), An
 
 ## Viikko 37 muistio
 
-Aika: 13.9.2022 klo 9.15
+Aika: 13.9.2022 klo 9.15<br />
 Läsnä: Pia Kusmin (Lappi), Päivi Knuutinen (Vaara), Tiina Pietikäinen, Katja Valjakka, Heli Auranen, Timo Pesonen (Lumme), Reetta Pihlaja (Siilinjärvi), Mikko Liimatainen (Vaski), Anneli Österman ja Piia Semenoff (OUTI), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-37-muistio)
@@ -785,7 +785,7 @@ Läsnä: Pia Kusmin (Lappi), Päivi Knuutinen (Vaara), Tiina Pietikäinen, Katja
 
 ## Viikko 36 muistio
 
-Aika: 6.9.2022 klo 9.15
+Aika: 6.9.2022 klo 9.15<br />
 Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Timp Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Anneli Österman (OUTI)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-36-muistio)
@@ -838,7 +838,7 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Timp Pesonen, Katja V
 
 ## Viikko 35 muistio
 
-Aika: 30.8.2022 klo 9.15
+Aika: 30.8.2022 klo 9.15<br />
 Läsnä: Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Heli Auranen, Katja Valjakka, Tiina Pietikäinen, Timo Pesonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Reetta Pihlaja (Siilinjärvi), Susanna Sandell (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-35-muistio)
@@ -894,7 +894,7 @@ Läsnä: Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Leena
 
 ## Viikko 34 muistio
 
-Aika: 23.8.2022 klo 9.15
+Aika: 23.8.2022 klo 9.15<br />
 Läsnä: Leena Kinnunen (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Irina Halminen (Vaara), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Susanna Sandell (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-34-muistio)
@@ -936,7 +936,7 @@ Läsnä: Leena Kinnunen (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI),
 
 ## Viikko 33 muistio
 
-Aika: 16.8.2022 klo 9.15
+Aika: 16.8.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen (Vaara), Katja Valjakka, Tiina Pietikäinen, Heli Auranen (Lumme), Mikko Liimatainen (Vaski), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Leena Kinnunen, Pia Kusmin (Lappi) 
 
 
@@ -988,7 +988,7 @@ Läsnä: Päivi Knuutinen (Vaara), Katja Valjakka, Tiina Pietikäinen, Heli Aura
 
 ## Viikko 32 muistio
 
-Aika: 9.8.2022 klo 9.15
+Aika: 9.8.2022 klo 9.15<br />
 Läsnä: Heli Auranen, Katja Valjakka (Lumme), Pirkko-Liisa Lauhikari (OUTI), Antti Kiviniemi ja Lari Strand (kehittäjät), Tuomas Kunttu (Kyyti), Päivi Knuutinen (Vaara), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-32-muistio)
@@ -1030,7 +1030,7 @@ Läsnä: Heli Auranen, Katja Valjakka (Lumme), Pirkko-Liisa Lauhikari (OUTI), An
 
 ## Viikko 31 muistio
 
-Aika: 2.8.2022 klo 9.15
+Aika: 2.8.2022 klo 9.15<br />
 Läsnä: Katja Valjakka, Heli Auranen (Lumme), Päivi Knuutinen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Maria Joona (Lappi), Tuomas Kunttu (Kyyti), Emmi Takkinen (kehittäjä)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-31-muistio)
@@ -1068,7 +1068,7 @@ Läsnä: Katja Valjakka, Heli Auranen (Lumme), Päivi Knuutinen (Vaara), Piia Se
 
 ## Viikko 30 muistio
 
-Aika: 26.7.2022 klo 9.15
+Aika: 26.7.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen (Vaara), Anni Rajala (Vaski), Timo Pesonen (Lumme), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-30-muistio)
@@ -1101,7 +1101,7 @@ Läsnä: Päivi Knuutinen (Vaara), Anni Rajala (Vaski), Timo Pesonen (Lumme), An
 
 ## Viikko 29 muistio
 
-Aika: 19.7.2022 klo 9.15
+Aika: 19.7.2022 klo 9.15<br />
 Läsnä: Anneli Österman, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen (Vaara), Kati Sillgren (Helle), Timo Pesonen (Lumme), Anni Rajala (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-29-muistio)
@@ -1142,7 +1142,7 @@ Läsnä: Anneli Österman, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen (Vaar
 
 ## Viikko 28 muistio
 
-Aika: 12.7.2022 klo 9.15
+Aika: 12.7.2022 klo 9.15<br />
 Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikaari (OUTI), Auli Rantasalo (Vaara), Reetta Pihlaja (Siilinjärvi), Anni Rajala ja Susanna Sandell (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-28-muistio)
@@ -1184,7 +1184,7 @@ Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikaari (OUTI), Auli Rantasalo (Vaa
 
 ## Viikko 27 muistio
 
-Aika: 5.7.2022 klo 9.15
+Aika: 5.7.2022 klo 9.15<br />
 Läsnä: Anni Rajala (Vaski), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Auli Rantasalo (Vaara), Heli Auranen (Lumme), Kati Sillgren (Helle), Leena Kinnunen (Lappi)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-27-muistio)
@@ -1225,7 +1225,7 @@ Läsnä: Anni Rajala (Vaski), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI),
 
 ## Viikko 26 muistio
 
-Aika: 28.6.2022 klo 9.15
+Aika: 28.6.2022 klo 9.15<br />
 Läsnä: Christer Skog (Kyyti), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Auli Rantasalo (Vaara), Mikko Liimatainen (Vaski), Leena Kinnunen (Lappi)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-26-muistio)
@@ -1275,7 +1275,7 @@ body#pat_memberentrygen #memberentry_messaging_prefs tr:last-child { display:non
 
 ## Viikko 25 muistio
 
-Aika: 21.6.2022 klo 9.15
+Aika: 21.6.2022 klo 9.15<br />
 Läsnä: Anneli Österman (OUTI), Heli Auranen, Timo Pesonen ja Katja Valjakka (Lumme), Kati Sillgren (Helle), Anni Rajala (Vaski), Irina Halminen ja Auli Rantasalo (Vaara), Christer Skog (Kyyti)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-25-muistio)
@@ -1292,7 +1292,7 @@ Läsnä: Anneli Österman (OUTI), Heli Auranen, Timo Pesonen ja Katja Valjakka (
 
 ## Viikko 24 muistio
 
-Aika: 14.6.2022 klo 9.15
+Aika: 14.6.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Anneli Österman ja Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi, osan aikaa), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-24-muistio)
@@ -1320,7 +1320,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen,
 
 ## Viikko 22 muistio
 
-Aika: 31.5.2022 klo 9.15
+Aika: 31.5.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (Outi), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-22-muistio)
@@ -1345,7 +1345,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Anneli Österman, Piia Semeno
 
 ## Viikko 21 muistio
 
-Aika: 24.5.2022 klo 9.15
+Aika: 24.5.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin ja Leena Kinnunen (Lappi), Reetta Pihlaja (Siilinjärvi), Anni Rajala & Mikko Liimatainen (Vaski), Kati Sillgren (Helle), Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-21-muistio)
@@ -1413,7 +1413,7 @@ Helle haluaa:
 
 ## Viikko 20 muistio
 
-Aika: 17.5.2022 klo 9.15
+Aika: 17.5.2022 klo 9.15<br />
 Läsnä: Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Mikko Liimatainen (Vaski), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Anneli Österman ja PirkkoLiisa Lauhikari (OUTI)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-20-muistio)
@@ -1459,7 +1459,7 @@ Läsnä: Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), P�
 
 ## Viikko 19 muistio
 
-Aika: 10.5.2022 klo 9.15
+Aika: 10.5.2022 klo 9.15<br />
 Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-19-muistio)
@@ -1496,7 +1496,7 @@ Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (
 
 ## Viikko 18 muistio
 
-Aika: 3.5.2022 klo 9.15
+Aika: 3.5.2022 klo 9.15<br />
 Läsnä: Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Anneli Österman ja Pirkko-Liisa Lauhikari, Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-18-muistio)
@@ -1563,7 +1563,7 @@ Läsnä: Heli Auranen, Katja Valjakka, Timo Pesonen (Lumme), Anneli Österman ja
 
 ## Viikko 17 muistio
 
-Aika: 26.4.2022 klo 9.15
+Aika: 26.4.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Heli Auranen, Timo Pesonen, Katja Valjakka (Lumme), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-17-muistio)
@@ -1607,7 +1607,7 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Heli Au
 
 ## Viikko 16 muistio
 
-Aika: 19.4.2022 klo 9.15
+Aika: 19.4.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen ja Auli Rantasalo, (Vaara), Anni Rajala (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-16-muistio)
@@ -1630,7 +1630,7 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo, (Vaara), Anni Rajala (Vaski), Pirkk
 
 ## Viikko 15 muistio
 
-Aika: 12.4.2022 klo 9.15
+Aika: 12.4.2022 klo 9.15<br />
 Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Pia Kusmin (Lappi), Mikko Liimatainen (Vaski), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-15-muistio)
@@ -1669,7 +1669,7 @@ Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja 
 
 ## Viikko 14 muistio
 
-Aika: 5.4.2022 klo 9.15
+Aika: 5.4.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Reetta Pihlaja (Siilinjärvi), Anneli Österman ja Piia Semenoff (OUTI), Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Kati Sillgren (Helle), Noora Suvanto (Lappi)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-14-muistio)
@@ -1816,7 +1816,7 @@ items.withdrawn_on | (automaattinen)
 
 ## Viikko 13 muistio
 
-Aika: 29.3.2022 klo 9.15
+Aika: 29.3.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Tiina Pietikäinen, Timo Pesonen, Heli Auranen (Lumme), Reetta Pihlaja (Siilinjärvi), Pia Kusmin ja Maria Joona (Lappi), Anni Rajala (Vaski), Anneli Österman, Pirkko-Liisa Lauhikari, Piia Semenoff (OUTI), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-13-muistio)
@@ -1853,7 +1853,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Tiina Pietikäinen, Timo Peso
 
 ## Viikko 12 muistio
 
-Aika: 22.3.2022 klo 9.15
+Aika: 22.3.2022 klo 9.15<br />
 Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen, Tiina Pietikäinen (Lumme), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anni Rajala (Vaski), Pia Kusmin (Lappi), Tuomas Kunttu ja Christer Skog (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Piia Semenoff (OUTI), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-12-muistio)
@@ -1902,7 +1902,7 @@ Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen, Tiina Pietikäinen (Lumme),
 
 ## Viikko 11 muistio
 
-Aika: 15.3.2022 klo 9.15
+Aika: 15.3.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Susanna Sandell (Vaski), Tiina Pietikäinen, Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-11-muistio)
@@ -1955,7 +1955,7 @@ Oulusta kerrottiin, että ainakin tilanteessa, jossa nide on lainattu toisesta k
 
 ## Viikko 10 muistio
 
-Aika: 8.3.2022 klo 9.15
+Aika: 8.3.2022 klo 9.15<br />
 Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Tuomas Kunttu (Kyyti), Christer Skog (Kyyti), Pia Kusmin (Lappi), Kati Sillgren (Helle), Timo Pesonen, Katja Valjakka, Heli Auranen (Lumme), Susanna Sandell (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-10-muistio)
@@ -2007,7 +2007,7 @@ Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli 
 
 ## Viikko 9 muistio
 
-Aika: 1.3.2022 klo 9.15
+Aika: 1.3.2022 klo 9.15<br />
 Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen, Tiina Vauhkonen (Vaara), Pia Kusmin (Lappi), Timo Pesonen, Katja Valjakka, Tiina Pietikäinen, Heli Auranen (Lumme), Reetta Pihlaja (Siilinjärvi, klo 10 asti), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-9-muistio)
@@ -2054,7 +2054,7 @@ Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Au
 
 ## Viikko 8 muistio
 
-Aika: 22.2.2022 klo 9.15
+Aika: 22.2.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tiina Pietikäinen, Timo Pesonen, Heli Auranen, Katja Valjakka (Lumme), Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-8-muistio)
@@ -2110,7 +2110,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tiina Pietik�
 
 ## Viikko 7 muistio
 
-Aika: 15.2.2022 klo 9.15
+Aika: 15.2.2022 klo 9.15<br />
 Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pia Kusmin (Lappi), Anneli Österman ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-7-muistio)
@@ -2157,7 +2157,7 @@ Läsnä: Katja Valjakka, Timo Pesonen, Heli Auranen (Lumme), Reetta Pihlaja (Sii
 
 ## Viikko 6 muistio
 
-Aika: 8.2.2022 klo 9.15
+Aika: 8.2.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi, klo 10 asti), Tuomas Kunttu, Christer Skog (Kyyti), Anneli Österman, Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Mikko Liimatainen (Vaski)
 
 
@@ -2234,7 +2234,7 @@ ORDER BY time_queued DESC
 
 ## Viikko 5 muistio
 
-Aika: 1.2.2022 klo 9.15
+Aika: 1.2.2022 klo 9.15<br />
 Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Mikko Liimatainen (Vaski), Katja Valjakka, Tiina Pietikäinen, Timo Pesonen (Lumme), Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Christer Skog (Kyyti), Kati Sillgren (Helle)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-5-muistio)
@@ -2296,7 +2296,7 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Mikko Liimatainen (Vaski), 
 
 ## Viikko 4 muistio
 
-Aika: 25.1.2022 klo 9.15
+Aika: 25.1.2022 klo 9.15<br />
 Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu ja Christer Skog (Kyyti), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-4-muistio)
@@ -2365,12 +2365,12 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Anneli Österman, Piia Semenoff ja 
 
 ## Viikko 3 muistio
 
-Aika: 18.1.2022 klo 9.15
+Aika: 18.1.2022 klo 9.15<br />
 Läsnä: Katja Valjakka, Timo Pesonen ja Heli Auranen (Lumme), Reetta Pihlaja (Siilinjärvi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Tuomas Kunttu, Christer Skog (Kyyti), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Anneli Österman, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Mikko Liimatainen (Vaski)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-3-muistio)
 
-**Yhteiset*:*
+**Yhteiset:**
 * Smartbox, onko kimpoissa ollut kiinnostusta ottaa käyttöön? Koha-Suomelta kysytty integraatiota.
   * Lapissa kyselty kauan sitten. Lumpeissa pohdittu asiaa.
 * Tietokannan taulujen siivoukset
@@ -2427,7 +2427,7 @@ Läsnä: Katja Valjakka, Timo Pesonen ja Heli Auranen (Lumme), Reetta Pihlaja (S
 
 ## Viikko 2 muistio
 
-Aika: 11.1.2022 klo 9.15
+Aika: 11.1.2022 klo 9.15<br />
 Läsnä: Christer Skog (Kyyti), Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tiina Pietikäinen, Timo Pesonen, Katja Valjakka, Heli Auranen (Lumme), Susanna Sandell (Vaski), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-2-muistio)
@@ -2479,14 +2479,14 @@ https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Laskutusty
 
 ## Viikko 1 muistio
 
-Aika: 4.1.2022 klo 9.15
+Aika: 4.1.2022 klo 9.15<br />
 Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Susanna Sandell (Vaski), Kati Sillgren (Helle)Katja Valjakka, Tiina Pietikäinen, Timo Pesonen (Lumme)
 
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-1-muistio)
 
 **Yhteiset**
 * Perjantain katkos
-* "Videopeli ja lautapeli -aineistotyypit ajettu tietueille":https://tiketti.koha-suomi.fi/issues/5082
+* [Videopeli ja lautapeli -aineistotyypit ajettu tietueille](https://tiketti.koha-suomi.fi/issues/5082)
   * KONSOLIP-aineistotyypin voi poistaa MTYPE-arvosta ja OKM-järjestelmäasetuksesta.
 * Huoltoikkuna 12.1.2022 - tulossa lyhyt katko kaikissa kimpoissa.
 * hakuhistoria nollattu kaikilta kaikissa kimpoissa paitsi Vaski ja Kyyti
@@ -2502,7 +2502,7 @@ Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Au
 **OUTI**
 
 * Epäonnistuneiden tekstiviestilähetysten raportilla epäilyttävän vähän sisältöä. Kysellään Link Mobilityltä, lähettävätkö he edelleen kuittauksia. Kohan puolesta kaikki pitäisi olla kunnossa.
-* Lyhytlainalle tullut automaatilla lainatessa eräpäiväksi lainauspäivä. Sama tapahtunut aiemminkin, kirjattu tikettiin https://tiketti.koha-suomi.fi/issues/4018.
+* Lyhytlainalle tullut automaatilla lainatessa eräpäiväksi lainauspäivä. Sama tapahtunut aiemminkin, kirjattu [tikettiin #4018](https://tiketti.koha-suomi.fi/issues/4018).
 * Asiakas ei ollut pystynyt tekemään kausijulkaisuun varausta Finnassa, koska niteellä oli kirjan nidetyyppi (28 vrk). Kun nidetyypin vaihtoi lehteen, varauksen teko onnistui. 
 * Uuden kirjastoauton vuoksi kirjastoautojen Koha-lyhenteet muutetaan geneerisimmiksi.
 * Tehty uuden laskutusliitännäisen konfigurointia ja testailua.
