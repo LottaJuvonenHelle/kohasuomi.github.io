@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 muistio
 
 Aika: 1.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 
@@ -34,6 +34,10 @@ Etelästä pohjoiseen
 **Vaara**
 * ei mitään erityistä, normaalia ylläpitoa
 * laskutuksen käyttäjäongelma johtui käyttäjäoikeuksien siivouksesta, joka tuli tehtyä liian tarkasti eli poistin liikaa oikeuksia
+
+**Lappi**
+* Saarenkylä avannut ovensa ja niteet palautettu saatavana-tilaan. Tiedonhakusivulle jäänyt niteille ei-lainattavissa merkintä, vaatii uudelleen indeksoinnin.
+* Perusylläpitoa
  
 ## Viikko 30 muistio
 
