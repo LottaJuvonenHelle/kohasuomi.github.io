@@ -43,6 +43,8 @@ Pääkäyttäjäryhmä kokoontuu kerran viikossa ja mukana ovat kaikki kimppojen
 
 [Pääkäyttäjien vuoden 2023 muistiot](/paakayttajat2023)
 
+[Pääkäyttäjien vuoden 2022 muistiot](/paakayttajat2022)
+
 ## Koha-Suomen kuvailuryhmän muistiot
 
 Koha-Suomen kuvailuryhmä kokoontuu noin kerran kuussa keskustelemaan ja päättämään ajankohtaisista kuvailuun liittyvistä asioista.
