@@ -64,10 +64,10 @@ docs:
       - title: 'Tietojen säilytysajat'
         url: /dokumentaatio/tietojensailytysajat/
 
-pages:
-- title: 'Muistiot'
-  children:
-    - title: 'Koha-Suomen hallituksen tiedotteet'
-    url: /muistiot
+# pages:
+# - title: 'Muistiot'
+#  children:
+#    - title: 'Koha-Suomen hallituksen tiedotteet'
+#    url: /muistiot
 
 
