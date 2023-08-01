@@ -29,6 +29,7 @@ Läsnä:
 * Asiakasvarmenteet jaettu ma Matrixin kautta pääkäyttäjille.
 * Jos teillä on SQL-kyselyitä, jotka käyttävät koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements-taulua, korjatkaa ne käyttämään biblionumberia biblioitemnumberin sijaan. Jos käytetään biblioitemnumberia, kyselyt voivat jäädä junnaamaan. Tauluun lisättiin kesäkuussa biblionumber-kenttä.
 
+Etelästä pohjoiseen
  
 ## Viikko 30 muistio
 
