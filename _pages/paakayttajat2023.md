@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 muistio
 
 Aika: 1.8.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset asiat**
 
@@ -30,6 +30,10 @@ Läsnä:
 * Jos teillä on SQL-kyselyitä, jotka käyttävät koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements-taulua, korjatkaa ne käyttämään biblionumberia biblioitemnumberin sijaan. Jos käytetään biblioitemnumberia, kyselyt voivat jäädä junnaamaan. Tauluun lisättiin kesäkuussa biblionumber-kenttä.
 
 Etelästä pohjoiseen
+
+**Vaara**
+* ei mitään erityistä, normaalia ylläpitoa
+* laskutuksen käyttäjäongelma johtui käyttäjäoikeuksien siivouksesta, joka tuli tehtyä liian tarkasti eli poistin liikaa oikeuksia
  
 ## Viikko 30 muistio
 
