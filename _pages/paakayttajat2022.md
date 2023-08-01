@@ -1145,14 +1145,14 @@ Läsnä: Anneli Österman, Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen (Vaar
 Aika: 12.7.2022 klo 9.15
 Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikaari (OUTI), Auli Rantasalo (Vaara), Reetta Pihlaja (Siilinjärvi), Anni Rajala ja Susanna Sandell (Vaski)
 
-"Kehittäjien viikon muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Kehitt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-28-muistio
+[Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-28-muistio)
 
-*Yhteiset:*
+**Yhteiset:**
 
 * Tiistai-aamun päivityksessä korjattiin seuraavat:
   * sähköpostittomille asiakkaille ei enää lähde sähköpostia tilin vanhenemisesta.
   * useamman tietueen pystyy nyt varaamaan kerralla.
-* Muistattehan päivitellä Kohan ohje suomeksi -wikiä. "Päivitysvastuut sovittiin tammikuussa":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-4-muistio. "Viikon 9 muistiossa":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-9-muistio on linkki GitHub-ohjeeseen, jossa neuvotaan myös wikin päivittäminen.
+* Muistattehan päivitellä Kohan ohje suomeksi -wikiä. [Päivitysvastuut sovittiin tammikuussa](https://koha-suomi.fi/paakayttajat2022#viikko-4-muistio). [Viikon 9 muistiossa](https://koha-suomi.fi/paakayttajat2022#viikko-9-muistio) on linkki GitHub-ohjeeseen, jossa neuvotaan myös wikin päivittäminen.
 * Maanantaina 4.7.2022 suomenkielinen termi Piirros muuttuu termiksi Piirustus. Toive muutoksesta on tullut sekä arkistoilta että museoilta. Uusi termi on paremmin linjassa organisaatioiden kuvailukäytäntöjen kanssa, ja se vastaa merkitykseltään paremmin rajattavia aineistoja. Muutos kohdistuu ainoastaan käyttäjälle näkyvän aineistotyypin suomenkieliseen käännökseen, ei muihin kielikäännöksiin, eikä siihen, mitä metadatassa tulevia termejä ohjataan kyseisiin kategorioihin. Muutos ei vaikuta myöskään Finnan fasettirajaukseen perustuviin linkkeihin. Muutos ei edellytä toimenpiteitä Finnan asiakasorganisaatioilta.
   * Muutetaanko myös Kohassa Piirroksen kuvaukseksi Piirustus? Aineistotyypit luotiin vastaamaan Finnan materiaalityyppejä. Jos muutetaan, pääkäyttäjät voivat muuttaa arvon *kuvauksen* auktorisoiduissa arvossa MTYPE/PIIRROS. Itse arvoa ei saa muuttaa, jotta OKM-tilastot toimivat oikein.
   * Päätös: Muutetaan kuvaus Piirros -> Piirustus
@@ -1162,27 +1162,25 @@ Läsnä: Anneli Österman ja Pirkko-Liisa Lauhikaari (OUTI), Auli Rantasalo (Vaa
 * Huoltoikkunassa ke 13.7.2022 ei tiedossa katkosta.
 * Editx:ssä on tehty muutos, että kaikki hinnat viedään verottomana. Taustalla syynä se, että Hankinnat-sivulla Tilattu-sarake laskee hinnat verrollisen hintakentän mukaan, jolloin budjetti näennäisesti ylittyy. Korjauksena myös tuohoon verolliseen kenttään viedään veroton hinta, jotta tilattu-sarakkeen tiedot näyttävät seurannan kannalta oikein verotonta hintaa.
 
-*Lappi*
+**Lappi**
 * Tanhuan ja Korvatunturin kirjastot lakkautettu, poistettu Kohasta
 * Pieniä ulkoasumuutoksia IntranetuserCSS:ään
 * Henkilöasiakkaiden tietojen voimassaoloaika 10 vuotta –muutosta edistetty: menossa esitys käyttösääntöjen ja tietosuojaselosteen muutokseen kimpan jorylle 1.9.  Voimassaoloaikaa ei vielä muutettu, koska henkilökuntaa ei ole tiedotettu. 
 * Kohan ohjetta päivitetty Listojen ja korien osalta, vielä kesken, samoin osuus työkaluohjeiden päivityksestä
 
-*OUTI*
+**OUTI**
 * Laskutustyökalu-liitännäisestä oli hävinnyt versiopäivityksessä kirjastojen tietoja tai asetuksiin oli tallentunut vääriä tietoja.
 * Oulun ja Raahen laskutuksen toteutus Finvoice-laskutusrajapinnalla odottaa Johannan lomalta paluuta.
 * Versiopäivityksestä johtuvien tiedossa olevien ongelmien selvittelyä: mm. hyllyvarausraportin rikkoutumisia, tarratulostustyökalun omaan jonoon liittyviä ongelmia.
 * Poistettavien niteiden taustatyökaluongelmat saattavat johtua siitä, että poistettavan niteen viivakoodi löytyy jo ennestään poistettujen taulusta.
 
-*Siilinjärvi*
+**Siilinjärvi**
 * Kohan ohje suomeksi -wikin päivitystä varovasti aloitettu
 
-*Vaski*
+**Vaski**
 * Hyllyvarausraportille toivottu näkyville 710a-osakenttää, jotta taidemusiikin äänitteiden osalta osassa tapauksista näkisi myös esittäjän nimen (ovat pääosin säveltäjän mukaan). Keskusteltiin ehdotuksesta yhdessä ja todettiin, ettei tätä lähdetä lisäämään, sillä ei oikein ole sopivaa kenttää mihin mäpätä (kyseessä lisäkirjaus, joten ei oikein haluta biblio.author-kenttäänkään). Turussa ei ilmeisesti edelleenkään käytetä niin aktiivisesti hyllyvarausten haussa tabletteja, joten hyllyvarausraportille kaivataan siksi välillä aika paljon tietoa.
 
-"Palaa muistion alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022#Viikko-28-muistio | "Palaa sivun alkuun":https://tiketti.koha-suomi.fi/projects/mls/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4t_-_vuosi_2022
-
----
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2022#viikko-28-muistio) - [Palaa sivun alkuun](/paakayttajat2022)
 
 ## Viikko 27 muistio
 
