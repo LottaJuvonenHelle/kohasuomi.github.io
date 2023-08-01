@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 muistio
 
 Aika: 1.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
 
 **Yhteiset asiat**
 
@@ -43,6 +43,8 @@ Etelästä pohjoiseen
 * Perusylläpitoa
 * Finnassa tullut lisää asiakkaille ns. palautuksia maksetuista maksuista. Ongelmaa selvitellään Paytrailin ja Finnan kanssa.
 
+**Kyyti**
+* Vasta palattu lomalta, ei raportoitavaa
  
 ## Viikko 30 muistio
 
