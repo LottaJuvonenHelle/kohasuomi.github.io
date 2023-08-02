@@ -51,7 +51,7 @@ Jos yllä olevista ei ole apua, soita kehittäjien päivystysnumeroon, joka on p
 
 ### Sähköpostiviestit
 
-* onko viesti päätynyt rospostikansioon tai johonkin muuhun automaattiseen kansioon kuten Uutiskirjeet.
+* onko viesti päätynyt roskapostikansioon tai johonkin muuhun automaattiseen kansioon kuten Uutiskirjeet.
 * onko asiakkaalla viestin lajittelusääntöjä, jotka siirtävät viestin muualle kuin Saapuneet-kansioon
 * asiakasta voi pyytää lisäämään viestin lähettäjän osoitteen (monesti kotikirjaston osoite tai se osoite, joka kirjaston tietoihin on merkitty lähettäjäksi) sallittujen/luotettujen listalle. Osassa sähköposteissa lähettäjän osoiteen lisääminen omaan osoitekirjaan myös auttaa. Näin sähköpostipalvelun tarjoaja tietää, että kyseessä ei ole roskaposti tai muuten epäilyttävä viesti.
 
