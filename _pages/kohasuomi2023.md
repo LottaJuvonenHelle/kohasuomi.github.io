@@ -27,7 +27,7 @@ Läsnä:
   * onko meiltä esityksiä?
   * mihin laitetaan junalippujen kulut?
   * päivystykset
-
+* nexteille seuraava versio - aikataulu?
   
 ### Maanantai 30.7.2023 klo 10
 
