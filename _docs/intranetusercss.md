@@ -436,6 +436,22 @@ body#pat_member.pat select#searchfieldstype_filter option[value='sort2'] { displ
 
 ## Lainaus ja palautus
 
+### Lainaus ja palautus -osion etusivu
+
+### Piilota uusinta-nappi
+
+Piilota Lainaus ja palautus -osion etusivulta Uusinta-nappi. Toiminto ei noudata laina- ja maksusääntöjä, eikä ota huomioon varauksia, joten sitä ei kannata käyttää.
+
+Versio: 22.11<br />
+Tarpeellisuus: Suositeltava
+
+```
+/* Piilota uusinta-nappi lainaus- ja palautus -näkymässä /
+body#circ_circulation-home a[href="/cgi-bin/koha/circ/renew.pl"] {
+display: none;
+}
+```
+
 ### Lainaus
 
 ### Piilota "Älä lainaa ja tulosta kuitti" -nappula lainauksessa
