@@ -355,10 +355,12 @@ $(document).ready(function () {
           }
         }
         if (!$('#mobile').val()) {
-          if ($('#sms1').attr('checked') || $('#sms4').attr('checked') || $('#sms10').attr('checked')) {
+          if ($('#sms1').attr('checked') || $('#sms2').attr('checked') || $('#sms4').attr('checked') || $('#sms10').attr('checked')) {
             text += "Matkapuhelinnumero puuttuu. Tekstiviesti-viestiasetukset poistetaan.";
             $('#sms1').removeAttr('checked');
             $('#sms1').attr('disabled', 'disabled');
+            $('#sms2').removeAttr('checked');
+            $('#sms2').attr('disabled', 'disabled');
             $('#sms4').removeAttr('checked');
             $('#sms4').attr('disabled', 'disabled');
             $('#sms10').removeAttr('checked');
