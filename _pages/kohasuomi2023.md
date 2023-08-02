@@ -28,6 +28,7 @@ Läsnä:
   * mihin laitetaan junalippujen kulut?
   * päivystykset
 * nexteille seuraava versio - aikataulu?
+* Lastu-kirjastot Koha-Suomi-karttaan?
   
 ### Maanantai 30.7.2023 klo 10
 
