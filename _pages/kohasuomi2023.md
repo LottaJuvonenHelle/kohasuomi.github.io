@@ -15,6 +15,20 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 31 muistiot
 
+
+### Torstai 3.8.2023 klo 10
+
+Läsnä:
+
+**Aiheet**
+
+* 503 service unavailabe -katkos tullut outissa tällä viikolla tiistaina 1.8.2023 klo 9.36 maissa ja keskiviikkona 2.8.2023 klo 9.36 aikoihin.
+* KohaCon
+  * onko meiltä esityksiä?
+  * mihin laitetaan junalippujen kulut?
+  * päivystykset
+
+  
 ### Maanantai 30.7.2023 klo 10
 
 Läsnä: Anneli, Lasse, Pasi, Lari, Ari
