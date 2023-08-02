@@ -29,6 +29,7 @@ Läsnä:
   * päivystykset
 * nexteille seuraava versio - aikataulu?
 * Lastu-kirjastot Koha-Suomi-karttaan?
+* [Tarkan haun hakutuloksia ei esitetä järjestelmäasetuksessa valitun mukaan](https://github.com/KohaSuomi/Koha/issues/579) - tuodaanko nykyiseen vai odotetaanko, että tulee seuraavan version mukana?
   
 ### Maanantai 30.7.2023 klo 10
 
