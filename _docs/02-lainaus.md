@@ -555,6 +555,8 @@ Järjestelmäasetuksiin voidaan määritellä, kuinka monen "ilmoittaa palauttan
 ---
 ## 2.8 Uusinta
 
+![](/assets/files/docs/Lainaus/uusinta1.PNG)
+
 Lainaus ja palautus -sivun Uusinta-toiminto voi olla kimpassasi piilotettu pois näkyvistä. Jos lainojen uusinta on kimpassasi tällä sivulla mahdollista, on hyvä huomioida, ettei toiminto huomioi kimppasi laina- ja maksusääntöjen rajoituksia. 
 Lainat voi uusia myös asiakkaan Lainat-sivulla:
 [Lainojen uusinta](https://koha-suomi.fi/dokumentaatio/lainaus/#241-lainojen-uusinta)
