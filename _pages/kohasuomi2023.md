@@ -18,19 +18,27 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 3.8.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Ari, Lasse, Lari, Pasi
 
 **Aiheet**
 
 * 503 service unavailabe -katkos tullut outissa tällä viikolla tiistaina 1.8.2023 klo 9.36 maissa ja keskiviikkona 2.8.2023 klo 9.36 aikoihin.
+  * Lari lisää OUTIin viestien lähetykseen rajoituksen, että lähetetään viestejä vain maksimissaan 1000 kerralla. Testataan, onko sillä mitään vaikutusta.
+  * MariaDB:lle on olemassa liitännäinen, jolla saa näkyviin, mikä prosessi on lukinnut taulun. Keskustellaan sen asentamisesta, kun Kodo palaa lomilta.
 * KohaCon
   * onko meiltä esityksiä?
+    *  ei ole, mutta yritetään puhua tulevaisuus-osiossa ja muissa epävirallisissa tilanteissa Bibframesta.
   * mihin laitetaan junalippujen kulut?
+    * eFinaan päivärahat, junaliput liitteeksi 
   * päivystykset
 * nexteille seuraava versio - aikataulu?
+  * KohaConin jälkeen, jos tarvitsee conissa esitellä meidän versiota
 * Lastu-kirjastot Koha-Suomi-karttaan?
+  * Lisätään karttaan tiedolla "syksyllä 2024"
 * [Tarkan haun hakutuloksia ei esitetä järjestelmäasetuksessa valitun mukaan](https://github.com/KohaSuomi/Koha/issues/579) - tuodaanko nykyiseen vai odotetaanko, että tulee seuraavan version mukana?
+  * tuodaan
 * Kiireellinen? [Sähköpostina lähetettävien noutoilmoitusten lähettäjäosoite muuttunut](https://github.com/KohaSuomi/Koha/issues/616)
+  * Lasse tutkii
   
 ### Maanantai 30.7.2023 klo 10
 
