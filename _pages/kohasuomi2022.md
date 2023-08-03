@@ -168,7 +168,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Pasi
 
 * Nalkutin laitettu päälle Tätissä.
   * ohitetaan seuraavat kentät: 09x,046z,59x,880,9xx,xxx9,8565,579
-  * 046z tämän vuoksi: https://tiketti.koha-suomi.fi/issues/5404
+  * [046z tämän tiketin vuoksi](https://tiketti.koha-suomi.fi/issues/5404)
 
 ### Torstain palaveri
 
@@ -293,7 +293,8 @@ Läsnä: Ari, Anneli, Emmi, Kodo, Lari, Pasi
 
 Kohan ylläpidossa ei voinut poistaa laina- ja maksusääntöä. Ongelma johtui Koha-Suomen lisäämästä varauksen noutoaika -sarakkeen puutteellisesta käsittelystä. Ongelma on nyt korjattu.
 
-!{width:45%}lainasaannot8.png!
+![lainasaannot8](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/9d7faa8b-8134-446c-b705-90b53404378b)
+
 
 Liittyy Github-tikettin [Koha #259](https://github.com/KohaSuomi/Koha/issues/259)
 
@@ -352,7 +353,8 @@ Hyllyvarausraportti
 
 Hyllyvarausraportin taustalla on ajo, joka kerää raportin tarvitsemat tiedot ajastetusti. Jos ajo ei ole päällä ja yrittää hyllyvaraussivulle, saa käyttäjä virheen 500. Tämä on nyt korjattu niin, että hyllyvarausraporttisivu aukeaa tyhjänä ja otsikkona on "Holds to pull reported on xx.xx.xxxx" eli suomeksi "Hyllyvarausraportti luotu xx.xx.xxxx"
 
-!{width:45%}hyllyvarausraportti.png!
+![hyllyvarausraportti](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/749a050c-fcc2-4abd-ad1f-7979df54050d)
+
 
 Liittyy [Github-tikettiin 254](https://github.com/KohaSuomi/Koha/issues/254)
 
@@ -362,7 +364,8 @@ Viestipohjien ylläpito
 
 Viestiepohjien ylläpidossa jos kopioi pohjan tietylle kirjastolle, mutta valitsikin sitten peruuta, kopioitui pohjan tiedot siltikin kirjastolle. Tämä on nyt korjattu ja viestipohjan tiedot eivät kopioidu kohdekirjastolle, jos valitaan peruuta.
 
-!{width:35%}viestipohja.png!
+![viestipohja](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/769de2f9-ba0f-40ff-b6c9-81039e03cd9b)
+
 
 Liittyy [Github-tikettiin 237](https://github.com/KohaSuomi/Koha/issues/237)
 
@@ -1580,7 +1583,8 @@ Läsnä: Ari, Emmi, Johanna, Kodo, Lari, Pasi
 * EDItX virheraportoinnin ajastusta muutettu, koska lokirotaatio ehti napata lokimerkinnät alta pois vanhalla ajastuksella ja tuloksena oli virhesanomia, joista puuttui lokista kaiveltu merkintä siitä, mikä varsinaisesti meni vikaan.
 
 * "On pimeä korpi ja kivinen tie, ja usein se käytävä liukaskin lie." Uuden version käännöksissä vielä hieman viilattavaa...
-* !{width:40%}kuva.png!
+* ![kuva](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/5948ed06-3f76-4667-a810-45499b7f8908)
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-13-muistio)  [Palaa sivun alkuun](https://koha-suomi.fi/kohasuomi2022)
 
