@@ -184,9 +184,9 @@ Läsnä: Anni Rajala (Vaski), Pirkko-Liisa Lauhikari, Anneli Österman ja Veli-P
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-48-muistio)
 
 **Yhteiset**
-* "KohaSuomi/Koha #246":https://github.com/KohaSuomi/Koha/issues/246 Myöhässä olevat (tilaukset) -haku antaa virheilmoituksen /Emmi
+* [KohaSuomi/Koha #246](https://github.com/KohaSuomi/Koha/issues/246) Myöhässä olevat (tilaukset) -haku antaa virheilmoituksen /Emmi
   * Kuhunkin kimppaan tehdään valebudjetti, budjetittomat johon  tilit liitetään. Tämä korjaa 500 errorin, mutta listaus ei silti aukea niillä kimpoilla joilla vanhentuneita tilauksia on paljon. Tehdään tästä oma tiketti ja tuodaan yhteisöön tehty ehdotus tilauksien rajaamisesta asetuksella meille testattavaksi. 
-* "KohaSuomi/Koha #278":https://github.com/KohaSuomi/Koha/issues/278 Niteettömän tietueen varaaminen /Emmi
+* [KohaSuomi/Koha #278](https://github.com/KohaSuomi/Koha/issues/278) Niteettömän tietueen varaaminen /Emmi
   * Ongelma korjaantuu seuraavassa versiossa, tiedotetaan ongelmasta kirjastoja. Tiketti laitettu Odottaa -tilaiseksi.
 
 
@@ -314,7 +314,7 @@ Läsnä: Anneli Österman, Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI
   * tiketit tehdään kuten ennenkin Koha-repositorioon, mutta siirretään tarvittaessa muihin repoihin, jos ne liittyvät niihin. Esim. jos tiketti liittyy tarratyökaluun, Koha-Suomen kehittäjät siirtää sen kyseiseen repoon.
 *  * lisätään repositorioihin tieto suomeksi selkokielisesti, mihin toimintoon se liittyy.
   * Tiketin seuranta -projektissa näkyy kaikki tiketit reposta huolimatta, jos niihin vain on muistettu laittaa projekti-tieto.
-  * Kaikki Koha-Suomen tiketit näkyvät, kun klikkaa Githubin yläreunasta "Issues-linkkiä":https://github.com/issues ja muuttaa hakukenttään seuraavan tiedon "is:open is:issue user:kohasuomi archived:false" (ilman hipsuja).
+  * Kaikki Koha-Suomen tiketit näkyvät, kun klikkaa Githubin yläreunasta [Issues-linkkiä](https://github.com/issues) ja muuttaa hakukenttään seuraavan tiedon "is:open is:issue user:kohasuomi archived:false" (ilman hipsuja).
   * tikettien siirrolla pyritään sujuvoittamaan koodikannan ylläpitoa, kun tiettyyn koodiin liittyvät tiketit ovat koodin yhteydessä.
 * [Koha #204](https://github.com/KohaSuomi/Koha/issues/204)
   * laitetaan kaikkiin kimppoihin käyttöön.
@@ -550,7 +550,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Heli Auranen,
 * [Viikon päivitys](https://tiketti.koha-suomi.fi/news/39) tehdäänkin ti-iltana.
 * Ke-aamuna huoltoikkuna klo 7-9, katkoksia tiedossa. Laiterikon aiheuttanut ongelma saatu korjattua ja nyt päästään tekemään viime kuussa suunnitellut huoltotoimenpiteet.
 * Githubin säädöt
-* Asiakkaalta tuli Oulussa ehdotus, että Finnassa näkyisi lainan viimeisin uusintapäivä. Tieto kulkee "op-get-checkouts":https://outi.koha-suomi.fi/api/v1/.html#op-get-checkouts -endpointissa, joten se todennäköisesti saadaan Finnallekin kulkemaan. Finnan pitäisi vain tukea sitten sen näyttämistä asiakkaalle.
+* Asiakkaalta tuli Oulussa ehdotus, että Finnassa näkyisi lainan viimeisin uusintapäivä. Tieto kulkee [op-get-checkouts](https://outi.koha-suomi.fi/api/v1/.html#op-get-checkouts) -endpointissa, joten se todennäköisesti saadaan Finnallekin kulkemaan. Finnan pitäisi vain tukea sitten sen näyttämistä asiakkaalle.
 * #5633 - käykää lisäämässä oman kimppanne listaus ja tieto, onko käytössä hetuttomille 1 vuoden voimassaoloaika.
 * Onhan kaikissa kimpoissa päällä pseudonymisointi sekä tuotannossa että testillä?
   Pseudonymization
@@ -705,13 +705,13 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Susanna Sandell (Vaski), An
 [Kehittäjien viikon muistio](https://koha-suomi.fi/kohasuomi2022#viikon-38-muistio)
 
 **Yhteiset asiat**
-* Kansikuvat pienemmäksi / tietyn kokoiseksi. #5420 ja "IntranetUserCSS-sivulla":https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/IntranetUserCSS#S%C3%A4%C3%A4d%C3%A4-kansikuvan-kokoa.
-* Lari kaipaa testauskommentteja uudesta "OKM-liitännäisestä":https://github.com/orgs/KohaSuomi/teams/superlibrarians/discussions/3/comments/74, joka on testeillä.
+* Kansikuvat pienemmäksi / tietyn kokoiseksi. #5420 ja [IntranetUserCSS-sivulla](https://koha-suomi.fi/dokumentaatio/intranetusercss/#s%C3%A4%C3%A4d%C3%A4-kansikuvan-kokoa).
+* Lari kaipaa testauskommentteja uudesta [OKM-liitännäisestä](https://github.com/orgs/KohaSuomi/teams/superlibrarians/discussions/3/comments/74), joka on testeillä.
 * Kaikki lainojen verkkokirjastouusinnat kirjatuivat versionvaihdon jälkeen parin viikon ajan Finna-käyttäjän kotikirjaston mukaan. Kirjastotiedot korjataan niin, että uusinnoille laitetaan kirjastoksi lainauskirjasto.
-* "Tämän viikon päivitys":https://tiketti.koha-suomi.fi/news/36
+* "[ämän viikon päivitys](https://tiketti.koha-suomi.fi/news/36)
 * Kun luodaan uusi osakohde, osakohteen 773-kenttään ei siirry kaikki tarvittavat tiedot. Kenttiin 773w, t ja a tiedot menevät satunnaisessa järjestyksessä. #5609
 * Alkuvuoden OKM-tilastojen laskennassa on löytynyt virhe. Ensin näytti, että mukaan ei ole tulleet lainat, joiden nide on poistettu, mutta loppujen lopuksi ei ole varma, mistä virhe johtui. Emmi tutkii asiaa. Virhe koskee siis vanhasta liitännäisestä konvertoituja tilastoja (tammi-toukokuu).
-* "Asiantuntijaryhmän 6/22 muistio":https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2022#Muistio-622
+* [Asiantuntijaryhmän 6/22 muistio](https://tiketti.koha-suomi.fi/projects/mls/wiki/Asiantuntijat_-_Vuosi_2022#Muistio-622)
 
 **Vaara**
 * Varaamisen ongelmista on mm. tiketti 3983. Vaarassa on ainakin pari asiakasta, joille ei mene sana perille varaamisen käytännöistä ja haluttaisiin rajoittaa ohjelmallisesti paremmin varaamista. Kohan määritykset lainojen ja varausten määrästä eivät toimi kaikilta osin.
@@ -1328,7 +1328,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo (Vaara), Anneli Österman, Piia Semeno
 **Yhteiset**
 
 * Versionvaihdon aikataulun koeponnistuksen tulokset
-  * "Tarkistelkaa asiakkaiden maksuja, onko balanssit ok":https://tiketti.koha-suomi.fi/issues/5365
+  * [Tarkistelkaa asiakkaiden maksuja, onko balanssit ok](https://tiketti.koha-suomi.fi/issues/5365)
 * Asiakastyyppien automaattiset päivitykset
   * Käykää merkitsemässä [tikettiin 5414](https://tiketti.koha-suomi.fi/issues/5414), miten kimpassa asiakastyypit muuttuu toiseksi. Esim. LAPSI->HENKILO
 * Ominaisuudet/toiminnallisuudet, jotka eivät hyvin todennäköisesti tule toimimaan heti versionvaihdon jälkeen
@@ -1963,7 +1963,7 @@ Läsnä: Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen, Auli 
 **Yhteiset**
 * Tätiin "yhteiset" viestipohjat?
   * Todettiin, että ehdotus on hyvä. Viestipohjia ei ole pakko käyttää, mutta halutessaan voi tarvittavan viestipohjan kopioida itselle ja muokata sen omalle kimpalle sopivaksi.
-* "Versionvaihdon alustava aikataulu":https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Aikataulu
+* [Versionvaihdon alustava aikataulu](https://tiketti.koha-suomi.fi/projects/versionvaihto/wiki/Aikataulu)
 
 **OUTI**
 * Asiakkaalta tullut ihmettelyä, kun lainat voi uusia Finnassa saman päivän aikana useamman kerran. Kävi ilmi, että OUTIssa ei ole määritelty mitään laina- ja maksusääntöjen kohtaan ”Ei uusintaa ennen”. Osalla kimpoista ko. kohtaan on määritelty arvoksi 1 päivä vähemmän kuin nidetyypin varsinainen laina-aika on, eikä heillä uusinta saman päivän aikana useamman kerran ole mahdollista.
@@ -2247,7 +2247,7 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Mikko Liimatainen (Vaski), 
   * Matrixiin voi kirjautua GitHub-tunnuksilla: 
     * kaikki pääkäyttäjät rekisteröityy ensin GitHubiin 
     * ja sen jälkeen matrixiin esim. https://app.element.io -osoitteessa. Valitse kirjautumiskenttien alta ensin GitHubin logo.
-!{width:40%}kirjautuminen.png!
+    ![kirjautuminen](https://github.com/KohaSuomi/kohasuomi.github.io/assets/33121325/df359118-2886-4429-9a46-133059bda161)
     * ilmoita sen jälkeen Annelille matrixin tunnus, niin saat kutsun Koha-Suomen "huoneeseen".
   * Elementillä on myös mobiiliappi, jonka voi asentaa halutessan.
   * GitHubin koulutus tulossa vähän myöhemmin.
