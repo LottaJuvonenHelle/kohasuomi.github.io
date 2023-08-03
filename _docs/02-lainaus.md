@@ -870,7 +870,11 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 ![](/assets/files/docs/Lainaus/OfflineKOCvalitselainat.PNG)
 
-- Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt tiedot näytölle. 
+- Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt tiedot näytölle.
+
+Huom! Samassa kirjastossa lainatut ja ladatut offline-lainat voivat näkyä kaikille ko. kirjaston virkailijoille ennen niiden käsittelyyn siirtämistä. Ne voivat näkyä "Odottavat yhteydettömän tilan toimet" -linkin takana tai siinä vaiheessa, kun lähetät yhteydettömän tilan lainaustiedoston (*Lähetä yhteydettömän tilan lainaustiedosto (*.koc)*) ja etenet kohtaan *Näytä käsittelyssä odottavat yhteydettömän tilan tapahtumat*.
+
+Jos näytöllä näkyy myös muiden virkailijoiden lainaamat ja lataamat lainat, voit valita kaikki lainat käsittelyyn kerralla. Jos useampi virkailija siirtää samat ladatut lainat käsittelyyn, se ei haittaa. Lainat kirjautuvat asiakkaille vain kerran, eikä asiakkaalta mene esim. lainojen uusimiskertoja. 
 
 ![](/assets/files/docs/Lainaus/OfflineKOClähetetyt.PNG)
 
