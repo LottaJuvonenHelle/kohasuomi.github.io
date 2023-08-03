@@ -5,6 +5,7 @@ redirect_from:
   - /theme-setup/
 toc: true
 layout: single
+hidden: true
 ---
 
 Kehittäjien viikkopalaverit vuodelta 2022.
