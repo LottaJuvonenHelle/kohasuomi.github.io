@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 muistio
 
 Aika: 1.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat**
 
@@ -48,11 +48,16 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Ei mitään erityistä, normaalia tukitoimintaa ja ylläpitoa.
+
+**Vaski**
+* Kausijulkaisutilauksissa viimeinen numero ja sisäinen laskuri eivät näytä aina päivittyvän samassa rytmissä. Tämä aiheuttaa ongelman, jossa vuoden viimeiselle numerolle muodostuu numeroksi ensi vuoden viimeinen numero.
+* Vaskin testille laitettu uudet triggerit mobile ja smsalertnumber synkronointiin. Korjaavat virheen null-arvoisten kenttien päivittymisessä. Tehty tiketti [708](https://github.com/KohaSuomi/Koha/issues/708) triggereiden päivittämisestä kaikille kimpoille.
+* Kellutussääntöjä siivottu ja saatu vähennettyä noin kolmannes säännöistä. Huomattiin samalla, että floatrulesiin voi kommentoida Perlin # kommenteilla. Tehty tiketti [709](https://github.com/KohaSuomi/Koha/issues/709) floatrules ohjeiden päivittämisestä.
  
 ## Viikko 30 muistio
 
 Aika: 25.7.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Auli Rantasalo (Vaara), Anneli Österman ja Lasse Pouru (Koha-Suomi), Johanna Miettunen (3AMK), Hanna Ikonen (Lumme), Piia Semenoff (OUTI)
+Läsnä: Pia Kusmin (Lappi), Auli Rantasalo (Vaara), Anneli Österman ja Lasse Pouru (Koha-Suomi), Johanna Miettunen (3AMK), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Mikko Liimatainen (Vaski)
 
 **Yhteiset asiat**
 
@@ -79,7 +84,10 @@ Pohjoisesta etelään
 **Lumme**
 * Perus ylläpitoa.
 * Tuli vastaan tapaus, jossa virkailija oli palauttanut lokien mukaan asiakkaan kirjan, mutta kirja oli jostain syystä pysynyt asiakkaalla lainassa. Toinen palautus poisti kirjan asiakkaan lainoista.
- 
+
+**Vaski**
+* Kellutussääntöjä pyritään yksinkertaistamaan, koska suuren sääntömäärän hallinnointi käy hankalaksi, kun kelluttavien kuntien määrä kasvaa.
+* Viestiasetuksien ja matkapuhelinnumeroiden siivouksia käynnissä. Paljon pois pudonneita mobile ja smsalertnumber numeroita palautettu backup-taulusta.
 
 ## Viikko 29 muistio
 
