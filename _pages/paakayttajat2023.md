@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 31 muistio
 
 Aika: 1.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Mikko Liimatainen (Vaski)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Mikko Liimatainen (Vaski), Anneli Österman, Lasse Pouru ja Lari Strand (Koha-Suomi)
 
 **Yhteiset asiat**
 
@@ -53,7 +53,9 @@ Etelästä pohjoiseen
 * Kausijulkaisutilauksissa viimeinen numero ja sisäinen laskuri eivät näytä aina päivittyvän samassa rytmissä. Tämä aiheuttaa ongelman, jossa vuoden viimeiselle numerolle muodostuu numeroksi ensi vuoden viimeinen numero.
 * Vaskin testille laitettu uudet triggerit mobile ja smsalertnumber synkronointiin. Korjaavat virheen null-arvoisten kenttien päivittymisessä. Tehty tiketti [708](https://github.com/KohaSuomi/Koha/issues/708) triggereiden päivittämisestä kaikille kimpoille.
 * Kellutussääntöjä siivottu ja saatu vähennettyä noin kolmannes säännöistä. Huomattiin samalla, että floatrulesiin voi kommentoida Perlin # kommenteilla. Tehty tiketti [709](https://github.com/KohaSuomi/Koha/issues/709) floatrules ohjeiden päivittämisestä.
- 
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-31-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 30 muistio
 
 Aika: 25.7.2023 klo 9.15 <br />
@@ -88,6 +90,8 @@ Pohjoisesta etelään
 **Vaski**
 * Kellutussääntöjä pyritään yksinkertaistamaan, koska suuren sääntömäärän hallinnointi käy hankalaksi, kun kelluttavien kuntien määrä kasvaa.
 * Viestiasetuksien ja matkapuhelinnumeroiden siivouksia käynnissä. Paljon pois pudonneita mobile ja smsalertnumber numeroita palautettu backup-taulusta.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-30-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 29 muistio
 
@@ -138,6 +142,8 @@ Etelästä pohjoiseen
 **Vaara**
 * Noutamattomien varauksien listalla oli asiakastunnisteena " AnonnymousPatron", joka johtuu lainahistorian tyhjentämisestä. Siitä olikin jo tiketti tehty.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-29-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 28 muistio
 
 Aika: 11.7.2023 klo 9.15 <br />
@@ -187,7 +193,9 @@ Tästä seuraa, että hakutuloksen tekijätieto ei löydä muita tietueita ko. t
 
 **Siilinjärvi**
 * Ei mainittavaa.
-  
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-28-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 27 muistio
 Aika: 4.7.2023 klo 9.15 <br />
 Läsnä: Päivi Knuutinen (Vaara), Leena Kinnunen (Lappi), Veli-Pekka Marjoniemi (OUTI), Mikko Liimatainen (Vaski), Reetta Pihlaja (Siilinjärvi)
@@ -216,6 +224,7 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Kohassa ei erityistä, muut kesätyöt pitävät kiireisenä
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-27-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
   
 ## Viikko 26 muistio
 Aika: 27.6.2023 klo 9.15 <br />
@@ -249,7 +258,8 @@ Pohjoisesta etelään
 * Varausten kuljetustiloja peruutettaessa nidekuljetustilat eivät poistu. Tämä olisi tarpeen joissain tilanteissa, koska nyt kuljetustilan saa sellaiseen tilaan, ettei sitä saa helposti purettua niteeltä.
 * Bugzillasta löytynyt joitain tikettejä koskien havaittuja ongelmia. Tiketöidään myös GitHubiin.
   
-  
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-26-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 25 muistio
 Aika: 20.6.2023 klo 9.15 <br />
 Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen (Lappi), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Lari, Mikko Liimatainen (Vaski)
@@ -279,6 +289,8 @@ Etelästä pohjoiseen
 * Noutomuistutuksen käyttöönotossa yllätys, kun asetus olikin asiakkailla valmiiksi valittuna ja viestejä lähti liikkeelle ennen kuin oli tarkoitus.
 * Tietovarastoprojektin osalta toivottu kimppojen välistä yhteistyötä, jotta rajapintatoteutuksessa voitaisiin ottaa huomioon muut vastaavat tarpeet.
 * Kohaconin aikataulua odotellaan, jotta tiedettäisiin, minä päivinä olisi hyvä osallistua.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-25-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 24 muistio
 Aika: 13.6.2023 klo 9.15 <br />
@@ -328,6 +340,7 @@ Pohjoisesta etelään
 * Yksi työntekijä havainnut tapauksen, jossa asiakastietojen tallentaminen onnistui ilman osoitetietoja. Työntekijä muisteli, että kentät olisivat lomakkeelta puuttuneet kokonaan, mutta ei ollut asiasta täysin varma. Joka tapauksessa osoitetiedot olivat tyhjät, kun asiakasta tallentamisen jälkeen tarkasteli. Raporttihaulla (address = '') löytyi toinen vastaava tapaus, asiakastietue tallennettu 2.6.2023. Ei keksitty selitystä, mutta raportoidaan tämä vielä tiketiksi.
 * Palautetta tullut siitä, ettei Koha-Suomen sivuilla haku löydä ohjeita. Todettiin, että haku on Githubin, joka ei ole erityisen hyvä.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-24-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 23 muistio
 Aika: 6.6.2023 klo 9.15 <br />
@@ -373,6 +386,7 @@ Etelästä pohjoiseen
 * Kohassa otettu käyttöön asetus AllowRenewalIfOtherItemsAvailable, joka sallii varatun teoksen lainan uusimisen silloin kun teoksella on varaukset täyttäviä niteitä vähintään niin paljon kuin varauksia. Lumpeissa asetuksesta oli luovuttu, koska asetus ei osannut huomioida nidevarauksia ja näin näyttää olevan edelleen (oli unohtunut Vaskilta testata). Yhteisöstä löytyi tiketti aiheesta ja sen pohjalta Githubissa nyt [tiketti 630](https://github.com/KohaSuomi/Koha/issues/630) jossa toiveena saada yhteisön korjaus käyttöön.
 * Hitautta havaittu asiakashaussa, lisäksi raporteilla tullut proxy erroria ja Finnassa epäonnistunut lehtitietueiden saatavuustietojen haku. Asiakashaun hitautta havaittu muuallakin (muttei kaikkialla). Vaski tekee havainnoistaan tiketin.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-23-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 22 muistio
 
@@ -420,6 +434,7 @@ Pohjoisesta etelään
 * Lumpeissa oli myös väärä attribuuttiarvo sotusiilon rimpsussa, Anneli korjasi.
 * Normaalia pikkukorjauksia niin kuin muuallakin.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-22-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 21 muistio
 
@@ -463,6 +478,8 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Pia Kusmin (Lappi), Päi
 **Vaski**
 * Päivityksen jälkeen tullut odotettua vähemmän viestejä henkilökunnalta, eniten ongelmia on aiheuttanut saapumiskäsittelyn epäonnistuminen josta tehtynä tiketti [#562](https://github.com/KohaSuomi/Koha/issues/562)
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-21-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 20 muistio
 
 Aika: 16.5.2023 klo 9.15 <br />
@@ -470,6 +487,7 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi)
 
 * Käytiin läpi, mitä pitää tehdä tuotannossa ennen kuin kirjastot voidaan avata sekä erilaisia versionvaihdon ongelmia.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-20-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 19 muistio
 
@@ -513,6 +531,7 @@ Etelästä pohjoiseen.
 **Lumme**
 * Nextin testailua ja lisätty GitHubin mukaan toimintoja.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-19-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 18 muistio
 
@@ -552,7 +571,8 @@ varata useita saman nidetyypin nimekkeitä. Kuljetuksen estäminen sen sijaan on
 **Siilinjärvi**
 * Keskusteltu Kodon kanssa asiakasrekisterin siivoamisesta.
 * Ei muuta mainittavaa.
- 
+
+ [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-18-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 17 muistio
 
@@ -603,6 +623,7 @@ Voisi testata laina- ja maksusääntöjen Oletusvaraussääntö nidetyypeittäin
 * Versiovaihdon asiakastiedotus alkamassa ja Nextin testaus laajennetaan koko henkilökunnalle
 * Oppimateriaalikeskuksen järjestelmän uusiminen suunnitteilla
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-17-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 16 muistio
 
@@ -674,6 +695,8 @@ Läsnä: Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (
 * Nextillä perustiedot-näytöltä puuttuu Vie/Tuo-painike. Teen siitä tiketin.
 * Sivulla https://github.com/KohaSuomi/Koha-22x/wiki/Versiovaihdon-muistiinpanot lukee, että tiputetaan seuraavat taulut: okm_statistics, okm_statistics_logs ja biblio_data_elements. Varmistin, että nämä siis todella poistuvat. Näitä korvaavat uudet taulut ovat: koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements ja koha_plugin_fi_kohasuomi_okmstats_okm_statistics
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-16-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 15 muistio
 
 Aika: 11.4.2023 klo 9.15 <br />
@@ -699,6 +722,7 @@ Läsnä: Anni Rajala (Vaski), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (O
 **Lumme**
 * Automaateilla palvelinongelmia. Ongelmia selvitellään.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-15-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 14 muistio
 
@@ -728,6 +752,7 @@ Pohjoisesta etelään.
 **Lappi**
 * Normaalia ylläpitoa ja nextin testausta.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-14-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 13 muistio
 
@@ -777,6 +802,8 @@ Kuulumiset etelästä pohjoiseen.
 
 **Lappi**
 * Ei mitää erityistä. Versionvaihtoa ja normi ylläpitoa.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-13-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 12 muistio
 
@@ -836,6 +863,8 @@ Finna-tuki on ottanut pohdittavakseen, mitä ongelmalle voitaisiin tehdä. Ehdot
 **Vaski**
 * Perusylläpitoa ja Nextin testaamista.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-12-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 11 muistio
 
 Aika: 14.3.2023 klo 9.15 <br />
@@ -880,6 +909,8 @@ Sen perusteella asia on liian vaihea korjattavaksi.
 * Nextin tutkailu ja säätäminen aloitettu täälläkin.
 * Siilin muista poikkeavat croni-ajastukset voidaan yhtenäistää muiden kimppojen kanssa.
 * Muuten ei erikoista.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-11-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 10 muistio
 
@@ -935,6 +966,7 @@ Näin asetuksen kuuluukin olla, jotta croni toimii oikein.
 * Kirjautumisyritys-asetukset pitäisi nyt olla meilläkin kunnossa.
 * Luettelointipohjien ei-pakollisuudet päivitetty tuotantoon ja nextiin.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-10-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 9 muistio
 
@@ -982,6 +1014,7 @@ Läsnä: Anneli Österman ja Kodo Korkalo (Koha-Suomi), Päivi Knuutinen, Auli R
 **Lumme**
 * Oletusviestiasetuksista poistettu valmiit täpät
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-9-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 8 muistio
 
@@ -1028,6 +1061,8 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo 
 * Pohdittiin viestipohjien testausta next-ympäristössä. Testaus todettiin tarpeelliseksi.
 * Varausjono-raportin testaustuloksia kaivattiin.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-8-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 7 muistio
 
 Aika: 14.2.2023 klo 9.15 <br />
@@ -1042,7 +1077,7 @@ Läsnä: Anni Rajala (Vaski), Mikko Liimatainen (Vaski), Susanna Sandell (Vaski)
   * ensin tehdään Vaara Annelin pyynnöstä, sitten muut
 * [Kohan ohje suomeksi -muotoiluohjeistukset](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus) tehty. Ohjeita voi noudattaa jo nyt, mutta viimeistään silloin, kun päivitetään ohjeet uutta versiota vastaavaksi.
 
-
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-7-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 6 muistio
 
@@ -1100,6 +1135,7 @@ Nyt koottu OKM-ryhmiksi, joista ei saa eri kuntien osalta tuloksia. Tehdään "a
 
 * Redminen omat tiketit osittain läpikäymättä, yritetään ennättää hoitaa kuntoon.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-6-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 5 muistio
 
@@ -1164,6 +1200,8 @@ Läsnä: Leena Kinnunen, Pia Kusmin (Lappi), Heli Auranen, Tenho Volanen, Timo P
 * Uuden version testausta aloitellaan
 * Tarve saada kuiteille takemmat nimeketiedot. Nämä löytyvätkin nykyään biblio subtitle, part_number ja part_name -kentistä.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-5-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 4 muistio
 
 Aika: 24.1.2023 klo 9.15<br />
@@ -1211,6 +1249,7 @@ Läsnä: Anneli Österman, Kodo Korkalo, Pirkko-Liisa Lauhikari ja Veli-Pekka Ma
 **Lappi**
 * Rauhallista, ei kummempaa
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-4-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 3 muistio
 
@@ -1271,6 +1310,8 @@ https://www.kirjastot.fi/sites/default/files/content/Yleisten_kirjastojen_tilast
 * Versiopäivityksen testikannasta kiinnostaa tuleeko data anonymisoituna.
 * Finnan maksuongelmat selvityksessä. Ilmeni, että ongelma johtui maksujen pyöristyksestä.
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-3-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 2 muistio
 
 Aika: 10.1.2023 klo 9.15<br />
@@ -1317,6 +1358,8 @@ Läsnä: Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Heli Auranen
 **Helle**
 * Koha-näytön yläreunaan lisätyt omat linkit eivät ole enää päällekkäin pienemmillä näytöillä, kun osa omista linkeistä niputettiin samaan alasvetovalikkoon. 
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-2-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 1 muistio
 
 Aika: 3.1.2023 klo 9.15<br />
@@ -1356,3 +1399,5 @@ Läsnä: Päivi Knuutinen, Irina Halminen ja Auli Rantasalo (Vaara), Heli Aurane
 * Rauhallinen vuodenvaihde.
 * Käyttäjäoikeuksista on ollut kaksi raporttia, toisella voi hakea kaikkien käyttäjien kaikki oikeudet ja toisella oikeusryhmittäin. Rapsat menneet ilmeisesti rikki edellisessä päivityksessä. Vaaralla ilmeisesti näistä toimiva versio? Lari lupasi katsoa Lapin raportteja. 
 * Työn alla käyttäjätunnusten tarkistus, aloitetaan vanhentuneiden maksujen poisto. 
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-1-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
