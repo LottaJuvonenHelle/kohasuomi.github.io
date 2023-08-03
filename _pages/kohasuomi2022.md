@@ -4,6 +4,7 @@ permalink: /kohasuomi2022
 redirect_from:
   - /theme-setup/
 toc: true
+layout: single
 ---
 
 Kehittäjien viikkopalaverit vuodelta 2022.
