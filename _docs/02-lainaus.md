@@ -736,12 +736,12 @@ Raportti antaa kaikki kirjastosi myöhässä olevat lainat. Voit hakea lainat hy
 
 Jos Koha ei toimi esim. verkkoyhteysvian vuoksi, voit käyttää poikkeustilanteissa lainaamiseen seuraavia ohjelmia:
 
-1.  **Offline lainausohjelma Windowsille** (KOC). Erillinen ohjelma
-    yksittäiselle lainauskoneelle.
+1.  **Koha Offline Circulation -lainausohjelma** (KOC). Erillinen työpöytäsovellus
+    yksittäiselle Windows-koneelle.
 
-2.  **Koha Offline Circulation Tool** (KOCT), joka on Firefox-selaimen lisäosa.
+2.  **Koha Offline Circulation Tool** (KOCT).  Firefox-selaimen erillinen lisäosa.
 
-Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä.
+Käyttämäsi ohjelma kannattaa asentaa asiakaspalvelukoneelle jo etukäteen, jotta ongelmatilanteen tullessa se on heti käytettävissä. KOC-työpöytäsovelluksen asennus vaatii järjestelmänvalvojan oikeudet koneelle. Kuntasi käytännöistä riippuen voi olla, että paikallinen ICT-tuki pystyy tekemään vain asennuksen.  
 
 Lainojen palautukset kannataa tehdä vain Kohalla, kun järjestelmä taas toimii. Offline-ohjelmat eivät huomioi esim. jos palautettavaan teokseen on varaus.
 {: .notice--warning}
@@ -827,7 +827,7 @@ Lainaamiseen tarvitset vain "Issues"-välilehdellä olevia tietoja ja toimintoja
 Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helposti. Voit ottaa tiedoston nimen ja sijainnin vaikka paperille ylös.
 {: .notice--warning}
 
-#### 2.19.1.2 Lainatietojen lähettäminen tietokantaan
+#### 2.19.1.2 Lainatietojen lataaminen ja lähettäminen tietokantaan
 
 **Lähetä lainat tietokantaan heti, kun Koha taas toimii.** Jos lähetät lainat tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
