@@ -39,7 +39,7 @@ Läsnä: Anneli, Ari, Lasse, Lari, Pasi
   * tuodaan
 * Kiireellinen? [Sähköpostina lähetettävien noutoilmoitusten lähettäjäosoite muuttunut](https://github.com/KohaSuomi/Koha/issues/616)
   * Lasse tutkii
-  
+
 ### Maanantai 30.7.2023 klo 10
 
 Läsnä: Anneli, Lasse, Pasi, Lari, Ari
@@ -55,6 +55,8 @@ Läsnä: Anneli, Lasse, Pasi, Lari, Ari
   * [Koha #668](https://github.com/KohaSuomi/Koha/issues/668)
   * Vaskin tekstiviesteissä ei näy vieraat kirjaimet
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-31-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 30 muistiot
 
 ### Maanantai 24.7.2023 klo 10
@@ -63,6 +65,7 @@ Läsnä: Anneli ja Lasse
 
 * Siilissä ssh connection warning: Failed to fetch keys for xxx from remote (KSMessaging) su 23.7.2023
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-30-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 29 muistiot
 
@@ -82,7 +85,9 @@ Läsnä: Anneli, Lasse
   * OUTIn kohdalla syy saattoi olla Annelin kysely message_queue-tauluun, Vaskin osalta Mikko testaili Ilmoitukset-välilehden hitautta ja joutui tappamaan selaimen prosessin. Ei varmuutta, johtuiko käyttökatko juuri noista, mutta osuvat ajallisesti samoihin aikoihin.
 * Ei päivitystä
 * asiakasvarmenteiden jakelu siirtyy vkolta 30 seuraavalle viikolle, kun paikalla on henkilöitä, joilla on pääsy palomuurille.
- 
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-29-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 28 muistiot
 
 ### Maanantai 10.7.2023 klo 10
@@ -94,7 +99,10 @@ Läsnä: Anneli, Lari ja Lassi
   * [Palautuskuittiin ei tule palautettujen lainojen tietoja, jos laina- ja palautuskirjasto ovat erit #449](https://github.com/KohaSuomi/Koha/issues/449)
   * [Listan kautta tietueiden erämuokkaus](https://github.com/KohaSuomi/Koha/issues/574)
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-28-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 27 muistiot
+
 ### Torstai 6.7.2023 klo 10
 
 Läsnä: Lasse, Lari, Kodo, Emmi
@@ -117,7 +125,10 @@ Läsnä: Lasse, Lari, Kodo, Emmi
 * Käytiin läpi laskutustyökalun käyttöönotto
   * lisätään ohjeistusta vielä työkalun [wikiin](https://github.com/KohaSuomi/koha-plugin-overdue-tool/wiki)  
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-27-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 26 muistiot
+
 ### Torstai 29.6.2023 klo 10
 
 Läsnä: Emmi, Kodo, Lasse
@@ -139,7 +150,10 @@ Läsnä: Emmi, Kodo, Lasse
 
 * Tilastointi-plugin käyttää nyt deleted_on-saraketta poistoissa. Jos sarake on tyhjä, käytetään timestamp-saraketta.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-26-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 25 muistiot
+
 ### Torstai 22.6.2023 klo 10
 
 Läsnä: Lasse, Emmi, Kodo, Lari, Ari
@@ -184,6 +198,8 @@ Läsnä: Lasse, Emmi, Kodo, Lari
 * Kohan oma lokitus puutteellista, Kodo tutkii
 
 * Parilta kimpalta vielä tekemättä ajo jolla kopioidaan asiakkaan puhelinnumero smsalertnumberista mobileen
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-25-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 24 muistiot
 
@@ -249,6 +265,8 @@ Läsnä: Emmi, Pasi, Ari, Lasse, Lari, Kodo
 * Tiistain päivitys
   * Vaara: SIP-viesteissä tulee mukaan PA-kenttä, laitetaan vähitelle myös muille kimpoille
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-24-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 23 muistiot
 
 ### Torstai 8.6.2023 klo 10
@@ -279,6 +297,8 @@ Läsnä: Pasi, Ari, Lasse, Lari, Kodo
 Läsnä: Emmi, Pasi, Ari, Lasse, Lari, Kodo
 
 * [Seuraava yhteisön kehittäjien irc-tapaaminen 7.6.2023](https://wiki.koha-community.org/wiki/Development_IRC_meeting_7_June_2023)
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-23-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 22 muistiot
 
@@ -356,6 +376,7 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
     * [Käännösvirhe taustatyön tiedot -sivulla #11](https://github.com/KohaSuomi/Koha-translations/issues/11)
   * [Taustatöissä hitautta](https://github.com/KohaSuomi/Koha/issues/582)
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-22-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 21 muistiot
 
@@ -385,6 +406,8 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Lasse, Lari, Kodo
 
 * [tutkitaan, saako Print summary -tulosteen siirrettyä viestipohjiin.](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=11340)
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-21-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 20 muistiot
 
 ### Perjantai 19.5.2023 klo 10
@@ -406,6 +429,8 @@ Läsnä: Anneli, Emmi, Ville, Pasi, Ari, Lasse, Lari, Kodo
   * Päätös: next
 
 * Emmi ja Kodo aloittaa päivityksen ma-iltana klo 10.
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-20-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 19 muistiot
 
@@ -443,6 +468,8 @@ Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo, Pasi
 * versionvaihdon tilanne
 * käännökset?
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-19-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 18 muistiot
 
 ### Torstai 4.5.2023 klo 10
@@ -469,6 +496,8 @@ Läsnä: Anneli, Lasse, Lari, Ari, Emmi, Ville, Kodo
 * [Z39.50-haku tiputtaa 001-kentästä BTJ:n kontrollinumeron pois](https://github.com/KohaSuomi/Koha-22x/issues/171)
   * Pääkäyttäjäpalsussa päätettiin, että otetaan käyttöön vanha 001-liitännäinen järjestelmäasetuksen tilalle.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-18-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 17 muistiot
 
 ### Torstai 27.4.2023 klo 10
@@ -488,6 +517,8 @@ Läsnä: Anneli, Emmi, Lasse, Pasi, Lari, Kodo, Ville
   * Arvioitiin versionvaihdon aikataulua.
 
 * Käytiin suppeasti läpi Kirkes-kimpan tietoturvavaikutusten arviointiraportti.
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-17-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 16 muistiot
 
@@ -530,6 +561,7 @@ Läsnä: Emmi, Kodo, Lari, Lasse, Pasi, Ville
 * Patet olleet pois päältä viikonlopun Suomi.fi-huoltokatkon vuoksi
   * Sovittu viikon 14 palaverissa, mutta tarkoitus oli poistaa käytöstä ainoastaan suomi.fi -viestit, nyt pois päältä oli suomi.fi:n lisäksi myös kirjeviestintä. Ei kuitenkaan vahinkoa tapahtunut, koska kusti ei kuitenkaan polje viikonloppuna. Viikonloppuna muodostuneet kirjeet lähtevät maanantaina.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-16-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 15 muistiot
 
@@ -553,6 +585,7 @@ Läsnä: Anneli, Ari, Emmi, Kodo, Lari, Lasse, Pasi, Ville
 * Kontrollerin vaihto keskiviikkona vaikuttaa suunniteltuihin tietokanta-ajoihin.
   * Emmi tekee old_issues-taulun ajon ti-ke yönä, koska niissä menee kauimmin aikaa, eikä ole varmuutta, että ne valmistuvat 8.30 mennessä, jolloin kontrollerin vaihto alkaa.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-15-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 14 muistiot
 
@@ -589,6 +622,8 @@ Läsnä: Anneli, Lari, Emmi, Ville, Pasi, Lasse, Kodo
   * muista sulkea tiketti, kun piikissäsi oleva tiketti on saanut 2-3 hyväksyvää testausta.
 
 * kerrattiin parin viikon aikana tulleet ongelmat ja tapahtumat
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-14-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 13 muistiot
 
@@ -629,6 +664,8 @@ Läsnä: Anneli, Emmi, Ari, Lari, Pasi, Lasse
 * Ke klinikka, ketkä mukana?
   * Ari, Anneli ja Lari
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-13-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 12 muistiot
 
 ### Torstai 23.3. klo 10
@@ -662,6 +699,8 @@ __Aiheita__
 * Harjoittelija Mikkeliin 3.4.-31.5.2023
 
 * Käännökset - käsitellään erillisessä palaverissa.
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-12-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 11 muistiot
 
@@ -702,6 +741,8 @@ __Aiheita__
   * SIP, Plack, Memcached, Apache, Elastictmpfs
   * Luovutaanko erillisistä initeistä/systemd-uniteista ja hoidetaan startit ja stopit vastaisuudessa tällä yhdellä hallintaskriptillä rc.localista?
   * Tällä hetkellä mukana on myös service-checkin toiminnallisuus, mutta se tuntuu istuvan skriptiin vähän huonosti, joten riisuttanee pois.
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-11-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 10 muistiot
 
@@ -751,6 +792,8 @@ __Aiheita__
   * pääkäyttäjät käyvät läpi, mitä tauluja pitäisi mahdollisesti kopioida versionpäivityksen aikaan
 
 * Versiopäivityksen ja Tikettien seurannan tikettien vastuutus.
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-10-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 9 muistiot
 
@@ -830,6 +873,8 @@ __Aiheita__
 
 * Finna-rajapinta ja asiakasmääre
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-9-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 8 muistiot
 
 ### Torstai 23.2.2023 klo 10
@@ -892,6 +937,8 @@ __Aiheita__
 * translations
   * repo kiinni, tiketit Kohan alle -> Anneli siirtää
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-8-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 7 muistiot
 
 ### Torstai 16.2.2023 klo 10
@@ -941,6 +988,8 @@ __Aiheita__
   * vaara-next ensin
 
 * skeeman rakentelu toimii
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-7-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 6 muistiot
 
@@ -1003,6 +1052,8 @@ __Aiheita__
 
 * Jokainen käy assignaamassa itselle [versionvaihdon tiketeistä](https://github.com/KohaSuomi/Koha-22x/issues?page=1&q=is%3Aissue+is%3Aopen) ne, jotka on hoitanut edellisessä versionvaihdossa ja katsotaan sitten, mitä jää jäljelle ja sovitaan niille vastuuhenkilö.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-6-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 5 muistiot
 
 ### Torstai 2.2.2023
@@ -1047,6 +1098,8 @@ __Aiheita__
   * Vko 7 Lari ja Anneli
   * Vko 8 Lasse ja Emmi
   * Vko 9 Pasi ja Kodo
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-5-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 4 muistio
 
@@ -1097,6 +1150,8 @@ __Aiheita__
   * yritetään toteuttaa ilman käyttökatkoa
   * jatketaan pohdintoja torstain palaverissa
 * Sanaston raporteissa meni 16 tuntia ajaessa
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-4-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 3 muistiot
 
@@ -1178,6 +1233,8 @@ INSERT INTO action_logs (SELECT * from work_action_logs WHERE DATE(timestamp) >=
 
 * Sanasto-raportin muutos toimimaan nykyisessä versiossa ei olekaan niin helppo kuin alunperin ajateltiin.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-3-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 2 muistiot
 
 ### Torstai 12.1.2023 klo 10
@@ -1237,6 +1294,8 @@ __Aiheita__
 13. Laitetaan asiakasviestintä takaisin käyttöön.
 14. Nostellaan testikontit ja Redmine takaisin kunhan ehditään.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-2-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 1 muistiot
 
 ### Torstai 5.1.2023 klo 10
@@ -1278,3 +1337,5 @@ __Aiheita__
 * Versionvaihto
   * viedään ensin Vaski, jotta nähdään, kuinka kauan maksimissaan menee.
   * kaikille läksyksi miettiä torstain palaveriin mennessä, miten saadaan vähennettyä testikantaan vietävän datan määrää, jotta testikantojen luonti ei vie niin kauan.
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-1-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
