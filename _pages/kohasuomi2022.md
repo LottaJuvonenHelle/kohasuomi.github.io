@@ -36,7 +36,7 @@ Läsnä: Anneli, Pasi, Ari, Kodo, Lasse, Emmi, Lari
 * Vaskissa oli viikolla 51 kaksi kertaa katkos ti-ke. Katkos todennäköisesti johtui siitä, että yhtä raskasta kyselyä ajoi yhtä aikaa useampi henkilö.
   * altdbh:ta ei ilmeisesti ole portattu nykyiseen versioon, eli raportit ajetaan masterissa eikä slavessa.
 
-* Muistiot viikosta 1 lähtien [githubissa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/_pages/kohasuomi23.md) eli [Koha-Suomen sivuilla](https://koha-suomi.fi/kohasuomi23]
+* Muistiot viikosta 1 lähtien [githubissa](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/_pages/kohasuomi23.md) eli [Koha-Suomen sivuilla](https://koha-suomi.fi/kohasuomi23)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/kohasuomi2022#viikon-52-muistio)  [Palaa sivun alkuun](/kohasuomi2022)
 
