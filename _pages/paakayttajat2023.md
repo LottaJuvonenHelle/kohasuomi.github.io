@@ -18,6 +18,10 @@ Läsnä:
 **Yhteiset asiat**
 
 * [Kausijulkaisujen vastaanottopäivän piilottaminen perustiedot-näytöltä](https://github.com/KohaSuomi/Koha/issues/544#)?
+* Tällä viikolla ei ole päivitystä eikä huoltokatkoa
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-32-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 31 muistio
 
