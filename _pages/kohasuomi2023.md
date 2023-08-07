@@ -13,6 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 32 muistiot
+
+### Manantai 7.8.2023
+
+Läsnä:
+
+**Aiheet**
+
+* Vkon 32 päivitys
+* Oulussa ja Turussa tällä viikolla tilastodata-palaverit, pitäiskö Kodon osallistua kumpaankin?
+  * Oulun 9.8. klo 9, Turun 11.8. klo 12 
+
 ## Viikon 31 muistiot
 
 
