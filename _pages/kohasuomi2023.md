@@ -24,6 +24,8 @@ Läsnä:
 * Vkon 32 päivitys
 * Oulussa ja Turussa tällä viikolla tilastodata-palaverit, pitäiskö Kodon osallistua kumpaankin?
   * Oulun 9.8. klo 9, Turun 11.8. klo 12 
+* liitännäisten dokumentaatiot - readme vai wiki?
+
 
 ## Viikon 31 muistiot
 
