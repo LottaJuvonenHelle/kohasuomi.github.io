@@ -15,18 +15,23 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 32 muistiot
 
-### Manantai 7.8.2023
+### Maanantai 7.8.2023
 
-Läsnä:
+Läsnä: Anneli, Lari, Ari, Kodo, Pasi, Lasse, Emmi
 
 **Aiheet**
 
 * Vkon 32 päivitys
+  * ei päivitettävää
 * Oulussa ja Turussa tällä viikolla tilastodata-palaverit, pitäiskö Kodon osallistua kumpaankin?
-  * Oulun 9.8. klo 9, Turun 11.8. klo 12 
+  * Oulun 9.8. klo 9, Turun 11.8. klo 12
+  * Emmi ja Lari ja Kodo + Anneli
 * liitännäisten dokumentaatiot - readme vai wiki?
+  * kehittäjien dokumentaatio Readmehin ja pääkäyttäjien dokumentaatio wikiin.
 * onko säännöllistä huoltokatkoa 9.8.?
+  * ei ole huoltokatkoa
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-32-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 31 muistiot
 
