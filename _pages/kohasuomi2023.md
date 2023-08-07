@@ -25,6 +25,7 @@ Läsnä:
 * Oulussa ja Turussa tällä viikolla tilastodata-palaverit, pitäiskö Kodon osallistua kumpaankin?
   * Oulun 9.8. klo 9, Turun 11.8. klo 12 
 * liitännäisten dokumentaatiot - readme vai wiki?
+* onko säännöllistä huoltokatkoa 9.8.?
 
 
 ## Viikon 31 muistiot
