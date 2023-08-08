@@ -22,6 +22,7 @@ Läsnä:
 **Aiheet**
 
 * Voiko tuoda meille korjauksen [tikettiin 630?](https://github.com/KohaSuomi/Koha/issues/630)
+* Message_queue-taulun lukot: vaihtoehtoinen toteutus? Lukkototeutus lisätty digest-viestejä varten: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15854
 
 
 ### Maanantai 7.8.2023
