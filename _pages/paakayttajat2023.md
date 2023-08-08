@@ -20,6 +20,7 @@ Läsnä:
 * [Kausijulkaisujen vastaanottopäivän piilottaminen perustiedot-näytöltä](https://github.com/KohaSuomi/Koha/issues/544#)?
 * Tällä viikolla ei ole päivitystä eikä huoltokatkoa
 * Pääkäyttäjien ja Koha-Suomen vuoden 2022 -muistiot siirretty
+* KohaCon viikolla 33, joten ei pidetä palaveria.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-32-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
