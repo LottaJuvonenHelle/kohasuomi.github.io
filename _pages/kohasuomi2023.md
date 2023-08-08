@@ -15,6 +15,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 32 muistiot
 
+### Torstai 10.8.2023
+
+Läsnä:
+
+**Aiheet**
+
+* Voiko tuoda meille korjauksen [tikettiin 630?](https://github.com/KohaSuomi/Koha/issues/630)
+
+
 ### Maanantai 7.8.2023
 
 Läsnä: Anneli, Lari, Ari, Kodo, Pasi, Lasse, Emmi
