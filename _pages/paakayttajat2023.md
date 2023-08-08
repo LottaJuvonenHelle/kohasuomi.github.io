@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32 muistio
 
 Aika: 8.8.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset asiat**
 
@@ -21,6 +21,9 @@ Läsnä:
 * Tällä viikolla ei ole päivitystä eikä huoltokatkoa
 * Pääkäyttäjien ja Koha-Suomen vuoden 2022 -muistiot siirretty
 * KohaCon viikolla 33, joten ei pidetä palaveria.
+
+**Vaara**
+* Vaarassa tapahtuu toisinaan tilanteita, jossa Koha vaatii uudelleenkirjautumista. Muut tilanteet ovat tapahtuneet yleensä lainaustilanteessa, esim. jokaisen lainatun kirjan jälkeen jollakin asiakkaalla. Mulla oli tilanne, jossa piti muokata asiakkaan tietoja ja yhtäkkiä Koha vaati kirjautumista. Tästä ei ole saatu vielä kuvakaappausta, joten tarkka sanamuoto ei ole muistissa. Tehdään asiasta tiketti, kunhan saadaan kuvakaappaus.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-32-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
