@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32 muistio
 
 Aika: 8.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Anni Rajala (Vaski)
 
 **Yhteiset asiat**
 
@@ -29,6 +29,10 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa 
 * OUTIa on viime aikoina vaivanneet Koha-jumit aamusta n. klo 9.35-9.38. Jumeja on tullut lähes viikoittain, 1-2 krt/viikko. Ongelmaa on tutkittu ja epäilyksenä on, voisiko jumit aiheutua aamullisten viestien lähetyksistä, joita on OUTIssa paljon. Viestien lähetykset on jaettu nyt 1000 viestin eriin, josko auttaisi ongelmaan.
 * Finna-tuesta on tullut vastauspostia asiakkaan Finna-tilin s-postiosoitteen päivittymisestä, josta olemme laittaneet useamman palautteen Finna-tukeen. Eli tällä hetkellä, jos Kohassa muutetaan tai poistetaan asiakkaan s-postiosoite tai jos asiakas itse tekee sen Finnassa, tieto ei päivity Finnaan asiakkaan Omat tiedot -sivun alareunassa olevaan Finna-tilin asetukset sähköpostikenttään. Tämän kentän s-postiosoitetta käytetään mm. verkkomaksukuitin lähetykseen ja unohtuneen salasanan palauttamiseen. Ilmeisesti korjaus olisi helppo toteuttaa, mutta sitä ei ole ainakaan vielä tehty.
 * Yhdelle asiakkaalle tulee aina virheilmoitus ”System error 98”, kun hänen maksuja yrittää lähettää Kohasta Ceeposiin. Muilla asiakkailla ei ole vastaavaa ongelmaa. Kohan päästä ongelmalle ei ole löydetty syytä. Asiaa kysytty myös CPU:lta, näkisivätkö Ceeposin lokilta, mikä ongelman voisi aiheuttaa. (https://github.com/KohaSuomi/Koha/issues/715)
+
+**Vaski**
+* Uusi pääkäyttäjä Iina Niemi aloittanut.
+* Kuitti- ja ilmoituspohjia ryhdytty siistimään ja hyödyntämään niissä enemmän Template toolkitiä.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-32-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
