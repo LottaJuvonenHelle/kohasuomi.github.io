@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32 muistio
 
 Aika: 8.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Anni Rajala (Vaski)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Anni Rajala (Vaski), Tuomas Kunttu (Kyyti)
 
 **Yhteiset asiat**
 
@@ -34,6 +34,8 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa 
 * Uusi pääkäyttäjä Iina Niemi aloittanut.
 * Kuitti- ja ilmoituspohjia ryhdytty siistimään ja hyödyntämään niissä enemmän Template toolkitiä.
 
+**Kyyti**
+* Kyytissä huomattu, että nidevaraus ei estäny uusimista. Selvisi, että Kyse on tiketin [#630](https://github.com/KohaSuomi/Koha/issues/630) ongelmasta. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-32-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
