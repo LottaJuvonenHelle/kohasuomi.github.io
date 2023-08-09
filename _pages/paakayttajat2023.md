@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 32 muistio
 
 Aika: 8.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Anni Rajala (Vaski), Tuomas Kunttu (Kyyti), Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Anni Rajala (Vaski), Tuomas Kunttu (Kyyti), Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat**
 
@@ -39,6 +39,10 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa 
 
 **Lappi**
 * Perusylläpitoa. Rauhallista ollut.
+
+**Lumme**
+* Perusylläpitoa.
+* Virhe 500 esiintyy edelleen perustoimintojen yhteydessä. Asiaa selvitellään.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-32-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
