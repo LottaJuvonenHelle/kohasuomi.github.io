@@ -24,7 +24,9 @@ Läsnä:
 * Voiko tuoda meille korjauksen [tikettiin 630?](https://github.com/KohaSuomi/Koha/issues/630)
 * Message_queue-taulun lukot: vaihtoehtoinen toteutus? Lukkototeutus lisätty digest-viestejä varten: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15854
 * [Niteiden muokkaukseen/lisäykseen nidetyypin automaattinen valinta #336](https://github.com/KohaSuomi/Koha/issues/336) - toteutetaanko plugarina vai value builderina?
-* [Kausijulkaisujen numeroinnin järjesteäytyminen #544](https://github.com/KohaSuomi/Koha/issues/544), korjaus ei toimi ilman templatemuutosta. Kannattaako tehdä paikallisesti ja mennäänkö kauemmaksi yhteisökoodista?
+* [Kausijulkaisujen numeroinnin järjestäytyminen #544](https://github.com/KohaSuomi/Koha/issues/544), korjaus ei toimi ilman templatemuutosta. Kannattaako tehdä paikallisesti ja mennäänkö kauemmaksi yhteisökoodista?
+* JSON Reports -palvelu
+
 
 ### Maanantai 7.8.2023
 
