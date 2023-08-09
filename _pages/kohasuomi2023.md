@@ -27,7 +27,7 @@ Läsnä:
 * [Kausijulkaisujen numeroinnin järjestäytyminen #544](https://github.com/KohaSuomi/Koha/issues/544), korjaus ei toimi ilman templatemuutosta. Kannattaako tehdä paikallisesti ja mennäänkö kauemmaksi yhteisökoodista?
 * JSON Reports -palvelu
 * Pitäiskö ens viikosta tehdä jokin tiedote Discussionsiin?
-
+* Kansalliskirjastosta tuli tiedote: Melindan REST-API päivitetään viikolla 32, tämä saattaa aiheuttaa huoltokatkoja.
 
 ### Maanantai 7.8.2023
 
