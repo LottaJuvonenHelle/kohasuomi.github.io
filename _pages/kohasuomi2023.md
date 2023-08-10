@@ -22,10 +22,18 @@ Läsnä:
 **Aiheet**
 
 * Voiko tuoda meille korjauksen [tikettiin 630?](https://github.com/KohaSuomi/Koha/issues/630)
-* Message_queue-taulun lukot: vaihtoehtoinen toteutus? Lukkototeutus lisätty digest-viestejä varten: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15854
+  * Tuodaan
+* Message_queue-taulun lukot: vaihtoehtoinen toteutus? [Lukkototeutus lisätty digest-viestejä varten](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15854)
+  * yritetään keskustella ongelmasta KohaConissa
 * [Niteiden muokkaukseen/lisäykseen nidetyypin automaattinen valinta #336](https://github.com/KohaSuomi/Koha/issues/336) - toteutetaanko plugarina vai value builderina?
+  * Emmi työstänyt value builderina
+  * puretaan editx:stä viime vuonna (?) tehty ratkaisu hyllypaikan valintaan
 * [Kausijulkaisujen numeroinnin järjestäytyminen #544](https://github.com/KohaSuomi/Koha/issues/544), korjaus ei toimi ilman templatemuutosta. Kannattaako tehdä paikallisesti ja mennäänkö kauemmaksi yhteisökoodista?
+  * järjestämistä ei saada virheettömästi toimimaan ilman julkaisupäivämäärää, koska kenttä ei ole numeerinen.
+  * ei mielellään template-muutoksia, varsinkaan kun ongelma johtuu puuttellisesta datasta
+  * ratkaisu: kaikki käyttää kausijulkaisujen vastaanottoa ja julkaisu-kenttään laitetaan vastaanottopäivä (reklamoiduilla, jälkikäteen tulleilla julkaisupäivä)
 * JSON Reports -palvelu
+  * keskusteltiin JSON Reportista ja tutkitaan asiaa lisää.
 * Pitäiskö ens viikosta tehdä jokin tiedote Discussionsiin?
 * Kansalliskirjastosta tuli tiedote: Melindan REST-API päivitetään viikolla 32, tämä saattaa aiheuttaa huoltokatkoja.
 * Suomi.fi-viesteissä tehdään huoltotöitä lauantaina 26.8.2023 klo 8.00–22.00. Tarkempi viesti suomi.fi-lootassa.
