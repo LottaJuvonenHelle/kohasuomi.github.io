@@ -28,6 +28,7 @@ Läsnä:
 * JSON Reports -palvelu
 * Pitäiskö ens viikosta tehdä jokin tiedote Discussionsiin?
 * Kansalliskirjastosta tuli tiedote: Melindan REST-API päivitetään viikolla 32, tämä saattaa aiheuttaa huoltokatkoja.
+* Suomi.fi-viesteissä tehdään huoltotöitä lauantaina 26.8.2023 klo 8.00–22.00. Tarkempi viesti suomi.fi-lootassa.
 
 ### Maanantai 7.8.2023
 
