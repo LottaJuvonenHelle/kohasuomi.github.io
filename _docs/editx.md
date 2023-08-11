@@ -37,6 +37,8 @@ AIK = Aikuisten hyllypaikka<br />
 
 *Lisähuomioitavaa:* Kirjaston lyhenteeseen pitää ottaa mukaan koko kirjaston lyhenne eli se, mikä on tallennettu Kohan ylläpidossa kirjastolle lyhenteeksi. Jos lyhenne on kaksiosainen, pitää koko tunnus ottaa mukaan, esim. JOE_ENO tai MLI_ANT.
 
+*Kolmas huomioitava:* Jos tekee esim. alitilejä, niin tilikoodi ei saa olla sama kuin emotilin. Koha antaa tehdä samalla tilikoodilla olevia tilejä, mutta rajapinta ei osaa käsitellä tilauksia oikein, jos tilejä on useampi samalla tilikoodilla.
+
 ![](/assets/files/docs/Ohjeet/kirjastojahyllypaikka.png)
 
 Tilien luonnissa on mahdollista tehdä
