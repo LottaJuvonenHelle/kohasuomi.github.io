@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 
 * [Tiketti #336](https://github.com/KohaSuomi/Koha/issues/336) - brainstorming
+* [Tiketti #725](https://github.com/KohaSuomi/Koha/issues/725) keskusteluun
 
 ## Viikko 32 muistio
 
