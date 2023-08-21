@@ -20,6 +20,9 @@ Läsnä:
 * [Tiketti #336](https://github.com/KohaSuomi/Koha/issues/336) - brainstorming
 * [Tiketti #725](https://github.com/KohaSuomi/Koha/issues/725) keskusteluun
 * [Finna-kehitysehdotus #4](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/4) - voidaanko viedä kehitysehdotus eteenpäin Finna-toimistolle, tuleeko mieleen jotain lisättävää?
+* [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/729)
+* Nextit saadaan käytännössä työn alle vasta seuraavan huoltokatkon jälkeen, koska edustapalvelimelle pitää ensin tehdä asetusmuutos, joka vaatii konttien uudelleenkäynnistyksen -> käyttökatkos. Liittyy tikettiin #728
+  * Uusi [Koha-23x-repositorio](https://github.com/KohaSuomi/Koha-23x) on jo luotu ja sinne kerätään taas uudempaan version liittyvää materiaalia.
 
 ## Viikko 32 muistio
 
