@@ -15,11 +15,20 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 34 muistiot
 
-Läsnä:
+Läsnä: Anneli, Pasi, Emmi, Lari, Lasse, Kodo
 
 * Tulevaisuus-workshopin kuulumiset?
 * Viikon 34 päivitys?
+  * Lari tekee ma-iltana
+  * Anneli kirjoittaa tiedotteen
 * Nextit
+  * jouduttaneen odottamaan seuraavaan huoltokatkoon, jotta saadaan ensin nostettua file handlejen määrää
+  * valmistellaan sitä odotellessa omilla koneilla 
+* Lari hoitaa triggerit ja ruksien poistot projektina:
+  * puhelinnumeron kopioiva triggeri kaikille ensin päivitys
+  * ajo, että numero on sekä mobilessä että smsalertnumberissa
+  * ajo, jolla vieksiruksit pois niiltä, joilla ei ole smsalertnumberia
+  * ruksien poistavat intranetuserjs-rimpsu kaikille
 
 ## Viikon 32 muistiot
 
