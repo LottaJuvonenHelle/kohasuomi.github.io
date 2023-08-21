@@ -19,6 +19,7 @@ Läsnä:
 
 * [Tiketti #336](https://github.com/KohaSuomi/Koha/issues/336) - brainstorming
 * [Tiketti #725](https://github.com/KohaSuomi/Koha/issues/725) keskusteluun
+* [Finna-kehitysehdotus #4](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/4) - voidaanko viedä kehitysehdotus eteenpäin Finna-toimistolle, tuleeko mieleen jotain lisättävää?
 
 ## Viikko 32 muistio
 
