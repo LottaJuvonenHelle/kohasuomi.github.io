@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viiko 34 muistio
 
 Aika: 22.8.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat**
 
@@ -30,6 +30,19 @@ Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi)
   * Liittyy tiketteihin [Vaskin ilmoitusvälilehtiongelma tiketti 691](https://github.com/KohaSuomi/Koha/issues/691) ja [OUTIn ongelmat tiketissä 711](https://github.com/KohaSuomi/Koha/issues/711)
 
 Etelästä pohjoiseen
+
+**OUTI**
+* Luetteloinnista tullut palautetta, että paikalliskantojen ja TäTin kuvailupohjat pitäisi päivittää uusimman MARC21-päivityksen mukaisiksi.
+  * Formaattia on päivitetty viimeksi 15.6.2023.
+  * OUTIsta puuttuu kolme viimeisintä päivitystä. Edellinen onnistunut päivitys on kesäkuulta 2021.
+  * Tiketissä https://github.com/KohaSuomi/Koha/issues/256 on ilmoitettu, että pohjat päivittyisivät kerran kuukaudessa 1.1.2023 alkaen. Ilmeisesti automaattinen päivitys ei toimi?
+* Asiakaspalvelusta tuli ihmettelyä, kun asiakas oli saanut kolmelle lyhytlainalle laina-ajaksi vain kuluvan päivän, jolloin lainat oli lainattu. Yhdelle neljän viikon lainalle oli tullut normaali laina-aika.
+  * Lainausaika oli ajalla, jolloin OUTIssa oli ollut Koha-jumi, joten lainat oli lainattu Kohan offlinella.
+  * Lokien mukaan lainat oli uusittu saman minuutin sisällä, kun ensilainaus oli tapahtunut eli kun lainat oli siirretty Kohaan.
+  * Testasimme lainojen vientiä useamman kerran Kohaan, jolloin Koha tulkitsi uudelleen viennit lainojen uusinnoiksi.
+  * Koska lyhytlainat eivät ole uusittavia, Koha antoi eräpäiväksi vain kuluvan päivän.
+  * Olemme ohjeistaneet henkilökuntaa, että kirjastoissa jos useampi käyttää offline-lainausta yhtä aikaa, vain yksi siirtää kaikki lainat Kohaan.
+
 
 
 
