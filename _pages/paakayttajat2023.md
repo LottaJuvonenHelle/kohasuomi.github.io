@@ -10,22 +10,30 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 34 muistio
+## Viiko 34 muistio
 
 Aika: 22.8.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi)
 
-**Yhteiset**
+**Yhteiset asiat**
 
 * [Tiketti #336](https://github.com/KohaSuomi/Koha/issues/336) - brainstorming
+  * kirjattiin tikettiin stormauksen tulos
 * [Tiketti #725](https://github.com/KohaSuomi/Koha/issues/725) keskusteluun
+  * kirjattiin tikettiin muutos tekstiin.
 * [Finna-kehitysehdotus #4](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/4) - voidaanko viedä kehitysehdotus eteenpäin Finna-toimistolle, tuleeko mieleen jotain lisättävää?
+  * Vaski voi lähettää ehdotuksen eteenpäin.
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/729)
 * Nextit saadaan käytännössä työn alle vasta seuraavan huoltokatkon jälkeen, koska edustapalvelimelle pitää ensin tehdä asetusmuutos, joka vaatii konttien uudelleenkäynnistyksen -> käyttökatkos. Liittyy tikettiin #728
   * Uusi [Koha-23x-repositorio](https://github.com/KohaSuomi/Koha-23x) on jo luotu ja sinne kerätään taas uudempaan version liittyvää materiaalia.
 * message_queue-taulua on siivottu OUTIssa, Vaskissa ja Vaarassa, koska varsinkin Vaskissa ja OUTIssa on ollut ongelmia viestien ison määrän kanssa. Aktiivisessa taulussa on 12 kk ja tällä hetkellä loput vuositauluissa. Tarkoituksena on yhdistää vuositaulut yhdeksi arkistotauluksi, kunhan saadaan tehtyä uusi skripti sitä varten. Arkistotaulun nimeksi tulee message_queue_archive.
-  * Liittyy tiketteihin https://github.com/KohaSuomi/Koha/issues/691 ja outi
+  * Liittyy tiketteihin [Vaskin ilmoitusvälilehtiongelma tiketti 691](https://github.com/KohaSuomi/Koha/issues/691) ja [OUTIn ongelmat tiketissä 711](https://github.com/KohaSuomi/Koha/issues/711)
 
+Etelästä pohjoiseen
+
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-34-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 32 muistio
 
