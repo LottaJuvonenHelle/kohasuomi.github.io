@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viiko 34 muistio
 
 Aika: 22.8.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Pia Kusmin ja Leena Kinnunen (Lappi)
+Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Pia Kusmin ja Leena Kinnunen (Lappi), Anni Rajala (Vaski)
 
 **Yhteiset asiat**
 
@@ -69,6 +69,12 @@ Etelästä pohjoiseen
 * Jos asiakastiedoissa on virhetilanne, esim. pakollinen takaajatieto puuttuu, Finna antaa virheilmoituksen Järjestelmä pois käytöstä. Finna ei osaa avata virheellistä asiakastietoa, mutta ilmoitus on kuiten aika harhaanjohtava. Pia tekee asiasta tiketin ja on yhteydessä Finna-tukeen asian korjaamiseksi.
 * Virolaiseen puhelinnumeroon ei ole mennyt viestit perille. Selvitetään. Vika ei ole Kohassa. Ja muihin ulkomaisiin numeroihin on mennyt viesit oikein.
 * Osakohteiden piilotus tietuenäytöltä. Pohdittu tiketin #615 vaihtoehtoja.
+
+**Vaski**
+* Vaskin varmenne vanheni tänä aamuna, vaihto sujunut hyvin ja yhteydenottoja Vaskitukeen on tullut vain pari.
+* Vajaa 4000 tietuetta ei ole indeksoitunut eikä löydy siten Kohan haulla [tiketti #727](https://github.com/KohaSuomi/Koha/issues/727). Emmi kokeilee auttaako uudelleenindeksointi.
+* Hyllyvarausten käsittelyä mietitään Vaskissa ja Turku Data City on ehdottanut erillistä sovellusta, joka tuottaisi kirjastoille kohdennetut hyllyvarauslistat. Toisaalta Kohassa on vastaavana Varausjono-toiminnallisuus, jossa on tosin aiemmissa testauksissa kimpat havainneet ongelmia. Vaski ottaa asian esille asiantuntijaryhmässä, mietittävä miten olisi järkevää edetä ja edistettäisiinkö asiaa yhteisesti Koha-Suomessa.
+* Viestipohjia päivitelty, muutettu noutomuistutus hyödyntämään asiakkaan kielivalintaa koska viestipohja ei tällä hetkellä käytä suomi/ruotsi/englanti-viestipohjia vaan pelkkää oletuspohjaa. Vaski lisäilee tekemänsä viestipohjat Koha-Suomen ohjeisiin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-34-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
