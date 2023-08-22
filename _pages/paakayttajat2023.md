@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viiko 34 muistio
 
 Aika: 22.8.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset asiat**
 
@@ -44,6 +44,12 @@ Etelästä pohjoiseen
   * Olemme ohjeistaneet henkilökuntaa, että kirjastoissa jos useampi käyttää offline-lainausta yhtä aikaa, vain yksi siirtää kaikki lainat Kohaan.
 
 
+**Vaara**
+* Palautusautomaatti Joensuun pääkirjastossa temppuilee taas. Nyt ei saa yhteyttä admin-koneeseen eli näytölle ei tule palautukset näkyviin. Kahdesta palautuspisteestä vain toinen toimii tällä hetkellä.
+* Erään asiakkaan maksujen kohdalla havaittiin ongelma, joka on alkanut jo versionvaihdosta. CalculateFinesOnReturn oli laitettu nextillä testausta varten päälle ja oli sitten unohtunut siihen asentoon, kun asetukset tuotiin tuotantoon. 
+Tässä tapauksessa asiakas oli maksanut yöllä 18.8. Finnan kautta myöhästymismaksujaan ja kesken maksun oli ajautunut myös cron-ajo maksujen päivittämiseksi. Asiakkas palautti kirjat saman päivän aikana. Asiakas oli uusinut lainansa 10.8., jolloin siihen mennessä kertyneet maksut olivat päivittyneet hänelle ja 18.8. tuli maksuvaiheessa myös palautettaessa päivittyvä maksu. 
+Asiakkaan maksutapahtumien välilehdellä oli epäselvästi maksuja, joista osa oli hyvitetty (ilmeisesti automaattiseseti, kun asiakkaan tietoja tarkistettiin 18.8., koska virkailija ei ollut tehnyt mitään maksuille).
+Tämä siis varoituksena ja muistutuksena: ei saa olla päällä CalculateFinesOnReturn-asetus yhtä aikaa maksujen päivittämiscronin kanssa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-34-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
