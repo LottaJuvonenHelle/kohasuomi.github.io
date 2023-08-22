@@ -23,6 +23,9 @@ Läsnä:
 * [Viikon 34 päivitys](https://github.com/KohaSuomi/Koha/discussions/729)
 * Nextit saadaan käytännössä työn alle vasta seuraavan huoltokatkon jälkeen, koska edustapalvelimelle pitää ensin tehdä asetusmuutos, joka vaatii konttien uudelleenkäynnistyksen -> käyttökatkos. Liittyy tikettiin #728
   * Uusi [Koha-23x-repositorio](https://github.com/KohaSuomi/Koha-23x) on jo luotu ja sinne kerätään taas uudempaan version liittyvää materiaalia.
+* message_queue-taulua on siivottu OUTIssa, Vaskissa ja Vaarassa, koska varsinkin Vaskissa ja OUTIssa on ollut ongelmia viestien ison määrän kanssa. Aktiivisessa taulussa on 12 kk ja tällä hetkellä loput vuositauluissa. Tarkoituksena on yhdistää vuositaulut yhdeksi arkistotauluksi, kunhan saadaan tehtyä uusi skripti sitä varten. Arkistotaulun nimeksi tulee message_queue_archive.
+  * Liittyy tiketteihin https://github.com/KohaSuomi/Koha/issues/691 ja outi
+
 
 ## Viikko 32 muistio
 
