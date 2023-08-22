@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viiko 34 muistio
 
 Aika: 22.8.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti)
 
 **Yhteiset asiat**
 
@@ -51,6 +51,10 @@ Etelästä pohjoiseen
  * Asiakkaan maksutapahtumien välilehdellä oli epäselvästi maksuja, joista osa oli hyvitetty (ilmeisesti automaattiseseti, kun asiakkaan tietoja tarkistettiin 18.8., koska virkailija ei ollut tehnyt mitään maksuille).
  * Tämä siis varoituksena ja muistutuksena: ei saa olla päällä CalculateFinesOnReturn-asetus yhtä aikaa maksujen päivittämiscronin kanssa.
 
+**Kyyti**
+* Kyytissä nousevat myöhästymismaksut 1.9.2023, joten laina- ja maksusääntöjä pääsee taas käymään läpi.
+* Pari uutta nidetyyppiä perustettu, koska otamme käyttöön esineiden varaamisen siten, että noutokirjastoksi voi valita vain kotikirjaston.
+* Uuden varmenteen jakaminen henkilökunnalle on aloitettu.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-34-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
