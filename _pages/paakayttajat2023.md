@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viiko 34 muistio
 
 Aika: 22.8.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Pia Kusmin ja Leena Kinnunen (Lappi)
 
 **Yhteiset asiat**
 
@@ -64,6 +64,11 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Varmenteen jakelu ja asennukset aloitettu toistaiseksi ilman ongelmia
 * Verkkomaksaminen käyttöön 1.9. alkaen, testaus meni ilman ongelmia
+
+**Lappi**
+* Jos asiakastiedoissa on virhetilanne, esim. pakollinen takaajatieto puuttuu, Finna antaa virheilmoituksen Järjestelmä pois käytöstä. Finna ei osaa avata virheellistä asiakastietoa, mutta ilmoitus on kuiten aika harhaanjohtava. Pia tekee asiasta tiketin ja on yhteydessä Finna-tukeen asian korjaamiseksi.
+* Virolaiseen puhelinnumeroon ei ole mennyt viestit perille. Selvitetään. Vika ei ole Kohassa. Ja muihin ulkomaisiin numeroihin on mennyt viesit oikein.
+* Osakohteiden piilotus tietuenäytöltä. Pohdittu tiketin #615 vaihtoehtoja.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-34-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
