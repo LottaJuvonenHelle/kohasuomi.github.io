@@ -284,7 +284,7 @@ $(document).ready(function () {
   if (window.location.href.indexOf("members/memberentry.pl") > -1) {
     // Replace forms "Save" button 
     // (otherwise form is sent regardless validation checks made here) 
-    $('#pat_memberentrygen #saverecord').replaceWith('<button class="btn btn-default" id="modified_saverecord"><i class="fa fa-save"></i> Save</button>');
+    $('#pat_memberentrygen #saverecord').replaceWith('<button class="btn btn-primary" id="modified_saverecord"><i class="fa fa-save"></i> Save</button>');
 
     var isvalid = 1;
 
