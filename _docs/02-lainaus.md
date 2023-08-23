@@ -831,7 +831,10 @@ Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helpost
 
 **Lähetä lainat tietokantaan heti, kun Koha taas toimii.** Jos lähetät lainat tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
-Hyvä on huomioida, että samassa kirjastossa kaikki offlinella lainatut ja ladatut lainat näkyvät kaikille ko. kirjaston virkailijolle yhteydettömän tilan jonossa ennen kuin lainat on siirretty käsittelyyn. Suositeltavaa on, että kirjastossa vain yksi virkailija käsittelee eli siirtää lainat Kohaan. Jos samat lainat käsitellään (siirretään) Kohaan useamman kerran, Koha tulkitsee uudelleen lähetykset lainojen uusintoina ja asiakas menettää uusimiskertoja. Niteet, joitka eivät ole uusittavissa esim. Lyhytlainat, uudelleen lähetys muuttaa lainan eräpäiväki kuluvan päivän, jolloin lainat on käsitelty Kohaan.{: .notice--warning}   
+Hyvä on huomioida, että samassa kirjastossa kaikki offlinella lainatut ja ladatut lainat näkyvät kaikille ko. kirjaston virkailijolle yhteydettömän tilan jonossa ennen kuin lainat on siirretty käsittelyyn.
+{: .notice--warning}  
+Suositeltavaa on, että kirjastossa vain yksi virkailija käsittelee eli siirtää lainat Kohaan. Jos samat lainat käsitellään (siirretään) Kohaan useamman kerran, Koha tulkitsee uudelleen lähetykset lainojen uusintoina ja asiakas menettää uusimiskertoja. Niteet, joitka eivät ole uusittavissa esim. Lyhytlainat, uudelleen lähetys muuttaa lainan eräpäiväki kuluvan päivän, jolloin lainat on käsitelty Kohaan.
+{: .notice--warning}   
 
 - Kun yhteydet taas toimivat, kirjaudu Kohaan.
 - Lainaus ja palautus -sivulta valitse *Lähetä yhteydettömän tilan lainaustiedosto (*.koc)*.
