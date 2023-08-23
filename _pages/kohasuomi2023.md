@@ -13,6 +13,13 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 35 muistiot
+
+Läsnä:
+
+* Tärkeää olisi saada aineistotyyppi näkyviin tiettyihin raportteihin kätevästi. Pitäisi saada bibliodataelements-tauluun omaksi sarakkeekseen. Tällöin vältyttäisiin taulujen liitoksilta?
+
+
 ## Viikon 34 muistiot
 
 Läsnä: Anneli, Pasi, Emmi, Lari, Lasse, Kodo
