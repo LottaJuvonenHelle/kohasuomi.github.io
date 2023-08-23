@@ -831,6 +831,8 @@ Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helpost
 
 **Lähetä lainat tietokantaan heti, kun Koha taas toimii.** Jos lähetät lainat tietokantaan vasta päivän tai parin päästä, voi asiakkaalle kirjautua esim. aiheettomasti noutamattoman varauksen maksu, jos varattu aineisto lainataan viimesenä noutopäivänä Offline-lainauksella ja lainat siirretään Kohaan vasta seuraavana päivänä tai myöhemmin.
 
+Hyvä on huomioida, että samassa kirjastossa kaikki offlinella lainatut ja ladatut lainat näkyvät kaikille ko. kirjaston virkailijolle yhteydettömän tilan jonossa ennen kuin lainat on siirretty käsittelyyn. Suositeltavaa on, että kirjastossa vain yksi virkailija käsittelee eli siirtää lainat Kohaan. Jos samat lainat käsitellään (siirretään) Kohaan useamman kerran, Koha tulkitsee uudelleen lähetykset lainojen uusintoina ja asiakas menettää uusimiskertoja. Niteet, joitka eivät ole uusittavissa esim. Lyhytlainat, uudelleen lähetys muuttaa lainan eräpäiväki kuluvan päivän, jolloin lainat on käsitelty Kohaan.{: .notice--warning}   
+
 - Kun yhteydet taas toimivat, kirjaudu Kohaan.
 - Lainaus ja palautus -sivulta valitse *Lähetä yhteydettömän tilan lainaustiedosto (*.koc)*.
    
@@ -840,7 +842,7 @@ Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helpost
    
 ![](/assets/files/docs/Lainaus/OfflineKOClähetälainat.PNG)
 
-Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille temp-kansiossa.
+Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikille käyttäjille, jos tiedostot on tallennettu samaan kansioon.
 
 ![](/assets/files/docs/Lainaus/OfflineKOCtemptiedostot.PNG)
 
@@ -872,13 +874,9 @@ Eri käyttäjien tallennetut tiedostot näkyvät kukin omina tiedostoina kaikill
 
 - Ohjelma lähettää lainaustiedot Kohaan ja listaa lähetetyt tiedot näytölle.
 
-Huom! Samassa kirjastossa lainatut ja ladatut offline-lainat voivat näkyä kaikille ko. kirjaston virkailijoille ennen niiden käsittelyyn siirtämistä. Ne voivat näkyä "Odottavat yhteydettömän tilan toimet" -linkin takana tai siinä vaiheessa, kun lähetät yhteydettömän tilan lainaustiedoston (Lähetä yhteydettömän tilan lainaustiedosto (*.koc)) ja etenet kohtaan "Näytä käsittelyssä odottavat yhteydettömän tilan tapahtumat".
-
-Jos näytöllä näkyy myös muiden virkailijoiden lainaamat ja lataamat lainat, voit valita kaikki lainat käsittelyyn kerralla. Jos useampi virkailija siirtää samat ladatut lainat käsittelyyn, se ei haittaa. Lainat kirjautuvat asiakkaille vain kerran, eikä asiakkaalta mene esim. lainojen uusimiskertoja. 
-
 ![](/assets/files/docs/Lainaus/OfflineKOClähetetyt.PNG)
 
-Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä, eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja mahdollisesti käsitellä manuaalisesti.
+Listalta löytyvät mahdolliset virheet esim. jos asiakkaan tunnus tai lainatun niteen tunnus on jouduttu näppäilemään käsin ja on tullut näppäilyvirheitä, eikä tietoja löydy Kohasta. Tällöin listalla on vajaita lainatietorivejä (viivakoodi puuttuu tai kortin numero puuttuu). Vajaat lainatietorivit kannattaa tutkia ja käsitellä manuaalisesti.
 
 
 #### 2.19.1.3 Lähetettyjen tiedostojen poistaminen
@@ -892,6 +890,7 @@ Lopuksi tiedosto/tiedostot, johon Offline-lainat tallennettiin, pitää poistaa 
 
 Tiedosto(t) on poistettava koneelta kokonaan, jotta seuraavalla kerralla kun käytät Offline-lainausta, et vahigossa tallenna uusia lainoja vanhaan tiedostoon tai lähetä vanhaa tiedostoa uudestaan Kohaan.
 {: .notice--warning}
+
 
 
 ### 2.19.2 Koha Offline Circulation Tool (KOCT)
