@@ -833,7 +833,7 @@ Pidä mielessä mihin tallensit tiedoston, jotta löydät sen myöhemmin helpost
 
 Hyvä on huomioida, että samassa kirjastossa kaikki offlinella lainatut ja ladatut lainat näkyvät kaikille ko. kirjaston virkailijolle yhteydettömän tilan jonossa ennen kuin lainat on siirretty käsittelyyn.
 {: .notice--warning}  
-Suositeltavaa on, että kirjastossa vain yksi virkailija käsittelee eli siirtää lainat Kohaan. Jos samat lainat käsitellään (siirretään) Kohaan useamman kerran, Koha tulkitsee uudelleen lähetykset lainojen uusintoina ja asiakas menettää uusimiskertoja. Niteet, joitka eivät ole uusittavissa esim. Lyhytlainat, uudelleen lähetys muuttaa lainan eräpäiväki kuluvan päivän, jolloin lainat on käsitelty Kohaan.
+Suositeltavaa on, että kirjastossa vain yksi virkailija käsittelee eli siirtää kaikki lainat Kohaan. Jos samat lainat siirretään Kohaan useamman kerran, Koha tulkitsee uudelleen lähetykset lainojen uusintoina ja asiakas menettää uusimiskertoja. Niteet, joitka eivät ole uusittavissa esim. Lyhytlainat, uudelleen lähetys muuttaa lainan eräpäiväksi kuluvan päivän, jolloin lainat on siirretty Kohaan.
 {: .notice--warning}   
 
 - Kun yhteydet taas toimivat, kirjaudu Kohaan.
