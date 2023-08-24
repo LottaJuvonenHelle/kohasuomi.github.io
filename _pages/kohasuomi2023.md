@@ -25,13 +25,18 @@ Läsnä:
 
 ### Torstai 24.8.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Emmi, Kodo, Lari, Lasse, Pasi
 
 * Tärkeää olisi saada aineistotyyppi näkyviin tiettyihin raportteihin kätevästi. Pitäisi saada bibliodataelements-tauluun omaksi sarakkeekseen. Tällöin vältyttäisiin taulujen liitoksilta?
-* Tätistä Kirjastopalvelun tietueet Melindaan, mikä järkevin toimintatapa?
+  * todettiin, että aineistotyyppi löytyy jo biblio_data_elements-taulusta
+  * Emmi tarkentaa dokumentaatiota ja lisää taulun tiedot sinne
+* Tätistä Kirjastopalvelun tietueet/päiväpaketi Melindaan, mikä järkevin toimintatapa?
   * OAI-PMH
-  * päiväpakettien välitys suoraan Melindalle?
+  * päiväpakettien välitys Kirjastopalvelulta suoraan Melindalle?
+    * Emmi kyselee Melinda-slackissa olisiko tämä mahdollinen toimintatapa, koska se olisi teknisesti kaikista yksinkertaisin tapa.
+    * jos paketit pitää sopimusteknisistä syistä tulla meidän kautta, niin myös me voisimme suorittaa välittämisen.
 * [Ilmoitukset-välilehden hitaus](https://github.com/KohaSuomi/Koha/issues/691#issuecomment-1689957259) - Mikon kommentti
+  * pyydettiin esimerkkiasiakkaan borrowernumber ja testaillaan
 
 ### Maanantai 21.8.2023 klo 10
 
