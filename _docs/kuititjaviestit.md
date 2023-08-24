@@ -29,7 +29,7 @@ Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
   p { font-family: arial; font-size: 12pt; }
 </style>
 
-<h1><<borrowers.othernames>></h1>
+<h1><<borrower-attribute:HOLDID>></h1>
 <h2>Viimeinen noutopäivä: <br />
 <<reserves.expirationdate>></h2><br />
 <h2 style="border: 2px solid; border-radius: 5px; padding-left: 5px; text-align: center; width: 198pt;">Muistathan lainata!</h2>
@@ -56,7 +56,7 @@ Noutokirjasto: <<reserves.branchcode>></p>
   p { font-family: arial; font-size: 12pt; }
 </style>
 
-<h1><<borrowers.othernames>></h1>
+<h1><<borrower-attribute:HOLDID>></h1>
 <h2>Last pickup date: <br />
 <<reserves.expirationdate>></h2><br />
 <h2 style="border: 2px solid; border-radius: 5px; padding-left: 5px; text-align: center; width: 198pt;">Remember to<br /> check out!</h2>
@@ -108,7 +108,7 @@ Tieto lisätään email-pohjaan.
 #### Suomeksi
 
 ```
-Asiakas: <<borrowers.othernames>>
+Asiakas: <<borrower-attribute:HOLDID>>
 
 Kirjastokorttisi voimassoloaika on päättymässä <<borrowers.dateexpiry>>.
 
@@ -123,7 +123,7 @@ www.outikirjastot.fi
 #### Englanniksi
 
 ```
-Customer: <<borrowers.othernames>>
+Customer: <<borrower-attribute:HOLDID>>>
 
 The validity period of your library card is ending <<borrowers.dateexpiry>>. 
 
@@ -506,7 +506,7 @@ www.outikirjastot.fi
 NOUTOILMOITUS                                        
 <<today>>
 
-Varaustunnuksesi on <<borrowers.othernames>>.
+Varaustunnuksesi on <<borrower-attribute:HOLDID>>.
 
 Varaamasi teos <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) on noudettavissa <<branches.branchname>>sta.
 
@@ -530,7 +530,7 @@ www.outikirjastot.fi
 Library pick-up notice 
 <<today>>
 
-Your library hold identifier is <<borrowers.othernames>>.
+Your library hold identifier is <<borrower-attribute:HOLDID>>.
 
 The item <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> / <<biblio.author>> (nide <<items.barcode>>) is waiting for pickup at <<branches.branchname>>.
 
@@ -558,7 +558,7 @@ E-kirjeeseen tulee osoitetiedot Paten toimintojen kautta, niitä ei määritetä
 NOUTOILMOITUS                                        
 <<today>>
 
-Varaustunnuksesi on <<borrowers.othernames>>.
+Varaustunnuksesi on <<borrower-attribute:HOLDID>>.
 
 Varaamasi teos <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) on noudettavissa <<branches.branchname>>sta.
 
@@ -580,7 +580,7 @@ www.outikirjastot.fi
 
 ```
 Your reservation is waiting for pickup. Your hold identifier is
-<<borrowers.othernames>>.
+<<borrower-attribute:HOLDID>>.
 
 Title: <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> / <<biblio.author>> (<<items.barcode>>) is waiting at <<branches.branchname>>.
 The last pick-up date is <<reserves.expirationdate>>.
@@ -600,13 +600,13 @@ www.outikirjastot.fi
 #### Suomeksi
 
 ```
-Varaustunnuksellasi <<borrowers.othernames>> on noudettavissa varaus <<biblio.title>> <<items.enumchron>> <<biblioitems.number>> (<<items.barcode>>)  <<branches.branchname>>sta <<reserves.expirationdate>> asti.
+Varaustunnuksellasi <<borrower-attribute:HOLDID>> on noudettavissa varaus <<biblio.title>> <<items.enumchron>> <<biblioitems.number>> (<<items.barcode>>)  <<branches.branchname>>sta <<reserves.expirationdate>> asti.
 ```
 
 #### Englanniksi
 
 ```
-Your hold identifier is <<borrowers.othernames>>. Your hold <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
+Your hold identifier is <<borrower-attribute:HOLDID>>. Your hold <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
 ```
 
 ## CHECKINSLIP eli palautuskuitti
