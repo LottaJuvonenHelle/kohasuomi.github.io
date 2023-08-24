@@ -31,7 +31,8 @@ Läsnä:
 * Tätistä Kirjastopalvelun tietueet Melindaan, mikä järkevin toimintatapa?
   * OAI-PMH
   * päiväpakettien välitys suoraan Melindalle?
-  * 
+* [Ilmoitukset-välilehden hitaus](https://github.com/KohaSuomi/Koha/issues/691#issuecomment-1689957259) - Mikon kommentti
+
 ### Maanantai 21.8.2023 klo 10
 
 Läsnä: Anneli, Pasi, Emmi, Lari, Lasse, Kodo
