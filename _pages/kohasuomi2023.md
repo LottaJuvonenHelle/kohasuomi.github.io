@@ -17,10 +17,22 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 Läsnä:
 
-* Tärkeää olisi saada aineistotyyppi näkyviin tiettyihin raportteihin kätevästi. Pitäisi saada bibliodataelements-tauluun omaksi sarakkeekseen. Tällöin vältyttäisiin taulujen liitoksilta?
+
 
 
 ## Viikon 34 muistiot
+
+
+### Torstai 24.8.2023 klo 10
+
+Läsnä:
+
+* Tärkeää olisi saada aineistotyyppi näkyviin tiettyihin raportteihin kätevästi. Pitäisi saada bibliodataelements-tauluun omaksi sarakkeekseen. Tällöin vältyttäisiin taulujen liitoksilta?
+* Tätistä Kirjastopalvelun tietueet Melindaan, mikä järkevin toimintatapa?
+  * OAI-PMH
+  * päiväpakettien välitys suoraan Melindalle?
+  * 
+### Maanantai 21.8.2023 klo 10
 
 Läsnä: Anneli, Pasi, Emmi, Lari, Lasse, Kodo
 
