@@ -609,6 +609,64 @@ Varaustunnuksellasi <<borrower-attribute:HOLDID>> on noudettavissa varaus <<bibl
 Your hold identifier is <<borrower-attribute:HOLDID>>. Your hold <<biblio.title>> <<biblioitems.number>> <<items.enumchron>> (<<items.barcode>>) is waiting for you at <<branches.branchname>> until <<reserves.expirationdate>>. 
 ```
 
+## HOLD_REMINDER eli varauksen noutomuistutus
+
+### Email-pohjaan
+
+#### Oletus
+
+HOLD_REMINDER-pohja ei osaa tällä hetkellä käyttää kielipohjia (ks. tiketti 662), mutta Oletus-pohjaan on mahdollista tehdä Template Toolkitillä asiakkaan kielivalintoja hyödyntävät eri viestivaihtoehdot. HMTL-täppä pakoilleen.
+
+```
+[% IF "<<borrowers.lang>>" == "fi-FI" %]
+
+<p>Muistathan noutaa varaamasi aineiston noutopaikasta <<branches.branchname>> varaustunnisteella <<borrower-attribute:HOLDID>>.</p>
+
+[% FOREACH hold IN holds %]
+<p>
+[% IF hold.biblio.author %][% hold.biblio.author %]: [% END %][% hold.biblio.title %][% IF hold.biblio.part_number %] / [% hold.biblio.part_number %][% END %][% IF hold.biblio.part_name %] - [% hold.biblio.part_name %][% END %][% IF hold.item.enumchron %] ([% hold.item.enumchron %])[% END %]<br />
+Nide: [% hold.item.barcode %]<br />
+<b>Viimeinen noutopäivä: [% hold.expirationdate | $KohaDates %]</b><br />
+</p>
+[% END %]
+
+<p>Ota mukaasi kirjastokortti ja joko saapumisilmoitus tai varaustunniste. Noutamatta jääneestä varauksesta peritään 2 €. Mikäli et pääse noutamaan varaamaasi aineistoa, ota yhteyttä kirjastoon.</p>
+
+<p>Tähän viestiin ei voi vastata. Vaski-kirjastojen yhteystiedot löydät verkkokirjastosta osoitteesta http://www.vaskikirjastot.fi</p>
+
+[% ELSIF "<<borrowers.lang>>" == "sv-SE" %]
+
+<p>Du kommer väl ihåg att hämta din reservering från <<branches.branchname>> med reserveringskod <<borrower-attribute:HOLDID>>.</p>
+
+[% FOREACH hold IN holds %]
+<p>
+[% IF hold.biblio.author %][% hold.biblio.author %]: [% END %][% hold.biblio.title %][% IF hold.biblio.part_number %] / [% hold.biblio.part_number %][% END %][% IF hold.biblio.part_name %] - [% hold.biblio.part_name %][% END %][% IF hold.item.enumchron %] ([% hold.item.enumchron %])[% END %]<br />
+Exemplar: [% hold.item.barcode %]<br />
+<b>Sista avhämtningsdag: [% hold.expirationdate | $KohaDates %]</b><br />
+</p>
+[% END %]
+
+<p>Ta med dig bibliotekskortet och antingen avhämtningsmeddelandet eller reserveringskoden. För oavhämtat material uppbärs en avgift på 2 €. Ifall du inte kan hämta din reservering, ta kontakt med biblioteket.</p>
+
+<p>Du kan inte svara på detta meddelande. Du hittar Vaski-bibliotekens kontaktuppgifter i nätbiblioteket på adressen http://www.vaskibiblioteken.fi</p>
+
+[% ELSE %]
+
+<p>Remember to pick up the item you have reserved from <<branches.branchname>> with reservation identifier <<borrower-attribute:HOLDID>>.</p>
+
+[% FOREACH hold IN holds %]
+<p>[% IF hold.biblio.author %][% hold.biblio.author %]: [% END %][% hold.biblio.title %][% IF hold.biblio.part_number %] / [% hold.biblio.part_number %][% END %][% IF hold.biblio.part_name %] - [% hold.biblio.part_name %][% END %][% IF hold.item.enumchron %] ([% hold.item.enumchron %])[% END %]<br />
+Item: [% hold.item.barcode %]<br />
+<b>Last date for pick up: [% hold.expirationdate | $KohaDates %]</b><br />
+</p>
+[% END %]
+
+<p>Bring your Library card and either the pick-up notification or your reservation identifier with you. Uncollected reservations carry a 2 € charge. If you can't pick up your reservation, please contact the library.</p>
+
+<p>You cannot reply to this message. You’ll find all Vaski Libraries’ contact information at http://www.vaskilibraries.fi</p>
+[% END %]
+```
+
 ## CHECKINSLIP eli palautuskuitti
 
 ### Tuloste/Print-pohjaan
