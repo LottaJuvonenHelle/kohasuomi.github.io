@@ -19,6 +19,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 Läsnä:
 
+* Päivystykset viikosta 36 eteenpäin
 * Viikon 35 päivitys
 * Lumpukoiden virhe 500 -ongelmat
 * Kirkeksen aloituksesta uutinen?
