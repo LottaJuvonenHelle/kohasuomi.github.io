@@ -15,10 +15,14 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 35 muistiot
 
+### Maanantai 28.8.2023 klo 10
+
 Läsnä:
 
-
-
+* Viikon 35 päivitys
+* Lumpukoiden virhe 500 -ongelmat
+* Kirkeksen aloituksesta uutinen?
+* Yhteiskäyttöinen tekstienmuokkauspaikka tiedotteille yms.
 
 ## Viikon 34 muistiot
 
