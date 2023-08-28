@@ -21,9 +21,10 @@ Läsnä:
 
 * Päivystykset viikosta 36 eteenpäin
 * Viikon 35 päivitys
-* Lumpukoiden virhe 500 -ongelmat
+* Lumpukoiden virhe 500 -ongelmat/haravointi
 * Kirkeksen aloituksesta uutinen?
 * Yhteiskäyttöinen tekstienmuokkauspaikka tiedotteille yms.
+* Koha-repon wikiin luotu uusi sivu ["Ongelmatilanteita ja niiden ratkaisuja"](https://github.com/KohaSuomi/Koha/wiki/Ongelmatilanteita-ja-niiden-ratkaisuja)
 
 ## Viikon 34 muistiot
 
