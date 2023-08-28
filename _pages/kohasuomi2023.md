@@ -17,10 +17,13 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 28.8.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Pasi, Emmi, Lasse, Lari, Ari
 
 * Päivystykset viikosta 36 eteenpäin
 * Viikon 35 päivitys
+  * Finna-pluginin päivitys
+  * Käännösmuutos
+  * Ceepos-logitus
 * Lumpukoiden virhe 500 -ongelmat/haravointi
 * Kirkeksen aloituksesta uutinen?
 * Yhteiskäyttöinen tekstienmuokkauspaikka tiedotteille yms.
