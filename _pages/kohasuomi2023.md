@@ -27,6 +27,7 @@ Läsnä: Anneli, Pasi, Emmi, Lasse, Lari, Ari
 * Lumpukoiden virhe 500 -ongelmat/haravointi
 * Kirkeksen aloituksesta uutinen?
 * Yhteiskäyttöinen tekstienmuokkauspaikka tiedotteille yms.
+  * ei oikein löydy mitään ilman, että pitää itse hostata.
 * Koha-repon wikiin luotu uusi sivu ["Ongelmatilanteita ja niiden ratkaisuja"](https://github.com/KohaSuomi/Koha/wiki/Ongelmatilanteita-ja-niiden-ratkaisuja)
 
 ## Viikon 34 muistiot
