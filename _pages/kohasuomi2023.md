@@ -25,6 +25,9 @@ Läsnä: Anneli, Pasi, Emmi, Lasse, Lari, Ari
   * Käännösmuutos
   * Ceepos-logitus
 * Lumpukoiden virhe 500 -ongelmat/haravointi
+  * ainakin palautuksessa tulee toisinaan virhe 500 -ilmoituksia. Kaivataan lisää esimerkkejä, jotta ongelmaa saisi paremmin selvitettyä
+    * ongelman kohdanneita virkailijoita pyydetään myös tyhjentämään selaimesta välimuisti ja evästeet, jotta voidaan sulkea pois niistä johtuvat ongelmat.
+  * haravoinnissa oli ongelmia, joka johtui kahdesta tietueesta, joiden tiedot löytyi sekä biblio että deletedbiblio-taulusta. Tietojen poisto biblio-taulusta auttoi ja haravointi Finnaan onnistui taas. 
 * Kirkeksen aloituksesta uutinen?
 * Yhteiskäyttöinen tekstienmuokkauspaikka tiedotteille yms.
   * ei oikein löydy mitään ilman, että pitää itse hostata.
