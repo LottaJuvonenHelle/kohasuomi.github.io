@@ -46,7 +46,7 @@ niin varaus ei poistu toisen niteen lainatessa.
 * Vaskissa on syntynyt kaksi tuplaverkkomaksua bugikorjauksen jälkeen
 
 **Siilinjärvi**
-* [Tiketti #692](https://github.com/KohaSuomi/Koha/issues/692) tehty ilmeisen onnistuneesti eilen.
+* [Tiketti #692](https://github.com/KohaSuomi/Koha/issues/692) kirjastokortin numeron ja käyttäjätunnuksen yhtenäistämisestä ratkaistu ilmeisen onnistuneesti eilen.
 * Muuten rauhallista.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
