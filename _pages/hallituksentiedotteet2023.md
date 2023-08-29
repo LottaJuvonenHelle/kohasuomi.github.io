@@ -11,6 +11,34 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 6/2023
+
+Hei kaikille!
+
+Uusi hallitus aloitti syyskauden ja mukana oli ensimmäistä kertaa Kirkes-kuntien hallitusjäsen Kirsi Kurtti muuten jatketaan entisellä kokoonpanolla. Hallituksessa on nyt yhdeksän jäsentä ja se on yhtiöjärjestyksen mukaan maksimimäärä. Tervetuloa mukaan kaikki Kirkes-kirjastoista!
+
+Kokouksessa hyväksyttiin asiantuntijaryhmän jäsenet:
+
+Helle: Kati Sillgren, Calle Lindroos (vara)<br />
+Kirkes: Riikka Mustajärvi, Anu Järvi (vara)<br />
+Kyyti: Tuomas Kunttu, Roosa Väisänen (vara)<br />
+Lappi: Leena Kinnunen, Pia Kusmin (vara)<br />
+Lumme: Hanna Ikonen, Katja Valjakka (vara)<br />
+Outi: Noora Valkonen, Piia Semenoff (vara)<br />
+Vaara: Päivi Knuutinen, Irina Halminen (vara)<br />
+Vaski: Susanna Sandell, Asko Autio (vara). 
+
+Tuttuun tapaan kävimme läpi toimitusjohtajan raportin ja taloustilanteen. Lisäksi palvelusopimus päivitettiin ja se lähtee kuntiin allekirjoitettavaksi. Suurin muutos sopimukseen oli, että nyt palvelua tuotetaan SaaS-palveluna eli mukana myös palvelinympäristö. Aikoinaan kun Koha-Suomea perustettiin kunnille oli tärkeää pitää konesalit omassa hallinnassa. Näin on maailma muuttunut ja yhteistyötä tiivistetty.
+
+Koha-seminaari on suunnitteilla 28.11. ja paikkana Helsinki, joten laittakaahan päivämäärä jo talteen. Ohjelmaideoita voi laittaa Arille, asiantuntijaryhmän jäsenille tai minulle.
+
+Parhainta syksyä kaikille – toivottavasti kaikki sujuu hyvin Kirkes-kirjastojen käyttöönotossa!
+
+T. Rebekka, hallituksen pj.
+
+Liite: [Toimitusjohtajanraportti6_2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12460652/Toimitusjohtajanraportti6_2023.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 5/2023
 
 Kokous oli nykyisen hallituksen viimeinen ja seuraavaksi odotamme yhtiökokousta ja uuden hallituksen nimittämistä. Pitää olla kerrassaan tyytyväinen ja iloinen nykyisen hallituksen aktiivisesta ja sitoutuneesta työstä yhtiön toiminnan kehittämiseksi. Kiitokset hallitukselle kuluneesta kaudesta!
