@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35 muistio
 
 Aika: 29.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/740)
