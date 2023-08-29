@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35 muistio
 
 Aika: 29.8.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/740)
@@ -22,6 +22,17 @@ Läsnä:
 
 Pohjoisesta etelään
 
+**Vaara**
+* Joensuussa ihmeteltiin noutamatonta varausta, josta ei tullut asiakkaalle maksua. Samana päivänä kun asiakkaalle oli 
+lähtenyt noutoilmoitus niteestä, hän oli lainannut samasta nimekkeestä toisen niteen (miksi? ei tietoa). Annelin selvityksen
+mukaan "action_logsilla näyttäis olevan samaan aikaan kuin lainaus on tehty tuollainen action kuin "FILL". 
+Tuossa on voinut käydä niin, että kun hälle on lainattu toinen saman teoksen nide, niin alkuperäinen varaus on "täyttynyt" sillä.
+old_reserves-taulussa varaukselle on kirjautunut patron_expiration_date-sarakkeeseen tuo 11.8.2023, jolloin asiakas on lainannut teoksen."
+Testausten jälkeen selveni: Jos tietueeseen on yksi tai useampi (hylly)varaus ja asiakas lainaa jonkin hyllyssä olevan niteen, 
+vaikka hällä on toinen noudettavissa, niin silloin noudettavissa oleva varaus poistuu.
+Mutta jos tietueeseen ei ole muita varauksia ja asiakas lainaa muun niteen kuin noudettavissa olevan, 
+niin varaus ei poistu toisen niteen lainatessa.
+* Vaaran Finnassa on nimekkeitä, joita ei voi siellä varata. Kansalliskirjaston kanssa asiaa selvitettiin ja siihen tehtiin päivityskorjaus REST-pluginiin. Testauksessa näytti korjaus auttavan, mutta edelleen löytyy nimekkeitä, joiden varaaminen ei onnistu. Selvitellään asiaa uusien esimerkkien avulla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
