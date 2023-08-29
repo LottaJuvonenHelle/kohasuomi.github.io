@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35 muistio
 
 Aika: 29.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/740)
@@ -44,6 +44,10 @@ niin varaus ei poistu toisen niteen lainatessa.
 * Pääkäyttäjillä kaikilla käytössä kaksivaiheinen tunnistautuminen.
 * Tänään pidetään palaveri Kansalliskirjaston kanssa nidetilojen priorisoinnista https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2 
 * Vaskissa on syntynyt kaksi tuplaverkkomaksua bugikorjauksen jälkeen
+
+**Siilinjärvi**
+* [Tiketti #692](https://github.com/KohaSuomi/Koha/issues/692) tehty ilmeisen onnistuneesti eilen.
+* Muuten rauhallista.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
