@@ -14,6 +14,16 @@ Lisäksi koodeissa ei kannata olla myöskään alaviivoja, koska ne voivat aiheu
 
 Koska järjestelmäasetuksia on satoja, ei kaikista ole tällä sivulla tietoja. Järjestelmäasetuksia on käyty läpi pääkäyttäjien kanssa ja läpikäynneistä on tallenteet [Koha-Suomen Youtube-kanavalla](https://www.youtube.com/@koha-suomi/videos).
 
+### BarcodePrefix
+
+Asetuksella voi määrittää, millä merkkijonolla automaattisesti generoidut viivakoodit alkavat. Tämä vaatii kaveriksi autoBarcode-asetuksen toimiakseen. Asetus on YAMLia eli tieto pitää tallentaa tietyssä muodossa. Ensin kirjoitetaan kirjaston tunnus (minkä kirjaston niteestä kyse) - kaksoispiste - välilyönti - haluttu prefix. Eli siis näin:
+
+LAPK: 111N<br />
+TUPK: 123N<br />
+RAPK: OUTI<br />
+
+Eri kirjastopisteet laitetaan omille riveille.
+
 ### IntranetNav
 
 IntranetNav-järjestelmäasetuksella saa lisättyä Kohan yläpalkkiin linkkejä. Alla viimeisin versio, jolla saa lisättyä Koha-Suomi-alasvetovalikon:
