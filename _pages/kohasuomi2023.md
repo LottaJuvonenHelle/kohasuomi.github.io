@@ -15,6 +15,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 35 muistiot
 
+### Torstai 31.8.2023 klo 10
+
+Läsnä:
+
+* Tikettien vastuutus
+  * [ Kausijulkaisun vastaanottoon Lisää tulostuslistaan -valintamahdollisuus #508](https://github.com/KohaSuomi/Koha/issues/508) - hyväksytty jo asiantuntijaryhmässä
+  * [Tietueen varaukset-sivulta puuttuu Ensimmäinen ja Viimeinen -linkit sivutuksesta #523](https://github.com/KohaSuomi/Koha/issues/523)
+
+  
 ### Maanantai 28.8.2023 klo 10
 
 Läsnä: Anneli, Pasi, Emmi, Lasse, Lari, Ari
