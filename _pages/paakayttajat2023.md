@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35 muistio
 
 Aika: 29.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/740)
@@ -33,6 +33,12 @@ vaikka hällä on toinen noudettavissa, niin silloin noudettavissa oleva varaus 
 Mutta jos tietueeseen ei ole muita varauksia ja asiakas lainaa muun niteen kuin noudettavissa olevan, 
 niin varaus ei poistu toisen niteen lainatessa.
 * Vaaran Finnassa on nimekkeitä, joita ei voi siellä varata. Kansalliskirjaston kanssa asiaa selvitettiin ja siihen tehtiin päivityskorjaus REST-pluginiin. Testauksessa näytti korjaus auttavan, mutta edelleen löytyy nimekkeitä, joiden varaaminen ei onnistu. Selvitellään asiaa uusien esimerkkien avulla.
+
+**OUTI**
+* Laskuttajalta tuli tieto, jos laskutustyökalussa painaa vahingossa toimintoa Luo Finvoice/Luo e-lasku kaksi tai useamman kerran, syntyy asiakkaalle aina uusi lasku. Tiketti: https://github.com/KohaSuomi/Koha/issues/734
+* OUTIssa on paljon epäonnistuneita Niteiden poisto eräajona -ajoja. Suurimmassa osassa on ollut vain yksi poistettava nide, mutta elokuun alussa on ollut myös kolme erää, joissa jokaisessa on ollut lähemmäs 50 poistettavaa nidettä. Tiketti: https://github.com/KohaSuomi/Koha/issues/738
+* Kempeleen kunnan Liikuntalainaamo on aloittelemassa liikuntavälineiden lainaamista Kohan itsepalvelutoiminnolla.
+* Iin Kuivaniemen kirjastosta tuli palautetta, ettei kirjaston omatoimilaite päästä sisälle enää lapsiasiakasta, jolla asiakastyyppinä on ”Lapsi, omatoimi sallittu”. Nykyisin myös Iissä lapsiasiakkaiden käyttörajoitus määritellään ovikoneille asiakastyypillä, ei ikärajalla.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
