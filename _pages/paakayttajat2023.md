@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35 muistio
 
 Aika: 29.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/740)
@@ -39,6 +39,11 @@ niin varaus ei poistu toisen niteen lainatessa.
 * OUTIssa on paljon epäonnistuneita Niteiden poisto eräajona -ajoja. Suurimmassa osassa on ollut vain yksi poistettava nide, mutta elokuun alussa on ollut myös kolme erää, joissa jokaisessa on ollut lähemmäs 50 poistettavaa nidettä. Tiketti: https://github.com/KohaSuomi/Koha/issues/738
 * Kempeleen kunnan Liikuntalainaamo on aloittelemassa liikuntavälineiden lainaamista Kohan itsepalvelutoiminnolla.
 * Iin Kuivaniemen kirjastosta tuli palautetta, ettei kirjaston omatoimilaite päästä sisälle enää lapsiasiakasta, jolla asiakastyyppinä on ”Lapsi, omatoimi sallittu”. Nykyisin myös Iissä lapsiasiakkaiden käyttörajoitus määritellään ovikoneille asiakastyypillä, ei ikärajalla.
+
+**Vaski**
+* Pääkäyttäjillä kaikilla käytössä kaksivaiheinen tunnistautuminen.
+* Tänään pidetään palaveri Kansalliskirjaston kanssa nidetilojen priorisoinnista https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2 
+* Vaskissa on syntynyt kaksi tuplaverkkomaksua bugikorjauksen jälkeen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
