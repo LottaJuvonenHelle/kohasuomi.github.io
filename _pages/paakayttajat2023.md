@@ -54,6 +54,11 @@ niin varaus ei poistu toisen niteen lainatessa.
 * Virhe 500 ilmenee edelleen, esimerkkejä yritetään kerätä lisää.
 * Muuten normaalia ylläpitoa.
 
+**Helle**
+* Myöhässä ja maksuja -toiminnossa näkyy mm. asiakkaan nimi. Palaverissa sovittiin, että nimeä ei piiloteta vaan piilotetaan koko toiminto. Tiketti https://github.com/KohaSuomi/Koha/issues/743
+* Vanhentuneet varaukset -hakutuloksessa ollut Tuntematon asiakas -nimi on aiheuttanut ihmettelyä. Asiakastieto on käytössä anonymisoiduille ja poistetuille asiakastiedoille. Lisätty asiakastiedon huomautukseen lisätietoa käyttötarkoituksesta.
+* Finto-AI (https://ai.finto.fi/?locale=fi) lisätty Kohan yläreunan omiin linkkeihin
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 34 muistio
