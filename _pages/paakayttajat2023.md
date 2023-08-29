@@ -10,7 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viiko 34 muistio
+## Viikko 35 muistio
+
+Aika: 29.8.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset asiat**
+* [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/740)
+* [Hallituksen tiedote 6/2023](https://koha-suomi.fi/hallituksentiedotteet2023#koha-suomen-hallituksen-tiedote-62023)
+  * Koha-seminaari 28.11.2023 Helsingissä
+
+Pohjoisesta etelään
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
+## Viikko 34 muistio
 
 Aika: 22.8.2023 klo 9.15 <br />
 Läsnä: Anneli Österman, Emmi Takkinen ja Lari Strand (Koha-Suomi), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Päivi Knuutinen ja Auli Rantasalo (Vaara), Tuomas Kunttu (Kyyti), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Pia Kusmin ja Leena Kinnunen (Lappi), Anni Rajala (Vaski)
