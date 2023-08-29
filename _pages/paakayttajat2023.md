@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 35 muistio
 
 Aika: 29.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/740)
@@ -48,6 +48,11 @@ niin varaus ei poistu toisen niteen lainatessa.
 **Siilinjärvi**
 * [Tiketti #692](https://github.com/KohaSuomi/Koha/issues/692) kirjastokortin numeron ja käyttäjätunnuksen yhtenäistämisestä ratkaistu ilmeisen onnistuneesti eilen.
 * Muuten rauhallista.
+
+**Lumme**
+* Finnan Haravoinnissa oli ongelmia, jotka johtuivat kahdesta tietueesta, joiden tiedot löytyi sekä biblio että deletedbiblio-taulusta. Tietojen poisto biblio-taulusta auttoi ja haravointi Finnaan onnistui taas.
+* Virhe 500 ilmenee edelleen, esimerkkejä yritetään kerätä lisää.
+* Muuten normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
