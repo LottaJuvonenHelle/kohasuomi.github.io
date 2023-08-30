@@ -21,7 +21,7 @@ Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
 
 [% loggedinbranchname = Branches.GetName( Branches.GetLoggedInBranchcode() ) %]
 
-[% IF loggedinbranchname == branch.branchname%]
+[% IF loggedinbranchname == branch.branchname %]
 
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
@@ -39,6 +39,10 @@ Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
 <<biblio.title>> <<items.enumchron>><br />
 <<items.barcode>><br />
 Noutokirjasto: <<reserves.branchcode>></p>
+
+[% END %]
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>.
 ```
 
 #### Englanniksi
@@ -48,7 +52,7 @@ Noutokirjasto: <<reserves.branchcode>></p>
 
 [% loggedinbranchname = Branches.GetName( Branches.GetLoggedInBranchcode() ) %]
 
-[% IF loggedinbranchname == branch.branchname%]
+[% IF loggedinbranchname == branch.branchname %]
 
 <style type="text/css">
   h1 { font-family: arial; font-size: 20pt; }
