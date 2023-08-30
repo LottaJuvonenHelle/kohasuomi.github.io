@@ -40,6 +40,25 @@ Tieto lisätään email-pohjaan. HTML-täppä paikoilleen.
 <<items.barcode>><br />
 Noutokirjasto: <<reserves.branchcode>></p>
 
+[% ELSE %]
+
+<style type="text/css">
+  h1 { font-family: arial; font-size: 20pt; }
+  h2 { font-family: arial; font-size: 18pt; }
+  h3 { font-family: arial; font-size: 16pt; }
+  h4 { font-family: arial; font-size: 14pt; }
+  p { font-family: arial; font-size: 10pt; }
+</style>
+
+<h2>Kuljeta kirjastoon:<br />
+<<branches.branchname>></h2>
+<h3>Päivämäärä: <<today>></h3>
+<br />
+<p>Teos:<br />
+<<biblio.author>><br />
+<<biblio.title>> <<items.enumchron>><br />
+<<items.barcode>></p>
+
 [% END %]
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>.
