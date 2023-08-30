@@ -22,7 +22,8 @@ Läsnä:
 * Tikettien vastuutus
   * [ Kausijulkaisun vastaanottoon Lisää tulostuslistaan -valintamahdollisuus #508](https://github.com/KohaSuomi/Koha/issues/508) - hyväksytty jo asiantuntijaryhmässä
   * [Tietueen varaukset-sivulta puuttuu Ensimmäinen ja Viimeinen -linkit sivutuksesta #523](https://github.com/KohaSuomi/Koha/issues/523)
-  * [Asiakastiedot: uuden muotoinen henkilötunnus ei tallennu #745](https://github.com/KohaSuomi/Koha/issues/745) 
+  * [Asiakastiedot: uuden muotoinen henkilötunnus ei tallennu #745](https://github.com/KohaSuomi/Koha/issues/745)
+  * [Lumme: cardnumber-userid-yhtenäistämisajo](https://github.com/KohaSuomi/Koha/issues/741)
 
   
 ### Maanantai 28.8.2023 klo 10
