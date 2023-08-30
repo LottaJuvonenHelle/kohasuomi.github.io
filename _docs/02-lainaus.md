@@ -716,6 +716,8 @@ kirjastoosi.
 
 ## 2.17 Myöhässä
 
+Tämä toiminto voi olla piilotettuna kimpassasi.
+
 Varoitus: Tämä raportti vaatii paljon järjestelmäresursseja, jos tietokannassa on paljon myöhässä olevia lainoja.
 {: .notice--warning}
 
@@ -725,6 +727,8 @@ Koska raportti voi viedä paljon resursseja, raportti kannattaa suodattaa mahdol
 
 
 ## 2.18 Myöhässä ja maksuja
+
+Tämä toiminto voi olla piilotettuna kimpassasi.
 
 Raportti antaa kaikki kirjastosi myöhässä olevat lainat. Voit hakea lainat hyllypaikan mukaan.
 
