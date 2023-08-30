@@ -38,7 +38,7 @@ niin varaus ei poistu toisen niteen lainatessa.
 * Laskuttajalta tuli tieto, jos laskutustyökalussa painaa vahingossa toimintoa Luo Finvoice/Luo e-lasku kaksi tai useamman kerran, syntyy asiakkaalle aina uusi lasku. Tiketti: https://github.com/KohaSuomi/Koha/issues/734
 * OUTIssa on paljon epäonnistuneita Niteiden poisto eräajona -ajoja. Suurimmassa osassa on ollut vain yksi poistettava nide, mutta elokuun alussa on ollut myös kolme erää, joissa jokaisessa on ollut lähemmäs 50 poistettavaa nidettä. Tiketti: https://github.com/KohaSuomi/Koha/issues/738
 * Kempeleen kunnan Liikuntalainaamo on aloittelemassa liikuntavälineiden lainaamista Kohan itsepalvelutoiminnolla.
-* Iin Kuivaniemen kirjastosta tuli palautetta, ettei kirjaston omatoimilaite päästä sisälle enää lapsiasiakasta, jolla asiakastyyppinä on ”Lapsi, omatoimi sallittu”. Nykyisin myös Iissä lapsiasiakkaiden käyttörajoitus määritellään ovikoneille asiakastyypillä, ei ikärajalla.
+* Iin Kuivaniemen kirjastosta tuli palautetta, ettei kirjaston omatoimilaite päästä sisälle enää lapsiasiakasta, jolla asiakastyyppinä on ”Lapsi, omatoimi sallittu”. Ongelman syy selvinnyt 30.8.: Iissä omatoimi sallitaan nykyisin vain 16 vuotta täyttäneille. Määritys asetettu ovikoneelle. Lapsiasiakas oli alle tämän rajan.
 
 **Vaski**
 * Pääkäyttäjillä kaikilla käytössä kaksivaiheinen tunnistautuminen.
