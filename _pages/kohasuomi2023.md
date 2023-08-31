@@ -17,15 +17,21 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 31.8.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Emmi, Pasi, Lari, Lasse, Ari
 
 * Tikettien vastuutus
   * [ Kausijulkaisun vastaanottoon Lisää tulostuslistaan -valintamahdollisuus #508](https://github.com/KohaSuomi/Koha/issues/508) - hyväksytty jo asiantuntijaryhmässä
   * [Tietueen varaukset-sivulta puuttuu Ensimmäinen ja Viimeinen -linkit sivutuksesta #523](https://github.com/KohaSuomi/Koha/issues/523)
   * [Asiakastiedot: uuden muotoinen henkilötunnus ei tallennu #745](https://github.com/KohaSuomi/Koha/issues/745)
   * [Lumme: cardnumber-userid-yhtenäistämisajo](https://github.com/KohaSuomi/Koha/issues/741)
-
-  
+* Tuodaan [Template Toolkit error](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=32442)
+* Kirkes-muistettavaa
+  * okm ja biblio_data_elements-taulu
+  * cronit
+  * triggerit
+  * valutus
+  * valuebuilderit ja plugarit
+  * editx jossain vaiheessa
 ### Maanantai 28.8.2023 klo 10
 
 Läsnä: Anneli, Pasi, Emmi, Lasse, Lari, Ari
