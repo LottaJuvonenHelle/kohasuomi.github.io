@@ -32,6 +32,8 @@ Läsnä: Anneli, Emmi, Pasi, Lari, Lasse, Ari
   * valutus
   * valuebuilderit ja plugarit
   * editx jossain vaiheessa
+* siirretään maanantain palaverit alkamaan klo 9, jotta Ari ehtii paremmin olemaan mukana palaverissa. Kokeillaan, onko muutoksesta apua. Muutos viikosta 36 lähtien.
+ 
 ### Maanantai 28.8.2023 klo 10
 
 Läsnä: Anneli, Pasi, Emmi, Lasse, Lari, Ari
