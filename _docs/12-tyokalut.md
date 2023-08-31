@@ -23,7 +23,8 @@ Osa aiemmin _Työkalut_-osiossa sijainneista toiminnoista, esim. niteiden ja tie
 
 ## 12.1 Asiakaslistat
 
-Huom! Tämän ohjeen päivitys versioon 22.11 on vielä kesken, koska asiakashaku ei toimi vielä oikein.
+**Huom!** _Asiakaslistat_-ohjetta ei ole päivitetty versioon 22.11, koska asiakashaku ei toimi oikein. Korjaus on tulossa versioon 23.05. Lisää siihen asti asiakkaita listalle tavallisen asiakashaun kautta.
+{: .notice--warning}
 
 _Asiakaslistat_-työkalulla voi luoda asiakkaista listoja, joita voi sitten
 hyödyntää mm. asiakastietojen erämuokkauksessa.
@@ -59,7 +60,7 @@ valitut asiakkaat_. Ohjelma kysyy varmistuksen “Haluatko varmasti poistaa vali
 Huom! Asiakastietoja ei poisteta rekisteristä, vain asiakaslistalta.  
 <img src="/assets/files/docs/Tyokalut/asiakaslistat05.png" alt="Kuvakaappaus esimerkkiasiakaslistaan kuuluvista asiakkaista" style="width:90.0%" />
 
-Asiakkaita voi lisätä listalle myös normaalin asiakashaun kautta valitsemalla
+Asiakkaita voi lisätä listalle myös tavallisen asiakashaun kautta valitsemalla
 ensin halutut asiakkaat ja valitsemalla sitten _Lisää asiakaslistaan_
 -valikosta haluamasi lista.  
 <img src="/assets/files/docs/Tyokalut/asiakaslistat06.png" alt="Kuvakaappaus asiakkaiden lisäämisestä asiakaslistaan vaihtoehtoisella tavalla, normaalin 
