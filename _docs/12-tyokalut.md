@@ -86,16 +86,14 @@ kirjastokohtaisia. Kaikki ilmoitus- ja kuittipohjat eivät välttämättä ole k
 
 ### 12.2.1 Ilmoituksen muokkaaminen
 
-Huom! Tämän ohjeen päivitys versioon 22.11 on vielä kesken.
-
 Ilmoituksen tai kuitin voi tehdä samoille kielille kuin mitä Kohaan on
 asennettu käyttökieliksi (suomi, englanti, ruotsi). Lisäksi on olemassa Oletus-pohja, jota
 käytetään silloin, kun asiakkaalle ei ole asiakastiedoissa valittuna asiointikieltä. 
 Jos kielivalinta on kimpassa käytössä, kaikille kielille täytyy olla viestipohjissa ainakin jotain tekstiä, 
 muuten viestit eivät lähde asiakkaille.
 
-Ilmoituksen voi määrittää eri viestityypeille: sähköposti, tuloste, tekstiviesti jne. 
-Osa kuiteista vaatii toimiakseen tekstin myös sähköpostikenttään, vaikka vain tuloste olisi käytössä. 
+Ilmoituksen voi määrittää eri viestityypeille: sähköposti, tuloste, tekstiviesti jne.
+Osa kuiteista, erityisesti lainaus-, varaus- ja kuljetuskuitit vaativat toimiakseen tekstin myös sähköpostikenttään, vaikka vain tuloste olisi käytössä. 
 Muutokset tallennetaan _Tallenna_-napista. 
 
 <img src="/assets/files/docs/Tyokalut/ilmoitukset01.png" alt="Kuvakaappaus ilmoitusten ja kuittien muokkauksen pääsivusta, jossa näkyvät käytössä olevat kielet ja viestityypit" style="width:90.0%" />
@@ -104,7 +102,7 @@ Ilmoitukseen tai kuittiin voi lisätä tekstiä sekä tägejä, joilla viestiin
 lisätään tietokannasta tietoja esim. asiakkaasta, lainoista ja eräpäivistä. 
 Tägejä voi lisätä vasemman reunan valikosta tai kirjoittaa ne itse.
 
-_Viestin aihe_ -kenttään kirjoitetaan sähköpostiviestin aihe, joka näkyy myös asiakkaalle. 
+_Viestin aihe_ -kenttään kirjoitetaan sähköpostiviestin aihe, joka näkyy myös asiakkaalle. Siihen kannattaa siis kiinnittää erityistä huomiota.
 Myös viestin aiheessa voi käyttää tietokanta-tägejä. Jos viesti on html-muotoinen, laitetaan rasti kohtaan
 _HTML-viesti_, jolloin viesti osataan käsitellä oikein. 
 
