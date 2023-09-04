@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 36 muistiot
+
+### Maanantai 4.9.2023 klo 9
+
+Läsnä:
+
+* [Viestiasetusten muutos asiakastyyppiä vaihtaessa #755](https://github.com/KohaSuomi/Koha/issues/755)
+* Tätissä indeksoitumattomia tietueita
+* 
+
 ## Viikon 35 muistiot
 
 ### Torstai 31.8.2023 klo 10
