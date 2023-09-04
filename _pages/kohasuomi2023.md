@@ -17,11 +17,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 4.9.2023 klo 9
 
-Läsnä:
+Läsnä: Anneli, Lasse, Emmi, Pasi, Ari, Lari, Kodo
 
 * [Viestiasetusten muutos asiakastyyppiä vaihtaessa #755](https://github.com/KohaSuomi/Koha/issues/755)
 * Tätissä indeksoitumattomia tietueita
-* 
+  *  Pasi korjaa tietueet illalla.
+* Kirkeksessä indeksointi- ja virhe 500 -ongelmia.
 
 ## Viikon 35 muistiot
 
