@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36 muistio
 
 Aika: 5.9.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Kati Sillgren (Helle)
 
 **Yhteiset asiat**
 * Ei päivitystä vkolla 36
