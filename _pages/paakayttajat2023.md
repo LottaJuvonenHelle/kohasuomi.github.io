@@ -34,6 +34,14 @@ kun ehdin niitä muokata jokaiselle aineistotyypille, hyllypaikalle ja kokoelmak
 * Lumpeisiin ajettiin nyt yhtenäistämisajo kirjastokorttien numeroille ja userID:lle, niin saatiin tietokanta kuntoon. Triggeri näyttää toimivan hyvin.
 * Tarkoitus käydä kuittipohjat läpi ja yhtenäistää kaikille kirjastoille yhtenäiset kuitit, jotta virhetilanteiden selvittely helpottuu.
 
+**OUTI**
+* OUTIssa on yksi asiakas, jolla syntymäpäivä 3.4.1942. Asiakastietojen avaaminen antaa virheen 500. Päivämäärä on sama kuin Suomessa on testattu kesäaikaan siirtymistä ja perlin DateTime moduulista tällaiset päivämäärät ovat virheellisiä. Korjaus tulee seuraavaan versioon. Asiakkaan syntymäpäivä vaihdettu väliaikaisesti 2.4.1942. Tiketti: https://github.com/KohaSuomi/Koha/issues/624
+* Kempeleen liikuntavälinelainaamon itsepalvelulainauksessa tuli timeout 30 min. kuluttua. Lari on tuonut testille kovakoodatun timeoutin automaattitunnukselle. Nyt testien perusteella näyttäisi toimivan. https://github.com/KohaSuomi/Koha/issues/748. Testataan myös, että virkailijatunnusten timeout toimii vielä kuin pitääkin eli 30 min.
+* Asiakaspalvelussa on tullut vastaan lapsiasiakas, joka on täyttänyt 16 vuotta 31.8.2023, jolloin hänen asiakastyyppi olisi pitänyt muuttua ”lapsi, omatoimi sallituksi”, mutta muutos tapahtui vasta seuraavan yön ajossa eli 1.9.2023. Testasimme myös, muuttuuko asiakastyyppi "Lapsi, omatoimi sallittu" henkilöasiakkaaksi sinä päivänä, kun hän täyttää 18 vuotta, mutta siinäkin tapauksessa asiakastyypin muutos tapahtui päivän myöhässä. Tiketti: https://github.com/KohaSuomi/Koha/issues/754
+* OUTIssa on paljon epäonnistuneita Niteiden poistoja eräajona. Osoittautui, että suurin osa poistossa olleista niteistä ovat olleet siirtolainakokoelmissa, jota OUTIssa käytetään yhdessä kunnassa. Siirtolainakokoelmasta poiston esti vanhasta versiosta jäänyt ”riippuvuus”, joka on nyt poistettu. Poistoeristä löytyi vielä niteitä, jotka ovat yhtä tietokannassa. Tiketti: https://github.com/KohaSuomi/Koha/issues/738. Muutetaan erät pending-tilaan ja katsotaan, poistuuko loputkin poistettavat niteen eräajoista.
+* Kimpat, joilla on käytössä Firefoxin versio ESR 100+ ja olette saaneet Kohan kuittitulostukset toimimaan, olisiko mahdollista, että joku teistä lisäisi toimivat asetukset Kohan ohje suomeksi -ohjeeseen -> Kuittitulostuksen asetukset? Oulussa emme ole vielä saaneet uudempaa versiota käyttöön, joten ohjetta ei ole voitu päivittää.
+* Pirkko-Liisa tekee kehitysehdotustiketin vanhasta toiveesta, että Finnassa pystyisi järjestämään lainahistoriaa tekijän ja nimekkeen mukaan sekä tekemään hakuja omaan lainahistoriaan.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-36-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
