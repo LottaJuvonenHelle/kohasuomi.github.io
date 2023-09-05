@@ -13,13 +13,22 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36 muistio
 
 Aika: 5.9.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset asiat**
 * Ei päivitystä vkolla 36
 * Kirkeksen käytöönotto menossa, työllistää ainakin Kodoa ja Annelia. Myös jonkin verran muita.
 
 Etelästä pohjoiseen
+
+**Vaara**
+* Eri raporteilla tutkailtu kokoelmatietoja. Havaittu yllättävän paljon kuljetustilaisia niteitä, jotka löytyvät toisen kirjaston
+hyllystä. Kehotetaan kirjastoja käyttämään kuljetustilaraportteja apuna näiden niteiden tilojen korjaamiseen. 
+Tila jää päälle, kun nide ei menekään kohdekirjastoonsa vaan palautetaan jossain muussa kirjastossa (jossa nide saa kellua).
+* Tehty AutoItemtype-asetuksia testikantaan. Ensin pieni otanta asetuksia ja muutokset kuvailupohjiin kenttään 952y. 
+Pieni otanta toimi ihan hyvin, tosin ongelmana on tällä hetkellä puuttuva ominaisuus "ei valintaa". Asetusrivejä jo 90 ja lisää tulee
+kun ehdin niitä muokata jokaiselle aineistotyypille, hyllypaikalle ja kokoelmakoodille, joita tarvitaan. Onneksi meillä ei ole hyllytarkenne käytössä :)
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-36-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
