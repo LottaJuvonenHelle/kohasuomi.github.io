@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36 muistio
 
 Aika: 5.9.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 * Ei päivitystä vkolla 36
@@ -41,6 +41,10 @@ kun ehdin niitä muokata jokaiselle aineistotyypille, hyllypaikalle ja kokoelmak
 * OUTIssa on paljon epäonnistuneita Niteiden poistoja eräajona. Osoittautui, että suurin osa poistossa olleista niteistä ovat olleet siirtolainakokoelmissa, jota OUTIssa käytetään yhdessä kunnassa. Siirtolainakokoelmasta poiston esti vanhasta versiosta jäänyt ”riippuvuus”, joka on nyt poistettu. Poistoeristä löytyi vielä niteitä, jotka ovat yhtä tietokannassa. Tiketti: https://github.com/KohaSuomi/Koha/issues/738. Muutetaan failed-tilassa olevat niteiden eräpoistot uudelleen pending-tilaan ja katsotaan, poistuuko niteet.
 * Kimpat, joilla on käytössä Firefoxin versio ESR 100+ ja olette saaneet Kohan kuittitulostukset toimimaan, olisiko mahdollista, että joku teistä lisäisi toimivat asetukset Kohan ohje suomeksi -ohjeeseen -> Kuittitulostuksen asetukset? Oulussa emme ole vielä saaneet uudempaa versiota käyttöön, joten ohjetta ei ole voitu päivittää.
 * Pirkko-Liisa tekee kehitysehdotustiketin vanhasta toiveesta, että Finnassa pystyisi järjestämään lainahistoriaa tekijän, nimekkeen ja aineistotyypin mukaan sekä tekemään hakuja omaan lainahistoriaan.
+
+**Lappi**
+* Normaalia ylläpitoa
+* Kysymys: Voiko kokoelmakoodin tunnusta muuttaa (auktorisoidut arvot - ccode): voi, mutta ei kannata. Ei päivity niihin niteisiin, jossa vanha tunnus on käytössä. Eli muutamme vain koodin nimeä ja kuvausta. 
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-36-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
