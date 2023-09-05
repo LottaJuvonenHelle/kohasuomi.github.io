@@ -50,6 +50,9 @@ kun ehdin niitä muokata jokaiselle aineistotyypille, hyllypaikalle ja kokoelmak
 * 1.9. voimaan tulleet maksumuutokset vietiin perjantaina Kohaan. Paitsi laina- ja maksusäännöt myös viestipohjat piti käydä läpi, koska niissäkin on maksuja mainittu.
 * Huomattu, että jos auktorisoiduissa arvoissa määrittää kokoelmakoodin vain johonkin kirjastoon, niin muissa kirjastoissa se ei silloin näy niteittein muokkauksessa eikä tarkassa haussa, mutta nidehaussa silti näkyy.
 
+  **Helle**
+* Asiakastiedossa on Matkapuhelinnumero-arvo mutta ei Tekstiviesti numeroon -arvoa: aiheuttanut haasteita tekstiviestityksen käyttöönotossa. Kehittäjä Lari Strand lisäsi arvottomiin Tekstiviesti numeroon -kenttiin Matkapuhelinnumero-kentän arvon. Tiketti #744
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-36-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 35 muistio
