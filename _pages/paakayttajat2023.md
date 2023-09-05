@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36 muistio
 
 Aika: 5.9.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset asiat**
 * Ei päivitystä vkolla 36
@@ -28,6 +28,11 @@ Tila jää päälle, kun nide ei menekään kohdekirjastoonsa vaan palautetaan j
 * Tehty AutoItemtype-asetuksia testikantaan. Ensin pieni otanta asetuksia ja muutokset kuvailupohjiin kenttään 952y. 
 Pieni otanta toimi ihan hyvin, tosin ongelmana on tällä hetkellä puuttuva ominaisuus "ei valintaa". Asetusrivejä jo 90 ja lisää tulee
 kun ehdin niitä muokata jokaiselle aineistotyypille, hyllypaikalle ja kokoelmakoodille, joita tarvitaan. Onneksi meillä ei ole hyllytarkenne käytössä :)
+
+**Lumme**
+* Erinäisiä asioiden selvittelyjä.
+* Lumpeisiin ajettiin nyt yhtenäistämisajo kirjastokorttien numeroille ja userID:lle, niin saatiin tietokanta kuntoon. Triggeri näyttää toimivan hyvin.
+* Tarkoitus käydä kuittipohjat läpi ja yhtenäistää kaikille kirjastoille yhtenäiset kuitit, jotta virhetilanteiden selvittely helpottuu.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-36-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
