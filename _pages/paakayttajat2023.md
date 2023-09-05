@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 36 muistio
 
 Aika: 5.9.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Hanna Ikonen (Lumme), Veli-Pekka Marjoniemi ja Pirkko-Liisa Lauhikari (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti)
 
 **Yhteiset asiat**
 * Ei päivitystä vkolla 36
@@ -46,6 +46,9 @@ kun ehdin niitä muokata jokaiselle aineistotyypille, hyllypaikalle ja kokoelmak
 * Normaalia ylläpitoa
 * Kysymys: Voiko kokoelmakoodin tunnusta muuttaa (auktorisoidut arvot - ccode): voi, mutta ei kannata. Ei päivity niihin niteisiin, jossa vanha tunnus on käytössä. Eli muutamme vain koodin nimeä ja kuvausta. 
 
+**Kyyti**
+* 1.9. voimaan tulleet maksumuutokset vietiin perjantaina Kohaan. Paitsi laina- ja maksusäännöt myös viestipohjat piti käydä läpi, koska niissäkin on maksuja mainittu.
+* Huomattu, että jos auktorisoiduissa arvoissa määrittää kokoelmakoodin vain johonkin kirjastoon, niin muissa kirjastoissa se ei silloin näy niteittein muokkauksessa eikä tarkassa haussa, mutta nidehaussa silti näkyy.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-36-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
