@@ -10,7 +10,7 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viiko 36 muistio
+## Viikko 36 muistio
 
 Aika: 5.9.2023 klo 9.15 <br />
 Läsnä:
@@ -18,6 +18,10 @@ Läsnä:
 **Yhteiset asiat**
 * Ei päivitystä vkolla 36
 * Kirkeksen käytöönotto menossa, työllistää ainakin Kodoa ja Annelia. Myös jonkin verran muita.
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-36-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 35 muistio
 
