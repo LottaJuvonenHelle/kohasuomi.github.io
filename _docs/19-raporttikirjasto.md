@@ -2424,6 +2424,46 @@ order by 1 desc
 limit 500
 ```
 
+### Kuvailutietueen muutosten katselu
+
+Tällä raportilla voi hakea kaikista action_logs-tauluista kerralla kuvailutietueisiin (ja sen niteisiin) liittyvät muutokset.
+
+Lisääjä: Anneli Österman
+Pvm: 6.9.2023
+
+```
+select timestamp,user,module,action,object,info,interface from action_logs
+where module='CATALOGUING'
+and object=<<biblionumber>>
+
+UNION
+select timestamp,user,module,action,object,info,interface from action_logs_2021
+where module='CATALOGUING'
+and object=<<biblionumber>>
+
+UNION
+select timestamp,user,module,action,object,info,interface from action_logs_2020
+where module='CATALOGUING'
+and object=<<biblionumber>>
+
+UNION
+select timestamp,user,module,action,object,info,interface from action_logs_2019
+where module='CATALOGUING'
+and object=<<biblionumber>>
+
+UNION
+select timestamp,user,module,action,object,info,interface from action_logs_2018
+where module='CATALOGUING'
+and object=<<biblionumber>>
+
+UNION
+select timestamp,user,module,action,object,info,interface from action_logs_2017
+where module='CATALOGUING'
+and object=<<biblionumber>>
+
+ORDER BY 1 DESC
+```
+
 ## OKM-tilastot
 
 ### Yleistä hankintatilastoista
