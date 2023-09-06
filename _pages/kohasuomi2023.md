@@ -15,6 +15,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 36 muistiot
 
+### Torstai 6.9.2023 klo 10
+
+Läsnä:
+
+* Timmi-tilanvarauspalvelu (Mäntyharju)
+
 ### Maanantai 4.9.2023 klo 9
 
 Läsnä: Anneli, Lasse, Emmi, Pasi, Ari, Lari, Kodo
