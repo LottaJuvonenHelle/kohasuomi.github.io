@@ -17,9 +17,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 6.9.2023 klo 10
 
-Läsnä:
+Läsnä: Lasse, Emmi, Pasi, Ari, Lari, Kodo
 
-* Timmi-tilanvarauspalvelu (Mäntyharju)
+* Timmi-tilanvarauspalvelu (Mäntyharju/Lumme)
+  * Timmiltä pyydetty Kohan ja Lumme-Finnan rajapinta tiedot tarjouksen laatimisen avuksi
+  * Toimitettu kehotus pyytää Finna-rajapinnan tiedot Finna-toimistosta sekä kuvaus borrower/status-endpointista 
 
 ### Maanantai 4.9.2023 klo 9
 
