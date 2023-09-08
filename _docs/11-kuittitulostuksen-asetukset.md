@@ -10,7 +10,7 @@ toc: true
 
 Koha-Suomi tukee Firefox ESR-versiota.
 
-## 9.1. Firefoxin versio 78+
+## 9.1. Firefoxin versio 78+esr
 
 Avaa selaimen valikko oikeasta yläkulmasta ja valitse sieltä Tulosta.
 
@@ -58,7 +58,7 @@ Tulosta lopuksi ensimmäinen sivu valitulle tulostimelle painamalla _OK_.
 
 ---
 
-## 9.2 Firefoxin versiot 90+ ja 100+
+## 9.2 Firefoxin versiot 90+esr ja 100+esr
 
 Huom! Firefoxin 90+ -versioissa kuittitulostukset eivät välttämättä toimi tai ne toimivat vain sen istunnon ajan, kun tulostusasetukset ovat määritelty. 
 100+ -selainversioita kirjastoilla on käytössä ja ne ovat toimineet ongelmitta.
