@@ -136,7 +136,7 @@ Jos kuitin tulostusvaiheessa tulee ilmoitus, ettei ponnahdusikkunat ole
 sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
 -asetuksissa kohtaan “Estä ponnahdusikkunat” poikkeukset
 kimppasi/kirjastosi Koha-sivustolle.  
-![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.png)
+![](/assets/files/docs/Kuittitulostuksen_asetukset/ponnahdusikkuna.PNG)
 
 Esimmerkissä OUTI-kimpan poikkeus:
 
