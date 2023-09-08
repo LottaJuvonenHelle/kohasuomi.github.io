@@ -87,8 +87,8 @@ kirjastokohtaisia. Kaikki ilmoitus- ja kuittipohjat eivät välttämättä ole k
 ### 12.2.1 Ilmoituksen muokkaaminen
 
 Ilmoituksen tai kuitin voi tehdä samoille kielille kuin mitä Kohaan on
-asennettu käyttökieliksi (suomi, englanti, ruotsi). Lisäksi on olemassa Oletus-pohja, jota
-käytetään silloin, kun asiakkaalle ei ole asiakastiedoissa valittuna asiointikieltä. Koha-Suomessa on kuitenkin käytössä pakotus, joka asettaa asiointikieleksi suomen, jos muuta (englanti, ruotsi) ei ole valittu. Tämä estää joissain tapauksissa sekakieliset ilmoitukset Oletus-pohjasta.
+asennettu käyttökieliksi (suomi, englanti, ruotsi). Lisäksi on olemassa _Oletus_-pohja, jota
+käytetään silloin, kun asiakkaalle ei ole asiakastiedoissa valittuna asiointikieltä. Koha-Suomessa on kuitenkin käytössä pakotus, joka asettaa asiointikieleksi suomen, jos muuta (englanti, ruotsi) ei ole valittu. Tämä estää joissain tapauksissa sekakieliset ilmoitukset _Oletus_-pohjasta.
 
 Ilmoituksen voi määrittää eri viestityypeille: sähköposti, tuloste, tekstiviesti jne.
 Osa kuiteista, erityisesti lainaus-, varaus- ja kuljetuskuitit vaativat toimiakseen tekstin myös sähköpostikenttään, vaikka vain tuloste olisi käytössä. 
