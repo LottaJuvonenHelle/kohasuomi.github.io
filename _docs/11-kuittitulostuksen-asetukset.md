@@ -90,7 +90,7 @@ Riippuen millä sivulla olet, tämä kuitti voi vielä näyttää oudolta.
 Testitulostuksen jälkeen, määritä selain tulostamaan automaattisesti kohdan 9.1.3 mukaisesti.
 
 
-### 9.3 Selaimen määrittely tulostamaan kuitit automaattisesti
+## 9.3 Selaimen määrittely tulostamaan kuitit automaattisesti
 
 Mene Firefoxiin. Kirjoita Firefoxin osoiteriville _about:config_. Saat
 varoituksen vaarallisesta sivusta, klikkaa _“Otan riskin!”_.
@@ -122,7 +122,7 @@ Näin määritetty print.always_print_silent -asetus estää tulostimen
 vaihtamisen Firefoxissa eli jos haluat tulostaa muuta kuin kuitteja,
 käytä tulostamiseen toista selainohjelmaa.
 
-### 9.4 Selaimen päivittyessä
+## 9.4 Selaimen päivittyessä
 
 Jos Firefox-selain päivittyy, eikä kuittitulostus toimi, tarkista
 kuittitulostuksen asetukset. Vaihda yllä kuvatun
@@ -130,7 +130,7 @@ _print.always_print_silent_-määrityksen asetus true -> false, niin pääset as
 
 ---
 
-### 9.5 Ponnahdusikkunat
+## 9.5 Ponnahdusikkunat
 
 Jos kuitin tulostusvaiheessa tulee ilmoitus, ettei ponnahdusikkunat ole
 sallittuja, käy lisäämässä selaimen Tietosuoja ja turvallisuus
