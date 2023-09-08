@@ -438,6 +438,28 @@ AND time_queued >= NOW() - INTERVAL <<Monenko päivän ajalta>> DAY
 ORDER BY time_queued ASC
 ```
 
+### Arkistoitujen viestien hakeminen message_queuen vuositaulusta
+
+Kyselyllä voi hakea viesti-taulun vuositauluista vanhempia viestejä, jotka eivät näy enää virkailijaliittymän kautta. Kyselylle annetaan parametriksi asiakkaan borrowernumber.
+
+Pvm: 8.9.2023
+Lisääjä: Anneli Österman
+
+```
+select * from message_queue_2022
+where borrowernumber = <<borrowernumber>>
+
+union 
+select * from message_queue_2021
+where borrowernumber = <<borrowernumber>>
+
+union 
+select * from message_queue_2020
+where borrowernumber = <<borrowernumber>>
+
+order by 1 desc
+```
+
 ### Ylimääräistä tekstiä sisältävät puhelinnumerot
 
 Hakee kaikki ylimääräistä tekstiä sisältävät puhelinnumerot Kohan borrowers-taulusta. Tekstejä on päätynyt puhelinnumerokenttiin ainakin Pallas-konversioissa. Mahdollisesti myös Origoista.
