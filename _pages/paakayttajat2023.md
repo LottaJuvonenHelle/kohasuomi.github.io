@@ -17,6 +17,8 @@ Läsnä:
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
+* [viestien arkistointi vuositauluihin tehty kaikkiin kimppoihin](https://github.com/KohaSuomi/Koha/issues/711#issuecomment-1707801721)
+  * [Arkistoitujen viestien hakeminen raportilla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#arkistoitujen-viestien-hakeminen-message_queuen-vuositaulusta)  
 
 ## Viikko 36 muistio
 
