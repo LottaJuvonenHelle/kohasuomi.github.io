@@ -2392,34 +2392,35 @@ Lisääjä: Anneli Österman<br />
 Lisäyspvm: 25.3.2022, muokattu 29.3.2022
 
 ```
-select * from action_logs
-where convert(object using 'utf8') like (@Asiakas:= <<borrowernumber>>)
+select timestamp,user,module,action,object,info,interface from action_logs
+where object = <<borrowernumber>>
 and action='MODIFY' 
 
 union 
-select * from action_logs_2020
-where convert(object using 'utf8') like @Asiakas
+select timestamp,user,module,action,object,info,interface from action_logs_2020
+where object = <<borrowernumber>>
 and action='MODIFY'
 
 union 
-select * from action_logs_2019
-where convert(object using 'utf8') like @Asiakas
+select timestamp,user,module,action,object,info,interface from action_logs_2019
+where object = <<borrowernumber>>
 and action='MODIFY'
 
 union 
-select * from action_logs_2018
-where convert(object using 'utf8') like @Asiakas
+select timestamp,user,module,action,object,info,interface from action_logs_2018
+where object = <<borrowernumber>>
 and action='MODIFY'
 
 union 
-select * from action_logs_2017
-where convert(object using 'utf8') like @Asiakas 
+select timestamp,user,module,action,object,info,interface from action_logs_2017
+where object = <<borrowernumber>> 
 and action='MODIFY'
 
 union 
-select * from action_logs_2016
-where convert(object using 'utf8') like @Asiakas
+select timestamp,user,module,action,object,info,interface from action_logs_2016
+where object = <<borrowernumber>>
 and action='MODIFY'
+
 order by 1 desc
 limit 500
 ```
