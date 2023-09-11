@@ -68,7 +68,7 @@ kun ehdin niitä muokata jokaiselle aineistotyypille, hyllypaikalle ja kokoelmak
 ## Viikko 35 muistio
 
 Aika: 29.8.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari (OUTI), Iina Niemi (Vaski), Susanna Sandell (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset asiat**
 * [Viikon 35 päivitys](https://github.com/KohaSuomi/Koha/discussions/740)
@@ -113,6 +113,10 @@ niin varaus ei poistu toisen niteen lainatessa.
 * Myöhässä ja maksuja -toiminnossa näkyy mm. asiakkaan nimi. Palaverissa sovittiin, että nimeä ei piiloteta vaan piilotetaan koko toiminto. Tiketti https://github.com/KohaSuomi/Koha/issues/743
 * Vanhentuneet varaukset -hakutuloksessa ollut Tuntematon asiakas -nimi on aiheuttanut ihmettelyä. Asiakastieto on käytössä anonymisoiduille ja poistetuille asiakastiedoille. Lisätty asiakastiedon huomautukseen lisätietoa käyttötarkoituksesta.
 * Finto AI ( https://ai.finto.fi/?locale=fi ) lisätty Kohan yläreunan omiin linkkeihin
+
+**Lappi**
+* Normaalia päivystystä
+* Viroon menemättömät viestit johtuvat sms-viestipalvelun rajoituksesta Suomen, Ruotsin ja Norjan puhelinnumeroihin. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-35-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
