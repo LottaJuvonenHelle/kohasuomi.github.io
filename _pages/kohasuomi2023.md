@@ -17,8 +17,19 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 11.9.2023
 
+Läsnä: Anneli, Lari, Pasi, Emmi, Lasse, Kodo
+
 * Huoltoikkuna ke 13.9.2023
+  * palvelimien buuttaus, kaikki nodet käytetään alhaalla
 * Viikon päivitys
+  * ei tehdä, jotta ei aiheuteta Kirkesläisille heti ensimmäisenä aamuna katkoa
+* Kirkeksen aloitus ti
+  * crontabin tarkistus ja ajastus maanantaina: Lari tekee
+    * process_messages vasta ti
+    * ei valutusta
+    * ei tilastoja
+    * ei editx
+    * ei laskutus
 
 
 ## Viikon 36 muistiot
