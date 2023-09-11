@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 38 muistiot
+
+### Maanantai 11.9.2023
+
+* Huoltoikkuna ke 13.9.2023
+* Viikon päivitys
+
+
 ## Viikon 36 muistiot
 
 ### Torstai 6.9.2023 klo 10
