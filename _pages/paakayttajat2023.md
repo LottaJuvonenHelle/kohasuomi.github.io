@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37 muistio
 
 Aika: 12.9.2023 klo 9.15 <br />
-Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), 
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
@@ -39,6 +39,10 @@ Pohjoisesta etelään
 **Vaara**
 * edelleenkin on nimekkeitä, joita ei voi varata verkkokirjaston kautta. 2/10 aikaisemmin toimimattomaksi ilmoitetuista toimii, muut ei. Laitan uuden viestin Kansalliskirjastoon.
 * Kuittipohjiin DUEDGST ja PREDUEDGST halutaan näkyviin myös nimekkeen osan numero. Irina tekee tiketin asiasta.
+
+**Helle**
+* Asiakastiedon kopioinnnissa ei muodostunut kuluva päiväys uuden asiakastiedon Tullut asiakkaaksi -kenttään. Tehty tiketti https://github.com/KohaSuomi/Koha/issues/771
+* Muistutusviesti noutamattomasta varauksesta - onko viesti varauskohtainen vai meneekö tarvittaessa myös koosteviestinä?
 
 ## Viikko 36 muistio
 
