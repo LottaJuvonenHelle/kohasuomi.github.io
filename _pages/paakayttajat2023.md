@@ -41,7 +41,7 @@ Pohjoisesta etelään
 * Kuittipohjiin DUEDGST ja PREDUEDGST halutaan näkyviin myös nimekkeen osan numero. Irina tekee tiketin asiasta.
 
 **Helle**
-* Asiakastiedon kopioinnnissa ei muodostunut kuluva päiväys uuden asiakastiedon Tullut asiakkaaksi -kenttään. Tehty tiketti https://github.com/KohaSuomi/Koha/issues/771
+* Asiakastiedon kopioinnnissa ei muodostunut kuluva päiväys uuden asiakastiedon Tullut asiakkaaksi -kenttään. Tiketti nyt tuosta https://github.com/KohaSuomi/Koha/issues/771 . Vastaavasta mainittu myös tiketissä https://github.com/KohaSuomi/Koha/issues/610
 * Muistutusviesti noutamattomasta varauksesta - onko viesti varauskohtainen vai meneekö tarvittaessa myös koosteviestinä?
 
 ## Viikko 36 muistio
