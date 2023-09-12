@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37 muistio
 
 Aika: 12.9.2023 klo 9.15 <br />
-Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme)
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
@@ -53,6 +53,10 @@ Pohjoisesta etelään
 * Pudasjärven kirjaston Ceepos-palvelin vaihtuu 11.10. Tiketti: https://github.com/KohaSuomi/Koha/issues/763
 * Oulun luetteloinnista tuli kysymys, että voisiko Tätin luetteloinnin kuvailupohjan 003-kenttään saada marc21_orgcode.pl -liitännäisen käyttöön? Päivi lisää Tätin luettelointipohjiin.
 * OUTIlaiset eivät osallistu viikon 38 viikkopalaveriin. Osallistuvat Pohjois-Suomen AVI:n Arjen kirjastojuridiikkaa -koulutukseen.
+
+**Lumme**
+* Normaalia ylläpitoa, pienten asioiden selvittelyä.
+* Finna kaatui karusellin päivityksen yhteydessä n. tunniksi symlinkkien tarkistusvirheen takia.
 
 ## Viikko 36 muistio
 
