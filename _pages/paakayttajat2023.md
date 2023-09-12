@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikon 37 muistio
 
 Aika: 12.9.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Iina Niemi (Vaski)
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
@@ -25,6 +25,12 @@ Läsnä:
   * [Arkistoitujen viestien hakeminen raportilla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#arkistoitujen-viestien-hakeminen-message_queuen-vuositaulusta)  
 * Ei päivitystä tällä viikolla.
 * [Keskiviikkona säännöllinen huoltoikkuna](https://github.com/KohaSuomi/Koha/discussions/766), tiedossa katko, koska palvelimet bootataan, jotta saadaan voimaan isompi tiedostojen maksimimäärä ja nextit voidaan taas käynnistää ja alkaa valmistelemaan versionvaihtoa.
+
+Pohjoisesta etelään
+
+**Vaski**
+* Ulkomaalaiset numerot siivottu asiakasrekisteristä
+* Tekeillä koodi, jolloin Finnassa Damaged-tilaiset niteet eivät näkyisi punaisella. Kun tulee käyttöön, jaetaan yhteisesti. Odottaa nidetilojen priorisoinnin korjaamista.
 
 ## Viikko 36 muistio
 
