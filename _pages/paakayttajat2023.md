@@ -19,6 +19,8 @@ Läsnä:
 * TäTin käyttäjätunnusten yhtenäistäminen?
 * [viestien arkistointi vuositauluihin tehty kaikkiin kimppoihin](https://github.com/KohaSuomi/Koha/issues/711#issuecomment-1707801721)
   * [Arkistoitujen viestien hakeminen raportilla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#arkistoitujen-viestien-hakeminen-message_queuen-vuositaulusta)  
+* Ei päivitystä tällä viikolla.
+* [Keskiviikkona säännöllinen huoltoikkuna](https://github.com/KohaSuomi/Koha/discussions/766), tiedossa katko, koska palvelimet bootataan, jotta saadaan voimaan isompi tiedostojen maksimimäärä ja nextit voidaan taas käynnistää ja alkaa valmistelemaan versionvaihtoa.
 
 ## Viikko 36 muistio
 
