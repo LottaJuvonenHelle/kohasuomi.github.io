@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikon 37 muistio
+## Viikko 37 muistio
 
 Aika: 12.9.2023 klo 9.15 <br />
-Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi)
+Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
@@ -34,7 +34,11 @@ Pohjoisesta etelään
 
 **Lappi**
 * Normaalia ylläpitoa
-* Kysymys/kehitysehdotus: Juuri nyt lainattujen kuitti. Tällä hetkellä kuittiin tulee kaikki päivän aikana lainatut ja uusitut. Muilla kirjastoilla ei ollut tarvetta ko. kuitille. Automaatilta saa yhden lainauskerran lainakuitin. Mietitään vielä, tehdäänkö kehtiysehdotusta vai ei. Bugzillassa tästä on kehitysehdotus 34210. 
+* Kysymys/kehitysehdotus: Juuri nyt lainattujen kuitti. Tällä hetkellä kuittiin tulee kaikki päivän aikana lainatut ja uusitut. Muilla kirjastoilla ei ollut tarvetta ko. kuitille. Automaatilta saa yhden lainauskerran lainakuitin. Mietitään vielä, tehdäänkö kehtiysehdotusta vai ei. Bugzillassa tästä on kehitysehdotus 34210.
+
+**Vaara**
+* edelleenkin on nimekkeitä, joita ei voi varata verkkokirjaston kautta. 2/10 aikaisemmin toimimattomaksi ilmoitetuista toimii, muut ei. Laitan uuden viestin Kansalliskirjastoon.
+* Kuittipohjiin DUEDGST ja PREDUEDGST halutaan näkyviin myös nimekkeen osan numero. Irina tekee tiketin asiasta.
 
 ## Viikko 36 muistio
 
