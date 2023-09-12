@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 37 muistio
 
 Aika: 12.9.2023 klo 9.15 <br />
-Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), 
+Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
@@ -43,6 +43,16 @@ Pohjoisesta etelään
 **Helle**
 * Asiakastiedon kopioinnnissa ei muodostunut kuluva päiväys uuden asiakastiedon Tullut asiakkaaksi -kenttään. Tiketti nyt tuosta https://github.com/KohaSuomi/Koha/issues/771 . Vastaavasta mainittu myös tiketissä https://github.com/KohaSuomi/Koha/issues/610
 * Muistutusviesti noutamattomasta varauksesta - onko viesti varauskohtainen vai meneekö tarvittaessa myös koosteviestinä?
+
+**OUTI**
+* Asiakastyyppien muutosajoissa on ollut ongelmia. Ajo, joka muutti ”Lapsi, omatoimi kielletty” -> ”Lapsi, omatoimi sallittu”, kun asiakas on täyttänyt 16 vuotta, ei viime aikoina ole toiminut kaikilta osin. Samoin viivettä on ollut asiakastyypin muutosajossa henkilöasiakkaaksi, kun asiakas on täyttänyt 18 vuotta. Selvisi, että OUTIssa oli yksi lapsiasiakas, jolla ei ole takaajaa ja tämä asiakastietue kaatoi ”Lapsi, omatoimi sallittu” -ajon. Asiakkaalle muutettiin asiakastyyppi manuaalisesti, joka näytti korjaavan ongelman. Henkilöasiakas-ajon siirto eteenpäin on ilmeisesti auttanut tähän ongelmaan.
+* Oulun luetteloinnista tuli kysymys, että saisiko Finnassa näkyvien damaged-arvollisten (esim. Saatavana, ei varattavissa) olevien niteiden punaiset ruksit vihreiksi pallukoiksi, kun nide ei ole lainassa. Vaskissa on kehitteillä Finnaan koodi, joka näyttää damaged-arvolliset niteet viherällä tai keltaisella pallukalla, kun nide ei ole lainassa.
+* Väärä PIN-koodi Finnassa tuplaa epäonnistuneiden kirjautumisyritysten määrän Kohaan. Finnan ongelma. Tiketti: https://github.com/KohaSuomi/Koha/issues/761. Pirkko-Liisa reklamoi asiasta Finna-tukeen.
+* Fiktiivisen hahmon asiasanalinkki ei toimi, jos järjestelmäasetuksessa TraceSubjectSubdivisions on valittuna ”Sisällytä” eli haun pitäisi sisältää myös osakentät. Syyksi selvisi, ettei 600c-kenttä sisälly indeksiin. Viedään tiketti asiantuntijaryhmälle päätettäväksi, lisätäänkö kenttä indeksiin. Tiketti: https://github.com/KohaSuomi/Koha/issues/459
+* Kuusamoon on avattu uusi yhtenäiskoulu, johon tulee koulukirjasto. Kirjastoon tulee Mikro-Väylän lainausautomaatti. Koulukirjaston niteet tallennetaan Kuusamon kirjastolle hyllypaikalle Koululukirjasto, hyllytarkenteella ”Nilon yhtenäinen peruskoulu”.
+* Pudasjärven kirjaston Ceepos-palvelin vaihtuu 11.10. Tiketti: https://github.com/KohaSuomi/Koha/issues/763
+* Oulun luetteloinnista tuli kysymys, että voisiko Tätin luetteloinnin kuvailupohjan 003-kenttään saada marc21_orgcode.pl -liitännäisen käyttöön? Päivi lisää Tätin luettelointipohjiin.
+* OUTIlaiset eivät osallistu viikon 38 viikkopalaveriin. Osallistuvat Pohjois-Suomen AVI:n Arjen kirjastojuridiikkaa -koulutukseen.
 
 ## Viikko 36 muistio
 
