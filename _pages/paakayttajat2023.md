@@ -10,10 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 37 muistio
+## Viikko 38 muistio
 
 Aika: 12.9.2023 klo 9.15 <br />
-Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme)
+Läsnä:
+
+**Yhteiset**
+* onko tarvetta tehdä korjausajoja yhteisöasiakkaiden nimiin? Yhteisöasiakkailla ei näy etunimeä, jos asiakastyypin tyyppi on "yhteisö". Näitä ehkä korjailtiin jo edellisen version versionvaihdon jälkeen, mutta onko vielä jossain tarvetta?
+  * Näitä voi tutkia esim. sql-kyselyllä ```select borrowernumber, surname, firstname from borrowers where categorycode='YHTEISO' and firstname is not null```
+
+## Viikko 37 muistio
+
+Aika: 19.9.2023 klo 9.15 <br />
+Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
