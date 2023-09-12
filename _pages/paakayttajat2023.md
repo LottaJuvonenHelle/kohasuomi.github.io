@@ -17,6 +17,10 @@ Läsnä:
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
+  * ei muuteta olemassa olevia tunnuksia, jatkossa tehdään ohjeen mukaan
+  * laitetaan päälle triggeri, joka kopioi cardnumberin userid-kenttään.
+    * otetaan käyttöön viikon 38 päivityksen yhteydessä. Käyttäjät voivat viikon aikana käydä tarkistamassa omat tunnuksensa.
+  * mikropalvelun kytköksiin ei tarvitse tehdä muutoksia, mutta jos pääkäyttäjä on tähän mennessä joutunut kirjautumaan userid:llä, pitää jatkossa kirjautua cardnumberilla.
 * [viestien arkistointi vuositauluihin tehty kaikkiin kimppoihin](https://github.com/KohaSuomi/Koha/issues/711#issuecomment-1707801721)
   * [Arkistoitujen viestien hakeminen raportilla](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#arkistoitujen-viestien-hakeminen-message_queuen-vuositaulusta)  
 * Ei päivitystä tällä viikolla.
