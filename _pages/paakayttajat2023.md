@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 38 muistio
 
-Aika: 12.9.2023 klo 9.15 <br />
+Aika: 19.9.2023 klo 9.15 <br />
 Läsnä:
 
 **Yhteiset**
@@ -21,8 +21,8 @@ Läsnä:
 
 ## Viikko 37 muistio
 
-Aika: 19.9.2023 klo 9.15 <br />
-Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Anneli Österman ja Lari Strand (Koha-Suomi)
+Aika: 12.9.2023 klo 9.15 <br />
+Läsnä: Iina Niemi (Vaski), Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * TäTin käyttäjätunnusten yhtenäistäminen?
