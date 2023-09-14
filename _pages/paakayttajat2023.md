@@ -21,6 +21,7 @@ Läsnä:
 * [Kausijulkaisun vastaanottoon mahdollisuus viedä nide tarratulostuslistalla](https://github.com/KohaSuomi/Koha/issues/508)
   * toteutus ei ihan yksinkertainen, pohditaan vaihtoehtoja
 * Käyttekö läpi kaikki omat tikettinne ja suljetteko ne, jotka eivät ole enää ajankohtaisia.
+*  [Muutoksia viivakoodien generointiin](https://github.com/KohaSuomi/Koha/issues/772)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
