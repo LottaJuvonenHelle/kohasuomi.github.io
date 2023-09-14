@@ -20,7 +20,7 @@ Läsnä:
   * Näitä voi tutkia esim. sql-kyselyllä ```select borrowernumber, surname, firstname from borrowers where categorycode='YHTEISO' and firstname is not null```
 * [Kausijulkaisun vastaanottoon mahdollisuus viedä nide tarratulostuslistalla](https://github.com/KohaSuomi/Koha/issues/508)
   * toteutus ei ihan yksinkertainen, pohditaan vaihtoehtoja
-
+* Käyttekö läpi kaikki omat tikettinne ja suljetteko ne, jotka eivät ole enää ajankohtaisia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
