@@ -18,6 +18,11 @@ Läsnä:
 **Yhteiset**
 * onko tarvetta tehdä korjausajoja yhteisöasiakkaiden nimiin? Yhteisöasiakkailla ei näy etunimeä, jos asiakastyypin tyyppi on "yhteisö". Näitä ehkä korjailtiin jo edellisen version versionvaihdon jälkeen, mutta onko vielä jossain tarvetta?
   * Näitä voi tutkia esim. sql-kyselyllä ```select borrowernumber, surname, firstname from borrowers where categorycode='YHTEISO' and firstname is not null```
+* [Kausijulkaisun vastaanottoon mahdollisuus viedä nide tarratulostuslistalla](https://github.com/KohaSuomi/Koha/issues/508)
+  * toteutus ei ihan yksinkertainen, pohditaan vaihtoehtoja
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 37 muistio
 
@@ -66,6 +71,8 @@ Pohjoisesta etelään
 **Lumme**
 * Normaalia ylläpitoa, pienten asioiden selvittelyä.
 * Finna kaatui karusellin päivityksen yhteydessä n. tunniksi symlinkkien tarkistusvirheen takia.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-37-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 36 muistio
 
