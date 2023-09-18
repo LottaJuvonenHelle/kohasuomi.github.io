@@ -17,7 +17,11 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 18.9.2023
 
+Läsnä: Anneli, Ari, Emmi, Johanna, Lari, Lasse, Pasi
+
 * [YSO-konversion](https://github.com/KohaSuomi/Koha/issues/390) vastuutus ja aikataulutus
+  * Johanna ja Emmi ottavat työn alle
+* Kodo ja Lari tekee Lastun käyttöönoton.
 
 ## Viikon 37 muistiot
 
