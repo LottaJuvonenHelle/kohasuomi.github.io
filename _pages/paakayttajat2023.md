@@ -12,8 +12,10 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 38 muistio
 
-Aika: 19.9.2023 klo 9.15 <br />
+Aika: Keskiviikko 20.9.2023 klo 13 <br />
 Läsnä:
+
+**HUOM!** Eri kokousaika kuin yleensä!
 
 **Yhteiset**
 * onko tarvetta tehdä korjausajoja yhteisöasiakkaiden nimiin? Yhteisöasiakkailla ei näy etunimeä, jos asiakastyypin tyyppi on "yhteisö". Näitä ehkä korjailtiin jo edellisen version versionvaihdon jälkeen, mutta onko vielä jossain tarvetta?
