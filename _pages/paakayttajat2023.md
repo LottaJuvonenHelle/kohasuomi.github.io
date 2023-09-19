@@ -25,7 +25,7 @@ Läsnä:
 * Käyttekö läpi kaikki omat tikettinne ja suljetteko ne, jotka eivät ole enää ajankohtaisia.
 *  [Muutoksia viivakoodien generointiin](https://github.com/KohaSuomi/Koha/issues/772)
 * [Onko pikahaun tyhjäysruksi vielä tarpeellinen kehitysehdotus](https://github.com/KohaSuomi/Koha/issues/341)?
-
+* [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/785)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
