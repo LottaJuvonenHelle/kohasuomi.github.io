@@ -15,7 +15,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 38 muistiot
 
-### Maanantai 18.9.2023
+### Torstai 21.9.2023 klo 10
+
+Läsnä:
+
+* Mitä tehdään Versionvaihto-projektissa oleville version 22.xx-tiketeille?
+  * siirto Tikettien seuranta -projektiin? Vai jotain muuta?
+* Entä siirretäänkö 22.xx-tiketit Koha-repoon?
+
+### Maanantai 18.9.2023 klo 9
 
 Läsnä: Anneli, Ari, Emmi, Johanna, Lari, Lasse, Pasi
 
