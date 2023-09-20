@@ -48,7 +48,7 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Rajakylän kirjastossa tuli vastaan tapaus, että nide näytti olevan samaan aikaan lainassa ja saatavana. Asiakkaan muutoslokilla eikä niteen tapahtumalokilla näkynyt lainaustapahtumaa. Niteen tapahtumalokilla näkyi edellinen lainaus, jonka oli tehnyt eri asiakas. Tiketti #774. Epänormaalin tilanteen aiheuttajaa ei löytynyt. Niteen arvoksi korjattu lainassa. Vastaava tapaus on ollut myös aiemmin Kyytissä.
-* Hoksautettu kirjastoja, että tekevät budjetit ja tilit vuodelle 2024, sillä ainakin OUTIn kirjastoille aineistotoimittajat ovat tehneet jo verkkokauppoihin ostoskorit vuodelle 2024. Jos kirjastot tilaavat näille ostoskoreille, tilaukset eivät siirry Kohaan, koska vastaavia tilejä ei löyty. EditX-sanomat päätyvät virheeseen.
+* Hoksautettu kirjastoja, että tekevät budjetit ja tilit vuodelle 2024, sillä ainakin OUTIn kirjastoille aineistotoimittajat ovat tehneet jo verkkokauppoihin ostoskorit vuodelle 2024. Jos kirjastot tilaavat näille ostoskoreille, tilaukset eivät siirry Kohaan, koska vastaavia tilejä ei löydy Kohasta ja  EDItX-sanomat päätyvät virheeseen.
 * OUTIssa on kilpailutettu kirjastokorttien painatus. Käyttöön tulee kortit, joissa asiakastunnuksen alussa ei ole enää kuntakoodia vaan tunnus alkaa kimpan nimellä OUTI + 7 numeroa.
 * Otetaan käyttöön Muu nimi -kenttä asiakkaan kutsumanimelle.
 * Lopetetaan ”Tarkista osoite”-täpän käyttö asiakkaan tiedoissa. Jatkossa tieto virheellisestä postiosoitteesta laitetaan "Lisää viesti" -toiminnolla. Näin asiakas ei mene lainauskieltoon virheellisen postiosoitteen vuoksi.
