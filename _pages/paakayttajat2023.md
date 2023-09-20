@@ -26,6 +26,8 @@ Läsnä:
 *  [Muutoksia viivakoodien generointiin](https://github.com/KohaSuomi/Koha/issues/772)
 * [Onko pikahaun tyhjäysruksi vielä tarpeellinen kehitysehdotus](https://github.com/KohaSuomi/Koha/issues/341)?
 * [Viikon 38 päivitys](https://github.com/KohaSuomi/Koha/discussions/785)
+* [Muu nimi -kenttään muutos nimeen](https://github.com/KohaSuomi/Koha/issues/783)?
+* Nextit pystyssä vasta OUTI, Helle, Vaski ja Lappi, koska huoltokatkossa tehty tiedostojen maksimimäärämuutos ei riittänyt/ollut oikea. Määrää säädetään taas lokakuun huoltoikkunassa (11.10.2023), jonka jälkeen saadaan loput nextit ylös. Versionvaihtoa edistetään jo olemassa olevilla nexteillä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
