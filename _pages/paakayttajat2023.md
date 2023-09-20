@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38 muistio
 
 Aika: Keskiviikko 20.9.2023 klo 13 <br />
-Läsnä:
+Läsnä: Anni Rajala (Vaski)
 
 **HUOM!** Eri kokousaika kuin yleensä!
 
@@ -36,6 +36,9 @@ Läsnä:
 
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Otettu käyttöön oma not for loan -erikoistila "Uusin numero, luettavissa kirjastossa" lehtien uusimmille numeroille jotta pystyttiin sallimaan varaaminen verkkokirjaston kautta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
