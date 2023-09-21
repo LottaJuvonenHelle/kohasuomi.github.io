@@ -8,6 +8,112 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2023'
 ---
 
+## Kuvailuryhmän muistio 6/2023
+
+Aika: 13.9.2023 klo 13.15–14.30
+
+Osallistujat: Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Tarja Mäkinen (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+Poissa: Mauri Aittaniemi (Lappi), Johanna Ranta (Kyyti)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Merja Hakulinen. Mauri Aittaniemen sihteerivuoro on seuraavassa kokouksessa.
+
+#### 2.	Osakohteiden aineistotyyppien muodostumisen ongelmat #####
+
+Osakohteiden aineistotyypit siirtyvät huonosti tietueisiin. Ehdotettiin tietokanta-ajoa säännöllisin väliajoin, jolloin virheellisiä osakohteita ei tarvitsisi etsiä itse. Sellainen ajo on olemassa, joka ottaa aineistotyypit kiinteistä kentistä 942-kenttään. Päivi Knuutinen tekee tukipyynnön, jotta tietokanta-ajolla saadaan osakohteille oikeat aineistotyypit. Kaikki aineistotyypit eivät ehkä tule tietokanta-ajosta huolimatta oikein, kuten Blu-ray-äänilevy (kiinteissä kentissä CD:n arvot). Aineistotyypit vaikuttavat myös OKM:n pyytämiin tilastointeihin.
+
+Kokouksen jälkeen lisätty tiketti: <a href="https://github.com/KohaSuomi/Koha/issues/776" target="_blank">Aineistotyypittömien osakohteiden korjausajo</a>
+
+#### 3.	Kuvailuun liittyvät keskeneräiset tiketit ja versiopäivityksistä johtuvat korjaukset ####
+<ul>
+  <li>Tiketeistä huolimatta Nalkuttimen toiminta ja osakohteiden aineistotyyppien korjaukset eivät etene. Nalkutin ei toimi TäTissä eikä se ilmoita kuvailussa olevista virheistä. Kokouksen aikana tuli tieto, että Nalkutin on jo testi-TäTissä, mutta sitä pitää vielä testata.</li>
+  <li>Aikaisemmin hyvin toimineet asiat toimivat nyt huonommin, koska versiopäivityksessä pois jääneitä toimintoja ei ole korjattu tai laitettu vielä päälle.</li>
+  <li>Kohan kehittäjät voisivat huolehtia tiketeistä järjestelmällisemmin ja nopeammin, jotta korjaukset kuvailijoiden työvälineisiin saataisiin kohtuullisessa ajassa.</li>
+  <li>Ehdotus asioiden jouduttamiseksi: Kirjastokimppojen palvelupäälliköt ottaisivat suoraan yhteyttä vastaaviin tahoihin ja vaatisivat toimenpiteitä (toimitusjohtaja, hallitus, asiantuntijaryhmä).</li>
+</ul>
+
+#### 4.	Tietueiden käsittely TäTissä ####
+<ul>
+  <li>Muistakaa viedä Melindasta tuodut tietueet aina takaisin Melindaan, jotta päivitysyhteys pysyy. Muuten tietueet eivät pysy ajan tasalla ja voi käydä niin, että muokataan vahingossa vanhentuneita tietueita turhaan.</li>
+  <li>Koska Nalkutin ei toimi tällä hetkellä, muistakaa laittaa oikeat indikaattorit. Huomatkaa varsinkin kenttä 648, jossa YSO-aika-plugin ei aseta indikaattoria automaattisesti, vaan indikaattori on laitettava käsin. Kentässä 2. indikaattori on joko 4 tai 7.</li>
+  <li>TäTissä on edelleen paljon Koha-Suomen kirjastojen kuvailemia tai muokkaamia tietueita, joissa on MARC-virheitä. Näitä voisi korjailla oman kimpan käsittelemien tietueiden osalta silloin kun aikaa on tai poistaa tietueet ehkä kokonaan, jos ne ovat jo vanhentuneita. Oman kimpan virheellisiä tietueita voi hakea virheellisten tietueiden listasta selaimen Find-toimintoa käyttämällä omalla ISIL-tunnuksella: <a href="https://tati.koha-suomi.fi/marc_virheet.tatiprod.html" target="_blank">TäTIn virheelliset tietueet</a> </li>
+</ul>
+
+#### 5.	Marc-virheraportin korjausajot ####
+
+Antti Heikkinen on tehnyt taulukon korjausehdotuksista. Kaikilla on nyt kiireistä, joten asiaan palataan tämän vuoden lopulla. Ensin korjataan tiedonhakuun vaikuttavat ongelmat. Tietueiden korjausajo pitäisi tehdä niin, etteivät tietueet aktivoidu valutukseen eikä niiden aikaleimankaan tarvitsisi ehkä muuttua. Korjaukset olisi hyvä tehdä ennen seuraavia konversioita (esim. RDA) tai tietokantojen mahdollisia yhdistämisiä.
+
+#### 6.	TäTin ja Melindan eri ohjeiden päivitys Koha Teamsin Kuvailukanavalle ####
+<ul>
+  <li>Koha Teamsin Kuvailukanavalta löytyvät päivitetyt kuvailuohjeet. Sekä uudet että vanhat kuvailijat tarvitsevat ohjeita.</li>
+  <li>Kirjastopalvelun maaliskuussa 2023 julkaisemassa tiedotteessa kerrotaan, että ukrainan- ja venäjänkielisen aineiston translitterointi tehdään kokonaan Kansallinen standardi SFS 4900:lla. Sitä aiemmin heillä on ollut tapana laittaa päänimeke 246-kenttään ISO 9 standardilla. Seurataan, vieläkö tämä käytäntö jatkuu. Antti muokkaa tämän kohdan päivitettyyn TäTi-ohjeistukseen.</li>
+  <li>Kuvailuohjeita löytyy vielä Redminesta, josta ne siirretään GitHubiin.</li>
+</ul>
+
+#### 7.	Koha-Suomi-Melinda-työryhmän kokous 23.8. ####
+<ul>
+  <li>TäTi-putken rakennus edistyy. Tällä hetkellä mietitään, miten saataisiin Kirjastopalvelun tietueiden päiväpaketit kätevimmin TäTistä Melindaan niin, että replikointiyhteys säilyy (Melinda-ID ja TATI-Low-tag). Koska Helmetistä on jo aiemmin siirretty KP:n tietueita, niin tämänhetkisen katselmuksen perusteella tietueiden vienti ja yhdistyminen Melinda-tietueisiin näyttää aika hyvältä.</li>
+  <li>Pahimmat Helmetin eräajojen virheet on nyt korjattu. Tietueita voi nyt korjata itse, mutta jos huomaatte joitakin edelleen toistuvia virheitä, niin Melindaan voi ilmoittaa.
+Helmetin tietueissa olevat kirjoitusvirheet tulevat edelleen tuplakenttinä, eivätkä välttämättä korjaannut, ellei Helmet itse hoksaa niitä korjata.</li>
+  <li>Johanna Räisä palaa töihin 18.9. Sen jälkeen ehkä vihdoin päästään eteenpäin RDA- ja YSO-konversioissa ja muussa valutukseen ja Melindaan liittyvässä kehitystyössä.</li>
+  <li>Seuraava kokous 24.10. Klo 14.00.</li>
+</ul>
+
+#### 8.	Uusia tikettejä ####
+<ul>
+  <li>Kuvailupohjat eivät ole tällä hetkellä ajan tasalla. Pohjien viimeisin MARC-formaatin päivitys on ollut kesällä 2021. Sen jälkeen on tullut ainakin jo kolme päivitystä, joista viimeisin kesäkuussa 2023. Tähän liittyy tiketit:</li>
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/256" target="_blank">[Tukipyyntö] Kuvailupohjien automaattinen päivitys</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/747" target="_blank">Kuvailupohjat eivät ole päivittyneet automaattisesti</a> </li>
+</ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/718" target="_blank">Osakentän 775t lisääminen title-hakukenttään</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/750" target="_blank">Finna-aineistotyyppi äänikirja myös Kohan aineistotyypiksi/MTYPE:ksi</a> </li>
+</ul>
+
+#### 9.	Muita asioita ####
+<ul>
+  <li>Kirkes-kirjastojen koulutukset</li>
+<ul>
+  <li>RDA-koulutukset 4. & 5.9.</li>
+  <li>Kohan kuvailutyökalujen koulutus 7.9. (Anneli) & 21.9. (Antti)</li>
+  <li>Melindan käyttöönottokoulutus 4.10.</li>
+  <li>Kirkes-kirjastojen liittyminen on sujunut hyvin. He aloittavat kuvailun 4.10. jälkeen. Valutus alkaa ehkä Antin koulutuksen 21.9. jälkeen, mutta vaatii kehittäjiltä vielä säätämistä ja testaamista.</li>
+</ul>
+  <li>Kirjastopalvelun asiakasohjausryhmän kokous 3.10.</li>
+<ul>
+  <li>Antti ja Anna osallistuvat asiakasryhmän kokoukseen.</li>
+  <li>Keskustelussa ilmeni seuraavia kysymyksiä:</li>
+<ul>
+  <li>Miksi kuvailu on niin hidasta? Suomenkielisessäkin aineistossa kestää välillä tosi kauan.</li>
+  <li>Onko eri aineistoilla työnjako tai kiireellisyys-/ruuhkautumisjärjestys? Jos jotakin aineistolajia kertyy paljon, siirretäänkö tähän enemmän resursseja?</li>
+  <li>Miksi Extranet-pyynnöt viipyvät?</li>
+  <li>Millä perusteella vieraskielinen aineisto kuvaillaan tai ei kuvailla (esim. saman tekijän kirjat, lisäpakettitilauksesta huolimatta)?</li>
+</ul>
+  <li>Muita huomioita:</li>
+<ul>
+  <li>Helle-kirjastojen kokemus lastenkirjallisuuden kuvailun viipymisestä</li>
+  <li>Ensi vuoden alusta lähtien kolmella eri kirjastokimpalla pitää olla Kirjastopalvelun tilaus kyseisestä aineistosta, jotta aineisto kuvaillaan.</li>
+  <li>Nyt jo Kirjastopalvelu ilmoittaa, ettei liian vähälevikkistä aineistoa kuvailla.</li>
+  <li>Kirjastopalvelu kuvailee vieraskielistä aineistoa myös suoraan ulkomaisten tietokantojen avulla, eli kuvailukappaleita ei ole heidän saatavillaan.</li>
+</ul>
+</ul>
+<li>Lastu-kirjastot (Asikkala, Hartola, Heinola, Hollola, Kärkölä, Lahti, Orimattila, Padasjoki ja Sysmä) liittymässä Koha-Suomeen todennäköisesti syksyllä 2024.</li>
+<li>TäTiin on lisätty kuvailupohjien 003-kenttään liitännäinen, joka lisää kenttään FI-TATI-tunnuksen kenttää klikkaamalla, silloin kun kyseinen kenttä on tyhjä.</li>
+</ul>
+
+#### 10.	Seuraavat kokousajat ####
+<ul>
+  <li>Ke 18.10. klo 13.15</li>
+  <li>Ke 8.11. klo 13.15</li>
+  <li>To 14.12. klo 13.15</li>
+</ul>
+
+
+---
 ## Kuvailuryhmän muistio 5/2023
 
 Aika: 24.5.2023 klo 13.00–13.35
