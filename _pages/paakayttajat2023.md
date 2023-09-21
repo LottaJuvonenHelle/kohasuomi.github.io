@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 38 muistio
 
 Aika: Keskiviikko 20.9.2023 klo 13 <br />
-Läsnä: Anni Rajala (Vaski), Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
+Läsnä: Anni Rajala (Vaski), Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
 
 **HUOM!** Eri kokousaika kuin yleensä!
 
@@ -54,6 +54,9 @@ Etelästä pohjoiseen
 * Lopetetaan ”Tarkista osoite”-täpän käyttö asiakkaan tiedoissa. Jatkossa tieto virheellisestä postiosoitteesta laitetaan "Lisää viesti" -toiminnolla. Näin asiakas ei mene lainauskieltoon virheellisen postiosoitteen vuoksi.
 * Ilmeisesti kaikki Oulunkaaren kuntien kirjastojen Ceepos-palvelimet siirtyvät CPU:n palvelimelle lokakuun aikana. Yhteysosoitteen muutospyyntö tullut jo Pudasjärveltä ja Iistä. Teemme tiketit kaikista sitä mukaan kun ne tulevat.
 
+**Kyyti**
+* Olen vihdoin päivittämässä Kyytin henkilökunnan käyttöoikeuksia. Pyysin jos jostain kimpasta voisi lähettää omat ohjeet verrattavaksi.
+* Tein tiketin [782](https://github.com/KohaSuomi/Koha/issues/782) Automaatti laskee yhteen takaajan ja taattavan maksut
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-38-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
