@@ -17,12 +17,19 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 21.9.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Ari, Emmi, Johanna, Lasse, Lari, Pasi
 
 * Mitä tehdään Versionvaihto-projektissa oleville version 22.xx-tiketeille?
   * siirto Tikettien seuranta -projektiin? Vai jotain muuta?
+  * Annetaan olla Versionvaihto-projektissa ja pyritään saamaan ne valmiiksi ennen 23-versiota.
 * Entä siirretäänkö 22.xx-tiketit Koha-repoon?
-* Tilastointiliitännäisen, Raportteri, rajapinta PowerBI:lle, mikä näiden keskinäinen rooli ja tilanne?
+* Tilastointiliitännäisen, Raportteri (Gispositio), rajapinta PowerBI:lle, mikä näiden keskinäinen rooli ja tilanne?
+  * voiko Raportterin kautta tuotettuja JSONeja hyödyntää PowerBI:n osalta? Emmi ehdottaa palsua Turun kanssa.
+  * Raportterin osalta odotetaan edelleen Helsingin kaupunginkirjastosta uusia palvelintietoja.
+  * keskustellaan asiantuntijaryhmässä päällekkäisistä tilastointiratkaisuista
+    * tarvitaanko tilastointiliitännäiseen muita kuin okm-tilastot, jos tietoja viedään PowerBI:hin.
+* Cinast.fi lähestynyt Aria rajapintayhteyttä pyytäen. Lari vastaa tarjoten borrowers/status-endpointia.
+* Vkon 39 päivitys
 
 ### Maanantai 18.9.2023 klo 9
 
