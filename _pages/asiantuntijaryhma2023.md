@@ -22,15 +22,23 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
-### 2. Koha-seminaari
+### 2. Koha-seminaari 28.11.2023
 
-### 3. Tiekartan päivitys
+Koha-seminaari järjestetään 28.11.2023 pääkaupunkiseudulla. Aiheena tulee olemaan mm. kuvailu, Bibframe, linkitetty data.
 
-### 4. Versionvaihdon valmistelu
+### 3. Kolmannen osapuolten palvelujen liittäminen Kohaan
+
+Kunnat haluavat enenevässä määrin liittää erilaisia palveluja (esim. kuntasovelluksia) Kohan rajapintaan. Kun liitäntää aletaan suunnittelemaan, pitäisi Koha-Suomi ottaa mukaan suunnitteluun heti alkuvaiheessa, jotta tiedetään, mitä järjestelmään on yhdistettynä ja tarvittaessa aikatauluttaa työaikaa käyttöönottoon.
+
+### 4. Tiekartan päivitys
+
+### 5. Versionvaihdon valmistelu
 
 Versionvaihdon valmistelu on alkanut ja siirrettävät ominaisuudet pitää käydä läpi ja päättää, mitkä ominaisuudet ja muutokset viedään seuraavaan versioon.
 
-### x. Seuraavat kokoukset
+### 6. Kehitysehdotusten läpikäyntiä
+
+### 7. Seuraavat kokoukset
 
 ## Asiantuntijaryhmän muistio 5/23
 
