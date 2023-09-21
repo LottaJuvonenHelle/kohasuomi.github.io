@@ -28,17 +28,25 @@ Koha-seminaari järjestetään 28.11.2023 pääkaupunkiseudulla. Aiheena tulee o
 
 ### 3. Kolmannen osapuolten palvelujen liittäminen Kohaan
 
-Kunnat haluavat enenevässä määrin liittää erilaisia palveluja (esim. kuntasovelluksia) Kohan rajapintaan. Kun liitäntää aletaan suunnittelemaan, pitäisi Koha-Suomi ottaa mukaan suunnitteluun heti alkuvaiheessa, jotta tiedetään, mitä järjestelmään on yhdistettynä ja tarvittaessa aikatauluttaa työaikaa käyttöönottoon.
+Kunnat haluavat enenevässä määrin liittää erilaisia palveluja (esim. kuntasovelluksia) Kohan rajapintaan. Kun liitäntää aletaan suunnittelemaan, pitäisi Koha-Suomi ottaa mukaan suunnitteluun heti alkuvaiheessa, jotta tiedetään, mitä järjestelmään on yhdistettynä ja voidaan tarvittaessa aikatauluttaa työaikaa käyttöönottoon.
 
 ### 4. Tiekartan päivitys
+
+Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/asiantuntijaryhma2023#4-tiekartan-p%C3%A4ivitys-1).
 
 ### 5. Versionvaihdon valmistelu
 
 Versionvaihdon valmistelu on alkanut ja siirrettävät ominaisuudet pitää käydä läpi ja päättää, mitkä ominaisuudet ja muutokset viedään seuraavaan versioon.
 
-### 6. Kehitysehdotusten läpikäyntiä
+### 6. Tilastointityökalut ja rajapinnat
 
-### 7. Seuraavat kokoukset
+Vuonna 2021 kokoontui tilastointityöryhmä, joka keräsi yhteen kuntien tyypilliset tilastointitarpeet. Ne koottiin silloin Redmineen [Tilastotarpeet](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tilastoty%C3%B6ryhm%C3%A4) -sivulle ja niiden pohjalta on hiljalleen tehty toimintoja Raportointityökalu-liitännäiseen. Ajan kuluessa kunnissa on kuitenkin haluttu edistää tilastojen visualisointia PowerBI-ohjelman kautta ja sitä varten on luotu erinäisiä raportteja. PowerBI:tä varten on tällä hetkellä myös tarpeita säännölliseen tietojen vientiin erilaisiin tietovarantoihin. Lisäksi on luotu myös Raportteri-rajapinta, joka vie tietoja Gisposition ylläpitämään Raportointipalveluun. Kaikissa näissä tilastointitarpeet ovat melko samoja, joten voidaanko tarpeet yhdistää ja tuottaa kolmen eri palvelun sijasta yksi tai kaksi?
+
+### 7. Kehitysehdotusten läpikäyntiä
+
+### 8. Muut asiat
+
+### 9. Seuraavat kokoukset
 
 ## Asiantuntijaryhmän muistio 5/23
 
