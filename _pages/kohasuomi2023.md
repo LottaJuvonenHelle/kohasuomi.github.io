@@ -22,6 +22,7 @@ Läsnä:
 * Mitä tehdään Versionvaihto-projektissa oleville version 22.xx-tiketeille?
   * siirto Tikettien seuranta -projektiin? Vai jotain muuta?
 * Entä siirretäänkö 22.xx-tiketit Koha-repoon?
+* Tilastointiliitännäisen, Raportteri, rajapinta PowerBI:lle, mikä näiden keskinäinen rooli ja tilanne?
 
 ### Maanantai 18.9.2023 klo 9
 
