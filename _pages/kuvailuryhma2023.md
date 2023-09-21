@@ -40,7 +40,7 @@ Kokouksen jälkeen lisätty tiketti: <a href="https://github.com/KohaSuomi/Koha/
 <ul>
   <li>Muistakaa viedä Melindasta tuodut tietueet aina takaisin Melindaan, jotta päivitysyhteys pysyy. Muuten tietueet eivät pysy ajan tasalla ja voi käydä niin, että muokataan vahingossa vanhentuneita tietueita turhaan.</li>
   <li>Koska Nalkutin ei toimi tällä hetkellä, muistakaa laittaa oikeat indikaattorit. Huomatkaa varsinkin kenttä 648, jossa YSO-aika-plugin ei aseta indikaattoria automaattisesti, vaan indikaattori on laitettava käsin. Kentässä 2. indikaattori on joko 4 tai 7.</li>
-  <li>TäTissä on edelleen paljon Koha-Suomen kirjastojen kuvailemia tai muokkaamia tietueita, joissa on MARC-virheitä. Näitä voisi korjailla oman kimpan käsittelemien tietueiden osalta silloin kun aikaa on tai poistaa tietueet ehkä kokonaan, jos ne ovat jo vanhentuneita. Oman kimpan virheellisiä tietueita voi hakea virheellisten tietueiden listasta selaimen Find-toimintoa käyttämällä omalla ISIL-tunnuksella: <a href="https://tati.koha-suomi.fi/marc_virheet.tatiprod.html" target="_blank">TäTIn virheelliset tietueet</a> </li>
+  <li>TäTissä on edelleen paljon Koha-Suomen kirjastojen kuvailemia tai muokkaamia tietueita, joissa on MARC-virheitä. Näitä voisi korjailla oman kimpan käsittelemien tietueiden osalta silloin kun aikaa on tai poistaa tietueet ehkä kokonaan, jos ne ovat jo vanhentuneita. Oman kimpan virheellisiä tietueita voi hakea virheellisten tietueiden listasta selaimen Find-toimintoa käyttämällä omalla ISIL-tunnuksella: <a href="https://tati.koha-suomi.fi/marc_virheet.tatiprod.html" target="_blank">TäTin virheelliset tietueet</a> </li>
 </ul>
 
 #### 5.	Marc-virheraportin korjausajot ####
