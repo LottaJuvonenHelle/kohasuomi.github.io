@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viiko 39 muistiot
+
+### Maanantai 25.9.2023 klo 9
+
+Läsnä:
+
+* "Bugi-perjantait" - milloin aloitetaan?
+
 ## Viikon 38 muistiot
 
 ### Torstai 21.9.2023 klo 10
