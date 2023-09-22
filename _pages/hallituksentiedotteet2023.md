@@ -11,6 +11,31 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 7/2023
+
+Tuttuun tapaan kävimme kokouksessa läpi toimitusjohtajan raportin ja taloustilanteen. Talouden osalta mennään ihan suunnitelman mukaisesti. Toimitusjohtajan raportin iso asia on Kirkes-kimpan käyttöönotto ja Lastu-kirjastojen käyttöönoton aloittaminen. Isoja muutoksia meidän Koha-Suomen kokoonpanollemme. Yhtiökokous antoi tehtäväksi valmistella osakassopimuksen päivittämisen ja sen puitteissa käytiin hyvä ja monipuolinen lähetekeskustelu. Asia annettiin Arille ja kahdelle hallitusjäsenelle valmisteltavaksi.
+
+Asiantuntijaryhmäkin päätettiin uudestaan, että saatiin Helli-kimpan varajäseneksi oikea nimi. Kertauksen vuoksi vielä kokonaisuus:
+
+Helle: Kati Sillgren, **Tove Selkälä** (vara)<br />
+Kirkes: Riikka Mustajärvi, Anu Järvi (vara)<br />
+Kyyti: Tuomas Kunttu, Roosa Väisänen (vara)<br />
+Lappi: Leena Kinnunen, Pia Kusmin (vara)<br />
+Lumme: Hanna Ikonen, Katja Valjakka (vara)<br />
+Outi: Noora Valkonen, Piia Semenoff (vara)<br />
+Vaara: Päivi Knuutinen, Irina Halminen (vara)<br />
+Vaski: Susanna Sandell, Asko Autio (vara)  
+
+Lopuksi keskusteltiin lyhyesti viimeisistä käyttökatkoista, joita on ollut Vaskissa ja OUTIssa, kehittäjät ovat etsineet syitä ja löytäneet ratkaisuja katkojen ehkäisemiseksi.
+
+Marraskuun Koha-seminaarin 28.11. ohjelma on hyvässä valmistelussa ja paikkana tulee olemaan Helsingin seutu.
+
+Liite: [Toimitusjohtajanraportti 7_2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/12699178/Toimitusjohtajanraportti7_2023.pdf)
+
+Leppoisaa viikonloppua kaikille!
+
+T. Rebekka, hallituksen pj.
+
 ## Koha-Suomen hallituksen tiedote 6/2023
 
 Hei kaikille!
