@@ -20,6 +20,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * "Bugi-perjantait" - milloin aloitetaan?
+* [Tulossa: metatietowebinaari](https://www.kirjastot.fi/ammattikalenteri/koulutus-ja-seminaarit/tulossa-metatietowebinaari?language_content_entity=fi) 27.11.2023 (Koha-seminaaria edeltävä päivä)
 
 ## Viikon 38 muistiot
 
