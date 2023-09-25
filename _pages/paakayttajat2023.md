@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
+* [Onko kaikilla kunnossa #572](https://github.com/KohaSuomi/Koha/issues/572)?
 
 Pohjoisesta etelään
 
