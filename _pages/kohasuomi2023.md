@@ -17,10 +17,13 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 25.9.2023 klo 9
 
-Läsnä:
+Läsnä: Anneli, Pasi, Johanna, Lasse, Kodo, Lari, Emmi, Ari
 
 * "Bugi-perjantait" - milloin aloitetaan?
+  * "Bugiton" perjantaina 13.10.2023 klo 13-15
 * [Tulossa: metatietowebinaari](https://www.kirjastot.fi/ammattikalenteri/koulutus-ja-seminaarit/tulossa-metatietowebinaari?language_content_entity=fi) 27.11.2023 (Koha-seminaaria edeltävä päivä)
+* Kirkes-matrixin ja repon "sulku" lokakuun aikana.
+* Viikon 39 päivitys
 
 ## Viikon 38 muistiot
 
