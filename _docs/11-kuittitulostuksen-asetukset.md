@@ -45,8 +45,8 @@ ulkonäöstä.
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer3.png)
 
 Käy tarkistamassa **Asettelu**-välilehdeltä, että Paperikoko- ja
-Tulostuspaperi -asetukset ovat oikein. Toiminnot riippuvat
-kuittitulostimen valinnoista.
+Tulostuspaperi -asetukset ovat oikein. Kuitin koko voi olla esimerkiksi 80 x 297 mm, 
+72 x kuitti tms. Toiminnot riippuvat kuittitulostimen valinnoista.
 
 ![](/assets/files/docs/Kuittitulostuksen_asetukset/printer2.png)
 
