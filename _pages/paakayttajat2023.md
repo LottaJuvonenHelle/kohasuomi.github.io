@@ -10,10 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 39 muistio
+
+Aika: 26.9.2023 klo 9 <br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-39-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 38 muistio
 
 Aika: Keskiviikko 20.9.2023 klo 13 <br />
-Läsnä: Anni Rajala (Vaski), Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anni Rajala (Vaski), Pia Kusmin (Lappi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Lari Strand ja Pasi Kallinen (Koha-Suomi)
 
 **HUOM!** Eri kokousaika kuin yleensä!
 
