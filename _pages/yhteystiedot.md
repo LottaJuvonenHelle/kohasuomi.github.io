@@ -21,7 +21,7 @@ Sähköpostiosoitteet ovat muotoa etunimi.sukunimi@koha-suomi.fi
 | Ari Mäkiranta | Toimitusjohtaja | Joensuu | 050 330 3927 | |
 | Anneli Österman | Järjestelmäsuunnittelija | Oulu | 0400 174 353 |  |
 | Kodo Korkalo | Vanhempi järjestelmäkehittäjä | Oulu / Raasepori | 050 316 6577 |  |
-| Johanna Räisä | Vanhempi järjestelmäkehittäjä | Mikkeli | 040 129 4285 | Vanhempainvapaalla |
+| Johanna Räisä | Vanhempi järjestelmäkehittäjä | Mikkeli | 040 129 4285 |  |
 | Pasi Kallinen | Järjestelmäkehittäjä | Kouvola | 0400 174 235 |  |
 | Lasse Pouru | Järjestelmäkehittäjä | Turku | 040 484 9053 | |
 | Lari Strand | Järjestelmäkehittäjä | Joensuu | 040 017 4010 | |
