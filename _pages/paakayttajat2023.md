@@ -37,7 +37,7 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI)
 * OUTIssa on vielä kesken Finna-tuen kanssa Muu nimi-kentän näkymään saaminen Finnassa. Se laitetaan näkyville ensin OUTIn testi-Finnaan.
 * Pirkko-Liisa oli laittanut Finna-tukeen viestiä, kun väärä PIN-koodin antaminen tuplaa asiakkaan epäonnistuneiden kirjautumisten määrän. Finna-tuki lupasi tutkia ja kyseli Kohan pään plugareista. Viesti välitettiin Koha-kehittäjille.
 * Vaalan kirjaston remontti on loppumassa, joten huomenna tehdään 27.9.2023 avaustoimenpiteitä.
-* Raahen kokoelmaan on haluttu tilata vain yksi nuotti, mutta Kohassa tietueen tilaustiedoissa näkyy, että nuotteja on tilattu yhteensä 4 kpl. Näyttäisi, että EditX:n kautta on tilattu ensin kolme nidettä ja vajaata viikkoa myöhemmin hankintaportaalin kautta 1 kpl. Edifact-sanomassa tilattujen niteiden määrä näyttää olevan kolme ja hankintaportaalissa näkyy tilausmääränä yksi. Raahelaiset ovat ottaneet yhteyttä Kirjastopalveluun, mutta vielä ei ole sieltä vastausta saatu.
+* Raahen kokoelmaan on haluttu tilata vain yksi nuotti, mutta Kohassa tietueen tilaustiedoissa näkyy, että nuotteja on tilattu yhteensä 4 kpl. Näyttäisi, että EditX:n kautta on tilattu ensin kolme nidettä ja vajaata viikkoa myöhemmin hankintaportaalin kautta 1 kpl. Edifact-sanomassa tilattujen niteiden määrä näyttää olevan kolme ja hankintaportaalissa näkyy tilausmääränä yksi. Raahelaiset ovat ottaneet yhteyttä Kirjastopalveluun, mutta vielä ei ole sieltä vastausta saatu. Tietue: https://outi.koha-suomi.fi/cgi-bin/koha/catalogue/detail.pl?biblionumber=2311377
 
 Pohjoisesta etelään
 
