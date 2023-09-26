@@ -48,7 +48,7 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), 
 * Yhteisö-asiakastyypin asiakastietojen Etunimi-kenttäarvot kopioitu Sukunimi-kenttään ja Etunimi-kenttäarvot poistettu.
 
 **Kirkes**
-*EditX-hankintaan ja laskutukseen liittyvät valmistelut käynnissä. 
+* EditX-hankintaan ja laskutukseen liittyvät valmistelut käynnissä. 
   
 Pohjoisesta etelään
 
