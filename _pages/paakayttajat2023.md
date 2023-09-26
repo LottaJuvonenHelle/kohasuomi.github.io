@@ -45,7 +45,7 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), 
 * EditX-virheitä, koska ei ole vielä ennätetty tehdä ensi vuoden tilejä
 
 **Helle**
-* Yhteisö-asiakastyypin asiakastietojen Etunimi-kenttäarvot kopioitu Sukunimi-kenttään ja Etunimni-kenttäarvot poistettu.
+* Yhteisö-asiakastyypin asiakastietojen Etunimi-kenttäarvot kopioitu Sukunimi-kenttään ja Etunimi-kenttäarvot poistettu.
   
 Pohjoisesta etelään
 
