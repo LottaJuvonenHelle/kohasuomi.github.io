@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39 muistio
 
 Aika: 26.9.2023 klo 9 <br />
-Läsnä: Susanna Sandell (Vaski)
+Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
@@ -21,7 +21,11 @@ Läsnä: Susanna Sandell (Vaski)
 * Muistin virkistykseksi: [Tikettien tekeminen ja kommentointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi) sekä [Tietoturvaohjeet](https://koha-suomi.fi/dokumentaatio/tietoturvaohje/)
 * "Bugi-perjantait" - milloin aloitetaan?
   * "Bugiton" perjantaina 13.10.2023 klo 13-15
- 
+
+**Vaara**
+* Itsepalvelulainaus testataan käännösten osalta Kiihtelysvaarassa.
+* Omatoimen käyttökiellon poistuminen automaattisesti asiakkaalla määräajan jälkeen (varmistus).
+
 **Vaski**
 * Keskustelua asiakashaun toiminnallisuudesta (Koha avaa suoraan asiakastiedot jos hakutuloksia vain yksi. Haussa toimii katkaisu eli ”virta” -haulla voi hakutulokseksi tulla virtanen. Vaskin mielestä olisi parempi että vain korttinumerolla haettaessa haku veisi suoraan hakutulokseen, muissa hauissa käyttäjä päätyisi aina hakutuloslistaan. Tällä pyrittäisiin vähentämään nimihakuun liittyviä virhemahdollisuuksia. Hakutuloslistaan päätyminen ei saanut kannatusta.
 * Olisi hyvä, jos automaatilla voisi lainata jo lainassa olevaa, kuten virkailijaliittymässä (tapahtuu palautus ja lainaus). Yhteisöstä löytyy tästä tiketti: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=18317. Sovittiin, että Vaski tekee tiketin.
