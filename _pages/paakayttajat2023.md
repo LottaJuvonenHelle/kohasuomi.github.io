@@ -19,6 +19,9 @@ Läsnä:
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
 * [Onko kaikilla kunnossa #572](https://github.com/KohaSuomi/Koha/issues/572)?
 * Muistin virkistykseksi: [Tikettien tekeminen ja kommentointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi) sekä [Tietoturvaohjeet](https://koha-suomi.fi/dokumentaatio/tietoturvaohje/)
+* "Bugi-perjantait" - milloin aloitetaan?
+  * "Bugiton" perjantaina 13.10.2023 klo 13-15
+
 
 Pohjoisesta etelään
 
