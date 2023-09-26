@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39 muistio
 
 Aika: 26.9.2023 klo 9 <br />
-Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi)
+Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
@@ -43,6 +43,9 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), 
 * Konversiossa Origosta Kohaan on yhdestä kirjastosta tullut tietueita, joissa kielikoodit eivät ole standardin mukaisia, vaan avattuna (esim. suomi, tanska). Nämä ovat konversiossa siirtyneet kielikenttiin toistumina esim. suo, mi, tan, ska, ja näkyvät nyt Finnassa erikoisina kielinä, esim. maori. tsimisi.
 * Tuplahankintojen selvittelyä edelleen.
 * EditX-virheitä, koska ei ole vielä ennätetty tehdä ensi vuoden tilejä
+
+**Helle**
+* Yhteisö-asiakastyypin asiakastietojen Etunimi-kenttäarvot kopioitu Sukunimi-kenttään ja Etunimni-kenttäarvot poistettu.
   
 Pohjoisesta etelään
 
