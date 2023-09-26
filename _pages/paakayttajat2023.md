@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39 muistio
 
 Aika: 26.9.2023 klo 9 <br />
-Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI)
+Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
@@ -39,6 +39,11 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI)
 * Vaalan kirjaston remontti on loppumassa, joten huomenna tehdään 27.9.2023 avaustoimenpiteitä.
 * Raahen kokoelmaan on haluttu tilata vain yksi nuotti, mutta Kohassa tietueen tilaustiedoissa näkyy, että nuotteja on tilattu yhteensä 4 kpl. Näyttäisi, että EditX:n kautta on tilattu ensin kolme nidettä ja vajaata viikkoa myöhemmin hankintaportaalin kautta 1 kpl. Edifact-sanomassa tilattujen niteiden määrä näyttää olevan kolme ja hankintaportaalissa näkyy tilausmääränä yksi. Raahelaiset ovat ottaneet yhteyttä Kirjastopalveluun, mutta vielä ei ole sieltä vastausta saatu. Tietue: https://outi.koha-suomi.fi/cgi-bin/koha/catalogue/detail.pl?biblionumber=2311377
 
+**Lappi**
+* Konversiossa Origosta Kohaan on yhdestä kirjastosta tullut tietueita, joissa kielikoodit eivät ole standardin mukaisia, vaan avattuna (esim. suomi, tanska). Nämä ovat konversiossa siirtyneet kielikenttiin toistumina esim. suo, mi, tan, ska, ja näkyvät nyt Finnassa erikoisina kielinä, esim. maori. tsimisi.
+* Tuplahankintojen selvittelyä edelleen.
+* EditX-virheitä, koska ei ole vielä ennätetty tehdä ensi vuoden tilejä
+  
 Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-39-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
