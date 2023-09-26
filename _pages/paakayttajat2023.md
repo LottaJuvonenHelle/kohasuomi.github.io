@@ -23,7 +23,7 @@ Läsnä: Susanna Sandell (Vaski)
   * "Bugiton" perjantaina 13.10.2023 klo 13-15
  
 **Vaski**
-* Keskustellaan asiakashaun toiminnallisuudesta (Koha avaa suoraan asiakastiedot jos hakutuloksia vain yksi. Haussa toimii katkaisu eli ”virta” -haulla voi hakutulokseksi tulla virtanen. Vaskin mielestä olisi parempi että vain korttinumerolla haettaessa haku veisi suoraan hakutulokseen, muissa hauissa käyttäjä päätyisi aina hakutuloslistaan. Tällä pyrittäisiin vähentämään nimihakuun liittyviä virhemahdollisuuksia. Hakutuloslistaan päätyminen ei saanut kannatusta.
+* Keskustelua asiakashaun toiminnallisuudesta (Koha avaa suoraan asiakastiedot jos hakutuloksia vain yksi. Haussa toimii katkaisu eli ”virta” -haulla voi hakutulokseksi tulla virtanen. Vaskin mielestä olisi parempi että vain korttinumerolla haettaessa haku veisi suoraan hakutulokseen, muissa hauissa käyttäjä päätyisi aina hakutuloslistaan. Tällä pyrittäisiin vähentämään nimihakuun liittyviä virhemahdollisuuksia. Hakutuloslistaan päätyminen ei saanut kannatusta.
 * Olisi hyvä, jos automaatilla voisi lainata jo lainassa olevaa, kuten virkailijaliittymässä (tapahtuu palautus ja lainaus). Yhteisöstä löytyy tästä tiketti: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=18317. Sovittiin, että Vaski tekee tiketin.
 * AVIn lakikoulutuksessa mainittiin, että ” Lainauskielto tulee poistaa kun maksut vanhenevat” Heräteltiin keskustelu maksujen vanhenemisesta Kohassa. Asia siirtyi Koha-Suomen kehittäjien palaveriin
 * Vaski siirtyi tänään tuotantoon uuden nidetilojen priorisoinnin osalta Finnan saatavuustiedoissa. Ohjeet priorisoinnin muuttamiseen tulevat tähän tikettiin: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/2
