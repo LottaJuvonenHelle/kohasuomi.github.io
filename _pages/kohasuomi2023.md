@@ -15,6 +15,17 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 39 muistiot
 
+### Torstai 28.9.2023 klo 10
+
+Läsnä:
+
+* [Syntymäaikojen poistoajolle](https://github.com/KohaSuomi/Koha/issues/778) tekijä
+* Vanhentuneet maksut -poistoajoa kaipailtiin pääkäyttäjäpalsussa.
+  * miten tehdään? (write off?)
+  * kuka tekee?
+  * aikataulu?
+
+
 ### Maanantai 25.9.2023 klo 9
 
 Läsnä: Anneli, Pasi, Johanna, Lasse, Kodo, Lari, Emmi, Ari
