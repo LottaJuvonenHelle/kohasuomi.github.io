@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39 muistio
 
 Aika: 26.9.2023 klo 9 <br />
-Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi), Kati Sillgren (Helle)
+Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi), Kati Sillgren (Helle), Annika Helastila (Kirkes), Erika Miettinen (Kirkes), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
@@ -46,6 +46,9 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), 
 
 **Helle**
 * Yhteisö-asiakastyypin asiakastietojen Etunimi-kenttäarvot kopioitu Sukunimi-kenttään ja Etunimi-kenttäarvot poistettu.
+
+**Kirkes**
+*EditX-hankintaan ja laskutukseen liittyvät valmistelut käynnissä. 
   
 Pohjoisesta etelään
 
