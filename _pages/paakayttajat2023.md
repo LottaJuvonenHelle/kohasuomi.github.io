@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39 muistio
 
 Aika: 26.9.2023 klo 9 <br />
-Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara)
+Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
