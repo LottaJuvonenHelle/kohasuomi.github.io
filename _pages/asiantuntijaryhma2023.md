@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 6/23
 
 Aika: To 28.9.2023 klo 13-15<br />
-Läsnä:
+Läsnä: Noora, Irina, Ari, Kati, Leena, Katja, Susanna, Riikka, Tuomas, Anneli, Kodo
 
 ### 1. Arin ajankohtaiset
 
@@ -30,6 +30,10 @@ Lastu-kimpan käyttöönottoprojenktin avauspalaveri oli 27.9. ja käyttöönott
 
 Koha-seminaari järjestetään 28.11.2023 pääkaupunkiseudulla. Aiheena tulee olemaan mm. kuvailu, Bibframe, linkitetty data.
 
+Riikka selvittelee, löytyisikö Kirkes-alueelta sopivaa, n. 100 hengen tilaa.
+
+Pääsääntöisesti lähiosallistumisena, jotta saadaan pidettyä myös työpajoja.
+
 ### 3. Kolmannen osapuolten palvelujen liittäminen Kohaan
 
 Kunnat haluavat enenevässä määrin liittää erilaisia palveluja (esim. kuntasovelluksia) Kohan rajapintaan. Kun liitäntää aletaan suunnittelemaan, pitäisi Koha-Suomi ottaa mukaan suunnitteluun heti alkuvaiheessa, jotta tiedetään, mitä järjestelmään on yhdistettynä ja voidaan tarvittaessa aikatauluttaa työaikaa käyttöönottoon.
@@ -38,22 +42,46 @@ Kunnat haluavat enenevässä määrin liittää erilaisia palveluja (esim. kunta
 
 Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/asiantuntijaryhma2023#4-tiekartan-p%C3%A4ivitys-1).
 
+Päätös: Siirretään käsittely seuraavaan kokoukseen
+
 ### 5. Versionvaihdon valmistelu
 
 Versionvaihdon valmistelu on alkanut ja siirrettävät ominaisuudet pitää käydä läpi ja päättää, mitkä ominaisuudet ja muutokset viedään seuraavaan versioon.
 
+Päätös: Kaikki selvittää seuraavaan kokoukseen, mikä ajankohta versionvaihdolle olisi hyvä keväällä 2024. Alustavasti on puhuttu kevään 2023 kokouksissa toukokuusta 2024.
+
+Ominaisuuksien läpikäynti aloitetaan seuraavassa kokouksessa.
+
 ### 6. Tilastointityökalut ja rajapinnat
 
 Vuonna 2021 kokoontui tilastointityöryhmä, joka keräsi yhteen kuntien tyypilliset tilastointitarpeet. Ne koottiin silloin Redmineen [Tilastotarpeet](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tilastoty%C3%B6ryhm%C3%A4) -sivulle ja niiden pohjalta on hiljalleen tehty toimintoja Raportointityökalu-liitännäiseen. Ajan kuluessa kunnissa on kuitenkin haluttu edistää tilastojen visualisointia PowerBI-ohjelman kautta ja sitä varten on luotu erinäisiä raportteja. PowerBI:tä varten on tällä hetkellä myös tarpeita säännölliseen tietojen vientiin erilaisiin tietovarantoihin. Lisäksi on luotu myös Raportteri-rajapinta, joka vie tietoja Gisposition ylläpitämään Raportointipalveluun. Kaikissa näissä tilastointitarpeet ovat melko samoja, joten voidaanko tarpeet yhdistää ja tuottaa kolmen eri palvelun sijasta yksi tai kaksi?
+
+Päätös: Selvitetään seuraavaksi kerraksi kimpoissa, onko edelleen tarvetta Koha-Suomen omalle tilastoliitännäiselle, vai voiko sen korvata PowerBI-raporteilla.
 
 ### 7. Kehitysehdotusten läpikäyntiä
 
 * [#3872 Asiakkaiden poisto](https://tiketti.koha-suomi.fi/issues/3872)
 * [#3870 Tarratulostin: kenttien toistumat tarralle](https://tiketti.koha-suomi.fi/issues/3870)
 
+Päätös: Siirretään käsittely seuraavaan kokoukseen ja kerätään lisää käsiteltäviä sitä ennen.
+
 ### 8. Muut asiat
 
+Ajojärjestysmuutos, kodo kirjoittaa tähän jotain...
+
+Kuvailun työkalujen valmiiksisaattaminen.
+
+Asiantuntijaryhmän toimikauden jatkuminen siihen saakka kuin uusi aloittaa.
+
 ### 9. Seuraavat kokoukset
+
+to 12.10. klo 12
+ma 30.10. klo 13
+ma 20.11. klo 13
+ma 11.12. klo 13
+ma 15.1.24 klo 13
+ma 5.2.24 klo 13
+ma 26.2.24 klo 13
 
 ## Asiantuntijaryhmän muistio 5/23
 
