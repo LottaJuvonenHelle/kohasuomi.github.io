@@ -44,6 +44,9 @@ Vuonna 2021 kokoontui tilastointityöryhmä, joka keräsi yhteen kuntien tyypill
 
 ### 7. Kehitysehdotusten läpikäyntiä
 
+* [#3872 Asiakkaiden poisto](https://tiketti.koha-suomi.fi/issues/3872)
+* [#3870 Tarratulostin: kenttien toistumat tarralle](https://tiketti.koha-suomi.fi/issues/3870)
+
 ### 8. Muut asiat
 
 ### 9. Seuraavat kokoukset
