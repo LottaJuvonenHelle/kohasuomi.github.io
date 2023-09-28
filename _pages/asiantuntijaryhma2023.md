@@ -75,13 +75,13 @@ Asiantuntijaryhmän toimikauden jatkuminen siihen saakka kuin uusi aloittaa.
 
 ### 9. Seuraavat kokoukset
 
-to 12.10. klo 12
-ma 30.10. klo 13
-ma 20.11. klo 13
-ma 11.12. klo 13
-ma 15.1.24 klo 13
-ma 5.2.24 klo 13
-ma 26.2.24 klo 13
+* to 12.10. klo 12
+* ma 30.10. klo 13
+* ma 20.11. klo 13
+* ma 11.12. klo 13
+* ma 15.1.24 klo 13
+* ma 5.2.24 klo 13
+* ma 26.2.24 klo 13
 
 ## Asiantuntijaryhmän muistio 5/23
 
