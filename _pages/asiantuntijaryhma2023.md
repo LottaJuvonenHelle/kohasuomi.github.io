@@ -22,6 +22,10 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+Kirkes-kimppa aloitti syyskuussa tuotantokäytön.
+Lastu-kimpan käyttöönottoprojenktin avauspalaveri oli 27.9. ja käyttöönotto on suunniteltu syksyksi 2024.
+
+
 ### 2. Koha-seminaari 28.11.2023
 
 Koha-seminaari järjestetään 28.11.2023 pääkaupunkiseudulla. Aiheena tulee olemaan mm. kuvailu, Bibframe, linkitetty data.
