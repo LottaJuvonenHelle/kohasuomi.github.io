@@ -17,13 +17,20 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 28.9.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli, Emmi, Pasi, Lari, Johanna, Kodo, Lasse, Ari
 
 * [Syntymäaikojen poistoajolle](https://github.com/KohaSuomi/Koha/issues/778) tekijä
 * Vanhentuneet maksut -poistoajoa kaipailtiin pääkäyttäjäpalsussa.
   * miten tehdään? (write off?)
+    * luodaan uusi credit-maksutyyppi "Vanhentuneen maksun mitätöinti" tms., tunnukseksi EXPIRED
+      * pyydetään pääkäyttäjiä luomaan uusi credit-tyyppi
+    * luodaan päivittäin ajettava cron
+    * tehdään raportti, jolla saa tarvittaessa haettua kirjanpitoon merkittävän luottotappion määrän eli lasketaan yhteen EXPIRED-maksut accountlines-taulusta.
   * kuka tekee?
+    * Lari
   * aikataulu?
+    * Lari aloittaa heti koodaamaan ja ensimmäinen ajo, kunhan pääkäyttäjät ovat lisänneet uuden credit-tyypin.
+    * testataan ensin testillä.
 
 
 ### Maanantai 25.9.2023 klo 9
