@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 39 muistio
 
 Aika: 26.9.2023 klo 9 <br />
-Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi), Kati Sillgren (Helle), Annika Helastila (Kirkes), Erika Miettinen (Kirkes), Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti)
+Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi), Kati Sillgren (Helle), Annika Helastila (Kirkes), Erika Miettinen (Kirkes), Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
@@ -56,6 +56,8 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), 
 * Finnan versiopäivitys-foorumilta napattu:
 Kohan REST-pluginiin on nyt tehty korjaus, jotta varausjono laskettaisiin oikein. Tulee siis Kohan puolella voimaan, kun plugini jossain vaiheessa päivitetään vähintään versioon v23.05.03.
 https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/397
+
+*Kotkassa on otettu käyttöön uudet nidetyypit 14MRAJVAR (14 maksut, rajoitettu varaus) liikuntavälineille ja 28MRAJVAR (28 maksut, rajoitettu varaus) soittimille.
 
 Pohjoisesta etelään
 
