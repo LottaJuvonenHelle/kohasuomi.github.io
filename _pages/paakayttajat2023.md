@@ -57,7 +57,7 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), 
 Kohan REST-pluginiin on nyt tehty korjaus, jotta varausjono laskettaisiin oikein. Tulee siis Kohan puolella voimaan, kun plugini jossain vaiheessa päivitetään vähintään versioon v23.05.03.
 https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/397
 
-*Kotkassa on otettu käyttöön uudet nidetyypit 14MRAJVAR (14 maksut, rajoitettu varaus) liikuntavälineille ja 28MRAJVAR (28 maksut, rajoitettu varaus) soittimille.
+* Kotkassa on otettu käyttöön uudet nidetyypit 14MRAJVAR (14 maksut, rajoitettu varaus) liikuntavälineille ja 28MRAJVAR (28 maksut, rajoitettu varaus) soittimille.
 
 Pohjoisesta etelään
 
