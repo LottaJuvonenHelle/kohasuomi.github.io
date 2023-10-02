@@ -25,8 +25,8 @@ Läsnä:
 * pidetään viikosta 41 lähtien yksi pidempi palaveri maanantaisin ja muina viikonpäivinä klo 9 max 15 minuutin palaveri.
   * Lastulaisille viestiä, että aloitetaan ke-palsut 9.15
 * Lari:
-  * vanhentuneet maksut
-  * cinast
+  * vanhentuneet maksut, lisätään credit-tapahtuma (EXPIRED) ja debit-puolella muutetaan vanhentuneen maksurivin amountoutstanding nollaksi.
+  * cinast, tarjottu borrowers/statusta
 * redusointipalaveri, Anneli kysyy pääkäyttäjistä halukkaita mukaantulijoita
 * bugi-perjantain bugien etsintä Annelin, Larin ja Emmin kanssa klo 13
 
