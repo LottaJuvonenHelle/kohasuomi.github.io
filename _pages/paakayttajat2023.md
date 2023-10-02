@@ -16,9 +16,13 @@ Aika: 3.10.2023 klo 9.15 <br />
 Läsnä:
 
 **Yhteiset**
-* vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi?
+* vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
 * api-avaimien teko ja jako jatkossa Koha-Suomessa - ei enää pääkäyttäjien kautta. Perusteena on, että Koha-Suomen pitää tietää, mihin kaikkialle järjestelmä on yhdistetty ja minkälaista kuormaa ne aiheuttavat. Ks. asiantuntijaryhmän muistio palvelujen liittämisestä Kohaan.
 * cinast.fi palvelu liitetään Kohaan borrowers/status-endpointilla.
+* testien redusointipalaveri, ketä kiinnostaisi osallistua ja miettiä, mitä tietoja testeille tarvitaan mukaan?
+* Vanhentuneet maksut - julkisoikeudelliset ja yksityisoikeudelliset maksut ja niiden vanhenemisaika.
+* Viikon 40 päivitys
+* [Bugi-perjantait alkavat 13.10.2023 klo 13-15](https://github.com/KohaSuomi/Koha/discussions/806)
 
 
 ## Viikko 39 muistio
