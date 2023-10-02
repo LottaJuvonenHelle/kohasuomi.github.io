@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi?
+* api-avaimien teko ja jako jatkossa Koha-Suomessa - ei enää pääkäyttäjien kautta. Perusteena on, että Koha-Suomen pitää tietää, mihin kaikkialle järjestelmä on yhdistetty ja minkälaista kuormaa ne aiheuttavat. Ks. asiantuntijaryhmän muistio palvelujen liittämisestä Kohaan.
 
 
 ## Viikko 39 muistio
