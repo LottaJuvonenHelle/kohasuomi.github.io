@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 40 muistiot
+
+### Maanantai 2.10.2023 klo 9
+
+Läsnä:
+
+* Tasku-Warkaus /Emmi
+
 ## Viikon 39 muistiot
 
 ### Torstai 28.9.2023 klo 10
