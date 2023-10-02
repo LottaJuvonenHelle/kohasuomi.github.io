@@ -10,9 +10,18 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 40 muistio
+
+Aika: 3.10.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+* vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi?
+
+
 ## Viikko 39 muistio
 
-Aika: 26.9.2023 klo 9 <br />
+Aika: 26.9.2023 klo 9.15 <br />
 Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi), Kati Sillgren (Helle), Annika Helastila (Kirkes), Erika Miettinen (Kirkes), Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
