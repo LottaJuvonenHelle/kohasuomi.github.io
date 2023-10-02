@@ -18,11 +18,12 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 6/23
 
 Aika: To 28.9.2023 klo 13-15<br />
-Läsnä: Noora, Irina, Ari, Kati, Leena, Katja, Susanna, Riikka, Tuomas, Anneli, Kodo
+Läsnä: Noora Valkonen (OUTI), Irina Halminen (Vaara), Ari Mäkiranta (Koha-Suomi), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Katja Valjakka (Lumme), Susanna Sandell (Vaski), Riikka Mustajärvi (Kirkes), Tuomas Kunttu (Kyyti), Anneli Österman (Koha-Suomi), Kodo Korkalo (Koha-Suomi)
 
 ### 1. Arin ajankohtaiset
 
-Kirkes-kimppa aloitti syyskuussa tuotantokäytön.
+Kirkes-kimppa aloitti syyskuussa tuotantokäytön. 
+
 Lastu-kimpan käyttöönottoprojenktin avauspalaveri oli 27.9. ja käyttöönotto on suunniteltu syksyksi 2024.
 
 
@@ -30,9 +31,7 @@ Lastu-kimpan käyttöönottoprojenktin avauspalaveri oli 27.9. ja käyttöönott
 
 Koha-seminaari järjestetään 28.11.2023 pääkaupunkiseudulla. Aiheena tulee olemaan mm. kuvailu, Bibframe, linkitetty data.
 
-Riikka selvittelee, löytyisikö Kirkes-alueelta sopivaa, n. 100 hengen tilaa.
-
-Pääsääntöisesti lähiosallistumisena, jotta saadaan pidettyä myös työpajoja.
+Riikka selvittelee, löytyisikö Kirkes-alueelta sopivaa, n. 100 hengen tilaa, jossa seminaari voitaisiin pitää. Seminaari pyritään järjesteämään tänä vuonna pääsääntöisesti lähiosallistumisena, jotta saadaan pidettyä myös työpajoja.
 
 ### 3. Kolmannen osapuolten palvelujen liittäminen Kohaan
 
@@ -42,38 +41,38 @@ Kunnat haluavat enenevässä määrin liittää erilaisia palveluja (esim. kunta
 
 Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/asiantuntijaryhma2023#4-tiekartan-p%C3%A4ivitys-1).
 
-Päätös: Siirretään käsittely seuraavaan kokoukseen
+**Päätös:** Siirretään käsittely seuraavaan kokoukseen.
 
 ### 5. Versionvaihdon valmistelu
 
 Versionvaihdon valmistelu on alkanut ja siirrettävät ominaisuudet pitää käydä läpi ja päättää, mitkä ominaisuudet ja muutokset viedään seuraavaan versioon.
 
-Päätös: Kaikki selvittää seuraavaan kokoukseen, mikä ajankohta versionvaihdolle olisi hyvä keväällä 2024. Alustavasti on puhuttu kevään 2023 kokouksissa toukokuusta 2024.
+**Päätös:** Kaikki selvittävät seuraavaan kokoukseen, mikä ajankohta versionvaihdolle olisi hyvä keväällä 2024. Alustavasti on puhuttu kevään 2023 kokouksissa toukokuusta 2024.
 
-Ominaisuuksien läpikäynti aloitetaan seuraavassa kokouksessa.
+Ominaisuuksien läpikäynti aloitetaan seuraavassa kokouksessa, johon mennessä ne on saatu lisättyä [versionvaihdon repositorioon](https://github.com/KohaSuomi/Koha-23x/issues).
 
 ### 6. Tilastointityökalut ja rajapinnat
 
 Vuonna 2021 kokoontui tilastointityöryhmä, joka keräsi yhteen kuntien tyypilliset tilastointitarpeet. Ne koottiin silloin Redmineen [Tilastotarpeet](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/Tilastoty%C3%B6ryhm%C3%A4) -sivulle ja niiden pohjalta on hiljalleen tehty toimintoja Raportointityökalu-liitännäiseen. Ajan kuluessa kunnissa on kuitenkin haluttu edistää tilastojen visualisointia PowerBI-ohjelman kautta ja sitä varten on luotu erinäisiä raportteja. PowerBI:tä varten on tällä hetkellä myös tarpeita säännölliseen tietojen vientiin erilaisiin tietovarantoihin. Lisäksi on luotu myös Raportteri-rajapinta, joka vie tietoja Gisposition ylläpitämään Raportointipalveluun. Kaikissa näissä tilastointitarpeet ovat melko samoja, joten voidaanko tarpeet yhdistää ja tuottaa kolmen eri palvelun sijasta yksi tai kaksi?
 
-Päätös: Selvitetään seuraavaksi kerraksi kimpoissa, onko edelleen tarvetta Koha-Suomen omalle tilastoliitännäiselle, vai voiko sen korvata PowerBI-raporteilla.
+**Päätös:** Selvitetään seuraavaksi kerraksi kimpoissa, onko edelleen tarvetta Koha-Suomen omalle tilastoliitännäiselle, vai voiko sen korvata PowerBI-raporteilla.
 
 ### 7. Kehitysehdotusten läpikäyntiä
 
 * [#3872 Asiakkaiden poisto](https://tiketti.koha-suomi.fi/issues/3872)
 * [#3870 Tarratulostin: kenttien toistumat tarralle](https://tiketti.koha-suomi.fi/issues/3870)
 
-Päätös: Siirretään käsittely seuraavaan kokoukseen ja kerätään lisää käsiteltäviä sitä ennen.
+**Päätös:** Siirretään käsittely seuraavaan kokoukseen ja kerätään lisää käsiteltäviä sitä ennen.
 
 ### 8. Muut asiat
 
 Koha-installaatioiden ajojärjestystä voisi muuttaa siten, että tuotantoja ajetaan aina kahdella edustapalvelimella ja muut kaksi edustapalvelinta ajavat testejä, nextejä yms "toisarvoisia" installaatioita. Tästä olisi se etu, että esimerkiksi palvelinalustan päivitykset voidaan valmistella "toisarvoisia" installaatioita ajavilla palvelimilla. Huoltoikkunoiden aikana tuotantokohat vain siirretään jo päivitetyille palvelimille, jolloin tuotantojen käyttökatkot jäisivät hyvin lyhyiksi, ja päivitysten testaukseen ja valmisteluun olisi käytettävissä huomattavasti enemmän aikaa kuin huoltoikkunan kaksituntinen. Tuotantojen siirtämisen jälkeen päivitettäisiin jäljellä olevat palvelimet, jonka jälkeen testit, nextit ym nostettaisiin ylös jäljemmin päivitetyille palvelimille. Noin kuukausittain kaikki Kohat siis siirtyisivät toiselle palvelimelle (testit, nexit ym ja tuotannot vaihtaisivat palvelimia päittäin). Kirjastojen suuntaan tämä tulee näkyväksi lähinnä siten, että kirjastojen henkilökunnan pitää käydä muuttamassa tunneloitujen automaattien (3-4 automaattia kaikkiaan noin seitsemästä sadasta Koha-Suomi kirjastoissa) palvelin-IP:t siirron yhteydessä. Palvelinten mahdollisesta IP-muutoksesta tiedotetaan aina huoltotiedotteiden yhteydessä.
 
-Päätös: Muutetaan ajojärjestys seuraavan kuukausihuollon (11.10.) yhteydessä.
+**Päätös:** Muutetaan ajojärjestys seuraavan kuukausihuollon (11.10.) yhteydessä.
 
-Kuvailun työkalujen valmiiksisaattaminen.
+Kimpoista tuotiin esille huoli, että osa kuvailun työkaluista ovat edelleen keskeneräisiä versionvaihdon jälkeen.
 
-Asiantuntijaryhmän toimikauden jatkuminen siihen saakka kuin uusi aloittaa.
+Anneli esitti, että asiantuntijaryhmän toimikautta jatkettaisiin siihen saakka kuin uusi aloittaa. Ari ottaa asian työn alle, kun hän päivittää yhtiön asiakirjoja.
 
 ### 9. Seuraavat kokoukset
 
