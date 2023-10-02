@@ -20,6 +20,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * Tasku-Warkaus /Emmi
+  * mallia Siilinjärvestä/Haminasta
+* jokainen kirjaa jatkossa omat kertomansa/käsittelemänsä asiat muistioon
+* pidetään viikosta 41 lähtien yksi pidempi palaveri maanantaisin ja muina viikonpäivinä klo 9 max 15 minuutin palaveri.
+  * Lastulaisille viestiä, että aloitetaan ke-palsut 9.15
+* Lari:
+  * vanhentuneet maksut
+  * cinast
+* redusointipalaveri, Anneli kysyy pääkäyttäjistä halukkaita mukaantulijoita
+* bugi-perjantain bugien etsintä Annelin, Larin ja Emmin kanssa klo 13
 
 ## Viikon 39 muistiot
 
