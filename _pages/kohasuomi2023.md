@@ -17,9 +17,9 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 2.10.2023 klo 9
 
-Läsnä:
+Läsnä: Anneli, Emmi, Pasi, Lari, Johanna, Kodo, Lasse, Ar
 
-* Tasku-Warkaus /Emmi
+* Tasku-Warkaudelle pyydetty pääsyä Kohan rajapintaan /Emmi
   * mallia Siilinjärvestä/Haminasta
 * jokainen kirjaa jatkossa omat kertomansa/käsittelemänsä asiat muistioon
 * pidetään viikosta 41 lähtien yksi pidempi palaveri maanantaisin ja muina viikonpäivinä klo 9 max 15 minuutin palaveri.
