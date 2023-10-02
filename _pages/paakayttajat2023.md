@@ -23,6 +23,7 @@ Läsnä:
 * Vanhentuneet maksut - julkisoikeudelliset ja yksityisoikeudelliset maksut ja niiden vanhenemisaika.
 * Viikon 40 päivitys
 * [Bugi-perjantait alkavat 13.10.2023 klo 13-15](https://github.com/KohaSuomi/Koha/discussions/806)
+* [Takaajattomat taattavat](https://github.com/KohaSuomi/Koha/discussions/802)
 
 
 ## Viikko 39 muistio
