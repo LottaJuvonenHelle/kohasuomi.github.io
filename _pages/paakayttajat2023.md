@@ -24,6 +24,8 @@ Läsnä:
 * Viikon 40 päivitys
 * [Bugi-perjantait alkavat 13.10.2023 klo 13-15](https://github.com/KohaSuomi/Koha/discussions/806)
 * [Takaajattomat taattavat](https://github.com/KohaSuomi/Koha/discussions/802)
+* Katsotteko tarpeelliseksi, että 257a (tuontantomaa), 370g (luontipaikka), 382a, b, d, p (esityskokoonpano), 385a (kohderyhmä). 386a (tekijän ominaisuudet), 388a (luontiaika) -kentistä tai joistakin niistä tehtäisiin hakukelpoisia joko hakulinkkinä Perustiedot- näytölle tai hakurajauksena Tarkkaan hakuun?
+
 
 
 ## Viikko 39 muistio
