@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40 muistio
 
 Aika: 3.10.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski)
+Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
@@ -49,6 +49,11 @@ Etelästä pohjoiseen
 **Lappi**
 * Ensi vuoden tilien ja budjettien läpikäyntiä ja lisäilyä
 * Normaalia ylläpitoa
+
+**Vaara**
+* Päivi ollut pari viikkoa lomalla, vaatii vielä vähän asioihin paneutumista että pääsee kärryille
+* Aamulla soitettiin Joensuun pääkirjaston edellisen illan lainaustilanteesta, jossa asiakas oli tullut noutamaan varaustaan, poiminut sen varaushyllystä, mutta ei voinut lainata automaatilla, kun nide olikin lainassa. Ilmeisesti toiselle asiakkaalle oli lainattu kaksi kirjaa 26.9., joista toinen oli noudettavan niteen viivakoodilla lainattu (onko lukija lukenut väärin vai mistä virhe, en tiedä). Tämän toisen asiakkaan lainoissa oli vielä eri nide kuin mistä hänelle oli lähtenyt noutoilmoitus eli sotkettu oikein perusteellisesti. Täytyy selvittää asiaa hoitaneen virkailijan kanssa.
+  
 
 ## Viikko 39 muistio
 
