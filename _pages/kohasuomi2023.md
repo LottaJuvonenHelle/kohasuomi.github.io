@@ -19,14 +19,17 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 Läsnä: Anneli, Emmi, Pasi, Lari, Johanna, Kodo, Lasse, Ar
 
-* Tasku-Warkaudelle pyydetty pääsyä Kohan rajapintaan /Emmi
-  * mallia Siilinjärvestä/Haminasta
 * jokainen kirjaa jatkossa omat kertomansa/käsittelemänsä asiat muistioon
 * pidetään viikosta 41 lähtien yksi pidempi palaveri maanantaisin ja muina viikonpäivinä klo 9 max 15 minuutin palaveri.
   * Lastulaisille viestiä, että aloitetaan ke-palsut 9.15
 * Lari:
   * vanhentuneet maksut, lisätään credit-tapahtuma (EXPIRED) ja debit-puolella muutetaan vanhentuneen maksurivin amountoutstanding nollaksi.
   * cinast, tarjottu borrowers/statusta
+* Emmi:
+  * Tasku-Warkaudelle pyydetty pääsyä Kohan rajapintaan
+    * mallia Siilinjärvestä/Haminasta (API-avain toimitettu Katjalle)
+  * Timmi-tilanvarausjärjestelmä
+    * sovitaan palaveri (sovittu 11.10 klo 12.30), Lari mukaan  
 * redusointipalaveri, Anneli kysyy pääkäyttäjistä halukkaita mukaantulijoita
 * bugi-perjantain bugien etsintä Annelin, Larin ja Emmin kanssa klo 13
 
