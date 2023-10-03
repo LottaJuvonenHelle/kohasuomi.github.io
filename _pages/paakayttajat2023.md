@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40 muistio
 
 Aika: 3.10.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Pia Kusmin (Lappi)
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
@@ -39,6 +39,10 @@ Läsnä:
 * Kodo kirjoittaa tähän jotain ajojärjestyksestä
 
 Etelästä pohjoiseen
+
+**Lappi**
+* Ensi vuoden tilien ja budjettien läpikäyntiä ja lisäilyä
+* Normaalia ylläpitoa
 
 ## Viikko 39 muistio
 
