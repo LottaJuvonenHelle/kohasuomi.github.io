@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40 muistio
 
 Aika: 3.10.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
@@ -63,6 +63,9 @@ Etelästä pohjoiseen
 * Oulun luetteloinnista on tullut nuottiaineiston valutukseen liittyvä korjauspyyntö eli viivalliset ISMN-tunnukset eivät valu TäTistä paikalliskantaan, tiketti: https://github.com/KohaSuomi/Koha/issues/807
 * Oulussa oli muutamalle koneelle päivittynyt Firefoxin versio 115+, jossa ilmeni kuittitulostusongelma eli kuitin vasemmasta reunasta jäi puuttumaan noin yhden merkin verran. Ongelma korjaantui, kun vaihdettiin tulostinasetuksiin tulostimen ajureista riippuen kohtaan Reunukset: "Oma (mm)" tai "Mukautettu (tuumina)". Reunukset laitetaan muuten nollaksi, mutta vasen reunus laitetaan arvoon 0,05, jos arvo annetaan tuumina. Jos arvo annetaan millimetreinä, oikea arvo on 1,2. Kuittitulostimissa voi olla hieman eroja, joten jos annetut arvot eivät riitä, voi kokeilla hiukan suurentaa tai pienentää lukuja. Firefoxin selainversiossa 102+ ei ole vastaavaa ongelmaa ilmennyt.
 * Taas tullut pari ongelmatapausta, kun Finnassa asiakkaan Omat tiedot -osiossa ei päivity Finna-tilin asetuksen sähköpostikenttä, jos asiakkaan s-postiosoite muuttuu tai se poistetaan Kohasta. Ongelmasta laitettu useamman kerran Finna-tukeen.
+
+**Kyyti**
+* Ratkaisimme tiketin [#782](https://github.com/KohaSuomi/Koha/issues/782) ongelman ottamalla asetuksen NoIssuesChargeGuarantees pois päältä
   
 
 ## Viikko 39 muistio
