@@ -38,7 +38,7 @@ Läsnä:
   * Katsotaanko Koha-kirjastoissa tarpeelliseksi pyytää säätöä tietueen Perustiedot-näytölle siten, että siinä näkyisi tarvittaessa myös 386m- ja a-kentät otsikolla ”Tekijän ominaisuudet” samaan tapaan kuin siellä nyt näkyy 385m- ja a-kenttien tiedot?
 * Kodo kirjoittaa tähän jotain ajojärjestyksestä
 
-Pohjoisesta etelään
+Etelästä pohjoiseen
 
 ## Viikko 39 muistio
 
@@ -52,7 +52,7 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), 
 * "Bugi-perjantait" - milloin aloitetaan?
   * "Bugiton" perjantaina 13.10.2023 klo 13-15
 
-Etelästä pohjoiseen
+Pohjoisesta etelään
 
 **Vaara**
 * Itsepalvelulainaus testataan käännösten osalta Kiihtelysvaarassa.
@@ -93,7 +93,6 @@ https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/397
 **Siilinjärvi**
 * Ei mainittavaa, muut asiat työllistävät taas.
 
-Pohjoisesta etelään
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-39-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
