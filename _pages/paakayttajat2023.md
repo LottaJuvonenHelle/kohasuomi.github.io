@@ -17,16 +17,27 @@ Läsnä:
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
+  * siirretään ke 11.10.2023 klo 10-11 
 * api-avaimien teko ja jako jatkossa Koha-Suomessa - ei enää pääkäyttäjien kautta. Perusteena on, että Koha-Suomen pitää tietää, mihin kaikkialle järjestelmä on yhdistetty ja minkälaista kuormaa ne aiheuttavat. Ks. asiantuntijaryhmän muistio palvelujen liittämisestä Kohaan.
-* cinast.fi palvelu liitetään Kohaan borrowers/status-endpointilla.
+  * jatkossa joko pääkäyttäjät pyytävät Koha-Suomea tekemään avaimet tai jos pyyntö tulee suoraan Koha-Suomelle, laitetaan viestin ensin pääkäyttäjille, jotta voidaan varmistaa pyynnön asianmukaisuus. 
+* cineast.fi palvelu liitetään Kohaan borrowers/status-endpointilla.
+  * borrowers/status-endpoint ei vaadi api-avainta
+  * Koha-Suomi toimittaa tarvittavat REST-osoitteet toimittajalle (myös muiden toimittajien/palvelujen osalta sama käytäntö)
 * testien redusointipalaveri, ketä kiinnostaisi osallistua ja miettiä, mitä tietoja testeille tarvitaan mukaan?
+  * Päivi, Pirkko-Liisa, Vellu, Piia, Hanna, Mikko, Reetta, Leena/Pia, Kati, Tuomas.
+  * Anneli kyselee sopivia aikoja Pasilta ja Lasselta ja ehdotetaan sitten niitä osallistujille.
 * Vanhentuneet maksut - julkisoikeudelliset ja yksityisoikeudelliset maksut ja niiden vanhenemisaika.
+  * julkisoikeudelliset maksut viisi vuotta - vanhenevat/poistetaan vanhenemisvuotta seuraavan vuoden vaihteessa
+    * julkisoikeudellisia ovat: myöhästymismaksu (OVERDUE), palautuskehotus (ODUE) ja noutamaton varaus (RESERVE_EXPIRED)
+  * yksityisoikeudelliset maksut kolme vuotta - vanhenevat poistetaan päivittäin
 * Viikon 40 päivitys
 * [Bugi-perjantait alkavat 13.10.2023 klo 13-15](https://github.com/KohaSuomi/Koha/discussions/806)
 * [Takaajattomat taattavat](https://github.com/KohaSuomi/Koha/discussions/802)
-* Katsotaanko Koha-kirjastoissa tarpeelliseksi tehdä kehitysehdotus, jossa 257a (tuontantomaa), 370g (luontipaikka), 382a, b, d, p (esityskokoonpano), 385a (kohderyhmä). 386a (tekijän ominaisuudet), 388a (luontiaika) -kentistä tai joistakin niistä tehtäisiin hakukelpoisia joko hakulinkkinä Perustiedot- näytölle tai hakurajauksena Tarkkaan hakuun?
-* Katsotaanko Koha-kirjastoissa tarpeelliseksi pyytää säätöä tietueen Perustiedot-näytölle siten, että siinä näkyisi tarvittaessa myös 386m- ja a-kentät otsikolla ”Tekijän ominaisuudet” samaan tapaan kuin siellä nyt näkyy 385m- ja a-kenttien tiedot?
+* Viedään asiantuntijaryhmään ehdotus, että indeksejä ja hakunäyttöihin liittyviä muutoksia varten perustetaan tiedonhakutyöryhmä, joka käsittelee jatkossa niihin liittyvät kehitysehdotukset. Ryhmään kutsutaan tiedonhaun ja kuvailun asiantuntijoita.
+  * Katsotaanko Koha-kirjastoissa tarpeelliseksi tehdä kehitysehdotus, jossa 257a (tuontantomaa), 370g (luontipaikka), 382a, b, d, p (esityskokoonpano), 385a (kohderyhmä). 386a (tekijän ominaisuudet), 388a (luontiaika) -kentistä tai joistakin niistä tehtäisiin hakukelpoisia joko hakulinkkinä Perustiedot- näytölle tai hakurajauksena Tarkkaan hakuun?
+  * Katsotaanko Koha-kirjastoissa tarpeelliseksi pyytää säätöä tietueen Perustiedot-näytölle siten, että siinä näkyisi tarvittaessa myös 386m- ja a-kentät otsikolla ”Tekijän ominaisuudet” samaan tapaan kuin siellä nyt näkyy 385m- ja a-kenttien tiedot?
 
+Pohjoisesta etelään
 
 ## Viikko 39 muistio
 
@@ -39,6 +50,8 @@ Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), 
 * Muistin virkistykseksi: [Tikettien tekeminen ja kommentointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi) sekä [Tietoturvaohjeet](https://koha-suomi.fi/dokumentaatio/tietoturvaohje/)
 * "Bugi-perjantait" - milloin aloitetaan?
   * "Bugiton" perjantaina 13.10.2023 klo 13-15
+
+Etelästä pohjoiseen
 
 **Vaara**
 * Itsepalvelulainaus testataan käännösten osalta Kiihtelysvaarassa.
