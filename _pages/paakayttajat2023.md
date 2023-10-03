@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40 muistio
 
 Aika: 3.10.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi)
+Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski)
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
@@ -39,6 +39,12 @@ Läsnä: Pia Kusmin (Lappi)
 * Kodo kirjoittaa tähän jotain ajojärjestyksestä
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Virheilmoituksia tiedonhaussa, ilmeisesti normaalia enemmän tänä aamuna. Tiketti [#786](https://github.com/KohaSuomi/Koha/issues/786).
+* Kellutuksen hallintajärjestelmä -projekti startattu eilen, Koha-Suomen kanssa etsiskellään seuraavaksi palaveriaika.
+* Musiikki cd-levyjen kellutus vakiintuu normaaliksi käytännöksi Vaskissa ja kellutus laajennetaan seuraavaksi elokuvatallenteisiin.
+* Cineast-palvelua haluttaisiin mahdollisesti päästä testaamaan jo lokakuussa. Vaski laittaa Koha-Suomen support-postiin pyyntöä, kun tarvetta saada homma etenemään.
 
 **Lappi**
 * Ensi vuoden tilien ja budjettien läpikäyntiä ja lisäilyä
