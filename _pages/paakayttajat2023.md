@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 40 muistio
 
 Aika: 3.10.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
@@ -53,6 +53,12 @@ Etelästä pohjoiseen
 **Vaara**
 * Päivi ollut pari viikkoa lomalla, vaatii vielä vähän asioihin paneutumista että pääsee kärryille
 * Aamulla soitettiin Joensuun pääkirjaston edellisen illan lainaustilanteesta, jossa asiakas oli tullut noutamaan varaustaan, poiminut sen varaushyllystä, mutta ei voinut lainata automaatilla, kun nide olikin lainassa. Ilmeisesti toiselle asiakkaalle oli lainattu kaksi kirjaa 26.9., joista toinen oli noudettavan niteen viivakoodilla lainattu (onko lukija lukenut väärin vai mistä virhe, en tiedä). Tämän toisen asiakkaan lainoissa oli vielä eri nide kuin mistä hänelle oli lähtenyt noutoilmoitus eli sotkettu oikein perusteellisesti. Täytyy selvittää asiaa hoitaneen virkailijan kanssa.
+
+**OUTI**
+* Tullut vastaan taas yksittäinen nide, kun sitä on yrittänyt hakea nidetunnuksella, on tullut virhe 500. Kyseisen tietueen, jossa nide on kiinni, uudelleen tallentaminen on poistanut ongelman.
+* Oulun luetteloinnista on tullut nuottiaineiston valutukseen liittyvä korjauspyyntö eli viivalliset ISMN-tunnukset eivät valu TäTistä paikalliskantaan, tiketti: https://github.com/KohaSuomi/Koha/issues/807
+* Oulussa oli muutamalle koneelle päivittynyt Firefoxin versio 115+, jossa ilmeni kuittitulostusongelma eli kuitin vasemmasta reunasta jäi puuttumaan noin yhden merkin verran. Ongelma korjaantui, kun vaihdettiin tulostinasetuksiin tulostimen ajureista riippuen kohtaan Reunukset: "Oma (mm)" tai "Mukautettu (tuumina)". Reunukset laitetaan muuten nollaksi, mutta vasen reunus laitetaan arvoon 0,05, jos arvo annetaan tuumina. Jos arvo annetaan millimetreinä, oikea arvo on 1,2. Kuittitulostimissa voi olla hieman eroja, joten jos annetut arvot eivät riitä, voi kokeilla hiukan suurentaa tai pienentää lukuja. Firefoxin selainversiossa 102+ ei ole vastaavaa ongelmaa ilmennyt.
+* Taas tullut pari ongelmatapausta, kun Finnassa asiakkaan Omat tiedot -osiossa ei päivity Finna-tilin asetuksen sähköpostikenttä, jos asiakkaan s-postiosoite muuttuu tai se poistetaan Kohasta. Ongelmasta laitettu useamman kerran Finna-tukeen.
   
 
 ## Viikko 39 muistio
