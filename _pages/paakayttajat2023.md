@@ -68,7 +68,8 @@ Etelästä pohjoiseen
 * Ratkaisimme tiketin [#782](https://github.com/KohaSuomi/Koha/issues/782) ongelman ottamalla asetuksen NoIssuesChargeGuarantees pois päältä
 
 **Siilinjärvi**
-* Ei mainittavaa. 
+* Ei mainittavaa.
+* Vanhentuneet maksut [#804](https://github.com/KohaSuomi/Koha/issues/804) vaatii Siilissä vielä perkausta ja pohdintaa.
   
 
 ## Viikko 39 muistio
