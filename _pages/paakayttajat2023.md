@@ -36,6 +36,7 @@ Läsnä:
 * Viedään asiantuntijaryhmään ehdotus, että indeksejä ja hakunäyttöihin liittyviä muutoksia varten perustetaan tiedonhakutyöryhmä, joka käsittelee jatkossa niihin liittyvät kehitysehdotukset. Ryhmään kutsutaan tiedonhaun ja kuvailun asiantuntijoita.
   * Katsotaanko Koha-kirjastoissa tarpeelliseksi tehdä kehitysehdotus, jossa 257a (tuontantomaa), 370g (luontipaikka), 382a, b, d, p (esityskokoonpano), 385a (kohderyhmä). 386a (tekijän ominaisuudet), 388a (luontiaika) -kentistä tai joistakin niistä tehtäisiin hakukelpoisia joko hakulinkkinä Perustiedot- näytölle tai hakurajauksena Tarkkaan hakuun?
   * Katsotaanko Koha-kirjastoissa tarpeelliseksi pyytää säätöä tietueen Perustiedot-näytölle siten, että siinä näkyisi tarvittaessa myös 386m- ja a-kentät otsikolla ”Tekijän ominaisuudet” samaan tapaan kuin siellä nyt näkyy 385m- ja a-kenttien tiedot?
+* Kodo kirjoittaa tähän jotain ajojärjestyksestä
 
 Pohjoisesta etelään
 
