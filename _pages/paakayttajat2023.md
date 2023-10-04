@@ -10,10 +10,24 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 42 muistio
+
+Aika: 11.10.2023 klo 10 <br />
+Läsnä:
+
+**Yhteiset**
+
+* Käytäntöehdotus: Vaskilaiset huomasivat lisätä Elementissä/Matrixissa näyttönimeen, kun ovat lomalla. Otetaanko sama tapa yleiseksi käytännöksi kaikille? Esim. Anneli Österman | Lomalla 1.10.-3.10.2023
+
+Pohjoisesta etelään
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 40 muistio
 
 Aika: 3.10.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Emmi Takkinen ja Kodo Korkalo (Koha-Suomi)
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
@@ -71,6 +85,8 @@ Etelästä pohjoiseen
 * Ei mainittavaa.
 * Vanhentuneet maksut [#804](https://github.com/KohaSuomi/Koha/issues/804) vaatii Siilissä vielä perkausta ja pohdintaa.
   
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-40-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 39 muistio
 
