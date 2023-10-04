@@ -15,7 +15,7 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 6/23
+## Asiantuntijaryhmän muistio 6/23
 
 Aika: To 28.9.2023 klo 13-15<br />
 Läsnä: Noora Valkonen (OUTI), Irina Halminen (Vaara), Ari Mäkiranta (Koha-Suomi), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Katja Valjakka (Lumme), Susanna Sandell (Vaski), Riikka Mustajärvi (Kirkes), Tuomas Kunttu (Kyyti), Anneli Österman (Koha-Suomi), Kodo Korkalo (Koha-Suomi)
