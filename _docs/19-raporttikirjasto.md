@@ -581,6 +581,22 @@ WHERE code = 'SSN'
   AND attribute NOT REGEXP '^sotu[0-9]+$'
 ```
 
+### Asiakkaat, joilla ei ole sotu-avainta
+
+Raportilla voi hakea (henkilö)asiakkaat, joilla ei ole sotu-avainta. Haulle annetaan parametrina asiakkaan kotikirjasto. Jos sitä ei halua kyselyyn mukaan, voi jättää kyselyn neljännen rivin pois.
+
+Lisätty: 4.10.2023
+Lisääjä: Anneli Österman
+Versio: 22.11
+
+```
+SELECT borrowernumber, branchcode as Kotikirjasto, b.categorycode as Asiakastyyppi, b.dateenrolled as 'Tullut asiakkaaksi'
+FROM borrowers b
+WHERE borrowernumber not in (select borrowernumber from borrower_attributes where code='SSN')
+AND branchcode=<<Valitse kotikirjasto|branches>>
+AND categorycode in ('HENKILO', 'LAPSI', 'MUUHUOL')
+```
+
 ### Asiakkaiden määrä kirjastoittain
 
 Raportti laskee asiakkaiden määrän kirjastoittain. Mukaan ei tule asiakastyyppejä VIRKAILIJA, AUTOM ja EITILASTO. Näytetään 100 riviä.
