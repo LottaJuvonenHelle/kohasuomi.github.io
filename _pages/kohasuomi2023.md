@@ -15,6 +15,12 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 40 muistiot
 
+### Torstai 5.10.2023 klo 10
+
+Läsnä:
+
+* Viestien lähetyksen ajastusmuutos taululukkojen hallitsemiseksi?
+
 ### Maanantai 2.10.2023 klo 9
 
 Läsnä: Anneli, Emmi, Pasi, Lari, Johanna, Kodo, Lasse, Ar
