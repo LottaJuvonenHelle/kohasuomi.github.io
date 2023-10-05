@@ -17,12 +17,14 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Torstai 5.10.2023 klo 10
 
-Läsnä:
+Läsnä: Anneli
 
 * Viestien lähetyksen ajastusmuutos taululukkojen hallitsemiseksi? Kodo
 * Käytäntöehdotus: Vaskilaiset huomasivat lisätä Elementissä/Matrixissa näyttönimeen, kun ovat lomalla. Otetaanko sama tapa yleiseksi käytännöksi kaikille? Esim. Anneli Österman | Lomalla 1.10.-3.10.2023
+  * Päätös: otetaan käytännöksi
 * [Kirjastopalvelun päiväpakettien tuonnissa](https://github.com/KohaSuomi/Koha/issues/815) TäTiin tällä viikolla jo kahdesti ongelmia. Anneli
-* Harjoittelija aloittaa 1.11.2023
+  * Tämäkin liittynee file handle -ongelmaan. Seuraillaan tilannetta ja koitetaan edelleen korjata ongelman syy. 
+* Tiedoksi: Harjoittelija aloittaa 1.11.2023
 
 ### Maanantai 2.10.2023 klo 9
 
