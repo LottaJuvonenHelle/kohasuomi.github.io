@@ -27,7 +27,7 @@ Pohjoisesta etelään
 ## Viikko 40 muistio
 
 Aika: 3.10.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Emmi Takkinen ja Kodo Korkalo (Koha-Suomi)
+Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Emmi Takkinen ja Kodo Korkalo (Koha-Suomi), Katja Valjakka (Lumme)
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
@@ -84,14 +84,16 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * Ei mainittavaa.
 * Vanhentuneet maksut [#804](https://github.com/KohaSuomi/Koha/issues/804) vaatii Siilissä vielä perkausta ja pohdintaa.
-  
+
+  **Lumme**
+* Ei erityistä. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-40-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 39 muistio
 
 Aika: 26.9.2023 klo 9.15 <br />
-Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi), Kati Sillgren (Helle), Annika Helastila (Kirkes), Erika Miettinen (Kirkes), Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Susanna Sandell (Vaski), Irina Halminen (Vaara), Piia Semenoff (OUTI), Leena Kinnunen, Pia Kusmin (Lappi), Kati Sillgren (Helle), Annika Helastila (Kirkes), Erika Miettinen (Kirkes), Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Reetta Pihlaja (Siilinjärvi), Katja Valjakka (Lumme)
 
 **Yhteiset**
 * [Viikon 39 päivitys](https://github.com/KohaSuomi/Koha/discussions/795)
@@ -140,6 +142,9 @@ https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/397
 
 **Siilinjärvi**
 * Ei mainittavaa, muut asiat työllistävät taas.
+
+  **Lumme**
+* Ei mainittavaa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-39-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
