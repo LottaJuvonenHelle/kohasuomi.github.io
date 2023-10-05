@@ -864,7 +864,6 @@ Credit-tyypeillä merkitään Kohassa maksusuoritukset, hyvitykset ja peruutukse
 
 Uuden credit-tyypin voi lisätä _Uusi credit-tyyppi_ -linkistä.
 
-
 ![](/assets/files/docs/Asetukset/credittyypit1.png)
 
 * _Credit-tyypin koodi_: Credit-tyypin tunnus, joka kirjataan maksut-tauluun
@@ -879,6 +878,10 @@ Tunnus|Kuvaus|Käyttökohde
 ---|---|---
 PAYMENT|Maksusuoritus|Asiakas on maksanut maksun joko kokonaan tai osan siitä
 WRITEOFF|Maksun poisto|Asiakkaan maksu on poistettu
+
+### 15.2 Yhdessä sovitut credit-tyypit
+
+[Vanhentuneiden maksujen poistoajoa](https://github.com/KohaSuomi/Koha/issues/804) suunniteltaessa sovittiin, että kaikki lisäävät credit-tyyppeihin EXPIRED-tyypin ja sille kuvaukseksi _Vanhentuneen maksun mitätöinti_.
 
 ## 16. Liitännäiset
 
@@ -1023,7 +1026,17 @@ Määrityksen voi poistaa klikkaamalla halutun Koha-kentän kohdalla _Poista_-na
 
 ## 20. MARC-kuvailupohjan testaus
 
+MARC-kuvailupohjan testaus -toiminto testaa nimensä mukaisesti, että kuvailupohjissa on kaikki kunnossa. Sivulla kannattaa käydä aina sen jälkeen, kun muuttaa kuvailupohjia ja korjata mahdolliset virheet.
+![](/assets/files/docs/Asetukset/kuvailupohjantestaus.png)
+
+* itemtypeä ei ole liitetty -ilmoitukseen ei tarvitse reagoida, koska meillä on määritetty 942c-kenttään auktorisoiduksi arvoksi MTYPE eli aineistotyyppi.
+* yhden MARC-kentän osakentät pitäisi pääsääntöisesti pitää samalla välilehdellä.
+
 ## 21. Auktoriteettityypit
+
+Auktoriteettityypeissä määritetään Kohan sisäisten auktoriteetien kuvailupohjat. Näitä ovat esim. Yhteisön nimi ja henkilön nimi. Auktoriteeteille on oma määrittelynsä [MARC21-formaatissa](https://marc21.kansalliskirjasto.fi/aukt/index.htm).
+
+Tällä hetkellä Kohan auktoriteettejä ei käytetä ja ylläpidetä varsinkaan paikalliskannoissa kovin aktiivisesti. TäTiin tuodaan [Auktoriteettitietokanta Asterista](https://www.kiwi.fi/display/melinda/Auktoriteettitietokanta+Asteri) auktoriteettitietueita.
 
 ## 22. Luokitusjärjestelmät
 
