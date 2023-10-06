@@ -66,9 +66,9 @@ Etelästä pohjoiseen
 * Musiikki cd-levyjen kellutus vakiintuu normaaliksi käytännöksi Vaskissa ja kellutus laajennetaan seuraavaksi elokuvatallenteisiin.
 * Cineast-palvelua haluttaisiin mahdollisesti päästä testaamaan jo lokakuussa. Vaski laittaa Koha-Suomen support-postiin pyyntöä, kun tarvetta saada homma etenemään.
 
-  **Kirkes**
-  * Edelleen konversioon liittyviä selvitettäviä asioita. Esimerkiksi laskutus tällä hetkellä selvityksessä.
-  * Tuusulan kirjastoautossa tullut noudettaville varauksille kahta erilaista viimeistä noutopäivää: osalle tulee auton eräpäiväkalenterin mukainen viimeinen noutopäivä kuten pitääkin, osalle viimeinen noutopäivä vaikuttaa tulevan muiden kirjastoyksiköiden eräpäiväkalenterien mukaan, eli noutoajaksi tulee 7 aukiolopäivää, kun sen pitäisi auton kalenterissa olla 14 aukiolopäivää. Selaimen muistin tyhjentäminen ei ole auttanut. Erika siirtänyt tiketin Kirkes-repositoriosta Koha-repositorioon. Varausten noutopäiviä voi nyt muokata manuaalisesti vastaamaan auton eräpäiväkalenteria.
+**Kirkes**
+* Edelleen konversioon liittyviä selvitettäviä asioita. Esimerkiksi laskutus tällä hetkellä selvityksessä.
+* Tuusulan kirjastoautossa tullut noudettaville varauksille kahta erilaista viimeistä noutopäivää: osalle tulee auton eräpäiväkalenterin mukainen viimeinen noutopäivä kuten pitääkin, osalle viimeinen noutopäivä vaikuttaa tulevan muiden kirjastoyksiköiden eräpäiväkalenterien mukaan, eli noutoajaksi tulee 7 aukiolopäivää, kun sen pitäisi auton kalenterissa olla 14 aukiolopäivää. Selaimen muistin tyhjentäminen ei ole auttanut. Erika siirtänyt tiketin Kirkes-repositoriosta Koha-repositorioon. Varausten noutopäiviä voi nyt muokata manuaalisesti vastaamaan auton eräpäiväkalenteria.
 
 **Lappi**
 * Ensi vuoden tilien ja budjettien läpikäyntiä ja lisäilyä
