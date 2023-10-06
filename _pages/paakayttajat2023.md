@@ -27,7 +27,7 @@ Pohjoisesta etelään
 ## Viikko 40 muistio
 
 Aika: 3.10.2023 klo 9.15 <br />
-Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Emmi Takkinen ja Kodo Korkalo (Koha-Suomi), Katja Valjakka (Lumme), Kati Sillgren (Helle)
+Läsnä: Pia Kusmin (Lappi), Anni Rajala (Vaski), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Anneli Österman, Emmi Takkinen ja Kodo Korkalo (Koha-Suomi), Katja Valjakka (Lumme), Kati Sillgren (Helle) 
 
 **Yhteiset**
 * vkon 41 palaverin siirto Koha-Suomen kriisiharjoituksen vuoksi keskiviikolle/muulle päivälle?
