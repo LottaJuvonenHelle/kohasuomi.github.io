@@ -91,7 +91,7 @@ Etelästä pohjoiseen
 * Ei mainittavaa.
 * Vanhentuneet maksut [#804](https://github.com/KohaSuomi/Koha/issues/804) vaatii Siilissä vielä perkausta ja pohdintaa.
 
-  **Lumme**
+**Lumme**
 * Ei erityistä. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-40-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
