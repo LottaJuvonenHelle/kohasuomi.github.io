@@ -19,7 +19,9 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 Läsnä: Anneli
 
-* Viestien lähetyksen ajastusmuutos taululukkojen hallitsemiseksi? Kodo
+* Viestien lähetyksen ajastusmuutos taululukkojen hallitsemiseksi?
+  * Tällä hetkellä viestejä lähetetään 15 minutin välein klo 9.30 - 20.00. Vartissa viestejä ehtii kertyä jonoon ehkä hieman turhan paljon, jolloin viestitaulun lukitus lähetyksen ajaksi voi kenties olla osasyyllinen taululukkojen aiheuttamiin tahmailuihin.
+  * Päätös: Muutetaan viestien lähetystä siten että viestit lähetetään viiden minuutin välein ja yhdessä setissä lähetetään maksimissaan 500 viestiä. Viestijonot pysyvät lyhyempinä, purkautuvat nopeammin ja taululukot jäävät lyhyemmiksi.
 * Käytäntöehdotus: Vaskilaiset huomasivat lisätä Elementissä/Matrixissa näyttönimeen, kun ovat lomalla. Otetaanko sama tapa yleiseksi käytännöksi kaikille? Esim. Anneli Österman | Lomalla 1.10.-3.10.2023
   * Päätös: otetaan käytännöksi
 * [Kirjastopalvelun päiväpakettien tuonnissa](https://github.com/KohaSuomi/Koha/issues/815) TäTiin tällä viikolla jo kahdesti ongelmia. Anneli
