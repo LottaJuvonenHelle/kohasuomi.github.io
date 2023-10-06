@@ -149,7 +149,7 @@ https://foorumi.kiwi.fi/t/finnan-versiopaivitykset/437/397
 **Siilinjärvi**
 * Ei mainittavaa, muut asiat työllistävät taas.
 
-  **Lumme**
+**Lumme**
 * Ei mainittavaa.
 
 
@@ -390,7 +390,6 @@ Etelästä pohjoiseen
   * Testasimme lainojen vientiä useamman kerran Kohaan, jolloin Koha tulkitsi uudelleen viennit lainojen uusinnoiksi.
   * Koska lyhytlainat eivät ole uusittavia, Koha antoi eräpäiväksi vain kuluvan päivän.
   * Olemme ohjeistaneet henkilökuntaa, että kirjastoissa jos useampi käyttää offline-lainausta yhtä aikaa, vain yksi siirtää kaikki lainat Kohaan.
-
 
 **Vaara**
 * Palautusautomaatti Joensuun pääkirjastossa temppuilee taas. Nyt ei saa yhteyttä admin-koneeseen eli näytölle ei tule palautukset näkyviin. Kahdesta palautuspisteestä vain toinen toimii tällä hetkellä.
