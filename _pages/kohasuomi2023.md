@@ -22,6 +22,7 @@ Läsnä: Anneli, Lari, Emmi, Kodo, Pasi, Lasse, Ari, Johanna
 * Viikon päivitys
   * päivitetään vain liitännäisiin liittyvät ongelmat, koska ne voi päivittää ilman buildia
 * Elasticsearch-koulutus ke 1.11.2023 klo 13
+* Outi-tuotannossa ollut viime torstaista /dev/shm:llä (/dev/shm/var/log/koha) sipohttp-lokitus. Viiveet loppuneet. Siirretään sipohttp-lokitus muillekin kimpoille /dev/shm alle ja muutetaan lokirotaatiota, jotta päivän /dev/shm:lle kertynyt loki siirretään /var/log/koha alle.
 
 
 ## Viikon 40 muistiot
