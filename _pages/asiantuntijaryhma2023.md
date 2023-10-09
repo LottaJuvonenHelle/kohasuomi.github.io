@@ -15,6 +15,45 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 7/23
+
+Aika: To 12.10.2023 klo 12<br />
+Läsnä:
+
+### 1. Arin ajankohtaiset
+
+### 2. Noutomuistutuksen tekstiviestivalinnan estäminen
+
+Vaski: Tämä on käsitelty pääkäyttäjäryhmässä ja siellä sovittu, että viedään asiantuntijaryhmään.
+
+### 3. Sertifikaatin uusimisen ajankohdasta sopiminen
+
+Vaski: Sertifikaatin uusimisen ajankohdasta sopiminen. Nyt asiakasvarmenne vanhenee la 31.8.2024. Tähän saattaa olla eri tyyppisiä toiveita.
+
+### 4. Vaskin projektien esittely
+
+Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
+
+* Kuljetusten optimointi: vastuu Asko Autio ja Turkucitydata
+* Kokoelmanhallinta/Kelluntatyökalu: vastuu Kaisa Hypén ja Weasel + Dispositio
+* Puppe-saapumisvalvontapalvelu: vastuu Kaisa Hypén ja Broomworks
+
+### 5. Tiekartan päivitys
+
+Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/asiantuntijaryhma2023#4-tiekartan-p%C3%A4ivitys-1).
+
+### 6. Kehitysehdotusten läpikäyntiä
+
+* [#3872 Asiakkaiden poisto](https://tiketti.koha-suomi.fi/issues/3872)
+* [#3870 Tarratulostin: kenttien toistumat tarralle](https://tiketti.koha-suomi.fi/issues/3870)
+
+### 7. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+
+Arvioidaan ja päätetään, mitkä Koha-Suomen omat ominaisuudet ovat edelleen tarpeellisia ja siirretään seuraavaan versioon. Ominaisuudet on kirjattu [Koha-23xx-tietovarantoon tiketteinä](https://github.com/KohaSuomi/Koha-23x/issues).
+
+### 8. Muut asiat
+
+
 ## Asiantuntijaryhmän muistio 6/23
 
 Aika: To 28.9.2023 klo 13-15<br />
