@@ -47,11 +47,19 @@ Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/
 * [#3872 Asiakkaiden poisto](https://tiketti.koha-suomi.fi/issues/3872)
 * [#3870 Tarratulostin: kenttien toistumat tarralle](https://tiketti.koha-suomi.fi/issues/3870)
 
-### 7. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+### 7. Tilastoliitännäinen vs. PowerBI
+
+Edellisessä kokouksessa sovitiin, että kimpoissa pohditaan, voisiko luopua Kohan oman raportointiliitännäisen rakentamisesta niiltä osin, kuin tilastojen ja visualisointien tekeminen on mahdollista PowerBI:llä.
+
+### 8. Versionvaihdon ajankohta
+
+Edellisessä kokouksessa sovittiin, että kimpoissa selvitetään tähän kokoukseen, mikä ajankohta olisi hyvä versionvaihdolle keväällä 2024.
+
+### 9. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 Arvioidaan ja päätetään, mitkä Koha-Suomen omat ominaisuudet ovat edelleen tarpeellisia ja siirretään seuraavaan versioon. Ominaisuudet on kirjattu [Koha-23xx-tietovarantoon tiketteinä](https://github.com/KohaSuomi/Koha-23x/issues).
 
-### 8. Muut asiat
+### 10. Muut asiat
 
 
 ## Asiantuntijaryhmän muistio 6/23
