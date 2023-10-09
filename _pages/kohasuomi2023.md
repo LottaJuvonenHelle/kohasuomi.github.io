@@ -41,6 +41,8 @@ Läsnä: Anneli
 * Vanhojen maksujen poisto: testataan testillä, pääkäyttäjät tutkivat testitapauksia ennen ajoa rapsojen avulla
 * sipohttp-lokitus /dev/shm:lle io-viiveiden takia
 * Tiedoksi: Harjoittelija aloittaa 1.11.2023
+* Emmi:
+  * Timmi-palaveri pidetään keskiviikkona 11.10. klo 12.30 
 
 ### Maanantai 2.10.2023 klo 9
 
