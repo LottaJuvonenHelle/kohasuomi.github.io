@@ -792,8 +792,8 @@ Raportilla voi tarkistaa, mitä tietoja varauksesta on tallentunut action_logs-t
 * SUSPEND = varauksen keskeytys
 * RESUME = keskeytys poistettu
 * MODIFY = varaukseen on tehty jokin muutos, esim. noutopaikka vaihdettu tai poistettu odottaa-tila. 
-* DELETE = varaus poistettu lainauksen tai vanhentumisen yhteydessä
 * CANCEL = varauksen on poistanut virkailija tai asiakas
+* FILL = varaus on lainattu asiakkalle
 
 *object*: varauksen id reserves/old_reserves-taulussa
 
