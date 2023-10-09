@@ -13,6 +13,17 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 41 muistiot
+
+### Maanantai 9.10.2023 klo 9
+
+Läsnä: Anneli
+
+* Viikon päivitys
+  * päivitetään vain liitännäisiin liittyvät ongelmat, koska ne voi päivittää ilman buildia
+* Elasticsearch-koulutus ke 1.11.2023 klo 13
+
+
 ## Viikon 40 muistiot
 
 ### Torstai 5.10.2023 klo 10
