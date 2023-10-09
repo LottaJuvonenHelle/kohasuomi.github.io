@@ -46,6 +46,8 @@ Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/
 
 * [#3872 Asiakkaiden poisto](https://tiketti.koha-suomi.fi/issues/3872)
 * [#3870 Tarratulostin: kenttien toistumat tarralle](https://tiketti.koha-suomi.fi/issues/3870)
+* [#3832 EAN-koodilla hakeminen vastaanottotilanteessa](https://tiketti.koha-suomi.fi/issues/3832)
+* [#3805 Luettelointi: kielikoodikenttien arvojen kopioitumis-automatiikkaa](https://tiketti.koha-suomi.fi/issues/3805)
 
 ### 7. Tilastoliitännäinen vs. PowerBI
 
