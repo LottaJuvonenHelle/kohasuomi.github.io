@@ -13,16 +13,17 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
-Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 
 * Käytäntöehdotus: Vaskilaiset huomasivat lisätä Elementissä/Matrixissa näyttönimeen, kun ovat lomalla. Otetaanko sama tapa yleiseksi käytännöksi kaikille? Esim. ```Anneli Österman | Lomalla 1.10.-3.10.2023```
-* Viikon päivitys
-* Huoltokatko
-* vanhentuneiden maksujen mitätöinti
-* Bugiton
-* RedGrave
+  * Päätös: Otetaan käytäntöön.
+* [Viikon 41 päivitys](https://github.com/KohaSuomi/Koha/discussions/822) piti sisällään vain liitännäisten päivityksiä, koska ns. buildien tekeminen (Koha-Suomen ominaisuuksien liittäminen yhteisön Kohan päälle) ei onnistu tällä hetkellä tiedostojärjestelmän tallennuksessa olevan suorituskykyongelman vuoksi.
+* [Huoltoikkuna 11.10.2023](https://github.com/KohaSuomi/Koha/discussions/821)
+* Keskusteltiin [vanhentuneiden maksujen mitätöinnistä](https://github.com/KohaSuomi/Koha/issues/804) ja siihen liittyvistä huomioitavista asioista. Siirrettiin lokakuun loppuun määräaikaa, mihin mennessä pitäisi kimpoissa selvittää omat maksut ja miten niille saa käydä (esim. laskutetut, perinnässä olevat yms.).
+* Perjantaina 13.10.2023 klo 13-15 on ensimmäinen Bugi-perjantai ja sitä varten Anneli, Emmi ja Lari on kerännyt [Bugiton](https://github.com/KohaSuomi/Bugiton)-tietovarantoon Needs sign off -tilaisia tikettejä yhteisön Bugzillasta.
+* Kodo (ja Anneli) pohtivat, miten Redminen tiketit saataisiin talteen haettavassa muodossa ja sen pohjalta on nyt luotu [RedGrave](https://github.com/KohaSuomi/RedGrave)-tietovaranto, johon tikettien tiedot suunnitellaan vietävän markdown-muotoisina tiedostoina. Ne ovat haettavissa tietovarannon yläreunassa olevalla hakutoiminnolla.
 
 Pohjoisesta etelään
 
