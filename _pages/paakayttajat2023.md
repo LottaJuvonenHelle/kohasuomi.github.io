@@ -22,6 +22,7 @@ Läsnä:
 * Huoltokatko
 * vanhentuneiden maksujen mitätöinti
 * Bugiton
+* RedGrave
 
 Pohjoisesta etelään
 
