@@ -10,10 +10,10 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-## Viikko 41 esityslista
+## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
-Läsnä: Anni Rajala (Vaski)
+Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 
@@ -29,6 +29,12 @@ Pohjoisesta etelään
 **Vaski**
 * Kysyttiin konversiomaksujen muutosajon testauksesta. Ei mahdollisuutta saada testikantaa, jossa maksut olisivat anonymisoimatta, joten mietittävä tehdäänkö tuotantoon vai jätetäänkö kokonaan tekemättä.
 * Testataan uutta erikoistilaa [tiketissä 799](https://github.com/KohaSuomi/Koha/issues/799) kuvatulla tavalla. Vaski kommentoi tikettiin testaustulokset.
+
+**Vaara**
+* Nidetyyppien haku ei onnistu suoraan tarkennetussa haussa, koska indeksointi on väärin. Indeksointi menee perustettavan työryhmän tehtäväksi (teen tiketin asiasta).
+* Vaarassa on tullut muutamia Finnan kehitysehdotuksia, jotka lisätään tikettiin https://github.com/KohaSuomi/Finna-kehitysehdotukset
+* Vaaran maksuja koskevat maksutyypit käyty läpi ja otettu esimerkit ylös testiajon jälkeen tarkistettavaksi. Vaarassa ei saa poistaa ODUEC-tyyppisiä maksuja (lasku).
+* Palautusautomaatti Joensuun pääkirjastossa (ja muut tunneloidut automaatit) eivät toimineet huoltokatkon jälkeen. Osoitemuutos tehtiin Bittigurun päässä, ei automaateilla.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
