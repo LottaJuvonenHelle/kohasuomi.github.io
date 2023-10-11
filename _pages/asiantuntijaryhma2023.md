@@ -63,6 +63,8 @@ Arvioidaan ja päätetään, mitkä Koha-Suomen omat ominaisuudet ovat edelleen 
 
 ### 10. Muut asiat
 
+* Tiedonhaku/indeksointityöryhmän perustaminen?
+* Kuka voi päättää, voiko TäTistä poistaa 325 000 tietuetta?
 
 ## Asiantuntijaryhmän muistio 6/23
 
