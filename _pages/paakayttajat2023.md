@@ -21,6 +21,7 @@ Läsnä:
 * Viikon päivitys
 * Huoltokatko
 * vanhentuneiden maksujen mitätöinti
+* Bugiton
 
 Pohjoisesta etelään
 
