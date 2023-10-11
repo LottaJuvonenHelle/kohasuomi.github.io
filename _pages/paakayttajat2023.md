@@ -46,7 +46,7 @@ Pohjoisesta etelään
 
 **Helle**
 * Kysytty palaverissa, saisiko asiakashakuun tarkan haun. Saatu tieto, että yhteisön Bugzillassa on tuohon liityen tiketti.
-* Porvoon tunneloidun palautusautomaatin tämän aamuinen IP-osoitemuutos ja automaatti lajitteli niteet miten sattuu. Automaatin uudelleenkäynnistyksen jälkeen väärin lajiteltujen niteiden uudelleenpalautuksessa niteiden lajittelu ok.
+* Porvoon tunneloidun palautusautomaatin tämän aamuinen IP-osoitemuutos: automaatti lajitteli niteet miten sattuu. Automaatin uudelleenkäynnistyksen jälkeen väärin lajiteltujen niteiden uudelleenpalautuksessa niteiden lajittelu ok.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
