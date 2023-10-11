@@ -18,6 +18,9 @@ Läsnä:
 **Yhteiset**
 
 * Käytäntöehdotus: Vaskilaiset huomasivat lisätä Elementissä/Matrixissa näyttönimeen, kun ovat lomalla. Otetaanko sama tapa yleiseksi käytännöksi kaikille? Esim. ```Anneli Österman | Lomalla 1.10.-3.10.2023```
+* Viikon päivitys
+* Huoltokatko
+* vanhentuneiden maksujen mitätöinti
 
 Pohjoisesta etelään
 
