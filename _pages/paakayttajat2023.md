@@ -10,6 +10,13 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 42 muistio
+
+Aika: 17.10.2023 klo 9.15 <br />
+Läsnä:
+
+* Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
+
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
