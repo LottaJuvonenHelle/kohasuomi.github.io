@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 41 esityslista
 
 Aika: 11.10.2023 klo 10 <br />
-Läsnä:
+Läsnä: Anni Rajala (Vaski)
 
 **Yhteiset**
 
@@ -25,6 +25,10 @@ Läsnä:
 * RedGrave
 
 Pohjoisesta etelään
+
+**Vaski**
+* Kysyttiin konversiomaksujen muutosajon testauksesta. Ei mahdollisuutta saada testikantaa, jossa maksut olisivat anonymisoimatta, joten mietittävä tehdäänkö tuotantoon vai jätetäänkö kokonaan tekemättä.
+* Testataan uutta erikoistilaa [tiketissä 799](https://github.com/KohaSuomi/Koha/issues/799) kuvatulla tavalla. Vaski kommentoi tikettiin testaustulokset.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
