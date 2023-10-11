@@ -20,7 +20,7 @@ Läsnä:
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
-Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
+Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), 
 
 **Yhteiset**
 
@@ -43,6 +43,10 @@ Pohjoisesta etelään
 * Vaarassa on tullut muutamia Finnan kehitysehdotuksia, jotka lisätään tikettiin https://github.com/KohaSuomi/Finna-kehitysehdotukset
 * Vaaran maksuja koskevat maksutyypit käyty läpi ja otettu esimerkit ylös testiajon jälkeen tarkistettavaksi. Vaarassa ei saa poistaa ODUEC-tyyppisiä maksuja (lasku).
 * Palautusautomaatti Joensuun pääkirjastossa (ja muut tunneloidut automaatit) eivät toimineet huoltokatkon jälkeen. Osoitemuutos tehtiin Bittigurun päässä, ei automaateilla.
+
+* **Helle**
+* Kysytty palaverissa, saisiko asiakashakuun tarkan haun. Saatu tieto, että yhteisön Bugzillassa on tuohon liityen tiketti.
+* Porvoon tunneloidun palautusautomaatin tämän aamuinen IP-osoitemuutos ja automaatti lajitteli niteet miten sattuu. Automaatin uudelleenkäynnistyksen jälkeen väärin lajiteltujen niteiden uudelleenpalautuksessa niteiden lajittelu ok.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
