@@ -20,7 +20,7 @@ Läsnä:
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
-Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), 
+Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 
@@ -47,6 +47,12 @@ Pohjoisesta etelään
 **Helle**
 * Kysytty palaverissa, saisiko asiakashakuun tarkan haun. Saatu tieto, että yhteisön Bugzillassa on tuohon liityen tiketti.
 * Porvoon tunneloidun palautusautomaatin tämän aamuinen IP-osoitemuutos: automaatti lajitteli niteet miten sattuu. Automaatin uudelleenkäynnistyksen jälkeen väärin lajiteltujen niteiden uudelleenpalautuksessa niteiden lajittelu ok.
+
+**OUTI**
+* Oulun luetteloinnista on tullut tieto, että jostakin syystä TäTi on alkanut aina välillä heittämään virhettä 500, kun tallentaa tietuetta. Näitä ilmenee aina epäsäännöllisin väliajoin. Toiset käyttäjät olivat valitelleet Kohan hitautta samaan aikaan. Voisiko liittyä siihen? Ongelman ilmoittajaa on pyydetty seuraavalla kerralla ottamaan tarkan ajankohdan ylös ja tiedon siitä, mitä tietuetta oli ollut tallentamassa virheen ilmaannuttua.
+* OUTIn verkkomaksamisessa alkoi perjantaina 6.10. erikoinen ongelma. Ceeposin verkkomaksuportaali pyysi maksajaa vahvistamaan aina uudestaan ja uudestaan sähköpostiosoitteensa, eikä maksaja päässyt siirtymään Paytrailin maksusivulle. Eli vaikka s-postiosoitteen antoi pyydettyyn kenttään ja osoite näkyi myös Ceeposin verkkomaksuportaalin maksuerittely-sivulla, Siirry maksamaan -toiminto meni aina sivulle, jossa pyydettiin s-postiosoitteen vahvistamista. Ongelma oli poistunut viikonlopun aikana. CPU ja Paytrail tutkivat ongelman aiheuttajaa.
+* Uuden asiakkaan tallennustilanteessa, jos varaustunnus on jo käytössä, tulee siitä ilmoitus, mutta samalla poistuvat valitut viestiasetukset. Tehdään tiketti.
+* Jos tulee ihmettelyä, että asiakkaalle on ilmestynyt lainoja, joiden laina ja eräpäivä on menneisyydessä, kannattaa epäillä offline-lainausta. Oulussa oli yhdessä kirjastossa siirretty vahingossa vanha offline-lainatiedosto Kohaan, josta syystä asiakkaille, joiden lainoja oli tiedostossa, oli mennyt lainaan yli vuoden vanhoja lainoja. Ainut hyvä puoli asiassa oli, että tiedostossa ei ollut kuin 5 lainaa. Aiheutti siivottavaa, koska asiakkaille oli ehtinyt tulla vanhoista lainoista maksimimäärä myöhästymismaksuja ja lainassa olleita lainoja siirtyi väärille asiakkaille lainaan.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
