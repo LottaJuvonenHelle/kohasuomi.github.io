@@ -46,8 +46,8 @@ Pohjoisesta etelään
 
 **Helle**
 * Kysytty palaverissa, saisiko asiakashakuun tarkan haun. Saatu tieto, että yhteisön Bugzillassa on tuohon liityen tiketti.
-* Porvoon tunneloidun palautusautomaatin tämän aamuinen IP-osoitemuutos: automaatti lajitteli niteet miten sattuu. Automaatin uudelleenkäynnistyksen jälkeen väärin lajiteltujen niteiden uudelleenpalautuksessa niteiden lajittelu ok.
-* Helle-kirjastojen, Woima-Virran, Kirjavälityksen ja Kirjastopalvelun keskustelutilaisuudessa 4.10.2023 oli mainittu Kohaan liittyvä toive: portaalissa näkyisi, jos teos on jo Helle-Kohassa.
+* Porvoon tunneloidun palautusautomaatin tämän aamuinen IP-osoitemuutos: automaatti lajitteli palautetut niteet miten sattuu. Automaatin uudelleenkäynnistyksen jälkeen lajittelukin alkoi toimimaan. Joitain yksittäisiä väärinlajitteluja edelleen on kuten on ollut aiemminkin.
+* Helle-kirjastojen, Woima-Virran, Kirjavälityksen ja Kirjastopalvelun keskustelutilaisuudessa 4.10.2023 oli mainittu Kohaankin liittyvä toive: portaalissa näkyisi, jos teos on jo Helle-Kohassa.
 
 **OUTI**
 * Oulun luetteloinnista on tullut tieto, että jostakin syystä TäTi on alkanut aina välillä heittämään virhettä 500, kun tallentaa tietuetta. Näitä ilmenee aina epäsäännöllisin väliajoin. Toiset käyttäjät olivat valitelleet Kohan hitautta samaan aikaan. Voisiko liittyä siihen? Ongelman ilmoittajaa on pyydetty seuraavalla kerralla ottamaan tarkan ajankohdan ylös ja tiedon siitä, mitä tietuetta oli ollut tallentamassa virheen ilmaannuttua.
