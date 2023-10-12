@@ -22,15 +22,11 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
-### 2. Noutomuistutuksen tekstiviestivalinnan estäminen
-
-Vaski: Tämä on käsitelty pääkäyttäjäryhmässä ja siellä sovittu, että viedään asiantuntijaryhmään.
-
-### 3. Sertifikaatin uusimisen ajankohdasta sopiminen
+### 2. Sertifikaatin uusimisen ajankohdasta sopiminen
 
 Vaski: Sertifikaatin uusimisen ajankohdasta sopiminen. Nyt asiakasvarmenne vanhenee la 31.8.2024. Tähän saattaa olla eri tyyppisiä toiveita.
 
-### 4. Vaskin projektien esittely
+### 3. Vaskin projektien esittely
 
 **Siirtyy seuraavaan kokoukseen**
 
@@ -40,30 +36,30 @@ Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 * Kokoelmanhallinta/Kelluntatyökalu: vastuu Kaisa Hypén ja Weasel + Dispositio
 * Puppe-saapumisvalvontapalvelu: vastuu Kaisa Hypén ja Broomworks
 
-### 5. Tiekartan päivitys
+### 4. Tiekartan päivitys
 
 Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/asiantuntijaryhma2023#4-tiekartan-p%C3%A4ivitys-1).
 
-### 6. Kehitysehdotusten läpikäyntiä
+### 5. Kehitysehdotusten läpikäyntiä
 
 * [#3872 Asiakkaiden poisto](https://tiketti.koha-suomi.fi/issues/3872)
 * [#3870 Tarratulostin: kenttien toistumat tarralle](https://tiketti.koha-suomi.fi/issues/3870)
 * [#3832 EAN-koodilla hakeminen vastaanottotilanteessa](https://tiketti.koha-suomi.fi/issues/3832)
 * [#3805 Luettelointi: kielikoodikenttien arvojen kopioitumis-automatiikkaa](https://tiketti.koha-suomi.fi/issues/3805)
 
-### 7. Tilastoliitännäinen vs. PowerBI
+### 6. Tilastoliitännäinen vs. PowerBI
 
 Edellisessä kokouksessa sovitiin, että kimpoissa pohditaan, voisiko luopua Kohan oman raportointiliitännäisen rakentamisesta niiltä osin, kuin tilastojen ja visualisointien tekeminen on mahdollista PowerBI:llä.
 
-### 8. Versionvaihdon ajankohta
+### 7. Versionvaihdon ajankohta
 
 Edellisessä kokouksessa sovittiin, että kimpoissa selvitetään tähän kokoukseen, mikä ajankohta olisi hyvä versionvaihdolle keväällä 2024.
 
-### 9. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+### 8. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 Arvioidaan ja päätetään, mitkä Koha-Suomen omat ominaisuudet ovat edelleen tarpeellisia ja siirretään seuraavaan versioon. Ominaisuudet on kirjattu [Koha-23xx-tietovarantoon tiketteinä](https://github.com/KohaSuomi/Koha-23x/issues).
 
-### 10. Muut asiat
+### 9. Muut asiat
 
 * Tiedonhaku/indeksointityöryhmän perustaminen?
 * Kuka voi päättää, voiko TäTistä poistaa 325 000 tietuetta?
