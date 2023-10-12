@@ -1231,3 +1231,19 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |leader_/0-4|Tietueen pituus|llength|
 |leader_/6|Tietueen tyyppi|rtype|
 |leader_/7|Tietueen taso (nimiö)|bib-level|
+
+## 10.9 Finna-Koha-kirjanmerkin lisääminen
+
+Selaimen kirjanmerkkeihin voi lisätä kirjanmerkin, joka sisältää pienen JavaScript-rimpsun, jonka avulla pääsee siirtymään Finnasta tietuesivulta Kohaan saman tietueen perustiedot-näytölle tai varaussivulle.
+
+Alla on rimpsut kumpaakin tapaa varten. Rimpsut ovat OUTI-kirjastojen osoitteiden mukaiset, joten muokkaa tarvittaessa ne omaan kimppaan sopivaksi.
+
+Finnan tietuesivulta Kohan varaussivulle:
+<pre>
+javascript:(function(){var path = window.location.href;if(path.includes("finna.fi/Record/")){ var tietueid = path.split("Record/outi.").pop().split(/[^0-9]/).reverse().pop();window.open('https://outi.koha-suomi.fi/cgi-bin/koha/reserve/request.pl?biblionumber=' + tietueid);}})()
+</pre>
+
+Finnan tietuesivulta Kohan perustiedot-näytölle:
+<pre>
+javascript:(function(){var path = window.location.href;if(path.includes("finna.fi/Record/")){ var tietueid = path.split("Record/outi.").pop().split(/[^0-9]/).reverse().pop();window.open('https://outi.koha-suomi.fi/cgi-bin/koha/catalogue/detail.pl?biblionumber=' + tietueid);}})()
+</pre>
