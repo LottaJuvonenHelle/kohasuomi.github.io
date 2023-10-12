@@ -33,7 +33,7 @@ Vaski: Sertifikaatin uusimisen ajankohdasta sopiminen. Nyt asiakasvarmenne vanhe
 Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 
 * Kuljetusten optimointi: vastuu Asko Autio ja Turkucitydata
-* Kokoelmanhallinta/Kelluntatyökalu: vastuu Kaisa Hypén ja Weasel + Dispositio
+* Kokoelmanhallinta/Kelluntatyökalu: vastuu Kaisa Hypén ja Weasel + Gispositio
 * Puppe-saapumisvalvontapalvelu: vastuu Kaisa Hypén ja Broomworks
 
 ### 4. Tiekartan päivitys
