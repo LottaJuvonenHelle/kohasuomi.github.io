@@ -20,7 +20,7 @@ Läsnä:
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
-Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Annika Helastila (Kirkes)
+Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Annika Helastila (Kirkes), Maria Joona ja Leena Kinnunen (Lappi)
 
 **Yhteiset**
 
@@ -33,6 +33,9 @@ Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (
 * Kodo (ja Anneli) pohtivat, miten Redminen tiketit saataisiin talteen haettavassa muodossa ja sen pohjalta on nyt luotu [RedGrave](https://github.com/KohaSuomi/RedGrave)-tietovaranto, johon tikettien tiedot suunnitellaan vietävän markdown-muotoisina tiedostoina. Ne ovat haettavissa tietovarannon yläreunassa olevalla hakutoiminnolla.
 
 Pohjoisesta etelään
+
+**Lappi**
+* Kysyttiin asiakkaan muutospyyntöjen automaattisesta hyväksymisestä. Olisi ongelmallista mm. asiakkaan tietosuojan ja tietojen eheyden säilymisen kannalta, eikä teknisesti edes mahdollista ottaa kimppakohtaisesti käyttöön.
 
 **Vaski**
 * Kysyttiin konversiomaksujen muutosajon testauksesta. Ei mahdollisuutta saada testikantaa, jossa maksut olisivat anonymisoimatta, joten mietittävä tehdäänkö tuotantoon vai jätetäänkö kokonaan tekemättä.
