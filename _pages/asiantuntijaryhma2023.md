@@ -32,6 +32,8 @@ Vaski: Sertifikaatin uusimisen ajankohdasta sopiminen. Nyt asiakasvarmenne vanhe
 
 ### 4. Vaskin projektien esittely
 
+**Siirtyy seuraavaan kokoukseen**
+
 Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 
 * Kuljetusten optimointi: vastuu Asko Autio ja Turkucitydata
