@@ -15,16 +15,20 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 7/23
+## Asiantuntijaryhmän muistio 7/23
 
 Aika: To 12.10.2023 klo 12<br />
-Läsnä:
+Läsnä: Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Päivi Knuutinen (Vaara-kirjastot), Hanna Ikonen (Lumme-kirjastot), Tuomas Kunttu (Kyyti-kirjastot), Katri Sillgren (Helle-kirjastot), Susanna Sandell (Vaski-kirjastot), Riikka Mustajärvi (Kirkes), Anneli Österman, Kodo Korkalo ja Ari Mäkiranta (Koha-Suomi)
 
 ### 1. Arin ajankohtaiset
+
+Kriisiharjoitus. Koha-seminaari Keravalla 28.11.2023 klo 10-16. Konesalissa tehty ajojärjestysmuutos.
 
 ### 2. Sertifikaatin uusimisen ajankohdasta sopiminen
 
 Vaski: Sertifikaatin uusimisen ajankohdasta sopiminen. Nyt asiakasvarmenne vanhenee la 31.8.2024. Tähän saattaa olla eri tyyppisiä toiveita.
+
+**Päätös:** Uusi sertifikaatti toimitetaan elokuun ensimmäisellä viikolla 2024. Toiveena, ettei sertifikaatin vanhenemispäivä osuisi viikonlopulle.
 
 ### 3. Vaskin projektien esittely
 
@@ -40,6 +44,10 @@ Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 
 Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/asiantuntijaryhma2023#4-tiekartan-p%C3%A4ivitys-1).
 
+Päätös: Käytiin tiekartta läpi ja päivitettiin tarvittavilta osin.
+
+Päivitetty tiekartta: [Tiekartta2023lokakuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12882253/Tiekartta2023lokakuu.xlsx)
+
 ### 5. Kehitysehdotusten läpikäyntiä
 
 * [#3872 Asiakkaiden poisto](https://tiketti.koha-suomi.fi/issues/3872)
@@ -47,22 +55,33 @@ Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/
 * [#3832 EAN-koodilla hakeminen vastaanottotilanteessa](https://tiketti.koha-suomi.fi/issues/3832)
 * [#3805 Luettelointi: kielikoodikenttien arvojen kopioitumis-automatiikkaa](https://tiketti.koha-suomi.fi/issues/3805)
 
+Päätökset kirjattiin tiketteihin.
+
 ### 6. Tilastoliitännäinen vs. PowerBI
 
 Edellisessä kokouksessa sovitiin, että kimpoissa pohditaan, voisiko luopua Kohan oman raportointiliitännäisen rakentamisesta niiltä osin, kuin tilastojen ja visualisointien tekeminen on mahdollista PowerBI:llä.
+
+**Päätös:** Suurimmalla osalla kimpoista ei ole tarvetta tilastoliitännäisille. Ei edistetä oman tilastoliitännäisen kehittämistä. OKM-tilastot pysyvät omana liitännäisenään.
 
 ### 7. Versionvaihdon ajankohta
 
 Edellisessä kokouksessa sovittiin, että kimpoissa selvitetään tähän kokoukseen, mikä ajankohta olisi hyvä versionvaihdolle keväällä 2024.
 
+**Päätös:** Versionvaihto tehdään 6.-7.5.2024 ja varataan puoltoista päivää katkolle.
+
 ### 8. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 Arvioidaan ja päätetään, mitkä Koha-Suomen omat ominaisuudet ovat edelleen tarpeellisia ja siirretään seuraavaan versioon. Ominaisuudet on kirjattu [Koha-23xx-tietovarantoon tiketteinä](https://github.com/KohaSuomi/Koha-23x/issues).
 
+**Päätökset** kirjattiin tiketteihin valitsemalla tiketin tilaksi *Siirretään* tai *Ei siirretä*.
+
 ### 9. Muut asiat
 
-* Tiedonhaku/indeksointityöryhmän perustaminen?
-* Kuka voi päättää, voiko TäTistä poistaa 325 000 tietuetta?
+* Pääkäyttäjäryhmä ehdottaa, että perustetaan Tiedonhaku/indeksointityöryhmän, joka jatkossa käsittelee indekseihin ja tiedonhakuun sekä tiedonhaun näkymiin liittyvät kehitysehdotukset asiantuntijaryhmän sijaan?
+  * **Päätös:** Perustetaan ryhmä ja kimpoista kysytään jäseniä ryhmään ensi kerraksi. 
+* Kuvailuryhmän puheenjohtaja Antti Heikkinen kysyy, kuka voi päättää, voiko TäTistä poistaa 325 000 tietuetta?
+  * **Päätös:** Kuvailuryhmä voi päättää, mitä TäTin tietueille tehdään, koska heillä on paras asiantuntijuus sen sisällöstä ja muutostarpeista.
+* Tiekartan läpikäynnin yhteydessä päätettiin, että kimpoissa selvitetään seuraavan kokoukseen mennessä minkälaiset sopimukset kimpoissa on viestipalveluista (tekstiviesti/kirje) ja onko esteitä siirtyä Koha-Suomen tarjoamiin/kilpailuttamiin viestipalveluihin? Esim. Koha-Suomi kilpailuttaisi tekstiviestipalvelun ja kaikkien kimppojen tekstiviestit lähtisivät eteenpäin yhden palvelun kautta 4-5 eri palvelun sijaan. Tämä pienentäisi Koha-Suomen ylläpitokuormaa, kun ei tarvitse ylläpitää useampaa viestirajapintaa.
 
 ## Asiantuntijaryhmän muistio 6/23
 
