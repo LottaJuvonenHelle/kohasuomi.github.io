@@ -55,7 +55,7 @@ Pohjoisesta etelään
 * Jos tulee ihmettelyä, että asiakkaalle on ilmestynyt lainoja, joiden laina ja eräpäivä on menneisyydessä, kannattaa epäillä offline-lainausta. Oulussa oli yhdessä kirjastossa siirretty vahingossa vanha offline-lainatiedosto Kohaan, josta syystä asiakkaille, joiden lainoja oli tiedostossa, oli mennyt lainaan yli vuoden vanhoja lainoja. Ainut hyvä puoli asiassa oli, että tiedostossa ei ollut kuin 5 lainaa. Aiheutti siivottavaa, koska asiakkaille oli ehtinyt tulla vanhoista lainoista maksimimäärä myöhästymismaksuja ja lainassa olleita lainoja siirtyi väärille asiakkaille lainaan.
 
 **Kirkes**
-Hankintaportaali ollut testauksessa ja saadaan toivon mukaan tuotantoon tällä viikolla.
+* Hankintaportaali ollut testauksessa ja saadaan toivon mukaan tuotantoon tällä viikolla.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
