@@ -1,5 +1,5 @@
 ---
-title: 'Automaatit ja omatoimi'
+title: 'Automaatit, itsepalvelu ja omatoimi'
 permalink: /dokumentaatio/automaatit/
 redirect_from:
   - /theme-setup/
@@ -147,3 +147,48 @@ Tee kaksi uutta asiakasmäärettä: Automaatin toimittaja ja Automaattityyppi
 * Valitse *Tyyppi*-valikosta Z Automaatti Z, jolloin asiakasmääre näkyy vain automaattitunnus-asiakastyypille.
 
 ![](/assets/files/docs/Ohjeet/toimittaja.png) ![](/assets/files/docs/Ohjeet/autotype.png)
+
+## Kohan itsepalvelu
+
+### Järjestelmäasetukset
+
+#### Lainaus ja palautus -osio -> Itsepalvelulainaus
+
+* valitse WebBasedSelfCheck-asetukseen ”Mahdollista käyttäjille”
+* valitse AllowSelfCheckReturns-asetukseen ”Älä salli”, koska tämä sallii palauttamisen tekemisen ilman että nide on läsnä palautustilanteessa.
+* valitse AutoSelfCheckAllowed, AutoSelfCheckID ja AutoSelfCheckPass -kohtaan ”Älä salli”
+* valitse omalle kimpalle sopiva vaihtoehto näihin kohtiin
+  * SelfCheckoutByLogin
+  * SelfCheckReceiptPrompt
+  * SelfCheckTimeout (ei kannata olla kovin pitkä, jotta seuraava asiakas ei pääse lainamaan edellisen kortille. Max 30 s)
+  * ShowPatronImageInWebBasedSelfCheck
+
+### Paikalliset tiedot -> BorrowerCategoryTimeout eli asiakastyyppikohtainen aikakatkaisu
+
+* valitse *muokkaa* ja lisää *Arvo*-kenttään sopivat arvot. Oleellinen arvo on AUTOM-asiakastyyppi, johon pitää laittaa pitkä aikakatkaisu, jotta henkilökunnan ei tarvitse kirjautua itsepalveluun jatkuvasti. Määrittele lisäksi vähintään DEFAULT.
+
+<pre>
+---
+AUTOM: 31536000
+DEFAULT: 1800
+EITILASTO: 1800
+HENKILO: 1800
+KAUKOLAINA: 1800
+KOTIPALVEL: 1800
+LAPSI: 1800
+MUUHUOL: 1800
+VIRKAILIJA: 1800
+YHTEISO: 1800
+</pre>
+
+### Itsepalvelu päätteiden käyttäjätunnukset
+
+* tee jokaiselle itsepalvelupäätteelle oma Koha-käyttäjätunnus, asiakastyyppinä voi käyttää *Z Automaatti Z* -vaihtoehtoa.
+* käyttäjätunnus tarvitsee käyttäjäoikeuden ”self_checkout”
+
+### Päätteet
+
+* selainta ei saa/kannata sulkea. Jos selaimen sulkee, pitää järjestelmään kirjautua uudelleen.
+* samalla selaimella ei saa/kannata kirjautua Kohan virkailijaliittymään, koska samalla tulee kirjauduttua ulos itsepalvelutoiminnosta.
+* käytä selaimena Firefoxia. Tietokone/selain kannattaa laittaa ns. kioskimoodiin, jolloin asiakkaat eivät pääse sulkemaan selainta.
+* jos mahdollista, selain kannattaa määrittää kirjautumaan automaattisesti itsepalveluun, kun kone/selain avataan sekä myöskin siinä tapauksessa, että selain/kone yllättäen sulkeutuu ja käynnistyy uudelleen.
