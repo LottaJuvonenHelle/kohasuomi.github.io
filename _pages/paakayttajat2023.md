@@ -20,7 +20,7 @@ Läsnä:
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
-Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Annika Helastila (Kirkes), Maria Joona ja Leena Kinnunen (Lappi)
+Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Annika Helastila (Kirkes), Maria Joona ja Leena Kinnunen (Lappi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 
@@ -60,6 +60,10 @@ Pohjoisesta etelään
 
 **Kirkes**
 * Hankintaportaali ollut testauksessa ja saadaan toivon mukaan tuotantoon tällä viikolla.
+
+**Lumme**
+* Pieksämäen kirjastoautossa Koha jäätyy totaalisesti lehtivarausten yhteydessä. Muuten toimii normaalisti. Pohdittiin, että ongelma johtuu mahdollisesti mobiiliverkkoyhteyksistä. Pyydettiin vielä lisätietoja ja ongelman seurantaa auton työntekijöiltä.
+* Muuten normaalia ylläpitoa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-41-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
