@@ -13,7 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
-## Viikon 41 muistiot
+## Viikon 42 muistio
+
+### Maanantai 16.10.2023 klo 9
+
+Läsnä:
+
+* Viikon 42 päivitys
+  * HUOM! ajetaan päivityksen yhteydessä git gc --prune=now, jotta pois siivottujen vanhojen build-branchien luomat välitiedostot poistuvat 
+
+## Viikon 41 muistio
 
 ### Maanantai 9.10.2023 klo 9
 
