@@ -438,6 +438,20 @@ AND time_queued >= NOW() - INTERVAL <<Monenko päivän ajalta>> DAY
 ORDER BY time_queued ASC
 ```
 
+### Lähetettyjen viestien määrä
+
+Kyselyllä voi hakea tietyllä aikavälillä lähetettyjen viestien määrä. Tulokset ryhmitellään viestityypin mukaisesti.
+
+Lisätty: 13.10.2023
+Lisääjä: Anneli Österman
+
+<pre>
+select message_transport_type as 'Viestityyppi',count(*) as 'Viestien määrä aikavälillä' 
+from message_queue
+where date(time_queued) between <<Aloituspvm|date>> and <<Loppupvm|date>>
+group by message_transport_type
+</pre>
+
 ### Arkistoitujen viestien hakeminen message_queuen vuositaulusta
 
 Kyselyllä voi hakea viesti-taulun vuositauluista vanhempia viestejä, jotka eivät näy enää virkailijaliittymän kautta. Kyselylle annetaan parametriksi asiakkaan borrowernumber.
