@@ -17,12 +17,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 16.10.2023 klo 9
 
-Läsnä:
+Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna Pasi
 
 * Viikon 42 päivitys
   * HUOM! ajetaan päivityksen yhteydessä git gc --prune=now, jotta pois siivottujen vanhojen build-branchien luomat välitiedostot poistuvat 
 * Koha-seminaarin matkajärjestelyt /Anneli
 * kirjataan miitinkikäytännöt /Anneli
+  * päivystäjä tekee muistiopohjan valmiiksi, mutta jos joku lisää sitä ennen asiaa, niin hän tekee muistiopohjan samalla.
+  * jokainen kirjoittaa omat asiansa ja nimensä
+  * päivittäiset pikapalaverit siirretään klo 11.00-11.15
 
 
 ## Viikon 41 muistio
