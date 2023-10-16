@@ -17,15 +17,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 16.10.2023 klo 9
 
-Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna Pasi
+Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna, Pasi
 
 * Viikon 42 päivitys
   * HUOM! ajetaan päivityksen yhteydessä git gc --prune=now, jotta pois siivottujen vanhojen build-branchien luomat välitiedostot poistuvat 
 * Koha-seminaarin matkajärjestelyt /Anneli
 * kirjataan miitinkikäytännöt /Anneli
   * päivystäjä tekee muistiopohjan valmiiksi, mutta jos joku lisää sitä ennen asiaa, niin hän tekee muistiopohjan samalla.
-  * jokainen kirjoittaa omat asiansa ja nimensä
-  * päivittäiset pikapalaverit siirretään klo 11.00-11.15
+  * jokainen kirjoittaa omat asiansa ja nimensä läsnäolijalistaan
+  * päivittäiset pikapalaverit siirretään klo 11.00-11.15 ja pyritään siihen, että siihen ei oteta muita kokouksia päälle.
 * Emmi:
   * Tasku-Warkaus ei saa tehtyä API-kutsua availability/item-endpointiin
     * johtuu siitä, että Lumpeissa on käytössä decreaseLoanHighHolds-asetus, jonka vuoksi kutsutaan muuttujia $patron->unblessed ja $item-unblessed, noista jompikumpi tai molemmat johtaa virheeseen "Can't call method "unblessed" on unblessed reference"
@@ -33,6 +33,18 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna Pasi
   * Monetralta pyydetty laskutuksen testiaineistoa, toimitettu zip-pakettina Erika Miettiselle
   * Ainakin Kirkeksen testillä tulee runsaasti Elasticsearch-virheitä bde-ajon yhteydessä, bde-taulusta puuttuu 60000 tietuetta
     * ajoon vipu, jolla voi testata yhden tietueen viemistä bde-tauluun, helpottaa testailua  
+* Anneli
+  * Perjantaina pidettiin ensimmänen Bugi-perjantai ja osallistujia oli parisen kymmentä sekä Koha-Suomen kirjastoista että tieteellisistä kirjastoista.
+    * Katsottiin ensin, että kaikilla on tunnukset Bugzillaan ja käytiin läpi, miten tikettejä sign offataan.
+    * Bugeja saatiin sign offattua 3-4 ja yksi meni Failed QA -tilaan.
+    * huomattiin, että kaikkia ennakkoon valittuja ei pystynytkään testaamaan sandboxissa ja todettiin, että tarvitsisimme oman yhteisön masteria ajavan testin.
+    * tässä kokouksessa todettiin, että meillä on jo yksi kontti, jossa se on mahdollista, kunhan saamme hidastelu/tilaongelmat ratkaistua.
+    * mietittävä myös, miten sinne yhteisön masteria ajavaan konttiin saadaan tuotua patchit testattavaksi.
+  * RDA-konversio:
+    * todettiin, että se kannattaa tehdä yhtä aikaa YSO-konversion kanssa, koska kummassakin pitää käsitellä koko tietokanta. Ei ole järkeä tehdä kaksi kertaa.
+    * vastuutettiin Johannalle ja Emmille RDA-konversiokin.
+    * ennen konversioita kannattaa varsinkin TäTissä tehdä vanhojen ja virheellisten tietueiden poistoja reilulla kädellä. Kuvailuryhmä pystyy arvioimaan, mitä voidaan poistaa.
+   
 
 ## Viikon 41 muistio
 
