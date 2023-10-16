@@ -26,7 +26,13 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna Pasi
   * päivystäjä tekee muistiopohjan valmiiksi, mutta jos joku lisää sitä ennen asiaa, niin hän tekee muistiopohjan samalla.
   * jokainen kirjoittaa omat asiansa ja nimensä
   * päivittäiset pikapalaverit siirretään klo 11.00-11.15
-
+* Emmi:
+  * Tasku-Warkaus ei saa tehtyä API-kutsua availability/item-endpointiin
+    * johtuu siitä, että Lumpeissa on käytössä decreaseLoanHighHolds-asetus, jonka vuoksi kutsutaan muuttujia $patron->unblessed ja $item-unblessed, noista jompikumpi tai molemmat johtaa virheeseen "Can't call method "unblessed" on unblessed reference"
+    * otettu yhteys Ere Maijalaan ja kysytty lyötyykö tähän korjausta
+  * Monetralta pyydetty laskutuksen testiaineistoa, toimitettu zip-pakettina Erika Miettiselle
+  * Ainakin Kirkeksen testillä tulee runsaasti Elasticsearch-virheitä bde-ajon yhteydessä, bde-taulusta puuttuu 60000 tietuetta
+    * ajoon vipu, jolla voi testata yhden tietueen viemistä bde-tauluun, helpottaa testailua  
 
 ## Viikon 41 muistio
 
