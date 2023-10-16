@@ -21,6 +21,9 @@ Läsnä:
 
 * Viikon 42 päivitys
   * HUOM! ajetaan päivityksen yhteydessä git gc --prune=now, jotta pois siivottujen vanhojen build-branchien luomat välitiedostot poistuvat 
+* Koha-seminaarin matkajärjestelyt /Anneli
+* kirjataan miitinkikäytännöt /Anneli
+
 
 ## Viikon 41 muistio
 
