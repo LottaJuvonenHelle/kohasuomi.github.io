@@ -39,7 +39,7 @@ Etelästä pohjoiseen
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
-Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Annika Helastila (Kirkes), Maria Joona ja Leena Kinnunen (Lappi), Hanna Ikonen (Lumme)
+Läsnä: Anni Rajala (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari (OUTI), Erika Miettinen ja Annika Helastila (Kirkes), Maria Joona ja Leena Kinnunen (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 
