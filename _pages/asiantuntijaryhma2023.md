@@ -22,7 +22,7 @@ Läsnä: Leena Kinnunen (Lapin kirjasto), Noora Valkonen (OUTI-kirjastot), Päiv
 
 ### 1. Arin ajankohtaiset
 
-Kriisiharjoitus. Koha-seminaari Keravalla 28.11.2023 klo 10-16. Konesalissa tehty ajojärjestysmuutos.
+Koha-Suomi piti tietoturvaan ja -suojaan liittyvän kriisiharjoituksen tiistaina 10.10.2023. Koha-seminaari Keravalla 28.11.2023 klo 10-16. Konesalissa tehty ajojärjestysmuutos viimeisimmässä huoltokatkossa.
 
 ### 2. Sertifikaatin uusimisen ajankohdasta sopiminen
 
@@ -44,7 +44,7 @@ Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 
 Tiekartta on päivitetty viimeksi [tammikuun kokouksessa](https://koha-suomi.fi/asiantuntijaryhma2023#4-tiekartan-p%C3%A4ivitys-1).
 
-Päätös: Käytiin tiekartta läpi ja päivitettiin tarvittavilta osin.
+**Päätös:** Käytiin tiekartta läpi ja päivitettiin tarvittavilta osin.
 
 Päivitetty tiekartta: [Tiekartta2023lokakuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/12882253/Tiekartta2023lokakuu.xlsx)
 
