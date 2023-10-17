@@ -18,6 +18,7 @@ Läsnä:
 * Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan käyttäen borrowers/status-endpointia. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
 * MARCOrgCode-järjestelmäasetukseen pitää laittaa ISIL-koodi, jotta mm. OKM-tilastojen biblio_data_elements-taulujen ajot ei kaadu.
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/837)
+* Koha-seminaari ti 28.11.2023 klo 10-16 Keravalla.
 
 Etelästä pohjoiseen
 
