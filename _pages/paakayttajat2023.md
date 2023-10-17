@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42 muistio
 
 Aika: 17.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), 
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI)
 
 * Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan käyttäen borrowers/status-endpointia. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
 * MARCOrgCode-järjestelmäasetukseen pitää laittaa ISIL-koodi, jotta mm. OKM-tilastojen biblio_data_elements-taulujen ajot ei kaadu.
@@ -33,6 +33,8 @@ Etelästä pohjoiseen
 * TAKAAJA-asiakastyypille on jäänyt voimassaoloajaksi 36 kk, ehkä vahingossa. Näitä on nyt myös vanhentunut, mutta vanhenemisesta ei kai sinänsä ole huollettavalle haittaa. Muutetaan uusille voimassaoloajaksi 120 kk ja korjaillaan vanhoja, pitäisi onnistua asiakkaiden erämuokkauksella.
 * MARCOrgCode:ssa olikin jo FI-Siili.
 
+**OUTI**
+* Koha-Ceepos maksurajapinta ei toimi. Rajapinta lakkasi toimimasta, kun ke 11.10. huoltoikkunan yhteydessä tehtiin palvelinmuutoksia.
   
 ## Viikko 41 muistio
 
