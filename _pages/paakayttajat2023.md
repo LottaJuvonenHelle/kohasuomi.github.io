@@ -19,6 +19,7 @@ Läsnä:
 * MARCOrgCode-järjestelmäasetukseen pitää laittaa ISIL-koodi, jotta mm. OKM-tilastojen biblio_data_elements-taulujen ajot ei kaadu.
 * [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/837)
 * Koha-seminaari ti 28.11.2023 klo 10-16 Keravalla.
+* Finna-palaveri to 19.10. klo 9.15
 
 Etelästä pohjoiseen
 
