@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42 muistio
 
 Aika: 17.10.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
 
 * Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan käyttäen borrowers/status-endpointia. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
 * MARCOrgCode-järjestelmäasetukseen pitää laittaa ISIL-koodi, jotta mm. OKM-tilastojen biblio_data_elements-taulujen ajot ei kaadu.
@@ -23,6 +23,11 @@ Läsnä:
 
 Etelästä pohjoiseen
 
+**Vaara**
+* ei erityistä mainittavaa ylläpidossa
+* tehty viime viikolla muutama Finna-kehitysehdotus https://github.com/KohaSuomi/Finna-kehitysehdotukset/ yhdessä pohdittavaksi, ovatko tarpeen vai ei
+
+  
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
