@@ -15,7 +15,10 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 Aika: 17.10.2023 klo 9.15 <br />
 Läsnä:
 
-* Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
+* Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan käyttäen borrowers/status-endpointia. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
+* [Viikon 42 päivitys](https://github.com/KohaSuomi/Koha/discussions/837)
+
+Etelästä pohjoiseen
 
 ## Viikko 41 muistio
 
