@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42 muistio
 
 Aika: 17.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Roosa Väisänen (Kyyti), Kati Sillgren (Helle), Annika Helastila, Erika Miettinen ja Elina Uotila (Kirkes)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Roosa Väisänen (Kyyti), Kati Sillgren (Helle), Annika Helastila, Erika Miettinen ja Elina Uotila (Kirkes), Mikko Liimatainen (Vaski)
 
 * Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan käyttäen borrowers/status-endpointia. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
 * MARCOrgCode-järjestelmäasetukseen pitää laittaa ISIL-koodi, jotta mm. OKM-tilastojen biblio_data_elements-taulujen ajot ei kaadu.
