@@ -44,7 +44,9 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna, Pasi
     * todettiin, että se kannattaa tehdä yhtä aikaa YSO-konversion kanssa, koska kummassakin pitää käsitellä koko tietokanta. Ei ole järkeä tehdä kaksi kertaa.
     * vastuutettiin Johannalle ja Emmille RDA-konversiokin.
     * ennen konversioita kannattaa varsinkin TäTissä tehdä vanhojen ja virheellisten tietueiden poistoja reilulla kädellä. Kuvailuryhmä pystyy arvioimaan, mitä voidaan poistaa.
-   
+* Kodo
+  * Kirkeksen EDItX on tuotannossa ja käy ja kukkuu.
+  * Redminen tikettien konversio Githubin RedGrave repoon on työn alla. Sen jälkeen täytyy vielä katsoa mitä muuta siirrettävää Redminessä on ennen sen ajamista alas.    
 
 ## Viikon 41 muistio
 
