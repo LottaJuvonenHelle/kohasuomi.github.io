@@ -50,6 +50,10 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna, Pasi
   * Ajojärjestysmuutos on tehty viime keskiviikon huoltokatkossa, tuotannot nyt Jo:lla ja Amy:llä. Meg ja Beth ajavat testejä.
   * OCFS-murheita selvitelty. Kirjoitussuorituskyky on osoittautunut aivan surkeaksi. Selvittely jatkuu Bittigurun kanssa viikolla 43.
   * Build-skriptistä uusi versio testillä, mutta ei vielä commitoitu eikä tuotannossa. Stashaamisen sijaan vanhan release-branch resetoidaan viimeisimpään committiin (jolloin päästään eroon DBIx -skeematiedostoista) ennen branchin vaihtoa buildin alussa. Branchin vaihdon jälkeen vanhan release-branch poistetaan kokonaan ja ajetaan git gc --prune=now.
+* Johanna
+  * Valutuksen uudelleen kirjoittelua "koha-plugin-broadcast-biblios"-liitännäiseen. Vähitellen siirretään toiminnot pois Mikropalvelusta, koska nykyinen Koha tukee jo siihen tarvittavia toimintoja.
+  * Turun kellutuksen hallintatyökalun aloituspalaveri, selvitettiin mistä rajapinnoista tietoa kannattaa hakea.
+  * Selvitetty tietueiden siirtoihin liittyviä ongelmia
 
 ## Viikon 41 muistio
 
