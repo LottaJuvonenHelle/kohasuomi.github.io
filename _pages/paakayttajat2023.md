@@ -49,7 +49,7 @@ Etelästä pohjoiseen
 * Hankintaportaali on saatu testattua ja on nyt tuotantokäytössä.
 * Laskutusta ja OKM-tilastoja selvitetään vielä.
 * Tänään iltapäivällä palaveri Lastu-kirjastojen kanssa, jaetaan Kirkes-Koha-käyttöönottokokemuksia.
-* Erika jää marraskuun alusta vuodeksi pois, Elina ja Annika jatkavat Kirkes-pääkäyttäjinä. Mietitään vielä pääkäyttäjien työnjako ja henkilökunnan oikeudet järjestelmässä kohdalleen.
+* Erika jää marraskuun alusta vuodeksi opintovapaalle, Elina ja Annika jatkavat Kirkes-pääkäyttäjinä. Mietitään vielä pääkäyttäjien työnjako ja henkilökunnan oikeudet järjestelmässä kohdalleen.
   
 ## Viikko 41 muistio
 
