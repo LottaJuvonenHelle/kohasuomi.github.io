@@ -50,6 +50,12 @@ Etelästä pohjoiseen
 * Laskutusta ja OKM-tilastoja selvitetään vielä.
 * Tänään iltapäivällä palaveri Lastu-kirjastojen kanssa, jaetaan Kirkes-Koha-käyttöönottokokemuksia.
 * Erika jää marraskuun alusta vuodeksi opintovapaalle, Elina ja Annika jatkavat Kirkes-pääkäyttäjinä. Mietitään vielä pääkäyttäjien työnjako ja henkilökunnan oikeudet järjestelmässä kohdalleen.
+
+**Vaski**
+* Käyty läpi vaskissa tulleita kehitysehdotuksia
+  * Saatavilla oleviin niteisiin rajaaminen toimimaan oikein asiaan löytyi jo tiketti 359. Lisätty tikettiin tieto bugzillan tiketistä 7012.
+  * Vanhentuneille erääntyneille varauksille toivottaisiin asetettavaksi esimerkiksi erikoistila käsiteltävänä, jotta niteet eivät näkyisi hyllyssä tilaisina ennen kuin niteet on saatu käsiteltyä. Tehdään tiketti asiasta.
+  * Tärppäämättömien varausten määrää toivottu näkyville tietueen näkymään. Ei totetuteta, sillä tarve ei ole suuri ja toiminnon saa tehtyä raportilla.
   
 ## Viikko 41 muistio
 
