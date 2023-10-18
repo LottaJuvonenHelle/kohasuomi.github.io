@@ -1904,8 +1904,16 @@ Raportti hakee tietueet, jotka ovat valuneet päivän sisällä paikalliskantaan
 Lisätty: 18.10.2023
 Tekijä: Mikko Liimatainen
 
-<pre>SELECT t1.object AS 'tietuenumero', (select itemtype from biblioitems bi where t1.object=bi.biblionumber) AS 'Aineistotyyppi', datelastseen AS "Viimeisin havaintopvm",
-b.author AS Tekijä, CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'" target="_blank">',b.title,IF(b.subtitle != '', CONCAT(' ',b.subtitle),''),IF(b.part_number != '', CONCAT(' ',b.part_number),''),IF(b.part_name != '', CONCAT(' ',b.part_name),''),'</a>') AS 'Nimeke', SUBSTRING(t1.info, LOCATE('LDR', t1.info)+21, 1) AS 'vanha leader 17', SUBSTRING(ExtractValue(bm.metadata,'//leader'),18,1) AS 'uusi leader 17', SUBSTRING(t1.info, LOCATE('040    _a', t1.info)+9, 8) AS 'vanha 040a', ExtractValue(bm.metadata,'//datafield[@tag="040"][1]/subfield[@code="a"]') AS 'uusi 040a', SUM(CASE WHEN i.notforloan='-2' AND i.homebranch LIKE <<Kirjasto|branches:all>> THEN 1 ELSE 0 END) AS 'Saapuneita niteitä yksikössä', t1.timestamp AS 'Valunut', STR_TO_DATE(ExtractValue(bm.metadata,'//controlfield[@tag="005"]'),'%Y%m%d%H%i%s') AS 'Muokattu'
+<pre>SELECT t1.object AS 'tietuenumero',	(select itemtype from biblioitems bi where t1.object=bi.biblionumber) AS 'Aineistotyyppi', datelastseen AS "Viimeisin havaintopvm",
+    b.author AS Tekijä,
+   	CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'" target="_blank">',b.title,IF(b.subtitle != '', CONCAT(' ',b.subtitle),''),IF(b.part_number != '', CONCAT(' ',b.part_number),''),IF(b.part_name != '', CONCAT(' ',b.part_name),''),'</a>') AS 'Nimeke',
+	SUBSTRING(t1.info, LOCATE('LDR', t1.info)+21, 1) AS 'vanha leader 17',
+	SUBSTRING(ExtractValue(bm.metadata,'//leader'),18,1) AS 'uusi leader 17',
+    SUBSTRING(t1.info, LOCATE('040    _a', t1.info)+9, 8) AS 'vanha 040a',
+    ExtractValue(bm.metadata,'//datafield[@tag="040"][1]/subfield[@code="a"]') AS 'uusi 040a',
+    SUM(CASE WHEN i.notforloan='-2' AND i.homebranch LIKE <<Kirjasto|branches:all>> THEN 1 ELSE 0 END) AS 'Saapuneita niteitä yksikössä',
+    t1.timestamp AS 'Valunut',
+    STR_TO_DATE(ExtractValue(bm.metadata,'//controlfield[@tag="005"]'),'%Y%m%d%H%i%s') AS 'Muokattu'
 FROM (SELECT object, info, MAX(timestamp) AS timestamp
 		FROM action_logs al
 		WHERE al.timestamp >= NOW() - INTERVAL 1 DAY
