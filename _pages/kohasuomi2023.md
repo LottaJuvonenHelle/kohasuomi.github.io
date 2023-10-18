@@ -48,7 +48,7 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna, Pasi
   * Kirkeksen EDItX on tuotannossa ja käy ja kukkuu.
   * Redminen tikettien konversio Githubin RedGrave repoon on työn alla. Sen jälkeen täytyy vielä katsoa mitä muuta siirrettävää Redminessä on ennen sen ajamista alas.
   * Ajojärjestysmuutos on tehty viime keskiviikon huoltokatkossa, tuotannot nyt Jo:lla ja Amy:llä. Meg ja Beth ajavat testejä.
-  * OCFS-murheita selvitelty. Kirjoitssuorituskyky on osoittautunut aivan surkeaksi. Selvittely jatkuu Bittigurun kanssa viikolla 43.
+  * OCFS-murheita selvitelty. Kirjoitussuorituskyky on osoittautunut aivan surkeaksi. Selvittely jatkuu Bittigurun kanssa viikolla 43.
   * Build-skriptistä uusi versio testillä, mutta ei vielä commitoitu eikä tuotannossa. Stashaamisen sijaan vanhan release-branch resetoidaan viimeisimpään committiin (jolloin päästään eroon DBIx -skeematiedostoista) ennen branchin vaihtoa buildin alussa. Branchin vaihdon jälkeen vanhan release-branch poistetaan kokonaan ja ajetaan git gc --prune=now.
 
 ## Viikon 41 muistio
