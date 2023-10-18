@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42 muistio
 
 Aika: 17.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Roosa Väisänen (Kyyti)
 
 * Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan käyttäen borrowers/status-endpointia. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
 * MARCOrgCode-järjestelmäasetukseen pitää laittaa ISIL-koodi, jotta mm. OKM-tilastojen biblio_data_elements-taulujen ajot ei kaadu.
@@ -23,6 +23,10 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärv
 * [Asiantuntijaryhmän muistio 7/23](https://koha-suomi.fi/asiantuntijaryhma2023)
 
 Etelästä pohjoiseen
+
+**Kyyti**
+* uusilla ohjeilla tehdyt Kohan virkailijatunnukset todettiin toimiviksi ja on alettu muuttaa henkilökunnan tunnuksia ohjetta vastaaviksi.
+* Kotkassa tehty uusi nidetyyppi 14ELYHYTL (14 ei maksuja, lyhytlainat). Kotkassa nidetyyppiä testataan alkuun lasten uusilla joulukirjoilla. Kokeilu päättyy 31.5.2024 jonka jälkeen päätetään jätetäänkö uusi nidetyyppi käyttöön, vai poistetaanko se. 
 
 **Vaara**
 * ei erityistä mainittavaa ylläpidossa
