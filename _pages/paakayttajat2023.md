@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42 muistio
 
 Aika: 17.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Roosa Väisänen (Kyyti)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Roosa Väisänen (Kyyti), Kati Sillgren (Helle)
 
 * Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan käyttäen borrowers/status-endpointia. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
 * MARCOrgCode-järjestelmäasetukseen pitää laittaa ISIL-koodi, jotta mm. OKM-tilastojen biblio_data_elements-taulujen ajot ei kaadu.
@@ -40,7 +40,10 @@ Etelästä pohjoiseen
 * MARCOrgCode:ssa olikin jo FI-Siili.
 
 **OUTI**
-* Koha-Ceepos maksurajapinta ei toimi. Rajapinta lakkasi toimimasta, kun ke 11.10. huoltoikkunan yhteydessä tehtiin palvelinmuutoksia.
+* Koha-Ceepos maksurajapinta ei toimi. Rajapinta lakkasi toimimasta, kun ke 11.10. huoltoikkunan yhteydessä tehtiin palvelinmuutoksia.'
+
+**Helle**
+* Helle-sähköpostissa on ollut keskiviikkona (11.10.2023) 114 Kohan asiakasviestiä tiedolla 'toimitus viivästynyt'. Liittynevät office 365/Outlook-sähköpostipalvelussa tuolloin ilmenneeseen ongelmaan. https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fanyone-else-seeing-outlook-mail-delivery-problems-in-au-v0-ihfw86mpnjtb1.jpeg%3Fwidth%3D1440%26format%3Dpjpg%26auto%3Dwebp%26s%3D858e6948b23e29b24167639b75fb071a47bc1cff
   
 ## Viikko 41 muistio
 
