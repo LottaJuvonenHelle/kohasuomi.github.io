@@ -46,7 +46,9 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna, Pasi
     * ennen konversioita kannattaa varsinkin TäTissä tehdä vanhojen ja virheellisten tietueiden poistoja reilulla kädellä. Kuvailuryhmä pystyy arvioimaan, mitä voidaan poistaa.
 * Kodo
   * Kirkeksen EDItX on tuotannossa ja käy ja kukkuu.
-  * Redminen tikettien konversio Githubin RedGrave repoon on työn alla. Sen jälkeen täytyy vielä katsoa mitä muuta siirrettävää Redminessä on ennen sen ajamista alas.    
+  * Redminen tikettien konversio Githubin RedGrave repoon on työn alla. Sen jälkeen täytyy vielä katsoa mitä muuta siirrettävää Redminessä on ennen sen ajamista alas.
+  * Ajojärjestysmuutos on tehty viime keskiviikon huoltokatkossa, tuotannot nyt Jo:lla ja Amy:llä. Meg ja Beth ajavat testejä.
+  * OCFS-murheita selvitelty. Kirjoitssuorituskyky on osoittautunut aivan surkeaksi. Selvittely jatkuu Bittigurun kanssa viikolla 43.
 
 ## Viikon 41 muistio
 
