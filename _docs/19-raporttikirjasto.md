@@ -1901,10 +1901,10 @@ AND bi.itemtype='KI'
 
 Raportti hakee tietueet, jotka ovat valuneet päivän sisällä paikalliskantaan.
 
-Lisätty: 18.10.2023
+Lisätty: 18.10.2023<br />
 Tekijä: Mikko Liimatainen
 
-<pre>SELECT t1.object AS 'tietuenumero',	(select itemtype from biblioitems bi where t1.object=bi.biblionumber) AS 'Aineistotyyppi', datelastseen AS "Viimeisin havaintopvm",
+<pre>SELECT t1.object AS 'tietuenumero', (select itemtype from biblioitems bi where t1.object=bi.biblionumber) AS 'Aineistotyyppi', datelastseen AS "Viimeisin havaintopvm",
     b.author AS Tekijä,
    	CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'" target="_blank">',b.title,IF(b.subtitle != '', CONCAT(' ',b.subtitle),''),IF(b.part_number != '', CONCAT(' ',b.part_number),''),IF(b.part_name != '', CONCAT(' ',b.part_name),''),'</a>') AS 'Nimeke',
 	SUBSTRING(t1.info, LOCATE('LDR', t1.info)+21, 1) AS 'vanha leader 17',
