@@ -27,6 +27,7 @@ Etelästä pohjoiseen
 **Vaara**
 * ei erityistä mainittavaa ylläpidossa
 * tehty viime viikolla muutama Finna-kehitysehdotus https://github.com/KohaSuomi/Finna-kehitysehdotukset/ yhdessä pohdittavaksi, ovatko tarpeen vai ei
+* Joensuun pääkirjaston Ceepos-kassa ei toimi viime viikon huoltoikkunan jälkeen.
 
 **Siilinjärvi**
 * Asiakkaat eivät ole saaneet lisättyä kirjastokorttiaan Siilinjärvi-kuntasovellukseen. Johannan mukaan toimittajalla (Hion Digital) on asetuksissa vanhentunut rajapinta endpoint.
