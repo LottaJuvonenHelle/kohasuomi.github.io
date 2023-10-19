@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 43 muistio
+
+### Maanantai 23.10.2023 klo 9
+
+Läsnä:
+
+* Päivystysvuorot viikosta 44 eteenpäin
+* Viikon 43 päivitys
+
 ## Viikon 42 muistio
 
 ### Maanantai 16.10.2023 klo 9
