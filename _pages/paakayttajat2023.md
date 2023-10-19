@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 42 muistio
 
 Aika: 17.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Roosa Väisänen (Kyyti), Kati Sillgren (Helle), Annika Helastila, Erika Miettinen ja Elina Uotila (Kirkes), Mikko Liimatainen (Vaski)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Roosa Väisänen (Kyyti), Kati Sillgren (Helle), Annika Helastila, Erika Miettinen ja Elina Uotila (Kirkes), Mikko Liimatainen (Vaski), Hanna Ikonen (Lumme)
 
 * Timmi-tilanvarausjärjestelmään ollaan mahdollisesti luomassa yhteyttä Kohaan käyttäen borrowers/status-endpointia. Jos kiinnostusta tämän käyttöönottoon löytyy, yhteyttä voi ottaa Jani Asiakaiseen (jani.asikainen@timmi.fi). /Emmi
 * MARCOrgCode-järjestelmäasetukseen pitää laittaa ISIL-koodi, jotta mm. OKM-tilastojen biblio_data_elements-taulujen ajot ei kaadu.
@@ -56,6 +56,10 @@ Etelästä pohjoiseen
   * Saatavilla oleviin niteisiin rajaaminen toimimaan oikein asiaan löytyi jo tiketti 359. Lisätty tikettiin tieto bugzillan tiketistä 7012.
   * Vanhentuneille erääntyneille varauksille toivottaisiin asetettavaksi esimerkiksi erikoistila käsiteltävänä, jotta niteet eivät näkyisi hyllyssä tilaisina ennen kuin niteet on saatu käsiteltyä. Tehdään tiketti asiasta.
   * Tärppäämättömien varausten määrää toivottu näkyville tietueen näkymään. Ei totetuteta, sillä tarve ei ole suuri ja toiminnon saa tehtyä raportilla.
+ 
+  **Lumme**
+  * Otettiin käyttöön AllowRenewalIfOtherItemsAvailable-asetus.
+  * Muuten normaalia ylläpitoa.
   
 ## Viikko 41 muistio
 
