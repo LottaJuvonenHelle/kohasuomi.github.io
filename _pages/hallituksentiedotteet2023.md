@@ -11,6 +11,21 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 8/2023
+
+20.10.2023
+
+Hallituksen kokouksen tärkein asia oli pohtia ensi vuoden ja tulevien vuosien taloutta. Palkankorotukset ja yleinen kustannustason nousu vaikuttavat tietysti yhtiön talouteen kuten tilanne on kunnissakin. Tämän vuoden osalta talous suunniteltiin hieman tappiolliseksi ja nyt ennuste näyttää tappion toteutuvan suunnitellun suuruisena. Marraskuun kokouksessa jatketaan ensi vuoden talouden suunnittelua vielä täsmällisempien lukujen kanssa.
+
+Liitteenä on toimitusjohtajan raportti. Tietosuoja- ja tietoturvaharjoitus oli 10.10. ja siinä harjoiteltiin kahta erilaista tilannetta. Joitakin käytäntöjä parannetaan harjoituksen perusteella. Harjoituksen järjestäjät totesivat harjoituksen sujuneen hyvin ja kiittelivät osallistujien paneutumista ja asiantuntemusta. Ylipäätään jäi vaikutelma, että meidän valmiutemme kohdata häiriötilanteita on hyvä. Muistetaan kuitenkin jokainen, että suurin tietoturvariski on yksittäinen ihminen eli me kaikki. Ollaan superhuolellisia niin käyttäjätunnusten, salasanojen kuin laitteiden kanssa 😊
+
+ Toimitusjohtajan raportti: [Toimitusjohtajan raportti 8_2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13052723/Toimitusjohtajanraportti8_2023.pdf)
+
+
+Aurinkoisia syyspäiviä kaikille!
+
+t. Rebekka, hallituksen pj.
+
 ## Koha-Suomen hallituksen tiedote 7/2023
 
 Tuttuun tapaan kävimme kokouksessa läpi toimitusjohtajan raportin ja taloustilanteen. Talouden osalta mennään ihan suunnitelman mukaisesti. Toimitusjohtajan raportin iso asia on Kirkes-kimpan käyttöönotto ja Lastu-kirjastojen käyttöönoton aloittaminen. Isoja muutoksia meidän Koha-Suomen kokoonpanollemme. Yhtiökokous antoi tehtäväksi valmistella osakassopimuksen päivittämisen ja sen puitteissa käytiin hyvä ja monipuolinen lähetekeskustelu. Asia annettiin Arille ja kahdelle hallitusjäsenelle valmisteltavaksi.
