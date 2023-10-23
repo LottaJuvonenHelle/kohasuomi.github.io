@@ -19,7 +19,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 Läsnä: Anneli, Lasse, Lari
 
-* Päivystysvuorot viikosta 44 eteenpäin
+* Päivystysvuorot viikosta 44 eteenpäin kirjattu kalenteriin
 * Viikon 43 päivitys
 * Genren lisäluokka (084 9_ ‡a) biblio_data_elements-tauluun.
   * Lisätään tälle oma sarake, johon lisätään kaikki tietueen genren lisäluokat pilkulla eroteltuna 
