@@ -22,6 +22,7 @@ Läsnä:
 * Päivystysvuorot viikosta 44 eteenpäin
 * Viikon 43 päivitys
 * Genren lisäluokka (084 9_ ‡a) biblio_data_elements-tauluun.
+* Versionvaihdon tikettien vastuutukset, milloin hoidetaan? Tarvitaanko erillinen palsu?
 
 ## Viikon 42 muistio
 
