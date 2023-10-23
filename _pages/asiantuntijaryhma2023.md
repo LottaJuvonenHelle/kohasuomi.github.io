@@ -40,6 +40,8 @@ Edellisessä kokouksessa päätettiin selvittää, minkälaisia viestisopimuksia
 
 ### Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
+[Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
+
 ### Muut asiat
 
 ## Asiantuntijaryhmän muistio 7/23
