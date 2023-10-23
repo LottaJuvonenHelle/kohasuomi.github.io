@@ -15,6 +15,33 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 7/23
+
+Aika: To 30.10.2023 klo 13<br />
+Läsnä:
+
+### Arin ajankohtaiset
+
+### Tiedonhaku- ja indeksointityöryhmän perustaminen
+
+Edellisessä kokouksessa päätettiin tiedustella kimpoissa, ketkä tulevat mukaan perustettavaan tiedonhaku- ja indeksointityöryhmään.
+
+### Kimppojen viestipalvelujen sopimukset
+
+Edellisessä kokouksessa päätettiin selvittää, minkälaisia viestisopimuksia kimpoissa on käytössä ja olisiko ne mahdollista korvata Koha-Suomen kilpailuttamalla palvelulla (ei ole vielä kilpailutettu).
+
+### Kehitysehdotusten läpikäyntiä
+
+* [#3804 Luettelointi: nalkuttimelle lisää tarkistettavaa](https://tiketti.koha-suomi.fi/issues/3804)
+* [#3759 Lisää fasetteja käyttöön: Kauno JA Tieto](https://tiketti.koha-suomi.fi/issues/3759)
+* [#3647 MARC21-kenttien ohjeet](https://tiketti.koha-suomi.fi/issues/3647)
+* [#3626 Tarrapohjalle kokoelma-tieto selkokielisenä (description)](https://tiketti.koha-suomi.fi/issues/3626)
+* [#3597 Koulujen kirjastojen niteille perustiedot näytölle oma välilehti](https://tiketti.koha-suomi.fi/issues/3597)
+
+### Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+
+### Muut asiat
+
 ## Asiantuntijaryhmän muistio 7/23
 
 Aika: To 12.10.2023 klo 12<br />
