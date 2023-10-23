@@ -19,6 +19,10 @@ Läsnä:
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
 * [Finna-kehitysehdotuspalaverin tulokset](https://github.com/KohaSuomi/Finna-kehitysehdotukset/wiki)
 
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 42 muistio
 
 Aika: 17.10.2023 klo 9.15 <br />
@@ -70,6 +74,8 @@ Etelästä pohjoiseen
   * Otettiin käyttöön AllowRenewalIfOtherItemsAvailable-asetus.
   * Muuten normaalia ylläpitoa.
   
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-42-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 41 muistio
 
 Aika: 11.10.2023 klo 10 <br />
