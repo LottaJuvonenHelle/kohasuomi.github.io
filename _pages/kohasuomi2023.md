@@ -22,7 +22,9 @@ Läsnä: Anneli, Lasse
 * Päivystysvuorot viikosta 44 eteenpäin
 * Viikon 43 päivitys
 * Genren lisäluokka (084 9_ ‡a) biblio_data_elements-tauluun.
+  * Lisätään tälle oma sarake, johon lisätään kaikki tietueen genren lisäluokat pilkulla eroteltuna 
 * Versionvaihdon tikettien vastuutukset, milloin hoidetaan? Tarvitaanko erillinen palsu?
+  * pidetään erillinen palaveri torstaina 26.10. klo 9 
 
 ## Viikon 42 muistio
 
