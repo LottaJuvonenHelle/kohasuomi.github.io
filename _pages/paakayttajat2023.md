@@ -18,6 +18,7 @@ Läsnä:
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
 * [Finna-kehitysehdotuspalaverin tulokset](https://github.com/KohaSuomi/Finna-kehitysehdotukset/wiki)
+  * kirjataan esityslistalle ennakkoon, mitkä Finna-ehdotukset käydään läpi kyseisessä viikkopalaverissa.
 
 Pohjoisesta etelään
 
