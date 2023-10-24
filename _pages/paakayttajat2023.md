@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43 muistio
 
 Aika: 24.10.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
@@ -21,6 +21,12 @@ Läsnä:
   * kirjataan esityslistalle ennakkoon, mitkä Finna-ehdotukset käydään läpi kyseisessä viikkopalaverissa.
 
 Pohjoisesta etelään
+
+**Vaara**
+* Testattu Vaaran testillä vanhentuneiden maksujen mitätöintiä, joka näyttäisi toimivan kunte pitääkin eri maksutyypeillä.
+* TäTissä siivottu pois osa vanhoja tietueita, jotka tuotu vuonna 2014 BTJ:ltä. Paljon siivottavaa vielä riittää, vie aina muutaman minuutin kun käsittelee 1000 nimekettä kerrallaan eräpoistossa. Muutama muukin Koha-Suomen kuvailuryhmästä lupautunut mukaan siivousoperaatioon.
+* Irina Halminen ja Päivi käyvät läpi Redminen vanhoja Finna-kehitysehdotuksia ja siirretään toimenpiteitä tarvitsevat tiketit GitHubiin oikeaksi tiketiksi.
+* Koska Ceepos saatiin toimimaan viime viikolla, Auli on aloittanut ohjeen päivittämisen. Valmistunee lähiaikoina.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
