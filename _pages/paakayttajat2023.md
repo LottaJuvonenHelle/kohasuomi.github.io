@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43 muistio
 
 Aika: 24.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
@@ -27,6 +27,14 @@ Pohjoisesta etelään
 * TäTissä siivottu pois osa vanhoja tietueita, jotka tuotu vuonna 2014 BTJ:ltä. Paljon siivottavaa vielä riittää, vie aina muutaman minuutin kun käsittelee 1000 nimekettä kerrallaan eräpoistossa. Muutama muukin Koha-Suomen kuvailuryhmästä lupautunut mukaan siivousoperaatioon.
 * Irina Halminen ja Päivi käyvät läpi Redminen vanhoja Finna-kehitysehdotuksia ja siirretään toimenpiteitä tarvitsevat tiketit GitHubiin oikeaksi tiketiksi.
 * Koska Ceepos saatiin toimimaan viime viikolla, Auli on aloittanut ohjeen päivittämisen. Valmistunee lähiaikoina.
+
+**OUTI**
+* Koha-Ceepos-maksurajapinta on saatu toimimaan kaikissa OUTIn Ceepos-kirjastoissa Koha-Suomen konesalimuutosten ja Oulunkaaren kuntien (Ii, Pudasjärvi ja Utajärvi) Ceepos-palvelinten muutosten jäljiltä.
+* Koha-jumi torstaina 19.10. klo 9.37, jonka aiheutti tietokantataulun lukkiutuminen.
+* OUTIssa otettu käyttöön ke 18.10. järjestelmäasetus AllowRenewalIfOtherItemsAvailable, joka mahdollistaa nyt lainan uusimisen teokseen, josta on varaus, jos tietueessa on muita niteitä, jotka voivat täyttää varauksen.
+  ** Käyttäjiltä ei ole tullut valituksia, että toiminnon käyttöönotto olisi aiheuttanut ongelmaa Finnassa tai Kohassa.
+  ** Siikajoen neljässä pienessä kirjastossa, jotka eivät ole varuksen noutopaikkoja, aiheutti asetusmuutos sen, että siellä ovat tähän asti pystyneet uusimaan lainoja, vaikka niistä on ollut varauksia. Nyt jos tietueessa ei ole yhtään nidettä saatavana, joka voisi täyttää varauksen, näissäkään kirjastoissa ei voi enää uusia varattuja aineistoja. Kirjastojen niteillä on nidetilana ”Saatavana, ei varattavissa”.
+* Kehitystoive: Uusinnan eräpäivä -kohdalle valinta "Muista istunnolle". Tästä oli tehty jo aiemmin kehitysehdotus: https://github.com/KohaSuomi/Koha/issues/305
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
