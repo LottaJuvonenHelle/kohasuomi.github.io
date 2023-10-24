@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43 muistio
 
 Aika: 24.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme)
 
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
@@ -45,6 +45,10 @@ Pohjoisesta etelään
 * Annika ja Elina ovat jatkossa Kirkes-kimpan pääkäyttäjiä ja osallistuvat pääkäyttäjäpalavereihin. Lisäksi Kirkes-kirjastoissa on nyt saatu selvennettyä kuntien pääkäyttäjien roolia ja täten vähennetään superlibrarian-oikeudet kahdelle kimpan pääkäyttäjälle.
 * Tuusulaan tullut uusi automaatti, eli ensimmäistä kertaa Koha-tuotantokäyttöaikana tehty tunnukset uudelle automaatille.
 * Erika jää tämän viikon jälkeen vuodeksi opintovapaalle ja palaa takaisin marraskuun 2024 alussa. Erikan puolesta kiitos kaikille muille Koha-kirjastojen pääkäyttäjille Kirkes-kirjastojen saamasta moninaisesta avusta ja hyvästä yhteistyöstä käyttöönottoprojektin aikana!
+
+**Lumme**
+* Lumpeissa otettiin viime viikolla käyttöön AllowRenewalIfOtherItemsAvailable-asetus, joka laittoi Damaged-tilan alla olevat "Lainattavissa, ei varattavissa" -tilassa olevat niteet varausjonoon, jolloin niteiden uusiminen estyi. Asetus otettiin pois käytöstä ja katsotaan, onko tätä ongelmaa mahdollista kiertää muuta kautta.
+* Tuli ilmi tapaus, jossa asiakkaalta oli kadonneet viestitäpät. Asiakas oli saanut elokuun puoleen väliin asti viestit varauksista tekstiviestitse, tämän jälkeen kirjeenä.
 
 ## Viikko 42 muistio
 
