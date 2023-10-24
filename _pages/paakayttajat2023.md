@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43 muistio
 
 Aika: 24.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Pia Kusmin (Lappi)
 
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
@@ -36,8 +36,6 @@ Pohjoisesta etelään
   ** Siikajoen neljässä pienessä kirjastossa, jotka eivät ole varuksen noutopaikkoja, aiheutti asetusmuutos sen, että siellä ovat tähän asti pystyneet uusimaan lainoja, vaikka niistä on ollut varauksia. Nyt jos tietueessa ei ole yhtään nidettä saatavana, joka voisi täyttää varauksen, näissäkään kirjastoissa ei voi enää uusia varattuja aineistoja. Kirjastojen niteillä on nidetilana ”Saatavana, ei varattavissa”.
 * Kehitystoive: Uusinnan eräpäivä -kohdalle valinta "Muista istunnolle". Tästä oli tehty jo aiemmin kehitysehdotus: https://github.com/KohaSuomi/Koha/issues/305
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
-
 **Kirkes**
 * OKM-tilastointi ja laskutus edelleen selvityksessä.
 * Yritetty myös selvittää, mitä yksityisoikeudellisia maksuja Kirkes-kirjastoissa on.
@@ -49,6 +47,12 @@ Pohjoisesta etelään
 **Lumme**
 * Lumpeissa otettiin viime viikolla käyttöön AllowRenewalIfOtherItemsAvailable-asetus, joka laittoi Damaged-tilan alla olevat "Lainattavissa, ei varattavissa" -tilassa olevat niteet varausjonoon, jolloin niteiden uusiminen estyi. Asetus otettiin pois käytöstä ja katsotaan, onko tätä ongelmaa mahdollista kiertää muuta kautta.
 * Tuli ilmi tapaus, jossa asiakkaalta oli kadonneet viestitäpät. Asiakas oli saanut elokuun puoleen väliin asti viestit varauksista tekstiviestitse, tämän jälkeen kirjeenä.
+
+**Lappi**
+* Normaalia ylläpitoa
+* Pähkäilyä: Uudelle asiakkaalle voi tallentaa viestiasetuksia, vaikka hänelle ei samalla tallennakaan puhelinnumeroa tai sähköpostiosoitetta. Jos menee muokkaamaan, Kohassa tulee ilmoitus puuttuvista tiedoista ja valitut viestiasetukset poistuvat. Testillä asetukset poistuvat jo ensimmäisellä tallennuskerralla. Hellessä toimii näin myös tuotannossa. Onko vika IntranetUserJS-rimpsussa? Selvitettävä.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 42 muistio
 
