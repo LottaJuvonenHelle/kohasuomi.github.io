@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43 muistio
 
 Aika: 24.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
 
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
@@ -51,6 +51,10 @@ Pohjoisesta etelään
 **Lappi**
 * Normaalia ylläpitoa
 * Pähkäilyä: Uudelle asiakkaalle voi tallentaa viestiasetuksia, vaikka hänelle ei samalla tallennakaan puhelinnumeroa tai sähköpostiosoitetta. Jos menee muokkaamaan, Kohassa tulee ilmoitus puuttuvista tiedoista ja valitut viestiasetukset poistuvat. Testillä asetukset poistuvat jo ensimmäisellä tallennuskerralla. Hellessä toimii näin myös tuotannossa. Onko vika IntranetUserJS-rimpsussa? Selvitettävä.
+
+**Siilinjärvi**
+* Ei mainittavaa
+* Tuotu myös meiltä koemielessä pari asiakkaalta tullutta [Finna-kehitysehdotusta](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues) #11 ja #12
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
