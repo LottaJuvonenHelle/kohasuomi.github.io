@@ -17,10 +17,15 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 23.10.2023 klo 9
 
-Läsnä: Anneli, Lasse, Lari
+Läsnä: Anneli, Lasse, Lari, Emmi
 
 * Päivystysvuorot viikosta 44 eteenpäin kirjattu kalenteriin
+  * Lari ja Lasse
+  * Pasi ja Kodo
+  * Anneli ja Johanna
+  * Emmi ja Lari 
 * Viikon 43 päivitys
+  * Päivitystiedote [täällä](https://github.com/KohaSuomi/Koha/discussions/856) 
 * Genren lisäluokka (084 9_ ‡a) biblio_data_elements-tauluun.
   * Lisätään tälle oma sarake, johon lisätään kaikki tietueen genren lisäluokat pilkulla eroteltuna 
 * Versionvaihdon tikettien vastuutukset, milloin hoidetaan? Tarvitaanko erillinen palsu?
