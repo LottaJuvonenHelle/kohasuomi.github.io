@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43 muistio
 
 Aika: 24.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes)
 
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
@@ -37,6 +37,14 @@ Pohjoisesta etelään
 * Kehitystoive: Uusinnan eräpäivä -kohdalle valinta "Muista istunnolle". Tästä oli tehty jo aiemmin kehitysehdotus: https://github.com/KohaSuomi/Koha/issues/305
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
+**Kirkes**
+* OKM-tilastointi ja laskutus edelleen selvityksessä.
+* Yritetty myös selvittää, mitä yksityisoikeudellisia maksuja Kirkes-kirjastoissa on.
+* Käyty läpi Kohassa valmiina olleita tallennettuja raportteja, tavoitteena poistaa sellaiset, mitä ei tarvita.
+* Annika ja Elina ovat jatkossa Kirkes-kimpan pääkäyttäjiä ja osallistuvat pääkäyttäjäpalavereihin. Lisäksi Kirkes-kirjastoissa on nyt saatu selvennettyä kuntien pääkäyttäjien roolia ja täten vähennetään superlibrarian-oikeudet kahdelle kimpan pääkäyttäjälle.
+* Tuusulaan tullut uusi automaatti, eli ensimmäistä kertaa Koha-tuotantokäyttöaikana tehty tunnukset uudelle automaatille.
+* Erika jää tämän viikon jälkeen vuodeksi opintovapaalle ja palaa takaisin marraskuun 2024 alussa. Erikan puolesta kiitos kaikille muille Koha-kirjastojen pääkäyttäjille Kirkes-kirjastojen saamasta moninaisesta avusta ja hyvästä yhteistyöstä käyttöönottoprojektin aikana!
 
 ## Viikko 42 muistio
 
