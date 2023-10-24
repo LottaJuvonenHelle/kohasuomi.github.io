@@ -30,6 +30,13 @@ Edellisessä kokouksessa päätettiin tiedustella kimpoissa, ketkä tulevat muka
 
 Edellisessä kokouksessa päätettiin selvittää, minkälaisia viestisopimuksia kimpoissa on käytössä ja olisiko ne mahdollista korvata Koha-Suomen kilpailuttamalla palvelulla (ei ole vielä kilpailutettu).
 
+### Vaskin projektien esittely
+
+Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
+
+* Kuljetusten optimointi: vastuu Asko Autio ja Turkucitydata
+* Kokoelmanhallinta/Kelluntatyökalu: vastuu Kaisa Hypén ja Weasel + Gispositio
+* Puppe-saapumisvalvontapalvelu: vastuu Kaisa Hypén ja Broomworks
 ### Kehitysehdotusten läpikäyntiä
 
 * [#3804 Luettelointi: nalkuttimelle lisää tarkistettavaa](https://tiketti.koha-suomi.fi/issues/3804)
