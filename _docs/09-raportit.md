@@ -444,92 +444,99 @@ mukaan tilastoihin.
 
 Esimerkkikonfiguraatio:
 
-    ---
-    blockStatisticsGeneration: 0
-    itemTypeToStatisticalCategory:
-      ALEHTI: Serials
-      ARTIKKELI: Other
-      ATLAS: Books
-      BLURAY: Videos
-      BRAILLE: Books
-      CD: Recordings
-      PUHECD: Recordings
-      CDROM: Other
-      DATKAS: Other
-      DIA: Other
-      DVD: Videos
-      EKIRJA: Electronic
-      ELEKTRON: Electronic
-      ELOKUVA: Videos
-      ESINE: Other
-      EVIDEO: Electronic
-      KAAVIO: Other
-      KALVO: Other
-      KARTTA: Other
-      PUHEKAS: Recordings
-      KAUKOKART: Other
-      KAUSIJULK: Serials
-      KIRJA: Books
-      KIRJANOSA: Books
-      KOKOELMA: Other
-      KOLLAASI: Other
-      KONSOLIP: Other
-      KASIKIRJ: Books
-      LEVYKE: Other
-      MAALAUS: Other
-      MAGNEETTI: Other
-      MIKROF: Other
-      MONIVIES: Other
-      MUSATAL: Recordings
-      MUU: Other
-      MUUPAINATE: Other
-      NAUHAKAS: Other
-      NUOTTI: SheetMusicAndScores
-      OPTINEN: Other
-      PIIRIKOT: Other
-      PIIRROS: Other
-      PAIVITTYVA: Other
-      RAINA: Videos
-      KORTTI: Other
-      SLEHTI: Serials
-      SARJANOSA: Other
-      TYOPIIR: Other
-      VALOKUVA: Other
-      NEGATIIVI: Other
-      VIDEO: Videos
-      VIDEOKAS: Videos
-      VIDEOKELA: Videos
-      VIDEOLEVY: Videos
-      VIDEOSILM: Videos
-      AANIKAS: Recordings
-      AANILEVY: Recordings
-      PUHELEVY: Recordings
-      AANITALL: Recordings
-      PUHETAL: Recordings
-    patronCategories:
-      - HENKILO
-      - KOTIPALVEL
-      - LAPSI
-      - MUUHUOL
-      - YHTEISO
-    notForLoanStatuses:
-      - -1
-    adultShelvingLocations:
-      - AIK
-      - VAR
-      - MUS
-      - LEH
-      - KOT
-      - OU
-      - OUV
-      - K
-      - PALVELUT
-    juvenileShelvingLocations:
-      - LN
-      - KOULU
-      - VARLN
-      - LUKIO
-
+```
+---
+blockStatisticsGeneration: 0
+itemTypeToStatisticalCategory:
+ ALEHTI: Serials 
+ ARTIKKELI: Other
+ ATLAS: Books
+ BLURAY: Videos
+ BRAILLE: Books
+ CD: Recordings
+ PUHECD: Recordings
+ CDROM: Other
+ DATKAS: Other
+ DIA: Other 
+ DVD: Videos
+ EKIRJA: Electronic
+ ELEKTRON: Electronic 
+ ELOKUVA: Videos
+ ESINE: Other 
+ EVIDEO: Electronic 
+ KAAVIO: Other 
+ KALVO: Other 
+ KARTTA: Other
+ PUHEKAS: Recordings 
+ KAUKOKART: Other
+ KAUSIJULK: Serials
+ KIRJA: Books 
+ KOKOELMA: Other
+ KOLLAASI: Other
+ KASIKIRJ: Books
+ LAUTAPELI: Other
+ LEVYKE: Other
+ MAALAUS: Other
+ MAGNEETTI: Other
+ MIKROF: Other
+ MONIVIES: Other 
+ MUSATAL: Recordings 
+ MUU: Other
+ MUUPAINATE: Other
+ NAUHAKAS: Other
+ NUOTTI: SheetMusicAndScores 
+ OPTINEN: Other
+ PIIRIKOT: Other
+ PIIRROS: Other
+ PAIVITTYVA: Other
+ RAINA: Videos 
+ KORTTI: Other 
+ SLEHTI: Serials
+ SARJANOSA: Other
+ TYOPIIR: Other
+ VALOKUVA: Other 
+ NEGATIIVI: Other 
+ VIDEO: Videos
+ VIDEOKAS: Videos
+ VIDEOKELA: Videos 
+ VIDEOLEVY: Videos
+ VIDEOPELI: Other
+ VIDEOSILM: Videos
+ AANIKAS: Recordings
+ AANILEVY: Recordings
+ PUHELEVY: Recordings
+ AANITALL: Recordings
+ PUHETAL: Recordings
+excludedItemtypes:
+  - ALEHTI
+  - KAUSIJULK
+  - SLEHTI 
+patronCategories:
+  - HENKILO
+  - KOTIPALVEL
+  - LAPSI
+  - LAOMATOIMI
+  - MUUHUOL
+  - YHTEISO
+notForLoanStatuses:
+  - -1
+adultShelvingLocations:
+  - AIK
+  - VAR
+  - MUS
+  - LEH
+  - KOT
+  - OU
+  - OUV
+  - K
+  - PALVELUT
+  - VAREILAI
+juvenileShelvingLocations:
+  - LN
+  - KOULU
+  - VARLN
+  - LUKIO
+```
 ### 9.3.2 Kovakoodatut määritykset
 
 #### 9.3.2.1 Kirjastot ja kirjastoryhmät
