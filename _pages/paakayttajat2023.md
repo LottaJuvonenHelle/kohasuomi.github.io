@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43 muistio
 
 Aika: 24.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
@@ -55,6 +55,10 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * Ei mainittavaa
 * Tuotu myös meiltä koemielessä pari asiakkaalta tullutta [Finna-kehitysehdotusta](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues) #11 ja #12
+
+**Helle**
+* Tiedotettu Kohan tietoturvaohjeesta ja pyydetty vaihtamaan Koha-salasanat.
+* Otettu käyttöön Vaski-kimpan Valuneet tietueet -raportti.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
