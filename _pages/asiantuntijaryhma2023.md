@@ -20,24 +20,25 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: Ma 30.10.2023 klo 13<br />
 Läsnä:
 
-### Arin ajankohtaiset
+### 1. Arin ajankohtaiset
 
-### Tiedonhaku- ja indeksointityöryhmän perustaminen
+### 2. Tiedonhaku- ja indeksointityöryhmän perustaminen
 
 Edellisessä kokouksessa päätettiin tiedustella kimpoissa, ketkä tulevat mukaan perustettavaan tiedonhaku- ja indeksointityöryhmään.
 
-### Kimppojen viestipalvelujen sopimukset
+### 3. Kimppojen viestipalvelujen sopimukset
 
 Edellisessä kokouksessa päätettiin selvittää, minkälaisia viestisopimuksia kimpoissa on käytössä ja olisiko ne mahdollista korvata Koha-Suomen kilpailuttamalla palvelulla (ei ole vielä kilpailutettu).
 
-### Vaskin projektien esittely
+### 4. Vaskin projektien esittely
 
 Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 
 * Kuljetusten optimointi: vastuu Asko Autio ja Turkucitydata
 * Kokoelmanhallinta/Kelluntatyökalu: vastuu Kaisa Hypén ja Weasel + Gispositio
 * Puppe-saapumisvalvontapalvelu: vastuu Kaisa Hypén ja Broomworks
-### Kehitysehdotusten läpikäyntiä
+
+### 5. Kehitysehdotusten läpikäyntiä
 
 * [#3804 Luettelointi: nalkuttimelle lisää tarkistettavaa](https://tiketti.koha-suomi.fi/issues/3804)
 * [#3759 Lisää fasetteja käyttöön: Kauno JA Tieto](https://tiketti.koha-suomi.fi/issues/3759)
@@ -45,11 +46,11 @@ Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 * [#3626 Tarrapohjalle kokoelma-tieto selkokielisenä (description)](https://tiketti.koha-suomi.fi/issues/3626)
 * [#3597 Koulujen kirjastojen niteille perustiedot näytölle oma välilehti](https://tiketti.koha-suomi.fi/issues/3597)
 
-### Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+### 6. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
 
-### Muut asiat
+### 7. Muut asiat
 
 ## Asiantuntijaryhmän muistio 7/23
 
