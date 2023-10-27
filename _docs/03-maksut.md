@@ -228,46 +228,26 @@ Viivakoodi-kenttään
 
 ### 3.5.1. Valmistelut ennen maksujen vastaanottoa
 
-Avaa Kohassa asiakkaan Maksa maksuja-välilehti. Valitse sieltä ne
-maksut, jotka asiakas maksaa ja klikkaa joko Maksa kaikki tai Maksa
-valitut.
+Avaa Kohassa asiakkaan *Maksa maksuja*-välilehti. Valitse sieltä ne
+maksut, jotka asiakas maksaa ja klikkaa joko *Maksa kaikki* tai *Maksa
+valitut*.
 
-![](/assets/files/docs/Asiakkaat/maksamaksuja2.png)
+![](/assets/files/docs/Maksut/maksut1.png)
 
-Jos toimipistekoodia ei ole näkyvissä, klikkaa Lisää toimipiste.
+Maksutyyppi-kohtaan valitaan toimipistekoodi, ellei se ole jo siinä valmiina. Sen jälkeen 
+klikkaa *Ceepos-maksu*.
 
-Toimipiste on sama kuin kassan numero. Jos kirjastossa on useampi kassa,
-tulee tähän toimipistekoodi.
-
-Kun toimipiste on valittu, se näkyy näytöllä. Toimipiste näkyy niin
-kauan kuin evästeitä (cookies) ei tyhjennetä. Jos evästeet poistetaan,
-pitää toimipiste lisätä uudelleen.
+![](/assets/files/docs/Maksut/maksut2.png)
 
 ### 3.5.2. Maksun lähettäminen kassaohjelmaan
 
-Kun klikkaat toimipisteen numeroa, se muuttuu vihreäksi ja tieto siirtyy
-kassaan.
+Kun klikkaat *Ceepos-maksu*, tulee ilmoitus *Maksu lähetetty, käsittele kassassa!* Klikkaa *ok*.
 
-![](/assets/files/docs/Asiakkaat/ceepos6.png)
+![](/assets/files/docs/Maksut/maksut3.png)
 
-Odota, että kassajärjestelmä käsittelee maksun. Se ilmenee siten, että
-näytölle ilmestyy keltainen pyörivä ympyrä. Voit siirtyä Ceeposiin ja
-veloittaa asiakkaalta maksun. Toimi kirjaston Ceepos-ohjeiden mukaisesti
+Voit siirtyä Ceeposiin ja veloittaa asiakkaalta maksun. Toimi kirjaston Ceepos-ohjeiden mukaisesti
 ja palaa sitten takaisin Kohaan, jossa asiakkaan maksut ovat
 automaattisesti merkitty suoritetuiksi.
-
-### 3.5.3. Näkymä Kohan Maksut-osiossa
-
-Kohassa asiakkaan Tili-välilehdellä näkyy maksutapahtuman numero. Muista
-aina varmistaa, että maksusta on ilmestynyt yksi uusi maksurivi maksun
-tapahtumanumerolla, ja että maksurivillä maksettu summa on oikein.
-
-![](/assets/files/docs/Asiakkaat/testimaksu.png)
-
-Kun klikkaat maksutapahtuman rivillä, se maalaa siihen maksutapahtumaan
-liittyvät rivit.
-
-![](/assets/files/docs/Asiakkaat/testimaksu2.png)
 
 Ongelmatilanteissa ota yhteyttä joko oman kirjaston/kimpan Koha-tukeen
 tai kirjastosi Ceepos-ohjelman pääkäyttäjään.
