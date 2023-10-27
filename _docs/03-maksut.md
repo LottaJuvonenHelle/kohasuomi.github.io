@@ -234,7 +234,7 @@ valitut*.
 
 ![](/assets/files/docs/Maksut/maksut1.png)
 
-Maksutyyppi-kohtaan valitaan toimipistekoodi, ellei se ole jo siinä valmiina. Sen jälkeen 
+*Maksutyyppi*-kohtaan valitaan toimipistekoodi, ellei se ole jo siinä valmiina. Sen jälkeen 
 klikkaa *Ceepos-maksu*.
 
 ![](/assets/files/docs/Maksut/maksut2.png)
