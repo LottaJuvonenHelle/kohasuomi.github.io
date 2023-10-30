@@ -18,13 +18,23 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 8/23
 
 Aika: Ma 30.10.2023 klo 13<br />
-Läsnä:
+Läsnä: Anneli, Päivi, Riikka, Kati, Susanna, Noora, Leena, Hanna, Tuomas, Katja, Kodo
 
 ### 1. Arin ajankohtaiset
 
 ### 2. Tiedonhaku- ja indeksointityöryhmän perustaminen
 
 Edellisessä kokouksessa päätettiin tiedustella kimpoissa, ketkä tulevat mukaan perustettavaan tiedonhaku- ja indeksointityöryhmään.
+
+Vaara: Kai Sormunen<br />
+Lumme: Heli Auranen<br />
+Vaski: Anna Viitanen<br />
+OUTI: Antti Heikkinen<br />
+Helle: tulossa<br />
+Lappi: tulossa<br />
+Kirkes: tulossa<br />
+Kyyti: selvittelyn alla<br />
+
 
 ### 3. Kimppojen viestipalvelujen sopimukset
 
