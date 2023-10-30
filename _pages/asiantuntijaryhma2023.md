@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 8/23
 
 Aika: Ma 30.10.2023 klo 13<br />
-Läsnä: Anneli, Päivi, Riikka, Kati, Susanna, Noora, Leena, Hanna, Tuomas, Katja, Kodo
+Läsnä: Anneli (varapj), Päivi, Riikka, Kati, Susanna, Noora, Leena, Hanna, Tuomas, Katja, Kodo
 
 ### 1. Arin ajankohtaiset
 
@@ -30,15 +30,41 @@ Vaara: Kai Sormunen<br />
 Lumme: Heli Auranen<br />
 Vaski: Anna Viitanen<br />
 OUTI: Antti Heikkinen<br />
-Helle: tulossa<br />
-Lappi: tulossa<br />
-Kirkes: tulossa<br />
+Helle: selvittelyn alla<br />
+Lappi: selvittelyn alla<br />
+Kirkes: selvittelyn alla<br />
 Kyyti: selvittelyn alla<br />
 
 
 ### 3. Kimppojen viestipalvelujen sopimukset
 
 Edellisessä kokouksessa päätettiin selvittää, minkälaisia viestisopimuksia kimpoissa on käytössä ja olisiko ne mahdollista korvata Koha-Suomen kilpailuttamalla palvelulla (ei ole vielä kilpailutettu).
+
+OpusCapita = PostiMessaging Oyj
+
+Vaara: sms: Joensuun kaupungin tekemä sopimus, ei tietoa, voiko kirjasto käyttää toista sopimusta.<br />
+Lappi: sms:n Sopijana Rovaniemen kaupunginkirjasto, opuscapitan ekirjeiden sopimus epäselvä vielä<br />
+Vaski: sms Dna oy Turun kaupungin sopimus, ekirjeet Postin kanssa sopimus<br />
+OUTI: sms LinkMobiltyn sopimus Oulun kaupunginkirjastolla, ekirjeet opuscapita<br />
+Lumme: ekirjeet postimessaging kaupunginkirjaston tekemä sopimus, sms linkmobilityn sopimus ehkä Lumme-kirjastojen yhteinen (varmistettava)<br />
+Kyyti: sms Kyyti-kirjastojen yhteinen sopimus ArenaInteractive, ekirjeet Kotkalla ja Kouvolalla omat sopimukset (Kouvola vanha sopimus, Kotka vielä selvityksessä)<br />
+Helle: sms Porvoon kaupungin sopimus Telialle, ekirjesopimusta ei ole<br />
+Kirkes: ekirjeet Suomi.fin kautta, sms kaikki Kirkes-kunnat liittyneet samaan hankintasopimukseen ja kirjaston viestit siellä optiona. Järvenpää laskuttaa kaikkia.<br />
+Siilinjärvi: selvitetään
+
+Varovainen yhteenveto: sms-viestien sopimukset voisi olla irtisanottavissa tai että voidaan käyttää toista sopimusta kaupungin sopimuksen sijaan. ekirjeissä hinnat tuskin muuttuu, vaikka keskitetään, mutta ylläpito helpottuu.
+
+Avoinna olevia asioita:
+* miten tehdään erittely eri kimpoille lähetetyistä tekstiviestimääristä?
+  * onko tarpeen, jos tekstiviestit sisältyy perusmaksuun?
+  * miten paljon per kunta viestejä lähetetään?
+  * onko tarpeen yhtenäistää lähetettävien viestien tavat?
+* voihan lähettää myös ulkomaisiin liittymiin? 
+
+Miten edetään?
+* arvioidaan kuukaudessa lähetettävien viestien määrää / kimppa. Kukin kimppa kerää tiedon seuraavaan asiantuntijaryhmän kokoukseen.
+* sen jälkeen Ari tekee markkinakartoituksen
+* sitten ehdotus, miten edetään.
 
 ### 4. Vaskin projektien esittely
 
@@ -59,6 +85,8 @@ Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 ### 6. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
+
+Siirretään käsittely seuraavaan kokoukseen eli 20.11.2023.
 
 ### 7. Muut asiat
 
