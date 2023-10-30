@@ -20,6 +20,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä: Anneli
 
 * Vaskin tuotantoon raportteri-plugin
+  * tiistain päivityksessä
 * vkon 44 päivitys
 
 ## Viikon 43 muistio
