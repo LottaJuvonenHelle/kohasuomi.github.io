@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 43 muistio
 
 Aika: 24.10.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Susanna Sandell (Vaski)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Anneli Österman ja Emmi Takkinen (Koha-Suomi), Annika Helastila, Elina Uotila ja Erika Miettinen (Kirkes), Hanna Ikonen (Lumme), Pia Kusmin (Lappi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Susanna Sandell (Vaski), Roosa Väisänen (Kyyti)
 
 * [Viikon 43 päivitys](https://github.com/KohaSuomi/Koha/discussions/856)
 * [Koha-seminaariin ohjelma ja ilmoittautuminen](https://github.com/KohaSuomi/Koha/discussions/850)
@@ -62,6 +62,9 @@ Pohjoisesta etelään
 
 **Vaski**
 * Sovittiin, että tehdään tiketti tekstiviestivalinnan estämisestä noutomuistutukselta (https://github.com/KohaSuomi/Koha/issues/861)
+
+**Kyyti**
+*Kotkassa ollut useampi tapaus, jossa asiakkaalle on koitettu lisätä puhelinnumeroa matkapuhelinnumero-kenttään ja asiakastiedot tallentaessa matkapuhelinnumero-kenttään tallennettu puhelinnumero ei tallennu asiakkaan viestiasetuksiin tekstiviesti numeroon -kenttään. Ainakin osassa tapauksissa puhelinnumero on ollut jo tallennettuna matkapuhelinnumero-kentässä, mutta jostain syystä se ei ole tallentunut tekstiviesti numeroon -kenttään. Yhdessä tapauksessa asiakkaalle oli mennyt aikaisemmin viestit tekstiviestillä ja yhtäkkiä asiakas olikin saanut kirjeellä viestin joka aikaisemmin oli tullut tekstiviestinä, koska puhelinnumero oli kadonnut viestiasetuksista. Viimeisimmässä tapauksessa puolestaan asiakkaan viestit olivat menneet aikaisemmin sähköpostilla, mutta nyt asiakas halusikin vaihtaa viestinsä tulemaan tekstiviestillä ja kun virkailija koitti tallentaa asiakkaalle puhelinnumeron ei hän saanut sitä tallentumaan tekstiviesti numeroon -kenttään. Tässä tapauksessa en ole varma oliko asiakkaalla ollut aikaisemmin asiakastiedoissaan tallennettuna mitään puhelinnumeroa.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-43-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
