@@ -158,7 +158,9 @@ OUTI Libraries
 www.outikirjastot.fi
 ```
 
-Asiakaslajin mukaan valikoituva viestipohja (virkailijalle eri viesti kuin asiakkaille):
+#### Asiakaslajin mukaan valikoituva viestipohja
+Tällä mallilla esim. virkailijalle voi lähettää erilaisen viestin.
+
 ```
 [% IF "<<borrowers.categorycode>>" == "VIRKAILIJA" %]
 Hei,
@@ -274,6 +276,21 @@ Best regards
 OUTI Libraries
 <<branches.branchfax>>
 http://www.outikirjastot.fi
+```
+
+#### Pohja, jossa kirjastokorttitunnuksesta printataan vain kolme viimeistä merkkiä
+HTML-täppä paikoilleen. Vaskin mallissa kirjastokorttitunnuksen kolmen viimeisen merkin eteen on lisätty muutama asteriski, asteriskeja ei siis tismalleen sitä määrää kuin minkä verran merkkejä kirjastokorttitunnuksesta on jätetty printtaamatta.
+
+```
+<p>Kirjastokortti: *****[% borrower.cardnumber.substr(-3) %]</p>
+
+<p>Lainasi erääntyvät tänään. Lainoja ei voi uusia vastaamalla tähän viestiin. Voit uusia lainat verkkokirjastossa osoitteessa http://www.vaskikirjastot.fi, soittamalla kirjastoon tai kirjastossa paikan päällä.</p>
+
+<h3>Erääntyvät lainat:</h3>
+
+<<items.content>>
+
+<p>Tähän viestiin ei voi vastata. Vaski-kirjastojen yhteystiedot löydät verkkokirjastosta osoitteesta http://www.vaskikirjastot.fi</p>
 ```
 
 ## ISSUESLIP eli lainakuitti kaikista lainoista
