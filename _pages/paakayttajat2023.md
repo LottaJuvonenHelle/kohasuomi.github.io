@@ -22,6 +22,7 @@ Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
   * Kodo tekee RedGraven vielä uudelleen, jolloin viimeisimmät muutokset esim. Kehitysehdotusten tiketteihin tulee mukaan
   * Aikataulu: mahdollisimman pian, mielellään jo tällä viikolla.
 * Koha-Suomen harjoittelija aloittaa Oulussa ke 1.11.2023
+* Viestiasetusten poistoajossa oli lähtenyt vahingossa pois myös tekstiviestitäppiä, vaikka asiakkaalla oli smsalertnumber
 
 
 Etelästä pohjoiseen
