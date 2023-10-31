@@ -47,7 +47,8 @@ Elasticsearch-koulutus 10.11.2021
 
 [Elasticsearch-koulutuksen tallenne](https://youtu.be/_V-N8MiyflA)
 
-[Koulutuksen diasarja](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Tiedonhaku_Elasticsearchilla.pdf)
+
+[Tiedonhaku_Elasticsearchilla -diasarja](https://github.com/KohaSuomi/kohasuomi.github.io/files/13215328/Tiedonhaku_Elasticsearchilla.pdf), päivitetty 26.10.2023
 
 
 ### Budjettien ja tilien luonti
