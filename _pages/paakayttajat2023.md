@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44 muistio
 
 Aika: 31.10.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
 
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/875)
 * Redminen sulkeminen
@@ -21,6 +21,8 @@ Läsnä:
   * Redminen sisäiset linkit eivät vielä toimi RedGraven puolella, mutta koitetaan korjata ne myöhemmin.
   * Kodo tekee RedGraven vielä uudelleen, jolloin viimeisimmät muutokset esim. Kehitysehdotusten tiketteihin tulee mukaan
   * Aikataulu: mahdollisimman pian, mielellään jo tällä viikolla.
+* harjoittelija aloittaa Oulussa ke 1.11.2023
+
 
 Etelästä pohjoiseen
 
