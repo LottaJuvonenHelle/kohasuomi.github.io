@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44 muistio
 
 Aika: 31.10.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Anni Rajala (Vaski)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/875)
 * Redminen sulkeminen
@@ -30,6 +30,11 @@ Etelästä pohjoiseen
 **Vaski**
 * Otettu käyttöön sähköposteihin tapa näyttää kirjastokorttitunnuksesta vain kolme viimeistä merkkiä. Jos sikiää asiakaspalautetta, jaetaan tietoa muillekin kimpoille. Mallipohja lisätty [tänne](https://koha-suomi.fi/dokumentaatio/kuititjaviestit/#pohja-jossa-kirjastokorttitunnuksesta-printataan-vain-kolme-viimeist%C3%A4-merkki%C3%A4).
 * Vaskissa edetty pidemmän pin-koodin käyttöönoton kanssa. Testailu vielä hiukan kesken, mutta meillä ajateltu että pin-koodi olisi jatkossa 4-10 merkkiä. Kyseltiin pin-koodin generointirimpsusta ja sovittiin, että pidetään rimpsut kimpoissa samanlaisina eikä tehdä toistaiseksi muutoksia generoitavan pin-koodin pituuteen koska kenttään on mahdollista kuitenkin kirjoittaa pidempi pin-koodi. Vaskissa jatketaan hiljaista käyttöönottoa ja kerrotaan, kun kaikki saatu testattua ja otettun pidempi pin-koodi "virallisesti" käyttöön.
+
+**Lappi**
+* Edelleen selvitellään maksujuttuja (mitätöinnit, jne.)
+* Rovaniemen pääkirjasto muuttaa väistötiloihin 1.4.2024 - 31.3.2025 väliseksi ajaksi. Suunnitelmia muutoksiin aloitellaan.
+* Hinta voimassa alkaen -kenttä on nyt piilotettu kaikista marc-pohjista.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-44-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
