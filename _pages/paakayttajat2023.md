@@ -16,7 +16,11 @@ Aika: 31.10.2023 klo 9.15 <br />
 Läsnä:
 
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/875)
-* Redminen sulkemisaikataulu
+* Redminen sulkeminen
+  * mukaan RedGraveen ei oteta migraatio-projekteja
+  * Redminen sisäiset linkit eivät vielä toimi RedGraven puolella, mutta koitetaan korjata ne myöhemmin.
+  * Kodo tekee RedGraven vielä uudelleen, jolloin viimeisimmät muutokset esim. Kehitysehdotusten tiketteihin tulee mukaan
+  * Aikataulu: mahdollisimman pian, mielellään jo tällä viikolla.
 
 Etelästä pohjoiseen
 
