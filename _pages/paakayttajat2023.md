@@ -22,7 +22,7 @@ Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
   * Kodo tekee RedGraven vielä uudelleen, jolloin viimeisimmät muutokset esim. Kehitysehdotusten tiketteihin tulee mukaan
   * Aikataulu: mahdollisimman pian, mielellään jo tällä viikolla.
 * Koha-Suomen harjoittelija aloittaa Oulussa ke 1.11.2023
-* Viestiasetusten poistoajossa oli lähtenyt vahingossa pois myös tekstiviestitäppiä, vaikka asiakkaalla oli smsalertnumber
+* [Viestiasetusten poistoajossa](https://github.com/KohaSuomi/Koha/issues/391) elokuussa 2023 oli lähtenyt vahingossa pois myös tekstiviestitäppiä, vaikka asiakkaalla oli smsalertnumber. Tämä on todennäköisesti syynä mystisille tekstiviestitäppien katoamisille, mitä osassa kimpoista on raportoitu. Viestitäppiä palautetaan nyt niille asiakkaille, joilla on smsalertnumber. Tässä palautuksessa voi tulla täppiä myös sellaisille asiakkaille, joilla sitä ei ole ollut aiemmin. Kannattaa tiedottaa henkilökunnalle, että täppiä on kadonnut ja niitä voi nyt myös tulla sellaisille asiakkaille, jotka eivät ole sellaista itse valinneet.
 
 
 Etelästä pohjoiseen
