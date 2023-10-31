@@ -65,6 +65,9 @@ Voit kohdistaa haun tiettyihin kenttiin kirjoittamalla hakusanojen eteen etuliit
 [Lista etuliitteistä ja tarkemmat ohjeet etuliitteiden
 käyttämiseen](https://koha-community.org/manual/22.11/en/html/searching.html#indexes) (englanniksi). 
 
+[Tiedonhaun cheat sheet](https://github.com/KohaSuomi/kohasuomi.github.io/files/13215370/Kohan.indeksit.pdf)
+eli lista yleisimmin käytetyistä Kohan indekseistä ja niiden lyhenteistä.
+
 ## 10.2. Tarkka haku
 
 Tarkassa haussa voit määrittää haun perushakua täsmällisemmin. 
