@@ -16,6 +16,7 @@ Aika: 31.10.2023 klo 9.15 <br />
 Läsnä:
 
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/875)
+* Redminen sulkemisaikataulu
 
 Etelästä pohjoiseen
 
