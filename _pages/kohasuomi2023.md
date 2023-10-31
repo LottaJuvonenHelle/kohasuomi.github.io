@@ -13,6 +13,10 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 45 muistio
+
+* Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen / Anneli
+
 ## Viikon 44 muistio
 
 ### Maanantai 30.10.2023 klo 9
