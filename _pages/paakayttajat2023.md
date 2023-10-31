@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44 muistio
 
 Aika: 31.10.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme)
 
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/875)
 * Redminen sulkeminen
@@ -35,6 +35,13 @@ Etelästä pohjoiseen
 * Edelleen selvitellään maksujuttuja (mitätöinnit, jne.)
 * Rovaniemen pääkirjasto muuttaa väistötiloihin 1.4.2024 - 31.3.2025 väliseksi ajaksi. Suunnitelmia muutoksiin aloitellaan.
 * Hinta voimassa alkaen -kenttä on nyt piilotettu kaikista marc-pohjista.
+
+**Lumme**
+* Tehtiin korjausajo asiakkaille, joilta oli viestitäpät tipahtaneet viestiasetusten poistoajossa.
+* Korjausajossa poistettiin asiakastiedoista tieto asiakkaiden sukupuolesta.
+* Siivottu ja päivitetty raporttikirjastoa.
+* Selvitetty vanhentuneiden maksujen koodeja, jotka ovat tulleet konversiossa.
+* Mietitään kimppakohtaista säilytysaikaa asiakastiedoille.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-44-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
