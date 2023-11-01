@@ -43,6 +43,10 @@ Lisätty: 10.1.2023
 
 ### Elasticsearch-koulutus
 
+Tiedonhakukoulutus 1.11.2023
+
+[Tiedohakukoulutuksen tallenne Youtubessa](https://youtu.be/cp-DmGd_Rhs)
+
 Elasticsearch-koulutus 10.11.2021
 
 [Elasticsearch-koulutuksen tallenne](https://youtu.be/_V-N8MiyflA)
@@ -50,6 +54,7 @@ Elasticsearch-koulutus 10.11.2021
 
 [Tiedonhaku_Elasticsearchilla -diasarja](https://github.com/KohaSuomi/kohasuomi.github.io/files/13215328/Tiedonhaku_Elasticsearchilla.pdf), päivitetty 26.10.2023
 
+[Kohan indeksit.pdf eli tiedonhaun cheat sheet](https://github.com/KohaSuomi/kohasuomi.github.io/files/13227862/Kohan.indeksit.pdf)
 
 ### Budjettien ja tilien luonti
 
