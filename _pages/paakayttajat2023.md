@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 44 muistio
 
 Aika: 31.10.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjonimei (OUTI), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjonimei (OUTI), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
 
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/875)
 * Redminen sulkeminen
@@ -48,6 +48,9 @@ Etelästä pohjoiseen
 * Oulun luetteloinnista tuli eilen tieto, että viime aikoina TäTissä on alkanut tulla proxy erroria. Eilen viimeksi klo 12.43, kun äänitteen oletuspohja oli vaihdettu osakohdepohjaan. Samaan aikaan taustalla oli ollut poistoajo TäTissä? Olisikohan voinut johtua siitä? Pirkko-Liisa tekee tiketin, johon voi kirjata tulevia TäTin proxy erroreita, jos niitä tulee.
 * Oulun kaupungin kaikki palvelimet siirtyvät Istekille, kirjaston Ceepos-palvelin siirtyy la-su-välisenä yönä 18.-19.11.2023. Mikään ei pitäisi muuttua eli esim. ip-osoite tai porttimääritykset. Nähtäväksi jää, toimiiko Oulun Ceeposit muutoksen jälkeen. :D
 * Vaalan kirjaston Ceepos-palvelin siirtyy CPU:lle 22.11.2023. Tiketti: https://github.com/KohaSuomi/Koha/issues/860
+
+**Kyyti**
+* Kyyti-Finnassa on nidetilojen priorisointi tehty tuotantoon Vaskin ohjeiden mukaisesti.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-44-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
