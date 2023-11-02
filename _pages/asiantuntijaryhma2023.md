@@ -33,7 +33,7 @@ OUTI: Antti Heikkinen<br />
 Helle: selvittelyn alla<br />
 Lappi: selvittelyn alla<br />
 Kirkes: selvittelyn alla<br />
-Kyyti: selvittelyn alla<br />
+Kyyti: Ville Kivioja<br />
 
 
 ### 3. Kimppojen viestipalvelujen sopimukset
