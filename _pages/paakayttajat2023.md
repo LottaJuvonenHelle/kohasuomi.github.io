@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 45 muistio
+
+Aika: 7.11.2023 klo 9.15 <br />
+Läsnä: 
+
+* Kehitysehdotus: pitäisikö virkailijatilin voimassaoloajan muokkaamista rajoittaa siten, että kaikki eivät pääsisi muokkaamaan oman tilinsä voimassaoloaikaa (Päivi/Vaara)
+
+Pohjoisesta etelään
+
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-45-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 44 muistio
 
 Aika: 31.10.2023 klo 9.15 <br />
