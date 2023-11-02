@@ -8,6 +8,90 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2023'
 ---
 
+## Kuvailuryhmän muistio 7/2023
+
+Aika: 18.10.2023 klo 13.15–14.45
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Sani Kuosmanen (Kirkes), Päivi Knuutinen (Vaara), Tarja Mäkinen (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi)
+
+Poissa: Johanna Ranta (Kyyti)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteeriksi valittiin Mauri Aittaniemi Rovaniemen kaupunginkirjastosta.
+
+#### 2.	Melindassa tehtävät massakorjausajot ja vastaavat korjaukset TäTissä ja paikalliskannoissa ####
+<ul>
+  <li><a href="https://www.kiwi.fi/display/kumea/2023-09-06" target="_blank">Kumean muistio 6.9.2023:</a> </li>
+<ul>
+  <li>Kohta 3.1. sidottu -> kovakantinen, nidottu -> pehmeäkantinen </li>
+  <li>Kohta 3.3. 246i-osakenttien korjaus ja päivitys. TäTin auktorisoitujen arvojen valikko on nyt ajan tasalla. Fraaseja on poistettu Kumean <a href="https://www.kiwi.fi/display/kumea/Metatietosanastosta+poistetut+fraasit" target="_blank">listauksen</a> mukaan. Miten nämä pitäisi tehdä tietokannassa, esim. kansinimeke merkitään nykyään indikaattoreilla? </li>
+</ul>
+  <li><a href="https://www.kiwi.fi/display/kumea/2023-09-27" target="_blank">Kumean muistio 27.9.2023:</a> </li>
+<ul>
+  <li>3.1. Kentässä 588 on käytetty fraasia "Osan numero irtopäällyksestä"; näin ei kuitenkaan pitäisi tehdä. (Anna kertoi, että tämä asia on menossa vielä uudelleen käsittelyyn Kumeassa)</li>
+  <li>3.2. Poistetaanko Disney, Walt -kirjaukset 100- ja 700-kentistä?</li>
+</ul>
+  <li>Muita Melindassa viime aikoina tehtyjä muutoksia <a href="https://www.kiwi.fi/display/melinda/Talonmies+tiedottaa+10.10.23" target="_blank">Talonmiehen kirjeessä:</a> ”Jos Metatietosanastosta poistettuja ja Melindassa korjattuja fraaseja ei korjata paikalliskannoissa, ne näkyvät helposti väärin Finnassa ja valuvat kenties takaisin Melindaan.”</li>
+</ul>
+
+Kaikenlaisia korjauksia alkaa olla kertynyt (ja kertyy jatkossakin) jo siinä määrin, että voisi olla hyvä kehittää jonkinlainen suunnitelma näiden käsittelemiseksi. Korjauksia pitäisi tehdä, koska paikalliskantojen virheet näkyvät Finnassa. Osan korjauksista voi tehdä Tietueiden muokkaus eräajona -toiminnolla, mutta osaan vaaditaan kehittäjien apua. Kehittäjien tehtäväksi annettavista korjausajoista pitää laatia selkeä tiketti aina yhdestä asiasta kerrallaan. Tiketissä pitää mainita, mitä pitää tehdä ja mihin kaikkiin tietokantoihin. Kätevintä olisi korjata tietueet ensin TäTissä ja sieltä korjatut valuisivat paikallistietokantoihin, mutta korjattavia tietueita jää tästä huolimatta vielä paikalliskantoihinkin, koska kaikkia tietueita ei ole TäTissä.
+
+**Päätös:** Laaditaan Excel-taulukko korjattavista asioista ja määritellään siihen priorisointijärjestys eri korjausajoista. Antti tekee taulukon pohjan. 
+
+TäTistä tulisi lisäksi siivota pois vanhentuneita tietueita. Siellä on (kokousta pidettäessä) muun muassa 325 000 monografiatietuetta ilman RDA-tietoa sekä äänite- ja videotietueita ajalta ennen ISBD:tä. Siivotessa voisi samalla luopua näistä. Anneli on tehnyt TäTiin eri raportteja, joiden avulla tietueita voi poistaa. Raporteilla voi poistaa 1000 tietuetta kerrallaan. Kysyttiin, onko kaikilla oikeus tehdä TäTiin eräpoistoja. Ilmeni että oikeuksia ei kuvailuryhmäläisillä ollut, mutta Päivi Knuutinen lupasi lisätä eräpoisto-oikeudet Anna Viitaselle ja Mauri Aittaniemelle. Lisää halukkaita voi ilmoittautua Päiville. Vanhentuneiden tietueiden poiston jälkeen TäTin tietueiden käsittely helpottuisi.
+
+#### 3.	Kuulumisia Kirjastopalvelun asiakasohjausryhmän kokouksesta 3.10. ####
+
+Kirjastopalvelun ilmoittama, uusi kuvailuun liittyvä periaate kolmesta kirjastokimpan tilauksesta herätti hieman keskustelua. Kirjastopalvelu kuvailee jatkossa ensisijaisesti tuotteet, joita on tilannut vähintään kolme kirjastokimppaa. Kokouksessa muistutettiin Extranetin olemassaolosta ja palautteen jättämismahdollisuudesta.
+
+#### 4.	Monikielisen kirjaston siirtokokoelmat eri kirjastoissa ####
+
+Kysymys Oulusta muille kirjastoille: Tilaatteko aineistoa Monikielisestä kirjastosta siirtokokoelmaksi ja miten toimitte Kohassa niiden kanssa?
+
+Monikielisten siirtokokoelmien suhteen Koha-Suomen kirjastoissa on erilaisia käytäntöjä, ja osalla näitä pääkaupunkiseudulta tulevia siirtokokoelmia ei ole ollenkaan. OUTI-kirjastoissa siirtokokoelmien teosten tietueet poimitaan paikalliskantaan ja korjataan. Teokset voivat käydä siirtona useammankin kerran, mikä tarkoittaa että sama tietue poimitaan ja muokataan silloin monta kertaa. Siirtokokoelmia käytetään myös ainakin Helle-, Lumme- ja Vaski-kirjastoissa. Yleensä tapana vaikutti olevan, että poimittuja tietueita ei muokata siirtokokoelman tuontia varten. Tarpeettomat tietueet tulee joka tapauksessa poistaa järjestelmästä, kun teokset palautetaan monikieliseen kirjastoon.
+
+#### 5.	Valutus TäTistä paikalliskantoihin ####
+
+OUTIssa on viime aikoina ollut aika paljon ongelmia aamuisten valutusten kanssa. Tietueet jäävät valumatta Internal server errorin takia. Vaski-kirjastojen osalta Anna Viitanen kertoi, että osa Kirjastopalvelun tietueista on jäänyt valumatta järjestelmään. Vaski-kirjastoissa on kehitetty kätevä raportti, josta näkee viimeisen vuorokauden aikana ennakkotietueiden päälle valuneet TäTin tietueet. Kyseinen raportti löytyy nyt Koha-Suomen yhteisestä <a href="https://koha-suomi.fi/dokumentaatio/raporttikirjasto/" target="_blank">raporttikirjastosta</a>, josta kimppojen pääkäyttäjät voivat lisätä sen omien paikalliskantojensa raportteihin.
+
+#### 6.	Finnan toimijanimien rikastustoiminto ####
+<ul>
+  <li>OUTI-Finnan haravointiasetuksista piti pyytää laittamaan MarcAuthEnrichment-toiminto päälle, jotta toimijanimien rikastustoiminto toimii OUTIssa. Asiasta tarkemmin Finnan sivuilla: <a href="https://www.kiwi.fi/display/Finna/Tietueiden+rikastus+Finnan+indeksiin" target="_blank">Tietueiden rikastus Finnan indeksiin</a> </li>
+  <li>Onko muilla toiminnassa? </li>
+</ul>
+
+Vaskissa on yritetty laittaa päälle, mutta ei ole onnistunut. Antti kehotti selvittämään kirjastokimpoittain, onko rikastustoiminto otettu käyttöön.
+
+#### 7.	Paikalliskantojen siirtoraportin korjaus- ja kehitysehdotuksia ####
+
+Nyt kun Johanna Räisä on tullut takaisin, niin siirtoraporttiin voisi pyytää joitakin parannuksia. Aiemmin on ainakin keskusteltu siitä, että sellaiset tietueet, joissa on vain muuttunut 005-kentän aikaleima, voisi karsia pois raportista.
+
+005-kenttä sisältää aikaleiman. Jos tietueessa ei ole muutettu mitään, vain tallennettu, silloin ainoa raportissa näkyvä muutos on muuttunut aikaleima. Keskusteltiin, että aikaleimalliset muutokset voisi jättää pois raportista. Tämä helpottaisi ja nopeuttaisi siirtoraportin läpikäymistä. Mietitään lisää parannusehdotuksia seuraavaan kokoukseen.
+
+#### 8.	Tikettejä, joissa on tapahtunut jotakin edistystä: ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/807" target="_blank">Valutus: Viivalliset ISMN-tunnukset eivät valu TäTistä paikalliskantaan</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/592" target="_blank">Tietueen tuominen TäTistä Vaaraan ei tuo oikeaa tallennuspohjaa</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/750" target="_blank">Finna-aineistotyyppi äänikirja myös Kohan aineistotyypiksi/MTYPE:ksi</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/390" target="_blank">YSA-YSO-konversio kaikille kimpoille</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/834" target="_blank">RDA-konversio kaikkiin kimppoihin, joissa sitä ei ole tehty</a> </li>
+  <li>Nalkutin on asennettu takaisin TäTiin, mutta edelleen on ongelmana: <a href="https://github.com/KohaSuomi/Koha/issues/458" target="_blank">Tuplatietue TäTissä, kun yrittää muokata tietuetta</a> </li>
+</ul>
+
+#### 9.	Muita asioita ####
+<ul>
+  <li>Koha-seminaari järjestetään Keravalla 28.11. n. klo 10–16. Aiheena tulee olemaan mm. kuvailu, Bibframe, linkitetty data. <a href="https://github.com/KohaSuomi/Koha/discussions/850" target="_blank">Ohjelma ja ilmoittautuminen</a> </li>
+  <li>Elasticsearch-koulutus ke 1.11. klo 13 (Anneli Österman pitää).</li>
+</ul>
+Suositeltiin osallistumista molempiin.
+
+#### 10.	Seuraava kokous keskiviikkona 8.11. Klo 13.15 ####
+
+
+---
 ## Kuvailuryhmän muistio 6/2023
 
 Aika: 13.9.2023 klo 13.15–14.30
