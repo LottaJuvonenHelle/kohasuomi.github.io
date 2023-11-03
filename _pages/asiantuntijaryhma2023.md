@@ -15,12 +15,14 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 8/23
+## Asiantuntijaryhmän muistio 8/23
 
 Aika: Ma 30.10.2023 klo 13<br />
-Läsnä: Anneli (varapj), Päivi, Riikka, Kati, Susanna, Noora, Leena, Hanna, Tuomas, Katja, Kodo
+Läsnä: Anneli Österman (varapj), Päivi Knuutinen, Riikka Mustajärvi, Kati Sillgren, Susanna Sandell, Asko Autio, Noora Valkonen, Leena Kinnunen, Hanna Ikonen, Tuomas Kunttu, Katja Valjakka, Kodo Korkalo
 
 ### 1. Arin ajankohtaiset
+
+Ari ei ollut mukana, Anneli valittiin kokouksen varapuheenjohtajaksi. Ei ajankohtaisia.
 
 ### 2. Tiedonhaku- ja indeksointityöryhmän perustaminen
 
@@ -35,6 +37,7 @@ Lappi: selvittelyn alla<br />
 Kirkes: selvittelyn alla<br />
 Kyyti: Ville Kivioja<br />
 
+Päätös: Täydennetään lista seuraavassa kokouksessa.
 
 ### 3. Kimppojen viestipalvelujen sopimukset
 
@@ -42,14 +45,14 @@ Edellisessä kokouksessa päätettiin selvittää, minkälaisia viestisopimuksia
 
 OpusCapita = PostiMessaging Oyj
 
-Vaara: sms: Joensuun kaupungin tekemä sopimus, ei tietoa, voiko kirjasto käyttää toista sopimusta.<br />
-Lappi: sms:n Sopijana Rovaniemen kaupunginkirjasto, opuscapitan ekirjeiden sopimus epäselvä vielä<br />
-Vaski: sms Dna oy Turun kaupungin sopimus, ekirjeet Postin kanssa sopimus<br />
-OUTI: sms LinkMobiltyn sopimus Oulun kaupunginkirjastolla, ekirjeet opuscapita<br />
-Lumme: ekirjeet postimessaging kaupunginkirjaston tekemä sopimus, sms linkmobilityn sopimus ehkä Lumme-kirjastojen yhteinen (varmistettava)<br />
-Kyyti: sms Kyyti-kirjastojen yhteinen sopimus ArenaInteractive, ekirjeet Kotkalla ja Kouvolalla omat sopimukset (Kouvola vanha sopimus, Kotka vielä selvityksessä)<br />
-Helle: sms Porvoon kaupungin sopimus Telialle, ekirjesopimusta ei ole<br />
-Kirkes: ekirjeet Suomi.fin kautta, sms kaikki Kirkes-kunnat liittyneet samaan hankintasopimukseen ja kirjaston viestit siellä optiona. Järvenpää laskuttaa kaikkia.<br />
+Vaara: sms: Joensuun kaupungin tekemä sopimus. Ei vielä tietoa, voiko kirjasto käyttää toista sopimusta.<br />
+Lappi: sms:n sopijana Rovaniemen kaupunginkirjasto. opuscapitan ekirjeiden sopimus epäselvä vielä<br />
+Vaski: sms: Dna oy Turun kaupungin sopimus. ekirjeet: Postin kanssa sopimus<br />
+OUTI: sms: LinkMobiltyn sopimus Oulun kaupunginkirjastolla. ekirjeet opuscapita<br />
+Lumme: ekirjeet: postimessaging kaupunginkirjaston tekemä sopimus. sms: linkmobilityn sopimus ehkä Lumme-kirjastojen yhteinen (varmistettava)<br />
+Kyyti: sms: Kyyti-kirjastojen yhteinen sopimus ArenaInteractive. ekirjeet: Kotkalla ja Kouvolalla omat sopimukset (Kouvola vanha sopimus, Kotka vielä selvityksessä)<br />
+Helle: sms: Porvoon kaupungin sopimus Telialle, ekirjesopimusta ei ole<br />
+Kirkes: ekirjeet: Suomi.fin kautta. sms: kaikki Kirkes-kunnat liittyneet samaan hankintasopimukseen ja kirjaston viestit siellä optiona. Järvenpää laskuttaa kaikkia.<br />
 Siilinjärvi: selvitetään
 
 Varovainen yhteenveto: sms-viestien sopimukset voisi olla irtisanottavissa tai että voidaan käyttää toista sopimusta kaupungin sopimuksen sijaan. ekirjeissä hinnat tuskin muuttuu, vaikka keskitetään, mutta ylläpito helpottuu.
@@ -89,6 +92,8 @@ Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 Siirretään käsittely seuraavaan kokoukseen eli 20.11.2023.
 
 ### 7. Muut asiat
+
+Ei muita asioita.
 
 ## Asiantuntijaryhmän muistio 7/23
 
