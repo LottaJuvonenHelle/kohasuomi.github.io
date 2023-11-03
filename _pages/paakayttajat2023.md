@@ -26,7 +26,7 @@ Pohjoisesta etelään
 ## Viikko 44 muistio
 
 Aika: 31.10.2023 klo 9.15 <br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjonimei (OUTI), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Annika Helastila ja Elina Uotila (Kirkes), Anni Rajala (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Veli-Pekka Marjonimei (OUTI), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi)
 
 * [Viikon 44 päivitys](https://github.com/KohaSuomi/Koha/discussions/875)
 * Redminen sulkeminen
@@ -64,6 +64,9 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Kyyti-Finnassa on nidetilojen priorisointi tehty tuotantoon Vaskin ohjeiden mukaisesti.
+
+**Siilinjärvi**
+* Ei raportoitavaa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-44-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
