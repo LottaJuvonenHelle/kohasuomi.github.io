@@ -85,6 +85,8 @@ Vaski-kirjastosta Asko Autio esittelee heidän menossa olevia kehitysprojekteja:
 * [#3626 Tarrapohjalle kokoelma-tieto selkokielisenä (description)](https://tiketti.koha-suomi.fi/issues/3626)
 * [#3597 Koulujen kirjastojen niteille perustiedot näytölle oma välilehti](https://tiketti.koha-suomi.fi/issues/3597)
 
+Päätökset kirjattiin tiketteihin.
+
 ### 6. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
