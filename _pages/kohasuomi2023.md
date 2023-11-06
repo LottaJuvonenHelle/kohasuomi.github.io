@@ -17,18 +17,23 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 6.11.2023 klo 9
 
-Läsnä: Emmi, Lasse,
+Läsnä: Emmi, Lasse, Kodo
 
-* Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen / Anneli
+* Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen
+  * Siirretään tämän käsittely ensi maanantaihin
 * Käytännöt API-tunnuksien käsittelystä ja toimittamisesta
   * kehittäjät luovat tunnukset kimpan pääkäyttäjän pyynnöstä, pyyntö tehdään tiketillä
   * kehittäjät toimittavat tunnukset suoraan integraation toteuttajalle onetimesecretillä
+* Kellutusoptimoinnista palaveerattu perjantaina Weaselin ja Turun väen kanssa
+  * Käyty läpi tietotarpeet ja niistä muodostettu taulukko, homma jatkuu keskiviikkona tietosettien määrittelyllä
+  * Asiakkaiden profilointi kontra yksiköiden profilointi edelleen keskustelun alla erityisesti asiakkaan sukupuolen arvaamisen osalta, Kodo on yhteydessä Rebekkaan. Mielekkäämmältä tuntuisi profiloida aineistojen käytön "intressiryhmiä", sikäli kun asiakkaiden profilointi on ensinkään tarpeen. Esimerkiksi "sotakirjallisuudesta kiinnostuneet henkilöt" mieluummin kuin "35-50 vuotiaat etunimen perusteella miesarvatut".
+  * Kassu voisi mahdollisesti kokeilla hampaitaan SQL-raporttien laadinnassa tietopaketteja varten
 
 ## Viikon 44 muistio
 
 ### Maanantai 30.10.2023 klo 9
 
-Läsnä: Anneli, Lasse, Pasi, Emmi
+Läsnä: Anneli, Lasse, Pasi, Emmi, Kodo
 
 * Vaskin tuotantoon raportteri-plugin
   * tiistain päivityksessä
@@ -112,7 +117,7 @@ Läsnä: Anneli, Lari, Emmi, Kodo, Pasi, Lasse, Ari, Johanna
 
 ### Torstai 5.10.2023 klo 10
 
-Läsnä: Anneli
+Läsnä: Anneli, Kodo
 
 * Viestien lähetyksen ajastusmuutos taululukkojen hallitsemiseksi?
   * Tällä hetkellä viestejä lähetetään 15 minutin välein klo 9.30 - 20.00. Vartissa viestejä ehtii kertyä jonoon ehkä hieman turhan paljon, jolloin viestitaulun lukitus lähetyksen ajaksi voi kenties olla osasyyllinen taululukkojen aiheuttamiin tahmailuihin.
@@ -129,7 +134,7 @@ Läsnä: Anneli
 
 ### Maanantai 2.10.2023 klo 9
 
-Läsnä: Anneli, Emmi, Pasi, Lari, Johanna, Kodo, Lasse, Ar
+Läsnä: Anneli, Emmi, Pasi, Lari, Johanna, Kodo, Lasse, Ari
 
 * jokainen kirjaa jatkossa omat kertomansa/käsittelemänsä asiat muistioon
 * pidetään viikosta 41 lähtien yksi pidempi palaveri maanantaisin ja muina viikonpäivinä klo 9 max 15 minuutin palaveri.
