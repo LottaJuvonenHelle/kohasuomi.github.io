@@ -28,6 +28,7 @@ Läsnä: Emmi, Lasse, Kodo
   * Käyty läpi tietotarpeet ja niistä muodostettu taulukko, homma jatkuu keskiviikkona tietosettien määrittelyllä
   * Asiakkaiden profilointi kontra yksiköiden profilointi edelleen keskustelun alla erityisesti asiakkaan sukupuolen arvaamisen osalta, Kodo on yhteydessä Rebekkaan. Mielekkäämmältä tuntuisi profiloida aineistojen käytön "intressiryhmiä", sikäli kun asiakkaiden profilointi on ensinkään tarpeen. Esimerkiksi "sotakirjallisuudesta kiinnostuneet henkilöt" mieluummin kuin "35-50 vuotiaat etunimen perusteella miesarvatut".
   * Kassu voisi mahdollisesti kokeilla hampaitaan SQL-raporttien laadinnassa tietopaketteja varten
+* Huoltoikkunassa 8.11. ei tule katkoja tuotantoihin, testeille voi tulla. OCFS-murheiden selvittelyä Jannen kanssa ohjelmassa.
 
 ## Viikon 44 muistio
 
