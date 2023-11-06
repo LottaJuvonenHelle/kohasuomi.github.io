@@ -15,8 +15,14 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ## Viikon 45 muistio
 
+### Maanantai 6.11.2023 klo 9
+
+Läsnä: Emmi,
+
 * Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen / Anneli
 * Käytännöt API-tunnuksien käsittelystä ja toimittamisesta
+  * kehittäjät luovat tunnukset kimpan pääkäyttäjän pyynnöstä, pyyntö tehdään tiketillä
+  * kehittäjät toimittavat tunnukset suoraan integraation toteuttajalle onetimesecretillä
 
 ## Viikon 44 muistio
 
