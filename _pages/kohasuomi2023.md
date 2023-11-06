@@ -16,6 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 ## Viikon 45 muistio
 
 * Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen / Anneli
+* Käytännöt API-tunnuksien käsittelystä ja toimittamisesta
 
 ## Viikon 44 muistio
 
