@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 6.11.2023 klo 9
 
-Läsnä: Emmi,
+Läsnä: Emmi, Lasse,
 
 * Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen / Anneli
 * Käytännöt API-tunnuksien käsittelystä ja toimittamisesta
