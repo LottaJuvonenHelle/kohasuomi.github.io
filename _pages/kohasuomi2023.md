@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 46 muistio
+
+### Maanantai 13.11.2023 klo 9
+
+Läsnä:
+
+* https://github.com/KohaSuomi/Koha/issues/906 Virkailijatilin voimassaoloajan pidentämisen rajoitus
+
+  
 ## Viikon 45 muistio
 
 ### Maanantai 6.11.2023 klo 9
