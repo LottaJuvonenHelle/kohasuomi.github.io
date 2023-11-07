@@ -27,7 +27,7 @@ Läsnä:
 
 ### Maanantai 6.11.2023 klo 9
 
-Läsnä: Emmi, Lasse, Kodo
+Läsnä: Emmi, Lasse, Kodo, Ari
 
 * Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen
   * Siirretään tämän käsittely ensi maanantaihin
