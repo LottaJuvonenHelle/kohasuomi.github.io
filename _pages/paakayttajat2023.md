@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45 muistio
 
 Aika: 7.11.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Pia Kusmin (Lappi), Iina Niemi (Vaski)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Pia Kusmin (Lappi), Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi)
 
 * Kehitysehdotus: pitäisikö virkailijatilin voimassaoloajan muokkaamista rajoittaa siten, että kaikki eivät pääsisi muokkaamaan oman tilinsä voimassaoloaikaa (Päivi/Vaara) Lisäys: tästä onkin vanha tiketti Redminessä https://tiketti.koha-suomi.fi/issues/3915
 Päätös: Päivi tekee tiketin GitHubiin ja laittaa sen kehittäjien esityslistalle ja asiantuntijaryhmä voi käsitellä tiketin
@@ -31,6 +31,10 @@ Pohjoisesta etelään
 **Vaski**
 * ATK-ihmisten kokoontumisajot Turussa 25-26.4.2024. Ohjelmaa suunnitellaan
 * Vaskissa työn alla niteiden erikoistilojen siivous
+
+**Siilinjärvi**
+* En ollutkaan tehnyt EXPIRED-maksutyyppiä testille, nyt se on myös siellä.
+* Redminessä ei pitäisi olla enää Siilin avoimia tikettejä, viimeinenkin siirretty GitHubiin.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-45-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
