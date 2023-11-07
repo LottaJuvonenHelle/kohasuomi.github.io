@@ -26,7 +26,9 @@ Pohjoisesta etelään
 
 **Lappi**
 * Hankintaportaalista on mennyt Kirjastopalvelulle viime maaliskuussa tilaus 5 kpl:sta  nimekettä, mutta KP on virheellisesti palauttanut viestin portaaliin ja tilaus on mennyt KP:n järjestelmään tuplana. Sekä Hankintaportaali että Koha näyttää, että tilauksia on vain 5 kpl.
-* Muutoin rauhallista 
+* Muutoin rauhallista
+
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-45-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 44 muistio
