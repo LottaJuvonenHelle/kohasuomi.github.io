@@ -13,12 +13,15 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45 muistio
 
 Aika: 7.11.2023 klo 9.15 <br />
-Läsnä: 
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
 
 * Kehitysehdotus: pitäisikö virkailijatilin voimassaoloajan muokkaamista rajoittaa siten, että kaikki eivät pääsisi muokkaamaan oman tilinsä voimassaoloaikaa (Päivi/Vaara) Lisäys: tästä onkin vanha tiketti Redminessä https://tiketti.koha-suomi.fi/issues/3915
+Päätös: Päivi tekee tiketin GitHubiin ja laittaa sen kehittäjien esityslistalle ja asiantuntijaryhmä voi käsitellä tiketin
 
 Pohjoisesta etelään
 
+**Vaara**
+* ei mitään erityistä, siivottu vanhoja tikettejä ym.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-45-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
