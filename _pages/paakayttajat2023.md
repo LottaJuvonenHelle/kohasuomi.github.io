@@ -17,6 +17,7 @@ Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
 
 * Kehitysehdotus: pitäisikö virkailijatilin voimassaoloajan muokkaamista rajoittaa siten, että kaikki eivät pääsisi muokkaamaan oman tilinsä voimassaoloaikaa (Päivi/Vaara) Lisäys: tästä onkin vanha tiketti Redminessä https://tiketti.koha-suomi.fi/issues/3915
 Päätös: Päivi tekee tiketin GitHubiin ja laittaa sen kehittäjien esityslistalle ja asiantuntijaryhmä voi käsitellä tiketin
+* Tämän viikon päivitykset ajettu aamulla ja ajo onnistunut
 
 Pohjoisesta etelään
 
