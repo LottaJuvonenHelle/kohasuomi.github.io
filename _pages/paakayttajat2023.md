@@ -35,6 +35,9 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * En ollutkaan tehnyt EXPIRED-maksutyyppiä testille, nyt se on myös siellä.
 * Redminessä ei pitäisi olla enää Siilin avoimia tikettejä, viimeinenkin siirretty GitHubiin.
+
+**OUTI**
+* TäTin proxy error-tiketti tehty: https://github.com/KohaSuomi/Koha/issues/901
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-45-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
