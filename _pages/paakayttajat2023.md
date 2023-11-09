@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 45 muistio
 
 Aika: 7.11.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Pia Kusmin (Lappi), Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Piia Semenoff (OUTI)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Leena Kinnunen, Pia Kusmin (Lappi), Iina Niemi (Vaski), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
 
 * Kehitysehdotus: pitäisikö virkailijatilin voimassaoloajan muokkaamista rajoittaa siten, että kaikki eivät pääsisi muokkaamaan oman tilinsä voimassaoloaikaa (Päivi/Vaara) Lisäys: tästä onkin vanha tiketti Redminessä https://tiketti.koha-suomi.fi/issues/3915
 Päätös: Päivi tekee tiketin GitHubiin ja laittaa sen kehittäjien esityslistalle ja asiantuntijaryhmä voi käsitellä tiketin
@@ -40,6 +40,9 @@ Pohjoisesta etelään
 * TäTin proxy error-tiketti tehty: https://github.com/KohaSuomi/Koha/issues/901
 * Vanhentuneiden maksujen -ajon jälkeen tarkisteltu miten maksut ovat mitätöityneet. Vielä menee hetki tutkiessa ovatko ykstityisoikeudelliset mitätöityneet kuten pitääkin.
 * Asiakkailta ajossa lähteneiden tekstiviestinumero-täppien korjauksen suunnittelua. Ehdotettu tikettiin voisiko korjausajon suorittaa siten, että tekstiviesti-täpät ajetaan vain asiakkaille, joilla ei ole valittuna noutoilmoitusta sähköpostitse.
+
+**Lumme**
+* Perusylläpitoa.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-45-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
