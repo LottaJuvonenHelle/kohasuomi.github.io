@@ -65,15 +65,21 @@ Yllä olevat ajastukset ovat vakioita ja ne tapahtuvat kaikissa kimpoissa samaan
 
 ```
 #### Notices ####
-  */15 09-19 * * *   $TRIGGER cronjobs/process_message_queue.pl
-  00 20 * * *        $TRIGGER cronjobs/process_message_queue.pl
+  30 09 * * *        $TRIGGER cronjobs/process_message_queue.pl -l 500
+  35 09 * * *        $TRIGGER cronjobs/process_message_queue.pl -l 500
+  40 09 * * *        $TRIGGER cronjobs/process_message_queue.pl -l 500
+  45 09 * * *        $TRIGGER cronjobs/process_message_queue.pl -l 500
+  50 09 * * *        $TRIGGER cronjobs/process_message_queue.pl -l 500
+  55 09 * * *        $TRIGGER cronjobs/process_message_queue.pl -l 500
+  */5 10-19 * * *    $TRIGGER cronjobs/process_message_queue.pl -l 500
+  00 20 * * *        $TRIGGER cronjobs/process_message_queue.pl -l 500
   40 08 * * *        $TRIGGER cronjobs/advance_notices.pl -c
   00 09 * * *        $TRIGGER cronjobs/overdue_notices.pl -letternumbers 12 -t -p -s
   10 09 * * *        $TRIGGER cronjobs/membership_expiry.pl -c -v
   50 20 * * *        $TRIGGER cronjobs/pate.pl --letters
 ```
 * process_message_queue.pl - lähettää asiakkaille generoidut viestit (sms ja sähköposti)
-  * ajetaan klo 9.15-19.45 + vielä kerran klo 20.00
+  * ajetaan klo 9.30-20.00 viiden minuutin välein, viestejä käsitellään maksimissaan 500 kpl ajokertaa kohden
 * advance_notices.pl - muodostaa eräpäiväennakkoilmoitukset ja eräpäivämuistutukset viestijonoon
 * overdue_notices.pl - muodostaa palautuskehotukset viestijonoon
 * membership_expiry.pl - muodostaa kirjastokorttien vanhenemismuistutukset viestijonoon
