@@ -28,7 +28,7 @@ Ryhmään uutena jäsenenä liittynyt Lastu-kirjastojen Marjukka Laapotti Lahden
 
 #### 3.	TäTin tietuepoistot ####
 <ul>
-  <li>Kirjoja on poistettu, mutta joukossa on myös virheellisiä RDA-tietueita: esim. 040e-kentästä puuttuu RDA-merkintä. (RDA-merkintä löytyy useimmiten 040d-kentästä). Lisäksi raportilla näkyy 2023 muokattuja vanhoja tietueita (nimenmuutokset jne.). 
+  <li>Vanhoista KP:n kirjatietueista suurin osa on poistettu, mutta näitä listaavassa raportissa on joukossa on myös virheellisiä RDA-tietueita: esim. 040e-kentästä puuttuu RDA-merkintä. (RDA-merkintä löytyy useimmiten 040d-kentästä). Lisäksi raportilla näkyy 2023 muokattuja vanhoja tietueita (nimenmuutokset jne.). 
     - Päivi katsoo voiko asialle tehdä mitään (massakorjaus). </li>
 	<li>Nyt on olemassa raportit myös äänitteille, nuoteille, videotallenteille, äänikirjoille ja elektroniselle aineistolle, mutta mukana ei pitäisi olla ISBD- eikä RDA-tietueita. </li>
 	<li>TäTiin lisätty raportti, joka hakee tietueet, joissa ääkköset kummalliset. </li>
