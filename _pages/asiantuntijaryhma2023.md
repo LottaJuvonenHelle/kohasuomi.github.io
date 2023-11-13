@@ -15,6 +15,47 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 9/23
+
+Aika: Ma 20.11.2023 klo 13<br />
+Läsnä:
+
+### Arin ajankohtaiset
+
+### Tiedonhaku- ja indeksointityöryhmän kokoonpano
+
+### Kimppojen viestipalvelut
+
+Edellisessä kokouksessa päätettiin selvittää kimpoissa, kuinka paljon sms-viestejä lähetetään/kk.
+
+### Kehitysehdotusten läpikäyntiä
+
+Githubista pikaiseen käsittelyyn:
+
+[Virkailijatilin voimassaoloajan pidentämiseen rajoitus - Koha #906](https://github.com/KohaSuomi/Koha/issues/906)
+
+Redminessä vielä käsittelemättä seuraavat tiketit. Käydään läpi, mitä ehditään ja siirretään loput seuraaviin:
+
+[3982](https://tiketti.koha-suomi.fi/issues/3982)
+[3915](https://tiketti.koha-suomi.fi/issues/3915)
+[3514](https://tiketti.koha-suomi.fi/issues/3514)
+[3371](https://tiketti.koha-suomi.fi/issues/3371)
+[3329](https://tiketti.koha-suomi.fi/issues/3329)
+[3104](https://tiketti.koha-suomi.fi/issues/3104)
+[2632](https://tiketti.koha-suomi.fi/issues/2632)
+[2381](https://tiketti.koha-suomi.fi/issues/2381)
+[1517](https://tiketti.koha-suomi.fi/issues/1517)
+[1176](https://tiketti.koha-suomi.fi/issues/1176)
+[1011](https://tiketti.koha-suomi.fi/issues/1011)
+[949](https://tiketti.koha-suomi.fi/issues/949)
+[594](https://tiketti.koha-suomi.fi/issues/594)
+[442](https://tiketti.koha-suomi.fi/issues/442)
+[235](https://tiketti.koha-suomi.fi/issues/235)
+
+### Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+
+[Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
+
 ## Asiantuntijaryhmän muistio 8/23
 
 Aika: Ma 30.10.2023 klo 13<br />
