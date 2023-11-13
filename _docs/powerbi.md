@@ -77,7 +77,7 @@ FROM aqbooksellers
 ```
 
 ### Lainausdata
-
+päivitetty 13.11.2023
 ```
 SELECT s.type AS 'Tapahtumatyyppi', IFNULL(bi.biblionumber, IFNULL(bi2.biblionumber, dbi.biblionumber)) AS 'Tietuenumero', s.itemnumber AS 'Nidenumero', 
 IFNULL(bi.author, IFNULL(bi2.author, dbi.author)) as 'Tekijä', 
@@ -88,17 +88,19 @@ IFNULL(LEFT(b.dateofbirth, 4), (LEFT(db.dateofbirth, 4))) AS 'Svuosi',
 IFNULL(CAST(b.zipcode AS CHAR(5)), CAST(db.zipcode AS CHAR(5))) AS 'Postinumero', 
 LEFT(s.datetime, 10) AS 'Tapahtuma-aika_pvm', 
 SUBSTR(s.datetime, 12,2) AS 'Tapahtumatunti', 
-IFNULL(bibi1.itemtype, IFNULL(bibi2.itemtype, dbibi.itemtype)) AS 'Aineistotyyppi',
+COALESCE(bibi1.itemtype, bibi2.itemtype, dbibi.itemtype, dbibi2.itemtype) AS 'Aineistotyyppi',
 IFNULL(i.permanent_location, d.permanent_location) AS 'Hyllypaikka', 
 s.ccode AS 'Kokoelma',
 IFNULL(i.cn_sort, d.cn_sort) AS 'Luokka ja pääsana', 
-2021-IFNULL(LEFT(b.dateofbirth, 4), (LEFT(db.dateofbirth, 4))) AS 'Ikä',
-IFNULL (bdei.primary_language, bde.primary_language) AS 'Kieli',
+2023-IFNULL(LEFT(b.dateofbirth, 4), (LEFT(db.dateofbirth, 4))) AS 'Ikä',
+IFNULL (bde1.primary_language, bde2.primary_language) AS 'Kieli',
 SUBSTR(
     IFNULL(i.cn_sort, d.cn_sort), 
     1,
     INSTR(IFNULL(i.cn_sort, d.cn_sort), ' ') - 1
-) AS 'Luokka'
+) AS 'Luokka',
+IFNULL(i.dateaccessioned, d.dateaccessioned) AS 'Saapumispäivä', 
+IFNULL(LEFT(i.dateaccessioned, 4), (LEFT(d.dateaccessioned, 4))) AS 'Saapumispäivän vuosi'
 FROM statistics s
 LEFT JOIN deleteditems d ON s.itemnumber = d.itemnumber
 LEFT JOIN items i ON s.itemnumber = i.itemnumber
@@ -106,12 +108,13 @@ LEFT JOIN deletedbiblio dbi ON d.biblionumber=dbi.biblionumber
 LEFT JOIN biblio bi ON i.biblionumber=bi.biblionumber
 LEFT JOIN biblio bi2 ON d.biblionumber = bi2.biblionumber
 LEFT JOIN deletedbiblioitems dbibi ON i.biblioitemnumber = dbibi.biblioitemnumber
+LEFT JOIN deletedbiblioitems dbibi2 ON d.biblioitemnumber = dbibi2.biblioitemnumber
 LEFT JOIN biblioitems bibi1 ON i.biblioitemnumber = bibi1.biblioitemnumber
 LEFT JOIN biblioitems bibi2 ON d.biblioitemnumber = bibi2.biblioitemnumber
 LEFT JOIN deletedborrowers db ON s.borrowernumber = db.borrowernumber
 LEFT JOIN borrowers b ON s.borrowernumber = b.borrowernumber
-LEFT JOIN biblio_data_elements bdei ON i.biblioitemnumber=bdei.biblioitemnumber
-LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON d.biblioitemnumber = bde.biblioitemnumber
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde1 ON i.biblionumber = bde1.biblionumber
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde2 ON d.biblionumber = bde2.biblionumber
 WHERE date(datetime) BETWEEN <<Aikaväli alkaen|date>> AND <<Päättyen|date>>
 AND s.type in ('issue', 'renew')
 AND convert(s.branch using 'utf8') LIKE (@Kunta:= <<Kunta tai kirjasto esim. KOU% tai KOU_PK>>)
@@ -119,26 +122,27 @@ AND b.categorycode != 'EITILASTO'
 ```
 
 ### Nidedata
-
+päivitetty 13.11.2023
 ```
 SELECT i.biblionumber AS 'Tietuenumero', i.itemnumber AS 'Nidenumero', i.homebranch AS 'Kotikirjasto', i.permanent_location AS 'Hyllypaikka', i.ccode AS 'Kokoelma', i.cn_sort AS 'Luokka ja pääsana', i.dateaccessioned AS 'Saapumispäivä', LEFT(i.dateaccessioned, 4) AS 'Saapumispäivän vuosi', i.datelastborrowed AS 'Viimeksi lainattu', i.datelastseen AS 'Viimeksi havaittu', i.notforloan AS 'Ei lainattavissa -tila', i.damaged AS 'Ei varattavissa', i.itemlost AS 'Kadonnut', i.issues AS 'Lainoja', i.renewals AS 'Uusintoja', (IFNULL(i.issues, 0)+IFNULL(i.renewals, 0)) AS 'Lainoja_yht.', 
-bi.itemtype AS 'Aineistotyyppi', 
-b.author AS 'Tekijä', b.title AS 'Nimeke', b.subtitle AS 'Alanimeke', b.part_name AS 'Osan nimi', b.part_number AS 'Osan numero', 
-CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) as Nimeke2,
-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS '008/8 vuosi', SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),36,3) AS 'Kielikoodi',
-2023-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS 'Aineiston ikä',
-2023-LEFT(i.dateaccessioned, 4) AS 'Aineiston ikä (saapumisesta)',
-2023-LEFT(i.datelastborrowed, 4) AS 'Vuosia viim. lainauksesta',
-ExtractValue(bm.metadata,'//datafield[@tag="599"]/subfield[@code="a"]') AS 'Daisy',
+bi.itemtype AS 'Aineistotyyppi', b.author AS 'Tekijä', 
+CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name, i.enumchron) as 'Nimeke',
+bde.publication_year AS 'julk. vuosi',
+bde.primary_language AS 'Kielikoodi',
+bde.celia AS 'Daisy',
+i.barcode AS 'viivakoodi',
+
 SUBSTR(
     i.cn_sort, 
     1,
     INSTR(i.cn_sort, ' ') - 1
-) AS 'Luokka'
+) AS 'Luokka',
+SUBSTRING_INDEX(SUBSTRING_INDEX(i.cn_sort, " ",2), " " ,-1) AS 'pääsana'
+
 FROM items i
 LEFT JOIN biblioitems bi ON bi.biblioitemnumber=i.biblioitemnumber
 LEFT JOIN biblio b ON i.biblionumber=b.biblionumber
-LEFT JOIN biblio_metadata bm ON b.biblionumber=bm.biblionumber
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON i.biblionumber=bde.biblionumber
 WHERE convert(i.homebranch using 'utf8') LIKE (@Kunta:= <<Kunta tai kirjasto esim. KOU% tai KOU_PK>>)
 ```
 
@@ -172,7 +176,7 @@ WHERE aq.datereceived BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>> AND co
 ```
 
 ### Poistodata
-
+päivitetty 13.11.2023
 ```
 SELECT di.biblionumber, di.itemnumber, di.homebranch AS 'kotikirjasto', di.permanent_location AS 'hyllypaikka', di.ccode AS 'kokoelma', di.cn_sort AS 'signum', di.dateaccessioned AS 'saapumispäivä', LEFT(di.dateaccessioned, 4) AS 'saapumispäivän vuosi', di.datelastborrowed AS 'viimeksi lainattu', di.datelastseen AS 'viimeksi havaittu', di.notforloan AS 'ei lainattavissa -tila', di.damaged AS 'ei varattavissa', di.itemlost AS 'kadonnut', di.issues AS 'lainoja', di.renewals AS 'uusintoja', (IFNULL(di.issues, 0)+IFNULL(di.renewals, 0)) AS 'Lainoja_yht.', 
 di.timestamp AS 'poistoaika', 
@@ -184,7 +188,7 @@ SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS '008/8 vuo
 bde.primary_language AS 'Kielikoodi',
 2023-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS 'aineiston ikä',
 2023-LEFT(di.dateaccessioned, 4) AS 'aineiston ikä (saapumisesta)',
-ExtractValue(bm.metadata,'//datafield[@tag="599"]/subfield[@code="a"]') AS 'Daisy', 
+bde.celia AS 'Daisy',
 SUBSTR(di.cn_sort, 
     1,
     INSTR(di.cn_sort, ' ') - 1
