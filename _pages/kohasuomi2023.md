@@ -21,14 +21,15 @@ Läsnä:
 
 * https://github.com/KohaSuomi/Koha/issues/906 Virkailijatilin voimassaoloajan pidentämisen rajoitus
 * Onko ajatusta milloin viestien lähetys muutetaan tapahtumaan 5 minuutin välein (https://koha-suomi.fi/kohasuomi2023#torstai-5102023-klo-10)
-* "Too many open files" johtunee inotifyn max_user_instance:sta (nyk. 128) https://bugs.launchpad.net/ubuntu/+source/lxd/+bug/1602192 
+* "Too many open files" johtunee inotifyn max_user_instance:sta (nyk. 128) https://bugs.launchpad.net/ubuntu/+source/lxd/+bug/1602192
+* Joulunajan lomat
 
   
 ## Viikon 45 muistio
 
 ### Maanantai 6.11.2023 klo 9
 
-Läsnä: Emmi, Lasse, Kodo, Ari, Kassu
+Läsnä: Emmi, Lasse, Kodo, Ari, Kassu, Johanna
 
 * Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen
   * Siirretään tämän käsittely ensi maanantaihin
@@ -45,7 +46,7 @@ Läsnä: Emmi, Lasse, Kodo, Ari, Kassu
 
 ### Maanantai 30.10.2023 klo 9
 
-Läsnä: Anneli, Lasse, Pasi, Emmi, Kodo
+Läsnä: Anneli, Lasse, Pasi, Emmi, Kodo, Johanna
 
 * Vaskin tuotantoon raportteri-plugin
   * tiistain päivityksessä
