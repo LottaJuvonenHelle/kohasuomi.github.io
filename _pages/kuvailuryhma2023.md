@@ -8,6 +8,87 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2023'
 ---
 
+## Kuvailuryhmän muistio 8/2023
+
+Aika: 8.11.2023 klo 13.15–14.45
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Risto Mikkonen (Vaski), Tarja Mäkinen (Kyyti), Marja Soisalo (Vaara) 
+
+Poissa: Johanna Ranta (Kyyti), Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Kokous avattiin ja sihteeriksi valittiin Pasi Hynninen.
+
+#### 2.	Lastu-kirjastojen edustaja ryhmään ####
+
+Ryhmään uutena jäsenenä liittynyt Lastu-kirjastojen Marjukka Laapotti Lahden kaupunginkirjastosta toivotettiin tervetulleeksi ja suoritettiin lyhyt esittelykierros.
+
+#### 3.	TäTin tietuepoistot ####
+<ul>
+  <li>Kirjoja on poistettu, mutta joukossa on myös virheellisiä RDA-tietueita: esim. 040e-kentästä puuttuu RDA-merkintä. (RDA-merkintä löytyy useimmiten 040d-kentästä). Lisäksi raportilla näkyy 2023 muokattuja vanhoja tietueita (nimenmuutokset jne.). 
+    - Päivi katsoo voiko asialle tehdä mitään (massakorjaus). </li>
+	<li>Nyt on olemassa raportit myös äänitteille, nuoteille, videotallenteille, äänikirjoille ja elektroniselle aineistolle, mutta mukana ei pitäisi olla ISBD- eikä RDA-tietueita. </li>
+	<li>TäTiin lisätty raportti, joka hakee tietueet, joissa ääkköset kummalliset. </li>
+	<li>Mitä tehdään virheellisille tai vanhentuneille ”omille” TäTi-tietueille? 
+    - Jokainen voi hakea näitä TäTistä kimppansa tai kirjastonsa ISIL-tunnuksella. Kannattaa hakea etenkin aiemmin käytetyillä tunnuksilla, jos niitä on käytetty (esim. FI-Rm, FI-Om, FI-Mm).</li>
+  <li>Tuplatietueita saa edelleen poistella. TäTin raporttia 227-Tuplatietueet/ISBN on muokattu siten, että siinä näkyy myös tietueiden 003-kentän tiedot tietuenumeroiden lisäksi.</li>
+	<li>Marc-virheelliset tietueet vähentyneet merkittävästi, tällä hetkellä vähän yli 5000 jäljellä, niistä paljon 884 5-osakentän sisältäviä tietueita. Saisiko tämän kentän pois raportilta, jottei se haittaisi korjauksia? 
+    - Antti tiedustelee asiaa Annelilta.</li>
+	<li>Todettiin, että poistot olisi hyvä tehdä ennen RDA- ja YSO-konversioita.</li>
+</ul>
+
+#### 4.	Koha-Suomi Melindaan -työryhmän kokous 24.10. ####
+<ul>
+  <li>RDA- ja YSO-konversiot tehdään nyt syksyn ja talven aikana, ei jäädä odottelemaan uutta RDA:ta</li>
+	<li>TäTi-putki edistyy: nyt mahdollista tutkia päivittäisten uusien Kirjastopalvelun tietueiden siirtymistä Melindaan.</li>
+	<li>Kokouksen jälkeen tehtyjä TäTi-putken testihavaintoja:</li>
+	<ul>
+  <li>Kirjastopalvelun korjaustietueet eivät aina yhdisty järkevästi Melinda-tietueeseen niissä tapauksissa, joissa KP ei korjaa tietueita itse Melindaan. Varsinkin kirjoitusvirheiden korjaus ei oikein onnistu, vaan näistä tulee tuplakenttiä. Myöskään esim. 250-kenttän lisätty painostieto ei siirry Melinda-tietueeseen, koska Melinda pitää tyhjääkin 250-kenttää painostietona.</li>
+	<li>Melinda-tietuetta suositaan yleensä aina, joten Melinda-tietueen pääkirjaus säilyy, vaikka olisi virheellinen. Myöskään pääkirjauksen korjaus ei onnistu korjaustietueen kautta.</li>
+	<li>Melindasta kysytty, voisiko erätuonnista erottaa tietueet, joiden pääkirjauksessa on eroja, mutta se ei onnistu, koska kyseessä on niin suuri työ, ettei siihen ole resursseja tällä hetkellä.</li>
+	<li>Osa tietueista ei siirry Melindaan ollenkaan, jos törmäävät siellä Melindan tuplatarkistuksiin. Melindasta kysytty, pystyykö päivittäisistä tai yhden paketin ei-yhdistettävistä tietueista saamaan jotakin erillistä listausta/raporttia. Vastaus: Erätuonti saa niistä restiltä infon, mutta se miten sitä infoa käsitellään, vaatii miettimistä.</li>
+	<li>Kirjastopalvelun tietue siirtyy Melindan ennakkotietueen päälle suhteellisen hyvin. Ainoastaan jotkin lisätekijä- ja sarjakentät voivat muodostua tuplakentiksi, jos niiden tiedot eroavat toisistaan.</li>
+	<li>Jatkoon pohdittavaksi: mitä Kirjastopalvelun korjaustietueille pitäisi tehdä?</li>
+  </ul>
+	<li>Johanna on rakentanut TäTiin toiminnon, joka lisää Kirjastopalvelun toimittamiin osakohteisiin 035a-kentän ((FI-BTJ)xxxxx) aamuisten erätuontien yhteydessä. Tämä toiminto on jo päällä. Tarkoitus on jossain vaiheessa muuttaa tietueiden täsmäytyskentäksi 035a eikä 001- ja 003-kentän yhdistelmä.</li>
+	<li>Melinda-koulutusta koko Koha-Suomen kuvailijoille keväällä 2024 (toukokuu)? - Helle-kirjastot olivat kyselleet koulutusta. Melinda periaatteessa suostuvainen, mutta haluaisivat koko Koha-kirjastojen laajuista koulutustapahtumaa. Päätettiin, että kukin kimppa tahollaan miettii millaista oppia tarvitsevat.</li>
+  <li>Seuraava Koha-Suomi Melindaan -työryhmän kokous 24.1.2024</li>
+</ul>
+
+#### 5.	Paikalliskantojen siirtoraportin korjaus- ja kehitysehdotuksia (jatkoa edellisestä kokouksesta) ####
+<ul>
+  <li>Uudesta Vaski-kirjastojen kehittämästä uutuustietueiden seuraamiseen tarkoitetusta SQL-raportista huolimatta totesimme siirtoraportin tarpeellisuuden edelleen (tietueiden valutushistorian näkeminen, keskeytyneet, aktivoinnin tarkistaminen).</li>
+	<li>Kannatimme vahvasti ajatusta kehittää Kohaan uusi SQL-raportti muutostietueiden seurantaan. Raportissa olisi tärkeää näkyä etenkin ne tietueet, joiden muutokset vaikuttavat tarroihin (kentät: 084, 1XX, 245, mahd. 300). Antti laatii alustavan luonnoksen siitä, miten raportin pitäisi toimia ja mitä sillä pitäisi näkyä, ja lähettää sen Kohan pääkäyttäjille.</li>
+	<li>Siirtoraportin kehittämiseksi ehdotettiin esim. värikoodeja sekä aineistolajin, nimekkeen ja tyypin (lastenaineisto vaiko aikuisten) ilmaisemista ilman klikkauksia.</li>
+</ul>
+
+#### 6.	Koha-Suomeen on perustettu uusi tiedonhaku- ja indeksointityöryhmä #####
+
+Ryhmälle osoitetut tiketit löytyvät GitHubin Tikettien seurannan kautta.
+
+#### 7. Uusia tikettejä ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/844" target="_blank">Osakenttään 942b merkitty valutuksen esto ei aina toimi</a> </li>
+	<li><a href="https://github.com/KohaSuomi/Koha/issues/475" target="_blank">Osakohteiden näkyminen, jos niiden 245a-kentässä ei ole mitään</a> -> Tämä on saatu toimimaan nyt, mutta edelleen jää pohdittavaksi, pitäisikö ne tietueet korjata jotenkin, joilta puuttuu nimeke 245-kentästä. </li>
+	<li><a href="https://github.com/KohaSuomi/Koha/issues/580" target="_blank">Tietueen kuvailun virheilmoituksen Mene kenttään -linkki ei toimi</a> </li>
+	<li><a href="https://github.com/KohaSuomi/Koha/issues/901" target="_blank">TäTin proxy Error</a> </li>
+	<li>Redminestä on myös siirretty vanhoja tikettejä GitHubiin</li>
+</ul>
+
+#### 8.	Muita asioita ####
+<ul>
+  <li>YKN:n metatietoryhmän kokous 7.11.2023: Metatietoprojektin jatkoprojekti hidastuu, koska Melindan alusta ei vaihdu uuteen vielä vuonna 2025.</li>
+  <li>Kansalliskirjaston osaamiseen liittyvä tulevaisuustyöpaja järjestetään 15.11., ja YKN: metatietoryhmän jäsenet ovat saaneet siihen kutsun.</li>
+  <li>Mikropalvelun käyttäjätunnuksissa olleet kytkentävirheet on saatu korjattua.</li>
+</ul>
+
+#### 9.	Seuraava kokous torstaina 14.12. Klo 13.15 ####
+
+
+---
 ## Kuvailuryhmän muistio 7/2023
 
 Aika: 18.10.2023 klo 13.15–14.45
