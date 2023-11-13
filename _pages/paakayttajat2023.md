@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
 * [Koha-seminaarin ilmoittautuminen ja ohjelma](https://github.com/KohaSuomi/Koha/discussions/850)
+* [Tarvetta tiketeille Githubiin](https://tiketti.koha-suomi.fi/issues/5585)?
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-46-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
