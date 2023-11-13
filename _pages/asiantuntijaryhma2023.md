@@ -36,21 +36,21 @@ Githubista pikaiseen käsittelyyn:
 
 Redminessä vielä käsittelemättä seuraavat tiketit. Käydään läpi, mitä ehditään ja siirretään loput seuraaviin:
 
-[3982](https://tiketti.koha-suomi.fi/issues/3982)
-[3915](https://tiketti.koha-suomi.fi/issues/3915)
-[3514](https://tiketti.koha-suomi.fi/issues/3514)
-[3371](https://tiketti.koha-suomi.fi/issues/3371)
-[3329](https://tiketti.koha-suomi.fi/issues/3329)
-[3104](https://tiketti.koha-suomi.fi/issues/3104)
-[2632](https://tiketti.koha-suomi.fi/issues/2632)
-[2381](https://tiketti.koha-suomi.fi/issues/2381)
-[1517](https://tiketti.koha-suomi.fi/issues/1517)
-[1176](https://tiketti.koha-suomi.fi/issues/1176)
-[1011](https://tiketti.koha-suomi.fi/issues/1011)
-[949](https://tiketti.koha-suomi.fi/issues/949)
-[594](https://tiketti.koha-suomi.fi/issues/594)
-[442](https://tiketti.koha-suomi.fi/issues/442)
-[235](https://tiketti.koha-suomi.fi/issues/235)
+[3982 - Tarkka haku, Kieli-hakuun valmiiksi valittavat vaihtoehdot](https://tiketti.koha-suomi.fi/issues/3982)<br />
+[3915 - Käyttäjätunnusten voimassaolo](https://tiketti.koha-suomi.fi/issues/3915)<br />
+[3514 - Koha-maksut kuntakohtaiseksi](https://tiketti.koha-suomi.fi/issues/3514)<br />
+[3371 - Parannusehdotus: niteen hyllypaikan ja/tai kokoelman vaihto päivittäisi niteen signumin tiedot](https://tiketti.koha-suomi.fi/issues/3371)<br />
+[3329 - Salli laina-ajan lyhentäminen x päivään niteille, joilla on enemmän kuin x varauksia.](https://tiketti.koha-suomi.fi/issues/3329)<br />
+[3104 - Kotipalvelutoimintojen kehittäminen Kohassa](https://tiketti.koha-suomi.fi/issues/3104)<br />
+[2632 - Vastaanotettavat kuljetukset-raportille tulostuu asiakkaan nimi (toimii linkkinä)](https://tiketti.koha-suomi.fi/issues/2632)<br />
+[2381 - Palautuskehotukset yhdelle viestille valituista kirjastosta ](https://tiketti.koha-suomi.fi/issues/2381)<br />
+[1517 - Kehitysehdotus kalenteriin](https://tiketti.koha-suomi.fi/issues/1517)<br />
+[1176 - Varaukset: varauksen noutopiste pitäisi voida vahtaa myös sen jälkeen, kun varaus on tarttunut kiinni](https://tiketti.koha-suomi.fi/issues/1176)<br />
+[1011 - Palautuskehotuksen lähetystapa asiakaskohtaiseksi valinnaksi](https://tiketti.koha-suomi.fi/issues/1011)<br />
+[949 - Niteen kuljetustila ja kellutus](https://tiketti.koha-suomi.fi/issues/949)<br />
+[594 - Ikärajat suoraan hakutuloksiin elokuvissa ja konsolipeleissä](https://tiketti.koha-suomi.fi/issues/594)<br />
+[442 - Varatun teoksen aineistolaji näkyviin asiakkaan varauksiin](https://tiketti.koha-suomi.fi/issues/442)<br />
+[235 - Asiakkaalle mahdollisuus kuitata Saapuneet viestit verkkokirjastossa](https://tiketti.koha-suomi.fi/issues/235)
 
 ### Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
