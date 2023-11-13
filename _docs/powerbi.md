@@ -147,32 +147,39 @@ WHERE convert(i.homebranch using 'utf8') LIKE (@Kunta:= <<Kunta tai kirjasto esi
 ```
 
 ### Hankintadata
-
+päivitetty 13.11.2023
 ```
-SELECT b.biblionumber, i.itemnumber, i.homebranch AS 'kirjasto', i.permanent_location AS 'hyllypaikka', i.ccode, bi.itemtype, i.cn_sort, b.author, 
-b.title, b.subtitle AS 'Alanimeke', b.part_name AS 'Osan nimi', b.part_number AS 'numero', 
-CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) as Nimeke2,
-aq.entrydate AS 'Tilattu (aqorders.entrydate)', 
-aq.datereceived AS 'Saapunut (aqorders.datereceived)', 
-format(i.price, 2,'fi_FI') AS 'Hinta niteissä', 
-format(aq.ecost, 2,'fi_FI') AS 'Tilattujen hinta (ecost)', 
-i.booksellerid AS 'items.booksellerid', 
-i.notforloan, 
-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS '008/8 vuosi', 
-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),36,3) AS 'Kieli_008', 
-i.issues AS lainoja, i.renewals AS uusintoja, (IFNULL(i.issues, 0)+IFNULL(i.renewals, 0)) AS 'Lainoja_yht.', 
+SELECT aqi.itemnumber,
+IFNULL(i.biblionumber, d.biblionumber) AS 'Biblionumber', 
+IFNULL(i.homebranch, d.homebranch) AS 'Kirjasto', 
+IFNULL(i.permanent_location, d.permanent_location) AS 'Hyllypaikka', 
+IFNULL(i.ccode, d.ccode) AS 'Kokoelma', 
+IFNULL(bibi1.itemtype, IFNULL(bibi2.itemtype, dbibi.itemtype)) AS 'Aineistotyyppi',
 SUBSTR(
-    i.cn_sort, 
+    IFNULL(i.cn_sort, d.cn_sort), 
     1,
-    INSTR(i.cn_sort, ' ') - 1
-) AS 'Luokka'
-FROM items i
-JOIN aqorders_items aqi ON (aqi.itemnumber=i.itemnumber)
-JOIN aqorders aq ON (aqi.ordernumber=aq.ordernumber)
-JOIN biblio b ON (i.biblionumber=b.biblionumber)
-JOIN biblioitems bi ON (b.biblionumber=bi.biblionumber)
-JOIN biblio_metadata bm ON (b.biblionumber=bm.biblionumber)
-WHERE aq.datereceived BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>> AND convert(i.homebranch using 'utf8') LIKE (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
+    INSTR(IFNULL(i.cn_sort, d.cn_sort), ' ') - 1
+) AS 'Luokka',
+aq.entrydate AS 'Tilattu', 
+aq.datereceived AS 'Saapunut (tilaustaulu)', 
+IFNULL(format(i.price, 2,'fi_FI'), format(d.price, 2,'fi_FI')) AS 'Hinta niteissä', 
+IFNULL(i.booksellerid, d.booksellerid) AS 'Toimittaja', 
+IFNULL(i.notforloan, d.notforloan) AS 'Notforloan', 
+IFNULL (bde1.primary_language, bde2.primary_language) AS 'Kieli',
+IFNULL (bde1.publication_year, bde2.publication_year) AS 'Julk. vuosi',
+IFNULL (bde1.celia, bde2.celia) AS 'Daisy'
+FROM aqorders_items aqi
+LEFT JOIN items i ON (i.itemnumber=aqi.itemnumber)
+LEFT JOIN aqorders aq ON (aq.ordernumber=aqi.ordernumber)
+LEFT JOIN deleteditems d ON (d.itemnumber=aqi.itemnumber)
+LEFT JOIN biblio b ON (b.biblionumber=i.biblionumber)
+LEFT JOIN deletedbiblio dbi ON (dbi.biblionumber=d.biblionumber)
+LEFT JOIN deletedbiblioitems dbibi ON i.biblioitemnumber = dbibi.biblioitemnumber
+LEFT JOIN biblioitems bibi1 ON i.biblioitemnumber = bibi1.biblioitemnumber
+LEFT JOIN biblioitems bibi2 ON d.biblioitemnumber = bibi2.biblioitemnumber
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde1 ON (i.biblionumber = bde1.biblionumber)
+LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde2 ON (d.biblionumber = bde2.biblionumber)
+WHERE aq.datereceived BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>> AND IFNULL(i.homebranch, d.homebranch) LIKE (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
 ```
 
 ### Poistodata
@@ -183,8 +190,8 @@ di.timestamp AS 'poistoaika',
 LEFT(di.timestamp, 4) AS 'poistoajan vuosi',
 IFNULL(bi.itemtype, dbi.itemtype) AS 'aineistotyyppi', 
 IFNULL(b.author, db.author) AS 'tekijä', 
-CONCAT_WS(' ', IFNULL(b.title,db.title), IFNULL(b.subtitle,db.subtitle), IFNULL(b.part_number, db.part_number), IFNULL(b.part_name, db.part_name)) as 'Nimeke2',
-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS '008/8 vuosi', 
+CONCAT_WS(' ', IFNULL(b.title,db.title), IFNULL(b.subtitle,db.subtitle), IFNULL(b.part_number, db.part_number), IFNULL(b.part_name, db.part_name)) as 'Nimeke',
+bde.publication_year AS 'julkaisuvuosi',
 bde.primary_language AS 'Kielikoodi',
 2023-SUBSTR(ExtractValue(bm.metadata,'//controlfield[@tag="008"]'),8,4) AS 'aineiston ikä',
 2023-LEFT(di.dateaccessioned, 4) AS 'aineiston ikä (saapumisesta)',
