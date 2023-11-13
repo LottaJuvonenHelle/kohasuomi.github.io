@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 13.11.2023 klo 9
 
-Läsnä:
+Läsnä: Anneli
 
 * https://github.com/KohaSuomi/Koha/issues/906 Virkailijatilin voimassaoloajan pidentämisen rajoitus
 * Onko ajatusta milloin viestien lähetys muutetaan tapahtumaan 5 minuutin välein (https://koha-suomi.fi/kohasuomi2023#torstai-5102023-klo-10)
