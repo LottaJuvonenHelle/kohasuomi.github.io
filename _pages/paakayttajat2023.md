@@ -10,6 +10,15 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 47 muistio
+
+Aika: 21.11.2023 klo 9.15 <br />
+Läsnä:
+
+**Yhteiset**
+
+* [Varaustunnisteen generointi](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan? Yhtenäinen linja olisi hienoa, jotta ei tarvitse ylläpitää useampia JS-rimpsuja.
+
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
