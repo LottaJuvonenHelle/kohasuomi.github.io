@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
@@ -64,6 +64,11 @@ Etelästä pohjoiseen
 * OUTIssa oli koha-jumi to 9.11. klo 9.34. OUTIn jumimisen takia laitettiin samana päivänä kaikkien kimppojen tuotantoihin viestien käsittelyn muutos, joten nyt viestit lähtevät 5 min välein, maksimissaan 500kpl kerrallaan. https://github.com/KohaSuomi/Koha/issues/908
 * Kirjastoauto Kaunon varausten noutoajan pidennys tehty tänään 14 vrk -> 21 vrk.
 * Finna ei tarkista mitä puhelinnumerokenttään täytetään, sinne voi kirjoittaa mitä tahansa merkkejä. Tämä koskee kaikkia kimppoja. OUTI tekee tiketin ja lähettää viestiä kansalliskirjastolle.
+
+**Kyyti**
+* Esittelin, miten olin Excelin avulla rakentanut tarvittavat arvot AutoItemtype-järjestelmäasetukseen.
+* Miten saa muutettua maksutyypin kuvausta, josta puuttuu Muokkaa-nappi?
+Anneli: mene muokkaamaan sellaista maksutyyppiä, jossa on Muokkaa-nappi. Sitten muuta url-osoitetta korvaamalla maksutyypin tunnus sillä tunnuksella, jota haluat muokata ja paina Enter. Muokkaa kuvausta ja tallenna.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-46-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
