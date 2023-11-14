@@ -20,7 +20,9 @@ Läsnä:
 * [Koha-seminaarin ilmoittautuminen ja ohjelma](https://github.com/KohaSuomi/Koha/discussions/850)
 * [Tarvetta tiketeille Githubiin](https://tiketti.koha-suomi.fi/issues/5585)?
 * Jos nidevaratulta niteeltä puuttuu signum, [ei se tule hyllyvarauslistalle](https://github.com/KohaSuomi/Koha/issues/868)
-```select biblionumber, itemnumber 
+
+```
+select biblionumber, itemnumber 
 from items
 where itemcallnumber is null
 and itemnumber in (select itemnumber from reserves)
