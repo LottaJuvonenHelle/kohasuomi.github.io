@@ -17,12 +17,13 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 13.11.2023 klo 9
 
-Läsnä: Anneli, Lasse
+Läsnä: Anneli, Lasse, Johanna
 
 * https://github.com/KohaSuomi/Koha/issues/906 Virkailijatilin voimassaoloajan pidentämisen rajoitus
 * Onko ajatusta milloin viestien lähetys muutetaan tapahtumaan 5 minuutin välein (https://koha-suomi.fi/kohasuomi2023#torstai-5102023-klo-10)
 * "Too many open files" johtunee inotifyn max_user_instance:sta (nyk. 128) https://bugs.launchpad.net/ubuntu/+source/lxd/+bug/1602192
 * Joulunajan lomat
+  * Merkataan lomatoiveet kalenteriin ja katsotaan tuleeko päälekäisyyksiä.
 
   
 ## Viikon 45 muistio
