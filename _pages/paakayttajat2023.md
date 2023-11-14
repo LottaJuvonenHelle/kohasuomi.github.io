@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), 
+Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
@@ -46,6 +46,10 @@ Etelästä pohjoiseen
 #cancelAll {
   display: none;
 } 
+
+**Lumme**
+* Perusylläpitoa.
+* Kehitysehdotus: kun tehdään niteiden eräpoisto, Koha herjaisi, jos jokin poistettava nide on lainassa. Päätettiin odottaa tulevaa Nextin testiversiota, josko asiaan olisi tulossa parannusta ja katsoa sitten asiaa uudestaan. Tällä hetkellä voi hyödyntää Lainassa-saraketta, joka tulee esiin poistettavien kirjojen listassa, jos yksikin poistettava nide on lainassa.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-46-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
