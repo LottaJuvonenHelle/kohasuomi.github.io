@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Anni Rajala (Vaski)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
@@ -33,6 +33,10 @@ and notforloan=0
 * perjantaina taas bugi-perjantai klo 13.
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Uusi erikoistila tarramuutosta vaativien niteiden kiinnisaamiseksi otettu käyttöön.
+* Puppe-saapumisvalvontatyökalun käyttöönotto etenee, henkilökunta pääsee testaamaan joulukuussa kun Broomworks tulee paikan päälle.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-46-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
