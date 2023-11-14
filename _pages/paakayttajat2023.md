@@ -54,6 +54,12 @@ Etelästä pohjoiseen
 **Vaara**
 * perusylläpitoa ja erilaista siivousta/korjausta Vaarassa ja TäTissä
 
+**OUTI**
+* Asiakkaalle oli lähtenyt viime viikolla sähköpostia vaikka hänellä on asetuksissa pelkät koosteviestitäpät. Vaarassa törmätty samanlaiseen tilanteeseen. Tehdään tästä tiketti.
+* Kun palauttaa uudestaan noutoa odottavan varauksen ja klikkaa jompaa kumpaa popparin valinnoista (OUTIssa ne ovat Tulosta kuitti ja vahvista ja Vahvista varaus), niin noutoaika jatkuu eräpäiväkalenterin mukaan kuin se jäisi ensimmäistä kertaa kiinni. Tästä on tiketti: : https://github.com/KohaSuomi/Koha/issues/646. Tiketissä on kommentoitu, että "tämä on korjattu yhteisössä, joten joko korjaus tulee meille ensi kevään versiovaihdossa tai sitten tuomme korjauksen jo tähän nykyiseen käyttämäämme versioon". Testataan Nextillä, kun ne saadaan pystyyn uudella versiolla. 
+* OUTIssa oli koha-jumi to 9.11. klo 9.34. OUTIn jumimisen takia laitettiin samana päivänä kaikkien kimppojen tuotantoihin viestien käsittelyn muutos, joten nyt viestit lähtevät 5 min välein, maksimissaan 500kpl kerrallaan. https://github.com/KohaSuomi/Koha/issues/908
+* Kirjastoauto Kaunon varausten noutoajan pidennys tehty tänään 14 vrk -> 21 vrk.
+* Finna ei tarkista mitä puhelinnumerokenttään täytetään, sinne voi kirjoittaa mitä tahansa merkkejä. Tämä koskee kaikkia kimppoja. OUTI tekee tiketin ja lähettää viestiä kansalliskirjastolle.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-46-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
