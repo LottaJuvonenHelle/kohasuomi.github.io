@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski)
+Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), 
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
@@ -37,6 +37,16 @@ Etelästä pohjoiseen
 **Vaski**
 * Uusi erikoistila tarramuutosta vaativien niteiden kiinnisaamiseksi otettu käyttöön.
 * Puppe-saapumisvalvontatyökalun käyttöönotto etenee, henkilökunta pääsee testaamaan joulukuussa kun Broomworks tulee paikan päälle.
+
+**Siilinjärvi**
+* Kohassa ei mitään mainittavaa, onneksi, koska poissaolotilanne hankala.
+* Kysytty miten muualla reagoidaan asiakkaan pyyntöön palauttaa varaukset, jos asiakas on ne itse vahingossa Finnassa poistanut Peru kaikki varaukset -valinnalla. Käytännöt vaihtelivat, mutta Vaskissa on piilotettu koko painike (kiitos Roosa!): Painikkeen saa piiloon lisäämällä seuraavan CSS-määrityksen tiedostoon custom.less tai custom.css (kommenttirivi vapaaehtoinen):
+
+//Peru kaikki varaukset -painikkeen piilotus
+#cancelAll {
+  display: none;
+} 
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-46-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
