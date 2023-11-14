@@ -19,6 +19,13 @@ Läsnä:
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
 * [Koha-seminaarin ilmoittautuminen ja ohjelma](https://github.com/KohaSuomi/Koha/discussions/850)
 * [Tarvetta tiketeille Githubiin](https://tiketti.koha-suomi.fi/issues/5585)?
+* Jos nidevaratulta niteeltä puuttuu signum, [ei se tule hyllyvarauslistalle](https://github.com/KohaSuomi/Koha/issues/868)
+```select biblionumber, itemnumber 
+from items
+where itemcallnumber is null
+and itemnumber in (select itemnumber from reserves)
+and notforloan=0
+```
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-46-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
