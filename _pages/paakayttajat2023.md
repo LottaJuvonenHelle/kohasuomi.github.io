@@ -30,6 +30,9 @@ where itemcallnumber is null
 and itemnumber in (select itemnumber from reserves)
 and notforloan=0
 ```
+* perjantaina taas bugi-perjantai klo 13.
+
+Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-46-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
