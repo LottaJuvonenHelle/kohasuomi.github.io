@@ -20,6 +20,8 @@ Läsnä:
 * [Koha-seminaarin ilmoittautuminen ja ohjelma](https://github.com/KohaSuomi/Koha/discussions/850)
 * [Tarvetta tiketeille Githubiin](https://tiketti.koha-suomi.fi/issues/5585)?
 * Jos nidevaratulta niteeltä puuttuu signum, [ei se tule hyllyvarauslistalle](https://github.com/KohaSuomi/Koha/issues/868)
+  * kannattaa huolehtia, että lehdille tulee signum. Helpointa se on kun huolehtii, että lehtitilauksen Luokka-kentässä on signum valmiina, jolloin se tulee automaattisesti myös niteelle.
+  * kannattaisiko signum-kenttä laittaa pakolliseksi?
 
 ```
 select biblionumber, itemnumber 
