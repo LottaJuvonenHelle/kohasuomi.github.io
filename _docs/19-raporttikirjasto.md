@@ -1536,6 +1536,24 @@ and dateaccessioned> <<Hankittu pvm:n jälkeen|date>>
 order by 1
 ```
 
+### Niteet, joilta puuttuu signum
+
+Niteet, joilta puuttuu signum ei tule mukaan hyllyvarauslistalle. Tällä raportilla voi listata kirjastoittain niteet, joiden signum-kenttä on tyhjä ja jolla ei ole mitään Ei lainata -arvoa.
+
+Tekijä: Lari Strand
+Lisätty: 14.11.2023
+Versio: 22.11
+
+```
+select biblio.title as 'Nimeke', CONCAT('<a href="/cgi-bin/koha/catalogue/moredetail.pl?biblionumber=', biblio.biblionumber, '#item', i.itemnumber, '">', i.barcode, '</a>') AS 'Viivakoodi',
+itemnumber, i.biblionumber, homebranch as 'Kotikirjasto', holdingbranch as 'Sijaintikirjasto', onloan as 'Eräpäivä', location as 'Hyllypaikka', itype as 'Nidetyyppi', enumchron as 'Lehden numero'
+from items i
+inner join biblio ON i.biblionumber = biblio.biblionumber
+and i.itemcallnumber is null and i.notforloan = 0 and i.itemlost = 0
+and i.holdingbranch = <<Sijaintikirjasto|branches>>
+order by 1 asc
+```
+
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
