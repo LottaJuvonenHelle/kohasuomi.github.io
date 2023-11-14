@@ -20,15 +20,15 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: Ma 20.11.2023 klo 13<br />
 Läsnä:
 
-### Arin ajankohtaiset
+### 1. Arin ajankohtaiset
 
-### Tiedonhaku- ja indeksointityöryhmän kokoonpano
+### 2. Tiedonhaku- ja indeksointityöryhmän kokoonpano
 
-### Kimppojen viestipalvelut
+### 3. Kimppojen viestipalvelut
 
 Edellisessä kokouksessa päätettiin selvittää kimpoissa, kuinka paljon sms-viestejä lähetetään/kk.
 
-### Kehitysehdotusten läpikäyntiä
+### 4. Kehitysehdotusten läpikäyntiä
 
 Githubista pikaiseen käsittelyyn:
 
@@ -52,7 +52,7 @@ Redminessä vielä käsittelemättä seuraavat tiketit. Käydään läpi, mitä 
 [442 - Varatun teoksen aineistolaji näkyviin asiakkaan varauksiin](https://tiketti.koha-suomi.fi/issues/442)<br />
 [235 - Asiakkaalle mahdollisuus kuitata Saapuneet viestit verkkokirjastossa](https://tiketti.koha-suomi.fi/issues/235)
 
-### Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+### 5. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
 
