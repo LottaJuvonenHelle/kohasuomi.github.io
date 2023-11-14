@@ -13,6 +13,15 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 47 muistio
+
+### Maanantai 20.11.2023 klo 9
+
+Läsnä:
+
+* [Koha #868](https://github.com/KohaSuomi/Koha/issues/868) - tarvitaanko lisätoimia?
+
+
 ## Viikon 46 muistio
 
 ### Maanantai 13.11.2023 klo 9
