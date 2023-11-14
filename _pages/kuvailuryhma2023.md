@@ -30,12 +30,11 @@ Ryhmään uutena jäsenenä liittynyt Lastu-kirjastojen Marjukka Laapotti Lahden
 <ul>
   <li>Vanhoista KP:n kirjatietueista suurin osa on poistettu, mutta näitä listaavassa raportissa on joukossa on myös virheellisiä RDA-tietueita: esim. 040e-kentästä puuttuu RDA-merkintä. (RDA-merkintä löytyy useimmiten 040d-kentästä). Lisäksi raportilla näkyy 2023 muokattuja vanhoja tietueita (nimenmuutokset jne.). 
     - Päivi katsoo voiko asialle tehdä mitään (massakorjaus). </li>
-	<li>Nyt on olemassa raportit myös äänitteille, nuoteille, videotallenteille, äänikirjoille ja elektroniselle aineistolle, mutta mukana ei pitäisi olla ISBD- eikä RDA-tietueita. </li>
-	<li>TäTiin lisätty raportti, joka hakee tietueet, joissa ääkköset kummalliset. </li>
+	<li>Nyt on olemassa raportit myös äänitteille, nuoteille, videotallenteille, äänikirjoille ja elektroniselle aineistolle, mutta mukana ei pitäisi olla ISBD- eikä RDA-tietueita. Pohdittavaksi jää vielä äänitteiden ja nuottien osalta, kannatttaako niitä poistaa vai ei. </li>
+	<li>TäTiin lisätty raportti, joka hakee tietueet, joissa ääkköset kummalliset. - Päivi on poistanut raportilla löytyneet tietueet jo. </li>
 	<li>Mitä tehdään virheellisille tai vanhentuneille ”omille” TäTi-tietueille? 
     - Jokainen voi hakea näitä TäTistä kimppansa tai kirjastonsa ISIL-tunnuksella. Kannattaa hakea etenkin aiemmin käytetyillä tunnuksilla, jos niitä on käytetty (esim. FI-Rm, FI-Om, FI-Mm).</li>
-  <li>Tuplatietueita saa edelleen poistella. TäTin raporttia 227-Tuplatietueet/ISBN on muokattu siten, että siinä näkyy myös tietueiden 003-kentän tiedot tietuenumeroiden lisäksi.</li>
-	<li>Marc-virheelliset tietueet vähentyneet merkittävästi, tällä hetkellä vähän yli 5000 jäljellä, niistä paljon 884 5-osakentän sisältäviä tietueita. Saisiko tämän kentän pois raportilta, jottei se haittaisi korjauksia? 
+	<li>Marc-virheelliset tietueet vähentyneet merkittävästi, tällä hetkellä vähän alle 5000 jäljellä, niistä yli 2000 884 5-osakentän sisältäviä tietueita. Saisiko tämän kentän pois raportilta, jottei se haittaisi korjauksia? 
     - Antti tiedustelee asiaa Annelilta.</li>
 	<li>Todettiin, että poistot olisi hyvä tehdä ennen RDA- ja YSO-konversioita.</li>
 </ul>
@@ -63,6 +62,7 @@ Ryhmään uutena jäsenenä liittynyt Lastu-kirjastojen Marjukka Laapotti Lahden
   <li>Uudesta Vaski-kirjastojen kehittämästä uutuustietueiden seuraamiseen tarkoitetusta SQL-raportista huolimatta totesimme siirtoraportin tarpeellisuuden edelleen (tietueiden valutushistorian näkeminen, keskeytyneet, aktivoinnin tarkistaminen).</li>
 	<li>Kannatimme vahvasti ajatusta kehittää Kohaan uusi SQL-raportti muutostietueiden seurantaan. Raportissa olisi tärkeää näkyä etenkin ne tietueet, joiden muutokset vaikuttavat tarroihin (kentät: 084, 1XX, 245, mahd. 300). Antti laatii alustavan luonnoksen siitä, miten raportin pitäisi toimia ja mitä sillä pitäisi näkyä, ja lähettää sen Kohan pääkäyttäjille.</li>
 	<li>Siirtoraportin kehittämiseksi ehdotettiin esim. värikoodeja sekä aineistolajin, nimekkeen ja tyypin (lastenaineisto vaiko aikuisten) ilmaisemista ilman klikkauksia.</li>
+	<li>**Lisäys 14.11: ** Kokouksen jälkeen tullutta uutta tietoa: Valutustoiminto muuttuu lähiaikoina, mikä vaikuttaa myös siirtoraportin ulkomuotoon. Lisää asiasta tiketissä: <a href="https://github.com/KohaSuomi/Koha/issues/915" target="_blank">Valutuksen siirtäminen broadcast biblios liitännäiselle.</a> </li>
 </ul>
 
 #### 6.	Koha-Suomeen on perustettu uusi tiedonhaku- ja indeksointityöryhmä #####
