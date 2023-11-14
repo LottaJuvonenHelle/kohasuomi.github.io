@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara)
+Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
@@ -37,6 +37,10 @@ Etelästä pohjoiseen
 **Vaski**
 * Uusi erikoistila tarramuutosta vaativien niteiden kiinnisaamiseksi otettu käyttöön.
 * Puppe-saapumisvalvontatyökalun käyttöönotto etenee, henkilökunta pääsee testaamaan joulukuussa kun Broomworks tulee paikan päälle.
+
+**Kirkes**
+* Mietiskellään nidetyyppien laina- ja varaussääntöjä.
+* laskutusrajapinnan käyttöönotto matelee eteenpäin.
 
 **Siilinjärvi**
 * Kohassa ei mitään mainittavaa, onneksi, koska poissaolotilanne hankala.
