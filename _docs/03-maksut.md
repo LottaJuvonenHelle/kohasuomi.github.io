@@ -11,16 +11,20 @@ Asiakkaalla voi olla julkisoikeudellisia ja yksityisoikeudellisia maksuja.
 
 Julkisoikeudelliset maksut:
 - Myöhästymismaksut, palautuskehotusmaksut ja noutamattoman varauksen maksut.
+- Vain julkisoikeudelliset maksut voivat aiheuttaa asiakkaalle lainauskiellon, jos maksut ylittävät lainauskieltorajan.
 - Maksut vanhenevat 5 vuoden kulutta sitä seuraavan vuoden alussa.
-- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti vuoden alussa.
+- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti vuoden alussa. Huom! Ajot otetaan käyttöön vuoden 2024 alussa.
 
 Yksityisoikeudelliset maksut:
 - Kaikki muut asiakkaan maksuissa olevat maksut, esim. kaukopalvelumaksu, aineiston korvausmaksut, uuden kirjastokortin maksu.
+- Maksut eivät vaikuta lainauskieltorajaan.
 - Maksut vanhenevat 3 vuoden kuluttua.
-- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti maksun vanhenemispäivän jälkeisenä yönä.
+- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti maksun vanhenemispäivän jälkeisenä yönä. Huom! Ajot otetaan käyttöön vuoden 2024 alussa.
 
-Maksut näkyvät eriteltynä asiakkaan tiedoissa.
+Maksut näkyvät eriteltynä asiakkaan tiedoissa:
 ![](/assets/files/docs/Maksut/Maksuerittely.PNG)
+
+Esimerkissä asiakkaalla on 19,50 € julkisoikeudellisia maksuja, jotka vaikuttavat lainauskieltorajaan. Asiakkaalla on maksuja yhteensä 31,50 €. Yhteissumma sisältää myös maksut, jotka eivät vaikuta lainauskieltoon. Esimerkkitapauksessa asiakkaalla on yksityisoikeudellisia maksu 12,00 €.
 
 Asiakkaan maksuihin pääsee asiakkaan tiedoissa vasemassa reunassa olevasta palkista "Maksut" tai Huomio-kentässä
 olevalla "Maksa"-näppäimellä.
