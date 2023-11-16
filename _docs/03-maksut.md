@@ -20,7 +20,7 @@ Yksityisoikeudelliset maksut:
 - Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti maksun vanhenemispäivän jälkeisenä yönä.
 
 Maksut näkyvät eriteltynä asiakkaan tiedoissa.
-![](/assets/files/docs/Asiakkaat/Maksuerittely.PNG)
+![](/assets/files/docs/Maksut/Maksuerittely.PNG)
 
 Asiakkaan maksuihin pääsee asiakkaan tiedoissa vasemassa reunassa olevasta palkista "Maksut" tai Huomio-kentässä
 olevalla "Maksa"-näppäimellä.
