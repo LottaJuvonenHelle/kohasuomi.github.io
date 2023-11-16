@@ -7,6 +7,21 @@ toc: true
 ---
 # 3. Maksut
 
+Asiakkaalla voi olla julkisoikeudellisia ja yksityisoikeudellisia maksuja. 
+
+Julkisoikeudelliset maksut:
+- Myöhästymismaksut, palautuskehotusmaksut ja noutamattoman varauksen maksut.
+- Maksut vanhenevat 5 vuoden kulutta sitä seuraavan vuoden alussa.
+- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti vuoden alussa.
+
+Yksityisoikeudelliset maksut:
+- Kaikki muut asiakkaan maksuissa olevat maksut, esim. kaukopalvelumaksu, aineiston korvausmaksut, uuden kirjastokortin maksu.
+- Maksut vanhenevat 3 vuoden kuluttua.
+- Vanhentuneiden maksujen mitätöintiajot ajetaan kimpoissa heti maksun vanhenemispäivän jälkeisenä yönä.
+
+Maksut näkyvät eriteltynä asiakkaan tiedoissa.
+![](/assets/files/docs/Asiakkaat/Maksuerittely.PNG)
+
 Asiakkaan maksuihin pääsee asiakkaan tiedoissa vasemassa reunassa olevasta palkista "Maksut" tai Huomio-kentässä
 olevalla "Maksa"-näppäimellä.
 
