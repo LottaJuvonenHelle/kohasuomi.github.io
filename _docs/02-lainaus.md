@@ -122,6 +122,8 @@ näytölle tulee huomautus lainaamisen eston syystä.
 ### 2.2.1 Asiakkaalla on liikaa maksuja
 
 ![](/assets/files/docs/Lainaus/liikaamaksuja.PNG)  
+Esimerkissä asiakkaalla on lainauskieltoon vaikuttavia maksuja 19,50 €. Maksuja, jotka eivät vaikuta lainauskieltoon on 12,00 €.
+
 Huom! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
 
