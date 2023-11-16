@@ -121,7 +121,7 @@ näytölle tulee huomautus lainaamisen eston syystä.
 
 ### 2.2.1 Asiakkaalla on liikaa maksuja
 
-![](/assets/files/docs/Lainaus/liikaamaksuja.png)  
+![](/assets/files/docs/Lainaus/liikaamaksuja.PNG)  
 Huom! Uusintatilanteessa ohjelma ei ilmoita, jos sallittujen maksujen
 raja on ylittynyt.
 
