@@ -23,13 +23,13 @@ Läsnä: Anneli, Ari, Kodo, Päivi, Noora, Krista, Susanna, Tuomas, Leena, Kati
 ### 1. Arin ajankohtaiset
 
 * LASTU-Käynnistynyt ja konversiosääntöjä on päästy tekemään. Odotetaan yhä AXIELLilta ensimmäistä dumppia.
-* MArraskuun alussa aloitti harjoittelija, joka työskentelee Oulussa.
+* Marraskuun alussa aloitti harjoittelija, joka työskentelee Oulussa.
 
 
 ### 2. Tiedonhaku- ja indeksointityöryhmän kokoonpano
 
 Vaara: Kai Sormunen (Joensuu)<br />
-Lumme: Heli Auranen (?)<br />
+Lumme: Heli Auranen (Pieksämäki)<br />
 Vaski: Anna Viitanen (Turku)<br />
 OUTI: Antti Heikkinen (Oulu)<br />
 Helle: Markku Untinen (Porvoo) <br />
@@ -86,6 +86,10 @@ Siirretään seuraavaan kokoukseen:
 ### 5. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
+
+### 6. Seuraava kokous
+
+Seuraava kokous on sovittu pidettäväksi ma 11.12. klo 13.
 
 ## Asiantuntijaryhmän muistio 8/23
 
