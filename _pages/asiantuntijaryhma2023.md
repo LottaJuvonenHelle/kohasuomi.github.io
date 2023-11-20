@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän muistio 9/23
 
 Aika: Ma 20.11.2023 klo 13<br />
-Läsnä: Anneli, Ari, Kodo, Päivi, Noora, Krista, Susanna, Tuomas, Leena, Kati
+Läsnä: Anneli Österman, Ari Mäkiranta, Kodo Korkalo, Päivi Knuutinen, Noora Valkonen, Riikka Mustajärvi, Susanna Sandell, Tuomas Kunttu, Leena Kinnunen, Kati Sillgren
 
 ### 1. Arin ajankohtaiset
 
@@ -44,14 +44,14 @@ Anneli toimii kokoonkutsujana ja aloitetaan heti, kun Kirkeksen edustaja selviä
 
 Edellisessä kokouksessa päätettiin selvittää kimpoissa, kuinka paljon sms-viestejä lähetetään/kk.
 
-Lappi: 13 571 sms/kk - 175 000 asukasta = 0,08 sms/asukas/kk
-Lumme: 11 000 sms/kk
-Vaara: 23 000 sms/kk - 163 281 asukasta = 0,14 sms/asukas/kk
-Helle: 16 500 sms/kk
-Kirkes: 12 000 sms/kk - 150 000 asukasta = 0,08 sms/asukas/kk
-Vaski: 41 370 sms/kk - = 0,1 sms/asukas/kk
-OUTI: 47 000 sms/kk - 331 700 asukasta = 0,14 sms/asukas/kk
-Kyyti: 22 600 sms/kk - 169 500 asukasta = 0,13 sms/asukas/kk
+Lappi: 13 571 sms/kk - 175 000 asukasta = 0,08 sms/asukas/kk<br />
+Lumme: 11 000 sms/kk<br />
+Vaara: 23 000 sms/kk - 163 281 asukasta = 0,14 sms/asukas/kk<br />
+Helle: 16 500 sms/kk<br />
+Kirkes: 12 000 sms/kk - 150 000 asukasta = 0,08 sms/asukas/kk<br />
+Vaski: 41 370 sms/kk - = 0,1 sms/asukas/kk<br />
+OUTI: 47 000 sms/kk - 331 700 asukasta = 0,14 sms/asukas/kk<br />
+Kyyti: 22 600 sms/kk - 169 500 asukasta = 0,13 sms/asukas/kk<br />
 Yhteensä: 187 000 sms/kk
 
 Mahdollisia vaihtoehtoja jatkoon:
@@ -63,7 +63,7 @@ Githubista pikaiseen käsittelyyn:
 
 [Virkailijatilin voimassaoloajan pidentämiseen rajoitus - Koha #906](https://github.com/KohaSuomi/Koha/issues/906)
 
-Redminessä vielä käsittelemättä seuraavat tiketit. Käydään läpi, mitä ehditään ja siirretään loput seuraaviin:
+Redminessä vielä käsittelemättä seuraavat tiketit. Käydään läpi, mitä ehditään ja siirretään loput seuraaviin. Päätökset kirjattiin tiketteihin.
 
 [3982 - Tarkka haku, Kieli-hakuun valmiiksi valittavat vaihtoehdot](https://tiketti.koha-suomi.fi/issues/3982)<br />
 [3915 - Käyttäjätunnusten voimassaolo](https://tiketti.koha-suomi.fi/issues/3915)<br />
