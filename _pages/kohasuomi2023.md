@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 ### Maanantai 20.11.2023 klo 9
 
-Läsnä: Pasi, Anneli, Emmi
+Läsnä: Pasi, Anneli, Emmi, Ari
 
 * [Koha #868](https://github.com/KohaSuomi/Koha/issues/868) - tarvitaanko lisätoimia?
 * Päivystykset viikosta 48 eteenpäin
@@ -29,7 +29,7 @@ Läsnä: Pasi, Anneli, Emmi
 
 ### Maanantai 13.11.2023 klo 9
 
-Läsnä: Anneli, Lasse, Johanna, Pasi
+Läsnä: Anneli, Lasse, Johanna, Pasi. Ari
 
 * https://github.com/KohaSuomi/Koha/issues/906 Virkailijatilin voimassaoloajan pidentämisen rajoitus
 * Onko ajatusta milloin viestien lähetys muutetaan tapahtumaan 5 minuutin välein (https://koha-suomi.fi/kohasuomi2023#torstai-5102023-klo-10)
