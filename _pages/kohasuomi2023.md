@@ -20,6 +20,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * [Koha #868](https://github.com/KohaSuomi/Koha/issues/868) - tarvitaanko lisätoimia?
+* Päivystys viikosta 48 eteenpäin
+* Viikon 47 päivitys
 
 
 ## Viikon 46 muistio
