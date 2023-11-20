@@ -21,7 +21,8 @@ Aika: Ma 20.11.2023 klo 13<br />
 Läsnä:
 
 ### 1. Arin ajankohtaiset
-
+* LASTU-Käynnistynyt ja konversiosääntöjä on päästy tekemään. Odotetaan yhä AXIELLilta ensimmäistä dumppia.
+* MArraskuun alussa aloitti harjoittelija, joka työskentelee Oulussa.
 ### 2. Tiedonhaku- ja indeksointityöryhmän kokoonpano
 
 ### 3. Kimppojen viestipalvelut
