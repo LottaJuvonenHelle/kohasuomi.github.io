@@ -15,19 +15,47 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 9/23
+## Asiantuntijaryhmän muistio 9/23
 
 Aika: Ma 20.11.2023 klo 13<br />
-Läsnä:
+Läsnä: Anneli, Ari, Kodo, Päivi, Noora, Krista, Susanna, Tuomas, Leena, Kati
 
 ### 1. Arin ajankohtaiset
+
 * LASTU-Käynnistynyt ja konversiosääntöjä on päästy tekemään. Odotetaan yhä AXIELLilta ensimmäistä dumppia.
 * MArraskuun alussa aloitti harjoittelija, joka työskentelee Oulussa.
+
+
 ### 2. Tiedonhaku- ja indeksointityöryhmän kokoonpano
+
+Vaara: Kai Sormunen (Joensuu)<br />
+Lumme: Heli Auranen (?)<br />
+Vaski: Anna Viitanen (Turku)<br />
+OUTI: Antti Heikkinen (Oulu)<br />
+Helle: Markku Untinen (Porvoo) <br />
+Lappi: Mauri Aittaniemi (Rovaniemi)<br />
+Kirkes: selvittelyn alla<br />
+Kyyti: Ville Kivioja (Kouvola)<br />
+Koha-Suomi: Johanna Räisä ja Anneli Österman (kokoonkutsuja)
+
+Anneli toimii kokoonkutsujana ja aloitetaan heti, kun Kirkeksen edustaja selviää.
 
 ### 3. Kimppojen viestipalvelut
 
 Edellisessä kokouksessa päätettiin selvittää kimpoissa, kuinka paljon sms-viestejä lähetetään/kk.
+
+Lappi: 13 571 sms/kk - 175 000 asukasta = 0,08 sms/asukas/kk
+Lumme: 11 000 sms/kk
+Vaara: 23 000 sms/kk - 163 281 asukasta = 0,14 sms/asukas/kk
+Helle: 16 500 sms/kk
+Kirkes: 12 000 sms/kk - 150 000 asukasta = 0,08 sms/asukas/kk
+Vaski: 41 370 sms/kk - = 0,1 sms/asukas/kk
+OUTI: 47 000 sms/kk - 331 700 asukasta = 0,14 sms/asukas/kk
+Kyyti: 22 600 sms/kk - 169 500 asukasta = 0,13 sms/asukas/kk
+Yhteensä: 187 000 sms/kk
+
+Mahdollisia vaihtoehtoja jatkoon:
+* voiko Koha-Suomi kilpailuttaa sopimuksen ja operaattori laskuttaa kimppoja?
 
 ### 4. Kehitysehdotusten läpikäyntiä
 
@@ -42,6 +70,8 @@ Redminessä vielä käsittelemättä seuraavat tiketit. Käydään läpi, mitä 
 [3514 - Koha-maksut kuntakohtaiseksi](https://tiketti.koha-suomi.fi/issues/3514)<br />
 [3371 - Parannusehdotus: niteen hyllypaikan ja/tai kokoelman vaihto päivittäisi niteen signumin tiedot](https://tiketti.koha-suomi.fi/issues/3371)<br />
 [3329 - Salli laina-ajan lyhentäminen x päivään niteille, joilla on enemmän kuin x varauksia.](https://tiketti.koha-suomi.fi/issues/3329)<br />
+
+Siirretään seuraavaan kokoukseen:
 [3104 - Kotipalvelutoimintojen kehittäminen Kohassa](https://tiketti.koha-suomi.fi/issues/3104)<br />
 [2632 - Vastaanotettavat kuljetukset-raportille tulostuu asiakkaan nimi (toimii linkkinä)](https://tiketti.koha-suomi.fi/issues/2632)<br />
 [2381 - Palautuskehotukset yhdelle viestille valituista kirjastosta ](https://tiketti.koha-suomi.fi/issues/2381)<br />
