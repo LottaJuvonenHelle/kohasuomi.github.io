@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 
 * [Varaustunnisteen generointi](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan? Yhtenäinen linja olisi hienoa, jotta ei tarvitse ylläpitää useampia JS-rimpsuja.
+* [Tietopyyntö](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)-ohjeistus lisätty.
 
 ## Viikko 46 muistio
 
