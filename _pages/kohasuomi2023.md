@@ -22,6 +22,7 @@ Läsnä: Pasi, Anneli
 * [Koha #868](https://github.com/KohaSuomi/Koha/issues/868) - tarvitaanko lisätoimia?
 * Päivystykset viikosta 48 eteenpäin
 * Viikon 47 päivitys
+  * Ei päivitettävää.
 
 
 ## Viikon 46 muistio
