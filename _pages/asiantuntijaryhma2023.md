@@ -88,6 +88,8 @@ Siirretään seuraavaan kokoukseen:
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
 
+Päätökset kirjattiin tiketteihin.
+
 ### 6. Seuraava kokous
 
 Seuraava kokous on sovittu pidettäväksi ma 11.12. klo 13.
