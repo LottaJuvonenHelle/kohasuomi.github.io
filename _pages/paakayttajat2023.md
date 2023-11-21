@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 
@@ -29,6 +29,10 @@ Pohjoisesta etelään
 * ei erityistä mainittavaa, normaalia ylläpitoa
 * Finnassa piilotettu Peru kaikki varaukset-painike
 
+**Lappi**
+* Normaalia ylläpitoa
+
+  
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
