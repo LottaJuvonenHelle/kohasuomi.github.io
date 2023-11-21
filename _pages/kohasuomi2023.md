@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 48 muistio
+
+### Maanantai 27.11.2023 klo 9
+
+Läsnä:
+
+* 005-kentän päivittyminen 
+
 ## Viikon 47 muistio
 
 ### Maanantai 20.11.2023 klo 9
@@ -20,6 +28,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä: Pasi, Anneli, Emmi, Ari
 
 * [Koha #868](https://github.com/KohaSuomi/Koha/issues/868) - tarvitaanko lisätoimia?
+  * Hyllyvarausraportin koodissa on tarkistus, että signum on olemassa. Testataan versionvaihdon yhteydessä, mitä tapahtuu, jos tarkistuksen poistaa koodista.
+  * Siihen saakka kannattaa korjailla esim. käsin raporttien avulla niteet, joilta puuttuu signum (ei kannata tilattu-tilaisia). 
 * Päivystykset viikosta 48 eteenpäin
 * Viikon 47 päivitys
   * Ei päivitettävää.
