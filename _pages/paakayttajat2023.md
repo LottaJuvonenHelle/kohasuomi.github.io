@@ -39,7 +39,7 @@ Pohjoisesta etelään
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Anneli Österman ja Johanna Räisä (Koha-Suomi)
+Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Anneli Österman ja Johanna Räisä (Koha-Suomi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
