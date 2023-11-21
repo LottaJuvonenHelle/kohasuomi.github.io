@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 
@@ -34,6 +34,11 @@ Pohjoisesta etelään
 
 **Helle**
 * Tarkkaan hakuun toivottu lisää valmiiksi valittavia hakuehtoja (sarjan sisäinen numerointi 490v, nimekkeen numerointitieto 245n)
+
+**OUTI**
+* Vielä kesken Muu nimi -kentän näkyviin saaminen verkkokirjastoon asiakkaan Omat tiedot -sivulle asiakkaan kutsumanimeä varten. Koska Muu nimi -kentässä käytettiin aiemmin varaustunnusta, Larin on tehnyt Finnan testiympäristössä olevaan Finna-pluginiin tarvittavia muutoksia holdid- ja other name -kenttien osalta. Vaatii muutosta vielä myös Finnan päähän.
+* OUTIssa piilotettu myös Finnasta ”Peru kaikki varaukset” -toiminto.
+* Vaalan kirjaston Ceepos-palvelin vaihtuu ke 22.11. Tiketti: #860
 
   
 ## Viikko 46 muistio
