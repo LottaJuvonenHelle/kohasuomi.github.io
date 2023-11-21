@@ -18,6 +18,7 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 **Yhteiset**
 
 * [Varaustunnisteen generointi](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan? Yhtenäinen linja olisi hienoa, jotta ei tarvitse ylläpitää useampia JS-rimpsuja.
+  * Pääkäyttäjät testaavat kumpaakin versiota testeillä ja tehdään lopullinen päätös parin viikon päästä.
 * [Tietopyyntö](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)-ohjeistus lisätty.
 * Automaattinen nidetyypin valinta / Emmi
 
