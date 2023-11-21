@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 
@@ -24,7 +24,7 @@ Läsnä:
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
-Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti)
+Läsnä: Anni Rajala (Vaski), Reetta Pihlaja (Siilinjärvi), Hanna Ikonen (Lumme), Päivi Knuutinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 46 päivitys](https://github.com/KohaSuomi/Koha/discussions/914)
