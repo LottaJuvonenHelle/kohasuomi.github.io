@@ -19,7 +19,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 
 Läsnä:
 
-* 005-kentän päivittyminen 
+* [005-kentän päivittyminen lainattaessa #924](https://github.com/KohaSuomi/Koha/issues/924)  
 
 ## Viikon 47 muistio
 
