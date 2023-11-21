@@ -446,7 +446,7 @@ Versio: 22.11<br />
 Tarpeellisuus: Suositeltava
 
 ```
-/* Piilota uusinta-nappi lainaus- ja palautus -näkymässä /
+/* Piilota uusinta-nappi lainaus- ja palautus -näkymässä */
 body#circ_circulation-home a[href="/cgi-bin/koha/circ/renew.pl"] {
 display: none;
 }
