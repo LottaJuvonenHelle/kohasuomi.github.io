@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 
@@ -21,6 +21,10 @@ Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
   * Pääkäyttäjät testaavat kumpaakin versiota testeillä ja tehdään lopullinen päätös parin viikon päästä.
 * [Tietopyyntö](https://github.com/KohaSuomi/Koha/wiki/Tietopyynt%C3%B6)-ohjeistus lisätty.
 * Automaattinen nidetyypin valinta / Emmi
+
+**Vaara**
+* ei erityistä mainittavaa, normaalia ylläpitoa
+* Finnassa piilotettu Peru kaikki varaukset-painike
 
 ## Viikko 46 muistio
 
