@@ -72,6 +72,7 @@ Redminessä vielä käsittelemättä seuraavat tiketit. Käydään läpi, mitä 
 [3329 - Salli laina-ajan lyhentäminen x päivään niteille, joilla on enemmän kuin x varauksia.](https://tiketti.koha-suomi.fi/issues/3329)<br />
 
 Siirretään seuraavaan kokoukseen:
+
 [3104 - Kotipalvelutoimintojen kehittäminen Kohassa](https://tiketti.koha-suomi.fi/issues/3104)<br />
 [2632 - Vastaanotettavat kuljetukset-raportille tulostuu asiakkaan nimi (toimii linkkinä)](https://tiketti.koha-suomi.fi/issues/2632)<br />
 [2381 - Palautuskehotukset yhdelle viestille valituista kirjastosta ](https://tiketti.koha-suomi.fi/issues/2381)<br />
