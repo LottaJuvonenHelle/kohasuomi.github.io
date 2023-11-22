@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Elina Uotila (Kirkes, hetken alusta), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Elina Uotila (Kirkes, hetken alusta), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 
@@ -42,7 +42,11 @@ Pohjoisesta etelään
 
 **Lumme**
 * Normaalia ylläpitoa.
-  
+
+**Kyyti**
+* Valkealan lähikirjasto suljettu muuton vuoksi loppuvuoden. Viime viikolla tehtiin siihen liittyvät nidetilojen muutokset.
+* Nostin esille vanhan Redmine-tiketin 1849 ja että miten edetään 005-kentän päivittymisen kanssa. Siirsin palaverin jälkeen tiketin Githubiin [#924](https://github.com/KohaSuomi/Koha/issues/924).
+
 ## Viikko 46 muistio
 
 Aika: 14.11.2023 klo 9.15 <br />
