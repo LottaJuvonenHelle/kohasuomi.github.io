@@ -25,7 +25,7 @@ Läsnä:
 
 ### Maanantai 20.11.2023 klo 9
 
-Läsnä: Pasi, Anneli, Emmi, Ari
+Läsnä: Pasi, Anneli, Emmi, Ari, Lasse
 
 * [Koha #868](https://github.com/KohaSuomi/Koha/issues/868) - tarvitaanko lisätoimia?
   * Hyllyvarausraportin koodissa on tarkistus, että signum on olemassa. Testataan versionvaihdon yhteydessä, mitä tapahtuu, jos tarkistuksen poistaa koodista.
