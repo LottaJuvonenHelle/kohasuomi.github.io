@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Elina Uotila (Kirkes, hetken alusta)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren, Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Elina Uotila (Kirkes, hetken alusta), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 
@@ -40,6 +40,8 @@ Pohjoisesta etelään
 * OUTIssa piilotettu myös Finnasta ”Peru kaikki varaukset” -toiminto.
 * Vaalan kirjaston Ceepos-palvelin vaihtuu ke 22.11. Tiketti: #860
 
+**Lumme**
+* Normaalia ylläpitoa.
   
 ## Viikko 46 muistio
 
