@@ -11,6 +11,25 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 9/2023
+
+24.11.2023
+
+Hallituksen kokouksessa käytiin vilkasta keskustelua ensi vuoden taloudesta ja toiminnasta ja evästettiin toimitusjohtajaa valmistelemaan ensi vuoden budjettia sekä toimintasuunnitelmaa. Näihin palataan hallituksen seminaarissa joulukuussa ja sen jälkeen vielä kokoustetaan ja hyväksytään talousarvio, toimintasuunnitelma ja toimitusjohtajan tavoitteet. Toimitusjohtajan tavoitteita sitten seurataan jokaisessa hallituksen kokouksessa ja ne tulevat myös teille kaikille luettavaksi näiden tiedotteiden liitteinä.
+
+Keskustelimme myös Koha-Suomen palveluista kirjastoille ja totesimme, että keskitetyllä konesalipalvelulla saimme aikaiseksi säästöjä niin kunnille kuin yhtiölle. Yhtiön palvelumaksuun sisältyy myös erilaisten raporttien ja rajapintojen tekeminen. Esimerkiksi nyt käyttöön tulevan Cineast-elokuvapalvelun rajapintatyöstä ei tullut kirjastoille erillistä laskua.
+
+Muistattehan, että työryhmien muistio löytyvät nykyisin osoitteesta: Muistiot - Koha-Suomi Oy
+
+Ensi viikolla näemmekin Koha-Suomen omassa seminaarissa.
+
+Leppoisaa viikonloppua!
+
+t. Rebekka, hallituksen pj.
+
+Toimitusjohtajan raportti: [Toimitusjohtajanraportti9_23.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13457925/Toimitusjohtajanraportti9_23.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 8/2023
 
 20.10.2023
