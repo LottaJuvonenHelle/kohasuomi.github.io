@@ -19,7 +19,7 @@ Hallituksen kokouksessa käytiin vilkasta keskustelua ensi vuoden taloudesta ja 
 
 Keskustelimme myös Koha-Suomen palveluista kirjastoille ja totesimme, että keskitetyllä konesalipalvelulla saimme aikaiseksi säästöjä niin kunnille kuin yhtiölle. Yhtiön palvelumaksuun sisältyy myös erilaisten raporttien ja rajapintojen tekeminen. Esimerkiksi nyt käyttöön tulevan Cineast-elokuvapalvelun rajapintatyöstä ei tullut kirjastoille erillistä laskua.
 
-Muistattehan, että työryhmien muistio löytyvät nykyisin osoitteesta: Muistiot - Koha-Suomi Oy
+Muistattehan, että työryhmien muistio löytyvät nykyisin osoitteesta: [Muistiot - Koha-Suomi Oy](https://koha-suomi.fi/muistiot)
 
 Ensi viikolla näemmekin Koha-Suomen omassa seminaarissa.
 
