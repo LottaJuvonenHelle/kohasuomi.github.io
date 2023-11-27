@@ -11,7 +11,7 @@ layout: single
 hidden: true
 ---
 
-Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina ylimmäisenä.
+Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
 ## Viikon 48 muistio
 
@@ -20,6 +20,8 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa. Uusin muistio on aina
 Läsnä:
 
 * [005-kentän päivittyminen lainattaessa #924](https://github.com/KohaSuomi/Koha/issues/924)  
+* Ei päivitystä Koha-seminaarin vuoksi
+
 
 ## Viikon 47 muistio
 
