@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ### Maanantai 27.11.2023 klo 9
 
-Läsnä: Emmi
+Läsnä: Emmi, Anneli
 
 * [005-kentän päivittyminen lainattaessa #924](https://github.com/KohaSuomi/Koha/issues/924)
   * Keskustellaan asiasta vielä seuraavassa pääkäyttäjäpalaverissa.   
