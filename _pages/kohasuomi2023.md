@@ -15,7 +15,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikon 49 muistio
 
-### Maanantai 27.11.2023 klo 9
+### Maanantai 4.12.2023 klo 9
 
 Läsnä:
 
