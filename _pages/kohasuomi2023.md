@@ -17,7 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ### Maanantai 27.11.2023 klo 9
 
-Läsnä: Emmi, Anneli
+Läsnä: Emmi, Anneli, Lari, Kassu
 
 * [005-kentän päivittyminen lainattaessa #924](https://github.com/KohaSuomi/Koha/issues/924)
   * Keskustellaan asiasta vielä seuraavassa pääkäyttäjäpalaverissa.   
@@ -28,7 +28,7 @@ Läsnä: Emmi, Anneli
 
 ### Maanantai 20.11.2023 klo 9
 
-Läsnä: Pasi, Anneli, Emmi, Ari, Lasse
+Läsnä: Pasi, Anneli, Emmi, Ari, Lasse, Lari, Kassu
 
 * [Koha #868](https://github.com/KohaSuomi/Koha/issues/868) - tarvitaanko lisätoimia?
   * Hyllyvarausraportin koodissa on tarkistus, että signum on olemassa. Testataan versionvaihdon yhteydessä, mitä tapahtuu, jos tarkistuksen poistaa koodista.
@@ -42,7 +42,7 @@ Läsnä: Pasi, Anneli, Emmi, Ari, Lasse
 
 ### Maanantai 13.11.2023 klo 9
 
-Läsnä: Anneli, Lasse, Johanna, Pasi. Ari
+Läsnä: Anneli, Lasse, Johanna, Pasi. Ari, Lari, Kassu
 
 * https://github.com/KohaSuomi/Koha/issues/906 Virkailijatilin voimassaoloajan pidentämisen rajoitus
 * Onko ajatusta milloin viestien lähetys muutetaan tapahtumaan 5 minuutin välein (https://koha-suomi.fi/kohasuomi2023#torstai-5102023-klo-10)
@@ -55,7 +55,7 @@ Läsnä: Anneli, Lasse, Johanna, Pasi. Ari
 
 ### Maanantai 6.11.2023 klo 9
 
-Läsnä: Emmi, Lasse, Kodo, Ari, Kassu, Johanna
+Läsnä: Emmi, Lasse, Kodo, Ari, Kassu, Johanna, Lari
 
 * Redminessä Teknisessä dokumentaatiossa olevien dokumentaatioiden siirron vastuutuspalaverista sopiminen
   * Siirretään tämän käsittely ensi maanantaihin
@@ -72,7 +72,7 @@ Läsnä: Emmi, Lasse, Kodo, Ari, Kassu, Johanna
 
 ### Maanantai 30.10.2023 klo 9
 
-Läsnä: Anneli, Lasse, Pasi, Emmi, Kodo, Johanna
+Läsnä: Anneli, Lasse, Pasi, Emmi, Kodo, Johanna, Lari
 
 * Vaskin tuotantoon raportteri-plugin
   * tiistain päivityksessä
