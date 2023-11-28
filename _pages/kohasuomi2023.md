@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 49 muistio
+
+### Maanantai 27.11.2023 klo 9
+
+Läsnä:
+
+* https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=18821 lastseen-arvon päivittymisen korvaaminen
+  * Voidaanko käyttää borrowers/statuksessa ja Finna-plugarissa kuten https://bugs.koha-community.org/bugzilla3/attachment.cgi?id=157605
+
+
 ## Viikon 48 muistio
 
 ### Maanantai 27.11.2023 klo 9
