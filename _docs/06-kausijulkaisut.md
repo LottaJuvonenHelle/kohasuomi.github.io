@@ -341,8 +341,7 @@ pääsee uusimaan tilauksen. Voit myös valita useamman tilauksen ja uusia ne ke
 
 ## 6.9. Tilausten uusiminen
 
-Jos lehtitilauksesi on loppunut, et voi vastaanottaa lehtinumeroita.
-Tilauksen voi uusia klikkaamalla _Uusinta_. (Huom! Osassa kimpoista voi olla tapana tehdä lehdille vuosikohtaisia nimeketietueita (esim. Anna 2022, Anna 2023 jne). Tällaisessa tapauksessa tilausta ei voi uusia vaan seuraavan vuoden lehtinimekkeelle on tehtävä kokonaan uusi lehtitilaus.)
+Jos lehtitilauksesi on loppunut, et voi vastaanottaa lehtinumeroita. Tilauksen voi uusia klikkaamalla _Uusinta_. (Huom! Osassa kimpoista voi olla tapana tehdä lehdille vuosikohtaisia nimeketietueita (esim. Anna 2022, Anna 2023 jne). Tällaisessa tapauksessa tilausta ei voi uusia vaan seuraavan vuoden lehtinimekkeelle on tehtävä kokonaan uusi lehtitilaus.)
 
 ![](/assets/files/docs/Kausijulkaisut/kausijul39.png)
 
@@ -357,6 +356,8 @@ Kun olet klikannut _Uusinta_-nappia, pääset uusintanäytölle:
 Lehtitilauksia voi uusia myös massana lehtitilauksen päättymisajan tarkistamisen kautta (ks. luku 4.8).
 
 Riippuen kimppasi asetuksista (järjestelmäasetus RenewSerialAddsSuggestion) lehtitilauksen uusiminen voi myös muodostaa automaattisesti hankintaehdotuksen.
+
+Huomaathan, että kun tilaus on uusittu, täytyy kaikkien edellisvuoden numeroiden olla Saapunut-/Puuttuu-/Poistettu (tms.) -tilassa ennen kuin seuraavan vuoden ensimmäinen numero ilmestyy vastaanotettavaksi.
 
 ## 6.10. Lehtitilausten hakeminen
 
