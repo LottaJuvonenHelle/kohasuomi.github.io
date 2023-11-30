@@ -28,7 +28,7 @@ Läsnä:
 
 ### Maanantai 27.11.2023 klo 9
 
-Läsnä: Emmi, Anneli, Lari, Kassu
+Läsnä: Emmi, Anneli, Lari, Kassu, Pasi
 
 * [005-kentän päivittyminen lainattaessa #924](https://github.com/KohaSuomi/Koha/issues/924)
   * Keskustellaan asiasta vielä seuraavassa pääkäyttäjäpalaverissa.   
