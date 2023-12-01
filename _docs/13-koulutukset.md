@@ -13,11 +13,20 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 ## Kaikille kohdistetut koulutukset
 
+### Koha-seminaari 28.11.2023
+
+Koha-seminaari pidettiin 28.11.2023 Keravan kirjastolla.
+
+Kohti linkitettyä kirjastodataa / Kaisa Hypén (Turun kaupunginkirjasto): [Kohti linkitettyä kirjastodataa.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13526218/Kohti.linkitettya.kirjastodataa.pdf)
+
+Tarkempaa tasapainotusta / Aki Pyykkö (Turun kaupunginkirjasto): [Tarkempaa tasapainotusta.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13526239/Tarkempaa.tasapainotusta.pdf)
+
+Lisätty: 1.12.2023
+
 ### Koha-klinikka 29.3.2023
 
 Koha-klinikassa 29.3.2023 esiteltiin uuden 22.11 version uusia ominaisuuksia.
-[
-Koha-klinikan tallenne](https://youtu.be/o_Mp_3IQ4Rc)
+[Koha-klinikan tallenne](https://youtu.be/o_Mp_3IQ4Rc)
 
 [Koha-klinikan diasarja](https://github.com/KohaSuomi/kohasuomi.github.io/blob/master/assets/files/docs/Koulutukset/Uutta.versiossa.22.11.pdf)
 
