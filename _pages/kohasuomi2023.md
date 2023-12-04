@@ -42,7 +42,7 @@ Läsnä: Anneli, Pasi, Ari, Lari, Lasse, Emmi, Kodo, Kassu, Johanna
   * Kassu: othernames-kentän piilotus yhteisöasiakkaille, sql-raportit
   * Pasi: redusointi-skirptin säätöä
   * Emmi: yhteisöjuttuja, huolissaan Järvenpään laskutuksesta, koska ei saada yhteyttä palvelimeen
-  * Johanna: YSO-konversion ajoa testi-Tätillä, mutta virheitä. Meni 3,5 h.
+  * Johanna: YSO-konversion ajoa testi-Tätillä, mutta virheitä. RDA-konversiossa meni n. 3,5 h, tiedostot pitää vielä ajaa takaisin testille.
   * Lasse: Nidevarauksen peruutus-nappi ehkä korjattu, pitää vielä testata ennen testeille vientiä
   * Lari: action_logs-ajoissa meni ½-1 tuntia. Ajo klo 22 jälkeen. Edelleen vuositaulut.
     * Idea: Luodaan "view", johon otetaan mukaan kaikki action_logs-taulut
