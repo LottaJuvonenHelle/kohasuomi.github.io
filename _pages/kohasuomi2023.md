@@ -24,11 +24,10 @@ Läsnä: Anneli, Pasi, Ari, Lari, Lasse, Emmi, Kodo, Kassu, Johanna
 * toimiiko muistiokäytännöt? Aika lyhkäsiä muistioita ja nimiä puuttuu. /Anneli
   * ei toimi
   * muutetaan niin, että päivystäjät kirjaa muistioon tiedot. Tarvittaessa asianomainen kirjaa/täydentää merkinnät.
-* julkaisijatieto 264a-kentästä johonkin tauluun? / Kodo
+* julkaisijatieto 260a/264a-kentästä johonkin tauluun? / Kodo
   * nostetaan tieto biblio_data_elements-tauluun
-  * Kodo tekee tiketin
-  * RDA-konversiossa katoaa 260a-kentät, joten sitä ei tarvita mukaan. Lisäksi Vaskissa on tehty jo RDA-konversio.
-    * kenttä pitää muistaa päivittää RDA-konvesion jälkeen muissa kimpoissa.
+  * Kodo tekee tiketin Emmille
+  * Kokouksen jälkeen tullut tieto, että 260-kentät eivät tule katoamaan RDA-konversiossa, joten niiden sisältö pitää myös viedä bde-tauluun.
 * Vkon 49 päivitys
   * Yksi muutos, Kodo tekee päivityksen.
 * testien teon vastuutus
