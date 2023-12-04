@@ -23,6 +23,8 @@ Läsnä:
   * Voidaanko käyttää borrowers/statuksessa ja Finna-plugarissa kuten https://bugs.koha-community.org/bugzilla3/attachment.cgi?id=157605
 * toimiiko muistiokäytännöt? Aika lyhkäsiä muistioita ja nimiä puuttuu. /Anneli
 * julkaisijatieto 260/264-kentästä johonkin tauluun? /Kodo
+* Vkon 49 päivitys
+* testien teon vastuutus
 
 ## Viikon 48 muistio
 
