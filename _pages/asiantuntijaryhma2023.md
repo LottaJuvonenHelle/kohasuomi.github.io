@@ -23,7 +23,7 @@ Läsnä:
 ### 1. Arin ajankohtaiset
 
 
-### . Kehitysehdotusten läpikäyntiä
+### 2. Kehitysehdotusten läpikäyntiä
 
 [3104 - Kotipalvelutoimintojen kehittäminen Kohassa](https://tiketti.koha-suomi.fi/issues/3104)<br />
 [2632 - Vastaanotettavat kuljetukset-raportille tulostuu asiakkaan nimi (toimii linkkinä)](https://tiketti.koha-suomi.fi/issues/2632)<br />
@@ -36,13 +36,15 @@ Läsnä:
 [442 - Varatun teoksen aineistolaji näkyviin asiakkaan varauksiin](https://tiketti.koha-suomi.fi/issues/442)<br />
 [235 - Asiakkaalle mahdollisuus kuitata Saapuneet viestit verkkokirjastossa](https://tiketti.koha-suomi.fi/issues/235)
 
-### . Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+### 3. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
 
 Päätökset kirjataan tiketteihin.
 
-### . Seuraava kokous
+### 4. Muut asiat
+
+### 5. Seuraava kokous
 
 Seuraava kokous on sovittu pidettävän 15.1.2024 klo 13.
 
