@@ -25,6 +25,7 @@ Läsnä:
 * julkaisijatieto 260/264-kentästä johonkin tauluun? /Kodo
 * Vkon 49 päivitys
 * testien teon vastuutus
+* [Versio 23.11 julkaistu](https://koha-community.org/koha-23-11-released/)
 
 ## Viikon 48 muistio
 
