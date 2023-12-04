@@ -15,6 +15,37 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 10/23
+
+Aika: Ma 11.12.2023 klo 13<br />
+Läsnä:
+
+### 1. Arin ajankohtaiset
+
+
+### . Kehitysehdotusten läpikäyntiä
+
+[3104 - Kotipalvelutoimintojen kehittäminen Kohassa](https://tiketti.koha-suomi.fi/issues/3104)<br />
+[2632 - Vastaanotettavat kuljetukset-raportille tulostuu asiakkaan nimi (toimii linkkinä)](https://tiketti.koha-suomi.fi/issues/2632)<br />
+[2381 - Palautuskehotukset yhdelle viestille valituista kirjastosta ](https://tiketti.koha-suomi.fi/issues/2381)<br />
+[1517 - Kehitysehdotus kalenteriin](https://tiketti.koha-suomi.fi/issues/1517)<br />
+[1176 - Varaukset: varauksen noutopiste pitäisi voida vahtaa myös sen jälkeen, kun varaus on tarttunut kiinni](https://tiketti.koha-suomi.fi/issues/1176)<br />
+[1011 - Palautuskehotuksen lähetystapa asiakaskohtaiseksi valinnaksi](https://tiketti.koha-suomi.fi/issues/1011)<br />
+[949 - Niteen kuljetustila ja kellutus](https://tiketti.koha-suomi.fi/issues/949)<br />
+[594 - Ikärajat suoraan hakutuloksiin elokuvissa ja konsolipeleissä](https://tiketti.koha-suomi.fi/issues/594)<br />
+[442 - Varatun teoksen aineistolaji näkyviin asiakkaan varauksiin](https://tiketti.koha-suomi.fi/issues/442)<br />
+[235 - Asiakkaalle mahdollisuus kuitata Saapuneet viestit verkkokirjastossa](https://tiketti.koha-suomi.fi/issues/235)
+
+### . Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
+
+[Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
+
+Päätökset kirjataan tiketteihin.
+
+### . Seuraava kokous
+
+Seuraava kokous on sovittu pidettävän 15.1.2024 klo 13.
+
 ## Asiantuntijaryhmän muistio 9/23
 
 Aika: Ma 20.11.2023 klo 13<br />
