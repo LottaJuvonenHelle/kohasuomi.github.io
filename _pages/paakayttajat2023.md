@@ -10,6 +10,20 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+# Viikko 49
+
+Aika: 21.11.2023 klo 9.15 <br />
+Läsnä: 
+
+**Yhteiset**
+
+* [Testikantojen uusiminen ja redusointi](https://github.com/KohaSuomi/Koha/discussions/948)
+* action_logs-taulujen ajot
+* Viikon 49 päivitys
+* [Versio 23.11 julkaistu](https://koha-community.org/koha-23-11-released/)
+
+Etelästä pohjoiseen
+
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
