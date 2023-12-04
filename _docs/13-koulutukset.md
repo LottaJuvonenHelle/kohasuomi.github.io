@@ -23,6 +23,10 @@ Tarkempaa tasapainotusta / Aki Pyykkö (Turun kaupunginkirjasto): [Tarkempaa tas
 
 Lisätty: 1.12.2023
 
+Työpajojen kooste: [Koha-seminaari28112023tyopajat.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13546425/Koha-seminaari28112023tyopajat.pdf)
+
+Lisätty 4.12.2023
+
 ### Koha-klinikka 29.3.2023
 
 Koha-klinikassa 29.3.2023 esiteltiin uuden 22.11 version uusia ominaisuuksia.
