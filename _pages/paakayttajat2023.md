@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 # Viikko 49
 
-Aika: 21.11.2023 klo 9.15 <br />
+Aika: 5.12.2023 klo 9.15 <br />
 Läsnä: 
 
 **Yhteiset**
