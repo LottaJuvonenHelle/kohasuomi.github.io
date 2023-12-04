@@ -34,7 +34,7 @@ Vaski: Anna Viitanen (Turku)<br />
 OUTI: Antti Heikkinen (Oulu)<br />
 Helle: Markku Untinen (Porvoo) <br />
 Lappi: Mauri Aittaniemi (Rovaniemi)<br />
-Kirkes: selvittelyn alla<br />
+Kirkes: Timo Väisänen (Mäntsälä) (tieto kokouksen jälkeen)<br />
 Kyyti: Ville Kivioja (Kouvola)<br />
 Koha-Suomi: Johanna Räisä ja Anneli Österman (kokoonkutsuja)
 
