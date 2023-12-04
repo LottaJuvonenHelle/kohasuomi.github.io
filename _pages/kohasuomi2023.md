@@ -17,15 +17,36 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ### Maanantai 4.12.2023 klo 9
 
-Läsnä:
+Läsnä: Anneli, Pasi, Ari, Lari, Lasse, Emmi, Kodo, Kassu, Johanna
 
 * https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=18821 lastseen-arvon päivittymisen korvaaminen
   * Voidaanko käyttää borrowers/statuksessa ja Finna-plugarissa kuten https://bugs.koha-community.org/bugzilla3/attachment.cgi?id=157605
 * toimiiko muistiokäytännöt? Aika lyhkäsiä muistioita ja nimiä puuttuu. /Anneli
-* julkaisijatieto 260/264-kentästä johonkin tauluun? /Kodo
+  * ei toimi
+  * muutetaan niin, että päivystäjät kirjaa muistioon tiedot. Tarvittaessa asianomainen kirjaa/täydentää merkinnät.
+* julkaisijatieto 264a-kentästä johonkin tauluun? / Kodo
+  * nostetaan tieto biblio_data_elements-tauluun
+  * Kodo tekee tiketin
+  * RDA-konversiossa katoaa 260a-kentät, joten sitä ei tarvita mukaan. Lisäksi Vaskissa on tehty jo RDA-konversio.
+    * kenttä pitää muistaa päivittää RDA-konvesion jälkeen muissa kimpoissa.
 * Vkon 49 päivitys
+  * Yksi muutos, Kodo tekee päivityksen.
 * testien teon vastuutus
+  * Pasi tekee 12.12., muut auttaa tarvittaessa.
+  * Ei voi tehdä päivällä, koska saattaa aiheuttaa hidastelua tuotantoihin.
 * [Versio 23.11 julkaistu](https://koha-community.org/koha-23-11-released/)
+  * Ei vielä branchia yhteisöllä eli joudutaan odottamaan vielä hetki.
+  * käännöksissä yhteisöllä vielä ongelmia.
+* Scrum:
+  * Kodo: varmuuskopiot, Lastu-väelle ohjeistusta kirjastoyksiköiden/hyllypaikkojen/yms. parametroinnista
+  * Kassu: othernames-kentän piilotus yhteisöasiakkaille, sql-raportit
+  * Pasi: redusointi-skirptin säätöä
+  * Emmi: yhteisöjuttuja, huolissaan Järvenpään laskutuksesta, koska ei saada yhteyttä palvelimeen
+  * Johanna: YSO-konversion ajoa testi-Tätillä, mutta virheitä. Meni 3,5 h.
+  * Lasse: Nidevarauksen peruutus-nappi ehkä korjattu, pitää vielä testata ennen testeille vientiä
+  * Lari: action_logs-ajoissa meni ½-1 tuntia. Ajo klo 22 jälkeen. Edelleen vuositaulut.
+    * Idea: Luodaan "view", johon otetaan mukaan kaikki action_logs-taulut
+  * Anneli: 23.11-version käännökset melkein valmiit, vain tietyt termit kääntämättä, koska niistä ei ole päätöstä. Seuraavaksi releasenoten läpikäyntiä ja tietojen poimimista versionvaihdon wikiin.
 
 ## Viikon 48 muistio
 
