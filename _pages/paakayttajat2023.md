@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 # Viikko 49
 
 Aika: 5.12.2023 klo 9.15 <br />
-Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Vaara), Kati Sillgren
+Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Vaara), Kati Sillgren, Hanna Ikonen (Lumme)
 
 **Yhteiset**
 
@@ -42,6 +42,10 @@ Etelästä pohjoiseen
 **Helle**
 * Toivottu mahdollisuutta tehdä kerralla nidevaraus useammalle kuin yhdelle niteelle. Ehdotus ei saanut palaverissa kannatusta. Lari vinkkasi yhteisön tiketin https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15565
 
+**Lumme**
+* Normaalia ylläpitoa.
+* Lumme-kirjastoihin on nyt hyväksytty yhteiset kimppakohtaiset käyttösäännöt.
+* Asiakastiedot on hyväksytty vanhenemaan viidessä vuodessa, jos asiakas ei käytä kirjaston palveluja. Vanhentuneiden asiakastietojen poistoajoa yritetään tehdä vielä tämän vuoden puolella.
 
 
 ## Viikko 47 muistio
