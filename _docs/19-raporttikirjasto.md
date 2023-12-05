@@ -15,7 +15,7 @@ Tänne voi tallentaa valmiita SQL-raportteja. Laita raportti olemassa olevien ot
 
 [Täältä löydät lyhkäsen oppimäärän](/dokumentaatio/sqlkoulu/), miten Kohassa tehdään SQL-raportteja.
 
-# Miten saa raportille salasanan kyselyn
+## Miten saa raportille salasanan kyselyn
 
 Raportille voi laittaa myös salasanakyselyn esim. näin:
 
