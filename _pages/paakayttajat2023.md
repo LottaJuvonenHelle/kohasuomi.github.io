@@ -29,16 +29,15 @@ Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Va
 Etelästä pohjoiseen
 
 **OUTI**
-* Tarrojen tulostuksesta tehty meille kehitysehdotus: kun niteitä lisää tarrojentulostusliitännäiseen, niin niteet eivät asetu samaan järjestykseen kuin ne on sinne laitettu, joten tarvii olla tarkkana tarroittaessa. Kun niteet vedetään yksitellen jonoon, niin olisi hyvä, jos niteet tulostuisivat myös siinä järjestyksessä tarra-arkille tai tarra-rullalle. Tehdään kehitysehdotus-tiketti.
+* Tarrojen tulostuksesta tehty meille kehitysehdotus: kun niteet vedetään/viedään tarratulostusjonoon, niin olisi hyvä, jos niteet tulostuisivat myös siinä järjestyksessä tarra-arkille tai tarra-rullalle. -> kehitysehdotus-tiketti
  
-* Oulun elokuvakeskuksen ja sarjakuvakeskuksen kirjastojen ja Oulun kaupunginkirjaston välinen logistiikka loppuu, joten eilen muutin niiden kokoelmat "Saatavana, ei lainattavissa"-tilaan ja käsittelin niiden kokoelmiin kohdistuvat voimassa olevat varaukset.
+* Oulun elokuvakeskuksen ja sarjakuvakeskuksen kirjastojen ja Oulun kaupunginkirjaston välinen logistiikka loppuu, joten eilen muutin niiden niteitä "Saatavana, ei lainattavissa"-tilaan ja käsittelin niiden kokoelmiin kohdistuvat voimassa olevat varaukset.
  
-* OUTIlle tehty ajo, jossa asiakkaille (runsas 5000) lisättiin viestikenttään huomautus Tarkista onko asiakkaan matkapuhelin- ja tekstiviesti numeroon -kentissä samat numerot. Korjaa tarvittaessa. Tämä liittyy tikettiin: https://github.com/KohaSuomi/Koha/issues/835#issuecomment-1827861250. Näillä asiakkailla on eri numerot matkapuhelinnumero ja SMS-kentissä.
+* OUTIssa on tehty ajo, jossa asiakkaille (runsas 5000 asiakasta) lisättiin viestikenttään huomautus "Tarkista onko asiakkaan matkapuhelin- ja tekstiviesti numeroon -kentissä samat numerot. Korjaa tarvittaessa." Näillä asiakkailla on eri numerot matkapuhelinnumero ja SMS-kentissä. Ajo liittyy tikettiin: https://github.com/KohaSuomi/Koha/issues/835#issuecomment-1827861250.
+  
+* Asiakkaalta puuttui varaustunniste. Myös testillä varaustunniste puuttui. Ei ole tullut  muualla vastaan. OUTIssa ei onneksi ollut enempää vastaavia tapauksia.
  
-* Asiakkaalta puuttui varaustunniste. Testillä varaustunniste jo puuttui. Onko muilla tullut tämmöistä vastaan aiemmin?
- 
-* Kodo teki eilen OUTIin API-tunnukset Raportterin käyttöä varten. Tässä Larin ohje ja teknisempi dokumentaatio: https://github.com/KohaSuomi/koha-plugin-report-services/wiki
-https://github.com/KohaSuomi/koha-plugin-report-services/blob/master/README.md. Toimitan tunnuksen Larille.
+* Kodo teki eilen pyynnöstä OUTIin API-tunnukset Raportterin käyttöä varten. Toimitan tunnuksen Larille.Tässä Larin ohje ja teknisempi dokumentaatio: https://github.com/KohaSuomi/koha-plugin-report-services/wiki ja https://github.com/KohaSuomi/koha-plugin-report-services/blob/master/README.md. 
 
 **Vaara**
 * ei erityisempää, normaalia ylläpitoa
