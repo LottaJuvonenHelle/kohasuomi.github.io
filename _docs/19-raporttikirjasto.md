@@ -15,6 +15,25 @@ Tänne voi tallentaa valmiita SQL-raportteja. Laita raportti olemassa olevien ot
 
 [Täältä löydät lyhkäsen oppimäärän](/dokumentaatio/sqlkoulu/), miten Kohassa tehdään SQL-raportteja.
 
+# Miten saa raportille salasanan kyselyn
+
+Raportille voi laittaa myös salasanakyselyn esim. näin:
+
+```and md5(<<Kirjoita salasana>>) = '043fd4dd68d7348a052b021cd3bc6cfa'```
+
+* =-merkin jälkeinen merkkijono on valitun salasanan hashattu versio.
+* hashin valittuun salasanaan voi pyytää joko kehittäjiltä Matrixissa tai jos on pääsy unix-ympäristöön seuraavalla komennolla: ```echo -n "Sammakko" | md5sum```
+  * esimerkin salasanaksi on siis valittu sana Sammakko, joka on hipsujen sisällä. 
+
+Esimerkki kokonaisesta kyselystä, jossa on salasana:
+
+```
+SELECT firstname,surname,address,zipcode,city
+FROM borrowers
+WHERE branchcode = <<Valitse asiakkaan kotikirjasto|branches>>
+AND md5(<<Kirjoita salasana>>) = '043fd4dd68d7348a052b021cd3bc6cfa'
+```
+
 ## PowerBI
 
 PowerBI-ohjelmaa voi hyödyntää tilastojen visualisointiin. Tuomas Kunttu Kouvolasta on kerännyt SQL-kyselyitä ja DAX-lausekkeita [PowerBI-sivulle](/dokumentaatio/powerbi/).
