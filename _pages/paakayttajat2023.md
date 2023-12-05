@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 # Viikko 49
 
 Aika: 5.12.2023 klo 9.15 <br />
-Läsnä: Anneli ja Lari (Koha-Suomi)
+Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI)
 
 **Yhteiset**
 
