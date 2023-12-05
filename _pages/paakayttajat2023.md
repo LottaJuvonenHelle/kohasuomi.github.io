@@ -13,14 +13,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 # Viikko 49
 
 Aika: 5.12.2023 klo 9.15 <br />
-Läsnä: 
+Läsnä: Anneli ja Lari (Koha-Suomi)
 
 **Yhteiset**
 
 * [Testikantojen uusiminen ja redusointi](https://github.com/KohaSuomi/Koha/discussions/948)
 * action_logs-taulujen ajot
   * kaikissa kimpoissa aloitettu nyt kuukausittainen vienti vuositauluihin.
-  * yhteen arkistotauluun vienti vielä uuden pohdinnan alla.
+  * yhteen arkistotauluun vienti vielä uuden pohdinnan alla. Testataan viewn/näkymän toimivuutta.
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/950)
 * [Versio 23.11 julkaistu](https://koha-community.org/koha-23-11-released/)
 * [Koha-seminaarin aineisto](https://koha-suomi.fi/dokumentaatio/koulutukset/#koha-seminaari-28112023)
