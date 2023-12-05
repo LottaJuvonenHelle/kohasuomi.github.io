@@ -44,6 +44,13 @@ Päätökset kirjataan tiketteihin.
 
 ### 4. Muut asiat
 
+Viestien, lokien ja tilastojen säilytykseen aktiivisessa taulussa on jouduttu tekemään ongelmatilanteiden vuoksi muutoksia sen jälkeen, kun [säilytysajat on päätetty](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/). Mitään tietoja ei kuitenkaan poisteta kokonaan aiemmin kuin aikaisemmin, ne vain siirtyvät vuositauluihin nopeammin.
+
+Säilytysajat aktiivisessa taulussa:
+* message_queue 12 kk, ajo joka kuun eka päivä
+* action_logs 12 kk, ajo joka kuun eka päivä
+* statistics kuluva + vuosi, ajo tammikuussa
+
 ### 5. Seuraava kokous
 
 Seuraava kokous on sovittu pidettävän 15.1.2024 klo 13.
