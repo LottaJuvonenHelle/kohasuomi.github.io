@@ -30,13 +30,9 @@ Etelästä pohjoiseen
 
 **OUTI**
 * Tarrojen tulostuksesta tehty meille kehitysehdotus: kun niteet vedetään/viedään tarratulostusjonoon, niin olisi hyvä, jos niteet tulostuisivat myös siinä järjestyksessä tarra-arkille tai tarra-rullalle. -> kehitysehdotus-tiketti
- 
 * Oulun elokuvakeskuksen ja sarjakuvakeskuksen kirjastojen ja Oulun kaupunginkirjaston välinen logistiikka loppuu, joten eilen muutin niiden niteitä "Saatavana, ei lainattavissa"-tilaan ja käsittelin niiden kokoelmiin kohdistuvat voimassa olevat varaukset.
- 
 * OUTIssa on tehty ajo, jossa asiakkaille (runsas 5000 asiakasta) lisättiin viestikenttään huomautus "Tarkista onko asiakkaan matkapuhelin- ja tekstiviesti numeroon -kentissä samat numerot. Korjaa tarvittaessa." Näillä asiakkailla on eri numerot matkapuhelinnumero ja SMS-kentissä. Ajo liittyy tikettiin: https://github.com/KohaSuomi/Koha/issues/835#issuecomment-1827861250.
-  
 * Asiakkaalta puuttui varaustunniste. Myös testillä varaustunniste puuttui. Ei ole tullut  muualla vastaan. OUTIssa ei onneksi ollut enempää vastaavia tapauksia.
- 
 * Kodo teki eilen pyynnöstä OUTIin API-tunnukset Raportterin käyttöä varten. Toimitan tunnuksen Larille.Tässä Larin ohje ja teknisempi dokumentaatio: https://github.com/KohaSuomi/koha-plugin-report-services/wiki ja https://github.com/KohaSuomi/koha-plugin-report-services/blob/master/README.md. 
 
 **Vaara**
