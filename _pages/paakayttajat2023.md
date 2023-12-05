@@ -24,7 +24,8 @@ Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Va
 * [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/950)
 * [Versio 23.11 julkaistu](https://koha-community.org/koha-23-11-released/)
 * [Koha-seminaarin aineisto](https://koha-suomi.fi/dokumentaatio/koulutukset/#koha-seminaari-28112023)
-  * tänään tulossa vielä erillinen tiedote
+  * Tiedote: [Koha-seminaarin satoa 2023](https://github.com/KohaSuomi/Koha/discussions/952)
+* [Näin saat SQL-kyselyyn salasanan](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#miten-saa-raportille-salasanan-kyselyn)
 
 Etelästä pohjoiseen
 
