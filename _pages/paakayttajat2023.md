@@ -19,8 +19,12 @@ Läsnä:
 
 * [Testikantojen uusiminen ja redusointi](https://github.com/KohaSuomi/Koha/discussions/948)
 * action_logs-taulujen ajot
-* Viikon 49 päivitys
+  * kaikissa kimpoissa aloitettu nyt kuukausittainen vienti vuositauluihin.
+  * yhteen arkistotauluun vienti vielä uuden pohdinnan alla.
+* [Viikon 49 päivitys](https://github.com/KohaSuomi/Koha/discussions/950)
 * [Versio 23.11 julkaistu](https://koha-community.org/koha-23-11-released/)
+* [Koha-seminaarin aineisto](https://koha-suomi.fi/dokumentaatio/koulutukset/#koha-seminaari-28112023)
+  * tänään tulossa vielä erillinen tiedote
 
 Etelästä pohjoiseen
 
