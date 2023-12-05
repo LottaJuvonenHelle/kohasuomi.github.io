@@ -28,6 +28,22 @@ Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI)
 
 Etelästä pohjoiseen
 
+**OUTI**
+* Tarrojen tulostuksesta tehty kehitysehdotus: kun niteitä lisää tarrojentulostusliitännäiseen, niin niteet eivät asetu samaan järjestykseen kuin ne on sinne laitettu, joten tarvii olla tarkkana tarroittaessa. Jos niteet vedetään yksitellen jonoon, niin niteet ovat yleensä siinä järjestyksessä myös esim. kärryssä.. Kehitysehdotus?
+ 
+* Oulun elokuvakeskuksen ja sarjakuvakeskuksen kirjastojen ja Oulun kaupunginkirjaston välinen logistiikka loppuu, joten eilen muutin niiden kokoelmat "Saatavana, ei lainattavissa"-tilaan ja käsittelin niiden kokoelmiin kohdistuvat voimassa olevat varaukset.
+ 
+* OUTIlle tehty ajo, jossa asiakkaille (runsas 5000) lisättiin viestikenttään huomautus Tarkista onko asiakkaan matkapuhelin- ja tekstiviesti numeroon -kentissä samat numerot. Korjaa tarvittaessa. Tämä liittyy tikettiin: https://github.com/KohaSuomi/Koha/issues/835#issuecomment-1827861250. Näillä asiakkailla on eri numerot matkapuhelinnumero ja SMS-kentissä.
+ 
+* Asiakkaalta puuttui varaustunniste. Testillä varaustunniste jo puuttui. Onko muilla tullut tämmöistä vastaan aiemmin?
+ 
+* Kodo teki eilen OUTIin API-tunnukset Raportterin käyttöä varten. Tässä Larin ohje ja teknisempi dokumentaatio: https://github.com/KohaSuomi/koha-plugin-report-services/wiki
+https://github.com/KohaSuomi/koha-plugin-report-services/blob/master/README.md. Toimitan tunnuksen Larille.
+
+
+
+
+
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
