@@ -29,7 +29,7 @@ Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI)
 Etelästä pohjoiseen
 
 **OUTI**
-* Tarrojen tulostuksesta tehty kehitysehdotus: kun niteitä lisää tarrojentulostusliitännäiseen, niin niteet eivät asetu samaan järjestykseen kuin ne on sinne laitettu, joten tarvii olla tarkkana tarroittaessa. Jos niteet vedetään yksitellen jonoon, niin niteet ovat yleensä siinä järjestyksessä myös esim. kärryssä.. Kehitysehdotus?
+* Tarrojen tulostuksesta tehty meille kehitysehdotus: kun niteitä lisää tarrojentulostusliitännäiseen, niin niteet eivät asetu samaan järjestykseen kuin ne on sinne laitettu, joten tarvii olla tarkkana tarroittaessa. Kun niteet vedetään yksitellen jonoon, niin olisi hyvä, jos niteet tulostuisivat myös siinä järjestyksessä tarra-arkille tai tarra-rullalle. Tehdään kehitysehdotus-tiketti.
  
 * Oulun elokuvakeskuksen ja sarjakuvakeskuksen kirjastojen ja Oulun kaupunginkirjaston välinen logistiikka loppuu, joten eilen muutin niiden kokoelmat "Saatavana, ei lainattavissa"-tilaan ja käsittelin niiden kokoelmiin kohdistuvat voimassa olevat varaukset.
  
