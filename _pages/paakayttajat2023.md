@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 # Viikko 49
 
 Aika: 5.12.2023 klo 9.15 <br />
-Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI)
+Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 
@@ -40,7 +40,9 @@ Etelästä pohjoiseen
 * Kodo teki eilen OUTIin API-tunnukset Raportterin käyttöä varten. Tässä Larin ohje ja teknisempi dokumentaatio: https://github.com/KohaSuomi/koha-plugin-report-services/wiki
 https://github.com/KohaSuomi/koha-plugin-report-services/blob/master/README.md. Toimitan tunnuksen Larille.
 
-
+**Vaara**
+* ei erityisempää, normaalia ylläpitoa
+* maanantaina omituinen ongelma Päivin pääkäyttäjätunnuksen kanssa. Aamulla toimi ensin ihan kunnolla kaksivaiheisen tunnistaumisen kanssa, mutta jossain vaiheessa alkoi temppuilemaan ja vaati tunnistautumista jatkuvasti. Tunnuksella ei voinut tehdä töitä. Muualta Vaaroista ei tullut mitään ongelmaviestejä, joten ihmettelin asiaa Larille eikä Vaarassa näkynyt tietokannan kautta mitään ongelmaa. Toimin tunnin verran toisella käyttäjätunnuksellani. Ilmeisesti kyseessä oli selaimen keksiongelma tai jotain, sillä ruokatunnin jälkeen suljin selaimen ja kirjauduin uudelleen pääkäyttäjätunnuksellani ja kaikki toimi kuten pitääkin. 
 
 
 
