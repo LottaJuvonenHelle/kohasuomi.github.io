@@ -21,7 +21,7 @@ Raportille voi laittaa myös salasanakyselyn esim. näin:
 
 ```and md5(<<Kirjoita salasana>>) = '043fd4dd68d7348a052b021cd3bc6cfa'```
 
-* =-merkin jälkeinen merkkijono on valitun salasanan hashattu versio.
+* =-merkin jälkeinen merkkijono on valitun salasanan md5 algoritmillä laskettu tiiviste.
 * hashin valittuun salasanaan voi pyytää joko kehittäjiltä Matrixissa tai jos on pääsy unix-ympäristöön seuraavalla komennolla: ```echo -n "Sammakko" | md5sum```
   * esimerkin salasanaksi on siis valittu sana Sammakko, joka on hipsujen sisällä. 
 
