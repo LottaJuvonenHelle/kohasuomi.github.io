@@ -19,11 +19,11 @@ Tänne voi tallentaa valmiita SQL-raportteja. Laita raportti olemassa olevien ot
 
 Raportille voi laittaa myös salasanakyselyn esim. näin:
 
-```and md5(<<Kirjoita salasana>>) = '043fd4dd68d7348a052b021cd3bc6cfa'```
+```and sha1(<<Kirjoita salasana>>) = '185feaf22179de4401e49f7365a16f01a088b8c9'```
 
-* =-merkin jälkeinen merkkijono on valitun salasanan md5 algoritmillä laskettu tiiviste
+* =-merkin jälkeinen merkkijono on valitun salasanan sha1 algoritmillä laskettu tiiviste
 * tiivistäminen on yksisuuntainen prosessi eikä käytetty salasana ole johdettavissa tai pääteltävissä tiivisteestä
-* tiivisteen valittuun salasanaan voi pyytää joko kehittäjiltä Matrixissa tai jos on pääsy unix-ympäristöön seuraavalla komennolla: ```echo -n "Sammakko" | md5sum```
+* tiivisteen valittuun salasanaan voi pyytää joko kehittäjiltä Matrixissa tai jos on pääsy unix-ympäristöön seuraavalla komennolla: ```echo -n "Sammakko" | sha1sum```
   * esimerkin salasanaksi on siis valittu sana Sammakko, joka on hipsujen sisällä. 
 
 Esimerkki kokonaisesta kyselystä, jossa on salasana:
@@ -32,7 +32,7 @@ Esimerkki kokonaisesta kyselystä, jossa on salasana:
 SELECT firstname,surname,address,zipcode,city
 FROM borrowers
 WHERE branchcode = <<Valitse asiakkaan kotikirjasto|branches>>
-AND md5(<<Kirjoita salasana>>) = '043fd4dd68d7348a052b021cd3bc6cfa'
+AND md5(<<Kirjoita salasana>>) = '185feaf22179de4401e49f7365a16f01a088b8c9'
 ```
 
 ## PowerBI
