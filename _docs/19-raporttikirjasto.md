@@ -19,7 +19,7 @@ Tänne voi tallentaa valmiita SQL-raportteja. Laita raportti olemassa olevien ot
 
 Raportille voi laittaa myös salasanakyselyn esim. näin:
 
-```and sha1(<<Kirjoita salasana>>, 256) = '6cc10c4403c2bd1a17eabe596cb6a926b67089c85c783f06218571b6926e072a'```
+```and sha2(<<Kirjoita salasana>>, 256) = '6cc10c4403c2bd1a17eabe596cb6a926b67089c85c783f06218571b6926e072a'```
 
 * =-merkin jälkeinen merkkijono on valitun salasanan sha-256 algoritmillä laskettu tiiviste
 * tiivistäminen on yksisuuntainen prosessi eikä käytetty salasana ole johdettavissa tai pääteltävissä tiivisteestä
