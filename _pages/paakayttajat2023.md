@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 # Viikko 49
 
 Aika: 5.12.2023 klo 9.15 <br />
-Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Vaara), Kati Sillgren, Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Vaara), Kati Sillgren, Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila (Kirkes)
 
 **Yhteiset**
 
@@ -52,6 +52,10 @@ Etelästä pohjoiseen
 * Miten saa salasanan raportteihin? Anneli tekikin nopeasti [ohjeen](https://koha-suomi.fi/dokumentaatio/raporttikirjasto/#miten-saa-raportille-salasanan-kyselyn), kiitos.
 * Kyyti oli reilu puoli tuntia alhaalla torstaina 30.11. klo 17.33-18.xx.  Message_queue oli lukossa.
 * Iitin kirjaston varaston niteisiin ajettu viime viikolla [muutos](https://github.com/KohaSuomi/Koha/issues/937) remontin takia.
+
+**Kirkes**
+* Kerava sai laskutustyökalun tuotantokäyttöön (woop, woop!), muut kunnat työstävät vielä.
+* Kiinnostusta näyttää vain kolme viimeistä numeroa kirjastokortista asiakkaalle lähtevässä ilmoituksessa. VASKIssa käytössä koodirimpsu, jota testataan.
 
 ## Viikko 47 muistio
 
