@@ -672,8 +672,22 @@ $(document).ready(function() {
 /// LOPPU ///
 ```
 
+### Kirjastokortin numero QR-koodina näkyviin Kirjastotiedot-osioon
 
----
+Tällä IntranetUserJS-rimpsulla saa asiakkaan kirjastokortin numeron näkymään viivakoodina kirjastotiedot-osiossa. [Liittyy tikettiin Asiakkaan viivakoodin esittäminen asiakastietonäytöllä #671](https://github.com/KohaSuomi/Koha/issues/671).
+
+Versio: 22.11
+
+```
+$(document).ready(function () {
+  if (window.location.pathname == '/cgi-bin/koha/members/moremember.pl') {
+    cardnumber = document.getElementById('patron-cardnumber').childNodes[2].nodeValue.trim();
+    barcodeurl = "/cgi-bin/koha/svc/barcode?barcode=" + cardnumber.toUpperCase() + "&notext=1";
+    $('li#patron-cardnumber').append('<br><img src="' + barcodeurl + '">');
+  }
+});
+```
+
 ## Maksut
 
 ### Ceepos-maksu -napin lisäys
