@@ -1259,18 +1259,18 @@ GROUP BY reserves.branchcode WITH ROLLUP
 Raportilla voi hakea niteettömät nimekkeet. Raportissa annetaan parametriksi aineistolaji. Jos haluat listata kaikki niteettömät kerralla aineistolajista riippumatta, poista raportista alimmainen rivi.
 
 Lisääjä: Anneli Österman / OUTI-kirjastot<br />
-Pvm: 3.7.2019
+Pvm: 3.7.2019 / Päivitetty 8.12.2023
 
 ```
 SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
-bi.itemtype AS 'Aineistolaji', b.biblionumber
+bi.itemtype AS 'Aineistotyyppi', b.biblionumber
 from biblio b
 LEFT JOIN items i ON b.biblionumber = i.biblionumber
 LEFT JOIN biblioitems bi ON bi.biblionumber = b.biblionumber
 LEFT JOIN biblio_metadata bm ON bm.biblionumber = b.biblionumber
 WHERE ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') = ''
 AND i.itemnumber IS NULL
-AND bi.itemtype=<<Valitse aineistolaji|itemtypes>>
+AND bi.itemtype=<<Valitse aineistolaji|mtype>>
 ```
 
 ### Weeding tool
