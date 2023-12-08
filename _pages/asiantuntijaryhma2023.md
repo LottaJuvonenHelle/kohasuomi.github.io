@@ -22,6 +22,7 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+Koha-käyttödata ja mahdollinen mobiilisovellus. Diasarja: [Kohan data ja mobiilisovellus.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13614350/Kohan.data.ja.mobiilisovellus.pdf)
 
 ### 2. Kehitysehdotusten läpikäyntiä
 
