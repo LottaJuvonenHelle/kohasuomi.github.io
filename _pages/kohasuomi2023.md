@@ -17,10 +17,14 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ### Maanantai 11.12.2023 klo 9
 
-Läsnä:
+Läsnä: Pasi, Ari, Anneli, Kodo, Johanna, Lari, Lasse, Kassu, Emmi
 
 * Viikon 50 päivitys
+  * 2 päivitystä:
+    *  [Hankinnan vastaanotossa haku ei pysy perässä tai väärä haku jää välillä voimaan #826](https://github.com/KohaSuomi/Koha/issues/826)
+    *  [AllowRenewalIfOtherItemsAvailable -asetus estää lainojen latautumisen, jos asiakkaalla paljon lainoja joihin kohdistuu hyllyvarauksia #879](https://github.com/KohaSuomi/Koha/issues/879)
 * build-release-skripti ei aja updatedatabase-ajoa kuten pitäisi /Emmi
+* Scrum:
 
 ## Viikon 49 muistio
 
