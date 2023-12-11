@@ -24,6 +24,11 @@ Läsnä: Pasi, Ari, Anneli, Kodo, Johanna, Lari, Lasse, Kassu, Emmi
     *  [Hankinnan vastaanotossa haku ei pysy perässä tai väärä haku jää välillä voimaan #826](https://github.com/KohaSuomi/Koha/issues/826)
     *  [AllowRenewalIfOtherItemsAvailable -asetus estää lainojen latautumisen, jos asiakkaalla paljon lainoja joihin kohdistuu hyllyvarauksia #879](https://github.com/KohaSuomi/Koha/issues/879)
 * build-release-skripti ei aja updatedatabase-ajoa kuten pitäisi /Emmi
+  * skripti ei osaa hakea oikein tietokantaan tulevia db_revs- eikä atomicupdate-päivityksiä, eikä niitä näin ollen ajeta tietokantaan ollenkaan
+  * ainakin atomicupdate-päivitysten kohdalla ajo tapahtuu vasta, kun build-releasen ajaa toisen kerran
+    * kokeillaan lisätä skriptiin täydellinen polku Koha.build-repoon ja katsotaan, onnistuuko tietokannan päivitys sitten  
+  * samoin huomattu, että build_*-branch tarkistus voi tuottaa ongelmia, jos kyseessä on uusi repo
+    * Kodo tekee vivun, jolla tarkistuksen voi ohittaa  
 * Scrum:
   * Emmi: build-release-ajon testaamista, vähän yhteisöjuttuja
   * Johanna: RDA-konversion selvittelyä
