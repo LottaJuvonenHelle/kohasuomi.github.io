@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikon 50 muistio
+
+### Maanantai 11.12.2023 klo 9
+
+Läsnä:
+
+* Viikon 50 päivitys
+
 ## Viikon 49 muistio
 
 ### Maanantai 4.12.2023 klo 9
