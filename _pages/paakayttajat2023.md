@@ -10,7 +10,13 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
-# Viikko 49
+## Viikko 50
+
+**Yhteiset**
+* [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
+* Viikon 50 päivitys
+
+## Viikko 49
 
 Aika: 5.12.2023 klo 9.15 <br />
 Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Vaara), Kati Sillgren, Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila (Kirkes)
