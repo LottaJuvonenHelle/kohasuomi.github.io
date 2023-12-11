@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 10/23
 
 Aika: Ma 11.12.2023 klo 13<br />
-Läsnä:
+Läsnä: Tove, Anneli, Ari, Noora, Kodo, Leena, Päivi, Hanna, Tuomas, Susanna, Riikka
 
 ### 1. Arin ajankohtaiset
 
@@ -51,6 +51,9 @@ Säilytysajat aktiivisessa taulussa:
 * message_queue 12 kk, ajo joka kuun eka päivä
 * action_logs 12 kk, ajo joka kuun eka päivä
 * statistics kuluva + vuosi, ajo tammikuussa
+
+
+Kotipalvelu-kehitysehdotuksen yhteydessä päätettiin perustaa kotipalvelu-työryhmä, joka miettii, miten Finnaa voisi hyödyntää paremmin kotipalvelutyössä. Jäsenet seuraavaan kokoukseen tiedoksi.
 
 ### 5. Seuraava kokous
 
