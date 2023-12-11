@@ -20,6 +20,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Läsnä:
 
 * Viikon 50 päivitys
+* build-release-skripti ei aja updatedatabase-ajoa kuten pitäisi /Emmi
 
 ## Viikon 49 muistio
 
