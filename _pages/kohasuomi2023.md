@@ -25,6 +25,14 @@ Läsnä: Pasi, Ari, Anneli, Kodo, Johanna, Lari, Lasse, Kassu, Emmi
     *  [AllowRenewalIfOtherItemsAvailable -asetus estää lainojen latautumisen, jos asiakkaalla paljon lainoja joihin kohdistuu hyllyvarauksia #879](https://github.com/KohaSuomi/Koha/issues/879)
 * build-release-skripti ei aja updatedatabase-ajoa kuten pitäisi /Emmi
 * Scrum:
+  * Emmi: build-release-ajon testaamista, vähän yhteisöjuttuja
+  * Johanna: RDA-konversion selvittelyä
+  * Lasse: versionvaihdon tikettejä
+  * Lari: versionvaihdon tikettejä, kielikoodien järjestys tiketti
+  * Pasi: redusointiskriptin testailua
+  * Kodo: asiantuntijaryhmä tänään
+  * Kassu: parin tiketin tarkastelua
+  * Anneli: käännökset lähes valmiit, release-notesien läpikäyntiä
 
 ## Viikon 49 muistio
 
