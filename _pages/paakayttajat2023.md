@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2023'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 51
+
+Aika: 19.12.2023 klo 9.15 <br />
+Läsnä: 
+
+**Yhteiset**
+* Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
+
 ## Viikko 50
 
 Aika: 12.12.2023 klo 9.15 <br />
