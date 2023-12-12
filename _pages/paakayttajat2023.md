@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 12.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
@@ -31,7 +31,16 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 **Vaara**
 * henkilötietoja sisältäneitä raportteja on suojattu salasanalla, jotta kaikki eivät pääse ajamaan niitä
 * Finnassa havaittiin omituinen maksuongelma. Asiakas oli yrittänyt 1.12. maksaa 22,80 euron maksujaan verkkokirjastossa, mutta maksu ei koskaan mennyt perille asti Paytrailiin (ei näy maksettuna). Asiakkaan laittamien kuvakaappauksien mukaan välillä summa oli näyttänyt 80,22 euroa, mikä on todella omituista. Paytrailissa ei oteta kantaa, koska maksu ei näy heidän järjestelmässään.
-* Irina kysyi, onko muilla ongelmia itsepalvelutoiminnon kanssa. Vaarassa Kiihtelysvaaran kirjastossa on toistuvasti ongelmia itsepalvelulainauksen päällä olemisen kanssa. Tähän ei saatu mitään vertaisapua eikä myöskään verkkoyhteyksistä vastaava Meita ole saanut asiaa kuntoon. 
+* Irina kysyi, onko muilla ongelmia itsepalvelutoiminnon kanssa. Vaarassa Kiihtelysvaaran kirjastossa on toistuvasti ongelmia itsepalvelulainauksen päällä olemisen kanssa. Tähän ei saatu mitään vertaisapua eikä myöskään verkkoyhteyksistä vastaava Meita ole saanut asiaa kuntoon.
+
+**OUTI**
+* Otettu käyttöön uudet kirjastokortit, joiden tunnus alkaa sanalla OUTI+7 numeroa.
+* Lumijoen kirjastossa ollaan ottamassa käyttöön Koha-Ceepos-maksurajapinta.
+* Oulun kaupungin kaikki palvelimet siirretään Istekille. Oulun Ceepos-palvelin siirretään viikonlopun 20.1.-21.1.2024 aikana. Mikään ei pitäisi muuttua tietoliikenneyhteyksissä yms. määrityksissä.
+* Otettu käyttöön asiakkaan tiedoissa Muu nimi -kenttä henkilöasiakkaiden kutsumanimille. Sähköposteina meneviin asiakasviesteihin on lisätty ehto, jos asiakkaalla on tallennettu kutsumanimini, tulee se tervehdystekstiin. Jos kutsumanimeä ei ole tallennettu, tulee etunimi. Yhteisöasiakkaille ja kaukolainakirjastoille kenttää ei otettu käyttöön, näille tervehdykseen tulee sukunimi-kentän tiedot.
+* Aspassa tullut vastaan tuplamaksutapaus, jossa lainan uusintatilanteessa klo 00.04 oli järjestelmä luonut asiakkaalle uudestaan maksimimäärän myöhästymismaksuja. Tiketti: https://github.com/KohaSuomi/Koha/issues/961
+Vastaavia tapauksia on tullut tilanteissa, joissa maksuja on maksettu puolen yön aikaan, jolloin maksuajo on ollut meneillään. Pääkäyttäjäpalaverissa 25.7.2023 on sovittu, että Vaskissa kokeltaisiin onnistuuko maksunappulan disablointi. Mikko tarkistaa asian, onko disablointia kokeiltu tehdä.
+
 
 ## Viikko 49
 
