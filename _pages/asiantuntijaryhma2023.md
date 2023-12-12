@@ -15,14 +15,14 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 10/23
+## Asiantuntijaryhmän muistio 10/23
 
 Aika: Ma 11.12.2023 klo 13<br />
-Läsnä: Tove, Anneli, Ari, Noora, Kodo, Leena, Päivi, Hanna, Tuomas, Susanna, Riikka
+Läsnä: Tove Selkälä, Anneli Österman, Ari Mäkiranta, Noora Valkonen, Kodo Korkalo, Leena Kinnunen, Päivi Knuutinen, Hanna Ikonen, Tuomas Kunttu, Susanna Sandell, Riikka Mustajärvi
 
 ### 1. Arin ajankohtaiset
 
-Koha-käyttödata ja mahdollinen mobiilisovellus. Diasarja: [Kohan data ja mobiilisovellus.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13614350/Kohan.data.ja.mobiilisovellus.pdf)
+Koha-käyttödata ja mahdollinen mobiilisovellus. Vielä ajatusasteella, mukaan etsitty kiinnostuneita kirjastoja, joilta saisi anonyymiä dataa kehityksen avuksi. Diasarja: [Kohan data ja mobiilisovellus.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13614350/Kohan.data.ja.mobiilisovellus.pdf)
 
 ### 2. Kehitysehdotusten läpikäyntiä
 
@@ -37,13 +37,17 @@ Koha-käyttödata ja mahdollinen mobiilisovellus. Diasarja: [Kohan data ja mobii
 [442 - Varatun teoksen aineistolaji näkyviin asiakkaan varauksiin](https://tiketti.koha-suomi.fi/issues/442)<br />
 [235 - Asiakkaalle mahdollisuus kuitata Saapuneet viestit verkkokirjastossa](https://tiketti.koha-suomi.fi/issues/235)
 
+Päätökset kirjattiin tiketteihin.
+
 ### 3. Koha-Suomen ominaisuuksien läpikäyntiä versionvaihtoa varten
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues).
 
-Päätökset kirjataan tiketteihin.
+Päätökset kirjattiin tiketteihin.
 
 ### 4. Muut asiat
+
+#### 4.1 Säilytysajat aktiivisissa tauluissa
 
 Viestien, lokien ja tilastojen säilytykseen aktiivisessa taulussa on jouduttu tekemään ongelmatilanteiden vuoksi muutoksia sen jälkeen, kun [säilytysajat on päätetty](https://koha-suomi.fi/dokumentaatio/tietojensailytysajat/). Mitään tietoja ei kuitenkaan poisteta kokonaan aiemmin kuin aikaisemmin, ne vain siirtyvät vuositauluihin nopeammin.
 
@@ -52,6 +56,7 @@ Säilytysajat aktiivisessa taulussa:
 * action_logs 12 kk, ajo joka kuun eka päivä
 * statistics kuluva + vuosi, ajo tammikuussa
 
+#### 4.2 Kotipalvelu-työryhmän perustaminen
 
 Kotipalvelu-kehitysehdotuksen yhteydessä päätettiin perustaa kotipalvelu-työryhmä, joka miettii, miten Finnaa voisi hyödyntää paremmin kotipalvelutyössä. Jäsenet seuraavaan kokoukseen tiedoksi.
 
