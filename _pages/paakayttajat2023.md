@@ -12,9 +12,14 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 50
 
+Aika: 12.12.2023 klo 9.15 <br />
+Läsnä:
+
 **Yhteiset**
 * [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
-* Viikon 50 päivitys
+* [Viikon 50 päivitys](https://github.com/KohaSuomi/Koha/discussions/958)
+* Versionvaihdon ja nextien tilanne
+* [Testikannat uusiksi tänään](https://github.com/KohaSuomi/Koha/discussions/948)
 
 ## Viikko 49
 
