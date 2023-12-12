@@ -20,7 +20,13 @@ Läsnä:
 * [Viikon 50 päivitys](https://github.com/KohaSuomi/Koha/discussions/958)
 * [Koha-Suomen asiantuntijaryhmän muistio 10/2023](https://github.com/KohaSuomi/Koha/discussions/963)
 * Versionvaihdon ja nextien tilanne
+  * outi-next tehty, sitä ei redusoida eli se pitää tehdä vielä kertaalleen uusiksi. Tällä hetkellä vanha redusoitu kanta alla.
+  * loput työn alle, kunhan testikannat on tehty uudelleen ja redusoitu (ja testattu redusointiskripti)
+  * Elasticsearch pitää päivittää uudempaan versioon. Nykyisen version 6.8 tuki loppui ja uudessa Koha-versiossa pitää olla 7 tai 8 versio.
+  * Annelilla release notesien läpikäynti vielä kesken.
 * [Testikannat uusiksi tänään](https://github.com/KohaSuomi/Koha/discussions/948)
+  * Vaski-testiä ei redusoida
+  * työ tehdään illalla, kannat toivottavasti valmiiksi tämän viikon aikana ja käytössä ensi viikolla.
 
 ## Viikko 49
 
