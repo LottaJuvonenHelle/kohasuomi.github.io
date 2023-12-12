@@ -21,7 +21,7 @@ Läsnä:
 ## Viikko 50
 
 Aika: 12.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
@@ -55,10 +55,15 @@ Vastaavia tapauksia on tullut tilanteissa, joissa maksuja on maksettu puolen yö
 **Siilinjärvi**
 * Ei mainittavaa
 
+**Lappi**
+* Puolivuosittainen käyttäjätunnusten tarkistus menossa johtajilla ja esihenkilöillä. Tarkistetaan käyttöoikeuden voimassaolo, ei kuitenkaan sitä, mitä oikeuksia käyttäjillä on.
+* Muuten ei raportoitavaa.
+
+  
 ## Viikko 49
 
 Aika: 5.12.2023 klo 9.15 <br />
-Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Vaara), Kati Sillgren, Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila (Kirkes)
+Läsnä: Anneli ja Lari (Koha-Suomi), Piia Semenoff (OUTI), Päivi Knuutinen (Vaara), Kati Sillgren, Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti), Annika Helastila (Kirkes), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 
@@ -102,6 +107,12 @@ Etelästä pohjoiseen
 * Kerava sai laskutustyökalun tuotantokäyttöön (woop, woop!), muut kunnat työstävät vielä.
 * Kiinnostusta näyttää vain kolme viimeistä numeroa kirjastokortista asiakkaalle lähtevässä ilmoituksessa. VASKIssa käytössä koodirimpsu, jota testataan.
 
+**Lappi**
+* Lapissa jälleen neljä pääkäyttäjää, kun Noora Suvanto Tornionlaakson kirjastosta on palannut töihin
+* Tarkoitus ottaa käyttöön no-reply-toiminto sähköposteihin.
+* Ei muuta raportoitavaa
+
+  
 ## Viikko 47 muistio
 
 Aika: 21.11.2023 klo 9.15 <br />
