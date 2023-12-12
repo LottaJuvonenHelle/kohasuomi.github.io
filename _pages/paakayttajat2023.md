@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 12.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
@@ -40,6 +40,9 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa 
 * Otettu käyttöön asiakkaan tiedoissa Muu nimi -kenttä henkilöasiakkaiden kutsumanimille. Sähköposteina meneviin asiakasviesteihin on lisätty ehto, jos asiakkaalla on tallennettu kutsumanimini, tulee se tervehdystekstiin. Jos kutsumanimeä ei ole tallennettu, tulee etunimi. Yhteisöasiakkaille ja kaukolainakirjastoille kenttää ei otettu käyttöön, näille tervehdykseen tulee sukunimi-kentän tiedot.
 * Aspassa tullut vastaan tuplamaksutapaus, jossa lainan uusintatilanteessa klo 00.04 oli järjestelmä luonut asiakkaalle uudestaan maksimimäärän myöhästymismaksuja. Tiketti: https://github.com/KohaSuomi/Koha/issues/961
 Vastaavia tapauksia on tullut tilanteissa, joissa maksuja on maksettu puolen yön aikaan, jolloin maksuajo on ollut meneillään. Pääkäyttäjäpalaverissa 25.7.2023 on sovittu, että Vaskissa kokeltaisiin onnistuuko maksunappulan disablointi. Mikko tarkistaa asian, onko disablointia kokeiltu tehdä.
+
+**Lumme**
+* Ei raportoitavaa, perusylläpitoa.
 
 
 ## Viikko 49
