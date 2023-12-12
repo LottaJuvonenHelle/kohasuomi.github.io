@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 50
 
 Aika: 12.12.2023 klo 9.15 <br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
@@ -27,6 +27,11 @@ Läsnä:
 * [Testikannat uusiksi tänään](https://github.com/KohaSuomi/Koha/discussions/948)
   * Vaski-testiä ei redusoida
   * työ tehdään illalla, kannat toivottavasti valmiiksi tämän viikon aikana ja käytössä ensi viikolla.
+
+**Vaara**
+* henkilötietoja sisältäneitä raportteja on suojattu salasanalla, jotta kaikki eivät pääse ajamaan niitä
+* Finnassa havaittiin omituinen maksuongelma. Asiakas oli yrittänyt 1.12. maksaa 22,80 euron maksujaan verkkokirjastossa, mutta maksu ei koskaan mennyt perille asti Paytrailiin (ei näy maksettuna). Asiakkaan laittamien kuvakaappauksien mukaan välillä summa oli näyttänyt 80,22 euroa, mikä on todella omituista. Paytrailissa ei oteta kantaa, koska maksu ei näy heidän järjestelmässään.
+* Irina kysyi, onko muilla ongelmia itsepalvelutoiminnon kanssa. Vaarassa Kiihtelysvaaran kirjastossa on toistuvasti ongelmia itsepalvelulainauksen päällä olemisen kanssa. Tähän ei saatu mitään vertaisapua eikä myöskään verkkoyhteyksistä vastaava Meita ole saanut asiaa kuntoon. 
 
 ## Viikko 49
 
