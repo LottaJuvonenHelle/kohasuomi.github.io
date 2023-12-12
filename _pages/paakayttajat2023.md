@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
 * [Viikon 50 päivitys](https://github.com/KohaSuomi/Koha/discussions/958)
+* [Koha-Suomen asiantuntijaryhmän muistio 10/2023](https://github.com/KohaSuomi/Koha/discussions/963)
 * Versionvaihdon ja nextien tilanne
 * [Testikannat uusiksi tänään](https://github.com/KohaSuomi/Koha/discussions/948)
 
