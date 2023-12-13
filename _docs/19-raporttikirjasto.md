@@ -23,7 +23,7 @@ Raportille voi laittaa myös salasanakyselyn esim. näin:
 
 * =-merkin jälkeinen merkkijono on valitun salasanan sha-256 algoritmillä laskettu tarkiste
 * tarkisteen laskenta on yksisuuntainen prosessi eikä käytetty salasana ole johdettavissa tai pääteltävissä tarkisteesta
-* tarkisteen valittuun salasanaan voi pyytää joko kehittäjiltä Matrixissa tai jos on pääsy unix-ympäristöön seuraavalla komennolla: ```echo -n "Sammakko" | sha256sum```
+* tarkisteen valittuun salasanaan voi pyytää joko kehittäjiltä Matrixissa tai jos on pääsy unix-ympäristöön seuraavalla komennolla: ```echo -n 'Sammakko' | sha256sum```
   * esimerkin salasanaksi on siis valittu sana Sammakko, joka on hipsujen sisällä. 
 
 Esimerkki kokonaisesta kyselystä, jossa on salasana:
