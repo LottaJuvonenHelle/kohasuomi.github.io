@@ -62,7 +62,7 @@ Vastaavia tapauksia on tullut tilanteissa, joissa maksuja on maksettu puolen yö
 **Kirkes**
 * Tietokannasta oli epähuomiossa poistettu suuri joukko niteitä, mutta ne saatiin kehittäjien avustuksella onneksi palautettua.
 * Laskutusrajapinnan käyttöönotto ja siihen liittyvä työ jatkuu Järvenpäässä ja Mäntsälässä.
-* Keskusteltiin henkilökunnalta tulleesta käännösmuutostoiveesta ja todettiin, että niteistä puhuttaessa "Huomautus virkailijalle" on parempi kuin "Viesti virkailijalle. Tiketti:  https://github.com/KohaSuomi/Koha/issues/970
+* Keskusteltiin henkilökunnalta tulleesta käännösmuutostoiveesta ja todettiin, että niteistä puhuttaessa "Huomautus virkailijalle" on parempi kuin "Viesti virkailijalle". Tiketti:  https://github.com/KohaSuomi/Koha/issues/970
   
 ## Viikko 49
 
