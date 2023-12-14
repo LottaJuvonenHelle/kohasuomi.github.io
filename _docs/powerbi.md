@@ -117,7 +117,7 @@ LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde1 ON i.bibli
 LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde2 ON d.biblionumber = bde2.biblionumber
 WHERE date(datetime) BETWEEN <<Aikaväli alkaen|date>> AND <<Päättyen|date>>
 AND s.type in ('issue', 'renew')
-AND convert(s.branch using 'utf8') LIKE (@Kunta:= <<Kunta tai kirjasto esim. KOU% tai KOU_PK>>)
+AND convert(s.branch using 'utf8') LIKE <<Kunta tai kirjasto esim. KOU% tai KOU_PK>>
 AND b.categorycode != 'EITILASTO'
 ```
 
@@ -143,7 +143,7 @@ FROM items i
 LEFT JOIN biblioitems bi ON bi.biblioitemnumber=i.biblioitemnumber
 LEFT JOIN biblio b ON i.biblionumber=b.biblionumber
 LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON i.biblionumber=bde.biblionumber
-WHERE convert(i.homebranch using 'utf8') LIKE (@Kunta:= <<Kunta tai kirjasto esim. KOU% tai KOU_PK>>)
+WHERE convert(i.homebranch using 'utf8') LIKE <<Kunta tai kirjasto esim. KOU% tai KOU_PK>>
 ```
 
 ### Hankintadata
@@ -179,7 +179,7 @@ LEFT JOIN biblioitems bibi1 ON i.biblioitemnumber = bibi1.biblioitemnumber
 LEFT JOIN biblioitems bibi2 ON d.biblioitemnumber = bibi2.biblioitemnumber
 LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde1 ON (i.biblionumber = bde1.biblionumber)
 LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde2 ON (d.biblionumber = bde2.biblionumber)
-WHERE aq.datereceived BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>> AND IFNULL(i.homebranch, d.homebranch) LIKE (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
+WHERE aq.datereceived BETWEEN <<AloitusPvm|date>> AND <<LopetusPvm|date>> AND IFNULL(i.homebranch, d.homebranch) LIKE <<Kuntaosio ja prosenttimerkki>>
 ```
 
 ### Poistodata
@@ -207,7 +207,7 @@ LEFT JOIN biblio_metadata bm ON b.biblionumber=bm.biblionumber
 LEFT JOIN deletedbiblioitems dbi ON di.biblioitemnumber = dbi.biblioitemnumber
 LEFT JOIN deletedbiblio db ON di.biblionumber=db.biblionumber
 LEFT JOIN biblio_data_elements bde ON di.biblioitemnumber=bde.biblioitemnumber
-WHERE convert(di.homebranch using 'utf8') LIKE (@Kunta:= <<Kunta tai kirjasto esim. KOU% tai KOU_PK>>) AND di.timestamp BETWEEN (@AloitusPvm:= <<AloitusPvm |date>>) AND (@LopetusPvm:= <<LopetusPvm |date>>)
+WHERE convert(di.homebranch using 'utf8') LIKE <<Kunta tai kirjasto esim. KOU% tai KOU_PK>> AND di.timestamp BETWEEN <<AloitusPvm |date>> AND LopetusPvm:= <<LopetusPvm |date>>
 ```
 
 ## Taustatietoja muista lähteistä
