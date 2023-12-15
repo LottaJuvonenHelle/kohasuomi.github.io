@@ -21,7 +21,7 @@ Läsnä:
 ## Viikko 50
 
 Aika: 12.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Elina Uotila (Kirkes)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Elina Uotila (Kirkes), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
@@ -63,6 +63,9 @@ Vastaavia tapauksia on tullut tilanteissa, joissa maksuja on maksettu puolen yö
 * Tietokannasta oli epähuomiossa poistettu suuri joukko niteitä, mutta ne saatiin kehittäjien avustuksella onneksi palautettua.
 * Laskutusrajapinnan käyttöönotto ja siihen liittyvä työ jatkuu Järvenpäässä ja Mäntsälässä.
 * Keskusteltiin henkilökunnalta tulleesta käännösmuutostoiveesta ja todettiin, että niteistä puhuttaessa "Huomautus virkailijalle" on parempi kuin "Viesti virkailijalle". Tiketti:  https://github.com/KohaSuomi/Koha/issues/970
+
+**Kyyti**
+*Kotkassa harkittu Espoolaisen Broomworks Oy:n Lirp:in (Library resource planner) käyttöönottoa.*
   
 ## Viikko 49
 
