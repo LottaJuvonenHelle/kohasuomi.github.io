@@ -21,7 +21,8 @@ Läsnä:
 
 **Asiat**
 * [Tiketin 438](https://github.com/KohaSuomi/Koha/issues/438) aikataulutus /Anneli & Kuvailuryhmä
-* 
+* Päivystykset viikosta 52 alkaen
+* KK:n [yhteisötiketin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=20447) tukeminen /Emmi 
 
 ## Viikon 50 muistio
 
