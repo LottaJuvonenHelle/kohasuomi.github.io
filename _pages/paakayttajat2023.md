@@ -65,7 +65,7 @@ Vastaavia tapauksia on tullut tilanteissa, joissa maksuja on maksettu puolen yö
 * Keskusteltiin henkilökunnalta tulleesta käännösmuutostoiveesta ja todettiin, että niteistä puhuttaessa "Huomautus virkailijalle" on parempi kuin "Viesti virkailijalle". Tiketti:  https://github.com/KohaSuomi/Koha/issues/970
 
 **Kyyti**
-* Kotkassa harkittu Espoolaisen Broomworks Oy:n Lirpin (Library resource planner) käyttöönotta.
+* Kotkassa harkittu Espoolaisen Broomworks Oy:n Lirpin (Library resource planner) käyttöönottoa.
   
 ## Viikko 49
 
