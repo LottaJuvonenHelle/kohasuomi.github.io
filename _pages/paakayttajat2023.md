@@ -17,11 +17,12 @@ Läsnä:
 
 **Yhteiset**
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
+* [Tehdäänkö marc-mäppäysmuutos?](https://github.com/KohaSuomi/Koha/issues/693)
 
 ## Viikko 50
 
 Aika: 12.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Elina Uotila (Kirkes), Roosa Väisänen (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen ja Pia Kusmin (Lappi), Elina Uotila (Kirkes), Roosa Väisänen (Kyyti), Anneli Österman, Emmi Takkinen, Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Varaustunnisteen säilyttäminen/muuttaminen](https://github.com/KohaSuomi/Koha/issues/896) - miten toimitaan?
