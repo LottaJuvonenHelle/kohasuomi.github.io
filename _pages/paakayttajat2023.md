@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
 * [Tehdäänkö marc-mäppäysmuutos?](https://github.com/KohaSuomi/Koha/issues/693)
+* BTJ:n linkkien korjaaminen keskitetysti? www.btj.com --> armas.btj.fi 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
