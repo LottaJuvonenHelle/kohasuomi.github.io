@@ -19,6 +19,8 @@ Läsnä:
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
 * [Tehdäänkö marc-mäppäysmuutos?](https://github.com/KohaSuomi/Koha/issues/693)
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 50
 
 Aika: 12.12.2023 klo 9.15 <br />
@@ -67,7 +69,9 @@ Vastaavia tapauksia on tullut tilanteissa, joissa maksuja on maksettu puolen yö
 
 **Kyyti**
 * Kotkassa harkittu Espoolaisen Broomworks Oy:n Lirpin (Library resource planner) käyttöönottoa.
-  
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-50-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
+
 ## Viikko 49
 
 Aika: 5.12.2023 klo 9.15 <br />
@@ -120,6 +124,7 @@ Etelästä pohjoiseen
 * Tarkoitus ottaa käyttöön no-reply-toiminto sähköposteihin.
 * Ei muuta raportoitavaa
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-49-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
   
 ## Viikko 47 muistio
 
@@ -157,6 +162,8 @@ Pohjoisesta etelään
 **Kyyti**
 * Valkealan lähikirjasto suljettu muuton vuoksi loppuvuoden. Viime viikolla tehtiin siihen liittyvät nidetilojen muutokset.
 * Nostin esille vanhan Redmine-tiketin 1849 ja että miten edetään 005-kentän päivittymisen kanssa. Siirsin palaverin jälkeen tiketin Githubiin [#924](https://github.com/KohaSuomi/Koha/issues/924).
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-47-muistio) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 46 muistio
 
