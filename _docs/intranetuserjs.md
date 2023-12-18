@@ -500,6 +500,30 @@ $('input:radio[value="approve"]').attr('checked', true);
 });
 ```
 
+### othername-kentän piilotus määritetyiltä asiakastyypeiltä
+
+Tarpeellisuus: Vapaahetoinen<br />
+Versio: 22.11
+
+Tämä javascript-rimpsu piilottaa määritetyiltä asiakastyypeiltä othernames-kentän näkyviltä. Rimpsu on tehty OUTI-kirjastoille ja liittyy [tikettiin 956](https://github.com/KohaSuomi/Koha/issues/956).
+
+```
+///ALKU///
+
+// Piilottaa 'Other names' kentän valituille asiakastyypeille (categorycode) muokkauslomakkeilla (add, modify, duplicate)
+$(document).ready(function () {
+if ( window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' ) {
+var categories = ["YHTEISO", "KAUKOLAINA"];
+if ( ( window.location.search.includes('?op=add') && categories.some(cat => window.location.search.includes(cat)) ) || ( ( window.location.search.includes('?op=modify') || window.location.search.includes('?op=duplicate') ) && categories.some(cat => $('.patroncategory')[0].innerHTML.includes(cat)) ) ) {
+$('#othernames').attr('disabled', 'disabled');
+// Piilottaa li-elementin, jonka sisällä on label ja input
+$('#othernames').parent().hide();
+}
+}
+});
+///LOPPU///
+```
+
 ---
 
 ## Asiakkaan tiedot -näyttö
