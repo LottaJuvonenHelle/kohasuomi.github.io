@@ -22,7 +22,9 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Antti Heikkinen (OUTI
 
 [Käsiteltävät tiketit Githubissa](https://github.com/orgs/KohaSuomi/projects/4/views/18)
 
-Käytiin läpi osa tiketeistä ja [tiketti 840](https://github.com/KohaSuomi/Koha/issues/840) jäi kaikille kotitehtäväksi miettiä, miten kunkin mainitun kentän osalta kannattaisi toimia.
+Anneli kirjaa muistiot, koska muokkausoikeuksia ei ole kuin Annelilla ja Antilla (sekä Johannalla).
+
+Käytiin läpi osa tiketeistä ja päätökset kirjattiin tiketteihin. [Tiketti 840](https://github.com/KohaSuomi/Koha/issues/840) tuli kaikille kotitehtäväksi miettiä, miten kunkin mainitun kentän osalta kannattaisi toimia.
 
 ### Muut asiat
 
@@ -30,4 +32,4 @@ Ei muita asioita.
 
 ### Seuraava kokous
 
-Ma 29.1.2024 klo 14 osoitteessa https://meet.jit.si/koha-suomi-indeksointi
+Ma 29.1.2024 klo 14 osoitteessa https://meet.jit.si/koha-suomi-indeksointi.
