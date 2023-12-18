@@ -12,7 +12,7 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 ## Koha-Suomen hallituksen tiedotteet
 
-[Koha-Suomen hallituksen vuoden 2023 tiedotteet](/hallituksentiedotteet2024)
+[Koha-Suomen hallituksen vuoden 2024 tiedotteet](/hallituksentiedotteet2024)
 
 [Koha-Suomen hallituksen vuoden 2023 tiedotteet](/hallituksentiedotteet2023)
 
@@ -22,7 +22,7 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 ## Koha-Suomen asiantuntijaryhmä
 
-[Asiantuntijaryhmän vuoden 2023 muistiot](/asiantuntijaryhma2024)
+[Asiantuntijaryhmän vuoden 2024 muistiot](/asiantuntijaryhma2024)
 
 [Asiantuntijaryhmän vuoden 2023 muistiot](/asiantuntijaryhma2023)
 
@@ -37,7 +37,7 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa, maanantaisin ja torstaisin.
 
-[Koha-Suomen vuoden 2023 muistiot](/kohasuomi2024)
+[Koha-Suomen vuoden 2024 muistiot](/kohasuomi2024)
 
 [Koha-Suomen vuoden 2023 muistiot](/kohasuomi2023)
 
@@ -47,7 +47,7 @@ Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa, maanantaisin ja torst
 
 Pääkäyttäjäryhmä kokoontuu kerran viikossa ja mukana ovat kaikki kimppojen pääkäyttäjät, jotka mukaan pääsevät. Palavereissa Koha-Suomi tiedottaa muutoksista, keskustellaan erilaisista ongelmista ja ajatuksista sekä kerrotaan jokaisen kimpan kuulumiset.
 
-[Pääkäyttäjien vuoden 2023 muistiot](/paakayttajat2024)
+[Pääkäyttäjien vuoden 2024 muistiot](/paakayttajat2024)
 
 [Pääkäyttäjien vuoden 2023 muistiot](/paakayttajat2023)
 
@@ -57,7 +57,7 @@ Pääkäyttäjäryhmä kokoontuu kerran viikossa ja mukana ovat kaikki kimppojen
 
 Koha-Suomen kuvailuryhmä kokoontuu noin kerran kuussa keskustelemaan ja päättämään ajankohtaisista kuvailuun liittyvistä asioista.
 
-[Koha-Suomen kuvailuryhmän 2023 muistiot](/kuvailuryhma2024)
+[Koha-Suomen kuvailuryhmän 2024 muistiot](/kuvailuryhma2024)
 
 [Koha-Suomen kuvailuryhmän 2023 muistiot](/kuvailuryhma2023)
 
