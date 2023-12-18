@@ -220,34 +220,34 @@ Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
 
 ```
-/// ALKU ///
-
-// Varaustunnuksen automaattinen generointi/anonymisointi - Adapted from Koha-suomi patch for KD-1452 (commit 1c71b272885d9c510630 from https://github.com/KohaSuomi/Koha/ branch master)
-// Tämä generoi patron_attr_2-kenttään. Tarkista oikea attribuutti asiakkaan muokkaussivulta selaimen Tarkista-toiminnolla. Jos attribuutin arvo muuttuu, pitää se muuttaa jokaiseen kohtaan, jossa se mainitaan. //
-
+// Varaustunnuksen automaattinen generointi. Kentän jälkeen lisätty kolme pistettä, josta muodostus tapahtuu.
+// Tässä Varustunnus-kentän arvo on patron_attr_4, tarkista oman tietokannan oikea arvo esim. selaimen Tarkista/Inspect element -toiminnolla.
 $(document).ready(function(){
     if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=add&") || window.location.search.includes("?op=duplicate&")) {
       var unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
       var epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-      $('textarea#patron_attr_2').val(epochdashed);
-
-      $("#patron_attr_2").focus(function() {
-        unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
-        epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-        $('textarea#patron_attr_2').val(epochdashed);
+      $('textarea#patron_attr_4').val(epochdashed);
+      
+	  $( '<a class="buttonDot" href="#" id="generate_holdid" title="Luo varaustunnus" style="vertical-align: top;"> ...</a>' ).insertAfter( "#patron_attr_4");
+	  $("#generate_holdid").click(function() {
+          unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
+          epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
+          $('textarea#patron_attr_4').val(epochdashed);
+		  $("#patron_attr_4").trigger('blur');
       });
     }
 
       if (window.location.pathname == '/cgi-bin/koha/members/memberentry.pl' && window.location.search.includes("?op=modify")) {
-      $("#patron_attr_2").focus(function() {
-        unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
-        epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
-        $('textarea#patron_attr_2').val(epochdashed);
+	  $( '<a class="buttonDot" href="#" id="generate_holdid" title="Luo varaustunnus" style="vertical-align: top;"> ...</a>' ).insertAfter( "#patron_attr_4");
+	  $("#generate_holdid").click(function() {
+          unixepoch = Math.round( (new Date()).getTime() / 10 ).toString();
+          epochdashed = unixepoch.replace( /(....)/g, '$1-').replace(/-$/,'' );
+          $('textarea#patron_attr_4').val(epochdashed);
+		  $("#patron_attr_4").trigger('blur');
       });
     }
 });
-
-/// LOPPU ///
+//LOPPU
 
 ```
 
