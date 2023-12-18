@@ -17,10 +17,11 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ### Maanantai 18.12.2023 klo 9
 
-Läsnä:
+Läsnä: Lasse, Emmi, Pasi, Kodo, Anneli, Lari, Johanna, Kassu
 
 **Asiat**
 * [Tiketin 438](https://github.com/KohaSuomi/Koha/issues/438) aikataulutus /Anneli & Kuvailuryhmä
+  * Pasi tekee tämän vuoden loppuun menneessä
 * Päivystykset viikosta 52 alkaen
 * KK:n [yhteisötiketin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=20447) tukeminen /Emmi 
 
