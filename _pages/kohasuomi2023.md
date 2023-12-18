@@ -24,7 +24,7 @@ Läsnä:
 * Päivystykset viikosta 52 alkaen
 * KK:n [yhteisötiketin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=20447) tukeminen /Emmi 
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-51-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-51-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 50 muistio
 
@@ -52,7 +52,7 @@ Läsnä: Pasi, Ari, Anneli, Kodo, Johanna, Lari, Lasse, Kassu, Emmi
   * Kassu: parin tiketin tarkastelua
   * Anneli: käännökset lähes valmiit, release-notesien läpikäyntiä
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-50-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-50-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 49 muistio
 
@@ -88,7 +88,7 @@ Läsnä: Anneli, Pasi, Ari, Lari, Lasse, Emmi, Kodo, Kassu, Johanna
     * Idea: Luodaan "view", johon otetaan mukaan kaikki action_logs-taulut
   * Anneli: 23.11-version käännökset melkein valmiit, vain tietyt termit kääntämättä, koska niistä ei ole päätöstä. Seuraavaksi releasenoten läpikäyntiä ja tietojen poimimista versionvaihdon wikiin.
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-49-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-49-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 48 muistio
 
@@ -100,7 +100,7 @@ Läsnä: Emmi, Anneli, Lari, Kassu, Pasi, Ari
   * Keskustellaan asiasta vielä seuraavassa pääkäyttäjäpalaverissa.   
 * Ei päivitystä Koha-seminaarin vuoksi
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-48-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-48-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 47 muistio
 
@@ -115,7 +115,7 @@ Läsnä: Pasi, Anneli, Emmi, Ari, Lasse, Lari, Kassu
 * Viikon 47 päivitys
   * Ei päivitettävää.
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-47-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-47-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 46 muistio
 
@@ -129,7 +129,7 @@ Läsnä: Anneli, Lasse, Johanna, Pasi. Ari, Lari, Kassu
 * Joulunajan lomat
   * Merkataan lomatoiveet kalenteriin ja katsotaan tuleeko päälekäisyyksiä.
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-46-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-46-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 45 muistio
 
@@ -148,6 +148,8 @@ Läsnä: Emmi, Lasse, Kodo, Ari, Kassu, Johanna, Lari
   * Kassu voisi mahdollisesti kokeilla hampaitaan SQL-raporttien laadinnassa tietopaketteja varten
 * Huoltoikkunassa 8.11. ei tule katkoja tuotantoihin, testeille voi tulla. OCFS-murheiden selvittelyä Jannen kanssa ohjelmassa.
 
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-45-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 44 muistio
 
 ### Maanantai 30.10.2023 klo 9
@@ -160,7 +162,7 @@ Läsnä: Anneli, Lasse, Pasi, Emmi, Kodo, Johanna, Lari
 * Emmi:
   * Järvenpään laskutusta varten toimitettu IP-osoitteet 
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-44-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-44-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 43 muistio
 
@@ -180,7 +182,7 @@ Läsnä: Anneli, Lasse, Lari, Emmi, Pasi, Johanna, Ari, Kodo
 * Versionvaihdon tikettien vastuutukset, milloin hoidetaan? Tarvitaanko erillinen palsu?
   * pidetään erillinen palaveri torstaina 26.10. klo 9 
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-43-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-43-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 42 muistio
 
@@ -224,7 +226,7 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna, Pasi
   * Turun kellutuksen hallintatyökalun aloituspalaveri, selvitettiin mistä rajapinnoista tietoa kannattaa hakea.
   * Selvitetty tietueiden siirtoihin liittyviä ongelmia
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-42-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-42-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 41 muistio
 
@@ -237,7 +239,7 @@ Läsnä: Anneli, Lari, Emmi, Kodo, Pasi, Lasse, Ari, Johanna
 * Elasticsearch-koulutus ke 1.11.2023 klo 13
 * Outi-tuotannossa ollut viime torstaista /dev/shm:llä (/dev/shm/var/log/koha) sipohttp-lokitus. Viiveet loppuneet. Siirretään sipohttp-lokitus muillekin kimpoille /dev/shm alle ja muutetaan lokirotaatiota, jotta päivän /dev/shm:lle kertynyt loki siirretään /var/log/koha alle.
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-41-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-41-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 40 muistiot
 
