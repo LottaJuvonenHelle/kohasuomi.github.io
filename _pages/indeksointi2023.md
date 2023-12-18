@@ -9,7 +9,7 @@ toc: true
 title: 'Indeksointi- ja tiedonhakuryhmä 2023'
 ---
 
-Indeksointi- ja tiedonhakuryhmän kokouksten muistiot vuodelta 2023. Indeksointi- ja tiedonhakutyöryhmän tarkoitus on arvioida ja päättää indeksointiin ja tiedonhakuun liittyvien kehitysehdotusten toteuttuksesta.
+Indeksointi- ja tiedonhakuryhmän kokousten muistiot vuodelta 2023. Indeksointi- ja tiedonhakutyöryhmän tarkoitus on arvioida ja päättää indeksointiin ja tiedonhakuun liittyvien kehitysehdotusten toteutuksesta.
 
 ## Järjestäytymiskokous
 
