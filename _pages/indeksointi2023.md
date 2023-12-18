@@ -9,7 +9,7 @@ toc: true
 title: 'Indeksointi- ja tiedonhakuryhmä 2023'
 ---
 
-Indeksointi- ja tiedonhakuryhmän kokousten muistiot vuodelta 2023. Indeksointi- ja tiedonhakutyöryhmän tarkoitus on arvioida ja päättää indeksointiin ja tiedonhakuun liittyvien kehitysehdotusten toteutuksesta. Jäsenet: Anneli Österman ja Johanna Räisä (Koha-Suomi), Antti Heikkinen (OUTI), Kai Sormunen (Vaara), Ville Kivioja (Kyyti), Timo Väisänen (Kirkes), Heli Auranen (Lumme), Markku Untinen (Helle), Anna Viitanen (Vaski)
+Indeksointi- ja tiedonhakuryhmän kokousten muistiot vuodelta 2023. Indeksointi- ja tiedonhakutyöryhmän tarkoitus on arvioida ja päättää indeksointiin ja tiedonhakuun liittyvien kehitysehdotusten toteutuksesta. Jäsenet: Anneli Österman ja Johanna Räisä (Koha-Suomi), Antti Heikkinen (OUTI), Kai Sormunen (Vaara), Ville Kivioja (Kyyti), Timo Väisänen (Kirkes), Heli Auranen (Lumme), Markku Untinen (Helle), Anna Viitanen (Vaski), Mauri Aittaniemi (Lappi)
 
 ## Järjestäytymiskokous
 
