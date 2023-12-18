@@ -14,7 +14,7 @@ Indeksointi- ja tiedonhakuryhmän kokousten muistiot vuodelta 2023. Indeksointi-
 ## Järjestäytymiskokous
 
 Aika: 18.12.2023 klo 14<br />
-Läsnä:
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Antti Heikkinen (OUTI), Kai Sormunen (Vaara), Ville Kivioja (Kyyti), Timo Väisänen (Kirkes), Heli Auranen (Lumme), Markku Untinen (Helle), Anna Viitanen (Vaski)
 
 **Asiat**
 
@@ -22,7 +22,7 @@ Läsnä:
 
 [Käsiteltävät tiketit Githubissa](https://github.com/orgs/KohaSuomi/projects/4/views/18)
 
-Käytiin läpi osa tiketeistä ja [tiketti 840](https://github.com/KohaSuomi/Koha/issues/840) jäi kaikille kotitehtäväksi  miettiä, miten kunkin kentän osalta kannattaisi toimia.
+Käytiin läpi osa tiketeistä ja [tiketti 840](https://github.com/KohaSuomi/Koha/issues/840) jäi kaikille kotitehtäväksi miettiä, miten kunkin mainitun kentän osalta kannattaisi toimia.
 
 ### Muut asiat
 
