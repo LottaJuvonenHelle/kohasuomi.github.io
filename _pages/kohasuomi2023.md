@@ -24,6 +24,8 @@ Läsnä:
 * Päivystykset viikosta 52 alkaen
 * KK:n [yhteisötiketin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=20447) tukeminen /Emmi 
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-51-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 50 muistio
 
 ### Maanantai 11.12.2023 klo 9
@@ -49,6 +51,8 @@ Läsnä: Pasi, Ari, Anneli, Kodo, Johanna, Lari, Lasse, Kassu, Emmi
   * Kodo: asiantuntijaryhmä tänään
   * Kassu: parin tiketin tarkastelua
   * Anneli: käännökset lähes valmiit, release-notesien läpikäyntiä
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-50-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 49 muistio
 
@@ -84,6 +88,8 @@ Läsnä: Anneli, Pasi, Ari, Lari, Lasse, Emmi, Kodo, Kassu, Johanna
     * Idea: Luodaan "view", johon otetaan mukaan kaikki action_logs-taulut
   * Anneli: 23.11-version käännökset melkein valmiit, vain tietyt termit kääntämättä, koska niistä ei ole päätöstä. Seuraavaksi releasenoten läpikäyntiä ja tietojen poimimista versionvaihdon wikiin.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-49-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 48 muistio
 
 ### Maanantai 27.11.2023 klo 9
@@ -94,6 +100,7 @@ Läsnä: Emmi, Anneli, Lari, Kassu, Pasi, Ari
   * Keskustellaan asiasta vielä seuraavassa pääkäyttäjäpalaverissa.   
 * Ei päivitystä Koha-seminaarin vuoksi
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-48-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 47 muistio
 
@@ -108,6 +115,7 @@ Läsnä: Pasi, Anneli, Emmi, Ari, Lasse, Lari, Kassu
 * Viikon 47 päivitys
   * Ei päivitettävää.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-47-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 46 muistio
 
@@ -121,7 +129,8 @@ Läsnä: Anneli, Lasse, Johanna, Pasi. Ari, Lari, Kassu
 * Joulunajan lomat
   * Merkataan lomatoiveet kalenteriin ja katsotaan tuleeko päälekäisyyksiä.
 
-  
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-46-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 45 muistio
 
 ### Maanantai 6.11.2023 klo 9
@@ -151,6 +160,8 @@ Läsnä: Anneli, Lasse, Pasi, Emmi, Kodo, Johanna, Lari
 * Emmi:
   * Järvenpään laskutusta varten toimitettu IP-osoitteet 
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-44-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 43 muistio
 
 ### Maanantai 23.10.2023 klo 9
@@ -168,6 +179,8 @@ Läsnä: Anneli, Lasse, Lari, Emmi, Pasi, Johanna, Ari, Kodo
   * Lisätään tälle oma sarake, johon lisätään kaikki tietueen genren lisäluokat pilkulla eroteltuna 
 * Versionvaihdon tikettien vastuutukset, milloin hoidetaan? Tarvitaanko erillinen palsu?
   * pidetään erillinen palaveri torstaina 26.10. klo 9 
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-43-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 42 muistio
 
@@ -211,6 +224,8 @@ Läsnä: Anneli, Ari, Kodo, Emmi, Lasse, Lari, Johanna, Pasi
   * Turun kellutuksen hallintatyökalun aloituspalaveri, selvitettiin mistä rajapinnoista tietoa kannattaa hakea.
   * Selvitetty tietueiden siirtoihin liittyviä ongelmia
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-42-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 41 muistio
 
 ### Maanantai 9.10.2023 klo 9
@@ -222,6 +237,7 @@ Läsnä: Anneli, Lari, Emmi, Kodo, Pasi, Lasse, Ari, Johanna
 * Elasticsearch-koulutus ke 1.11.2023 klo 13
 * Outi-tuotannossa ollut viime torstaista /dev/shm:llä (/dev/shm/var/log/koha) sipohttp-lokitus. Viiveet loppuneet. Siirretään sipohttp-lokitus muillekin kimpoille /dev/shm alle ja muutetaan lokirotaatiota, jotta päivän /dev/shm:lle kertynyt loki siirretään /var/log/koha alle.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-41-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 40 muistiot
 
@@ -260,6 +276,8 @@ Läsnä: Anneli, Emmi, Pasi, Lari, Johanna, Kodo, Lasse, Ari
 * redusointipalaveri, Anneli kysyy pääkäyttäjistä halukkaita mukaantulijoita
 * bugi-perjantain bugien etsintä Annelin, Larin ja Emmin kanssa klo 13
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-40-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 39 muistiot
 
 ### Torstai 28.9.2023 klo 10
@@ -290,6 +308,8 @@ Läsnä: Anneli, Pasi, Johanna, Lasse, Kodo, Lari, Emmi, Ari
 * Kirkes-matrixin ja repon "sulku" lokakuun aikana.
 * Viikon 39 päivitys
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-39-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 38 muistiot
 
 ### Torstai 21.9.2023 klo 10
@@ -316,6 +336,8 @@ Läsnä: Anneli, Ari, Emmi, Johanna, Lari, Lasse, Pasi
   * Johanna ja Emmi ottavat työn alle
 * Kodo ja Lari tekee Lastun käyttöönoton.
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-38-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 37 muistiot
 
 ### Torstai 14.9.2023 klo 10
@@ -340,6 +362,8 @@ Läsnä: Anneli, Lari, Pasi, Emmi, Lasse, Kodo
     * ei editx
     * ei laskutus
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-37-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 
 ## Viikon 36 muistiot
 
@@ -359,6 +383,8 @@ Läsnä: Anneli, Lasse, Emmi, Pasi, Ari, Lari, Kodo
 * Tätissä indeksoitumattomia tietueita
   *  Pasi korjaa tietueet illalla.
 * Kirkeksessä indeksointi- ja virhe 500 -ongelmia.
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-36-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 35 muistiot
 
@@ -399,6 +425,8 @@ Läsnä: Anneli, Pasi, Emmi, Lasse, Lari, Ari
   * ei oikein löydy mitään ilman, että pitää itse hostata.
 * Koha-repon wikiin luotu uusi sivu ["Ongelmatilanteita ja niiden ratkaisuja"](https://github.com/KohaSuomi/Koha/wiki/Ongelmatilanteita-ja-niiden-ratkaisuja)
 
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-35-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
+
 ## Viikon 34 muistiot
 
 
@@ -433,6 +461,8 @@ Läsnä: Anneli, Pasi, Emmi, Lari, Lasse, Kodo
   * ajo, että numero on sekä mobilessä että smsalertnumberissa
   * ajo, jolla vieksiruksit pois niiltä, joilla ei ole smsalertnumberia
   * ruksien poistavat intranetuserjs-rimpsu kaikille
+
+[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-34-muistiot) - [Palaa sivun alkuun](/kohasuomi2023)
 
 ## Viikon 32 muistiot
 
