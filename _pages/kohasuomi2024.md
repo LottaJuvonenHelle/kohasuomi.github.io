@@ -15,4 +15,4 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 1
 
-[Palaa viikon muistioiden alkuun](https://koha-suomi.fi/kohasuomi2023#viikko-1) - [Palaa sivun alkuun](/kohasuomi2024)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikko-1) - [Palaa sivun alkuun](/kohasuomi2024)
