@@ -23,7 +23,11 @@ Läsnä: Lasse, Emmi, Pasi, Kodo, Anneli, Lari, Johanna, Kassu
 * [Tiketin 438](https://github.com/KohaSuomi/Koha/issues/438) aikataulutus /Anneli & Kuvailuryhmä
   * Pasi tekee tämän vuoden loppuun menneessä
 * Päivystykset viikosta 52 alkaen
-* KK:n [yhteisötiketin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=20447) tukeminen /Emmi 
+* KK:n [yhteisötiketin](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=20447) tukeminen /Emmi
+  * Käsitellään myöhemmin
+* Viikon 51 päivitys
+  * Varaustunnisteen säilyminen/muuttaminen
+  * Käännösmuutos tietueen pääsivulle "huomautus virkailijalle"
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikon-51-muistio) - [Palaa sivun alkuun](/kohasuomi2023)
 
