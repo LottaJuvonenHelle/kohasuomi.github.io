@@ -20,6 +20,8 @@ Läsnä:
 
 ### Järjestäytyminen ja toimintatavat
 
+[Käsiteltävät tiketit Githubissa](https://github.com/orgs/KohaSuomi/projects/4/views/18)https://github.com/orgs/KohaSuomi/projects/4/views/18
+
 ### Muut asiat
 
 ### Seuraava kokous
