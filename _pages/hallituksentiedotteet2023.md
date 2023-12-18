@@ -11,6 +11,28 @@ title: 'Hallituksen tiedotteet 2023'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2023. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 10/2023
+
+18.12.2023
+
+Niin vuosi vierähti ja oli viimeisen kokouksen aika ja päätöksiä oli paljon: ensi vuoden talous, yhtiön tavoitteet, toimitusjohtajan tavoitteet. Liitteenä Arin ensi  vuoden työlista, joista sitten osia siirtyy varmasti asiantuntijaryhmän ja muiden ryhmien omiin suunnitelmiin. Lisäksi keskustelimme osakassopimuksen päivittämisen tilanteesta ja laitoimme ensi vuoden työlistalle myös palvelukuvauksen päivittämisen.
+
+Tuttuun tapaan kävimme läpi toimitusjohtajan raportin, liitteenä.
+
+Koko hallituksen puolesta haluan kiittää yhtiön henkilökuntaa onnistuneesta vuodesta – paljon on tehty töitä ja tuloksia saatu! Kiitokset myös teille kaikille kohalaisille yhteisestä tekemisestä!
+
+Rauhallista Joulua kaikille!
+
+t. Rebekka, hallituksen pj.
+
+Liitteet:
+
+Toimitusjohtajan raportti: [Toimitusjohtajanraportti10_23.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13699808/Toimitusjohtajanraportti10_23.pdf)
+
+
+Toimitusjohtajan tavoitteet: [Toimitusjohtajantavoitteet2024.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/13699810/Toimitusjohtajantavoitteet2024.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 9/2023
 
 24.11.2023
