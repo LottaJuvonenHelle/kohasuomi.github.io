@@ -33,6 +33,10 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 [Asiantuntijaryhmän muistiot 2016-2020](/asiantuntijaryhmavanhemmat)
 
 
+## Koha-Suomen indeksointi- ja tiedonhakuryhmä
+
+[Indeksointi- ja tiedonhakuryhmän vuoden 2023 muistiot](/indeksointiryhma2023)
+
 ## Koha-Suomen viikkopalaverit
 
 Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa, maanantaisin ja torstaisin.
