@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 19.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Anni Rajala (Vaski)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Anni Rajala (Vaski), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
@@ -53,6 +53,13 @@ Etelästä pohjoiseen
 
   * Tuota käännöstekstiä voi muotoilla toki paremmaksi, meillä pohdiskeltiin mikä olisi asiakkaalle kaikista selkein tapa ilmaista ja kotikirjasto-termin sijaan päädyttiin tuohon ilmaisuun. Englanniksi meillä on käännetty "This material can only be reserved for pick-up at the library where it is currently located." ja ruotsiksi "Detta material kan endast reserveras för avhämtning på det bibliotek där det för närvarande finns."
   * Näitä kielikäännöksiä kun Finna-toimistolta kysyttiin, niin sieltä vastattiin että *"Normaalisti ILS-järjestelmien ilmoitusten käännöksille on varattu oma paikkansa, mutta ainakaan tällä hetkellä Kohan tapauksessa järjestelmä ei tätä ymmärrä, joten käännökset on lisättävä muiden käännösten joukkoon. Itse lisätyt käännökset voi toki olla hyvä tarkastaa siinä vaiheessa, kun ilmoitusten käännökset päivittyvät yhteisesti kaikille, mutta varsinaista ongelmaa aikanaan tulevasta päivityksestä ei pitäisi kuitenkaan tulla."*
+ 
+**OUTI**
+* Käyttäjältä tuli toive, että jos lainassa olevaa nidettä yrittää poistaa Perustiedot-näytön toiminnolla ”Poista valitut”, ohjelma ilmoittaisi ”Ei voi poistaa: nide on lainassa”. Tämä ilmoitu tulee, jos lainassa olevaa nidettä yrittää poistaa niteiden muokkaussivulla. Anneli tiesi kertoa, että versiossa 23.11 tulee paremmin näkyväksi, ettei nidettä voi poistaa eli toiminnossa ”Niteiden poisto eräajossa” tulee sarakerivin eteen punainen ruksi ja sarakkeen väri on keltainen. Ei lisätä ilmoitusta nykyiseen versioon.
+* Jos käyttäjällä ei ole oikeuksia laskutustyökaluun, tulee ilmoitus ”Virhe 403”. Päätettiin, ettei ilmoitusta tarvitse muuttaa.
+* Finna-toimiston kanssa selvitetty asiakkaan maksuissa näkyviä palautuskehotusten tekstejä. Tiketti: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/21
+* Aspassa oli tullut palautettavaksi toisen OUTI-kirjaston nide, jolle Koha ei antanut palautustilanteessa ilmoitusta, että nide pitäisi kuljettaa kotikirjastoon, vaan nide jäi aivan kuin kellumaan palautuskirjastoon. Selvisi, että nide oli yhden OUTI-kirjaston siirtolainakokoelmassa. Ilmeisesti siirtolainatoiminto on huonontunut entisestään, koska se ei antanut ilmoitusta, että nide kuuluu jonkin kirjaston siirtolainakokoelmaan. Aiemmassa Koha-versiossa ohjelma vielä antoi ilmoituksen siirtolainakokoelmasta, vaikkei se asettanut nidettä kuljetustilaan. OUTI-kunta, joka on vielä käyttänyt siirtolainakokoelmia omissa pienissä kirjastoissa, luopui niiden käytöstä nyt kokonaan. 
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/paakayttajat2023)
 
