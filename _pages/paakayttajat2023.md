@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 19.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
@@ -35,7 +35,11 @@ Etelästä pohjoiseen
 
 **Vaara**
 * Finnan selitys viime viikolla ilmoittamastani maksuongelmasta: "Tämän pitäisi nyt olla kunnossa ja korjattu. Tutkittiin, että saattoi harvassa tapauksessa esiintyä visuaalinen virhe, jossa näkyi väärä summa maksunäkymässä. Jos asiakas olisi jatkanut maksamaan, niin summa olisi ollut oikea."
-* Päivi korjannut MARC-virhelistan mukaisia virheitä kuvailutietueissa. Tehty tiketti 006-kenttien poistosta muissa kuin moniviestimissä. Vanhoja tikettejä on olemassa myös muista korjauksista, mm. emottomien osakohteiden poistopyyntö (https://github.com/KohaSuomi/Koha/issues/348) on melkein vuosi sitten tehty. Näitä vanhoja tikettejä pitäisi saada tehtyä ennen kuin ISBD- ja RDA-konversioita ajetaan. 
+* Päivi korjannut MARC-virhelistan mukaisia virheitä kuvailutietueissa. Tehty tiketti 006-kenttien poistosta muissa kuin moniviestimissä. Vanhoja tikettejä on olemassa myös muista korjauksista, mm. emottomien osakohteiden poistopyyntö (https://github.com/KohaSuomi/Koha/issues/348) on melkein vuosi sitten tehty. Näitä vanhoja tikettejä pitäisi saada tehtyä ennen kuin ISBD- ja RDA-konversioita ajetaan.
+
+**Lumme**
+* Tehty signumien korjausajo varastokirjoille, sillä aikojen saatossa käytetty useaa erilaista merkitsemistapaa. Korjattu signumit myös jo lakkautettujen kirjastojen niteistä.
+* Raporttikirjaston siivous saatu loppuun.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/paakayttajat2023)
 
