@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 19.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Anni Rajala (Vaski)
 
 **Yhteiset**
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
@@ -40,6 +40,19 @@ Etelästä pohjoiseen
 **Lumme**
 * Tehty signumien korjausajo varastokirjoille, sillä aikojen saatossa käytetty useaa erilaista merkitsemistapaa. Korjattu signumit myös jo lakkautettujen kirjastojen niteistä.
 * Raporttikirjaston siivous saatu loppuun.
+
+**Vaski**
+* Kyseltiin onko tarvetta tehdä tikettiä hyllyvarausraportin suodatushaku-kenttää koskevasta ongelmasta (merkkejä putoaa pois nopeasti kirjoittaessa). Todettiin, että ei tarvetta toistaiseksi, eikä kannata senkään takia kun viime aikoina on ollut keskustelua mahdollisesta siirtymisestä Varausjono-raportin käyttöön.
+* Otettu eilen käyttöön uusi nidetyyppi sellaisille esineille, joita saa varaaminen on sallittu ainoastaan niteen kotikirjastoon. Kohassa edellyttää, että Laina- ja maksusäännöt -sivulle on tavallisten laina- ja maksusääntörivien lisäksi tehty "Oletusvaraussääntö nidetyypeittäin". Oletusvaraussääntö nidetyypeittäin löytyy laina- ja maksusääntösivun lopusta, kuvassa Vaskin tekemä oletusvaraussääntö:
+
+  ![kuva](https://github.com/KohaSuomi/kohasuomi.github.io/assets/44638512/1f306b93-cd90-4c1e-9ad4-633f63bf89a8)
+
+  * Kun oletusvaraussääntö on käytössä, Finna herjaa englanniksi "The supplied pickup location is not valid" jos asiakas yrittää valita ei-sallitun noutokirjaston. Tälle virhetekstille on mahdollista lisätä kielikäännökset local > languages -alta löytyviin ini-tiedostoihin. Tiedostoihin pitää lisätä rivi, jossa virheilmoitus on tismalleen samalla tavalla kirjoitettuna eli tämän näköinen rivi:
+  
+  ```The supplied pickup location is not valid = "Tämän aineiston voi varata noudettavaksi vain siihen kirjastoon, jossa se parhaillaan sijaitsee."```
+
+  * Tuota käännöstekstiä voi muotoilla toki paremmaksi, meillä pohdiskeltiin mikä olisi asiakkaalle kaikista selkein tapa ilmaista ja kotikirjasto-termin sijaan päädyttiin tuohon ilmaisuun. Englanniksi meillä on käännetty "This material can only be reserved for pick-up at the library where it is currently located." ja ruotsiksi "Detta material kan endast reserveras för avhämtning på det bibliotek där det för närvarande finns."
+  * Näitä kielikäännöksiä kun Finna-toimistolta kysyttiin, niin sieltä vastattiin että *"Normaalisti ILS-järjestelmien ilmoitusten käännöksille on varattu oma paikkansa, mutta ainakaan tällä hetkellä Kohan tapauksessa järjestelmä ei tätä ymmärrä, joten käännökset on lisättävä muiden käännösten joukkoon. Itse lisätyt käännökset voi toki olla hyvä tarkastaa siinä vaiheessa, kun ilmoitusten käännökset päivittyvät yhteisesti kaikille, mutta varsinaista ongelmaa aikanaan tulevasta päivityksestä ei pitäisi kuitenkaan tulla."*
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/paakayttajat2023)
 
