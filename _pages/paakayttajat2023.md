@@ -37,7 +37,7 @@ Etelästä pohjoiseen
 * Finnan selitys viime viikolla ilmoittamastani maksuongelmasta: "Tämän pitäisi nyt olla kunnossa ja korjattu. Tutkittiin, että saattoi harvassa tapauksessa esiintyä visuaalinen virhe, jossa näkyi väärä summa maksunäkymässä. Jos asiakas olisi jatkanut maksamaan, niin summa olisi ollut oikea."
 * Päivi korjannut MARC-virhelistan mukaisia virheitä kuvailutietueissa. Tehty tiketti 006-kenttien poistosta muissa kuin moniviestimissä. Vanhoja tikettejä on olemassa myös muista korjauksista, mm. emottomien osakohteiden poistopyyntö (https://github.com/KohaSuomi/Koha/issues/348) on melkein vuosi sitten tehty. Näitä tikettejä pitäisi saada tehtyä ennen kuin ISBD- ja RDA-konversioita ajetaan. 
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/pa akayttajat2023)
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 50
 
