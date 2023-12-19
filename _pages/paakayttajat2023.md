@@ -27,6 +27,7 @@ Läsnä:
   * Redmine-linkit voisi poistaa, jos sellaisia on.
 * [Joulutervehdys](https://github.com/KohaSuomi/Koha/discussions/979)
 * [Testikantojen tilanne](https://github.com/KohaSuomi/Koha/discussions/969)
+  * Anneli pyytää Finna-toimistoa haravoimaan testikannat uudelleen kunhan kaikki kannat on tehty uudelleen.
 * [Tietueen Perustiedot -näytön kohdehenkilö-asiasanalinkki ei toimi, kun kentällä on osakenttä 600c](https://github.com/KohaSuomi/Koha/issues/459)
   * Indeksointi- ja tiedonhakuryhmältä päätös, että muutetaan järjestelmäasetus ongelman korjaamiseksi
 
