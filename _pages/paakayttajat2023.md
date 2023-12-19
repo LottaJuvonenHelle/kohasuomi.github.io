@@ -24,6 +24,9 @@ Läsnä:
   * Redmine-linkit voisi poistaa, jos sellaisia on.
 * [Joulutervehdys](https://github.com/KohaSuomi/Koha/discussions/979)
 * [Testikantojen tilanne](https://github.com/KohaSuomi/Koha/discussions/969)
+* [Tietueen Perustiedot -näytön kohdehenkilö-asiasanalinkki ei toimi, kun kentällä on osakenttä 600c](https://github.com/KohaSuomi/Koha/issues/459)
+  * Indeksointi- ja tiedonhakuryhmältä päätös, että muutetaan järjestelmäasetus ongelman korjaamiseksi
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/paakayttajat2023)
 
