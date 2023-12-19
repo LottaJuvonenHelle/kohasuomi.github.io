@@ -18,7 +18,10 @@ Läsnä:
 **Yhteiset**
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
 * [Tehdäänkö marc-mäppäysmuutos?](https://github.com/KohaSuomi/Koha/issues/693)
+  * tehdään, tieto lisätty tikettiin.
+  * Pääkäyttäjät tekevät omiin tuotantoihin ja testeille (tarvittaessa myös nexteille) tarvittavat mäppäysmuutokset, jonka jälkeen pitää ajaa rebuildbiblios-ajo.
 * BTJ:n linkkien korjaaminen keskitetysti? www.btj.com --> armas.btj.fi
+  * Päivi tekee tiketin ja Anneli tutkii, voiko käyttää kuvailun erämuokkauksella. Jos ei voi, pitänee tehdä jonkinlainen skripti.
 * [Vkon 51 päivitys](https://github.com/KohaSuomi/Koha/discussions/980)
 * Onko kaikilla [Koha-Suomi-valikko](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#intranetnav) Kohassa?
   * Redmine-linkit voisi poistaa, jos sellaisia on.
@@ -27,6 +30,7 @@ Läsnä:
 * [Tietueen Perustiedot -näytön kohdehenkilö-asiasanalinkki ei toimi, kun kentällä on osakenttä 600c](https://github.com/KohaSuomi/Koha/issues/459)
   * Indeksointi- ja tiedonhakuryhmältä päätös, että muutetaan järjestelmäasetus ongelman korjaamiseksi
 
+Etelästä pohjoiseen
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/paakayttajat2023)
 
