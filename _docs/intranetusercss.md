@@ -789,6 +789,17 @@ Versio: 22.11
 #catalog_advsearch #subtype { display:none; }
 ```
 
+#### Piilota nidehaussa Inventaarionumero-sarake
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio 22.11
+
+```
+/* Piilota inventaarionumero-sarake nidehaun tuloksissa */
+body#catalog_itemsearch.catalog td:nth-child(13) { display: none; }
+body#catalog_itemsearch.catalog th#item_inventoryno { display: none; }
+```
+
 ---
 
 ## Varaukset
