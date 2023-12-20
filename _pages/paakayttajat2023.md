@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 19.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Anni Rajala (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Anni Rajala (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi), Tuomas Kunttu ja Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
@@ -65,6 +65,8 @@ Etelästä pohjoiseen
 * Maksujen poistoajo-skriptin käyttöönotosta keskustellaan vielä Lapissa. EDIT: maksujen poistoajo otetaan myös Lapissa käyttöön 1.1.24.
 * Käyttäjältä on tullut kyselyä Kohan ajojen aikatauluista koskien mm. viestien lähetysaikaa ja maksujen muodostumisaikaa. Suunnitellaan tiedotusta asiasta.
 
+**Kyyti**
+* Pääkäyttäjät ovat keskenään miettineet työtehtäviä mm. vuosikellon muodossa.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/paakayttajat2023)
 
