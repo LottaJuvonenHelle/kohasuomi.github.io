@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 51
 
 Aika: 19.12.2023 klo 9.15 <br />
-Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Anni Rajala (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Anneli Österman ja Lari Strand (Koha-Suomi)
+Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Anni Rajala (Vaski), Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Anneli Österman ja Lari Strand (Koha-Suomi), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Finna-muutos: varaustunnus asiakasmääreenä HOLDID (holdid-parametrinimellä) Finnaan, jotta kutsumanimi-tieto vapautuu välitettäväksi omana tietonaan Finnaan. Jos uutta kutsumanimi-kenttää ei haluta näyttää/muuttaa Finnassa/Finnasta, muutos on tarpeeton ja voidaan jatkaa Finnan käyttöä ilman muutosta sellaisenaan ja ylläpitää othernames-tietoja pelkästään Kohassa. Jos tieto halutaan näkyviin Finnaan, pitää sopia aikataulu Finna-pluginin ja Finna-ympäristöjen muutokselle. Pitää sopia tapahtuvaksi samaan aikaan.
@@ -61,7 +61,11 @@ Etelästä pohjoiseen
 * Finna-toimiston kanssa selvitetty asiakkaan maksuissa näkyviä palautuskehotusten tekstejä. Tiketti: https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/21
 * Aspassa oli tullut palautettavaksi toisen OUTI-kirjaston nide, jolle Koha ei antanut palautustilanteessa ilmoitusta, että nide pitäisi kuljettaa kotikirjastoon, vaan nide jäi aivan kuin kellumaan palautuskirjastoon. Selvisi, että nide oli yhden OUTI-kirjaston siirtolainakokoelmassa. Ilmeisesti siirtolainatoiminto on huonontunut entisestään, koska se ei antanut ilmoitusta, että nide kuuluu jonkin kirjaston siirtolainakokoelmaan. Aiemmassa Koha-versiossa ohjelma vielä antoi ilmoituksen siirtolainakokoelmasta, vaikkei se asettanut nidettä kuljetustilaan. OUTI-kunta, joka on vielä käyttänyt siirtolainakokoelmia omissa pienissä kirjastoissa, luopui niiden käytöstä nyt kokonaan. 
 
+**Lappi**
+* Maksujen poistoajo-skriptin käyttöönotosta keskustellaan vielä Lapissa. EDIT: maksujen poistoajo otetaan myös Lapissa käyttöön 1.1.24.
+* Käyttäjältä on tullut kyselyä Kohan ajojen aikatauluista koskien mm. viestien lähetysaikaa ja maksujen muodostumisaikaa. Suunnitellaan tiedotusta asiasta.
 
+  
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-51) - [Palaa sivun alkuun](/paakayttajat2023)
 
 ## Viikko 50
