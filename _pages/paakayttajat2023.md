@@ -21,7 +21,7 @@ Läsnä: Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Anni 
   * tehdään, tieto lisätty tikettiin.
   * Pääkäyttäjät tekevät omiin tuotantoihin ja testeille (tarvittaessa myös nexteille) tarvittavat mäppäysmuutokset, jonka jälkeen pitää ajaa rebuildbiblios-ajo.
 * BTJ:n linkkien korjaaminen keskitetysti? www.btj.com --> armas.btj.fi
-  * Päivi tekee tiketin ja Anneli tutkii, voiko käyttää kuvailun erämuokkauksella. Jos ei voi, pitänee tehdä jonkinlainen skripti.
+  * Päivi tekee tiketin ( https://github.com/KohaSuomi/Koha/issues/982 )ja Anneli tutkii, voiko käyttää kuvailun erämuokkauksella. Jos ei voi, pitänee tehdä jonkinlainen skripti.
 * [Vkon 51 päivitys](https://github.com/KohaSuomi/Koha/discussions/980)
 * Onko kaikilla [Koha-Suomi-valikko](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#intranetnav) Kohassa?
   * Redmine-linkit voisi poistaa, jos sellaisia on.
