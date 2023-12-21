@@ -1641,6 +1641,28 @@ ORDER BY isbn, title
 LIMIT 2000
 ```
 
+#### Tuplatietueet, joilla on sama ISBN, versio 3
+
+Näyttää 000/05-merkkipaikan tiedon (n/c). Tulokset rajoitettu 200 riviin.
+
+```
+SELECT
+GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b. biblionumber, '">', b.biblionumber, ' ', '</a>') ORDER BY b.biblionumber SEPARATOR ', ') AS 'Tietueet',
+GROUP_CONCAT(DISTINCT ExtractValue(metadata, '//controlfield[@tag="001"]') ORDER BY b.biblionumber SEPARATOR ', ') AS '001',
+GROUP_CONCAT(DISTINCT ExtractValue(metadata, '//controlfield[@tag="003"]') ORDER BY b.biblionumber SEPARATOR ', ') AS '003',
+GROUP_CONCAT(SUBSTR(ExtractValue(metadata,'//leader'),6,1) ORDER BY b.biblionumber SEPARATOR ', ') AS '000/05',
+isbn,
+title AS 'Nimi',
+author AS 'Tekijä' 
+FROM biblioitems bi
+JOIN biblio b using (biblionumber)
+left join biblio_metadata using (biblionumber)
+GROUP BY CONCAT(bi.isbn)
+HAVING COUNT(CONCAT(bi.isbn))>1
+ORDER BY 1
+limit 200
+```
+
 #### Tuplatietueet, joilla sama EAN-tunnus
 
 Lisätty: 21.12.2023
