@@ -1574,6 +1574,91 @@ and i.holdingbranch = <<Sijaintikirjasto|branches>>
 order by 1 asc
 ```
 
+### Tuplatietueiden haku
+
+Tähän on kerätty useammanlaisia raportteja, joilla haetaan eri ehdoilla tuplatietueita. Huomioi, että raportit ovat hitaita.
+
+#### Tuplatietueet, joilla sama tekijä ja nimeke
+
+Lisätty: 21.12.2023
+Versio 22.11
+
+```
+SELECT
+GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=', biblionumber, '">', biblionumber, '</a>') ORDER BY biblionumber SEPARATOR ', ') AS 'Tietueet',
+title AS 'Nimi',
+author AS 'Tekijä' 
+FROM biblio 
+GROUP BY CONCAT(title,"/",author)
+HAVING COUNT(CONCAT(title,"/",author))>1
+```
+
+#### Tuplatietueet, joissa sama ISBN
+
+Lisätty: 21.12.2023
+Versio 22.11
+
+Huomioi, että tulokset on rajoitettu 500.
+
+```
+SELECT
+GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b. biblionumber, '">', b.biblionumber, ' ', ExtractValue(metadata, '//controlfield[@tag="003"]'), '</a>') ORDER BY b.biblionumber SEPARATOR ', ') AS 'Tietueet',
+isbn,
+title AS 'Nimi',
+author AS 'Tekijä' 
+FROM biblioitems bi
+JOIN biblio b using (biblionumber)
+left join biblio_metadata using (biblionumber)
+GROUP BY CONCAT(bi.isbn)
+HAVING COUNT(CONCAT(bi.isbn))>1
+ORDER BY 1
+limit 500
+```
+
+
+#### Tuplatietueet, joissa sama ISBN, versio 2
+
+Ei ota mukaan tietueita, joissa ISBN on nid, (kansio), (hft.), (inb.), (rengaskirja) tai sid. Huomioi, että tulokset on rajoitettu 2000 riviin.
+
+Lisätty: 21.12.2023
+Versio 22.11
+
+```
+SELECT
+GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=',biblio.biblionumber, '">', biblio.biblionumber, '</a>') ORDER BY biblio.biblionumber SEPARATOR ', ') AS 'Tietueet',isbn, title AS 'Nimi', author AS 'Tekijä' 
+FROM biblioitems
+JOIN biblio using (biblionumber)
+WHERE isbn is not null
+AND isbn not like '%nid%'
+AND isbn not like '%(kansio)%'
+AND isbn not like '%(hft.)%'
+AND isbn not like '%(inb.)%'
+AND isbn not like '%(rengaskirja)%'
+AND isbn not like '%sid%'
+GROUP BY CONCAT(isbn)
+HAVING COUNT(CONCAT(isbn))>1
+ORDER BY isbn, title
+LIMIT 2000
+```
+
+#### Tuplatietueet, joilla sama EAN-tunnus
+
+Lisätty: 21.12.2023
+Versio 22.11
+
+```
+SELECT
+GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b. biblionumber, '">', b.biblionumber, '</a>') ORDER BY b.biblionumber SEPARATOR ', ') AS 'Tietueet',
+ean,
+title AS 'Nimi',
+author AS 'Tekijä' 
+FROM biblioitems bi
+JOIN biblio b using (biblionumber)
+GROUP BY CONCAT(bi.ean)
+HAVING COUNT(CONCAT(bi.ean))>1
+ORDER BY 1
+```
+
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
