@@ -15,4 +15,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 1
 
+**Asiat**
+* [BTJ-linkkien korjaus](https://github.com/KohaSuomi/Koha/issues/982) / Anneli
+
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikko-1) - [Palaa sivun alkuun](/kohasuomi2024)
