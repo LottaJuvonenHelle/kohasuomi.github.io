@@ -67,6 +67,7 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Pääkäyttäjät ovat keskenään miettineet työtehtäviä mm. vuosikellon muodossa.
+* Kotkaan tilattu yksi Bibliothecan Rfid-harava testiin.
 
 **Siilinjärvi**
 * Siilin pitäisi olla valmis vanhentuneiden maksujen mitätöintiin
@@ -121,7 +122,7 @@ Vastaavia tapauksia on tullut tilanteissa, joissa maksuja on maksettu puolen yö
 * Keskusteltiin henkilökunnalta tulleesta käännösmuutostoiveesta ja todettiin, että niteistä puhuttaessa "Huomautus virkailijalle" on parempi kuin "Viesti virkailijalle". Tiketti:  https://github.com/KohaSuomi/Koha/issues/970
 
 **Kyyti**
-* Kotkassa harkittu Espoolaisen Broomworks Oy:n Lirpin (Library resource planner) käyttöönottoa.
+* Kotkasta muutama kävi Espoossa tutustumassa Lippulaiva-kirjastossa käytössä olevaan Lirpiin (Library resource planner).
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2023#viikko-50) - [Palaa sivun alkuun](/paakayttajat2023)
 
