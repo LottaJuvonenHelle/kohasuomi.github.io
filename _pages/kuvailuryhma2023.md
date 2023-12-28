@@ -44,8 +44,7 @@ Kokous avattiin ja sihteeriksi valittiin Suvi Kauranen.
 <ul>
    <li><a href="https://github.com/KohaSuomi/Koha/issues/915" target="_blank">Valutuksen siirtäminen broadcast biblios liitännäiselle</a> </li>
    <li>Tietuesiirtäjä ja siirtoraportti </li>
-</ul>
-<ul>
+   <ul>
    <li>Uuden valutusliitännäisen nimi: Tietuesiirtäjä.</li>
    <li>Vie/Tuo-nappi tuo tietueet edelleen Mikropalvelun kautta ja näiden tietueiden valutukset näkyvät vanhassa siirtoraportissa.</li>
    <li>Johanna ja Antti testanneet valutuksen toimivuutta OUTIn testikannassa.</li>
@@ -55,6 +54,7 @@ Kokous avattiin ja sihteeriksi valittiin Suvi Kauranen.
    <li>Joitakin puutteita on vielä, esim. osakohteiden 942$c ei toimi oikein, vaan kenttäsuojaus estää myös kokonaan uuden kentän siirtymisen.</li>
    <li>Sovittiin, että Johanna laittaa testauksen päälle myös Vaskin ja Vaaran testikantoihin.</li>
    <li>Tarkoitus on siirtää koko Mikropalvelun toiminto uudelle liitännäiselle seuraavan versiopäivityksen yhteydessä. Tietuesiirtäjä voidaan asentaa jo aiemmin, jos se todetaan toimivaksi.</li>
+   </ul>
 </ul>
 
 #### 4.	Kirjastopalvelun ja Ekstranetin toiminta ####
@@ -94,7 +94,7 @@ Kokous avattiin ja sihteeriksi valittiin Suvi Kauranen.
    <li><a href="https://github.com/KohaSuomi/Koha/issues/438" target="_blank">Vaski: Korjauksia osakohteiden aineistolajeihin (musiikkitallenne)</a> -> Onko muissa kimpoissa samoja ongelmia?</li>
 </ul>
 <ul>
-   <li>Marc-virheiden korjausehdotus -taulukkoon kimpat voivat merkitä haluavatko korjausajon. Antti laittaa taulukon Koha Teamsiin ja lähettää taulukon ryhmälle sähköpostilla, jotta taulukkoa voi kommentoida.</li>
+   <li>Marc-virheiden korjausehdotus -taulukkoon kimpat voivat merkitä haluavatko korjausajon. Antti laittaa taulukon Koha Teamsiin Kuvailu-kanavan tiedostoihin ja lähettää taulukon ryhmälle sähköpostilla, jotta taulukkoa voi kommentoida.</li>
    <li>Vaskin tiketti ollut auki todella pitkään. Toivottiin, että korjausajopyyntöjä (ja muitakin kuvailutikettejä) käsiteltäisiin nopeammin.</li>
    <li>Pohdittiin kuinka pitäisi toimia, jos yksi kimppa tekee korjausajopyynnön ja muut eivät huomaa, että kaikkiin paikalliskantoihin tehdään korjaus. Sovittiin, että tiketteihin voi jokainen kimppa kommentoida tahtooko ajon vai ei. Pidetään kuvailuryhmä hyvin ajan tasalla uusista tiketeistä. Antin taulukko on hyvä ja ehkäisee sitä, että jollekin kimpalle jää ajo tekemättä.</li>
 </ul>
