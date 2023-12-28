@@ -46,15 +46,15 @@ Kokous avattiin ja sihteeriksi valittiin Suvi Kauranen.
    <li>Tietuesiirtäjä ja siirtoraportti </li>
 </ul>
 <ul>
-	<li>Uuden valutusliitännäisen nimi: Tietuesiirtäjä.
-	<li>Vie/Tuo-nappi tuo tietueet edelleen Mikropalvelun kautta ja näiden tietueiden valutukset näkyvät vanhassa siirtoraportissa </li>
-	<li>Johanna ja Antti testanneet valutuksen toimivuutta OUTIn testikannassa.  </li>
-	<li>Osakohteet ovat toimineet hyvin. Nyt kaikki valuvat kerralla, eikä osa jää matkalle. </li>
-	<li>Osakohteet näkyvät tietuesiirtäjän ”siirtoraportilla” joko emon yhteydessä tai sitten erikseen, jos emolle ei ole tehty paikalliskannassa mitään muutosta. </li>
-	<li>Tietuesiirtäjän siirtoraportilla näkyy tietuenumeroiden lisäksi myös tekijä, nimeke ja aineistotyyppi. Tarvittaessa saa näkyviin myös tietueen koko Marcin. </li>
-	<li>Joitakin puutteita on vielä, esim. osakohteiden 942$c ei toimi oikein, vaan kenttäsuojaus estää myös kokonaan uuden kentän siirtymisen. </li>
-	<li>Sovittiin, että Johanna laittaa testauksen päälle myös Vaskin ja Vaaran testikantoihin. </li>
-	<li>Tarkoitus on siirtää koko Mikropalvelun toiminto uudelle liitännäiselle seuraavan versiopäivityksen yhteydessä. Tietuesiirtäjä voidaan asentaa jo aiemmin, jos se todetaan toimivaksi. </li>
+   <li>Uuden valutusliitännäisen nimi: Tietuesiirtäjä.</li>
+   <li>Vie/Tuo-nappi tuo tietueet edelleen Mikropalvelun kautta ja näiden tietueiden valutukset näkyvät vanhassa siirtoraportissa.</li>
+   <li>Johanna ja Antti testanneet valutuksen toimivuutta OUTIn testikannassa.</li>
+   <li>Osakohteet ovat toimineet hyvin. Nyt kaikki valuvat kerralla, eikä osa jää matkalle.</li>
+   <li>Osakohteet näkyvät tietuesiirtäjän ”siirtoraportilla” joko emon yhteydessä tai sitten erikseen, jos emolle ei ole tehty paikalliskannassa mitään muutosta.</li>
+   <li>Tietuesiirtäjän siirtoraportilla näkyy tietuenumeroiden lisäksi myös tekijä, nimeke ja aineistotyyppi. Tarvittaessa saa näkyviin myös tietueen koko Marcin.</li>
+   <li>Joitakin puutteita on vielä, esim. osakohteiden 942$c ei toimi oikein, vaan kenttäsuojaus estää myös kokonaan uuden kentän siirtymisen.</li>
+   <li>Sovittiin, että Johanna laittaa testauksen päälle myös Vaskin ja Vaaran testikantoihin.</li>
+   <li>Tarkoitus on siirtää koko Mikropalvelun toiminto uudelle liitännäiselle seuraavan versiopäivityksen yhteydessä. Tietuesiirtäjä voidaan asentaa jo aiemmin, jos se todetaan toimivaksi.</li>
 </ul>
 
 #### 4.	Kirjastopalvelun ja Ekstranetin toiminta ####
