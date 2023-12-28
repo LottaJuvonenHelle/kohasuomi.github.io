@@ -158,7 +158,7 @@ kohdassa [12.9.3 Sotuteekki](https://koha-suomi.fi/dokumentaatio/tyokalut/#1293-
 
 Syötä asiakkaan koko nimi ja syntymäaika. Muu nimi- kenttään voidaan tallentaa asiakkaan kutsumanimi, jos asiakas käyttää kutsumanimenä muuta kuin virallista etunimeään. Varaustunniste täyttyy automaattisesti. Huomaathan, että kimppasi Kohassa ei välttämättä näy kaikki kuvissa näkyvät kentät tai vaihtoehdot.
 
-![](/assets/files/docs/Asiakkaat/Varaustunnus1.png)
+![](/assets/files/docs/Asiakkaat/Muu nimi-kentta.png)
 
 Asiakastyyppeille on määritetty ikärajoituksia. Ohjelma tarkistaa
 syntymäajan mukaan, voiko asiakas kuulua asiakastyyppiin, joka hänelle 
