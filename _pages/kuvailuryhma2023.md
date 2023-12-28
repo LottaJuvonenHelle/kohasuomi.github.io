@@ -8,6 +8,115 @@ toc: true
 title: 'Koha-Suomen kuvailuryhmän muistiot 2023'
 ---
 
+## Kuvailuryhmän muistio 9/2023
+
+Aika: 14.12.2023 klo 13.15–14.40
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Tarja Mäkinen (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski), Anneli Österman (Koha-Suomi), Johanna Räisä (Koha-Suomi, kohdat 2 & 3)
+
+Poissa: Johanna Ranta (Kyyti)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Kokous avattiin ja sihteeriksi valittiin Suvi Kauranen.
+
+#### 2.	RDA- ja YSO-konversioiden tilanne ####
+<ul>
+   <li>RDA: <a href="https://github.com/KohaSuomi/Koha/issues/834" target="_blank">RDA-konversio kaikkiin kimppoihin, joissa sitä ei ole tehty</a> </li>
+	<ul>
+	<li>Johanna Räisä aloittanut RDA-konversiopaketin (USEMARCON) testaamisen testi-TäTi-tietokannassa. Tärkeimmät testiajot tehty, mutta esim. kyrillisten kirjainten ajoa ei ole testattu.</li>
+	<li>Konversiossa on tärkeää huomioida, että konversio-ohjelma ei osaa erottaa, onko tietokannassa jo osittain RDA:n mukaista tietoa, vaan ajaa muutokset kaikkiin kenttiin.</li>
+	<li>Keskusteltiin niiden kimppojen kokemuksista, joissa RDA-konversio on jo tehty. Konversiosääntöjä on tärkeää testata hyvin etukäteen, mutta myös jälkikäteen voi tehdä korjauksia. Vaskin kokemusten 	mukaan oleellista on kiinnittää huomiota käsin poimittuihin tietueisiin, koska niissä voi tapahtua poikkeuksia esim. musiikin lyhenteissä. Samoin ruotsinkielisen aineiston kanssa kannattaa olla 		tarkkana, sillä suomenkielinen konversio-ohjelma tekee tietueista helposti sekakielisiä.</li>
+	<li>Sovittiin, että jokainen kimppaa, johon paikalliskannan RDA-konversio on tulossa, kokoaa listan kriittisiksi kokemistaan bibliografisista tietueista, joita erityisesti halutaan testata ennen 		konversiota. Listalle kerätään esim. ruotsin-, venäjän- ja saamenkielistä aineistoa, erilaista musiikkiaineistoa (nuotteja, levyjä ja moniviestimiä) ja omia erikoisuuksia. </li>
+	<li>Listat toimitetaan Johannalle. Päivi tekee listasta tiketin GitHubiin. Listalle mieluiten biblionumberit. Listat valmiina tammikuun alussa. Listalle riittää tietueita sen verran kuin niitä 		haluaa käydä läpi tietueita tarkastellessa. Osakohteet on listattava myös erikseen, jos haluaa niitä mukaan. Listaukseen voi pyytää tarvittaessa apua kimpan pääkäyttäjiltä. Tiketti lisätty 15.12.: <a href="https://github.com/KohaSuomi/Koha/issues/974" target="_blank">RDA-konversion testaus</a></li>
+	<li>Jos testeissä ei ilmene mitään erityistä, Johanna ajaa tietokantoihin ensin ISBD-konversion (tarvittaessa) ja sen jälkeen RDA-konversion. Kyrillisten kirjainten konversiota ei välttämättä 		tarvita.</li>
+	</ul>
+   <li>YSO: <a href="https://github.com/KohaSuomi/Koha/issues/390" target="_blank">YSA-YSO-konversio kaikille kimpoille</a> </li>
+	<ul>
+	<li>Johanna aloittanut myös YSA-YSO-konversion testaamisen Testi-TäTissä. </li>
+	<li>Kaunokki-Kauno-konversiota ei tehdä tässä konversiossa. </li>
+	</ul>
+</ul>
+
+#### 3.	Valutuksen siirtäminen broadcast biblios -liitännäiselle ####
+<ul>
+   <li><a href="https://github.com/KohaSuomi/Koha/issues/915" target="_blank">Valutuksen siirtäminen broadcast biblios liitännäiselle</a> </li>
+   <li>Tietuesiirtäjä ja siirtoraportti </li>
+	<ul>
+	<li>Uuden valutusliitännäisen nimi: Tietuesiirtäjä.
+	<li>Vie/Tuo-nappi tuo tietueet edelleen Mikropalvelun kautta ja näiden tietueiden valutukset näkyvät vanhassa siirtoraportissa </li>
+	<li>Johanna ja Antti testanneet valutuksen toimivuutta OUTIn testikannassa.  </li>
+	<li>Osakohteet ovat toimineet hyvin. Nyt kaikki valuvat kerralla, eikä osa jää matkalle. </li>
+	<li>Osakohteet näkyvät tietuesiirtäjän ”siirtoraportilla” joko emon yhteydessä tai sitten erikseen, jos emolle ei ole tehty paikalliskannassa mitään muutosta. </li>
+	<li>Tietuesiirtäjän siirtoraportilla näkyy tietuenumeroiden lisäksi myös tekijä, nimeke ja aineistotyyppi. Tarvittaessa saa näkyviin myös tietueen koko Marcin. </li>
+	<li>Joitakin puutteita on vielä, esim. osakohteiden 942$c ei toimi oikein, vaan kenttäsuojaus estää myös kokonaan uuden kentän siirtymisen. </li>
+	<li>Sovittiin, että Johanna laittaa testauksen päälle myös Vaskin ja Vaaran testikantoihin. </li>
+	<li>Tarkoitus on siirtää koko Mikropalvelun toiminto uudelle liitännäiselle seuraavan versiopäivityksen yhteydessä. Tietuesiirtäjä voidaan asentaa jo aiemmin, jos se todetaan toimivaksi. </li>
+	</ul>
+</ul>
+
+#### 4.	Kirjastopalvelun ja Ekstranetin toiminta ####
+<ul>
+	<li>Kirjastopalvelulla on runsaasti teoksia, joihin ei tule kuvailua, vaikka Ekstranetissä lukee, että kuvaillaan. Usein syynä, että KP ei saa kuvailukappaletta. Esim. saamenkielinen aineisto odottaa 	hyvin pitkään. </li>
+	<li>Kirjastopalvelu on muuttamassa kuvailukäytäntöään niin, että vähintään kolmen kimpan on tilattava teos, jotta se kuvaillaan (koskee kirja-aineistoa). Helle-kimpalle kolmen kimpan vaatimus on 		ongelma, koska heillä on monta ruotsinkielistä kirjastoa, mutta kaikki samassa kimpassa. Sama ongelma koskee saamenkielistä aineistoa: tilataan samasta kimpasta ja usein pientoimittajilta. </li>
+	<li>Pohdittiin, tuleeko Kirjastopalvelun uudesta käytännöstä ongelmia ja kuinka Kirjastopalvelua tarvittaessa lähestytään. </li>
+	<li>Päätettiin odottaa uudistuksen käyttöönottoa ja katsoa pari kuukautta, kuinka alkaa sujua. </li>
+	<li>Päätettiin, että uudistuksen jälkeen kuvailua odotetaan noin 8–12 viikkoa ja sen jälkeen sitä karhutaan Kirjastopalvelusta. Voi myös kuvailla itse. </li>
+	<li>Keskusteltiin Kirjastopalvelu-tietueiden virheistä. Virheellisten tietueiden määrä on lisääntynyt, mutta hankala sanoa, onko virhe KP:n tekemä vai syntynyt myöhemmin Melindassa (esim. Helmet-		tietueiden erätuonti voi aiheuttaa sen). Välillä on haastavaa tietää, pitääkö virheestä ilmoittaa KP:lle vai ei. </li>
+	<li>Muutamassa kimpassa on havaittu, että tietueiden kansikuva- ja kuvauslinkit eivät toimi, jos tietueessa on BTJ-linkki. Ongelma koskeen vanhempaa, noin 2014–2015, julkaistua aineistoa. 			Kirjavälityksen ja Bookyn linkit toimivat. Asiasta on kysytty Kirjastopalvelusta, mutta ei ole saatu vielä vastausta. [Lisäys muistioon 15.12. Annan sähköposti: Finnassa tilanne on korjattu, niin 		että Finna ei hae kuvaa/kuvausta BTJ:n linkistä vaan käyttää Kirjavälityksen linkkiä tai muuta lähdettä. Finnassa pitäisi siis näkyä kansikuvat ja kuvaukset oikein, vaikka Kohan paikalliskannoissa ei 	näy. Kohassa myös tiketti: <a href="https://github.com/KohaSuomi/Koha/issues/982" target="_blank">BTJ:n vanhojen linkkien korjaus</a>] </li>
+</ul>
+
+#### 5.	Koha-Suomen yhteinen bibliografinen tietokanta ####
+<ul>
+   <li>Paikalliskannat ja TäTi yhdistetään yhdeksi tietokannaksi</li>
+   <li>Projekti alkaa vuoden 2024 aikana</li>
+   <li>Koha-seminaarissa 28.11. sovittuja alustavia askelmerkkejä:</li>
+	<ul>
+		<li>RDA- ja YSO-konversiot niissä kannoissa, joissa niitä ei ole vielä tehty </li>
+		<li>Paikalliskantojen siivous </li>
+		<li>Selvitettävä, millaisia paikallisia erityistietokantoja on ja millaisia kirjastokohtaisia tietoja on kirjattu kuvailutietueisiin ja mihin kenttiin aikojen saatossa (jatkossa nämä tiedot 			ehkä niteisiin tai varastotietueisiin) </li>
+	</ul>
+</ul>
+<ul>
+   <li>Aikataulu ei vielä selvillä, mutta Koha-Suomen pääprojekteja</li>
+   <li>Keskusteltiin aiheesta. Tietokantojen yhtenäistämisen kannalta tärkeintä on siivota paikalliskantoja. </li>
+   <li>Paikalliskantojen siivouksessa tärkeintä on poistaa/yhdistellä tuplatietueita.</li>
+   <li>Sovittiin, että jaetaan hyviä siivousvinkkejä, esim. raportteja.</li>
+   <li>TäTistä löytyy joitakin tuplatietueita etsiviä raportteja, joihin pääkäyttäjillä pääsy. Anneli lisää raportit Koha-Suomen yhteiseen raporttikirjastoon, josta kimppojen pääkäyttäjät voivat siirtää ne paikalliskantoihinsa. Raportit ovat hitaita. Myös OUTIin on tehty erilaisia raportteja, joita voi tarvittaessa siirtää raporttikirjastoon.</li>
+</ul>
+
+#### 6.	MARC-virheellisten tietueiden korjausajot ja muut massakorjaukset ####
+<ul>
+   <li>Taulukko Marc-virheiden korjausehdotuksista</li>
+   <li>Kaikille on tehty korjausajo: <a href="https://github.com/KohaSuomi/Koha/issues/931" target="_blank">Kiinteämittaisten kenttien korjaus: 008-MU/24–29 </a>, mutta se ei korjannut ihan kaikkia virheitä, vaan vain ne, joissa merkkijono alkaa |-merkillä.</li>
+   <li><a href="https://github.com/KohaSuomi/Koha/issues/438" target="_blank">Vaski: Korjauksia osakohteiden aineistolajeihin (musiikkitallenne)</a> -> Onko muissa kimpoissa samoja ongelmia?</li>
+</ul>
+<ul>
+   <li>Marc-virheiden korjausehdotus -taulukkoon kimpat voivat merkitä haluavatko korjausajon. Antti laittaa taulukon Koha Teamsiin ja lähettää taulukon ryhmälle sähköpostilla, jotta taulukkoa voi kommentoida.</li>
+   <li>Vaskin tiketti ollut auki todella pitkään. Toivottiin, että korjausajopyyntöjä (ja muitakin kuvailutikettejä) käsiteltäisiin nopeammin.</li>
+   <li>Pohdittiin kuinka pitäisi toimia, jos yksi kimppa tekee korjausajopyynnön ja muut eivät huomaa, että kaikkiin paikalliskantoihin tehdään korjaus. Sovittiin, että tiketteihin voi jokainen kimppa kommentoida tahtooko ajon vai ei. Pidetään kuvailuryhmä hyvin ajan tasalla uusista tiketeistä. Antin taulukko on hyvä ja ehkäisee sitä, että jollekin kimpalle jää ajo tekemättä.</li>
+</ul>
+
+#### 7.	Katsaus TäTin tietuepoistoihin ja -korjauksiin ####
+<ul>
+   <li>Melkein kaikki tarvittavat tietueet poistettu</li>
+   <li>Jäljellä virheellisiä RDA-tietueita ja tuplatietueita</li>
+   <li>Marc-virheellisiä tietueita vähän yli 2000 jäljellä</li>
+</ul>
+
+#### 8.	Tikettejä ####
+
+<a href="https://github.com/KohaSuomi/Koha/issues/945" target="_blank">Nalkutin käyttöön jo tietojen tuontivaiheessa TäTiin</a>
+
+#### 9.	Seuraava kokous ja ehdotuksia kevään kokouspäiviksi ####
+<ul>
+   <li>Tammikuun kokous on to 25.1. klo 13.15.</li>
+   <li>Muita kokousaikoja ei vielä sovittu.</li>
+</ul>
+
+---
 ## Kuvailuryhmän muistio 8/2023
 
 Aika: 8.11.2023 klo 13.15–14.45
@@ -44,7 +153,7 @@ Ryhmään uutena jäsenenä liittynyt Lastu-kirjastojen Marjukka Laapotti Lahden
   <li>RDA- ja YSO-konversiot tehdään nyt syksyn ja talven aikana, ei jäädä odottelemaan uutta RDA:ta</li>
 	<li>TäTi-putki edistyy: nyt mahdollista tutkia päivittäisten uusien Kirjastopalvelun tietueiden siirtymistä Melindaan.</li>
 	<li>Kokouksen jälkeen tehtyjä TäTi-putken testihavaintoja:</li>
-	<ul>
+ <ul>
   <li>Kirjastopalvelun korjaustietueet eivät aina yhdisty järkevästi Melinda-tietueeseen niissä tapauksissa, joissa KP ei korjaa tietueita itse Melindaan. Varsinkin kirjoitusvirheiden korjaus ei oikein onnistu, vaan näistä tulee tuplakenttiä. Myöskään esim. 250-kenttän lisätty painostieto ei siirry Melinda-tietueeseen, koska Melinda pitää tyhjääkin 250-kenttää painostietona.</li>
 	<li>Melinda-tietuetta suositaan yleensä aina, joten Melinda-tietueen pääkirjaus säilyy, vaikka olisi virheellinen. Myöskään pääkirjauksen korjaus ei onnistu korjaustietueen kautta.</li>
 	<li>Melindasta kysytty, voisiko erätuonnista erottaa tietueet, joiden pääkirjauksessa on eroja, mutta se ei onnistu, koska kyseessä on niin suuri työ, ettei siihen ole resursseja tällä hetkellä.</li>
