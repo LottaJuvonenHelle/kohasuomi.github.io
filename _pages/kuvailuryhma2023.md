@@ -54,7 +54,7 @@ Kokous avattiin ja sihteeriksi valittiin Suvi Kauranen.
 	<li>Joitakin puutteita on vielä, esim. osakohteiden 942$c ei toimi oikein, vaan kenttäsuojaus estää myös kokonaan uuden kentän siirtymisen. </li>
 	<li>Sovittiin, että Johanna laittaa testauksen päälle myös Vaskin ja Vaaran testikantoihin. </li>
 	<li>Tarkoitus on siirtää koko Mikropalvelun toiminto uudelle liitännäiselle seuraavan versiopäivityksen yhteydessä. Tietuesiirtäjä voidaan asentaa jo aiemmin, jos se todetaan toimivaksi. </li>
-	</ul>
+</ul>
 </ul>
 
 #### 4.	Kirjastopalvelun ja Ekstranetin toiminta ####
