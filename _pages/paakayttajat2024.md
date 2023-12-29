@@ -12,4 +12,10 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 1
 
-[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1-muistio) - [Palaa sivun alkuun](/paakayttajat2024)
+Aika: 2.1.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Kuittaus [tikettiin 459](https://github.com/KohaSuomi/Koha/issues/459), kun järjestelmäasetus muutettu.
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
