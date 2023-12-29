@@ -96,7 +96,7 @@ Kokous avattiin ja sihteeriksi valittiin Suvi Kauranen.
 <ul>
    <li>Marc-virheiden korjausehdotus -taulukkoon kimpat voivat merkitä haluavatko korjausajon. Antti laittaa taulukon Koha Teamsiin Kuvailu-kanavan tiedostoihin ja lähettää taulukon ryhmälle sähköpostilla, jotta taulukkoa voi kommentoida.</li>
    <li>Vaskin tiketti ollut auki todella pitkään. Toivottiin, että korjausajopyyntöjä (ja muitakin kuvailutikettejä) käsiteltäisiin nopeammin.</li>
-   <li>Pohdittiin kuinka pitäisi toimia, jos yksi kimppa tekee korjausajopyynnön ja muut eivät huomaa, että kaikkiin paikalliskantoihin tehdään korjaus. Sovittiin, että tiketteihin voi jokainen kimppa kommentoida tahtooko ajon vai ei. Pidetään kuvailuryhmä hyvin ajan tasalla uusista tiketeistä. Antin taulukko on hyvä ja ehkäisee sitä, että jollekin kimpalle jää ajo tekemättä.</li>
+   <li>Pohdittiin kuinka pitäisi toimia, jos yksi kimppa tekee korjausajopyynnön ja muut eivät huomaa, että kaikkiin paikalliskantoihin tehdään korjaus. Tiketteihin voi jokainen kimppa kommentoida tahtooko ajon vai ei. Pidetään kuvailuryhmä hyvin ajan tasalla uusista tiketeistä. Antin taulukko on hyvä ja ehkäisee sitä, että jollekin kimpalle jää ajo tekemättä.</li>
 </ul>
 
 #### 7.	Katsaus TäTin tietuepoistoihin ja -korjauksiin ####
