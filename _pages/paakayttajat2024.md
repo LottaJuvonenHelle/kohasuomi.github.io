@@ -18,4 +18,6 @@ Läsnä:
 **Yhteiset**
 * Kuittaus [tikettiin 459](https://github.com/KohaSuomi/Koha/issues/459), kun järjestelmäasetus muutettu.
 
+Pohjoisesta etelään.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
