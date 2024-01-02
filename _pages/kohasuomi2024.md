@@ -15,6 +15,10 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 1
 
+### Maanantai 3.1.2024 klo 12
+
+Läsnä:
+
 **Asiat**
 * [BTJ-linkkien korjaus](https://github.com/KohaSuomi/Koha/issues/982) / Anneli
 * [005-kentän päivittyminen lainattaessa](https://github.com/KohaSuomi/Koha/issues/924) jäänyt vastuuttamatta /Emmi
