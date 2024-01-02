@@ -26,5 +26,6 @@ Läsnä:
 * Terrapin-paikat ja nykytilanne / Kodo
 * Ensi viikon huolto, RedMinen sulkeminen, Multipath-murhe / Kodo
 * Lastun kuulumiset ja dumppi / Kodo
+* [Tiketin 693](https://github.com/KohaSuomi/Koha/issues/693) aikataulutus vkon 2 pääkäyttäjäpalsua varten.
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikko-1) - [Palaa sivun alkuun](/kohasuomi2024)
