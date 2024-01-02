@@ -17,6 +17,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 **Asiat**
 * [BTJ-linkkien korjaus](https://github.com/KohaSuomi/Koha/issues/982) / Anneli
-* [005-kentän päivittyminen lainattaessa](https://github.com/KohaSuomi/Koha/issues/924) jäänyt vastuuttamatta /Emmi 
+* [005-kentän päivittyminen lainattaessa](https://github.com/KohaSuomi/Koha/issues/924) jäänyt vastuuttamatta /Emmi
+* Kuinka usein nolla-branchiin päivitetään yhteisöön tulleet muutokset? Aina kun uusi stable release julkaistaan vai harvemmin? /Emmi
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikko-1) - [Palaa sivun alkuun](/kohasuomi2024)
