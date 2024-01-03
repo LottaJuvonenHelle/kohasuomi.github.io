@@ -17,15 +17,29 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ### Maanantai 3.1.2024 klo 12
 
-Läsnä:
+Läsnä: Emmi, Anneli, Kodo, Ari, Pasi, Lari, Lasse
 
 **Asiat**
 * [BTJ-linkkien korjaus](https://github.com/KohaSuomi/Koha/issues/982) / Anneli
+  * jos työ on tehtävissä erätyökaluilla, kimpat tekevät työn itse 
 * [005-kentän päivittyminen lainattaessa](https://github.com/KohaSuomi/Koha/issues/924) jäänyt vastuuttamatta / Emmi
+  * Pasi hoitaa. 
 * Kuinka usein nolla-branchiin päivitetään yhteisöön tulleet muutokset? Aina kun uusi stable release julkaistaan vai harvemmin? / Emmi
+  * Seuraillaan vielä miten nolla-branchin kanssa pärjäillään ja tehdään sitten tarkempi päätös.
 * Terrapin-paikat ja nykytilanne / Kodo
 * Ensi viikon huolto, RedMinen sulkeminen, Multipath-murhe / Kodo
-* Lastun kuulumiset ja dumppi / Kodo
-* [Tiketin 693](https://github.com/KohaSuomi/Koha/issues/693) aikataulutus vkon 2 pääkäyttäjäpalsua varten.
+  * mm. tuotantojen käyttiksien päivitys, [huoltotiedotteessa](https://github.com/KohaSuomi/Koha/discussions/993) tarkemmin
+  * [Redmine kiinni](https://github.com/KohaSuomi/Koha/discussions/994) samaan aikaan
+* Varmuuskopioiden tarkistus pois päältä ajastusongelman vuoksi 
+* Lastun kuulumiset ja dumppi / Kodo 
+* [Nidehaun tulosten järjestäminen julkaisuvuoden mukaan ei toimi oikein](https://github.com/KohaSuomi/Koha/issues/693) aikataulutus vkon 2 pääkäyttäjäpalsua varten.
+  * pääkäyttäjät hoitavat uudelleenmäppäykset (ja raporttien päivitykset)
+* Scrum:
+  * Kodo: ei ihmeempiä yllä olevien lisäks
+  * Pasi: sanasto, nextien redusointi
+  * Lasse: pluginien testailua versionvaihtoa varten
+  * Lari: varausten noutomuistutusajo
+  * Emmi: indeksistä poistumattomien tietueiden selvittelyä
+  * Anneli: versionvaihdon ominaisuuksien kirjaamista ylös, tilastojen päivitystä    
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikko-1) - [Palaa sivun alkuun](/kohasuomi2024)
