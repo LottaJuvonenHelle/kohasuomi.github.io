@@ -13,10 +13,19 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 2
+
+Aika: 8.1.2024 klo 9<br />
+Läsnä:
+
+**Asiat**
+* Statuksettomien tikettien läpikäynti
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-2) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 1
 
-### Keskiviikko 3.1.2024 klo 12
-
+Aika: Keskiviikko 3.1.2024 klo 12<br />
 Läsnä: Emmi, Anneli, Kodo, Ari, Pasi, Lari, Lasse
 
 **Asiat**
@@ -42,4 +51,4 @@ Läsnä: Emmi, Anneli, Kodo, Ari, Pasi, Lari, Lasse
   * Emmi: indeksistä poistumattomien tietueiden selvittelyä
   * Anneli: versionvaihdon ominaisuuksien kirjaamista ylös, tilastojen päivitystä    
 
-[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2023#viikko-1) - [Palaa sivun alkuun](/kohasuomi2024)
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-1) - [Palaa sivun alkuun](/kohasuomi2024)
