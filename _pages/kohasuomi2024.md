@@ -15,7 +15,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 1
 
-### Maanantai 3.1.2024 klo 12
+### Keskiviikko 3.1.2024 klo 12
 
 Läsnä: Emmi, Anneli, Kodo, Ari, Pasi, Lari, Lasse
 
