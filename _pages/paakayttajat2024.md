@@ -17,6 +17,8 @@ Läsnä:
 
 **Yhteiset**
 * Etenemisaikataulu [tiketille 693 eli publicationyear/copyrightdate -mäppäysmuutos](https://github.com/KohaSuomi/Koha/issues/693)
+* Miten kannattaa edetä [tiketin #780](https://github.com/KohaSuomi/Koha/issues/780) suhteen?
+  * Riittääkö raksien piilotus vai pitäisikö raksit saada vaikuttamaan.
 
 Etelästä pohjoiseen
 
