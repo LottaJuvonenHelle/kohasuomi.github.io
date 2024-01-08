@@ -16,13 +16,15 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 2
 
 Aika: 8.1.2024 klo 9<br />
-Läsnä: Lari, Kodo, Pasi, Ari, Johanna, Lasse, Kassu
+Läsnä: Lari, Kodo, Pasi, Ari, Johanna, Lasse, Kassu, Anneli
 
 **Asiat**
 * Statuksettomien tikettien läpikäynti
+  * ehdittiin käydä noin puolet, loput ensi viikolla.
 * Elasticsearch-päivitys
   * Elasticsearch-pluginit eivät päivity käyttöjärjestelmän päivityksessä. Lukitaan Elasticsearch-versio paketinhallinnassa tulevaisuudessa.
-  
+* Viikon 2 päivitys
+  * 2 muutosta tulossa.  
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-2) - [Palaa sivun alkuun](/kohasuomi2024)
 
