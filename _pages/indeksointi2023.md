@@ -24,7 +24,11 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Antti Heikkinen (OUTI
 
 Anneli kirjaa muistiot, koska muokkausoikeuksia ei ole kuin Annelilla ja Antilla (sekä Johannalla).
 
-Käytiin läpi osa tiketeistä ja päätökset kirjattiin tiketteihin. [Tiketti 840](https://github.com/KohaSuomi/Koha/issues/840) tuli kaikille kotitehtäväksi miettiä, miten kunkin mainitun kentän osalta kannattaisi toimia.
+Käytiin läpi nämä tiketit ja päätökset kirjattiin tiketteihin. 
+* [Nidetyyppien indeksointitarve #833](https://github.com/KohaSuomi/Koha/issues/833)
+* [Tietueen Perustiedot -näytön kohdehenkilö-asiasanalinkki ei toimi, kun kentällä on osakenttä 600c #459](https://github.com/KohaSuomi/Koha/issues/459) 
+
+[Tiketti 840](https://github.com/KohaSuomi/Koha/issues/840) tuli kaikille kotitehtäväksi miettiä, miten kunkin mainitun kentän osalta kannattaisi toimia.
 
 ### Muut asiat
 
