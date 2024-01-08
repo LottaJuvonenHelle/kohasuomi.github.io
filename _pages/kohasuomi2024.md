@@ -20,6 +20,9 @@ Läsnä: Lari, Kodo, Pasi, Ari, Johanna, Lasse
 
 **Asiat**
 * Statuksettomien tikettien läpikäynti
+* Elasticsearch-päivitys
+ * Elasticsearch-pluginit eivät päivity käyttöjärjestelmän päivityksessä. Lukitaan Elasticsearch-versio paketinhallinnassa tulevaisuudessa.
+  
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-2) - [Palaa sivun alkuun](/kohasuomi2024)
 
