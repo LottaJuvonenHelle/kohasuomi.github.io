@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 2
 
 Aika: 8.1.2024 klo 9<br />
-Läsnä:
+Läsnä: Lari, Kodo, Pasi, Ari, Johanna, Lasse
 
 **Asiat**
 * Statuksettomien tikettien läpikäynti
