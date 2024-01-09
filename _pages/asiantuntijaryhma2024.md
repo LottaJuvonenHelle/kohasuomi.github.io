@@ -15,7 +15,7 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän muistio 1/24
+## Asiantuntijaryhmän esityslista 1/24
 
 Aika: 15.1.2024 klo 13<br />
 Läsnä:
@@ -24,13 +24,17 @@ Läsnä:
 
 ### 2. Tiekartan päivitys
 
+Tiekartan päivitys, viimeksi päivitys on tehty lokakuussa 2023.
+
+[Tiekartta2023lokakuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/13872461/Tiekartta2023lokakuu.xlsx)
+
 ### 3. Kotipalvelutyöryhmän perustaminen
 
 Edellisessä kokouksessa päätettiin perustaa kotipalvelutyöryhmä, joka miettii, miten Finnaa voisi hyödyntää paremmin kotipalvelutyössä. Hyvät niksit ja käytännöt jakoon kaikkien kesken.
 
 ### 4. Versionvaihdon ominaisuuksien läpikäyntiä
 
-[Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues)https://github.com/KohaSuomi/Koha-23x/issues.
+[Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues)
 
 ### 5. Kehitysehdotusten läpikäyntiä
 
