@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: 9.1.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi),
 
 **Yhteiset**
 * Etenemisaikataulu [tiketille 693 eli publicationyear/copyrightdate -mäppäysmuutos](https://github.com/KohaSuomi/Koha/issues/693)
@@ -33,6 +33,11 @@ Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi)
   * [Redmine suljetaan](https://github.com/KohaSuomi/Koha/discussions/994)
 
 Etelästä pohjoiseen
+
+**Siilinjärvi**
+* Ei mitään merkittävää
+* Paitsi edelleen ihmetellään Finna-toimiston kanssa, miksi lainaushistoria Finnassa näkyy tietokoneella, mutta ei mobiililaitetta käytettäessä. Lainaushistoria tuntuu olevan asiakkaille kuitenkin tärkeä asia. Keskusteltiin laajemminkin lainaushistoriasta, esim. poistettujen niteiden puuttumisesta lainaushistoriassa.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-2) - [Palaa sivun alkuun](/paakayttajat2024)
 
