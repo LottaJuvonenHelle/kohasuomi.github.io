@@ -20,15 +20,22 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 15.1.2024 klo 13<br />
 Läsnä:
 
-### Arin ajankohtaiset
+### 1. Arin ajankohtaiset
 
-### Kotipalvelutyöryhmän perustaminen
+### 2. Tiekartan päivitys
+
+### 3. Kotipalvelutyöryhmän perustaminen
 
 Edellisessä kokouksessa päätettiin perustaa kotipalvelutyöryhmä, joka miettii, miten Finnaa voisi hyödyntää paremmin kotipalvelutyössä. Hyvät niksit ja käytännöt jakoon kaikkien kesken.
 
-
-### Versionvaihdon ominaisuuksien läpikäyntiä
+### 4. Versionvaihdon ominaisuuksien läpikäyntiä
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues)https://github.com/KohaSuomi/Koha-23x/issues.
 
-### Kehitysehdotusten läpikäyntiä
+### 5. Kehitysehdotusten läpikäyntiä
+
+### 6. Muut asiat
+
+### 7. Seuraava kokous
+
+5.2.2024 klo 13
