@@ -13,12 +13,20 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: 9.1.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * Etenemisaikataulu [tiketille 693 eli publicationyear/copyrightdate -mäppäysmuutos](https://github.com/KohaSuomi/Koha/issues/693)
+  * [Mäppäysmuutoksen teko-ohje](https://koha-suomi.fi/dokumentaatio/asetukset/#19-kohan-marc-m%C3%A4%C3%A4ritykset)
+  * Porrastetaan niin, että ajetaan kaksi kimppaa/yö. Mäppäysmuutos pitää tehdä ennen ajoa. Peukuta tiketissä seurantakommenttia, kun mäppäysmuutos on tehty. Lari täppäilee biblio-ajon täpät.
+    * 9.1. Lappi ja OUTI
+    * 10.1. Siili ja Vaara
+    * 11.1. Lumme Kyyti
+    * 15.1. Helle ja Kirkes
+    * 16.1. Vaski
 * Miten kannattaa edetä [tiketin #780](https://github.com/KohaSuomi/Koha/issues/780) suhteen?
   * Riittääkö raksien piilotus vai pitäisikö raksit saada vaikuttamaan.
+    * Päätös: piilotetaan raksit
 * [Haluaako joku testata](https://github.com/KohaSuomi/Koha/issues/628)?
 * [Vkon 2 päivitys](https://github.com/KohaSuomi/Koha/discussions/999)
 * [Huoltoikkuna keskiviikkona 10.1.2024](https://github.com/KohaSuomi/Koha/discussions/993)
