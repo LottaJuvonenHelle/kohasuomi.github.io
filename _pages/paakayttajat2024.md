@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 2
 
 Aika: 9.1.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Etenemisaikataulu [tiketille 693 eli publicationyear/copyrightdate -mäppäysmuutos](https://github.com/KohaSuomi/Koha/issues/693)
@@ -48,6 +48,10 @@ Etelästä pohjoiseen
 * Oulun kaupungin laskutusjärjestelmä muuttuu Intimestä Unit4:een.
 * Teoksen varaukset sivulla ”Saatavana, ei lainattavissa” (damaged-arvo) olevilla niteillä näkyy Varaus-sarakkeessa ”Nide vaurioitunut”. Edellisessä versossa käännöksenä oli ”Ei varattavissa”. Päätettiin, ettei tehdä käännöstä tälle.
 
+**Lappi**
+* kysyttiin miten niteiden tilat vaikuttavat OKM:n lainatilastoihin. Tieto löytyy OKM-raportin asetuksista.
+* Kemissä päivitetty CPU:n kassa ja yhteydet Kohaan katkenneet, asia ilmeisesti CPU:lla ja Kodolla hoidossa.
+* Lapin henkilökunnan Kysy Kohasta -tilaisuus suunnnittelussa, samoin käyttäjäryhmän kokous. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-2) - [Palaa sivun alkuun](/paakayttajat2024)
 
