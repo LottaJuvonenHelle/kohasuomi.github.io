@@ -38,27 +38,29 @@ asiakastyypiksi LAOMATOIMI-asiakastyypin.
 
 Jokainen lainaus- ja palautusautomaatti sekä ovikone tarvitsee SIP2-tunnuksen, jotta se voi keskustella Kohan SIP2-palvelimen kanssa ja suorittaa oman tehtävänsä. Jos palautusautomaatissa on useampi palauttava kone (tai ns. syöttöaukko), niin jokaiselle koneelle pitää tehdä oma SIP2-tunnus.
 
-Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Koha-Suomelle kimpan **pääkäyttäjät**.
+**Käyttäjätunnukset tekee** ja toimittaa salattuna automaatin toimittajille ja Koha-Suomelle kimpan **pääkäyttäjät**.
 
 ### Käyttäjätunnuksen luonti
 
-* jokaisella automaatilla/omatoimilaitteella täytyy tilastoinnin ja virheiden selvittelyjen vuoksi olla oma käyttäjätunnus Kohassa. Poikkeuksena on omatoimiovikoneet, joissa on kaksi oviyksikköä, esim. yksi ulko-ovella ja yksi kauempana sisäovella.
+* jokaisella automaatilla/omatoimilaitteella täytyy tilastoinnin ja virheiden selvittelyjen vuoksi olla oma käyttäjätunnus Kohassa. Poikkeuksena on omatoimiovikoneet, joissa on kaksi oviyksikköä, esim. yksi ulko-ovella ja yksi kauempana sisäovella. Niille riittää yksi tunnus.
 * kimpan pääkäyttäjät tekevät Kohaan uuden käyttäjätunnuksen, jonka asiakastyyppi on "Z Automaatti Z". Tunnuksen muodossa ja nimeämisessä kannattaa käyttää kaavaa, jolla tunnuksen tunnistaa tietyn kirjaston tunnukseksi. Esim. kirjaston lyhenne ja numeroita: ABCD0001. Tunnuksessa voi myös tulla esille automaatin tyyppi: Esim. ABCDLAI1
   * Huom. ei ääkkösiä tai erikoismerkkejä tunnukseen
 * laita tunnukselle vanhentumispäiväksi kuluva päivä (muutetaan myöhemmin).
   * Kyseessä on tietoturvakysymys. Jos tunnus joutuu vääriin käsiin, niin sillä ei pääse kirjautumaan, kun tunnus ei ole voimassa.
 * tunnukselle annetaan käyttäjäoikeudeksi _circulate_ -oikeus (valituksi tulee automaattisesti myös sen alaoikeudet, se on ok).
 * salasanan pitää olla pitkä (kyberturvallisuuskeskus suosittelee vähintään 15 merkkiä) ja monimutkainen eli sisältää vähintään sekä kirjaimia että numeroita. Salasanan pitää olla vahva, koska SIP2-tunnuksella on laaja pääsy mm. asiakkaiden tietoihin.
-* Salasanan tulee olla validia XML-koodia, eli kielletyt erikoismerkit on: & , < , > , " tai '  sen mukaan, kumpaa käytetty rajoittimena 
+* Salasanan tulee olla validia XML-koodia, eli seuraavat erikoismerkit ovat kiellettyjä: & , < , > , " tai ' 
 * merkitse asiakasmääreisiin automaatin tyyppi (lainausautomaatti, palautusautomaatti, ovikone jne) ja toimittaja.
   * [Automaattityypin ja toimittajan lisääminen asiakasmääreeksi](https://koha-suomi.fi/dokumentaatio/automaatit/#automaattityypin-ja-toimittajan-lis%C3%A4%C3%A4minen-asiakasm%C3%A4%C3%A4reeksi) -ohje
 
 ### Käyttäjätunnuksen toimittaminen Koha-Suomelle
 
-* käyttäjätunnus ja salasana toimitetaan järjestelmänkehittäjälle salatusti joko Matrixissa yksityisviestinä päivystäjälle/asiaa hoitavalle kehittäjälle, onetimesecretinä tai salattuna sähköpostina.
-* Muista tehdä uuden tunnuksen lisäämisestä aina myös tukipyyntö GitHubiin, jotta tieto ei hautaudu vain sähköpostiin/Matrixiin ja työ saadaan myös tilastoitua.
+* käyttäjätunnus ja salasana toimitetaan järjestelmänkehittäjälle salatusti joko
+  * Matrixissa yksityisviestinä päivystäjälle/asiaa hoitavalle kehittäjälle,
+  * onetimesecretinä tai salattuna sähköpostina support-lootaan (support (at) koha-suomi.fi).
+* Muista tehdä uuden tunnuksen lisäämisestä **aina myös tukipyyntö GitHubiin**, jotta tieto ei hautaudu vain sähköpostiin/Matrixiin ja työ saadaan myös tilastoitua.
 
-  * Onetimesecret
+  * Onetimesecretin käyttöohje
     * mene osoitteeseen onetimesecret.com ja liitä käyttäjätunnus ja salasana tekstikenttään. Lisäksi tarvitaan tieto, mille SIP2-palvelimelle tunnus ja salasana lisätään sekä sen kirjastotoimipisteen koodi missä automaatti sijaitsee.
     * luo onetimesecret siten, että se on voimassa 7 päivää ja kopioi annettu url-osoite (huom. älä kopioi osoiteriviltä vaan nettisivulla ilmoitettu osoite)
     * lähetä onetimesecret-osoite kehittäjille osoitteeseen support [at] koha-suomi.fi ja pyydä kuittaamaan, kun tunnukset on otettu talteen.
@@ -74,8 +76,10 @@ Käyttäjätunnukset tekee ja toimittaa salattuna automaatin toimittajille ja Ko
 
 ### Käyttäjätunnuksen toimittaminen automaatin toimittajalle
 
-* kimpan pääkäyttäjä toimittaa turvasähköpostilla tai onetimesecretinä SIP2-käyttäjätunnuksen, salasanan, organisaatiotunnuksen (institution, joka on sen kirjastotoimipisteen tunnus, jossa automaatti fyysisesti sijaitsee, esim. ABCD), SIP2-palvelimen osoitteen ja portin numeron salatusti automaatin/omatoimilaitteen toimittajalle, joka määrittää ne laitteelle.
-  * mene osoitteeseen onetimesecret.com ja liitä yllä mainitut tiedot tekstikenttään.
+* kimpan pääkäyttäjä toimittaa turvasähköpostilla tai onetimesecretinä SIP2-käyttäjätunnuksen, salasanan, organisaatiotunnuksen (institution, joka on sen kirjastotoimipisteen tunnus, jossa automaatti fyysisesti sijaitsee, esim. ABCD), SIP2-palvelimen osoitteen salatusti automaatin/omatoimilaitteen toimittajalle, joka määrittää ne laitteelle.
+
+* onetimesecretin käyttöohje:
+   * mene osoitteeseen onetimesecret.com ja liitä yllä mainitut tiedot tekstikenttään.
   * luo onetimesecret siten, että se on voimassa 7 päivää ja kopioi annettu url-osoite (huom. älä kopioi osoiteriviltä vaan nettisivulla ilmoitettu osoite)
   * lähetä onetimesecret-osoite automaatin toimittajalle ja pyydä kuittaamaan, kun tunnukset on otettu talteen.
   * kun olet saanut kuittauksen, että tunnukset ovat oikean henkilön hallussa, käy muokkaamassa tunnus voimaan jatkamalla asiakkaan käyttöoikeus (hae tunnus asiakashaulla -> alemman rivin kohta: Muita toimintoja -> Asiakkaan käyttöoikeuden jatkaminen)
