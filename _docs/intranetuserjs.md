@@ -1137,7 +1137,7 @@ $(document).ready(function () {
 /// LOPPU ///
 ```
 
-### Asiakastietojen piilotus Vastaanotettavat kuljetukset -raporilta
+### Asiakastietojen piilotus Vastaanotettavat kuljetukset -raportilta
 
 Vastaanotettat kuljetukset -raportilla näytetään asiakastietoja, jos kuljetettavaan niteeseen liittyy varaus. Tällä skriptillä asiakastiedot korvataan kuittaus-merkillä.
 
