@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 2
 
-Aika: 13.1.2024 klo 9.15<br />
+Aika: 9.1.2024 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
@@ -20,6 +20,9 @@ Läsnä:
 * Miten kannattaa edetä [tiketin #780](https://github.com/KohaSuomi/Koha/issues/780) suhteen?
   * Riittääkö raksien piilotus vai pitäisikö raksit saada vaikuttamaan.
 * [Haluaako joku testata](https://github.com/KohaSuomi/Koha/issues/628)?
+* [Vkon 2 päivitys](https://github.com/KohaSuomi/Koha/discussions/999)
+* [Huoltoikkuna keskiviikkona 10.1.2024](https://github.com/KohaSuomi/Koha/discussions/993)
+  * [Redmine suljetaan](https://github.com/KohaSuomi/Koha/discussions/994)
 
 Etelästä pohjoiseen
 
