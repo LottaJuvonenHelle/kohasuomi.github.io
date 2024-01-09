@@ -41,6 +41,13 @@ Etelästä pohjoiseen
 **Helle**
 * Asiakkaan maksujen poistosta muodostunut maksuihin hyvitettävää poistettavien maksujen arvosta. Voisiko johtua siitä, että ko. maksuja on poistettu kahdessa kirjastossa lähes samaan aikaan (maksutapahtumissa sekunnin aikaero accountlines-taulussa).
 
+**OUTI**
+* Muutamilla asiakastunnuksilla hävinnyt verkkokirjastosta Lainat-sivulta ”Uusi kaikki” toimintapainike. Ongelmasta laitettu Finna-tukeen.
+* Ilmoitetaan Finna-tukeen, että kaikille Koha-Suomen kimpoille voivat laittaa tuotantoon palautuskehotusten tekstit ja käännökset.
+* Koha-jumit 8.1. n. klo 9.37 ja 9.1. n. klo 9.32. Aiheuttajana OUTIa vaivanneet tietokantataulujen lukkiutumiset. Yritetään tehdä koha-suomimuutos, jolla näistä ongelmista päästäisiin eroon.
+* Oulun kaupungin laskutusjärjestelmä muuttuu Intimestä Unit4:een.
+* Teoksen varaukset sivulla ”Saatavana, ei lainattavissa” (damaged-arvo) olevilla niteillä näkyy Varaus-sarakkeessa ”Nide vaurioitunut”. Edellisessä versossa käännöksenä oli ”Ei varattavissa”. Päätettiin, ettei tehdä käännöstä tälle.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-2) - [Palaa sivun alkuun](/paakayttajat2024)
 
