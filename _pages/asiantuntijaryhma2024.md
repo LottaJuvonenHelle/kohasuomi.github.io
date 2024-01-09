@@ -38,6 +38,13 @@ Edellisessä kokouksessa päätettiin perustaa kotipalvelutyöryhmä, joka miett
 
 ### 5. Kehitysehdotusten läpikäyntiä
 
+* [Asiakkaan lainatietoihin uusinta-sarakkeeseen oletuksena rasti myös tänään erääntyville #261](https://github.com/KohaSuomi/Koha/issues/261)
+* [Asiakkaan eräpäiväkuittiin lainat eräpäiväjärjestykseen #218](https://github.com/KohaSuomi/Koha/issues/218)
+* [Palautusten määrä näkyviin kuitille/sähköpostiin #227](https://github.com/KohaSuomi/Koha/issues/227)
+* [Luettelointioikeuksiin erillinen tietueiden poisto-oikeus #221](https://github.com/KohaSuomi/Koha/issues/221)
+* [Uusi työkalu: Varausten viimeisen noutopäivän siirto eräajona #249](https://github.com/KohaSuomi/Koha/issues/249)
+* [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
+
 ### 6. Muut asiat
 
 ### 7. Seuraava kokous
