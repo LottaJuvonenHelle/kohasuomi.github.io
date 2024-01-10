@@ -183,13 +183,14 @@ GROUP BY HOUR(timestamp)
 
 ### Videopelien lainamäärät
 
-Raportti listaa tietueet, joiden aineistotyyppi on videopeli ja näyttää niiden hyllypaikan, konsolityypin (mikäli se on merkitty 753a-kenttään), viimeisimmän lainauspäivän, vastaanottopäivän ja niteen lainamäärän.
+Raportti listaa tietueet, joiden aineistotyyppi on videopeli ja näyttää niiden hyllypaikan, konsolityypin (mikäli se on merkitty 753a-kenttään), viimeisimmän lainauspäivän, vastaanottopäivän ja niteen lainamäärän. Raportti on hidas.
 
 Lisätty: 13.1.2022<br />
+Päivitetty: 10.1.2024<br />
 Lisääjä: Anneli Österman
 
 ```
-select title as 'Nimeke', location as 'Hyllypaikka', ExtractValue(metadata, '//datafield[@tag="753"]/subfield[@code="a"]') as 'Konsoli', datelastborrowed as 'Viimeksi lainattu', items.datereceived as 'Vastaanottopäivä', issues as 'Lainat'
+select title as 'Nimeke', items.location as 'Hyllypaikka', ExtractValue(metadata, '//datafield[@tag="753"]/subfield[@code="a"]') as 'Konsoli', datelastborrowed as 'Viimeksi lainattu', items.dateaccessioned as 'Vastaanottopäivä', issues as 'Lainat'
 from statistics
 left join items using (itemnumber)
 Left join biblio on items.biblionumber=biblio.biblionumber
@@ -2329,7 +2330,7 @@ GROUP BY biblionumber
 
 ### Uutuusluettelo
 
-Raportilla voi hakea nimekkeet, joihin on otettu vastaan (items.datereceived) nide valitulla aikavälillä. Mukaan ei ole aikakaus ja sanomalehdet. Rajaus kirjastoon tehdään kotikirjaston perusteella ja haetaan syötetyn kirjastojen kuntalyhenteen perusteella ja lisäksi pitää laittaa '%-merkki', esim. 'OU%' tai 'MLI%'.
+Raportilla voi hakea nimekkeet, joihin on otettu vastaan (items.dateaccessionded) nide valitulla aikavälillä. Mukaan ei ole aikakaus ja sanomalehdet. Rajaus kirjastoon tehdään kotikirjaston perusteella ja haetaan syötetyn kirjastojen kuntalyhenteen perusteella ja lisäksi pitää laittaa '%-merkki', esim. 'OU%' tai 'MLI%'.
 
 Lisääjä: Anneli Österman<br />
 Pvm: 22.9.2020
@@ -2339,7 +2340,7 @@ SELECT IFNULL(b.author, ExtractValue(bm.metadata,'//datafield[@tag="110"]/subfie
 FROM items i
 JOIN biblio b ON b.biblionumber = i.biblionumber
 JOIN biblio_metadata bm ON i.biblionumber=bm.biblionumber
-WHERE date(i.datereceived) BETWEEN <<AloitusPvm |date>> AND <<LopetusPvm |date>>
+WHERE date(i.dateaccessioned) BETWEEN <<AloitusPvm |date>> AND <<LopetusPvm |date>>
 AND i.homebranch LIKE <<Kunnan lyhenne ja %-merkki>> 
 and i.itype not in ('ALEHTI', 'SLEHTI')
 AND i.notforloan !=-1
@@ -2696,7 +2697,7 @@ ORDER BY 1 DESC
 
 ### Yleistä hankintatilastoista
 
-Raportit laskee hankitut niteet ja niiden perustuen niteen datereceived-tietoon, kotikirjastoon, aineistolajiin ja niteeseen merkittyyn hankintahintaan (price). Mukaan ei tule niteet, jotka ovat Tilattu-tilassa (notforloan-arvona -1). 
+Raportit laskee hankitut niteet ja niiden perustuen niteen dateaccessioned-tietoon, kotikirjastoon, aineistolajiin ja niteeseen merkittyyn hankintahintaan (price). Mukaan ei tule niteet, jotka ovat Tilattu-tilassa (notforloan-arvona -1). 
 
 Raporteissa on käytetty Koha-Suomen yhdessä sovittuja aineistolajeja. Mikäli kimpassa ei ole käytössä ne, muokkaa lyhenteet vastaamaan oman kimpan aineistolajilyhenteitä.
 
@@ -2707,7 +2708,7 @@ Raportteja ajaessa pitää kenttään kirjoittaa parametriksi kirjastolyhenteen 
 
 ### Hankinta OKM-aineistolajeittain
 
-Raporti on jaoteltu OKM:n mukaisiin aineistolajeihin ja tulokset on ryhmitelty hyllypaikan mukaan. Ihan sillä, että tuloksia pystyy arvioimaan vähän tarkemmin. Osion alimmaisena on aina sen osion yhteissumma. Raportti näyttää 200 riviä, mikä pitäisi riittää näyttämään kaikki rivit kerralla. Käyttäjän ei tarvitse ottaa näkyville enemmän rivejä tai siirtyä seuraaville sivuille tuloksissa. Jos summa ei riitä, muokkaa LIMIT-sanojen jälkeen isompi numero.
+Raportti on jaoteltu OKM:n mukaisiin aineistolajeihin ja tulokset on ryhmitelty hyllypaikan mukaan. Ihan sillä, että tuloksia pystyy arvioimaan vähän tarkemmin. Osion alimmaisena on aina sen osion yhteissumma. Raportti näyttää 200 riviä, mikä pitäisi riittää näyttämään kaikki rivit kerralla. Käyttäjän ei tarvitse ottaa näkyville enemmän rivejä tai siirtyä seuraaville sivuille tuloksissa. Jos summa ei riitä, muokkaa LIMIT-sanojen jälkeen isompi numero.
 
 Jos kimpassa ei ole käytössä Koha-Suomen yhteiset aineistolejit, äänitteiden jako musiikki/muut onnistuu tällä sivulla alempana olevalla raportilla.
 
@@ -2715,7 +2716,7 @@ Jos kimpassa ei ole käytössä Koha-Suomen yhteiset aineistolejit, äänitteide
 ```
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Kaikki aineistolajit paitsi lehdet'
 FROM items
-WHERE items.datereceived BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31')
+WHERE items.dateaccessioned BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31')
 AND convert(items.homebranch using 'utf8') like (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
 AND itype not in ('ALEHTI', 'SLEHTI')
 AND notforloan not in ('-1')
@@ -2724,7 +2725,7 @@ UNION ALL
 
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Kirjat'
 FROM items
-WHERE items.datereceived BETWEEN @AloitusPvm AND @LopetusPvm 
+WHERE items.dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm 
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND items.itype='KIRJA'
 AND notforloan not in ('-1')
@@ -2734,7 +2735,7 @@ UNION ALL
 
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Äänitteet'
 FROM items
-WHERE items.datereceived BETWEEN @AloitusPvm AND @LopetusPvm 
+WHERE items.dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm 
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='CDMUSA' OR items.itype='AANILEVY' OR items.itype='KASETTIMU' OR items.itype='KASETTIPU' OR items.itype='CDPUHE')
 AND notforloan not in ('-1')
@@ -2743,7 +2744,7 @@ GROUP BY items.permanent_location WITH ROLLUP LIMIT 200
 UNION ALL
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Musiikkiäänitteet'
 FROM items
-WHERE datereceived BETWEEN @AloitusPvm AND @LopetusPvm 
+WHERE dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm 
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='AANILEVY' OR items.itype='KASETTIMU' OR items.itype='CDMUSA')
 AND notforloan !='-1'
@@ -2752,7 +2753,7 @@ GROUP BY items.permanent_location WITH ROLLUP LIMIT 200
 UNION ALL
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Puheäänitteet'
 FROM items
-WHERE datereceived BETWEEN @AloitusPvm AND @LopetusPvm 
+WHERE dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm 
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='KASETTIPU' OR items.itype='CDPUHE')
 AND notforloan !='-1'
@@ -2761,7 +2762,7 @@ GROUP BY items.permanent_location WITH ROLLUP LIMIT 200
 UNION ALL
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Muut aineistot'
 FROM items
-WHERE items.datereceived BETWEEN @AloitusPvm AND @LopetusPvm
+WHERE items.dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='ARTIKKELI' OR items.itype='KARTTA' OR items.itype='DIA' OR items.itype='ESINE' OR items.itype='KASIKIRJ' OR items.itype='KUVA' OR items.itype='MIKROF' OR items.itype='MIKROK' OR items.itype='MONIVIES' OR items.itype='TYOPIIR' OR items.itype='KONSOLIPE' OR items.itype='CELIA')
 AND notforloan !='-1'
@@ -2770,7 +2771,7 @@ GROUP BY items.permanent_location WITH ROLLUP LIMIT 200
 UNION ALL
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Videotallenteet'
 FROM items
-WHERE items.datereceived BETWEEN @AloitusPvm AND @LopetusPvm
+WHERE items.dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='DVD' OR items.itype='BLURAY' OR items.itype='VIDEOKAS')
 AND notforloan !='-1'
@@ -2779,7 +2780,7 @@ GROUP BY items.permanent_location WITH ROLLUP LIMIT 200
 UNION ALL
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Elektroninen'
 FROM items
-WHERE items.datereceived BETWEEN @AloitusPvm AND @LopetusPvm
+WHERE items.dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='EAANIKIRJA' OR items.itype='VERKKOAIN' OR items.itype='ELEHTI')
 AND notforloan !='-1'
@@ -2788,7 +2789,7 @@ GROUP BY items.permanent_location WITH ROLLUP LIMIT 200
 UNION ALL
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Nuotit ja partituurit'
 FROM items
-WHERE items.datereceived BETWEEN @AloitusPvm AND @LopetusPvm
+WHERE items.dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='NUOTTI' OR items.itype='PARTITUURI')
 AND notforloan !='-1'
@@ -2797,7 +2798,7 @@ GROUP BY items.permanent_location WITH ROLLUP LIMIT 200
 UNION ALL
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', sum(items.price) AS 'Hinta niteissä', 'Lehdet'
 FROM items
-WHERE items.datereceived BETWEEN @AloitusPvm AND @LopetusPvm
+WHERE items.dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='ALEHTI' OR items.itype='ELEHTI' OR items.itype='SLEHTI')
 AND notforloan !='-1'
@@ -2813,7 +2814,7 @@ Raportissa on käytetty Koha-Suomen yhdessä sovittuja aineistolajeja. Mikäli k
 ```
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', 'Tietokirjat'
 FROM items
-WHERE datereceived BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
+WHERE dateaccessioned BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
 AND convert(items.homebranch using 'utf8') like (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
 AND itype='KIRJA'
 AND notforloan !='-1'
@@ -2823,7 +2824,7 @@ UNION ALL
 
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', 'Kaunokirjat'
 FROM items
-WHERE datereceived BETWEEN @AloitusPvm AND @LopetusPvm
+WHERE dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND items.itype='KIRJA'
 AND notforloan !='-1'
@@ -2839,7 +2840,7 @@ Raportti laskee kirja-aineiston hankinnan kielen mukaan. Kielitieto haetaan tiet
 SELECT SUBSTR(ExtractValue(biblio_metadata.metadata,'//controlfield[@tag="008"]'),36,3) AS 'Kieli', count(items.itemnumber) AS 'Hankittu', 'Suomenkielisiä'
 FROM items
 JOIN biblio_metadata using (biblionumber)
-WHERE datereceived BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
+WHERE dateaccessioned BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
 AND convert(items.homebranch using 'utf8') like (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
 AND itype='KIRJA'
 AND notforloan !='-1'
@@ -2850,7 +2851,7 @@ UNION ALL
 SELECT SUBSTR(ExtractValue(biblio_metadata.metadata,'//controlfield[@tag="008"]'),36,3) AS 'Kieli', count(items.itemnumber) AS 'Hankittu', 'Ruotsinkielisiä'
 FROM items
 JOIN biblio_metadata using (biblionumber)
-WHERE datereceived BETWEEN @AloitusPvm AND @LopetusPvm 
+WHERE dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm 
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND itype='KIRJA'
 AND notforloan !='-1'
@@ -2861,7 +2862,7 @@ UNION ALL
 SELECT SUBSTR(ExtractValue(biblio_metadata.metadata,'//controlfield[@tag="008"]'),36,3) AS 'Kieli', count(items.itemnumber) AS 'Hankittu', 'Muun kielisiä'
 FROM items
 JOIN biblio_metadata using (biblionumber)
-WHERE datereceived BETWEEN @AloitusPvm AND @LopetusPvm
+WHERE dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND itype='KIRJA'
 AND notforloan !='-1'
@@ -2879,7 +2880,7 @@ Jako perustuu niteen cn_sort-kentässä olevaan luokkatietoon. cn_sort-kentän t
 ```
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', 'Muut'
 FROM items
-WHERE datereceived BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
+WHERE dateaccessioned BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
 AND convert(items.homebranch using 'utf8') like (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
 AND (items.itype='CD' OR items.itype='LP' OR items.itype='KA' OR items.itype='MP' OR items.itype='SI')
 AND (cn_sort like '0%' OR cn_sort like '1%' OR cn_sort like '2%' OR cn_sort like '3%' OR cn_sort like '4%' OR cn_sort like '5%' OR cn_sort like '6%' OR cn_sort like '70%' OR cn_sort like '71%' OR cn_sort like '72%' OR cn_sort like '73%' OR cn_sort like '74%' OR cn_sort like '75%' OR cn_sort like '76%' OR cn_sort like '77%' OR cn_sort like '79%' OR cn_sort like '8%' OR cn_sort like '9%' OR cn_sort like '')
@@ -2889,7 +2890,7 @@ UNION ALL
 
 SELECT items.permanent_location AS 'hyllypaikka', count(items.itemnumber) AS 'Hankittu', 'Musiikki'
 FROM items
-WHERE datereceived BETWEEN @AloitusPvm AND @LopetusPvm
+WHERE dateaccessioned BETWEEN @AloitusPvm AND @LopetusPvm
 AND convert(items.homebranch using 'utf8') like @Kunta
 AND (items.itype='CD' OR items.itype='LP' OR items.itype='KA' OR items.itype='MP' OR items.itype='SI')
 AND cn_sort like '78%'
@@ -2899,16 +2900,16 @@ GROUP BY items.permanent_location WITH ROLLUP LIMIT 200
 
 ### Listaus kaikista vuonna 2020 hankituista niteistä
 
-Tällä raportilla pystyy hakemaan listan kaikista niteistä, joiden datereceived-tieto on vuodelta 2020. Mukaan ei tule Tilattu-tilaiset (notforloan = -1) niteet eikä lehdet. Viivakoodi-sarakkeessa on linkki, joka vie niteen muokkaukseen. Tulokset järjestetään ensin aineistolajin, sen jälkeen vastaanottopvm:n, sitten tekijän ja sen jälkeen nimekkeen mukaan. Voit muokata järjestystä ORDER BY -rivillä vaihtamalla sarakkeet haluttuun järjestykseen (esim. aineistolaji on sarake numero 8).
+Tällä raportilla pystyy hakemaan listan kaikista niteistä, joiden dateaccessioned-tieto on vuodelta 2020. Mukaan ei tule Tilattu-tilaiset (notforloan = -1) niteet eikä lehdet. Viivakoodi-sarakkeessa on linkki, joka vie niteen muokkaukseen. Tulokset järjestetään ensin aineistolajin, sen jälkeen vastaanottopvm:n, sitten tekijän ja sen jälkeen nimekkeen mukaan. Voit muokata järjestystä ORDER BY -rivillä vaihtamalla sarakkeet haluttuun järjestykseen (esim. aineistolaji on sarake numero 8).
 
 Raporttia voi käyttää apuna, kun tutkii, onko niteissä virheitä esim. hyllypaikoissa tai signumeissa.
 
 ```
-SELECT title as 'Nimeke', author as 'Tekijä', ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]') AS 'Julkaisuvuosi', CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',items.biblionumber,'&itemnumber=',items.itemnumber,'" target="_blank">',items.barcode,'</a>') AS 'Viivakoodi', location as 'Hyllypaikka', itemcallnumber as 'Signum', cn_sort as 'Luokka ja pääsana', itype as 'Aineistolaji', datereceived as 'Vastaanottopvm'
+SELECT title as 'Nimeke', author as 'Tekijä', ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]') AS 'Julkaisuvuosi', CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',items.biblionumber,'&itemnumber=',items.itemnumber,'" target="_blank">',items.barcode,'</a>') AS 'Viivakoodi', location as 'Hyllypaikka', itemcallnumber as 'Signum', cn_sort as 'Luokka ja pääsana', itype as 'Aineistolaji', dateaccessioned as 'Vastaanottopvm'
 FROM items
 JOIN biblio using (biblionumber)
 JOIN biblio_metadata bm using (biblionumber)
-WHERE datereceived BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
+WHERE dateaccessioned BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
 AND convert(items.homebranch using 'utf8') like (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
 AND itype not in ('ALEHTI', 'SLEHTI')
 AND notforloan not in ('-1')
@@ -2920,11 +2921,11 @@ ORDER BY 8,9,2,1
 Raportti listaa niteet, joiden signum on pelkästään numero eli niteen cn_sort on todennäköisesti puutteellinen/virheellinen. Näiltä niteiltä ei pystytä määrittämään luokkaan perustuvia tietoja (tieto/kauno, musiikki/muu). Korjaa tarvittaessa signumit ennen tilastojen ottamista.
 
 ```
-SELECT title as 'Nimeke', author as 'Tekijä', ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]') AS 'Julkaisuvuosi', CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',items.biblionumber,'&itemnumber=',items.itemnumber,'" target="_blank">',items.barcode,'</a>') AS 'Viivakoodi', location as 'Hyllypaikka', itemcallnumber as 'Signum', cn_sort as 'Luokka ja pääsana', itype as 'Aineistolaji', datereceived as 'Vastaanottopvm'
+SELECT title as 'Nimeke', author as 'Tekijä', ExtractValue(bm.metadata, '//datafield[@tag="264"]/subfield[@code="c"]') AS 'Julkaisuvuosi', CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?op=edititem&biblionumber=',items.biblionumber,'&itemnumber=',items.itemnumber,'" target="_blank">',items.barcode,'</a>') AS 'Viivakoodi', location as 'Hyllypaikka', itemcallnumber as 'Signum', cn_sort as 'Luokka ja pääsana', itype as 'Aineistolaji', dateaccessioned as 'Vastaanottopvm'
 FROM items
 JOIN biblio using (biblionumber)
 JOIN biblio_metadata bm using (biblionumber)
-WHERE datereceived BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
+WHERE dateaccessioned BETWEEN (@AloitusPvm:= '2020-01-01') AND (@LopetusPvm:= '2020-12-31') 
 AND convert(items.homebranch using 'utf8') like (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
 AND itemcallnumber REGEXP '^[0-9]'
 AND itype not in ('ALEHTI', 'SLEHTI')
