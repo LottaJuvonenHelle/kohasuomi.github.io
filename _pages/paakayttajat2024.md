@@ -22,7 +22,7 @@ Läsnä:
 ## Viikko 2
 
 Aika: 9.1.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Mikko Liimatainen (Vaski)
+Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Mikko Liimatainen (Vaski), Annika Helastila, Elina Uotila (Kirkes)
 
 **Yhteiset**
 * Etenemisaikataulu [tiketille 693 eli publicationyear/copyrightdate -mäppäysmuutos](https://github.com/KohaSuomi/Koha/issues/693)
@@ -78,6 +78,9 @@ asetuksissa meidän järjestelmissä.
 * Varauksen keskeytyksessä viimeistä päivää ei lasketa keskytykseen mukaan. Tämä on toisin aiempaa käsitystä, jonka takia käänösteksteissä ja verkkokirjastossa puhutaan keskeytyksen viimeisestä voimassaolopäivästä
 * Järjestelmänvaihdon ajalta huomattiin maksuja, joissa maksun muodostumispäivä on virheellisesti 4.6.2021. Nämä maksut eivät nyt poistu automaattisesti niin kuin pitäisi.
 * Puppe ollut käytössä muutaman viikon ajan. Tunnelmat olleet positiivisia. Voidaan järjestää esittely muillekin Pupen käytöstä.
+
+**Kirkes**
+* Sarastian mukaan zip-tiedostona tulevat yksittäiset laskut ovat liian työläiltä. Kuitenkin Vaskista lähtevät laskut samalla tavalla. Jatketaan asian selvittelyä ensi viikolla, kun Emmi palaa lomalta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-2) - [Palaa sivun alkuun](/paakayttajat2024)
 
