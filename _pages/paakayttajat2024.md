@@ -22,7 +22,7 @@ Läsnä:
 ## Viikko 2
 
 Aika: 9.1.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * Etenemisaikataulu [tiketille 693 eli publicationyear/copyrightdate -mäppäysmuutos](https://github.com/KohaSuomi/Koha/issues/693)
@@ -106,5 +106,10 @@ Pohjoisesta etelään.
 * Asiakkaalta tuli palautetta, että hänen kahdesta lainasta vain toisesta oli tullut lainakuitti sähköpostiin.Tiketti: [OUTI: Kaikki asiakkaan lainat eivät muodostuneet "Lainasit tänään"-viestiin · Issue #991 · KohaSuomi/Koha (github.com). ](https://github.com/KohaSuomi/Koha/issues/991)
 * Finnassa näkyvien palautuskehotusten otsikon ja selitteiden tekstimuutokset. Tiketti: [Finnassa näkyvien palautuskehotusten otsikon ja selitteiden muutokset · Issue #21 · KohaSuomi/Finna-kehitysehdotukset (github.com).](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/21) Voisiko kimpat, joissa ruotsinkieliset sivut käytössä, tarkistaa, että palautuskehotusten tekstit näkyvät myös ruotsiksi oikein. Pyydetään sitten Finna-tukea laittamaan käännökset kaikille kimpoille tuotantoon.
 * Raahen pieni Haapajoen kirjaston toiminta laikkaa 1.2.2024. Tehtävänä lakkautukseen liittyviä toimenpiteitä.
+
+**Vaski**
+* Varauksen keskeytyksessä viimeistä päivää ei lasketa keskytykseen mukaan. Tämä on toisin aiempaa käsitystä, jonka takia käänösteksteissä ja verkkokirjastossa puhutaan keskeytyksen viimeisestä voimassaolopäivästä
+* Järjestelmänvaihdon ajalta huomattiin maksuja, joissa maksun muodostumispäivä on virheellisesti 4.6.2021. Nämä maksut eivät nyt poistu automaattisesti niin kuin pitäisi.
+* Puppe ollut käytössä muutaman viikon ajan. Tunnelmat olleet positiivisia. Voidaan järjestää esittely muillekin Pupen käytöstä.
   
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-1) - [Palaa sivun alkuun](/paakayttajat2024)
