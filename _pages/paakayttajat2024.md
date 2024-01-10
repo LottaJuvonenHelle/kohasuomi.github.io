@@ -16,7 +16,7 @@ Aika: 16.1.2024 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-*  [Vastaanotettavien kuljetusten listalla henkilötietoja #687](https://github.com/KohaSuomi/Koha/issues/687)
+
 
    
 ## Viikko 2
