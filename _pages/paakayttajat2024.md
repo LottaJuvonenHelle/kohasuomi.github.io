@@ -22,7 +22,7 @@ Läsnä:
 ## Viikko 2
 
 Aika: 9.1.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Anneli Österman, Kassu Pohto, Lari Strand (Koha-Suomi), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Etenemisaikataulu [tiketille 693 eli publicationyear/copyrightdate -mäppäysmuutos](https://github.com/KohaSuomi/Koha/issues/693)
@@ -69,6 +69,10 @@ lainattavaksi. Testi-Finnassa varauspainike ei tullut ollenkaan näkyviin, jos a
 asiakas oli samasta kirjastosta kuin esine, varauspainike tuli näkyviin. Kysyin neuvoa myös Vaskista, mutta ei sielläkään keksitty mikä olisi eri tavalla
 asetuksissa meidän järjestelmissä.
 * Hyllyvarauslista on joidenkin mielestä epäselvä, mikä kummastuttaa.
+
+**Lumme**
+* Lumpeissa ollut syksyllä usein indeksointivirheitä tietueiden poistojen jälkeen. Ongelma näyttää johtuvan siitä, että Koha luo indekseille replikan, joka ei toimi. Nyt nämä replikat on tiputettu pois.
+* Asiakas toivoi Finnaan tulostettavaa versiota lainaushistoriasta. Tämä ei ole käytännöllistä listan jatkuvan päivittymisen takia, joten asiaa ei viedä eteenpäin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-2) - [Palaa sivun alkuun](/paakayttajat2024)
 
