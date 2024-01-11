@@ -81,6 +81,8 @@ asetuksissa meidän järjestelmissä.
 
 **Kirkes**
 * Sarastian mukaan zip-tiedostona tulevat yksittäiset laskut ovat liian työläiltä. Kuitenkin Vaskista lähtevät laskut samalla tavalla. Jatketaan asian selvittelyä ensi viikolla, kun Emmi palaa lomalta.
+* Lisätty Tarramuutos -tila käyttöön ohjeen (https://github.com/KohaSuomi/Koha/issues/799) mukaisesti. Ihmetellään sen toimintaa vielä.
+* Toivottiin Videopelien lainamäärät -raportin korjausta ja kyseltiin mahdollisuutta selvittää seutulainojen lukumäärää.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-2) - [Palaa sivun alkuun](/paakayttajat2024)
 
