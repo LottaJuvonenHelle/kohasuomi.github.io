@@ -16,7 +16,7 @@ Aika: 16.1.2024 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-
+* Onko [Integraatiot-lista](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) oman kimpan osalta ajantasalla? Uusia, poistuneita?
 
    
 ## Viikko 2
