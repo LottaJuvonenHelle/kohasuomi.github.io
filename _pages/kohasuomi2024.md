@@ -16,13 +16,30 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 3
 
 Aika: 15.1.2024 klo 9<br />
-Läsnä:
+Läsnä: Ari, Anneli, Kodo, Pasi, Lari, Lasse, Johanna, Kassu
 
 **Asiat**
 * Vkon 3 päivitys
-* Bugiperjantai? /Anneli
-* Keskiviikon tietovarantapalsu, ketä osallistumassa?
+  * [Siirtoraportilla tiedot menevät päällekkäin](https://github.com/KohaSuomi/koha-plugin-exporter-report/issues/2)
+  * [Hae tietokannasta -haku ei unohda haun rajaukseen käytettyä fasettivalintaa Nykyinen paikka, kun hakutulosnäytöllä tehdään uusi Hae tietokannasta](https://github.com/KohaSuomi/Koha/issues/667)
+  * [Koriin linkki teokseen verkkokirjastossa](https://github.com/KohaSuomi/Koha/issues/883)
+  * [Nimekkeen katkaisu laskutuksessa vain Finvoice-sanomille](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/7)
+  * [Käännösmuutostoive: asiakastietojen yhteenvedon alaotsikko Odottavat varaukset](https://github.com/KohaSuomi/Koha-translations/issues/31)
+  * [Hyllyvarausraportista katosi julkaisuvuosi](https://github.com/KohaSuomi/Koha/issues/1009)
+  * [Viestitaulun lukitus kaataa Kohan](https://github.com/KohaSuomi/Koha/issues/1002)
+* Bugiperjantai /Anneli
+  * Katsotaan tiistaina 
+* Keskiviikon Järvenpään tietovarantopalsu, ketä osallistumassa?
+  * Kodo selvittää 
 * Statuksettomien tikettien läpikäynti
+* Scrum
+  * Kodo: Plack-workerien restart muutos --graceful-vipu testissä
+  * Kassu:
+  * Anneli: versionvaihdon valmistelua, tiedote päivityksestä 
+  * Pasi: MARC-virheraportti hakee Nalkuttimen asetuksista skipattavat kentät. Sanaston rapsat valmiit.
+  * Lasse: varaussivun sivutus
+  * Lari: selvittelyä miksi batchrebuildbiblios-ajot ei mene läpi
+  * Johanna: RDA, ruotsinkielisten tietueiden erottelu
 
 ## Viikko 2
 
