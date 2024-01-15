@@ -18,11 +18,11 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän muistio 1/24
 
 Aika: 15.1.2024 klo 13<br />
-Läsnä: Ari, Anneli, Kodo, Leena, Noora, Päivi, Tuomas, Katri, Susanna, Riikka
+Läsnä: Ari Mäkiranta, Anneli Österman, Kodo Korkalo, Leena Kinnunen, Noora Valkonen, Päivi Knuutinen, Tuomas Kunttu, Kati Sillgren, Susanna Sandell, Riikka Mustajärvi, Hanna Ikonen
 
 ### 1. Arin ajankohtaiset
 
-LASTUn dumppi saatiin joulun alla janyt päästään tekemään ensimmäistä koekonversiota
+Lastun dumppi saatiin joulun alla ja nyt päästään tekemään ensimmäistä koekonversiota.
 
 ### 2. Tiekartan päivitys
 
@@ -30,10 +30,13 @@ Tiekartan päivitys, viimeksi päivitys on tehty lokakuussa 2023.
 
 [Tiekartta2023lokakuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/13872461/Tiekartta2023lokakuu.xlsx)
 
+Päivitetty tiekartta: [Tiekartta2024tammikuu.xlsx](https://github.com/KohaSuomi/kohasuomi.github.io/files/13939514/Tiekartta2024tammikuu.xlsx)
+
 ### 3. Kotipalvelutyöryhmän perustaminen
 
 Edellisessä kokouksessa päätettiin perustaa kotipalvelutyöryhmä, joka miettii, miten Finnaa voisi hyödyntää paremmin kotipalvelutyössä. Hyvät niksit ja käytännöt jakoon kaikkien kesken.
 
+Ryhmään on ilmoittautunut mukaan seuraavat henkilöt:
 * Lastu: Susanna Partanen, Lahti
 * Vaara: Heli Itkonen, Joensuu ja Tero Paasu, Juuka
 * OUTI: Katja Isokääntä, Oulu ja Laila Jakonen, Muhos
@@ -42,7 +45,7 @@ Edellisessä kokouksessa päätettiin perustaa kotipalvelutyöryhmä, joka miett
 * Kirkes: Rebecca Hopkins, Tuusula
 * Helle: David Thiry, Askola (eduaskola.fi)
 
-Kokoonkutsujaksi pyydetään Heli Itkosta. Päivi kysyy.
+Kokoonkutsujaksi pyydetään Heli Itkosta. Päivi kysyy. Mukaan pääsee vielä myöhemminkin.
 
 ### 4. Versionvaihdon ominaisuuksien läpikäyntiä
 
