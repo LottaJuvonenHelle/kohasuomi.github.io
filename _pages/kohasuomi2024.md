@@ -34,7 +34,7 @@ Läsnä: Ari, Anneli, Kodo, Pasi, Lari, Lasse, Johanna, Kassu
 * Statuksettomien tikettien läpikäynti
 * Scrum
   * Kodo: Plack-workerien restart muutos --graceful-vipu testissä
-  * Kassu:
+  * Kassu: uusien tikettien selvittelyä
   * Anneli: versionvaihdon valmistelua, tiedote päivityksestä 
   * Pasi: MARC-virheraportti hakee Nalkuttimen asetuksista skipattavat kentät. Sanaston rapsat valmiit.
   * Lasse: varaussivun sivutus
