@@ -21,6 +21,7 @@ Läsnä:
 **Asiat**
 * Vkon 3 päivitys
 * Bugiperjantai? /Anneli
+* Keskiviikon tietovarantapalsu, ketä osallistumassa?
 
 ## Viikko 2
 
