@@ -22,6 +22,7 @@ Läsnä:
 * Vkon 3 päivitys
 * Bugiperjantai? /Anneli
 * Keskiviikon tietovarantapalsu, ketä osallistumassa?
+* Statuksettomien tikettien läpikäynti
 
 ## Viikko 2
 
