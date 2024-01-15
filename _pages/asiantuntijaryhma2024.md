@@ -22,6 +22,7 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+LASTUn dumppi saatiin joulun alla janyt päästään tekemään ensimmäistä koekonversiota
 ### 2. Tiekartan päivitys
 
 Tiekartan päivitys, viimeksi päivitys on tehty lokakuussa 2023.
