@@ -15,14 +15,15 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 1/24
+## Asiantuntijaryhmän muistio 1/24
 
 Aika: 15.1.2024 klo 13<br />
-Läsnä:
+Läsnä: Ari, Anneli, Kodo, Leena, Noora, Päivi, Tuomas, Katri, Susanna, Riikka
 
 ### 1. Arin ajankohtaiset
 
 LASTUn dumppi saatiin joulun alla janyt päästään tekemään ensimmäistä koekonversiota
+
 ### 2. Tiekartan päivitys
 
 Tiekartan päivitys, viimeksi päivitys on tehty lokakuussa 2023.
@@ -33,9 +34,21 @@ Tiekartan päivitys, viimeksi päivitys on tehty lokakuussa 2023.
 
 Edellisessä kokouksessa päätettiin perustaa kotipalvelutyöryhmä, joka miettii, miten Finnaa voisi hyödyntää paremmin kotipalvelutyössä. Hyvät niksit ja käytännöt jakoon kaikkien kesken.
 
+* Lastu: Susanna Partanen, Lahti
+* Vaara: Heli Itkonen, Joensuu ja Tero Paasu, Juuka
+* OUTI: Katja Isokääntä, Oulu ja Laila Jakonen, Muhos
+* Lumme: Jenni Häkkinen, Pieksämäki
+* Lappi: Soile Arkivuo, Rovaniemi
+* Kirkes: Rebecca Hopkins, Tuusula
+* Helle: David Thiry, Askola (eduaskola.fi)
+
+Kokoonkutsujaksi pyydetään Heli Itkosta. Päivi kysyy.
+
 ### 4. Versionvaihdon ominaisuuksien läpikäyntiä
 
 [Versionvaihdon 23.xx tiketit](https://github.com/KohaSuomi/Koha-23x/issues)
+
+Kaikki tiketit on nyt käyty läpi ja päätökset kirjattiin tiketteihin siirretään/ei siirretä -tiloina.
 
 ### 5. Kehitysehdotusten läpikäyntiä
 
@@ -46,7 +59,11 @@ Edellisessä kokouksessa päätettiin perustaa kotipalvelutyöryhmä, joka miett
 * [Uusi työkalu: Varausten viimeisen noutopäivän siirto eräajona #249](https://github.com/KohaSuomi/Koha/issues/249)
 * [Siirtoraportti-toimintoon tieto, onko siirtoraportin tietue uusi täydellisesti kuvailtu tietue VAI jo olemassa olevan täydellisesti kuvaillun tietueen muutostietue #286](https://github.com/KohaSuomi/Koha/issues/286)
 
+Päätökset kirjattiin tiketteihin.
+
 ### 6. Muut asiat
+
+Ei muita asioita.
 
 ### 7. Seuraava kokous
 
