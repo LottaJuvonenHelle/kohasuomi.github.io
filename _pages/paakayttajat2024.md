@@ -21,6 +21,15 @@ Läsnä:
 * [Vkon 3 päivitys](https://github.com/KohaSuomi/Koha/discussions/1010)
 * [Useamman samanaikaisen varauksen varaamisessa valinnan poisto tietueelta ei vaikuta ja varaus tehdään silti #780](https://github.com/KohaSuomi/Koha/issues/780) - CSS:n lisäys
 
+**OUTI**
+* Kempeleen liikuntalainaamolle on tehty uusi nidetyyppi, joka on muutoin sama kuin meidän lyhytlainat, mutta laina-aika on 3 vrk.
+* Vaalan kirjastosta on tullut myös toive, että haluaisivat saman tyyppisen uuden nidetyypin, mutta jossa laina-aika olisikin 7 vrk.
+* Muhoksen kirjasto on mennyt remontin vuoksi kokonaan kiinni eilen 15.1. ja on loppukuun kiinni. Kirjaston niteet muutettu Muuttolaatikossa-tilaan.
+* OUTIssa maksujen maksimimäärä on Finnassa sentin isompi kuin Kohassa. 
+OUTIssa lainauskiellon raja on 11,99 euroa.
+Jos asiakkaalla on maksuja 12,00 euroa, asiakas on Kohassa lainauskiellossa, mutta Finnassa raja tulee vastaan, kun asiakkaalla on maksuja 12,01 euroa.
+Finnaan tulee kyllä ilmoitus, että kirjastokorttisi on lainauskiellossa, mutta asiakas pystyy uusimaan lainansa.
+Onko muissa kimpoissa myös näin?
    
 ## Viikko 2
 
