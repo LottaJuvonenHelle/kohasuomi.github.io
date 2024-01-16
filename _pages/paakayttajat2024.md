@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: 16.1.2024 klo 9.15<br />
-Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI) 
+Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara)
 
 **Yhteiset**
 * Onko [Integraatiot-lista](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) oman kimpan osalta ajantasalla? Uusia, poistuneita?
@@ -31,6 +31,9 @@ Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI)
   * Finnaan tulee kyllä ilmoitus, että kirjastokorttisi on lainauskiellossa, mutta asiakas pystyy uusimaan lainansa.
   * Tätä ei ole havaittu muissa kimpoissa.
     * Sovittiin, että muissa kimpoissa tätä testataan ja kirjataan asiasta Matrixin Finna-kanavalle ja Pirkko-Liisa ottaa lopuksi yhteyttä Finna-tukeen.
+   
+**Vaara**
+* ei mitään erityistä mainittavaa, paitsi tiedustelu Firefox esr-versiosta, mikä muilla kimpoilla on käytössä. Suurimmalla osalla Firefox 115.6.0esr tai 115.3.1esr. Vaarassa vanhempia versioita. Pitää pyytää päivittämään.
    
 ## Viikko 2
 
