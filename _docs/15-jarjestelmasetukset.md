@@ -45,6 +45,20 @@ IntranetNav-järjestelmäasetuksella saa lisättyä Kohan yläpalkkiin linkkejä
 </li>
 ```
 
+### IntranetReportsHomeHTML
+
+Järjestelmäasetukseen voi lisätä omaa tekstiä Raporttien etusivulle. Sinne on päätetty siirtää Koha-Suomen MARC-virheraporttien linkit. Ne pystyy lisäämään alla olevan esimerkin mukaisesti. Muokkaa kimpan nimi osoitteisiin (huomaa, että kimpan nimi on osoitteessa kaksi kertaa eli yhteensä neljä muutosta)
+
+```
+<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+<h2>MARC-virheraportit</h2>
+<ul>
+<li><a href="https://helle.koha-suomi.fi/marc_virheet.helleprod.html" target="_blank" rel="noopener">Virheelliset tietueet </a></li>
+<li><a href="https://helle.koha-suomi.fi/marc_virhemaara.helleprod.txt" target="_blank" rel="noopener">Virhem&auml;&auml;r&auml;t</a></li>
+</ul>
+</div>
+```
+
 ### IntranetUserCSS
 
 IntranetUserCSS-järjestelmäasetuksella voi "ohittaa" Kohan omia CSS-määrityksiä ja tehdä esimerkiksi erilaisia piilotuksia. Alla on linkki CSS-kirjastoon.
