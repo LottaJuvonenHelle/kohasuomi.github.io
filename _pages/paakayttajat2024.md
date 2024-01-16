@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: 16.1.2024 klo 9.15<br />
-Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara), Anni Rajala (Vaski), Kati Sillgren (Helle)
+Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara), Anni Rajala (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Onko [Integraatiot-lista](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) oman kimpan osalta ajantasalla? Uusia, poistuneita?
@@ -43,6 +43,9 @@ Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), 
 **Helle**
 * Asiakastiedon avausyrityksesta Koha antanut Virhe 500 -ilmoituksen. Syy: asiakastiedossa oli syntymäaika-arvona kesäaikaan siirtymispäivä. Tiketti #624
 * Marc-mäppäysmuutos tehty sovitusti 15.1.2024 (biblio.copyrightdate-sarakkeeseen MARC-kentät 264c ja 260c).
+
+**Lumme**
+* Normaalia ylläpitoa.
    
 ## Viikko 2
 
