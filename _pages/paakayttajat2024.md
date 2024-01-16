@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: 16.1.2024 klo 9.15<br />
-Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara)
+Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara), Anni Rajala (Vaski)
 
 **Yhteiset**
 * Onko [Integraatiot-lista](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) oman kimpan osalta ajantasalla? Uusia, poistuneita?
@@ -34,6 +34,11 @@ Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), 
    
 **Vaara**
 * ei mitään erityistä mainittavaa, paitsi tiedustelu Firefox esr-versiosta, mikä muilla kimpoilla on käytössä. Suurimmalla osalla Firefox 115.6.0esr tai 115.3.1esr. Vaarassa vanhempia versioita. Pitää pyytää päivittämään.
+
+**Vaski**
+* Pidemmät pin-koodit otettu virallisesti käyttöön (muutokset automaateille, ovilukijoille ja verkkokirjastoon tehty jo aiemmin, mutta tästä viikosta eteenpäin aletaan varsinaisesti tarjoamaan 4-10 numeroa pitkää koodia).
+* ATK-ihmisten kokoontumisajot Turussa 25.-26.4.2024, vanhalla jakelulistalla lähtenyt ennakkotieto eilen. Esitys-ehdotuksia otetaan vastaan. Ohjelma ja ilmoittautumislinkki tulossa, kunhan valmistuvat.
+* Seinäjoki pyytänyt Koha-esittelyä helmikuulle.
    
 ## Viikko 2
 
