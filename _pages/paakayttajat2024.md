@@ -13,14 +13,18 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 3
 
 Aika: 16.1.2024 klo 9.15<br />
-Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara), Anni Rajala (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara), Anni Rajala (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * Onko [Integraatiot-lista](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) oman kimpan osalta ajantasalla? Uusia, poistuneita?
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
+  * Anneli muuttaa until-tekstit niin, että valitaan ensimmäinen päivämäärä, jolloin varaus jatkuu.
+  * Anneli tekee tiketin yhteisöön until-sanan epämääräisyydestä
+  * Finnan käännökset kannattaa myös katsoa läpi ja jos joku keksii hyvät käännökset, voi niitä ehdottaa Finna-kanavalla Matrixissa. Käydään läpi ensi viikolla ja päätetään, mitkä niistä olisi hyvä ja laitetaan sitten Finna-toimistoon pyyntö muuttaa teksti kaikille kerralla.
 * [Vkon 3 päivitys](https://github.com/KohaSuomi/Koha/discussions/1010)
-* [Useamman samanaikaisen varauksen varaamisessa valinnan poisto tietueelta ei vaikuta ja varaus tehdään silti #780](https://github.com/KohaSuomi/Koha/issues/780) - CSS:n lisäys
+* Muistutus: [Useamman samanaikaisen varauksen varaamisessa valinnan poisto tietueelta ei vaikuta ja varaus tehdään silti #780](https://github.com/KohaSuomi/Koha/issues/780) - CSS:n lisäys
 
+Pohjoisesta etelään
 **OUTI**
 * Kempeleen liikuntalainaamolle on tehty uusi nidetyyppi, joka on muutoin sama kuin meidän lyhytlainat, mutta laina-aika on 3 vrk.
 * Vaalan kirjastosta on tullut myös toive, että haluaisivat saman tyyppisen uuden nidetyypin, mutta jossa laina-aika olisikin 7 vrk.
