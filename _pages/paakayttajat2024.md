@@ -23,8 +23,10 @@ Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), 
   * Finnan käännökset kannattaa myös katsoa läpi ja jos joku keksii hyvät käännökset, voi niitä ehdottaa Finna-kanavalla Matrixissa. Käydään läpi ensi viikolla ja päätetään, mitkä niistä olisi hyvä ja laitetaan sitten Finna-toimistoon pyyntö muuttaa teksti kaikille kerralla.
 * [Vkon 3 päivitys](https://github.com/KohaSuomi/Koha/discussions/1010)
 * Muistutus: [Useamman samanaikaisen varauksen varaamisessa valinnan poisto tietueelta ei vaikuta ja varaus tehdään silti #780](https://github.com/KohaSuomi/Koha/issues/780) - CSS:n lisäys
+* Sovittiin, että kimpoissa kerätään lista yleisimmin käytetyistä kielikoodeista, jolta puuttuu vielä selkokielinen käännös, joka näkyy faseteissa. Lisätään niille sitten käännös tietokannan tauluun. Ei lisätä käännöstä kaikille mahdollisille yli 400 kielikoodille. Tällä hetkellä käännös löytyy 116 kielikoodille. Listat kirjataan [tikettiin #885](https://github.com/KohaSuomi/Koha/issues/885).
 
 Pohjoisesta etelään
+
 **OUTI**
 * Kempeleen liikuntalainaamolle on tehty uusi nidetyyppi, joka on muutoin sama kuin meidän lyhytlainat, mutta laina-aika on 3 vrk.
 * Vaalan kirjastosta on tullut myös toive, että haluaisivat saman tyyppisen uuden nidetyypin, mutta jossa laina-aika olisikin 7 vrk.
