@@ -435,6 +435,56 @@ $(document).ready(function () {
 /// LOPPU ///
 ```
 
+###  Kielikoodien järjestys tarkan haun valikossa
+
+Aakkostaa ja priorisoi kielivalinnat tarkassa haussa
+Tarpeellisuus: Suositeltava
+Versio: 22.11
+
+```
+//Kielten aakkostus/priorisointi tarkassa haussa
+function sortSelect(select, startAt) {
+    if(typeof startAt === 'undefined') {
+        startAt = 0;
+    }
+    var texts = [];
+    for(var i = startAt; i < select.length; i++) {
+        texts[i] = [
+            select.options[i].text.toUpperCase(),
+            select.options[i].text,
+            select.options[i].value
+        ].join('|');
+    }
+    texts.sort();
+    texts.forEach(function(text, index) {
+        var parts = text.split('|');
+        select.options[startAt + index].text = parts[1];
+        select.options[startAt + index].value = parts[2];
+    });
+}
+
+$(document).ready(function () {
+  if (window.location.pathname == ("/cgi-bin/koha/catalogue/search.pl") && !window.location.search) {
+    sortSelect(document.getElementById('language-limit'), 1); 
+    var $select = $("#mySelect");
+    $('#language-limit').find('option[value="ln,rtrn:eng"]')
+         .insertBefore($('#language-limit').find('option:eq(1)'));
+    $('#language-limit').find('option[value="ln,rtrn:swe"]')
+         .insertBefore($('#language-limit').find('option:eq(1)'));
+    $('#language-limit').find('option[value="ln,rtrn:fin"]')
+         .insertBefore($('#language-limit').find('option:eq(1)'));
+    sortSelect(document.getElementById('language-original-limit'), 1);
+    $('#language-original-limit').find('option[value="language-original,rtrn:eng"]')
+         .insertBefore($('#language-original-limit').find('option:eq(1)'));
+    $('#language-original-limit').find('option[value="language-original,rtrn:swe"]')
+         .insertBefore($('#language-original-limit').find('option:eq(1)'));
+    $('#language-original-limit').find('option[value="language-original,rtrn:fin"]')
+         .insertBefore($('#language-original-limit').find('option:eq(1)'));
+  }
+});
+//LOPPU
+```
+
 ### Varaustunnus-asiakasmääreen siirto
 
 Tällä skriptillä saa siirrettyä Varaustunnus-asiakasmääreen Asiakasidentiteetti-osioon sivun alkuun. Voit joutua kokeilemaan skriptille eri paikkoja IntranetUserJS:ssä, jotta se asettuu oikeaan kohtaan.
