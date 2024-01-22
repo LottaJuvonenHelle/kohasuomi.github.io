@@ -23,6 +23,14 @@ Läsnä: Anneli, Lasse, Pasi, Johanna, Emmi, Ari, Kassu, Kodo
   * otetaan katsaus keskiviikkona klo 10.30.
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi](https://github.com/KohaSuomi/Koha/issues/1014)
   * Viedään koodimuutokset yhteisöön ehdolle, ei tuoda itselle väliaikaisesti.
+* Scrum:
+  * Kodo:
+  * Emmi: Nextit redusoitu ja valmiina testattavaksi
+  * Johanna: RDA-konversio, Kansalliskirjasto päivittänyt konversiosäännöt
+  * Pasi: Odottavien tikettien tekoa
+  * Lasse: Varaussivun sivutus ja versionvaihdon tikettejä
+  * Anneli & Kassu: Vanhennettujen maksujen uudelleenkertymisongelman selvittelyä
+  * Lari: Vanhennettujen maksujen uudelleenkertymisongelman selvittelyä
 
 ## Viikko 3
 
