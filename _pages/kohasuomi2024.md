@@ -26,7 +26,7 @@ Läsnä: Anneli, Lasse, Pasi, Johanna, Emmi, Ari, Kassu, Kodo
 * Vkon 4 päivitys
   * mukaan tulossa vain yksi käännösmuutos
 * Scrum:
-  * Kodo:
+  * Kodo: Tiedot lastun konversiotauluja varten metsästelty dumpista (tietue-id:t), Lastu konversiota, Vaaran mobiiliappi testissä, Kotkan RFID-haravakuviossa ei vielä etenemistä
   * Emmi: Nextit redusoitu ja valmiina testattavaksi
   * Johanna: RDA-konversio, Kansalliskirjasto päivittänyt konversiosäännöt
   * Pasi: Odottavien tikettien tekoa
