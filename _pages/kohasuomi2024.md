@@ -16,10 +16,13 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 4
 
 Aika: 22.1.2024 klo 9<br/>
-Läsnä:
+Läsnä: Anneli, Lasse, Pasi, Johanna, Emmi, Ari, Kassu, Kodo
 
 **Asiat**
 * Versionvaihdon tikettien katsaus? /Emmi
+  * otetaan katsaus keskiviikkona klo 10.30.
+* [Käännöstoive: asiakastakaajan lisäys ja select-nappi](https://github.com/KohaSuomi/Koha/issues/1014)
+  * Viedään koodimuutokset yhteisöön ehdolle, ei tuoda itselle väliaikaisesti.
 
 ## Viikko 3
 
