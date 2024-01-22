@@ -23,6 +23,8 @@ Läsnä: Anneli, Lasse, Pasi, Johanna, Emmi, Ari, Kassu, Kodo
   * otetaan katsaus keskiviikkona klo 10.30.
 * [Käännöstoive: asiakastakaajan lisäys ja select-nappi](https://github.com/KohaSuomi/Koha/issues/1014)
   * Viedään koodimuutokset yhteisöön ehdolle, ei tuoda itselle väliaikaisesti.
+* Vkon 4 päivitys
+  * mukaan tulossa vain yksi käännösmuutos
 * Scrum:
   * Kodo:
   * Emmi: Nextit redusoitu ja valmiina testattavaksi
