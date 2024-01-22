@@ -20,6 +20,18 @@ Läsnä:
 * [Tikettien tekeminen ja kommentointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi) -wikiä päivitetty.
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1025)
 * Vanhentuneet maksut -ajossa muodostunut myöhässä olleille lainoille uudet myöhästymismaksut
+  * OUTIssa date-kenttä päivittynyt 2021 tehdyn myöhästymismaksumuutoksen vuoksi, jolloin lainassa olleiden niteiden maksurivit päivittyi. Tuolloin ei vielä ollut erillistä timestamp-kenttää. Nyt kun date on päivittynyt, maksurivit eivät tulleet mukaan vanhentamisajoon. 
+```
+SELECT DISTINCT i.borrowernumber
+FROM issues i
+INNER JOIN accountlines al ON i.itemnumber = al.itemnumber AND i.borrowernumber = al.borrowernumber
+INNER JOIN (SELECT borrowernumber from accountlines
+			 WHERE credit_type_code = 'EXPIRED') as exp ON exp.borrowernumber = al.borrowernumber
+WHERE al.debit_type_code = 'OVERDUE'
+AND date(i.date_due) < '2019-01-01'
+ORDER BY 1 ASC
+```
+
 * Kannattaisiko ottaa käyttöön RenewAccruingItemInOpac ja RenewAccruingItemWhenPaid -asetukset? Testattava ennen käyttöönottoa.
 
 ## Viikko 3
