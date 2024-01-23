@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
@@ -50,6 +50,12 @@ ORDER BY 1 ASC
   * OUTIssa Pirkko-Liisa testaa ja katsotaan sen jälkeen, kannattaako ottaa käyttöön. 
 * Uusien ominaisuuksien esittely suurelle yleisölle ke 17.4.2024 klo 13 - tallennetaan
 * Pääkäyttäjille esittely to 1.2.2024 klo 10 - tallennetaan
+
+**Vaara**
+* Joensuun kaupungin tilaama Koha-appi on osa Joensuun kaupungin mobiilisovellusta. Toimitettu testitunnukset kehittäjille.
+* Päivi korjaillut musiikkiaineistojen koodausta mm. musiikkitallenne-aineistotyypiltä eli tarkentanut 007-kentän koodausta ja vaihtanut oikean aineistotyypin osakohteelle. Kaikki tähtää RDA-konversion parempaan onnistumiseen, kun lähtödata on paremmassa kuosissa. Odotellaan myös kehittäjien tekemiä massakorjauksia tietyille kentille, jotka (miltei) kaikissa kimpoissa kaipaavat korjausta.
+* Eilen saatiin Vaaran next-kanta käyttöön ja Päivi on testannut jo muutaman tiketin kautta toimintoja. 
+ 
 
 Etelästä pohjoiseen
 
