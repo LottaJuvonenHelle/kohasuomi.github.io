@@ -14,6 +14,8 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 Aika: 30.1.2024 klo 9.15<br />
 
 
+**Yhteiset**
+
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
