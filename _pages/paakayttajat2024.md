@@ -15,7 +15,8 @@ Aika: 30.1.2024 klo 9.15<br />
 
 
 **Yhteiset**
-* 
+* [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
+  * Käydään Matrixin Finna-Yleinen-kanavan ehdotukset läpi
 
 
 ## Viikko 4
