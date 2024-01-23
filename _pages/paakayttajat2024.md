@@ -22,7 +22,7 @@ Läsnä:
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
@@ -76,6 +76,10 @@ Etelästä pohjoiseen
 * Finna-tukeen laitettu maksujen maksimimäärärajasta, joka ei aivan toimi lainojen uusinnassa. Eli Finna sallii sentin enemmän maksuja kuin Kohan järjestelmäasetuksiin on määritelty maksujen maksimäärästä. Varausten teossa maksuraja toimii eli varauksia ei pysty tekemään, jos maksujen maksimimäärä on ylittynyt.
 * Oulun Ceepos-palvelin siirretty viime viikonloppuna (la-su välisenä yönä) Istekille. Siirto ei työllistänyt Koha-tukea. Ceepos oli saatu toimimaan ennen kirjaston asiakaspalvelun alkua. Verkkomaksupalvelu oli pois käytöstä siirron ajan.
 * Selvisi miksi kaikilla asiakkailla ei näy Finnassa Lainat-näytöllä "Uusi kaikki"-nappi. Kun lainoja on 26 tai sitä enemmän, niin silloin nappi katoaa, sillä lainat näkyvät tuolloin useammalla sivulla kuin yhdellä. Laitoimme Finna-tukeen viestiä, että katoaako nappi sen vuoksi ettei sillä voi uusia kaikkia lainoja, jos lainat jakautuvat usealle sivulle? Ehdotimme, että voisivatko kaikki lainat näkyä yhdellä sivulla, jolloin nappi näkyisi kaikille asiakkaille eikä katoaisi välillä?
+
+**Lumme**
+* Asiakasrekisterin läpikäynti ja sen siivous on mennyt vähän eteenpäin. Tällä hetkellä tehty raportteja ei-aktiivisista asiakkaista.
+* Henkilökunnalla on välillä vaikeuksia muistaa tallentaa sotua sotusiiloon. Tähän toivottiin jonkinlaista ratkaisua tai muistutusta. Myöhemmin mahdollisesti tulossa kaksivaiheinen asiakkaan lisääminen: ensin lisätään mahdollinen sotu ja vasta sen jälkeen pääsee lisäämään asiakkaan tietoja.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
