@@ -12,7 +12,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 4
 
-Aika: 23.1.2024 klo 9.15
+Aika: 23.1.2024 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
@@ -34,6 +34,10 @@ ORDER BY 1 ASC
 ```
 
 * Kannattaisiko ottaa käyttöön RenewAccruingItemInOpac ja RenewAccruingItemWhenPaid -asetukset? Testattava ennen käyttöönottoa.
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 3
 
@@ -84,7 +88,9 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * Ei erityistä
 * Joudutaan ehkä tekemään uusi nidetyyppi konsolipeleille, jotta niille saadaan tiukempi lainarajoitus. Tämä yksittäisen asiakkaan vuoksi.
-   
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-3) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 2
 
 Aika: 9.1.2024 klo 9.15<br />
