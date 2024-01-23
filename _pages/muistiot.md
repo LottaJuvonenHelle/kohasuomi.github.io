@@ -41,7 +41,7 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 ## Koha-Suomen viikkopalaverit
 
-Koha-Suomen henkilökunta kokoontuu kaksi kertaa viikossa, maanantaisin ja torstaisin.
+Koha-Suomen henkilökunta kokoontuu päivittäin. Maanantaisin on pidempi palaveri ja muina päivinä n. 15 minuutin tilannekatsaus.
 
 [Koha-Suomen vuoden 2024 muistiot](/kohasuomi2024)
 
