@@ -48,6 +48,8 @@ ORDER BY 1 ASC
   * asetuksissa rajoitteena se, että jos tietueeseen liittyy varaus tai uusimiskerrat täynnä, niin uusintaa ei voida tehdä
   * miten käy, jos maksaa maksun vain osittain? Järjestelmäastuksen kuvauksen mukaan uusinta tehdään vain, jos kaikki maksut maksetaan.
   * OUTIssa Pirkko-Liisa testaa ja katsotaan sen jälkeen, kannattaako ottaa käyttöön. 
+* Uusien ominaisuuksien esittely suurelle yleisölle ke 17.4.2024 klo 13 - tallennetaan
+* Pääkäyttäjille esittely to 1.2.2024 klo 10 - tallennetaan
 
 Etelästä pohjoiseen
 
