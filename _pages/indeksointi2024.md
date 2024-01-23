@@ -14,4 +14,12 @@ Esityslista 1/2024
 Aika: Ma 29.1.2024 klo 14-15<br />
 Läsnä:
 
-Käsiteltävät kehitysehdotukset:
+## 1. Käsiteltävät kehitysehdotukset
+
+* [Tiketti 840](https://github.com/KohaSuomi/Koha/issues/840)https://github.com/KohaSuomi/Koha/issues/840
+* [Sarjajulkaisun hakeminen fasetin kautta #251](https://github.com/KohaSuomi/Koha/issues/251)
+* [Tiedonhakuun mukaan tietueen 651z-kenttä #281](https://github.com/KohaSuomi/Koha/issues/281)
+* [Nidehaku: ei ole kokoelma -hakuehto ei toimi oikein #380](https://github.com/KohaSuomi/Koha/issues/380)
+* [Translitteroimaton tekijätieto ei näy translitteroimattoman nimeketiedon perässä virkailijaliittymässä #410](https://github.com/KohaSuomi/Koha/issues/410)
+
+## 2. Seuraava kokous
