@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
@@ -51,13 +51,16 @@ ORDER BY 1 ASC
 * Uusien ominaisuuksien esittely suurelle yleisölle ke 17.4.2024 klo 13 - tallennetaan
 * Pääkäyttäjille esittely to 1.2.2024 klo 10 - tallennetaan
 
+Etelästä pohjoiseen
+
 **Vaara**
 * Joensuun kaupungin tilaama Koha-appi on osa Joensuun kaupungin mobiilisovellusta. Toimitettu testitunnukset kehittäjille.
 * Päivi korjaillut musiikkiaineistojen koodausta mm. musiikkitallenne-aineistotyypiltä eli tarkentanut 007-kentän koodausta ja vaihtanut oikean aineistotyypin osakohteelle. Kaikki tähtää RDA-konversion parempaan onnistumiseen, kun lähtödata on paremmassa kuosissa. Odotellaan myös kehittäjien tekemiä massakorjauksia tietyille kentille, jotka (miltei) kaikissa kimpoissa kaipaavat korjausta.
 * Eilen saatiin Vaaran next-kanta käyttöön ja Päivi on testannut jo muutaman tiketin kautta toimintoja. 
  
-
-Etelästä pohjoiseen
+**Siilinjärvi**
+* OPACPrivacy-asetus oli Älä salli, nyt korjattu Salli eli Yksityisyysasetus käännösmuutoksineen näkyy virkailijaliittymässäkin.
+* [#1018] (https://github.com/KohaSuomi/Koha/issues/1018) ongelmana Siilissä, sen sijaan mitätöityjen vanhentuneiden maksujen uudelleen kertyminen [#804](https://github.com/KohaSuomi/Koha/issues/804) ei koske meitä
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
 
