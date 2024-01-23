@@ -19,6 +19,7 @@ Läsnä:
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
 * [Tikettien tekeminen ja kommentointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi) -wikiä päivitetty.
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1025)
+  * käännösmuutos myös Finnaan?
 * Vanhentuneet maksut -ajossa muodostunut myöhässä olleille lainoille uudet myöhästymismaksut
   * OUTIssa date-kenttä päivittynyt 2021 tehdyn myöhästymismaksumuutoksen vuoksi, jolloin lainassa olleiden niteiden maksurivit päivittyi. Tuolloin ei vielä ollut erillistä timestamp-kenttää. Nyt kun date on päivittynyt, maksurivit eivät tulleet mukaan vanhentamisajoon. 
 ```
