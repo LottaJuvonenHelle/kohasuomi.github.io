@@ -35,6 +35,8 @@ Alla löydät linkit Koha-Suomen erilaisten ryhmien muistioihin.
 
 ## Koha-Suomen indeksointi- ja tiedonhakuryhmä
 
+[Indeksointi- ja tiedonhakuryhmän vuoden 2024 muistiot](/indeksointiryhma2024)
+
 [Indeksointi- ja tiedonhakuryhmän vuoden 2023 muistiot](/indeksointiryhma2023)
 
 ## Koha-Suomen viikkopalaverit
