@@ -16,7 +16,7 @@ Läsnä:
 
 ## 1. Käsiteltävät kehitysehdotukset
 
-* [Tiketti 840](https://github.com/KohaSuomi/Koha/issues/840)https://github.com/KohaSuomi/Koha/issues/840
+* [Kenttien muuttaminen hakukelpoisiksi linkeiksi tietueen Perustiedot-näytölle tai hakurajauksiksi Tarkka haku-näytölle #840](https://github.com/KohaSuomi/Koha/issues/840)
 * [Sarjajulkaisun hakeminen fasetin kautta #251](https://github.com/KohaSuomi/Koha/issues/251)
 * [Tiedonhakuun mukaan tietueen 651z-kenttä #281](https://github.com/KohaSuomi/Koha/issues/281)
 * [Nidehaku: ei ole kokoelma -hakuehto ei toimi oikein #380](https://github.com/KohaSuomi/Koha/issues/380)
