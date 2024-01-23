@@ -17,11 +17,22 @@ Läsnä:
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
+  * Päivi testaa ensin ja kertoo kokemuksia. Katsotaan sen jälkeen muut.
 * [Tikettien tekeminen ja kommentointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi) -wikiä päivitetty.
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1025)
   * käännösmuutos myös Finnaan?
+    * jokainen kimppa tekee itse muutoksen Finnan käännöksiin.
+  * Finnassa tänään päivitys, jossa mukana varaustunnus/kutsumanimi-muutos
+    * muutos on tehtävä kaikkiin kimppoihin yhtä aikaa, koska vaatii Kohan päivityksen.
+    * Finnaan tarvitaan uusi lomakepohja käyttöön, jotta tiedot menevät oikeisiin kenttiin Finnasta Kohaan.
+    * OUTI tekee Finna-toimistoon pyynnön kaikkien puolesta. Kutsumanimi-kenttä halutaan vain OUTIssa käyttöön eli muissa kimpoissa sitä ei haluta näkyviin.
+    * Vaski on pyytänyt testille lomakkeiden korjauksen. OUTI odottaa, miten ne lähtee toimimaan ja pyytää sitten itselle testille. 
 * Vanhentuneet maksut -ajossa muodostunut myöhässä olleille lainoille uudet myöhästymismaksut
-  * OUTIssa date-kenttä päivittynyt 2021 tehdyn myöhästymismaksumuutoksen vuoksi, jolloin lainassa olleiden niteiden maksurivit päivittyi. Tuolloin ei vielä ollut erillistä timestamp-kenttää. Nyt kun date on päivittynyt, maksurivit eivät tulleet mukaan vanhentamisajoon. 
+  * Muutetaan vanhentamisskirpti writeoffaamaan, noteen tieto mitätöinnistä.
+  * muutetaan accountlines-taulusta expired-maksurivit writeoff-maksuriveiksi. 
+  * OUTIssa ja Kyytissä date-kenttä päivittynyt 2021 tehdyn myöhästymismaksumuutoksen vuoksi, jolloin lainassa olleiden niteiden maksurivit päivittyi. Tuolloin ei vielä ollut erillistä timestamp-kenttää. Nyt kun date on päivittynyt, maksurivit eivät tulleet mukaan vanhentamisajoon.
+  * OUTI ja Kyyti tekee tiketit päivämäärien korjauksista Vaskin skriptillä ja sen jälkeen maksut vanhennetaan korjatulla vanhentamisskriptillä
+* Alla olevilla raporteilla voi hakea asiakkaat, joilla on maksut muodostunut uudelleen. Ne joutuu käymään läpi käsin ja writeoffaamaan ylimääräiset maksut.
 ```
 SELECT DISTINCT i.borrowernumber
 FROM issues i
@@ -34,6 +45,9 @@ ORDER BY 1 ASC
 ```
 
 * Kannattaisiko ottaa käyttöön RenewAccruingItemInOpac ja RenewAccruingItemWhenPaid -asetukset? Testattava ennen käyttöönottoa.
+  * asetuksissa rajoitteena se, että jos tietueeseen liittyy varaus tai uusimiskerrat täynnä, niin uusintaa ei voida tehdä
+  * miten käy, jos maksaa maksun vain osittain? Järjestelmäastuksen kuvauksen mukaan uusinta tehdään vain, jos kaikki maksut maksetaan.
+  * OUTIssa Pirkko-Liisa testaa ja katsotaan sen jälkeen, kannattaako ottaa käyttöön. 
 
 Etelästä pohjoiseen
 
