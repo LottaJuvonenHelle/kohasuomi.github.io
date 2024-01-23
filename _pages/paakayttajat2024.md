@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
@@ -61,6 +61,12 @@ Etelästä pohjoiseen
 **Siilinjärvi**
 * OPACPrivacy-asetus oli Älä salli, nyt korjattu Salli eli Yksityisyysasetus käännösmuutoksineen näkyy virkailijaliittymässäkin.
 * [#1018](https://github.com/KohaSuomi/Koha/issues/1018) ongelmana Siilissä, sen sijaan mitätöityjen vanhentuneiden maksujen uudelleen kertyminen [#804](https://github.com/KohaSuomi/Koha/issues/804) ei koske meitä
+
+**OUTI**
+* OUTIssa oli syntynyt ainakin Oulun lasten- ja nuorten kirjatilauksille ylimääräisiä haamuniteitä maalis-toukokuun aikana 2023. Tapauksia oli tullut vastaan n. kymmenkunta. Ylimääräiset niteet oli huomannut hankintaa tekevä henkilö, kun hän oli käynyt läpi Oulun osalta raporttia "Nimekkeet, joissa on niteitä tilattu-tilassa". Ylimääräinen tilattu-tilassa oleva nide oli syntynyt eri välilehdelle missä olivat kirjaston muut oikeasti tilatut niteet. Haamunide oli syntynyt tietokantaan muutamaa tuntia aiemmin kuin varsinaiset tilatut niteet. Tiketti: https://github.com/KohaSuomi/Koha/issues/1024
+* Finna-tukeen laitettu maksujen maksimimäärärajasta, joka ei aivan toimi lainojen uusinnassa. Eli Finna sallii sentin enemmän maksuja kuin Kohan järjestelmäasetuksiin on määritelty maksujen maksimäärästä. Varausten teossa maksuraja toimii eli varauksia ei pysty tekemään, jos maksujen maksimimäärä on ylittynyt.
+* Oulun Ceepos-palvelin siirretty viime viikonloppuna (la-su välisenä yönä) Istekille. Siirto ei työllistänyt Koha-tukea. Ceepos oli saatu toimimaan ennen kirjaston asiakaspalvelun alkua. Verkkomaksupalvelu oli pois käytöstä siirron ajan.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
 
