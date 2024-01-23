@@ -60,7 +60,7 @@ Etelästä pohjoiseen
  
 **Siilinjärvi**
 * OPACPrivacy-asetus oli Älä salli, nyt korjattu Salli eli Yksityisyysasetus käännösmuutoksineen näkyy virkailijaliittymässäkin.
-* [#1018] (https://github.com/KohaSuomi/Koha/issues/1018) ongelmana Siilissä, sen sijaan mitätöityjen vanhentuneiden maksujen uudelleen kertyminen [#804](https://github.com/KohaSuomi/Koha/issues/804) ei koske meitä
+* [#1018](https://github.com/KohaSuomi/Koha/issues/1018) ongelmana Siilissä, sen sijaan mitätöityjen vanhentuneiden maksujen uudelleen kertyminen [#804](https://github.com/KohaSuomi/Koha/issues/804) ei koske meitä
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
 
