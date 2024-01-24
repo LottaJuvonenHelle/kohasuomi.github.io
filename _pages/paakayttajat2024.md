@@ -22,7 +22,7 @@ Läsnä:
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
@@ -88,6 +88,9 @@ Etelästä pohjoiseen
 * Integraatiot-listaan tehty yksi päivitys (tarkennus) Helleen liittyen
 * Helle-Finnassa saatavuustiedot saattavat edelleen näkyä väärin, kun nimekkeeseen kohdistuu varaus/varauksia. Keskustelua käyty Finna-toimiston kanssa, mutta ratkaisua ei ole löytynyt. Olisiko tähän ratkaisu Kohan puolella? Tiketti tehty https://github.com/KohaSuomi/Koha/issues/1035
 
+**Kyyti**
+* Kovasti nyt kiirettä muidenkin kuin Koha-asioiden kanssa
+* Kysyin, että haittaako kun "Hallinnoi välivarastoituja MARC-tietueita"-osiossa on 20 sivua vanhoja (2018) Btj:n ennakkolistoja vai pitäisikö niitä poistaa. - Eivät kuulemma haittaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
 
