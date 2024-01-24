@@ -22,7 +22,7 @@ Läsnä:
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
@@ -82,7 +82,11 @@ Etelästä pohjoiseen
 * Henkilökunnalla on välillä vaikeuksia muistaa tallentaa sotua sotusiiloon. Tähän toivottiin jonkinlaista ratkaisua tai muistutusta. Myöhemmin mahdollisesti tulossa kaksivaiheinen asiakkaan lisääminen: ensin lisätään mahdollinen sotu ja vasta sen jälkeen pääsee lisäämään asiakkaan tietoja.
 
 **Kirkes**
-* Koska järjestelmä vaihtui kesken vuoden, nyt yritetään yhdistää Auroran ja Kohan aikana kertyneitä tilastoja niin, että lopputulos olisi OKM-tilastoja varten mahdollisimman oikea.  
+* Koska järjestelmä vaihtui kesken vuoden, nyt yritetään yhdistää Auroran ja Kohan aikana kertyneitä tilastoja niin, että lopputulos olisi OKM-tilastoja varten mahdollisimman oikea.
+
+**Helle**
+* Integraatiot-listaan tehty yksi päivitys (tarkennus) Helleen liittyen
+* Helle-Finnassa saatavuustiedot saattavat edelleen näkyä väärin, kun nimekkeeseen kohdistuu varaus/varauksia. Keskustelua käyty Finna-toimiston kanssa, mutta ratkaisua ei ole löytynyt. Olisiko tähän ratkaisu Kohan puolella? Tiketti tehty https://github.com/KohaSuomi/Koha/issues/1035
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
