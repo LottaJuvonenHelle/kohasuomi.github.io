@@ -22,16 +22,17 @@ Läsnä:
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
   * Päivi testaa ensin ja kertoo kokemuksia. Katsotaan sen jälkeen muut.
 * [Tikettien tekeminen ja kommentointi](https://github.com/KohaSuomi/Koha/wiki/Tikettien-tekeminen-ja-kommentointi) -wikiä päivitetty.
+  * lisätty tähdennys, että tikettejä saa tehdä vain pääkäyttäjät, koska ilmeisesti Github antaa nykyään kaikkien rekisteröityneiden käyttäjien lisätä tikettejä.
 * [Viikon 4 päivitys](https://github.com/KohaSuomi/Koha/discussions/1025)
   * käännösmuutos myös Finnaan?
     * jokainen kimppa tekee itse muutoksen Finnan käännöksiin.
-  * Finnassa tänään päivitys, jossa mukana varaustunnus/kutsumanimi-muutos
+* Finnassa tänään päivitys, jossa mukana varaustunnus/kutsumanimi-muutos
     * muutos on tehtävä kaikkiin kimppoihin yhtä aikaa, koska vaatii Kohan päivityksen.
     * Finnaan tarvitaan uusi lomakepohja käyttöön, jotta tiedot menevät oikeisiin kenttiin Finnasta Kohaan.
     * OUTI tekee Finna-toimistoon pyynnön kaikkien puolesta. Kutsumanimi-kenttä halutaan vain OUTIssa käyttöön eli muissa kimpoissa sitä ei haluta näkyviin.
