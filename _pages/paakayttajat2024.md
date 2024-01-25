@@ -22,7 +22,7 @@ Läsnä:
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
@@ -92,6 +92,9 @@ Etelästä pohjoiseen
 **Kyyti**
 * Kovasti nyt kiirettä muidenkin kuin Koha-asioiden kanssa
 * Kysyin, että haittaako kun "Hallinnoi välivarastoituja MARC-tietueita"-osiossa on 20 sivua vanhoja (2018) Btj:n ennakkolistoja vai pitäisikö niitä poistaa. - Eivät kuulemma haittaa.
+
+**Vaski**
+* Finnassa varaukset ja lainat sivuilla on valintaruutu kaikkien lainojen tai varausten valitsemiseen ilman selitettä. Tästä aiheutuu ongelmia, koska asiakkaat voivat helposti peruuttaa kaikki varauksensa tietämättä tekevänsä niin. Mietitään tähän ratkaisua esimerkiksi peruttavien varausten määrän näyttämistä poiston vahvistus ruudussa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
 
