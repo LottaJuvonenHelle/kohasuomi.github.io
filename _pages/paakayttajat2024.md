@@ -35,7 +35,7 @@ Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaj
 * Finnassa tänään päivitys, jossa mukana varaustunnus/kutsumanimi-muutos
     * muutos on tehtävä kaikkiin kimppoihin yhtä aikaa, koska vaatii Kohan päivityksen.
     * Finnaan tarvitaan uusi lomakepohja käyttöön, jotta tiedot menevät oikeisiin kenttiin Finnasta Kohaan.
-    * OUTI tekee Finna-toimistoon pyynnön kaikkien puolesta. Kutsumanimi-kenttä halutaan vain OUTIssa käyttöön eli muissa kimpoissa sitä ei haluta näkyviin.
+    * OUTI tekee Finna-toimistoon pyynnön kaikkien puolesta. Kutsumanimi-kenttä halutaan vain OUTIssa ja Vaskissa käyttöön eli muissa kimpoissa sitä ei haluta näkyviin.
     * Vaski on pyytänyt testille lomakkeiden korjauksen. OUTI odottaa, miten ne lähtee toimimaan ja pyytää sitten itselle testille. 
 * Vanhentuneet maksut -ajossa muodostunut myöhässä olleille lainoille uudet myöhästymismaksut
   * Muutetaan vanhentamisskirpti writeoffaamaan, noteen tieto mitätöinnistä.
