@@ -13,6 +13,16 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 5
+
+Aika: 29.1.2024 klo 9<br/>
+Läsnä:
+
+**Asiat**
+* Bugittoman harvennus kahden kuukauden välein?
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-5) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 4
 
 Aika: 22.1.2024 klo 9<br/>
@@ -33,6 +43,8 @@ Läsnä: Anneli, Lasse, Pasi, Johanna, Emmi, Ari, Kassu, Kodo
   * Lasse: Varaussivun sivutus ja versionvaihdon tikettejä
   * Anneli & Kassu: Vanhennettujen maksujen uudelleenkertymisongelman selvittelyä
   * Lari: Vanhennettujen maksujen uudelleenkertymisongelman selvittelyä
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-4) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 3
 
@@ -61,6 +73,8 @@ Läsnä: Ari, Anneli, Kodo, Pasi, Lari, Lasse, Johanna, Kassu
   * Lasse: varaussivun sivutus
   * Lari: selvittelyä miksi batchrebuildbiblios-ajot ei mene läpi
   * Johanna: RDA, ruotsinkielisten tietueiden erottelu
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-3) - [Palaa sivun alkuun](/kohasuomi2024)
 
 ## Viikko 2
 
