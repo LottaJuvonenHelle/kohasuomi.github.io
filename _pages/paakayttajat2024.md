@@ -21,6 +21,7 @@ Läsnä:
 * RenewAccruingItemInOpac ja RenewAccruingItemWhenPaid -asetuksia testattu OUTIssa.
 * [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1044)
 * Bugi-perjantait harvennetaan joka toiseen kuukauteen, koska testattavia ei ole tarpeeksi.
+* [Mana-testausten kokemukset](https://github.com/KohaSuomi/Koha/issues/677#issuecomment-1911734442)
 
 Pohjoisesta etelään
 
