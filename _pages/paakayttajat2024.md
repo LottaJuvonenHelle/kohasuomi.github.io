@@ -11,6 +11,7 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
 ## Viikko 5
+
 Aika: 30.1.2024 klo 9.15<br />
 Läsnä:
 
@@ -18,7 +19,11 @@ Läsnä:
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
   * Käydään Matrixin Finna-Yleinen-kanavan ehdotukset läpi
 * RenewAccruingItemInOpac ja RenewAccruingItemWhenPaid -asetuksia testattu OUTIssa.
+* [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1044)
 
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-5) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 4
 
