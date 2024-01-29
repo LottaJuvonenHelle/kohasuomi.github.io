@@ -16,11 +16,23 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 5
 
 Aika: 29.1.2024 klo 9<br/>
-Läsnä:
+Läsnä: Emmi, Pasi, Lari, Ari, Johanna, Anneli, Kassu, Lasse, Kodo
 
 **Asiat**
 * Bugittoman harvennus kahden kuukauden välein?
+  * harvennetaan 
 * Viikon 5 päivitys
+  * [Käännöstoive: Mitätöidyn maksun status Forgiven -> Mitätöity #33](https://github.com/KohaSuomi/Koha-translations/issues/33)
+  * [Manan ohje selkeämmäksi #32](https://github.com/KohaSuomi/Koha-translations/issues/32)
+* Scrum:
+  * Emmi: Lumpeiden kummittelavat tietueet
+  * Johanna: korjauksia tietuesiirtäjään
+  * Kodo: Lastun konversio, niteiden kanssa ongelmia
+  * Anneli: indeksointi- ja tiedonhakuryhmä tänään
+  * Kassu: maksuriviraportit, muita rapsoja OUTIlle
+  * Lari: maksuriviongelma
+  * Lasse: versionvaihdon testausta
+  * Pasi: RDA:n valmistelua     
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-5) - [Palaa sivun alkuun](/kohasuomi2024)
 
