@@ -20,6 +20,7 @@ Läsnä:
 
 **Asiat**
 * Bugittoman harvennus kahden kuukauden välein?
+* Viikon 5 päivitys
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-5) - [Palaa sivun alkuun](/kohasuomi2024)
 
