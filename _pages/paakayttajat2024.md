@@ -17,6 +17,7 @@ Läsnä:
 **Yhteiset**
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
   * Käydään Matrixin Finna-Yleinen-kanavan ehdotukset läpi
+* RenewAccruingItemInOpac ja RenewAccruingItemWhenPaid -asetuksia testattu OUTIssa.
 
 
 ## Viikko 4
