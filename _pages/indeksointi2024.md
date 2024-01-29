@@ -12,7 +12,7 @@ title: 'Indeksointi- ja tiedonhakuryhmä 2024'
 ## Esityslista 1/2024
 
 Aika: Ma 29.1.2024 klo 14-15<br />
-Läsnä:
+Läsnä: Anna, Markku, Kai, Timo, Johanna, Antti, Mauri, Anneli
 
 ### 1. Käsiteltävät kehitysehdotukset
 
@@ -23,3 +23,5 @@ Läsnä:
 * [Translitteroimaton tekijätieto ei näy translitteroimattoman nimeketiedon perässä virkailijaliittymässä #410](https://github.com/KohaSuomi/Koha/issues/410)
 
 ### 2. Seuraava kokous
+
+To 7.3.2024 klo 12.15.
