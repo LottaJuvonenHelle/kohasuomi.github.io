@@ -30,7 +30,7 @@ Pohjoisesta etelään
 ## Viikko 4
 
 Aika: 23.1.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Mikko Liimatainen (Vaski)
+Läsnä: Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Hanna Ikonen (Lumme), Annika Helastila ja Elina Uotila (Kirkes), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Mikko Liimatainen (Vaski), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [SQL-raporttien jakaminen Koha-yhteisön Mana-tietokantaan #677](https://github.com/KohaSuomi/Koha/issues/677) tiketissä on ohjeet, kuinka käyttöönotto tapahtuu Kohan päässä ja kuinka raportteja jaetaan ja haetaan.
@@ -104,12 +104,16 @@ Etelästä pohjoiseen
 **Vaski**
 * Finnassa varaukset ja lainat sivuilla on valintaruutu kaikkien lainojen tai varausten valitsemiseen ilman selitettä. Tästä aiheutuu ongelmia, koska asiakkaat voivat helposti peruuttaa kaikki varauksensa tietämättä tekevänsä niin. Mietitään tähän ratkaisua esimerkiksi peruttavien varausten määrän näyttämistä poiston vahvistus ruudussa.
 
+**Lappi**
+* RDA-muutosta varten kuvailutiimi kokoaa korjausajolistaa
+* Varmistettiin perustelut asiakkaalle, miksi henkilötunnus on tallennettava myös lapsiasiakkaalle. 
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-4) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 3
 
 Aika: 16.1.2024 klo 9.15<br />
-Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara), Anni Rajala (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Piia Semenoff, Pirkko-Liisa Lauhikari ja Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen (Vaara), Anni Rajala (Vaski), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Tuomas Kunttu (Kyyti), Reetta Pihlaja (Siilinjärvi), Leena Kinnunen, Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * Onko [Integraatiot-lista](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) oman kimpan osalta ajantasalla? Uusia, poistuneita?
@@ -155,6 +159,10 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * Ei erityistä
 * Joudutaan ehkä tekemään uusi nidetyyppi konsolipeleille, jotta niille saadaan tiukempi lainarajoitus. Tämä yksittäisen asiakkaan vuoksi.
+
+**Lappi**
+* Kemin kassa saatu toimimaan päivityksen jälkeen.
+* Posion koulukirjastoa varten tehty uusi nidetyyppi 56 vrk:n aineistoille. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-3) - [Palaa sivun alkuun](/paakayttajat2024)
 
