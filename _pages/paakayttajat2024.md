@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 30.1.2024 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Annika Helastila (Kirkes)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Annika Helastila (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
@@ -49,6 +49,13 @@ Emottomien osakohteiden tietuelistauksen kohdalla on tapahtunut muutos, sillä s
 **Kirkes**
 * Eri kimpan kaukopalvelija on ollut ihmeissään, kun Kirkes-Finna näyttää niteen havaintokirjaston kotikirjaston sijaan. Jos tarvetta, voidaan tehdä sääntö, joka sallii nidevaraukset kaukopalvelu-asiakasryhmälle. 
 * MARC-virheraporttien käyttöönottoa odotellaan edelleen (tiketti https://github.com/KohaSuomi/Koha/issues/1015).
+
+**OUTI**
+* Ma 30.1. ajettu saapumisilmoitus tekstiviestinä täppä asiakkaille, joilla on puhelin numero Tekstiviesti numeroon -kentässä ja joilla ei ollut viestiasetuksissa valittuna mitään saapumisilmoitusten lähetystapaa ts. heillä oli sekä tekstiviesti- että sähköpostivalinnat tyhjinä. Liittyy tikettiin: https://github.com/KohaSuomi/Koha/issues/848.
+* Oulun luetteloinnissa oli huomattu, että jos tilataan aineistoa, jolla ei ole varsinaista standardinumeroa, jolla yhdistää tietueen jo tietokannassa olevaan saman nimiseen tietueeseen, niin uusi hankintatietue ei tietenkään osaa yhdistyä siihen jo olemassa olevaan tietueeseen, vaan muodostaa uuden tuplatietueen. Sen päälle valuu sitten TäTistä oma, uusi täystietue osakohteineen. Mutta koska tietokannasta löytyi jo saman nimekkeen täystietue osakohteineen, niin Mikropalvelu hylkää kokonaan uuden tietueen valuvat osakohteet ja osakohteet olivat kadonneet myös tietueelta, joka oli jo ennestään tietokannassa. Olisikohan mitään keinoa täsmäyttää tietueita, joilla ei ole 020- tai 024-kentässä mitään tunnuksia, jotta vastaavaa ei tapahtuisi? Tiketti: https://github.com/KohaSuomi/KohaSuomiServices/issues/12
+* OUTIin vanhojen lainassa olevien lainojen vanhentuneita myöhästymismaksuja on vanhennettu writeoff-ajona pariin kertaan. Ensimmäisen ajon 24.1. jälkeen maksut kertyvät asiakkaille uudestaan, mutta ajo tehtiin 29.1. uudestaan korjatulla skriptillä, eivätkä vanhennetut maksut ole enää kerääntyneet uudestaan.
+* OUTIn Finna-testillä näkyy nyt oikein kutsumanimi ja varaustunniste. Tehdään tiketti, johon kirjataan kaikki tarvittavat toimenpiteet, jotka on tehtävä, jotta varaustunniste tulee jatkossa Finnaan oikein holdid-kentässä ja kutsumanimi calling_name-kentässä niille kirjastoille, jotka ottavat kutsumanimikentän käyttöön.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-5) - [Palaa sivun alkuun](/paakayttajat2024)
 
