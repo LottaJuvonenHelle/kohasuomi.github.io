@@ -18,7 +18,13 @@ Läsnä:
 **Yhteiset**
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
   * Käydään Matrixin Finna-Yleinen-kanavan ehdotukset läpi
+  * Pohdittiin erilaisia vaihtoehtoja päädyttiin tällaiseen vaihtoehtoon jäädytystä lisättäessä: Valitse päivä, jolloin varaus aktivoituu automaattisesti (vapaaehtoinen):
+  * Kun varaus on jäädytetty/keskeytetty: Jäädytetty (väliaikaisesti keskeytetty) / Keskeytetty. Varaus aktivoituu xx.xx.xxxx (tai jos teksti paikkaan ei voi vaikuttaa, niin xx.xx.xxxx varaus aktivoituu)
+  * Muutokset pystynee tekemään itse käännöksiin, joten jokainen kimppa voi tehdä ne itse.
 * RenewAccruingItemInOpac ja RenewAccruingItemWhenPaid -asetuksia testattu OUTIssa.
+  * asetukset toimivat kuvauksensa mukaisesti eli vain myöhässä olevien lainat uusitaan maksun jälkeen, jos ne on uusittavissa. Lastenaineistoa, joista ei kerry maksuja, ei uusita.
+  * kimppakohtaisesti päätettävä, otetaanko käyttöön
+  * Finnan maksusivua kannattaa joka tapauksessa parantaa ja selkeyttää, jotta asiakkaan hoksaavat käydä uusimassa lainansa.
 * [Viikon 5 päivitys](https://github.com/KohaSuomi/Koha/discussions/1044)
 * Bugi-perjantait harvennetaan joka toiseen kuukauteen, koska testattavia ei ole tarpeeksi.
 * [Mana-testausten kokemukset](https://github.com/KohaSuomi/Koha/issues/677#issuecomment-1911734442)
