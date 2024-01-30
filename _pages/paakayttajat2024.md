@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 30.1.2024 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Annika Helastila (Kirkes)
 
 **Yhteiset**
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
@@ -45,6 +45,10 @@ Emottomien osakohteiden tietuelistauksen kohdalla on tapahtunut muutos, sillä s
 **Lumme**
 * Täti-luetteloijat ovat alkaneet käydä läpi tietokannan tuplia ja triploja. Indeksiin jää edelleen roikkumaan poistettuja tietueita ja ongelma on selvittelyn alla.
 * Kimpalla ja Lumme-Energialla oli sama lähettäjätunnus, minkä vuoksi kirjaston ja sähköyhtiön viestit alkoivat mennä samaan ketjuun. Ongelma poistui, kun kirjaston lähettäjätunnukseksi vaihdettiin "Kirjasto".
+
+**Kirkes**
+* Eri kimpan kaukopalvelija on ollut ihmeissään, kun Kirkes-Finna näyttää niteen havaintokirjaston kotikirjaston sijaan. Jos tarvetta, voidaan tehdä sääntö, joka sallii nidevaraukset kaukopalvelu-asiakasryhmälle. 
+* MARC-virheraporttien käyttöönottoa odotellaan edelleen (tiketti https://github.com/KohaSuomi/Koha/issues/1015).
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-5) - [Palaa sivun alkuun](/paakayttajat2024)
 
