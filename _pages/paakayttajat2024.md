@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 30.1.2024 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
@@ -41,6 +41,10 @@ Pohjoisesta etelään
 * Päivi testannut Manan kuten yhteisissä asioissa mainittu
 * Pasi Kallinen teki tiketin [#348](https://github.com/orgs/KohaSuomi/projects/4/views/1?filterQuery=348&pane=issue&itemId=17340272) toiveen mukaisesti viime yönä ajon, jonka tuloksena saatiin virhelista Vaaran emottomista osakohteista. Lista sisälsi myös virheilmoituksia tyyliin ERROR:Missing 001 [https://vaara.koha-suomi.fi/cgi-bin/koha/catalogue/detail.pl?biblionumber=151219] ja ERROR:003 needs trimming ( FI-BTJ) [https://vaara.koha-suomi.fi/cgi-bin/koha/catalogue/detail.pl?biblionumber=11298936]. Noiden virheiden korjaus täytynee tehdä muihinkin tietokantoihin, joten Pasi tekee sen tietokanta-ajona. 
 Emottomien osakohteiden tietuelistauksen kohdalla on tapahtunut muutos, sillä siihen listaukseen tuli myös tietueita, jotka eivät olleet emottomia. Pasi korjaa skriptin tänään ja huomenna pääsen uudelleen testaamaan emottomien poistoa ajosta tulevan raportin avulla.
+
+**Lumme**
+* Täti-luetteloijat ovat alkaneet käydä läpi tietokannan tuplia ja triploja. Indeksiin jää edelleen roikkumaan poistettuja tietueita ja ongelma on selvittelyn alla.
+* Kimpalla ja Lumme-Energialla oli sama lähettäjätunnus, minkä vuoksi kirjaston ja sähköyhtiön viestit alkoivat mennä samaan ketjuun. Ongelma poistui, kun kirjaston lähettäjätunnukseksi vaihdettiin "Kirjasto".
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-5) - [Palaa sivun alkuun](/paakayttajat2024)
 
