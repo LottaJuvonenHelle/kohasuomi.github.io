@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 30.1.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Leena Kinnunen (Lappi), 
 
 **Yhteiset**
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
@@ -30,6 +30,12 @@ Läsnä:
 * [Mana-testausten kokemukset](https://github.com/KohaSuomi/Koha/issues/677#issuecomment-1911734442)
 
 Pohjoisesta etelään
+
+**Lappi**
+* Posion ja Sodankylän koulukirjastojen kanssa säätöä nidetyyppien, budjettien ja hankintaportaalin kanssa
+* Edit-tilit näkymässä ei ole mahdollisuutta järjestää sarakkeita aakkosiin eikä suodatusta. Sovittiin, että Lappi tekee tästä kehitysehdotuksen yhteisöön
+* Jos nide on poistettu, Finnan lainahistoriassa teos näkyy lainahistoriassa, mutta nimekkeenä on ei tietoa. Tehdään tiketti, jos niteen tiedot saisi näkyville esim. poistettujen tauluista tms.
+* Kysytty, saisiko viivakoodin tilalle 2D-koodin, jättäisin tarralle lisää tilaa muulle tiedolle: ei tällä hetkellä mahdollista.  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-5) - [Palaa sivun alkuun](/paakayttajat2024)
 
