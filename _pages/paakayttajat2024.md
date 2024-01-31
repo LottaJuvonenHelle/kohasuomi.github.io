@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 5
 
 Aika: 30.1.2024 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Annika Helastila (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Annika Helastila (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
@@ -55,6 +55,9 @@ Emottomien osakohteiden tietuelistauksen kohdalla on tapahtunut muutos, sillä s
 * Oulun luetteloinnissa oli huomattu, että jos tilataan aineistoa, jolla ei ole varsinaista standardinumeroa, jolla yhdistää tietueen jo tietokannassa olevaan saman nimiseen tietueeseen, niin uusi hankintatietue ei tietenkään osaa yhdistyä siihen jo olemassa olevaan tietueeseen, vaan muodostaa uuden tuplatietueen. Sen päälle valuu sitten TäTistä oma, uusi täystietue osakohteineen. Mutta koska tietokannasta löytyi jo saman nimekkeen täystietue osakohteineen, niin Mikropalvelu hylkää kokonaan uuden tietueen valuvat osakohteet ja osakohteet olivat kadonneet myös tietueelta, joka oli jo ennestään tietokannassa. Olisikohan mitään keinoa täsmäyttää tietueita, joilla ei ole 020- tai 024-kentässä mitään tunnuksia, jotta vastaavaa ei tapahtuisi? Tiketti: https://github.com/KohaSuomi/KohaSuomiServices/issues/12
 * OUTIin vanhojen lainassa olevien lainojen vanhentuneita myöhästymismaksuja on vanhennettu writeoff-ajona pariin kertaan. Ensimmäisen ajon 24.1. jälkeen maksut kertyvät asiakkaille uudestaan, mutta ajo tehtiin 29.1. uudestaan korjatulla skriptillä, eivätkä vanhennetut maksut ole enää kerääntyneet uudestaan.
 * OUTIn Finna-testillä näkyy nyt oikein kutsumanimi ja varaustunniste. Tehdään tiketti, johon kirjataan kaikki tarvittavat toimenpiteet, jotka on tehtävä, jotta varaustunniste tulee jatkossa Finnaan oikein holdid-kentässä ja kutsumanimi calling_name-kentässä niille kirjastoille, jotka ottavat kutsumanimi-kentän käyttöön.
+
+**Helle**
+* Huomattu kausijulkaisutietueita, jotka tulevat tiedonhakuun tuplana. Nyt palaverissa saatu tieto, että tämä liittyy indeksointivirheeseen. Helle-tiketti (tehty pe 26.1.2024) https://github.com/KohaSuomi/Koha/issues/1041
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-5) - [Palaa sivun alkuun](/paakayttajat2024)
