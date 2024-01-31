@@ -20,4 +20,4 @@ Koha-Suomi Oy:n kotipaikka on Mikkeli, mutta omistajakunnat ympäri Suomen tarjo
 
 Koha-Suomi Oy tuottaa omistajakunnilleen Koha-kirjastojärjestelmän ylläpito- ja kehittämispalvelut. Koha-kirjastojärjestelmä on avointa lähdekoodia ja  Koha-Suomi Oy edistää toimintakulttuurillaan avoimuutta ja yhteisöllisyyttä. Sen tärkein tavoite on turvata ajanmukainen ja kehittyvä kirjastojärjestelmä kohtuullisilla kustannuksilla kirjastojen käyttöön. Lisäksi Koha-Suomi Oy pyrkii edistämään kirjastojen välistä yhteistyötä ja osaamisen kehittämistä.
 
-![Koha Suomessa](/assets/images/koha-kartta-2023.jpg)
+![Koha Suomessa](/assets/images/koha-kartta-2024.jpg)
