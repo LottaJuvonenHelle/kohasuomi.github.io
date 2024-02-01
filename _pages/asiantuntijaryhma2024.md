@@ -20,12 +20,12 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 5.2.2024 klo 13<br />
 Läsnä:
 
-## Arin ajankohtaiset
+## 1. Arin ajankohtaiset
 
 * Hallitus näki viestien keskittämisselvityksen jatkamisen tärkeänä
 * Siilinjärven kanssa pilotoidaan VTJ:n muutosrajapintaa ja koeponnistetaan lupahakemus sen käyttämiseen. Todennäköisesti jokainen kunta joutuu erikseen tekemään lupahakemuksen. Siilinjärven pilotista saadaan toivottavasti malli muiden käytettäväksi.
 
-## Kehitysehdotusten läpikäynti
+## 2. Kehitysehdotusten läpikäynti
 
 * [Laskutusliitännäinen: laskun jäljennökseen laskun numero ja viitenumero #296](https://github.com/KohaSuomi/Koha/issues/296)
 * [Asiakkaan Ilmoitukset-välilehden Toimitushuomautus-sarakkeeseen oikea tieto epäonnistumisen syystä #329](https://github.com/KohaSuomi/Koha/issues/329) - yhteisömuutos?
@@ -36,7 +36,9 @@ Läsnä:
 * [Mikropalveluun mahdolliseksi 4-tason tietueen vienti 3-tason Melinda-tietueen päälle #9](https://github.com/KohaSuomi/KohaSuomiServices/issues/9)
 * [Hankintaportaalista tilatulle teokselle tieto: muovitettu/muovittamaton #386](https://github.com/KohaSuomi/Koha/issues/386)
 
+## 3. Seuraavien kokousten ajankohdat
 
+## 4. Muut asiat
 
 
 ## Asiantuntijaryhmän muistio 1/24
