@@ -179,6 +179,7 @@ Itsepalvelulainaukseen on ns. kovakoodattuna, että käyttäjätunnukset, joiden
 ### Itsepalvelu päätteiden käyttäjätunnukset
 
 * tee jokaiselle itsepalvelupäätteelle oma Koha-käyttäjätunnus, asiakastyyppinä pitää käyttää *Z Automaatti Z* -vaihtoehtoa (AUTOM).
+* käyttäjätunnuksen kotikirjastoksi laitetaan se kirjasto, jonka käyttöön tunnus tulee. Lainat ja palautukset kirjautuvat valitulle kirjastolle.
 * käyttäjätunnus tarvitsee käyttäjäoikeuden _self_checkout_module_
 
 ### Päätteet
