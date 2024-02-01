@@ -239,7 +239,7 @@ box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.35);
 ### SCOUserJS
 
 ```
-/* Viivakoodinlukijoita varten: */
+/* Viivakoodinlukijoita varten PINillä kirjautuessa: */
 /* Hitting "Enter" key in the username field will jump focus to the password field instead of submitting form  */
 $(document).ready(function(){
     $('#patronlogin').keypress(function(e){
