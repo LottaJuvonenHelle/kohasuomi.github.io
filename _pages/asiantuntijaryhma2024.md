@@ -15,6 +15,22 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 2/24
+
+Aika: 5.2.2024 klo 13<br />
+Läsnä:
+
+## Arin ajankohtaiset
+
+## Kehitysehdotusten läpikäynti
+
+* [Asiakkaan Ilmoitukset-välilehden Toimitushuomautus-sarakkeeseen oikea tieto epäonnistumisen syystä #329](https://github.com/KohaSuomi/Koha/issues/329) - yhteisömuutos?
+* [Koha-Ceepos-maksurajapintaa käytettäessä Hyväksy-painike epäaktiiviseksi #351](https://github.com/KohaSuomi/Koha/issues/351)
+* [Saisiko Kohan ilmoittamaan oikein niteen mahdollisen saatavuuden mm. hakutuloksen Rajoita saatavilla oleviin niteisiin -fasettirajauksella #359](https://github.com/KohaSuomi/Koha/issues/359)
+* Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367
+
+
+
 ## Asiantuntijaryhmän muistio 1/24
 
 Aika: 15.1.2024 klo 13<br />
