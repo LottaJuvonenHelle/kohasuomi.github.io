@@ -22,6 +22,8 @@ Läsnä:
 
 ## Arin ajankohtaiset
 
+* Hallitus näki viestien keskittämisselvityksen jatkamisen tärkeänä
+* Siilinjärven kanssa pilotoidaan VTJ:n muutosrajapintaa ja koeponnistetaan lupahakemus sen käyttämiseen. Todennäköisesti jokainen kunta joutuu erikseen tekemään lupahakemuksen. Siilinjärven pilotista saadaan toivottavasti malli muiden käytettäväksi.
 ## Kehitysehdotusten läpikäynti
 
 * [Asiakkaan Ilmoitukset-välilehden Toimitushuomautus-sarakkeeseen oikea tieto epäonnistumisen syystä #329](https://github.com/KohaSuomi/Koha/issues/329) - yhteisömuutos?
