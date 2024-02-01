@@ -159,40 +159,31 @@ Tee kaksi uutta asiakasmäärettä: Automaatin toimittaja ja Automaattityyppi
 #### Lainaus ja palautus -osio -> Itsepalvelulainaus
 
 * valitse WebBasedSelfCheck-asetukseen ”Mahdollista käyttäjille”
-* valitse AllowSelfCheckReturns-asetukseen ”Älä salli”, koska tämä sallii palauttamisen tekemisen ilman että nide on läsnä palautustilanteessa.
+* valitse SCOAllowCheckin -asetukseen ”Älä salli”, koska tämä sallii palauttamisen tekemisen ilman että nide on läsnä palautustilanteessa. Se lisää lainan kohdalle Palauta-napin.
 * valitse AutoSelfCheckAllowed, AutoSelfCheckID ja AutoSelfCheckPass -kohtaan ”Älä salli”
 * valitse omalle kimpalle sopiva vaihtoehto näihin kohtiin
-  * SelfCheckoutByLogin
-  * SelfCheckReceiptPrompt
+  * SelfCheckoutByLogin (kirjautuuko asiakas pelkällä kirjastokortilla vai kirjastokortilla ja PIN-koodilla)
+  * SelfCheckReceiptPrompt (annetaanko poppari, joka kysyy, tulostetaanko kuitti. Tämä on globaali asetus, joten kaikilla itsepalvelua käyttävillä pitää olla kuittari tai vähintäänkin hiiri käytössä, jotta asetuksen voi laittaa päälle.)
   * SelfCheckTimeout (ei kannata olla kovin pitkä, jotta seuraava asiakas ei pääse lainamaan edellisen kortille. Max 30 s)
-  * ShowPatronImageInWebBasedSelfCheck
+  * ShowPatronImageInWebBasedSelfCheck (Näytetäänkö asiakkaan kuva, jos se on tallennettu Kohaan asiakkaan tietoihin)
+* SCOMainUserBlock -osioon voi halutessaan kirjoitella erilaisia ohjeita tai tietoja, jotka näkyvät sitten itsepalvelulainauksessa.
+* SCOUserCSS-järjestelmäasetus vastaa IntranetUserCSS-asetusta ja sillä voi muokata itsepalvelulainauksen ulkonäköä. Esimerkkisisältö löytyy [Järjestelmäasetuksia-ohjeesta](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#scousercss).
+* SCOUserJS on IntranetUserJS-asetusta vastaava ja sillä voi muokata itsepalvelulainauksen ulkonäköä ja toimintoja. Esimerkkisisältö löytyy [Järjestelmäasetuksia-ohjeesta](https://koha-suomi.fi/dokumentaatio/jarjestelmaasetukset/#scouserjs).
+* SelfCheckAllowByIPRanges voi jättää tyhjäksi, koska itsepalvelulainauksen käyttöä ei rajoiteta ip-osoitteen mukaan.
+* SelfCheckHelpMessage -osioon voi kirjoittaa erilaisia ohjeita, jotka näkyvät, kun klikataan itsepalvelussa Ohje-linkkiä.
 
-### Paikalliset tiedot -> BorrowerCategoryTimeout eli asiakastyyppikohtainen aikakatkaisu
+### Pidempi aikakatkaisu itsepalvelulainauksen kirjautumistunnuksille
 
-* valitse *muokkaa* ja lisää *Arvo*-kenttään sopivat arvot. Oleellinen arvo on AUTOM-asiakastyyppi, johon pitää laittaa pitkä aikakatkaisu, jotta henkilökunnan ei tarvitse kirjautua itsepalveluun jatkuvasti. Määrittele lisäksi vähintään DEFAULT.
-
-<pre>
----
-AUTOM: 31536000
-DEFAULT: 1800
-EITILASTO: 1800
-HENKILO: 1800
-KAUKOLAINA: 1800
-KOTIPALVEL: 1800
-LAPSI: 1800
-MUUHUOL: 1800
-VIRKAILIJA: 1800
-YHTEISO: 1800
-</pre>
+Itsepalvelulainaukseen on ns. kovakoodattuna, että käyttäjätunnukset, joiden asiakastyypin tunnus alkaa kirjaimilla AUTO, saa reilusti pidemmän aikakatkaisun kuin muut käyttäjätunnukset. Tällä varmistetaan, että itsepalvelulainauksen koneille ei tarvitse kirjautua uudelleen jatkuvasti, kun ohjelmaa käytetään perinteisten automaattien tapaisesti.
 
 ### Itsepalvelu päätteiden käyttäjätunnukset
 
-* tee jokaiselle itsepalvelupäätteelle oma Koha-käyttäjätunnus, asiakastyyppinä voi käyttää *Z Automaatti Z* -vaihtoehtoa.
-* käyttäjätunnus tarvitsee käyttäjäoikeuden ”self_checkout”
+* tee jokaiselle itsepalvelupäätteelle oma Koha-käyttäjätunnus, asiakastyyppinä pitää käyttää *Z Automaatti Z* -vaihtoehtoa (AUTOM).
+* käyttäjätunnus tarvitsee käyttäjäoikeuden _self_checkout_module_
 
 ### Päätteet
 
 * selainta ei saa/kannata sulkea. Jos selaimen sulkee, pitää järjestelmään kirjautua uudelleen.
 * samalla selaimella ei saa/kannata kirjautua Kohan virkailijaliittymään, koska samalla tulee kirjauduttua ulos itsepalvelutoiminnosta.
-* käytä selaimena Firefoxia. Tietokone/selain kannattaa laittaa ns. kioskimoodiin, jolloin asiakkaat eivät pääse sulkemaan selainta.
+* käytä selaimena Firefoxia. Tietokone/selain kannattaa laittaa ns. kioskimoodiin, jolloin asiakkaat eivät pääse sulkemaan selainta tai siirtymään selaimessa muille verkkosivuille.
 * jos mahdollista, selain kannattaa määrittää kirjautumaan automaattisesti itsepalveluun, kun kone/selain avataan sekä myöskin siinä tapauksessa, että selain/kone yllättäen sulkeutuu ja käynnistyy uudelleen.
