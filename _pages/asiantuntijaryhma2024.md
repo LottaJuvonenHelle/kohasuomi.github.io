@@ -24,12 +24,18 @@ Läsnä:
 
 * Hallitus näki viestien keskittämisselvityksen jatkamisen tärkeänä
 * Siilinjärven kanssa pilotoidaan VTJ:n muutosrajapintaa ja koeponnistetaan lupahakemus sen käyttämiseen. Todennäköisesti jokainen kunta joutuu erikseen tekemään lupahakemuksen. Siilinjärven pilotista saadaan toivottavasti malli muiden käytettäväksi.
+
 ## Kehitysehdotusten läpikäynti
 
+* [Laskutusliitännäinen: laskun jäljennökseen laskun numero ja viitenumero #296](https://github.com/KohaSuomi/Koha/issues/296)
 * [Asiakkaan Ilmoitukset-välilehden Toimitushuomautus-sarakkeeseen oikea tieto epäonnistumisen syystä #329](https://github.com/KohaSuomi/Koha/issues/329) - yhteisömuutos?
 * [Koha-Ceepos-maksurajapintaa käytettäessä Hyväksy-painike epäaktiiviseksi #351](https://github.com/KohaSuomi/Koha/issues/351)
 * [Saisiko Kohan ilmoittamaan oikein niteen mahdollisen saatavuuden mm. hakutuloksen Rajoita saatavilla oleviin niteisiin -fasettirajauksella #359](https://github.com/KohaSuomi/Koha/issues/359)
-* Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367
+* [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367)
+* [Finto-liitännäinen Metatietosanastosta #373](https://github.com/KohaSuomi/Koha/issues/373)
+* [Mikropalveluun mahdolliseksi 4-tason tietueen vienti 3-tason Melinda-tietueen päälle #9](https://github.com/KohaSuomi/KohaSuomiServices/issues/9)
+* [Hankintaportaalista tilatulle teokselle tieto: muovitettu/muovittamaton #386](https://github.com/KohaSuomi/Koha/issues/386)
+
 
 
 
