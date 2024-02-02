@@ -25,7 +25,7 @@ Päivi Knuutinen oli sihteerivuorossa ja valmistautunut tehtävään.
 
 #### 2.	Tilannekatsaus RDA-konversioiden testituloksiin ####
 <ul>
-  <li>RDA-konversiossa testattujen (<a href="https://github.com/KohaSuomi/Koha/issues/974" target="_blank">RDA-konversion testaus</a>) nimekkeiden kohdalla on huomattu puutteita konversiosäännöissä etenkin ruotsin kielellä kuvailtujen nimekkeiden kohdalla. </li>
+  <li>RDA-konversiossa testattujen nimekkeiden kohdalla on huomattu puutteita konversiosäännöissä etenkin ruotsin kielellä kuvailtujen nimekkeiden kohdalla. (Tiketti: <a href="https://github.com/KohaSuomi/Koha/issues/974" target="_blank">RDA-konversion testaus</a>)  </li>
   <li>Joistakin konversiovirheistä on hankala sanoa, johtuuko virhe itse tietueesta vai konversiosääntöjen puutteista.</li>
   <li>Kansalliskirjasto on luvannut päivittää konversiosääntöjään. Osa päivityksistä on jo tehty, muttei kaikkia. Antti kysyy Kansalliskirjastosta neuvoa virhetapausten selvittelyyn.</li>
   <li>Tietokantojen siivous- ja korjausajoja olisi syytä saada tehtyä ennen kuin RDA-konversio tehdään, jotta konversio onnistuisi paremmin ja jäisi vähemmän käsin korjattavaa tietoa. Päivi Knuutinen tekee tarvittaessa tiketit GitHubiin ja kukin kimppa saa kommentoida, tarvitseeko jonkin tietyn korjauksen omaan tietokantaansa.</li>
