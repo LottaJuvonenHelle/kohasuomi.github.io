@@ -13,6 +13,17 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+# Viikko 6
+
+Aika: 5.2.2024 klo 9<br/>
+Läsnä:
+
+**Asiat**
+* No status ja Tehtävä -tilaisten tikettien vastuutus /Anneli
+* 
+
+[Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-6) - [Palaa sivun alkuun](/kohasuomi2024)
+
 ## Viikko 5
 
 Aika: 29.1.2024 klo 9<br/>
