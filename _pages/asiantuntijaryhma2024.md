@@ -40,6 +40,8 @@ Läsnä:
 
 ### 4. Muut asiat
 
+* Sähköpostin lähettäjäosoitteen aiheuttamat muutokset kirjeiden tulostuksessa ja SMS laskutuksessa
+
 
 ## Asiantuntijaryhmän muistio 1/24
 
