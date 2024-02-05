@@ -16,11 +16,20 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 # Viikko 6
 
 Aika: 5.2.2024 klo 9<br/>
-Läsnä:
+Läsnä: Johanna, Ari, Lari, Emmi, Lasse, Kodo, Pasi, Anneli
 
 **Asiat**
 * No status ja Tehtävä -tilaisten tikettien vastuutus /Anneli
 * Viivakoodien generointi timestampilla - kuinka edetään? /Emmi
+  * Ehdotetaan viivakoodeja tarjoavaa endpointia yhteisöön.
+*Scrum:
+  * Kodo: Varausten jäädytyssäätämistä Lastussa + pieniä korjauksia, automaattitunnarit puuttuu
+  * Anneli: Hellen Finna-näkymään ratkaisu löytynyt, korjattu myös pluginiin
+  * Kassu: randomraijaa ja tikettejä
+  * Pasi: Tietokantakorjauksia/tarkistuksia ajossa viikonloppuna, raportteja pääkäyttäjille
+  * Lasse: sivutusta
+  * Johanna: Valutusta, RDA jäissä kansalliskirjaston githubin päivityksiä odotellessa
+  * Emmi: CGI:lle toimitettu laskutuksen testiaineisto (Mäntsälä), pientä sälää
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-6) - [Palaa sivun alkuun](/kohasuomi2024)
 
