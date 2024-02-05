@@ -15,14 +15,15 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 2/24
+## Asiantuntijaryhmän muistio 2/24
 
 Aika: 5.2.2024 klo 13<br />
-Läsnä:
+Läsnä: Päivi, Kati, Ari, Hanna, Noora, Riikka, Susanna, Leena, Tuomas, Kodo, Anneli
 
 ### 1. Arin ajankohtaiset
 
 * Hallitus näki viestien keskittämisselvityksen jatkamisen tärkeänä
+  * Minkälaiset irtisanomisajat/ehdot sms-viestien sopimuksilla on - selvitettävä kimpoissa seuraavaan kokoukseen.
 * Siilinjärven kanssa pilotoidaan VTJ:n muutosrajapintaa ja koeponnistetaan lupahakemus sen käyttämiseen. Todennäköisesti jokainen kunta joutuu erikseen tekemään lupahakemuksen. Siilinjärven pilotista saadaan toivottavasti malli muiden käytettäväksi.
 
 ### 2. Kehitysehdotusten läpikäynti
@@ -32,15 +33,26 @@ Läsnä:
 * [Koha-Ceepos-maksurajapintaa käytettäessä Hyväksy-painike epäaktiiviseksi #351](https://github.com/KohaSuomi/Koha/issues/351)
 * [Saisiko Kohan ilmoittamaan oikein niteen mahdollisen saatavuuden mm. hakutuloksen Rajoita saatavilla oleviin niteisiin -fasettirajauksella #359](https://github.com/KohaSuomi/Koha/issues/359)
 * [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367)
+  * Siirretään tämän tiketin käsittely seuraavaan kokoukseen, jotta voidaan tarkistaa sen tarpeellisuus.
 * [Finto-liitännäinen Metatietosanastosta #373](https://github.com/KohaSuomi/Koha/issues/373)
 * [Mikropalveluun mahdolliseksi 4-tason tietueen vienti 3-tason Melinda-tietueen päälle #9](https://github.com/KohaSuomi/KohaSuomiServices/issues/9)
 * [Hankintaportaalista tilatulle teokselle tieto: muovitettu/muovittamaton #386](https://github.com/KohaSuomi/Koha/issues/386)
+  * Siirretään tämän tiketin käsittely seuraavaan kokoukseen, jotta voidaan tarkistaa sen tarpeellisuus.
 
 ### 3. Seuraavien kokousten ajankohdat
+
+* ma 26.2.2024 klo 13
+* ma 18.3.2024 klo 13
+* ma 8.4.2024 klo 13
+* ma 29.4.2024 klo 13
+* toukokuun kokous sovitaan huhtikuussa
 
 ### 4. Muut asiat
 
 * Sähköpostin lähettäjäosoitteen aiheuttamat muutokset kirjeiden tulostuksessa ja SMS laskutuksessa
+  * edistetään yhteisöön ehdotusta, että viesti-tauluun saataisiin lähettäjäkirjaston branchcode, jolloin sitä voidaan hyödyntää raporteilla.
+  * koosteviestien osalta soveltuvaa kirjastoyksikköä pitää vielä selvittää.
+  * Kirjeiden tulostukseen ja sms-viestien lähetykseen ei tehdä tässä vaiheessa muutoksia.
 
 
 ## Asiantuntijaryhmän muistio 1/24
