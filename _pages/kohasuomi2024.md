@@ -20,7 +20,7 @@ Läsnä:
 
 **Asiat**
 * No status ja Tehtävä -tilaisten tikettien vastuutus /Anneli
-* 
+* Viivakoodien generointi timestampilla - kuinka edetään? /Emmi
 
 [Palaa viikon muistion alkuun](https://koha-suomi.fi/kohasuomi2024#viikko-6) - [Palaa sivun alkuun](/kohasuomi2024)
 
