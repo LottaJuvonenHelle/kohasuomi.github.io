@@ -10,10 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 6
+
+Aika: 6.2.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1057)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-6) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 5
 
 Aika: 30.1.2024 klo 9.15<br />
-Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Annika Helastila (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa  Väisänen (Kyyti)
+Läsnä: Leena Kinnunen (Lappi), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Iina Niemi (Vaski), Hanna Ikonen (Lumme), Annika Helastila (Kirkes), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Kati Sillgren (Helle), Tuomas Kunttu ja Roosa  Väisänen (Kyyti), Anneli Österman, Lari Strand, Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * [Yksiselitteinen ilmaisu varauksen keskeytyksen viimeiselle voimassaolopäivälle #19](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1883024818)
