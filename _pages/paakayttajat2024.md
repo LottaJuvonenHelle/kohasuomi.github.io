@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 6.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Tuomas Kunttu (Kyyti), Pirkko-Liisa Lauhikari (OUTI)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1057)
@@ -35,6 +35,9 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Viime viikon kirjastojen sähköpostiosoitteiden muutos vaikutti laajasti Kyytin viesteihin. Tekstiviesteihin ilmestyi yksi yhteinen lähettäjänimi (Hamina), kun aiemmin lähettäjä oli oman kunnan nimi. Tekstiviestien osalta selvittely on vielä kesken. PDF-viestien tulostus meni myös sekaisin. Näiden viestien käsittely onnistuu uusilla ohjeistuksilla. Tiedottamista on riittänyt.
+
+**OUTI**
+* Oulun luetteloinnista Heikkisen Antilta tullut huomio, että jostakin syystä Mikropalvelu ei näytä ymmärtävän venäjänkielisen aineiston tietueissa olevia 9-osakentän sisältäviä kenttiä, vaan tuplaa ne, vaikka niiden sisältö on täysin sama. Tiketti: https://github.com/KohaSuomi/KohaSuomiServices/issues/13  
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-6) - [Palaa sivun alkuun](/paakayttajat2024)
