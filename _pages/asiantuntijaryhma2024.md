@@ -18,15 +18,17 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän muistio 2/24
 
 Aika: 5.2.2024 klo 13<br />
-Läsnä: Päivi, Kati, Ari, Hanna, Noora, Riikka, Susanna, Leena, Tuomas, Kodo, Anneli
+Läsnä: Päivi Knuutinen, Kati Sillgren, Ari Mäkiranta, Hanna Ikonen, Noora Valkonen, Riikka Mustajärvi, Susanna Sandell, Leena Kinnunen, Tuomas Kunttu, Kodo Korkalo, Anneli Österman
 
 ### 1. Arin ajankohtaiset
 
-* Hallitus näki viestien keskittämisselvityksen jatkamisen tärkeänä
+* Hallitus näki viestien keskittämisselvityksen jatkamisen tärkeänä.
   * Minkälaiset irtisanomisajat/ehdot sms-viestien sopimuksilla on - selvitettävä kimpoissa seuraavaan kokoukseen.
 * Siilinjärven kanssa pilotoidaan VTJ:n muutosrajapintaa ja koeponnistetaan lupahakemus sen käyttämiseen. Todennäköisesti jokainen kunta joutuu erikseen tekemään lupahakemuksen. Siilinjärven pilotista saadaan toivottavasti malli muiden käytettäväksi.
 
 ### 2. Kehitysehdotusten läpikäynti
+
+Päätökset kirjattiin tiketteihin.
 
 * [Laskutusliitännäinen: laskun jäljennökseen laskun numero ja viitenumero #296](https://github.com/KohaSuomi/Koha/issues/296)
 * [Asiakkaan Ilmoitukset-välilehden Toimitushuomautus-sarakkeeseen oikea tieto epäonnistumisen syystä #329](https://github.com/KohaSuomi/Koha/issues/329) - yhteisömuutos?
@@ -49,9 +51,9 @@ Läsnä: Päivi, Kati, Ari, Hanna, Noora, Riikka, Susanna, Leena, Tuomas, Kodo, 
 
 ### 4. Muut asiat
 
-* Sähköpostin lähettäjäosoitteen aiheuttamat muutokset kirjeiden tulostuksessa ja SMS laskutuksessa
-  * edistetään yhteisöön ehdotusta, että viesti-tauluun saataisiin lähettäjäkirjaston branchcode, jolloin sitä voidaan hyödyntää raporteilla.
-  * koosteviestien osalta soveltuvaa kirjastoyksikköä pitää vielä selvittää.
+* Sähköpostin lähettäjäosoitteen aiheuttamat muutokset kirjeiden tulostuksessa ja SMS-laskutuksessa. [Tiedote muutoksesta](https://github.com/KohaSuomi/Koha/discussions/1052).
+  * Edistetään yhteisöön ehdotusta, että viesti-tauluun saataisiin lähettäjäkirjaston branchcode, jolloin sitä voidaan hyödyntää raporteilla.
+  * Koosteviestien osalta soveltuvaa kirjastoyksikköä pitää vielä selvittää.
   * Kirjeiden tulostukseen ja sms-viestien lähetykseen ei tehdä tässä vaiheessa muutoksia.
 
 
