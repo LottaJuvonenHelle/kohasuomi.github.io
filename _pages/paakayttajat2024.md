@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 6.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1057)
@@ -24,6 +24,11 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski)
   * JS:t työn alla.
 
 Etelästä pohjoiseen
+
+**Vaara**
+* Edellisellä viikolla kertomani emottomien osakohteiden korjausajo vaati lopulta neljä yritystä, ennen kuin raportti oli sellainen, että tietueet saattoi poistaa. Samalla korjattiin myös 001-kentän kontrollinumerot vastaamaan biblionumberia ja trimmattiin 003-kentistä tyhjiä merkkejä pois.
+* Eilen kesken iltapäivän meni vaara.finna.fi:ssä rikki jotain: lainoja ei voinut uusia, niteiden saatavuus ei näkynyt, tapahtumien kuvat ja tiedot eivät näkyneet eikä myöskään uutiset. Selvisi, että vika oli lopulta Smileen chat-palvelussa, joka rikkoi jotain Finnassa. Muilla kimpoilla ei ollut samaa ongelmaa kuin Vaaralla ja Outilla. Finna-tuesta neuvottiin kommentoimaan chat-palvelu pois päältä, kunnes se on korjattu.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-6) - [Palaa sivun alkuun](/paakayttajat2024)
 
