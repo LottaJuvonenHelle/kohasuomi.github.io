@@ -31,7 +31,7 @@ Läsnä: Päivi Knuutinen, Kati Sillgren, Ari Mäkiranta, Hanna Ikonen, Noora Va
 Päätökset kirjattiin tiketteihin.
 
 * [Laskutusliitännäinen: laskun jäljennökseen laskun numero ja viitenumero #296](https://github.com/KohaSuomi/Koha/issues/296)
-* [Asiakkaan Ilmoitukset-välilehden Toimitushuomautus-sarakkeeseen oikea tieto epäonnistumisen syystä #329](https://github.com/KohaSuomi/Koha/issues/329) - yhteisömuutos?
+* [Asiakkaan Ilmoitukset-välilehden Toimitushuomautus-sarakkeeseen oikea tieto epäonnistumisen syystä #329](https://github.com/KohaSuomi/Koha/issues/329)
 * [Koha-Ceepos-maksurajapintaa käytettäessä Hyväksy-painike epäaktiiviseksi #351](https://github.com/KohaSuomi/Koha/issues/351)
 * [Saisiko Kohan ilmoittamaan oikein niteen mahdollisen saatavuuden mm. hakutuloksen Rajoita saatavilla oleviin niteisiin -fasettirajauksella #359](https://github.com/KohaSuomi/Koha/issues/359)
 * [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367)
