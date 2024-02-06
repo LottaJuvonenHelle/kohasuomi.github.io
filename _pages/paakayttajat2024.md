@@ -20,6 +20,8 @@ Läsnä:
 * [Asiantuntijaryhmän muistio 2/24](https://koha-suomi.fi/asiantuntijaryhma2024#asiantuntijaryhm%C3%A4n-muistio-224) - keskeneräinen kirjoitushetkellä
 * [Indeksointi- ja tiedonhakuryhmän muistio 1/2024](https://github.com/KohaSuomi/Koha/discussions/1047)
 * Muistutuksena, että torstaina jatketaan uudemman version [ominaisuuksien läpikäyntiä](https://github.com/KohaSuomi/Koha/discussions/1054)
+* 23.11-version IntranetUserCSS:t käyty läpi ja korjattu tarvittaessa. Kannattaa tyhjentää asetus kokonaan (ota talteen vanhat vaikka muistioon) ja lisäile sitten tarvittavat uudelleen. Näin mukaan ei jää vahingossa vanhoja/toimimattomia rimpsuja.
+  * JS:t työn alla.
 
 Etelästä pohjoiseen
 
