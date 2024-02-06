@@ -52,9 +52,12 @@ Päätökset kirjattiin tiketteihin.
 ### 4. Muut asiat
 
 * Sähköpostin lähettäjäosoitteen aiheuttamat muutokset kirjeiden tulostuksessa ja SMS-laskutuksessa. [Tiedote muutoksesta](https://github.com/KohaSuomi/Koha/discussions/1052).
+  * Googlen (ja jatkossa muiden sähköpostioperaattoreiden) kiristyneistä viestien toimitusvaatimuksista johtuen on tarpeen vaihtaa Kohasta lähtevien viestien lähettäjäosoitteeksi koha-suomi.fi -loppuinen osoite. Muutos aiheuttaa kuitenkin sen, että viestitauluun viestit päätyvät jatkossa koha-suomi.fi lähettäjäosoitteella. Lähettäjäosoitteen varaan on Koha-Suomessa rakennettu sähköposteihin liittymätöntä toiminnallisuutta, joka ei enää muutoksen jälkeen toimi aiotusti.
+  * Paperikirjeiden tulostaminen kirjastossa käyttää lähettävän kirjaston sähköpostiosoitetta tulostettavien viestien lajitteluun kirjastoyksiköittäin. Lajittelu ei toimi muutoksen jälkeen. Paperikirjeiden tulostusliitännäiseen on lisätty mahdollisuus lajitella tulostettavat viestit viestin vastaanottajan kotikirjaston mukaan.
+  * Tekstiviestilaskujen jakaminen kunnittain operaattoripäässä on toteutettu lähettävän kirjaston sähköpostiosoitteen varaan. Toiminnallisuus on ollut ainoastaan Arenan sähköpostiajurissa ja yhden kimpan käytössä. Jatkossa jakaminen kunnittain "aiheuttajaperusteisesti" ei ole mahdollista ja kustannukset on jyvitettävä muulla perusteella.
   * Edistetään yhteisöön ehdotusta, että viesti-tauluun saataisiin lähettäjäkirjaston branchcode, jolloin sitä voidaan hyödyntää raporteilla.
   * Koosteviestien osalta soveltuvaa kirjastoyksikköä pitää vielä selvittää.
-  * Kirjeiden tulostukseen ja sms-viestien lähetykseen ei tehdä tässä vaiheessa muutoksia.
+  * Kirjeiden tulostukseen ja SMS-viestien lähetykseen ei tehdä tässä vaiheessa muita muutoksia.
 
 
 ## Asiantuntijaryhmän muistio 1/24
