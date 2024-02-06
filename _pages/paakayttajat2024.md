@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 6
 
 Aika: 6.2.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 6 päivitys](https://github.com/KohaSuomi/Koha/discussions/1057)
