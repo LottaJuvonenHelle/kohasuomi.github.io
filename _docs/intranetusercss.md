@@ -870,6 +870,19 @@ Versio: 22.11
 #circ_request.catalog button[data-suspended="true"] + label { color:red; font-weight:bold !important;}
 ```
 
+### Piilota monivarauksen teossa ensimmäinen sarake eli valintatäpät
+
+Monivarauksen teossa valintaruudut eivät vaikuta siihen, tehdäänkö varaus teokseen vai ei, joten ne päätettiin piilottaa. Liittyy [tikettiin #780](https://github.com/KohaSuomi/Koha/issues/780).
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
+```
+/* Piilota valintaruudut (1. sarake) monivarauksessa (request.pl) */
+#requesttitles th:first-child,
+#requesttitles td:first-child { display: none; }
+```
+
 ---
 
 ## Kausijulkaisut
