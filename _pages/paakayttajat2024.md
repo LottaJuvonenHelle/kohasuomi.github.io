@@ -48,7 +48,7 @@ Etelästä pohjoiseen
 
 **Helle**
 * Kehittäjä Lari Strand löysi ratkaisun siihen, miksi Helle-Finnan saatavuusnäkymässä tieutueen kaikki niteet näkyvät Varattu-tilaisina, vaikka saatavilla olevia niteitä on enemmän kuin varauksia. Liittyy Kohan asetukseen AllowItemsOnHoldCheckoutSIP. Tiketti https://github.com/KohaSuomi/Koha/issues/1035
-* Yhdestä Hankintaportaalin tilauksesta ei ole muodostunut tilausta Helle-Kohaan. Ilmooitusta virheellisestä tilaussanomasta ei ole muodostunut, eikä tilauksesta ole jälkeä EDIFACT-sanomissa. Hankintaportaalissa tilauksen tehnyt on saanut aineistotoimittajan vaihvistusviestin tilauksesta.
+* Yhdestä Hankintaportaalin tilauksesta ei ole muodostunut tilausta Helle-Kohaan. Ilmoitusta virheellisestä tilaussanomasta ei ole, eikä tilauksesta ole jälkeä EDIFACT-sanomissa. Hankintaportaalissa tilauksen tehnyt on saanut aineistotoimittajan vaihvistusviestin tilauksesta.
 * Ennakkoilmoitus-asiakasviesteissä on otettu käyttöön tieto lainaajakirjastosta. Tiketti https://github.com/KohaSuomi/Koha/issues/299
 
 
