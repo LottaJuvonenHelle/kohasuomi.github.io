@@ -366,6 +366,18 @@ body#pat_memberentrygen.pat select#primary_contact_method.noEnterSubmit { displa
 body#pat_memberentrygen.pat label[for="primary_contact_method"] { display: none; }
 ```
 
+### Piilota Muut määreet ja tunnukset -kohta asiakkaan muokkauksesta
+
+Tällä piilotetaan asiakkaan muokkausnäytöltä Muut määreet ja tunnukset -osio. Tämä voi olla tarpeen, jos osion kaikki määreet on siirretty JS-rimpsuilla toiseen kohtaan lomaketta ja osio jää tyhjäksi.
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11
+
+```
+/* Piilota Muut määreet ja tunnukset -kohta asiakkaan muokkauksesta. Tämä voi olla tarpeen, jos kaikki määreet on siirretty toiseen kohtaan lomaketta. */
+body#pat_memberentrygen.pat fieldset#memberentry_patron_attributes.rows { display:none; }
+```
+
 ---
 
 ## Asiakkaat-sivu
