@@ -47,7 +47,7 @@ Etelästä pohjoiseen
 * Järvenpäässä mietitään raportteja, joita lähettää Raportterin kautta kaupungin tietovarantoon. Elina tutkailee Oulun päivitettyä BI-raporttia, josko sitä voisi hyödyntää (Raportti täällä: https://github.com/KohaSuomi/Koha/issues/1051).
 
 **Helle**
-* Kehittäjä Lari Strand löysi ratkaisun siihen, miksi Helle-Finnan saatavuusnäkymässä tieutueen kaikki niteet näkyvät Varattu-tilaisina, vaikka saatavilla olevia niteitä on enemmän kuin varauksia. Liittyy Kohan asetukseen AllowItemsOnHoldCheckoutSIP. Tiketti https://github.com/KohaSuomi/Koha/issues/1035
+* Kehittäjä Lari Strand löysi ratkaisun siihen, miksi Helle-Finnan saatavuusnäkymässä tietueen kaikki niteet näkyvät Varattu-tilaisina, vaikka saatavilla olevia niteitä on enemmän kuin varauksia. Liittyy Kohan asetukseen AllowItemsOnHoldCheckoutSIP. Tiketti https://github.com/KohaSuomi/Koha/issues/1035
 * Yhdestä Hankintaportaalin tilauksesta ei ole muodostunut tilausta Helle-Kohaan. Ilmoitusta virheellisestä tilaussanomasta ei ole tullut, eikä tilauksesta ole jälkeä EDIFACT-sanomissa. Hankintaportaalissa tilauksen tehnyt on saanut aineistotoimittajan vahvistusviestin tilauksesta.
 * Ennakkoilmoitus-asiakasviesteissä on otettu käyttöön tieto lainaajakirjastosta. Tiketti https://github.com/KohaSuomi/Koha/issues/299
 
