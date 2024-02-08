@@ -15,6 +15,17 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 3/24
+
+Aika: 26.2.2024 klo 13<br />
+Läsnä:
+
+### 1. Arin ajankohtaiset
+
+### 2. Tekstiviestisopimusten irtisanomisajat
+
+Siilinjärvi: 3 kk
+
 ## Asiantuntijaryhmän muistio 2/24
 
 Aika: 5.2.2024 klo 13<br />
