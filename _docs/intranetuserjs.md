@@ -901,6 +901,40 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
 /// LOPPU ///
 ```
 
+### Koriin linkit Finnaan jokaisesta teoksesta
+
+Tämä lisää Koriin jokaiseen teokseen linkin myös Finnaan samaan teokseen.
+
+Tarpeellisuus: Suositeltava<br />
+Versio: 22.11
+
+```
+/// ALKU ///
+// Finna-verkkokirjastolinkkien lisääminen ostoskoriin. Muista vaihtaa kimppakohtainen URL
+$(document).ready(function () {
+  if ( window.location.pathname == '/cgi-bin/koha/basket/basket.pl' ) {
+
+    // Finnan URL -- Vaihda tähän oma kimppa, huomaa piste lopussa
+    var finnaurl = 'https://siilinjarvenkirjasto.finna.fi/Record/siilinjarvi.';
+
+    // Kielivalinta
+    var linktext = 'Avaa Finnassa';
+    if ( document.documentElement.lang.toLowerCase() === "en" ) {
+	    linktext = 'Open in Finna';
+	  } else if ( document.documentElement.lang.toLowerCase() === "sv-se" ) {
+    	linktext = 'Öppna i Finna';
+  	}
+
+    // Linkin muodostaminen
+    $("a.title").parent().each(function(index, v) {
+      var $v = $(v);
+      var $finnalink = '<a class="btn btn-default" target="_blank" href="' + finnaurl + $v.find('a.title').attr('href').replace('/cgi-bin/koha/catalogue/detail.pl?biblionumber=','') + '"><i class="fa fa-external-link"></i> ' + linktext + '</a>';
+      $v.append($finnalink);
+    });
+  }
+});
+/// LOPPU ///
+```
 
 ### Indeksointityöryhmän tekemät tiedonhaun mukautukset
 
