@@ -903,7 +903,7 @@ if (window.location.pathname == '/cgi-bin/koha/catalogue/detail.pl') {
 
 ### Koriin linkit Finnaan jokaisesta teoksesta
 
-Tämä lisää Koriin jokaiseen teokseen linkin myös Finnaan samaan teokseen.
+Tämä lisää Koriin jokaiseen teokseen linkin myös Finnaan samaan teokseen. Muista vaihtaa Siilinjärven tietojen tilalle oikea osoite Finnaan sekä tietuetunniste ennen viimeistä pistettä osoitteessa.
 
 Tarpeellisuus: Suositeltava<br />
 Versio: 22.11
