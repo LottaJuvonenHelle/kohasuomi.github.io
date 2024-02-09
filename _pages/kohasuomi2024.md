@@ -13,10 +13,18 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+# Viikko 7
+
+Aika: 12.2.2024 klo 9<br/>
+Läsnä:
+
+* Päivystysvuorot viikosta 8 eteenpäin
+* Viikon 7 päivitys
+
 # Viikko 6
 
 Aika: 5.2.2024 klo 9<br/>
-Läsnä: Johanna, Ari, Lari, Emmi, Lasse, Kodo, Pasi, Anneli
+Läsnä: Johanna, Ari, Lari, Emmi, Lasse, Kodo, Pasi, Anneli, Kassu
 
 **Asiat**
 * No status ja Tehtävä -tilaisten tikettien vastuutus /Anneli
