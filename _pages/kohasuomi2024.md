@@ -20,6 +20,7 @@ Läsnä:
 
 * Päivystysvuorot viikosta 8 eteenpäin
 * Viikon 7 päivitys
+* OUTI siirtyy uuteen valutukseen tiistaiaamuna 13.2.
 
 # Viikko 6
 
