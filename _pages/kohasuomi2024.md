@@ -26,6 +26,14 @@ Läsnä: Johanna, Ari, Lari, Lasse, Kodo, Pasi, Anneli, Kassu
   * [Kotikirjastolla suodattamisen korvaaminen sähköpostilla suodattamisella](https://github.com/KohaSuomi/koha-plugin-print-pdf-notices/issues/2)
   * [Tietueiden eräpoisto: toiminnon käynnistyksen jälkeen ilmestyvässä ilmoituksessa mainitaan mm. Uusi niteiden poisto eräajona](https://github.com/KohaSuomi/Koha-translations/issues/34)
 * OUTI siirtyy uuteen valutukseen tiistaiaamuna 13.2. /Johanna
+* Scrum:
+  * Kodo: Kassun kanssa tikettien selvittelemistä
+  * Kassu: Sama juttu
+  * Anneli: IntranetUserJS:n läpikäyntiä, ja niistä tikettejä
+  * Pasi: Tietokantasiivouksien käpistelyä
+  * Lari: Finna-plugarin parantelua
+  * Lasse: Varauksen peruutusnapin ihmettelyä
+  * Johanna: Valutusta
 
 
 # Viikko 6
