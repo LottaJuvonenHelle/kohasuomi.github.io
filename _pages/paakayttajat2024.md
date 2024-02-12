@@ -17,6 +17,9 @@ Läsnä:
 
 **Yhteiset**
 * [Redusointi ja sip-tunnukset](https://github.com/KohaSuomi/Koha/issues/838#issuecomment-1931608560)
+* [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/1071)
+* [Integraatiot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) lisätty ohjeistusta rajapintojen avaamista ja sulkemista varten sekä mitä käyttäjäoikeuksia tunnukset tarvitsevat.
+* Ei huoltokatkoa helmikuussa.
 
 
 ## Viikko 6
