@@ -25,6 +25,7 @@ Läsnä:
 ### 2. Tekstiviestisopimusten irtisanomisajat
 
 Siilinjärvi: 3 kk
+Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.
 
 ## Asiantuntijaryhmän muistio 2/24
 
