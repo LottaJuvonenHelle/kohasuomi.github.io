@@ -16,7 +16,7 @@ Aika: 13.2.2024 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* [Redusointi ja sip-tunnukset](https://github.com/KohaSuomi/Koha/issues/838#issuecomment-1931608560)
+* [Redusointi ja sip-tunnukset](https://github.com/KohaSuomi/Koha/issues/838#issuecomment-1931608560) - ehdotus toimintatavasta
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/1071)
 * [Integraatiot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) lisätty ohjeistusta rajapintojen avaamista ja sulkemista varten sekä mitä käyttäjäoikeuksia tunnukset tarvitsevat.
 * Ei huoltokatkoa helmikuussa.
