@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 # Viikko 7
 
 Aika: 12.2.2024 klo 9<br/>
-Läsnä:
+Läsnä: Johanna, Ari, Lari, Lasse, Kodo, Pasi, Anneli, Kassu
 
 * Päivystysvuorot viikosta 8 eteenpäin
 * Viikon 7 päivitys
