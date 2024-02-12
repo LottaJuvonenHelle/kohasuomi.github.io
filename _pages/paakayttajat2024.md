@@ -119,7 +119,7 @@ Emottomien osakohteiden tietuelistauksen kohdalla on tapahtunut muutos, sillä s
 **Kyyti**
 * Kotkassa avattiin syksyllä uusi Lastenkulttuurikeskus, jonne meni pieni kokoelma lastenkirjoja. Niteiden oli tarkoitus olla vain Lakussa paikan päällä luettavissa, joten niiden tilaksi laitettiin "Ei lainattavissa (Ei varattavissa eikä lainattavissa)" ja yleiseksi huomautukseksi tieto niiden sijainnista Lakussa. Nyt on pohdittu, että jos näitä niteitä voisikin lainata Lastenkulttuurikeskukselta. Tämän seurauksena Kotkassa on alettu testaamaan Kohan itsepalvelulainausta.
 
-* **Vaski**
+**Vaski**
 
 * Ei mainittavaa
 
