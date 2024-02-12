@@ -20,7 +20,13 @@ Läsnä: Johanna, Ari, Lari, Lasse, Kodo, Pasi, Anneli, Kassu
 
 * Päivystysvuorot viikosta 8 eteenpäin
 * Viikon 7 päivitys
-* OUTI siirtyy uuteen valutukseen tiistaiaamuna 13.2.
+  * [Koha-Ceepos-maksurajapintaa käytettäessä Hyväksy-painike epäaktiiviseksi](https://github.com/KohaSuomi/Koha/issues/351)
+  * [Tietueen tuominen TäTistä Vaaraan ei tuo oikeaa tallennuspohjaa](https://github.com/KohaSuomi/Koha/issues/592)
+  * [Hankinnan vastaanotossa haku ei pysy perässä tai väärä haku jää välillä voimaan](https://github.com/KohaSuomi/Koha/issues/826)
+  * [Kotikirjastolla suodattamisen korvaaminen sähköpostilla suodattamisella](https://github.com/KohaSuomi/koha-plugin-print-pdf-notices/issues/2)
+  * [Tietueiden eräpoisto: toiminnon käynnistyksen jälkeen ilmestyvässä ilmoituksessa mainitaan mm. Uusi niteiden poisto eräajona](https://github.com/KohaSuomi/Koha-translations/issues/34)
+* OUTI siirtyy uuteen valutukseen tiistaiaamuna 13.2. /Johanna
+
 
 # Viikko 6
 
