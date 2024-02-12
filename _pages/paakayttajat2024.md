@@ -34,6 +34,10 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Iina Niemi (Vaski), Päiv
 
 Etelästä pohjoiseen
 
+**Vaski**
+
+* Ei mainittavaa
+
 **Vaara**
 * Edellisellä viikolla kertomani emottomien osakohteiden korjausajo vaati lopulta neljä yritystä, ennen kuin raportti oli sellainen, että tietueet saattoi poistaa. Samalla korjattiin myös 001-kentän kontrollinumerot vastaamaan biblionumberia ja trimmattiin 003-kentistä tyhjiä merkkejä pois.
 * Eilen kesken iltapäivän meni vaara.finna.fi:ssä rikki jotain: lainoja ei voinut uusia, niteiden saatavuus ei näkynyt, tapahtumien kuvat ja tiedot eivät näkyneet eikä myöskään uutiset. Selvisi, että vika oli lopulta Smileen chat-palvelussa, joka rikkoi jotain Finnassa. Muilla kimpoilla ei ollut samaa ongelmaa kuin Vaaralla ja Outilla. Finna-tuesta neuvottiin kommentoimaan chat-palvelu pois päältä, kunnes se on korjattu.
@@ -114,6 +118,10 @@ Emottomien osakohteiden tietuelistauksen kohdalla on tapahtunut muutos, sillä s
 
 **Kyyti**
 * Kotkassa avattiin syksyllä uusi Lastenkulttuurikeskus, jonne meni pieni kokoelma lastenkirjoja. Niteiden oli tarkoitus olla vain Lakussa paikan päällä luettavissa, joten niiden tilaksi laitettiin "Ei lainattavissa (Ei varattavissa eikä lainattavissa)" ja yleiseksi huomautukseksi tieto niiden sijainnista Lakussa. Nyt on pohdittu, että jos näitä niteitä voisikin lainata Lastenkulttuurikeskukselta. Tämän seurauksena Kotkassa on alettu testaamaan Kohan itsepalvelulainausta.
+
+* **Vaski**
+
+* Ei mainittavaa
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-5) - [Palaa sivun alkuun](/paakayttajat2024)
