@@ -203,6 +203,38 @@ order by 2,3,1
 LIMIT 2000
 ```
 
+### Optimoitu PowerBI-kysely
+
+Tässä versiossa on tietokantojen kytkökset (joinit) on ns. optimoitu ja kysely hakee varmemmin myös poistettujen niteiden ja tietueiden tiedot raportille. Muistaa muuttaa tarvittaessa asiakastyyppien tunnukset ja kirjastorajaukset toisenlaiseksi.
+
+Lisätty: 13.2.2024
+Tekijä: Katariina Pohto
+Lisääjä: Anneli Österman
+
+
+```
+SELECT d.type AS Tapahtumatyyppi, d.itemnumber AS Nidenumero, IFNULL(b.title, db.title) AS Nimeke, d.branch AS Lainauskirjasto,
+       d.categorycode AS Asiakastyyppi, d.zipcode AS Postinumero, d.datetime AS 'Tapahtuma-aika',
+       IFNULL(bi.itemtype, dbi.itemtype) AS Aineistotyyppi, d.loc AS Hyllypaikka, d.cn AS 'Luokka ja pääsana'
+  FROM (SELECT s.datetime, s.type, s.itemnumber, s.branch, bo.zipcode, bo.categorycode,
+               IFNULL(i.biblionumber, di.biblionumber) AS biblionumber,
+               IFNULL(i.permanent_location, di.permanent_location) AS loc,
+               IFNULL(i.cn_sort, di.cn_sort) AS cn
+          FROM statistics s
+               LEFT JOIN borrowers bo ON s.borrowernumber = bo.borrowernumber
+               LEFT JOIN items i ON s.itemnumber = i.itemnumber
+               LEFT JOIN deleteditems di ON s.itemnumber = di.itemnumber 
+         WHERE date(s.datetime) BETWEEN <<Aikaväli alkaen|date>> AND <<Päättyen|date>>
+           AND bo.categorycode IN ("HENKILO", "KOTIPALVEL","LAPSI", "LAOMATOIMI", "MUUHUOL", "YHTEISO","KAUKOLAINA")
+           AND s.type IN ('issue', 'renew')
+           AND s.branch like 'OU%'
+	   AND s.branch !='OUBY') as d
+        LEFT JOIN biblioitems bi ON bi.biblionumber = d.biblionumber
+        LEFT JOIN deletedbiblioitems dbi ON dbi.biblionumber = d.biblionumber
+        LEFT JOIN biblio b ON b.biblionumber = d.biblionumber
+        LEFT JOIN deletedbiblio db ON db.biblionumber = d.biblionumber
+```
+
 ### PowerBI-koulutusta varten luotu kysely
 
 Raportti on luotu PowerBI-koulutusta varten ja hakee lainoja ja uusintoja. Mukaan ei tule Ei tilasto -asiakastyypin lainoja/uusintoja. Tämä versio on päivitetty toimimaan versiossa 21.11.
@@ -287,6 +319,8 @@ WHERE date(datetime) BETWEEN <<Aikaväli alkaen|date>> AND <<Päättyen|date>>
 AND b.categorycode != 'EITILASTO'
 AND s.type in ('issue', 'renew')
 ```
+
+
 
 ### Kirjaston voimassa olevien lainojen määrä eräpäiväaikavälillä
 
