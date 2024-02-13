@@ -20,6 +20,7 @@ Läsnä:
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/1071)
 * [Integraatiot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) lisätty ohjeistusta rajapintojen avaamista ja sulkemista varten sekä mitä käyttäjäoikeuksia tunnukset tarvitsevat.
 * Ei huoltokatkoa helmikuussa.
+* [Pupen esittely 21.2.2024 klo 10](https://github.com/KohaSuomi/Koha/discussions/1068)
 
 
 ## Viikko 6
