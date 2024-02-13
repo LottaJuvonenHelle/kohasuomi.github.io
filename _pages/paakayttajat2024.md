@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: 13.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Piia Semenoff, Veli-Pekka Marjonimei (OUTI)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Piia Semenoff, Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Redusointi ja sip-tunnukset](https://github.com/KohaSuomi/Koha/issues/838#issuecomment-1931608560) - ehdotus toimintatavasta
@@ -33,7 +33,12 @@ Pohjoisesta etelään
 * Otettu käyttöön uusi Tietuesiirtäjä. Tänä aamuna ensimmäiset tietueet siirtyneet Kohaan.
 * Oulu ottaa kahdeksi viikoksi koekäyttöön Puppe-tilaustenvastaanottotyökalun 23.2.2023. Jos työkalu toimii, se jää ilmeisesti käyttöön.
 * Oulun luetteloinnista tuli tiedoksi, että RDA-konversiossa poistuu kokonaan 245h-kenttä (Aineiston yleismääre). Ilmeisesti kentän tietojen annetaan hävitä konversiossa.
-* Tehty varauksen keskeytykseen liittyvät tekstimuutokset Finnaan. 
+* Tehty varauksen keskeytykseen liittyvät tekstimuutokset Finnaan.
+
+**Vaara**
+* Joensuu-apin päivityksessä otettu käyttöön HionDigitalin tekemä sovellus, jolla Vaarojen asiakkaat pääsevät apin kautta uusimaan lainojaan, tekemään varauksia ja keveitä tiedonhakuja.
+* Vaara-Finnassa muokattu maksunäkymää lisäämällä sinne tiedotusta maksamiseen liittyvissä asioissa.
+* Cineast-elokuvapalvelu tulossa kuun vaihteessa käyttöön Vaarassa asiakkaille (nyt henkilökunnalla demokäyttö kokeiltavana)
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-7) - [Palaa sivun alkuun](/paakayttajat2024)
