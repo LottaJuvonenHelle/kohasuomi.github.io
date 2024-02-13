@@ -21,6 +21,8 @@ Läsnä:
 * [Integraatiot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) lisätty ohjeistusta rajapintojen avaamista ja sulkemista varten sekä mitä käyttäjäoikeuksia tunnukset tarvitsevat.
 * Ei huoltokatkoa helmikuussa.
 * [Pupen esittely 21.2.2024 klo 10](https://github.com/KohaSuomi/Koha/discussions/1068)
+* Lari kysyy: Testi-Finnat ja kutsumanimi, oletteko ehtineet tarkistamaan?
+  * sama muutos pitää pyytää myös nextien Finnoille.
 
 
 ## Viikko 6
