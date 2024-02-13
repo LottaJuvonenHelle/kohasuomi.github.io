@@ -13,17 +13,21 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: 13.2.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 
 **Yhteiset**
 * [Redusointi ja sip-tunnukset](https://github.com/KohaSuomi/Koha/issues/838#issuecomment-1931608560) - ehdotus toimintatavasta
+  * kaikki tekevät testitunnukset ja toimittavat joko supportiin tai Larille Matrixissa.
 * [Viikon 7 päivitys](https://github.com/KohaSuomi/Koha/discussions/1071)
+  * Kuvailupohjan liitännäiseen pitää käydä lisäämässä asetukset, jotka löytyvät tiketistä.
 * [Integraatiot-wikiin](https://github.com/KohaSuomi/Koha/wiki/Integraatiot) lisätty ohjeistusta rajapintojen avaamista ja sulkemista varten sekä mitä käyttäjäoikeuksia tunnukset tarvitsevat.
 * Ei huoltokatkoa helmikuussa.
 * [Pupen esittely 21.2.2024 klo 10](https://github.com/KohaSuomi/Koha/discussions/1068)
 * Lari kysyy: Testi-Finnat ja kutsumanimi, oletteko ehtineet tarkistamaan?
   * sama muutos pitää pyytää myös nextien Finnoille.
+  * Käykää testaamassa ja kuittaamassa [tikettiin Finna-kehitysehdotukset #22](https://github.com/KohaSuomi/Finna-kehitysehdotukset/issues/22) viimeistään pe 16.2.2024.
 
+Pohjoisesta etelään
 
 ## Viikko 6
 
