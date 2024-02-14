@@ -51,7 +51,7 @@ Pohjoisesta etelään
 * Kaukolaina-asiakastyypin salasanan generointiin tuli muutos. Lari Strand teki tarvittavat ylläpitomuutokset.
 
 **Kirkes**
-* E-kirjaston Cineast-elokuvapalvelu otettu käyttöön Viddlan sulkeuduttua, päivitellään integraatiolistaa.
+* E-kirjaston Cineast-elokuvapalvelu otettu käyttöön Viddlan sulkeuduttua, päivitelty integraatiolistaan.
 * Kirjastokortittomille asiakkaille on muodostunut KIRKON-tunnus asiakastietojen kirjastokorttikenttään konversion seurauksena. Siivotaan nämä hiljalleen pois.
   
 
