@@ -49,6 +49,10 @@ Pohjoisesta etelään
 * Poistettu massana 17269 emotonta osakohdetta. Listaus poistettavista Pasi Kalliselta.
 * Niteelle tullut lainatessa eräpäiväksi lainauspäivä. Syynä kirjastokortillisen lainaajatiedon virheellinen Takaaja-asiakastyyppi. Takaaja-asiakastyyppi ei sisälly Hellen laina- ja maksusääntöihin.
 * Kaukolaina-asiakastyypin salasanan generointiin tuli muutos. Lari Strand teki tarvittavat ylläpitomuutokset.
+
+**Kirkes**
+* E-kirjaston Cineast-elokuvapalvelu otettu käyttöön Viddlan sulkeuduttua, päivitellään integraatiolistaa.
+* Kirjastokortittomille asiakkaille on muodostunut KIRKON-tunnus asiakastietojen kirjastokorttikenttään konversion seurauksena. Siivotaan nämä hiljalleen pois.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-7) - [Palaa sivun alkuun](/paakayttajat2024)
