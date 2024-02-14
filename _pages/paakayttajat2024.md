@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 7
 
 Aika: 13.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Piia Semenoff, Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Piia Semenoff, Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Redusointi ja sip-tunnukset](https://github.com/KohaSuomi/Koha/issues/838#issuecomment-1931608560) - ehdotus toimintatavasta
@@ -44,6 +44,11 @@ Pohjoisesta etelään
 * Vuorelan kirjaston lainaus/palautusautomaatti seisahtelee itsekseen omatoimiaikana. Kohan päästä ei löytynyt vikaa, jatketaan selvittelyä Tieran ja Mikroväylän kanssa.
 * Hetu/hetuavain näyttäisi puuttuvan n. 600 henkilöasiakkaalta, osa näistä käyty jo läpi aiemmin ja huomautus lisätty. Lisätään lopuillekin ja muistutellaan taas hetun tallentamisesta oikein.
 * Emottomien osakohteiden poisto vielä vaiheessaa, PasiK:n toimittama listaus vaatii vielä lisäselvittelyä.
+
+**Helle**
+* Poistettu massana 17269 emotonta osakohdetta. Listaus poistettavista Pasi Kalliselta.
+* Niteelle tullut lainatessa eräpäiväksi lainauspäivä. Syynä kirjastokortillisen lainaajatiedon virheellinen Takaaja-asiakastyyppi. Takaaja-asiakastyyppi ei sisälly Hellen laina- ja maksusääntöihin.
+* Kaukolaina-asiakastyypin salasanan generointiin tuli muutos. Lari Strand teki tarvittavat ylläpitomuutokset.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-7) - [Palaa sivun alkuun](/paakayttajat2024)
