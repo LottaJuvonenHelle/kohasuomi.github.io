@@ -442,7 +442,8 @@ Tarpeellisuus: Suositeltava
 Versio: 22.11
 
 ```
-//Kielten aakkostus/priorisointi tarkassa haussa
+/// ALKU ///
+//Kielten aakkostaminen ja priorisointi tarkassa haussa
 function sortSelect(select, startAt) {
     if(typeof startAt === 'undefined') {
         startAt = 0;
@@ -464,15 +465,19 @@ function sortSelect(select, startAt) {
 }
 
 $(document).ready(function () {
-  if (window.location.pathname == ("/cgi-bin/koha/catalogue/search.pl") && !window.location.search) {
-    sortSelect(document.getElementById('language-limit'), 1); 
-    var $select = $("#mySelect");
+  if ((window.location.pathname == ("/cgi-bin/koha/catalogue/search.pl") && !window.location.search) || (window.location.href.indexOf("/catalogue/search.pl?advsearch=1&edit_search") > -1) || (window.location.href.indexOf("/catalogue/search.pl?do=Clear") > -1))  {
+    var selected_lang_limit = $( "#language-limit option:selected" ).val();
+    var selected_orig_lang_limit = $( "#language-original-limit option:selected" ).val();
+
+    sortSelect(document.getElementById('language-limit'), 1);
     $('#language-limit').find('option[value="ln,rtrn:eng"]')
          .insertBefore($('#language-limit').find('option:eq(1)'));
     $('#language-limit').find('option[value="ln,rtrn:swe"]')
          .insertBefore($('#language-limit').find('option:eq(1)'));
     $('#language-limit').find('option[value="ln,rtrn:fin"]')
          .insertBefore($('#language-limit').find('option:eq(1)'));
+    $("#language-limit").val(selected_lang_limit);
+    
     sortSelect(document.getElementById('language-original-limit'), 1);
     $('#language-original-limit').find('option[value="language-original,rtrn:eng"]')
          .insertBefore($('#language-original-limit').find('option:eq(1)'));
@@ -480,9 +485,10 @@ $(document).ready(function () {
          .insertBefore($('#language-original-limit').find('option:eq(1)'));
     $('#language-original-limit').find('option[value="language-original,rtrn:fin"]')
          .insertBefore($('#language-original-limit').find('option:eq(1)'));
+    $('#language-original-limit').val(selected_orig_lang_limit);
   }
 });
-//LOPPU
+/// LOPPU ///
 ```
 
 ### Varaustunnus-asiakasmääreen siirto
@@ -1256,3 +1262,136 @@ $(document).ready(function() {
       localStorage.removeItem("searchbox_value");
 });
 ```
+
+### Haku-kenttien aktivoitumisviive
+
+Korjaa kenttiin kirjoittamisen takkuilun
+Tarpeellisuus: Suositeltava (22.11)
+
+```
+//ALKU
+//Haku-kenttien hakuviiveet
+//hyllyvarauslistan haku-kentän hakuviive #826
+$(document).ready(function() {
+    if (window.location.href.indexOf("/circ/kohasuomi-pendingreserves.pl") > -1) {
+        $.holdReady(true);
+        setTimeout(function() {
+
+            // Setting a delay after page load to catch dt elements
+            $.holdReady(false);
+        }, 3000);
+        $(document).ready(function() {
+
+            function delay(callback, ms) {
+                var timer = 0;
+                return function() {
+                    var context = this,
+                        args = arguments;
+                    clearTimeout(timer);
+                    timer = setTimeout(function() {
+                        callback.apply(context, args);
+                    }, ms || 0);
+                };
+            } 
+            var search_thread = null;
+            $(".dataTables_filter input")
+                .unbind()
+                .bind("input", function(e) {
+                    clearTimeout(search_thread);
+                    search_thread = setTimeout(function() {
+                        var dtable = $("#holdst").dataTable().api();
+                        var elem = $(".dataTables_filter input");
+                        return dtable.search($(elem).val()).draw();
+                    },500);
+                });
+            //Delayed 
+        });
+    }
+});
+
+//tietueen perusnäkymän haku-kentän hakuviive #826
+$(document).ready(function() {
+    if (window.location.href.indexOf("/catalogue/detail.pl") > -1) {
+        $.holdReady(true);
+        setTimeout(function() {
+
+            // Setting a delay after page load to catch dt elements
+            $.holdReady(false);
+        }, 3000);
+        $(document).ready(function() {
+
+            function delay(callback, ms) {
+                var timer = 0;
+                return function() {
+                    var context = this,
+                        args = arguments;
+                    clearTimeout(timer);
+                    timer = setTimeout(function() {
+                        callback.apply(context, args);
+                    }, ms || 0);
+                };
+            }
+            var search_thread = null;
+            $("input[aria-controls='holdings_table']")
+                .unbind()
+                .bind("input", function(e) {
+                    clearTimeout(search_thread);
+                    search_thread = setTimeout(function() {
+                        var dtable = $("#holdings_table").dataTable().api();
+                        var elem = $("input[aria-controls='holdings_table']");
+                        return dtable.search($(elem).val()).draw();
+                    },500);
+                });
+          $("input[aria-controls='otherholdings_table']")
+                .unbind()
+                .bind("input", function(e) {
+                    clearTimeout(search_thread);
+                    search_thread = setTimeout(function() {
+                        var dtable = $("#otherholdings_table").dataTable().api();
+                        var elem = $("input[aria-controls='otherholdings_table']");
+                        return dtable.search($(elem).val()).draw();
+                    },500);
+                });
+        });
+    }
+});
+
+//hankinnan vastaanoton haku-kentän hakuviive #826
+$(document).ready(function() {
+    if (window.location.href.indexOf("/acqui/parcel.pl") > -1) {
+        $.holdReady(true);
+        setTimeout(function() {
+
+            // Setting a delay after page load to catch dt elements
+            $.holdReady(false);
+        }, 3000);
+        $(document).ready(function() {
+
+            function delay(callback, ms) {
+                var timer = 0;
+                return function() {
+                    var context = this,
+                        args = arguments;
+                    clearTimeout(timer);
+                    timer = setTimeout(function() {
+                        callback.apply(context, args);
+                    }, ms || 0);
+                };
+            }
+            var search_thread = null;
+            $(".dataTables_filter input")
+                .unbind()
+                .bind("input", function(e) {
+                    clearTimeout(search_thread);
+                    search_thread = setTimeout(function() {
+                        var dtable = $("#pending_orders").dataTable().api();
+                        var elem = $(".dataTables_filter input");
+                        return dtable.search($(elem).val()).draw();
+                    },500);
+                });
+            //Delayed 
+        });
+    }
+});
+//LOPPU
+``
