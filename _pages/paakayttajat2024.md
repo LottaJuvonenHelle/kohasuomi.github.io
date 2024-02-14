@@ -53,6 +53,7 @@ Pohjoisesta etelään
 **Kirkes**
 * E-kirjaston Cineast-elokuvapalvelu otettu käyttöön Viddlan sulkeuduttua, päivitelty integraatiolistaan.
 * Kirjastokortittomille asiakkaille on muodostunut KIRKON-tunnus asiakastietojen kirjastokorttikenttään konversion seurauksena. Siivotaan nämä hiljalleen pois.
+* Järvenpäässä vaihdettu tulostimien toimittaja Canoniin. Mahdollisuus rakentaa rajapinta Kohaan.
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-7) - [Palaa sivun alkuun](/paakayttajat2024)
