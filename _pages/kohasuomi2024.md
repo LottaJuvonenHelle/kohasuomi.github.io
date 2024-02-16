@@ -18,7 +18,8 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Aika: 19.2.2024 klo 9<br />
 Läsnä:
 
-* Kesälomat suunnitteluun? /Anneli
+* Kesälomat suunnitteluun? / Anneli
+* Kommentoitu-tilaisten (plus muiden) vastuutus / Anneli
 
 
 ## Viikko 7
