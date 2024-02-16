@@ -752,7 +752,7 @@ $(document).ready(function() {
 /// LOPPU ///
 ```
 
-### Kirjastokortin numero QR-koodina näkyviin Kirjastotiedot-osioon
+### Kirjastokortin numero viivakoodina näkyviin Kirjastotiedot-osioon
 
 Tällä IntranetUserJS-rimpsulla saa asiakkaan kirjastokortin numeron näkymään viivakoodina kirjastotiedot-osiossa. [Liittyy tikettiin Asiakkaan viivakoodin esittäminen asiakastietonäytöllä #671](https://github.com/KohaSuomi/Koha/issues/671).
 
