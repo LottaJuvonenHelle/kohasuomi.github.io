@@ -22,7 +22,10 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
-### 2. Tekstiviestisopimusten irtisanomisajat
+### 2. Asiantuntijaryhmän vuosisuunnitelma 2024
+
+
+### 3. Tekstiviestisopimusten irtisanomisajat
 
 Siilinjärvi: 3 kk
 Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.
