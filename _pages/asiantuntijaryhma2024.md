@@ -24,8 +24,13 @@ Läsnä:
 
 ### 2. Asiantuntijaryhmän vuosisuunnitelma 2024
 
+Käydään läpi asiantuntijaryhmän oma vuosisuunnitelma
 
-### 3. Tekstiviestisopimusten irtisanomisajat
+### 3. Uutiskirjeen vastuuvuorot
+
+Sovitaan kimppojen järjestys uutiskirjeen julkaisulle.
+
+### 4. Tekstiviestisopimusten irtisanomisajat
 
 Siilinjärvi: 3 kk
 Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.
