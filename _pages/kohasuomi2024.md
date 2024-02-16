@@ -20,6 +20,7 @@ Läsnä:
 
 * Kesälomat suunnitteluun? / Anneli
 * Kommentoitu-tilaisten (plus muiden) vastuutus / Anneli
+* Branchit 0104 ja 0105 eivät ole ajantasalla tuotannoissa /Emmi
 
 
 ## Viikko 7
