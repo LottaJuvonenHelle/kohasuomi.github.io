@@ -24,16 +24,33 @@ Läsnä:
 
 ### 2. Asiantuntijaryhmän vuosisuunnitelma 2024
 
-Käydään läpi asiantuntijaryhmän oma vuosisuunnitelma
+Käydään läpi asiantuntijaryhmän oma vuosisuunnitelma.
 
 ### 3. Uutiskirjeen vastuuvuorot
 
-Sovitaan kimppojen järjestys uutiskirjeen julkaisulle.
+Sovitaan kimppojen järjestys uutiskirjeen kirjoittamiselle.
 
 ### 4. Tekstiviestisopimusten irtisanomisajat
 
 Siilinjärvi: 3 kk
 Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.
+
+### 5. Kehitysehdotusten läpikäynti
+
+* [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367)
+* [Hankintaportaalista tilatulle teokselle tieto: muovitettu/muovittamaton #386](https://github.com/KohaSuomi/Koha/issues/386)
+* [Saisiko muutoksen popuptekstiin? Kun nide palauttaessa tärppää noudettavaksi varaukseen, lukee popupissa mm. Asiakasta ei ole huomautettu. #6](https://github.com/KohaSuomi/Koha-translations/issues/6)
+* [Noutamattoman varauksen maksun määräytyminen nidetyypin mukaan #404](https://github.com/KohaSuomi/Koha/issues/404)
+* [Kohan Kori-toiminto #411](https://github.com/KohaSuomi/Koha/issues/411)
+* [Paperiselle palautuskuitille niteiden tiedot myös silloin kun asiakas on valinnut ettei lainahistoriaa tallenneta #441](https://github.com/KohaSuomi/Koha/issues/441)
+* [Nidettä poistaessa huomautus, kun poistettavalla niteellä on voimassa oleva tilaus #445](https://github.com/KohaSuomi/Koha/issues/445)
+* [Ylläpito/Kirjastot ja ryhmät: mahdollisuus lisätä Nimi-arvo suomen lisäksi ruotsiksi ja englanniksi #448](https://github.com/KohaSuomi/Koha/issues/448)
+
+### 6. Muut asiat
+
+Turku Citydata ja varausjonojen optimointi?
+
+### 7. Seuraava kokous
 
 ## Asiantuntijaryhmän muistio 2/24
 
