@@ -19,6 +19,8 @@ Läsnä:
 
 **Yhteiset**
 * [Viikon 8 päivitys](https://github.com/KohaSuomi/Koha/discussions/1087)
+* Pääkäyttäjäryhmän vuosisuunnitelma 2024 työn alle: [paakayttajatvuosisuunnitelma2024.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/14331227/paakayttajatvuosisuunnitelma2024.docx)
+
 
 Etelästä pohjoiseen
 
