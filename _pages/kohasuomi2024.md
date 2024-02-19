@@ -15,7 +15,10 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 9
 
-* Päivystyskäytäntöjen päivitys ja kirjaus muuaallekin kuin Redmineen.
+Aika: 26.2.2024 klo 9<br />
+Läsnä:
+
+* Päivystyskäytäntöjen päivitys ja kirjaus muuallekin kuin Redmineen.
   * Kopattu Redminestä:
     * Kehittäjät päivystävät virka-aikana ma-pe klo 8-16. Iltaisin ja viikonloppuisin ei ole päivystystä. Jos viikonloppuna tulee ongelmia Kohan kanssa, pitää toimintakäytännöistä sopia kimpan sisällä. Varalainausohjeet ja -ohjelmat kannattaa huolehtia kuntoon valmiiksi.
     * Kehittäjät päivystävät pareittain viikon kerrallaan. Päivystyajankohdat pyritään järjestämään niin, että muut käynnissä olevat projektit voidaan hoitaa sovitussa aikataulussa.
