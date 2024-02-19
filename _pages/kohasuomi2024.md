@@ -16,11 +16,25 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 8
 
 Aika: 19.2.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Lasse, Johanna, Lari, Kodo, Anneli, Emmi
 
 * Kesälomat suunnitteluun? / Anneli
+  * Laitetaan kalenteriin toiveet ja sumplitaan sitten lisää
 * Kommentoitu-tilaisten (plus muiden) vastuutus / Anneli
+  * Käytiin läpi kommentoitu-tilaiset tiketit 
 * Branchit 0104 ja 0105 eivät ole ajantasalla tuotannoissa /Emmi
+  * Poistetaan 0105 ja päivitetään 0104 ajantasalle viikkopäivityksessä 
+* Viikon 8 päivitys
+  *  [Sarakevalinnat eivät käyttäydy aina oikein niteiden eräpoistossa/erämuokkauksessa #769](https://github.com/KohaSuomi/Koha/issues/769)
+  *   [Rajoitteen tekstimuutosehdotus, kun asiakkaalla on yli 50 virheellistä kirjautumisyritystä #474](https://github.com/KohaSuomi/Koha/issues/474)
+* Scrum:
+  * Kodo: Lastussa hyllypaikkojen korjausta, pientä silppua
+  * Anneli: tikettien läpikäyntiä
+  * Pasi: pari päivistyjuttua
+  * Lari: Finna-juttuja (poistetut niteet), versionvaihtoa
+  * Johanna: uuden valutuksen testausta
+  * Lasse: tikettien tekoa
+  * Emmi: 0114 branchin kanssa ongelmia     
 
 
 ## Viikko 7
