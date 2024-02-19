@@ -583,13 +583,13 @@ vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkko
 
 ##### 1.5.10.1.4 Rajoite liiallisista kirjautumisyrityksistä
 
-Koha-Suomessa tehtiin toiminto, jossa asiakkaalle lisätään automaattisesti rajoite, jos hänen tilillään on yli 50 epäonnistunutta kirjautumisyritystä. Tässä tilanteessa oletettavaa on, että asiakkaan kortti on tai korttinumero on mahdollisesti väärissä käsissä ja asiakkaan henkilöllisyys kannattaa tarkistaa sekä vaihtaa asiakkaan kirjastokortti uuteen.
+Koha-Suomessa tehtiin toiminto, jossa asiakkaalle lisätään automaattisesti rajoite, jos hänen tilillään on yli 50 epäonnistunutta kirjautumisyritystä. Tässä tilanteessa oletettavaa on, että asiakkaan kortti tai korttinumero on mahdollisesti väärissä käsissä ja asiakkaan henkilöllisyys kannattaa tarkistaa sekä vaihtaa asiakkaan kirjastokortti uuteen.
 
-Rajoite poistuu automaattisesti, kun kirjautumisyritysten määrä nollautuu. Sen saa nollattua vaihtamalla PIN-koodin _Vaihda salasana_ -toiminnolla tai käyttämällä verkkokirjastossa salasanan palautustoimintoa. 
+Rajoite näyttää asiakkaalla tältä:
 
 ![](/assets/files/docs/Asiakkaat/liikaayrityksia.png)
 
-Rajoitteen voi poistaa myös manuaalisesti kortinvaihtotilanteessa.
+Rajoitteen voi poistaa manuaalisesti kortinvaihtotilanteessa.
 
 <img src="/assets/files/docs/Asiakkaat/liikaayrityksia2.png" alt="" style="width:90.0%" />
 
