@@ -52,8 +52,8 @@ Etelästä pohjoiseen
   * Sotu-avaimettomille asiakkaille lisätään huomautusviesti (joka näkyy myös verkkokirjastossa) henkilötunnuksen puuttumisesta. Poistetaan mahdolliset siihen liittyvät rajoitukset.
   * Maksujen erottelu julkis- ja yksityisoikeudellisiin asiakkaan tiedoissa otetaan OUTIssa käyttöön:
 Maksu-näkymän tekstimuutosehdotus asiakkaan Lainat- ja Tiedot näytöllä, jos mahdollista toteuttaa: "Asiakkaalla on lainauskieltoon vaikuttavia maksuja €16.00. Yhteensä (sis. maksut, jotka eivät vaikuta lainauskieltoon): €34.00.
-   * Anneli kysyy tieteelliseltä voiko lausetta muuttaa, vaikuttaako se tieteellisten kirjastojen toimintaan?
-   * OUTI tekee tästä tiketin.
+     Anneli kysyy tieteelliseltä voiko lausetta muuttaa, vaikuttaako se tieteellisten kirjastojen toimintaan?
+     OUTI tekee tästä tiketin.
 * Tullut kysymyksiä tilastoista. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-8) - [Palaa sivun alkuun](/paakayttajat2024)
