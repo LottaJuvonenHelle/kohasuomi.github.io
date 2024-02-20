@@ -14,12 +14,13 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 20.2.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
 
 
 **Yhteiset**
 * [Viikon 8 päivitys](https://github.com/KohaSuomi/Koha/discussions/1087)
 * Pääkäyttäjäryhmän vuosisuunnitelma 2024 työn alle: [paakayttajatvuosisuunnitelma2024.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/14331227/paakayttajatvuosisuunnitelma2024.docx)
+  * käsitellään ensi viikon kokouksessa, kun kaikki ovat ehtineet katsoa dokumentin läpi ja Anneli pyytänyt Arilta tarkempaa ohjeistusta.
 
 
 Etelästä pohjoiseen
