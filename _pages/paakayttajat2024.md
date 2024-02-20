@@ -26,7 +26,7 @@ Etelästä pohjoiseen
 
 **Vaski**
 
-* Seinäjoelle (Ertes-kimpalle) pidetään tänään Koha-esittely.
+* Seinäjoelle (Eepos-kimpalle) pidetään tänään Koha-esittely.
 * Turun pääkirjaston Kirjallisuus ja Taiteet -osasto menee remonttiin. Palautuvan aineiston sijoittelu mietinnässä.
 * Myös kaksi Turun lähikirjastoa menossa remontin vuoksi kiinni.
 * Kysyttiin onko mieltä sellaisessa ehdotuksessa, että nidehaun tuloksissa voisi näyttää 1000 nidettä (=saisi vietyä 1000 niteen joukon erämuokkaukseen). Selvisi, että Kohassa voi nykyään MaxItemsToDisplayForBatch... -asetuksilla määrittää paljonko niteitä esikatselussa näytetään ja paljonko niteitä voidaan kerralla muokata/poistaa. Kirkeksellä display-asetuksissa 1000 ja process 10000, ja toiminut hyvin. Vaskissa testataan samaa, helpottaa niteiden erämuokkauksia.
