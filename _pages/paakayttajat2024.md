@@ -39,6 +39,22 @@ Etelästä pohjoiseen
 * Tuli vastaan varauksia, jotka olivat varaussijalla 0, mutta asiakas ei niitä ole saanut. Selvisi, että automaateilta menee osa varauksista suoraan hyllyyn, koska asiakkaat laittavat niteet väärään paikkaan. Tiedotetaan henkilökuntaa ja vinkataa automaateista saaravaan raporttiin tarkistettavista niteistä. 
 * Kysy Kohasta -koulutus tulossa 19.3.
 
+**OUTI**
+* Uuden Tietuesiirtäjän säätöä (Antti ja Johanna). Tiketti #915
+* Muhoksen Hyrkin alakoulu aloittaa lainaamisen. Lisätty hyllytarkenne.
+* Tyrnävän kirjakaapin eräpäiväkuittiongelma. Lainauskuittiin ei tulostunut eräpäivää. Ennen versiopäivitystä 12-paluuviestissä on tullut eräpäivä AH-kentässä normaalisti. Versiopäivityksen jälkeen tilanne muuttui. Jos lähetetään 11-viestissä "no block" = ”Y”, niin AH-kenttä tulee tyhjänä, vaikka Koha ilmoittaa lainauksesta tai uusinnasta. Lainalla on myös Kohasta katsottuna eräpäivä, mutta AH-kentässä se ei tule. Oulun automaateilla ei tätä ongelmaa ollut vaan ainoastaan Tyrnävän kirjakaapissa.
+  * Tiketti #1084
+  * Yhteisössä on korjaus, joka on tuotu OUTI-testille ja Lappi-testille. Näyttää toimivan Lappi-testillä, mutta OUTIssa testataan vielä tällä viikolla. Jos kaikki menee hyvin tuodaan tuotantoon ensi tiistaina.
+* OUTI Koha-ryhmän päätöksiä: 
+  * uudet kokoelmat Dekkari, Selko, Helppolukuiset
+  * uusi nidetyyppi laina-aika-7 vrk, myöhästymismaksu 0,40 e/pv, ei uusittava, ei varattava
+  * asiakkaiden s-postiviesteistä (eräpäiväilmoitukset ja palautuskehotukset) jätetään koko kirjastokortin numero pois, vain kolme viimeistä merkkiä jätetään viesteihin.
+  * Sotu-avaimettomille asiakkaille lisätään huomautusviesti (joka näkyy myös verkkokirjastossa) henkilötunnuksen puuttumisesta. Poistetaan mahdolliset siihen liittyvät rajoitukset.
+  * Maksujen erottelu julkis- ja yksityisoikeudellisiin asiakkaan tiedoissa otetaan OUTIssa käyttöön:
+Maksu-näkymän tekstimuutosehdotus asiakkaan Lainat- ja Tiedot näytöllä, jos mahdollista toteuttaa: "Asiakkaalla on lainauskieltoon vaikuttavia maksuja €16.00. Yhteensä (sis. maksut, jotka eivät vaikuta lainauskieltoon): €34.00.
+Anneli kysyy tieteelliseltä voiko lausetta muuttaa, vaikuttaako se tieteellisten kirjastojen toimintaan? OUTI tekee tästä tiketin.
+* Tullut kysymyksiä tilastoista. 
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-8) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 7
