@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 20.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski), Pia Kusmin ja Maria Joona (Lappi)
 
 
 **Yhteiset**
@@ -30,6 +30,14 @@ Etelästä pohjoiseen
 * Turun pääkirjaston Kirjallisuus ja Taiteet -osasto menee remonttiin. Palautuvan aineiston sijoittelu mietinnässä.
 * Myös kaksi Turun lähikirjastoa menossa remontin vuoksi kiinni.
 * Kysyttiin onko mieltä sellaisessa ehdotuksessa, että nidehaun tuloksissa voisi näyttää 1000 nidettä (=saisi vietyä 1000 niteen joukon erämuokkaukseen). Selvisi, että Kohassa voi nykyään MaxItemsToDisplayForBatch... -asetuksilla määrittää paljonko niteitä esikatselussa näytetään ja paljonko niteitä voidaan kerralla muokata/poistaa. Kirkeksellä display-asetuksissa 1000 ja process 10000, ja toiminut hyvin. Vaskissa testataan samaa, helpottaa niteiden erämuokkauksia.
+
+**Lappi**
+* Rovaniemen remontti ja kiinnimeno lähenee. Eräpäivät ylitettiin ja samalla selvisi ongelma verkkokirjaston uusinnoissa. Finna käyttikin uusinnoissa Finna-API kirjaston kalenteria, jolloin nyt kaikkien kirjastojen eräpäivät siirtyivät 13.5. asti. Vika korjattiin circcontrol asetusta muuttamalla.
+* Maksnimen kirjasto suljetaan kevään aikana. Suunnittelut sulkemisesta aloitettu.
+* Ranualla otetaan toukokuussa käyttöön Smartbox.
+* Tiketin #1083 tietueet korjattu, koska aiheuttivat indeksointi ongelman (saatavuus tieto näytti eri paikoissa eriä).
+* Tuli vastaan varauksia, jotka olivat varaussijalla 0, mutta asiakas ei niitä ole saanut. Selvisi, että automaateilta menee osa varauksista suoraan hyllyyn, koska asiakkaat laittavat niteet väärään paikkaan. Tiedotetaan henkilökuntaa ja vinkataa automaateista saaravaan raporttiin tarkistettavista niteistä. 
+* Kysy Kohasta -koulutus tulossa 19.3.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-8) - [Palaa sivun alkuun](/paakayttajat2024)
 
