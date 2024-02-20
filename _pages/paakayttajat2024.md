@@ -110,7 +110,7 @@ Pohjoisesta etelään
 **Siilinjärvi**
 * Vuorelan kirjaston lainaus/palautusautomaatti seisahtelee itsekseen omatoimiaikana. Kohan päästä ei löytynyt vikaa, jatketaan selvittelyä Tieran ja Mikroväylän kanssa.
 * Hetu/hetuavain näyttäisi puuttuvan n. 600 henkilöasiakkaalta, osa näistä käyty jo läpi aiemmin ja huomautus lisätty. Lisätään lopuillekin ja muistutellaan taas hetun tallentamisesta oikein.
-* Emottomien osakohteiden poisto vielä vaiheessaa, PasiK:n toimittama listaus vaatii vielä lisäselvittelyä.
+* Emottomien osakohteiden poisto vielä vaiheessa, PasiK:n toimittama listaus vaatii vielä lisäselvittelyä.
 
 **Helle**
 * Poistettu massana 17269 emotonta osakohdetta. Listaus poistettavista Pasi Kalliselta.
