@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 20.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski)
 
 
 **Yhteiset**
@@ -22,8 +22,14 @@ Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi)
 * Pääkäyttäjäryhmän vuosisuunnitelma 2024 työn alle: [paakayttajatvuosisuunnitelma2024.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/14331227/paakayttajatvuosisuunnitelma2024.docx)
   * käsitellään ensi viikon kokouksessa, kun kaikki ovat ehtineet katsoa dokumentin läpi ja Anneli pyytänyt Arilta tarkempaa ohjeistusta.
 
-
 Etelästä pohjoiseen
+
+**Vaski**
+
+* Seinäjoelle (Ertes-kimpalle) pidetään tänään Koha-esittely.
+* Turun pääkirjaston Kirjallisuus ja Taiteet -osasto menee remonttiin. Palautuvan aineiston sijoittelu mietinnässä.
+* Myös kaksi Turun lähikirjastoa menossa remontin vuoksi kiinni.
+* Kysyttiin onko mieltä sellaisessa ehdotuksessa, että nidehaun tuloksissa voisi näyttää 1000 nidettä (=saisi vietyä 1000 niteen joukon erämuokkaukseen). Selvisi, että Kohassa voi nykyään MaxItemsToDisplayForBatch... -asetuksilla määrittää paljonko niteitä esikatselussa näytetään ja paljonko niteitä voidaan kerralla muokata/poistaa. Kirkeksellä display-asetuksissa 1000 ja process 10000, ja toiminut hyvin. Vaskissa testataan samaa, helpottaa niteiden erämuokkauksia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-8) - [Palaa sivun alkuun](/paakayttajat2024)
 
