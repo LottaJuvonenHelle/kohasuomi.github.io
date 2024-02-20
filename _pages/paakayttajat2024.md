@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 20.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski), Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski), Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Annika Helastila ja Elina Uotila (Kirkes), Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Reetta Pihlaja (Siilinjärvi)
 
 
 **Yhteiset**
@@ -70,6 +70,10 @@ Maksu-näkymän tekstimuutosehdotus asiakkaan Lainat- ja Tiedot näytöllä, jos
 
 **Kyyti**
 * Käyty läpi uuden version IntranetuserCSS-rimpsu.  Löytyi yksi lisäys, jota tarvitaan jos käytössä ovat nidepaketit. Anneli lisäsi sen ohjeisiin: https://github.com/KohaSuomi/Koha-23x/wiki/IntranetUserCSS
+
+**Siilinjärvi**
+* Ei mainittavaa
+* Tilastojen teko oli tällä kertaa helppoa ja mukavaa, koska tilastotyökalun antamat luvut olivat selkeitä ja loogisia. Kiitos kehittäjät!
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-8) - [Palaa sivun alkuun](/paakayttajat2024)
 
