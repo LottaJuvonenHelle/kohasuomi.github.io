@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 20.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski), Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski), Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme)
 
 
 **Yhteiset**
@@ -59,6 +59,10 @@ Maksu-näkymän tekstimuutosehdotus asiakkaan Lainat- ja Tiedot näytöllä, jos
 **Vaara**
 * Viime viikolla Outista Pirkko-Liisa kertoi raportista, jolla saa 245$h-kentän tiedot haettua. Pyysin raportin myös Vaaraan ja ajoin sen. Tuloksena oli yli 300 riviä erilaisia "yleismääreitä". Osa voidaan poistaa RDA-konversiossa suoraan, mutta osa sisältää tekijätietoja ym. jotka kuuluvat ihan toiseen osakenttään. Korjaan noita, missä on säilytettävää tietoa.
 * Viime viikon päivityksessä Ceepos-kassan toiminnossa havaittiin ongelma, että osittain maksuja maksettaessa kassa näyttää eri summan kuin mitä Kohassa näkyy (virkailija syöttää esim. 2.00 euroa, Ceepos näyttää 2,30). Tätä nyt pallotellaan Meitan ja Ceepoksen välillä. Viimeisin tieto on, että Koha toimii väärin. Miksi se toimisi vain Joensuussa väärin?
+
+**Lumme**
+* Perusylläpitoa, pienten asioiden selvittämistä.
+* Maaliskuussa otetaan käyttöön myös sähköpostimuistutus vaihtoehdoksi asiakkaille lähtevään 1. muistutusilmoitukseen.
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-8) - [Palaa sivun alkuun](/paakayttajat2024)
