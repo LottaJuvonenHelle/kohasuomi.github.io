@@ -53,7 +53,7 @@ Etelästä pohjoiseen
   * Maksujen erottelu julkis- ja yksityisoikeudellisiin asiakkaan tiedoissa otetaan OUTIssa käyttöön:
 Maksu-näkymän tekstimuutosehdotus asiakkaan Lainat- ja Tiedot näytöllä, jos mahdollista toteuttaa: "Asiakkaalla on lainauskieltoon vaikuttavia maksuja €16.00. Yhteensä (sis. maksut, jotka eivät vaikuta lainauskieltoon): €34.00.
      Anneli kysyy tieteelliseltä voiko lausetta muuttaa, vaikuttaako se tieteellisten kirjastojen toimintaan?
-     OUTI tekee tästä tiketin.
+     OUTI tekee tästä tiketin. Tiketti: https://github.com/KohaSuomi/Koha/issues/1089
 * Tullut kysymyksiä tilastoista.
 
 **Vaara**
