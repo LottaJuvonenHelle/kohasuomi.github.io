@@ -33,7 +33,7 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Rovaniemen remontti ja kiinnimeno lähenee. Eräpäivät ylitettiin ja samalla selvisi ongelma verkkokirjaston uusinnoissa. Finna käyttikin uusinnoissa Finna-API kirjaston kalenteria, jolloin nyt kaikkien kirjastojen eräpäivät siirtyivät 13.5. asti. Vika korjattiin circcontrol asetusta muuttamalla.
-* Maksnimen kirjasto suljetaan kevään aikana. Suunnittelut sulkemisesta aloitettu.
+* Maksniemen kirjasto suljetaan kevään aikana. Suunnittelut sulkemisesta aloitettu.
 * Ranualla otetaan toukokuussa käyttöön Smartbox.
 * Tiketin #1083 tietueet korjattu, koska aiheuttivat indeksointi ongelman (saatavuus tieto näytti eri paikoissa eriä).
 * Tuli vastaan varauksia, jotka olivat varaussijalla 0, mutta asiakas ei niitä ole saanut. Selvisi, että automaateilta menee osa varauksista suoraan hyllyyn, koska asiakkaat laittavat niteet väärään paikkaan. Tiedotetaan henkilökuntaa ja vinkataa automaateista saaravaan raporttiin tarkistettavista niteistä. 
