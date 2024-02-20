@@ -64,7 +64,7 @@ Maksu-näkymän tekstimuutosehdotus asiakkaan Lainat- ja Tiedot näytöllä, jos
 * Perusylläpitoa, pienten asioiden selvittämistä.
 * Maaliskuussa otetaan käyttöön myös sähköpostimuistutus vaihtoehdoksi asiakkaille lähtevään 1. muistutusilmoitukseen.
 
-  **Kirkes**
+**Kirkes**
 * Mana-tietämyskanta on otettu käyttöön.
 * Yksittäinen Suomi.fi-viesti lähtenyt useamman kerran, mistä DVV on ilmoittanut. Kyse on luultavasti silkasta vahingosta. 
 
