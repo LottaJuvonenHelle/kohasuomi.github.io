@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 8
 
 Aika: 20.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski), Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman, Kodo Korkalo ja Lari Strand (Koha-Suomi), Anni Rajala (Vaski), Pia Kusmin ja Maria Joona (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Annika Helastila ja Elina Uotila (Kirkes),
 
 
 **Yhteiset**
@@ -64,13 +64,17 @@ Maksu-näkymän tekstimuutosehdotus asiakkaan Lainat- ja Tiedot näytöllä, jos
 * Perusylläpitoa, pienten asioiden selvittämistä.
 * Maaliskuussa otetaan käyttöön myös sähköpostimuistutus vaihtoehdoksi asiakkaille lähtevään 1. muistutusilmoitukseen.
 
+  **Kirkes**
+* Mana-tietämyskanta on otettu käyttöön.
+* Yksittäinen Suomi.fi-viesti lähtenyt useamman kerran, mistä DVV on ilmoittanut. Kyse on luultavasti silkasta vahingosta. 
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-8) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 7
 
 Aika: 13.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Piia Semenoff, Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari, Piia Semenoff, Veli-Pekka Marjoniemi (OUTI), Päivi Knuutinen, Auli Rantasalo, Irina Halminen (Vaara), Reetta Pihlaja (Siilinjärvi), Kati Sillgren (Helle), Tuomas Kunttu (Kyyti), Roosa Väisänen (Kyyti), Annika Helastila (Kirkes), Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Redusointi ja sip-tunnukset](https://github.com/KohaSuomi/Koha/issues/838#issuecomment-1931608560) - ehdotus toimintatavasta
