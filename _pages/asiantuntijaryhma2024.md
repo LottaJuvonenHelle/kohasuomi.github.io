@@ -32,8 +32,9 @@ Sovitaan kimppojen järjestys uutiskirjeen kirjoittamiselle.
 
 ### 4. Tekstiviestisopimusten irtisanomisajat
 
-Siilinjärvi: 3 kk
-Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.
+Siilinjärvi: 3 kk<br />
+Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.<br />
+Kyyti: Tekstiviestipalvelussa (Arena Interactive) on 90 päivän irtisanomisaika.<br />
 
 ### 5. Kehitysehdotusten läpikäynti
 
