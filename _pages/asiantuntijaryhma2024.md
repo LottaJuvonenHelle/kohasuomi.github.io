@@ -51,6 +51,8 @@ Vaski: Vaski-kirjastojen televiestisopimus on DNA Oy:n kanssa tehty laaja sopimu
 
 ### 6. Muut asiat
 
+Kokoelmatyöhön liittyvät haut ja nidehaku -koulutus. [Ennakkokyselyn sisältö](https://forms.gle/LfRce1cWHAwNr3nY7).
+
 ### 7. Seuraava kokous
 
 ## Asiantuntijaryhmän muistio 2/24
