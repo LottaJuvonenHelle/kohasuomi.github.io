@@ -35,6 +35,8 @@ Sovitaan kimppojen järjestys uutiskirjeen kirjoittamiselle.
 Siilinjärvi: 3 kk<br />
 Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.<br />
 Kyyti: Tekstiviestipalvelussa (Arena Interactive) on 90 päivän irtisanomisaika.<br />
+Lappi: Link Mobilityn irtisanomisaika on 3 kuukautta, toistaiseksi voimassa oleva sopimus. <br />
+Vaski: Vaski-kirjastojen televiestisopimus on DNA Oy:n kanssa tehty laaja sopimus, jossa kaupungin kaikki puhepalvelut. Toistaiseksi voimassaoleva. Todennäköisesti erittäin vaikea päästä eroon.
 
 ### 5. Kehitysehdotusten läpikäynti
 
@@ -48,8 +50,6 @@ Kyyti: Tekstiviestipalvelussa (Arena Interactive) on 90 päivän irtisanomisaika
 * [Ylläpito/Kirjastot ja ryhmät: mahdollisuus lisätä Nimi-arvo suomen lisäksi ruotsiksi ja englanniksi #448](https://github.com/KohaSuomi/Koha/issues/448)
 
 ### 6. Muut asiat
-
-Turku Citydata ja varausjonojen optimointi?
 
 ### 7. Seuraava kokous
 
