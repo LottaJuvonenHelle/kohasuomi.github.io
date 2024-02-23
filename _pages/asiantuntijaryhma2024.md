@@ -26,6 +26,9 @@ Läsnä:
 
 Käydään läpi asiantuntijaryhmän oma vuosisuunnitelma.
 
+Vuosisuunnitelma: [Asiantuntijaryhmän_vuosisuunnitelma2024.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/14383494/Asiantuntijaryhman_vuosisuunnitelma2024.docx)
+
+
 ### 3. Uutiskirjeen vastuuvuorot
 
 Sovitaan kimppojen järjestys uutiskirjeen kirjoittamiselle.
