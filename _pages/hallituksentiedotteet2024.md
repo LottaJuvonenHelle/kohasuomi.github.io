@@ -11,6 +11,24 @@ title: 'Hallituksen tiedotteet 2024'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2024. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 2/2024
+
+23.2.2024
+
+Hallituksen kokouksessa kävimme aika lyhyesti läpi tammikuun taloustilanteen ja toimitusjohtajan raportin, vielä ei ole paljon ehtinyt tapahtua. Viestintäsuunnitelman toteuma käynnisti hyvän keskustelun ja tämän vuoden suunnitelmaa täsmennetään sen pohjalta, joten nyt liitteenä vain toteuma. Ensi kerralla uusi suunnitelma.
+
+Keskustelimme lisäksi osakassopimuksen päivittämisestä. Hallitus on valmistellut uuden osakassopimuksen ja se on lähiaikoina lähdössä kuntiin kommenteille. Sopimuksesta on hyvä keskustella myös kimppojen kokouksissa. Tavoitteena on, että sopimusta kommentoidaan annetussa ajassa ja että saadaan mahdolliset muutokset tehtyä ennen yhtiökokousta. Lisäksi sopimus tulee hyväksyä jokaisessa kunnassa. Tästä kaikesta on tarkemmin kuntiin tulevassa aineistossa.
+
+Leppoisaa viikonloppua!
+
+t. Rebekka, hallituksen pj.<br /><br />
+
+
+Viestintäsuunnitelma ja toteuma 2023: [Viestintäsuunnitelma ja toteuma2023.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/14384189/Viestintasuunnitelmajatoteuma2023.pdf)
+
+Toimitusjohtajan raportti 2/24: [Toimitusjohtajan raportti 2_24.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/14384193/Toimitusjohtajanraportti2_24.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 1/2024
 
 29.1.2024
