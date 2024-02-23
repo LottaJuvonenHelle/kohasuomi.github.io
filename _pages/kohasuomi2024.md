@@ -28,6 +28,7 @@ Läsnä:
       * seuraa support-lootaan tulevia sähköposteja ja hoitaa asiat tai huolehtii, että joku muu hoitaa
       * vastaa kehittäjien päivystyspuhelimeen ja huolehtii, että sitä kautta tulevat asiat tulee hoidetuksi
         päivystyspuhelinnumero on kimpan pääkäyttäjillä tiedossa ja heidän käyttöön tarkoitettu
+* Viestintäsuunnitelma ja sen toteuma
 
 ## Viikko 8
 
