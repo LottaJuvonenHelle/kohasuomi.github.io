@@ -53,23 +53,40 @@ Kyyti: Tekstiviestipalvelussa (Arena Interactive) on 90 päivän irtisanomisaika
 Lappi: Link Mobilityn irtisanomisaika on 3 kuukautta, toistaiseksi voimassa oleva sopimus. <br />
 Vaski: Vaski-kirjastojen televiestisopimus on DNA Oy:n kanssa tehty laaja sopimus, jossa kaupungin kaikki puhepalvelut. Toistaiseksi voimassaoleva. Todennäköisesti erittäin vaikea päästä eroon.<br />
 Lumme: Link Mobility, toistaiseksi voimassaoleva, irtisanomisaika 3kk.
+OUTI: Link Mobility, toistaiseksi voimassaoleva, irtisanomisaika 3kk.
+Helle: ei irtisanomisaikaa.
+Kirkes: ei vielä tiedossa.
 
 ### 5. Kehitysehdotusten läpikäynti
 
 * [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367)
+  * Koha-Suomen asiantuntijaryhmä 26.2.2024: Suositus, että Asiakas-sarake piilotetaan sarakeasetuksissa. Pääkäyttäjien tehtävissä. 
 * [Hankintaportaalista tilatulle teokselle tieto: muovitettu/muovittamaton #386](https://github.com/KohaSuomi/Koha/issues/386)
+  * Koha-Suomen asiantuntijaryhmä 26.2.2024: Tälle ei ole enää tarvetta, joten ei toteuteta. 
 * [Saisiko muutoksen popuptekstiin? Kun nide palauttaessa tärppää noudettavaksi varaukseen, lukee popupissa mm. Asiakasta ei ole huomautettu. #6](https://github.com/KohaSuomi/Koha-translations/issues/6)
+  * Koha-Suomen asiantuntijaryhmä 26.2.2024: Muutetaan meidän omiin po-tiedostoihin muotoon Ilmoitus: Kirje. Alkuperäisteksti: Patron is not notified
 * [Noutamattoman varauksen maksun määräytyminen nidetyypin mukaan #404](https://github.com/KohaSuomi/Koha/issues/404)
+  * Siirretään käsittely seuraavaan kokoukseen.
 * [Kohan Kori-toiminto #411](https://github.com/KohaSuomi/Koha/issues/411)
+  * Koha-Suomen asiantuntijaryhmä 26.2.2024: Aineistotyypin saaminen näkyviin olisi Koha-Suomen oma koodimuutos, jota ei kannata ylläpidollisesti tehdä. Piilotetaan sarake. 
 * [Paperiselle palautuskuitille niteiden tiedot myös silloin kun asiakas on valinnut ettei lainahistoriaa tallenneta #441](https://github.com/KohaSuomi/Koha/issues/441)
+  * Koha-Suomen asiantuntijaryhmä 26.2.2024: Koha-Suomalaiset ehdottava yhteisön tikettiin ratkaisua, jossa palautuskuitin sisältö kerättäisiin uuteen viestityyppiin ja kun palautuskuitti tulostetaan, haetaan tieto message_queue-taulusta old_issues-taulun sijaan. Eli samantyyppisesti kerättäisiin tiedot lennossa kuitille kuin mitä sähköpostikuitissa. 
 * [Nidettä poistaessa huomautus, kun poistettavalla niteellä on voimassa oleva tilaus #445](https://github.com/KohaSuomi/Koha/issues/445)
+  * Koha-Suomen asiantuntijaryhmä 26.2.2024: Ei toteuteta, koska käytettäessä Kohan hankinnat-toimintoa, ongelmaa eli roikkumaan jääviä tilauksia ei esiinny kuin virhetilanteissa.
 * [Ylläpito/Kirjastot ja ryhmät: mahdollisuus lisätä Nimi-arvo suomen lisäksi ruotsiksi ja englanniksi #448](https://github.com/KohaSuomi/Koha/issues/448)
+  * Koha-Suomen asiantuntijaryhmä 26.2.2024: Yhteisössä on avoinna aiheesta parikin bugia. Pyydetään pääkäyttäjiä käymään kommentoimassa tiketteihin, että toiminto olisi tärkeä, jotta saadaan yhteisöä aktivoitumaan. 
 
 ### 6. Muut asiat
 
 Kokoelmatyöhön liittyvät haut ja nidehaku -koulutus. [Ennakkokyselyn sisältö](https://forms.gle/LfRce1cWHAwNr3nY7).
+* lisätään kyselyyn kimppa
+* aikataulu: koulutus maaliskuun lopulla
+* toiveiden esittämiselle aikaa maaliskuun puolivälin seutuville
+* asiantuntijaryhmä: kyselettekö omista kimpoisa, löytyisikö Annelille kaveriksi joku henkilö, joka tekee paljon kokoelmatyötä ja olisi valmis tulemaan mukaan kouluttamaan? Deadline vko 10 loppuun. Tieto Annelille.
 
 ### 7. Seuraava kokous
+
+Ma 18.3.2024 klo 13.
 
 ## Asiantuntijaryhmän muistio 2/24
 
