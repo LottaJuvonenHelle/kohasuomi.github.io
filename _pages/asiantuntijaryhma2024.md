@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän esityslista 3/24
 
 Aika: 26.2.2024 klo 13<br />
-Läsnä:
+Läsnä: Päivi, Susanna, Ari, Hanna, Pia, Noora, Riikka, Kati, Anneli
 
 ### 1. Arin ajankohtaiset
 
@@ -34,7 +34,16 @@ Vuosisuunnitelma: [Asiantuntijaryhmän_vuosisuunnitelma2024.docx](https://github
 
 ### 3. Uutiskirjeen vastuuvuorot
 
+Syksyn seminaarissa tuli ajatus kaikille kohdistetusta uutiskirjeestä. Kirjeen koonnista olisi vastuussa aina yksi kimppa kerrallaan. He koostavat kaikilta tulleita uutisia ja voivat itse nostaa esille esim. hyviä käytänteitä. Julkaistaan Githubin keskustelupalstalla (Discussions eli sama, missä tulee esim. viikkopäivitysten tiedotteet). Matrixissa voi huudella muilta kimpoilta sisältöä.
+
 Sovitaan kimppojen järjestys uutiskirjeen kirjoittamiselle.
+
+1. kirjeen koonti Vaskin vastuulla, deadline 29.3.2024, julkaisu viikolla 14.
+2. kirjeen koonti xx vastuulla, deadline 30.5.2024, julkaisu vkolla 19.
+3. kirjeen koonti xx vastuulla, deadline 30.9.2024, julkaisu vkolla 41.
+4. kirjeen koonti xx vastuulla, deadline 6.12.2024, julkaisu vkolla 50.
+
+Sovitaan loput vastuut seuraavassa kokouksessa.
 
 ### 4. Tekstiviestisopimusten irtisanomisajat
 
