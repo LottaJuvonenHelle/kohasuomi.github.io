@@ -42,7 +42,7 @@ Siilinjärvi: 3 kk<br />
 Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.<br />
 Kyyti: Tekstiviestipalvelussa (Arena Interactive) on 90 päivän irtisanomisaika.<br />
 Lappi: Link Mobilityn irtisanomisaika on 3 kuukautta, toistaiseksi voimassa oleva sopimus. <br />
-Vaski: Vaski-kirjastojen televiestisopimus on DNA Oy:n kanssa tehty laaja sopimus, jossa kaupungin kaikki puhepalvelut. Toistaiseksi voimassaoleva. Todennäköisesti erittäin vaikea päästä eroon.
+Vaski: Vaski-kirjastojen televiestisopimus on DNA Oy:n kanssa tehty laaja sopimus, jossa kaupungin kaikki puhepalvelut. Toistaiseksi voimassaoleva. Todennäköisesti erittäin vaikea päästä eroon.<br />
 Lumme: Link Mobility, toistaiseksi voimassaoleva, irtisanomisaika 3kk.
 
 ### 5. Kehitysehdotusten läpikäynti
