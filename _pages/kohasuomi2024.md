@@ -30,6 +30,10 @@ Läsnä: Ari, Anneli, Emmi, Lasse, Pasi, Lari
         päivystyspuhelinnumero on kimpan pääkäyttäjillä tiedossa ja heidän käyttöön tarkoitettu
     * Kiireelliset asiat päivystyspuhelimeen, tukipyynnöistä aina tiketti
 * Viestintäsuunnitelma ja sen toteuma
+* Viikon 9 päivitys
+  * Tarrapohjalle kokoelmatieto selkokielisenä
+  * Automaattien lainausviestiparin 11-12 vastauksessa ei tule AH-kentässä eräpäivää, mikäli ”no block” -asetuksessa lähetetään ”Y”
+  * Käännösvirhe niteiden erämuokkauksessa jos poistettavia niteitä enemmän kuin mitä sallitaan näytettäväksi
 
 ## Viikko 8
 
