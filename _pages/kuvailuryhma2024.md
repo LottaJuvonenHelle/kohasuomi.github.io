@@ -9,6 +9,84 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 ---
 
 
+## Kuvailuryhmän muistio 2/2024 ##
+
+Aika: 15.2.2024 klo 13.15–14.40
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteerivuorossa oli Tarja Mäkinen.
+
+#### 2.	RDA-konversioiden eteneminen ####
+
+Kansalliskirjastossa korjaukset vielä kesken. Odotetaan niiden valmistumista ennen kuin järjestetään toinen testikierros. Kannattaa huomata, että konversiossa vanhoilta tietueilta poistuu 245$h-kenttä. Kentässä on ilmaistu hakasuluissa yleismääre, mutta siihen voi olla eksynyt myös toiseen osakenttään kuuluvaa tietoa. OUTIssa on tehty raportteja, joilla voi tarvittaessa hakea tällaiset tietueet ja selata läpi, onko joukossa tietueita, jotka kannattaisi korjata ennen konversiota.
+
+#### 3.	YSO-konversion testaustuloksia Vaskissa ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1040" target="_blank">YSA/YSO-konversion testausta</a> </li>
+  <li>Kannattaa tutustua etukäteen, millaisia lokitiedostoja konversio-ohjelma tuottaa: <a href="https://www.kiwi.fi/display/ysall2yso/Konversio-ohjelman+lokitiedostot" target="_blank">YSA/YSO-konversio-ohjelman lokitiedostot</a> </li>
+</ul>
+
+Anna Viitanen kertoi Vaskin testaustuloksista – toimii niin hyvin kuin mahdollista. Virheet johtuneet siitä, että termit olivat virheellisiä tai vanhentuneita, eivät itse konversiosta. Osa virheellisistäkin oli konvertoitunut oikein. Jos yhdessä tietueessa oli ollut sama asiasana useaan kertaan eri asiasanaketjuissa, se oli konvertoidussa tietueessa siististi vain yhden kerran. Antti kysyy Kansalliskirjastosta vielä päivitystä 648-kentän konversiosääntöihin.
+
+#### 4.	Melindan kuvailukoulutukset ####
+
+Kimpoissa oli kyselty, millaista kuvailukoulutusta tarvittaisiin. Vastaukset vaihtelivat ja tuli ilmi, että kimppojen välillä on edelleen eroja siinä, miten kuvailu on järjestetty. Osassa kuvailu on keskitetty yhteen tai muutamaan kuntaan. Osassa kuvaillaan joka kunnassa. TäTi-tunnuksia on jaettu enemmän kuin mitä TäTiin kuvailevia oikeasti on. Eniten koulutusta toivottiin seuraavissa asioissa:
+<ul>
+  <li>kiinteämittaiset kentät</li>
+  <li>osakohteet ja niiden käsittelyn ongelmatilanteet</li>
+  <li>kertaus Kohassa kuvailusta</li>
+  <li>esineet ja harvinaisemmat aineistotyypit</li>
+  <li>Melinda-tietueiden käsittely</li>
+  <li>Mikropalvelun toiminnot eli miten kuvailutiedot siirretään TäTistä Melindaan ja Melindasta TäTiin</li>
+</ul>
+  
+#### 5.	TäTin ja paikalliskantojen emottomat osakohteet ####
+<ul>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/348" target="_blank">Emottomien osakohteiden poisto ajona</a> </li>
+  <li>Raportissa myös luettelo virheellisistä osakohteista, joista osa pitäisi korjata </li>
+  <li>ERROR:773w org "FI-Arto" does not match "FI-MELINDA" -> osakohteissa toinen 773w-kenttä, jossa linkki ARTO-tietokantaan. Kysytty Melindasta, mitä tarkoittaa. Vastattu, että jos Melindan osakohteissa on toinen 773w-kenttä, jossa on FI-Arton kontrollinumero, niin sen voi poistaa tietueista, jos Melinda-tietueen linkki on toimiva </li>
+  <li>ERROR:ldr/7 is m -> osakohde monografiana, korjattava. Nykyään ei linkity enää emoon, vaikka emotietue on tietokannassa </li>
+  <li>ERROR:773w org "FI-MELINDA" does not match "FI-TATI" -> Joko Melindaan vienti jäänyt vaillinaiseksi eli osakohteiden 003-kenttä jäänyt päivittymättä (FI-TATI -> FI-MELINDA), tai Melinda-tietueelle TäTissä tehtyjä uusia osakohteita, joita ei ole viety Melindaan. Nämä kannattaa korjata ensin TäTissä. Antti käy läpi TäTin virheraportin näiden osalta. </li>
+  <li>TäTissä myös ERROR:773w org "FI-TATI" does not match "FI-MELINDA" -> Näissä tietueissa on jotain häikkää, joka pitää selvittää Melindan kanssa.</li>
+</ul>
+
+#### 6.	337a-kentän käännösvirhe ruotsinkielisissä RDA-tietueissa: oförmedlad -> omedierad ####
+<ul>
+  <li>TäTissä 2573 kpl -> korjataan joko RDA-konversiossa tai konversioiden jälkeen, kun on aikaa </li>
+  <li>Voi korjata Tietueiden muokkaus eräajona -toiminnolla:</li>
+    <ol>
+    <li> Hae tietueet hakulausekkeella: media-type-term:oförmedlad </li>
+    <li> Tarkista, ettei joukossa ole tietueita, joilla saattaa olla useampi 337-kenttä. Tällaiset tietueet kannattaa korjata käsin erikseen. </li>
+    <li> Siirrä tietueet koriin </li>
+    <li> Muokkaa tietueet eräajolla (Marc-muokkausten pohja: Päivitä olemassa oleva tai lisää uusi kenttä 337$a arvolla omedierad) </li>
+    </ol>
+</ul>
+
+#### 7.	Moniviestimien kuvailu ####
+<ul>
+  <li>Moniviestinten primaarikuvailu on vähentynyt </li>
+  <li>Toistaiseksi ei ole tarvetta päivittää moniviestimien kuvailupohjaa TäTissä </li>
+</ul>
+
+#### 8.	Muita asioita ####
+<ul>
+    <li>Toimijanimimuutosten päivitykset TäTissä (TäTissä on 5 vuotta vanhempia RDA-tietueita ja myös Melindaan linkittämättömiä Melinda-tietueita)</li>
+  <ul>
+  <li>olisi hyvä tarkistaa, onko tietue TäTissä, ja tehdä tarvittavat korjaukset siellä </li>
+  <li>ei tuoda Melindasta TäTiin vanhoja, huonoja tietueita (omaan tietokantaan voi tuoda) </li>
+  </ul>
+    <li><a href="https://github.com/KohaSuomi/Koha/discussions/1068" target="_blank">Puppe-tilaustenvastaanottotyökalun esittely 21.2.</a> </li>
+</ul>
+
+#### 9.	Seuraava kokous To 14.3. klo 13.15 ####
+
+
+---
 ## Kuvailuryhmän muistio 1/2024 ##
 
 Aika: 25.1.2024 klo 13.15–14.41
