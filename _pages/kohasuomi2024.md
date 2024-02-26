@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 9
 
 Aika: 26.2.2024 klo 9<br />
-Läsnä:
+Läsnä: Ari, Anneli, Emmi, Lasse, Pasi, Lari
 
 * Päivystyskäytäntöjen päivitys ja kirjaus muuallekin kuin Redmineen.
   * Kopattu Redminestä:
@@ -25,9 +25,10 @@ Läsnä:
     * Päivystäjän tehtävät:
       * seuraa tikettejä ja huolehtii, että ne tulevat tarpeen tullen tehdyksi ajallaan
       * hoitaa viikon aikana tulevat tukipyyntö-tapahtumatyyppiä olevat tiketit, mikäli se on mahdollista
-      * seuraa support-lootaan tulevia sähköposteja ja hoitaa asiat tai huolehtii, että joku muu hoitaa
+      * seuraa support-lootaan tulevia sähköposteja ja matrixia ja hoitaa asiat tai huolehtii, että joku muu hoitaa
       * vastaa kehittäjien päivystyspuhelimeen ja huolehtii, että sitä kautta tulevat asiat tulee hoidetuksi
         päivystyspuhelinnumero on kimpan pääkäyttäjillä tiedossa ja heidän käyttöön tarkoitettu
+    * Kiireelliset asiat päivystyspuhelimeen, tukipyynnöistä aina tiketti
 * Viestintäsuunnitelma ja sen toteuma
 
 ## Viikko 8
