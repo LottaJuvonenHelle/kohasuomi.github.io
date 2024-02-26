@@ -15,10 +15,10 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 3/24
+## Asiantuntijaryhmän muistio 3/24
 
 Aika: 26.2.2024 klo 13<br />
-Läsnä: Päivi, Susanna, Ari, Hanna, Pia, Noora, Riikka, Kati, Anneli
+Läsnä: Päivi Knuutinen (Vaara), Susanna Sandell (Vaski), Ari Mäkiranta (Koha-Suomi), Hanna Ikonen (Lumme), Pia Kusmin (Lappi), Noora Valkonen (OUTI), Riikka Mustajärvi (Kirkes), Kati Sillgren (Helle), Anneli Österman (Koha-Suomi)
 
 ### 1. Arin ajankohtaiset
 
@@ -29,18 +29,19 @@ Osakassopimus on lähdössä kuntiin kommmentoitavaksi.
 
 Käydään läpi asiantuntijaryhmän oma vuosisuunnitelma.
 
-Vuosisuunnitelma: [Asiantuntijaryhmän_vuosisuunnitelma2024.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/14383494/Asiantuntijaryhman_vuosisuunnitelma2024.docx)
+Vuosisuunnitelma: [Asiantuntijaryhmän_vuosisuunnitelma2024_valmis.docx](https://github.com/KohaSuomi/kohasuomi.github.io/files/14405118/Asiantuntijaryhman_vuosisuunnitelma2024_valmis.docx)
+
 
 
 ### 3. Uutiskirjeen vastuuvuorot
 
-Syksyn seminaarissa tuli ajatus kaikille kohdistetusta uutiskirjeestä. Kirjeen koonnista olisi vastuussa aina yksi kimppa kerrallaan. He koostavat kaikilta tulleita uutisia ja voivat itse nostaa esille esim. hyviä käytänteitä. Julkaistaan Githubin keskustelupalstalla (Discussions eli sama, missä tulee esim. viikkopäivitysten tiedotteet). Matrixissa voi huudella muilta kimpoilta sisältöä.
+Syksyn Koha-seminaarissa tuli esille ajatus kaikille Kohaa käyttäville kohdistetusta uutiskirjeestä. Kirjeen koonnista olisi vastuussa aina yksi kimppa kerrallaan. He koostavat muilta tulleet uutiset ja voivat itse nostaa esille esim. hyviä käytänteitä. Julkaistaan Githubin keskustelupalstalla (Discussions eli sama, missä tulee esim. viikkopäivitysten tiedotteet). Matrixissa voi kysellä muilta kimpoilta sisältöjä uutiskirjeeseen.
 
 Sovitaan kimppojen järjestys uutiskirjeen kirjoittamiselle.
 
-1. kirjeen koonti Vaskin vastuulla, deadline 29.3.2024, julkaisu viikolla 14.
-2. kirjeen koonti xx vastuulla, deadline 30.5.2024, julkaisu vkolla 19.
-3. kirjeen koonti xx vastuulla, deadline 30.9.2024, julkaisu vkolla 41.
+1. kirjeen koonti Vaskin vastuulla, deadline 29.3.2024, julkaisu viikolla 14.<br />
+2. kirjeen koonti xx vastuulla, deadline 30.5.2024, julkaisu vkolla 19.<br />
+3. kirjeen koonti xx vastuulla, deadline 30.9.2024, julkaisu vkolla 41.<br />
 4. kirjeen koonti xx vastuulla, deadline 6.12.2024, julkaisu vkolla 50.
 
 Sovitaan loput vastuut seuraavassa kokouksessa.
@@ -52,9 +53,9 @@ Vaara: Link mobility, toistaiseksi voimassaoleva, irtisanomisaika 3 kk.<br />
 Kyyti: Tekstiviestipalvelussa (Arena Interactive) on 90 päivän irtisanomisaika.<br />
 Lappi: Link Mobilityn irtisanomisaika on 3 kuukautta, toistaiseksi voimassa oleva sopimus. <br />
 Vaski: Vaski-kirjastojen televiestisopimus on DNA Oy:n kanssa tehty laaja sopimus, jossa kaupungin kaikki puhepalvelut. Toistaiseksi voimassaoleva. Todennäköisesti erittäin vaikea päästä eroon.<br />
-Lumme: Link Mobility, toistaiseksi voimassaoleva, irtisanomisaika 3kk.
-OUTI: Link Mobility, toistaiseksi voimassaoleva, irtisanomisaika 3kk.
-Helle: ei irtisanomisaikaa.
+Lumme: Link Mobility, toistaiseksi voimassaoleva, irtisanomisaika 3kk.<br />
+OUTI: Link Mobility, toistaiseksi voimassaoleva, irtisanomisaika 3kk.<br />
+Helle: ei irtisanomisaikaa.<br />
 Kirkes: ei vielä tiedossa.
 
 ### 5. Kehitysehdotusten läpikäynti
@@ -79,7 +80,7 @@ Kirkes: ei vielä tiedossa.
 ### 6. Muut asiat
 
 Kokoelmatyöhön liittyvät haut ja nidehaku -koulutus. [Ennakkokyselyn sisältö](https://forms.gle/LfRce1cWHAwNr3nY7).
-* lisätään kyselyyn kimppa
+* lisätään kyselyyn kimppa-tieto
 * aikataulu: koulutus maaliskuun lopulla
 * toiveiden esittämiselle aikaa maaliskuun puolivälin seutuville
 * asiantuntijaryhmä: kyselettekö omista kimpoisa, löytyisikö Annelille kaveriksi joku henkilö, joka tekee paljon kokoelmatyötä ja olisi valmis tulemaan mukaan kouluttamaan? Deadline vko 10 loppuun. Tieto Annelille.
