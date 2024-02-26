@@ -22,6 +22,9 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+LASTU-konversio on edennyt hyvin, jatkassa käyttöönottoprojektit voidaan viedä läpi tiiviimmässä aikataulussa.
+Osakassopimus on lähdössä kuntiin kommmentoitavaksi.
+
 ### 2. Asiantuntijaryhmän vuosisuunnitelma 2024
 
 Käydään läpi asiantuntijaryhmän oma vuosisuunnitelma.
