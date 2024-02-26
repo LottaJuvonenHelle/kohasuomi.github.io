@@ -17,6 +17,7 @@ Läsnä:
 
 **Yhteiset**
 * [Varauksen keskeytyksen ja aktivoinnin käännösmuutosehdotukset](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1954070069)
+* [Viikon 9 päivitys](https://github.com/KohaSuomi/Koha/discussions/1098)
 
 Pohjoisesta etelään
 
