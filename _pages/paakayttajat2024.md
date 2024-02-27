@@ -43,7 +43,7 @@ Pohjoisesta etelään
 
 **Helle**
 * Kirjastoista kysytty Webkaken kaukolainojen näkymistä Kohaan.
-* Tiedonhaun kirjasto + hyllypaikka -haku ei tuo täysin oikeita hakutuloksia. Palaverissa saatu tieto/kertaus siitä, että hakuun tarvittavia indeksointeja puuttuu.
+* Tiedonhaun kirjasto + hyllypaikka -haku ei tuo täysin oikeita hakutuloksia Kohassa eikä Finnassa. Palaverissa saatu tieto/kertaus siitä, että hakuun tarvittavia indeksointeja puuttuu.
 * Finnan Aikuiset-fasetin JA Lapset ja nuoret -fasetin käyttöä varten olisi tarpeellistsa saada tietueiden kiinteämittaiseen kenttään 008/22 massatäydennystä esim. tietueiden niteiden hyllypaikka-arvojen perusteella. Tämän mahdolliseen toteutukseen lienee parempi ajankohta joskus myöhemmin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-9) - [Palaa sivun alkuun](/paakayttajat2024)
