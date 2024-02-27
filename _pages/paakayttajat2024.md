@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 27.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * [Varauksen keskeytyksen ja aktivoinnin käännösmuutosehdotukset](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1954070069)
@@ -26,6 +26,10 @@ Läsnä: Anneli Österman (Koha-Suomi)
     * Koha-Suomen asiantuntijaryhmä 26.2.2024: Yhteisössä on avoinna aiheesta parikin bugia. Pyydetään pääkäyttäjiä käymään kommentoimassa tiketteihin, että toiminto olisi tärkeä, jotta saadaan yhteisöä aktivoitumaan. 
 
 Pohjoisesta etelään
+
+**Vaara**
+* Ceepos-kassan testailut jatkuu, kun asetuksiin on muutettu sääntöä. Auli palaa lomalta huomenna, jolloin päästään testaamaan eri maksuvirityksiä ja niiden toimintaa.
+* Muuten normaalia ylläpitoa, ei mainittavaa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-9) - [Palaa sivun alkuun](/paakayttajat2024)
 
