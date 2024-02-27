@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 9
 
 Aika: 27.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), 
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Pia Kusmin ja Maria Joona (Lappi)
 
 **Yhteiset**
 * [Varauksen keskeytyksen ja aktivoinnin käännösmuutosehdotukset](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1954070069)
@@ -37,6 +37,9 @@ Pohjoisesta etelään
 * Mietinnässä OUTIn Koha-ryhmässä uusien kokoelmien Dekkari, Helppolukuinen ja Selko lyhenteet ja kuvailut.
 * Puppe otettiin perjantaina kehden viikon koekäyttöön. Koha-tukeen ei ole ainakaan vielä kuulunut miten menee. Palataan asiaan myöhemmin, kun kuullaan käyttökokemuksia.
 * OUTIssa  on paljon hyväksytty varaustunnisteita, joissa on erikoismerkkejä. Pohdittiin voisiko muut kirjastot ottaa Vaskin validoinnin käyttöön, mutta koska OUTIn Finna-tuki oli tehnyt tästä jo kehitysehdotuksen Kansalliskirjastoon, päätettiin odottaa sen etenemistä.
+
+**Lappi**
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-9) - [Palaa sivun alkuun](/paakayttajat2024)
 
