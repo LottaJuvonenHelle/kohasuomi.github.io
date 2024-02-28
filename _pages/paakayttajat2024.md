@@ -10,6 +10,16 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 10
+
+Aika: 5.3.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset asiat**
+* [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) - toiminnallisuuden hyvät ja huonot puolet.
+  * toimii vain sms/email-pohjilla
+  * asiakaskohtaisesti valittavissa, mutta pitäisikö pakottaa tai piilottaa kaikilta?
+
 ## Viikko 9
 
 Aika: 27.2.2024 klo 9.15<br />
