@@ -39,6 +39,8 @@ Pääkäyttäjille kannattaa tehdä toinen matalammin käyttöoikeuksin varustet
 
 Kohasta tulee aina ja ilman poikkeuksia kirjautua ulos jos virkailija poistuu koneen äärestä. Selain tai yksityisen selauksen ikkuna tulee sulkea Kohasta uloskirjautumisen jälkeen, tai vaihtoehtoisesti tyhjentää selaimen sivuhistoria ja evästeet. Tätä varten voi olla järkevää nostaa "Unohda" (engl. "Forget") nappi suoraan selaimen työkaluriville, josta se on helposti klikattavissa. Ohje tähän löytyy "täältä":https://support.mozilla.org/fi/kb/firefoxin-painikkeiden-tyokalupalkkien-muokkaaminen.
 
+Kohan järjestelmäastus 'Timeout' määrittää kuinka pitkän ajan kuluttua toimettomana ollut käyttäjä kirjataan ulos Kohasta. Asetuksen arvo kertoo ajan sekunteina. Suosittelemme timeout-ajaksi enintään puolta tuntia (1800 sekuntia). Lyhyempi timeout-aika on tietoturvan kannalta aina parempi.
+
 Erillisen käyttäjätunnuksen käyttö kirjastokorttinumeron rinnalla ei ole suositeltavaa. Kaksi rinnakkaista tunnusta voi aiheuttaa sekaannuksia ja avata ylimääräisiä hyökkäysreittejä järjestelmään. Asiakaskirjautumisen tulisi aina tapahtua kirjastokortin numerolla ja siihen liitetyllä PIN-koodilla. Virkailijakirjautumisen taas tunnuksella ja vahvalla salasanalla. Suosittelemme lukitsemaan käyttäjätunnuksen samaksi kuin kirjastokortin numero. Tämän voi pyytää kehittäjiltä.
 
 Asiakkaiden varaustunnukseksi ei tulisi hyväksyä kirjautumiskelpoisia tunnuksia, esimerkiksi kirjastokortin numeroita. Varaustunnuksen ei ole tarkoitus avata pääsyä järjestelmään tai kirjaston palveluihin, vaan ainoastaan anonyymisti identifioida tietylle asiakkaalle menossa olevat varaukset noutohyllyssä.
