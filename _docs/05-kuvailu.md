@@ -333,7 +333,7 @@ klikkaamalla _Uusi_ ja valitsemalla _Uusi nide_.
 
 ![](/assets/files/docs/Luettelointi/kuvailu22.png)
 
-Nimekkeen tallennusnäyttö näyttää tältä:
+Niteen tallennusnäyttö näyttää tältä:
 
 ![](/assets/files/docs/Luettelointi/kuvailu23.png)
 
