@@ -1349,35 +1349,33 @@ ORDER BY 7,5
 
 ### Poistojen apuväline
 
-Lista, jossa on mm. lainamäärät sekä viimeiset havaintopäivät valitun kirjaston, aineistolajin, hyllypaikan ja luokan mukaan. Luokka-kohtaan täytyy jälkimmäiseen laatikkoon laittaa haluttua luokkaa seuraava luokka.
+Lista niteistä, jossa on mm. lainamäärät sekä viimeiset havaintopäivät valitun kirjaston, aineistotyypin, hyllypaikan ja luokan mukaan. Luokka-kohtaan täytyy jälkimmäiseen laatikkoon laittaa haluttua luokkaa seuraava luokka, esim. jos haetaan luokkaa 33, laitetaan jälkimmäiseen 34.
 
-Päivitetty: 24.11.2020 / AÖ
+Päivitetty: 1.3.2024 / AÖ
 
 ```
 SELECT CONCAT( '<a href=\"/cgi-bin/koha/cataloguing/additem.pl?biblionumber=', biblio.biblionumber,'\">', items.barcode, '</a>' ) AS 'Viivakoodi',
        items.cn_sort AS 'Luokka',
        items.ccode AS 'Kokoelma',
        biblio.author AS 'Tekijä',
-       biblio.title AS 'Nimeke', 
-       ExtractValue(biblio_metadata.metadata,'//datafield[@tag="245"]/subfield[@code="b"]') AS 'Muu nimeke', 
+       CONCAT(biblio.title, ' ', biblio.subtitle) AS 'Nimeke', 
        ExtractValue(biblio_metadata.metadata,'//datafield[@tag="362"]/subfield[@code="a"]') AS 'Numero', 
        biblio.copyrightdate AS 'Vuosi',
        items.dateaccessioned AS 'Hankittu',
-       items.itype AS 'Aineistolaji', 
+       biblioitems.itemtype AS 'Aineistotyyppi', 
        items.issues AS 'Lainoja',
        items.renewals AS 'Uusintoja',
        (IFNULL(items.issues, 0)+IFNULL(items.renewals, 0)) AS 'Lainoja yht.',
        items.datelastborrowed AS 'Viimeksi lainattu',
        items.datelastseen AS 'Viimeksi havaittu',
        items.itemlost AS 'Kadonnut',
-       items.onloan AS 'Lainassa',
        items.itemnotes AS 'Nidehuomautus'
 FROM items
 LEFT JOIN biblioitems ON (items.biblioitemnumber=biblioitems.biblioitemnumber) 
 LEFT JOIN biblio ON (biblioitems.biblionumber=biblio.biblionumber)
 LEFT JOIN biblio_metadata ON (biblio.biblionumber=biblio_metadata.biblionumber)
 WHERE
-     items.itype = <<Aineistolaji|itemtypes>>
+     biblioitems.itemtype = <<Aineistotyyppi|MTYPE>>
  AND items.holdingbranch = <<Kirjastopiste|branches>>
  AND items.location = <<Hyllypaikka|LOC>>
  AND items.cn_sort between <<Luokka väliltä, alkaen>> and <<päättyen>>
