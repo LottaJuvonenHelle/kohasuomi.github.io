@@ -37,7 +37,7 @@ Läsnä: Ari, Anneli, Emmi, Lasse, Pasi, Lari
       * vastaa kehittäjien päivystyspuhelimeen ja huolehtii, että sitä kautta tulevat asiat tulee hoidetuksi
         päivystyspuhelinnumero on kimpan pääkäyttäjillä tiedossa ja heidän käyttöön tarkoitettu
     * Kiireelliset asiat (järjestelmä ei toimi) aina päivystyspuhelimeen, jolloin ne pyritään hoitamaan niin pian kuin mahdollista.
-    * Ei-kiireelliset sähköpostiin ja Matrixiin tulleet asiat pyritään hoitamaan kiireetömämmällä aikataululla.
+    * Ei-kiireelliset sähköpostiin ja Matrixiin tulleet asiat pyritään hoitamaan kiireettömämmällä aikataululla.
     * Tukipyynnöistä aina tiketti.
 * Viestintäsuunnitelma ja sen toteuma
   * Suunnitelmassa virheellisesti Tieteelliset Koha-kirjastot -kohdassa "Kehittäjien yhteistyö on säännöllistä", kun sen pitäisi olla "Koha-Suomen ja tieteellisten kirjastojen yhteistyö on säännöllistä". Ari tekee tarvittavat korjaukset seuraavaan suunnitelmaan.
