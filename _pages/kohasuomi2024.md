@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 10
+
+Aika: 4.3.2024 klo 9<br />
+Läsnä:
+
+* Viikon 10 päivitys
+  * käännösmuutosten ajo aina myös testeille?
+
 ## Viikko 9
 
 Aika: 26.2.2024 klo 9<br />
@@ -20,15 +28,17 @@ Läsnä: Ari, Anneli, Emmi, Lasse, Pasi, Lari
 
 * Päivystyskäytäntöjen päivitys ja kirjaus muuallekin kuin Redmineen.
   * Kopattu Redminestä:
-    * Kehittäjät päivystävät virka-aikana ma-pe klo 8-16. Iltaisin ja viikonloppuisin ei ole päivystystä. Jos viikonloppuna tulee ongelmia Kohan kanssa, pitää toimintakäytännöistä sopia kimpan sisällä. Varalainausohjeet ja -ohjelmat kannattaa huolehtia kuntoon valmiiksi.
+    * Kehittäjät päivystävät puhelimitse virka-aikana ma-pe klo 8-16. Iltaisin ja viikonloppuisin ei ole päivystystä. Jos viikonloppuna tulee ongelmia Kohan kanssa, pitää toimintakäytännöistä sopia kimpan sisällä. Varalainausohjeet ja -ohjelmat kannattaa huolehtia kuntoon valmiiksi.
     * Kehittäjät päivystävät pareittain viikon kerrallaan. Päivystyajankohdat pyritään järjestämään niin, että muut käynnissä olevat projektit voidaan hoitaa sovitussa aikataulussa.
     * Päivystäjän tehtävät:
       * seuraa tikettejä ja huolehtii, että ne tulevat tarpeen tullen tehdyksi ajallaan
       * hoitaa viikon aikana tulevat tukipyyntö-tapahtumatyyppiä olevat tiketit, mikäli se on mahdollista
-      * seuraa support-lootaan tulevia sähköposteja ja matrixia ja hoitaa asiat tai huolehtii, että joku muu hoitaa
+      * seuraa support-lootaan tulevia sähköposteja ja Matrixia ja hoitaa asiat tai huolehtii, että joku muu hoitaa
       * vastaa kehittäjien päivystyspuhelimeen ja huolehtii, että sitä kautta tulevat asiat tulee hoidetuksi
         päivystyspuhelinnumero on kimpan pääkäyttäjillä tiedossa ja heidän käyttöön tarkoitettu
-    * Kiireelliset asiat päivystyspuhelimeen, tukipyynnöistä aina tiketti
+    * Kiireelliset asiat (järjestelmä ei toimi) aina päivystyspuhelimeen, jolloin ne pyritään hoitamaan niin pian kuin mahdollista.
+    * Ei-kiireelliset sähköpostiin ja Matrixiin tulleet asiat pyritään hoitamaan kiireetömämmällä aikataululla.
+    * Tukipyynnöistä aina tiketti.
 * Viestintäsuunnitelma ja sen toteuma
   * Suunnitelmassa virheellisesti Tieteelliset Koha-kirjastot -kohdassa "Kehittäjien yhteistyö on säännöllistä", kun sen pitäisi olla "Koha-Suomen ja tieteellisten kirjastojen yhteistyö on säännöllistä". Ari tekee tarvittavat korjaukset seuraavaan suunnitelmaan.
 * Viikon 9 päivitys
