@@ -1766,6 +1766,22 @@ WHERE i.holdingbranch = <<Valitse kirjasto|branches>>
 GROUP BY bi.itemtype, i.location
 ```
 
+### Tietyn päivämäärän jälkeen hankittujen niteiden määrä aineistotyypin ja hyllypaikan mukaan valitussa kirjastossa
+
+Raportti laskee valitussa kirjastossa olevien, valitun päivämäärän jälkeen hankittujen niteiden määrän aineistotyypin ja hyllypaikan mukaan.
+
+Lisääjä: Anneli Österman
+Lisätty: 1.3.2024
+Versio: 22.11
+
+```
+SELECT bi.itemtype AS 'Nidetyyppi', i.location AS 'Hyllypaikka', COUNT(*) AS 'Niteiden määrä'
+FROM items i
+LEFT JOIN biblioitems bi using (biblionumber)
+WHERE i.holdingbranch = <<Valitse kirjasto|branches>>
+AND i.dateaccessioned > <<Hankittu tämän päivän jälkeen|date>>
+GROUP BY bi.itemtype, i.location
+```
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
