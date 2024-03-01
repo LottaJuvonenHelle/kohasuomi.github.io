@@ -25,7 +25,7 @@ Läsnä:
 ## Viikko 9
 
 Aika: 27.2.2024 klo 9.15<br />
-Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Pia Kusmin ja Maria Joona (Lappi), Kati Sillgren (Helle), Hanna Ikonen (Lumme), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Varauksen keskeytyksen ja aktivoinnin käännösmuutosehdotukset](https://github.com/KohaSuomi/Koha-translations/issues/19#issuecomment-1954070069)
@@ -60,6 +60,10 @@ Pohjoisesta etelään
 
 **Lumme**
 * Perusylläpitoa.
+
+**Vaski**
+* Timeout-asetuksen muuttaminen puoleen tuntiin herättänyt paljon keskustelua. Aika koetaan hyvin lyhyeksi monissa kirjastoissa. Lisäksi uloskirjautumisen näkymättömyys aiheuttanut hämmennystä, kun uudelleenkirjatuminen saattaa alkaa niteen palautuksesta ja kirjautumisen jälkeen palautuu samaan tilanteeseen, johon edellinen käyttäjä oli Kohan jättänyt. Saisikohan Kohan oikeasti kirjaamaan käyttäjän pihalle, kun aika tulee täyteen, jolloin se näkyisi paremmin seuraavalle käyttäjälle. Tässä toki riskinä, että sama käyttäjä menettää jotain tekemäänsä, jos Koha ei palauta käyttäjää takaisin samalle sivulle.
+* Käyttäjille, jotka vaihtavat työskentelypaikkaa usein, on ajateltu helpotusta arkeen selainliitännäisestä, joka tarjoaisi kirjautumisessa aina kyseisen toimipisteen, jossa kone sijaitsee. Tällä saataisiin käytännössä muutettua kirjautuminen toimipistekohtaiseksi nykyisen käyttäjäkohtaisen sijaan. Liitännäisestä on tehty prototyyppi, johon voi asettaa haluamansa kirjaston kirjastolyhenteen perusteella ja tallentaa tiedon selaimeen. Tähän olisi suunnitteilla hakea kirjastotiedot rajapinnasta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-9) - [Palaa sivun alkuun](/paakayttajat2024)
 
