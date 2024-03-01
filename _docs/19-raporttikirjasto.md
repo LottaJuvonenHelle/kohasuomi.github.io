@@ -1716,6 +1716,42 @@ HAVING COUNT(CONCAT(bi.ean))>1
 ORDER BY 1
 ```
 
+### Nimekkeet, joissa on varauksia muttei niteitä
+
+Raportilla voi hakea teokset, joissa on varauksia, mutta ei ollenkaan niteitä.
+
+Tekijä: Anneli Österman
+Lisätty: 1.3.2024
+Versio: 22.11
+
+```
+SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos', CONCAT('<a href=\"/cgi-bin/koha/members/moremember.pl?borrowernumber=',borrowers.borrowernumber,'">',borrowers.cardnumber,'</a>') AS 'Asiakas'
+FROM reserves
+LEFT JOIN biblio b USING (biblionumber)
+LEFT JOIN borrowers USING (borrowernumber)
+WHERE reserves.biblionumber NOT IN (select biblionumber from items)
+```
+
+### Nimekkeet, joissa paljon varauksia
+
+Raportilla voi hakea nimekkeet, joissa on paljon varauksia. Raportti laskee varausten määrän ja niteiden määrän (mukana myös hankinnassa olevat). Tulokset järjestetään varausten määrän mukaan. Raporttia ajaessa pitää valita aineistotyyppi ja kuinka monta varausta pitää vähintään olla. Määrärajaus kannattaa tehdä, muuten saa listan kaikista nimekkeistä, joihin on varaus.
+
+Tekijä: Anneli Österman
+Lisätty 1.3.2024
+Versio: 22.11
+
+```
+SELECT concat('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'">',b.title,'</a>') AS Nimeke, b.author AS Tekijä, m.cn_class AS Luokka, m.itemtype AS Aineistotyyppi, (select count(*) from reserves where biblionumber=b.biblionumber) AS 'Voimassa olevat varaukset', (select count(*) from items where biblionumber=b.biblionumber) AS 'Niteiden määrä'
+FROM biblio b
+LEFT JOIN biblioitems m ON (b.biblionumber=m.biblionumber)
+LEFT JOIN reserves h ON (b.biblionumber=h.biblionumber)
+where m.itemtype= <<Valitse aineistotyyppi|mtype>>
+GROUP BY h.biblionumber 
+HAVING count(h.reservedate)  >= <<Varauksia vähintään>>
+ORDER by 5 DESC
+```
+
+
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
