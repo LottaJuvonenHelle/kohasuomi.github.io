@@ -1750,6 +1750,21 @@ HAVING count(h.reservedate)  >= <<Varauksia vähintään>>
 ORDER by 5 DESC
 ```
 
+### Nidemäärä aineistotyypin ja hyllypaikan mukaan valitussa kirjastossa
+
+Raportti laskee valitussa kirjastossa olevien niteiden määrän aineistotyypin ja hyllypaikan mukaan.
+
+Lisääjä: Anneli Österman
+Lisätty: 1.3.2024
+Versio: 22.11
+
+```
+SELECT bi.itemtype AS 'Nidetyyppi', i.location AS 'Hyllypaikka', COUNT(*) AS 'Niteiden määrä'
+FROM items i
+LEFT JOIN biblioitems bi using (biblionumber)
+WHERE i.holdingbranch = <<Valitse kirjasto|branches>>
+GROUP BY bi.itemtype, i.location
+```
 
 ## Laskutus
 
