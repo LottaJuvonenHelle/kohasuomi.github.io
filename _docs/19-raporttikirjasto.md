@@ -1468,32 +1468,33 @@ and convert(year(deleteditems.timestamp) using 'utf8') like @Vuosi
 ORDER BY 12 desc
 ```
 
-### Poistetut niteet kotikirjaston, hyllypaikan ja kokoelman  mukaan
+### Poistetut niteet kotikirjaston, hyllypaikan ja kokoelman mukaan
 
 Raportti listaa valitulla aikavälillä poistetut niteet, joiden kotikirjasto, hyllpaikka ja kokoelmakoodi on valitun mukaiset. Kaikki raportin kysymät parametrit pitää syöttää, jotta saisi tuloksia. Tiedot järjestetään sarakkeen 12 mukaan nousevasti, eli lainamäärien mukaan. Tämä on muunnos yläpuolella olevasta "Poistetut niteet ja niiden lainamäärät" -raportista.
 
 Lisääjä: Anneli Österman<br />
 Aika: 1.4.2021 (muokattu 8.12.2021)
+Päivitetty: 1.3.2024
 
 ```
 select b.title as 'Nimeke',b.author as 'Tekijä',b.copyrightdate as 'Julkaisuvuosi',enumchron as 'Lehden numero',barcode as 'Viivakoodi',holdingbranch as 'Sijaintikirjasto',location as 'Hyllypaikka',itemtype as 'Aineistotyyppi',dateaccessioned as 'Hankintapäivä',datelastseen as 'Viimeksi nähty',datelastborrowed as 'Viimeksi lainattu',issues as 'Lainakerrat'
 from deleteditems
 join biblio b using (biblionumber)
 join biblioitems using (biblionumber)
-where convert(homebranch using 'utf8') like (@Kunta:= <<Kuntaosio ja prosenttimerkki>>)
-and convert(date(deleteditems.timestamp) using 'utf8') between (@Alkaen:= <<Lähtien|date>>) and (@Loppuen:= <<saakka|date>>)
-and convert(ccode using 'utf8') like (@Kokoelma:= <<Kokoelma|CCODE>>)
-and convert(location using 'utf8') like (@Hyllypaikka:= <<Hyllypaikka|LOC>>)
+where homebranch like <<Kuntaosio ja prosenttimerkki>>
+and date(deleteditems.deleted_on) between <<Lähtien|date>> and <<saakka|date>>
+and ccode = <<Kokoelma|CCODE>>
+and location = <<Hyllypaikka|LOC>>
 
 UNION ALL
 select db.title as 'Nimeke',db.author as 'Tekijä',db.copyrightdate as 'Julkaisuvuosi',enumchron as 'Lehden numero',barcode as 'Viivakoodi',holdingbranch as 'Sijaintikirjasto',location as 'Hyllypaikka',itemtype as 'Aineistotyyppi',dateaccessioned as 'Hankintapäivä',datelastseen as 'Viimeksi nähty',datelastborrowed as 'Viimeksi  lainattu',issues as 'Lainakerrat'
 from deleteditems
 join deletedbiblio db using (biblionumber)
 join deletedbiblioitems using (biblionumber)
-where convert(homebranch using 'utf8') like @Kunta
-and convert(date(deleteditems.timestamp) using 'utf8') between @Alkaen and @Loppuen
-and convert(ccode using 'utf8') like @Kokoelma
-and convert(location using 'utf8') like @Hyllypaikka
+where homebranch like <<Kuntaosio ja prosenttimerkki>>
+and date(deleteditems.deleted_on) between <<Lähtien|date>> and <<saakka|date>>
+and ccode = <<Kokoelma|CCODE>>
+and location = <<Hyllypaikka|LOC>>
 
 ORDER BY 12 asc
 ```
