@@ -19,6 +19,8 @@ Läsnä:
 * [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) -uusi toiminnallisuus versiossa 23.11 - toiminnallisuuden hyvät ja huonot puolet.
   * toimii vain sms/email-pohjilla
   * asiakaskohtaisesti valittavissa, mutta pitäisikö pakottaa tai piilottaa kaikilta?
+* Valmistautumista kokoelmatyön koulutukseen: Onko tiellä kimpoissa hyviksi havaittuja kokoelmiin liittyviä SQL-raportteja, joita ei vielä löydy Raporttikirjastosta?
+  * Jos löytyy, niin lisäilettekö niitä Raporttikirjastoon Kokoelma-osioon parin viikon sisällä?
 
 ## Viikko 9
 
