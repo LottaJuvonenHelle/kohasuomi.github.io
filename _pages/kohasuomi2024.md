@@ -16,10 +16,19 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 10
 
 Aika: 4.3.2024 klo 9<br />
-Läsnä: Anneli, Kassu, Johanna, Emmi, Lasse, Pasi
+Läsnä: Anneli, Kassu, Johanna, Emmi, Lasse, Pasi, Kodo
 
 * Viikon 10 päivitys
-  * käännösmuutosten ajo aina myös testeille?
+  * Pelkkiä käännöksien muutoksia 
+  * käännösmuutosten ajo aina myös testeille
+* Scrumm
+  * Emmi: Puuttuvat categorycodet statisticsissa
+  * Lasse: Tikettien hoitamisia
+  * Johanna: Ceepos-kassamksun napin korjausta
+  * Kassu: SQL-kyselyiden ihmettelyä
+  * Anneli: Lastun salasana-ongelma, muuta pientä sälää
+  * Kodo: Lastun konversion siistimistä, vaara ropocapital
+  * Pasi: z3950-haku välimerkkiongelma
 
 ## Viikko 9
 
