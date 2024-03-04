@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 10
 
 Aika: 4.3.2024 klo 9<br />
-Läsnä:
+Läsnä: Anneli, Kassu, Johanna, Emmi, Lasse, Pasi
 
 * Viikon 10 päivitys
   * käännösmuutosten ajo aina myös testeille?
