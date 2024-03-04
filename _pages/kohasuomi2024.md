@@ -26,7 +26,7 @@ Läsnä: Anneli, Kassu, Johanna, Emmi, Lasse, Pasi, Kodo
   * Lasse: Tikettien hoitamisia
   * Johanna: Ceepos-kassamksun napin korjausta
   * Kassu: SQL-kyselyiden ihmettelyä
-  * Anneli: Lastun salasana-ongelma, muuta pientä sälää
+  * Anneli: Lastun salasana-ongelma, kokoelmatyön tiedonhaun koulutuksen valmistelua raporttien osalta, muuta pientä sälää
   * Kodo: Lastun konversion siistimistä, vaara ropocapital
   * Pasi: z3950-haku välimerkkiongelma
 
