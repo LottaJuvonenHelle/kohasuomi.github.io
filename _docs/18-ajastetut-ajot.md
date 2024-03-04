@@ -79,7 +79,7 @@ Yllä olevat ajastukset ovat vakioita ja ne tapahtuvat kaikissa kimpoissa samaan
   50 20 * * *        $TRIGGER cronjobs/pate.pl --letters
 ```
 * process_message_queue.pl - lähettää asiakkaille generoidut viestit (sms ja sähköposti)
-  * ajetaan klo 9.30-20.00 viiden minuutin välein, viestejä käsitellään maksimissaan 500 kpl ajokertaa kohden
+  * ajetaan klo 9.30-20.00 viidentoista minuutin välein
 * advance_notices.pl - muodostaa eräpäiväennakkoilmoitukset ja eräpäivämuistutukset viestijonoon
 * overdue_notices.pl - muodostaa palautuskehotukset viestijonoon
 * membership_expiry.pl - muodostaa kirjastokorttien vanhenemismuistutukset viestijonoon
