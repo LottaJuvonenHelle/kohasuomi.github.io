@@ -19,8 +19,16 @@ Läsnä:
 * [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) -uusi toiminnallisuus versiossa 23.11 - toiminnallisuuden hyvät ja huonot puolet.
   * toimii vain sms/email-pohjilla
   * asiakaskohtaisesti valittavissa, mutta pitäisikö pakottaa tai piilottaa kaikilta?
-* Valmistautumista kokoelmatyön koulutukseen: Onko teillä kimpoissa hyviksi havaittuja kokoelmiin liittyviä SQL-raportteja, joita ei vielä löydy Raporttikirjastosta?
-  * Jos löytyy, niin lisäilettekö niitä Raporttikirjastoon Kokoelma-osioon parin viikon sisällä?
+* Valmistautumista kokoelmatyön koulutukseen:
+  * Onko teillä kimpoissa hyviksi havaittuja kokoelmiin liittyviä SQL-raportteja, joita ei vielä löydy Raporttikirjastosta?
+    * Jos löytyy, niin lisäilettekö niitä Raporttikirjastoon Kokoelma-osioon parin viikon sisällä?
+  * Nidehaku ja räätälöidyt hakukentät, joista tullaan puhumaan ja kannattaa lisätä nidehaun hakukenttiin ylläpidossa:
+    * Luokka (084$a)
+    * Aineistotyyppi (942$c) [auktorisoiduksi arvoksi MTYPE]
+    * Kielikoodit eri MARC-kentistä (041$adhjp)
+    * Asiasanat (655$a, 650$a)
+    * Yleinen huomautus (952$z)
+    * Huomautus virkailijalle (952$x) 
 * [Viikon 10 päivitys](https://github.com/KohaSuomi/Koha/discussions/1107)
 * [Huoltoikkuna 13.3.](https://github.com/KohaSuomi/Koha/discussions/1108) - katko tiedossa
 
