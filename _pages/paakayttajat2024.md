@@ -22,6 +22,7 @@ Läsnä:
 * Valmistautumista kokoelmatyön koulutukseen: Onko teillä kimpoissa hyviksi havaittuja kokoelmiin liittyviä SQL-raportteja, joita ei vielä löydy Raporttikirjastosta?
   * Jos löytyy, niin lisäilettekö niitä Raporttikirjastoon Kokoelma-osioon parin viikon sisällä?
 * [Viikon 10 päivitys](https://github.com/KohaSuomi/Koha/discussions/1107)
+* [Huoltoikkuna 13.3.](https://github.com/KohaSuomi/Koha/discussions/1108) - katko tiedossa
 
 Etelästä pohjoiseen
 
