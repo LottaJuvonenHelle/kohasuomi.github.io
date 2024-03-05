@@ -19,6 +19,7 @@ Aika: 11.3.2024 klo 9<br />
 Läsnä:
 
 * Versionvaihdon tilanne, koska pääsisi laajemmin kimpoissa testaamaan eli koska Koha-Suomen ominaisuudet kaikki tehty?
+* Uutiskirjeen keräyspaikka?
 
 
 ## Viikko 10
