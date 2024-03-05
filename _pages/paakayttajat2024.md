@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 5.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset asiat**
 * [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) -uusi toiminnallisuus versiossa 23.11 - toiminnallisuuden hyvät ja huonot puolet.
@@ -44,7 +44,12 @@ Etelästä pohjoiseen
 **Lappi**
 * Kimpan johtoryhmä päätti luopua kirjastokortin kuntatunnuksesta ja siirtyä LAPPI-alkuisiin kortteihin. 
 * Rovaniemen pääkirjasto väistötilassa 2.5. eteenpäin vuoden (siirtymä vaiheittain jo huhtikuun aikana). Perustetaan yksi uusi kirjasto aineiston käsittelyä varten, mutten mennään melko pitkälti toissavuoden väistötilan säännöillä. 
-* Käyttäjäryhmän päätösten mukaisesti tehty pieniä muutoksia asetuksiin. 
+* Käyttäjäryhmän päätösten mukaisesti tehty pieniä muutoksia asetuksiin.
+
+**Vaara**
+* Viime viikolla saatiin Ceepos-kassat toimimaan, kun vaihdettiin vanha IntranetUserJS-rimpsu paikoilleen.
+* Oli unohdettu tallentaa Kohan kalenteriin pääsiäisen poikkeusaukiolot, joten eräpäiviä tuli pääsiäisen pyhille. Onneksi erämuokkauksella sai korjattua eräpäivät oikeaan päivään ja kalenteri päivitetty vaihtuvilla pyhäpäivillä.
+* Vaarassa on raportti, jolla saa kiinni asiakkaat, joiden rekisteröitymispäivämäärä on tulevaisuudessa. Tänä aamuna raportilla löytyi kaksi yhteisöasiakasta, joiden rekisteröitymispäivämäärä oli elokuussa 2024. Ilmeisesti se ei aiheuta onneksi muuta kuin tilastovirheen, jos tutkailee uusia asiakkaita. Harmillista silti, että tarpeettomasti muokataan tuota päivämäärää.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-10) - [Palaa sivun alkuun](/paakayttajat2024)
 
