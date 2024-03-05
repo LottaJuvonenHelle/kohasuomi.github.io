@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 5.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski)
 
 **Yhteiset asiat**
 * [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) -uusi toiminnallisuus versiossa 23.11 - toiminnallisuuden hyvät ja huonot puolet.
@@ -34,6 +34,12 @@ Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi)
 * [Huoltoikkuna 13.3.](https://github.com/KohaSuomi/Koha/discussions/1108) - katko tiedossa
 
 Etelästä pohjoiseen
+
+**Vaski**
+* Otettu käyttöön mahdollisuus muokata jopa 10 000 nidettä erämuokkauksessa
+* Tehty nideraportteja kirjastojen remonttisulkemisia varten, pääkirjaston kirjallisuus ja taiteet -osasto suljetaan lohkoittain joten tarvitaan useampi raportti.
+* Pupen tilausten kohdentamisen parantamiseksi Broomworks pyytänyt lisäoikeuden vendors_manage. Sovittiin, että laitetaan vielä viestiä tästä Matrixin kautta. Jos/kun asia ok niin Anni huolehtii integraatiot-sivun ja OUTIn tiketin päivityksestä.
+* Turun lainauskaappi alkanut antaa eräpäiväksi kuluvan päivän. Ongelma alkanut viime viikon päivityksessä tehdyn muutoksen seurauksena. Käydään vielä katsomassa automaatin asetuksia ennen kuin tehdään tiketti.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-10) - [Palaa sivun alkuun](/paakayttajat2024)
 
