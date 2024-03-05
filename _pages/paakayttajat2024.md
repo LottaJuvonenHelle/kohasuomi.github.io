@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 5.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI)
 
 **Yhteiset asiat**
 * [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) -uusi toiminnallisuus versiossa 23.11 - toiminnallisuuden hyvät ja huonot puolet.
@@ -55,6 +55,10 @@ Etelästä pohjoiseen
 * Tehty Finnaan pieniä käännösmuutoksia asiakasliittymään. Tilaa PIN-koodi vaihdettu "Vaihda PIN-koodiksi", Kohasta tulevat käsin lisätyt asiakasrajoitukset näkyvät jatkossa "Kirjastokortillasi on rajoitus. Ole yhteydessä kirjastoosi kirjaston palveluaikana."
 * Nalkutin saatu toimimaan tuotantonnossa, nyt Marc-virhelistauksen raportti on pienentynyt n. 95 000 tietueesta 17 500 tietueeseen.
 * Yhteiset käyttösäännöt tulivat voimaan 1.3. ja noutamattoman varauksen maksu nousi kahteen euroon.
+
+**OUTI**
+* Poistettu kirjastokorttinumerot s-postiviesteinä menevistä palautuskehotuksista ja eräpäivämuistutuksista. Jatkossa viesteissä näkyy vain kortin kolme viimeistä numeroa.
+* Pystytäänkö Koha-Suomella arvioimaan, milloin nextille olisi saatu siirrettyä kaikki Koha-Suomen omat muutokset, jotta kimpassa voitaisiin toteuttaa isommat testaukset? Anneli lupaili aikataulua viikon 11 alkupuolella.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-10) - [Palaa sivun alkuun](/paakayttajat2024)
 
