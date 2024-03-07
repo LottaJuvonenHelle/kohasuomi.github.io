@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 5.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Tuomas Kunttu (Kyyti)
 
 **Yhteiset asiat**
 * [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) -uusi toiminnallisuus versiossa 23.11 - toiminnallisuuden hyvät ja huonot puolet.
@@ -59,6 +59,10 @@ Etelästä pohjoiseen
 **OUTI**
 * Poistettu kirjastokorttinumerot s-postiviesteinä menevistä palautuskehotuksista ja eräpäivämuistutuksista. Jatkossa viesteissä näkyy vain kortin kolme viimeistä numeroa.
 * Pystytäänkö Koha-Suomella arvioimaan, milloin nextille olisi saatu siirrettyä kaikki Koha-Suomen omat muutokset, jotta kimpassa voitaisiin toteuttaa isommat testaukset? Anneli lupaili aikataulua viikon 11 alkupuolella.
+
+**Kyyti**
+* Uuden version uudet asetukset käyty läpi
+* Löytyi teos, jolla oli kaksi tietuetta: toiseen ei päässyt (Tietuetta 1500602 ei ole tietokannassa), mutta siinä oli kiinni nide ja toinen tietue toimi normaalisti ja siinä oli edellisen tietueen niteen hankintatiedot. Neuvottiin liittämään nide toimivaan tietueeseen (Muokkaa | Liitä nide). Tämä toimi hyvin. Sitten piti vielä pyytää kehittäjää poistamaan toimimaton tietue pois indeksistä [#1112](https://github.com/KohaSuomi/Koha/issues/1112)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-10) - [Palaa sivun alkuun](/paakayttajat2024)
 
