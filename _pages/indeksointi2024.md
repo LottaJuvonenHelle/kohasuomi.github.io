@@ -23,6 +23,7 @@ Läsnä:
 * [Tietueen perustiedot -näytön Jatkaa julkaisua -kohdan hakulinkistä erikoinen hakutulos #532](https://github.com/KohaSuomi/Koha/issues/532)
 * [Kentät 386m ja 386a näkymään Perustiedot-näytöllä otsikolla "Tekijän ominaisuudet" #841](https://github.com/KohaSuomi/Koha/issues/841)
 * [Kielifasetteja lisää #886](https://github.com/KohaSuomi/Koha/issues/886)
+* Mikä ero tiketeillä [704](https://github.com/KohaSuomi/Koha/issues/704) ja [705](https://github.com/KohaSuomi/Koha/issues/705)
 
 ## Muistio 1/2024
 
