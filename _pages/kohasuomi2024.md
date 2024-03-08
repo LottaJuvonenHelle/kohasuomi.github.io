@@ -18,7 +18,9 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 Aika: 11.3.2024 klo 9<br />
 Läsnä:
 
-* Versionvaihdon tilanne, koska pääsisi laajemmin kimpoissa testaamaan eli koska Koha-Suomen ominaisuudet kaikki tehty?
+* Versionvaihdon tilanne
+  * koska pääsisi laajemmin kimpoissa testaamaan eli koska Koha-Suomen ominaisuudet kaikki tehty?
+  * toimiviksi testatut tiketit sulki, niin helpompi seurata tilannetta ja löytää uutta testattavaa.
 * Uutiskirjeen keräyspaikka?
 
 
