@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 5.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Tuomas Kunttu (Kyyti), Kati Sillgren (Helle)
 
 **Yhteiset asiat**
 * [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) -uusi toiminnallisuus versiossa 23.11 - toiminnallisuuden hyvät ja huonot puolet.
@@ -63,6 +63,15 @@ Etelästä pohjoiseen
 **Kyyti**
 * Uuden version uudet asetukset käyty läpi
 * Löytyi teos, jolla oli kaksi tietuetta: toiseen ei päässyt (Tietuetta 1500602 ei ole tietokannassa), mutta siinä oli kiinni nide ja toinen tietue toimi normaalisti ja siinä oli edellisen tietueen niteen hankintatiedot. Neuvottiin liittämään nide toimivaan tietueeseen (Muokkaa | Liitä nide). Tämä toimi hyvin. Sitten piti vielä pyytää kehittäjää poistamaan toimimaton tietue pois indeksistä [#1112](https://github.com/KohaSuomi/Koha/issues/1112)
+
+**Helle**
+* AutoFrameCode-liitännäisen käyttöönotossa olin unohtanut vaihtaa musiikkiäänitepohjalle oikean tunnuksen (tunnus ei ole sama kuin TäTin vastaavalla kuvailupohjalla). Väärästä määrityksestä johtuen ko. kuvailupohjaan liittyvän tietueen niteet eivät näkyneet oikein eivätkä olleet muokattavissa.
+* Kausijulkaisut-toiminnossa tehtyjen toimintojen myötä muutamista käsitellyistä tietueista on muodostunut tuplatietueita. Tietueiden niteiden nidevarauksessa havaittu haasteita. (Helle-Finnassa varauksenteko onnistunut normaaliin tapaan.)
+https://github.com/KohaSuomi/Koha/issues/1041
+* Noudettavissa olevat varaukset -toiminnon Asiakas-sarake piilotettu.
+* Tänä aamuna Kohan kirjautumisnäytöllä lisätekstinä Virhe: Tili lukittu. Kohaan kirjautuminen onnistui. Anneli lisäsi tapaustiedon Ongelmatilanteita-koosteeseen.
+Ongelman syy: Todennäköisesti jollain tunnuksella on cardnumber/userid tyhjä ('') ja kyseisen tunnuksen epäonnistuneiden kirjautumisten määrä on ylittänyt sallitun maksimin.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-10) - [Palaa sivun alkuun](/paakayttajat2024)
 
