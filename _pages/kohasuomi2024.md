@@ -22,6 +22,7 @@ Läsnä:
   * koska pääsisi laajemmin kimpoissa testaamaan eli koska Koha-Suomen ominaisuudet kaikki tehty?
   * toimiviksi testatut tiketit sulki, niin helpompi seurata tilannetta ja löytää uutta testattavaa.
 * Uutiskirjeen keräyspaikka?
+* Päivystyskäytännöt - rautalankaversio :D
 
 
 ## Viikko 10
