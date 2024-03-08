@@ -67,7 +67,7 @@ Etelästä pohjoiseen
 **Helle**
 * AutoFrameCode-liitännäisen käyttöönotossa olin unohtanut vaihtaa musiikkiäänitepohjalle oikean tunnuksen (tunnus ei ole sama kuin TäTin vastaavalla kuvailupohjalla). Väärästä määrityksestä johtuen ko. kuvailupohjaan liittyvän tietueen niteet eivät näkyneet oikein eivätkä olleet muokattavissa.
 * Kausijulkaisut-toiminnossa tehtyjen toimintojen myötä muutamista käsitellyistä tietueista on muodostunut tuplatietueita. Tietueiden niteiden nidevarauksessa havaittu haasteita. (Helle-Finnassa varauksenteko onnistunut normaaliin tapaan.)
-https://github.com/KohaSuomi/Koha/issues/1041
+[#1041](https://github.com/KohaSuomi/Koha/issues/1041)
 * Noudettavissa olevat varaukset -toiminnon Asiakas-sarake piilotettu.
 * Tänä aamuna Kohan kirjautumisnäytöllä lisätekstinä Virhe: Tili lukittu. Kohaan kirjautuminen onnistui. Anneli lisäsi tapaustiedon Ongelmatilanteita-koosteeseen.
 Ongelman syy: Todennäköisesti jollain tunnuksella on cardnumber/userid tyhjä ('') ja kyseisen tunnuksen epäonnistuneiden kirjautumisten määrä on ylittänyt sallitun maksimin.
