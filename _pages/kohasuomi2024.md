@@ -23,6 +23,7 @@ Läsnä:
   * toimiviksi testatut tiketit sulki, niin helpompi seurata tilannetta ja löytää uutta testattavaa.
 * Uutiskirjeen keräyspaikka?
 * Päivystyskäytännöt - rautalankaversio :D
+* Päivystysvuorot vko 12 eteenpäin
 
 
 ## Viikko 10
