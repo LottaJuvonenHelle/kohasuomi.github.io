@@ -16,7 +16,7 @@ Aika: 5.3.2024 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
-* Viikon 11 päivitys
+* [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1115)
 * Huoltokatko keskiviikkona
 * String freeze viikosta 12 lähtien eli viikkopäivityksiä ei tehdä tästä lähtien ja keskitytään versiovaihdon ominaisuuksien valmistelemiseen.
 * [Tiketti #336](https://github.com/KohaSuomi/Koha/issues/336#issuecomment-1968753873)
