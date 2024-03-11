@@ -10,6 +10,22 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 11
+
+Aika: 5.3.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikon 11 päivitys
+* Huoltokatko keskiviikkona
+* String freeze viikosta 12 lähtien eli viikkopäivityksiä ei tehdä tästä lähtien ja keskitytään versiovaihdon ominaisuuksien valmistelemiseen.
+* [Tiketti #336](https://github.com/KohaSuomi/Koha/issues/336#issuecomment-1968753873)
+  * "Jos valitsi hyllypaikan, hyllytarkenteen ja kokoelmakoodin siten, ettei sellaisella kombinaatiolla entuudestaan ollut yhtään nidettä, niin kenttään tuli tyhjä arvo. Voisikohan tässä käyttää tuota osakentän oletusarvoa, vai onko parempi jättää kenttä tyhjäksi, jotta se täytetään sitten asianmukaisesti?" - Miten kannattaisi toimia?
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-11) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 10
 
 Aika: 5.3.2024 klo 9.15<br />
