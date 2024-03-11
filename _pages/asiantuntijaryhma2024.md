@@ -15,6 +15,20 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 4/24
+
+### Kehitysehdotusten läpikäynti
+
+* [Noutamattoman varauksen maksun määräytyminen nidetyypin mukaan #404](https://github.com/KohaSuomi/Koha/issues/404)
+* [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
+* [Tilaustietueet eivät yhdisty aina oikein, kun 024a-kentästä tarkistetaan vain ensimmäinen osakenttä #454](https://github.com/KohaSuomi/Koha/issues/454)
+* [Hae asiakkaat -toimintoon esto hakea Haku-painikkeella kaikki asiakastiedot #456](https://github.com/KohaSuomi/Koha/issues/456)
+* [Kaikki verkkokirjastossa tehdyt toimenpiteet eivät lokitu #473](https://github.com/KohaSuomi/Koha/issues/473)
+  *  kirjautuminen verkkokirjastoon -lisäys olisi hyvä. Lokituksen kokonaismäärä pitää pitää mielessä.
+* [Työkaluliitännäiset/Tulosta ilmoituksia - viestin poistomahdollisuus tulostussivulle #505  ](https://github.com/KohaSuomi/Koha/issues/505)
+* [Asiakkaan Ilmoitukset-välilehteen liittyvä käännösmuutos #513](https://github.com/KohaSuomi/Koha/issues/513)
+* [Varauksen kuljetustilan peruuttaminen jättää nidekuljetuksen voimaan #672](https://github.com/KohaSuomi/Koha/issues/672)
+
 ## Asiantuntijaryhmän muistio 3/24
 
 Aika: 26.2.2024 klo 13<br />
