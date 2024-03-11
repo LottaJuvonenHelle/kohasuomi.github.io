@@ -16,15 +16,25 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 11
 
 Aika: 11.3.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Emmi, Kodo, Lasse, Lari, Johanna, Anneli, Kassu, Ari
 
 * Versionvaihdon tilanne
   * koska pääsisi laajemmin kimpoissa testaamaan eli koska Koha-Suomen ominaisuudet kaikki tehty?
   * toimiviksi testatut tiketit sulki, niin helpompi seurata tilannetta ja löytää uutta testattavaa.
+  * Keskiviikon scrummiin arvio, kuinka kauan omien tikettien tekoon menee.
+  * Lisättiin uusi valinta Testaaja, jossa vaihtoehtoina Koha-Suomi/Pääkäyttäjät.
+  * Testaussuunnitelma tikettiin, kun sen laittaa testattavaksi.
+  * Tuotantoon freeze viikosta 12 lähtien. Vain kriittiset päivitykset tehdään sen jälkeen.
 * Uutiskirjeen keräyspaikka?
-* Päivystyskäytännöt - rautalankaversio :D
+  * Annelin Google Docsiin jaettu tiedosto
+* Päivystyskäytännöt - rautalanka
+  * Päivystysaikana 8-16 päivystetään puhelimitse kriittisissä asioissa (Koha ei toimi), muita kanavia (Matrix, sähköposti) seurataan mahdollisuuksien mukaan (oman työajan puitteissa, esim. klo 7-15). Muut kuin kriittiset asiat voidaan hoitaa myös seuraavana päivänä.
+  * jos tulee yllättäviä poissaoloja/sairastumisia, sovitaan sijaistaja.
 * Päivystysvuorot vko 12 eteenpäin
-
+* Vkon 11 päivitys
+  * neljä päivitystä/muutosta
+* Keskiviikon huoltokatko
+  * testit ja nextit käyvät alhaalla tiistaina.
 
 ## Viikko 10
 
