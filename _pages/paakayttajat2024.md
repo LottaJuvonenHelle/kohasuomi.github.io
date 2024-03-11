@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 10
 
 Aika: 5.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Tuomas Kunttu (Kyyti), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Pasi Kallinen (Koha-Suomi), Anni Rajala (Vaski), Leena Kinnunen (Lappi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Pirkko-Liisa Lauhikari, Piia Semenoff ja Veli-Pekka Marjoniemi (OUTI), Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset asiat**
 * [HOLDDGST eli varausten koosteviesti](https://github.com/KohaSuomi/Koha-23x/wiki/Uudet-viestipohjat#holddgst) -uusi toiminnallisuus versiossa 23.11 - toiminnallisuuden hyvät ja huonot puolet.
@@ -71,6 +71,9 @@ Etelästä pohjoiseen
 * Noudettavissa olevat varaukset -toiminnon Asiakas-sarake piilotettu.
 * Tänä aamuna Kohan kirjautumisnäytöllä lisätekstinä Virhe: Tili lukittu. Kohaan kirjautuminen onnistui. Anneli lisäsi tapaustiedon Ongelmatilanteita-koosteeseen.
 Ongelman syy: Todennäköisesti jollain tunnuksella on cardnumber/userid tyhjä ('') ja kyseisen tunnuksen epäonnistuneiden kirjautumisten määrä on ylittänyt sallitun maksimin.
+
+**Kirkes**
+* Ei mainittavaa. 
 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-10) - [Palaa sivun alkuun](/paakayttajat2024)
