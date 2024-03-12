@@ -56,18 +56,18 @@ Lisätty: 10.1.2023
 
 ### Elasticsearch-koulutus
 
-Tiedonhakukoulutus 1.11.2023
+#### Tiedonhakukoulutus 1.11.2023
 
 [Tiedohakukoulutuksen tallenne Youtubessa](https://youtu.be/cp-DmGd_Rhs)
-
-Elasticsearch-koulutus 10.11.2021
-
-[Elasticsearch-koulutuksen tallenne](https://youtu.be/_V-N8MiyflA)
-
 
 [Tiedonhaku_Elasticsearchilla -diasarja](https://github.com/KohaSuomi/kohasuomi.github.io/files/13215328/Tiedonhaku_Elasticsearchilla.pdf), päivitetty 26.10.2023
 
 [Kohan indeksit.pdf eli tiedonhaun cheat sheet](https://github.com/KohaSuomi/kohasuomi.github.io/files/13227862/Kohan.indeksit.pdf)
+
+#### Elasticsearch-koulutus 10.11.2021
+
+[Elasticsearch-koulutuksen tallenne](https://youtu.be/_V-N8MiyflA)
+
 
 ### Budjettien ja tilien luonti
 
@@ -125,7 +125,7 @@ Alla on neljä linkkiä Kohan järjestelmäasetuskoulutuksiin, jotka pidettiin t
 
 [Järjestelmäasetukset, osa 3](https://youtu.be/xScoLgxvK9g) (Ei tekstitystä)
 
-### Tietokanta
+### Tietokanta ja SQL
 
 3.4.2020 pidetty koulutus, jossa käydään läpi Kohan skeema eli tietokantarakenne. HUOM 7.9.2022! Kohan tietokantarakenne on muuttunut jonkin verran siirryttäessä versioon 21.11. 
 
