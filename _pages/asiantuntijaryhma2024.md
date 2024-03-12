@@ -42,6 +42,8 @@ Keskustellaan Varausjono- ja Hyllyvarausraporteista. Taustalla on toiveita rapor
 
 Uutiskirjeen vastuutus
 
+JavaScriptien ylläpito ja vastuutus
+
 ### 5. Seuraava kokous
 
 ## Asiantuntijaryhmän muistio 3/24
