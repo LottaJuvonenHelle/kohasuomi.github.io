@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 11
 
 Aika: 11.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila (Kirkes)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1115)
@@ -27,6 +27,9 @@ Pohjoisesta etelään
 **Vaara**
 * normaalia ylläpitoa ja versionvaihdon tikettien testausta
 * lisäksi PowerBI:n raportin muokkaamista
+
+**Kirkes**
+* selvitellään lehtien vastaanottamisessa ilmenneitä epäjohdonmukaisuuksia.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-11) - [Palaa sivun alkuun](/paakayttajat2024)
 
