@@ -10,6 +10,14 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 12
+
+Aika: 19.3.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Kori-toiminnosta nidetyyppi-sarakkeen piilotus](https://github.com/KohaSuomi/Koha/issues/411#issuecomment-1976349820)
+
 ## Viikko 11
 
 Aika: 11.3.2024 klo 9.15<br />
