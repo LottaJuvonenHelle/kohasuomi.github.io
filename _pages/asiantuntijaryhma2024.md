@@ -17,7 +17,13 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 ## Asiantuntijaryhmän esityslista 4/24
 
-### Kehitysehdotusten läpikäynti
+### 1. Arin ajankohtaiset
+
+### 2. Varausjono vs. Hyllyvarausraportti
+
+Keskustellaan Varausjono- ja Hyllyvarausraporteista. Toiveita raportin ja kuljetusten optimointiin. Onko järkeä ylläpitää molempia. Susanna alustaa aihetta.
+
+### 3. Kehitysehdotusten läpikäynti
 
 * [Noutamattoman varauksen maksun määräytyminen nidetyypin mukaan #404](https://github.com/KohaSuomi/Koha/issues/404)
 * [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
@@ -28,6 +34,12 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 * [Työkaluliitännäiset/Tulosta ilmoituksia - viestin poistomahdollisuus tulostussivulle #505  ](https://github.com/KohaSuomi/Koha/issues/505)
 * [Asiakkaan Ilmoitukset-välilehteen liittyvä käännösmuutos #513](https://github.com/KohaSuomi/Koha/issues/513)
 * [Varauksen kuljetustilan peruuttaminen jättää nidekuljetuksen voimaan #672](https://github.com/KohaSuomi/Koha/issues/672)
+
+### 4. Muut asiat
+
+Uutiskirjeen vastuutus
+
+### 5. Seuraava kokous
 
 ## Asiantuntijaryhmän muistio 3/24
 
