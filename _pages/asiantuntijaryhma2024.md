@@ -17,11 +17,14 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
 ## Asiantuntijaryhmän esityslista 4/24
 
+Aika: 18.3.2024 klo 13<br />
+Läsnä:
+
 ### 1. Arin ajankohtaiset
 
 ### 2. Varausjono vs. Hyllyvarausraportti
 
-Keskustellaan Varausjono- ja Hyllyvarausraporteista. Toiveita raportin ja kuljetusten optimointiin. Onko järkeä ylläpitää molempia. Susanna alustaa aihetta.
+Keskustellaan Varausjono- ja Hyllyvarausraporteista. Taustalla on toiveita raportin ja kuljetusten optimointiin. Varausjono-raporttiin pystyy kytkemään Kohan kuljetusten painomatriisin, hyllyvarausraporttiin ei pysty. Hyllyvarausraporttiin on taas tehty paljon muutoksia, joita Varausjonossa ei ole. Samat muutokset pitäisi todennäköisesti tehdä myös Varausjono-raporttiin, jotta se olisi käytettävyydeltään samaa luokkaa. Onko järkevää ylläpitää molempia? Susanna alustaa aihetta.
 
 ### 3. Kehitysehdotusten läpikäynti
 
