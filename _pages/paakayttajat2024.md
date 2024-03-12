@@ -47,7 +47,7 @@ Pohjoisesta etelään
 
 **OUTI**
 * Oulun luetteloinnissa ja hankinnassa oli huomattu, että jos tekee itse hankintoja Kohassa ja poimii valmiin tietueen ulkoisesta lähteestä, muodostuu tietueelle kaksi 000-kenttää, varsinainen 000-kenttä ja ”nam a22 8i 4500” -kenttä. Sama tilanne muodostuu myös, jos Hankinnan lomakkeella tekee tyhjästä uuden tietueen. Annelin neuvon mukaan, kannattaa käydä poistamassa ACQ-kuvailupohjan 000-kentän oletusarvo "nam a22 8i 4500", jottei tietueelle synny kahta 000-kenttää. Tarkemmin tiketissä: https://github.com/KohaSuomi/Koha/issues/1114  
-* OUTIssa poistetaan myös lakkautetut kirjastot/toimipisteet tietokannasta, koska kirjastojen poistot eivät ole aiheuttaneet ongelmia muissakaan kimpoissa.
+* OUTIssa poistetaan myös lakkautetut kirjastot/toimipisteet tietokannasta, koska kirjastojen poistot eivät ole aiheuttaneet ongelmia muissakaan kimpoissa. Poiston voi tehdä sen jälkeen, kun kirjaston vuositilastot on otettu talteen, eikä kirjastolla ole enää asiakkaita, niteitä yms.
 * OUTIssa otetaan käyttöön 13.3.2024 maksujen jaottelu julkis- ja yksityisoikeudellisiin maksuihin asiakkaan tiedossa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-11) - [Palaa sivun alkuun](/paakayttajat2024)
