@@ -21,7 +21,7 @@ Läsnä:
 ## Viikko 11
 
 Aika: 11.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Reetta Pihlaja (Siilinjärvi)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1115)
@@ -44,6 +44,11 @@ Pohjoisesta etelään
 
 **Siilinjärvi**
 * ei erityistä, intranetuser- ja järjestelmäasetusten läpikäynti vihdoin aloiteltu nextillä
+
+**OUTI**
+* Oulun luetteloinnissa ja hankinnassa oli huomattu, että jos tekee itse hankintoja Kohassa ja poimii valmiin tietueen ulkoisesta lähteestä, muodostuu tietueelle kaksi 000-kenttää, varsinainen 000-kenttä ja ”nam a22 8i 4500” -kenttä. Sama tilanne muodostuu myös, jos Hankinnan lomakkeella tekee tyhjästä uuden tietueen. Näitä tietueita on tullut OUTIssa vastaan aineistotyypittömien tietueiden listoilla. Annelin neuvon mukaan, kannattaa käydä poistamassa ACQ-kuvailupohjan 000-kentän oletusarvo "nam a22 8i 4500", jottei tietueelle synny kahta 000-kenttää. Tarkemmin tiketissä: https://github.com/KohaSuomi/Koha/issues/1114  
+* OUTIssa poistetaan myös lakkautetut kirjastot/toimipisteet tietokannasta, koska kirjastojen poistot eivät ole aiheuttaneet ongelmia muissakaan kimpoissa.
+* OUTIssa otetaan käyttöön 13.3.2024 maksujen jaottelu julkis- ja yksityisoikeudellisiin maksuihin asiakkaan tiedossa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-11) - [Palaa sivun alkuun](/paakayttajat2024)
 
