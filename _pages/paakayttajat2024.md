@@ -12,12 +12,12 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 ## Viikko 11
 
-Aika: 5.3.2024 klo 9.15<br />
-Läsnä:
+Aika: 11.3.2024 klo 9.15<br />
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1115)
-* Huoltokatko keskiviikkona
+* [Huoltokatko keskiviikkona](https://github.com/KohaSuomi/Koha/discussions/1108)
 * String freeze viikosta 12 lähtien eli viikkopäivityksiä ei tehdä tästä lähtien ja keskitytään versiovaihdon ominaisuuksien valmistelemiseen.
 * [Tiketti #336](https://github.com/KohaSuomi/Koha/issues/336#issuecomment-1968753873)
   * "Jos valitsi hyllypaikan, hyllytarkenteen ja kokoelmakoodin siten, ettei sellaisella kombinaatiolla entuudestaan ollut yhtään nidettä, niin kenttään tuli tyhjä arvo. Voisikohan tässä käyttää tuota osakentän oletusarvoa, vai onko parempi jättää kenttä tyhjäksi, jotta se täytetään sitten asianmukaisesti?" - Miten kannattaisi toimia?
