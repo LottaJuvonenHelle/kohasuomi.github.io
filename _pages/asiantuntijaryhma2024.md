@@ -44,6 +44,8 @@ Uutiskirjeen vastuutus
 
 JavaScriptien ylläpito ja vastuutus
 
+Kokoelmatyön tiedonhaun koulutuksen ajankohta
+
 ### 5. Seuraava kokous
 
 ## Asiantuntijaryhmän muistio 3/24
