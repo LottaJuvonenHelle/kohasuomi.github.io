@@ -8,6 +8,7 @@ toc: true
 
 Tälle sivulle on koottu esimerkit erilaisista kuitti- ja viestipohjista. Testattu toimivaksi Kohan versiossa 22.11.
 
+
 ## HOLD_SLIP eli varauksen info- ja kuljetuskuitti
 
 ### Email-pohjaan
@@ -292,6 +293,71 @@ HTML-täppä paikoilleen. Vaskin mallissa kirjastokorttitunnuksen kolmen viimeis
 
 <p>Tähän viestiin ei voi vastata. Vaski-kirjastojen yhteystiedot löydät verkkokirjastosta osoitteesta http://www.vaskikirjastot.fi</p>
 ```
+
+## PREDUEDGST eli Eräpäivämuistutus ennakkoon
+
+### Email-pohjaan
+
+#### Suomeksi
+
+```
+Hei[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Asiakastunnus: *****[% borrower.cardnumber.substr(-3) %]
+
+Seuraavat lainasi ovat erääntymässä:
+
+----
+<<items.content>>
+----
+
+Lainat voit uusia osoitteessa https://outi.finna.fi/MyResearch/CheckedOut
+
+Lainat voit uusia, jos niistä ei ole varauksia. Lainat voit uusia enintään 7 kertaa peräkkäin. Uusimiseen tarvitset kirjastokortin numeron ja PIN-koodin.
+
+
+Terveisin 
+OUTI-kirjastot
+<<branches.branchfax>>
+
+outi.finna.fi
+
+ps. Verkkokirjastossa omaan kirjastokorttiin voi liittää myös muita kirjastokortteja, esimerkiksi lapsen tai muun perheenjäsenen kortin. Tämän toiminnon avulla liitetyn kortin tietoja pääsee tarkastelemaan ja muokkaamaan, uusimaan lainoja ja tekemään varauksia. Tarvitset liitettävän kirjastokortin numeron ja sen PIN-koodin, jotta voit liittää kortin.
+```
+
+#### Englanniksi
+
+```
+Hello[% IF ( borrower.othernames ) %] <<borrowers.othernames>>!
+[% ELSIF ( borrower.firstname ) %] <<borrowers.firstname>>!
+[% ELSE %] <<borrowers.surname>>! 
+[% END %] 
+
+Customer number: *****[% borrower.cardnumber.substr(-3) %]
+
+The following items are due soon:
+
+----
+<<items.content>>
+----
+
+You can renew your loans at https://outi.finna.fi/MyResearch/CheckedOut
+
+You can renew your loans if there are no reservations. A loan can be renewed up to 7 times in a row. You need your library card number and PIN for renewing.
+
+
+Best regards
+OUTI Libraries
+<<branches.branchfax>>
+
+outi.finna.fi
+
+P.S. You can connect other library cards under your library card in the OUTI Web Library, such as the card of a child or another family member. By connecting the library card, you can see and edit the information of the card, renew loans, and make reservations. You need the number and PIN of the library card you want to add.
+```
+
 
 ## ISSUESLIP eli lainakuitti kaikista lainoista
 
