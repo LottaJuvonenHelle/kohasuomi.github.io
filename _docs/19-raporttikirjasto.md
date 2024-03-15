@@ -2434,18 +2434,21 @@ Raportilla voi hakea nimekkeet, joihin on otettu vastaan (items.dateaccessionded
 
 Lisääjä: Anneli Österman<br />
 Pvm: 22.9.2020
+Päivitetty 15.3.2024
 
 ```
-SELECT IFNULL(b.author, ExtractValue(bm.metadata,'//datafield[@tag="110"]/subfield[@code="a"]')) AS 'Tekijä', CONCAT(b.title, ' ', ExtractValue(bm.metadata,'//datafield[@tag="245"]/subfield[@code="b"]')) AS 'Nimeke', IFNULL(b.copyrightdate, ExtractValue(bm.metadata,'//datafield[@tag="264"]/subfield[@code="c"]')) AS 'Julkaisuvuosi', i.homebranch AS 'Kotikirjasto', i.itemcallnumber AS 'Luokka', i.itype AS 'Aineistolaji'
+SELECT CONCAT_WS(' ', b.title, b.subtitle, b.author) AS 'Nimeke ja tekijä', b.copyrightdate AS 'Julkaisuvuosi', i.homebranch AS 'Kotikirjasto', i.itemcallnumber AS 'Luokka', bi.itemtype AS 'Aineistotyyppi'
 FROM items i
 JOIN biblio b ON b.biblionumber = i.biblionumber
+JOIN biblioitems bi ON (b.biblionumber=bi.biblionumber)
 JOIN biblio_metadata bm ON i.biblionumber=bm.biblionumber
 WHERE date(i.dateaccessioned) BETWEEN <<AloitusPvm |date>> AND <<LopetusPvm |date>>
 AND i.homebranch LIKE <<Kunnan lyhenne ja %-merkki>> 
-and i.itype not in ('ALEHTI', 'SLEHTI')
+and bi.itemtype not in ('ALEHTI', 'SLEHTI')
 AND i.notforloan !=-1
 GROUP BY b.biblionumber
-ORDER BY 6,5
+ORDER BY 5,4
+LIMIT 1000
 ```
 
 ### Tuplakorit
