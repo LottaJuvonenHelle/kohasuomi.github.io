@@ -406,7 +406,7 @@ Osasta MARC-kentistä puuttuu kuvaus, koska ne eivät ole osa formaattia.
 |conference-name|611|Kokouksen nimi asiasanana|
 |conference-name|711|Lisäkirjaus - Kokouksen nimi|
 |conference-name|811|Sarjalisäkirjaus - Kokouksen nimi|
-|contet-type-term|336a|Sisältötyyppi|
+|content-type-term|336a|Sisältötyyppi|
 |control-number|001|Tietueen kontrollinumero|
 |control-number-identifier|003|Tietueen kontrollinumeron tunniste|
 |copydate|260c|Julkaisu-, jakelu- jne. aika|
