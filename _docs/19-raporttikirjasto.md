@@ -2430,7 +2430,7 @@ GROUP BY biblionumber
 
 ### Uutuusluettelo
 
-Raportilla voi hakea nimekkeet, joihin on otettu vastaan (items.dateaccessionded) nide valitulla aikavälillä. Mukaan ei ole aikakaus ja sanomalehdet. Rajaus kirjastoon tehdään kotikirjaston perusteella ja haetaan syötetyn kirjastojen kuntalyhenteen perusteella ja lisäksi pitää laittaa '%-merkki', esim. 'OU%' tai 'MLI%'.
+Raportilla voi hakea nimekkeet, joihin on otettu vastaan (items.dateaccessionded) nide valitulla aikavälillä. Mukana ei ole aikakaus- ja sanomalehdet. Rajaus kirjastoon tehdään kotikirjaston perusteella ja haetaan syötetyn kirjastojen kuntalyhenteen perusteella ja lisäksi pitää laittaa '%-merkki', esim. 'OU%' tai 'MLI%'.
 
 Lisääjä: Anneli Österman<br />
 Pvm: 22.9.2020
