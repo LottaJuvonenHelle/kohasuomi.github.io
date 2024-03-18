@@ -22,6 +22,7 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+Harjoittelija aloitti maaliskuun alussa Oulussa. Harjoittelu jatkuu toukokuun loppuun saakka.
 ### 2. Varausjono vs. Hyllyvarausraportti
 
 Keskustellaan Varausjono- ja Hyllyvarausraporteista. Taustalla on toiveita raportin ja kuljetusten optimointiin. Varausjono-raporttiin pystyy kytkemään Kohan kuljetusten painomatriisin, hyllyvarausraporttiin ei pysty. Hyllyvarausraporttiin on taas tehty paljon muutoksia, joita Varausjonossa ei ole. Samat muutokset pitäisi todennäköisesti tehdä myös Varausjono-raporttiin, jotta se olisi käytettävyydeltään samaa luokkaa. Onko järkevää ylläpitää molempia? Susanna alustaa aihetta.
