@@ -16,9 +16,9 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 12
 
 Aika: 18.3.2024 klo 9<br />
-Läsnä:
+Läsnä: Lari, Lasse, Kodo, Anneli, Pasi, Ari, Emmi
 
-* [Yhteisöversion-testikannan pystytys](https://github.com/KohaSuomi/Koha/issues/1116)
+* [Yhteisöversion-testikannan pystytys](https://github.com/KohaSuomi/Koha/issues/1116) Joskus kesällä.
 
 ## Viikko 11
 
