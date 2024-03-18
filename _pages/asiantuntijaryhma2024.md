@@ -15,39 +15,65 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 4/24
+## Asiantuntijaryhmän muistio 4/24
 
 Aika: 18.3.2024 klo 13<br />
-Läsnä:
+Läsnä: Kodo Korkalo, Anneli Österman, Ari Mäkiranta ja Emmi Takkinen (kohta 3) (Koha-Suomi), Päivi Knuutinen (Vaara), Hanna Ikonen (Lumme), Noora Valkonen (OUTI), Susanna Sandell ja Anni Rajala (Vaski), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Kati Sillgren (Helle), Anu Järvi (Kirkes)
 
 ### 1. Arin ajankohtaiset
 
 Harjoittelija aloitti maaliskuun alussa Oulussa. Harjoittelu jatkuu toukokuun loppuun saakka.
+
 ### 2. Varausjono vs. Hyllyvarausraportti
 
-Keskustellaan Varausjono- ja Hyllyvarausraporteista. Taustalla on toiveita raportin ja kuljetusten optimointiin. Varausjono-raporttiin pystyy kytkemään Kohan kuljetusten painomatriisin, hyllyvarausraporttiin ei pysty. Hyllyvarausraporttiin on taas tehty paljon muutoksia, joita Varausjonossa ei ole. Samat muutokset pitäisi todennäköisesti tehdä myös Varausjono-raporttiin, jotta se olisi käytettävyydeltään samaa luokkaa. Onko järkevää ylläpitää molempia? Susanna alustaa aihetta.
+Keskustellaan Varausjono- ja Hyllyvarausraporteista. Taustalla on toiveita raportin ja kuljetusten optimointiin. Varausjono-raporttiin pystyy kytkemään Kohan kuljetusten painomatriisin, hyllyvarausraporttiin ei pysty. Hyllyvarausraporttiin on taas tehty paljon muutoksia, joita Varausjonossa ei ole. Samat muutokset pitäisi todennäköisesti tehdä myös Varausjono-raporttiin, jotta se olisi käytettävyydeltään samaa luokkaa. Onko järkevää ylläpitää molempia? Anni Rajala alustaa aihetta.
+
+Päätös: Pysytään toistaiseksi Hyllyvarausraportissa, mutta pidetään varausten optimointi mielessä. Muun kuin hyllyvarausten osalta optimointi pitää olla reaaliaikaista, kun asiakas palauttaa niteen automaattiin. Tämä on haastavaa, eikä siihen ole tällä hetkellä ratkaisua.
+
+Vaski on yhteydessä Broomworks Oy:hyn, olisiko heillä kiinnostusta tutkia lainasta palautuvan aineiston kuljetusten optimointia.
 
 ### 3. Kehitysehdotusten läpikäynti
 
 * [Noutamattoman varauksen maksun määräytyminen nidetyypin mukaan #404](https://github.com/KohaSuomi/Koha/issues/404)
+  * Päätös: Toteutetaan. Kehittäjät tutkivat, mikä on paras tapa toteuttaa muutos. Vanha tapa asiakastyypin mukaan pitää säilyttää.
 * [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
+  * Päätös: Yhteisössä on avoinna aiheesta parikin bugia. Pyydetään pääkäyttäjiä käymään kommentoimassa tiketteihin, että toiminto olisi tärkeä, jotta saadaan yhteisöä aktivoitumaan.
 * [Tilaustietueet eivät yhdisty aina oikein, kun 024a-kentästä tarkistetaan vain ensimmäinen osakenttä #454](https://github.com/KohaSuomi/Koha/issues/454)
+  * Päätös: Toteutetaan sekä isbn että ean-kentille. EDItX:ään muutos, joka osaa pilkkoa putkimerkillä erotetut koodit toisistaan ja tekee vertailun sitten kaikkiin koodeihin. Lisäksi pudotettava triggeri, joka pudottaa osakenttien toistumat biblioitems-taulusta. ISBN:n osalta pitää huomioida moniosaisten teosten ISBN sekä osan ISBN. Huolehdittava, ettei yhdisty väärin.  Voi olla, että ISBN:n osalta tätä ei voi toteuttaa
 * [Hae asiakkaat -toimintoon esto hakea Haku-painikkeella kaikki asiakastiedot #456](https://github.com/KohaSuomi/Koha/issues/456)
+  * Päätös: Tutkitaan, saako estettyä tyhjä haku. Yritetään saada mahdollinen muutos myös yhteisöön.
 * [Kaikki verkkokirjastossa tehdyt toimenpiteet eivät lokitu #473](https://github.com/KohaSuomi/Koha/issues/473)
   *  kirjautuminen verkkokirjastoon -lisäys olisi hyvä. Lokituksen kokonaismäärä pitää pitää mielessä.
+  *  Päätös: Lisätään lokiin sisäänkirjautuminen Finnaan.
 * [Työkaluliitännäiset/Tulosta ilmoituksia - viestin poistomahdollisuus tulostussivulle #505  ](https://github.com/KohaSuomi/Koha/issues/505)
+  * Todettiin bugiksi.
 * [Asiakkaan Ilmoitukset-välilehteen liittyvä käännösmuutos #513](https://github.com/KohaSuomi/Koha/issues/513)
+  * Päätös: Ei muuteta tekstiä.
 * [Varauksen kuljetustilan peruuttaminen jättää nidekuljetuksen voimaan #672](https://github.com/KohaSuomi/Koha/issues/672)
+  * Päätös: Tarjotaan yhteisölle ratkaisu.
 
 ### 4. Muut asiat
 
-Uutiskirjeen vastuutus
+#### 4.1 Uutiskirjeen vastuutus
 
-JavaScriptien ylläpito ja vastuutus
+1. kirjeen koonti Vaskin vastuulla, deadline 29.3.2024, julkaisu viikolla 14.<br />
+2. kirjeen koonti Lapin vastuulla, deadline 30.5.2024, julkaisu vkolla 19.<br />
+3. kirjeen koonti OUTIn vastuulla, deadline 30.9.2024, julkaisu vkolla 41.<br />
+4. kirjeen koonti Vaaran vastuulla, deadline 6.12.2024, julkaisu vkolla 50.
+   
+#### 4.2 JavaScriptien ylläpito ja vastuutus
 
-Kokoelmatyön tiedonhaun koulutuksen ajankohta
+Mitkä JavaScriptit ovat jatkossa Koha-Suomen ylläpidolla ja vastuulla ja mitkä kimppojen omalle vastuulle? JavaScriptien määrä lisääntyy jatkuvasti ja niiden ylläpito on työlästä.
+
+Jatkossa asiantuntijaryhmän päätöksellä uudet JavaScriptit otetaan Koha-Suomen tukeen mukaan. Kimpat saavat jatkossakin tehdä omia skriptejä, mutta vastaavat niiden toimivuudesta esim. versionvaihdon aikaan itse.
+
+#### 4.3 Kokoelmatyön tiedonhaun koulutuksen ajankohta
+
+To 4.4.2024 klo 9-11.
 
 ### 5. Seuraava kokous
+
+Ma 8.4.2024 klo 13.
 
 ## Asiantuntijaryhmän muistio 3/24
 
