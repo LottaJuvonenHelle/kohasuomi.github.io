@@ -47,7 +47,7 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), An
 * Asiakkaiden viesteissä otettu käyttöön kirjastokortinnumeron osittainen piilotus.
 * Normaalia ylläpitoa.
 
-* **Helle**
+**Helle**
 * Uudet varapääkäyttäjät Lotta Juvonen ja Vilgot Strömsholm ovat aloittaneet.
 * Uudessa versiossa on Niteiden erämuokkaus -toiminnossa uusina ominaisuuksina: Jätä pois paikallisten varausten jonosta JA Palauta niteet. Ehdotettu ominaisuuksien poistamista käytöstä (piilottamista). Palaverissa todettiin, että toteutukselle on tarve. Tiketti [#123](https://github.com/KohaSuomi/Koha-23x/issues/123)
 
