@@ -13,12 +13,16 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 19.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Kori-toiminnosta nidetyyppi-sarakkeen piilotus](https://github.com/KohaSuomi/Koha/issues/411#issuecomment-1976349820)
 * [Asiantuntijaryhmän muistio 4/24](https://github.com/KohaSuomi/Koha/discussions/1123)
 
+**Kyyti**
+* Uuden version ominaisuudesta kysyin, että voiko Varauksen teosta vahvistusviesti (EmailPatronWhenHoldIsPlaced) -toiminnon päälle laittaminen aiheuttaa mitään kuormaongelmaa sähköpostipalvelimella? - Ei kuulemma aiheuta.
+* Testasin Ennakkovaraukset-ominaisuutta. Ei oikein vaikuta vielä toimivalta. Tein ennakkovarauksen. Sen jälkeen lainasin toiselle asiakkaalle ongelmitta, vaikka meni ennakkovarauksen päälle. Toisella kertaa antoi lainata ennakkovarauksen alkuun asti. Siinäkin tapauksessa antoi kuitenkin uusia lainan huolimata ennakkovarauksesta.
+* Nextillä asiakkaan tiedoissa näkyy Reklamaatiot-välilehti. Tuotannossa ei näy. Johtuu ilmeisesti nextin BundleLostValue-asetuksesta, joka on päällä, koska nidepaketit ovat käytössä. Tuotannossa sama asetus on myös päällä, mutta silti reklamaatiot-välilehti ei näy. Asetuksen toiminta on siis muuttunut.
 
 ## Viikko 11
 
