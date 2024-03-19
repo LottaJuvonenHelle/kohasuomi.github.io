@@ -1294,7 +1294,7 @@ GROUP BY reserves.branchcode WITH ROLLUP
 Raportilla voi hakea niteettömät nimekkeet. Raportissa annetaan parametriksi aineistolaji. Jos haluat listata kaikki niteettömät kerralla aineistolajista riippumatta, poista raportista alimmainen rivi.
 
 Lisääjä: Anneli Österman / OUTI-kirjastot<br />
-Pvm: 3.7.2019 / Päivitetty 8.12.2023
+Pvm: 3.7.2019 / Päivitetty 19.3.2024
 
 ```
 SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos',
@@ -1305,7 +1305,7 @@ LEFT JOIN biblioitems bi ON bi.biblionumber = b.biblionumber
 LEFT JOIN biblio_metadata bm ON bm.biblionumber = b.biblionumber
 WHERE ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') = ''
 AND i.itemnumber IS NULL
-AND bi.itemtype=<<Valitse aineistolaji|mtype>>
+AND bi.itemtype like <<Valitse aineistolaji|mtype:all>>
 ```
 
 ### Weeding tool
@@ -1351,7 +1351,7 @@ ORDER BY 7,5
 
 Lista niteistä, jossa on mm. lainamäärät sekä viimeiset havaintopäivät valitun kirjaston, aineistotyypin, hyllypaikan ja luokan mukaan. Luokka-kohtaan täytyy jälkimmäiseen laatikkoon laittaa haluttua luokkaa seuraava luokka, esim. jos haetaan luokkaa 33, laitetaan jälkimmäiseen 34.
 
-Päivitetty: 1.3.2024 / AÖ
+Päivitetty: 19.3.2024 / AÖ
 
 ```
 SELECT CONCAT( '<a href=\"/cgi-bin/koha/cataloguing/additem.pl?biblionumber=', biblio.biblionumber,'\">', items.barcode, '</a>' ) AS 'Viivakoodi',
@@ -1375,9 +1375,9 @@ LEFT JOIN biblioitems ON (items.biblioitemnumber=biblioitems.biblioitemnumber)
 LEFT JOIN biblio ON (biblioitems.biblionumber=biblio.biblionumber)
 LEFT JOIN biblio_metadata ON (biblio.biblionumber=biblio_metadata.biblionumber)
 WHERE
-     biblioitems.itemtype = <<Aineistotyyppi|MTYPE>>
- AND items.holdingbranch = <<Kirjastopiste|branches>>
- AND items.location = <<Hyllypaikka|LOC>>
+     biblioitems.itemtype LIKE <<Aineistotyyppi|MTYPE:all>>
+ AND items.holdingbranch LIKE <<Sijaintikirjasto|branches:all>>
+ AND items.location LIKE <<Hyllypaikka|LOC:all>>
  AND items.cn_sort between <<Luokka väliltä, alkaen>> and <<päättyen>>
  AND items.datelastborrowed < <<Viimeksi lainattu ennen|date>>
  AND items.notforloan not in ('-1', '-2')
@@ -1771,11 +1771,11 @@ GROUP BY bi.itemtype, i.location
 Raportti laskee valitussa kirjastossa olevien, valitun päivämäärän jälkeen hankittujen niteiden määrän aineistotyypin ja hyllypaikan mukaan.
 
 Lisääjä: Anneli Österman
-Lisätty: 1.3.2024
+Lisätty: 19.3.2024
 Versio: 22.11
 
 ```
-SELECT bi.itemtype AS 'Nidetyyppi', i.location AS 'Hyllypaikka', COUNT(*) AS 'Niteiden määrä'
+SELECT bi.itemtype AS 'Aineistotyyppi', i.location AS 'Hyllypaikka', COUNT(*) AS 'Niteiden määrä'
 FROM items i
 LEFT JOIN biblioitems bi using (biblionumber)
 WHERE i.holdingbranch = <<Valitse kirjasto|branches>>
