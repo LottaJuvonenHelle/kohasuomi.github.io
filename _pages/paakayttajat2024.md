@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 19.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Piia Semenoff (OUTI)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi)
 
 **Yhteiset**
 * [Kori-toiminnosta nidetyyppi-sarakkeen piilotus](https://github.com/KohaSuomi/Koha/issues/411#issuecomment-1976349820)
@@ -39,6 +39,9 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), An
 * Uuden version käyttöönottovalmisteluja tehty.
 * Normaalia ylläpitoa
 * Vaskista saatu raportti, jolla haetaan kannasta asiakkaan vahingossa poistamat varaukset. Raportin avulla voimme OUTIssa luopua käytännöstä, että etsimme lokilta varaukset ja tallennamme ne yksi kerrallaan asiakkaalle takaisin. Nyt voimme toimittaa listan poistetuista varauksista asiakkaalle ja hän voi halutessaan tallentaa ne itse verkkokirjastossa. Suurkiitos raportista!
+
+**Siilinjärvi**
+* Kohassa ei mainittavaa, kunnan yt-neuvottelut mietityttävät.
 
 ## Viikko 11
 
