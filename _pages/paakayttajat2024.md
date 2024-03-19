@@ -35,7 +35,7 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), An
 * Normaalia ylläpitoa.
 
 **OUTI**
-* Puppe on otettu Oulussa käyttöön vuoden 2024 loppuun alustavasti.
+* Puppe on alustavasti otettu Oulussa käyttöön vuoden 2024 loppuun.
 * Uuden version käyttöönottovalmisteluja tehty.
 * Normaalia ylläpitoa
 * Vaskista saatu raportti, jolla haetaan kannasta asiakkaan vahingossa poistamat varaukset. Raportin avulla voimme OUTIssa luopua käytännöstä, että etsimme lokilta varaukset ja tallennamme ne yksi kerrallaan asiakkaalle takaisin. Nyt voimme toimittaa listan poistetuista varauksista asiakkaalle ja hän voi halutessaan tallentaa ne itse verkkokirjastossa. Suurkiitos raportista!
