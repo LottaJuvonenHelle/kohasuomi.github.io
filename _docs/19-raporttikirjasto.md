@@ -1782,6 +1782,53 @@ WHERE i.holdingbranch = <<Valitse kirjasto|branches>>
 AND i.dateaccessioned > <<Hankittu tämän päivän jälkeen|date>>
 GROUP BY bi.itemtype, i.location
 ```
+
+### Lainatuimmat nimekkeet
+
+Lainatuimmat-raportilla voi hakea nimensä mukaisesti lainatuimpia nimekkeitä. Rajauksen voi tehdä kotikirjaston, hyllypaikan, aineistotyypin, luokan ja kielen mukaan. Voit rajata ulkopuolelle myös tietyt aineistotyypit, mutta tällöin kenttään pitää kirjoittaa aineistotyypin tunnus, esim. ALEHTI, yksi tunnus per rivi. Jos rajausta ei halua tehdä luokan tai kielen mukaan, pitää kenttiin laittaa %-merkki, jolloin haetaan kaikkia luokkia/kieliä. Jos kentät jättää tyhjäksi, ei saa tuloksia. Luokkahaussa voi hakea joko tismallista luokkaa, esim. 78.3413, tai luokan voi katkaista %-merkillä, esim. 78.34%.
+
+Raportti on melko hidas ja raskas, joten odota rauhassa tulosten valmistumista. Raporttia ei myöskään kannata ajaa useampaa kertaa yhtäaikaa.
+
+Lainamäärät haetaan niteiden lainat ja uusinnat -kentistä sekä aktiivisista niteistä että poistetuista niteistä. Luokka- ja kielitieto haetaan biblio_data_elements-taulusta, johon viedään tietueen pääasiallinen luokka/kielikoodi, ei kenttätoistumia.
+
+Tulokset on rajattu 500 nimekkeeseen.
+
+Tekijät: Katariina Pohto ja Anneli Österman
+Lisätty: 19.3.2024
+Toimii versioissa: 22.11 ja 23.11
+
+```
+ SELECT IFNULL(b.biblionumber, db.biblionumber) AS biblionumber,
+       IFNULL(b.author, db.author) AS 'Tekijä',
+       CASE WHEN b.biblionumber IS NULL
+       THEN CONCAT_WS(' ', db.title, db.subtitle, db.part_name, db.part_number)
+       ELSE CONCAT_WS(' ', b.title, b.subtitle, b.part_name, b.part_number)
+       END AS Nimeke,
+       bde.itemtype AS Ainestotyyppi,
+       bde.cn_class AS Luokka, bde.primary_language AS Kieli, d.Lainat
+  FROM (SELECT biblionumber, SUM(IFNULL(issues,0)+IFNULL(renewals,0)) AS Lainat
+          FROM items
+         WHERE issues != 0
+           AND homebranch LIKE <<Kotikirjasto|branches:all>>
+           AND location LIKE <<Hyllypaikka|LOC:all>>
+         GROUP BY biblionumber
+         UNION
+        SELECT biblionumber, SUM(IFNULL(issues,0)+IFNULL(renewals,0)) AS Lainat
+         FROM deleteditems
+         WHERE issues != 0
+           AND homebranch LIKE <<Kotikirjasto|branches:all>> 
+           AND location LIKE <<Hyllypaikka|LOC:all>>
+         GROUP BY biblionumber
+         ORDER BY 2 DESC) AS d
+       LEFT JOIN biblio b ON d.biblionumber = b.biblionumber
+       LEFT JOIN deletedbiblio db ON d.biblionumber = db.biblionumber
+       LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON d.biblionumber = bde.biblionumber
+ WHERE (bde.itemtype LIKE <<Aineistotyyppi|MTYPE:all>> AND bde.itemtype NOT IN (<<Rajaa ulos aineistotyyppejä, yksi tunnus per rivi (voi jättää tyhjäksi)|list>>) AND bde.cn_class LIKE <<Luokka ja/tai % (älä jätä tyhjäksi)>>
+ 		AND bde.primary_language LIKE <<Kielikoodi tai % kaikki (älä jätä tyhjäksi)>> )
+ LIMIT 500
+```
+
+
 ## Laskutus
 
 ### Laskutettavat niteet (OUTI)
