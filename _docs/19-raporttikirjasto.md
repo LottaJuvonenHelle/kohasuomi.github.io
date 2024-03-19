@@ -1804,7 +1804,7 @@ Toimii versioissa: 22.11 ja 23.11
        THEN CONCAT_WS(' ', db.title, db.subtitle, db.part_name, db.part_number)
        ELSE CONCAT_WS(' ', b.title, b.subtitle, b.part_name, b.part_number)
        END AS Nimeke,
-       bde.itemtype AS Ainestotyyppi,
+       bde.itemtype AS Aineistotyyppi,
        bde.cn_class AS Luokka, bde.primary_language AS Kieli, d.Lainat
   FROM (SELECT biblionumber, SUM(IFNULL(issues,0)+IFNULL(renewals,0)) AS Lainat
           FROM items
