@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 19.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski)
 
 **Yhteiset**
 * [Kori-toiminnosta nidetyyppi-sarakkeen piilotus](https://github.com/KohaSuomi/Koha/issues/411#issuecomment-1976349820)
@@ -23,6 +23,10 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti)
 * Uuden version ominaisuudesta kysyin, että voiko Varauksen teosta vahvistusviesti (EmailPatronWhenHoldIsPlaced) -toiminnon päälle laittaminen aiheuttaa mitään kuormaongelmaa sähköpostipalvelimella? - Ei kuulemma aiheuta.
 * Testasin Ennakkovaraukset-ominaisuutta. Ei oikein vaikuta vielä toimivalta. Tein ennakkovarauksen. Sen jälkeen lainasin toiselle asiakkaalle ongelmitta, vaikka meni ennakkovarauksen päälle. Toisella kertaa antoi lainata ennakkovarauksen alkuun asti. Siinäkin tapauksessa antoi kuitenkin uusia lainan huolimata ennakkovarauksesta.
 * Nextillä asiakkaan tiedoissa näkyy Reklamaatiot-välilehti. Tuotannossa ei näy. Johtuu ilmeisesti nextin BundleLostValue-asetuksesta, joka on päällä, koska nidepaketit ovat käytössä. Tuotannossa sama asetus on myös päällä, mutta silti reklamaatiot-välilehti ei näy. Asetuksen toiminta on siis muuttunut.
+
+**Vaski**
+* Mietitty pitäisikö Othernames-kentän kielikäännös muuttaa Muu nimi -> Kutsumanimi. Palaverissa todettiin, ettei ole tarpeen.
+* Kirjastojen atk-ihmisten kokoontumisajot Turussa 25.-26.4.2024. Vaskin pääkäyttäjille voi huikata, jos ei ole saanut kutsua ja haluaisi osallistua.
 
 ## Viikko 11
 
