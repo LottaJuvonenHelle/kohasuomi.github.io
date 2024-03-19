@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 19.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara)
 
 **Yhteiset**
 * [Kori-toiminnosta nidetyyppi-sarakkeen piilotus](https://github.com/KohaSuomi/Koha/issues/411#issuecomment-1976349820)
@@ -27,6 +27,10 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), An
 **Vaski**
 * Mietitty pitäisikö Othernames-kentän kielikäännös muuttaa Muu nimi -> Kutsumanimi. Palaverissa todettiin, ettei ole tarpeen.
 * Kirjastojen atk-ihmisten kokoontumisajot Turussa 25.-26.4.2024. Vaskin pääkäyttäjille voi huikata, jos ei ole saanut kutsua ja haluaisi osallistua.
+
+**Vaara**
+* Kysymys tarpeettomien aineistotyyppien poistosta tarkan haun näkymästä sai kielteisen vastauksen. Kehittäjien mielestä voi aiheutua ongelmaa, jos aineistotyyppejä poistaa auktorisoiduista arvoista. Harmi kun ei ole mitään muuta tapaa piilottaa tästä hakunäkymästä näitä tarpeettomia aineistotyyppejä.
+
 
 ## Viikko 11
 
