@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 19.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Noora Suvanto (Lappi)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Noora Suvanto (Lappi), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Kori-toiminnosta nidetyyppi-sarakkeen piilotus](https://github.com/KohaSuomi/Koha/issues/411#issuecomment-1976349820)
@@ -47,10 +47,14 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), An
 * Asiakkaiden viesteissä otettu käyttöön kirjastokortinnumeron osittainen piilotus.
 * Normaalia ylläpitoa.
 
+* **Helle**
+* Uudet varapääkäyttäjät Lotta Juvonen ja Vilgot Strömsholm ovat aloittaneet.
+* Uudessa versiossa on Niteiden erämuokkaus -toiminnossa uusina ominaisuuksina: Jätä pois paikallisten varausten jonosta JA Palauta niteet. Ehdotettu ominaisuuksien poistamista käytöstä (piilottamista). Palaverissa todettiin, että toteutukselle on tarve. Tiketti [#123](https://github.com/KohaSuomi/Koha-23x/issues/123)
+
 ## Viikko 11
 
 Aika: 11.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Kati Sillgren (Helle)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1115)
