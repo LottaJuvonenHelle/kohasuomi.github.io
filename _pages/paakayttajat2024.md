@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 12
 
 Aika: 19.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Noora Suvanto (Lappi), Kati Sillgren (Helle), Annika Helastila ja Elina Uotila (Kirkes)
+Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), Anni Rajala (Vaski), Päivi Knuutinen ja Auli Rantasalo (Vaara), Hanna Ikonen (Lumme), Piia Semenoff (OUTI), Reetta Pihlaja (Siilinjärvi), Noora Suvanto (Lappi), Kati Sillgren ja Lotta Juvonen (Helle), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Kori-toiminnosta nidetyyppi-sarakkeen piilotus](https://github.com/KohaSuomi/Koha/issues/411#issuecomment-1976349820)
