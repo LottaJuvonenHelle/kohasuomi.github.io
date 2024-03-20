@@ -53,6 +53,8 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), An
 
 **Kirkes**
 * Käyty läpi Nextin järjestelmäasetuksia.
+* Kirkes-johtoryhmä harkitsee noutamattomien varausten maksun poistamista lapsiasiakkailta, mutta päätöstä ei ole vielä tehty. Varaudutaan kuitenkin poistoajon käyttöönottoon.
+* Salasananvaihtoviestit laitettaneen päälle jollain aikataululla. 
 
 
 ## Viikko 11
