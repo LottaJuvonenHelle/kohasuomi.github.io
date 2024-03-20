@@ -2440,14 +2440,14 @@ GROUP BY items.location WITH ROLLUP
 Raportti listaa nimekkeet, joissa on valitulla kirjastolla nide/niteitä tilattu-tilassa (notforloan: -1). Lisäksi parametrinä määritetään, että niteen hankintapäivä on aikaisempi kuin valittu päivä. Raportista on erityisesti apua silloin, kun kyseessä on vanhasta järjestelmästä tuodut niteet, joille ei ole tilausta Kohassa.
 
 Lisääjä: Anneli Österman<br />
-Pvm: 9.4.2020
+Pvm: 9.4.2020 / Päivitetty 20.3.2024
 
 ```
 SELECT CONCAT(b.title, ', ', '<br/>', '<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b.biblionumber,'\">',b.biblionumber,'</a>') AS 'Teos', bi.itemtype AS 'Aineistolaji', b.biblionumber AS 'Teosnumero'
 FROM biblio b
 LEFT JOIN biblio_metadata bm USING (biblionumber)
 LEFT JOIN items i USING (biblionumber)
-LEFT biblioitems bi USING (biblionumber)
+LEFT JOIN biblioitems bi USING (biblionumber)
 WHERE ExtractValue(bm.metadata,'//datafield[@tag="773"]/subfield[@code="w"]') = ''
 AND i.notforloan='-1'
 AND i.homebranch= <<Valitse kotikirjasto|branches>>
